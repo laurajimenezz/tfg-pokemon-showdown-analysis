@@ -1,0 +1,256 @@
+|j|☆olaf-18
+|j|☆scrubtest98
+|t:|1760838238
+|gametype|singles
+|player|p1|olaf-18|102|1536
+|player|p2|scrubtest98|170|1604
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Armarouge, M|
+|poke|p1|Gholdengo|
+|poke|p1|Ursaluna, M|
+|poke|p1|Regidrago|
+|poke|p1|Whimsicott, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Heatran, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|t:|1760838252
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1760838257
+|move|p2a: Rillaboom|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-enditem|p1a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Rillaboom
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1760838267
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|turn|2
+|
+|t:|1760838269
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: olaf-18|move: Tailwind
+|
+|upkeep
+|turn|3
+|
+|t:|1760838280
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|move|p1a: Whimsicott|Fake Tears|p2a: Rillaboom
+|-unboost|p2a: Rillaboom|spd|2
+|
+|upkeep
+|turn|4
+|
+|t:|1760838288
+|switch|p1a: Armarouge|Armarouge, M|100/100
+|move|p2a: Rillaboom|U-turn|p1a: Armarouge
+|-damage|p1a: Armarouge|64/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|
+|t:|1760838291
+|switch|p2a: Heatran|Heatran, M|100/100|[from] U-turn
+|
+|-heal|p1a: Armarouge|70/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1760838297
+|move|p1a: Armarouge|Armor Cannon|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|move|p2a: Heatran|Earth Power|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|14/100
+|-enditem|p1a: Armarouge|Weakness Policy
+|-boost|p1a: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Armarouge|spa|2|[from] item: Weakness Policy
+|
+|-heal|p1a: Armarouge|21/100|[from] Grassy Terrain
+|-sideend|p1: olaf-18|move: Tailwind
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1760838302
+|move|p1a: Armarouge|Psyshock|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|64/100
+|move|p2a: Heatran|Stealth Rock|p1a: Armarouge
+|-sidestart|p1: olaf-18|move: Stealth Rock
+|
+|-heal|p2a: Heatran|71/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760838306
+|move|p1a: Armarouge|Psyshock|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|33/100
+|move|p2a: Heatran|Earth Power|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|-heal|p2a: Heatran|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760838310
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|-damage|p1a: Whimsicott|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1760838313
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: olaf-18|move: Tailwind
+|move|p2a: Heatran|Magma Storm|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|-heal|p2a: Heatran|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760838315
+|switch|p1a: Regidrago|Regidrago|100/100
+|-damage|p1a: Regidrago|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1760838325
+|move|p1a: Regidrago|Dragon Energy|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1760838333
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|10
+|
+|t:|1760838336
+|move|p2a: Rillaboom|Grassy Glide|p1a: Regidrago
+|-resisted|p1a: Regidrago
+|-damage|p1a: Regidrago|54/100
+|move|p1a: Regidrago|Dragon Energy|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Regidrago|60/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760838344
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|11
+|
+|t:|1760838348
+|move|p2a: Ogerpon|Grassy Glide|p1a: Regidrago
+|-resisted|p1a: Regidrago
+|-damage|p1a: Regidrago|34/100
+|move|p1a: Regidrago|Dragon Energy|p2a: Ogerpon
+|-damage|p2a: Ogerpon|41/100
+|
+|-heal|p1a: Regidrago|40/100|[from] Grassy Terrain
+|-heal|p2a: Ogerpon|48/100|[from] Grassy Terrain
+|-sideend|p1: olaf-18|move: Tailwind
+|upkeep
+|turn|12
+|
+|t:|1760838375
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Regidrago|[anim] Ivy Cudgel Water
+|-resisted|p1a: Regidrago
+|-damage|p1a: Regidrago|0 fnt
+|faint|p1a: Regidrago
+|
+|-heal|p2a: Ogerpon|54/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760838380
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p1a: Gholdengo|Air Balloon
+|turn|13
+|
+|t:|1760838385
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Gholdengo|[anim] Ivy Cudgel Water
+|-damage|p1a: Gholdengo|0 fnt
+|-enditem|p1a: Gholdengo|Air Balloon
+|faint|p1a: Gholdengo
+|
+|-heal|p2a: Ogerpon|60/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760838388
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1760838389
+|-terastallize|p1a: Ursaluna|Electric
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Ursaluna|[anim] Ivy Cudgel Water
+|-damage|p1a: Ursaluna|38/100
+|move|p1a: Ursaluna|Supercell Slam|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|-heal|p1a: Ursaluna|44/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1760838397
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|15
+|
+|t:|1760838400
+|move|p2a: Great Tusk|Headlong Rush|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Ursaluna
+|
+|win|scrubtest98
+|raw|olaf-18's rating: 1536 &rarr; <strong>1520</strong><br />(-16 for losing)
+|raw|scrubtest98's rating: 1604 &rarr; <strong>1620</strong><br />(+16 for winning)
+|l|☆olaf-18
+|player|p1|
+|l|☆scrubtest98
+|player|p2|

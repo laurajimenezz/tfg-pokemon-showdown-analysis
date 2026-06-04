@@ -1,0 +1,300 @@
+|j|☆WetWaterTypes
+|j|☆ArchStanton47
+|t:|1779599107
+|gametype|singles
+|player|p1|WetWaterTypes|265|1342
+|player|p2|ArchStanton47|ethan-pokeathlon|1342
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, M|
+|poke|p1|Moltres|
+|poke|p1|Pecharunt|
+|poke|p1|Corviknight, M|
+|poke|p1|Dondozo, F|
+|poke|p1|Ting-Lu|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Hitmonlee, M|
+|poke|p2|Hydrapple, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Kyurem|
+|teampreview
+|
+|t:|1779599114
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Weezing
+|turn|1
+|
+|t:|1779599130
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garganacl|atk|1
+|move|p1a: Garganacl|Stealth Rock|p2a: Landorus
+|-sidestart|p2: ArchStanton47|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1779599136
+|move|p2a: Landorus|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|20/100
+|move|p1a: Garganacl|Salt Cure|p2a: Landorus
+|-damage|p2a: Landorus|86/100
+|-start|p2a: Landorus|Salt Cure
+|
+|-damage|p2a: Landorus|74/100|[from] Salt Cure
+|upkeep
+|turn|3
+|
+|t:|1779599144
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Landorus|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-damage|p2a: Landorus|62/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1779599149
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|move|p1a: Corviknight|U-turn|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|86/100
+|
+|t:|1779599164
+|switch|p1a: Garganacl|Garganacl, M|20/100|[from] U-turn
+|
+|upkeep
+|turn|5
+|-enditem|p1a: Garganacl|Custap Berry|[eat]
+|-activate|p1a: Garganacl|item: Custap Berry|[consumed]
+|
+|t:|1779599175
+|move|p1a: Garganacl|Explosion|p2a: Weezing
+|-damage|p2a: Weezing|36/100
+|faint|p1a: Garganacl
+|move|p2a: Weezing|Defog|p1: Garganacl|[notarget]
+|-fail|p2a: Weezing
+|
+|upkeep
+|
+|t:|1779599186
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|turn|6
+|
+|t:|1779599192
+|move|p1a: Pecharunt|Gunk Shot|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|upkeep
+|
+|t:|1779599198
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|-damage|p2a: Hitmonlee|94/100|[from] Stealth Rock
+|-enditem|p2a: Hitmonlee|Misty Seed
+|-boost|p2a: Hitmonlee|spd|1|[from] item: Misty Seed
+|turn|7
+|
+|t:|1779599203
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Hitmonlee|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|69/100
+|-enditem|p1a: Corviknight|Choice Scarf|[from] move: Knock Off|[of] p2a: Hitmonlee
+|
+|upkeep
+|turn|8
+|
+|t:|1779599210
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1779599217
+|switch|p1a: Moltres|Moltres|100/100
+|turn|9
+|
+|t:|1779599222
+|move|p2a: Hitmonlee|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|60/100
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Hitmonlee
+|move|p1a: Moltres|Hurricane|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|upkeep
+|
+|t:|1779599233
+|switch|p2a: Landorus|Landorus-Therian, M|62/100
+|-damage|p2a: Landorus|50/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Moltres|atk|1
+|turn|10
+|
+|t:|1779599239
+|move|p2a: Landorus|Stone Edge|p1a: Moltres|[miss]
+|-miss|p2a: Landorus|p1a: Moltres
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|
+|upkeep
+|turn|11
+|
+|t:|1779599243
+|move|p1a: Moltres|Fire Blast|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1779599248
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1779599252
+|move|p1a: Moltres|Hurricane|p2a: Hatterene
+|-damage|p2a: Hatterene|45/100
+|-start|p2a: Hatterene|confusion
+|-enditem|p2a: Hatterene|Red Card|[of] p1a: Moltres
+|drag|p1a: Pecharunt|Pecharunt|100/100
+|-activate|p2a: Hatterene|confusion
+|-damage|p2a: Hatterene|37/100|[from] confusion
+|
+|upkeep
+|turn|13
+|
+|t:|1779599265
+|move|p1a: Pecharunt|Parting Shot|p2a: Hatterene
+|move|p2a: Hatterene|Parting Shot|p1a: Pecharunt|[from] ability: Magic Bounce
+|-unboost|p1a: Pecharunt|atk|1
+|-unboost|p1a: Pecharunt|spa|1
+|
+|t:|1779599276
+|switch|p2a: Hydrapple|Hydrapple, M|100/100|[from] Parting Shot
+|-damage|p2a: Hydrapple|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|t:|1779599285
+|switch|p1a: Moltres|Moltres|60/100
+|move|p2a: Hydrapple|Nasty Plot|p2a: Hydrapple
+|-boost|p2a: Hydrapple|spa|2
+|
+|upkeep
+|turn|15
+|
+|t:|1779599290
+|move|p1a: Moltres|Hurricane|p2a: Hydrapple|[miss]
+|-miss|p1a: Moltres|p2a: Hydrapple
+|move|p2a: Hydrapple|Draco Meteor|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|-unboost|p2a: Hydrapple|spa|2
+|faint|p1a: Moltres
+|-enditem|p2a: Hydrapple|Eject Pack
+|
+|t:|1779599302
+|switch|p2a: Hatterene|Hatterene, F|37/100
+|-damage|p2a: Hatterene|25/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1779599316
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|turn|16
+|
+|t:|1779599318
+|move|p1a: Dondozo|Wave Crash|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|-damage|p1a: Dondozo|96/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1779599325
+|switch|p2a: Hydrapple|Hydrapple, M|100/100
+|-damage|p2a: Hydrapple|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1779599329
+|move|p2a: Hydrapple|Leaf Storm|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|13/100
+|-unboost|p2a: Hydrapple|spa|2
+|move|p1a: Dondozo|Avalanche|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|upkeep
+|
+|t:|1779599336
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|18
+|
+|t:|1779599362
+|move|p2a: Kyurem|Scale Shot|p1a: Dondozo
+|-damage|p1a: Dondozo|4/100
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|-hitcount|p1: Dondozo|2
+|-unboost|p2a: Kyurem|def|1
+|-boost|p2a: Kyurem|spe|1
+|
+|upkeep
+|
+|t:|1779599367
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|19
+|
+|t:|1779599376
+|move|p2a: Kyurem|Icicle Spear|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|85/100
+|-enditem|p1a: Ting-Lu|Weakness Policy
+|-boost|p1a: Ting-Lu|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Ting-Lu|spa|2|[from] item: Weakness Policy
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|71/100
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|57/100
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|40/100
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|25/100
+|-hitcount|p1a: Ting-Lu|5
+|move|p1a: Ting-Lu|Payback|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|win|WetWaterTypes
+|raw|WetWaterTypes's rating: 1342 &rarr; <strong>1362</strong><br />(+20 for winning)
+|raw|ArchStanton47's rating: 1342 &rarr; <strong>1322</strong><br />(-20 for losing)
+|l|☆WetWaterTypes
+|player|p1|
+|l|☆ArchStanton47
+|player|p2|

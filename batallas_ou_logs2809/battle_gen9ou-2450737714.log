@@ -1,0 +1,489 @@
+|j|☆cannacruz
+|j|☆j0000000oi
+|t:|1759020138
+|gametype|singles
+|player|p1|cannacruz|hiker|1215
+|player|p2|j0000000oi|iris|1157
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clefable, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Garganacl, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Alomomola, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Vaporeon, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Alcremie-Rainbow-Swirl, F|
+|poke|p2|Gardevoir, F|
+|teampreview
+|
+|t:|1759020154
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|1
+|
+|t:|1759020167
+|move|p2a: Meowscarada|Knock Off|p1a: Toxapex
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Toxapex|73/100
+|-enditem|p1a: Toxapex|Leftovers|[from] move: Knock Off|[of] p2a: Meowscarada
+|move|p1a: Toxapex|Toxic|p2a: Meowscarada
+|-status|p2a: Meowscarada|tox
+|
+|-damage|p2a: Meowscarada|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1759020177
+|switch|p2a: Alcremie|Alcremie-Rainbow-Swirl, F|100/100
+|move|p1a: Toxapex|Protect||[still]
+|-fail|p1a: Toxapex
+|
+|upkeep
+|turn|3
+|
+|t:|1759020185
+|-terastallize|p2a: Alcremie|Steel
+|move|p2a: Alcremie|Acid Armor|p2a: Alcremie
+|-boost|p2a: Alcremie|def|2
+|move|p1a: Toxapex|Toxic|p2a: Alcremie
+|-immune|p2a: Alcremie
+|
+|upkeep
+|turn|4
+|
+|t:|1759020192
+|move|p2a: Alcremie|Acid Armor|p2a: Alcremie
+|-boost|p2a: Alcremie|def|2
+|move|p1a: Toxapex|Chilling Water|p2a: Alcremie
+|-damage|p2a: Alcremie|90/100
+|-unboost|p2a: Alcremie|atk|1
+|
+|-heal|p2a: Alcremie|96/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1759020201
+|move|p2a: Alcremie|Calm Mind|p2a: Alcremie
+|-boost|p2a: Alcremie|spa|1
+|-boost|p2a: Alcremie|spd|1
+|move|p1a: Toxapex|Chilling Water|p2a: Alcremie
+|-damage|p2a: Alcremie|91/100
+|-unboost|p2a: Alcremie|atk|1
+|
+|-heal|p2a: Alcremie|97/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1759020210
+|switch|p1a: Garganacl|Garganacl, M, shiny|100/100
+|move|p2a: Alcremie|Calm Mind|p2a: Alcremie
+|-boost|p2a: Alcremie|spa|1
+|-boost|p2a: Alcremie|spd|1
+|
+|-heal|p2a: Alcremie|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1759020218
+|move|p2a: Alcremie|Stored Power|p1a: Garganacl
+|-damage|p1a: Garganacl|34/100
+|move|p1a: Garganacl|Salt Cure|p2a: Alcremie
+|-resisted|p2a: Alcremie
+|-damage|p2a: Alcremie|98/100
+|-start|p2a: Alcremie|Salt Cure
+|
+|-heal|p2a: Alcremie|100/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|40/100|[from] item: Leftovers
+|-damage|p2a: Alcremie|76/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1759020228
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Alcremie|Draining Kiss|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p2a: Alcremie|82/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|47/100|[from] item: Leftovers
+|-damage|p2a: Alcremie|57/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1759020242
+|switch|p1a: Clefable|Clefable, F, shiny|100/100
+|move|p2a: Alcremie|Draining Kiss|p1a: Clefable
+|-damage|p1a: Clefable|63/100
+|-heal|p2a: Alcremie|91/100|[from] drain|[of] p1a: Clefable
+|
+|-heal|p2a: Alcremie|97/100|[from] item: Leftovers
+|-heal|p1a: Clefable|69/100|[from] item: Leftovers
+|-damage|p2a: Alcremie|72/100|[from] Salt Cure
+|upkeep
+|turn|10
+|
+|t:|1759020254
+|-terastallize|p1a: Clefable|Fire
+|move|p2a: Alcremie|Calm Mind|p2a: Alcremie
+|-boost|p2a: Alcremie|spa|1
+|-boost|p2a: Alcremie|spd|1
+|move|p1a: Clefable|Flamethrower|p2a: Alcremie
+|-supereffective|p2a: Alcremie
+|-damage|p2a: Alcremie|52/100
+|
+|-heal|p2a: Alcremie|58/100|[from] item: Leftovers
+|-heal|p1a: Clefable|75/100|[from] item: Leftovers
+|-damage|p2a: Alcremie|33/100|[from] Salt Cure
+|upkeep
+|turn|11
+|c|☆cannacruz|bruh
+|c|☆cannacruz|woah
+|
+|t:|1759020274
+|move|p2a: Alcremie|Stored Power|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-heal|p2a: Alcremie|39/100|[from] item: Leftovers
+|-damage|p2a: Alcremie|14/100|[from] Salt Cure
+|upkeep
+|c|☆j0000000oi|alcremie is bulky
+|c|☆j0000000oi|by 2 ways
+|
+|t:|1759020334
+|switch|p1a: Gliscor|Gliscor, M, shiny|100/100
+|turn|12
+|c|☆cannacruz|im bi too
+|c|☆cannacruz|both ways af
+|
+|t:|1759020359
+|move|p1a: Gliscor|Knock Off|p2a: Alcremie
+|-crit|p2a: Alcremie
+|-damage|p2a: Alcremie|0 fnt
+|-enditem|p2a: Alcremie|Leftovers|[from] move: Knock Off|[of] p1a: Gliscor
+|faint|p2a: Alcremie
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|
+|t:|1759020367
+|switch|p2a: Vaporeon|Vaporeon, F, shiny|100/100
+|turn|13
+|
+|t:|1759020393
+|move|p1a: Gliscor|Knock Off|p2a: Vaporeon
+|-damage|p2a: Vaporeon|77/100
+|-enditem|p2a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Vaporeon|Calm Mind|p2a: Vaporeon
+|-boost|p2a: Vaporeon|spa|1
+|-boost|p2a: Vaporeon|spd|1
+|
+|upkeep
+|turn|14
+|
+|t:|1759020417
+|move|p1a: Gliscor|Toxic|p2a: Vaporeon
+|-status|p2a: Vaporeon|tox
+|move|p2a: Vaporeon|Calm Mind|p2a: Vaporeon
+|-boost|p2a: Vaporeon|spa|1
+|-boost|p2a: Vaporeon|spd|1
+|
+|-damage|p2a: Vaporeon|71/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1759020453
+|move|p1a: Gliscor|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|36/100 tox
+|move|p2a: Vaporeon|Ice Beam|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-damage|p2a: Vaporeon|23/100 tox|[from] psn
+|upkeep
+|
+|t:|1759020464
+|switch|p1a: Garganacl|Garganacl, M, shiny|47/100
+|turn|16
+|
+|t:|1759020467
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Vaporeon|Scald|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|53/100|[from] item: Leftovers
+|-damage|p2a: Vaporeon|5/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1759020477
+|move|p2a: Vaporeon|Scald|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-damage|p2a: Vaporeon|0 fnt|[from] psn
+|faint|p2a: Vaporeon
+|upkeep
+|
+|t:|1759020488
+|switch|p2a: Gardevoir|Gardevoir, F, shiny|100/100
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|turn|18
+|c|☆cannacruz|ur kinda gaping my hole
+|c|☆cannacruz|ouch
+|
+|t:|1759020502
+|move|p2a: Gardevoir|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|29/100
+|move|p1a: Toxapex|Toxic|p2a: Gardevoir
+|-status|p2a: Gardevoir|tox
+|-activate|p2a: Gardevoir|ability: Synchronize
+|-immune|p1a: Toxapex
+|
+|-damage|p2a: Gardevoir|94/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1759020522
+|move|p1a: Toxapex|Protect|p1a: Toxapex
+|-singleturn|p1a: Toxapex|Protect
+|move|p2a: Gardevoir|Psychic|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Gardevoir|82/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1759020540
+|switch|p1a: Alomomola|Alomomola, F, shiny|100/100
+|move|p2a: Gardevoir|Psychic|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|20/100
+|
+|-heal|p1a: Alomomola|26/100|[from] item: Leftovers
+|-damage|p2a: Gardevoir|64/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1759020549
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Gardevoir|Psychic|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|32/100|[from] item: Leftovers
+|-damage|p2a: Gardevoir|39/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1759020558
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Gardevoir|Psychic|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|39/100|[from] item: Leftovers
+|-damage|p2a: Gardevoir|8/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1759020567
+|move|p1a: Alomomola|Protect||[still]
+|-fail|p1a: Alomomola
+|move|p2a: Gardevoir|Psychic|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|-damage|p2a: Gardevoir|0 fnt|[from] psn
+|faint|p2a: Gardevoir
+|upkeep
+|
+|t:|1759020594
+|switch|p2a: Meowscarada|Meowscarada, F|94/100 tox
+|switch|p1a: Toxapex|Toxapex, F|62/100
+|turn|24
+|
+|t:|1759020620
+|move|p1a: Toxapex|Protect|p1a: Toxapex
+|-singleturn|p1a: Toxapex|Protect
+|move|p2a: Meowscarada|Brick Break|p1a: Toxapex
+|-start|p2a: Meowscarada|typechange|Fighting|[from] ability: Protean
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Meowscarada|88/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1759020640
+|move|p1a: Toxapex|Protect||[still]
+|-fail|p1a: Toxapex
+|move|p2a: Meowscarada|Brick Break|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|51/100
+|
+|-damage|p2a: Meowscarada|76/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1759020659
+|move|p2a: Meowscarada|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|37/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|87/100
+|
+|-damage|p2a: Meowscarada|57/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1759020673
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Toxapex|Protect||[still]
+|-fail|p1a: Toxapex
+|
+|upkeep
+|turn|28
+|
+|t:|1759020680
+|move|p2a: Hydreigon|Flash Cannon|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|71/100
+|move|p1a: Toxapex|Toxic|p2a: Hydreigon
+|-status|p2a: Hydreigon|tox
+|
+|-damage|p2a: Hydreigon|94/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1759020691
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Toxapex|Protect||[still]
+|-fail|p1a: Toxapex
+|
+|upkeep
+|turn|30
+|
+|t:|1759020709
+|move|p2a: Cinderace|Swords Dance|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-boost|p2a: Cinderace|atk|2
+|move|p1a: Toxapex|Toxic|p2a: Cinderace
+|-status|p2a: Cinderace|tox
+|
+|-damage|p2a: Cinderace|95/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1759020719
+|move|p1a: Toxapex|Protect|p1a: Toxapex
+|-singleturn|p1a: Toxapex|Protect
+|move|p2a: Cinderace|Swords Dance|p2a: Cinderace
+|-boost|p2a: Cinderace|atk|2
+|
+|-damage|p2a: Cinderace|83/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1759020734
+|move|p2a: Cinderace|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|43/100
+|-damage|p2a: Cinderace|73/100 tox|[from] item: Life Orb
+|
+|t:|1759020738
+|switch|p2a: Hydreigon|Hydreigon, M|94/100 tox|[from] U-turn
+|move|p1a: Toxapex|Chilling Water|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|88/100 tox
+|-unboost|p2a: Hydreigon|atk|1
+|
+|-damage|p2a: Hydreigon|82/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1759020749
+|move|p1a: Toxapex|Protect|p1a: Toxapex
+|-singleturn|p1a: Toxapex|Protect
+|move|p2a: Hydreigon|Draco Meteor|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Hydreigon|70/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1759020771
+|move|p2a: Hydreigon|Draco Meteor|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Toxapex
+|
+|-damage|p2a: Hydreigon|51/100 tox|[from] psn
+|upkeep
+|
+|t:|1759020778
+|switch|p1a: Dragonite|Dragonite, F, shiny|100/100
+|turn|35
+|
+|t:|1759020783
+|switch|p2a: Cinderace|Cinderace, F|73/100 tox
+|move|p1a: Dragonite|Extreme Speed|p2a: Cinderace
+|-damage|p2a: Cinderace|7/100 tox
+|
+|-damage|p2a: Cinderace|1/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1759020797
+|move|p1a: Dragonite|Extreme Speed|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1759020808
+|switch|p2a: Meowscarada|Meowscarada, F|57/100 tox
+|turn|37
+|
+|t:|1759020811
+|move|p1a: Dragonite|Extreme Speed|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1759020816
+|switch|p2a: Hydreigon|Hydreigon, M|51/100 tox
+|turn|38
+|
+|t:|1759020820
+|move|p1a: Dragonite|Extreme Speed|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|win|cannacruz
+|raw|cannacruz's rating: 1215 &rarr; <strong>1236</strong><br />(+21 for winning)
+|raw|j0000000oi's rating: 1157 &rarr; <strong>1136</strong><br />(-21 for losing)
+|l|☆cannacruz
+|player|p1|
+|l|☆j0000000oi
+|player|p2|

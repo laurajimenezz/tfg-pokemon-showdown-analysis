@@ -1,0 +1,240 @@
+|j|☆beentheredonepat
+|j|☆hoihouh
+|t:|1758347572
+|gametype|singles
+|player|p1|beentheredonepat|ethan|1169
+|player|p2|hoihouh|1|1157
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Typhlosion, M|
+|poke|p1|Ninetales, M|
+|poke|p1|Shiftry, M|
+|poke|p1|Ursaluna, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, F|
+|poke|p2|Garganacl, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by beentheredonepat)
+|
+|t:|1758347593
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Nymph|Hatterene, F|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1758347598
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Nymph|Trick|p2a: Raging Bolt
+|-activate|p1a: Nymph|move: Trick|[of] p2a: Raging Bolt
+|-item|p2a: Raging Bolt|Choice Scarf|[from] move: Trick
+|-enditem|p1a: Nymph|Choice Scarf|[silent]|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|t:|1758347608
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Nymph
+|-damage|p1a: Nymph|0 fnt
+|faint|p1a: Nymph
+|
+|upkeep
+|
+|t:|1758347611
+|switch|p1a: Mama Bear|Ursaluna, F|100/100
+|turn|3
+|
+|t:|1758347616
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Mama Bear|Drain Punch|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-status|p1a: Mama Bear|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1758347629
+|move|p2a: Gholdengo|Trick|p1a: Mama Bear
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Mama Bear
+|-item|p1a: Mama Bear|Choice Specs|[from] move: Trick
+|-item|p2a: Gholdengo|Flame Orb|[from] move: Trick
+|move|p1a: Mama Bear|Headlong Rush|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-unboost|p1a: Mama Bear|def|1
+|-unboost|p1a: Mama Bear|spd|1
+|faint|p2a: Gholdengo
+|
+|-damage|p1a: Mama Bear|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1758347641
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|5
+|
+|t:|1758347644
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Mama Bear|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Mama Bear
+|-damage|p1a: Mama Bear|0 fnt
+|faint|p1a: Mama Bear
+|
+|upkeep
+|
+|t:|1758347648
+|switch|p1a: Tollomot|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Tollomot
+|turn|6
+|
+|t:|1758347654
+|move|p2a: Ogerpon|Knock Off|p1a: Tollomot
+|-crit|p1a: Tollomot
+|-damage|p1a: Tollomot|33/100
+|-enditem|p1a: Tollomot|Eject Pack|[from] move: Knock Off|[of] p2a: Ogerpon
+|move|p1a: Tollomot|Overheat|p2a: Ogerpon
+|-damage|p2a: Ogerpon|29/100
+|-unboost|p1a: Tollomot|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758347662
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Tollomot|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Tollomot
+|-damage|p1a: Tollomot|0 fnt
+|faint|p1a: Tollomot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758347664
+|switch|p1a: Charlie|Typhlosion, M|100/100
+|turn|8
+|
+|t:|1758347668
+|move|p1a: Charlie|Eruption|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758347671
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|9
+|
+|t:|1758347678
+|switch|p1a: Sol|Torkoal, M|100/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Sol
+|-supereffective|p1a: Sol
+|-damage|p1a: Sol|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758347683
+|move|p2a: Ting-Lu|Earthquake|p1a: Sol
+|-supereffective|p1a: Sol
+|-damage|p1a: Sol|0 fnt
+|faint|p1a: Sol
+|
+|-weather|none
+|upkeep
+|
+|t:|1758347685
+|switch|p1a: Shinobi|Shiftry, M|100/100
+|turn|11
+|
+|t:|1758347695
+|move|p1a: Shinobi|Solar Blade||[still]
+|-prepare|p1a: Shinobi|Solar Blade
+|move|p2a: Ting-Lu|Ruination|p1a: Shinobi
+|-damage|p1a: Shinobi|50/100
+|
+|upkeep
+|turn|12
+|
+|t:|1758347703
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Shinobi|Solar Blade|p2a: Kingambit|[from] lockedmove
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|72/100
+|
+|-heal|p2a: Kingambit|79/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1758347710
+|move|p1a: Shinobi|Swords Dance|p1a: Shinobi
+|-boost|p1a: Shinobi|atk|2
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|85/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1758347715
+|move|p1a: Shinobi|Rock Slide|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|63/100
+|cant|p2a: Kingambit|flinch
+|
+|-heal|p2a: Kingambit|69/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758347724
+|move|p1a: Shinobi|Lash Out|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|37/100
+|move|p2a: Kingambit|Iron Head|p1a: Shinobi
+|-damage|p1a: Shinobi|0 fnt
+|faint|p1a: Shinobi
+|
+|-heal|p2a: Kingambit|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758347728
+|switch|p1a: Charlie|Typhlosion, M|100/100
+|turn|16
+|
+|t:|1758347731
+|-terastallize|p1a: Charlie|Fire
+|move|p2a: Kingambit|Sucker Punch|p1a: Charlie
+|-damage|p1a: Charlie|0 fnt
+|faint|p1a: Charlie
+|
+|win|hoihouh
+|raw|beentheredonepat's rating: 1169 &rarr; <strong>1143</strong><br />(-26 for losing)
+|raw|hoihouh's rating: 1157 &rarr; <strong>1183</strong><br />(+26 for winning)
+|l|☆beentheredonepat
+|player|p1|
+|l|☆hoihouh
+|player|p2|

@@ -1,0 +1,268 @@
+|j|‽gilles&johne
+|j|☆aaron200589
+|t:|1760343507
+|gametype|singles
+|player|p1|gilles&johne|backers|1407
+|player|p2|aaron200589|giovanni|1321
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Raging Bolt|
+|poke|p1|Pelipper, M|
+|poke|p1|Great Tusk|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Iron Valiant|
+|poke|p2|Glastrier|
+|poke|p2|Ursaluna, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Crawdaunt, M|
+|teampreview
+|
+|t:|1760343524
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|t:|1760343533
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Great Tusk|Earthquake|p2a: Cresselia
+|-immune|p2a: Cresselia|[from] ability: Levitate
+|
+|upkeep
+|turn|2
+|
+|t:|1760343540
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Cresselia|Moonblast|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|95/100
+|-unboost|p1a: Slowking|spa|1
+|-enditem|p1a: Slowking|Eject Button
+|
+|t:|1760343547
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1760343555
+|move|p1a: Ogerpon|Knock Off|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|55/100
+|-enditem|p2a: Cresselia|Mental Herb|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|upkeep
+|turn|4
+|
+|t:|1760343570
+|move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
+|faint|p2a: Cresselia
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|
+|t:|1760343577
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|5
+|
+|t:|1760343585
+|move|p2a: Torkoal|Eruption|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760343608
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|6
+|
+|t:|1760343613
+|move|p2a: Torkoal|Eruption|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760343658
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|7
+|
+|t:|1760343665
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Pelipper|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|91/100
+|
+|t:|1760343669
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1760343676
+|move|p1a: Raging Bolt|Thunder|p2a: Slowking
+|-damage|p2a: Slowking|43/100
+|-enditem|p2a: Slowking|Sitrus Berry|[eat]
+|-heal|p2a: Slowking|68/100|[from] item: Sitrus Berry
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1760343687
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1760343692
+|switch|p2a: Ursaluna|Ursaluna, F|100/100|[from] Chilly Reception
+|move|p1a: Raging Bolt|Thunder|p2a: Ursaluna
+|-immune|p2a: Ursaluna
+|
+|-weather|Snowscape|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|t:|1760343702
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Ursaluna|Facade|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by aaron200589)
+|inactive|gilles&johne has 120 seconds left.
+|inactive|gilles&johne has 90 seconds left.
+|inactive|gilles&johne has 60 seconds left.
+|
+|t:|1760343862
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|turn|11
+|
+|t:|1760343867
+|move|p1a: Slowking|Ice Beam|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|56/100 brn
+|move|p2a: Ursaluna|Headlong Rush|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Slowking
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ursaluna|50/100 brn|[from] brn
+|upkeep
+|
+|t:|1760343872
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|12
+|inactive|gilles&johne has 120 seconds left.
+|
+|t:|1760343906
+|move|p2a: Ursaluna|Headlong Rush|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ursaluna|44/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760343908
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|13
+|
+|t:|1760343920
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-heal|p2a: Slowking|100/100|[from] move: Lunar Dance
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|inactive|gilles&johne has 120 seconds left.
+|
+|t:|1760343960
+|-terastallize|p1a: Iron Valiant|Fairy
+|move|p1a: Iron Valiant|Spirit Break|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|46/100
+|-unboost|p2a: Slowking|spa|1
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|t:|1760343977
+|move|p2a: Slowking|Sludge Bomb|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|15/100
+|move|p1a: Iron Valiant|Spirit Break|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1760343986
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|16
+|
+|t:|1760343993
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|win|aaron200589
+|raw|gilles&amp;johne's rating: 1407 &rarr; <strong>1382</strong><br />(-25 for losing)
+|raw|aaron200589's rating: 1321 &rarr; <strong>1346</strong><br />(+25 for winning)
+|l|‽gilles&johne
+|player|p1|
+|l|☆aaron200589
+|player|p2|

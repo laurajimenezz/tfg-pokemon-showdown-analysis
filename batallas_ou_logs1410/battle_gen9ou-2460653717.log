@@ -1,0 +1,322 @@
+|j|☆Segahay
+|j|☆pcklee
+|t:|1760339095
+|gametype|singles
+|player|p1|Segahay|2|1591
+|player|p2|pcklee|1|1648
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, F|
+|poke|p1|Hawlucha, F|
+|poke|p1|Feraligatr, F|
+|poke|p1|Slowbro-Galar, F|
+|poke|p1|Glimmora, F|
+|poke|p1|Mew|
+|poke|p2|Kingambit, M|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Heatran, M|
+|poke|p2|Rillaboom, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Segahay)
+|inactive|pcklee has 120 seconds left.
+|
+|t:|1760339141
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|t:|1760339148
+|move|p2a: Dragapult|Shadow Ball|p1a: Glimmora
+|-damage|p1a: Glimmora|50/100
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|-enditem|p1a: Glimmora|Power Herb
+|-anim|p1a: Glimmora|Meteor Beam|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|inactive|pcklee has 120 seconds left.
+|
+|t:|1760339182
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|2
+|
+|t:|1760339188
+|move|p2a: Iron Valiant|Aura Sphere|p1a: Glimmora
+|-damage|p1a: Glimmora|2/100
+|move|p1a: Glimmora|Energy Ball|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|6/100
+|-unboost|p2a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1760339200
+|move|p2a: Iron Valiant|Moonblast|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1760339205
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|4
+|
+|t:|1760339217
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Rillaboom|Fake Out|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|94/100
+|
+|-heal|p2a: Heatran|99/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|pcklee has 120 seconds left.
+|
+|t:|1760339240
+|move|p1a: Rillaboom|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|95/100
+|
+|t:|1760339244
+|switch|p1a: Feraligatr|Feraligatr, F|100/100|[from] U-turn
+|move|p2a: Heatran|Magma Storm|p1a: Feraligatr
+|-resisted|p1a: Feraligatr
+|-damage|p1a: Feraligatr|75/100
+|-activate|p1a: Feraligatr|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: Feraligatr|81/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|100/100|[from] Grassy Terrain
+|-damage|p1a: Feraligatr|68/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|6
+|inactive|pcklee has 120 seconds left.
+|
+|t:|1760339261
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|move|p1a: Feraligatr|Ice Punch|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|25/100
+|
+|-heal|p1a: Feraligatr|74/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|31/100|[from] Grassy Terrain
+|-end|p1a: Feraligatr|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|7
+|inactive|pcklee has 120 seconds left.
+|
+|t:|1760339274
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p1a: Hawlucha|Grassy Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Grassy Seed
+|move|p2a: Rillaboom|Grassy Glide|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-crit|p1a: Hawlucha
+|-damage|p1a: Hawlucha|35/100
+|
+|-heal|p2a: Rillaboom|37/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|inactive|pcklee has 120 seconds left.
+|inactive|pcklee has 90 seconds left.
+|
+|t:|1760339318
+|-terastallize|p2a: Rillaboom|Grass
+|move|p2a: Rillaboom|Grassy Glide|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-heal|p2a: Rillaboom|44/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1760339325
+|switch|p1a: Feraligatr|Feraligatr, F|74/100
+|turn|9
+|inactive|pcklee has 90 seconds left.
+|
+|t:|1760339352
+|switch|p2a: Iron Valiant|Iron Valiant|6/100
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1760339361
+|move|p1a: Feraligatr|Liquidation|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760339365
+|switch|p2a: Rillaboom|Rillaboom, M, tera:Grass|44/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|11
+|
+|t:|1760339369
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|55/100
+|
+|-heal|p2a: Rillaboom|50/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|61/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1760339381
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Rillaboom|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|95/100
+|
+|t:|1760339384
+|switch|p1a: Feraligatr|Feraligatr, F|74/100|[from] U-turn
+|
+|-heal|p1a: Feraligatr|80/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|100/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|j| Dor.Zf
+|
+|t:|1760339398
+|move|p1a: Feraligatr|Liquidation|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-heal|p1a: Feraligatr|86/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760339404
+|switch|p2a: Rillaboom|Rillaboom, M, tera:Grass|50/100
+|turn|14
+|
+|t:|1760339416
+|switch|p1a: Rillaboom|Rillaboom, F|61/100
+|move|p2a: Rillaboom|U-turn|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|t:|1760339429
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|
+|upkeep
+|
+|t:|1760339432
+|switch|p1a: Slowbro|Slowbro-Galar, F, shiny|100/100
+|turn|15
+|
+|t:|1760339440
+|move|p2a: Great Tusk|Headlong Rush|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Slowbro
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1760339444
+|switch|p1a: Feraligatr|Feraligatr, F|86/100
+|turn|16
+|inactive|pcklee has 120 seconds left.
+|
+|t:|1760339460
+|move|p2a: Great Tusk|Headlong Rush|p1a: Feraligatr
+|-crit|p1a: Feraligatr
+|-damage|p1a: Feraligatr|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Feraligatr
+|
+|upkeep
+|
+|t:|1760339462
+|switch|p1a: Mew|Mew|100/100
+|turn|17
+|j| Narwhale37
+|inactive|pcklee has 120 seconds left.
+|
+|t:|1760339468
+|move|p2a: Great Tusk|Headlong Rush|p1a: Mew
+|-damage|p1a: Mew|62/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Mew|Agility|p1a: Mew
+|-boost|p1a: Mew|spe|2
+|
+|upkeep
+|turn|18
+|l| Dor.Zf
+|inactive|pcklee has 120 seconds left.
+|
+|t:|1760339479
+|move|p1a: Mew|Draining Kiss|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-heal|p1a: Mew|100/100|[from] drain|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|inactive|pcklee has 120 seconds left.
+|
+|t:|1760339491
+|switch|p2a: Rillaboom|Rillaboom, M, tera:Grass|50/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|19
+|inactive|pcklee has 120 seconds left.
+|
+|t:|1760339496
+|-terastallize|p1a: Mew|Fairy
+|move|p1a: Mew|Draining Kiss|p2a: Rillaboom
+|-damage|p2a: Rillaboom|19/100
+|move|p2a: Rillaboom|Wood Hammer|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|-damage|p2a: Rillaboom|0 fnt|[from] Recoil
+|faint|p2a: Rillaboom
+|
+|win|pcklee
+|raw|Segahay's rating: 1591 &rarr; <strong>1574</strong><br />(-17 for losing)
+|raw|pcklee's rating: 1648 &rarr; <strong>1665</strong><br />(+17 for winning)
+|l|☆Segahay
+|player|p1|
+|l|☆pcklee
+|player|p2|
+|l| Narwhale37

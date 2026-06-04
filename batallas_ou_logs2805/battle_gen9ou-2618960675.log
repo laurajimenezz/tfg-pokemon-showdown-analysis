@@ -1,0 +1,360 @@
+|j|☆FritoGringo
+|j|☆doni547
+|t:|1779868195
+|gametype|singles
+|player|p1|FritoGringo|veteran|1017
+|player|p2|doni547|265|1024
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Scizor, F|
+|poke|p1|Flamigo, L1, F|
+|poke|p1|Tauros-Paldea-Aqua, M|
+|poke|p1|Hitmontop, L20, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Hitmonlee, L1, M|
+|poke|p2|Espeon, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Dondozo, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Metagross|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|
+|t:|1779868207
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Flamigo|Flamigo, L1, F, shiny|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|t:|1779868212
+|move|p2a: Hatterene|Nuzzle|p1a: Flamigo
+|-supereffective|p1a: Flamigo
+|-enditem|p1a: Flamigo|Focus Sash
+|-damage|p1a: Flamigo|9/100
+|-status|p1a: Flamigo|par
+|move|p1a: Flamigo|Endeavor|p2a: Hatterene
+|-damage|p2a: Hatterene|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779868249
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|switch|p1a: Scizor|Scizor, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779868259
+|move|p1a: Scizor|U-turn|p2a: Dondozo
+|-damage|p2a: Dondozo|78/100
+|
+|t:|1779868264
+|switch|p1a: Tauros|Tauros-Paldea-Aqua, M|100/100|[from] U-turn
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Dondozo|atk|1
+|move|p2a: Dondozo|Ice Fang|p1a: Tauros
+|-resisted|p1a: Tauros
+|-damage|p1a: Tauros|94/100
+|
+|-heal|p2a: Dondozo|84/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1779868277
+|switch|p1a: Flamigo|Flamigo, L1, F, shiny|9/100 par
+|move|p2a: Dondozo|Earthquake|p1a: Flamigo
+|-immune|p1a: Flamigo
+|
+|-heal|p2a: Dondozo|90/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1779868286
+|move|p2a: Dondozo|Ice Fang|p1a: Flamigo
+|-supereffective|p1a: Flamigo
+|-damage|p1a: Flamigo|0 fnt
+|faint|p1a: Flamigo
+|
+|-heal|p2a: Dondozo|96/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779868292
+|switch|p1a: Hitmontop|Hitmontop, L20, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Dondozo|atk|1
+|turn|6
+|
+|t:|1779868301
+|move|p1a: Hitmontop|Endeavor|p2a: Dondozo
+|-damage|p2a: Dondozo|12/100
+|move|p2a: Dondozo|Avalanche|p1a: Hitmontop
+|-enditem|p1a: Hitmontop|Focus Sash
+|-damage|p1a: Hitmontop|2/100
+|
+|-heal|p2a: Dondozo|18/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779868321
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdriveatk
+|
+|upkeep
+|turn|8
+|
+|t:|1779868335
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Hitmontop|Hitmontop, L20, M|2/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Ogerpon|atk|1
+|move|p2a: Ogerpon|Spiky Shield||[still]
+|-fail|p2a: Ogerpon
+|
+|upkeep
+|turn|9
+|
+|t:|1779868345
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Spiky Shield|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Protect
+|move|p1a: Hitmontop|Endeavor|p2a: Ogerpon
+|-activate|p2a: Ogerpon|move: Protect
+|-damage|p1a: Hitmontop|0 fnt|[from] Spiky Shield|[of] p2a: Ogerpon
+|faint|p1a: Hitmontop
+|
+|upkeep
+|
+|t:|1779868356
+|switch|p1a: Hitmonlee|Hitmonlee, L1, M, shiny|100/100
+|turn|10
+|
+|t:|1779868365
+|move|p2a: Ogerpon|Encore||[still]
+|-fail|p2a: Ogerpon
+|move|p1a: Hitmonlee|Endeavor|p2a: Ogerpon
+|-damage|p2a: Ogerpon|4/100
+|
+|upkeep
+|turn|11
+|
+|t:|1779868371
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Ogerpon|Encore||[still]
+|-fail|p2a: Ogerpon
+|
+|upkeep
+|turn|12
+|
+|t:|1779868382
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Scizor|Bullet Punch|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|81/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1779868390
+|move|p1a: Scizor|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|59/100
+|
+|t:|1779868393
+|switch|p1a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|move|p2a: Pelipper|Weather Ball|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779868401
+|switch|p1a: Tauros|Tauros-Paldea-Aqua, M|94/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Pelipper|atk|1
+|turn|14
+|
+|t:|1779868416
+|move|p1a: Tauros|Close Combat|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|29/100
+|-unboost|p1a: Tauros|def|1
+|-unboost|p1a: Tauros|spd|1
+|move|p2a: Pelipper|Acrobatics|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|53/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1779868432
+|switch|p2a: Metagross|Metagross|100/100
+|-item|p2a: Metagross|Air Balloon
+|-terastallize|p1a: Tauros|Fighting
+|move|p1a: Tauros|Close Combat|p2a: Metagross
+|-damage|p2a: Metagross|40/100
+|-unboost|p1a: Tauros|def|1
+|-unboost|p1a: Tauros|spd|1
+|-enditem|p2a: Metagross|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1779868446
+|move|p2a: Metagross|Bullet Punch|p1a: Tauros
+|-damage|p1a: Tauros|12/100
+|move|p1a: Tauros|Close Combat|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|-unboost|p1a: Tauros|def|1
+|-unboost|p1a: Tauros|spd|1
+|faint|p2a: Metagross
+|
+|-weather|none
+|upkeep
+|
+|t:|1779868454
+|switch|p2a: Pelipper|Pelipper, F|29/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|17
+|
+|t:|1779868458
+|move|p1a: Tauros|Close Combat|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-unboost|p1a: Tauros|def|1
+|-unboost|p1a: Tauros|spd|1
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779868462
+|switch|p2a: Espeon|Espeon, M, shiny|100/100
+|turn|18
+|
+|t:|1779868480
+|move|p2a: Espeon|Draining Kiss|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779868486
+|switch|p1a: Hitmonlee|Hitmonlee, L1, M, shiny|100/100
+|turn|19
+|
+|t:|1779868502
+|move|p2a: Espeon|Alluring Voice|p1a: Hitmonlee
+|-supereffective|p1a: Hitmonlee
+|-enditem|p1a: Hitmonlee|Focus Sash
+|-damage|p1a: Hitmonlee|9/100
+|move|p1a: Hitmonlee|Endeavor|p2a: Espeon
+|-damage|p2a: Espeon|1/100
+|-damage|p1a: Hitmonlee|0 fnt|[from] item: Rocky Helmet|[of] p2a: Espeon
+|faint|p1a: Hitmonlee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆FritoGringo|gg
+|
+|t:|1779868511
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|20
+|
+|t:|1779868518
+|move|p1a: Scizor|Bullet Punch|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|-damage|p1a: Scizor|84/100|[from] item: Rocky Helmet|[of] p2a: Espeon
+|faint|p2a: Espeon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779868530
+|switch|p2a: Hatterene|Hatterene, F|1/100
+|turn|21
+|
+|t:|1779868539
+|move|p1a: Scizor|Bullet Punch|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|none
+|upkeep
+|
+|t:|1779868545
+|switch|p2a: Dondozo|Dondozo, F|18/100
+|turn|22
+|
+|t:|1779868551
+|move|p1a: Scizor|Lunge|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|upkeep
+|
+|t:|1779868555
+|switch|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|4/100
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|turn|23
+|
+|t:|1779868559
+|move|p2a: Ogerpon|Spiky Shield|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Ogerpon
+|-activate|p2a: Ogerpon|move: Protect
+|-damage|p1a: Scizor|71/100|[from] Spiky Shield|[of] p2a: Ogerpon
+|
+|upkeep
+|turn|24
+|
+|t:|1779868569
+|move|p2a: Ogerpon|Spiky Shield|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Ogerpon
+|-activate|p2a: Ogerpon|move: Protect
+|-damage|p1a: Scizor|59/100|[from] Spiky Shield|[of] p2a: Ogerpon
+|
+|upkeep
+|turn|25
+|
+|t:|1779868581
+|move|p2a: Ogerpon|Spiky Shield||[still]
+|-fail|p2a: Ogerpon
+|move|p1a: Scizor|Bullet Punch|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|win|FritoGringo
+|raw|FritoGringo's rating: 1017 &rarr; <strong>1055</strong><br />(+38 for winning)
+|raw|doni547's rating: 1024 &rarr; <strong>1010</strong><br />(-14 for losing)

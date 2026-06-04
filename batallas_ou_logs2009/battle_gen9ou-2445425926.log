@@ -1,0 +1,284 @@
+|j|☆BZR Osiris
+|j|☆Schmilkus
+|t:|1758343586
+|gametype|singles
+|player|p1|BZR Osiris|red|1374
+|player|p2|Schmilkus|170|1423
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Treads|
+|poke|p1|Dragonite, M|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Valiant|
+|poke|p2|Garganacl, F|
+|poke|p2|Sableye, F|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Scizor, F|
+|poke|p2|Moltres|
+|poke|p2|Gholdengo|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Schmilkus)
+|
+|t:|1758343603
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Sunfyre|Iron Moth, shiny|100/100
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|-enditem|p1a: Sunfyre|Booster Energy
+|-activate|p1a: Sunfyre|ability: Quark Drive|[fromitem]
+|-start|p1a: Sunfyre|quarkdrivespa
+|turn|1
+|
+|t:|1758343615
+|-terastallize|p1a: Sunfyre|Flying
+|move|p1a: Sunfyre|Energy Ball|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|43/100
+|move|p2a: Garganacl|Salt Cure|p1a: Sunfyre
+|-supereffective|p1a: Sunfyre
+|-damage|p1a: Sunfyre|53/100
+|-start|p1a: Sunfyre|Salt Cure
+|
+|-heal|p2a: Garganacl|49/100|[from] item: Leftovers
+|-damage|p1a: Sunfyre|40/100|[from] Salt Cure
+|upkeep
+|turn|2
+|
+|t:|1758343630
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Sunfyre|Energy Ball|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|90/100
+|
+|-damage|p1a: Sunfyre|28/100|[from] Salt Cure
+|upkeep
+|turn|3
+|
+|t:|1758343641
+|-end|p1a: Sunfyre|Quark Drive|[silent]
+|switch|p1a: Rhaegar|Dragonite, M|100/100
+|move|p2a: Moltres|Flamethrower|p1a: Rhaegar
+|-resisted|p1a: Rhaegar
+|-damage|p1a: Rhaegar|92/100
+|
+|upkeep
+|turn|4
+|
+|t:|1758343652
+|move|p2a: Moltres|U-turn|p1a: Rhaegar
+|-resisted|p1a: Rhaegar
+|-damage|p1a: Rhaegar|83/100
+|
+|t:|1758343655
+|switch|p2a: Sableye|Sableye, F|100/100|[from] U-turn
+|move|p1a: Rhaegar|Dragon Dance|p1a: Rhaegar
+|-boost|p1a: Rhaegar|atk|1
+|-boost|p1a: Rhaegar|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1758343663
+|move|p2a: Sableye|Encore|p1a: Rhaegar
+|-start|p1a: Rhaegar|Encore
+|move|p1a: Rhaegar|Dragon Dance|p1a: Rhaegar
+|-boost|p1a: Rhaegar|atk|1
+|-boost|p1a: Rhaegar|spe|1
+|
+|upkeep
+|turn|6
+|
+|t:|1758343667
+|move|p2a: Sableye|Thunder Wave|p1a: Rhaegar
+|-status|p1a: Rhaegar|par
+|cant|p1a: Rhaegar|par
+|
+|upkeep
+|turn|7
+|
+|t:|1758343673
+|move|p1a: Rhaegar|Dragon Dance|p1a: Rhaegar
+|-boost|p1a: Rhaegar|atk|1
+|-boost|p1a: Rhaegar|spe|1
+|move|p2a: Sableye|Knock Off|p1a: Rhaegar
+|-damage|p1a: Rhaegar|54/100 par
+|-enditem|p1a: Rhaegar|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Sableye
+|
+|-end|p1a: Rhaegar|Encore
+|upkeep
+|turn|8
+|
+|t:|1758343684
+|move|p2a: Sableye|Encore|p1a: Rhaegar
+|-start|p1a: Rhaegar|Encore
+|move|p1a: Rhaegar|Dragon Dance|p1a: Rhaegar
+|-boost|p1a: Rhaegar|atk|1
+|-boost|p1a: Rhaegar|spe|1
+|
+|upkeep
+|turn|9
+|
+|t:|1758343689
+|switch|p1a: Nova|Iron Valiant, shiny|100/100
+|-enditem|p1a: Nova|Booster Energy
+|-activate|p1a: Nova|ability: Quark Drive|[fromitem]
+|-start|p1a: Nova|quarkdrivespe
+|move|p2a: Sableye|Disable||[still]
+|-fail|p2a: Sableye
+|
+|upkeep
+|turn|10
+|
+|t:|1758343696
+|move|p2a: Sableye|Thunder Wave|p1a: Nova
+|-status|p1a: Nova|par
+|move|p1a: Nova|Moonblast|p2a: Sableye
+|-supereffective|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|upkeep
+|
+|t:|1758343703
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|11
+|
+|t:|1758343710
+|move|p1a: Nova|Destiny Bond|p1a: Nova
+|-singlemove|p1a: Nova|Destiny Bond
+|move|p2a: Weezing|Strange Steam|p1a: Nova
+|-supereffective|p1a: Nova
+|-damage|p1a: Nova|0 fnt
+|faint|p1a: Nova
+|-activate|p1a: Nova|move: Destiny Bond
+|-end|p1a: Nova|Quark Drive|[silent]
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1758343724
+|switch|p1a: Midas|Gholdengo, shiny|100/100
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|12
+|
+|t:|1758343733
+|move|p1a: Midas|Focus Blast|p2a: Scizor
+|-damage|p2a: Scizor|38/100
+|move|p2a: Scizor|Knock Off|p1a: Midas
+|-supereffective|p1a: Midas
+|-crit|p1a: Midas
+|-damage|p1a: Midas|0 fnt
+|-enditem|p1a: Midas|Choice Scarf|[from] move: Knock Off|[of] p2a: Scizor
+|faint|p1a: Midas
+|
+|upkeep
+|
+|t:|1758343740
+|switch|p1a: Sunfyre|Iron Moth, shiny, tera:Flying|28/100
+|turn|13
+|
+|t:|1758343744
+|switch|p2a: Moltres|Moltres|90/100
+|move|p1a: Sunfyre|Fiery Dance|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|67/100
+|-boost|p1a: Sunfyre|spa|1
+|
+|upkeep
+|turn|14
+|
+|t:|1758343751
+|move|p1a: Sunfyre|Sludge Wave|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|upkeep
+|
+|t:|1758343753
+|switch|p2a: Scizor|Scizor, F|38/100
+|turn|15
+|
+|t:|1758343755
+|move|p2a: Scizor|Bullet Punch|p1a: Sunfyre
+|-damage|p1a: Sunfyre|0 fnt
+|faint|p1a: Sunfyre
+|-end|p1a: Sunfyre|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758343759
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|16
+|
+|t:|1758343769
+|switch|p2a: Garganacl|Garganacl, F|49/100
+|move|p1a: Iron Treads|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|upkeep
+|
+|t:|1758343771
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|17
+|
+|t:|1758343780
+|-terastallize|p2a: Gholdengo|Fighting
+|move|p1a: Iron Treads|Earthquake|p2a: Gholdengo
+|-damage|p2a: Gholdengo|46/100
+|move|p2a: Gholdengo|Tera Blast|p1a: Iron Treads|[anim] Tera Blast Fighting
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758343784
+|switch|p1a: Haku|Ogerpon-Wellspring, F|100/100
+|turn|18
+|
+|t:|1758343796
+|move|p2a: Gholdengo|Tera Blast|p1a: Haku|[anim] Tera Blast Fighting
+|-damage|p1a: Haku|52/100
+|move|p1a: Haku|Ivy Cudgel|p2a: Gholdengo|[anim] Ivy Cudgel Water
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1758343801
+|switch|p2a: Scizor|Scizor, F|38/100
+|turn|19
+|
+|t:|1758343805
+|move|p1a: Haku|Ivy Cudgel|p2a: Scizor|[anim] Ivy Cudgel Water
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|win|BZR Osiris
+|raw|BZR Osiris's rating: 1374 &rarr; <strong>1397</strong><br />(+23 for winning)
+|raw|Schmilkus's rating: 1423 &rarr; <strong>1400</strong><br />(-23 for losing)
+|l|☆Schmilkus
+|player|p2|
+|l|☆BZR Osiris
+|player|p1|

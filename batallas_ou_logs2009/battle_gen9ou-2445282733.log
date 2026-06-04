@@ -1,0 +1,200 @@
+|j|☆spreadcrosser
+|j|☆obezer
+|t:|1758323536
+|gametype|singles
+|player|p1|spreadcrosser|266|1349
+|player|p2|obezer|marshal|1324
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Iron Hands|
+|poke|p1|Ceruledge, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Milotic, M|
+|poke|p2|Kleavor, F|
+|poke|p2|Cramorant, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Sinistcha|
+|poke|p2|Dudunsparce-*, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by spreadcrosser)
+|c|☆spreadcrosser|I win
+|c|☆spreadcrosser|ez
+|
+|t:|1758323553
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1758323557
+|move|p2a: Kleavor|U-turn|p1a: Iron Hands
+|-resisted|p1a: Iron Hands
+|-damage|p1a: Iron Hands|85/100
+|
+|t:|1758323565
+|switch|p2a: Sinistcha|Sinistcha|100/100|[from] U-turn
+|move|p1a: Iron Hands|Swords Dance|p1a: Iron Hands
+|-boost|p1a: Iron Hands|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1758323572
+|move|p1a: Iron Hands|Ice Punch|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|upkeep
+|
+|t:|1758323600
+|switch|p2a: Cramorant|Cramorant, F|100/100
+|turn|3
+|
+|t:|1758323610
+|move|p2a: Cramorant|Surf|p1a: Iron Hands
+|-formechange|p2a: Cramorant|Cramorant-Gulping|
+|-damage|p1a: Iron Hands|59/100
+|move|p1a: Iron Hands|Supercell Slam|p2a: Cramorant
+|-supereffective|p2a: Cramorant
+|-damage|p2a: Cramorant|0 fnt
+|-damage|p1a: Iron Hands|34/100|[from] ability: Gulp Missile|[of] p2a: Cramorant
+|-unboost|p1a: Iron Hands|def|1
+|-formechange|p2a: Cramorant|Cramorant|
+|faint|p2a: Cramorant
+|
+|upkeep
+|
+|t:|1758323627
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|4
+|c|☆spreadcrosser|Sorry
+|
+|t:|1758323648
+|move|p2a: Kleavor|Close Combat|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|-unboost|p2a: Kleavor|def|1
+|-unboost|p2a: Kleavor|spd|1
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758323655
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|5
+|
+|t:|1758323663
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1758323671
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|68/100
+|move|p2a: Slowking|Ice Beam|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|77/100
+|-status|p1a: Raging Bolt|frz
+|
+|-heal|p1a: Raging Bolt|83/100 frz|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758323680
+|cant|p1a: Raging Bolt|frz
+|move|p2a: Slowking|Sludge Bomb|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|64/100 frz
+|
+|-heal|p1a: Raging Bolt|70/100 frz|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758323684
+|-curestatus|p1a: Raging Bolt|frz|[msg]
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|56/100
+|
+|-heal|p1a: Raging Bolt|62/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758323695
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|27/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|49/100
+|-status|p1a: Raging Bolt|psn
+|
+|-heal|p1a: Raging Bolt|55/100 psn|[from] item: Leftovers
+|-damage|p1a: Raging Bolt|43/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1758323718
+|switch|p2a: Dudunsparce|Dudunsparce, M|100/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|2/100
+|
+|-heal|p1a: Raging Bolt|49/100 psn|[from] item: Leftovers
+|-damage|p1a: Raging Bolt|36/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1758323724
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|0 fnt
+|faint|p2a: Dudunsparce
+|
+|-heal|p1a: Raging Bolt|43/100 psn|[from] item: Leftovers
+|-damage|p1a: Raging Bolt|30/100 psn|[from] psn
+|upkeep
+|
+|t:|1758323729
+|switch|p2a: Slowking|Slowking-Galar, M|60/100
+|turn|12
+|
+|t:|1758323740
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|15/100
+|-status|p2a: Slowking|par
+|cant|p2a: Slowking|par
+|
+|-heal|p1a: Raging Bolt|36/100 psn|[from] item: Leftovers
+|-damage|p1a: Raging Bolt|24/100 psn|[from] psn
+|upkeep
+|turn|13
+|-message|obezer forfeited.
+|
+|win|spreadcrosser
+|raw|spreadcrosser's rating: 1349 &rarr; <strong>1368</strong><br />(+19 for winning)
+|raw|obezer's rating: 1324 &rarr; <strong>1305</strong><br />(-19 for losing)
+|l|☆obezer
+|player|p2|
+|l|☆spreadcrosser
+|player|p1|

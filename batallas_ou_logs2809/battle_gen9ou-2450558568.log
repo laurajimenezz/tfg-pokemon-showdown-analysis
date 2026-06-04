@@ -1,0 +1,488 @@
+|j|☆p0k3m0n4l1f3
+|j|‽scribblenaut.io
+|t:|1758997865
+|gametype|singles
+|player|p1|p0k3m0n4l1f3|102|1086
+|player|p2|scribblenaut.io|170|1064
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garchomp, M|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Scizor, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Greninja-*, F|
+|poke|p2|Munkidori, M|
+|poke|p2|Iron Hands|
+|poke|p2|Gholdengo|
+|poke|p2|Alomomola, F|
+|poke|p2|Sableye, M|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1758997874
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-ability|p1a: Deoxys|Pressure
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1758997884
+|move|p2a: Iron Hands|Detect|p2a: Iron Hands
+|-singleturn|p2a: Iron Hands|Protect
+|move|p1a: Deoxys|Calm Mind|p1a: Deoxys
+|-boost|p1a: Deoxys|spa|1
+|-boost|p1a: Deoxys|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1758997890
+|-terastallize|p2a: Iron Hands|Fairy
+|move|p1a: Deoxys|Expanding Force|p2a: Iron Hands
+|-damage|p2a: Iron Hands|47/100
+|move|p2a: Iron Hands|Play Rough|p1a: Deoxys|[miss]
+|-miss|p2a: Iron Hands|p1a: Deoxys
+|
+|upkeep
+|turn|3
+|
+|t:|1758997898
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Sableye|Sableye, M|100/100
+|move|p1a: Deoxys|Expanding Force|p2a: Sableye
+|-immune|p2a: Sableye
+|
+|upkeep
+|turn|4
+|
+|t:|1758997907
+|switch|p1a: Greninja|Greninja, F|100/100
+|move|p2a: Sableye|Trick|p1a: Greninja
+|-activate|p2a: Sableye|move: Trick|[of] p1a: Greninja
+|-item|p1a: Greninja|Iron Ball|[from] move: Trick
+|-item|p2a: Sableye|Choice Specs|[from] move: Trick
+|
+|upkeep
+|turn|5
+|
+|t:|1758997917
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-terastallize|p1a: Greninja|Normal
+|move|p1a: Greninja|Shadow Ball|p2a: Alomomola
+|-damage|p2a: Alomomola|45/100
+|
+|upkeep
+|turn|6
+|
+|t:|1758997928
+|move|p2a: Alomomola|Flip Turn|p1a: Greninja
+|-damage|p1a: Greninja|67/100
+|replace|p1a: Zoroark|Zoroark-Hisui, M, shiny
+|-end|p1a: Zoroark|Illusion
+|
+|t:|1758997932
+|switch|p2a: Sableye|Sableye, M|100/100|[from] Flip Turn
+|move|p1a: Zoroark|Hyper Voice|p2a: Sableye
+|-immune|p2a: Sableye
+|
+|upkeep
+|turn|7
+|
+|t:|1758997939
+|move|p2a: Sableye|Thunder Wave|p1a: Zoroark|[miss]
+|-miss|p2a: Sableye|p1a: Zoroark
+|move|p1a: Zoroark|Shadow Ball|p2a: Sableye
+|-damage|p2a: Sableye|29/100
+|
+|upkeep
+|turn|8
+|
+|t:|1758997945
+|move|p2a: Sableye|Thunder Wave|p1a: Zoroark
+|-status|p1a: Zoroark|par
+|cant|p1a: Zoroark|par
+|
+|upkeep
+|turn|9
+|
+|t:|1758997950
+|switch|p2a: Alomomola|Alomomola, F|78/100
+|move|p1a: Zoroark|Shadow Ball|p2a: Alomomola
+|-damage|p2a: Alomomola|23/100
+|
+|upkeep
+|turn|10
+|
+|t:|1758997955
+|move|p2a: Alomomola|Flip Turn|p1a: Zoroark
+|-damage|p1a: Zoroark|30/100 par
+|
+|t:|1758997959
+|switch|p2a: Iron Hands|Iron Hands, tera:Fairy|47/100|[from] Flip Turn
+|move|p1a: Zoroark|Shadow Ball|p2a: Iron Hands
+|-damage|p2a: Iron Hands|5/100
+|-unboost|p2a: Iron Hands|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1758997967
+|move|p2a: Iron Hands|Drain Punch|p1a: Zoroark
+|-supereffective|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|-heal|p2a: Iron Hands|12/100|[from] drain|[of] p1a: Zoroark
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|t:|1758997974
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|12
+|
+|t:|1758997979
+|move|p1a: Deoxys|Expanding Force|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758997981
+|switch|p2a: Sableye|Sableye, M|29/100
+|turn|13
+|
+|t:|1758997987
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdriveatk
+|move|p2a: Sableye|Trick|p1a: Iron Valiant
+|-activate|p2a: Sableye|move: Trick|[of] p1a: Iron Valiant
+|-item|p1a: Iron Valiant|Choice Specs|[from] move: Trick
+|-enditem|p2a: Sableye|Choice Specs|[silent]|[from] move: Trick
+|
+|upkeep
+|turn|14
+|
+|t:|1758997996
+|move|p2a: Sableye|Thunder Wave|p1a: Iron Valiant
+|-status|p1a: Iron Valiant|par
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|
+|upkeep
+|turn|15
+|
+|t:|1758998006
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Sableye|Metronome|p2a: Sableye
+|move|p2a: Sableye|Magic Powder|p1a: Garchomp|[from] move: Metronome
+|-start|p1a: Garchomp|typechange|Psychic
+|
+|upkeep
+|turn|16
+|
+|t:|1758998015
+|move|p2a: Sableye|Thunder Wave|p1a: Garchomp
+|-status|p1a: Garchomp|par
+|cant|p1a: Garchomp|par
+|
+|upkeep
+|turn|17
+|
+|t:|1758998020
+|cant|p1a: Garchomp|par
+|move|p2a: Sableye|Foul Play|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Sableye|17/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Sableye|0 fnt|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|faint|p2a: Sableye
+|
+|upkeep
+|
+|t:|1758998030
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Munkidori|Munkidori, M|100/100
+|-ability|p1a: Deoxys|Pressure
+|-item|p2a: Munkidori|Air Balloon
+|turn|18
+|
+|t:|1758998037
+|move|p1a: Deoxys|Calm Mind|p1a: Deoxys
+|-boost|p1a: Deoxys|spa|1
+|-boost|p1a: Deoxys|spd|1
+|move|p2a: Munkidori|Parting Shot|p1a: Deoxys
+|-unboost|p1a: Deoxys|atk|1
+|-unboost|p1a: Deoxys|spa|1
+|
+|t:|1758998041
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|19
+|
+|t:|1758998046
+|move|p1a: Deoxys|Psycho Boost|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|66/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|20
+|
+|t:|1758998055
+|switch|p1a: Scizor|Scizor, M, shiny|100/100
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|upkeep
+|turn|21
+|
+|t:|1758998062
+|move|p1a: Scizor|Bullet Punch|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1758998066
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|22
+|
+|t:|1758998070
+|move|p2a: Gholdengo|Shadow Ball|p1a: Scizor
+|-damage|p1a: Scizor|35/100
+|move|p1a: Scizor|Acrobatics|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|80/100
+|
+|-heal|p2a: Gholdengo|86/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1758998080
+|move|p2a: Gholdengo|Shadow Ball|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-heal|p2a: Gholdengo|92/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758998094
+|switch|p1a: Greninja|Greninja, F|100/100
+|turn|24
+|
+|t:|1758998099
+|move|p1a: Greninja|Night Slash|p2a: Gholdengo
+|-start|p1a: Greninja|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|7/100
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|move|p2a: Gholdengo|Make It Rain|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Greninja
+|
+|-heal|p2a: Gholdengo|13/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758998113
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100 par
+|turn|25
+|
+|t:|1758998117
+|switch|p2a: Alomomola|Alomomola, F|57/100
+|move|p1a: Iron Valiant|Spirit Break|p2a: Alomomola
+|-damage|p2a: Alomomola|33/100
+|-unboost|p2a: Alomomola|spa|1
+|-damage|p1a: Iron Valiant|84/100 par|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|
+|upkeep
+|turn|26
+|
+|t:|1758998125
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|cant|p1a: Iron Valiant|par
+|
+|upkeep
+|turn|27
+|
+|t:|1758998128
+|move|p2a: Alomomola|Flip Turn|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|62/100 par
+|
+|t:|1758998130
+|switch|p2a: Gholdengo|Gholdengo|13/100|[from] Flip Turn
+|move|p1a: Iron Valiant|Spirit Break|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1758998132
+|switch|p2a: Alomomola|Alomomola, F|67/100
+|turn|28
+|
+|t:|1758998142
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Iron Valiant|Spirit Break|p2a: Alomomola
+|-damage|p2a: Alomomola|43/100
+|-unboost|p2a: Alomomola|spa|1
+|-damage|p1a: Iron Valiant|45/100 par|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|
+|upkeep
+|turn|29
+|
+|t:|1758998148
+|switch|p2a: Munkidori|Munkidori, M|100/100
+|-item|p2a: Munkidori|Air Balloon
+|move|p1a: Iron Valiant|Spirit Break|p2a: Munkidori
+|-resisted|p2a: Munkidori
+|-damage|p2a: Munkidori|66/100
+|-unboost|p2a: Munkidori|spa|1
+|-enditem|p2a: Munkidori|Air Balloon
+|
+|-heal|p2a: Munkidori|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|30
+|
+|t:|1758998159
+|move|p2a: Munkidori|Sludge Wave|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758998164
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|31
+|
+|t:|1758998168
+|move|p1a: Deoxys|Psycho Boost|p2a: Munkidori
+|-damage|p2a: Munkidori|16/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Munkidori|Parting Shot|p1a: Deoxys
+|-unboost|p1a: Deoxys|atk|1
+|-unboost|p1a: Deoxys|spa|1
+|
+|t:|1758998171
+|switch|p2a: Alomomola|Alomomola, F|76/100|[from] Parting Shot
+|
+|upkeep
+|turn|32
+|
+|t:|1758998178
+|move|p1a: Deoxys|Expanding Force|p2a: Alomomola
+|-damage|p2a: Alomomola|57/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|33
+|
+|t:|1758998182
+|move|p2a: Alomomola|Aqua Jet|p1a: Deoxys
+|-damage|p1a: Deoxys|84/100
+|move|p1a: Deoxys|Psycho Boost|p2a: Alomomola
+|-damage|p2a: Alomomola|25/100
+|-unboost|p1a: Deoxys|spa|2
+|
+|-heal|p2a: Alomomola|75/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|34
+|
+|t:|1758998192
+|move|p2a: Alomomola|Aqua Jet|p1a: Deoxys
+|-damage|p1a: Deoxys|66/100
+|move|p1a: Deoxys|Calm Mind|p1a: Deoxys
+|-boost|p1a: Deoxys|spa|1
+|-boost|p1a: Deoxys|spd|1
+|
+|upkeep
+|turn|35
+|
+|t:|1758998200
+|move|p1a: Deoxys|Expanding Force|p2a: Alomomola
+|-damage|p2a: Alomomola|57/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|36
+|
+|t:|1758998205
+|move|p1a: Deoxys|Calm Mind|p1a: Deoxys
+|-boost|p1a: Deoxys|spa|1
+|-boost|p1a: Deoxys|spd|1
+|move|p2a: Alomomola|Flip Turn|p1a: Deoxys
+|-damage|p1a: Deoxys|40/100
+|
+|t:|1758998207
+|switch|p2a: Munkidori|Munkidori, M|16/100|[from] Flip Turn
+|
+|-heal|p2a: Munkidori|99/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|37
+|
+|t:|1758998214
+|move|p1a: Deoxys|Psycho Boost|p2a: Munkidori
+|-damage|p2a: Munkidori|69/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Munkidori|Nasty Plot|p2a: Munkidori
+|-boost|p2a: Munkidori|spa|2
+|
+|upkeep
+|turn|38
+|
+|t:|1758998221
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|90/100
+|move|p2a: Munkidori|Sludge Wave|p1a: Deoxys
+|-damage|p1a: Deoxys|9/100
+|-status|p1a: Deoxys|tox|[from] ability: Toxic Chain|[of] p2a: Munkidori
+|
+|-damage|p1a: Deoxys|3/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1758998229
+|move|p1a: Deoxys|Expanding Force|p2a: Munkidori
+|-damage|p2a: Munkidori|56/100
+|move|p2a: Munkidori|Sludge Wave|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|win|scribblenaut.io
+|raw|p0k3m0n4l1f3's rating: 1086 &rarr; <strong>1062</strong><br />(-24 for losing)
+|raw|scribblenaut.io's rating: 1064 &rarr; <strong>1096</strong><br />(+32 for winning)
+|l|‽scribblenaut.io
+|player|p2|
+|l|☆p0k3m0n4l1f3
+|player|p1|

@@ -1,0 +1,182 @@
+|j|☆TechBuster
+|j|☆serial 01216
+|t:|1779909108
+|gametype|singles
+|player|p1|TechBuster|266|1587
+|player|p2|serial 01216|265|1537
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Regieleki|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Zapdos|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Garchomp, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Zapdos|
+|poke|p2|Ceruledge, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1779909123
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by serial 01216)
+|
+|t:|1779909133
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|move|p1a: Slowking|Future Sight|p2a: Hatterene
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|2
+|
+|t:|1779909137
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|move|p1a: Slowking|Sludge Bomb|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|58/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779909143
+|move|p2a: Hatterene|Mystical Fire|p1a: Slowking
+|-damage|p1a: Slowking|73/100
+|-unboost|p1a: Slowking|spa|1
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779909145
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Hatterene|move: Future Sight
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|45/100
+|upkeep
+|turn|4
+|
+|t:|1779909156
+|-terastallize|p2a: Hatterene|Water
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Hatterene|[anim] Ivy Cudgel Water
+|-resisted|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|2/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Ogerpon
+|-damage|p1a: Ogerpon|45/100
+|-heal|p2a: Hatterene|47/100|[from] drain|[of] p1a: Ogerpon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779909170
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Ogerpon|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|86/100
+|
+|t:|1779909182
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779909186
+|move|p2a: Zapdos|Thunder Wave|p1a: Slowking|[miss]
+|-miss|p2a: Zapdos|p1a: Slowking
+|move|p1a: Slowking|Future Sight|p2a: Zapdos
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779909191
+|move|p2a: Zapdos|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|81/100
+|
+|t:|1779909204
+|switch|p2a: Hatterene|Hatterene, F, tera:Water|47/100|[from] Volt Switch
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|
+|t:|1779909207
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|45/100|[from] Chilly Reception
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1779909213
+|switch|p2a: Zapdos|Zapdos|86/100
+|move|p1a: Ogerpon|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|71/100
+|-status|p1a: Ogerpon|par|[from] ability: Static|[of] p2a: Zapdos
+|
+|t:|1779909217
+|switch|p1a: Electrode Sr.|Regieleki|100/100|[from] U-turn
+|
+|-end|p2a: Zapdos|move: Future Sight
+|-damage|p2a: Zapdos|28/100
+|upkeep
+|turn|9
+|
+|t:|1779909224
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|45/100 par
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|79/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|upkeep
+|turn|10
+|
+|t:|1779909229
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Garchomp
+|-damage|p1a: Garchomp|55/100
+|
+|upkeep
+|turn|11
+|
+|t:|1779909238
+|move|p2a: Zapdos|Hurricane|p1a: Garchomp
+|-damage|p1a: Garchomp|10/100
+|move|p1a: Garchomp|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|upkeep
+|turn|12
+|-message|TechBuster forfeited.
+|
+|win|serial 01216
+|raw|TechBuster's rating: 1587 &rarr; <strong>1564</strong><br />(-23 for losing)
+|raw|serial 01216's rating: 1537 &rarr; <strong>1560</strong><br />(+23 for winning)
+|l|☆TechBuster
+|player|p1|
+|l|☆serial 01216
+|player|p2|

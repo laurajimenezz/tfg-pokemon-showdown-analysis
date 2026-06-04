@@ -1,0 +1,274 @@
+|j|☆Yelo_Galaxy
+|j|☆sminey
+|t:|1758950010
+|gametype|singles
+|player|p1|Yelo_Galaxy|1|1645
+|player|p2|sminey|2|1686
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Slither Wing|
+|poke|p1|Venusaur, F|
+|poke|p1|Walking Wake|
+|poke|p2|Latios, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Weavile, M|
+|poke|p2|Zapdos|
+|poke|p2|Clefable, M|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|
+|t:|1758950017
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1758950026
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-item|p1a: Hatterene|Air Balloon
+|move|p2a: Latios|Draco Meteor|p1a: Hatterene
+|-immune|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758950031
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758950035
+|move|p1a: Slither Wing|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|81/100
+|
+|t:|1758950040
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Zapdos|Hurricane|p1a: Raging Bolt|[miss]
+|-miss|p2a: Zapdos|p1a: Raging Bolt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758950046
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Raging Bolt|Weather Ball|p2a: Slowking
+|-damage|p2a: Slowking|60/100
+|-damage|p1a: Raging Bolt|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758950054
+|move|p1a: Raging Bolt|Weather Ball|p2a: Slowking
+|-damage|p2a: Slowking|19/100
+|-damage|p1a: Raging Bolt|81/100|[from] item: Life Orb
+|move|p2a: Slowking|Ice Beam|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|31/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758950062
+|move|p1a: Raging Bolt|Weather Ball|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-damage|p1a: Raging Bolt|21/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758950076
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|7
+|
+|t:|1758950080
+|move|p2a: Cinderace|Sucker Punch|p1a: Raging Bolt
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758950083
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|turn|8
+|
+|t:|1758950087
+|switch|p2a: Zapdos|Zapdos|81/100
+|move|p1a: Slither Wing|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|60/100
+|-status|p1a: Slither Wing|par|[from] ability: Static|[of] p2a: Zapdos
+|
+|t:|1758950092
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1758950100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1758950117
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|10
+|
+|t:|1758950119
+|move|p1a: Walking Wake|Flip Turn|p2a: Clefable
+|-damage|p2a: Clefable|89/100
+|
+|t:|1758950121
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|100/100|[from] Flip Turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758950123
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Torkoal|Stealth Rock|p2a: Clefable
+|-sidestart|p2: sminey|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1758950127
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Torkoal|Eruption|p2a: Clefable
+|-damage|p2a: Clefable|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1758950134
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|move|p1a: Torkoal|Eruption|p2a: Clefable
+|-damage|p2a: Clefable|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1758950140
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Torkoal|Eruption|p2a: Clefable
+|-damage|p2a: Clefable|32/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1758950145
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|99/100
+|move|p1a: Torkoal|Eruption|p2a: Clefable
+|-damage|p2a: Clefable|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1758950162
+|switch|p1a: Slither Wing|Slither Wing|100/100 par
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|move|p2a: Clefable|Moonblast|p1a: Slither Wing
+|-supereffective|p1a: Slither Wing
+|-damage|p1a: Slither Wing|0 fnt
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆Yelo_Galaxy|Nooo not the sun
+|
+|t:|1758950173
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|turn|17
+|
+|t:|1758950175
+|move|p2a: Clefable|Moonblast|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|47/100
+|move|p1a: Torkoal|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|57/100
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|t:|1758950182
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|move|p1a: Torkoal|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|84/100
+|
+|upkeep
+|turn|19
+|-message|Yelo_Galaxy forfeited.
+|
+|win|sminey
+|raw|Yelo_Galaxy's rating: 1645 &rarr; <strong>1627</strong><br />(-18 for losing)
+|raw|sminey's rating: 1686 &rarr; <strong>1704</strong><br />(+18 for winning)
+|l|☆Yelo_Galaxy
+|player|p1|
+|l|☆sminey
+|player|p2|

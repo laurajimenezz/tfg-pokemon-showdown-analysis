@@ -1,0 +1,274 @@
+|j|☆SlimyTime
+|j|‽p$ychopath
+|t:|1779638717
+|gametype|singles
+|player|p1|SlimyTime|ltsurge|1678
+|player|p2|p$ychopath|psychic-lgpe|1715
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Darkrai|
+|poke|p1|Iron Crown|
+|poke|p1|Iron Treads|
+|poke|p1|Oricorio-Pom-Pom, F|
+|poke|p2|Iron Boulder|
+|poke|p2|Iron Valiant|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Moth|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by p$ychopath)
+|
+|t:|1779638734
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Darkrai|Darkrai|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Darkrai|atk|1
+|turn|1
+|j| Disscratch
+|
+|t:|1779638740
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|move|p1a: Darkrai|Dark Pulse|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|24/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779638749
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespe
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|76/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779638754
+|move|p2a: Iron Boulder|Taunt|p1a: Iron Crown
+|-start|p1a: Iron Crown|move: Taunt
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|-hitcount|p2: Iron Boulder|1
+|
+|upkeep
+|j| FaronAan
+|
+|t:|1779638760
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Crown|atk|1
+|turn|4
+|
+|t:|1779638762
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Landorus
+|-damage|p2a: Landorus|68/100
+|-damage|p2a: Landorus|39/100
+|-hitcount|p2a: Landorus|2
+|move|p2a: Landorus|Earthquake|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779638765
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|5
+|
+|t:|1779638768
+|move|p1a: Darkrai|Dark Pulse|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1779638772
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|6
+|
+|t:|1779638777
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Iron Valiant|Moonblast|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|66/100
+|
+|upkeep
+|turn|7
+|
+|t:|1779638782
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Iron Valiant|Close Combat|p1a: Zamazenta
+|-damage|p1a: Zamazenta|77/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1779638786
+|move|p2a: Iron Valiant|Moonblast|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|3/100
+|move|p1a: Zamazenta|Light Screen|p1a: Zamazenta
+|-sidestart|p1: SlimyTime|move: Light Screen
+|
+|upkeep
+|turn|9
+|
+|t:|1779638790
+|move|p2a: Iron Valiant|Moonblast|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1779638792
+|switch|p1a: Oricorio|Oricorio-Pom-Pom, F|100/100
+|turn|10
+|
+|t:|1779638800
+|move|p2a: Iron Valiant|Knock Off|p1a: Oricorio
+|-damage|p1a: Oricorio|61/100
+|-enditem|p1a: Oricorio|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Oricorio|Revelation Dance|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779638813
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|11
+|
+|t:|1779638822
+|move|p2a: Arcanine|Flare Blitz|p1a: Oricorio
+|-damage|p1a: Oricorio|0 fnt
+|faint|p1a: Oricorio
+|
+|upkeep
+|
+|t:|1779638829
+|switch|p1a: Iron Treads|Iron Treads|66/100
+|turn|12
+|
+|t:|1779638838
+|-terastallize|p2a: Arcanine|Normal
+|move|p1a: Iron Treads|Earthquake|p2a: Arcanine
+|-damage|p2a: Arcanine|40/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779638843
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|13
+|
+|t:|1779638847
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Dragapult|Dragon Darts|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|47/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779638854
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|14
+|
+|t:|1779638858
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|64/100
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|-heal|p1a: Dragapult|70/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|j| panda1234
+|
+|t:|1779638864
+|move|p1a: Dragapult|Dragon Darts|p2a: Iron Moth
+|-damage|p2a: Iron Moth|41/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p1a: Dragapult|76/100|[from] item: Leftovers
+|-sideend|p1: SlimyTime|move: Light Screen
+|upkeep
+|
+|t:|1779638866
+|switch|p2a: Arcanine|Arcanine-Hisui, M, tera:Normal|40/100
+|turn|16
+|
+|t:|1779638868
+|move|p1a: Dragapult|Dragon Darts|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|win|SlimyTime
+|raw|SlimyTime's rating: 1678 &rarr; <strong>1700</strong><br />(+22 for winning)
+|raw|p$ychopath's rating: 1715 &rarr; <strong>1693</strong><br />(-22 for losing)
+|l|☆SlimyTime
+|player|p1|
+|l|‽p$ychopath
+|player|p2|
+|l| Disscratch
+|l| FaronAan
+|l| panda1234

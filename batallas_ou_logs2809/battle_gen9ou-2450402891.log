@@ -1,0 +1,298 @@
+|j|☆GHANG
+|j|☆Gurden
+|t:|1758979201
+|gametype|singles
+|player|p1|GHANG|ghetsis-gen5bw|1058
+|player|p2|Gurden|101|1054
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Zapdos|
+|poke|p1|Sandy Shocks|
+|poke|p1|Scizor, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Serperior, M|
+|poke|p2|Tauros-Paldea-Aqua, M|
+|poke|p2|Talonflame, F|
+|poke|p2|Galvantula, F|
+|poke|p2|Infernape, F|
+|teampreview
+|
+|t:|1758979216
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Talonflame|Talonflame, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1758979235
+|switch|p2a: Serperior|Serperior, M|100/100
+|move|p1a: Pelipper|Surf|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|65/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758979243
+|move|p2a: Serperior|Leaf Storm|p1a: Pelipper
+|-damage|p1a: Pelipper|8/100
+|-boost|p2a: Serperior|spa|2
+|-damage|p2a: Serperior|55/100|[from] item: Life Orb
+|move|p1a: Pelipper|U-turn|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|35/100
+|
+|t:|1758979252
+|switch|p1a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758979260
+|move|p1a: Basculegion|Psychic Fangs|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758979266
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|turn|4
+|
+|t:|1758979282
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|move|p2a: Galvantula|Energy Ball|p1a: Sandy Shocks
+|-supereffective|p1a: Sandy Shocks
+|-crit|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758979295
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|5
+|
+|t:|1758979311
+|switch|p2a: Talonflame|Talonflame, F|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|75/100
+|-status|p1a: Scizor|brn|[from] ability: Flame Body|[of] p2a: Talonflame
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Scizor|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1758979324
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|move|p2a: Talonflame|Tailwind|p2a: Talonflame
+|-sidestart|p2: Gurden|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758979341
+|-terastallize|p2a: Talonflame|Electric
+|move|p2a: Talonflame|Brave Bird|p1a: Basculegion
+|-damage|p1a: Basculegion|45/100
+|-damage|p2a: Talonflame|52/100|[from] Recoil
+|move|p1a: Basculegion|Psychic Fangs|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|-status|p1a: Basculegion|brn|[from] ability: Flame Body|[of] p2a: Talonflame
+|faint|p2a: Talonflame
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Basculegion|39/100 brn|[from] brn
+|upkeep
+|
+|t:|1758979357
+|switch|p2a: Tauros|Tauros-Paldea-Aqua, M|100/100
+|turn|8
+|
+|t:|1758979361
+|move|p2a: Tauros|Trailblaze|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|1/100 brn
+|-boost|p2a: Tauros|spe|1
+|move|p1a: Basculegion|Psychic Fangs|p2a: Tauros
+|-supereffective|p2a: Tauros
+|-damage|p2a: Tauros|48/100
+|
+|-weather|none
+|-damage|p1a: Basculegion|0 fnt|[from] brn
+|faint|p1a: Basculegion
+|upkeep
+|
+|t:|1758979386
+|switch|p1a: Pelipper|Pelipper, M|8/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|9
+|
+|t:|1758979394
+|move|p2a: Tauros|Trailblaze|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-boost|p2a: Tauros|spe|1
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Gurden|move: Tailwind
+|upkeep
+|
+|t:|1758979403
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|10
+|
+|t:|1758979412
+|move|p2a: Tauros|Endure|p2a: Tauros
+|-singleturn|p2a: Tauros|move: Endure
+|move|p1a: Zapdos|Thunder|p2a: Tauros
+|-supereffective|p2a: Tauros
+|-activate|p2a: Tauros|move: Endure
+|-damage|p2a: Tauros|1/100
+|-enditem|p2a: Tauros|Liechi Berry|[eat]
+|-boost|p2a: Tauros|atk|1|[from] item: Liechi Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758979422
+|move|p2a: Tauros|Raging Bull|p1a: Zapdos
+|-damage|p1a: Zapdos|16/100
+|move|p1a: Zapdos|U-turn|p2a: Tauros
+|-resisted|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|t:|1758979429
+|switch|p1a: Scizor|Scizor, F|94/100 brn|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Scizor|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1758979435
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|12
+|
+|t:|1758979443
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100
+|move|p1a: Scizor|Close Combat|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Scizor|82/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1758979462
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|move|p1a: Scizor|Close Combat|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|78/100
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Scizor|76/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1758979473
+|move|p1a: Scizor|Bullet Punch|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|63/100
+|move|p2a: Galvantula|Thunder|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758979481
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|15
+|
+|t:|1758979485
+|move|p1a: Greninja|Surf|p2a: Galvantula
+|-crit|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758979496
+|switch|p2a: Hydreigon|Hydreigon, M|76/100
+|turn|16
+|
+|t:|1758979502
+|move|p1a: Greninja|Ice Beam|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|-damage|p1a: Greninja|81/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1758979509
+|switch|p2a: Infernape|Infernape, F|100/100
+|turn|17
+|
+|t:|1758979513
+|move|p1a: Greninja|Water Shuriken|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|62/100
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|20/100
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|-hitcount|p2: Infernape|3
+|-damage|p1a: Greninja|71/100|[from] item: Life Orb
+|
+|win|GHANG
+|raw|GHANG's rating: 1058 &rarr; <strong>1089</strong><br />(+31 for winning)
+|raw|Gurden's rating: 1054 &rarr; <strong>1036</strong><br />(-18 for losing)
+|l|☆Gurden
+|player|p2|
+|l|☆GHANG
+|player|p1|

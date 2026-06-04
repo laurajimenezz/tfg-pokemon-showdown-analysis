@@ -1,0 +1,207 @@
+|j|☆John orb
+|j|☆Jonpollonmorcillon
+|t:|1769415620
+|gametype|singles
+|player|p1|John orb|li|1277
+|player|p2|Jonpollonmorcillon|harlequin|1234
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clefable, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Gholdengo|
+|poke|p1|Moltres|
+|poke|p1|Great Tusk|
+|poke|p1|Deoxys-Speed|
+|poke|p2|Bronzong|
+|poke|p2|Ursaluna, M|
+|poke|p2|Volcanion|
+|poke|p2|Hatterene, F|
+|poke|p2|Porygon2|
+|poke|p2|Breloom, F|
+|teampreview
+|
+|t:|1769415638
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p1a: Deoxys|Pressure
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|1
+|
+|t:|1769415649
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Deoxys|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|78/100
+|-enditem|p2a: Hatterene|Leftovers|[from] move: Knock Off|[of] p1a: Deoxys
+|
+|upkeep
+|turn|2
+|
+|t:|1769415660
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|3
+|
+|t:|1769415675
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|switch|p1a: Moltres|Moltres|100/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1769415688
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Ursaluna|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|35/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1769415719
+|move|p2a: Ursaluna|Headlong Rush|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Gholdengo
+|
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1769415727
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|6
+|
+|t:|1769415733
+|move|p2a: Ursaluna|Facade|p1a: Clefable
+|-enditem|p1a: Clefable|Focus Sash
+|-damage|p1a: Clefable|1/100
+|move|p1a: Clefable|Grass Knot|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1769415744
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|7
+|
+|t:|1769415752
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Breloom|Mach Punch|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|92/100
+|
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|
+|t:|1769415773
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|switch|p2a: Volcanion|Volcanion|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1769415787
+|switch|p2a: Hatterene|Hatterene, F|78/100
+|move|p1a: Deoxys|Spikes|p2a: Hatterene
+|move|p2a: Hatterene|Spikes|p1a: Deoxys|[from] ability: Magic Bounce
+|-sidestart|p1: John orb|Spikes
+|
+|upkeep
+|turn|10
+|
+|t:|1769415800
+|move|p1a: Deoxys|Psycho Boost|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|48/100
+|-unboost|p1a: Deoxys|spa|2
+|-enditem|p1a: Deoxys|Eject Pack
+|
+|t:|1769415802
+|switch|p1a: Clefable|Clefable, M|1/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|11
+|
+|t:|1769415819
+|move|p2a: Hatterene|Draining Kiss|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-heal|p2a: Hatterene|49/100|[from] drain|[of] p1a: Clefable
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1769415823
+|switch|p1a: Moltres|Moltres|92/100
+|turn|12
+|
+|t:|1769415834
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Moltres|Hurricane|p2a: Volcanion
+|-damage|p2a: Volcanion|70/100
+|
+|upkeep
+|turn|13
+|
+|t:|1769415863
+|move|p2a: Volcanion|Steam Eruption|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1769415876
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|88/100|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|14
+|
+|t:|1769415881
+|move|p1a: Kingambit|Sucker Punch|p2a: Volcanion
+|-damage|p2a: Volcanion|28/100
+|move|p2a: Volcanion|Fire Blast|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|
+|-fieldend|move: Trick Room
+|upkeep
+|-message|John orb forfeited.
+|
+|win|Jonpollonmorcillon
+|raw|John orb's rating: 1303 &rarr; <strong>1279</strong><br />(-24 for losing)
+|raw|Jonpollonmorcillon's rating: 1234 &rarr; <strong>1264</strong><br />(+30 for winning)
+|l|☆John orb
+|player|p1|

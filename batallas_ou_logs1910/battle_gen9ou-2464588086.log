@@ -1,0 +1,343 @@
+|j|☆denaturat.pl
+|j|☆raysontam
+|t:|1760878002
+|gametype|singles
+|player|p1|denaturat.pl|candice|1132
+|player|p2|raysontam|lass-gen4dp|1162
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Diancie|
+|poke|p1|Garchomp, M|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Sableye, M|
+|poke|p1|Hitmontop, M|
+|poke|p1|Toxtricity-Low-Key, F|
+|poke|p2|Mew|
+|poke|p2|Cinderace, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Tyranitar, M|
+|poke|p2|Zapdos|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by raysontam)
+|
+|t:|1760878010
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|1
+|
+|t:|1760878017
+|move|p1a: Hitmontop|Fake Out|p2a: Ogerpon
+|-damage|p2a: Ogerpon|76/100
+|cant|p2a: Ogerpon|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1760878023
+|move|p2a: Ogerpon|Play Rough|p1a: Hitmontop
+|-supereffective|p1a: Hitmontop
+|-damage|p1a: Hitmontop|18/100
+|-unboost|p1a: Hitmontop|atk|1
+|move|p1a: Hitmontop|Triple Axel|p2a: Ogerpon
+|-damage|p2a: Ogerpon|67/100
+|-damage|p2a: Ogerpon|50/100
+|-damage|p2a: Ogerpon|27/100
+|-hitcount|p2a: Ogerpon|3
+|
+|upkeep
+|turn|3
+|
+|t:|1760878034
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, F|100/100
+|move|p2a: Ogerpon|Horn Leech|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|71/100
+|-heal|p2a: Ogerpon|44/100|[from] drain|[of] p1a: Toxtricity
+|
+|upkeep
+|turn|4
+|
+|t:|1760878044
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Toxtricity|Charge|p1a: Toxtricity
+|-boost|p1a: Toxtricity|spd|1
+|-start|p1a: Toxtricity|Charge
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxtricity|64/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1760878067
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Tyranitar|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760878087
+|-terastallize|p2a: Tyranitar|Flying
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Tyranitar|Stone Edge|p1a: Garchomp|[miss]
+|-miss|p2a: Tyranitar|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760878101
+|move|p1a: Garchomp|Outrage|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1760878112
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|8
+|
+|t:|1760878115
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Garchomp|Outrage|p2a: Zamazenta|[from] lockedmove
+|-damage|p2a: Zamazenta|53/100
+|-start|p1a: Garchomp|confusion|[fatigue]
+|
+|-weather|none
+|-heal|p2a: Zamazenta|59/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760878125
+|switch|p1a: Sableye|Sableye, M|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Sableye
+|-immune|p1a: Sableye
+|
+|-heal|p2a: Zamazenta|65/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760878138
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Sableye|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|62/100
+|-damage|p1a: Sableye|84/100|[from] item: Rocky Helmet|[of] p2a: Cinderace
+|-enditem|p2a: Cinderace|Rocky Helmet|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|90/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760878148
+|move|p2a: Cinderace|Pyro Ball|p1a: Sableye
+|-damage|p1a: Sableye|6/100
+|move|p1a: Sableye|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|35/100
+|
+|-heal|p1a: Sableye|12/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1760878154
+|switch|p1a: Diancie|Diancie|100/100
+|move|p2a: Cinderace|U-turn|p1a: Diancie
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|86/100
+|
+|t:|1760878160
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|44/100|[from] U-turn
+|
+|-heal|p1a: Diancie|92/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760878165
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Ninetales|[anim] Ivy Cudgel Water
+|-damage|p1a: Ninetales|43/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1760878172
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Ninetales|[anim] Ivy Cudgel Water
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760878182
+|switch|p1a: Hitmontop|Hitmontop, M|18/100
+|turn|15
+|
+|t:|1760878190
+|move|p1a: Hitmontop|Fake Out|p2a: Ogerpon
+|-damage|p2a: Ogerpon|22/100
+|cant|p2a: Ogerpon|flinch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1760878196
+|move|p1a: Hitmontop|Mach Punch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760878203
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|17
+|
+|t:|1760878212
+|switch|p1a: Garchomp|Garchomp, M|60/100
+|move|p2a: Zapdos|Ancient Power|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|48/100
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|t:|1760878219
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Zapdos|Brave Bird|p1a: Garchomp
+|-damage|p1a: Garchomp|8/100
+|-damage|p2a: Zapdos|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Zapdos|72/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|-damage|p2a: Zapdos|60/100|[from] Recoil
+|
+|upkeep
+|turn|19
+|
+|t:|1760878227
+|move|p1a: Garchomp|Outrage|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-damage|p1a: Garchomp|0 fnt|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|faint|p2a: Zapdos
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1760878240
+|switch|p1a: Diancie|Diancie|92/100
+|switch|p2a: Zamazenta|Zamazenta|65/100
+|turn|20
+|
+|t:|1760878244
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Diancie|Play Rough|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|27/100
+|
+|-heal|p2a: Zamazenta|33/100|[from] item: Leftovers
+|-heal|p1a: Diancie|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1760878249
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Diancie|Trick Room|p1a: Diancie
+|-fieldstart|move: Trick Room|[of] p1a: Diancie
+|
+|-heal|p1a: Diancie|100/100|[from] item: Leftovers
+|-heal|p2a: Zamazenta|39/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1760878255
+|move|p1a: Diancie|Play Rough|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|16/100
+|move|p2a: Zamazenta|Body Press|p1a: Diancie
+|-damage|p1a: Diancie|37/100
+|
+|-heal|p1a: Diancie|43/100|[from] item: Leftovers
+|-heal|p2a: Zamazenta|22/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1760878264
+|move|p1a: Diancie|Play Rough|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-heal|p1a: Diancie|50/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760878267
+|switch|p2a: Cinderace|Cinderace, F|35/100
+|turn|24
+|
+|t:|1760878272
+|move|p1a: Diancie|Diamond Storm|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-heal|p1a: Diancie|56/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760878275
+|switch|p2a: Mew|Mew|100/100
+|turn|25
+|
+|t:|1760878282
+|move|p1a: Diancie|Diamond Storm|p2a: Mew
+|-damage|p2a: Mew|56/100
+|move|p2a: Mew|Fire Spin|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|53/100
+|-activate|p1a: Diancie|move: Fire Spin|[of] p2a: Mew
+|
+|-heal|p1a: Diancie|59/100|[from] item: Leftovers
+|-damage|p1a: Diancie|47/100|[from] move: Fire Spin|[partiallytrapped]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|26
+|-message|raysontam forfeited.
+|
+|win|denaturat.pl
+|raw|denaturat.pl's rating: 1132 &rarr; <strong>1159</strong><br />(+27 for winning)
+|raw|raysontam's rating: 1162 &rarr; <strong>1135</strong><br />(-27 for losing)
+|l|☆raysontam
+|player|p2|
+|l|☆denaturat.pl
+|player|p1|
+|j|☆raysontam
+|player|p2|raysontam|lass-gen4dp|
+|l|☆raysontam
+|player|p2|

@@ -1,0 +1,400 @@
+|j|☆QingKe
+|j|☆Sksupreme
+|t:|1758265435
+|gametype|singles
+|player|p1|QingKe|102|1326
+|player|p2|Sksupreme|veteran|1288
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Leafeon, F|
+|poke|p1|Heatran, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Bisharp, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Serperior, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Kyurem|
+|teampreview
+|
+|t:|1758265444
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-ability|p2a: Kyurem|Pressure
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1758265453
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758265461
+|move|p2a: Kyurem|Icicle Spear|p1a: Hatterene
+|-damage|p1a: Hatterene|80/100
+|-damage|p1a: Hatterene|60/100
+|-damage|p1a: Hatterene|39/100
+|-damage|p1a: Hatterene|20/100
+|-hitcount|p1a: Hatterene|4
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1758265478
+|switch|p1a: Heatran|Heatran, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758265502
+|switch|p2a: Alomomola|Alomomola, F, shiny|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|67/100
+|-activate|p2a: Alomomola|move: Magma Storm|[of] p1a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Alomomola|73/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|61/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1758265512
+|move|p1a: Heatran|Taunt|p2a: Alomomola
+|-start|p2a: Alomomola|move: Taunt
+|cant|p2a: Alomomola|move: Taunt|Wish
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Alomomola|67/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|54/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1758265524
+|move|p1a: Heatran|Magma Storm|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|20/100
+|move|p2a: Alomomola|Flip Turn|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|85/100
+|
+|t:|1758265531
+|switch|p2a: Conkeldurr|Conkeldurr, F, shiny|100/100|[from] Flip Turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Heatran|91/100|[from] item: Leftovers
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1758265545
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Conkeldurr|atk|1
+|move|p2a: Conkeldurr|Stone Edge|p1a: Landorus
+|-damage|p1a: Landorus|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Landorus|73/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1758265557
+|move|p1a: Landorus|Earthquake|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|39/100 brn
+|move|p2a: Conkeldurr|Stone Edge|p1a: Landorus|[miss]
+|-miss|p2a: Conkeldurr|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Landorus|79/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|33/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1758265568
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|move|p1a: Landorus|Earthquake|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|-weather|none
+|-heal|p1a: Landorus|85/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758265576
+|move|p1a: Landorus|Stone Edge|p2a: Mandibuzz|[miss]
+|-miss|p1a: Landorus|p2a: Mandibuzz
+|move|p2a: Mandibuzz|Foul Play|p1a: Landorus
+|-damage|p1a: Landorus|27/100
+|
+|-heal|p1a: Landorus|32/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758265584
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-terastallize|p2a: Mandibuzz|Steel
+|move|p2a: Mandibuzz|Foul Play|p1a: Torkoal
+|-damage|p1a: Torkoal|85/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758265603
+|move|p2a: Mandibuzz|Toxic|p1a: Torkoal|[miss]
+|-miss|p2a: Mandibuzz|p1a: Torkoal
+|move|p1a: Torkoal|Flamethrower|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1758265626
+|switch|p2a: Alomomola|Alomomola, F, shiny|53/100
+|move|p1a: Torkoal|Body Press|p2a: Alomomola
+|-damage|p2a: Alomomola|28/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Alomomola|34/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1758265635
+|switch|p1a: Leafeon|Leafeon, F, shiny|100/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Alomomola|41/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1758265644
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny, tera:Steel|39/100
+|move|p1a: Leafeon|Swords Dance|p1a: Leafeon
+|-boost|p1a: Leafeon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Mandibuzz|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|15
+|
+|t:|1758265691
+|-terastallize|p1a: Leafeon|Fire
+|move|p1a: Leafeon|Tera Blast|p2a: Mandibuzz|[anim] Tera Blast Fire
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|-damage|p1a: Leafeon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758265700
+|switch|p2a: Alomomola|Alomomola, F, shiny|74/100
+|turn|16
+|
+|t:|1758265709
+|move|p1a: Leafeon|Solar Blade||[still]
+|-prepare|p1a: Leafeon|Solar Blade
+|-anim|p1a: Leafeon|Solar Blade|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|-damage|p1a: Leafeon|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758265721
+|switch|p2a: Conkeldurr|Conkeldurr, F, shiny|33/100 brn
+|turn|17
+|
+|t:|1758265729
+|move|p2a: Conkeldurr|Mach Punch|p1a: Leafeon
+|-damage|p1a: Leafeon|45/100
+|move|p1a: Leafeon|Solar Blade||[still]
+|-prepare|p1a: Leafeon|Solar Blade
+|-anim|p1a: Leafeon|Solar Blade|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|-damage|p1a: Leafeon|35/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1758265744
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|18
+|
+|t:|1758265751
+|move|p1a: Leafeon|Knock Off|p2a: Kyurem
+|-damage|p2a: Kyurem|18/100
+|-enditem|p2a: Kyurem|Loaded Dice|[from] move: Knock Off|[of] p1a: Leafeon
+|-damage|p1a: Leafeon|25/100|[from] item: Life Orb
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|
+|upkeep
+|turn|19
+|
+|t:|1758265759
+|move|p2a: Kyurem|Scale Shot|p1a: Leafeon|[miss]
+|-miss|p2a: Kyurem|p1a: Leafeon
+|move|p1a: Leafeon|Tera Blast|p2a: Kyurem|[anim] Tera Blast Fire
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|-damage|p1a: Leafeon|15/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758265767
+|switch|p2a: Serperior|Serperior, F, shiny|100/100
+|turn|20
+|
+|t:|1758265771
+|move|p2a: Serperior|Leaf Storm|p1a: Leafeon
+|-resisted|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Leafeon
+|
+|upkeep
+|
+|t:|1758265790
+|switch|p1a: Heatran|Heatran, M|91/100
+|turn|21
+|
+|t:|1758265794
+|move|p2a: Serperior|Leaf Storm|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|74/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Heatran|Magma Storm|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|20/100
+|-activate|p2a: Serperior|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|81/100|[from] item: Leftovers
+|-damage|p2a: Serperior|8/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|22
+|
+|t:|1758265804
+|move|p2a: Serperior|Leaf Storm|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|56/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Heatran|Earth Power|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|-heal|p1a: Heatran|62/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758265814
+|switch|p2a: Bisharp|Bisharp, F, shiny|100/100
+|turn|23
+|
+|t:|1758265818
+|move|p1a: Heatran|Magma Storm|p2a: Bisharp|[miss]
+|-miss|p1a: Heatran|p2a: Bisharp
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-heal|p1a: Heatran|68/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1758265825
+|move|p2a: Bisharp|Sucker Punch|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1758265837
+|switch|p1a: Hatterene|Hatterene, F, shiny|20/100
+|turn|25
+|
+|t:|1758265841
+|move|p2a: Bisharp|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1758265847
+|switch|p1a: Torkoal|Torkoal, F|85/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|26
+|
+|t:|1758265860
+|move|p2a: Bisharp|Iron Head|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-crit|p1a: Torkoal
+|-damage|p1a: Torkoal|53/100
+|cant|p1a: Torkoal|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1758265869
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Torkoal|Will-O-Wisp|p2a: Bisharp
+|-status|p2a: Bisharp|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Bisharp|95/100 brn|[from] brn
+|upkeep
+|turn|28
+|c|☆QingKe|gg
+|
+|t:|1758265878
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Torkoal|Body Press|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|6/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Bisharp|0 fnt|[from] brn
+|faint|p2a: Bisharp
+|
+|win|QingKe
+|raw|QingKe's rating: 1326 &rarr; <strong>1344</strong><br />(+18 for winning)
+|raw|Sksupreme's rating: 1288 &rarr; <strong>1266</strong><br />(-22 for losing)
+|l|☆Sksupreme
+|player|p2|
+|l|☆QingKe
+|player|p1|

@@ -1,0 +1,183 @@
+|j|☆I Shall Win THIS
+|j|☆sabu_emari
+|t:|1760827639
+|gametype|singles
+|player|p1|I Shall Win THIS|102|1127
+|player|p2|sabu_emari|266|1137
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Crawdaunt, F|
+|poke|p1|Darkrai|
+|poke|p1|Pecharunt|
+|poke|p1|Gholdengo|
+|poke|p1|Salamence, M|
+|poke|p1|Araquanid, F|
+|poke|p2|Blaziken, M|
+|poke|p2|Lapras, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Hydrapple, M|
+|poke|p2|Oricorio-Sensu, F|
+|poke|p2|Metagross|
+|teampreview
+|
+|t:|1760827645
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Salamence|Salamence, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|turn|1
+|
+|t:|1760827660
+|move|p1a: Salamence|Draco Meteor|p2a: Landorus
+|-damage|p2a: Landorus|26/100
+|-unboost|p1a: Salamence|spa|2
+|move|p2a: Landorus|Stealth Rock|p1a: Salamence
+|-sidestart|p1: I Shall Win THIS|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1760827673
+|switch|p2a: Oricorio|Oricorio-Sensu, F|100/100
+|move|p1a: Salamence|Draco Meteor|p2a: Oricorio|[miss]
+|-miss|p1a: Salamence|p2a: Oricorio
+|
+|upkeep
+|turn|3
+|
+|t:|1760827684
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|-damage|p1a: Araquanid|76/100|[from] Stealth Rock
+|move|p2a: Oricorio|Quiver Dance|p2a: Oricorio
+|-boost|p2a: Oricorio|spa|1
+|-boost|p2a: Oricorio|spd|1
+|-boost|p2a: Oricorio|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1760827693
+|move|p2a: Oricorio|Quiver Dance|p2a: Oricorio
+|-boost|p2a: Oricorio|spa|1
+|-boost|p2a: Oricorio|spd|1
+|-boost|p2a: Oricorio|spe|1
+|move|p1a: Araquanid|Liquidation|p2a: Oricorio
+|-damage|p2a: Oricorio|17/100
+|
+|upkeep
+|turn|5
+|
+|t:|1760827703
+|move|p2a: Oricorio|Revelation Dance|p1a: Araquanid
+|-damage|p1a: Araquanid|25/100
+|move|p1a: Araquanid|Liquidation|p2a: Oricorio
+|-damage|p2a: Oricorio|0 fnt
+|faint|p2a: Oricorio
+|
+|upkeep
+|
+|t:|1760827713
+|switch|p2a: Lapras|Lapras, M|100/100
+|turn|6
+|
+|t:|1760827717
+|move|p2a: Lapras|Freeze-Dry|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1760827728
+|switch|p1a: Darkrai|Darkrai|100/100
+|-damage|p1a: Darkrai|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1760827734
+|move|p1a: Darkrai|Swords Dance|p1a: Darkrai
+|-boost|p1a: Darkrai|atk|2
+|move|p2a: Lapras|Perish Song|p2a: Lapras
+|-start|p1a: Darkrai|perish3|[silent]
+|-start|p2a: Lapras|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p1a: Darkrai|94/100|[from] item: Leftovers
+|-start|p1a: Darkrai|perish3
+|-start|p2a: Lapras|perish3
+|upkeep
+|turn|8
+|
+|t:|1760827744
+|move|p1a: Darkrai|Knock Off|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|-enditem|p2a: Lapras|Leftovers|[from] move: Knock Off|[of] p1a: Darkrai
+|faint|p2a: Lapras
+|
+|-heal|p1a: Darkrai|99/100|[from] item: Leftovers
+|-start|p1a: Darkrai|perish2
+|upkeep
+|
+|t:|1760827756
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|turn|9
+|
+|t:|1760827768
+|move|p1a: Darkrai|Drain Punch|p2a: Blaziken
+|-damage|p2a: Blaziken|38/100
+|-heal|p1a: Darkrai|100/100|[from] drain|[of] p2a: Blaziken
+|move|p2a: Blaziken|Focus Energy|p2a: Blaziken
+|-start|p2a: Blaziken|move: Focus Energy
+|
+|-start|p1a: Darkrai|perish1
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|10
+|
+|t:|1760827780
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Darkrai|Drain Punch|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-start|p1a: Darkrai|perish0
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|faint|p1a: Darkrai
+|upkeep
+|
+|t:|1760827786
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|turn|11
+|l|☆I Shall Win THIS
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sabu_emari)
+|inactive|I Shall Win THIS has 30 seconds to reconnect!
+|inactive|I Shall Win THIS has 20 seconds to reconnect!
+|inactive|I Shall Win THIS has 15 seconds to reconnect!
+|inactive|I Shall Win THIS has 10 seconds to reconnect!
+|inactive|I Shall Win THIS has 5 seconds to reconnect!
+|-message|I Shall Win THIS lost due to inactivity.
+|
+|win|sabu_emari
+|raw|I Shall Win THIS's rating: 1127 &rarr; <strong>1103</strong><br />(-24 for losing)
+|raw|sabu_emari's rating: 1137 &rarr; <strong>1161</strong><br />(+24 for winning)
+|l|☆sabu_emari
+|player|p2|

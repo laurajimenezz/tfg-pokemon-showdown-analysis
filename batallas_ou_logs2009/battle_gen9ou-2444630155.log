@@ -1,0 +1,384 @@
+|j|‽LocalBusDriver
+|j|☆Eight Five
+|t:|1758244005
+|gametype|singles
+|player|p1|LocalBusDriver|hugh|1505
+|player|p2|Eight Five|265|1619
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Clodsire, F|
+|poke|p1|Beartic, M|
+|poke|p1|Kingambit, F|
+|poke|p2|Iron Treads|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Chandelure, F|
+|poke|p2|Primarina, M|
+|poke|p2|Zapdos|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Eight Five)
+|
+|t:|1758244033
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-item|p1a: Kingambit|Air Balloon
+|turn|1
+|
+|t:|1758244041
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Zapdos|Volt Switch|p1a: Clodsire
+|-immune|p1a: Clodsire
+|
+|upkeep
+|turn|2
+|
+|t:|1758244047
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Clodsire|atk|1
+|move|p1a: Clodsire|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Eight Five|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1758244052
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Landorus|Gravity|p2a: Landorus
+|-fieldstart|move: Gravity
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758244066
+|-terastallize|p2a: Landorus|Water
+|move|p2a: Landorus|Earthquake|p1a: Pelipper
+|-damage|p1a: Pelipper|44/100
+|move|p1a: Pelipper|U-turn|p2a: Landorus
+|-damage|p2a: Landorus|89/100
+|
+|t:|1758244085
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758244094
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|-terastallize|p1a: Raging Bolt|Fairy
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|59/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758244114
+|move|p2a: Iron Treads|Rapid Spin|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|86/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: Eight Five|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|24/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Raging Bolt|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758244126
+|move|p2a: Iron Treads|Earthquake|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|45/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Raging Bolt|51/100|[from] item: Leftovers
+|-fieldend|move: Gravity
+|upkeep
+|
+|t:|1758244137
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|8
+|
+|t:|1758244142
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Clodsire
+|-damage|p1a: Clodsire|54/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1758244153
+|move|p2a: Zapdos|Hurricane|p1a: Clodsire
+|-damage|p1a: Clodsire|9/100
+|move|p1a: Clodsire|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: Eight Five|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758244173
+|move|p2a: Zapdos|Hurricane|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|-weather|none
+|upkeep
+|inactive|LocalBusDriver has 120 seconds left.
+|
+|t:|1758244193
+|switch|p1a: Raging Bolt|Raging Bolt, tera:Fairy|51/100
+|turn|11
+|inactive|Eight Five has 120 seconds left.
+|
+|t:|1758244228
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-damage|p2a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Deoxys
+|-damage|p2a: Deoxys|19/100
+|
+|-heal|p1a: Raging Bolt|57/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758244238
+|move|p2a: Deoxys|Light Screen|p2a: Deoxys
+|-sidestart|p2: Eight Five|move: Light Screen
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|-heal|p1a: Raging Bolt|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758244246
+|switch|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1758244253
+|move|p2a: Zapdos|Hurricane|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758244259
+|switch|p1a: Pelipper|Pelipper, F|44/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|14
+|l|‽LocalBusDriver
+|inactive|LocalBusDriver disconnected and has a minute to reconnect!
+|player|p1|
+|j|‽LocalBusDriver
+|inactive|LocalBusDriver reconnected and has 125 seconds left.
+|player|p1|LocalBusDriver|hugh|
+|n|‽LocalBusDriver|localbusdriver
+|inactive|LocalBusDriver has 120 seconds left.
+|
+|t:|1758244290
+|move|p2a: Zapdos|Hurricane|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758244294
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|15
+|
+|t:|1758244324
+|move|p1a: Barraskewda|Liquidation|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-status|p1a: Barraskewda|par|[from] ability: Static|[of] p2a: Zapdos
+|faint|p2a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Eight Five has 120 seconds left.
+|
+|t:|1758244346
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|-damage|p2a: Chandelure|76/100|[from] Stealth Rock
+|turn|16
+|inactive|LocalBusDriver has 120 seconds left.
+|l|‽LocalBusDriver
+|inactive|LocalBusDriver disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|LocalBusDriver has 30 seconds to reconnect!
+|inactive|LocalBusDriver has 20 seconds to reconnect!
+|inactive|LocalBusDriver has 15 seconds to reconnect!
+|inactive|LocalBusDriver has 10 seconds to reconnect!
+|j|‽LocalBusDriver
+|inactive|LocalBusDriver reconnected and has 60 seconds left.
+|player|p1|LocalBusDriver|hugh|
+|n|‽LocalBusDriver|localbusdriver
+|
+|t:|1758244427
+|move|p2a: Chandelure|Energy Ball|p1a: Barraskewda
+|-supereffective|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|LocalBusDriver has 60 seconds left.
+|
+|t:|1758244447
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|-item|p1a: Kingambit|Air Balloon
+|turn|17
+|
+|t:|1758244453
+|switch|p2a: Landorus|Landorus-Therian, M, tera:Water|89/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1758244462
+|move|p2a: Landorus|U-turn|p1a: Kingambit
+|-damage|p1a: Kingambit|77/100
+|-enditem|p1a: Kingambit|Air Balloon
+|
+|t:|1758244477
+|switch|p2a: Primarina|Primarina, M|100/100|[from] U-turn
+|-damage|p2a: Primarina|88/100|[from] Stealth Rock
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|49/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Primarina|55/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1758244488
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|15/100
+|move|p2a: Primarina|Psychic Noise|p1a: Kingambit
+|-damage|p1a: Kingambit|19/100
+|-start|p1a: Kingambit|move: Heal Block
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Primarina|21/100|[from] item: Leftovers
+|-sideend|p2: Eight Five|move: Light Screen
+|upkeep
+|turn|20
+|
+|t:|1758244495
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Kingambit|move: Heal Block
+|upkeep
+|
+|t:|1758244503
+|switch|p2a: Landorus|Landorus-Therian, M, tera:Water|76/100
+|-damage|p2a: Landorus|64/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|turn|21
+|
+|t:|1758244521
+|-end|p1a: Kingambit|fallen4|[silent]
+|switch|p1a: Beartic|Beartic, M|100/100
+|move|p2a: Landorus|Earthquake|p1a: Beartic
+|-damage|p1a: Beartic|1/100
+|
+|-weather|none
+|upkeep
+|turn|22
+|
+|t:|1758244529
+|move|p2a: Landorus|U-turn|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|faint|p1a: Beartic
+|
+|t:|1758244530
+|switch|p2a: Chandelure|Chandelure, F|76/100|[from] U-turn
+|-damage|p2a: Chandelure|51/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1758244532
+|switch|p1a: Kingambit|Kingambit, F|19/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|23
+|
+|t:|1758244541
+|move|p1a: Kingambit|Sucker Punch|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|t:|1758244545
+|switch|p2a: Landorus|Landorus-Therian, M, tera:Water|64/100
+|-damage|p2a: Landorus|52/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|turn|24
+|
+|t:|1758244548
+|move|p1a: Kingambit|Sucker Punch|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|win|LocalBusDriver
+|raw|LocalBusDriver's rating: 1505 &rarr; <strong>1531</strong><br />(+26 for winning)
+|raw|Eight Five's rating: 1619 &rarr; <strong>1593</strong><br />(-26 for losing)
+|l|☆Eight Five
+|player|p2|
+|l|‽LocalBusDriver
+|player|p1|

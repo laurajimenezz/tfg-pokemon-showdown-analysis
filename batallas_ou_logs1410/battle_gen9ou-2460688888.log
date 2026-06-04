@@ -1,0 +1,327 @@
+|j|☆startersareop
+|j|☆Terrarnova
+|t:|1760345791
+|gametype|singles
+|player|p1|startersareop|170|1264
+|player|p2|Terrarnova|1|1281
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blaziken, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Chesnaught, M|
+|poke|p1|Decidueye, M|
+|poke|p1|Delphox, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Hatterene, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Primarina, M|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by startersareop)
+|
+|t:|1760345816
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Greninja|Greninja, M|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|1
+|
+|t:|1760345828
+|move|p1a: Greninja|Dark Pulse|p2a: Ogerpon
+|-damage|p2a: Ogerpon|47/100
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|move|p2a: Ogerpon|Horn Leech|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-heal|p2a: Ogerpon|90/100|[from] drain|[of] p1a: Greninja
+|faint|p1a: Greninja
+|
+|upkeep
+|
+|t:|1760345841
+|switch|p1a: Chesnaught|Chesnaught, M|100/100
+|turn|2
+|
+|t:|1760345852
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Chesnaught|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|51/100
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Chesnaught
+|
+|upkeep
+|turn|3
+|
+|t:|1760345862
+|move|p1a: Chesnaught|Leech Seed|p2a: Slowking
+|-start|p2a: Slowking|move: Leech Seed
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-damage|p2a: Slowking|39/100|[from] Leech Seed|[of] p1a: Chesnaught
+|upkeep
+|turn|4
+|
+|t:|1760345869
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1760345877
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from] Chilly Reception
+|move|p1a: Chesnaught|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|75/100
+|-enditem|p2a: Hatterene|Leftovers|[from] move: Knock Off|[of] p1a: Chesnaught
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760345896
+|switch|p1a: Delphox|Delphox, M|100/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Delphox
+|-resisted|p1a: Delphox
+|-damage|p1a: Delphox|91/100
+|-unboost|p1a: Delphox|spa|1
+|-enditem|p1a: Delphox|Eject Button
+|
+|t:|1760345899
+|switch|p1a: Decidueye|Decidueye, M|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760345904
+|move|p2a: Hatterene|Mystical Fire|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|72/100
+|-unboost|p1a: Decidueye|spa|1
+|move|p1a: Decidueye|Spirit Shackle|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|9/100
+|-activate|p2a: Hatterene|trapped
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760345914
+|move|p2a: Hatterene|Nuzzle|p1a: Decidueye
+|-resisted|p1a: Decidueye
+|-damage|p1a: Decidueye|70/100
+|-status|p1a: Decidueye|par
+|cant|p1a: Decidueye|par
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1760345919
+|cant|p1a: Decidueye|par
+|move|p2a: Hatterene|Mystical Fire|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|37/100 par
+|-unboost|p1a: Decidueye|spa|1
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1760345923
+|move|p1a: Decidueye|Leaf Blade|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1760345927
+|switch|p2a: Slowking|Slowking-Galar, F|72/100
+|turn|10
+|
+|t:|1760345934
+|cant|p1a: Decidueye|par
+|move|p2a: Slowking|Sludge Wave|p1a: Decidueye
+|-damage|p1a: Decidueye|2/100 par
+|
+|upkeep
+|turn|11
+|
+|t:|1760345942
+|move|p1a: Decidueye|Spirit Shackle|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|8/100
+|-activate|p2a: Slowking|trapped
+|move|p2a: Slowking|Sludge Wave|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|
+|upkeep
+|
+|t:|1760345945
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|turn|12
+|
+|t:|1760345953
+|move|p1a: Blaziken|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1760345959
+|switch|p2a: Primarina|Primarina, M|100/100
+|turn|13
+|
+|t:|1760345971
+|switch|p1a: Chesnaught|Chesnaught, M|100/100
+|move|p2a: Primarina|Hyper Voice|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|78/100
+|
+|upkeep
+|turn|14
+|
+|t:|1760345978
+|move|p1a: Chesnaught|Seed Bomb|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|54/100
+|move|p2a: Primarina|Draining Kiss|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|29/100
+|-heal|p2a: Primarina|93/100|[from] drain|[of] p1a: Chesnaught
+|-damage|p2a: Primarina|76/100|[from] item: Rocky Helmet|[of] p1a: Chesnaught
+|
+|-heal|p2a: Primarina|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1760345996
+|-terastallize|p1a: Chesnaught|Steel
+|-terastallize|p2a: Primarina|Steel
+|move|p1a: Chesnaught|Leech Seed|p2a: Primarina|[miss]
+|-miss|p1a: Chesnaught|p2a: Primarina
+|move|p2a: Primarina|Draining Kiss|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|17/100
+|-heal|p2a: Primarina|92/100|[from] drain|[of] p1a: Chesnaught
+|-damage|p2a: Primarina|75/100|[from] item: Rocky Helmet|[of] p1a: Chesnaught
+|
+|-heal|p2a: Primarina|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1760345999
+|move|p1a: Chesnaught|Leech Seed|p2a: Primarina
+|-start|p2a: Primarina|move: Leech Seed
+|move|p2a: Primarina|Hyper Voice|p1a: Chesnaught
+|-damage|p1a: Chesnaught|0 fnt
+|faint|p1a: Chesnaught
+|
+|-heal|p2a: Primarina|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760346006
+|switch|p1a: Delphox|Delphox, M|91/100
+|turn|17
+|
+|t:|1760346020
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|move|p1a: Delphox|Future Sight|p2a: Garganacl
+|-start|p1a: Delphox|move: Future Sight
+|
+|upkeep
+|turn|18
+|
+|t:|1760346030
+|move|p1a: Delphox|Overheat|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|80/100
+|-unboost|p1a: Delphox|spa|2
+|-item|p1a: Delphox|Leftovers|[from] ability: Magician|[of] p2a: Garganacl
+|move|p2a: Garganacl|Salt Cure|p1a: Delphox
+|-supereffective|p1a: Delphox
+|-damage|p1a: Delphox|49/100
+|-start|p1a: Delphox|Salt Cure
+|
+|-heal|p1a: Delphox|55/100|[from] item: Leftovers
+|-damage|p1a: Delphox|42/100|[from] Salt Cure
+|upkeep
+|turn|19
+|
+|t:|1760346046
+|move|p1a: Delphox|Encore|p2a: Garganacl
+|-start|p2a: Garganacl|Encore
+|move|p2a: Garganacl|Salt Cure|p1a: Delphox
+|-supereffective|p1a: Delphox
+|-damage|p1a: Delphox|0 fnt
+|faint|p1a: Delphox
+|
+|-end|p2a: Garganacl|move: Future Sight
+|-damage|p2a: Garganacl|45/100
+|upkeep
+|inactive|startersareop has 120 seconds left.
+|
+|t:|1760346086
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|20
+|inactive|startersareop has 120 seconds left.
+|
+|t:|1760346091
+|move|p1a: Samurott|Sacred Sword|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|upkeep
+|
+|t:|1760346095
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|90/100
+|turn|21
+|inactive|startersareop has 120 seconds left.
+|
+|t:|1760346112
+|move|p1a: Samurott|Sacred Sword|p2a: Ogerpon
+|-damage|p2a: Ogerpon|39/100
+|move|p2a: Ogerpon|Horn Leech|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-heal|p2a: Ogerpon|92/100|[from] drain|[of] p1a: Samurott
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1760346116
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|turn|22
+|
+|t:|1760346131
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Blaziken|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|win|Terrarnova
+|raw|startersareop's rating: 1264 &rarr; <strong>1240</strong><br />(-24 for losing)
+|raw|Terrarnova's rating: 1281 &rarr; <strong>1305</strong><br />(+24 for winning)
+|l|☆Terrarnova
+|player|p2|
+|l|☆startersareop
+|player|p1|

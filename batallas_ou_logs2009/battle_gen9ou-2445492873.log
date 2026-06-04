@@ -1,0 +1,380 @@
+|j|☆ballerbrandceo
+|j|☆heal_fire
+|t:|1758356647
+|gametype|singles
+|player|p1|ballerbrandceo|102|1230
+|player|p2|heal_fire|ghetsis|1283
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Heatran, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p2|Pelipper, M|
+|poke|p2|Iron Treads|
+|poke|p2|Ludicolo, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Overqwil, F|
+|teampreview
+|
+|t:|1758356680
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Grosse mouette|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Grosse mouette
+|turn|1
+|
+|t:|1758356694
+|move|p1a: Tornadus|Knock Off|p2a: Grosse mouette
+|-damage|p2a: Grosse mouette|85/100
+|-enditem|p2a: Grosse mouette|Damp Rock|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Grosse mouette|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|95/100
+|
+|t:|1758356699
+|switch|p2a: Ananas|Ludicolo, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758356705
+|move|p2a: Ananas|Ice Beam|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|21/100
+|-damage|p2a: Ananas|91/100|[from] item: Life Orb
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Ananas
+|-supereffective|p2a: Ananas
+|-damage|p2a: Ananas|11/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758356757
+|switch|p1a: Swords Dance|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Swords Dance
+|move|p2a: Ananas|Giga Drain|p1a: Swords Dance
+|-resisted|p1a: Swords Dance
+|-damage|p1a: Swords Dance|60/100
+|-heal|p2a: Ananas|34/100|[from] drain|[of] p1a: Swords Dance
+|-damage|p2a: Ananas|24/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ananas|30/100|[from] Grassy Terrain
+|-heal|p1a: Swords Dance|66/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1758356790
+|switch|p2a: Fugu|Overqwil, F|100/100
+|move|p1a: Swords Dance|Grassy Glide|p2a: Fugu
+|-resisted|p2a: Fugu
+|-damage|p2a: Fugu|69/100
+|-damage|p1a: Swords Dance|56/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Fugu|75/100|[from] Grassy Terrain
+|-heal|p1a: Swords Dance|62/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1758356817
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Fugu|Gunk Shot|p1a: Heatran
+|-immune|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Fugu|82/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1758356826
+|move|p2a: Fugu|Liquidation|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|16/100
+|-damage|p2a: Fugu|72/100|[from] item: Life Orb
+|move|p1a: Heatran|Stealth Rock|p2a: Fugu
+|-sidestart|p2: heal_fire|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Fugu|78/100|[from] Grassy Terrain
+|-heal|p1a: Heatran|22/100|[from] Grassy Terrain
+|-heal|p1a: Heatran|28/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758356849
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Fugu|Liquidation|p1a: Ogerpon
+|-immune|p1a: Ogerpon|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Fugu|84/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1758356858
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p2a: Fugu|Gunk Shot|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|-damage|p2a: Fugu|74/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|c|☆ballerbrandceo|WHAT
+|c|☆heal_fire|yes
+|c|☆heal_fire|it hit hard
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by heal_fire)
+|
+|t:|1758356898
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|9
+|
+|t:|1758356915
+|move|p1a: Gholdengo|Make It Rain|p2a: Fugu
+|-damage|p2a: Fugu|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Fugu
+|
+|upkeep
+|c|☆heal_fire|ah shit
+|
+|t:|1758356922
+|switch|p2a: Grosse mouette|Pelipper, M|85/100
+|-damage|p2a: Grosse mouette|60/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Grosse mouette
+|turn|10
+|
+|t:|1758356932
+|switch|p1a: Tornadus|Tornadus-Therian, M|55/100
+|switch|p2a: Mad max|Iron Treads|100/100
+|-damage|p2a: Mad max|97/100|[from] Stealth Rock
+|-enditem|p2a: Mad max|Booster Energy
+|-activate|p2a: Mad max|ability: Quark Drive|[fromitem]
+|-start|p2a: Mad max|quarkdrivespe
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758356950
+|move|p2a: Mad max|Rapid Spin|p1a: Tornadus
+|-damage|p1a: Tornadus|36/100
+|-boost|p2a: Mad max|spe|1
+|-sideend|p2: heal_fire|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Mad max
+|move|p1a: Tornadus|U-turn|p2a: Mad max
+|-resisted|p2a: Mad max
+|-damage|p2a: Mad max|91/100
+|inactive|ballerbrandceo has 120 seconds left.
+|
+|t:|1758356988
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|inactive|heal_fire has 120 seconds left.
+|
+|t:|1758357029
+|-end|p2a: Mad max|Quark Drive|[silent]
+|switch|p2a: barracuda|Barraskewda, M|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: barracuda
+|-damage|p2a: barracuda|2/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1758357048
+|move|p2a: barracuda|Liquidation|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758357052
+|switch|p1a: Swords Dance|Rillaboom, F|62/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Swords Dance
+|turn|14
+|inactive|heal_fire has 120 seconds left.
+|
+|t:|1758357066
+|move|p1a: Swords Dance|Grassy Glide|p2a: barracuda
+|-supereffective|p2a: barracuda
+|-damage|p2a: barracuda|0 fnt
+|faint|p2a: barracuda
+|-damage|p1a: Swords Dance|52/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p1a: Swords Dance|58/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758357071
+|switch|p2a: Grosse mouette|Pelipper, M|60/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Grosse mouette
+|turn|15
+|
+|t:|1758357077
+|move|p1a: Swords Dance|Wood Hammer|p2a: Grosse mouette
+|-damage|p2a: Grosse mouette|0 fnt
+|faint|p2a: Grosse mouette
+|-damage|p1a: Swords Dance|40/100|[from] Recoil
+|-damage|p1a: Swords Dance|30/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Swords Dance|36/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758357084
+|switch|p2a: Assault vest|Raging Bolt|100/100
+|turn|16
+|
+|t:|1758357093
+|switch|p1a: Heatran|Heatran, F|28/100
+|move|p2a: Assault vest|Thunder|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758357101
+|switch|p1a: Tornadus|Tornadus-Therian, M|70/100
+|turn|17
+|
+|t:|1758357105
+|move|p1a: Tornadus|Knock Off|p2a: Assault vest
+|-damage|p2a: Assault vest|84/100
+|-enditem|p2a: Assault vest|Choice Specs|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Assault vest|Thunder|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Assault vest|90/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758357110
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|18
+|c|☆heal_fire|no! my assault vest!
+|
+|t:|1758357124
+|move|p1a: Gholdengo|Shadow Ball|p2a: Assault vest
+|-damage|p2a: Assault vest|54/100
+|move|p2a: Assault vest|Thunder|p1a: Gholdengo
+|-damage|p1a: Gholdengo|30/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gholdengo|36/100|[from] Grassy Terrain
+|-heal|p2a: Assault vest|60/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1758357131
+|move|p1a: Gholdengo|Shadow Ball|p2a: Assault vest
+|-damage|p2a: Assault vest|25/100
+|move|p2a: Assault vest|Thunder|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|none
+|upkeep
+|
+|t:|1758357133
+|switch|p1a: Swords Dance|Rillaboom, F|36/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Swords Dance
+|turn|20
+|
+|t:|1758357137
+|move|p1a: Swords Dance|Grassy Glide|p2a: Assault vest
+|-resisted|p2a: Assault vest
+|-damage|p2a: Assault vest|3/100
+|-damage|p1a: Swords Dance|26/100|[from] item: Life Orb
+|move|p2a: Assault vest|Thunderclap||[still]
+|-fail|p2a: Assault vest
+|
+|-heal|p1a: Swords Dance|32/100|[from] Grassy Terrain
+|-heal|p2a: Assault vest|9/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1758357144
+|move|p1a: Swords Dance|Grassy Glide|p2a: Assault vest
+|-resisted|p2a: Assault vest
+|-damage|p2a: Assault vest|0 fnt
+|faint|p2a: Assault vest
+|-end|p2a: Assault vest|Protosynthesis|[silent]
+|-damage|p1a: Swords Dance|22/100|[from] item: Life Orb
+|
+|-heal|p1a: Swords Dance|28/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758357146
+|switch|p2a: Mad max|Iron Treads|91/100
+|turn|22
+|
+|t:|1758357152
+|-terastallize|p2a: Mad max|Ghost
+|move|p1a: Swords Dance|Grassy Glide|p2a: Mad max
+|-damage|p2a: Mad max|41/100
+|-damage|p1a: Swords Dance|18/100|[from] item: Life Orb
+|move|p2a: Mad max|Earthquake|p1a: Swords Dance
+|-resisted|p1a: Swords Dance
+|-damage|p1a: Swords Dance|5/100
+|
+|-heal|p2a: Mad max|47/100|[from] Grassy Terrain
+|-heal|p1a: Swords Dance|11/100|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|t:|1758357159
+|move|p1a: Swords Dance|Grassy Glide|p2a: Mad max
+|-damage|p2a: Mad max|1/100
+|-damage|p1a: Swords Dance|1/100|[from] item: Life Orb
+|move|p2a: Mad max|Earthquake|p1a: Swords Dance
+|-resisted|p1a: Swords Dance
+|-damage|p1a: Swords Dance|0 fnt
+|faint|p1a: Swords Dance
+|
+|win|heal_fire
+|raw|ballerbrandceo's rating: 1230 &rarr; <strong>1209</strong><br />(-21 for losing)
+|raw|heal_fire's rating: 1283 &rarr; <strong>1304</strong><br />(+21 for winning)
+|l|☆ballerbrandceo
+|player|p1|
+|c|☆heal_fire|gg
+|l|☆heal_fire
+|player|p2|

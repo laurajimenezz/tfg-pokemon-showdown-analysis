@@ -1,0 +1,418 @@
+|j|☆snoppp
+|j|☆mucino
+|t:|1758345974
+|gametype|singles
+|player|p1|snoppp|bruno|1292
+|player|p2|mucino|1|1293
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, M|
+|poke|p1|Araquanid, M|
+|poke|p1|Great Tusk|
+|poke|p1|Pecharunt|
+|poke|p1|Garganacl, F|
+|poke|p1|Iron Moth|
+|poke|p2|Clodsire, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Chandelure, F|
+|poke|p2|Primarina, M|
+|poke|p2|Grimmsnarl, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mucino)
+|
+|t:|1758345985
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|turn|1
+|
+|t:|1758345990
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Araquanid|Sticky Web|p2a: Kingambit
+|-sidestart|p2: mucino|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1758345994
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Araquanid|Lunge|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|95/100
+|-unboost|p2a: Dragonite|atk|1
+|
+|upkeep
+|turn|3
+|
+|t:|1758345997
+|move|p2a: Dragonite|Aerial Ace|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|47/100
+|move|p1a: Araquanid|Lunge|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|83/100
+|-unboost|p2a: Dragonite|atk|1
+|
+|upkeep
+|turn|4
+|
+|t:|1758346002
+|move|p2a: Dragonite|Aerial Ace|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|11/100
+|move|p1a: Araquanid|Endeavor|p2a: Dragonite
+|-damage|p2a: Dragonite|12/100
+|
+|upkeep
+|turn|5
+|-enditem|p1a: Araquanid|Custap Berry|[eat]
+|-activate|p1a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1758346011
+|move|p1a: Araquanid|Lunge|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1758346018
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|-activate|p2a: Chandelure|move: Sticky Web
+|-unboost|p2a: Chandelure|spe|1
+|turn|6
+|
+|t:|1758346022
+|move|p2a: Chandelure|Shadow Ball|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1758346031
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|turn|7
+|
+|t:|1758346036
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-activate|p2a: Grimmsnarl|move: Sticky Web
+|-unboost|p2a: Grimmsnarl|spe|1
+|move|p1a: Garganacl|Salt Cure|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|84/100
+|-start|p2a: Grimmsnarl|Salt Cure
+|
+|-damage|p2a: Grimmsnarl|72/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1758346044
+|move|p2a: Grimmsnarl|Taunt|p1a: Garganacl
+|-start|p1a: Garganacl|move: Taunt
+|move|p1a: Garganacl|Earthquake|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|41/100
+|
+|-damage|p2a: Grimmsnarl|29/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1758346048
+|switch|p2a: Primarina|Primarina, M|100/100
+|-activate|p2a: Primarina|move: Sticky Web
+|-unboost|p2a: Primarina|spe|1
+|move|p1a: Garganacl|Earthquake|p2a: Primarina
+|-damage|p2a: Primarina|72/100
+|
+|upkeep
+|turn|10
+|
+|t:|1758346060
+|move|p1a: Garganacl|Salt Cure|p2a: Primarina
+|-damage|p2a: Primarina|55/100
+|-start|p2a: Primarina|Salt Cure
+|move|p2a: Primarina|Hyper Voice|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|13/100
+|
+|-heal|p1a: Garganacl|19/100|[from] item: Leftovers
+|-damage|p2a: Primarina|30/100|[from] Salt Cure
+|-end|p1a: Garganacl|move: Taunt
+|upkeep
+|turn|11
+|
+|t:|1758346067
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Primarina|Moonblast|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|82/100
+|
+|-damage|p2a: Primarina|5/100|[from] Salt Cure
+|upkeep
+|turn|12
+|
+|t:|1758346071
+|move|p1a: Pecharunt|Parting Shot|p2a: Primarina
+|-unboost|p2a: Primarina|atk|1
+|-unboost|p2a: Primarina|spa|1
+|
+|t:|1758346077
+|switch|p1a: Serperior|Serperior, M|100/100|[from] Parting Shot
+|move|p2a: Primarina|Hyper Voice|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|80/100
+|
+|-heal|p1a: Serperior|86/100|[from] item: Leftovers
+|-damage|p2a: Primarina|0 fnt|[from] Salt Cure
+|faint|p2a: Primarina
+|upkeep
+|
+|t:|1758346081
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|29/100
+|-activate|p2a: Grimmsnarl|move: Sticky Web
+|-unboost|p2a: Grimmsnarl|spe|1
+|turn|13
+|
+|t:|1758346085
+|move|p2a: Grimmsnarl|Taunt|p1a: Serperior
+|-start|p1a: Serperior|move: Taunt
+|move|p1a: Serperior|Leaf Storm|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Grimmsnarl
+|
+|-heal|p1a: Serperior|92/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758346088
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|-activate|p2a: Clodsire|move: Sticky Web
+|-unboost|p2a: Clodsire|spe|1
+|turn|14
+|
+|t:|1758346092
+|switch|p1a: Garganacl|Garganacl, F|19/100
+|move|p2a: Clodsire|Toxic|p1a: Garganacl
+|-immune|p1a: Garganacl|[from] ability: Purifying Salt
+|
+|-heal|p1a: Garganacl|25/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758346094
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|75/100
+|move|p2a: Clodsire|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|39/100
+|
+|-heal|p1a: Garganacl|45/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758346097
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|-activate|p2a: Chandelure|move: Sticky Web
+|-unboost|p2a: Chandelure|spe|1
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|96/100
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758346100
+|move|p2a: Chandelure|Trick|p1a: Garganacl
+|-activate|p2a: Chandelure|move: Trick|[of] p1a: Garganacl
+|-item|p1a: Garganacl|Choice Scarf|[from] move: Trick
+|-item|p2a: Chandelure|Leftovers|[from] move: Trick
+|move|p1a: Garganacl|Salt Cure|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|63/100
+|-start|p2a: Chandelure|Salt Cure
+|
+|-heal|p2a: Chandelure|69/100|[from] item: Leftovers
+|-damage|p2a: Chandelure|57/100|[from] Salt Cure
+|upkeep
+|turn|18
+|
+|t:|1758346109
+|-terastallize|p2a: Chandelure|Grass
+|move|p2a: Chandelure|Energy Ball|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|1/100
+|move|p1a: Garganacl|Salt Cure|p2a: Chandelure
+|-damage|p2a: Chandelure|37/100
+|
+|-heal|p2a: Chandelure|43/100|[from] item: Leftovers
+|-damage|p2a: Chandelure|31/100|[from] Salt Cure
+|upkeep
+|turn|19
+|
+|t:|1758346116
+|move|p2a: Chandelure|Shadow Ball|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-heal|p2a: Chandelure|37/100|[from] item: Leftovers
+|-damage|p2a: Chandelure|25/100|[from] Salt Cure
+|upkeep
+|
+|t:|1758346121
+|switch|p1a: Serperior|Serperior, M|92/100
+|turn|20
+|
+|t:|1758346123
+|move|p1a: Serperior|Leaf Storm|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Chandelure
+|
+|-heal|p1a: Serperior|98/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758346126
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|-activate|p2a: Clodsire|move: Sticky Web
+|-unboost|p2a: Clodsire|spe|1
+|turn|21
+|
+|t:|1758346129
+|move|p1a: Serperior|Glare|p2a: Clodsire
+|-status|p2a: Clodsire|par
+|move|p2a: Clodsire|Toxic|p1a: Serperior
+|-status|p1a: Serperior|tox
+|
+|-heal|p1a: Serperior|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Serperior|94/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1758346132
+|move|p1a: Serperior|Leaf Storm|p2a: Clodsire
+|-damage|p2a: Clodsire|64/100 par
+|-boost|p1a: Serperior|spa|2
+|cant|p2a: Clodsire|par
+|
+|-heal|p1a: Serperior|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Clodsire|70/100 par|[from] item: Leftovers
+|-damage|p1a: Serperior|88/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1758346138
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Clodsire|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|79/100
+|
+|-heal|p2a: Clodsire|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1758346140
+|move|p1a: Great Tusk|Stealth Rock|p2a: Clodsire
+|-sidestart|p2: mucino|move: Stealth Rock
+|move|p2a: Clodsire|Toxic|p1a: Great Tusk
+|-status|p1a: Great Tusk|tox
+|
+|-heal|p2a: Clodsire|83/100 par|[from] item: Leftovers
+|-damage|p1a: Great Tusk|73/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1758346143
+|move|p1a: Great Tusk|Headlong Rush|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Clodsire
+|
+|-damage|p1a: Great Tusk|61/100 tox|[from] psn
+|upkeep
+|
+|t:|1758346145
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|move: Sticky Web
+|-unboost|p2a: Kingambit|spe|1
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|26
+|
+|t:|1758346149
+|move|p2a: Kingambit|Sucker Punch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|18/100 tox
+|move|p1a: Great Tusk|Headlong Rush|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|6/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-damage|p1a: Great Tusk|0 fnt|[from] psn
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1758346155
+|switch|p1a: Serperior|Serperior, M|88/100 tox
+|turn|27
+|
+|t:|1758346160
+|move|p1a: Serperior|Glare|p2a: Kingambit
+|-status|p2a: Kingambit|par
+|move|p2a: Kingambit|Iron Head|p1a: Serperior
+|-crit|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1758346163
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|28
+|
+|t:|1758346166
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Iron Moth|Substitute|p1a: Iron Moth
+|-start|p1a: Iron Moth|Substitute
+|-damage|p1a: Iron Moth|76/100
+|
+|upkeep
+|turn|29
+|
+|t:|1758346169
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Moth
+|-end|p1a: Iron Moth|Substitute
+|move|p1a: Iron Moth|Fiery Dance|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|snoppp
+|raw|snoppp's rating: 1292 &rarr; <strong>1317</strong><br />(+25 for winning)
+|raw|mucino's rating: 1293 &rarr; <strong>1268</strong><br />(-25 for losing)
+|l|☆mucino
+|player|p2|
+|l|☆snoppp
+|player|p1|

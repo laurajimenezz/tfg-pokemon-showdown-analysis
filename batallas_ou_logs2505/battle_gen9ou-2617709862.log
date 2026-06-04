@@ -1,0 +1,195 @@
+|j|☆skarmory_oshiku
+|j|☆haricane
+|t:|1779725315
+|gametype|singles
+|player|p1|skarmory_oshiku|lucas|1326
+|player|p2|haricane|hilbert|1311
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Garchomp, F|
+|poke|p1|Quaquaval, M|
+|poke|p1|Pecharunt|
+|poke|p1|Latios, M|
+|poke|p1|Kingambit, M|
+|poke|p2|Iron Thorns|
+|poke|p2|Dragapult, M|
+|poke|p2|Latias, F|
+|poke|p2|Pawmot, M|
+|poke|p2|Noivern, M|
+|poke|p2|Armarouge, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by haricane)
+|
+|t:|1779725328
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|switch|p2a: Iron Thorns|Iron Thorns, shiny|100/100
+|-enditem|p2a: Iron Thorns|Booster Energy
+|-activate|p2a: Iron Thorns|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Thorns|quarkdriveatk
+|turn|1
+|
+|t:|1779725340
+|move|p1a: Araquanid|Endure|p1a: Araquanid
+|-singleturn|p1a: Araquanid|move: Endure
+|move|p2a: Iron Thorns|Dragon Dance|p2a: Iron Thorns
+|-boost|p2a: Iron Thorns|atk|1
+|-boost|p2a: Iron Thorns|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1779725347
+|-terastallize|p2a: Iron Thorns|Flying
+|move|p2a: Iron Thorns|Supercell Slam|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1779725360
+|switch|p1a: Quaquaval|Quaquaval, M|100/100
+|turn|3
+|
+|t:|1779725363
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Iron Thorns|Supercell Slam|p1a: Garchomp
+|-immune|p1a: Garchomp
+|-damage|p2a: Iron Thorns|51/100|[from] supercellslam
+|
+|upkeep
+|turn|4
+|
+|t:|1779725370
+|move|p2a: Iron Thorns|Ice Punch|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Iron Thorns|38/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1779725376
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-item|p1a: Pecharunt|Air Balloon
+|turn|5
+|
+|t:|1779725380
+|move|p2a: Iron Thorns|Supercell Slam|p1a: Pecharunt
+|-damage|p1a: Pecharunt|35/100
+|-enditem|p1a: Pecharunt|Air Balloon
+|move|p1a: Pecharunt|Malignant Chain|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|0 fnt
+|faint|p2a: Iron Thorns
+|-end|p2a: Iron Thorns|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779725391
+|switch|p2a: Latias|Latias, F|100/100
+|turn|6
+|
+|t:|1779725394
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Latias|Shadow Ball|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|89/100
+|
+|upkeep
+|turn|7
+|
+|t:|1779725406
+|switch|p2a: Noivern|Noivern, M|100/100
+|-item|p1a: Kingambit|Black Glasses|[from] ability: Frisk|[of] p2a: Noivern
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Noivern
+|-damage|p2a: Noivern|21/100
+|
+|upkeep
+|turn|8
+|
+|t:|1779725414
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Noivern|Switcheroo|p1a: Kingambit
+|-activate|p2a: Noivern|move: Trick|[of] p1a: Kingambit
+|-item|p1a: Kingambit|Choice Specs|[from] move: Switcheroo
+|-item|p2a: Noivern|Black Glasses|[from] move: Switcheroo
+|
+|upkeep
+|turn|9
+|
+|t:|1779725434
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Noivern|Defog|p1a: Kingambit
+|-unboost|p1a: Kingambit|evasion|1
+|
+|upkeep
+|turn|10
+|
+|t:|1779725443
+|switch|p2a: Latias|Latias, F|100/100
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Pecharunt|Pecharunt|35/100
+|
+|upkeep
+|turn|11
+|
+|t:|1779725449
+|move|p2a: Latias|Shadow Ball|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1779725452
+|switch|p1a: Kingambit|Kingambit, M|89/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|12
+|
+|t:|1779725462
+|switch|p2a: Noivern|Noivern, M|21/100
+|-item|p1a: Kingambit|Choice Specs|[from] ability: Frisk|[of] p2a: Noivern
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|t:|1779725472
+|switch|p2a: Pawmot|Pawmot, M, shiny|100/100
+|turn|13
+|
+|t:|1779725476
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Pawmot|Revival Blessing|p2a: Pawmot
+|-enditem|p2a: Pawmot|Leppa Berry|[eat]
+|-activate|p2a: Pawmot|item: Leppa Berry|Revival Blessing|[consumed]
+|-message|skarmory_oshiku forfeited.
+|
+|win|haricane
+|raw|skarmory_oshiku's rating: 1326 &rarr; <strong>1305</strong><br />(-21 for losing)
+|raw|haricane's rating: 1311 &rarr; <strong>1332</strong><br />(+21 for winning)
+|l|☆skarmory_oshiku
+|player|p1|
+|l|☆haricane
+|player|p2|

@@ -1,0 +1,341 @@
+|j|☆MechaSixVII
+|j|☆merlibergeron
+|t:|1769293563
+|gametype|singles
+|player|p1|MechaSixVII|1|1228
+|player|p2|merlibergeron|169|1199
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gengar, F|
+|poke|p1|Kleavor, F|
+|poke|p1|Porygon-Z|
+|poke|p1|Scizor, M|
+|poke|p1|Malamar, F|
+|poke|p1|Mimikyu, M|
+|poke|p2|Trevenant, M|
+|poke|p2|Heatran, F|
+|poke|p2|Walking Wake|
+|poke|p2|Dragonite, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Ceruledge, F|
+|teampreview
+|
+|t:|1769293582
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Malamar|Malamar, F|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-enditem|p2a: Walking Wake|Booster Energy
+|-activate|p2a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|1
+|
+|t:|1769293595
+|move|p1a: Malamar|Destiny Bond|p1a: Malamar
+|-singlemove|p1a: Malamar|Destiny Bond
+|move|p2a: Walking Wake|Sunny Day|p2a: Walking Wake
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1769293603
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1769293613
+|move|p2a: Walking Wake|Hydro Steam|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769293624
+|switch|p1a: Malamar|Malamar, F|100/100
+|turn|4
+|
+|t:|1769293633
+|move|p1a: Malamar|Destiny Bond|p1a: Malamar
+|-singlemove|p1a: Malamar|Destiny Bond
+|move|p2a: Walking Wake|Hydro Steam|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|-activate|p1a: Malamar|move: Destiny Bond
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769293645
+|switch|p2a: Heatran|Heatran, F|100/100
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|5
+|
+|t:|1769293656
+|move|p1a: Kleavor|Stone Axe|p2a: Heatran
+|-damage|p2a: Heatran|56/100
+|-enditem|p2a: Heatran|Air Balloon
+|-sidestart|p2: merlibergeron|move: Stealth Rock
+|move|p2a: Heatran|Will-O-Wisp|p1a: Kleavor
+|-status|p1a: Kleavor|brn
+|-enditem|p1a: Kleavor|Lum Berry|[eat]
+|-curestatus|p1a: Kleavor|brn|[msg]
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1769293674
+|move|p1a: Kleavor|Stone Axe|p2a: Heatran
+|-damage|p2a: Heatran|13/100
+|move|p2a: Heatran|Will-O-Wisp|p1a: Kleavor
+|-status|p1a: Kleavor|brn
+|
+|-damage|p1a: Kleavor|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1769293695
+|move|p1a: Kleavor|Stone Axe|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-damage|p1a: Kleavor|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1769293710
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kleavor|atk|1
+|turn|8
+|
+|t:|1769293718
+|move|p2a: Landorus|Stealth Rock|p1a: Kleavor
+|-sidestart|p1: MechaSixVII|move: Stealth Rock
+|move|p1a: Kleavor|Night Slash|p2a: Landorus
+|-damage|p2a: Landorus|76/100
+|
+|-heal|p2a: Landorus|82/100|[from] item: Leftovers
+|-damage|p1a: Kleavor|82/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1769293728
+|switch|p1a: Gengar|Gengar, F|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-start|p2a: Landorus|Disable|Earthquake|[from] ability: Cursed Body|[of] p1a: Gengar
+|faint|p1a: Gengar
+|
+|-heal|p2a: Landorus|89/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769293740
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1769293747
+|move|p2a: Landorus|Taunt|p1a: Scizor
+|-start|p1a: Scizor|move: Taunt
+|move|p1a: Scizor|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|53/100
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Scizor
+|
+|upkeep
+|turn|11
+|
+|t:|1769293758
+|move|p1a: Scizor|Bullet Punch|p2a: Landorus
+|-damage|p2a: Landorus|24/100
+|move|p2a: Landorus|U-turn|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|78/100
+|
+|t:|1769293765
+|switch|p2a: Ceruledge|Ceruledge, F|100/100|[from] U-turn
+|-damage|p2a: Ceruledge|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|t:|1769293773
+|-terastallize|p1a: Scizor|Flying
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Scizor|Dual Wingbeat|p2a: Ceruledge
+|-damage|p2a: Ceruledge|24/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|-hitcount|p2: Ceruledge|2
+|
+|-end|p1a: Scizor|move: Taunt
+|upkeep
+|
+|t:|1769293784
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1769293792
+|move|p2a: Dragonite|Scale Shot|p1a: Scizor
+|-damage|p1a: Scizor|63/100
+|-damage|p1a: Scizor|48/100
+|-damage|p1a: Scizor|32/100
+|-damage|p1a: Scizor|18/100
+|-damage|p1a: Scizor|5/100
+|-hitcount|p1a: Scizor|5
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Scizor|Dual Wingbeat|p2a: Dragonite
+|-damage|p2a: Dragonite|24/100
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-hitcount|p2: Dragonite|2
+|
+|upkeep
+|
+|t:|1769293805
+|switch|p2a: Landorus|Landorus-Therian, M|24/100
+|-damage|p2a: Landorus|11/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|turn|14
+|
+|t:|1769293812
+|move|p1a: Scizor|Bullet Punch|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1769293815
+|switch|p2a: Trevenant|Trevenant, M|100/100
+|-damage|p2a: Trevenant|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1769293821
+|-terastallize|p2a: Trevenant|Dark
+|move|p1a: Scizor|Dual Wingbeat|p2a: Trevenant
+|-damage|p2a: Trevenant|61/100
+|-damage|p2a: Trevenant|33/100
+|-enditem|p2a: Trevenant|Sitrus Berry|[eat]
+|-heal|p2a: Trevenant|58/100|[from] item: Sitrus Berry
+|-hitcount|p2a: Trevenant|2
+|move|p2a: Trevenant|Leech Seed|p1a: Scizor
+|-start|p1a: Scizor|move: Leech Seed
+|
+|-damage|p1a: Scizor|0 fnt|[from] Leech Seed|[of] p2a: Trevenant
+|-heal|p2a: Trevenant|62/100|[silent]
+|faint|p1a: Scizor
+|upkeep
+|
+|t:|1769293837
+|switch|p1a: Porygon-Z|Porygon-Z|100/100
+|-damage|p1a: Porygon-Z|88/100|[from] Stealth Rock
+|-item|p1a: Porygon-Z|Air Balloon
+|turn|16
+|
+|t:|1769293843
+|move|p1a: Porygon-Z|Tri Attack|p2a: Trevenant
+|-damage|p2a: Trevenant|19/100
+|move|p2a: Trevenant|Toxic|p1a: Porygon-Z|[miss]
+|-miss|p2a: Trevenant|p1a: Porygon-Z
+|
+|-item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Trevenant|Sitrus Berry|[eat]
+|-heal|p2a: Trevenant|44/100|[from] item: Sitrus Berry
+|turn|17
+|
+|t:|1769293854
+|move|p2a: Trevenant|Protect|p2a: Trevenant
+|-singleturn|p2a: Trevenant|Protect
+|move|p1a: Porygon-Z|Tri Attack|p2a: Trevenant
+|-activate|p2a: Trevenant|move: Protect
+|
+|-item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Trevenant|Sitrus Berry|[eat]
+|-heal|p2a: Trevenant|69/100|[from] item: Sitrus Berry
+|turn|18
+|
+|t:|1769293865
+|move|p1a: Porygon-Z|Tri Attack|p2a: Trevenant
+|-damage|p2a: Trevenant|30/100
+|move|p2a: Trevenant|Toxic|p1a: Porygon-Z
+|-status|p1a: Porygon-Z|tox
+|
+|-damage|p1a: Porygon-Z|82/100 tox|[from] psn
+|-item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Trevenant|Sitrus Berry|[eat]
+|-heal|p2a: Trevenant|55/100|[from] item: Sitrus Berry
+|turn|19
+|
+|t:|1769293879
+|move|p1a: Porygon-Z|Nasty Plot|p1a: Porygon-Z
+|-boost|p1a: Porygon-Z|spa|2
+|move|p2a: Trevenant|Leech Seed|p1a: Porygon-Z
+|-start|p1a: Porygon-Z|move: Leech Seed
+|
+|-damage|p1a: Porygon-Z|70/100 tox|[from] Leech Seed|[of] p2a: Trevenant
+|-heal|p2a: Trevenant|65/100|[silent]
+|-damage|p1a: Porygon-Z|58/100 tox|[from] psn
+|-item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|20
+|
+|t:|1769293890
+|move|p2a: Trevenant|Protect|p2a: Trevenant
+|-singleturn|p2a: Trevenant|Protect
+|move|p1a: Porygon-Z|Nasty Plot|p1a: Porygon-Z
+|-boost|p1a: Porygon-Z|spa|2
+|
+|-damage|p1a: Porygon-Z|46/100 tox|[from] Leech Seed|[of] p2a: Trevenant
+|-heal|p2a: Trevenant|75/100|[silent]
+|-damage|p1a: Porygon-Z|27/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1769293899
+|move|p2a: Trevenant|Protect||[still]
+|-fail|p2a: Trevenant
+|move|p1a: Porygon-Z|Tri Attack|p2a: Trevenant
+|-damage|p2a: Trevenant|0 fnt
+|faint|p2a: Trevenant
+|
+|win|MechaSixVII
+|raw|MechaSixVII's rating: 1228 &rarr; <strong>1251</strong><br />(+23 for winning)
+|raw|merlibergeron's rating: 1199 &rarr; <strong>1176</strong><br />(-23 for losing)
+|l|☆merlibergeron
+|player|p2|

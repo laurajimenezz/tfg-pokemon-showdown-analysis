@@ -1,0 +1,180 @@
+|j|‽Chahess03
+|j|☆drmomhunter
+|t:|1769441072
+|gametype|singles
+|player|p1|Chahess03|169|1103
+|player|p2|drmomhunter|karen|1134
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Staraptor, F|
+|poke|p1|Lucario, M|
+|poke|p1|Dugtrio-Alola, F|
+|poke|p1|Mabosstiff, M|
+|poke|p1|Honchkrow, M|
+|poke|p1|Quaquaval, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by drmomhunter)
+|
+|t:|1769441082
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Lucario|Lucario, M|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1769441095
+|move|p1a: Lucario|Final Gambit|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p1a: Lucario
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769441108
+|switch|p1a: Honchkrow|Honchkrow, M|100/100
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|2
+|
+|t:|1769441113
+|move|p1a: Honchkrow|Sucker Punch|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|1/100
+|move|p2a: Basculegion|Wave Crash|p1a: Honchkrow
+|-damage|p1a: Honchkrow|0 fnt
+|faint|p1a: Honchkrow
+|-damage|p2a: Basculegion|0 fnt|[from] Recoil
+|faint|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769441122
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p1a: Dugtrio|Dugtrio-Alola, F|100/100
+|turn|3
+|
+|t:|1769441133
+|move|p1a: Dugtrio|Final Gambit|p2a: Ogerpon
+|-damage|p2a: Ogerpon|9/100
+|faint|p1a: Dugtrio
+|move|p2a: Ogerpon|Ivy Cudgel|p1: Dugtrio|[notarget]
+|-fail|p2a: Ogerpon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769441163
+|switch|p1a: Mabosstiff|Mabosstiff, M|100/100
+|turn|4
+|
+|t:|1769441171
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Mabosstiff|[anim] Ivy Cudgel Water
+|-enditem|p1a: Mabosstiff|Focus Sash
+|-damage|p1a: Mabosstiff|1/100
+|move|p1a: Mabosstiff|Trailblaze|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-boost|p1a: Mabosstiff|spe|1
+|faint|p2a: Ogerpon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769441186
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|5
+|
+|t:|1769441195
+|move|p2a: Iron Valiant|Moonblast|p1a: Mabosstiff
+|-supereffective|p1a: Mabosstiff
+|-crit|p1a: Mabosstiff
+|-damage|p1a: Mabosstiff|0 fnt
+|faint|p1a: Mabosstiff
+|
+|-weather|none
+|upkeep
+|
+|t:|1769441201
+|switch|p1a: Quaquaval|Quaquaval, M|100/100
+|turn|6
+|
+|t:|1769441206
+|-terastallize|p1a: Quaquaval|Water
+|move|p2a: Iron Valiant|Moonblast|p1a: Quaquaval
+|-damage|p1a: Quaquaval|33/100
+|-unboost|p1a: Quaquaval|spa|1
+|move|p1a: Quaquaval|Aqua Step|p2a: Iron Valiant
+|-crit|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1769441214
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|7
+|
+|t:|1769441226
+|-terastallize|p2a: Corviknight|Dragon
+|move|p1a: Quaquaval|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100
+|-unboost|p1a: Quaquaval|def|1
+|-unboost|p1a: Quaquaval|spd|1
+|-damage|p1a: Quaquaval|16/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|-damage|p2a: Corviknight|47/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1769441231
+|switch|p1a: Staraptor|Staraptor, F|100/100
+|turn|8
+|
+|t:|1769441238
+|move|p1a: Staraptor|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|28/100
+|-unboost|p1a: Staraptor|def|1
+|-unboost|p1a: Staraptor|spd|1
+|-damage|p1a: Staraptor|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|78/100
+|
+|upkeep
+|turn|9
+|-message|Chahess03 forfeited.
+|
+|win|drmomhunter
+|raw|Chahess03's rating: 1103 &rarr; <strong>1080</strong><br />(-23 for losing)
+|raw|drmomhunter's rating: 1134 &rarr; <strong>1157</strong><br />(+23 for winning)
+|l|‽Chahess03
+|player|p1|
+|l|☆drmomhunter
+|player|p2|

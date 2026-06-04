@@ -1,0 +1,265 @@
+|j|☆Gypsoph1la
+|j|☆torterrerfeller
+|t:|1759065781
+|gametype|singles
+|player|p1|Gypsoph1la|n|1440
+|player|p2|torterrerfeller|blue|1450
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Greninja-*, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Sandy Shocks|
+|poke|p1|Scizor, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Kyurem|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Glimmora, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by torterrerfeller)
+|inactive|Gypsoph1la also wants the timer to be on.
+|
+|t:|1759065796
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-ability|p2a: Kyurem|Pressure
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1759065812
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Sandy Shocks|atk|1
+|move|p1a: Sandy Shocks|Stealth Rock|p2a: Landorus
+|-sidestart|p2: torterrerfeller|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1759065818
+|-terastallize|p1a: Sandy Shocks|Ice
+|move|p1a: Sandy Shocks|Tera Blast|p2a: Landorus|[anim] Tera Blast Ice
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1759065822
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|-damage|p2a: Glimmora|88/100|[from] Stealth Rock
+|turn|3
+|
+|t:|1759065831
+|move|p1a: Sandy Shocks|Earth Power|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1759065851
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|4
+|
+|t:|1759065856
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: Kingambit
+|-damage|p2a: Kingambit|48/100
+|-enditem|p2a: Kingambit|Air Balloon
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1759065863
+|move|p2a: Kingambit|Sucker Punch|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1759065871
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|6
+|
+|t:|1759065895
+|-terastallize|p2a: Kingambit|Ghost
+|move|p2a: Kingambit|Sucker Punch|p1a: Scizor
+|-damage|p1a: Scizor|4/100
+|move|p1a: Scizor|Close Combat|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|upkeep
+|turn|7
+|
+|t:|1759065903
+|move|p1a: Scizor|Bullet Punch|p2a: Kingambit
+|-damage|p2a: Kingambit|10/100
+|-damage|p1a: Scizor|0 fnt|[from] item: Life Orb
+|faint|p1a: Scizor
+|move|p2a: Kingambit|Low Kick|p1: Scizor|[notarget]
+|-fail|p2a: Kingambit
+|
+|upkeep
+|
+|t:|1759065907
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|8
+|
+|t:|1759065914
+|move|p2a: Kingambit|Iron Head|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|44/100
+|cant|p1a: Pelipper|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1759065919
+|move|p2a: Kingambit|Iron Head|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759065924
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|10
+|
+|t:|1759065927
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|move|p1a: Greninja|Water Shuriken|p2a: Ogerpon
+|-heal|p2a: Ogerpon|100/100|[from] ability: Water Absorb|[of] p1a: Greninja
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1759065934
+|move|p1a: Greninja|Dark Pulse|p2a: Ogerpon
+|-damage|p2a: Ogerpon|50/100
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|cant|p2a: Ogerpon|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1759065944
+|switch|p2a: Kingambit|Kingambit, M, tera:Ghost|10/100
+|-damage|p2a: Kingambit|0 fnt|[from] Stealth Rock
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Greninja|Dark Pulse|p2: Kingambit|[notarget]
+|-fail|p1a: Greninja
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759065955
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|13
+|
+|t:|1759065958
+|move|p2a: Kyurem|Freeze-Dry|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759065974
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|14
+|
+|t:|1759065981
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Enamorus
+|-immune|p2a: Enamorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1759065985
+|move|p2a: Enamorus|Earth Power|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|44/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-weather|none
+|upkeep
+|
+|t:|1759065992
+|switch|p2a: Kyurem|Kyurem, shiny|76/100
+|-damage|p2a: Kyurem|51/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|16
+|
+|t:|1759065998
+|move|p1a: Raging Bolt|Thunderclap|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|25/100
+|move|p2a: Kyurem|Freeze-Dry|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1759066000
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|turn|17
+|
+|t:|1759066005
+|move|p2a: Kyurem|Freeze-Dry|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-crit|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|win|torterrerfeller
+|raw|Gypsoph1la's rating: 1440 &rarr; <strong>1421</strong><br />(-19 for losing)
+|raw|torterrerfeller's rating: 1450 &rarr; <strong>1469</strong><br />(+19 for winning)
+|l|☆Gypsoph1la
+|player|p1|

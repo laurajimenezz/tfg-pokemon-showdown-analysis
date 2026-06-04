@@ -1,0 +1,341 @@
+|j|☆Hybbridd
+|j|☆kyoujic
+|t:|1758342823
+|gametype|singles
+|player|p1|Hybbridd|265|1544
+|player|p2|kyoujic|169|1531
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Pecharunt|
+|poke|p1|Scizor, M|
+|poke|p1|Latios, M|
+|poke|p1|Zamazenta-*|
+|poke|p2|Glimmora, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Iron Moth|
+|poke|p2|Dragonite, F|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1758342842
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|1
+|
+|t:|1758342869
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ogerpon|atk|1
+|move|p2a: Ogerpon|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|91/100
+|-damage|p2a: Ogerpon|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|t:|1758342873
+|switch|p2a: Dragonite|Dragonite, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1758342879
+|move|p1a: Landorus|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|95/100
+|
+|t:|1758342895
+|switch|p1a: Pecharunt|Pecharunt|100/100|[from] U-turn
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1758342904
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Pecharunt|Malignant Chain|p2a: Dragonite
+|-damage|p2a: Dragonite|64/100
+|
+|upkeep
+|turn|4
+|
+|t:|1758342915
+|move|p2a: Dragonite|Earthquake|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|5/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Dragonite
+|-damage|p2a: Dragonite|32/100
+|-status|p2a: Dragonite|tox
+|-start|p2a: Dragonite|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-curestatus|p2a: Dragonite|tox|[msg]
+|-end|p2a: Dragonite|confusion
+|
+|upkeep
+|turn|5
+|
+|t:|1758342926
+|switch|p1a: Landorus|Landorus-Therian, M|91/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|move|p2a: Dragonite|Ice Spinner|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Dragonite|16/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1758342947
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|6
+|
+|t:|1758342951
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Samurott|Ceaseless Edge|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-sidestart|p2: kyoujic|Spikes
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1758342955
+|switch|p2a: The Witch|Hatterene, F|100/100
+|-damage|p2a: The Witch|88/100|[from] Spikes
+|turn|7
+|
+|t:|1758342976
+|-terastallize|p1a: Samurott|Ground
+|move|p1a: Samurott|Ceaseless Edge|p2a: The Witch
+|-damage|p2a: The Witch|45/100
+|-sidestart|p2: kyoujic|Spikes
+|move|p2a: The Witch|Calm Mind|p2a: The Witch
+|-boost|p2a: The Witch|spa|1
+|-boost|p2a: The Witch|spd|1
+|
+|-heal|p2a: The Witch|51/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758342987
+|move|p1a: Samurott|Knock Off|p2a: The Witch
+|-damage|p2a: The Witch|7/100
+|-enditem|p2a: The Witch|Leftovers|[from] move: Knock Off|[of] p1a: Samurott
+|move|p2a: The Witch|Draining Kiss|p1a: Samurott
+|-damage|p1a: Samurott|66/100
+|-heal|p2a: The Witch|35/100|[from] drain|[of] p1a: Samurott
+|
+|upkeep
+|turn|9
+|
+|t:|1758342995
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-damage|p2a: Glimmora|84/100|[from] Spikes
+|move|p1a: Samurott|Ceaseless Edge|p2a: Glimmora
+|-damage|p2a: Glimmora|20/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Hybbridd|move: Toxic Spikes
+|-sidestart|p2: kyoujic|Spikes
+|
+|upkeep
+|turn|10
+|
+|t:|1758343004
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Glimmora|Energy Ball|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|89/100
+|
+|upkeep
+|turn|11
+|
+|t:|1758343021
+|move|p2a: Glimmora|Power Gem|p1a: Scizor
+|-damage|p1a: Scizor|22/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1758343026
+|move|p1a: Scizor|Bullet Punch|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Hybbridd|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1758343028
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|76/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|13
+|
+|t:|1758343034
+|move|p2a: Kingambit|Sucker Punch|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1758343038
+|switch|p1a: Pecharunt|Pecharunt|5/100
+|-sideend|p1: Hybbridd|move: Toxic Spikes|[of] p1a: Pecharunt
+|turn|14
+|
+|t:|1758343041
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Pecharunt|Parting Shot|p2a: Kingambit
+|-unboost|p2a: Kingambit|atk|1
+|-unboost|p2a: Kingambit|spa|1
+|
+|t:|1758343045
+|switch|p1a: Samurott|Samurott-Hisui, M, tera:Ground|66/100|[from] Parting Shot
+|
+|upkeep
+|turn|15
+|
+|t:|1758343049
+|move|p1a: Samurott|Razor Shell|p2a: Kingambit
+|-damage|p2a: Kingambit|30/100
+|-unboost|p2a: Kingambit|def|1
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|16
+|
+|t:|1758343066
+|switch|p1a: Pecharunt|Pecharunt|5/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|upkeep
+|turn|17
+|
+|t:|1758343073
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|55/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1758343087
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|18
+|
+|t:|1758343095
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|76/100|[from] Spikes
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|upkeep
+|turn|19
+|
+|t:|1758343103
+|-terastallize|p2a: Iron Moth|Fairy
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|27/100
+|move|p1a: Zamazenta|Roar|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|drag|p2a: Kingambit|Kingambit, F|30/100
+|-damage|p2a: Kingambit|5/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|
+|-heal|p1a: Zamazenta|33/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1758343109
+|move|p1a: Zamazenta|Body Press|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|-heal|p1a: Zamazenta|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758343111
+|switch|p2a: Iron Moth|Iron Moth, tera:Fairy|76/100
+|-damage|p2a: Iron Moth|51/100|[from] Spikes
+|turn|21
+|
+|t:|1758343119
+|move|p1a: Zamazenta|Body Press|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p1a: Zamazenta|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758343122
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|84/100
+|-damage|p2a: Ogerpon|59/100|[from] Spikes
+|turn|22
+|
+|t:|1758343128
+|move|p1a: Zamazenta|Body Press|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-heal|p1a: Zamazenta|52/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758343130
+|switch|p2a: The Witch|Hatterene, F|35/100
+|-damage|p2a: The Witch|10/100|[from] Spikes
+|turn|23
+|
+|t:|1758343134
+|move|p1a: Zamazenta|Body Press|p2a: The Witch
+|-resisted|p2a: The Witch
+|-damage|p2a: The Witch|0 fnt
+|faint|p2a: The Witch
+|
+|win|Hybbridd
+|raw|Hybbridd's rating: 1544 &rarr; <strong>1563</strong><br />(+19 for winning)
+|raw|kyoujic's rating: 1531 &rarr; <strong>1512</strong><br />(-19 for losing)
+|l|☆kyoujic
+|player|p2|
+|l|☆Hybbridd
+|player|p1|

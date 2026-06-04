@@ -1,0 +1,315 @@
+|j|☆JILIULONG
+|j|☆NoNSket
+|t:|1760852426
+|gametype|singles
+|player|p1|JILIULONG|wallace|1188
+|player|p2|NoNSket|265|1148
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Darkrai|
+|poke|p1|Scizor, M|
+|poke|p1|Pecharunt|
+|poke|p1|Kommo-o, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Porygon2|
+|poke|p2|Mimikyu, M|
+|poke|p2|Venusaur, M|
+|poke|p2|Skarmory, F|
+|poke|p2|Electrode|
+|poke|p2|Gyarados, M|
+|poke|p2|Kommo-o, M|
+|teampreview
+|
+|t:|1760852440
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1760852452
+|move|p1a: Raging Bolt|Volt Switch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|6/100
+|
+|t:|1760852457
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Scizor|Scizor, M|100/100|[from] Volt Switch
+|-item|p1a: Scizor|Air Balloon
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|
+|upkeep
+|turn|2
+|
+|t:|1760852465
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|56/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1760852474
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|move|p1a: Scizor|Dual Wingbeat|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|51/100
+|-damage|p1a: Scizor|84/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|45/100
+|-damage|p1a: Scizor|67/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-hitcount|p2a: Skarmory|2
+|
+|upkeep
+|turn|4
+|
+|t:|1760852485
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|
+|upkeep
+|turn|5
+|
+|t:|1760852492
+|move|p1a: Raging Bolt|Volt Switch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|t:|1760852497
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Scizor|Scizor, M|67/100|[from] Volt Switch
+|-item|p1a: Scizor|Air Balloon
+|
+|upkeep
+|
+|t:|1760852500
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|turn|6
+|
+|t:|1760852504
+|move|p2a: Mimikyu|Bulk Up|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|1
+|-boost|p2a: Mimikyu|def|1
+|move|p1a: Scizor|Dual Wingbeat|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-damage|p2a: Mimikyu|63/100
+|-hitcount|p2a: Mimikyu|2
+|
+|-heal|p2a: Mimikyu|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760852517
+|move|p1a: Scizor|Bullet Punch|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|upkeep
+|
+|t:|1760852526
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|turn|8
+|
+|t:|1760852532
+|move|p2a: Gyarados|Aqua Tail|p1a: Scizor
+|-damage|p1a: Scizor|13/100
+|-enditem|p1a: Scizor|Air Balloon
+|move|p1a: Scizor|Defog|p2a: Gyarados
+|-unboost|p2a: Gyarados|evasion|1
+|
+|upkeep
+|turn|9
+|
+|t:|1760852540
+|move|p1a: Scizor|Bullet Punch|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|85/100
+|move|p2a: Gyarados|Ice Fang|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|1/100
+|
+|-heal|p2a: Gyarados|91/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760852549
+|move|p1a: Scizor|Bullet Punch|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|77/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|83/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760852557
+|move|p1a: Scizor|Bullet Punch|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|68/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|75/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1760852565
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Scizor|Dual Wingbeat|p2a: Gyarados
+|-damage|p2a: Gyarados|55/100
+|-damage|p2a: Gyarados|36/100
+|-hitcount|p2a: Gyarados|2
+|
+|-heal|p2a: Gyarados|42/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760852576
+|move|p1a: Scizor|Bullet Punch|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|27/100
+|move|p2a: Gyarados|Body Slam|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-heal|p2a: Gyarados|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760852585
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|14
+|
+|t:|1760852591
+|move|p1a: Raging Bolt|Thunderclap|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|t:|1760852596
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|turn|15
+|
+|t:|1760852599
+|move|p2a: Venusaur|Curse|p2a: Venusaur
+|-unboost|p2a: Venusaur|spe|1
+|-boost|p2a: Venusaur|atk|1
+|-boost|p2a: Venusaur|def|1
+|move|p1a: Raging Bolt|Volt Switch|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|79/100
+|
+|t:|1760852607
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Darkrai|Darkrai|100/100|[from] Volt Switch
+|
+|-heal|p2a: Venusaur|85/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1760852614
+|move|p1a: Darkrai|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|6/100
+|-damage|p1a: Darkrai|91/100|[from] item: Life Orb
+|move|p2a: Venusaur|Curse|p2a: Venusaur
+|-unboost|p2a: Venusaur|spe|1
+|-boost|p2a: Venusaur|atk|1
+|-boost|p2a: Venusaur|def|1
+|
+|-heal|p2a: Venusaur|12/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1760852625
+|move|p1a: Darkrai|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|-damage|p1a: Darkrai|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760852628
+|switch|p2a: Electrode|Electrode|100/100
+|turn|18
+|
+|t:|1760852641
+|move|p2a: Electrode|Electroweb|p1a: Darkrai
+|-damage|p1a: Darkrai|54/100
+|-unboost|p1a: Darkrai|spe|1
+|move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|2
+|
+|upkeep
+|turn|19
+|
+|t:|1760852650
+|move|p2a: Electrode|Charge Beam|p1a: Darkrai
+|-damage|p1a: Darkrai|29/100
+|-boost|p2a: Electrode|spa|1
+|move|p1a: Darkrai|Dark Pulse|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|-damage|p1a: Darkrai|19/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760852652
+|switch|p2a: Camilo|Kommo-o, M|100/100
+|turn|20
+|
+|t:|1760852662
+|move|p2a: Camilo|Clangorous Soul|p2a: Camilo
+|-boost|p2a: Camilo|atk|1
+|-boost|p2a: Camilo|def|1
+|-boost|p2a: Camilo|spa|1
+|-boost|p2a: Camilo|spd|1
+|-boost|p2a: Camilo|spe|1
+|-damage|p2a: Camilo|68/100
+|move|p1a: Darkrai|Ice Beam|p2a: Camilo
+|-supereffective|p2a: Camilo
+|-damage|p2a: Camilo|0 fnt
+|faint|p2a: Camilo
+|-damage|p1a: Darkrai|9/100|[from] item: Life Orb
+|
+|win|JILIULONG
+|raw|JILIULONG's rating: 1188 &rarr; <strong>1210</strong><br />(+22 for winning)
+|raw|NoNSket's rating: 1148 &rarr; <strong>1126</strong><br />(-22 for losing)
+|l|☆NoNSket
+|player|p2|
+|l|☆JILIULONG
+|player|p1|

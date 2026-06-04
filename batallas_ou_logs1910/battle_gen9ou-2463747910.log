@@ -1,0 +1,343 @@
+|j|‽doomcake45
+|j|☆kennguyen21
+|t:|1760738799
+|gametype|singles
+|player|p1|doomcake45|maid|1144
+|player|p2|kennguyen21|2|1198
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Rotom-Frost|
+|poke|p1|Kyurem|
+|poke|p1|Ceruledge, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Ribombee, F|
+|poke|p2|Pecharunt|
+|poke|p2|Glimmora, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Iron Moth|
+|poke|p2|Darkrai|
+|teampreview
+|
+|t:|1760738833
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kennguyen21)
+|
+|t:|1760738850
+|move|p2a: Iron Moth|Fiery Dance|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760738860
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|2
+|
+|t:|1760738866
+|-terastallize|p2a: Iron Moth|Flying
+|move|p2a: Iron Moth|Sludge Wave|p1a: Samurott
+|-damage|p1a: Samurott|23/100
+|move|p1a: Samurott|Flip Turn|p2a: Iron Moth
+|-damage|p2a: Iron Moth|54/100
+|
+|t:|1760738875
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] Flip Turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Moth|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760738882
+|move|p2a: Iron Moth|Sludge Wave|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|72/100
+|move|p1a: Landorus|Rock Slide|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760738890
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|4
+|
+|t:|1760738894
+|move|p1a: Landorus|Earthquake|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: doomcake45|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760738901
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|5
+|
+|t:|1760738907
+|move|p2a: Ribombee|Sticky Web|p1a: Landorus
+|-sidestart|p1: doomcake45|move: Sticky Web
+|move|p1a: Landorus|Rock Slide|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1760738915
+|move|p2a: Ribombee|Grass Knot|p1a: Landorus
+|-damage|p1a: Landorus|40/100
+|move|p1a: Landorus|U-turn|p2a: Ribombee
+|-resisted|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|t:|1760738922
+|switch|p1a: Rotom|Rotom-Frost|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1760738937
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-item|p2a: Pecharunt|Air Balloon
+|turn|7
+|
+|t:|1760738942
+|move|p1a: Rotom|Will-O-Wisp|p2a: Pecharunt|[miss]
+|-miss|p1a: Rotom|p2a: Pecharunt
+|move|p2a: Pecharunt|Malignant Chain|p1a: Rotom
+|-damage|p1a: Rotom|44/100
+|-status|p1a: Rotom|tox
+|-start|p1a: Rotom|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-damage|p1a: Rotom|38/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1760738953
+|-activate|p1a: Rotom|confusion
+|move|p1a: Rotom|Will-O-Wisp|p2a: Pecharunt
+|-status|p2a: Pecharunt|brn
+|move|p2a: Pecharunt|Nasty Plot|p2a: Pecharunt
+|-boost|p2a: Pecharunt|spa|2
+|
+|-damage|p1a: Rotom|25/100 tox|[from] psn
+|-damage|p2a: Pecharunt|94/100 brn|[from] brn
+|upkeep
+|-enditem|p1a: Rotom|Iapapa Berry|[eat]
+|-heal|p1a: Rotom|59/100 tox|[from] item: Iapapa Berry
+|turn|9
+|
+|t:|1760738968
+|-end|p1a: Rotom|confusion
+|move|p1a: Rotom|Volt Switch|p2a: Pecharunt
+|-damage|p2a: Pecharunt|63/100 brn
+|-enditem|p2a: Pecharunt|Air Balloon
+|
+|t:|1760738976
+|switch|p1a: Landorus|Landorus-Therian, M|40/100|[from] Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Pecharunt|atk|1
+|move|p2a: Pecharunt|Hex|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-damage|p2a: Pecharunt|57/100 brn|[from] brn
+|upkeep
+|
+|t:|1760738992
+|switch|p1a: Rotom|Rotom-Frost|59/100 tox
+|turn|10
+|
+|t:|1760738997
+|move|p1a: Rotom|Thunderbolt|p2a: Pecharunt
+|-damage|p2a: Pecharunt|12/100 brn
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|62/100 brn
+|
+|-damage|p1a: Rotom|52/100 tox|[from] psn
+|-damage|p2a: Pecharunt|56/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1760739008
+|move|p1a: Rotom|Blizzard|p2a: Pecharunt
+|-damage|p2a: Pecharunt|1/100 brn
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|51/100 brn
+|
+|-damage|p1a: Rotom|40/100 tox|[from] psn
+|-damage|p2a: Pecharunt|45/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1760739017
+|move|p1a: Rotom|Blizzard|p2a: Pecharunt|[miss]
+|-miss|p1a: Rotom|p2a: Pecharunt
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|95/100 brn
+|
+|-damage|p1a: Rotom|21/100 tox|[from] psn
+|-damage|p2a: Pecharunt|89/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1760739027
+|move|p1a: Rotom|Volt Switch|p2a: Pecharunt
+|-damage|p2a: Pecharunt|57/100 brn
+|
+|t:|1760739031
+|switch|p1a: Ceruledge|Ceruledge, M|100/100|[from] Volt Switch
+|-status|p1a: Ceruledge|psn
+|-activate|p1a: Ceruledge|move: Sticky Web
+|-unboost|p1a: Ceruledge|spe|1
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|100/100 brn
+|
+|-damage|p1a: Ceruledge|88/100 psn|[from] psn
+|-damage|p2a: Pecharunt|94/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1760739042
+|-terastallize|p1a: Ceruledge|Fire
+|move|p2a: Pecharunt|Hex|p1a: Ceruledge
+|-crit|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|-damage|p2a: Pecharunt|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1760739057
+|switch|p1a: Samurott|Samurott-Hisui, M|23/100
+|-status|p1a: Samurott|psn
+|-activate|p1a: Samurott|move: Sticky Web
+|-unboost|p1a: Samurott|spe|1
+|turn|15
+|
+|t:|1760739062
+|move|p1a: Samurott|Dark Pulse|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|9/100 brn
+|move|p2a: Pecharunt|Hex|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-damage|p2a: Pecharunt|3/100 brn|[from] brn
+|upkeep
+|
+|t:|1760739072
+|switch|p1a: Rotom|Rotom-Frost|21/100 tox
+|turn|16
+|
+|t:|1760739078
+|move|p1a: Rotom|Thunderbolt|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|-damage|p1a: Rotom|15/100 tox|[from] psn
+|upkeep
+|
+|t:|1760739091
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|17
+|
+|t:|1760739096
+|move|p2a: Darkrai|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1760739101
+|switch|p1a: Kyurem|Kyurem|100/100
+|-status|p1a: Kyurem|psn
+|-activate|p1a: Kyurem|move: Sticky Web
+|-unboost|p1a: Kyurem|spe|1
+|-ability|p1a: Kyurem|Pressure
+|turn|18
+|
+|t:|1760739111
+|move|p2a: Darkrai|Dark Pulse|p1a: Kyurem
+|-damage|p1a: Kyurem|75/100 psn
+|cant|p1a: Kyurem|flinch
+|
+|-damage|p1a: Kyurem|63/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1760739119
+|move|p2a: Darkrai|Dark Pulse|p1a: Kyurem
+|-damage|p1a: Kyurem|37/100 psn
+|move|p1a: Kyurem|Draco Meteor|p2a: Darkrai
+|-crit|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|-unboost|p1a: Kyurem|spa|2
+|faint|p2a: Darkrai
+|
+|-damage|p1a: Kyurem|24/100 psn|[from] psn
+|upkeep
+|
+|t:|1760739127
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|20
+|
+|t:|1760739132
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|76/100
+|move|p1a: Kyurem|Blizzard|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|
+|-damage|p1a: Kyurem|12/100 psn|[from] psn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|21
+|
+|t:|1760739143
+|move|p2a: Gliscor|Facade|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|win|kennguyen21
+|raw|doomcake45's rating: 1144 &rarr; <strong>1123</strong><br />(-21 for losing)
+|raw|kennguyen21's rating: 1198 &rarr; <strong>1219</strong><br />(+21 for winning)
+|l|‽doomcake45
+|player|p1|
+|l|☆kennguyen21
+|player|p2|

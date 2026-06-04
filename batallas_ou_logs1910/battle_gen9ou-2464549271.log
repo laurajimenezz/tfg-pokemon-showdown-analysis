@@ -1,0 +1,298 @@
+|j|☆afdtv
+|j|☆bill1234765
+|t:|1760870597
+|gametype|singles
+|player|p1|afdtv|hilbert|1376
+|player|p2|bill1234765|102|1359
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meloetta|
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p1|Rillaboom, M|
+|poke|p1|Primarina, M|
+|poke|p1|Gholdengo|
+|poke|p2|Iron Boulder|
+|poke|p2|Primarina, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Kyurem|
+|poke|p2|Iron Valiant|
+|poke|p2|Lokix, F|
+|teampreview
+|
+|t:|1760870608
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|turn|1
+|
+|t:|1760870622
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Iron Boulder|Swords Dance|p2a: Iron Boulder
+|-boost|p2a: Iron Boulder|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1760870720
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|switch|p2a: Primarina|Primarina, M|100/100
+|-terastallize|p1a: Gholdengo|Ghost
+|move|p1a: Gholdengo|Make It Rain|p2a: Primarina
+|-damage|p2a: Primarina|60/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1760870733
+|switch|p1a: Meloetta|Meloetta|100/100
+|move|p2a: Primarina|Flip Turn|p1a: Meloetta
+|-crit|p1a: Meloetta
+|-damage|p1a: Meloetta|77/100
+|
+|t:|1760870738
+|switch|p2a: Iron Boulder|Iron Boulder|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bill1234765)
+|inactive|afdtv has 120 seconds left.
+|
+|t:|1760870811
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Iron Boulder|Swords Dance|p2a: Iron Boulder
+|-boost|p2a: Iron Boulder|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1760870823
+|-terastallize|p2a: Iron Boulder|Fighting
+|move|p1a: Rillaboom|Grassy Glide|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|49/100
+|move|p2a: Iron Boulder|Close Combat|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-unboost|p2a: Iron Boulder|def|1
+|-unboost|p2a: Iron Boulder|spd|1
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Iron Boulder|55/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760870829
+|switch|p1a: Gholdengo|Gholdengo, tera:Ghost|100/100
+|turn|6
+|
+|t:|1760870833
+|move|p1a: Gholdengo|Make It Rain|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760870839
+|switch|p2a: Lokix|Lokix, F|100/100
+|turn|7
+|
+|t:|1760870846
+|switch|p1a: Behemoth|Great Tusk, shiny|100/100
+|move|p2a: Lokix|U-turn|p1a: Behemoth
+|-resisted|p1a: Behemoth
+|-damage|p1a: Behemoth|63/100
+|-damage|p2a: Lokix|84/100|[from] item: Rocky Helmet|[of] p1a: Behemoth
+|
+|t:|1760870849
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|
+|-heal|p1a: Behemoth|69/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1760870857
+|-end|p1a: Behemoth|Protosynthesis|[silent]
+|switch|p1a: Primarina|Primarina, M|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Primarina
+|-damage|p1a: Primarina|42/100
+|-unboost|p1a: Primarina|spa|1
+|
+|-heal|p1a: Primarina|48/100|[from] Grassy Terrain
+|-heal|p1a: Primarina|54/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1760870863
+|move|p2a: Iron Valiant|Moonblast|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1760870872
+|switch|p1a: Gholdengo|Gholdengo, tera:Ghost|100/100
+|turn|10
+|
+|t:|1760870877
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Gholdengo|Make It Rain|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|70/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|upkeep
+|turn|11
+|
+|t:|1760870882
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Corviknight|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|92/100
+|
+|t:|1760870886
+|switch|p2a: Kyurem|Kyurem|100/100|[from] U-turn
+|-ability|p2a: Kyurem|Pressure
+|
+|upkeep
+|turn|12
+|
+|t:|1760870893
+|move|p1a: Zapdos|Volt Switch|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|76/100
+|
+|t:|1760870895
+|switch|p1a: Meloetta|Meloetta|77/100|[from] Volt Switch
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|
+|upkeep
+|turn|13
+|
+|t:|1760870904
+|move|p2a: Kyurem|Icicle Spear|p1a: Meloetta
+|-damage|p1a: Meloetta|55/100
+|-damage|p1a: Meloetta|33/100
+|-damage|p1a: Meloetta|10/100
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|-hitcount|p1: Meloetta|4
+|
+|upkeep
+|
+|t:|1760870907
+|switch|p1a: Gholdengo|Gholdengo, tera:Ghost|100/100
+|turn|14
+|
+|t:|1760870911
+|move|p2a: Kyurem|Icicle Spear|p1a: Gholdengo
+|-damage|p1a: Gholdengo|78/100
+|-damage|p1a: Gholdengo|58/100
+|-damage|p1a: Gholdengo|37/100
+|-damage|p1a: Gholdengo|16/100
+|-hitcount|p1a: Gholdengo|4
+|move|p1a: Gholdengo|Make It Rain|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1760870922
+|switch|p2a: Corviknight|Corviknight, M|70/100
+|-ability|p2a: Corviknight|Pressure
+|turn|15
+|
+|t:|1760870949
+|switch|p1a: Behemoth|Great Tusk, shiny|69/100
+|move|p2a: Corviknight|U-turn|p1a: Behemoth
+|-resisted|p1a: Behemoth
+|-damage|p1a: Behemoth|64/100
+|-damage|p2a: Corviknight|53/100|[from] item: Rocky Helmet|[of] p1a: Behemoth
+|
+|t:|1760870956
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|
+|upkeep
+|turn|16
+|
+|t:|1760870975
+|move|p2a: Iron Valiant|Moonblast|p1a: Behemoth
+|-supereffective|p1a: Behemoth
+|-damage|p1a: Behemoth|0 fnt
+|faint|p1a: Behemoth
+|-end|p1a: Behemoth|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760870977
+|switch|p1a: Gholdengo|Gholdengo, tera:Ghost|16/100
+|turn|17
+|
+|t:|1760870980
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Lokix|Lokix, F|84/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Lokix
+|-resisted|p2a: Lokix
+|-damage|p2a: Lokix|26/100
+|
+|upkeep
+|turn|18
+|c|☆afdtv|gg
+|
+|t:|1760870989
+|switch|p1a: Zapdos|Zapdos|92/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|
+|upkeep
+|turn|19
+|inactive|afdtv has 120 seconds left.
+|inactive|afdtv has 90 seconds left.
+|
+|t:|1760871049
+|move|p2a: Iron Valiant|Moonblast|p1a: Zapdos
+|-damage|p1a: Zapdos|8/100
+|-unboost|p1a: Zapdos|spa|1
+|move|p1a: Zapdos|Heat Wave|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|45/100
+|
+|upkeep
+|turn|20
+|
+|t:|1760871057
+|move|p2a: Iron Valiant|Moonblast|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|-message|afdtv forfeited.
+|
+|win|bill1234765
+|raw|afdtv's rating: 1376 &rarr; <strong>1355</strong><br />(-21 for losing)
+|raw|bill1234765's rating: 1359 &rarr; <strong>1380</strong><br />(+21 for winning)
+|l|☆afdtv
+|player|p1|
+|l|☆bill1234765
+|player|p2|

@@ -1,0 +1,214 @@
+|j|☆router_z
+|j|☆sk_pk123
+|t:|1779684052
+|gametype|singles
+|player|p1|router_z|zinnia|1285
+|player|p2|sk_pk123|red|1334
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Excadrill, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Toxapex, F|
+|poke|p2|Greninja-*, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Volbeat, L20, M|
+|poke|p2|Hitmonlee, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Walking Wake|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sk_pk123)
+|
+|t:|1779684065
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-enditem|p2a: Walking Wake|Booster Energy
+|-activate|p2a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|1
+|
+|t:|1779684073
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|81/100
+|-enditem|p1a: Toxapex|Eject Button
+|
+|t:|1779684079
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Walking Wake|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1779684084
+|move|p1a: Ogerpon|Power Whip|p2a: Walking Wake
+|-damage|p2a: Walking Wake|12/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Ogerpon
+|-damage|p1a: Ogerpon|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Walking Wake|6/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1779684093
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Walking Wake|[anim] Ivy Cudgel Rock
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1779684098
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|4
+|
+|t:|1779684108
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100
+|-terastallize|p2a: Greninja|Water
+|move|p2a: Greninja|Surf|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|75/100
+|-damage|p2a: Greninja|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Greninja|85/100|[from] Sandstorm
+|-damage|p1a: Toxapex|69/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1779684120
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Toxapex|Toxic|p2a: Pelipper
+|-status|p2a: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1779684129
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Pelipper|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|88/100 tox|[from] Sandstorm
+|-damage|p2a: Pelipper|76/100 tox|[from] psn
+|upkeep
+|
+|t:|1779684145
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|turn|7
+|
+|t:|1779684150
+|switch|p2a: Volbeat|Volbeat, L20, M|100/100
+|move|p1a: Excadrill|Substitute|p1a: Excadrill
+|-start|p1a: Excadrill|Substitute
+|-damage|p1a: Excadrill|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volbeat|96/100|[from] Sandstorm
+|-heal|p1a: Excadrill|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1779684158
+|move|p1a: Excadrill|Rock Slide|p2a: Volbeat|[miss]
+|-miss|p1a: Excadrill|p2a: Volbeat
+|move|p2a: Volbeat|Endeavor|p1a: Excadrill
+|-end|p1a: Excadrill|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Volbeat|91/100|[from] Sandstorm
+|-heal|p1a: Excadrill|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1779684167
+|move|p2a: Volbeat|Tailwind|p2a: Volbeat
+|-sidestart|p2: sk_pk123|move: Tailwind
+|move|p1a: Excadrill|Rock Slide|p2a: Volbeat
+|-supereffective|p2a: Volbeat
+|-damage|p2a: Volbeat|0 fnt
+|faint|p2a: Volbeat
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779684173
+|switch|p2a: Greninja|Greninja, M, tera:Water|85/100
+|turn|10
+|
+|t:|1779684191
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100
+|move|p2a: Greninja|Dark Pulse|p1a: Toxapex
+|-damage|p1a: Toxapex|69/100
+|-damage|p2a: Greninja|75/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Greninja|69/100|[from] Sandstorm
+|-damage|p1a: Toxapex|64/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1779684200
+|switch|p2a: Pelipper|Pelipper, F|76/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Toxapex|Toxic Spikes|p2a: Pelipper
+|-sidestart|p2: sk_pk123|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|70/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1779684207
+|move|p2a: Pelipper|Hurricane|p1a: Toxapex
+|-damage|p1a: Toxapex|29/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Pelipper
+|-sidestart|p2: sk_pk123|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|57/100 tox|[from] psn
+|-sideend|p2: sk_pk123|move: Tailwind
+|upkeep
+|turn|13
+|l|☆sk_pk123
+|inactive|sk_pk123 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|sk_pk123 has 30 seconds to reconnect!
+|inactive|sk_pk123 has 20 seconds to reconnect!
+|inactive|sk_pk123 has 15 seconds to reconnect!
+|inactive|sk_pk123 has 10 seconds to reconnect!
+|inactive|sk_pk123 has 5 seconds to reconnect!
+|-message|sk_pk123 lost due to inactivity.
+|
+|win|router_z
+|raw|router_z's rating: 1285 &rarr; <strong>1314</strong><br />(+29 for winning)
+|raw|sk_pk123's rating: 1334 &rarr; <strong>1311</strong><br />(-23 for losing)

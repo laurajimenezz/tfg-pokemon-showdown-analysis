@@ -1,0 +1,184 @@
+|j|☆36hpdc
+|j|☆Absetia
+|t:|1758275606
+|gametype|singles
+|player|p1|36hpdc|1|1234
+|player|p2|Absetia|bellelba|1204
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dusclops, M|
+|poke|p1|Klefki, M|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Kingdra, F|
+|poke|p1|Politoed, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Araquanid, M|
+|poke|p2|Gholdengo|
+|poke|p2|Hatterene, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1758275617
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Klefki|Klefki, M|100/100
+|switch|p2a: Araquanid|Araquanid, M, shiny|100/100
+|turn|1
+|
+|t:|1758275624
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Klefki|Switcheroo|p2a: Hatterene
+|-activate|p1a: Klefki|move: Trick|[of] p2a: Hatterene
+|-item|p2a: Hatterene|Choice Scarf|[from] move: Switcheroo
+|-item|p1a: Klefki|Assault Vest|[from] move: Switcheroo
+|
+|upkeep
+|turn|2
+|
+|t:|1758275633
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|move|p2a: Hatterene|Future Sight|p1a: Ursaluna
+|-start|p2a: Hatterene|move: Future Sight
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1758275640
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|move|p1a: Ursaluna|Fire Punch|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|85/100
+|-damage|p1a: Ursaluna|88/100 brn|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Ursaluna|71/100 brn|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|
+|-damage|p1a: Ursaluna|65/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1758275653
+|switch|p1a: Dusclops|Dusclops, M|100/100
+|-item|p2a: Garchomp|Rocky Helmet|[from] ability: Frisk|[of] p1a: Dusclops
+|move|p2a: Garchomp|Stealth Rock|p1a: Dusclops
+|-sidestart|p1: 36hpdc|move: Stealth Rock
+|
+|-end|p1a: Dusclops|move: Future Sight
+|-damage|p1a: Dusclops|66/100
+|upkeep
+|turn|5
+|
+|t:|1758275662
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Hatterene
+|move|p2a: Hatterene|Will-O-Wisp|p1a: Dusclops|[from] ability: Magic Bounce
+|-status|p1a: Dusclops|brn
+|
+|-damage|p1a: Dusclops|60/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1758275673
+|move|p2a: Hatterene|Future Sight|p1a: Dusclops
+|-start|p2a: Hatterene|move: Future Sight
+|move|p1a: Dusclops|Pain Split|p2a: Hatterene
+|-sethp|p2a: Hatterene|77/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|86/100 brn|[from] move: Pain Split
+|
+|-damage|p1a: Dusclops|80/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1758275685
+|switch|p2a: Gholdengo|Gholdengo, shiny|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|switch|p1a: Klefki|Klefki, M|100/100
+|-damage|p1a: Klefki|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1758275694
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Politoed|move: Future Sight
+|-damage|p1a: Politoed|36/100
+|upkeep
+|turn|9
+|
+|t:|1758275706
+|move|p2a: Gholdengo|Thunderbolt|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758275712
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|-damage|p1a: Kingdra|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1758275717
+|move|p1a: Kingdra|Weather Ball|p2a: Gholdengo
+|-damage|p2a: Gholdengo|6/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|-damage|p1a: Kingdra|78/100|[from] item: Life Orb
+|move|p2a: Gholdengo|Thunderbolt|p1a: Kingdra
+|-damage|p1a: Kingdra|14/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758275727
+|switch|p2a: Araquanid|Araquanid, M, shiny|100/100
+|move|p1a: Kingdra|Weather Ball|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|71/100
+|-damage|p1a: Kingdra|4/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Araquanid|78/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758275737
+|move|p1a: Kingdra|Draco Meteor|p2a: Araquanid
+|-damage|p2a: Araquanid|35/100
+|-unboost|p1a: Kingdra|spa|2
+|-damage|p1a: Kingdra|0 fnt|[from] item: Life Orb
+|faint|p1a: Kingdra
+|move|p2a: Araquanid|Sticky Web|p1: Kingdra
+|-sidestart|p1: 36hpdc|move: Sticky Web
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Araquanid|41/100|[from] item: Leftovers
+|upkeep
+|-message|36hpdc forfeited.
+|
+|win|Absetia
+|raw|36hpdc's rating: 1234 &rarr; <strong>1207</strong><br />(-27 for losing)
+|raw|Absetia's rating: 1204 &rarr; <strong>1231</strong><br />(+27 for winning)
+|l|☆36hpdc
+|player|p1|
+|l|☆Absetia
+|player|p2|

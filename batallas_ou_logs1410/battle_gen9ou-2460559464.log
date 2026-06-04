@@ -1,0 +1,220 @@
+|j|☆DonphanPPF
+|j|☆YourFriendSanti
+|t:|1760322770
+|gametype|singles
+|player|p1|DonphanPPF|265|1171
+|player|p2|YourFriendSanti|hilbert-wonderlauncher|1155
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Scizor, M|
+|poke|p1|Iron Thorns|
+|poke|p1|Tyranitar, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Vaporeon, F|
+|poke|p2|Dedenne, M|
+|poke|p2|Pincurchin, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Overqwil, F|
+|poke|p2|Goodra, F|
+|teampreview
+|
+|t:|1760322782
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: GetClapped|Raging Bolt|100/100
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|-enditem|p1a: GetClapped|Booster Energy
+|-activate|p1a: GetClapped|ability: Protosynthesis|[fromitem]
+|-start|p1a: GetClapped|protosynthesisspa
+|turn|1
+|
+|t:|1760322797
+|move|p1a: GetClapped|Draco Meteor|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|-unboost|p1a: GetClapped|spa|2
+|faint|p2a: Pincurchin
+|
+|upkeep
+|
+|t:|1760322804
+|switch|p2a: Dedene|Dedenne, M|100/100
+|turn|2
+|
+|t:|1760322814
+|-end|p1a: GetClapped|Protosynthesis|[silent]
+|switch|p1a: Scizor|Scizor, M, shiny|100/100
+|move|p2a: Dedene|Charge Beam|p1a: Scizor
+|-damage|p1a: Scizor|68/100
+|
+|upkeep
+|turn|3
+|
+|t:|1760322821
+|-terastallize|p2a: Dedene|Electric
+|move|p1a: Scizor|Bullet Punch|p2a: Dedene
+|-resisted|p2a: Dedene
+|-damage|p2a: Dedene|51/100
+|move|p2a: Dedene|Thunderbolt|p1a: Scizor
+|-damage|p1a: Scizor|3/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760322830
+|-terastallize|p1a: Scizor|Steel
+|move|p1a: Scizor|Bullet Punch|p2a: Dedene
+|-resisted|p2a: Dedene
+|-damage|p2a: Dedene|0 fnt
+|faint|p2a: Dedene
+|
+|upkeep
+|
+|t:|1760322843
+|switch|p2a: Goodra|Goodra, F|100/100
+|turn|5
+|
+|t:|1760322849
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Goodra|Acid Armor|p2a: Goodra
+|-boost|p2a: Goodra|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Goodra|94/100|[from] Sandstorm
+|-heal|p2a: Goodra|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760322862
+|move|p2a: Goodra|Acid Armor|p2a: Goodra
+|-boost|p2a: Goodra|def|2
+|move|p1a: Tyranitar|Knock Off|p2a: Goodra
+|-damage|p2a: Goodra|78/100
+|-enditem|p2a: Goodra|Leftovers|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Goodra|71/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1760322874
+|move|p2a: Goodra|Body Press|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Goodra|65/100|[from] Sandstorm
+|upkeep
+|
+|t:|1760322886
+|switch|p1a: GetClapped|Raging Bolt|100/100
+|turn|8
+|
+|t:|1760322893
+|move|p1a: GetClapped|Draco Meteor|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-unboost|p1a: GetClapped|spa|2
+|faint|p2a: Goodra
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: GetClapped|94/100|[from] Sandstorm
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1760322900
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|9
+|
+|t:|1760322907
+|-end|p1a: GetClapped|Protosynthesis|[silent]
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1760322914
+|move|p2a: Excadrill|Iron Head|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|56/100
+|-damage|p2a: Excadrill|91/100|[from] item: Life Orb
+|cant|p1a: Vaporeon|flinch
+|
+|-heal|p1a: Vaporeon|62/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760322922
+|move|p2a: Excadrill|Earthquake|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|-damage|p2a: Excadrill|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760322935
+|switch|p1a: Scizor|Scizor, M, shiny, tera:Steel|3/100
+|turn|12
+|
+|t:|1760322939
+|move|p1a: Scizor|Bullet Punch|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|33/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-boost|p2a: Excadrill|spe|1
+|faint|p1a: Scizor
+|-damage|p2a: Excadrill|23/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760322958
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|13
+|
+|t:|1760322969
+|move|p2a: Excadrill|Earthquake|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-ability|p2a: Excadrill|Mold Breaker
+|-damage|p2a: Excadrill|13/100|[from] item: Life Orb
+|
+|upkeep
+|l|☆DonphanPPF
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by YourFriendSanti)
+|inactive|DonphanPPF has 30 seconds to reconnect!
+|inactive|DonphanPPF has 20 seconds to reconnect!
+|inactive|DonphanPPF has 15 seconds to reconnect!
+|inactive|DonphanPPF has 10 seconds to reconnect!
+|inactive|DonphanPPF has 5 seconds to reconnect!
+|-message|DonphanPPF lost due to inactivity.
+|
+|win|YourFriendSanti
+|raw|DonphanPPF's rating: 1171 &rarr; <strong>1145</strong><br />(-26 for losing)
+|raw|YourFriendSanti's rating: 1155 &rarr; <strong>1181</strong><br />(+26 for winning)
+|l|☆YourFriendSanti
+|player|p2|

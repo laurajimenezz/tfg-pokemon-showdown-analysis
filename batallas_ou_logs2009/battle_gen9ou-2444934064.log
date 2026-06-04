@@ -1,0 +1,275 @@
+|j|☆SickBRE12
+|j|☆mamaxia
+|t:|1758288849
+|gametype|singles
+|player|p1|SickBRE12|dragontamer|1092
+|player|p2|mamaxia|1|1137
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Leafeon, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Polteageist|
+|poke|p1|Blaziken, F|
+|poke|p1|Sableye, F|
+|poke|p1|Glimmora, F|
+|poke|p2|Mightyena, F|
+|poke|p2|Salamence, M|
+|poke|p2|Squawkabilly, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Toedscruel, F|
+|poke|p2|Scovillain, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SickBRE12)
+|
+|t:|1758288869
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Sableye|Sableye, F|100/100
+|switch|p2a: Squawkabilly|Squawkabilly, M|100/100
+|turn|1
+|
+|t:|1758288883
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|move|p1a: Sableye|Reflect|p1a: Sableye
+|-sidestart|p1: SickBRE12|Reflect
+|
+|upkeep
+|turn|2
+|
+|t:|1758288890
+|-terastallize|p2a: Arcanine|Rock
+|move|p1a: Sableye|Metronome|p1a: Sableye
+|move|p1a: Sableye|Alluring Voice|p2a: Arcanine|[from] move: Metronome
+|-damage|p2a: Arcanine|85/100
+|move|p2a: Arcanine|Head Smash|p1a: Sableye
+|-damage|p1a: Sableye|19/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758288896
+|move|p1a: Sableye|Sunny Day|p1a: Sableye
+|-weather|SunnyDay
+|move|p2a: Arcanine|Head Smash|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758288899
+|switch|p1a: Leafeon|Leafeon, M|100/100
+|turn|4
+|
+|t:|1758288912
+|switch|p2a: Scovillain|Scovillain, M|100/100
+|move|p1a: Leafeon|Swords Dance|p1a: Leafeon
+|-boost|p1a: Leafeon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758288921
+|-terastallize|p1a: Leafeon|Fire
+|move|p1a: Leafeon|Tera Blast|p2a: Scovillain|[anim] Tera Blast Fire
+|-enditem|p2a: Scovillain|Focus Sash
+|-damage|p2a: Scovillain|1/100
+|move|p2a: Scovillain|Fire Blast|p1a: Leafeon|[miss]
+|-miss|p2a: Scovillain|p1a: Leafeon
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: SickBRE12|Reflect
+|upkeep
+|turn|6
+|
+|t:|1758288929
+|move|p1a: Leafeon|Knock Off|p2a: Scovillain
+|-damage|p2a: Scovillain|0 fnt
+|faint|p2a: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758288934
+|switch|p2a: Mightyena|Mightyena, F|100/100
+|-ability|p2a: Mightyena|Intimidate|boost
+|-unboost|p1a: Leafeon|atk|1
+|turn|7
+|
+|t:|1758288960
+|move|p1a: Leafeon|Solar Blade||[still]
+|-prepare|p1a: Leafeon|Solar Blade
+|-anim|p1a: Leafeon|Solar Blade|p2a: Mightyena
+|-enditem|p2a: Mightyena|Focus Sash
+|-damage|p2a: Mightyena|1/100
+|move|p2a: Mightyena|Endeavor|p1a: Leafeon
+|-damage|p1a: Leafeon|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758288969
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|move|p2a: Mightyena|Sucker Punch||[still]
+|-fail|p2a: Mightyena
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1758288975
+|move|p1a: Glimmora|Mortal Spin|p2a: Mightyena
+|-damage|p2a: Mightyena|0 fnt
+|faint|p2a: Mightyena
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758288978
+|switch|p2a: Toedscruel|Toedscruel, F|100/100
+|turn|10
+|
+|t:|1758288999
+|move|p2a: Toedscruel|Earth Power|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|move|p1a: Glimmora|Toxic|p2a: Toedscruel
+|-status|p2a: Toedscruel|tox
+|
+|-weather|none
+|-damage|p2a: Toedscruel|95/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1758289009
+|move|p2a: Toedscruel|Giga Drain|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-heal|p2a: Toedscruel|95/100 tox|[from] drain|[of] p1a: Glimmora
+|faint|p1a: Glimmora
+|
+|-damage|p2a: Toedscruel|83/100 tox|[from] psn
+|upkeep
+|
+|t:|1758289014
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|turn|12
+|
+|t:|1758289026
+|move|p2a: Toedscruel|Earth Power|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-crit|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|-damage|p2a: Toedscruel|65/100 tox|[from] psn
+|upkeep
+|
+|t:|1758289031
+|switch|p1a: Polteageist|Polteageist|100/100
+|turn|13
+|
+|t:|1758289054
+|switch|p2a: Salamence|Salamence, M, shiny|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Polteageist|atk|1
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|upkeep
+|turn|14
+|
+|t:|1758289069
+|move|p1a: Polteageist|Strength Sap|p2a: Salamence
+|-unboost|p2a: Salamence|atk|1
+|move|p2a: Salamence|Air Slash|p1a: Polteageist
+|-damage|p1a: Polteageist|4/100
+|
+|upkeep
+|turn|15
+|
+|t:|1758289075
+|move|p1a: Polteageist|Shadow Ball|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|upkeep
+|
+|t:|1758289080
+|switch|p2a: Toedscruel|Toedscruel, F|65/100 tox
+|turn|16
+|
+|t:|1758289083
+|move|p1a: Polteageist|Shadow Ball|p2a: Toedscruel
+|-damage|p2a: Toedscruel|11/100 tox
+|move|p2a: Toedscruel|Giga Drain|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|-heal|p2a: Toedscruel|12/100 tox|[from] drain|[of] p1a: Polteageist
+|faint|p1a: Polteageist
+|
+|-damage|p2a: Toedscruel|6/100 tox|[from] psn
+|upkeep
+|
+|t:|1758289088
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|17
+|
+|t:|1758289093
+|move|p1a: Ogerpon|Growth|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|1
+|-boost|p1a: Ogerpon|spa|1
+|move|p2a: Toedscruel|Sludge Bomb|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|52/100
+|
+|-damage|p2a: Toedscruel|0 fnt|[from] psn
+|faint|p2a: Toedscruel
+|upkeep
+|
+|t:|1758289099
+|switch|p2a: Squawkabilly|Squawkabilly, M|100/100
+|turn|18
+|
+|t:|1758289117
+|move|p2a: Squawkabilly|Double-Edge|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-damage|p2a: Squawkabilly|84/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1758289121
+|switch|p1a: Leafeon|Leafeon, M, tera:Fire|1/100
+|turn|19
+|c|☆SickBRE12|gg
+|
+|t:|1758289129
+|move|p2a: Squawkabilly|Double-Edge|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|-damage|p2a: Squawkabilly|84/100|[from] Recoil
+|
+|win|mamaxia
+|raw|SickBRE12's rating: 1092 &rarr; <strong>1071</strong><br />(-21 for losing)
+|raw|mamaxia's rating: 1137 &rarr; <strong>1159</strong><br />(+22 for winning)
+|l|☆SickBRE12
+|player|p1|
+|l|☆mamaxia
+|player|p2|

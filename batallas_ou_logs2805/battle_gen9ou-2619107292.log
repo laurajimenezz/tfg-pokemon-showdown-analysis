@@ -1,0 +1,181 @@
+|j|☆keifi
+|j|☆drknoc4
+|t:|1779887769
+|gametype|singles
+|player|p1|keifi|roxie|1081
+|player|p2|drknoc4|roxie|1093
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Ninetales, F|
+|poke|p1|Cresselia, F|
+|poke|p1|Zarude|
+|poke|p1|Ceruledge, M|
+|poke|p2|Meloetta|
+|poke|p2|Espeon, F|
+|poke|p2|Sylveon, F|
+|poke|p2|Hoopa|
+|poke|p2|Avalugg, M|
+|poke|p2|Decidueye, F|
+|teampreview
+|
+|t:|1779887827
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Meloetta|Meloetta|100/100
+|turn|1
+|
+|t:|1779887845
+|move|p1a: Walking Wake|Draco Meteor|p2a: Meloetta
+|-damage|p2a: Meloetta|45/100
+|-unboost|p1a: Walking Wake|spa|2
+|move|p2a: Meloetta|Relic Song|p1a: Walking Wake
+|-damage|p1a: Walking Wake|37/100
+|-status|p1a: Walking Wake|slp|[from] move: Relic Song
+|-formechange|p2a: Meloetta|Meloetta-Pirouette|[msg]
+|-damage|p2a: Meloetta|35/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|t:|1779887878
+|move|p2a: Meloetta|Metronome|p2a: Meloetta
+|move|p2a: Meloetta|Ice Spinner|p1a: Walking Wake|[from] move: Metronome
+|-damage|p1a: Walking Wake|7/100 slp
+|-damage|p2a: Meloetta|25/100|[from] item: Life Orb
+|cant|p1a: Walking Wake|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1779887886
+|move|p2a: Meloetta|Metronome|p2a: Meloetta
+|move|p2a: Meloetta|Rapid Spin|p1a: Walking Wake|[from] move: Metronome
+|-damage|p1a: Walking Wake|0 fnt
+|-boost|p2a: Meloetta|spe|1
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|-damage|p2a: Meloetta|15/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779887909
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|4
+|
+|t:|1779887917
+|move|p2a: Meloetta|Relic Song|p1a: Ninetales
+|-damage|p1a: Ninetales|63/100
+|-formechange|p2a: Meloetta|Meloetta|[msg]
+|-damage|p2a: Meloetta|5/100|[from] item: Life Orb
+|move|p1a: Ninetales|Overheat|p2a: Meloetta
+|-damage|p2a: Meloetta|0 fnt
+|-unboost|p1a: Ninetales|spa|2
+|faint|p2a: Meloetta
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779887931
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|turn|5
+|
+|t:|1779887941
+|move|p1a: Ninetales|Healing Wish|p1a: Ninetales
+|faint|p1a: Ninetales
+|move|p2a: Sylveon|Mud-Slap|p1: Ninetales|[notarget]
+|-fail|p2a: Sylveon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779887953
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|6
+|
+|t:|1779887962
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Avalugg
+|-resisted|p2a: Avalugg
+|-damage|p2a: Avalugg|91/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779887996
+|move|p1a: Great Tusk|Close Combat|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|4/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Avalugg|Crunch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|85/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1779888005
+|move|p1a: Great Tusk|Rapid Spin|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|faint|p2a: Avalugg
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779888009
+|switch|p2a: Espeon|Espeon, F|100/100
+|turn|9
+|
+|t:|1779888024
+|-terastallize|p1a: Great Tusk|Steel
+|move|p1a: Great Tusk|Headlong Rush|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Espeon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779888029
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|turn|10
+|
+|t:|1779888035
+|move|p1a: Great Tusk|Headlong Rush|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Sylveon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|drknoc4 forfeited.
+|
+|win|keifi
+|raw|keifi's rating: 1081 &rarr; <strong>1110</strong><br />(+29 for winning)
+|raw|drknoc4's rating: 1093 &rarr; <strong>1068</strong><br />(-25 for losing)
+|l|☆drknoc4
+|player|p2|
+|l|☆keifi
+|player|p1|

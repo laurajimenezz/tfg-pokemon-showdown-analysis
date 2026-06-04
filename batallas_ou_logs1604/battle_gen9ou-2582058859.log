@@ -1,0 +1,413 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆upa-002
+|j|☆alttesting124n
+|t:|1776052925
+|gametype|singles
+|player|p1|upa-002|biker|1346
+|player|p2|alttesting124n|266|1379
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Zapdos|
+|poke|p1|Basculegion, M|
+|poke|p1|Excadrill, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Slither Wing|
+|poke|p2|Heatran, M|
+|poke|p2|Great Tusk|
+|poke|p2|Weezing-Galar, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by alttesting124n)
+|
+|t:|1776052945
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Pelipper|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1776052954
+|move|p2a: Landorus|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|88/100
+|
+|t:|1776052957
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|100/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Pelipper|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|89/100
+|
+|t:|1776052972
+|switch|p1a: Zapdos|Zapdos|100/100|[from] U-turn
+|-ability|p1a: Zapdos|Pressure
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|95/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1776052979
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Zapdos|Hurricane|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|73/100
+|-start|p2a: Heatran|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|79/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|85/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1776052991
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|-activate|p2a: Heatran|confusion
+|move|p2a: Heatran|Magma Storm|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|88/100
+|-activate|p1a: Basculegion|move: Magma Storm|[of] p2a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Basculegion|94/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|92/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|98/100|[from] item: Leftovers
+|-damage|p1a: Basculegion|82/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1776053000
+|-end|p2a: Heatran|confusion
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Basculegion|Flip Turn|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Basculegion|88/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|100/100|[from] Grassy Terrain
+|-damage|p1a: Basculegion|76/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1776053008
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|95/100
+|move|p1a: Basculegion|Flip Turn|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|63/100
+|
+|t:|1776053016
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|69/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1776053025
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|move|p1a: Dragapult|U-turn|p2a: Slither Wing
+|-resisted|p2a: Slither Wing
+|-damage|p2a: Slither Wing|82/100
+|
+|t:|1776053036
+|switch|p1a: Zapdos|Zapdos|100/100|[from] U-turn
+|-ability|p1a: Zapdos|Pressure
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1776053044
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Weezing|Weezing-Galar, F, shiny|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Zapdos|Hurricane|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-ability|p1a: Zapdos|Pressure
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1776053051
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|8
+|
+|t:|1776053062
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Heatran|Earth Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1776053070
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Low Kick|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|84/100
+|-damage|p1a: Tyranitar|50/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1776053077
+|switch|p1a: Pelipper|Pelipper, M|88/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Landorus|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: upa-002|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1776053088
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Pelipper|Hurricane|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|89/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1776053093
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Pelipper|Weather Ball|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|96/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1776053107
+|move|p1a: Pelipper|Weather Ball|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|10/100
+|move|p2a: Heatran|Magma Storm|p1a: Pelipper|[miss]
+|-miss|p2a: Heatran|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|16/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1776053112
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Pelipper|Weather Ball|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|22/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1776053117
+|switch|p2a: Slither Wing|Slither Wing|82/100
+|move|p1a: Pelipper|Weather Ball|p2a: Slither Wing
+|-damage|p2a: Slither Wing|38/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1776053131
+|move|p1a: Pelipper|Weather Ball|p2a: Slither Wing
+|-damage|p2a: Slither Wing|0 fnt
+|faint|p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1776053134
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|69/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|17
+|
+|t:|1776053149
+|switch|p1a: Tyranitar|Tyranitar, M|50/100
+|-damage|p1a: Tyranitar|38/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Rillaboom|Knock Off|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|14/100
+|-enditem|p1a: Tyranitar|Choice Band|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rillaboom|63/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|20/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|69/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1776053158
+|move|p1a: Tyranitar|Ice Punch|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|14/100
+|move|p2a: Rillaboom|Knock Off|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rillaboom|7/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|10/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|14/100|[from] Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1776053168
+|move|p1a: Tyranitar|Ice Punch|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|16/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1776053171
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|20
+|
+|t:|1776053185
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Tyranitar|Ice Punch|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Great Tusk|84/100|[from] Grassy Terrain
+|-heal|p1a: Tyranitar|22/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1776053194
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Tyranitar|Ice Punch|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|64/100
+|
+|-weather|none
+|-heal|p2a: Great Tusk|71/100|[from] Grassy Terrain
+|-heal|p1a: Tyranitar|28/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1776053204
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Tyranitar|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|53/100
+|
+|upkeep
+|turn|23
+|
+|t:|1776053211
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Tyranitar|Ice Punch|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|41/100
+|
+|upkeep
+|turn|24
+|
+|t:|1776053219
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Tyranitar|Ice Punch|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|30/100
+|
+|upkeep
+|turn|25
+|
+|t:|1776053227
+|move|p2a: Great Tusk|Ice Spinner|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|upkeep
+|
+|t:|1776053234
+|switch|p1a: Pelipper|Pelipper, M|88/100
+|-damage|p1a: Pelipper|63/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|26
+|
+|t:|1776053240
+|move|p2a: Great Tusk|Ice Spinner|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1776053246
+|switch|p1a: Basculegion|Basculegion, M|76/100
+|-damage|p1a: Basculegion|63/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1776053251
+|move|p1a: Basculegion|Wave Crash|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Basculegion|52/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|alttesting124n forfeited.
+|
+|win|upa-002
+|raw|upa-002's rating: 1346 &rarr; <strong>1368</strong><br />(+22 for winning)
+|raw|alttesting124n's rating: 1379 &rarr; <strong>1357</strong><br />(-22 for losing)
+|l|☆alttesting124n
+|player|p2|
+|l|☆upa-002
+|player|p1|

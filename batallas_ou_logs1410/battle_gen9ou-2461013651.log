@@ -1,0 +1,254 @@
+|j|☆Christendom
+|j|☆ch1ck3n nu99ets
+|t:|1760384618
+|gametype|singles
+|player|p1|Christendom|yellow|1656
+|player|p2|ch1ck3n nu99ets|1|1714
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Deoxys-Speed|
+|poke|p1|Dragonite, F|
+|poke|p1|Great Tusk|
+|poke|p1|Glimmora, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Kingambit, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Scizor, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Sandy Shocks|
+|poke|p2|Manaphy|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ch1ck3n nu99ets)
+|
+|t:|1760384631
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-ability|p1a: Deoxys|Pressure
+|-enditem|p2a: Sandy Shocks|Booster Energy
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1760384639
+|move|p1a: Deoxys|Light Screen|p1a: Deoxys
+|-sidestart|p1: Christendom|move: Light Screen
+|move|p2a: Sandy Shocks|Earth Power|p1a: Deoxys
+|-damage|p1a: Deoxys|76/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760384643
+|move|p1a: Deoxys|Taunt|p2a: Sandy Shocks
+|-start|p2a: Sandy Shocks|move: Taunt
+|cant|p2a: Sandy Shocks|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1760384653
+|move|p1a: Deoxys|Psycho Boost|p2a: Sandy Shocks|[miss]
+|-miss|p1a: Deoxys|p2a: Sandy Shocks
+|move|p2a: Sandy Shocks|Earth Power|p1a: Deoxys
+|-damage|p1a: Deoxys|48/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760384660
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Deoxys|Psycho Boost|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|74/100
+|-unboost|p1a: Deoxys|spa|2
+|
+|upkeep
+|turn|5
+|
+|t:|1760384666
+|move|p1a: Deoxys|Reflect|p1a: Deoxys
+|-sidestart|p1: Christendom|Reflect
+|move|p2a: Scizor|U-turn|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|t:|1760384671
+|switch|p2a: Pelipper|Pelipper, M|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760384678
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|turn|6
+|
+|t:|1760384682
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|-enditem|p1a: Glimmora|Power Herb
+|-anim|p1a: Glimmora|Meteor Beam|p2a: Sandy Shocks
+|-resisted|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|37/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760384690
+|move|p2a: Sandy Shocks|Earth Power|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760384704
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|8
+|
+|t:|1760384707
+|move|p2a: Sandy Shocks|Thunder|p1a: Dragonite
+|-damage|p1a: Dragonite|87/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|93/100|[from] item: Leftovers
+|-sideend|p1: Christendom|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1760384711
+|move|p1a: Dragonite|Earthquake|p2a: Sandy Shocks
+|-supereffective|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760384724
+|switch|p2a: Manaphy|Manaphy|100/100
+|turn|10
+|
+|t:|1760384744
+|move|p1a: Dragonite|Earthquake|p2a: Manaphy
+|-damage|p2a: Manaphy|52/100
+|move|p2a: Manaphy|Alluring Voice|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|52/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|58/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760384753
+|move|p1a: Dragonite|Earthquake|p2a: Manaphy
+|-damage|p2a: Manaphy|0 fnt
+|faint|p2a: Manaphy
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760384757
+|switch|p2a: Basculegion|Basculegion, M, shiny|100/100
+|turn|12
+|
+|t:|1760384762
+|move|p2a: Basculegion|Flip Turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|48/100
+|
+|t:|1760384764
+|switch|p2a: Scizor|Scizor, M|74/100|[from] Flip Turn
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|none
+|-heal|p1a: Dragonite|55/100|[from] item: Leftovers
+|-sideend|p1: Christendom|Reflect
+|upkeep
+|turn|13
+|
+|t:|1760384773
+|move|p1a: Dragonite|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-heal|p1a: Dragonite|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760384776
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|14
+|
+|t:|1760384784
+|-terastallize|p1a: Dragonite|Flying
+|move|p1a: Dragonite|Tera Blast|p2a: Pelipper|[anim] Tera Blast Flying
+|-damage|p2a: Pelipper|18/100
+|move|p2a: Pelipper|Hurricane|p1a: Dragonite
+|-damage|p1a: Dragonite|24/100
+|-start|p1a: Dragonite|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|31/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1760384791
+|-activate|p1a: Dragonite|confusion
+|move|p1a: Dragonite|Tera Blast|p2a: Pelipper|[anim] Tera Blast Flying
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760384793
+|switch|p2a: Basculegion|Basculegion, M, shiny|100/100
+|turn|16
+|
+|t:|1760384804
+|-activate|p1a: Dragonite|confusion
+|move|p1a: Dragonite|Tera Blast|p2a: Basculegion|[anim] Tera Blast Flying
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|43/100|[from] item: Leftovers
+|upkeep
+|-message|ch1ck3n nu99ets forfeited.
+|
+|win|Christendom
+|raw|Christendom's rating: 1656 &rarr; <strong>1679</strong><br />(+23 for winning)
+|raw|ch1ck3n nu99ets's rating: 1714 &rarr; <strong>1691</strong><br />(-23 for losing)
+|l|☆ch1ck3n nu99ets
+|player|p2|

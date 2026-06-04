@@ -1,0 +1,392 @@
+|j|‽diquitty
+|j|☆gimsy1723
+|t:|1769339052
+|gametype|singles
+|player|p1|diquitty|266|1152
+|player|p2|gimsy1723|265|1143
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Tinkaton, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Pecharunt|
+|poke|p1|Zarude|
+|poke|p1|Iron Valiant|
+|poke|p2|Skeledirge, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Quaquaval, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Inteleon, M|
+|teampreview
+|
+|t:|1769339064
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Inteleon|Inteleon, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Inteleon|atk|1
+|turn|1
+|
+|t:|1769339081
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Inteleon|Ice Beam|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|89/100
+|-status|p1a: Tinkaton|frz
+|
+|upkeep
+|turn|2
+|
+|t:|1769339092
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Inteleon|Snipe Shot|p1a: Pecharunt
+|-crit|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1769339104
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|3
+|
+|t:|1769339113
+|switch|p2a: Skeledirge|Skeledirge, M, shiny|100/100
+|move|p1a: Iron Valiant|Future Sight|p2a: Skeledirge
+|-start|p1a: Iron Valiant|move: Future Sight
+|
+|upkeep
+|turn|4
+|
+|t:|1769339121
+|move|p1a: Iron Valiant|Moonblast|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|81/100
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Iron Valiant
+|-status|p1a: Iron Valiant|brn
+|
+|-heal|p2a: Skeledirge|87/100|[from] item: Leftovers
+|-damage|p1a: Iron Valiant|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1769339135
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Tinkaton|Tinkaton, F|89/100 frz
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Skeledirge|Torch Song|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton
+|-damage|p1a: Tinkaton|53/100 frz
+|-boost|p2a: Skeledirge|spa|1
+|-curestatus|p1a: Tinkaton|frz|[msg]
+|
+|-end|p2a: Skeledirge|move: Future Sight
+|-damage|p2a: Skeledirge|49/100
+|-heal|p2a: Skeledirge|55/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1769339152
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Skeledirge|atk|1
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Landorus
+|-status|p1a: Landorus|brn
+|
+|-heal|p2a: Skeledirge|61/100|[from] item: Leftovers
+|-damage|p1a: Landorus|95/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1769339161
+|switch|p2a: Quaquaval|Quaquaval, F, shiny|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Quaquaval
+|-sidestart|p2: gimsy1723|move: Stealth Rock
+|
+|-damage|p1a: Landorus|89/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1769339171
+|switch|p1a: Tinkaton|Tinkaton, F|53/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Quaquaval|Rapid Spin|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|42/100
+|-boost|p2a: Quaquaval|spe|1
+|-sideend|p2: gimsy1723|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Quaquaval
+|
+|upkeep
+|turn|9
+|
+|t:|1769339181
+|move|p1a: Tinkaton|Fake Out|p2a: Quaquaval
+|-damage|p2a: Quaquaval|87/100
+|cant|p2a: Quaquaval|flinch
+|
+|upkeep
+|turn|10
+|
+|t:|1769339186
+|move|p2a: Quaquaval|Close Combat|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|faint|p1a: Tinkaton
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1769339199
+|switch|p1a: Iron Valiant|Iron Valiant|94/100 brn
+|turn|11
+|
+|t:|1769339208
+|switch|p2a: Skeledirge|Skeledirge, M, shiny|61/100
+|move|p1a: Iron Valiant|Future Sight|p2a: Skeledirge
+|-start|p1a: Iron Valiant|move: Future Sight
+|
+|-heal|p2a: Skeledirge|67/100|[from] item: Leftovers
+|-damage|p1a: Iron Valiant|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1769339213
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|89/100 brn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Skeledirge|atk|1
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|100/100
+|
+|-damage|p1a: Landorus|83/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1769339222
+|switch|p2a: Meowscarada|Meowscarada, F, shiny|100/100
+|move|p1a: Landorus|Earthquake|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-crit|p2a: Meowscarada
+|-damage|p2a: Meowscarada|60/100
+|-damage|p1a: Landorus|73/100 brn|[from] item: Life Orb
+|
+|-end|p2a: Meowscarada|move: Future Sight
+|-immune|p2a: Meowscarada
+|-damage|p1a: Landorus|67/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1769339237
+|move|p2a: Meowscarada|Knock Off|p1a: Landorus
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Landorus|0 fnt
+|-enditem|p1a: Landorus|Life Orb|[from] move: Knock Off|[of] p2a: Meowscarada
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1769339243
+|switch|p1a: Iron Valiant|Iron Valiant|88/100 brn
+|turn|15
+|
+|t:|1769339247
+|switch|p2a: Skeledirge|Skeledirge, M, shiny|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|78/100
+|
+|-heal|p2a: Skeledirge|84/100|[from] item: Leftovers
+|-damage|p1a: Iron Valiant|82/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1769339258
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Skeledirge|Torch Song|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|93/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p2a: Skeledirge|90/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gimsy1723)
+|
+|t:|1769339264
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Dragonite
+|-status|p1a: Dragonite|brn
+|-enditem|p1a: Dragonite|Lum Berry|[eat]
+|-curestatus|p1a: Dragonite|brn|[msg]
+|
+|-heal|p2a: Skeledirge|96/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1769339272
+|move|p1a: Dragonite|Outrage|p2a: Skeledirge
+|-damage|p2a: Skeledirge|23/100
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Dragonite
+|-status|p1a: Dragonite|brn
+|
+|-heal|p2a: Skeledirge|29/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|87/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1769339283
+|move|p1a: Dragonite|Outrage|p2a: Skeledirge|[from] lockedmove
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|-damage|p1a: Dragonite|81/100 brn|[from] brn
+|upkeep
+|
+|t:|1769339290
+|switch|p2a: Quaquaval|Quaquaval, F, shiny|87/100
+|turn|20
+|
+|t:|1769339293
+|move|p1a: Dragonite|Outrage|p2a: Quaquaval|[from] lockedmove
+|-damage|p2a: Quaquaval|15/100
+|-start|p1a: Dragonite|confusion|[fatigue]
+|move|p2a: Quaquaval|Triple Axel|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|50/100 brn
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|-hitcount|p1: Dragonite|2
+|
+|upkeep
+|
+|t:|1769339301
+|switch|p1a: Iron Valiant|Iron Valiant|82/100 brn
+|turn|21
+|
+|t:|1769339305
+|move|p1a: Iron Valiant|Vacuum Wave|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|-damage|p1a: Iron Valiant|76/100 brn|[from] brn
+|upkeep
+|
+|t:|1769339308
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|22
+|
+|t:|1769339317
+|move|p1a: Iron Valiant|Focus Blast|p2a: Rillaboom
+|-crit|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Iron Valiant|82/100 brn|[from] Grassy Terrain
+|-damage|p1a: Iron Valiant|76/100 brn|[from] brn
+|upkeep
+|
+|t:|1769339327
+|switch|p2a: Meowscarada|Meowscarada, F, shiny|60/100
+|turn|23
+|
+|t:|1769339332
+|move|p1a: Iron Valiant|Vacuum Wave|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|2/100
+|move|p2a: Meowscarada|Play Rough|p1a: Iron Valiant
+|-start|p2a: Meowscarada|typechange|Fairy|[from] ability: Protean
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p2a: Meowscarada|8/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1769339346
+|switch|p1a: Zarude|Zarude|100/100
+|turn|24
+|
+|t:|1769339353
+|switch|p2a: Inteleon|Inteleon, M, shiny|100/100
+|move|p1a: Zarude|Knock Off|p2a: Inteleon
+|-damage|p2a: Inteleon|11/100
+|-enditem|p2a: Inteleon|Scope Lens|[from] move: Knock Off|[of] p1a: Zarude
+|
+|-heal|p2a: Inteleon|17/100|[from] Grassy Terrain
+|upkeep
+|turn|25
+|
+|t:|1769339361
+|move|p2a: Inteleon|Ice Beam|p1a: Zarude
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|62/100
+|move|p1a: Zarude|Knock Off|p2a: Inteleon
+|-damage|p2a: Inteleon|0 fnt
+|faint|p2a: Inteleon
+|
+|-heal|p1a: Zarude|68/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1769339367
+|switch|p2a: Cinderace|Cinderace, M, shiny|100/100
+|turn|26
+|
+|t:|1769339372
+|-terastallize|p2a: Cinderace|Fire
+|-terastallize|p1a: Zarude|Dark
+|move|p2a: Cinderace|Pyro Ball|p1a: Zarude|[miss]
+|-miss|p2a: Cinderace|p1a: Zarude
+|move|p1a: Zarude|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-enditem|p2a: Cinderace|Choice Scarf|[from] move: Knock Off|[of] p1a: Zarude
+|faint|p2a: Cinderace
+|
+|-heal|p1a: Zarude|74/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1769339379
+|switch|p2a: Meowscarada|Meowscarada, F, shiny|8/100
+|turn|27
+|
+|t:|1769339383
+|move|p2a: Meowscarada|Play Rough|p1a: Zarude
+|-start|p2a: Meowscarada|typechange|Fairy|[from] ability: Protean
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|0 fnt
+|faint|p1a: Zarude
+|
+|win|gimsy1723
+|raw|diquitty's rating: 1152 &rarr; <strong>1126</strong><br />(-26 for losing)
+|raw|gimsy1723's rating: 1143 &rarr; <strong>1169</strong><br />(+26 for winning)
+|l|☆gimsy1723
+|player|p2|
+|l|‽diquitty
+|player|p1|

@@ -1,0 +1,999 @@
+|j|☆ikamazu
+|j|☆hansie
+|t:|1760763867
+|gametype|singles
+|player|p1|ikamazu|scientistf|1039
+|player|p2|hansie|hiker-gen3rs|1072
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clodsire, F|
+|poke|p1|Pecharunt|
+|poke|p1|Talonflame, F|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Gliscor, F|
+|poke|p1|Blissey, F|
+|poke|p2|Sinistcha|
+|poke|p2|Umbreon, F|
+|poke|p2|Primeape, M|
+|poke|p2|Thwackey, M|
+|poke|p2|Incineroar, M|
+|poke|p2|Tentacruel, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ikamazu)
+|
+|t:|1760763879
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1760763887
+|move|p2a: Incineroar|Parting Shot|p1a: Weezing
+|-unboost|p1a: Weezing|atk|1
+|-unboost|p1a: Weezing|spa|1
+|
+|t:|1760763891
+|switch|p2a: Primeape|Primeape, M|100/100|[from] Parting Shot
+|move|p1a: Weezing|Will-O-Wisp|p2a: Primeape
+|-status|p2a: Primeape|brn
+|
+|-damage|p2a: Primeape|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1760763906
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Primeape|U-turn|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|99/100
+|-damage|p2a: Primeape|78/100 brn|[from] item: Rocky Helmet|[of] p1a: Pecharunt
+|
+|t:|1760763917
+|switch|p2a: Umbreon|Umbreon, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1760763926
+|move|p1a: Pecharunt|Malignant Chain|p2a: Umbreon
+|-damage|p2a: Umbreon|85/100
+|-status|p2a: Umbreon|tox
+|-start|p2a: Umbreon|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|-activate|p2a: Umbreon|ability: Synchronize
+|-immune|p1a: Pecharunt
+|-activate|p2a: Umbreon|confusion
+|move|p2a: Umbreon|Reflect|p2a: Umbreon
+|-sidestart|p2: hansie|Reflect
+|
+|-heal|p2a: Umbreon|91/100 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|85/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1760763941
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Pecharunt|Parting Shot|p2a: Tentacruel
+|-unboost|p2a: Tentacruel|atk|1
+|-unboost|p2a: Tentacruel|spa|1
+|
+|t:|1760763950
+|switch|p1a: Gliscor|Gliscor, F|100/100|[from] Parting Shot
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1760763958
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Tentacruel|Flip Turn|p1a: Blissey
+|-damage|p1a: Blissey|91/100
+|
+|t:|1760763964
+|switch|p2a: Thwackey|Thwackey, M|100/100|[from] Flip Turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|
+|-heal|p1a: Blissey|97/100|[from] Grassy Terrain
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760763973
+|move|p2a: Thwackey|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Flamethrower|p2a: Thwackey
+|-supereffective|p2a: Thwackey
+|-damage|p2a: Thwackey|66/100
+|
+|-heal|p2a: Thwackey|72/100|[from] Grassy Terrain
+|-damage|p1a: Blissey|88/100|[from] Leech Seed|[of] p2a: Thwackey
+|-heal|p2a: Thwackey|95/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1760763989
+|move|p2a: Thwackey|Leech Seed||[still]
+|-fail|p2a: Thwackey
+|move|p1a: Blissey|Stealth Rock|p2a: Thwackey
+|-sidestart|p2: hansie|move: Stealth Rock
+|
+|-heal|p2a: Thwackey|100/100|[from] Grassy Terrain
+|-heal|p1a: Blissey|94/100|[from] Grassy Terrain
+|-heal|p1a: Blissey|99/100|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100|[from] Leech Seed|[of] p2a: Thwackey
+|-sideend|p2: hansie|Reflect
+|upkeep
+|turn|8
+|
+|t:|1760763998
+|move|p2a: Thwackey|Knock Off|p1a: Blissey
+|-damage|p1a: Blissey|70/100
+|-enditem|p1a: Blissey|Leftovers|[from] move: Knock Off|[of] p2a: Thwackey
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|76/100|[from] Grassy Terrain
+|-damage|p1a: Blissey|64/100|[from] Leech Seed|[of] p2a: Thwackey
+|upkeep
+|turn|9
+|
+|t:|1760764008
+|move|p2a: Thwackey|Grassy Glide|p1a: Blissey
+|-damage|p1a: Blissey|43/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|93/100
+|
+|-heal|p1a: Blissey|99/100|[from] Grassy Terrain
+|-damage|p1a: Blissey|87/100|[from] Leech Seed|[of] p2a: Thwackey
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1760764016
+|move|p2a: Thwackey|U-turn|p1a: Blissey
+|-damage|p1a: Blissey|73/100
+|
+|t:|1760764025
+|switch|p2a: Umbreon|Umbreon, F|85/100 tox|[from] U-turn
+|-damage|p2a: Umbreon|73/100 tox|[from] Stealth Rock
+|move|p1a: Blissey|Flamethrower|p2a: Umbreon
+|-damage|p2a: Umbreon|60/100 tox
+|
+|-heal|p2a: Umbreon|66/100 tox|[from] item: Leftovers
+|-damage|p1a: Blissey|61/100|[from] Leech Seed|[of] p2a: Umbreon
+|-heal|p2a: Umbreon|87/100 tox|[silent]
+|-damage|p2a: Umbreon|81/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1760764038
+|switch|p1a: Pecharunt|Pecharunt|99/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|87/100 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|75/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1760764048
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|move|p1a: Pecharunt|Malignant Chain|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|76/100
+|
+|-heal|p2a: Tentacruel|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|13
+|
+|t:|1760764061
+|move|p2a: Tentacruel|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|83/100
+|-damage|p2a: Tentacruel|84/100|[from] item: Rocky Helmet|[of] p1a: Pecharunt
+|-enditem|p1a: Pecharunt|Rocky Helmet|[from] move: Knock Off|[of] p2a: Tentacruel
+|move|p1a: Pecharunt|Malignant Chain|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|72/100
+|
+|-heal|p2a: Tentacruel|79/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1760764072
+|move|p2a: Tentacruel|Flip Turn|p1a: Pecharunt
+|-damage|p1a: Pecharunt|76/100
+|
+|t:|1760764077
+|switch|p2a: Umbreon|Umbreon, F|75/100 tox|[from] Flip Turn
+|-damage|p2a: Umbreon|62/100 tox|[from] Stealth Rock
+|move|p1a: Pecharunt|Parting Shot|p2a: Umbreon
+|-unboost|p2a: Umbreon|atk|1
+|-unboost|p2a: Umbreon|spa|1
+|
+|t:|1760764087
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox|[from] Parting Shot
+|
+|-heal|p2a: Umbreon|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|62/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1760764094
+|switch|p2a: Thwackey|Thwackey, M|100/100
+|-damage|p2a: Thwackey|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|move|p1a: Gliscor|Knock Off|p2a: Thwackey
+|-damage|p2a: Thwackey|76/100
+|-enditem|p2a: Thwackey|Eviolite|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-heal|p2a: Thwackey|82/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1760764105
+|move|p1a: Gliscor|Toxic|p2a: Thwackey|[miss]
+|-miss|p1a: Gliscor|p2a: Thwackey
+|move|p2a: Thwackey|Leech Seed|p1a: Gliscor
+|-start|p1a: Gliscor|move: Leech Seed
+|
+|-heal|p2a: Thwackey|88/100|[from] Grassy Terrain
+|-damage|p1a: Gliscor|88/100 tox|[from] Leech Seed|[of] p2a: Thwackey
+|-heal|p2a: Thwackey|100/100|[silent]
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|t:|1760764115
+|switch|p2a: Primeape|Primeape, M|78/100 brn
+|-damage|p2a: Primeape|72/100 brn|[from] Stealth Rock
+|move|p1a: Gliscor|Toxic||[still]
+|-fail|p1a: Gliscor
+|
+|-heal|p2a: Primeape|78/100 brn|[from] Grassy Terrain
+|-damage|p1a: Gliscor|88/100 tox|[from] Leech Seed|[of] p2a: Primeape
+|-heal|p2a: Primeape|91/100 brn|[silent]
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Primeape|85/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1760764127
+|move|p2a: Primeape|Bulk Up|p2a: Primeape
+|-boost|p2a: Primeape|atk|1
+|-boost|p2a: Primeape|def|1
+|move|p1a: Gliscor|Knock Off|p2a: Primeape
+|-resisted|p2a: Primeape
+|-damage|p2a: Primeape|78/100 brn
+|-enditem|p2a: Primeape|Eviolite|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-heal|p2a: Primeape|84/100 brn|[from] Grassy Terrain
+|-damage|p1a: Gliscor|88/100 tox|[from] Leech Seed|[of] p2a: Primeape
+|-heal|p2a: Primeape|97/100 brn|[silent]
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Primeape|91/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1760764138
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Primeape|Bulk Up|p2a: Primeape
+|-boost|p2a: Primeape|atk|1
+|-boost|p2a: Primeape|def|1
+|
+|-heal|p2a: Primeape|97/100 brn|[from] Grassy Terrain
+|-damage|p2a: Primeape|91/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|20
+|
+|t:|1760764149
+|move|p2a: Primeape|Bulk Up|p2a: Primeape
+|-boost|p2a: Primeape|atk|1
+|-boost|p2a: Primeape|def|1
+|move|p1a: Clodsire|Curse|p1a: Clodsire
+|-unboost|p1a: Clodsire|spe|1
+|-boost|p1a: Clodsire|atk|1
+|-boost|p1a: Clodsire|def|1
+|
+|-damage|p2a: Primeape|85/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1760764157
+|move|p2a: Primeape|Bulk Up|p2a: Primeape
+|-boost|p2a: Primeape|atk|1
+|-boost|p2a: Primeape|def|1
+|move|p1a: Clodsire|Curse|p1a: Clodsire
+|-unboost|p1a: Clodsire|spe|1
+|-boost|p1a: Clodsire|atk|1
+|-boost|p1a: Clodsire|def|1
+|
+|-damage|p2a: Primeape|79/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1760764170
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-damage|p2a: Incineroar|76/100|[from] Stealth Rock
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Clodsire|atk|1
+|move|p1a: Clodsire|Counter||[still]
+|-fail|p1a: Clodsire
+|
+|upkeep
+|turn|23
+|
+|t:|1760764177
+|move|p2a: Incineroar|Parting Shot|p1a: Clodsire
+|-unboost|p1a: Clodsire|atk|1
+|-unboost|p1a: Clodsire|spa|1
+|
+|t:|1760764182
+|switch|p2a: Sinistcha|Sinistcha|100/100|[from] Parting Shot
+|-damage|p2a: Sinistcha|88/100|[from] Stealth Rock
+|move|p1a: Clodsire|Bulldoze|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|83/100
+|-unboost|p2a: Sinistcha|spe|1
+|
+|upkeep
+|turn|24
+|
+|t:|1760764192
+|switch|p1a: Pecharunt|Pecharunt|76/100
+|move|p2a: Sinistcha|Strength Sap|p1a: Pecharunt
+|-unboost|p1a: Pecharunt|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|upkeep
+|turn|25
+|
+|t:|1760764202
+|move|p1a: Pecharunt|Malignant Chain|p2a: Sinistcha
+|-damage|p2a: Sinistcha|61/100
+|-status|p2a: Sinistcha|tox
+|-start|p2a: Sinistcha|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|-activate|p2a: Sinistcha|confusion
+|move|p2a: Sinistcha|Shadow Ball|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|5/100
+|
+|-damage|p2a: Sinistcha|55/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1760764222
+|switch|p1a: Blissey|Blissey, F|61/100
+|switch|p2a: Tentacruel|Tentacruel, M|79/100
+|-damage|p2a: Tentacruel|66/100|[from] Stealth Rock
+|
+|-heal|p2a: Tentacruel|72/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|t:|1760764232
+|move|p2a: Tentacruel|Rapid Spin|p1a: Blissey
+|-damage|p1a: Blissey|52/100
+|-boost|p2a: Tentacruel|spe|1
+|-sideend|p2: hansie|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-heal|p2a: Tentacruel|78/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|t:|1760764246
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Tentacruel|Flip Turn|p1a: Weezing
+|-damage|p1a: Weezing|90/100
+|
+|t:|1760764255
+|switch|p2a: Umbreon|Umbreon, F|62/100 tox|[from] Flip Turn
+|
+|-heal|p2a: Umbreon|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|62/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1760764270
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Pecharunt|Pecharunt|5/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|56/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1760764279
+|switch|p2a: Primeape|Primeape, M|79/100 brn
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|55/100
+|
+|-heal|p2a: Primeape|100/100 brn|[from] move: Wish|[wisher] Umbreon
+|-damage|p2a: Primeape|95/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1760764290
+|move|p2a: Primeape|Bulk Up|p2a: Primeape
+|-boost|p2a: Primeape|atk|1
+|-boost|p2a: Primeape|def|1
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|100/100
+|
+|-damage|p2a: Primeape|89/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1760764301
+|move|p2a: Primeape|Rage Fist|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|84/100
+|move|p1a: Pecharunt|Parting Shot|p2a: Primeape
+|-unboost|p2a: Primeape|atk|1
+|-ability|p2a: Primeape|Defiant|boost
+|-boost|p2a: Primeape|atk|2
+|-unboost|p2a: Primeape|spa|1
+|-ability|p2a: Primeape|Defiant|boost
+|-boost|p2a: Primeape|atk|2
+|
+|t:|1760764307
+|switch|p1a: Clodsire|Clodsire, F|100/100|[from] Parting Shot
+|
+|-damage|p2a: Primeape|83/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1760764315
+|move|p2a: Primeape|U-turn|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|97/100
+|
+|t:|1760764322
+|switch|p2a: Thwackey|Thwackey, M|100/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|move|p1a: Clodsire|Curse|p1a: Clodsire
+|-unboost|p1a: Clodsire|spe|1
+|-boost|p1a: Clodsire|atk|1
+|-boost|p1a: Clodsire|def|1
+|
+|-heal|p1a: Clodsire|100/100|[from] Grassy Terrain
+|upkeep
+|turn|34
+|
+|t:|1760764334
+|move|p2a: Thwackey|Leech Seed|p1a: Clodsire
+|-start|p1a: Clodsire|move: Leech Seed
+|move|p1a: Clodsire|Bulldoze|p2a: Thwackey
+|-resisted|p2a: Thwackey
+|-damage|p2a: Thwackey|95/100
+|-unboost|p2a: Thwackey|spe|1
+|
+|-heal|p2a: Thwackey|100/100|[from] Grassy Terrain
+|-damage|p1a: Clodsire|88/100|[from] Leech Seed|[of] p2a: Thwackey
+|upkeep
+|turn|35
+|
+|t:|1760764353
+|move|p2a: Thwackey|Knock Off|p1a: Clodsire
+|-damage|p1a: Clodsire|76/100
+|-enditem|p1a: Clodsire|Leftovers|[from] move: Knock Off|[of] p2a: Thwackey
+|move|p1a: Clodsire|Counter|p2a: Thwackey
+|-damage|p2a: Thwackey|73/100
+|
+|-heal|p2a: Thwackey|79/100|[from] Grassy Terrain
+|-heal|p1a: Clodsire|82/100|[from] Grassy Terrain
+|-damage|p1a: Clodsire|70/100|[from] Leech Seed|[of] p2a: Thwackey
+|-heal|p2a: Thwackey|93/100|[silent]
+|upkeep
+|turn|36
+|
+|t:|1760764368
+|switch|p2a: Umbreon|Umbreon, F|56/100 tox
+|switch|p1a: Pecharunt|Pecharunt|84/100
+|
+|-heal|p1a: Pecharunt|90/100|[from] Grassy Terrain
+|-heal|p2a: Umbreon|62/100 tox|[from] Grassy Terrain
+|-heal|p2a: Umbreon|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|62/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1760764376
+|move|p1a: Pecharunt|Malignant Chain|p2a: Umbreon
+|-damage|p2a: Umbreon|45/100 tox
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p1a: Pecharunt|96/100|[from] Grassy Terrain
+|-heal|p2a: Umbreon|51/100 tox|[from] Grassy Terrain
+|-heal|p2a: Umbreon|57/100 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|45/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|38
+|
+|t:|1760764386
+|move|p1a: Pecharunt|Malignant Chain|p2a: Umbreon
+|-damage|p2a: Umbreon|28/100 tox
+|move|p2a: Umbreon|Reflect|p2a: Umbreon
+|-sidestart|p2: hansie|Reflect
+|
+|-heal|p2a: Umbreon|78/100 tox|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|84/100 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|66/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1760764395
+|switch|p2a: Tentacruel|Tentacruel, M|78/100
+|move|p1a: Pecharunt|Foul Play|p2a: Tentacruel
+|-damage|p2a: Tentacruel|72/100
+|
+|-heal|p2a: Tentacruel|78/100|[from] item: Black Sludge
+|upkeep
+|turn|40
+|
+|t:|1760764405
+|switch|p1a: Weezing|Weezing-Galar, F|90/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Tentacruel|Knock Off|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|85/100
+|-enditem|p1a: Weezing|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|84/100|[from] item: Black Sludge
+|upkeep
+|turn|41
+|
+|t:|1760764415
+|move|p2a: Tentacruel|Flip Turn|p1a: Weezing
+|-damage|p1a: Weezing|75/100
+|
+|t:|1760764423
+|switch|p2a: Thwackey|Thwackey, M|93/100|[from] Flip Turn
+|move|p1a: Weezing|Will-O-Wisp|p2a: Thwackey
+|-status|p2a: Thwackey|brn
+|
+|-damage|p2a: Thwackey|87/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1760764443
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox
+|move|p2a: Thwackey|Leech Seed|p1a: Gliscor
+|-start|p1a: Gliscor|move: Leech Seed
+|
+|-heal|p2a: Thwackey|93/100 brn|[from] Grassy Terrain
+|-damage|p1a: Gliscor|88/100 tox|[from] Leech Seed|[of] p2a: Thwackey
+|-heal|p2a: Thwackey|100/100 brn|[silent]
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Thwackey|94/100 brn|[from] brn
+|-sideend|p2: hansie|Reflect
+|upkeep
+|turn|43
+|
+|t:|1760764457
+|switch|p2a: Primeape|Primeape, M|83/100 brn
+|move|p1a: Gliscor|Spikes|p2a: Primeape
+|-sidestart|p2: hansie|Spikes
+|
+|-heal|p2a: Primeape|89/100 brn|[from] Grassy Terrain
+|-damage|p1a: Gliscor|88/100 tox|[from] Leech Seed|[of] p2a: Primeape
+|-heal|p2a: Primeape|100/100 brn|[silent]
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Primeape|95/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1760764469
+|switch|p2a: Tentacruel|Tentacruel, M|84/100
+|-damage|p2a: Tentacruel|71/100|[from] Spikes
+|move|p1a: Gliscor|Spikes|p2a: Tentacruel
+|-sidestart|p2: hansie|Spikes
+|
+|-heal|p2a: Tentacruel|77/100|[from] Grassy Terrain
+|-heal|p2a: Tentacruel|83/100|[from] item: Black Sludge
+|-damage|p1a: Gliscor|88/100 tox|[from] Leech Seed|[of] p2a: Tentacruel
+|-heal|p2a: Tentacruel|96/100|[silent]
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|45
+|
+|t:|1760764479
+|move|p2a: Tentacruel|Rapid Spin|p1a: Gliscor
+|-damage|p1a: Gliscor|94/100 tox
+|-boost|p2a: Tentacruel|spe|1
+|-sideend|p2: hansie|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Gliscor|Knock Off|p2a: Tentacruel
+|-damage|p2a: Tentacruel|76/100
+|-enditem|p2a: Tentacruel|Black Sludge|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-heal|p2a: Tentacruel|82/100|[from] Grassy Terrain
+|-damage|p1a: Gliscor|82/100 tox|[from] Leech Seed|[of] p2a: Tentacruel
+|-heal|p2a: Tentacruel|94/100|[silent]
+|-heal|p1a: Gliscor|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|46
+|
+|t:|1760764493
+|switch|p1a: Pecharunt|Pecharunt|96/100
+|move|p2a: Tentacruel|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|86/100
+|
+|-heal|p2a: Tentacruel|99/100|[from] Grassy Terrain
+|-heal|p1a: Pecharunt|92/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|47
+|
+|t:|1760764513
+|move|p2a: Tentacruel|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|82/100
+|move|p1a: Pecharunt|Parting Shot|p2a: Tentacruel
+|-unboost|p2a: Tentacruel|atk|1
+|-unboost|p2a: Tentacruel|spa|1
+|
+|t:|1760764524
+|switch|p1a: Clodsire|Clodsire, F|70/100|[from] Parting Shot
+|
+|upkeep
+|turn|48
+|
+|t:|1760764528
+|-terastallize|p1a: Clodsire|Steel
+|move|p2a: Tentacruel|Flip Turn|p1a: Clodsire
+|-damage|p1a: Clodsire|57/100
+|
+|t:|1760764534
+|switch|p2a: Incineroar|Incineroar, M|76/100|[from] Flip Turn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Clodsire|atk|1
+|move|p1a: Clodsire|Bulldoze|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|50/100
+|-unboost|p2a: Incineroar|spe|1
+|
+|upkeep
+|turn|49
+|
+|t:|1760764547
+|switch|p1a: Pecharunt|Pecharunt|82/100
+|move|p2a: Incineroar|Parting Shot|p1a: Pecharunt
+|-unboost|p1a: Pecharunt|atk|1
+|-unboost|p1a: Pecharunt|spa|1
+|
+|t:|1760764553
+|switch|p2a: Umbreon|Umbreon, F|66/100 tox|[from] Parting Shot
+|
+|-heal|p2a: Umbreon|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|66/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|t:|1760764559
+|move|p1a: Pecharunt|Parting Shot|p2a: Umbreon
+|-unboost|p2a: Umbreon|atk|1
+|-unboost|p2a: Umbreon|spa|1
+|
+|t:|1760764565
+|switch|p1a: Clodsire|Clodsire, F, tera:Steel|57/100|[from] Parting Shot
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|60/100 tox|[from] psn
+|upkeep
+|turn|51
+|
+|t:|1760764572
+|switch|p2a: Incineroar|Incineroar, M|50/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Clodsire|atk|1
+|move|p1a: Clodsire|Bulldoze|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|23/100
+|-unboost|p2a: Incineroar|spe|1
+|
+|-heal|p2a: Incineroar|83/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|52
+|
+|t:|1760764583
+|move|p2a: Incineroar|Will-O-Wisp|p1a: Clodsire|[miss]
+|-miss|p2a: Incineroar|p1a: Clodsire
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100
+|
+|upkeep
+|turn|53
+|
+|t:|1760764588
+|switch|p1a: Gliscor|Gliscor, F|94/100 tox
+|move|p2a: Incineroar|Will-O-Wisp||[still]
+|-fail|p2a: Incineroar
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|54
+|
+|t:|1760764595
+|switch|p2a: Thwackey|Thwackey, M|94/100 brn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|move|p1a: Gliscor|Knock Off|p2a: Thwackey
+|-damage|p2a: Thwackey|82/100 brn
+|
+|-heal|p2a: Thwackey|88/100 brn|[from] Grassy Terrain
+|-damage|p2a: Thwackey|82/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|t:|1760764607
+|move|p1a: Gliscor|Spikes|p2a: Thwackey
+|-sidestart|p2: hansie|Spikes
+|move|p2a: Thwackey|Leech Seed|p1a: Gliscor
+|-start|p1a: Gliscor|move: Leech Seed
+|
+|-heal|p2a: Thwackey|88/100 brn|[from] Grassy Terrain
+|-damage|p1a: Gliscor|88/100 tox|[from] Leech Seed|[of] p2a: Thwackey
+|-heal|p2a: Thwackey|100/100 brn|[silent]
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Thwackey|94/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|t:|1760764621
+|switch|p2a: Sinistcha|Sinistcha|55/100 tox
+|-damage|p2a: Sinistcha|42/100 tox|[from] Spikes
+|move|p1a: Gliscor|Spikes|p2a: Sinistcha
+|-sidestart|p2: hansie|Spikes
+|
+|-heal|p2a: Sinistcha|48/100 tox|[from] Grassy Terrain
+|-damage|p1a: Gliscor|88/100 tox|[from] Leech Seed|[of] p2a: Sinistcha
+|-heal|p2a: Sinistcha|61/100 tox|[silent]
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Sinistcha|55/100 tox|[from] psn
+|upkeep
+|turn|57
+|
+|t:|1760764633
+|move|p1a: Gliscor|Spikes|p2a: Sinistcha
+|-sidestart|p2: hansie|Spikes
+|move|p2a: Sinistcha|Strength Sap|p1a: Gliscor
+|-unboost|p1a: Gliscor|atk|1
+|-heal|p2a: Sinistcha|100/100 tox
+|
+|-damage|p1a: Gliscor|88/100 tox|[from] Leech Seed|[of] p2a: Sinistcha
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Sinistcha|88/100 tox|[from] psn
+|upkeep
+|turn|58
+|
+|t:|1760764645
+|switch|p2a: Tentacruel|Tentacruel, M|99/100
+|-damage|p2a: Tentacruel|75/100|[from] Spikes
+|move|p1a: Gliscor|Knock Off|p2a: Tentacruel
+|-damage|p2a: Tentacruel|67/100
+|
+|-heal|p2a: Tentacruel|73/100|[from] Grassy Terrain
+|-damage|p1a: Gliscor|88/100 tox|[from] Leech Seed|[of] p2a: Tentacruel
+|-heal|p2a: Tentacruel|85/100|[silent]
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|59
+|
+|t:|1760764656
+|switch|p1a: Pecharunt|Pecharunt|82/100
+|move|p2a: Tentacruel|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|72/100
+|
+|upkeep
+|turn|60
+|
+|t:|1760764662
+|move|p2a: Tentacruel|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|62/100
+|move|p1a: Pecharunt|Foul Play|p2a: Tentacruel
+|-damage|p2a: Tentacruel|71/100
+|
+|upkeep
+|turn|61
+|
+|t:|1760764669
+|move|p2a: Tentacruel|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|52/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|100/100
+|
+|upkeep
+|turn|62
+|
+|t:|1760764678
+|move|p2a: Tentacruel|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-crit|p1a: Pecharunt
+|-damage|p1a: Pecharunt|85/100
+|move|p1a: Pecharunt|Foul Play|p2a: Tentacruel
+|-damage|p2a: Tentacruel|57/100
+|
+|upkeep
+|turn|63
+|
+|t:|1760764687
+|move|p2a: Tentacruel|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|74/100
+|move|p1a: Pecharunt|Foul Play|p2a: Tentacruel
+|-damage|p2a: Tentacruel|42/100
+|
+|upkeep
+|turn|64
+|
+|t:|1760764693
+|move|p2a: Tentacruel|Flip Turn|p1a: Pecharunt
+|-damage|p1a: Pecharunt|67/100
+|
+|t:|1760764696
+|switch|p2a: Umbreon|Umbreon, F|60/100 tox|[from] Flip Turn
+|-damage|p2a: Umbreon|35/100 tox|[from] Spikes
+|move|p1a: Pecharunt|Foul Play|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|30/100 tox
+|
+|-heal|p2a: Umbreon|36/100 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|30/100 tox|[from] psn
+|upkeep
+|turn|65
+|
+|t:|1760764705
+|move|p1a: Pecharunt|Malignant Chain|p2a: Umbreon
+|-damage|p2a: Umbreon|12/100 tox
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|18/100 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|6/100 tox|[from] psn
+|upkeep
+|turn|66
+|
+|t:|1760764717
+|switch|p2a: Incineroar|Incineroar, M|83/100
+|-damage|p2a: Incineroar|58/100|[from] Spikes
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Pecharunt|atk|1
+|move|p1a: Pecharunt|Malignant Chain|p2a: Incineroar
+|-damage|p2a: Incineroar|23/100
+|-status|p2a: Incineroar|tox
+|-start|p2a: Incineroar|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-heal|p2a: Incineroar|83/100 tox|[from] move: Wish|[wisher] Umbreon
+|-damage|p2a: Incineroar|77/100 tox|[from] psn
+|upkeep
+|turn|67
+|
+|t:|1760764732
+|-activate|p2a: Incineroar|confusion
+|move|p2a: Incineroar|Flare Blitz|p1a: Pecharunt
+|-damage|p1a: Pecharunt|42/100
+|-damage|p2a: Incineroar|67/100 tox|[from] Recoil
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|92/100
+|
+|-damage|p2a: Incineroar|55/100 tox|[from] psn
+|upkeep
+|turn|68
+|
+|t:|1760764745
+|switch|p2a: Thwackey|Thwackey, M|94/100 brn
+|-damage|p2a: Thwackey|69/100 brn|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Thwackey
+|move|p1a: Pecharunt|Parting Shot|p2a: Thwackey
+|-unboost|p2a: Thwackey|atk|1
+|-unboost|p2a: Thwackey|spa|1
+|
+|t:|1760764751
+|switch|p1a: Blissey|Blissey, F|100/100|[from] Parting Shot
+|
+|-heal|p2a: Thwackey|75/100 brn|[from] Grassy Terrain
+|-damage|p2a: Thwackey|69/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|t:|1760764757
+|move|p2a: Thwackey|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Stealth Rock|p2a: Thwackey
+|-sidestart|p2: hansie|move: Stealth Rock
+|
+|-heal|p2a: Thwackey|75/100 brn|[from] Grassy Terrain
+|-damage|p1a: Blissey|88/100|[from] Leech Seed|[of] p2a: Thwackey
+|-heal|p2a: Thwackey|99/100 brn|[silent]
+|-damage|p2a: Thwackey|93/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|t:|1760764772
+|switch|p2a: Primeape|Primeape, M|95/100 brn
+|-damage|p2a: Primeape|70/100 brn|[from] Spikes
+|-damage|p2a: Primeape|64/100 brn|[from] Stealth Rock
+|move|p1a: Blissey|Flamethrower|p2a: Primeape
+|-damage|p2a: Primeape|42/100 brn
+|
+|-heal|p2a: Primeape|48/100 brn|[from] Grassy Terrain
+|-heal|p1a: Blissey|94/100|[from] Grassy Terrain
+|-damage|p1a: Blissey|82/100|[from] Leech Seed|[of] p2a: Primeape
+|-heal|p2a: Primeape|72/100 brn|[silent]
+|-damage|p2a: Primeape|66/100 brn|[from] brn
+|upkeep
+|turn|71
+|
+|t:|1760764784
+|switch|p1a: Clodsire|Clodsire, F, tera:Steel|100/100
+|move|p2a: Primeape|Bulk Up|p2a: Primeape
+|-boost|p2a: Primeape|atk|1
+|-boost|p2a: Primeape|def|1
+|
+|-heal|p2a: Primeape|72/100 brn|[from] Grassy Terrain
+|-damage|p2a: Primeape|66/100 brn|[from] brn
+|upkeep
+|turn|72
+|
+|t:|1760764797
+|move|p2a: Primeape|Bulk Up|p2a: Primeape
+|-boost|p2a: Primeape|atk|1
+|-boost|p2a: Primeape|def|1
+|move|p1a: Clodsire|Curse|p1a: Clodsire
+|-unboost|p1a: Clodsire|spe|1
+|-boost|p1a: Clodsire|atk|1
+|-boost|p1a: Clodsire|def|1
+|
+|-heal|p2a: Primeape|72/100 brn|[from] Grassy Terrain
+|-damage|p2a: Primeape|66/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|73
+|
+|t:|1760764807
+|move|p2a: Primeape|Close Combat|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|74/100
+|-unboost|p2a: Primeape|def|1
+|-unboost|p2a: Primeape|spd|1
+|move|p1a: Clodsire|Curse|p1a: Clodsire
+|-unboost|p1a: Clodsire|spe|1
+|-boost|p1a: Clodsire|atk|1
+|-boost|p1a: Clodsire|def|1
+|
+|-damage|p2a: Primeape|60/100 brn|[from] brn
+|upkeep
+|turn|74
+|-message|hansie forfeited.
+|
+|win|ikamazu
+|raw|ikamazu's rating: 1075 &rarr; <strong>1104</strong><br />(+29 for winning)
+|raw|hansie's rating: 1072 &rarr; <strong>1051</strong><br />(-21 for losing)
+|l|☆hansie
+|player|p2|

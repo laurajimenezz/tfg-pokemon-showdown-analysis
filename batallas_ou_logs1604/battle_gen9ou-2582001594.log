@@ -1,0 +1,364 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆Geyserg
+|j|☆mradvisor
+|t:|1776047235
+|gametype|singles
+|player|p1|Geyserg|2|1162
+|player|p2|mradvisor|hilbert-wonderlauncher|1174
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blaziken, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Garganacl, F|
+|poke|p1|Noivern, M|
+|poke|p1|Scizor, F|
+|poke|p1|Dusclops, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Gholdengo|
+|poke|p2|Zarude-Dada|
+|poke|p2|Dragonite, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Ting-Lu|
+|teampreview
+|j| ohko_smeargle
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Geyserg)
+|
+|t:|1776047263
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1776047276
+|switch|p1a: Dusclops|Dusclops, F|100/100
+|move|p2a: Iron Valiant|Spirit Break|p1a: Dusclops
+|-damage|p1a: Dusclops|74/100
+|-unboost|p1a: Dusclops|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1776047290
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Zarude|Zarude-Dada|100/100
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Zarude
+|-status|p2a: Zarude|brn
+|
+|-damage|p2a: Zarude|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1776047303
+|move|p2a: Zarude|Knock Off|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|40/100
+|-enditem|p1a: Dusclops|Eviolite|[from] move: Knock Off|[of] p2a: Zarude
+|move|p1a: Dusclops|Pain Split|p2a: Zarude
+|-sethp|p2a: Zarude|63/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|78/100|[from] move: Pain Split
+|
+|-damage|p2a: Zarude|57/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1776047312
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Zarude|Swords Dance|p2a: Zarude
+|-boost|p2a: Zarude|atk|2
+|
+|-damage|p2a: Zarude|51/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1776047320
+|move|p2a: Zarude|Drain Punch|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|75/100
+|-heal|p2a: Zarude|67/100 brn|[from] drain|[of] p1a: Garganacl
+|move|p1a: Garganacl|Salt Cure|p2a: Zarude
+|-damage|p2a: Zarude|53/100 brn
+|-start|p2a: Zarude|Salt Cure
+|
+|-heal|p1a: Garganacl|81/100|[from] item: Leftovers
+|-damage|p2a: Zarude|48/100 brn|[from] brn
+|-damage|p2a: Zarude|35/100 brn|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1776047335
+|move|p2a: Zarude|Power Whip|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|22/100
+|move|p1a: Garganacl|Ice Punch|p2a: Zarude
+|-supereffective|p2a: Zarude
+|-damage|p2a: Zarude|3/100 brn
+|
+|-heal|p1a: Garganacl|28/100|[from] item: Leftovers
+|-damage|p2a: Zarude|0 fnt|[from] brn
+|faint|p2a: Zarude
+|upkeep
+|
+|t:|1776047356
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|7
+|
+|t:|1776047363
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|move|p1a: Garganacl|Salt Cure|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|91/100
+|-start|p2a: Iron Valiant|Salt Cure
+|
+|-heal|p1a: Garganacl|34/100|[from] item: Leftovers
+|-damage|p2a: Iron Valiant|79/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1776047375
+|move|p2a: Iron Valiant|Spirit Break|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-damage|p2a: Iron Valiant|66/100|[from] Salt Cure
+|upkeep
+|
+|t:|1776047381
+|switch|p1a: Noivern|Noivern, M|100/100
+|turn|9
+|
+|t:|1776047388
+|-terastallize|p2a: Iron Valiant|Fairy
+|move|p1a: Noivern|Air Slash|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1776047406
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|10
+|
+|t:|1776047413
+|switch|p1a: Dusclops|Dusclops, F|78/100
+|-item|p2a: Ting-Lu|Assault Vest|[from] ability: Frisk|[of] p1a: Dusclops
+|move|p2a: Ting-Lu|Stone Edge|p1a: Dusclops|[miss]
+|-miss|p2a: Ting-Lu|p1a: Dusclops
+|
+|upkeep
+|turn|11
+|
+|t:|1776047431
+|move|p2a: Ting-Lu|Throat Chop|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|10/100
+|-start|p1a: Dusclops|Throat Chop|[silent]
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Ting-Lu|[miss]
+|-miss|p1a: Dusclops|p2a: Ting-Lu
+|
+|upkeep
+|turn|12
+|
+|t:|1776047437
+|move|p2a: Ting-Lu|Throat Chop|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|faint|p1a: Dusclops
+|
+|upkeep
+|
+|t:|1776047444
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|turn|13
+|
+|t:|1776047450
+|move|p1a: Blaziken|Close Combat|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|27/100
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|-damage|p1a: Blaziken|91/100|[from] item: Life Orb
+|move|p2a: Ting-Lu|Earthquake|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1776047459
+|switch|p1a: Greniggá|Greninja, M, shiny|100/100
+|turn|14
+|
+|t:|1776047475
+|move|p1a: Greniggá|Water Shuriken|p2a: Ting-Lu
+|-start|p1a: Greniggá|typechange|Water|[from] ability: Protean
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|21/100
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|15/100
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|9/100
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|2/100
+|-hitcount|p2a: Ting-Lu|4
+|move|p2a: Ting-Lu|Earthquake|p1a: Greniggá
+|-damage|p1a: Greniggá|29/100
+|
+|upkeep
+|turn|15
+|inactive|mradvisor has 120 seconds left.
+|
+|t:|1776047506
+|move|p1a: Greniggá|Water Shuriken|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|-hitcount|p2: Ting-Lu|1
+|
+|upkeep
+|
+|t:|1776047528
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|16
+|
+|t:|1776047540
+|move|p1a: Greniggá|Dark Pulse|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|45/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Shadow Ball|p1a: Greniggá
+|-damage|p1a: Greniggá|0 fnt
+|faint|p1a: Greniggá
+|
+|upkeep
+|
+|t:|1776047561
+|switch|p1a: Noivern|Noivern, M|100/100
+|turn|17
+|
+|t:|1776047569
+|move|p1a: Noivern|Draco Meteor|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-unboost|p1a: Noivern|spa|2
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1776047575
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|18
+|inactive|mradvisor has 120 seconds left.
+|
+|t:|1776047581
+|move|p1a: Noivern|Draco Meteor|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|27/100
+|-unboost|p1a: Noivern|spa|2
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|19
+|inactive|mradvisor has 120 seconds left.
+|
+|t:|1776047591
+|move|p2a: Dragonite|Scale Shot|p1a: Noivern
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|56/100
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|14/100
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|-hitcount|p1: Noivern|3
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1776047602
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|20
+|
+|t:|1776047611
+|move|p2a: Dragonite|Aqua Jet|p1a: Scizor
+|-damage|p1a: Scizor|82/100
+|move|p1a: Scizor|Bullet Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-damage|p1a: Scizor|72/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1776047618
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|21
+|
+|t:|1776047633
+|move|p1a: Scizor|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|55/100
+|-damage|p1a: Scizor|62/100|[from] item: Life Orb
+|move|p2a: Slowking|Thunder Wave|p1a: Scizor
+|-status|p1a: Scizor|par
+|
+|-heal|p2a: Slowking|61/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|t:|1776047644
+|move|p2a: Slowking|Psyshock|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|47/100 par
+|move|p1a: Scizor|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|17/100
+|-damage|p1a: Scizor|37/100 par|[from] item: Life Orb
+|
+|-heal|p2a: Slowking|23/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|t:|1776047656
+|-terastallize|p1a: Scizor|Steel
+|cant|p1a: Scizor|par
+|move|p2a: Slowking|Psyshock|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|21/100 par
+|
+|-heal|p2a: Slowking|29/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|t:|1776047666
+|move|p1a: Scizor|Bullet Punch|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-damage|p1a: Scizor|11/100 par|[from] item: Life Orb
+|
+|win|Geyserg
+|raw|Geyserg's rating: 1162 &rarr; <strong>1188</strong><br />(+26 for winning)
+|raw|mradvisor's rating: 1174 &rarr; <strong>1148</strong><br />(-26 for losing)
+|l| ohko_smeargle
+|l|☆mradvisor
+|player|p2|
+|l|☆Geyserg
+|player|p1|

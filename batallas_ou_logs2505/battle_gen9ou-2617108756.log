@@ -1,0 +1,391 @@
+|j|☆Urteam8
+|j|☆bradfish1761
+|t:|1779648848
+|gametype|singles
+|player|p1|Urteam8|brock|1203
+|player|p2|bradfish1761|elesa|1083
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Crawdaunt, M|
+|poke|p1|Latios, M|
+|poke|p1|Alomomola, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Bisharp, F|
+|poke|p1|Tentacruel, F|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Pelipper, M|
+|poke|p2|Gholdengo|
+|poke|p2|Cinderace, F|
+|poke|p2|Great Tusk|
+|poke|p2|Darkrai|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bradfish1761)
+|
+|t:|1779648859
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1779648869
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Great Tusk|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|50/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1779648880
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Great Tusk|Close Combat|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|54/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1779648892
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Great Tusk|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: Urteam8|move: Stealth Rock
+|
+|-heal|p1a: Gliscor|66/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1779648903
+|move|p2a: Great Tusk|Knock Off|p1a: Gliscor
+|-damage|p1a: Gliscor|32/100 tox
+|-enditem|p1a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Gliscor|Spikes|p2a: Great Tusk
+|-sidestart|p2: bradfish1761|Spikes
+|
+|-heal|p1a: Gliscor|45/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1779648910
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Gliscor|Protect||[still]
+|-fail|p1a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|57/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1779648924
+|-terastallize|p1a: Gliscor|Dragon
+|move|p1a: Gliscor|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|74/100
+|-enditem|p2a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Pelipper|Ice Beam|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|6/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|19/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1779648947
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Pelipper|Hurricane|p1a: Tentacruel
+|-damage|p1a: Tentacruel|49/100
+|-start|p1a: Tentacruel|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|55/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Urteam8 has 120 seconds left.
+|
+|t:|1779648977
+|-activate|p1a: Tentacruel|confusion
+|-damage|p1a: Tentacruel|49/100|[from] confusion
+|move|p2a: Pelipper|Hurricane|p1a: Tentacruel
+|-damage|p1a: Tentacruel|10/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|16/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1779648985
+|-end|p1a: Tentacruel|confusion
+|move|p1a: Tentacruel|Rapid Spin|p2a: Pelipper
+|-damage|p2a: Pelipper|64/100
+|-boost|p1a: Tentacruel|spe|1
+|-sideend|p1: Urteam8|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Pelipper|U-turn|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|12/100
+|
+|t:|1779648993
+|switch|p2a: Electrode|Electrode-Hisui|100/100|[from] U-turn
+|-damage|p2a: Electrode|88/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|18/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Urteam8 has 120 seconds left.
+|
+|t:|1779649026
+|switch|p1a: Latios|Latios, M|100/100
+|-terastallize|p2a: Electrode|Electric
+|move|p2a: Electrode|Thunder|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|49/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779649039
+|switch|p1a: Tentacruel|Tentacruel, F|18/100
+|move|p2a: Electrode|Thunder|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779649051
+|switch|p1a: Gliscor|Gliscor, M, tera:Dragon|19/100 tox
+|turn|12
+|
+|t:|1779649057
+|switch|p2a: Pelipper|Pelipper, M|64/100
+|move|p1a: Gliscor|Protect||[still]
+|-fail|p1a: Gliscor
+|
+|-weather|none
+|-heal|p1a: Gliscor|31/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1779649065
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|move|p2a: Pelipper|U-turn|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|74/100
+|
+|t:|1779649071
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-damage|p2a: Great Tusk|88/100|[from] Spikes
+|
+|upkeep
+|turn|14
+|
+|t:|1779649098
+|switch|p1a: Latios|Latios, M|49/100
+|move|p2a: Great Tusk|Close Combat|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|5/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|15
+|
+|t:|1779649109
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Pelipper|Pelipper, M|64/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Latios|Draco Meteor|p2a: Pelipper|[miss]
+|-miss|p1a: Latios|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1779649116
+|move|p1a: Latios|Draco Meteor|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779649120
+|switch|p2a: Electrode|Electrode-Hisui, tera:Electric|88/100
+|-damage|p2a: Electrode|76/100|[from] Spikes
+|turn|17
+|
+|t:|1779649130
+|switch|p1a: Gliscor|Gliscor, M, tera:Dragon|31/100 tox
+|move|p2a: Electrode|Thunder|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779649139
+|switch|p1a: Crawdaunt|Crawdaunt, M|74/100
+|turn|18
+|
+|t:|1779649142
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Electrode
+|-crit|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|-damage|p1a: Crawdaunt|50/100|[from] ability: Aftermath|[of] p2a: Electrode
+|faint|p2a: Electrode
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779649150
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|88/100|[from] Spikes
+|turn|19
+|
+|t:|1779649156
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|move|p2a: Gholdengo|Thunder|p1a: Bisharp
+|-damage|p1a: Bisharp|62/100
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|t:|1779649166
+|switch|p2a: Great Tusk|Great Tusk|88/100
+|-damage|p2a: Great Tusk|76/100|[from] Spikes
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|upkeep
+|turn|21
+|
+|t:|1779649180
+|switch|p1a: Alomomola|Alomomola, M|84/100
+|move|p2a: Great Tusk|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|40/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|22
+|
+|t:|1779649194
+|switch|p1a: Bisharp|Bisharp, F|62/100
+|move|p2a: Great Tusk|Close Combat|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|t:|1779649203
+|switch|p1a: Alomomola|Alomomola, M|73/100
+|turn|23
+|
+|t:|1779649213
+|move|p2a: Great Tusk|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|32/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|24
+|
+|t:|1779649221
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Great Tusk|Stealth Rock|p1a: Alomomola
+|-sidestart|p1: Urteam8|move: Stealth Rock
+|
+|-heal|p1a: Alomomola|82/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|25
+|
+|t:|1779649230
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|88/100
+|-damage|p2a: Gholdengo|76/100|[from] Spikes
+|move|p1a: Alomomola|Flip Turn|p2a: Gholdengo
+|-damage|p2a: Gholdengo|60/100
+|
+|t:|1779649237
+|switch|p1a: Crawdaunt|Crawdaunt, M|50/100|[from] Flip Turn
+|-damage|p1a: Crawdaunt|37/100|[from] Stealth Rock
+|
+|upkeep
+|turn|26
+|
+|t:|1779649244
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Gholdengo
+|-damage|p2a: Gholdengo|14/100
+|move|p2a: Gholdengo|Dazzling Gleam|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|upkeep
+|
+|t:|1779649252
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|turn|27
+|
+|t:|1779649257
+|move|p2a: Gholdengo|Dazzling Gleam|p1a: Alomomola
+|-damage|p1a: Alomomola|74/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|28
+|
+|t:|1779649263
+|move|p2a: Gholdengo|Dazzling Gleam|p1a: Alomomola
+|-damage|p1a: Alomomola|48/100
+|move|p1a: Alomomola|Flip Turn|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|t:|1779649269
+|switch|p1a: Latios|Latios, M|5/100|[from] Flip Turn
+|-damage|p1a: Latios|0 fnt|[from] Stealth Rock
+|faint|p1a: Latios
+|
+|upkeep
+|-message|Urteam8 forfeited.
+|
+|win|bradfish1761
+|raw|Urteam8's rating: 1203 &rarr; <strong>1170</strong><br />(-33 for losing)
+|raw|bradfish1761's rating: 1083 &rarr; <strong>1120</strong><br />(+37 for winning)
+|l|☆Urteam8
+|player|p1|
+|c|☆bradfish1761|Ggs

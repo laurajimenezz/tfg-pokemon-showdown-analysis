@@ -1,0 +1,184 @@
+|j|☆1colour
+|j|☆blckd out
+|t:|1769386988
+|gametype|singles
+|player|p1|1colour|parasollady|1753
+|player|p2|blckd out|lucas-gen4pt|1691
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Jirachi|
+|poke|p1|Regidrago|
+|poke|p1|Glimmora, F|
+|poke|p1|Mimikyu, M|
+|poke|p2|Gholdengo|
+|poke|p2|Raging Bolt|
+|poke|p2|Ceruledge, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1769386996
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|1
+|
+|t:|1769387000
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|61/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|upkeep
+|turn|2
+|
+|t:|1769387006
+|move|p2a: Ceruledge|Poltergeist|p1a: Cinderace
+|-activate|p1a: Cinderace|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Cinderace|22/100
+|move|p1a: Cinderace|U-turn|p2a: Ceruledge
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|45/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|t:|1769387017
+|switch|p1a: Rillaboom|Rillaboom, M|100/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|
+|-heal|p2a: Ceruledge|51/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1769387022
+|move|p1a: Rillaboom|Grassy Glide|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1769387027
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|4
+|
+|t:|1769387031
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1769387043
+|move|p1a: Jirachi|Psychic Noise|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|83/100
+|-start|p2a: Raging Bolt|move: Heal Block
+|move|p2a: Raging Bolt|Discharge|p1a: Jirachi
+|-damage|p1a: Jirachi|40/100
+|-status|p1a: Jirachi|par
+|
+|-heal|p1a: Jirachi|46/100 par|[from] Grassy Terrain
+|-heal|p1a: Jirachi|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1769387059
+|switch|p1a: Mimikyu|Mimikyu, M, shiny|100/100
+|move|p2a: Raging Bolt|Discharge|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M, shiny
+|-damage|p1a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p1a: Mimikyu|Red Card|[of] p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|drag|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|
+|-heal|p1a: Mimikyu|94/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1769387075
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|move|p1a: Mimikyu|Shadow Claw|p2a: Ribombee
+|-crit|p2a: Ribombee
+|-damage|p2a: Ribombee|10/100
+|
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blckd out)
+|
+|t:|1769387080
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1769387085
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|9
+|
+|t:|1769387094
+|switch|p1a: Jirachi|Jirachi|52/100 par
+|move|p2a: Great Tusk|Headlong Rush|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Jirachi
+|
+|upkeep
+|l|☆blckd out
+|inactive|blckd out disconnected and has a minute to reconnect!
+|player|p2|
+|
+|t:|1769387099
+|switch|p1a: Regidrago|Regidrago|100/100
+|turn|10
+|inactive|blckd out has 30 seconds to reconnect!
+|inactive|blckd out has 20 seconds to reconnect!
+|inactive|blckd out has 15 seconds to reconnect!
+|inactive|blckd out has 10 seconds to reconnect!
+|inactive|blckd out has 5 seconds to reconnect!
+|-message|blckd out lost due to inactivity.
+|
+|win|1colour
+|raw|1colour's rating: 1753 &rarr; <strong>1771</strong><br />(+18 for winning)
+|raw|blckd out's rating: 1712 &rarr; <strong>1694</strong><br />(-18 for losing)
+|l|☆1colour
+|player|p1|
+|j|☆blckd out
+|player|p2|blckd out|lucas-gen4pt|
+|l|☆blckd out
+|player|p2|

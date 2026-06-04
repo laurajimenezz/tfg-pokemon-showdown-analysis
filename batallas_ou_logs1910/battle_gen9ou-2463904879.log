@@ -1,0 +1,206 @@
+|j|☆Test4823
+|j|☆RJcopter
+|t:|1760763090
+|gametype|singles
+|player|p1|Test4823|101|1477
+|player|p2|RJcopter|dancer|1474
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Weezing-Galar, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Iron Treads|
+|poke|p2|Toxicroak, F|
+|poke|p2|Barraskewda, F|
+|poke|p2|Kilowattrel, M|
+|teampreview
+|
+|t:|1760763101
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1760763120
+|move|p1a: Goodra|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|77/100
+|-enditem|p2a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p1a: Goodra
+|move|p2a: Pelipper|Knock Off|p1a: Goodra
+|-damage|p1a: Goodra|90/100
+|-enditem|p1a: Goodra|Leftovers|[from] move: Knock Off|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760763125
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Goodra|Dragon Tail|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|92/100
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|drag|p2a: Kilowattrel|Kilowattrel, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760763134
+|move|p2a: Kilowattrel|Weather Ball|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|69/100
+|move|p1a: Goodra|Knock Off|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|55/100
+|-enditem|p2a: Kilowattrel|Choice Specs|[from] move: Knock Off|[of] p1a: Goodra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760763142
+|move|p2a: Kilowattrel|Volt Switch|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|58/100
+|
+|t:|1760763150
+|switch|p2a: Barraskewda|Barraskewda, F|100/100|[from] Volt Switch
+|move|p1a: Goodra|Dragon Tail|p2a: Barraskewda
+|-damage|p2a: Barraskewda|59/100
+|drag|p2a: Iron Treads|Iron Treads|92/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|98/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760763159
+|move|p2a: Iron Treads|Stealth Rock|p1a: Goodra
+|-sidestart|p1: Test4823|move: Stealth Rock
+|move|p1a: Goodra|Knock Off|p2a: Iron Treads
+|-damage|p2a: Iron Treads|82/100
+|-enditem|p2a: Iron Treads|Leftovers|[from] move: Knock Off|[of] p1a: Goodra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760763166
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|move|p2a: Iron Treads|Earthquake|p1a: Weezing
+|-immune|p1a: Weezing|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Weezing|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760763169
+|move|p2a: Iron Treads|Volt Switch|p1a: Weezing
+|-damage|p1a: Weezing|81/100
+|
+|t:|1760763174
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Kilowattrel|Kilowattrel, M|55/100|[from] Volt Switch
+|move|p1a: Weezing|Defog|p2a: Kilowattrel
+|-unboost|p2a: Kilowattrel|evasion|1
+|-sideend|p1: Test4823|Stealth Rock|[from] move: Defog|[of] p1a: Weezing
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Weezing|87/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760763185
+|switch|p1a: Goodra|Goodra-Hisui, M|58/100
+|move|p2a: Kilowattrel|Thunder|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|43/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1760763191
+|switch|p2a: Barraskewda|Barraskewda, F|59/100
+|move|p1a: Goodra|Dragon Tail|p2a: Barraskewda
+|-damage|p2a: Barraskewda|17/100
+|drag|p2a: Kilowattrel|Kilowattrel, M|55/100
+|
+|upkeep
+|turn|10
+|
+|t:|1760763197
+|move|p2a: Kilowattrel|Hurricane|p1a: Goodra|[miss]
+|-miss|p2a: Kilowattrel|p1a: Goodra
+|move|p1a: Goodra|Dragon Tail|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|20/100
+|drag|p2a: Iron Treads|Iron Treads|82/100
+|
+|upkeep
+|turn|11
+|
+|t:|1760763204
+|move|p2a: Iron Treads|Volt Switch|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|40/100
+|
+|t:|1760763206
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, F|77/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Goodra|Dragon Tail|p2a: Pelipper
+|-damage|p2a: Pelipper|54/100
+|drag|p2a: Toxicroak|Toxicroak, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1760763215
+|move|p1a: Goodra|Protect|p1a: Goodra
+|-singleturn|p1a: Goodra|Protect
+|move|p2a: Toxicroak|Knock Off|p1a: Goodra
+|-activate|p1a: Goodra|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1760763218
+|switch|p2a: Barraskewda|Barraskewda, F|17/100
+|move|p1a: Goodra|Knock Off|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|-enditem|p2a: Barraskewda|Choice Band|[from] move: Knock Off|[of] p1a: Goodra
+|faint|p2a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|RJcopter forfeited.
+|
+|win|Test4823
+|raw|Test4823's rating: 1477 &rarr; <strong>1497</strong><br />(+20 for winning)
+|raw|RJcopter's rating: 1474 &rarr; <strong>1454</strong><br />(-20 for losing)
+|c|☆Test4823|gg
+|l|☆RJcopter
+|player|p2|
+|l|☆Test4823
+|player|p1|

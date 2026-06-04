@@ -1,0 +1,270 @@
+|j|☆yombotron
+|j|☆obezer
+|t:|1760776523
+|gametype|singles
+|player|p1|yombotron|pryce|1167
+|player|p2|obezer|170|1128
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Salamence, M|
+|poke|p1|Iron Moth|
+|poke|p1|Barraskewda, F|
+|poke|p1|Florges, F|
+|poke|p1|Iron Hands|
+|poke|p1|Darkrai|
+|poke|p2|Garchomp, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Araquanid, F|
+|poke|p2|Sinistcha|
+|poke|p2|Forretress, F|
+|poke|p2|Bellibolt, F|
+|teampreview
+|
+|t:|1760776537
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Florges|Florges, F|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|turn|1
+|
+|t:|1760776545
+|move|p1a: Florges|Trick|p2a: Araquanid
+|-activate|p1a: Florges|move: Trick|[of] p2a: Araquanid
+|-item|p2a: Araquanid|Choice Scarf|[from] move: Trick
+|-item|p1a: Florges|Choice Band|[from] move: Trick
+|move|p2a: Araquanid|Sticky Web|p1a: Florges
+|-sidestart|p1: yombotron|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1760776566
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-activate|p1a: Iron Hands|move: Sticky Web
+|-unboost|p1a: Iron Hands|spe|1
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|
+|upkeep
+|turn|3
+|
+|t:|1760776578
+|-terastallize|p1a: Iron Hands|Flying
+|move|p2a: Garchomp|Earthquake|p1a: Iron Hands
+|-immune|p1a: Iron Hands
+|move|p1a: Iron Hands|Ice Punch|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|13/100
+|-damage|p1a: Iron Hands|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Iron Hands|72/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|
+|upkeep
+|turn|4
+|
+|t:|1760776588
+|move|p2a: Garchomp|Stealth Rock|p1a: Iron Hands
+|-sidestart|p1: yombotron|move: Stealth Rock
+|move|p1a: Iron Hands|Drain Punch|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-heal|p1a: Iron Hands|77/100|[from] drain|[of] p2a: Garchomp
+|-damage|p1a: Iron Hands|65/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Iron Hands|48/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1760776597
+|switch|p2a: Bellibolt|Bellibolt, F|100/100
+|turn|5
+|
+|t:|1760776602
+|move|p1a: Iron Hands|Drain Punch|p2a: Bellibolt
+|-damage|p2a: Bellibolt|57/100
+|-heal|p1a: Iron Hands|69/100|[from] drain|[of] p2a: Bellibolt
+|-start|p2a: Bellibolt|Charge|Drain Punch|[from] ability: Electromorphosis
+|move|p2a: Bellibolt|Charge Beam|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|-boost|p2a: Bellibolt|spa|1
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|upkeep
+|
+|t:|1760776617
+|switch|p1a: Darkrai|Darkrai|100/100
+|-activate|p1a: Darkrai|move: Sticky Web
+|-unboost|p1a: Darkrai|spe|1
+|-damage|p1a: Darkrai|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1760776621
+|move|p1a: Darkrai|Dark Pulse|p2a: Bellibolt
+|-damage|p2a: Bellibolt|28/100
+|-start|p2a: Bellibolt|Charge|Dark Pulse|[from] ability: Electromorphosis
+|move|p2a: Bellibolt|Parabolic Charge|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|-heal|p2a: Bellibolt|58/100|[from] drain|[of] p1a: Darkrai
+|faint|p1a: Darkrai
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|upkeep
+|
+|t:|1760776630
+|switch|p1a: Florges|Florges, F|100/100
+|-activate|p1a: Florges|move: Sticky Web
+|-unboost|p1a: Florges|spe|1
+|-damage|p1a: Florges|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1760776636
+|move|p1a: Florges|Trick|p2a: Bellibolt
+|-activate|p1a: Florges|move: Trick|[of] p2a: Bellibolt
+|-item|p2a: Bellibolt|Choice Band|[from] move: Trick
+|-item|p1a: Florges|Assault Vest|[from] move: Trick
+|move|p2a: Bellibolt|Parabolic Charge|p1a: Florges
+|-damage|p1a: Florges|63/100
+|-heal|p2a: Bellibolt|67/100|[from] drain|[of] p1a: Florges
+|
+|upkeep
+|turn|8
+|
+|t:|1760776644
+|move|p1a: Florges|Psychic|p2a: Bellibolt
+|-damage|p2a: Bellibolt|39/100
+|-start|p2a: Bellibolt|Charge|Psychic|[from] ability: Electromorphosis
+|move|p2a: Bellibolt|Parabolic Charge|p1a: Florges
+|-damage|p1a: Florges|11/100
+|-heal|p2a: Bellibolt|57/100|[from] drain|[of] p1a: Florges
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|upkeep
+|turn|9
+|
+|t:|1760776651
+|move|p1a: Florges|Moonblast|p2a: Bellibolt
+|-damage|p2a: Bellibolt|12/100
+|-unboost|p2a: Bellibolt|spa|1
+|-start|p2a: Bellibolt|Charge|Moonblast|[from] ability: Electromorphosis
+|move|p2a: Bellibolt|Parabolic Charge|p1a: Florges
+|-damage|p1a: Florges|0 fnt
+|-heal|p2a: Bellibolt|16/100|[from] drain|[of] p1a: Florges
+|faint|p1a: Florges
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|upkeep
+|
+|t:|1760776657
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-activate|p1a: Iron Moth|move: Sticky Web
+|-unboost|p1a: Iron Moth|spe|1
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|10
+|
+|t:|1760776665
+|move|p1a: Iron Moth|Sludge Wave|p2a: Bellibolt
+|-damage|p2a: Bellibolt|0 fnt
+|faint|p2a: Bellibolt
+|
+|upkeep
+|
+|t:|1760776670
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|turn|11
+|
+|t:|1760776679
+|move|p2a: Araquanid|Liquidation|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760776684
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Araquanid|atk|1
+|turn|12
+|
+|t:|1760776692
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|13
+|
+|t:|1760776702
+|move|p1a: Salamence|Earthquake|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|upkeep
+|
+|t:|1760776712
+|switch|p2a: Forretress|Forretress, F|100/100
+|turn|14
+|
+|t:|1760776719
+|move|p1a: Salamence|Earthquake|p2a: Forretress
+|-damage|p2a: Forretress|69/100
+|move|p2a: Forretress|Counter|p1a: Salamence
+|-damage|p1a: Salamence|32/100
+|
+|-heal|p2a: Forretress|75/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1760776729
+|move|p1a: Salamence|Dragon Claw|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|58/100
+|move|p2a: Forretress|Counter|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|-heal|p2a: Forretress|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760776735
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|-activate|p1a: Barraskewda|move: Sticky Web
+|-unboost|p1a: Barraskewda|spe|1
+|-damage|p1a: Barraskewda|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1760776743
+|move|p1a: Barraskewda|Liquidation|p2a: Forretress
+|-damage|p2a: Forretress|25/100
+|-unboost|p2a: Forretress|def|1
+|move|p2a: Forretress|Counter|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|win|obezer
+|raw|yombotron's rating: 1167 &rarr; <strong>1139</strong><br />(-28 for losing)
+|raw|obezer's rating: 1128 &rarr; <strong>1156</strong><br />(+28 for winning)
+|l|☆yombotron
+|player|p1|
+|l|☆obezer
+|player|p2|

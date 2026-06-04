@@ -1,0 +1,310 @@
+|j|☆SnowyClouds
+|j|☆itstheboyjay
+|t:|1757815301
+|gametype|singles
+|player|p1|SnowyClouds|lady-gen4|1074
+|player|p2|itstheboyjay|101|1057
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Venusaur, M|
+|poke|p1|Golem, F|
+|poke|p1|Cloyster, F|
+|poke|p1|Zapdos|
+|poke|p1|Hitmonlee, M|
+|poke|p1|Arcanine, M|
+|poke|p2|Salamence, M|
+|poke|p2|Dusclops, M|
+|poke|p2|Jirachi|
+|poke|p2|Milotic, F|
+|poke|p2|Slaking, F|
+|poke|p2|Seviper, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SnowyClouds)
+|
+|t:|1757815307
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Golem|Golem, F|100/100
+|switch|p2a: Seviper|Seviper, F, shiny|100/100
+|turn|1
+|
+|t:|1757815313
+|move|p2a: Seviper|Switcheroo|p1a: Golem
+|-activate|p2a: Seviper|move: Trick|[of] p1a: Golem
+|-item|p1a: Golem|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Seviper|Heavy-Duty Boots|[from] move: Switcheroo
+|move|p1a: Golem|Earthquake|p2a: Seviper
+|-supereffective|p2a: Seviper
+|-damage|p2a: Seviper|0 fnt
+|faint|p2a: Seviper
+|
+|upkeep
+|
+|t:|1757815324
+|switch|p2a: Dusclops|Dusclops, M, shiny|100/100
+|-ability|p2a: Dusclops|Pressure
+|turn|2
+|
+|t:|1757815327
+|move|p1a: Golem|Earthquake|p2a: Dusclops
+|-damage|p2a: Dusclops|75/100
+|move|p2a: Dusclops|Bind|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|99/100
+|-activate|p1a: Golem|move: Bind|[of] p2a: Dusclops
+|
+|-damage|p1a: Golem|87/100|[from] move: Bind|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1757815337
+|move|p1a: Golem|Earthquake|p2a: Dusclops
+|-damage|p2a: Dusclops|49/100
+|move|p2a: Dusclops|Night Shade|p1a: Golem
+|-damage|p1a: Golem|60/100
+|
+|-damage|p1a: Golem|47/100|[from] move: Bind|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1757815350
+|move|p1a: Golem|Earthquake|p2a: Dusclops
+|-damage|p2a: Dusclops|25/100
+|move|p2a: Dusclops|Rest|p2a: Dusclops
+|-status|p2a: Dusclops|slp|[from] move: Rest
+|-heal|p2a: Dusclops|100/100 slp|[silent]
+|
+|-damage|p1a: Golem|35/100|[from] move: Bind|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1757815360
+|move|p1a: Golem|Earthquake|p2a: Dusclops
+|-damage|p2a: Dusclops|73/100 slp
+|cant|p2a: Dusclops|slp
+|move|p2a: Dusclops|Sleep Talk|p2a: Dusclops
+|move|p2a: Dusclops|Night Shade|p1a: Golem|[from] move: Sleep Talk
+|-damage|p1a: Golem|8/100
+|
+|-damage|p1a: Golem|0 fnt|[from] move: Bind|[partiallytrapped]
+|faint|p1a: Golem
+|upkeep
+|
+|t:|1757815370
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|turn|6
+|
+|t:|1757815375
+|move|p1a: Hitmonlee|Knock Off|p2a: Dusclops
+|-supereffective|p2a: Dusclops
+|-damage|p2a: Dusclops|39/100 slp
+|-enditem|p2a: Dusclops|Eviolite|[from] move: Knock Off|[of] p1a: Hitmonlee
+|cant|p2a: Dusclops|slp
+|move|p2a: Dusclops|Sleep Talk|p2a: Dusclops
+|move|p2a: Dusclops|Rest||[from] move: Sleep Talk|[still]
+|-fail|p2a: Dusclops
+|
+|upkeep
+|turn|7
+|
+|t:|1757815383
+|move|p1a: Hitmonlee|Knock Off|p2a: Dusclops
+|-supereffective|p2a: Dusclops
+|-damage|p2a: Dusclops|3/100 slp
+|-curestatus|p2a: Dusclops|slp|[msg]
+|move|p2a: Dusclops|Rest|p2a: Dusclops
+|-status|p2a: Dusclops|slp|[from] move: Rest
+|-heal|p2a: Dusclops|100/100 slp|[silent]
+|
+|upkeep
+|turn|8
+|
+|t:|1757815400
+|move|p1a: Hitmonlee|Knock Off|p2a: Dusclops
+|-supereffective|p2a: Dusclops
+|-damage|p2a: Dusclops|67/100 slp
+|cant|p2a: Dusclops|slp
+|move|p2a: Dusclops|Sleep Talk|p2a: Dusclops
+|move|p2a: Dusclops|Rest||[from] move: Sleep Talk|[still]
+|-fail|p2a: Dusclops
+|
+|upkeep
+|turn|9
+|
+|t:|1757815413
+|move|p1a: Hitmonlee|Knock Off|p2a: Dusclops
+|-supereffective|p2a: Dusclops
+|-damage|p2a: Dusclops|32/100 slp
+|cant|p2a: Dusclops|slp
+|move|p2a: Dusclops|Sleep Talk|p2a: Dusclops
+|move|p2a: Dusclops|Rest||[from] move: Sleep Talk|[still]
+|-fail|p2a: Dusclops
+|
+|upkeep
+|turn|10
+|
+|t:|1757815421
+|move|p1a: Hitmonlee|Knock Off|p2a: Dusclops
+|-supereffective|p2a: Dusclops
+|-damage|p2a: Dusclops|0 fnt
+|faint|p2a: Dusclops
+|
+|upkeep
+|c|☆itstheboyjay|bonkers
+|
+|t:|1757815429
+|switch|p2a: Salamence|Salamence, M, shiny|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Hitmonlee|atk|1
+|turn|11
+|
+|t:|1757815435
+|move|p2a: Salamence|Hurricane|p1a: Hitmonlee
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|upkeep
+|
+|t:|1757815440
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|turn|12
+|
+|t:|1757815444
+|move|p2a: Salamence|Hurricane|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|t:|1757815449
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|13
+|
+|t:|1757815453
+|switch|p2a: Jirachi|Jirachi, shiny|100/100
+|move|p1a: Zapdos|Thunder Wave|p2a: Jirachi
+|-status|p2a: Jirachi|par
+|
+|upkeep
+|turn|14
+|
+|t:|1757815459
+|move|p1a: Zapdos|Heat Wave|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|64/100 par
+|move|p2a: Jirachi|Ice Punch|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|44/100
+|
+|upkeep
+|turn|15
+|
+|t:|1757815466
+|move|p1a: Zapdos|Heat Wave|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|28/100 par
+|move|p2a: Jirachi|Drain Punch|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|28/100
+|-heal|p2a: Jirachi|36/100 par|[from] drain|[of] p1a: Zapdos
+|
+|upkeep
+|turn|16
+|
+|t:|1757815474
+|move|p1a: Zapdos|Heat Wave|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|upkeep
+|
+|t:|1757815479
+|switch|p2a: Slaking|Slaking, F, shiny|100/100
+|turn|17
+|
+|t:|1757815483
+|move|p2a: Slaking|Shadow Claw|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1757815488
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|turn|18
+|
+|t:|1757815492
+|switch|p2a: Salamence|Salamence, M, shiny|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Venusaur|atk|1
+|move|p1a: Venusaur|Sludge Bomb|p2a: Salamence
+|-damage|p2a: Salamence|54/100
+|
+|upkeep
+|turn|19
+|
+|t:|1757815500
+|-terastallize|p1a: Venusaur|Ground
+|move|p2a: Salamence|Fire Blast|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|20/100
+|move|p1a: Venusaur|Sludge Bomb|p2a: Salamence
+|-damage|p2a: Salamence|10/100
+|-status|p2a: Salamence|psn
+|
+|-heal|p1a: Venusaur|26/100|[from] item: Leftovers
+|-damage|p2a: Salamence|0 fnt|[from] psn
+|faint|p2a: Salamence
+|upkeep
+|
+|t:|1757815514
+|switch|p2a: Milotic|Milotic, F, shiny|100/100
+|turn|20
+|
+|t:|1757815519
+|move|p1a: Venusaur|Energy Ball|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|28/100
+|move|p2a: Milotic|Mirror Coat|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-heal|p2a: Milotic|34/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757815528
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Milotic|atk|1
+|-ability|p2a: Milotic|Competitive|boost
+|-boost|p2a: Milotic|spa|2
+|turn|21
+|
+|t:|1757815534
+|move|p1a: Arcanine|Extreme Speed|p2a: Milotic
+|-damage|p2a: Milotic|1/100
+|move|p2a: Milotic|Scald|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|win|itstheboyjay
+|raw|SnowyClouds's rating: 1074 &rarr; <strong>1052</strong><br />(-22 for losing)
+|raw|itstheboyjay's rating: 1057 &rarr; <strong>1090</strong><br />(+33 for winning)
+|l|☆SnowyClouds
+|player|p1|
+|l|☆itstheboyjay
+|player|p2|

@@ -1,0 +1,218 @@
+|j|☆BOTBarrel
+|j|☆ferrydiscs
+|t:|1769322816
+|gametype|singles
+|player|p1|BOTBarrel|169|1579
+|player|p2|ferrydiscs|will|1528
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Ursaluna, M|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Hands|
+|poke|p1|Cresselia, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Sinistcha|
+|poke|p2|Toxapex, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BOTBarrel)
+|
+|t:|1769322837
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: GKMC|Indeedee, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: GKMC
+|turn|1
+|
+|t:|1769322850
+|switch|p1a: Piñata|Iron Hands|100/100
+|-enditem|p1a: Piñata|Booster Energy
+|-activate|p1a: Piñata|ability: Quark Drive|[fromitem]
+|-start|p1a: Piñata|quarkdriveatk
+|move|p2a: Tyranitar|Knock Off|p1a: Piñata
+|-resisted|p1a: Piñata
+|-crit|p1a: Piñata
+|-damage|p1a: Piñata|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Piñata|64/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1769322856
+|switch|p2a: Sinistcha|Sinistcha, shiny|100/100
+|move|p1a: Piñata|Supercell Slam|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sinistcha|69/100|[from] Sandstorm
+|-damage|p1a: Piñata|58/100|[from] Sandstorm
+|-heal|p2a: Sinistcha|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1769322861
+|-end|p1a: Piñata|Quark Drive|[silent]
+|switch|p1a: Undun|Hoopa-Unbound|100/100
+|move|p2a: Sinistcha|Shadow Ball|p1a: Undun
+|-damage|p1a: Undun|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sinistcha|69/100|[from] Sandstorm
+|-damage|p1a: Undun|69/100|[from] Sandstorm
+|-heal|p2a: Sinistcha|76/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1769322874
+|switch|p2a: Tinkaton|Tinkaton, F, shiny|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|move|p1a: Undun|Trick Room|p1a: Undun
+|-fieldstart|move: Trick Room|[of] p1a: Undun
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Undun|63/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1769322895
+|switch|p1a: Piñata|Iron Hands|58/100
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Piñata
+|-resisted|p1a: Piñata
+|-damage|p1a: Piñata|37/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1769322900
+|switch|p2a: Sinistcha|Sinistcha, shiny|76/100
+|move|p1a: Piñata|Swords Dance|p1a: Piñata
+|-boost|p1a: Piñata|atk|2
+|
+|-heal|p2a: Sinistcha|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1769322913
+|move|p1a: Piñata|Ice Punch|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|upkeep
+|
+|t:|1769322927
+|switch|p2a: Tornadus|Tornadus-Therian, M, shiny|100/100
+|turn|8
+|
+|t:|1769322932
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100
+|move|p1a: Piñata|Ice Punch|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|81/100
+|-enditem|p2a: Toxapex|Eject Button
+|
+|t:|1769322937
+|switch|p2a: Tornadus|Tornadus-Therian, M, shiny|100/100
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1769322945
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Piñata
+|-damage|p1a: Piñata|0 fnt
+|faint|p1a: Piñata
+|-end|p1a: Piñata|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769322948
+|switch|p1a: GKMC|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: GKMC
+|turn|10
+|
+|t:|1769322953
+|move|p2a: Tornadus|Bleakwind Storm|p1a: GKMC
+|-crit|p1a: GKMC
+|-damage|p1a: GKMC|0 fnt
+|faint|p1a: GKMC
+|
+|upkeep
+|
+|t:|1769322959
+|switch|p1a: Undun|Hoopa-Unbound|63/100
+|turn|11
+|
+|t:|1769322973
+|switch|p2a: Tinkaton|Tinkaton, F, shiny|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|move|p1a: Undun|Trick Room|p1a: Undun
+|-fieldstart|move: Trick Room|[of] p1a: Undun
+|
+|upkeep
+|turn|12
+|
+|t:|1769322979
+|move|p1a: Undun|Expanding Force|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|38/100
+|-enditem|p2a: Tinkaton|Air Balloon
+|-damage|p1a: Undun|53/100|[from] item: Life Orb
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Undun
+|-damage|p1a: Undun|0 fnt
+|faint|p1a: Undun
+|
+|upkeep
+|
+|t:|1769322983
+|switch|p1a: College Dropout|Ursaluna, M|100/100
+|turn|13
+|
+|t:|1769322992
+|move|p1a: College Dropout|Swords Dance|p1a: College Dropout
+|-boost|p1a: College Dropout|atk|2
+|move|p2a: Tinkaton|Encore|p1a: College Dropout
+|-start|p1a: College Dropout|Encore
+|
+|-status|p1a: College Dropout|brn|[from] item: Flame Orb
+|upkeep
+|turn|14
+|
+|t:|1769322998
+|switch|p1a: SIMBI|Hatterene, F|100/100
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: SIMBI
+|-supereffective|p1a: SIMBI
+|-damage|p1a: SIMBI|0 fnt
+|faint|p1a: SIMBI
+|
+|upkeep
+|-message|BOTBarrel forfeited.
+|
+|win|ferrydiscs
+|raw|BOTBarrel's rating: 1579 &rarr; <strong>1556</strong><br />(-23 for losing)
+|raw|ferrydiscs's rating: 1528 &rarr; <strong>1551</strong><br />(+23 for winning)
+|l|☆BOTBarrel
+|player|p1|
+|l|☆ferrydiscs
+|player|p2|

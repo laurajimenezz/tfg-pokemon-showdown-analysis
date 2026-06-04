@@ -1,0 +1,215 @@
+|j|☆Keptitcool
+|j|☆domo gamer
+|t:|1769298585
+|gametype|singles
+|player|p1|Keptitcool|170|1061
+|player|p2|domo gamer|170|1064
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Sneasel, F|
+|poke|p1|Honchkrow, M|
+|poke|p1|Banette, F|
+|poke|p1|Magnezone|
+|poke|p1|Iron Treads|
+|poke|p2|Glimmora, F|
+|poke|p2|Whiscash, M|
+|poke|p2|Clefable, M|
+|poke|p2|Scyther, M|
+|poke|p2|Skeledirge, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1769298619
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Sneasel|Sneasel, F|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|t:|1769298633
+|move|p1a: Sneasel|Triple Axel|p2a: Glimmora
+|-damage|p2a: Glimmora|90/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Keptitcool|move: Toxic Spikes
+|-hitcount|p2a: Glimmora|1
+|move|p2a: Glimmora|Stealth Rock|p1a: Sneasel
+|-sidestart|p1: Keptitcool|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1769298646
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-damage|p1a: Iron Treads|98/100|[from] Stealth Rock
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivedef
+|move|p2a: Glimmora|Mortal Spin|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|upkeep
+|turn|3
+|
+|t:|1769298656
+|move|p1a: Iron Treads|Rapid Spin|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|83/100
+|-boost|p1a: Iron Treads|spe|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Keptitcool|move: Toxic Spikes
+|-sideend|p1: Keptitcool|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-sideend|p1: Keptitcool|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|move|p2a: Glimmora|Spikes|p1a: Iron Treads
+|-sidestart|p1: Keptitcool|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1769298676
+|switch|p2a: Whiscash|Whiscash, M|100/100
+|move|p1a: Iron Treads|Ice Spinner|p2a: Whiscash
+|-crit|p2a: Whiscash
+|-damage|p2a: Whiscash|67/100
+|
+|upkeep
+|turn|5
+|
+|t:|1769298684
+|move|p1a: Iron Treads|Supercell Slam|p2a: Whiscash
+|-immune|p2a: Whiscash
+|-damage|p1a: Iron Treads|48/100|[from] supercellslam
+|move|p2a: Whiscash|Dragon Dance|p2a: Whiscash
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|spe|1
+|
+|upkeep
+|turn|6
+|
+|t:|1769298703
+|move|p1a: Iron Treads|Rapid Spin|p2a: Whiscash
+|-damage|p2a: Whiscash|53/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: Keptitcool|Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|move|p2a: Whiscash|Dragon Dance|p2a: Whiscash
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|spe|1
+|
+|upkeep
+|turn|7
+|
+|t:|1769298713
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Honchkrow|Honchkrow, M|100/100
+|move|p2a: Whiscash|Liquidation|p1a: Honchkrow
+|-damage|p1a: Honchkrow|22/100
+|
+|upkeep
+|turn|8
+|
+|t:|1769298722
+|move|p1a: Honchkrow|Sucker Punch|p2a: Whiscash
+|-damage|p2a: Whiscash|22/100
+|move|p2a: Whiscash|Liquidation|p1a: Honchkrow
+|-damage|p1a: Honchkrow|0 fnt
+|faint|p1a: Honchkrow
+|
+|upkeep
+|
+|t:|1769298737
+|switch|p1a: Banette|Banette, F|100/100
+|-item|p2a: Whiscash|Expert Belt|[from] ability: Frisk|[of] p1a: Banette
+|turn|9
+|
+|t:|1769298749
+|move|p2a: Whiscash|Earthquake|p1a: Banette
+|-damage|p1a: Banette|26/100
+|move|p1a: Banette|Dazzling Gleam|p2a: Whiscash
+|-damage|p2a: Whiscash|6/100
+|
+|upkeep
+|turn|10
+|
+|t:|1769298762
+|switch|p1a: Magnezone|Magnezone|100/100
+|-item|p1a: Magnezone|Air Balloon
+|move|p2a: Whiscash|Earthquake|p1a: Magnezone
+|-immune|p1a: Magnezone
+|
+|upkeep
+|turn|11
+|
+|t:|1769298771
+|move|p2a: Whiscash|Liquidation|p1a: Magnezone
+|-damage|p1a: Magnezone|55/100
+|-enditem|p1a: Magnezone|Air Balloon
+|move|p1a: Magnezone|Flash Cannon|p2a: Whiscash
+|-resisted|p2a: Whiscash
+|-damage|p2a: Whiscash|0 fnt
+|faint|p2a: Whiscash
+|
+|upkeep
+|
+|t:|1769298781
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|turn|12
+|
+|t:|1769298798
+|switch|p1a: Sneasel|Sneasel, F|100/100
+|move|p2a: Skeledirge|Flame Charge|p1a: Sneasel
+|-damage|p1a: Sneasel|75/100
+|-boost|p2a: Skeledirge|spe|1
+|replace|p1a: Zoroark|Zoroark-Hisui, F
+|-end|p1a: Zoroark|Illusion
+|
+|upkeep
+|turn|13
+|
+|t:|1769298813
+|move|p2a: Skeledirge|Torch Song|p1a: Zoroark
+|-crit|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|t:|1769298824
+|switch|p1a: Banette|Banette, F|26/100
+|-item|p2a: Skeledirge|Rocky Helmet|[from] ability: Frisk|[of] p1a: Banette
+|turn|14
+|
+|t:|1769298830
+|move|p2a: Skeledirge|Torch Song|p1a: Banette
+|-damage|p1a: Banette|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Banette
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by domo gamer)
+|inactive|Keptitcool has 120 seconds left.
+|inactive|Keptitcool has 90 seconds left.
+|inactive|Keptitcool has 60 seconds left.
+|inactive|Keptitcool has 30 seconds left.
+|inactive|Keptitcool has 20 seconds left.
+|inactive|Keptitcool has 15 seconds left.
+|inactive|Keptitcool has 10 seconds left.
+|inactive|Keptitcool has 5 seconds left.
+|-message|Keptitcool lost due to inactivity.
+|
+|win|domo gamer
+|raw|Keptitcool's rating: 1061 &rarr; <strong>1042</strong><br />(-19 for losing)
+|raw|domo gamer's rating: 1064 &rarr; <strong>1094</strong><br />(+30 for winning)
+|l|☆domo gamer
+|player|p2|

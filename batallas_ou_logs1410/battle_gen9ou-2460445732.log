@@ -1,0 +1,344 @@
+|j|☆Parallel Sweep
+|j|☆AEFAA2
+|t:|1760307473
+|gametype|singles
+|player|p1|Parallel Sweep|volkner|1093
+|player|p2|AEFAA2|scientist-gen4dp|1078
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Sinistcha|
+|poke|p1|Tropius, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Weavile, F|
+|poke|p1|Heatran, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Sunflora, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Scovillain, M|
+|poke|p2|Ninetales, F|
+|teampreview
+|c|☆Parallel Sweep|Pointing spiderman
+|
+|t:|1760307501
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Scovillain|Scovillain, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AEFAA2)
+|
+|t:|1760307518
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Scovillain|Stomping Tantrum|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|34/100
+|-enditem|p1a: Heatran|Red Card|[of] p2a: Scovillain
+|drag|p2a: Ninetales|Ninetales, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|AEFAA2 has 120 seconds left.
+|
+|t:|1760307549
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Goodra
+|-sidestart|p2: AEFAA2|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|AEFAA2 has 120 seconds left.
+|
+|t:|1760307571
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|move|p2a: Goodra|Earthquake|p1a: Sinistcha
+|-resisted|p1a: Sinistcha
+|-damage|p1a: Sinistcha|92/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760307589
+|switch|p2a: Sunflora|Sunflora, M|100/100
+|-damage|p2a: Sunflora|88/100|[from] Stealth Rock
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Sunflora
+|-resisted|p2a: Sunflora
+|-damage|p2a: Sunflora|65/100
+|-heal|p1a: Sinistcha|100/100|[from] drain|[of] p2a: Sunflora
+|-status|p2a: Sunflora|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Sunflora|58/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1760307599
+|move|p2a: Sunflora|Growth|p2a: Sunflora
+|-boost|p2a: Sunflora|atk|2
+|-boost|p2a: Sunflora|spa|2
+|move|p1a: Sinistcha|Hex|p2a: Sunflora
+|-crit|p2a: Sunflora
+|-damage|p2a: Sunflora|0 fnt
+|faint|p2a: Sunflora
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760307610
+|switch|p2a: Scovillain|Scovillain, M|100/100
+|-damage|p2a: Scovillain|76/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1760307625
+|switch|p1a: Tropius|Tropius, F|100/100
+|move|p2a: Scovillain|Stomping Tantrum|p1a: Tropius
+|-immune|p1a: Tropius
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|inactive|AEFAA2 has 90 seconds left.
+|
+|t:|1760307666
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-damage|p2a: Ninetales|76/100|[from] Stealth Rock
+|move|p1a: Tropius|Protect||[still]
+|-fail|p1a: Tropius
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760307680
+|-terastallize|p1a: Tropius|Ghost
+|move|p2a: Ninetales|Weather Ball|p1a: Tropius
+|-damage|p1a: Tropius|44/100
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|68/100|[from] item: Sitrus Berry
+|move|p1a: Tropius|Curse|p2a: Ninetales
+|-start|p2a: Ninetales|Curse|[of] p1a: Tropius
+|-damage|p1a: Tropius|18/100
+|
+|-weather|none
+|-damage|p2a: Ninetales|51/100|[from] Curse
+|-item|p1a: Tropius|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|43/100|[from] item: Sitrus Berry
+|turn|9
+|
+|t:|1760307703
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|move|p1a: Tropius|Protect||[still]
+|-fail|p1a: Tropius
+|
+|-item|p1a: Tropius|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|68/100|[from] item: Sitrus Berry
+|turn|10
+|inactive|AEFAA2 has 60 seconds left.
+|
+|t:|1760307721
+|move|p2a: Great Tusk|Head Smash|p1a: Tropius|[miss]
+|-miss|p2a: Great Tusk|p1a: Tropius
+|move|p1a: Tropius|Leech Seed|p2a: Great Tusk|[miss]
+|-miss|p1a: Tropius|p2a: Great Tusk
+|
+|upkeep
+|turn|11
+|
+|t:|1760307731
+|move|p1a: Tropius|Protect|p1a: Tropius
+|-singleturn|p1a: Tropius|Protect
+|move|p2a: Great Tusk|Head Smash|p1a: Tropius
+|-activate|p1a: Tropius|move: Protect
+|
+|-item|p1a: Tropius|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|12
+|
+|t:|1760307740
+|move|p2a: Great Tusk|Head Smash|p1a: Tropius
+|-damage|p1a: Tropius|0 fnt
+|faint|p1a: Tropius
+|-damage|p2a: Great Tusk|61/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1760307748
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|13
+|
+|t:|1760307759
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|-damage|p2a: Goodra|94/100|[from] Stealth Rock
+|move|p1a: Ninetales|Healing Wish|p1a: Ninetales
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760307768
+|switch|p1a: Heatran|Heatran, M|34/100
+|-heal|p1a: Heatran|100/100|[from] move: Healing Wish
+|turn|14
+|inactive|AEFAA2 has 90 seconds left.
+|
+|t:|1760307779
+|move|p1a: Heatran|Dragon Pulse|p2a: Goodra
+|-damage|p2a: Goodra|82/100
+|move|p2a: Goodra|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|88/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|inactive|AEFAA2 has 90 seconds left.
+|
+|t:|1760307793
+|move|p1a: Heatran|Lava Plume|p2a: Goodra
+|-damage|p2a: Goodra|58/100
+|move|p2a: Goodra|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1760307798
+|move|p1a: Heatran|Lava Plume|p2a: Goodra
+|-damage|p2a: Goodra|33/100
+|move|p2a: Goodra|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760307805
+|switch|p1a: Weavile|Weavile, F|100/100
+|turn|17
+|
+|t:|1760307819
+|move|p1a: Weavile|Knock Off|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-enditem|p2a: Goodra|Assault Vest|[from] move: Knock Off|[of] p1a: Weavile
+|faint|p2a: Goodra
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760307828
+|switch|p2a: Scovillain|Scovillain, M|76/100
+|-damage|p2a: Scovillain|51/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1760307836
+|-terastallize|p2a: Scovillain|Fire
+|move|p2a: Scovillain|Flamethrower|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-enditem|p1a: Weavile|Focus Sash
+|-damage|p1a: Weavile|1/100
+|move|p1a: Weavile|Triple Axel|p2a: Scovillain
+|-resisted|p2a: Scovillain
+|-crit|p2a: Scovillain
+|-damage|p2a: Scovillain|37/100
+|-resisted|p2a: Scovillain
+|-damage|p2a: Scovillain|17/100
+|-resisted|p2a: Scovillain
+|-damage|p2a: Scovillain|0 fnt
+|faint|p2a: Scovillain
+|-hitcount|p2: Scovillain|3
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|AEFAA2 has 90 seconds left.
+|
+|t:|1760307860
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-damage|p2a: Torkoal|75/100|[from] Stealth Rock
+|turn|19
+|inactive|AEFAA2 has 90 seconds left.
+|
+|t:|1760307872
+|move|p1a: Weavile|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|51/100
+|-enditem|p2a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Torkoal|Rapid Spin|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-boost|p2a: Torkoal|spe|1
+|-sideend|p2: AEFAA2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|faint|p1a: Weavile
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760307888
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|20
+|
+|t:|1760307896
+|move|p1a: Corviknight|Brave Bird|p2a: Torkoal
+|-damage|p2a: Torkoal|32/100
+|-damage|p1a: Corviknight|95/100|[from] Recoil
+|move|p2a: Torkoal|Overheat|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-unboost|p2a: Torkoal|spa|2
+|faint|p1a: Corviknight
+|
+|-weather|none
+|upkeep
+|
+|t:|1760307904
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|turn|21
+|inactive|AEFAA2 has 90 seconds left.
+|
+|t:|1760307944
+|switch|p2a: Ninetales|Ninetales, F|51/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Sinistcha|Scald|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|26/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1760307960
+|move|p2a: Ninetales|Overheat|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|-unboost|p2a: Ninetales|spa|2
+|faint|p1a: Sinistcha
+|
+|win|AEFAA2
+|raw|Parallel Sweep's rating: 1093 &rarr; <strong>1068</strong><br />(-25 for losing)
+|raw|AEFAA2's rating: 1078 &rarr; <strong>1108</strong><br />(+30 for winning)
+|l|☆Parallel Sweep
+|player|p1|

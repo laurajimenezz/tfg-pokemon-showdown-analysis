@@ -1,0 +1,308 @@
+|j|☆Geail
+|j|☆boltv10
+|t:|1779628341
+|gametype|singles
+|player|p1|Geail|170|1118
+|player|p2|boltv10|lucas|1184
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meowscarada, M|
+|poke|p1|Bastiodon, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Moth|
+|poke|p1|Regieleki|
+|poke|p2|Porygon2|
+|poke|p2|Dusclops, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Glastrier|
+|teampreview
+|
+|t:|1779628346
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Simon|Great Tusk|100/100
+|switch|p2a: Dusclops|Dusclops, M|100/100
+|-ability|p2a: Dusclops|Pressure
+|turn|1
+|
+|t:|1779628354
+|move|p1a: Simon|Headlong Rush|p2a: Dusclops
+|-damage|p2a: Dusclops|48/100
+|-unboost|p1a: Simon|def|1
+|-unboost|p1a: Simon|spd|1
+|-damage|p1a: Simon|91/100|[from] item: Life Orb
+|move|p2a: Dusclops|Will-O-Wisp|p1a: Simon
+|-status|p1a: Simon|brn
+|
+|-damage|p1a: Simon|84/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1779628366
+|-end|p1a: Simon|Protosynthesis|[silent]
+|switch|p1a: Black Cat|Meowscarada, M|100/100
+|move|p2a: Dusclops|Pain Split|p1a: Black Cat
+|-sethp|p1a: Black Cat|74/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Dusclops|76/100|[from] move: Pain Split
+|
+|upkeep
+|turn|3
+|
+|t:|1779628378
+|move|p1a: Black Cat|Knock Off|p2a: Dusclops
+|-start|p1a: Black Cat|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Dusclops
+|-damage|p2a: Dusclops|0 fnt
+|-enditem|p2a: Dusclops|Eviolite|[from] move: Knock Off|[of] p1a: Black Cat
+|faint|p2a: Dusclops
+|
+|upkeep
+|
+|t:|1779628386
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Protean|Trace|[from] ability: Trace|[of] p1a: Black Cat
+|turn|4
+|
+|t:|1779628392
+|move|p1a: Black Cat|Knock Off|p2a: Porygon2
+|-damage|p2a: Porygon2|54/100
+|-enditem|p2a: Porygon2|Eviolite|[from] move: Knock Off|[of] p1a: Black Cat
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-start|p2a: Porygon2|typechange|Psychic|[from] ability: Protean
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|5
+|
+|t:|1779628405
+|switch|p2a: Glastrier|Glastrier|100/100
+|move|p1a: Black Cat|Knock Off|p2a: Glastrier
+|-damage|p2a: Glastrier|54/100
+|-enditem|p2a: Glastrier|Life Orb|[from] move: Knock Off|[of] p1a: Black Cat
+|
+|upkeep
+|turn|6
+|
+|t:|1779628412
+|switch|p1a: Simon|Great Tusk|84/100 brn
+|move|p2a: Glastrier|Icicle Crash|p1a: Simon
+|-supereffective|p1a: Simon
+|-damage|p1a: Simon|5/100 brn
+|
+|-damage|p1a: Simon|0 fnt|[from] brn
+|faint|p1a: Simon
+|-end|p1a: Simon|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1779628417
+|switch|p1a: M1|Bastiodon, F|100/100
+|turn|7
+|
+|t:|1779628429
+|move|p2a: Glastrier|Crunch|p1a: M1
+|-damage|p1a: M1|78/100
+|move|p1a: M1|Body Press|p2a: Glastrier
+|-supereffective|p2a: Glastrier
+|-damage|p2a: Glastrier|16/100
+|
+|upkeep
+|turn|8
+|
+|t:|1779628437
+|move|p2a: Glastrier|Crunch|p1a: M1
+|-damage|p1a: M1|57/100
+|move|p1a: M1|Iron Defense|p1a: M1
+|-boost|p1a: M1|def|2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|t:|1779628444
+|move|p1a: M1|Rest|p1a: M1
+|-status|p1a: M1|slp|[from] move: Rest
+|-heal|p1a: M1|100/100 slp|[silent]
+|-enditem|p1a: M1|Chesto Berry|[eat]
+|-curestatus|p1a: M1|slp|[msg]
+|move|p2a: Glastrier|Crunch|p1a: M1
+|-damage|p1a: M1|90/100
+|-unboost|p1a: M1|def|1
+|
+|upkeep
+|turn|10
+|
+|t:|1779628455
+|move|p1a: M1|Body Press|p2a: Glastrier
+|-supereffective|p2a: Glastrier
+|-crit|p2a: Glastrier
+|-damage|p2a: Glastrier|0 fnt
+|faint|p2a: Glastrier
+|
+|upkeep
+|
+|t:|1779628464
+|switch|p2a: Porygon2|Porygon2|54/100
+|-ability|p2a: Porygon2|Sturdy|Trace|[from] ability: Trace|[of] p1a: M1
+|turn|11
+|
+|t:|1779628470
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|move|p1a: M1|Body Press|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-crit|p2a: Porygon2
+|-ability|p2a: Porygon2|Sturdy
+|-damage|p2a: Porygon2|1/100
+|
+|upkeep
+|turn|12
+|
+|t:|1779628480
+|move|p1a: M1|Iron Defense|p1a: M1
+|-boost|p1a: M1|def|2
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|13
+|
+|t:|1779628485
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: M1|Body Press|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|4/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|14
+|
+|t:|1779628499
+|switch|p1a: Rossi|Regieleki|100/100
+|-item|p1a: Rossi|Air Balloon
+|move|p2a: Ursaluna|Drain Punch|p1a: Rossi
+|-damage|p1a: Rossi|12/100
+|-heal|p2a: Ursaluna|33/100 brn|[from] drain|[of] p1a: Rossi
+|-enditem|p1a: Rossi|Air Balloon
+|
+|-damage|p2a: Ursaluna|27/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1779628513
+|switch|p1a: M1|Bastiodon, F|90/100
+|move|p2a: Ursaluna|Drain Punch|p1a: M1
+|-supereffective|p1a: M1
+|-damage|p1a: M1|0 fnt
+|-heal|p2a: Ursaluna|58/100 brn|[from] drain|[of] p1a: M1
+|faint|p1a: M1
+|
+|-damage|p2a: Ursaluna|52/100 brn|[from] brn
+|upkeep
+|c|☆boltv10|wtf?
+|
+|t:|1779628528
+|switch|p1a: Rossi|Regieleki|12/100
+|turn|16
+|
+|t:|1779628532
+|move|p2a: Ursaluna|Drain Punch|p1a: Rossi
+|-damage|p1a: Rossi|0 fnt
+|-heal|p2a: Ursaluna|55/100 brn|[from] drain|[of] p1a: Rossi
+|faint|p1a: Rossi
+|
+|-damage|p2a: Ursaluna|49/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1779628535
+|switch|p1a: Chonk|Iron Moth|100/100
+|turn|17
+|
+|t:|1779628546
+|move|p1a: Chonk|Energy Ball|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1779628553
+|switch|p2a: Porygon2|Porygon2|1/100
+|turn|18
+|
+|t:|1779628558
+|move|p1a: Chonk|Energy Ball|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|
+|upkeep
+|
+|t:|1779628564
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|19
+|
+|t:|1779628570
+|move|p1a: Chonk|Bug Buzz|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|8/100
+|move|p2a: Hoopa|Zen Headbutt|p1a: Chonk
+|-supereffective|p1a: Chonk
+|-damage|p1a: Chonk|0 fnt
+|faint|p1a: Chonk
+|-end|p1a: Chonk|Quark Drive|[silent]
+|-damage|p2a: Hoopa|0 fnt|[from] item: Life Orb
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1779628582
+|switch|p1a: Black Cat|Meowscarada, M|74/100
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|20
+|
+|t:|1779628593
+|move|p1a: Black Cat|Flower Trick|p2a: Conkeldurr
+|-start|p1a: Black Cat|typechange|Grass|[from] ability: Protean
+|-crit|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|34/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Black Cat
+|-damage|p1a: Black Cat|0 fnt
+|-heal|p2a: Conkeldurr|59/100|[from] drain|[of] p1a: Black Cat
+|faint|p1a: Black Cat
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1779628600
+|switch|p1a: Norachiyo|Kingambit, M|100/100
+|-activate|p1a: Norachiyo|ability: Supreme Overlord
+|-start|p1a: Norachiyo|fallen5|[silent]
+|turn|21
+|
+|t:|1779628613
+|-terastallize|p1a: Norachiyo|Fighting
+|move|p1a: Norachiyo|Iron Head|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|win|Geail
+|raw|Geail's rating: 1118 &rarr; <strong>1148</strong><br />(+30 for winning)
+|raw|boltv10's rating: 1184 &rarr; <strong>1154</strong><br />(-30 for losing)
+|l|☆Geail
+|player|p1|
+|l|☆boltv10
+|player|p2|

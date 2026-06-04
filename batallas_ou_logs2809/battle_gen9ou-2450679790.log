@@ -1,0 +1,314 @@
+|j|☆Sergeant Garcia
+|j|☆BotBuilder07
+|t:|1759012233
+|gametype|singles
+|player|p1|Sergeant Garcia|2|1200
+|player|p2|BotBuilder07|lucas|1226
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Klawf, F|
+|poke|p1|Mew|
+|poke|p1|Smeargle, F|
+|poke|p1|Ditto|
+|poke|p1|Breloom, M|
+|poke|p1|Rotom-Frost|
+|poke|p2|Inteleon, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Araquanid, M|
+|poke|p2|Skarmory, M|
+|poke|p2|Iron Treads|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BotBuilder07)
+|
+|t:|1759012252
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|1
+|
+|t:|1759012281
+|move|p1a: Mew|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: BotBuilder07|move: Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Mew
+|-sidestart|p1: Sergeant Garcia|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1759012286
+|move|p1a: Mew|Toxic Spikes|p2a: Skarmory
+|-sidestart|p2: BotBuilder07|move: Toxic Spikes
+|move|p2a: Skarmory|Stealth Rock|p1a: Mew
+|-sidestart|p1: Sergeant Garcia|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1759012294
+|move|p1a: Mew|Spikes|p2a: Skarmory
+|-sidestart|p2: BotBuilder07|Spikes
+|move|p2a: Skarmory|Spikes|p1a: Mew
+|-sidestart|p1: Sergeant Garcia|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1759012304
+|move|p1a: Mew|Transform|p2a: Skarmory
+|-transform|p1a: Mew|p2a: Skarmory
+|move|p2a: Skarmory|Spikes|p1a: Mew
+|-sidestart|p1: Sergeant Garcia|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1759012310
+|move|p1a: Mew|Whirlwind|p2a: Skarmory
+|drag|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|-damage|p2a: Iron Treads|85/100|[from] Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1759012316
+|move|p2a: Iron Treads|Rapid Spin|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|97/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: BotBuilder07|Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|-sideend|p2: BotBuilder07|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|-sideend|p2: BotBuilder07|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Mew|Whirlwind|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|drag|p2a: Skarmory|Skarmory, M|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1759012323
+|move|p1a: Mew|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: BotBuilder07|move: Stealth Rock
+|move|p2a: Skarmory|Whirlwind|p1a: Mew
+|drag|p1a: Smeargle|Smeargle, F|100/100
+|-damage|p1a: Smeargle|75/100|[from] Spikes
+|-damage|p1a: Smeargle|63/100|[from] Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1759012336
+|move|p1a: Smeargle|Explosion|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|84/100
+|faint|p1a: Smeargle
+|move|p2a: Skarmory|Brave Bird|p1: Smeargle|[notarget]
+|-fail|p2a: Skarmory
+|
+|upkeep
+|
+|t:|1759012349
+|switch|p1a: Rotom|Rotom-Frost|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1759012358
+|switch|p2a: Iron Treads|Iron Treads|85/100
+|-damage|p2a: Iron Treads|82/100|[from] Stealth Rock
+|move|p1a: Rotom|Thunder|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|upkeep
+|turn|10
+|
+|t:|1759012362
+|move|p2a: Iron Treads|Rapid Spin|p1a: Rotom
+|-damage|p1a: Rotom|60/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: BotBuilder07|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Rotom|Blizzard|p2a: Iron Treads
+|-damage|p2a: Iron Treads|45/100
+|
+|upkeep
+|turn|11
+|
+|t:|1759012391
+|-terastallize|p1a: Rotom|Electric
+|move|p2a: Iron Treads|Knock Off|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|8/100
+|-enditem|p1a: Rotom|Wide Lens|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|12
+|c|☆BotBuilder07|mb
+|inactive|BotBuilder07 has 120 seconds left.
+|
+|t:|1759012408
+|move|p2a: Iron Treads|Rapid Spin|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-boost|p2a: Iron Treads|spe|1
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1759012424
+|switch|p1a: Ditto|Ditto, shiny|100/100
+|-damage|p1a: Ditto|75/100|[from] Spikes
+|-damage|p1a: Ditto|63/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Iron Treads|[from] ability: Imposter
+|turn|13
+|
+|t:|1759012433
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Skarmory|Skarmory, M|84/100
+|move|p1a: Ditto|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|upkeep
+|turn|14
+|
+|t:|1759012443
+|move|p1a: Ditto|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|move|p2a: Skarmory|Whirlwind|p1a: Ditto
+|-end|p1a: Ditto|Quark Drive|[silent]
+|drag|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|76/100|[from] Spikes
+|-damage|p1a: Breloom|70/100|[from] Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|t:|1759012454
+|move|p2a: Skarmory|Brave Bird|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|-damage|p2a: Skarmory|62/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1759012463
+|switch|p1a: Klawf|Klawf, F|100/100
+|-damage|p1a: Klawf|76/100|[from] Spikes
+|-damage|p1a: Klawf|63/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1759012471
+|move|p1a: Klawf|Rock Slide|p2a: Skarmory
+|-damage|p2a: Skarmory|42/100
+|move|p2a: Skarmory|Whirlwind|p1a: Klawf
+|drag|p1a: Ditto|Ditto, shiny|63/100
+|-damage|p1a: Ditto|38/100|[from] Spikes
+|-damage|p1a: Ditto|26/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Skarmory|[from] ability: Imposter
+|
+|upkeep
+|turn|17
+|
+|t:|1759012482
+|move|p1a: Ditto|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: BotBuilder07|move: Stealth Rock
+|move|p2a: Skarmory|Whirlwind|p1a: Ditto
+|drag|p1a: Mew|Mew|97/100
+|-damage|p1a: Mew|72/100|[from] Spikes
+|-damage|p1a: Mew|60/100|[from] Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|t:|1759012488
+|move|p1a: Mew|Transform|p2a: Skarmory
+|-transform|p1a: Mew|p2a: Skarmory
+|move|p2a: Skarmory|Whirlwind|p1a: Mew
+|drag|p1a: Klawf|Klawf, F|63/100
+|-damage|p1a: Klawf|38/100|[from] Spikes
+|-damage|p1a: Klawf|26/100|[from] Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|t:|1759012504
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Klawf|Rock Slide|p2a: Slowking
+|-damage|p2a: Slowking|62/100
+|
+|-heal|p2a: Slowking|68/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|BotBuilder07 has 120 seconds left.
+|
+|t:|1759012531
+|move|p1a: Klawf|Rock Slide|p2a: Slowking
+|-damage|p2a: Slowking|42/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|inactive|BotBuilder07 has 120 seconds left.
+|
+|t:|1759012536
+|switch|p2a: Inteleon|Inteleon, F|100/100|[from] Chilly Reception
+|-damage|p2a: Inteleon|88/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|c|☆BotBuilder07|watch this
+|inactive|BotBuilder07 has 120 seconds left.
+|
+|t:|1759012549
+|-terastallize|p2a: Inteleon|Bug
+|move|p2a: Inteleon|Fell Stinger|p1a: Klawf
+|-damage|p1a: Klawf|0 fnt
+|faint|p1a: Klawf
+|-boost|p2a: Inteleon|atk|3
+|-damage|p2a: Inteleon|78/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1759012557
+|switch|p1a: Ditto|Ditto, shiny|26/100
+|-damage|p1a: Ditto|1/100|[from] Spikes
+|-damage|p1a: Ditto|0 fnt|[from] Stealth Rock
+|faint|p1a: Ditto
+|
+|t:|1759012563
+|switch|p1a: Mew|Mew|60/100
+|-damage|p1a: Mew|35/100|[from] Spikes
+|-damage|p1a: Mew|23/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1759012572
+|move|p2a: Inteleon|Fell Stinger|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|-damage|p2a: Inteleon|68/100|[from] item: Life Orb
+|
+|win|BotBuilder07
+|raw|Sergeant Garcia's rating: 1200 &rarr; <strong>1177</strong><br />(-23 for losing)
+|raw|BotBuilder07's rating: 1226 &rarr; <strong>1249</strong><br />(+23 for winning)
+|l|☆Sergeant Garcia
+|player|p1|
+|c|☆BotBuilder07|ggs
+|l|☆BotBuilder07
+|player|p2|

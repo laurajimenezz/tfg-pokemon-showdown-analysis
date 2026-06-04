@@ -1,0 +1,186 @@
+|j|☆BusinessmanFiddle
+|j|☆gz01
+|t:|1769303974
+|gametype|singles
+|player|p1|BusinessmanFiddle|battlegirl|1353
+|player|p2|gz01|red|1288
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Barraskewda, M|
+|poke|p1|Pecharunt|
+|poke|p1|Excadrill, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Walking Wake|
+|poke|p2|Venusaur, F|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Brute Bonnet|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gz01)
+|
+|t:|1769303995
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Koalosun|Torkoal, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Koalosun
+|turn|1
+|
+|t:|1769304005
+|switch|p2a: Vicious Plant|Brute Bonnet, shiny|100/100
+|-activate|p2a: Vicious Plant|ability: Protosynthesis
+|-start|p2a: Vicious Plant|protosynthesisatk
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Vicious Plant|[anim] Ivy Cudgel Water
+|-resisted|p2a: Vicious Plant
+|-damage|p2a: Vicious Plant|88/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1769304015
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-end|p2a: Vicious Plant|Protosynthesis
+|move|p2a: Vicious Plant|Seed Bomb|p1a: Pelipper
+|-damage|p1a: Pelipper|57/100
+|-damage|p2a: Vicious Plant|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1769304024
+|move|p2a: Vicious Plant|Sucker Punch||[still]
+|-fail|p2a: Vicious Plant
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1769304041
+|-end|p2a: Vicious Plant|Protosynthesis|[silent]
+|switch|p2a: Sauros|Venusaur, F, shiny|100/100
+|move|p1a: Pelipper|Hurricane|p2a: Sauros
+|-supereffective|p2a: Sauros
+|-damage|p2a: Sauros|24/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1769304053
+|switch|p2a: Koalosun|Torkoal, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Koalosun
+|move|p1a: Pelipper|Hurricane|p2a: Koalosun|[miss]
+|-miss|p1a: Pelipper|p2a: Koalosun
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1769304058
+|move|p1a: Pelipper|Surf|p2a: Koalosun
+|-supereffective|p2a: Koalosun
+|-damage|p2a: Koalosun|61/100
+|move|p2a: Koalosun|Overheat|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|49/100
+|-unboost|p2a: Koalosun|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1769304065
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|99/100
+|-singleturn|p1a: Pelipper|move: Roost
+|move|p2a: Koalosun|Will-O-Wisp|p1a: Pelipper
+|-status|p1a: Pelipper|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Pelipper|93/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1769304073
+|switch|p2a: Vicious Plant|Brute Bonnet, shiny|78/100
+|-activate|p2a: Vicious Plant|ability: Protosynthesis
+|-start|p2a: Vicious Plant|protosynthesisatk
+|move|p1a: Pelipper|U-turn|p2a: Vicious Plant
+|-supereffective|p2a: Vicious Plant
+|-damage|p2a: Vicious Plant|64/100
+|
+|t:|1769304090
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1769304096
+|move|p1a: Ogerpon|U-turn|p2a: Vicious Plant
+|-supereffective|p2a: Vicious Plant
+|-damage|p2a: Vicious Plant|0 fnt
+|faint|p2a: Vicious Plant
+|-end|p2a: Vicious Plant|Protosynthesis|[silent]
+|
+|t:|1769304099
+|switch|p1a: Pelipper|Pelipper, M|93/100 brn|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|87/100 brn|[from] brn
+|upkeep
+|
+|t:|1769304102
+|switch|p2a: Koalosun|Torkoal, M, shiny|61/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Koalosun
+|turn|10
+|
+|t:|1769304108
+|move|p1a: Pelipper|U-turn|p2a: Koalosun
+|-resisted|p2a: Koalosun
+|-damage|p2a: Koalosun|59/100
+|l|☆gz01
+|inactive|gz01 disconnected and has a minute to reconnect!
+|player|p2|
+|
+|t:|1769304119
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|move|p2a: Koalosun|Overheat|p1a: Ogerpon|[miss]
+|-miss|p2a: Koalosun|p1a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|inactive|gz01 has 30 seconds to reconnect!
+|inactive|gz01 has 20 seconds to reconnect!
+|inactive|gz01 has 15 seconds to reconnect!
+|inactive|gz01 has 10 seconds to reconnect!
+|inactive|gz01 has 5 seconds to reconnect!
+|-message|gz01 lost due to inactivity.
+|
+|win|BusinessmanFiddle
+|raw|BusinessmanFiddle's rating: 1353 &rarr; <strong>1369</strong><br />(+16 for winning)
+|raw|gz01's rating: 1288 &rarr; <strong>1268</strong><br />(-20 for losing)
+|l|☆BusinessmanFiddle
+|player|p1|

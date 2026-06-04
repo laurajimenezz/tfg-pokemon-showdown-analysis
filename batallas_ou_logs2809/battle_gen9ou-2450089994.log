@@ -1,0 +1,306 @@
+|j|☆bordercauley
+|j|☆Poomph
+|t:|1758927698
+|gametype|singles
+|player|p1|bordercauley|265|1485
+|player|p2|Poomph|irida|1459
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meowscarada, F|
+|poke|p1|Pelipper, M|
+|poke|p1|Floatzel, M|
+|poke|p1|Quaquaval, M|
+|poke|p1|Sinistcha|
+|poke|p1|Kilowattrel, F|
+|poke|p2|Great Tusk|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Ceruledge, M|
+|poke|p2|Ribombee, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1758927723
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cat|Meowscarada, F|100/100
+|switch|p2a: Ribombee|Ribombee, F, shiny|100/100
+|turn|1
+|
+|t:|1758927743
+|move|p2a: Ribombee|Moonblast|p1a: Cat
+|-supereffective|p1a: Cat
+|-enditem|p1a: Cat|Focus Sash
+|-damage|p1a: Cat|1/100
+|move|p1a: Cat|Spikes|p2a: Ribombee
+|-sidestart|p2: Poomph|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1758927755
+|move|p2a: Ribombee|Moonblast|p1a: Cat
+|-supereffective|p1a: Cat
+|-damage|p1a: Cat|0 fnt
+|faint|p1a: Cat
+|
+|upkeep
+|
+|t:|1758927757
+|switch|p1a: Bird|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Bird
+|turn|3
+|
+|t:|1758927761
+|move|p2a: Ribombee|Sticky Web|p1a: Bird
+|-sidestart|p1: bordercauley|move: Sticky Web
+|move|p1a: Bird|U-turn|p2a: Ribombee
+|-resisted|p2a: Ribombee
+|-damage|p2a: Ribombee|92/100
+|
+|t:|1758927766
+|switch|p1a: Bird2|Kilowattrel, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758927774
+|move|p1a: Bird2|Hurricane|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758927793
+|switch|p2a: One Thousand Birds|Raging Bolt|100/100
+|-damage|p2a: One Thousand Birds|88/100|[from] Spikes
+|-enditem|p2a: One Thousand Birds|Booster Energy
+|-activate|p2a: One Thousand Birds|ability: Protosynthesis|[fromitem]
+|-start|p2a: One Thousand Birds|protosynthesisspa
+|turn|5
+|
+|t:|1758927818
+|move|p1a: Bird2|Hurricane|p2a: One Thousand Birds
+|-resisted|p2a: One Thousand Birds
+|-damage|p2a: One Thousand Birds|56/100
+|move|p2a: One Thousand Birds|Calm Mind|p2a: One Thousand Birds
+|-boost|p2a: One Thousand Birds|spa|1
+|-boost|p2a: One Thousand Birds|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758927825
+|move|p1a: Bird2|Hurricane|p2a: One Thousand Birds
+|-resisted|p2a: One Thousand Birds
+|-crit|p2a: One Thousand Birds
+|-damage|p2a: One Thousand Birds|6/100
+|-start|p2a: One Thousand Birds|confusion
+|-activate|p2a: One Thousand Birds|confusion
+|move|p2a: One Thousand Birds|Dragon Pulse|p1a: Bird2
+|-damage|p1a: Bird2|0 fnt
+|faint|p1a: Bird2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758927834
+|switch|p1a: Weasel|Floatzel, M|100/100
+|-activate|p1a: Weasel|move: Sticky Web
+|-unboost|p1a: Weasel|spe|1
+|turn|7
+|
+|t:|1758927839
+|move|p1a: Weasel|Aqua Jet|p2a: One Thousand Birds
+|-resisted|p2a: One Thousand Birds
+|-damage|p2a: One Thousand Birds|0 fnt
+|faint|p2a: One Thousand Birds
+|-end|p2a: One Thousand Birds|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758927853
+|switch|p2a: TUSK|Great Tusk|100/100
+|-damage|p2a: TUSK|88/100|[from] Spikes
+|-enditem|p2a: TUSK|Booster Energy
+|-activate|p2a: TUSK|ability: Protosynthesis|[fromitem]
+|-start|p2a: TUSK|protosynthesisatk
+|turn|8
+|
+|t:|1758927877
+|switch|p1a: Tea|Sinistcha|100/100
+|-activate|p1a: Tea|move: Sticky Web
+|-unboost|p1a: Tea|spe|1
+|-terastallize|p2a: TUSK|Ice
+|move|p2a: TUSK|Rapid Spin|p1a: Tea
+|-immune|p1a: Tea
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1758927883
+|move|p2a: TUSK|Ice Spinner|p1a: Tea
+|-supereffective|p1a: Tea
+|-damage|p1a: Tea|17/100
+|move|p1a: Tea|Strength Sap|p2a: TUSK
+|-unboost|p2a: TUSK|atk|1
+|-heal|p1a: Tea|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758927892
+|move|p2a: TUSK|Ice Spinner|p1a: Tea
+|-supereffective|p1a: Tea
+|-damage|p1a: Tea|46/100
+|move|p1a: Tea|Strength Sap|p2a: TUSK
+|-unboost|p2a: TUSK|atk|1
+|-heal|p1a: Tea|100/100
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1758927899
+|-end|p2a: TUSK|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Tea|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|25/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|12
+|
+|t:|1758927906
+|switch|p1a: Bird|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Bird
+|move|p2a: Gholdengo|Shadow Ball|p1a: Bird
+|-damage|p1a: Bird|31/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1758927914
+|move|p2a: Gholdengo|Shadow Ball|p1a: Bird
+|-damage|p1a: Bird|0 fnt
+|faint|p1a: Bird
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758927921
+|switch|p1a: Weasel|Floatzel, M|100/100
+|-activate|p1a: Weasel|move: Sticky Web
+|-unboost|p1a: Weasel|spe|1
+|turn|14
+|
+|t:|1758927928
+|move|p1a: Weasel|Wave Crash|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1a: Weasel|92/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758927938
+|switch|p2a: TUSK|Great Tusk, tera:Ice|88/100
+|-damage|p2a: TUSK|76/100|[from] Spikes
+|turn|15
+|
+|t:|1758927944
+|-terastallize|p1a: Weasel|Water
+|move|p1a: Weasel|Wave Crash|p2a: TUSK
+|-crit|p2a: TUSK
+|-damage|p2a: TUSK|0 fnt
+|faint|p2a: TUSK
+|-end|p2a: TUSK|Protosynthesis|[silent]
+|-damage|p1a: Weasel|62/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758927950
+|switch|p2a: Mega Man Zero 2|Ceruledge, M, shiny|100/100
+|-damage|p2a: Mega Man Zero 2|88/100|[from] Spikes
+|turn|16
+|
+|t:|1758927964
+|move|p2a: Mega Man Zero 2|Shadow Sneak|p1a: Weasel
+|-damage|p1a: Weasel|23/100
+|move|p1a: Weasel|Wave Crash|p2a: Mega Man Zero 2
+|-supereffective|p2a: Mega Man Zero 2
+|-damage|p2a: Mega Man Zero 2|0 fnt
+|faint|p2a: Mega Man Zero 2
+|-damage|p1a: Weasel|0 fnt|[from] Recoil
+|faint|p1a: Weasel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758927971
+|switch|p1a: Tea|Sinistcha|100/100
+|switch|p2a: BALL BREAKER|Ogerpon-Cornerstone, F|100/100
+|-damage|p2a: BALL BREAKER|88/100|[from] Spikes
+|-activate|p1a: Tea|move: Sticky Web
+|-unboost|p1a: Tea|spe|1
+|turn|17
+|
+|t:|1758927974
+|move|p2a: BALL BREAKER|Taunt|p1a: Tea
+|-start|p1a: Tea|move: Taunt
+|move|p1a: Tea|Matcha Gotcha|p2a: BALL BREAKER
+|-damage|p2a: BALL BREAKER|48/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1758927983
+|move|p2a: BALL BREAKER|Ivy Cudgel|p1a: Tea|[anim] Ivy Cudgel Rock
+|-damage|p1a: Tea|49/100
+|move|p1a: Tea|Matcha Gotcha|p2a: BALL BREAKER
+|-damage|p2a: BALL BREAKER|9/100
+|-heal|p1a: Tea|66/100|[from] drain|[of] p2a: BALL BREAKER
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tea|72/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1758927990
+|move|p2a: BALL BREAKER|Ivy Cudgel|p1a: Tea|[anim] Ivy Cudgel Rock
+|-damage|p1a: Tea|24/100
+|move|p1a: Tea|Shadow Ball|p2a: BALL BREAKER
+|-damage|p2a: BALL BREAKER|0 fnt
+|faint|p2a: BALL BREAKER
+|
+|win|bordercauley
+|raw|bordercauley's rating: 1485 &rarr; <strong>1504</strong><br />(+19 for winning)
+|raw|Poomph's rating: 1459 &rarr; <strong>1440</strong><br />(-19 for losing)
+|l|☆Poomph
+|player|p2|
+|c|☆bordercauley|gg
+|l|☆bordercauley
+|player|p1|

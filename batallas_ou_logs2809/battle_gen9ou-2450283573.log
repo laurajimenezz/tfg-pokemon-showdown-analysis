@@ -1,0 +1,370 @@
+|j|☆fewfewfqw
+|j|☆lakagota
+|t:|1758957145
+|gametype|singles
+|player|p1|fewfewfqw|nurse|1195
+|player|p2|lakagota|101|1243
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Comfey, M|
+|poke|p1|Metagross|
+|poke|p1|Sudowoodo, L61, M|
+|poke|p1|Bellibolt, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Deoxys-Defense|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Boulder|
+|poke|p2|Glimmora, F|
+|teampreview
+|
+|t:|1758957173
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdriveatk
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lakagota)
+|
+|t:|1758957203
+|move|p2a: Iron Boulder|Close Combat|p1a: Metagross
+|-damage|p1a: Metagross|62/100
+|-unboost|p2a: Iron Boulder|def|1
+|-unboost|p2a: Iron Boulder|spd|1
+|move|p1a: Metagross|Meteor Mash|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758957230
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|2
+|
+|t:|1758957246
+|-terastallize|p1a: Metagross|Fighting
+|move|p2a: Meowscarada|Knock Off|p1a: Metagross
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|40/100
+|-enditem|p1a: Metagross|Choice Band|[from] move: Knock Off|[of] p2a: Meowscarada
+|-damage|p2a: Meowscarada|91/100|[from] item: Life Orb
+|move|p1a: Metagross|Meteor Mash|p2a: Meowscarada
+|-damage|p2a: Meowscarada|5/100
+|
+|upkeep
+|turn|3
+|inactive|lakagota has 120 seconds left.
+|
+|t:|1758957282
+|-terastallize|p2a: Meowscarada|Grass
+|move|p2a: Meowscarada|Flower Trick|p1a: Metagross
+|-crit|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|-damage|p2a: Meowscarada|0 fnt|[from] item: Life Orb
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1758957296
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|switch|p1a: Dabbingmf|Sudowoodo, L61, M, shiny|100/100
+|turn|4
+|
+|t:|1758957311
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|-enditem|p2a: Glimmora|Power Herb
+|-anim|p2a: Glimmora|Meteor Beam|p1a: Dabbingmf
+|-ability|p1a: Dabbingmf|Sturdy
+|-damage|p1a: Dabbingmf|1/100
+|move|p1a: Dabbingmf|Stealth Rock|p2a: Glimmora
+|-sidestart|p2: lakagota|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|-enditem|p1a: Dabbingmf|Custap Berry|[eat]
+|-activate|p1a: Dabbingmf|item: Custap Berry|[consumed]
+|
+|t:|1758957323
+|move|p1a: Dabbingmf|Endeavor|p2a: Glimmora
+|-damage|p2a: Glimmora|1/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: fewfewfqw|move: Toxic Spikes
+|move|p2a: Glimmora|Spikes|p1a: Dabbingmf
+|-sidestart|p1: fewfewfqw|Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1758957332
+|move|p2a: Glimmora|Mortal Spin|p1a: Dabbingmf
+|-resisted|p1a: Dabbingmf
+|-crit|p1a: Dabbingmf
+|-damage|p1a: Dabbingmf|0 fnt
+|-sideend|p2: lakagota|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Glimmora
+|faint|p1a: Dabbingmf
+|
+|upkeep
+|
+|t:|1758957338
+|switch|p1a: Comfey|Comfey, M|100/100
+|-status|p1a: Comfey|psn
+|-damage|p1a: Comfey|88/100 psn|[from] Spikes
+|turn|7
+|inactive|lakagota has 120 seconds left.
+|
+|t:|1758957349
+|move|p1a: Comfey|Draining Kiss|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-heal|p1a: Comfey|88/100 psn|[from] drain|[of] p2a: Glimmora
+|faint|p2a: Glimmora
+|
+|-damage|p1a: Comfey|76/100 psn|[from] psn
+|upkeep
+|inactive|lakagota has 120 seconds left.
+|
+|t:|1758957366
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|8
+|
+|t:|1758957372
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: lakagota|move: Aurora Veil
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Comfey|63/100 psn|[from] psn
+|upkeep
+|turn|9
+|inactive|lakagota has 120 seconds left.
+|
+|t:|1758957384
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|move|p1a: Comfey|Draining Kiss|p2a: Kingambit
+|-damage|p2a: Kingambit|86/100
+|-heal|p1a: Comfey|78/100 psn|[from] drain|[of] p2a: Kingambit
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Kingambit|92/100|[from] item: Leftovers
+|-damage|p1a: Comfey|66/100 psn|[from] psn
+|upkeep
+|turn|10
+|inactive|lakagota has 120 seconds left.
+|
+|t:|1758957406
+|switch|p1a: Blowflex|Bellibolt, F, shiny|100/100
+|-status|p1a: Blowflex|psn
+|-damage|p1a: Blowflex|88/100 psn|[from] Spikes
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Kingambit|98/100|[from] item: Leftovers
+|-damage|p1a: Blowflex|76/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1758957427
+|switch|p1a: Comfey|Comfey, M|66/100 psn
+|-damage|p1a: Comfey|53/100 psn|[from] Spikes
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Comfey
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|0 fnt
+|faint|p1a: Comfey
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758957436
+|switch|p1a: Blowflex|Bellibolt, F, shiny|76/100 psn
+|-damage|p1a: Blowflex|64/100 psn|[from] Spikes
+|turn|12
+|
+|t:|1758957449
+|move|p2a: Kingambit|Iron Head|p1a: Blowflex
+|-resisted|p1a: Blowflex
+|-damage|p1a: Blowflex|19/100 psn
+|-start|p1a: Blowflex|Charge|Iron Head|[from] ability: Electromorphosis
+|-enditem|p1a: Blowflex|Iapapa Berry|[eat]
+|-heal|p1a: Blowflex|52/100 psn|[from] item: Iapapa Berry
+|move|p1a: Blowflex|Reflect|p1a: Blowflex
+|-sidestart|p1: fewfewfqw|Reflect
+|
+|-weather|none
+|-damage|p1a: Blowflex|40/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1758957459
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Blowflex|Zap Cannon|p2a: Kingambit
+|-damage|p2a: Kingambit|58/100
+|-status|p2a: Kingambit|par
+|-end|p1a: Blowflex|Charge|[silent]
+|
+|-heal|p2a: Kingambit|64/100 par|[from] item: Leftovers
+|-damage|p1a: Blowflex|28/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1758957478
+|move|p1a: Blowflex|Zap Cannon|p2a: Kingambit|[miss]
+|-miss|p1a: Blowflex|p2a: Kingambit
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Blowflex
+|-damage|p1a: Blowflex|0 fnt
+|faint|p1a: Blowflex
+|
+|-heal|p2a: Kingambit|70/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1758957487
+|switch|p1a: Minion|Deoxys-Defense, shiny|100/100
+|-status|p1a: Minion|psn
+|-damage|p1a: Minion|88/100 psn|[from] Spikes
+|-ability|p1a: Minion|Pressure
+|turn|15
+|
+|t:|1758957497
+|cant|p2a: Kingambit|par
+|move|p1a: Minion|Drain Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|52/100 par
+|-heal|p1a: Minion|99/100 psn|[from] drain|[of] p2a: Kingambit
+|
+|-heal|p2a: Kingambit|59/100 par|[from] item: Leftovers
+|-damage|p1a: Minion|88/100 psn|[from] psn
+|-sideend|p2: lakagota|move: Aurora Veil
+|upkeep
+|turn|16
+|inactive|lakagota has 120 seconds left.
+|
+|t:|1758957506
+|move|p2a: Kingambit|Sucker Punch|p1a: Minion
+|-supereffective|p1a: Minion
+|-damage|p1a: Minion|0 fnt
+|faint|p1a: Minion
+|
+|-heal|p2a: Kingambit|65/100 par|[from] item: Leftovers
+|-sideend|p1: fewfewfqw|Reflect
+|upkeep
+|
+|t:|1758957509
+|switch|p1a: Steroid Xurkitree|Raging Bolt|100/100
+|-status|p1a: Steroid Xurkitree|psn
+|-damage|p1a: Steroid Xurkitree|88/100 psn|[from] Spikes
+|-enditem|p1a: Steroid Xurkitree|Booster Energy
+|-activate|p1a: Steroid Xurkitree|ability: Protosynthesis|[fromitem]
+|-start|p1a: Steroid Xurkitree|protosynthesisspa
+|turn|17
+|
+|t:|1758957521
+|move|p1a: Steroid Xurkitree|Calm Mind|p1a: Steroid Xurkitree
+|-boost|p1a: Steroid Xurkitree|spa|1
+|-boost|p1a: Steroid Xurkitree|spd|1
+|cant|p2a: Kingambit|par
+|
+|-heal|p2a: Kingambit|71/100 par|[from] item: Leftovers
+|-damage|p1a: Steroid Xurkitree|76/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1758957528
+|move|p1a: Steroid Xurkitree|Thunderclap|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|-damage|p1a: Steroid Xurkitree|63/100 psn|[from] psn
+|upkeep
+|
+|t:|1758957539
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|19
+|
+|t:|1758957543
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: lakagota|move: Aurora Veil
+|move|p1a: Steroid Xurkitree|Discharge|p2a: Ninetales
+|-damage|p2a: Ninetales|52/100
+|-status|p2a: Ninetales|par
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Steroid Xurkitree|51/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1758957552
+|move|p1a: Steroid Xurkitree|Calm Mind|p1a: Steroid Xurkitree
+|-boost|p1a: Steroid Xurkitree|spa|1
+|-boost|p1a: Steroid Xurkitree|spd|1
+|cant|p2a: Ninetales|par
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Steroid Xurkitree|39/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1758957560
+|move|p1a: Steroid Xurkitree|Discharge|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Steroid Xurkitree|26/100 psn|[from] psn
+|upkeep
+|
+|t:|1758957567
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|turn|22
+|
+|t:|1758957572
+|move|p1a: Steroid Xurkitree|Draco Meteor|p2a: Garganacl
+|-damage|p2a: Garganacl|32/100
+|-unboost|p1a: Steroid Xurkitree|spa|2
+|move|p2a: Garganacl|Salt Cure|p1a: Steroid Xurkitree
+|-damage|p1a: Steroid Xurkitree|12/100 psn
+|-start|p1a: Steroid Xurkitree|Salt Cure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garganacl|38/100|[from] item: Leftovers
+|-damage|p1a: Steroid Xurkitree|0 fnt|[from] psn
+|faint|p1a: Steroid Xurkitree
+|-end|p1a: Steroid Xurkitree|Protosynthesis|[silent]
+|
+|win|lakagota
+|raw|fewfewfqw's rating: 1195 &rarr; <strong>1173</strong><br />(-22 for losing)
+|raw|lakagota's rating: 1243 &rarr; <strong>1265</strong><br />(+22 for winning)
+|l|☆lakagota
+|player|p2|
+|l|☆fewfewfqw
+|player|p1|

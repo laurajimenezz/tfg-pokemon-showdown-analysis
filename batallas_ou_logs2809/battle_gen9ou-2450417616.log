@@ -1,0 +1,391 @@
+|j|☆KuroNoTamashi
+|j|☆sly_skip
+|t:|1758981210
+|gametype|singles
+|player|p1|KuroNoTamashi|170|1599
+|player|p2|sly_skip|170|1590
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Crown|
+|poke|p1|Pincurchin, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Pelipper, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Great Tusk|
+|poke|p2|Darkrai|
+|poke|p2|Garganacl, M|
+|poke|p2|Kyurem|
+|poke|p2|Zamazenta-*|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sly_skip)
+|
+|t:|1758981218
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pincurchin|Pincurchin, M, shiny|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|1
+|
+|t:|1758981225
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Darkrai|atk|1
+|move|p2a: Darkrai|Dark Pulse|p1a: Landorus
+|-damage|p1a: Landorus|50/100
+|
+|-heal|p1a: Landorus|56/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1758981232
+|move|p2a: Darkrai|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1758981235
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|3
+|
+|t:|1758981240
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Iron Valiant|Spirit Break|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|73/100
+|-unboost|p2a: Slowking|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1758981252
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-activate|p1a: Iron Crown|ability: Quark Drive
+|-start|p1a: Iron Crown|quarkdrivespa
+|move|p2a: Slowking|Toxic|p1a: Iron Crown
+|-immune|p1a: Iron Crown
+|
+|upkeep
+|turn|5
+|
+|t:|1758981256
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Slowking
+|-damage|p2a: Slowking|44/100
+|-damage|p2a: Slowking|15/100
+|-hitcount|p2a: Slowking|2
+|move|p2a: Slowking|Thunder Wave|p1a: Iron Crown|[miss]
+|-miss|p2a: Slowking|p1a: Iron Crown
+|
+|upkeep
+|turn|6
+|inactive|sly_skip has 120 seconds left.
+|
+|t:|1758981294
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Great Tusk
+|-damage|p2a: Great Tusk|25/100
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p2: Great Tusk|2
+|
+|upkeep
+|
+|t:|1758981297
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|turn|7
+|
+|t:|1758981301
+|-terastallize|p2a: Garganacl|Water
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|82/100
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|64/100
+|-hitcount|p2a: Garganacl|2
+|move|p2a: Garganacl|Salt Cure|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|93/100
+|-start|p1a: Iron Crown|Salt Cure
+|
+|-heal|p2a: Garganacl|70/100|[from] item: Leftovers
+|-damage|p1a: Iron Crown|68/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1758981307
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Pincurchin|Pincurchin, M, shiny|100/100
+|move|p2a: Garganacl|Salt Cure|p1a: Pincurchin
+|-damage|p1a: Pincurchin|88/100
+|-start|p1a: Pincurchin|Salt Cure
+|
+|-heal|p2a: Garganacl|76/100|[from] item: Leftovers
+|-damage|p1a: Pincurchin|76/100|[from] Salt Cure
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+|
+|t:|1758981311
+|switch|p2a: Slowking|Slowking-Galar, M|49/100
+|move|p1a: Pincurchin|Spikes|p2a: Slowking
+|-sidestart|p2: sly_skip|Spikes
+|
+|-damage|p1a: Pincurchin|64/100|[from] Salt Cure
+|upkeep
+|turn|10
+|
+|t:|1758981317
+|move|p1a: Pincurchin|Spikes|p2a: Slowking
+|-sidestart|p2: sly_skip|Spikes
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1758981327
+|switch|p2a: Darkrai|Darkrai|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Pincurchin|51/100|[from] Salt Cure
+|upkeep
+|turn|11
+|
+|t:|1758981332
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Darkrai|Dark Pulse|p1a: Pelipper
+|-damage|p1a: Pelipper|43/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1758981343
+|move|p2a: Darkrai|Dark Pulse|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758981346
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|13
+|
+|t:|1758981352
+|move|p1a: Barraskewda|Flip Turn|p2a: Darkrai
+|-damage|p2a: Darkrai|5/100
+|
+|t:|1758981355
+|switch|p1a: Pincurchin|Pincurchin, M, shiny|51/100|[from] Flip Turn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Darkrai|Dark Pulse|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758981358
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|14
+|
+|t:|1758981362
+|move|p1a: Barraskewda|Waterfall|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758981373
+|switch|p2a: Garganacl|Garganacl, M, tera:Water|76/100
+|-damage|p2a: Garganacl|59/100|[from] Spikes
+|turn|15
+|
+|t:|1758981378
+|-terastallize|p1a: Barraskewda|Water
+|move|p1a: Barraskewda|Waterfall|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|23/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|73/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Garganacl|79/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758981385
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Garganacl|Salt Cure|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-crit|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|86/100
+|-start|p1a: Iron Valiant|Salt Cure
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Garganacl|85/100|[from] item: Leftovers
+|-damage|p1a: Iron Valiant|74/100|[from] Salt Cure
+|upkeep
+|turn|17
+|
+|t:|1758981389
+|switch|p2a: Slowking|Slowking-Galar, M|82/100
+|move|p1a: Iron Valiant|Trick|p2a: Slowking
+|-activate|p1a: Iron Valiant|move: Trick|[of] p2a: Slowking
+|-item|p2a: Slowking|Choice Band|[from] move: Trick
+|-item|p1a: Iron Valiant|Heavy-Duty Boots|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Iron Valiant|61/100|[from] Salt Cure
+|upkeep
+|turn|18
+|
+|t:|1758981400
+|move|p1a: Iron Valiant|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|15/100
+|-enditem|p2a: Slowking|Choice Band|[from] move: Knock Off|[of] p1a: Iron Valiant
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|inactive|sly_skip has 120 seconds left.
+|
+|t:|1758981427
+|switch|p2a: Garganacl|Garganacl, M, tera:Water|85/100|[from] Chilly Reception
+|-damage|p2a: Garganacl|69/100|[from] Spikes
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garganacl|75/100|[from] item: Leftovers
+|-damage|p1a: Iron Valiant|49/100|[from] Salt Cure
+|upkeep
+|turn|19
+|inactive|sly_skip has 120 seconds left.
+|
+|t:|1758981442
+|move|p1a: Iron Valiant|Close Combat|p2a: Garganacl
+|-damage|p2a: Garganacl|40/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garganacl|46/100|[from] item: Leftovers
+|-damage|p1a: Iron Valiant|36/100|[from] Salt Cure
+|upkeep
+|turn|20
+|
+|t:|1758981447
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Iron Crown|Iron Crown|68/100
+|-activate|p1a: Iron Crown|ability: Quark Drive
+|-start|p1a: Iron Crown|quarkdrivespa
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|96/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Crown|Quark Drive
+|upkeep
+|turn|21
+|
+|t:|1758981454
+|move|p1a: Iron Crown|Future Sight|p2a: Garganacl
+|-start|p1a: Iron Crown|move: Future Sight
+|move|p2a: Garganacl|Salt Cure|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|57/100
+|-start|p1a: Iron Crown|Salt Cure
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Iron Crown|32/100|[from] Salt Cure
+|upkeep
+|turn|22
+|
+|t:|1758981460
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|36/100
+|switch|p2a: Slowking|Slowking-Galar, M|49/100
+|-damage|p2a: Slowking|32/100|[from] Spikes
+|
+|-weather|none
+|upkeep
+|turn|23
+|
+|t:|1758981468
+|move|p1a: Iron Valiant|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1758981490
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|84/100|[from] Spikes
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|24
+|l|☆KuroNoTamashi
+|inactive|KuroNoTamashi disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆KuroNoTamashi
+|inactive|KuroNoTamashi reconnected and has 135 seconds left.
+|player|p1|KuroNoTamashi|170|
+|
+|t:|1758981507
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Iron Valiant|Spirit Break|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|63/100
+|-unboost|p2a: Zamazenta|spa|1
+|
+|-heal|p2a: Zamazenta|69/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1758981514
+|move|p2a: Zamazenta|Heavy Slam|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p2a: Zamazenta|75/100|[from] item: Leftovers
+|upkeep
+|-message|KuroNoTamashi forfeited.
+|
+|win|sly_skip
+|raw|KuroNoTamashi's rating: 1599 &rarr; <strong>1578</strong><br />(-21 for losing)
+|raw|sly_skip's rating: 1590 &rarr; <strong>1611</strong><br />(+21 for winning)
+|l|☆KuroNoTamashi
+|player|p1|
+|l|☆sly_skip
+|player|p2|

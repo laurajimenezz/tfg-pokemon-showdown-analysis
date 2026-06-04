@@ -1,0 +1,229 @@
+|j|☆NoLuvMod._
+|j|☆tor2009
+|t:|1769404172
+|gametype|singles
+|player|p1|NoLuvMod._|2|1154
+|player|p2|tor2009|miku-psychic|1121
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clefable, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Toxapex, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Dragapult, F|
+|poke|p2|Meloetta|
+|poke|p2|Gardevoir, M|
+|poke|p2|Espeon, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Scream Tail|
+|poke|p2|Metagross|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tor2009)
+|
+|t:|1769404190
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1769404196
+|move|p2a: Indeedee|Expanding Force|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-damage|p2a: Indeedee|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1769404201
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|2
+|
+|t:|1769404209
+|move|p1a: Dragapult|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|t:|1769404219
+|switch|p1a: Clefable|Clefable, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1769404227
+|switch|p2a: Metagross|Metagross, shiny|100/100
+|turn|3
+|
+|t:|1769404233
+|move|p2a: Metagross|Heavy Slam|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1769404239
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|4
+|
+|t:|1769404251
+|move|p1a: Dragapult|Fire Blast|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|upkeep
+|
+|t:|1769404256
+|switch|p2a: Scream Tail|Scream Tail, shiny|100/100
+|turn|5
+|
+|t:|1769404267
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Scream Tail|Thunder Wave|p1a: Toxapex
+|-status|p1a: Toxapex|par
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1769404279
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: Espeon|Espeon, M, shiny|100/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Espeon
+|-sidestart|p2: tor2009|move: Toxic Spikes
+|
+|upkeep
+|turn|7
+|
+|t:|1769404295
+|move|p2a: Espeon|Trick|p1a: Toxapex
+|-activate|p2a: Espeon|move: Trick|[of] p1a: Toxapex
+|-item|p1a: Toxapex|Choice Specs|[from] move: Trick
+|-item|p2a: Espeon|Leftovers|[from] move: Trick
+|move|p1a: Toxapex|Toxic||[still]
+|-status|p2a: Espeon|tox
+|-activate|p2a: Espeon|ability: Synchronize
+|-fail|p2a: Espeon
+|
+|-damage|p2a: Espeon|95/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1769404309
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Espeon|Alluring Voice|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|25/100
+|
+|-heal|p2a: Espeon|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Espeon|89/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1769404319
+|move|p1a: Dragapult|U-turn|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|28/100 tox
+|
+|t:|1769404322
+|switch|p1a: Toxapex|Toxapex, F|100/100 par|[from] U-turn
+|move|p2a: Espeon|Alluring Voice|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|90/100 par
+|
+|-heal|p2a: Espeon|34/100 tox|[from] item: Leftovers
+|-damage|p2a: Espeon|16/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1769404336
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Espeon|Psyshock|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p2a: Espeon|22/100 tox|[from] item: Leftovers
+|-damage|p2a: Espeon|0 fnt|[from] psn
+|faint|p2a: Espeon
+|upkeep
+|
+|t:|1769404346
+|switch|p2a: Meloetta|Meloetta|100/100
+|-status|p2a: Meloetta|psn
+|turn|11
+|
+|t:|1769404354
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Meloetta|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|98/100
+|-damage|p2a: Meloetta|84/100 psn|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|t:|1769404357
+|switch|p2a: Gardevoir|Gardevoir, M, shiny|100/100|[from] U-turn
+|-status|p2a: Gardevoir|psn
+|
+|-damage|p2a: Gardevoir|88/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1769404372
+|-terastallize|p2a: Gardevoir|Psychic
+|move|p2a: Gardevoir|Calm Mind|p2a: Gardevoir
+|-boost|p2a: Gardevoir|spa|1
+|-boost|p2a: Gardevoir|spd|1
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p2a: Gardevoir|76/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1769404384
+|move|p2a: Gardevoir|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|66/100
+|-damage|p2a: Gardevoir|66/100 psn|[from] item: Life Orb
+|move|p1a: Corviknight|Body Press|p2a: Gardevoir
+|-resisted|p2a: Gardevoir
+|-damage|p2a: Gardevoir|50/100 psn
+|
+|-damage|p2a: Gardevoir|37/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1769404393
+|move|p2a: Gardevoir|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|31/100
+|-damage|p2a: Gardevoir|28/100 psn|[from] item: Life Orb
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|81/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p2a: Gardevoir|15/100 psn|[from] psn
+|upkeep
+|turn|15
+|-message|tor2009 forfeited.
+|
+|win|NoLuvMod._
+|raw|NoLuvMod._'s rating: 1154 &rarr; <strong>1177</strong><br />(+23 for winning)
+|raw|tor2009's rating: 1121 &rarr; <strong>1098</strong><br />(-23 for losing)
+|l|☆tor2009
+|player|p2|
+|l|☆NoLuvMod._
+|player|p1|

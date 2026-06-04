@@ -1,0 +1,355 @@
+|j|☆gamebattle$
+|j|☆BeachLeak
+|t:|1757823694
+|gametype|singles
+|player|p1|gamebattle$|shadowtriad|1619
+|player|p2|BeachLeak|archer|1596
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Deoxys-Speed|
+|poke|p1|Dragonite, F|
+|poke|p1|Glimmora, F|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Valiant|
+|poke|p1|Kingambit, M|
+|poke|p2|Salamence, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Iron Crown|
+|poke|p2|Azumarill, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BeachLeak)
+|
+|t:|1757823707
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1757823714
+|move|p1a: Iron Valiant|Knock Off|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|39/100
+|-enditem|p2a: Iron Crown|Choice Scarf|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-hitcount|p1: Iron Valiant|1
+|
+|upkeep
+|j| LuLuNaNaRaRa
+|
+|t:|1757823730
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|2
+|
+|t:|1757823734
+|move|p1a: Deoxys|Light Screen|p1a: Deoxys
+|-sidestart|p1: gamebattle$|move: Light Screen
+|move|p2a: Iron Crown|Volt Switch|p1a: Deoxys
+|-damage|p1a: Deoxys|86/100
+|
+|t:|1757823746
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|100/100|[from] Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Deoxys|80/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1757823760
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|-terastallize|p2a: Tyranitar|Bug
+|move|p2a: Tyranitar|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1757823768
+|switch|p2a: Sherbet|Salamence, M, shiny|100/100
+|-ability|p2a: Sherbet|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sherbet|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1757823775
+|move|p1a: Great Tusk|Head Smash|p2a: Sherbet|[miss]
+|-miss|p1a: Great Tusk|p2a: Sherbet
+|move|p2a: Sherbet|Air Slash|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sherbet|88/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1757823781
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Great Tusk|Head Smash|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|87/100
+|-damage|p1a: Great Tusk|12/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1757823790
+|move|p1a: Great Tusk|Headlong Rush|p2a: Zamazenta
+|-damage|p2a: Zamazenta|53/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Zamazenta|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Zamazenta|43/100|[from] item: Life Orb
+|
+|upkeep
+|l| LuLuNaNaRaRa
+|
+|t:|1757823813
+|switch|p1a: Glimmora|Glimmora, F, shiny|100/100
+|turn|8
+|
+|t:|1757823824
+|switch|p2a: Tyranitar|Tyranitar, M, shiny, tera:Bug|94/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Deoxys|Deoxys-Speed|80/100
+|-ability|p1a: Deoxys|Pressure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Deoxys|74/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|88/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1757823832
+|move|p1a: Deoxys|Reflect|p1a: Deoxys
+|-sidestart|p1: gamebattle$|Reflect
+|move|p2a: Tyranitar|Knock Off|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|-enditem|p1a: Deoxys|Light Clay|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1a: Deoxys
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|82/100|[from] Sandstorm
+|-sideend|p1: gamebattle$|move: Light Screen
+|upkeep
+|
+|t:|1757823843
+|switch|p1a: Glimmora|Glimmora, F, shiny|100/100
+|turn|10
+|
+|t:|1757823850
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-item|p2a: Excadrill|Air Balloon
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|-enditem|p1a: Glimmora|Power Herb
+|-anim|p1a: Glimmora|Meteor Beam|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|72/100
+|-enditem|p2a: Excadrill|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1757823859
+|move|p2a: Excadrill|Iron Head|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|48/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: BeachLeak|move: Toxic Spikes
+|move|p1a: Glimmora|Earth Power|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1757823867
+|switch|p2a: Iron Crown|Iron Crown|39/100
+|turn|12
+|
+|t:|1757823871
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|-hitcount|p1: Glimmora|1
+|
+|-weather|none
+|upkeep
+|
+|t:|1757823873
+|switch|p1a: Dragonite|Dragonite, F, shiny|100/100
+|turn|13
+|
+|t:|1757823876
+|move|p2a: Iron Crown|Volt Switch|p1a: Dragonite
+|-damage|p1a: Dragonite|88/100
+|
+|t:|1757823879
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Tyranitar|Tyranitar, M, shiny, tera:Bug|82/100|[from] Volt Switch
+|-status|p2a: Tyranitar|psn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|82/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|76/100 psn|[from] Sandstorm
+|-heal|p1a: Dragonite|88/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|64/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1757823888
+|-terastallize|p1a: Dragonite|Flying
+|move|p1a: Dragonite|Tera Blast|p2a: Tyranitar|[anim] Tera Blast Flying
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|82/100|[from] Sandstorm
+|-heal|p1a: Dragonite|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757823893
+|switch|p2a: Sherbet|Salamence, M, shiny|88/100
+|-ability|p2a: Sherbet|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|turn|15
+|
+|t:|1757823898
+|move|p1a: Dragonite|Tera Blast|p2a: Sherbet|[anim] Tera Blast Flying
+|-damage|p2a: Sherbet|20/100
+|move|p2a: Sherbet|Draco Meteor|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-unboost|p2a: Sherbet|spa|2
+|faint|p1a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sherbet|14/100|[from] Sandstorm
+|upkeep
+|j| wgw2333
+|
+|t:|1757823903
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|16
+|
+|t:|1757823908
+|switch|p2a: Iron Crown|Iron Crown|39/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-sideend|p1: gamebattle$|Reflect
+|upkeep
+|turn|17
+|
+|t:|1757823916
+|move|p1a: Kingambit|Sucker Punch|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-crit|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1757823919
+|switch|p2a: Sherbet|Salamence, M, shiny|14/100
+|-ability|p2a: Sherbet|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|turn|18
+|
+|t:|1757823923
+|move|p1a: Kingambit|Sucker Punch|p2a: Sherbet
+|-damage|p2a: Sherbet|0 fnt
+|faint|p2a: Sherbet
+|
+|upkeep
+|
+|t:|1757823927
+|switch|p2a: Zamazenta|Zamazenta|43/100
+|-status|p2a: Zamazenta|psn
+|turn|19
+|
+|t:|1757823935
+|move|p1a: Kingambit|Sucker Punch|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1757823937
+|switch|p2a: Azumarill|Azumarill, M, shiny|100/100
+|-status|p2a: Azumarill|psn
+|turn|20
+|j| LuLuNaNaRaRa
+|
+|t:|1757823940
+|move|p1a: Kingambit|Iron Head|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|win|gamebattle$
+|raw|gamebattle$'s rating: 1619 &rarr; <strong>1638</strong><br />(+19 for winning)
+|raw|BeachLeak's rating: 1596 &rarr; <strong>1577</strong><br />(-19 for losing)
+|l| LuLuNaNaRaRa
+|l|☆BeachLeak
+|player|p2|
+|l|☆gamebattle$
+|player|p1|

@@ -1,0 +1,725 @@
+|j|☆TeamTestingTim
+|j|☆siroperation
+|t:|1760374501
+|gametype|singles
+|player|p1|TeamTestingTim|alder|1440
+|player|p2|siroperation|266|1525
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Umbreon, F|
+|poke|p1|Tinkaton, F|
+|poke|p1|Latios, M|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p1|Moltres|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Cyclizar, F|
+|poke|p2|Bronzong|
+|poke|p2|Tornadus-Therian, M|
+|teampreview
+|
+|t:|1760374510
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1760374514
+|move|p1a: Tinkaton|Stealth Rock|p2a: Ting-Lu
+|-sidestart|p2: siroperation|move: Stealth Rock
+|move|p2a: Ting-Lu|Ruination|p1a: Tinkaton
+|-damage|p1a: Tinkaton|50/100
+|-enditem|p1a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|t:|1760374525
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|move|p1a: Tinkaton|Encore||[still]
+|-fail|p1a: Tinkaton
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1760374543
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|move|p2a: Conkeldurr|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|79/100
+|-enditem|p1a: Great Tusk|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Conkeldurr
+|
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1760374550
+|move|p1a: Great Tusk|Close Combat|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|36/100 brn
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Conkeldurr|Drain Punch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|4/100
+|-heal|p2a: Conkeldurr|70/100 brn|[from] drain|[of] p1a: Great Tusk
+|
+|-damage|p2a: Conkeldurr|64/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1760374562
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Great Tusk|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|61/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1760374569
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|move|p2a: Alomomola|Flip Turn|p1a: Umbreon
+|-damage|p1a: Umbreon|90/100
+|
+|t:|1760374571
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|64/100 brn|[from] Flip Turn
+|-damage|p2a: Conkeldurr|58/100 brn|[from] Stealth Rock
+|
+|-damage|p2a: Conkeldurr|52/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1760374575
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Conkeldurr|Knock Off|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-damage|p2a: Conkeldurr|46/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1760374583
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Conkeldurr|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-enditem|p1a: Gholdengo|Choice Scarf|[from] move: Knock Off|[of] p2a: Conkeldurr
+|faint|p1a: Gholdengo
+|
+|-damage|p2a: Conkeldurr|40/100 brn|[from] brn
+|upkeep
+|
+|t:|1760374587
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|turn|9
+|
+|t:|1760374591
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-damage|p2a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Latios|Draco Meteor|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|55/100
+|-unboost|p1a: Latios|spa|2
+|
+|-heal|p2a: Ting-Lu|61/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760374604
+|switch|p1a: Great Tusk|Great Tusk, shiny|4/100
+|move|p2a: Ting-Lu|Spikes|p1a: Great Tusk
+|-sidestart|p1: TeamTestingTim|Spikes
+|
+|-heal|p2a: Ting-Lu|67/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760374608
+|switch|p2a: Alomomola|Alomomola, F|94/100
+|move|p1a: Great Tusk|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|55/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|12
+|
+|t:|1760374619
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|move|p2a: Alomomola|Flip Turn|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|90/100
+|
+|t:|1760374631
+|switch|p2a: Ting-Lu|Ting-Lu|67/100|[from] Flip Turn
+|-damage|p2a: Ting-Lu|61/100|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p2a: Ting-Lu|67/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760374644
+|move|p1a: Latios|Flip Turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|55/100
+|
+|t:|1760374646
+|switch|p1a: Great Tusk|Great Tusk, shiny|4/100|[from] Flip Turn
+|-damage|p1a: Great Tusk|0 fnt|[from] Spikes
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|move|p2a: Ting-Lu|Ruination|p1: Great Tusk|[notarget]
+|-fail|p2a: Ting-Lu
+|
+|-heal|p2a: Ting-Lu|62/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760374657
+|switch|p1a: Umbreon|Umbreon, F|90/100
+|turn|14
+|
+|t:|1760374667
+|move|p1a: Umbreon|Foul Play|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|52/100
+|move|p2a: Ting-Lu|Spikes|p1a: Umbreon
+|-sidestart|p1: TeamTestingTim|Spikes
+|
+|-heal|p2a: Ting-Lu|58/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1760374672
+|switch|p2a: Alomomola|Alomomola, F|88/100
+|move|p1a: Umbreon|Toxic|p2a: Alomomola
+|-status|p2a: Alomomola|tox
+|
+|-damage|p2a: Alomomola|82/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1760374677
+|switch|p1a: Latios|Latios, M, shiny|90/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-damage|p2a: Alomomola|70/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1760374690
+|-terastallize|p1a: Latios|Dragon
+|-terastallize|p2a: Alomomola|Fairy
+|move|p1a: Latios|Draco Meteor|p2a: Alomomola
+|-immune|p2a: Alomomola
+|move|p2a: Alomomola|Flip Turn|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|80/100
+|
+|t:|1760374697
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|40/100 brn|[from] Flip Turn
+|-damage|p2a: Conkeldurr|34/100 brn|[from] Stealth Rock
+|
+|-heal|p2a: Conkeldurr|91/100 brn|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Conkeldurr|85/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1760374705
+|switch|p1a: Umbreon|Umbreon, F|90/100
+|switch|p2a: Alomomola|Alomomola, F, tera:Fairy|100/100 tox
+|
+|-damage|p2a: Alomomola|94/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1760374721
+|switch|p1a: Latios|Latios, M, shiny, tera:Dragon|80/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|20
+|
+|t:|1760374727
+|switch|p2a: Alomomola|Alomomola, F, tera:Fairy|100/100 tox
+|move|p1a: Latios|Flip Turn|p2a: Alomomola
+|-damage|p2a: Alomomola|94/100 tox
+|
+|t:|1760374732
+|switch|p1a: Umbreon|Umbreon, F|90/100|[from] Flip Turn
+|
+|-damage|p2a: Alomomola|88/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1760374737
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Alomomola|Flip Turn|p1a: Umbreon
+|-damage|p1a: Umbreon|79/100
+|
+|t:|1760374739
+|switch|p2a: Bronzong|Bronzong|94/100|[from] Flip Turn
+|-damage|p2a: Bronzong|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|22
+|
+|t:|1760374743
+|switch|p1a: Tinkaton|Tinkaton, F|50/100
+|-damage|p1a: Tinkaton|34/100|[from] Spikes
+|move|p2a: Bronzong|Stealth Rock|p1a: Tinkaton
+|-sidestart|p1: TeamTestingTim|move: Stealth Rock
+|
+|-heal|p1a: Tinkaton|87/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|23
+|
+|t:|1760374762
+|switch|p2a: Cyclizar|Cyclizar, F, shiny|100/100
+|move|p1a: Tinkaton|Encore||[still]
+|-fail|p1a: Tinkaton
+|
+|upkeep
+|turn|24
+|
+|t:|1760374766
+|move|p2a: Cyclizar|Rapid Spin|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|77/100
+|-boost|p2a: Cyclizar|spe|1
+|-sideend|p2: siroperation|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cyclizar
+|-enditem|p2a: Cyclizar|Heavy-Duty Boots|[silent]|[from] ability: Pickpocket|[of] p2a: Cyclizar
+|-item|p1a: Tinkaton|Heavy-Duty Boots|[from] ability: Pickpocket|[of] p2a: Cyclizar
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Cyclizar
+|-damage|p2a: Cyclizar|43/100
+|
+|upkeep
+|turn|25
+|
+|t:|1760374785
+|switch|p2a: Ting-Lu|Ting-Lu|58/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Tinkaton|Stealth Rock|p2a: Ting-Lu
+|-sidestart|p2: siroperation|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|64/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1760374799
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|-heal|p2a: Ting-Lu|70/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1760374810
+|switch|p2a: Cyclizar|Cyclizar, F, shiny|76/100
+|-damage|p2a: Cyclizar|63/100|[from] Stealth Rock
+|move|p1a: Moltres|Flamethrower|p2a: Cyclizar
+|-resisted|p2a: Cyclizar
+|-damage|p2a: Cyclizar|36/100
+|
+|upkeep
+|turn|28
+|
+|t:|1760374826
+|switch|p1a: Tinkaton|Tinkaton, F|77/100
+|move|p2a: Cyclizar|Rapid Spin|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|68/100
+|-boost|p2a: Cyclizar|spe|1
+|-sideend|p2: siroperation|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cyclizar
+|
+|upkeep
+|turn|29
+|
+|t:|1760374832
+|move|p2a: Cyclizar|Knock Off|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|56/100
+|-enditem|p1a: Tinkaton|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Cyclizar
+|move|p1a: Tinkaton|Stealth Rock|p2a: Cyclizar
+|-sidestart|p2: siroperation|move: Stealth Rock
+|
+|upkeep
+|turn|30
+|
+|t:|1760374849
+|move|p2a: Cyclizar|Rapid Spin|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|46/100
+|-boost|p2a: Cyclizar|spe|1
+|-sideend|p2: siroperation|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cyclizar
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Cyclizar
+|-damage|p2a: Cyclizar|0 fnt
+|faint|p2a: Cyclizar
+|
+|upkeep
+|
+|t:|1760374853
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|31
+|
+|t:|1760374856
+|move|p2a: Tornadus|Heat Wave|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|upkeep
+|
+|t:|1760374862
+|switch|p1a: Latios|Latios, M, shiny, tera:Dragon|80/100
+|-damage|p1a: Latios|68/100|[from] Stealth Rock
+|turn|32
+|
+|t:|1760374867
+|move|p2a: Tornadus|U-turn|p1a: Latios
+|-damage|p1a: Latios|47/100
+|
+|t:|1760374871
+|switch|p2a: Alomomola|Alomomola, F, tera:Fairy|100/100 tox|[from] U-turn
+|move|p1a: Latios|Luster Purge|p2a: Alomomola
+|-damage|p2a: Alomomola|37/100 tox
+|
+|-damage|p2a: Alomomola|31/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1760374876
+|switch|p1a: Moltres|Moltres|100/100
+|switch|p2a: Bronzong|Bronzong|88/100
+|
+|upkeep
+|turn|34
+|
+|t:|1760374882
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Moltres|Flamethrower|p2a: Tornadus
+|-damage|p2a: Tornadus|68/100
+|
+|upkeep
+|turn|35
+|
+|t:|1760374890
+|move|p2a: Tornadus|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|82/100
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: Moltres|Will-O-Wisp|p2a: Tornadus
+|-status|p2a: Tornadus|brn
+|
+|-damage|p2a: Tornadus|62/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1760374894
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Moltres
+|-damage|p1a: Moltres|48/100
+|move|p1a: Moltres|Flamethrower|p2a: Tornadus
+|-damage|p2a: Tornadus|33/100 brn
+|
+|-damage|p2a: Tornadus|27/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1760374902
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|85/100 brn
+|move|p1a: Moltres|Flamethrower|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|37/100 brn
+|
+|-damage|p2a: Conkeldurr|31/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1760374912
+|switch|p2a: Ting-Lu|Ting-Lu|70/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Moltres|Flamethrower|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|54/100
+|
+|-heal|p2a: Ting-Lu|60/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1760374918
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|98/100
+|-singleturn|p1a: Moltres|move: Roost
+|move|p2a: Ting-Lu|Spikes|p1a: Moltres
+|-sidestart|p1: TeamTestingTim|Spikes
+|
+|-heal|p2a: Ting-Lu|66/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1760374921
+|switch|p2a: Tornadus|Tornadus-Therian, M|60/100 brn
+|move|p1a: Moltres|Will-O-Wisp|p2a: Tornadus
+|-fail|p2a: Tornadus|brn
+|
+|-damage|p2a: Tornadus|54/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|t:|1760374924
+|switch|p2a: Alomomola|Alomomola, F, tera:Fairy|64/100 tox
+|move|p1a: Moltres|Flamethrower|p2a: Alomomola
+|-damage|p2a: Alomomola|30/100 tox
+|
+|-damage|p2a: Alomomola|24/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1760374930
+|switch|p2a: Ting-Lu|Ting-Lu|66/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Moltres|Flamethrower|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|50/100
+|
+|-heal|p2a: Ting-Lu|56/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1760374935
+|move|p1a: Moltres|Flamethrower|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|39/100
+|move|p2a: Ting-Lu|Whirlwind|p1a: Moltres
+|drag|p1a: Latios|Latios, M, shiny, tera:Dragon|47/100
+|-damage|p1a: Latios|35/100|[from] Stealth Rock
+|
+|-heal|p2a: Ting-Lu|45/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1760374945
+|switch|p2a: Alomomola|Alomomola, F, tera:Fairy|57/100 tox
+|move|p1a: Latios|Draco Meteor|p2a: Alomomola
+|-immune|p2a: Alomomola
+|
+|-damage|p2a: Alomomola|51/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|t:|1760374951
+|switch|p1a: Moltres|Moltres|98/100
+|-damage|p1a: Moltres|48/100|[from] Stealth Rock
+|move|p2a: Alomomola|Flip Turn|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|18/100
+|
+|t:|1760374958
+|switch|p2a: Tornadus|Tornadus-Therian, M|87/100 brn|[from] Flip Turn
+|
+|-damage|p2a: Tornadus|81/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|t:|1760374961
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Moltres|[miss]
+|-miss|p2a: Tornadus|p1a: Moltres
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|68/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-damage|p2a: Tornadus|75/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|t:|1760374963
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Moltres
+|-damage|p1a: Moltres|36/100
+|-unboost|p1a: Moltres|spe|1
+|move|p1a: Moltres|Flamethrower|p2a: Tornadus
+|-damage|p2a: Tornadus|46/100 brn
+|
+|-damage|p2a: Tornadus|40/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|t:|1760374969
+|switch|p2a: Ting-Lu|Ting-Lu|45/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|86/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-heal|p2a: Ting-Lu|52/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1760374977
+|switch|p2a: Alomomola|Alomomola, F, tera:Fairy|84/100 tox
+|move|p1a: Moltres|Will-O-Wisp||[still]
+|-fail|p1a: Moltres
+|
+|-damage|p2a: Alomomola|78/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|t:|1760374980
+|move|p1a: Moltres|Flamethrower|p2a: Alomomola
+|-damage|p2a: Alomomola|44/100 tox
+|move|p2a: Alomomola|Mirror Coat|p1a: Moltres
+|-damage|p1a: Moltres|2/100
+|
+|-damage|p2a: Alomomola|32/100 tox|[from] psn
+|upkeep
+|turn|51
+|
+|t:|1760374985
+|switch|p2a: Ting-Lu|Ting-Lu|52/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|52/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-heal|p2a: Ting-Lu|58/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1760374993
+|switch|p2a: Tornadus|Tornadus-Therian, M|73/100 brn
+|move|p1a: Moltres|Flamethrower|p2a: Tornadus
+|-damage|p2a: Tornadus|42/100 brn
+|
+|-damage|p2a: Tornadus|36/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|t:|1760374999
+|switch|p2a: Ting-Lu|Ting-Lu|58/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Moltres|Flamethrower|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|42/100
+|-status|p2a: Ting-Lu|brn
+|
+|-heal|p2a: Ting-Lu|48/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|42/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|t:|1760375007
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|100/100
+|-singleturn|p1a: Moltres|move: Roost
+|move|p2a: Ting-Lu|Whirlwind|p1a: Moltres
+|drag|p1a: Umbreon|Umbreon, F|79/100
+|
+|-heal|p2a: Ting-Lu|48/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|42/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|t:|1760375013
+|switch|p2a: Alomomola|Alomomola, F, tera:Fairy|65/100 tox
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-damage|p2a: Alomomola|59/100 tox|[from] psn
+|upkeep
+|turn|56
+|
+|t:|1760375025
+|switch|p1a: Latios|Latios, M, shiny, tera:Dragon|35/100
+|-damage|p1a: Latios|22/100|[from] Stealth Rock
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Latios|88/100|[from] move: Wish|[wisher] Umbreon
+|-damage|p2a: Alomomola|46/100 tox|[from] psn
+|upkeep
+|turn|57
+|
+|t:|1760375036
+|switch|p2a: Bronzong|Bronzong|88/100
+|move|p1a: Latios|Draco Meteor|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|45/100
+|-unboost|p1a: Latios|spa|2
+|
+|-heal|p2a: Bronzong|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|58
+|
+|t:|1760375045
+|switch|p1a: Umbreon|Umbreon, F|79/100
+|switch|p2a: Alomomola|Alomomola, F, tera:Fairy|80/100 tox
+|
+|-damage|p2a: Alomomola|74/100 tox|[from] psn
+|upkeep
+|turn|59
+|
+|t:|1760375051
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-damage|p2a: Alomomola|61/100 tox|[from] psn
+|upkeep
+|turn|60
+|
+|t:|1760375055
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|31/100 brn
+|move|p1a: Umbreon|Protect||[still]
+|-fail|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Conkeldurr|88/100 brn|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|turn|61
+|
+|t:|1760375062
+|move|p1a: Umbreon|Foul Play|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|56/100 brn
+|move|p2a: Conkeldurr|Facade|p1a: Umbreon
+|-damage|p1a: Umbreon|50/100
+|
+|-damage|p2a: Conkeldurr|50/100 brn|[from] brn
+|upkeep
+|turn|62
+|
+|t:|1760375070
+|move|p1a: Umbreon|Foul Play|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|26/100 brn
+|move|p2a: Conkeldurr|Drain Punch|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|-heal|p2a: Conkeldurr|50/100 brn|[from] drain|[of] p1a: Umbreon
+|faint|p1a: Umbreon
+|
+|-damage|p2a: Conkeldurr|43/100 brn|[from] brn
+|upkeep
+|-message|TeamTestingTim forfeited.
+|
+|win|siroperation
+|raw|TeamTestingTim's rating: 1440 &rarr; <strong>1425</strong><br />(-15 for losing)
+|raw|siroperation's rating: 1525 &rarr; <strong>1540</strong><br />(+15 for winning)
+|l|☆TeamTestingTim
+|player|p1|
+|l|☆siroperation
+|player|p2|

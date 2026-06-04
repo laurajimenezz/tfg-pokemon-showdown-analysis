@@ -1,0 +1,327 @@
+|j|☆krztina
+|j|☆peoe
+|t:|1757913979
+|gametype|singles
+|player|p1|krztina|101|1296
+|player|p2|peoe|266|1295
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ting-Lu|
+|poke|p1|Greninja-*, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Crown|
+|poke|p1|Great Tusk|
+|poke|p1|Entei|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Iron Hands|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Mimikyu, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by peoe)
+|
+|t:|1757913992
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Voltzvagen|Iron Hands, shiny|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|-enditem|p2a: Voltzvagen|Booster Energy
+|-activate|p2a: Voltzvagen|ability: Quark Drive|[fromitem]
+|-start|p2a: Voltzvagen|quarkdriveatk
+|turn|1
+|
+|t:|1757913996
+|move|p2a: Voltzvagen|Ice Punch|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|69/100
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Voltzvagen
+|-sidestart|p2: peoe|move: Stealth Rock
+|
+|-heal|p1a: Ting-Lu|76/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1757914003
+|move|p2a: Voltzvagen|Close Combat|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|1/100
+|-unboost|p2a: Voltzvagen|def|1
+|-unboost|p2a: Voltzvagen|spd|1
+|move|p1a: Ting-Lu|Stomping Tantrum|p2a: Voltzvagen
+|-supereffective|p2a: Voltzvagen
+|-damage|p2a: Voltzvagen|45/100
+|
+|-heal|p1a: Ting-Lu|7/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1757914017
+|move|p2a: Voltzvagen|Heavy Slam|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1757914024
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|4
+|
+|t:|1757914027
+|move|p1a: Greninja|Surf|p2a: Voltzvagen
+|-damage|p2a: Voltzvagen|0 fnt
+|faint|p2a: Voltzvagen
+|-end|p2a: Voltzvagen|Quark Drive|[silent]
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757914038
+|switch|p2a: Porche|Mimikyu, F, shiny|100/100
+|-damage|p2a: Porche|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1757914046
+|move|p1a: Greninja|Ice Beam|p2a: Porche
+|-activate|p2a: Porche|ability: Disguise
+|-damage|p2a: Porche|88/100
+|-status|p2a: Porche|frz
+|detailschange|p2a: Porche|Mimikyu-Busted, F, shiny
+|-damage|p2a: Porche|76/100 frz|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Porche|Red Card|[of] p1a: Greninja
+|drag|p1a: Entei|Entei, shiny|100/100
+|cant|p2a: Porche|frz
+|
+|upkeep
+|turn|6
+|
+|t:|1757914056
+|move|p1a: Entei|Eruption|p2a: Porche
+|-damage|p2a: Porche|8/100 frz
+|-curestatus|p2a: Porche|frz|[msg]
+|move|p2a: Porche|Trick Room|p2a: Porche
+|-fieldstart|move: Trick Room|[of] p2a: Porche
+|
+|upkeep
+|turn|7
+|
+|t:|1757914065
+|move|p2a: Porche|Destiny Bond|p2a: Porche
+|-singlemove|p2a: Porche|Destiny Bond
+|move|p1a: Entei|Eruption|p2a: Porche
+|-damage|p2a: Porche|0 fnt
+|faint|p2a: Porche
+|-activate|p2a: Porche|move: Destiny Bond
+|faint|p1a: Entei
+|
+|upkeep
+|
+|t:|1757914078
+|switch|p2a: Toyota|Ursaluna, F, shiny|100/100
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Toyota|94/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|8
+|
+|t:|1757914084
+|switch|p2a: subaru|Indeedee, M, shiny|100/100
+|-damage|p2a: subaru|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: subaru
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|76/100
+|
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1757914090
+|move|p2a: subaru|Encore|p1a: Zamazenta
+|-start|p1a: Zamazenta|Encore
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-fail|p1a: Zamazenta|move: Substitute
+|
+|-heal|p1a: Zamazenta|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1757914096
+|switch|p1a: Greninja|Greninja, M|91/100
+|move|p2a: subaru|Expanding Force|p1a: Greninja
+|-immune|p1a: Greninja
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1757914102
+|move|p1a: Greninja|Dark Pulse|p2a: subaru
+|-supereffective|p2a: subaru
+|-damage|p2a: subaru|0 fnt
+|faint|p2a: subaru
+|-damage|p1a: Greninja|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757914107
+|switch|p2a: Honda|Hatterene, F, shiny|100/100
+|-damage|p2a: Honda|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1757914112
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespa
+|move|p2a: Honda|Trick Room|p2a: Honda
+|-fieldstart|move: Trick Room|[of] p2a: Honda
+|
+|upkeep
+|turn|13
+|
+|t:|1757914120
+|switch|p2a: Lamborgini|Hoopa-Unbound|100/100
+|-damage|p2a: Lamborgini|88/100|[from] Stealth Rock
+|-enditem|p2a: Lamborgini|Psychic Seed
+|-boost|p2a: Lamborgini|spd|1|[from] item: Psychic Seed
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Lamborgini
+|-damage|p2a: Lamborgini|68/100
+|-damage|p2a: Lamborgini|52/100
+|-hitcount|p2a: Lamborgini|2
+|
+|upkeep
+|turn|14
+|
+|t:|1757914128
+|-terastallize|p1a: Iron Crown|Steel
+|move|p2a: Lamborgini|Hyperspace Fury|p1a: Iron Crown
+|-damage|p1a: Iron Crown|43/100
+|-unboost|p2a: Lamborgini|def|1
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Lamborgini
+|-damage|p2a: Lamborgini|26/100
+|-damage|p2a: Lamborgini|2/100
+|-hitcount|p2a: Lamborgini|2
+|
+|upkeep
+|turn|15
+|
+|t:|1757914138
+|move|p2a: Lamborgini|Expanding Force|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1757914141
+|switch|p1a: Greninja|Greninja, M|81/100
+|turn|16
+|
+|t:|1757914145
+|move|p1a: Greninja|Protect|p1a: Greninja
+|-singleturn|p1a: Greninja|Protect
+|move|p2a: Lamborgini|Focus Blast|p1a: Greninja
+|-activate|p1a: Greninja|move: Protect
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|17
+|
+|t:|1757914152
+|move|p1a: Greninja|Surf|p2a: Lamborgini
+|-damage|p2a: Lamborgini|0 fnt
+|faint|p2a: Lamborgini
+|-damage|p1a: Greninja|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757914154
+|switch|p2a: Honda|Hatterene, F, shiny|88/100
+|-damage|p2a: Honda|76/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1757914159
+|move|p1a: Greninja|Surf|p2a: Honda
+|-damage|p2a: Honda|17/100
+|-damage|p1a: Greninja|61/100|[from] item: Life Orb
+|move|p2a: Honda|Draining Kiss|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-heal|p2a: Honda|58/100|[from] drain|[of] p1a: Greninja
+|faint|p1a: Greninja
+|-damage|p2a: Honda|48/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757914165
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|19
+|
+|t:|1757914170
+|move|p1a: Great Tusk|Headlong Rush|p2a: Honda
+|-damage|p2a: Honda|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Honda
+|
+|upkeep
+|
+|t:|1757914172
+|switch|p2a: Toyota|Ursaluna, F, shiny|94/100
+|-damage|p2a: Toyota|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1757914178
+|move|p1a: Great Tusk|Headlong Rush|p2a: Toyota
+|-damage|p2a: Toyota|46/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Toyota|Ice Punch|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|14/100
+|
+|-status|p2a: Toyota|brn|[from] item: Flame Orb
+|upkeep
+|turn|21
+|
+|t:|1757914185
+|move|p1a: Great Tusk|Headlong Rush|p2a: Toyota
+|-damage|p2a: Toyota|2/100 brn
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Toyota|Ice Punch|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Toyota|0 fnt|[from] brn
+|faint|p2a: Toyota
+|
+|win|krztina
+|raw|krztina's rating: 1296 &rarr; <strong>1321</strong><br />(+25 for winning)
+|raw|peoe's rating: 1295 &rarr; <strong>1270</strong><br />(-25 for losing)
+|l|☆peoe
+|player|p2|
+|l|☆krztina
+|player|p1|

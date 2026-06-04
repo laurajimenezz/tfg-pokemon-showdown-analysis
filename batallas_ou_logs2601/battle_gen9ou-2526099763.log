@@ -1,0 +1,399 @@
+|j|☆localdealerr
+|j|☆raviolikid
+|t:|1769371610
+|gametype|singles
+|player|p1|localdealerr|169|1563
+|player|p2|raviolikid|zinnia|1711
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Ogerpon, F|
+|poke|p1|Gholdengo|
+|poke|p1|Cinderace, F|
+|poke|p1|Zapdos|
+|poke|p1|Primarina, M|
+|poke|p2|Pecharunt|
+|poke|p2|Kingambit, F|
+|poke|p2|Volcanion|
+|poke|p2|Iron Valiant|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Deoxys-Speed|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by raviolikid)
+|
+|t:|1769371620
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Volcanion|Volcanion|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1769371626
+|switch|p1a: Primarina|Primarina, M|100/100
+|move|p2a: Volcanion|Flamethrower|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|82/100
+|-status|p1a: Primarina|brn
+|
+|-heal|p1a: Primarina|88/100 brn|[from] Grassy Terrain
+|-heal|p1a: Primarina|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Primarina|88/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1769371645
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Volcanion|Taunt|p1a: Zapdos
+|-start|p1a: Zapdos|move: Taunt
+|
+|upkeep
+|turn|3
+|
+|t:|1769371654
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Hurricane|p2a: Landorus|[miss]
+|-miss|p1a: Zapdos|p2a: Landorus
+|
+|upkeep
+|turn|4
+|
+|t:|1769371658
+|move|p2a: Landorus|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: localdealerr|move: Stealth Rock
+|move|p1a: Zapdos|Hurricane|p2a: Landorus|[miss]
+|-miss|p1a: Zapdos|p2a: Landorus
+|
+|-end|p1a: Zapdos|move: Taunt
+|upkeep
+|turn|5
+|
+|t:|1769371676
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Zapdos|Hurricane|p2a: Deoxys|[miss]
+|-miss|p1a: Zapdos|p2a: Deoxys
+|
+|upkeep
+|turn|6
+|
+|t:|1769371687
+|move|p2a: Deoxys|Spikes|p1a: Zapdos
+|-sidestart|p1: localdealerr|Spikes
+|move|p1a: Zapdos|Discharge|p2a: Deoxys
+|-damage|p2a: Deoxys|38/100
+|-status|p2a: Deoxys|par
+|
+|-heal|p2a: Deoxys|44/100 par|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1769371698
+|move|p1a: Zapdos|Discharge|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|inactive|raviolikid has 120 seconds left.
+|
+|t:|1769371735
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|8
+|
+|t:|1769371758
+|move|p2a: Iron Valiant|Moonblast|p1a: Zapdos
+|-damage|p1a: Zapdos|64/100
+|move|p1a: Zapdos|Hurricane|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1769371769
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|9
+|
+|t:|1769371781
+|move|p1a: Zapdos|Discharge|p2a: Kingambit
+|-damage|p2a: Kingambit|62/100
+|-status|p2a: Kingambit|par
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1769371789
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-heal|p2a: Kingambit|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1769371793
+|move|p2a: Kingambit|Sucker Punch|p1a: Zapdos
+|-damage|p1a: Zapdos|33/100
+|move|p1a: Zapdos|Discharge|p2a: Kingambit
+|-damage|p2a: Kingambit|38/100 par
+|
+|-heal|p2a: Kingambit|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1769371797
+|move|p1a: Zapdos|Discharge|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1769371804
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|13
+|inactive|localdealerr has 120 seconds left.
+|
+|t:|1769371840
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-damage|p1a: Rillaboom|76/100|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Pecharunt|Malignant Chain|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|t:|1769371848
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|-damage|p1a: Gholdengo|82/100|[from] Spikes
+|-enditem|p1a: Gholdengo|Grassy Seed
+|-boost|p1a: Gholdengo|def|1|[from] item: Grassy Seed
+|turn|14
+|
+|t:|1769371853
+|move|p2a: Pecharunt|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|inactive|localdealerr has 120 seconds left.
+|
+|t:|1769371885
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|-damage|p1a: Cinderace|63/100|[from] Spikes
+|-enditem|p1a: Cinderace|Grassy Seed
+|-boost|p1a: Cinderace|def|1|[from] item: Grassy Seed
+|turn|15
+|
+|t:|1769371895
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Cinderace|atk|1
+|move|p1a: Cinderace|Pyro Ball|p2a: Landorus|[miss]
+|-miss|p1a: Cinderace|p2a: Landorus
+|
+|-heal|p1a: Cinderace|69/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1769371900
+|switch|p1a: Zapdos|Zapdos|33/100
+|move|p2a: Landorus|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|25/100
+|
+|t:|1769371902
+|switch|p2a: Pecharunt|Pecharunt|100/100|[from] U-turn
+|
+|upkeep
+|turn|17
+|inactive|localdealerr has 120 seconds left.
+|
+|t:|1769371913
+|move|p2a: Pecharunt|Malignant Chain|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1769371916
+|switch|p1a: Cinderace|Cinderace, F|69/100
+|-damage|p1a: Cinderace|45/100|[from] Stealth Rock
+|-damage|p1a: Cinderace|32/100|[from] Spikes
+|turn|18
+|
+|t:|1769371924
+|move|p1a: Cinderace|Pyro Ball|p2a: Pecharunt
+|-damage|p2a: Pecharunt|52/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Pecharunt|58/100|[from] Grassy Terrain
+|upkeep
+|inactive|localdealerr has 120 seconds left.
+|
+|t:|1769371952
+|switch|p1a: Primarina|Primarina, M|88/100 brn
+|-damage|p1a: Primarina|75/100 brn|[from] Stealth Rock
+|-damage|p1a: Primarina|63/100 brn|[from] Spikes
+|turn|19
+|
+|t:|1769371959
+|-terastallize|p1a: Primarina|Steel
+|move|p2a: Pecharunt|Malignant Chain|p1a: Primarina
+|-immune|p1a: Primarina
+|move|p1a: Primarina|Psychic Noise|p2a: Pecharunt
+|-damage|p2a: Pecharunt|25/100
+|-start|p2a: Pecharunt|move: Heal Block
+|
+|-heal|p1a: Primarina|69/100 brn|[from] Grassy Terrain
+|-heal|p1a: Primarina|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Primarina|69/100 brn|[from] brn
+|upkeep
+|turn|20
+|inactive|localdealerr has 120 seconds left.
+|
+|t:|1769371976
+|move|p2a: Pecharunt|Shadow Ball|p1a: Primarina
+|-damage|p1a: Primarina|44/100 brn
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-start|p1a: Primarina|Substitute
+|-damage|p1a: Primarina|19/100 brn
+|
+|-heal|p1a: Primarina|25/100 brn|[from] Grassy Terrain
+|-heal|p1a: Primarina|31/100 brn|[from] item: Leftovers
+|-damage|p1a: Primarina|25/100 brn|[from] brn
+|-end|p2a: Pecharunt|move: Heal Block
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1769371983
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|75/100
+|move|p1a: Primarina|Psychic Noise|p2a: Pecharunt
+|-damage|p2a: Pecharunt|40/100
+|-start|p2a: Pecharunt|move: Heal Block
+|
+|-heal|p1a: Primarina|31/100 brn|[from] item: Leftovers
+|-damage|p1a: Primarina|25/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1769371992
+|move|p2a: Pecharunt|Shadow Ball|p1a: Primarina
+|-activate|p1a: Primarina|move: Substitute|[damage]
+|move|p1a: Primarina|Psychic Noise|p2a: Pecharunt
+|-damage|p2a: Pecharunt|6/100
+|
+|-heal|p1a: Primarina|31/100 brn|[from] item: Leftovers
+|-damage|p1a: Primarina|25/100 brn|[from] brn
+|-end|p2a: Pecharunt|move: Heal Block
+|upkeep
+|turn|23
+|
+|t:|1769372001
+|move|p2a: Pecharunt|Shadow Ball|p1a: Primarina
+|-end|p1a: Primarina|Substitute
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|-heal|p1a: Primarina|31/100 brn|[from] item: Leftovers
+|-damage|p1a: Primarina|25/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1769372013
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|56/100
+|move|p1a: Primarina|Psychic Noise|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|-heal|p1a: Primarina|31/100 brn|[from] item: Leftovers
+|-damage|p1a: Primarina|25/100 brn|[from] brn
+|upkeep
+|
+|t:|1769372019
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Primarina|atk|1
+|turn|25
+|
+|t:|1769372031
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|-damage|p1a: Ogerpon|76/100|[from] Spikes
+|move|p2a: Landorus|Earthquake|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|43/100
+|
+|upkeep
+|turn|26
+|
+|t:|1769372036
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1769372038
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|27
+|
+|t:|1769372041
+|-terastallize|p2a: Volcanion|Poison
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|70/100
+|move|p2a: Volcanion|Flamethrower|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-heal|p2a: Volcanion|76/100|[from] item: Leftovers
+|upkeep
+|-message|localdealerr forfeited.
+|
+|win|raviolikid
+|raw|localdealerr's rating: 1563 &rarr; <strong>1551</strong><br />(-12 for losing)
+|raw|raviolikid's rating: 1711 &rarr; <strong>1723</strong><br />(+12 for winning)
+|l|☆localdealerr
+|player|p1|

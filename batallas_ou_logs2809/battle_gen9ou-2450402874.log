@@ -1,0 +1,148 @@
+|j|☆Grimbeon
+|j|☆FirstlyMe
+|t:|1758979199
+|gametype|singles
+|player|p1|Grimbeon|scientistf|1437
+|player|p2|FirstlyMe|turo-ai|1377
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Gholdengo|
+|poke|p1|Pecharunt|
+|poke|p1|Dragonite, F|
+|poke|p1|Sandy Shocks|
+|poke|p2|Dragapult, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Iron Crown|
+|poke|p2|Iron Valiant|
+|poke|p2|Garganacl, M|
+|poke|p2|Cinderace, M|
+|teampreview
+|
+|t:|1758979212
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1758979225
+|move|p1a: Sandy Shocks|Earth Power|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1758979228
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|2
+|
+|t:|1758979236
+|move|p2a: Iron Valiant|Moonblast|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|42/100
+|-unboost|p1a: Sandy Shocks|spa|1
+|move|p1a: Sandy Shocks|Earth Power|p2a: Iron Valiant
+|-crit|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758979250
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|turn|3
+|
+|t:|1758979262
+|move|p1a: Sandy Shocks|Stealth Rock|p2a: Iron Crown
+|-sidestart|p2: FirstlyMe|move: Stealth Rock
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Sandy Shocks
+|-resisted|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|27/100
+|-resisted|p1a: Sandy Shocks
+|-crit|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|5/100
+|-hitcount|p1a: Sandy Shocks|2
+|
+|upkeep
+|turn|4
+|
+|t:|1758979269
+|move|p1a: Sandy Shocks|Earth Power|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|64/100
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Sandy Shocks
+|-resisted|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|-hitcount|p1: Sandy Shocks|1
+|
+|upkeep
+|
+|t:|1758979272
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|5
+|
+|t:|1758979276
+|-terastallize|p1a: Samurott|Dark
+|move|p2a: Iron Crown|Volt Switch|p1a: Samurott
+|-damage|p1a: Samurott|67/100
+|
+|t:|1758979280
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Alomomola|Alomomola, F|100/100|[from] Volt Switch
+|move|p1a: Samurott|Ceaseless Edge|p2a: Alomomola
+|-damage|p2a: Alomomola|67/100
+|-sidestart|p2: FirstlyMe|Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1758979286
+|move|p1a: Samurott|Ceaseless Edge|p2a: Alomomola
+|-damage|p2a: Alomomola|32/100
+|-sidestart|p2: FirstlyMe|Spikes
+|move|p2a: Alomomola|Flip Turn|p1a: Samurott
+|-damage|p1a: Samurott|47/100
+|
+|t:|1758979291
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] Flip Turn
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|-damage|p2a: Dragapult|72/100|[from] Spikes
+|
+|upkeep
+|turn|7
+|
+|t:|1758979299
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Dragapult|U-turn|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|97/100
+|-damage|p2a: Dragapult|55/100|[from] item: Rocky Helmet|[of] p1a: Pecharunt
+|-message|FirstlyMe forfeited.
+|
+|win|Grimbeon
+|raw|Grimbeon's rating: 1437 &rarr; <strong>1454</strong><br />(+17 for winning)
+|raw|FirstlyMe's rating: 1377 &rarr; <strong>1360</strong><br />(-17 for losing)
+|l|☆FirstlyMe
+|player|p2|

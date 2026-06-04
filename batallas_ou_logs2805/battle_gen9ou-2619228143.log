@@ -1,0 +1,216 @@
+|j|‽hypercube snake
+|j|☆radiiantred
+|t:|1779898665
+|gametype|singles
+|player|p1|hypercube snake|2|1177
+|player|p2|radiiantred|lance|1136
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Uxie|
+|poke|p1|Slowbro-Galar, F|
+|poke|p1|Kommo-o, F|
+|poke|p1|Snorlax, F|
+|poke|p1|Charizard, F|
+|poke|p1|Azumarill, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Gliscor, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Crown|
+|poke|p2|Ting-Lu|
+|poke|p2|Kingambit, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hypercube snake)
+|
+|t:|1779898683
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Uxie|Uxie|100/100
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespe
+|turn|1
+|
+|t:|1779898700
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Uxie|Reflect|p1a: Uxie
+|-sidestart|p1: hypercube snake|Reflect
+|
+|upkeep
+|turn|2
+|
+|t:|1779898707
+|move|p1a: Uxie|Light Screen|p1a: Uxie
+|-sidestart|p1: hypercube snake|move: Light Screen
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Uxie
+|-sidestart|p1: hypercube snake|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1779898714
+|move|p1a: Uxie|Memento|p2a: Ting-Lu
+|-unboost|p2a: Ting-Lu|atk|2
+|-unboost|p2a: Ting-Lu|spa|2
+|faint|p1a: Uxie
+|move|p2a: Ting-Lu|Heavy Slam|p1: Uxie|[notarget]
+|-fail|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1779898735
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|-damage|p1a: Kommo-o|94/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1779898739
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Kommo-o|Substitute|p1a: Kommo-o
+|-start|p1a: Kommo-o|Substitute
+|-damage|p1a: Kommo-o|69/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1779898747
+|move|p1a: Kommo-o|Belly Drum|p1a: Kommo-o
+|-damage|p1a: Kommo-o|19/100
+|-setboost|p1a: Kommo-o|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Kommo-o|Salac Berry|[eat]
+|-boost|p1a: Kommo-o|spe|1|[from] item: Salac Berry
+|move|p2a: Gliscor|Earthquake|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Substitute|[damage]
+|
+|upkeep
+|turn|6
+|
+|t:|1779898757
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Kommo-o|Drain Punch|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1779898781
+|move|p1a: Kommo-o|Drain Punch|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|49/100 tox
+|-heal|p1a: Kommo-o|50/100|[from] drain|[of] p2a: Gliscor
+|move|p2a: Gliscor|Earthquake|p1a: Kommo-o
+|-end|p1a: Kommo-o|Substitute
+|
+|-heal|p2a: Gliscor|61/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1779898792
+|move|p1a: Kommo-o|Drain Punch|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|2/100 tox
+|-heal|p1a: Kommo-o|86/100|[from] drain|[of] p2a: Gliscor
+|move|p2a: Gliscor|Toxic|p1a: Kommo-o
+|-status|p1a: Kommo-o|tox
+|
+|-damage|p1a: Kommo-o|80/100 tox|[from] psn
+|-heal|p2a: Gliscor|15/100 tox|[from] ability: Poison Heal
+|-sideend|p1: hypercube snake|Reflect
+|upkeep
+|turn|9
+|
+|t:|1779898806
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Kommo-o|Drain Punch|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Kommo-o|68/100 tox|[from] psn
+|-heal|p2a: Gliscor|27/100 tox|[from] ability: Poison Heal
+|-sideend|p1: hypercube snake|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1779898822
+|move|p1a: Kommo-o|Drain Punch|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-heal|p1a: Kommo-o|84/100 tox|[from] drain|[of] p2a: Gliscor
+|faint|p2a: Gliscor
+|
+|-damage|p1a: Kommo-o|66/100 tox|[from] psn
+|upkeep
+|
+|t:|1779898834
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|11
+|
+|t:|1779898844
+|move|p1a: Kommo-o|Drain Punch|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|-heal|p1a: Kommo-o|100/100 tox|[from] drain|[of] p2a: Ting-Lu
+|-damage|p1a: Kommo-o|84/100 tox|[from] item: Rocky Helmet|[of] p2a: Ting-Lu
+|faint|p2a: Ting-Lu
+|
+|-damage|p1a: Kommo-o|59/100 tox|[from] psn
+|upkeep
+|
+|t:|1779898854
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|12
+|
+|t:|1779898860
+|move|p1a: Kommo-o|Drain Punch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-heal|p1a: Kommo-o|100/100 tox|[from] drain|[of] p2a: Ogerpon
+|faint|p2a: Ogerpon
+|
+|-damage|p1a: Kommo-o|70/100 tox|[from] psn
+|upkeep
+|
+|t:|1779898867
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|13
+|
+|t:|1779898873
+|move|p2a: Kingambit|Sucker Punch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|46/100 tox
+|move|p1a: Kommo-o|Drain Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-heal|p1a: Kommo-o|100/100 tox|[from] drain|[of] p2a: Kingambit
+|-enditem|p2a: Kingambit|Air Balloon
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|-damage|p1a: Kommo-o|64/100 tox|[from] psn
+|upkeep
+|-message|radiiantred forfeited.
+|
+|win|hypercube snake
+|raw|hypercube snake's rating: 1177 &rarr; <strong>1199</strong><br />(+22 for winning)
+|raw|radiiantred's rating: 1136 &rarr; <strong>1114</strong><br />(-22 for losing)
+|l|☆radiiantred
+|player|p2|
+|l|‽hypercube snake
+|player|p1|

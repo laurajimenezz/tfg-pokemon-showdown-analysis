@@ -1,0 +1,208 @@
+|j|☆Bernab
+|j|☆zoro.d.wolf
+|t:|1779850888
+|gametype|singles
+|player|p1|Bernab|2|1286
+|player|p2|zoro.d.wolf|1|1215
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Latios, M|
+|poke|p1|Incineroar, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Clodsire, M|
+|poke|p1|Slither Wing|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p2|Salamence, F|
+|poke|p2|Hitmontop, M|
+|poke|p2|Incineroar, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Gyarados, F|
+|poke|p2|Wyrdeer, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zoro.d.wolf)
+|
+|t:|1779850901
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|turn|1
+|
+|t:|1779850918
+|move|p2a: Incineroar|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|90/100
+|
+|t:|1779850922
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|move|p1a: Incineroar|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|82/100
+|-damage|p1a: Incineroar|74/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-enditem|p2a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|2
+|
+|t:|1779850936
+|move|p2a: Landorus|Stealth Rock|p1a: Incineroar
+|-sidestart|p1: Bernab|move: Stealth Rock
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Landorus
+|-status|p2a: Landorus|brn
+|
+|-damage|p2a: Landorus|76/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1779850946
+|move|p2a: Landorus|Taunt|p1a: Incineroar
+|-start|p1a: Incineroar|move: Taunt
+|cant|p1a: Incineroar|move: Taunt|Parting Shot
+|
+|-damage|p2a: Landorus|70/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1779850959
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p1a: Tornadus|75/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|68/100
+|
+|t:|1779850970
+|switch|p2a: Wyrdeer|Wyrdeer, F|100/100|[from] U-turn
+|-ability|p2a: Wyrdeer|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|
+|upkeep
+|turn|5
+|
+|t:|1779850980
+|move|p2a: Wyrdeer|Thunderbolt|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|4/100
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Wyrdeer|[miss]
+|-miss|p1a: Tornadus|p2a: Wyrdeer
+|
+|upkeep
+|turn|6
+|
+|t:|1779850992
+|switch|p2a: Landorus|Landorus-Therian, M|70/100 brn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|-damage|p1a: Clodsire|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Clodsire|100/100|[from] item: Black Sludge
+|-damage|p2a: Landorus|64/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1779851000
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Landorus|Taunt|p1a: Latios
+|-start|p1a: Latios|move: Taunt
+|
+|-damage|p2a: Landorus|58/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1779851008
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|move|p1a: Latios|Ice Beam|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|82/100
+|-status|p2a: Incineroar|frz
+|
+|upkeep
+|turn|9
+|
+|t:|1779851016
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|-curestatus|p2a: Incineroar|frz|[from] move: Flare Blitz
+|move|p2a: Incineroar|Flare Blitz|p1a: Ogerpon
+|-damage|p1a: Ogerpon|10/100
+|-damage|p2a: Incineroar|58/100|[from] Recoil
+|
+|upkeep
+|turn|10
+|
+|t:|1779851027
+|move|p2a: Incineroar|Flare Blitz|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-damage|p2a: Incineroar|55/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1779851039
+|switch|p1a: Latios|Latios, M|88/100
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1779851047
+|switch|p2a: Wyrdeer|Wyrdeer, F|100/100
+|-ability|p2a: Wyrdeer|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|move|p1a: Latios|Aura Sphere|p2a: Wyrdeer
+|-damage|p2a: Wyrdeer|67/100
+|
+|upkeep
+|turn|12
+|
+|t:|1779851060
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-damage|p1a: Slither Wing|88/100|[from] Stealth Rock
+|move|p2a: Wyrdeer|Trick|p1a: Slither Wing
+|-activate|p2a: Wyrdeer|move: Trick|[of] p1a: Slither Wing
+|-item|p1a: Slither Wing|Choice Scarf|[from] move: Trick
+|-item|p2a: Wyrdeer|Choice Band|[from] move: Trick
+|
+|upkeep
+|turn|13
+|
+|t:|1779851072
+|switch|p2a: Landorus|Landorus-Therian, M|58/100 brn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Slither Wing|atk|1
+|move|p1a: Slither Wing|Zen Headbutt|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|9/100 brn
+|
+|-damage|p2a: Landorus|3/100 brn|[from] brn
+|upkeep
+|turn|14
+|l|☆zoro.d.wolf
+|inactive|zoro.d.wolf disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|zoro.d.wolf has 30 seconds to reconnect!
+|inactive|zoro.d.wolf has 20 seconds to reconnect!
+|inactive|zoro.d.wolf has 15 seconds to reconnect!
+|inactive|zoro.d.wolf has 10 seconds to reconnect!
+|inactive|zoro.d.wolf has 5 seconds to reconnect!
+|-message|zoro.d.wolf lost due to inactivity.
+|
+|win|Bernab
+|raw|Bernab's rating: 1286 &rarr; <strong>1306</strong><br />(+20 for winning)
+|raw|zoro.d.wolf's rating: 1215 &rarr; <strong>1195</strong><br />(-20 for losing)

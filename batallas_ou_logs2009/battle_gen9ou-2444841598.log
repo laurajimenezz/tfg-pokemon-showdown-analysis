@@ -1,0 +1,305 @@
+|j|☆won2threefour
+|j|☆lhdeutsch2
+|t:|1758276959
+|gametype|singles
+|player|p1|won2threefour|2|1188
+|player|p2|lhdeutsch2|riley|1189
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hitmonlee, M|
+|poke|p1|Blaziken, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Pecharunt|
+|poke|p1|Eiscue, F|
+|poke|p2|Primarina, F|
+|poke|p2|Mew|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Infernape, M|
+|poke|p2|Vileplume, F|
+|poke|p2|Mamoswine, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by won2threefour)
+|
+|t:|1758276964
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|turn|1
+|
+|t:|1758276972
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|move|p1a: Hitmonlee|Endure||[still]
+|-fail|p1a: Hitmonlee
+|
+|upkeep
+|turn|2
+|
+|t:|1758276979
+|move|p1a: Hitmonlee|Bullet Punch|p2a: Vileplume
+|-damage|p2a: Vileplume|89/100
+|-damage|p1a: Hitmonlee|84/100|[from] item: Rocky Helmet|[of] p2a: Vileplume
+|-status|p1a: Hitmonlee|slp|[from] ability: Effect Spore|[of] p2a: Vileplume
+|move|p2a: Vileplume|Strength Sap|p1a: Hitmonlee
+|-unboost|p1a: Hitmonlee|atk|1
+|-heal|p2a: Vileplume|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758276999
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Vileplume|Sludge Wave|p1a: Cinderace
+|-damage|p1a: Cinderace|45/100
+|
+|upkeep
+|turn|4
+|
+|t:|1758277005
+|move|p1a: Cinderace|Flare Blitz|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|14/100
+|-damage|p1a: Cinderace|28/100|[from] item: Rocky Helmet|[of] p2a: Vileplume
+|-damage|p1a: Cinderace|0 fnt|[from] Recoil
+|faint|p1a: Cinderace
+|move|p2a: Vileplume|Strength Sap|p1: Cinderace|[notarget]
+|-fail|p2a: Vileplume
+|
+|upkeep
+|
+|t:|1758277012
+|switch|p1a: Eiscue|Eiscue, F|100/100
+|turn|5
+|
+|t:|1758277017
+|move|p1a: Eiscue|Icicle Spear|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|-hitcount|p2: Vileplume|1
+|
+|upkeep
+|
+|t:|1758277020
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|turn|6
+|
+|t:|1758277024
+|move|p1a: Eiscue|Belly Drum|p1a: Eiscue
+|-damage|p1a: Eiscue|51/100
+|-setboost|p1a: Eiscue|atk|6|[from] move: Belly Drum
+|move|p2a: Goodra|Flash Cannon|p1a: Eiscue
+|-supereffective|p1a: Eiscue
+|-damage|p1a: Eiscue|0 fnt
+|faint|p1a: Eiscue
+|
+|upkeep
+|
+|t:|1758277029
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|turn|7
+|
+|t:|1758277037
+|move|p1a: Blaziken|Flare Blitz|p2a: Goodra
+|-damage|p2a: Goodra|46/100
+|-damage|p1a: Blaziken|81/100|[from] Recoil
+|move|p2a: Goodra|Thunderbolt|p1a: Blaziken
+|-damage|p1a: Blaziken|36/100
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|8
+|
+|t:|1758277045
+|move|p1a: Blaziken|Endure|p1a: Blaziken
+|-singleturn|p1a: Blaziken|move: Endure
+|move|p2a: Goodra|Thunderbolt|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Endure
+|-damage|p1a: Blaziken|1/100
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|9
+|
+|t:|1758277053
+|move|p1a: Blaziken|Reversal|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1758277055
+|switch|p2a: Infernape|Infernape, M|100/100
+|turn|10
+|
+|t:|1758277060
+|move|p2a: Infernape|Fake Out|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1758277065
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|turn|11
+|
+|t:|1758277069
+|move|p2a: Infernape|Earthquake|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|69/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Infernape
+|-damage|p2a: Infernape|53/100
+|-status|p2a: Infernape|tox
+|-start|p2a: Infernape|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-heal|p1a: Pecharunt|75/100|[from] item: Leftovers
+|-damage|p2a: Infernape|47/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1758277079
+|-activate|p2a: Infernape|confusion
+|move|p2a: Infernape|Overheat|p1a: Pecharunt
+|-damage|p1a: Pecharunt|28/100
+|-unboost|p2a: Infernape|spa|2
+|move|p1a: Pecharunt|Foul Play|p2a: Infernape
+|-resisted|p2a: Infernape
+|-damage|p2a: Infernape|20/100 tox
+|
+|-heal|p1a: Pecharunt|34/100|[from] item: Leftovers
+|-damage|p2a: Infernape|8/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1758277087
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|84/100
+|
+|-heal|p1a: Pecharunt|90/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1758277091
+|move|p2a: Mew|Encore|p1a: Pecharunt
+|-start|p1a: Pecharunt|Encore
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1758277096
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Mew|Dragon Dance|p2a: Mew
+|-boost|p2a: Mew|atk|1
+|-boost|p2a: Mew|spe|1
+|
+|upkeep
+|turn|16
+|
+|t:|1758277101
+|move|p2a: Mew|Dragon Dance|p2a: Mew
+|-boost|p2a: Mew|atk|1
+|-boost|p2a: Mew|spe|1
+|move|p1a: Corviknight|Body Press|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|88/100
+|
+|-heal|p2a: Mew|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758277107
+|move|p2a: Mew|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|74/100
+|-heal|p2a: Mew|100/100|[from] drain|[of] p1a: Corviknight
+|move|p1a: Corviknight|Body Press|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|88/100
+|
+|-heal|p2a: Mew|94/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|80/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1758277114
+|move|p2a: Mew|Dragon Dance|p2a: Mew
+|-boost|p2a: Mew|atk|1
+|-boost|p2a: Mew|spe|1
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|-heal|p2a: Mew|100/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|87/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1758277117
+|move|p2a: Mew|Encore|p1a: Corviknight
+|-start|p1a: Corviknight|Encore
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|-heal|p1a: Corviknight|93/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1758277121
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Mew|Drain Punch|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|
+|upkeep
+|turn|21
+|
+|t:|1758277126
+|move|p2a: Mew|Psychic Fangs|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|7/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Mew
+|-damage|p2a: Mew|71/100
+|
+|-heal|p2a: Mew|77/100|[from] item: Leftovers
+|-heal|p1a: Pecharunt|13/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1758277132
+|move|p2a: Mew|Psychic Fangs|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|-heal|p2a: Mew|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758277135
+|switch|p1a: Hitmonlee|Hitmonlee, M|84/100 slp
+|turn|23
+|-message|won2threefour forfeited.
+|
+|win|lhdeutsch2
+|raw|won2threefour's rating: 1216 &rarr; <strong>1189</strong><br />(-27 for losing)
+|raw|lhdeutsch2's rating: 1189 &rarr; <strong>1216</strong><br />(+27 for winning)
+|l|☆won2threefour
+|player|p1|
+|l|☆lhdeutsch2
+|player|p2|

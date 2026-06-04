@@ -1,0 +1,270 @@
+|j|☆corpseoflilith
+|j|☆roryta
+|t:|1758969751
+|gametype|singles
+|player|p1|corpseoflilith|101|1143
+|player|p2|roryta|hilbert|1102
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Scizor, M|
+|poke|p1|Dondozo, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Kyurem|
+|poke|p2|Corviknight, F|
+|poke|p2|Iron Treads|
+|poke|p2|Primarina, M|
+|poke|p2|Whiscash, M|
+|poke|p2|Slither Wing|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by roryta)
+|
+|t:|1758969757
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Stigmata|Iron Moth|100/100
+|switch|p2a: Whiscash|Whiscash, M|100/100
+|turn|1
+|
+|t:|1758969764
+|-end|p1a: Stigmata|Quark Drive|[silent]
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Whiscash|Curse|p2a: Whiscash
+|-unboost|p2a: Whiscash|spe|1
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1758969772
+|move|p1a: Mandibuzz|Toxic|p2a: Whiscash
+|-status|p2a: Whiscash|tox
+|move|p2a: Whiscash|Curse|p2a: Whiscash
+|-unboost|p2a: Whiscash|spe|1
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|def|1
+|
+|-damage|p2a: Whiscash|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1758969776
+|move|p1a: Mandibuzz|Knock Off|p2a: Whiscash
+|-damage|p2a: Whiscash|81/100 tox
+|-enditem|p2a: Whiscash|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Whiscash|Curse|p2a: Whiscash
+|-unboost|p2a: Whiscash|spe|1
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|def|1
+|
+|-damage|p2a: Whiscash|69/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1758969782
+|switch|p1a: Matsya|Dondozo, M|100/100
+|move|p2a: Whiscash|Liquidation|p1a: Matsya
+|-resisted|p1a: Matsya
+|-damage|p1a: Matsya|96/100
+|
+|-heal|p1a: Matsya|100/100|[from] item: Leftovers
+|-damage|p2a: Whiscash|50/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1758969791
+|move|p1a: Matsya|Protect|p1a: Matsya
+|-singleturn|p1a: Matsya|Protect
+|move|p2a: Whiscash|Rest|p2a: Whiscash
+|-status|p2a: Whiscash|slp|[from] move: Rest
+|-heal|p2a: Whiscash|100/100 slp|[silent]
+|
+|upkeep
+|turn|6
+|
+|t:|1758969798
+|move|p1a: Matsya|Curse|p1a: Matsya
+|-unboost|p1a: Matsya|spe|1
+|-boost|p1a: Matsya|atk|1
+|-boost|p1a: Matsya|def|1
+|cant|p2a: Whiscash|slp
+|move|p2a: Whiscash|Sleep Talk|p2a: Whiscash
+|move|p2a: Whiscash|Curse|p2a: Whiscash|[from] move: Sleep Talk
+|-unboost|p2a: Whiscash|spe|1
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|def|1
+|
+|upkeep
+|turn|7
+|
+|t:|1758969811
+|move|p1a: Matsya|Curse|p1a: Matsya
+|-unboost|p1a: Matsya|spe|1
+|-boost|p1a: Matsya|atk|1
+|-boost|p1a: Matsya|def|1
+|cant|p2a: Whiscash|slp
+|move|p2a: Whiscash|Sleep Talk|p2a: Whiscash
+|move|p2a: Whiscash|Liquidation|p1a: Matsya|[from] move: Sleep Talk
+|-resisted|p1a: Matsya
+|-damage|p1a: Matsya|98/100
+|-unboost|p1a: Matsya|def|1
+|
+|-heal|p1a: Matsya|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758969823
+|move|p1a: Matsya|Curse|p1a: Matsya
+|-unboost|p1a: Matsya|spe|1
+|-boost|p1a: Matsya|atk|1
+|-boost|p1a: Matsya|def|1
+|-curestatus|p2a: Whiscash|slp|[msg]
+|move|p2a: Whiscash|Sleep Talk||[still]
+|-fail|p2a: Whiscash
+|
+|upkeep
+|turn|9
+|
+|t:|1758969830
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Matsya|Curse|p1a: Matsya
+|-unboost|p1a: Matsya|spe|1
+|-boost|p1a: Matsya|atk|1
+|-boost|p1a: Matsya|def|1
+|
+|upkeep
+|turn|10
+|
+|t:|1758969836
+|-terastallize|p1a: Matsya|Fighting
+|move|p2a: Kyurem|Freeze-Dry|p1a: Matsya
+|-damage|p1a: Matsya|50/100
+|move|p1a: Matsya|Body Press|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-heal|p1a: Matsya|56/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758969841
+|switch|p2a: Primarina|Primarina, M, shiny|100/100
+|turn|11
+|
+|t:|1758969848
+|move|p1a: Matsya|Protect|p1a: Matsya
+|-singleturn|p1a: Matsya|Protect
+|move|p2a: Primarina|Moonblast|p1a: Matsya
+|-activate|p1a: Matsya|move: Protect
+|
+|-heal|p1a: Matsya|62/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758969854
+|switch|p1a: Stigmata|Iron Moth|100/100
+|move|p2a: Primarina|Moonblast|p1a: Stigmata
+|-resisted|p1a: Stigmata
+|-damage|p1a: Stigmata|87/100
+|
+|upkeep
+|turn|13
+|
+|t:|1758969859
+|move|p1a: Stigmata|Sludge Wave|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1758969862
+|switch|p2a: Whiscash|Whiscash, M|100/100
+|turn|14
+|
+|t:|1758969865
+|-end|p1a: Stigmata|Quark Drive|[silent]
+|switch|p1a: Matsya|Dondozo, M, tera:Fighting|62/100
+|move|p2a: Whiscash|Liquidation|p1a: Matsya
+|-damage|p1a: Matsya|52/100
+|
+|-heal|p1a: Matsya|58/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758969875
+|switch|p2a: Slither Wing|Slither Wing, shiny|100/100
+|-enditem|p2a: Slither Wing|Booster Energy
+|-activate|p2a: Slither Wing|ability: Protosynthesis|[fromitem]
+|-start|p2a: Slither Wing|protosynthesisatk
+|move|p1a: Matsya|Curse|p1a: Matsya
+|-unboost|p1a: Matsya|spe|1
+|-boost|p1a: Matsya|atk|1
+|-boost|p1a: Matsya|def|1
+|
+|-heal|p1a: Matsya|65/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758969878
+|move|p1a: Matsya|Protect|p1a: Matsya
+|-singleturn|p1a: Matsya|Protect
+|move|p2a: Slither Wing|Bulk Up|p2a: Slither Wing
+|-boost|p2a: Slither Wing|atk|1
+|-boost|p2a: Slither Wing|def|1
+|
+|-heal|p1a: Matsya|71/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758969882
+|move|p2a: Slither Wing|Bulk Up|p2a: Slither Wing
+|-boost|p2a: Slither Wing|atk|1
+|-boost|p2a: Slither Wing|def|1
+|move|p1a: Matsya|Curse|p1a: Matsya
+|-unboost|p1a: Matsya|spe|1
+|-boost|p1a: Matsya|atk|1
+|-boost|p1a: Matsya|def|1
+|
+|-heal|p1a: Matsya|77/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1758969889
+|move|p2a: Slither Wing|Close Combat|p1a: Matsya
+|-damage|p1a: Matsya|56/100
+|-unboost|p2a: Slither Wing|def|1
+|-unboost|p2a: Slither Wing|spd|1
+|move|p1a: Matsya|Curse|p1a: Matsya
+|-unboost|p1a: Matsya|spe|1
+|-boost|p1a: Matsya|atk|1
+|-boost|p1a: Matsya|def|1
+|
+|-heal|p1a: Matsya|62/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|-message|roryta forfeited.
+|
+|win|corpseoflilith
+|raw|corpseoflilith's rating: 1143 &rarr; <strong>1165</strong><br />(+22 for winning)
+|raw|roryta's rating: 1102 &rarr; <strong>1080</strong><br />(-22 for losing)
+|l|☆roryta
+|player|p2|
+|l|☆corpseoflilith
+|player|p1|

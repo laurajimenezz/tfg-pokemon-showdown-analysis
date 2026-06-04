@@ -1,0 +1,225 @@
+|j|☆daweehee
+|j|☆odeode
+|t:|1779906929
+|gametype|singles
+|player|p1|daweehee|169|1000
+|player|p2|odeode|ghetsis|1037
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Quaquaval, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Toxtricity-Low-Key, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Gliscor, F|
+|poke|p2|Breloom, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Tyranitar, F|
+|poke|p2|Cloyster, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by odeode)
+|
+|t:|1779906940
+|teamsize|p1|5
+|teamsize|p2|6
+|start
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, F|100/100
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|turn|1
+|
+|t:|1779906968
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|move|p1a: Toxtricity|Thunder|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-enditem|p2a: Cloyster|Focus Sash
+|-damage|p2a: Cloyster|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779906988
+|move|p2a: Cloyster|Icicle Spear|p1a: Toxtricity
+|-damage|p1a: Toxtricity|71/100
+|-damage|p1a: Toxtricity|42/100
+|-damage|p1a: Toxtricity|15/100
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|-hitcount|p1: Toxtricity|4
+|
+|upkeep
+|
+|t:|1779906998
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|3
+|
+|t:|1779907011
+|move|p2a: Cloyster|Rock Blast|p1a: Samurott
+|-damage|p1a: Samurott|84/100
+|-damage|p1a: Samurott|70/100
+|-damage|p1a: Samurott|53/100
+|-damage|p1a: Samurott|36/100
+|-damage|p1a: Samurott|21/100
+|-hitcount|p1a: Samurott|5
+|move|p1a: Samurott|Liquidation|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|upkeep
+|
+|t:|1779907023
+|switch|p2a: Ray ping Bolt|Raging Bolt|100/100
+|-enditem|p2a: Ray ping Bolt|Booster Energy
+|-activate|p2a: Ray ping Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Ray ping Bolt|protosynthesisspa
+|turn|4
+|
+|t:|1779907039
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|move|p2a: Ray ping Bolt|Thunderclap||[still]
+|-fail|p2a: Ray ping Bolt
+|
+|upkeep
+|turn|5
+|
+|t:|1779907054
+|move|p2a: Ray ping Bolt|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|58/100
+|
+|t:|1779907060
+|-end|p2a: Ray ping Bolt|Protosynthesis|[silent]
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from] Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Slowking|Sludge Wave|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowking|52/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1779907071
+|move|p2a: Tyranitar|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-enditem|p1a: Slowking|Poison Barb|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1a: Slowking
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1779907081
+|switch|p1a: Dragonite|Dragonite, M, shiny|100/100
+|turn|7
+|
+|t:|1779907093
+|move|p2a: Tyranitar|Stone Edge|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|4/100
+|move|p1a: Dragonite|Draco Meteor|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|34/100
+|-unboost|p1a: Dragonite|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|0 fnt|[from] Sandstorm
+|faint|p1a: Dragonite
+|upkeep
+|
+|t:|1779907106
+|switch|p1a: Samurott|Samurott-Hisui, F|21/100
+|turn|8
+|
+|t:|1779907116
+|move|p2a: Tyranitar|Stone Edge|p1a: Samurott|[miss]
+|-miss|p2a: Tyranitar|p1a: Samurott
+|move|p1a: Samurott|Hydro Cannon|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-mustrecharge|p1a: Samurott
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Samurott|14/100|[from] Sandstorm
+|upkeep
+|c|☆odeode|What is that build brio
+|c|☆odeode|Bro
+|inactive|odeode has 120 seconds left.
+|
+|t:|1779907151
+|switch|p2a: Ray ping Bolt|Raging Bolt|100/100
+|turn|9
+|
+|t:|1779907165
+|move|p2a: Ray ping Bolt|Thunderclap||[still]
+|-fail|p2a: Ray ping Bolt
+|cant|p1a: Samurott|recharge
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1779907174
+|switch|p1a: duckman|Quaquaval, F, shiny|100/100
+|move|p2a: Ray ping Bolt|Thunderclap||[still]
+|-fail|p2a: Ray ping Bolt
+|
+|upkeep
+|turn|11
+|
+|t:|1779907192
+|-terastallize|p1a: duckman|Water
+|move|p1a: duckman|Hydro Cannon|p2a: Ray ping Bolt
+|-resisted|p2a: Ray ping Bolt
+|-damage|p2a: Ray ping Bolt|78/100
+|-mustrecharge|p1a: duckman
+|move|p2a: Ray ping Bolt|Volt Switch|p1a: duckman
+|-supereffective|p1a: duckman
+|-damage|p1a: duckman|4/100
+|inactive|odeode has 120 seconds left.
+|
+|t:|1779907213
+|-end|p2a: Ray ping Bolt|Protosynthesis|[silent]
+|switch|p2a: Bruce|Gliscor, F|100/100|[from] Volt Switch
+|
+|-heal|p1a: duckman|10/100|[from] item: Leftovers
+|-status|p2a: Bruce|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+|
+|t:|1779907222
+|move|p2a: Bruce|Facade|p1a: duckman
+|-damage|p1a: duckman|0 fnt
+|faint|p1a: duckman
+|
+|upkeep
+|
+|t:|1779907228
+|switch|p1a: Samurott|Samurott-Hisui, F|14/100
+|turn|13
+|
+|t:|1779907235
+|move|p2a: Bruce|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|win|odeode
+|raw|daweehee's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|odeode's rating: 1037 &rarr; <strong>1068</strong><br />(+31 for winning)

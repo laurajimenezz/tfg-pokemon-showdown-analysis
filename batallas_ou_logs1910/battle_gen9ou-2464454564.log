@@ -1,0 +1,266 @@
+|j|☆Nani_Zak
+|j|☆ZYQYH
+|t:|1760850317
+|gametype|singles
+|player|p1|Nani_Zak|101|1138
+|player|p2|ZYQYH|cynthia|1125
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Lucario, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Gastrodon-East, M|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Necrozma|
+|poke|p2|Torkoal, M|
+|poke|p2|Walking Wake|
+|poke|p2|Hatterene, F|
+|poke|p2|Great Tusk|
+|poke|p2|Corviknight, F|
+|poke|p2|Rillaboom, M|
+|teampreview
+|
+|t:|1760850328
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gyarados|Gyarados, F, shiny|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1760850335
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760850339
+|move|p2a: Rillaboom|Grassy Glide|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|31/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760850344
+|move|p2a: Rillaboom|Grassy Glide|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760850350
+|switch|p1a: Lucario|Lucario, M|100/100
+|-enditem|p1a: Lucario|Grassy Seed
+|-boost|p1a: Lucario|def|1|[from] item: Grassy Seed
+|turn|4
+|
+|t:|1760850358
+|move|p2a: Rillaboom|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2a: Rillaboom
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760850370
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|-terastallize|p1a: Lucario|Normal
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1760850377
+|move|p1a: Lucario|Extreme Speed|p2a: Great Tusk
+|-damage|p2a: Great Tusk|6/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Lucario
+|-damage|p1a: Lucario|19/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|12/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760850382
+|move|p1a: Lucario|Extreme Speed|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760850385
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Unnerve
+|turn|8
+|
+|t:|1760850391
+|move|p1a: Lucario|Extreme Speed|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|66/100
+|-damage|p1a: Lucario|3/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|U-turn|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|t:|1760850395
+|switch|p2a: Torkoal|Torkoal, M|100/100|[from] U-turn
+|
+|-weather|none
+|upkeep
+|
+|t:|1760850408
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|turn|9
+|
+|t:|1760850416
+|move|p1a: Gastrodon|Surf|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|upkeep
+|
+|t:|1760850419
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|10
+|
+|t:|1760850422
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|92/100
+|
+|-heal|p1a: Goodra|98/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1760850430
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Goodra|Ice Beam|p2a: Hatterene
+|-damage|p2a: Hatterene|66/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1760850433
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|
+|-heal|p1a: Goodra|100/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1760850437
+|move|p2a: Walking Wake|Draco Meteor|p1a: Goodra
+|-damage|p1a: Goodra|50/100
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Goodra|Ice Beam|p2a: Walking Wake
+|-damage|p2a: Walking Wake|65/100
+|
+|-heal|p2a: Walking Wake|71/100|[from] Grassy Terrain
+|-heal|p1a: Goodra|56/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1760850441
+|move|p2a: Walking Wake|Draco Meteor|p1a: Goodra
+|-damage|p1a: Goodra|28/100
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Goodra|Thunderbolt|p2a: Walking Wake
+|-damage|p2a: Walking Wake|34/100
+|
+|-heal|p2a: Walking Wake|41/100|[from] Grassy Terrain
+|-heal|p1a: Goodra|34/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1760850448
+|move|p2a: Walking Wake|Draco Meteor|p1a: Goodra
+|-damage|p1a: Goodra|16/100
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Goodra|Thunderbolt|p2a: Walking Wake
+|-damage|p2a: Walking Wake|4/100
+|
+|-heal|p2a: Walking Wake|10/100|[from] Grassy Terrain
+|-heal|p1a: Goodra|22/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1760850453
+|move|p2a: Walking Wake|Draco Meteor|p1a: Goodra
+|-damage|p1a: Goodra|9/100
+|move|p1a: Goodra|Thunderbolt|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760850455
+|switch|p2a: Corviknight|Corviknight, F|66/100
+|-ability|p2a: Corviknight|Unnerve
+|turn|16
+|
+|t:|1760850459
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Goodra|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|6/100
+|-status|p2a: Corviknight|par
+|
+|upkeep
+|turn|17
+|
+|t:|1760850463
+|move|p1a: Goodra|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|-message|ZYQYH forfeited.
+|
+|win|Nani_Zak
+|raw|Nani_Zak's rating: 1138 &rarr; <strong>1162</strong><br />(+24 for winning)
+|raw|ZYQYH's rating: 1125 &rarr; <strong>1101</strong><br />(-24 for losing)
+|l|☆ZYQYH
+|player|p2|
+|l|☆Nani_Zak
+|player|p1|

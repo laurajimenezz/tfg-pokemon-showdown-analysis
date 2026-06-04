@@ -1,0 +1,253 @@
+|j|☆Aimsss
+|j|☆Sonzaisonder
+|t:|1759048982
+|gametype|singles
+|player|p1|Aimsss|policeman-gen4|1342
+|player|p2|Sonzaisonder|steven|1466
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Chesnaught, F|
+|poke|p1|Gallade, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Great Tusk|
+|poke|p2|Moltres|
+|poke|p2|Kingambit, M|
+|poke|p2|Greninja-*, M|
+|teampreview
+|
+|t:|1759049004
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gallade|Gallade, M, shiny|100/100
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|1
+|
+|t:|1759049012
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Gallade|Night Slash|p2a: Moltres
+|-damage|p2a: Moltres|74/100
+|
+|upkeep
+|turn|2
+|
+|t:|1759049023
+|switch|p1a: Chesnaught|Chesnaught, F|100/100
+|move|p2a: Moltres|Will-O-Wisp|p1a: Chesnaught|[miss]
+|-miss|p2a: Moltres|p1a: Chesnaught
+|
+|upkeep
+|turn|3
+|
+|t:|1759049032
+|move|p2a: Moltres|Flamethrower|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|38/100
+|-enditem|p1a: Chesnaught|Sitrus Berry|[eat]
+|-heal|p1a: Chesnaught|63/100|[from] item: Sitrus Berry
+|move|p1a: Chesnaught|Knock Off|p2a: Moltres
+|-damage|p2a: Moltres|57/100
+|-enditem|p2a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Chesnaught
+|
+|upkeep
+|turn|4
+|
+|t:|1759049043
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|100/100
+|-singleturn|p2a: Moltres|move: Roost
+|move|p1a: Chesnaught|Leech Seed|p2a: Moltres
+|-start|p2a: Moltres|move: Leech Seed
+|
+|-damage|p2a: Moltres|88/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|76/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1759049053
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-item|p1a: Glimmora|Air Balloon
+|move|p2a: Moltres|Flamethrower|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-crit|p1a: Glimmora
+|-damage|p1a: Glimmora|73/100
+|-enditem|p1a: Glimmora|Air Balloon
+|
+|-damage|p2a: Moltres|76/100|[from] Leech Seed|[of] p1a: Glimmora
+|-heal|p1a: Glimmora|87/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1759049065
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Glimmora|Stealth Rock|p2a: Slowking
+|-sidestart|p2: Sonzaisonder|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1759049071
+|switch|p1a: Chesnaught|Chesnaught, F|76/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1759049079
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1759049089
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|18/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1759049097
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Great Tusk
+|-status|p2a: Great Tusk|brn
+|move|p2a: Great Tusk|Ice Spinner|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1759049121
+|switch|p1a: Gallade|Gallade, M, shiny|100/100
+|turn|10
+|
+|t:|1759049138
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Gallade|Agility|p1a: Gallade
+|-boost|p1a: Gallade|spe|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1759049146
+|move|p1a: Gallade|Night Slash|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|18/100
+|move|p2a: Slowking|Future Sight|p1a: Gallade
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1759049157
+|move|p1a: Gallade|Psycho Cut|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1759049160
+|switch|p2a: Great Tusk|Great Tusk|94/100 brn
+|turn|13
+|
+|t:|1759049164
+|-terastallize|p2a: Great Tusk|Steel
+|move|p1a: Gallade|Psycho Cut|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|74/100 brn
+|move|p2a: Great Tusk|Rapid Spin|p1a: Gallade
+|-damage|p1a: Gallade|85/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Sonzaisonder|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-end|p1a: Gallade|move: Future Sight
+|-damage|p1a: Gallade|38/100
+|-enditem|p1a: Gallade|Sitrus Berry|[eat]
+|-heal|p1a: Gallade|63/100|[from] item: Sitrus Berry
+|-damage|p2a: Great Tusk|68/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1759049191
+|move|p1a: Gallade|Sacred Sword|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1759049195
+|switch|p2a: Moltres|Moltres|76/100
+|turn|15
+|
+|t:|1759049210
+|move|p1a: Gallade|Psycho Cut|p2a: Moltres
+|-damage|p2a: Moltres|33/100
+|move|p2a: Moltres|Flamethrower|p1a: Gallade
+|-damage|p1a: Gallade|28/100
+|
+|upkeep
+|turn|16
+|
+|t:|1759049226
+|move|p1a: Gallade|Psycho Cut|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|upkeep
+|
+|t:|1759049231
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|17
+|
+|t:|1759049234
+|move|p1a: Gallade|Sacred Sword|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1759049237
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|18
+|
+|t:|1759049242
+|move|p1a: Gallade|Sacred Sword|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|upkeep
+|-message|Sonzaisonder forfeited.
+|
+|win|Aimsss
+|raw|Aimsss's rating: 1342 &rarr; <strong>1369</strong><br />(+27 for winning)
+|raw|Sonzaisonder's rating: 1466 &rarr; <strong>1439</strong><br />(-27 for losing)
+|l|☆Sonzaisonder
+|player|p2|
+|l|☆Aimsss
+|player|p1|

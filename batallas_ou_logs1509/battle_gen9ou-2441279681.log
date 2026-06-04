@@ -1,0 +1,272 @@
+|j|☆EddusEatzAlot
+|j|☆forok1234
+|t:|1757822999
+|gametype|singles
+|player|p1|EddusEatzAlot|steven|1382
+|player|p2|forok1234|266|1342
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Great Tusk|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Heatran, M|
+|poke|p1|Weavile, F|
+|poke|p2|Gholdengo|
+|poke|p2|Dragapult, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Araquanid, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1757823048
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1757823057
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|move|p1a: Rillaboom|U-turn|p2a: Araquanid
+|-damage|p2a: Araquanid|57/100
+|
+|t:|1757823067
+|switch|p1a: Weavile|Weavile, F|100/100|[from] U-turn
+|-ability|p1a: Weavile|Pressure
+|
+|-heal|p2a: Araquanid|63/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757823082
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Weavile|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2a: Gholdengo|Air Balloon
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1757823095
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|3
+|
+|t:|1757823098
+|-terastallize|p2a: Dragonite|Fire
+|move|p1a: Weavile|Triple Axel|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|98/100
+|-hitcount|p2a: Dragonite|1
+|move|p2a: Dragonite|Fire Punch|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-heal|p2a: Dragonite|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757823107
+|switch|p1a: Heatran|Heatran, M|100/100
+|turn|4
+|
+|t:|1757823113
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Heatran|Earth Power|p2a: Great Tusk
+|-damage|p2a: Great Tusk|45/100
+|
+|-heal|p2a: Great Tusk|51/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1757823120
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|62/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-heal|p2a: Great Tusk|58/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|68/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1757823128
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Dragonite|Dragonite, F, tera:Fire|100/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|88/100
+|
+|upkeep
+|turn|7
+|
+|t:|1757823137
+|switch|p2a: Great Tusk|Great Tusk|58/100
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1757823148
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Dragapult
+|-damage|p1a: Dragapult|12/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-heal|p1a: Dragapult|18/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1757823172
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Dragapult|Dragapult, F, shiny|100/100
+|move|p1a: Dragapult|Hex|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|8/100
+|
+|-heal|p1a: Dragapult|24/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1757823178
+|move|p1a: Dragapult|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|t:|1757823191
+|switch|p1a: Rillaboom|Rillaboom, M|68/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|74/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757823194
+|switch|p2a: Araquanid|Araquanid, M|63/100
+|turn|11
+|
+|t:|1757823197
+|move|p1a: Rillaboom|Wood Hammer|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|-damage|p1a: Rillaboom|57/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|63/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757823201
+|switch|p2a: Dragonite|Dragonite, F, tera:Fire|88/100
+|turn|12
+|
+|t:|1757823204
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|switch|p1a: Heatran|Heatran, M|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1757823209
+|-terastallize|p1a: Heatran|Grass
+|move|p2a: Enamorus|Earth Power|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|83/100
+|move|p1a: Heatran|Flash Cannon|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-heal|p1a: Heatran|89/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757823214
+|switch|p2a: Dragonite|Dragonite, F, tera:Fire|88/100
+|turn|14
+|
+|t:|1757823219
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Heatran|Earth Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|19/100
+|
+|-heal|p2a: Dragonite|26/100|[from] Grassy Terrain
+|-heal|p1a: Heatran|96/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1757823222
+|move|p2a: Dragonite|Scale Shot|p1a: Heatran
+|-damage|p1a: Heatran|73/100
+|-damage|p1a: Heatran|52/100
+|-damage|p1a: Heatran|30/100
+|-damage|p1a: Heatran|9/100
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-hitcount|p1: Heatran|5
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1757823229
+|switch|p1a: Rillaboom|Rillaboom, M|63/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|16
+|
+|t:|1757823238
+|move|p2a: Dragonite|Extreme Speed|p1a: Rillaboom
+|-damage|p1a: Rillaboom|22/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-heal|p1a: Rillaboom|28/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757823241
+|switch|p2a: Great Tusk|Great Tusk|58/100
+|turn|17
+|
+|t:|1757823245
+|move|p1a: Rillaboom|Grassy Glide|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|win|EddusEatzAlot
+|raw|EddusEatzAlot's rating: 1382 &rarr; <strong>1400</strong><br />(+18 for winning)
+|raw|forok1234's rating: 1342 &rarr; <strong>1324</strong><br />(-18 for losing)
+|c|☆EddusEatzAlot|gg
+|c|☆forok1234|gg
+|l|☆EddusEatzAlot
+|player|p1|
+|l|☆forok1234
+|player|p2|

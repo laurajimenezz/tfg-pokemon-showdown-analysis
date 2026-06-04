@@ -1,0 +1,327 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆TristanPlaysPKMN
+|j|‽evilpidgeon47
+|t:|1776079191
+|gametype|singles
+|player|p1|TristanPlaysPKMN|ghetsis|1174
+|player|p2|evilpidgeon47|lance|1250
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gogoat, M|
+|poke|p1|Ceruledge, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Garganacl, F|
+|poke|p1|Araquanid, M|
+|poke|p1|Braviary-Hisui, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Treads|
+|poke|p2|Raging Bolt|
+|poke|p2|Rillaboom, F|
+|poke|p2|Kingambit, M|
+|teampreview
+|j| ohko_smeargle
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TristanPlaysPKMN)
+|
+|t:|1776079210
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Plip|Araquanid, M, shiny|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1776079217
+|move|p2a: Iron Treads|Stealth Rock|p1a: Plip
+|-sidestart|p1: TristanPlaysPKMN|move: Stealth Rock
+|move|p1a: Plip|Sticky Web|p2a: Iron Treads
+|-sidestart|p2: evilpidgeon47|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1776079230
+|move|p2a: Iron Treads|Rapid Spin|p1a: Plip
+|-damage|p1a: Plip|88/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: evilpidgeon47|Sticky Web|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Plip|Surf|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1776079236
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|3
+|
+|t:|1776079244
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Plip|Surf|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|
+|upkeep
+|turn|4
+|
+|t:|1776079254
+|-terastallize|p2a: Ceruledge|Ghost
+|move|p1a: Plip|Endure|p1a: Plip
+|-singleturn|p1a: Plip|move: Endure
+|move|p2a: Ceruledge|Poltergeist|p1a: Plip
+|-activate|p1a: Plip|move: Poltergeist|Custap Berry
+|-activate|p1a: Plip|move: Endure
+|-damage|p1a: Plip|1/100
+|
+|upkeep
+|turn|5
+|-enditem|p1a: Plip|Custap Berry|[eat]
+|-activate|p1a: Plip|item: Custap Berry|[consumed]
+|
+|t:|1776079261
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Plip
+|-damage|p1a: Plip|0 fnt
+|faint|p1a: Plip
+|
+|upkeep
+|
+|t:|1776079271
+|switch|p1a: TargetOfAffection|Raging Bolt|100/100
+|-damage|p1a: TargetOfAffection|88/100|[from] Stealth Rock
+|-enditem|p1a: TargetOfAffection|Booster Energy
+|-activate|p1a: TargetOfAffection|ability: Protosynthesis|[fromitem]
+|-start|p1a: TargetOfAffection|protosynthesisspa
+|turn|6
+|
+|t:|1776079282
+|move|p1a: TargetOfAffection|Thunderclap||[still]
+|-fail|p1a: TargetOfAffection
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1776079289
+|-end|p1a: TargetOfAffection|Protosynthesis|[silent]
+|switch|p1a: Crusty|Garganacl, F, shiny|100/100
+|-damage|p1a: Crusty|88/100|[from] Stealth Rock
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Crusty
+|-damage|p1a: Crusty|56/100
+|-damage|p2a: Ceruledge|0 fnt|[from] item: Rocky Helmet|[of] p1a: Crusty
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1776079296
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|8
+|
+|t:|1776079302
+|switch|p1a: THE GOAT|Gogoat, M, shiny|100/100
+|-damage|p1a: THE GOAT|88/100|[from] Stealth Rock
+|move|p2a: Rillaboom|Grassy Glide|p1a: THE GOAT
+|-ability|p1a: THE GOAT|Sap Sipper|boost
+|-boost|p1a: THE GOAT|atk|1
+|
+|-heal|p1a: THE GOAT|94/100|[from] Grassy Terrain
+|-heal|p1a: THE GOAT|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1776079316
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: THE GOAT|Bulk Up|p1a: THE GOAT
+|-boost|p1a: THE GOAT|atk|1
+|-boost|p1a: THE GOAT|def|1
+|
+|upkeep
+|turn|10
+|
+|t:|1776079323
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: THE GOAT|Bulk Up|p1a: THE GOAT
+|-boost|p1a: THE GOAT|atk|1
+|-boost|p1a: THE GOAT|def|1
+|
+|upkeep
+|turn|11
+|
+|t:|1776079329
+|move|p2a: Ogerpon|Play Rough|p1a: THE GOAT
+|-damage|p1a: THE GOAT|60/100
+|move|p1a: THE GOAT|Horn Leech|p2a: Ogerpon
+|-crit|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-heal|p1a: THE GOAT|94/100|[from] drain|[of] p2a: Ogerpon
+|faint|p2a: Ogerpon
+|
+|-heal|p1a: THE GOAT|99/100|[from] Grassy Terrain
+|-heal|p1a: THE GOAT|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1776079337
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|12
+|
+|t:|1776079343
+|move|p1a: THE GOAT|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|56/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|62/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1776079348
+|move|p1a: THE GOAT|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|upkeep
+|
+|t:|1776079352
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|14
+|
+|t:|1776079357
+|move|p2a: Rillaboom|U-turn|p1a: THE GOAT
+|-supereffective|p1a: THE GOAT
+|-damage|p1a: THE GOAT|57/100
+|
+|t:|1776079361
+|switch|p2a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|move|p1a: THE GOAT|Bulk Up|p1a: THE GOAT
+|-boost|p1a: THE GOAT|atk|1
+|-boost|p1a: THE GOAT|def|1
+|
+|-heal|p1a: THE GOAT|63/100|[from] Grassy Terrain
+|-heal|p1a: THE GOAT|69/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1776079367
+|move|p2a: Raging Bolt|Volt Switch|p1a: THE GOAT
+|-resisted|p1a: THE GOAT
+|-damage|p1a: THE GOAT|49/100
+|
+|t:|1776079369
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Rillaboom|Rillaboom, F|100/100|[from] Volt Switch
+|move|p1a: THE GOAT|Earthquake|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|80/100
+|
+|-heal|p2a: Rillaboom|86/100|[from] Grassy Terrain
+|-heal|p1a: THE GOAT|55/100|[from] Grassy Terrain
+|-heal|p1a: THE GOAT|61/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1776079373
+|move|p2a: Rillaboom|U-turn|p1a: THE GOAT
+|-supereffective|p1a: THE GOAT
+|-damage|p1a: THE GOAT|29/100
+|
+|t:|1776079375
+|switch|p2a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|move|p1a: THE GOAT|Horn Leech|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|57/100
+|-heal|p1a: THE GOAT|51/100|[from] drain|[of] p2a: Raging Bolt
+|
+|-heal|p2a: Raging Bolt|63/100|[from] Grassy Terrain
+|-heal|p1a: THE GOAT|57/100|[from] Grassy Terrain
+|-heal|p1a: THE GOAT|63/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1776079379
+|-terastallize|p1a: THE GOAT|Ground
+|move|p2a: Raging Bolt|Volt Switch|p1a: THE GOAT
+|-immune|p1a: THE GOAT
+|move|p1a: THE GOAT|Horn Leech|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|24/100
+|-heal|p1a: THE GOAT|83/100|[from] drain|[of] p2a: Raging Bolt
+|
+|-heal|p2a: Raging Bolt|30/100|[from] Grassy Terrain
+|-heal|p1a: THE GOAT|89/100|[from] Grassy Terrain
+|-heal|p1a: THE GOAT|95/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1776079384
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Rillaboom|Rillaboom, F|86/100
+|move|p1a: THE GOAT|Horn Leech|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|30/100
+|-heal|p1a: THE GOAT|100/100|[from] drain|[of] p2a: Rillaboom
+|
+|-heal|p2a: Rillaboom|37/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1776079390
+|move|p2a: Rillaboom|Brick Break|p1a: THE GOAT
+|-damage|p1a: THE GOAT|82/100
+|move|p1a: THE GOAT|Horn Leech|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-heal|p1a: THE GOAT|96/100|[from] drain|[of] p2a: Rillaboom
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: THE GOAT|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1776079392
+|switch|p2a: Raging Bolt|Raging Bolt|30/100
+|turn|20
+|
+|t:|1776079395
+|move|p2a: Raging Bolt|Draco Meteor|p1a: THE GOAT
+|-damage|p1a: THE GOAT|34/100
+|-unboost|p2a: Raging Bolt|spa|2
+|move|p1a: THE GOAT|Earthquake|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|TristanPlaysPKMN
+|raw|TristanPlaysPKMN's rating: 1174 &rarr; <strong>1204</strong><br />(+30 for winning)
+|raw|evilpidgeon47's rating: 1250 &rarr; <strong>1220</strong><br />(-30 for losing)
+|l| ohko_smeargle
+|l|☆TristanPlaysPKMN
+|player|p1|
+|l|‽evilpidgeon47
+|player|p2|

@@ -1,0 +1,154 @@
+|j|☆twistedhipster
+|j|☆thehandcannon01
+|t:|1779705901
+|gametype|singles
+|player|p1|twistedhipster|hugh|1065
+|player|p2|thehandcannon01|policeman-gen4|1110
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Veluza, M|
+|poke|p1|Meowscarada, F|
+|poke|p1|Snorlax, M|
+|poke|p1|Gengar, M|
+|poke|p1|Walking Wake|
+|poke|p2|Skeledirge, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Treads|
+|poke|p2|Dragonite, F|
+|poke|p2|Volcanion|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by thehandcannon01)
+|
+|t:|1779705907
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Braviary|Braviary-Hisui, M, shiny|100/100
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|1
+|
+|t:|1779705922
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Skeledirge|Torch Song|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|88/100
+|-boost|p2a: Skeledirge|spa|1
+|-enditem|p2a: Skeledirge|Throat Spray
+|-boost|p2a: Skeledirge|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|turn|2
+|
+|t:|1779705937
+|-terastallize|p2a: Skeledirge|Fairy
+|move|p1a: Walking Wake|Hydro Pump|p2a: Skeledirge
+|-damage|p2a: Skeledirge|28/100
+|move|p2a: Skeledirge|Alluring Voice|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779705945
+|switch|p1a: Gengar|Gengar, M|100/100
+|-item|p1a: Gengar|Air Balloon
+|turn|3
+|
+|t:|1779705958
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Gengar|Venoshock|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|upkeep
+|turn|4
+|
+|t:|1779705971
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Iron Treads|Knock Off|p1a: Snorlax
+|-damage|p1a: Snorlax|72/100
+|-enditem|p1a: Snorlax|Leftovers|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|5
+|
+|t:|1779705981
+|move|p2a: Iron Treads|Rapid Spin|p1a: Snorlax
+|-damage|p1a: Snorlax|58/100
+|-boost|p2a: Iron Treads|spe|1
+|move|p1a: Snorlax|Body Press|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-crit|p2a: Iron Treads
+|-damage|p2a: Iron Treads|64/100
+|
+|upkeep
+|turn|6
+|
+|t:|1779705990
+|move|p2a: Iron Treads|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|18/100
+|move|p1a: Snorlax|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|21/100
+|
+|upkeep
+|turn|7
+|
+|t:|1779705999
+|switch|p1a: Veluza|Veluza, M|100/100
+|move|p2a: Iron Treads|Earthquake|p1a: Veluza
+|-damage|p1a: Veluza|48/100
+|
+|upkeep
+|turn|8
+|
+|t:|1779706011
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Volkingion|Volcanion|100/100
+|move|p1a: Veluza|Aqua Cutter|p2a: Volkingion
+|-immune|p2a: Volkingion|[from] ability: Water Absorb
+|
+|upkeep
+|turn|9
+|
+|t:|1779706022
+|move|p2a: Volkingion|Steam Eruption|p1a: Veluza
+|-resisted|p1a: Veluza
+|-damage|p1a: Veluza|11/100
+|-status|p1a: Veluza|brn
+|move|p1a: Veluza|Drill Run|p2a: Volkingion
+|-supereffective|p2a: Volkingion
+|-damage|p2a: Volkingion|80/100
+|
+|-heal|p2a: Volkingion|86/100|[from] item: Leftovers
+|-damage|p1a: Veluza|5/100 brn|[from] brn
+|upkeep
+|turn|10
+|-message|twistedhipster forfeited.
+|
+|win|thehandcannon01
+|raw|twistedhipster's rating: 1065 &rarr; <strong>1048</strong><br />(-17 for losing)
+|raw|thehandcannon01's rating: 1110 &rarr; <strong>1132</strong><br />(+22 for winning)
+|l|☆twistedhipster
+|player|p1|
+|l|☆thehandcannon01
+|player|p2|

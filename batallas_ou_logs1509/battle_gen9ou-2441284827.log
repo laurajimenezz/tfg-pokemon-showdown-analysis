@@ -1,0 +1,359 @@
+|j|☆budzz
+|j|☆kkonka
+|t:|1757823777
+|gametype|singles
+|player|p1|budzz|steven|1251
+|player|p2|kkonka|parasollady|1290
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Treads|
+|poke|p1|Iron Moth|
+|poke|p1|Zapdos|
+|poke|p2|Glimmora, M|
+|poke|p2|Iron Treads|
+|poke|p2|Polteageist-Antique|
+|poke|p2|Raging Bolt|
+|poke|p2|Dragonite, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by budzz)
+|
+|t:|1757823801
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1757823811
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Rotom
+|-damage|p1a: Rotom|26/100
+|move|p1a: Rotom|Electric Terrain|p1a: Rotom
+|-fieldstart|move: Electric Terrain
+|
+|upkeep
+|turn|2
+|
+|t:|1757823818
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|upkeep
+|turn|3
+|
+|t:|1757823825
+|move|p1a: Iron Valiant|Encore|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|Encore
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|upkeep
+|turn|4
+|
+|t:|1757823831
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-item|p1a: Iron Moth|Air Balloon
+|-activate|p1a: Iron Moth|ability: Quark Drive
+|-start|p1a: Iron Moth|quarkdrivespa
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdrivespe
+|
+|upkeep
+|turn|5
+|
+|t:|1757823842
+|move|p2a: Iron Treads|Stealth Rock|p1a: Iron Moth
+|-sidestart|p1: budzz|move: Stealth Rock
+|move|p1a: Iron Moth|Fiery Dance|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757823852
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|6
+|
+|t:|1757823866
+|move|p2a: Glimmora|Power Gem|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|11/100
+|-enditem|p1a: Iron Moth|Air Balloon
+|move|p1a: Iron Moth|Fiery Dance|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|65/100
+|
+|upkeep
+|turn|7
+|
+|t:|1757823874
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Iron Treads|Iron Treads, shiny|100/100
+|-damage|p1a: Iron Treads|97/100|[from] Stealth Rock
+|-item|p1a: Iron Treads|Air Balloon
+|-activate|p1a: Iron Treads|ability: Quark Drive
+|-start|p1a: Iron Treads|quarkdriveatk
+|move|p2a: Glimmora|Power Gem|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|82/100
+|-enditem|p1a: Iron Treads|Air Balloon
+|
+|upkeep
+|turn|8
+|
+|t:|1757823878
+|move|p2a: Glimmora|Power Gem|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|66/100
+|move|p1a: Iron Treads|Rapid Spin|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|52/100
+|-boost|p1a: Iron Treads|spe|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: budzz|move: Toxic Spikes
+|-sideend|p1: budzz|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-sideend|p1: budzz|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Treads|Quark Drive
+|upkeep
+|turn|9
+|
+|t:|1757823884
+|move|p1a: Iron Treads|Earthquake|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: budzz|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1757823889
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|10
+|
+|t:|1757823893
+|move|p1a: Iron Treads|Stealth Rock|p2a: Zamazenta
+|-sidestart|p2: kkonka|move: Stealth Rock
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|upkeep
+|turn|11
+|
+|t:|1757823901
+|move|p1a: Iron Treads|Earthquake|p2a: Zamazenta
+|-damage|p2a: Zamazenta|85/100
+|move|p2a: Zamazenta|Body Press|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p2a: Zamazenta|91/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757823906
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|12
+|
+|t:|1757823912
+|-terastallize|p2a: Zamazenta|Fire
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Zapdos|Hurricane|p2a: Zamazenta
+|-damage|p2a: Zamazenta|34/100
+|
+|-heal|p2a: Zamazenta|40/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1757823920
+|move|p2a: Zamazenta|Body Press|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|30/100
+|move|p1a: Zapdos|Thunder|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1757823931
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1757823936
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|80/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|15
+|
+|t:|1757823944
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-status|p1a: Iron Valiant|psn
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757823961
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-status|p1a: Raging Bolt|psn
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|16
+|
+|t:|1757823968
+|-terastallize|p1a: Raging Bolt|Fairy
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Raging Bolt
+|-immune|p1a: Raging Bolt
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|14/100
+|
+|-damage|p1a: Raging Bolt|88/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1757823980
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-damage|p1a: Raging Bolt|76/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1757823986
+|move|p2a: Raging Bolt|Thunderclap|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|37/100 psn
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-damage|p1a: Raging Bolt|24/100 psn|[from] psn
+|upkeep
+|
+|t:|1757823991
+|switch|p2a: 快龙一定要快|Dragonite, F|100/100
+|-damage|p2a: 快龙一定要快|76/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1757823996
+|move|p2a: 快龙一定要快|Extreme Speed|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1757824001
+|switch|p1a: Zapdos|Zapdos|80/100
+|turn|20
+|
+|t:|1757824006
+|move|p2a: 快龙一定要快|Extreme Speed|p1a: Zapdos
+|-damage|p1a: Zapdos|30/100
+|-status|p2a: 快龙一定要快|par|[from] ability: Static|[of] p1a: Zapdos
+|move|p1a: Zapdos|Thunder|p2a: 快龙一定要快
+|-damage|p2a: 快龙一定要快|26/100 par
+|
+|upkeep
+|turn|21
+|
+|t:|1757824012
+|move|p2a: 快龙一定要快|Extreme Speed|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1757824016
+|switch|p1a: Iron Moth|Iron Moth|11/100
+|-sideend|p1: budzz|move: Toxic Spikes|[of] p1a: Iron Moth
+|turn|22
+|
+|t:|1757824028
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Rotom|Rotom-Wash|26/100
+|move|p2a: 快龙一定要快|Extreme Speed|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1757824031
+|switch|p1a: Iron Moth|Iron Moth|11/100
+|turn|23
+|
+|t:|1757824034
+|cant|p2a: 快龙一定要快|par
+|move|p1a: Iron Moth|Sludge Wave|p2a: 快龙一定要快
+|-damage|p2a: 快龙一定要快|0 fnt
+|faint|p2a: 快龙一定要快
+|
+|upkeep
+|
+|t:|1757824038
+|switch|p2a: Polteageist|Polteageist-Antique|100/100
+|-damage|p2a: Polteageist|88/100|[from] Stealth Rock
+|turn|24
+|c|☆budzz|gg
+|
+|t:|1757824045
+|move|p1a: Iron Moth|Fiery Dance|p2a: Polteageist
+|-damage|p2a: Polteageist|35/100
+|move|p2a: Polteageist|Shadow Ball|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|win|kkonka
+|raw|budzz's rating: 1251 &rarr; <strong>1229</strong><br />(-22 for losing)
+|raw|kkonka's rating: 1290 &rarr; <strong>1312</strong><br />(+22 for winning)
+|l|☆budzz
+|player|p1|
+|c|☆kkonka|gg
+|l|☆kkonka
+|player|p2|

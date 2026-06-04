@@ -1,0 +1,299 @@
+|j|☆BorderofSeal
+|j|☆Air Glider
+|t:|1769317331
+|gametype|singles
+|player|p1|BorderofSeal|102|1464
+|player|p2|Air Glider|170|1516
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Rillaboom, F|
+|poke|p1|Heatran, F|
+|poke|p1|Zapdos|
+|poke|p1|Iron Valiant|
+|poke|p1|Serperior, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Iron Treads|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Toxicroak, F|
+|poke|p2|Manaphy|
+|teampreview
+|
+|t:|1769317337
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1769317344
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|move|p1a: Rillaboom|Knock Off|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|77/100
+|-damage|p1a: Rillaboom|84/100|[from] item: Rocky Helmet|[of] p2a: Toxicroak
+|-enditem|p2a: Toxicroak|Rocky Helmet|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|89/100|[from] ability: Dry Skin
+|-heal|p1a: Rillaboom|90/100|[from] Grassy Terrain
+|-heal|p2a: Toxicroak|96/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1769317354
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Toxicroak|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|100/100|[from] ability: Dry Skin
+|-damage|p1a: Zapdos|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1769317361
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdriveatk
+|move|p1a: Zapdos|Hurricane|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|75/100|[from] Grassy Terrain
+|-damage|p1a: Zapdos|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1769317367
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Iron Treads
+|-sidestart|p1: BorderofSeal|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|81/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1769317374
+|move|p1a: Iron Treads|Rapid Spin|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|75/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: BorderofSeal|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|move|p2a: Iron Treads|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|36/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|43/100|[from] Grassy Terrain
+|-heal|p2a: Iron Treads|81/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1769317377
+|move|p1a: Iron Treads|High Horsepower|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769317386
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|7
+|
+|t:|1769317407
+|move|p2a: Basculegion|Wave Crash|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-damage|p2a: Basculegion|89/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769317410
+|switch|p1a: Rillaboom|Rillaboom, F|90/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|8
+|
+|t:|1769317412
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|move|p1a: Rillaboom|U-turn|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|93/100
+|
+|t:|1769317416
+|switch|p1a: Zapdos|Zapdos|82/100 tox|[from] U-turn
+|-ability|p1a: Zapdos|Pressure
+|
+|-weather|none
+|-heal|p2a: Toxicroak|99/100|[from] Grassy Terrain
+|-damage|p1a: Zapdos|75/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1769317424
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Zapdos|Volt Switch|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|t:|1769317434
+|switch|p1a: Rillaboom|Rillaboom, F|90/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|96/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1769317442
+|switch|p2a: Toxicroak|Toxicroak, F|99/100
+|turn|10
+|
+|t:|1769317447
+|switch|p2a: Basculegion|Basculegion, M|89/100
+|move|p1a: Rillaboom|U-turn|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|67/100
+|
+|t:|1769317452
+|switch|p1a: Serperior|Serperior, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Basculegion|73/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1769317460
+|move|p2a: Basculegion|Wave Crash|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|22/100
+|-damage|p2a: Basculegion|54/100|[from] Recoil
+|move|p1a: Serperior|Leaf Storm|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Serperior|28/100|[from] Grassy Terrain
+|-heal|p1a: Serperior|35/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769317465
+|switch|p2a: Toxicroak|Toxicroak, F|99/100
+|turn|12
+|
+|t:|1769317469
+|move|p1a: Serperior|Leaf Storm|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|20/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Toxicroak|Drain Punch|p1a: Serperior
+|-damage|p1a: Serperior|3/100
+|-heal|p2a: Toxicroak|33/100|[from] drain|[of] p1a: Serperior
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|45/100|[from] ability: Dry Skin
+|-heal|p1a: Serperior|9/100|[from] Grassy Terrain
+|-heal|p1a: Serperior|16/100|[from] item: Leftovers
+|-heal|p2a: Toxicroak|51/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1769317474
+|move|p1a: Serperior|Leaf Storm|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Serperior|22/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769317476
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|14
+|
+|t:|1769317479
+|move|p2a: Samurott|Aqua Jet|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769317482
+|switch|p1a: Rillaboom|Rillaboom, F|96/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|15
+|
+|t:|1769317489
+|-terastallize|p1a: Rillaboom|Grass
+|move|p2a: Samurott|Aqua Jet|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|73/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|79/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1769317493
+|switch|p2a: Manaphy|Manaphy|100/100
+|turn|16
+|
+|t:|1769317512
+|-terastallize|p2a: Manaphy|Fairy
+|move|p1a: Rillaboom|Grassy Glide|p2a: Manaphy
+|-damage|p2a: Manaphy|36/100
+|move|p2a: Manaphy|Alluring Voice|p1a: Rillaboom
+|-damage|p1a: Rillaboom|42/100
+|
+|-weather|none
+|-heal|p2a: Manaphy|43/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|48/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1769317523
+|move|p1a: Rillaboom|Grassy Glide|p2a: Manaphy
+|-damage|p2a: Manaphy|0 fnt
+|faint|p2a: Manaphy
+|
+|win|BorderofSeal
+|raw|BorderofSeal's rating: 1464 &rarr; <strong>1487</strong><br />(+23 for winning)
+|raw|Air Glider's rating: 1516 &rarr; <strong>1493</strong><br />(-23 for losing)
+|l|☆BorderofSeal
+|player|p1|

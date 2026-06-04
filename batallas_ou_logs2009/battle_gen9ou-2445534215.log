@@ -1,0 +1,314 @@
+|j|☆qqingn
+|j|☆Ho-oHTheUnfallen
+|t:|1758364769
+|gametype|singles
+|player|p1|qqingn|dawn|1009
+|player|p2|Ho-oHTheUnfallen|hilda|1000
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Mamoswine, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Heatran, F|
+|poke|p1|Tyranitar, M|
+|poke|p2|Dodrio, M|
+|poke|p2|Granbull, M|
+|poke|p2|Articuno|
+|poke|p2|Farigiraf, M|
+|poke|p2|Lilligant, F|
+|poke|p2|Misdreavus, F|
+|teampreview
+|
+|t:|1758364786
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Granbull|Granbull, M|100/100
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|turn|1
+|
+|t:|1758364794
+|move|p1a: Heatran|Overheat|p2a: Granbull
+|-damage|p2a: Granbull|7/100
+|-unboost|p1a: Heatran|spa|2
+|move|p2a: Granbull|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Granbull|def|1
+|-unboost|p2a: Granbull|spd|1
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1758364801
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|2
+|
+|t:|1758364808
+|move|p1a: Rillaboom|Grassy Glide|p2a: Granbull
+|-damage|p2a: Granbull|0 fnt
+|faint|p2a: Granbull
+|
+|upkeep
+|
+|t:|1758364815
+|switch|p2a: Lilligant|Lilligant, F|100/100
+|turn|3
+|
+|t:|1758364839
+|-terastallize|p2a: Lilligant|Fire
+|move|p2a: Lilligant|Tera Blast|p1a: Rillaboom|[anim] Tera Blast Fire
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|44/100
+|move|p1a: Rillaboom|Knock Off|p2a: Lilligant
+|-damage|p2a: Lilligant|57/100
+|-damage|p1a: Rillaboom|27/100|[from] item: Rocky Helmet|[of] p2a: Lilligant
+|-enditem|p2a: Lilligant|Rocky Helmet|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-heal|p2a: Lilligant|63/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|33/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1758364853
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lilligant|57/100|[from] Sandstorm
+|-heal|p2a: Lilligant|63/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1758364871
+|move|p2a: Lilligant|Pollen Puff|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|57/100
+|move|p1a: Tyranitar|Earthquake|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-crit|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|63/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758364889
+|switch|p2a: Misdreavus|Misdreavus, F|100/100
+|turn|6
+|
+|t:|1758364898
+|move|p2a: Misdreavus|Spite|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Spite|Earthquake|4
+|move|p1a: Tyranitar|Stone Edge|p2a: Misdreavus|[miss]
+|-miss|p1a: Tyranitar|p2a: Misdreavus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Misdreavus|94/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|69/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1758364912
+|move|p2a: Misdreavus|Spite|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Spite|Stone Edge|4
+|move|p1a: Tyranitar|Stone Edge|p2a: Misdreavus
+|-damage|p2a: Misdreavus|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Misdreavus|28/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1758364921
+|move|p2a: Misdreavus|Destiny Bond|p2a: Misdreavus
+|-singlemove|p2a: Misdreavus|Destiny Bond
+|move|p1a: Tyranitar|Crunch|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-crit|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|faint|p2a: Misdreavus
+|-activate|p2a: Misdreavus|move: Destiny Bond
+|faint|p1a: Tyranitar
+|
+|-weather|none
+|upkeep
+|
+|t:|1758364934
+|switch|p2a: Dodrio|Dodrio, M|100/100
+|switch|p1a: Rillaboom|Rillaboom, M|33/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|9
+|
+|t:|1758364945
+|move|p2a: Dodrio|Lunge|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|t:|1758364958
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|turn|10
+|
+|t:|1758364964
+|move|p2a: Dodrio|Lunge|p1a: Mamoswine
+|-damage|p1a: Mamoswine|75/100
+|-unboost|p1a: Mamoswine|atk|1
+|move|p1a: Mamoswine|Rock Blast|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|76/100
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|52/100
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|28/100
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|6/100
+|-hitcount|p2a: Dodrio|4
+|
+|-heal|p1a: Mamoswine|81/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1758364979
+|move|p1a: Mamoswine|Ice Shard|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|faint|p2a: Dodrio
+|
+|-heal|p1a: Mamoswine|87/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758364987
+|switch|p2a: Articuno|Articuno|100/100
+|-ability|p2a: Articuno|Pressure
+|turn|12
+|
+|t:|1758364994
+|move|p2a: Articuno|Ancient Power|p1a: Mamoswine
+|-damage|p1a: Mamoswine|61/100
+|-damage|p2a: Articuno|91/100|[from] item: Life Orb
+|move|p1a: Mamoswine|Rock Blast|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|63/100
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|34/100
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|6/100
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|-hitcount|p2: Articuno|4
+|
+|-heal|p1a: Mamoswine|67/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758365007
+|switch|p2a: Farigiraf|Farigiraf, M|100/100
+|turn|13
+|
+|t:|1758365018
+|move|p1a: Mamoswine|Icicle Spear|p2a: Farigiraf
+|-damage|p2a: Farigiraf|91/100
+|-damage|p2a: Farigiraf|80/100
+|-damage|p2a: Farigiraf|71/100
+|-damage|p2a: Farigiraf|61/100
+|-hitcount|p2a: Farigiraf|4
+|move|p2a: Farigiraf|Calm Mind|p2a: Farigiraf
+|-boost|p2a: Farigiraf|spa|1
+|-boost|p2a: Farigiraf|spd|1
+|
+|-heal|p1a: Mamoswine|73/100|[from] Grassy Terrain
+|-heal|p2a: Farigiraf|67/100|[from] Grassy Terrain
+|-heal|p2a: Farigiraf|73/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1758365041
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Farigiraf|Twin Beam|p1a: Dragonite
+|-damage|p1a: Dragonite|84/100
+|-damage|p1a: Dragonite|53/100
+|-hitcount|p1a: Dragonite|2
+|
+|-heal|p2a: Farigiraf|80/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758365054
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed||[still]
+|cant|p2a: Farigiraf|ability: Armor Tail|Extreme Speed|[of] p1a: Dragonite
+|move|p2a: Farigiraf|Twin Beam|p1a: Dragonite
+|-damage|p1a: Dragonite|21/100
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|-hitcount|p1: Dragonite|2
+|
+|-heal|p2a: Farigiraf|86/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758365061
+|switch|p1a: Mamoswine|Mamoswine, M|73/100
+|turn|16
+|c|☆Ho-oHTheUnfallen|armor tail abby
+|c|☆Ho-oHTheUnfallen|baby
+|
+|t:|1758365073
+|move|p1a: Mamoswine|Rock Blast|p2a: Farigiraf
+|-damage|p2a: Farigiraf|75/100
+|-damage|p2a: Farigiraf|66/100
+|-crit|p2a: Farigiraf
+|-damage|p2a: Farigiraf|50/100
+|-damage|p2a: Farigiraf|40/100
+|-damage|p2a: Farigiraf|30/100
+|-hitcount|p2a: Farigiraf|5
+|move|p2a: Farigiraf|Twin Beam|p1a: Mamoswine
+|-damage|p1a: Mamoswine|34/100
+|-crit|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|-hitcount|p1: Mamoswine|2
+|
+|-heal|p2a: Farigiraf|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758365078
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|17
+|
+|t:|1758365090
+|move|p2a: Farigiraf|Hyper Beam|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-mustrecharge|p2a: Farigiraf
+|faint|p1a: Conkeldurr
+|
+|win|Ho-oHTheUnfallen
+|raw|qqingn's rating: 1009 &rarr; <strong>1000</strong><br />(-9 for losing)
+|raw|Ho-oHTheUnfallen's rating: 1000 &rarr; <strong>1041</strong><br />(+41 for winning)
+|c|☆Ho-oHTheUnfallen|gg
+|l|☆qqingn
+|player|p1|

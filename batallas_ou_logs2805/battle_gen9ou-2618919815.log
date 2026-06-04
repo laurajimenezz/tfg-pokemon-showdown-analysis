@@ -1,0 +1,259 @@
+|j|☆Originalfake
+|j|☆FullMountain
+|t:|1779861604
+|gametype|singles
+|player|p1|Originalfake|backers|1130
+|player|p2|FullMountain|169|1084
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Snorlax, F|
+|poke|p1|Politoed, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Galvantula, F|
+|poke|p1|Araquanid, F|
+|poke|p1|Corviknight, F|
+|poke|p2|Great Tusk|
+|poke|p2|Walking Wake|
+|poke|p2|Kingambit, M|
+|poke|p2|Venusaur, F|
+|poke|p2|Ninetales, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1779861631
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|turn|1
+|
+|t:|1779861642
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-item|p2a: Raging Bolt|Air Balloon
+|move|p1a: Araquanid|Stockpile|p1a: Araquanid
+|-start|p1a: Araquanid|stockpile1
+|-boost|p1a: Araquanid|def|1
+|-boost|p1a: Araquanid|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1779861650
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Araquanid|Liquidation|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|74/100
+|-enditem|p2a: Raging Bolt|Air Balloon
+|
+|upkeep
+|turn|3
+|
+|t:|1779861714
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Gliscor
+|-immune|p1a: Gliscor
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1779861726
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p1a: Gliscor|Earthquake|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|41/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Gliscor
+|-damage|p1a: Gliscor|2/100 tox
+|
+|-heal|p1a: Gliscor|15/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1779861756
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Snorlax
+|-damage|p1a: Snorlax|59/100
+|
+|upkeep
+|turn|6
+|
+|t:|1779861766
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|15/100
+|move|p1a: Snorlax|Body Slam|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|5/100
+|-status|p2a: Raging Bolt|par
+|
+|upkeep
+|turn|7
+|
+|t:|1779861773
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|-enditem|p1a: Snorlax|Chesto Berry|[eat]
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|8
+|
+|t:|1779861783
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1779861798
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|69/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1779861806
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Araquanid|Liquidation|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|26/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779861813
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|move|p1a: Araquanid|Liquidation|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|78/100
+|-unboost|p2a: Venusaur|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1779861824
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|1
+|-boost|p2a: Venusaur|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1779861834
+|move|p2a: Venusaur|Giga Drain|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-heal|p2a: Venusaur|100/100|[from] drain|[of] p1a: Politoed
+|faint|p1a: Politoed
+|-damage|p2a: Venusaur|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779861847
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|turn|14
+|
+|t:|1779861850
+|move|p2a: Venusaur|Weather Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|26/100
+|-damage|p2a: Venusaur|81/100|[from] item: Life Orb
+|move|p1a: Corviknight|Nasty Plot|p1a: Corviknight
+|-boost|p1a: Corviknight|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Corviknight|32/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1779861854
+|move|p2a: Venusaur|Weather Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|-damage|p2a: Venusaur|71/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779861857
+|switch|p1a: Gliscor|Gliscor, M|15/100 tox
+|turn|16
+|
+|t:|1779861875
+|move|p1a: Gliscor|Acrobatics|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-weather|none
+|-heal|p1a: Gliscor|27/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1779861878
+|switch|p2a: Ninetales|Ninetales, F|26/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|17
+|
+|t:|1779861883
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|move|p2a: Ninetales|Weather Ball|p1a: Snorlax
+|-damage|p1a: Snorlax|90/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1779861893
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Snorlax|Body Slam|p2a: Great Tusk
+|-damage|p2a: Great Tusk|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1779861908
+|move|p2a: Great Tusk|Close Combat|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Snorlax
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Originalfake forfeited.
+|
+|win|FullMountain
+|raw|Originalfake's rating: 1130 &rarr; <strong>1102</strong><br />(-28 for losing)
+|raw|FullMountain's rating: 1084 &rarr; <strong>1115</strong><br />(+31 for winning)
+|l|☆Originalfake
+|player|p1|

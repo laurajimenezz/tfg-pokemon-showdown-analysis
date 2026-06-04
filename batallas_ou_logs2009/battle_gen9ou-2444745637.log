@@ -1,0 +1,153 @@
+|j|☆zhar99
+|j|☆DeCompaniu
+|t:|1758260609
+|gametype|singles
+|player|p1|zhar99|170|1297
+|player|p2|DeCompaniu|richboy|1253
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Toxicroak, M|
+|poke|p1|Araquanid, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Primarina, F|
+|poke|p1|Iron Treads|
+|poke|p1|Ceruledge, F|
+|poke|p2|Greedent, F|
+|poke|p2|Malamar, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Glimmora, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Polteageist-Antique|
+|teampreview
+|
+|t:|1758260635
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1758260648
+|move|p1a: Iron Treads|Stealth Rock|p2a: Indeedee
+|-sidestart|p2: DeCompaniu|move: Stealth Rock
+|move|p2a: Indeedee|Trick|p1a: Iron Treads
+|-activate|p2a: Indeedee|move: Trick|[of] p1a: Iron Treads
+|-item|p1a: Iron Treads|Choice Scarf|[from] move: Trick
+|-enditem|p2a: Indeedee|Choice Scarf|[silent]|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|t:|1758260656
+|move|p1a: Iron Treads|Volt Switch|p2a: Indeedee
+|-damage|p2a: Indeedee|79/100
+|
+|t:|1758260668
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Araquanid|Araquanid, M|100/100|[from] Volt Switch
+|move|p2a: Indeedee|Expanding Force|p1a: Araquanid
+|-damage|p1a: Araquanid|59/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758260676
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|-damage|p2a: Glimmora|88/100|[from] Stealth Rock
+|move|p1a: Araquanid|Sticky Web|p2a: Glimmora
+|-sidestart|p2: DeCompaniu|move: Sticky Web
+|
+|upkeep
+|turn|4
+|
+|t:|1758260685
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Glimmora|Stealth Rock|p1a: Iron Treads
+|-sidestart|p1: zhar99|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1758260692
+|switch|p2a: Polteageist|Polteageist-Antique|100/100
+|-damage|p2a: Polteageist|88/100|[from] Stealth Rock
+|-activate|p2a: Polteageist|move: Sticky Web
+|-unboost|p2a: Polteageist|spe|1
+|move|p1a: Iron Treads|Earth Power|p2a: Polteageist
+|-damage|p2a: Polteageist|48/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1758260702
+|move|p1a: Iron Treads|Earth Power|p2a: Polteageist
+|-damage|p2a: Polteageist|13/100
+|move|p2a: Polteageist|Will-O-Wisp|p1a: Iron Treads|[miss]
+|-miss|p2a: Polteageist|p1a: Iron Treads
+|
+|upkeep
+|turn|7
+|
+|t:|1758260710
+|move|p1a: Iron Treads|Earth Power|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|upkeep
+|
+|t:|1758260723
+|switch|p2a: Indeedee|Indeedee, M|79/100
+|-damage|p2a: Indeedee|67/100|[from] Stealth Rock
+|-activate|p2a: Indeedee|move: Sticky Web
+|-unboost|p2a: Indeedee|spe|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|8
+|
+|t:|1758260743
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|-damage|p2a: Hawlucha|88/100|[from] Stealth Rock
+|-enditem|p2a: Hawlucha|Psychic Seed
+|-boost|p2a: Hawlucha|spd|1|[from] item: Psychic Seed
+|
+|upkeep
+|turn|9
+|
+|t:|1758260755
+|-terastallize|p1a: Toxicroak|Ground
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Toxicroak|Ice Punch|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|-damage|p1a: Toxicroak|85/100|[from] item: Life Orb
+|
+|upkeep
+|-message|DeCompaniu forfeited.
+|
+|win|zhar99
+|raw|zhar99's rating: 1297 &rarr; <strong>1319</strong><br />(+22 for winning)
+|raw|DeCompaniu's rating: 1253 &rarr; <strong>1231</strong><br />(-22 for losing)
+|l|☆DeCompaniu
+|player|p2|
+|l|☆zhar99
+|player|p1|

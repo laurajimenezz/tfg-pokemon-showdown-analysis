@@ -1,0 +1,279 @@
+|j|☆ccncn123
+|j|☆oreoinabox
+|t:|1758344382
+|gametype|singles
+|player|p1|ccncn123|170|1357
+|player|p2|oreoinabox|170|1332
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Hydreigon, M|
+|poke|p1|Moltres|
+|poke|p1|Iron Treads|
+|poke|p1|Alomomola, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Iron Thorns|
+|poke|p2|Meowscarada, M|
+|poke|p2|Araquanid, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Darkrai|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by oreoinabox)
+|
+|t:|1758344390
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Iron Thorns|Iron Thorns|100/100
+|-enditem|p2a: Iron Thorns|Booster Energy
+|-activate|p2a: Iron Thorns|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Thorns|quarkdriveatk
+|turn|1
+|
+|t:|1758344399
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-item|p1a: Iron Treads|Air Balloon
+|-end|p2a: Iron Thorns|Quark Drive|[silent]
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758344411
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Araquanid|Liquidation|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|79/100
+|-damage|p2a: Araquanid|84/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|upkeep
+|turn|3
+|
+|t:|1758344417
+|move|p1a: Alomomola|Flip Turn|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-crit|p2a: Araquanid
+|-damage|p2a: Araquanid|70/100
+|
+|t:|1758344422
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] Flip Turn
+|-item|p1a: Iron Treads|Air Balloon
+|move|p2a: Araquanid|Sticky Web|p1a: Iron Treads
+|-sidestart|p1: ccncn123|move: Sticky Web
+|
+|upkeep
+|turn|4
+|
+|t:|1758344428
+|move|p1a: Iron Treads|Stealth Rock|p2a: Araquanid
+|-sidestart|p2: oreoinabox|move: Stealth Rock
+|move|p2a: Araquanid|Liquidation|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-enditem|p1a: Iron Treads|Air Balloon
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758344435
+|switch|p1a: Moltres|Moltres|100/100
+|turn|5
+|
+|t:|1758344439
+|move|p1a: Moltres|Hurricane|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1758344446
+|switch|p2a: Iron Thorns|Iron Thorns|100/100
+|-damage|p2a: Iron Thorns|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1758344453
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-activate|p1a: Alomomola|move: Sticky Web
+|-unboost|p1a: Alomomola|spe|1
+|move|p2a: Iron Thorns|Dragon Dance|p2a: Iron Thorns
+|-boost|p2a: Iron Thorns|atk|1
+|-boost|p2a: Iron Thorns|spe|1
+|
+|upkeep
+|turn|7
+|
+|t:|1758344461
+|move|p2a: Iron Thorns|Supercell Slam|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|-damage|p2a: Iron Thorns|72/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1758344467
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|8
+|
+|t:|1758344473
+|move|p1a: Hydreigon|Earth Power|p2a: Iron Thorns
+|-supereffective|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|0 fnt
+|faint|p2a: Iron Thorns
+|-end|p2a: Iron Thorns|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758344480
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1758344486
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: Dragonite|Outrage|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1758344494
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|10
+|
+|t:|1758344496
+|move|p1a: Hydreigon|Draco Meteor|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1758344501
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|11
+|
+|t:|1758344505
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|
+|upkeep
+|turn|12
+|
+|t:|1758344511
+|move|p2a: Darkrai|Dark Pulse|p1a: Moltres
+|-damage|p1a: Moltres|15/100
+|cant|p1a: Moltres|flinch
+|
+|upkeep
+|turn|13
+|
+|t:|1758344516
+|move|p2a: Darkrai|Dark Pulse|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1758344524
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|14
+|
+|t:|1758344534
+|move|p1a: Hydreigon|Draco Meteor|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1758344542
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|-damage|p2a: Meowscarada|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1758344549
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Meowscarada|Knock Off|p1a: Gholdengo
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|5/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|16
+|
+|t:|1758344554
+|move|p2a: Meowscarada|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1758344556
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|17
+|
+|t:|1758344564
+|move|p1a: Hydreigon|Dark Pulse|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|51/100
+|move|p2a: Meowscarada|Knock Off|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|64/100
+|-enditem|p1a: Hydreigon|Choice Scarf|[from] move: Knock Off|[of] p2a: Meowscarada
+|
+|upkeep
+|turn|18
+|
+|t:|1758344572
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|-damage|p2a: Ceruledge|76/100|[from] Stealth Rock
+|-item|p2a: Ceruledge|Air Balloon
+|-terastallize|p1a: Hydreigon|Fairy
+|move|p1a: Hydreigon|Dark Pulse|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|-enditem|p2a: Ceruledge|Air Balloon
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1758344574
+|switch|p2a: Meowscarada|Meowscarada, M|51/100
+|-damage|p2a: Meowscarada|38/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1758344577
+|-terastallize|p2a: Meowscarada|Grass
+|move|p2a: Meowscarada|Flower Trick|p1a: Hydreigon
+|-crit|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|win|oreoinabox
+|raw|ccncn123's rating: 1357 &rarr; <strong>1336</strong><br />(-21 for losing)
+|raw|oreoinabox's rating: 1332 &rarr; <strong>1353</strong><br />(+21 for winning)
+|l|☆ccncn123
+|player|p1|
+|l|☆oreoinabox
+|player|p2|

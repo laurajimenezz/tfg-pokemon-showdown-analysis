@@ -1,0 +1,208 @@
+|j|☆driderwebs
+|j|☆GummyDeino
+|t:|1758243692
+|gametype|singles
+|player|p1|driderwebs|266|1638
+|player|p2|GummyDeino|265|1608
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Garganacl, M|
+|poke|p1|Moltres|
+|poke|p1|Iron Treads|
+|poke|p1|Meowscarada, F|
+|poke|p1|Araquanid, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Iron Hands|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Mimikyu, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GummyDeino)
+|
+|t:|1758243702
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|switch|p2a: Machine|Iron Hands, shiny|100/100
+|-enditem|p2a: Machine|Booster Energy
+|-activate|p2a: Machine|ability: Quark Drive|[fromitem]
+|-start|p2a: Machine|quarkdriveatk
+|turn|1
+|
+|t:|1758243716
+|move|p1a: Meowscarada|U-turn|p2a: Machine
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Machine
+|-damage|p2a: Machine|84/100
+|
+|t:|1758243722
+|switch|p1a: Garganacl|Garganacl, M|100/100|[from] U-turn
+|move|p2a: Machine|Close Combat|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|4/100
+|-unboost|p2a: Machine|def|1
+|-unboost|p2a: Machine|spd|1
+|
+|-heal|p1a: Garganacl|10/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1758243733
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Machine|Heavy Slam|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|16/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1758243742
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Machine|Supercell Slam|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1758243748
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|4
+|
+|t:|1758243754
+|-terastallize|p2a: Machine|Fire
+|move|p1a: Iron Valiant|Moonblast|p2a: Machine
+|-resisted|p2a: Machine
+|-damage|p2a: Machine|57/100
+|move|p2a: Machine|Heavy Slam|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758243759
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|turn|5
+|
+|t:|1758243767
+|-end|p2a: Machine|Quark Drive|[silent]
+|switch|p2a: Mimi|Mimikyu, F, shiny|100/100
+|move|p1a: Iron Treads|Earthquake|p2a: Mimi
+|-activate|p2a: Mimi|ability: Disguise
+|-damage|p2a: Mimi|100/100
+|detailschange|p2a: Mimi|Mimikyu-Busted, F, shiny
+|-damage|p2a: Mimi|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Mimi|Red Card|[of] p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|drag|p1a: Meowscarada|Meowscarada, F|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1758243780
+|move|p1a: Meowscarada|Flower Trick|p2a: Mimi
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p2a: Mimi
+|-damage|p2a: Mimi|20/100
+|move|p2a: Mimi|Trick Room|p2a: Mimi
+|-fieldstart|move: Trick Room|[of] p2a: Mimi
+|
+|upkeep
+|turn|7
+|
+|t:|1758243789
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Mimi|Destiny Bond|p2a: Mimi
+|-singlemove|p2a: Mimi|Destiny Bond
+|
+|upkeep
+|turn|8
+|
+|t:|1758243799
+|move|p2a: Mimi|Curse|p1a: Iron Treads
+|-start|p1a: Iron Treads|Curse|[of] p2a: Mimi
+|-damage|p2a: Mimi|0 fnt
+|faint|p2a: Mimi
+|move|p1a: Iron Treads|Earthquake|p2: Mimi|[notarget]
+|-fail|p1a: Iron Treads
+|
+|-damage|p1a: Iron Treads|76/100|[from] Curse
+|upkeep
+|
+|t:|1758243808
+|switch|p2a: Machine|Iron Hands, shiny, tera:Fire|57/100
+|turn|9
+|
+|t:|1758243818
+|move|p2a: Machine|Close Combat|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-unboost|p2a: Machine|def|1
+|-unboost|p2a: Machine|spd|1
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758243822
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|turn|10
+|
+|t:|1758243830
+|-end|p2a: Machine|Quark Drive|[silent]
+|switch|p2a: Scientist|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Scientist
+|move|p1a: Araquanid|Liquidation|p2a: Scientist
+|-damage|p2a: Scientist|27/100
+|-unboost|p2a: Scientist|def|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1758243840
+|move|p2a: Scientist|Healing Wish|p2a: Scientist
+|faint|p2a: Scientist
+|move|p1a: Araquanid|Leech Life|p2: Scientist|[notarget]
+|-fail|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1758243845
+|switch|p2a: Machine|Iron Hands, shiny, tera:Fire|57/100
+|-heal|p2a: Machine|100/100|[from] move: Healing Wish
+|turn|12
+|
+|t:|1758243850
+|move|p2a: Machine|Supercell Slam|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|-message|driderwebs forfeited.
+|
+|win|GummyDeino
+|raw|driderwebs's rating: 1638 &rarr; <strong>1616</strong><br />(-22 for losing)
+|raw|GummyDeino's rating: 1608 &rarr; <strong>1630</strong><br />(+22 for winning)
+|l|☆driderwebs
+|player|p1|

@@ -1,0 +1,355 @@
+|j|☆Permanultimatum
+|j|☆Ulxington
+|t:|1769385286
+|gametype|singles
+|player|p1|Permanultimatum|scientist-gen4|1347
+|player|p2|Ulxington|unknown|1344
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Jirachi|
+|poke|p1|Hydrapple, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Slither Wing|
+|poke|p1|Rotom-Heat|
+|poke|p2|Kingambit, F|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Great Tusk|
+|poke|p2|Dragonite, M|
+|poke|p2|Iron Moth|
+|poke|p2|Primarina, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ulxington)
+|
+|t:|1769385303
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|switch|p2a: Primarina|Primarina, M|100/100
+|turn|1
+|
+|t:|1769385324
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Primarina|Moonblast|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|68/100
+|-unboost|p1a: Rotom|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1769385333
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Rotom|Volt Switch|p2a: Iron Moth
+|-damage|p2a: Iron Moth|77/100
+|
+|t:|1769385338
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|3
+|
+|t:|1769385345
+|move|p2a: Iron Moth|Toxic Spikes|p1a: Hoopa
+|-sidestart|p1: Permanultimatum|move: Toxic Spikes
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|-unboost|p1a: Hoopa|def|1
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|-damage|p1a: Hoopa|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1769385355
+|switch|p2a: Kingambit|Kingambit, F, shiny|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|4
+|
+|t:|1769385360
+|move|p2a: Kingambit|Sucker Punch|p1a: Hoopa
+|-damage|p1a: Hoopa|26/100
+|move|p1a: Hoopa|Drain Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|1/100
+|-heal|p1a: Hoopa|79/100|[from] drain|[of] p2a: Kingambit
+|-damage|p1a: Hoopa|69/100|[from] item: Life Orb
+|
+|-heal|p2a: Kingambit|7/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1769385368
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|
+|upkeep
+|turn|6
+|
+|t:|1769385377
+|move|p2a: Great Tusk|Rapid Spin|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|88/100
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Mandibuzz|Whirlwind|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|drag|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|
+|upkeep
+|turn|7
+|
+|t:|1769385381
+|move|p2a: Deoxys|Nasty Plot|p2a: Deoxys
+|-boost|p2a: Deoxys|spa|2
+|move|p1a: Mandibuzz|Defog|p2a: Deoxys
+|-unboost|p2a: Deoxys|evasion|1
+|-sideend|p1: Permanultimatum|Toxic Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|8
+|
+|t:|1769385388
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|move|p2a: Deoxys|Focus Blast|p1a: Slither Wing
+|-resisted|p1a: Slither Wing
+|-damage|p1a: Slither Wing|61/100
+|-damage|p2a: Deoxys|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1769385391
+|move|p1a: Slither Wing|First Impression|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|
+|t:|1769385396
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|10
+|
+|t:|1769385402
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100
+|move|p2a: Dragonite|Outrage|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|29/100
+|
+|upkeep
+|turn|11
+|
+|t:|1769385410
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: Dragonite|Outrage|p1a: Jirachi|[from] lockedmove
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|49/100
+|-start|p2a: Dragonite|confusion|[fatigue]
+|
+|upkeep
+|turn|12
+|
+|t:|1769385417
+|move|p1a: Jirachi|Doom Desire|p2a: Dragonite
+|-start|p1a: Jirachi|Doom Desire
+|-activate|p2a: Dragonite|confusion
+|move|p2a: Dragonite|Outrage|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|upkeep
+|l|☆Ulxington
+|inactive|Ulxington disconnected and has a minute to reconnect!
+|player|p2|
+|
+|t:|1769385444
+|switch|p1a: Rotom|Rotom-Heat|68/100
+|turn|13
+|inactive|Ulxington has 30 seconds to reconnect!
+|j|☆Ulxington
+|inactive|Ulxington reconnected and has 115 seconds left.
+|player|p2|Ulxington|unknown|
+|
+|t:|1769385481
+|move|p1a: Rotom|Will-O-Wisp|p2a: Dragonite
+|-status|p2a: Dragonite|brn
+|-end|p2a: Dragonite|confusion
+|move|p2a: Dragonite|Outrage|p1a: Rotom|[from] lockedmove
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-start|p2a: Dragonite|confusion|[fatigue]
+|
+|-damage|p2a: Dragonite|94/100 brn|[from] brn
+|upkeep
+|inactive|Permanultimatum has 120 seconds left.
+|l|☆Ulxington
+|inactive|Ulxington disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Permanultimatum has 90 seconds left.
+|
+|t:|1769385534
+|switch|p1a: Hydrapple|Hydrapple, F|100/100
+|turn|14
+|inactive|Permanultimatum has 90 seconds left.
+|j|☆Ulxington
+|inactive|Ulxington reconnected and has 115 seconds left.
+|player|p2|Ulxington|unknown|
+|
+|t:|1769385551
+|-terastallize|p1a: Hydrapple|Steel
+|-activate|p2a: Dragonite|confusion
+|-damage|p2a: Dragonite|78/100 brn|[from] confusion
+|move|p1a: Hydrapple|Leaf Storm|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|61/100 brn
+|-unboost|p1a: Hydrapple|spa|2
+|
+|-end|p2a: Dragonite|move: Doom Desire
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|upkeep
+|
+|t:|1769385565
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|15
+|inactive|Permanultimatum has 90 seconds left.
+|
+|t:|1769385582
+|switch|p1a: Slither Wing|Slither Wing|61/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Slither Wing
+|-damage|p1a: Slither Wing|42/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|upkeep
+|turn|16
+|
+|t:|1769385591
+|move|p2a: Great Tusk|Headlong Rush|p1a: Slither Wing
+|-resisted|p1a: Slither Wing
+|-damage|p1a: Slither Wing|5/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Slither Wing|Close Combat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Slither Wing|def|1
+|-unboost|p1a: Slither Wing|spd|1
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769385599
+|switch|p2a: Primarina|Primarina, M|100/100
+|turn|17
+|inactive|Ulxington has 120 seconds left.
+|
+|t:|1769385609
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Hydrapple|Hydrapple, F, tera:Steel|100/100
+|move|p2a: Primarina|Moonblast|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|84/100
+|
+|upkeep
+|turn|18
+|
+|t:|1769385615
+|-terastallize|p2a: Primarina|Poison
+|move|p2a: Primarina|Surf|p1a: Hydrapple
+|-damage|p1a: Hydrapple|51/100
+|move|p1a: Hydrapple|Leaf Storm|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|80/100
+|-unboost|p1a: Hydrapple|spa|2
+|
+|upkeep
+|turn|19
+|inactive|Permanultimatum has 120 seconds left.
+|
+|t:|1769385625
+|switch|p1a: Mandibuzz|Mandibuzz, F|29/100
+|move|p2a: Primarina|Whirlpool|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|12/100
+|-activate|p1a: Mandibuzz|move: Whirlpool|[of] p2a: Primarina
+|
+|-damage|p1a: Mandibuzz|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p1a: Mandibuzz
+|upkeep
+|inactive|Permanultimatum has 120 seconds left.
+|
+|t:|1769385656
+|switch|p1a: Hoopa|Hoopa-Unbound|69/100
+|turn|20
+|
+|t:|1769385663
+|move|p2a: Primarina|Moonblast|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|upkeep
+|
+|t:|1769385665
+|switch|p1a: Hydrapple|Hydrapple, F, tera:Steel|85/100
+|turn|21
+|
+|t:|1769385671
+|switch|p2a: Kingambit|Kingambit, F, shiny|7/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|move|p1a: Hydrapple|Earth Power|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1769385678
+|switch|p2a: Primarina|Primarina, M, tera:Poison|80/100
+|turn|22
+|
+|t:|1769385681
+|move|p2a: Primarina|Surf|p1a: Hydrapple
+|-damage|p1a: Hydrapple|53/100
+|move|p1a: Hydrapple|Earth Power|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|39/100
+|
+|upkeep
+|turn|23
+|
+|t:|1769385683
+|move|p2a: Primarina|Surf|p1a: Hydrapple
+|-damage|p1a: Hydrapple|20/100
+|move|p1a: Hydrapple|Earth Power|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|win|Permanultimatum
+|raw|Permanultimatum's rating: 1347 &rarr; <strong>1367</strong><br />(+20 for winning)
+|raw|Ulxington's rating: 1344 &rarr; <strong>1324</strong><br />(-20 for losing)
+|l|☆Ulxington
+|player|p2|
+|c|☆Permanultimatum|gg

@@ -1,0 +1,433 @@
+|j|☆emellano
+|j|☆bug fan5762
+|t:|1779573315
+|gametype|singles
+|player|p1|emellano|266|1568
+|player|p2|bug fan5762|byron|1647
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Inteleon, F|
+|poke|p1|Iron Treads|
+|poke|p1|Ceruledge, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Haxorus, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Yanmega, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Alomomola, M|
+|poke|p2|Regieleki|
+|poke|p2|Hatterene, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by emellano)
+|
+|t:|1779573353
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Inteleon|Inteleon, F|100/100
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|turn|1
+|
+|t:|1779573359
+|move|p1a: Inteleon|Light Screen|p1a: Inteleon
+|-sidestart|p1: emellano|move: Light Screen
+|move|p2a: Alomomola|Flip Turn|p1a: Inteleon
+|-resisted|p1a: Inteleon
+|-damage|p1a: Inteleon|89/100
+|
+|t:|1779573367
+|switch|p2a: Regieleki|Regieleki|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|2
+|
+|t:|1779573375
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Regieleki|Thunderbolt|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|upkeep
+|turn|3
+|
+|t:|1779573380
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: bug fan5762|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1779573386
+|move|p1a: Iron Treads|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|85/100
+|-enditem|p2a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Iron Treads
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|5
+|
+|t:|1779573393
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Hatterene|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|6
+|
+|t:|1779573400
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Hatterene|Nuzzle|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|upkeep
+|turn|7
+|
+|t:|1779573405
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|move|p1a: Iron Treads|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|77/100
+|
+|upkeep
+|turn|8
+|
+|t:|1779573409
+|move|p1a: Iron Treads|Earthquake|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|42/100
+|move|p2a: Alomomola|Flip Turn|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|72/100
+|
+|t:|1779573412
+|switch|p2a: Garchomp|Garchomp, F|100/100|[from] Flip Turn
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|
+|-sideend|p1: emellano|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1779573420
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Inteleon|Inteleon, F|89/100
+|move|p2a: Garchomp|Earthquake|p1a: Inteleon
+|-damage|p1a: Inteleon|33/100
+|
+|upkeep
+|turn|10
+|
+|t:|1779573425
+|switch|p2a: Alomomola|Alomomola, M|75/100
+|-damage|p2a: Alomomola|63/100|[from] Stealth Rock
+|move|p1a: Inteleon|Reflect|p1a: Inteleon
+|-sidestart|p1: emellano|Reflect
+|
+|upkeep
+|turn|11
+|
+|t:|1779573430
+|move|p1a: Inteleon|Taunt|p2a: Alomomola
+|-start|p2a: Alomomola|move: Taunt
+|cant|p2a: Alomomola|move: Taunt|Wish
+|
+|upkeep
+|turn|12
+|
+|t:|1779573434
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|move|p1a: Inteleon|Light Screen|p1a: Inteleon
+|-sidestart|p1: emellano|move: Light Screen
+|
+|-heal|p2a: Hatterene|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1779573448
+|move|p1a: Inteleon|Scald|p2a: Hatterene
+|-damage|p2a: Hatterene|43/100
+|move|p2a: Hatterene|Nuzzle|p1a: Inteleon
+|-supereffective|p1a: Inteleon
+|-damage|p1a: Inteleon|28/100
+|-status|p1a: Inteleon|par
+|
+|-heal|p2a: Hatterene|49/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1779573451
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|move|p1a: Inteleon|Scald|p2a: Ogerpon
+|-heal|p2a: Ogerpon|100/100|[from] ability: Water Absorb|[of] p1a: Inteleon
+|
+|upkeep
+|turn|15
+|
+|t:|1779573457
+|move|p2a: Ogerpon|Knock Off|p1a: Inteleon
+|-damage|p1a: Inteleon|2/100 par
+|-enditem|p1a: Inteleon|Light Clay|[from] move: Knock Off|[of] p2a: Ogerpon
+|move|p1a: Inteleon|Taunt|p2a: Ogerpon
+|-start|p2a: Ogerpon|move: Taunt
+|
+|upkeep
+|turn|16
+|
+|t:|1779573465
+|move|p2a: Ogerpon|U-turn|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|
+|t:|1779573472
+|switch|p2a: Garchomp|Garchomp, F|94/100|[from] U-turn
+|-damage|p2a: Garchomp|88/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1779573490
+|switch|p1a: Haxorus|Haxorus, F|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|17
+|
+|t:|1779573503
+|-terastallize|p1a: Haxorus|Steel
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|move|p2a: Garchomp|Dragon Tail|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|92/100
+|drag|p1a: Ceruledge|Ceruledge, F|100/100
+|-item|p1a: Ceruledge|Air Balloon
+|
+|-sideend|p1: emellano|Reflect
+|upkeep
+|turn|18
+|
+|t:|1779573513
+|move|p1a: Ceruledge|Poltergeist|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Poltergeist|Rocky Helmet
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|5/100
+|move|p2a: Garchomp|Dragon Tail|p1a: Ceruledge
+|-crit|p1a: Ceruledge
+|-damage|p1a: Ceruledge|43/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|-enditem|p1a: Ceruledge|Air Balloon
+|drag|p1a: Iron Treads|Iron Treads|72/100
+|
+|upkeep
+|turn|19
+|
+|t:|1779573519
+|switch|p2a: Alomomola|Alomomola, M|96/100
+|-damage|p2a: Alomomola|84/100|[from] Stealth Rock
+|move|p1a: Iron Treads|Earthquake|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|46/100
+|
+|-sideend|p1: emellano|move: Light Screen
+|upkeep
+|turn|20
+|
+|t:|1779573523
+|move|p1a: Iron Treads|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|20/100
+|move|p2a: Alomomola|Flip Turn|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|41/100
+|
+|t:|1779573527
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] Flip Turn
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|t:|1779573536
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Ogerpon|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|94/100
+|
+|t:|1779573544
+|switch|p2a: Alomomola|Alomomola, M|53/100|[from] U-turn
+|-damage|p2a: Alomomola|41/100|[from] Stealth Rock
+|
+|upkeep
+|turn|22
+|
+|t:|1779573547
+|move|p1a: Zamazenta|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|15/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|23
+|
+|t:|1779573552
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Zamazenta|Close Combat|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|65/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|24
+|
+|t:|1779573556
+|move|p1a: Zamazenta|Light Screen|p1a: Zamazenta
+|-sidestart|p1: emellano|move: Light Screen
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|25
+|
+|t:|1779573560
+|move|p1a: Zamazenta|Crunch|p2a: Alomomola
+|-damage|p2a: Alomomola|54/100
+|move|p2a: Alomomola|Flip Turn|p1a: Zamazenta
+|-damage|p1a: Zamazenta|81/100
+|
+|t:|1779573563
+|switch|p2a: Hatterene|Hatterene, F|49/100|[from] Flip Turn
+|-damage|p2a: Hatterene|37/100|[from] Stealth Rock
+|
+|-heal|p2a: Hatterene|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|26
+|
+|t:|1779573573
+|switch|p1a: Iron Treads|Iron Treads|41/100
+|move|p2a: Hatterene|Nuzzle|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|upkeep
+|turn|27
+|
+|t:|1779573577
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Haxorus|Haxorus, F, tera:Steel|92/100
+|-ability|p1a: Haxorus|Mold Breaker
+|switch|p2a: Alomomola|Alomomola, M|87/100
+|-damage|p2a: Alomomola|75/100|[from] Stealth Rock
+|
+|upkeep
+|turn|28
+|
+|t:|1779573581
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|move|p2a: Alomomola|Flip Turn|p1a: Haxorus
+|-damage|p1a: Haxorus|69/100
+|
+|t:|1779573584
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from] Flip Turn
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Hatterene|94/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1779573586
+|move|p1a: Haxorus|Iron Head|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1779573590
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1779573594
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|move|p2a: Alomomola|Tickle|p1a: Haxorus
+|-unboost|p1a: Haxorus|atk|1
+|-unboost|p1a: Haxorus|def|1
+|
+|upkeep
+|turn|31
+|
+|t:|1779573599
+|move|p1a: Haxorus|Outrage|p2a: Alomomola
+|-damage|p2a: Alomomola|33/100
+|move|p2a: Alomomola|Tickle|p1a: Haxorus
+|-unboost|p1a: Haxorus|atk|1
+|-unboost|p1a: Haxorus|def|1
+|
+|-sideend|p1: emellano|move: Light Screen
+|upkeep
+|turn|32
+|
+|t:|1779573605
+|move|p1a: Haxorus|Outrage|p2a: Alomomola|[from] lockedmove
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1779573615
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|88/100
+|-damage|p2a: Ogerpon|76/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1779573617
+|move|p1a: Haxorus|Outrage|p2a: Ogerpon|[from] lockedmove
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|-start|p1a: Haxorus|confusion|[fatigue]
+|-enditem|p1a: Haxorus|Lum Berry|[eat]
+|-end|p1a: Haxorus|confusion
+|
+|upkeep
+|
+|t:|1779573619
+|switch|p2a: Regieleki|Regieleki|100/100
+|turn|34
+|
+|t:|1779573629
+|move|p1a: Haxorus|Earthquake|p2a: Regieleki
+|-supereffective|p2a: Regieleki
+|-damage|p2a: Regieleki|0 fnt
+|faint|p2a: Regieleki
+|
+|upkeep
+|-message|bug fan5762 forfeited.
+|
+|win|emellano
+|raw|emellano's rating: 1568 &rarr; <strong>1592</strong><br />(+24 for winning)
+|raw|bug fan5762's rating: 1647 &rarr; <strong>1623</strong><br />(-24 for losing)
+|l|☆bug fan5762
+|player|p2|
+|l|☆emellano
+|player|p1|

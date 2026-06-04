@@ -1,0 +1,178 @@
+|j|☆rrfgjhd
+|j|‽Gemelley
+|t:|1779684890
+|gametype|singles
+|player|p1|rrfgjhd|101|1086
+|player|p2|Gemelley|1|1147
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Regieleki|
+|poke|p1|Rillaboom, F|
+|poke|p1|Clefable, F|
+|poke|p1|Iron Treads|
+|poke|p1|Dragonite, F|
+|poke|p1|Garganacl, F|
+|poke|p2|Blaziken, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Pecharunt|
+|poke|p2|Iron Treads|
+|poke|p2|Rotom-Wash|
+|poke|p2|Kommo-o, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gemelley)
+|
+|t:|1779684901
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Regieleki|Regieleki|100/100
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|turn|1
+|
+|t:|1779684911
+|move|p1a: Regieleki|Volt Switch|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|t:|1779684916
+|switch|p1a: Rillaboom|Rillaboom, F|100/100|[from] Volt Switch
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|
+|upkeep
+|
+|t:|1779684924
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|2
+|
+|t:|1779684930
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Pecharunt|Malignant Chain|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|upkeep
+|turn|3
+|
+|t:|1779684943
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Iron Treads|Steel Roller|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|86/100
+|-fieldend|move: Grassy Terrain
+|
+|-heal|p2a: Rotom|92/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1779684958
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Rotom|Hydro Pump|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|79/100
+|
+|-heal|p2a: Rotom|98/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|85/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1779684969
+|move|p2a: Rotom|Shadow Ball|p1a: Rillaboom
+|-damage|p1a: Rillaboom|61/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|-damage|p1a: Rillaboom|37/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|43/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779684984
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|6
+|
+|t:|1779684991
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|68/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|29/100
+|-damage|p1a: Rillaboom|34/100|[from] Recoil
+|
+|-heal|p2a: Kommo-o|35/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|40/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1779685007
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Kommo-o|Boomburst|p1a: Clefable
+|-damage|p1a: Clefable|64/100
+|
+|-heal|p2a: Kommo-o|42/100|[from] Grassy Terrain
+|-heal|p1a: Clefable|70/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1779685022
+|move|p2a: Kommo-o|Boomburst|p1a: Clefable
+|-damage|p1a: Clefable|35/100
+|-enditem|p1a: Clefable|Sitrus Berry|[eat]
+|-heal|p1a: Clefable|60/100|[from] item: Sitrus Berry
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p2a: Kommo-o|48/100|[from] Grassy Terrain
+|-heal|p1a: Clefable|66/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1779685031
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|15/100
+|move|p1a: Clefable|Night Shade|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|-heal|p1a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|l|‽Gemelley
+|inactive|Gemelley disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Gemelley has 30 seconds to reconnect!
+|l|☆rrfgjhd
+|inactive|rrfgjhd disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|Gemelley has 20 seconds to reconnect!
+|inactive|Gemelley has 15 seconds to reconnect!
+|inactive|Gemelley has 10 seconds to reconnect!
+|inactive|Gemelley has 5 seconds to reconnect!
+|-message|Gemelley lost due to inactivity.
+|
+|win|rrfgjhd
+|raw|rrfgjhd's rating: 1086 &rarr; <strong>1118</strong><br />(+32 for winning)
+|raw|Gemelley's rating: 1147 &rarr; <strong>1118</strong><br />(-29 for losing)

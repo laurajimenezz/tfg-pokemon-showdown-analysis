@@ -1,0 +1,517 @@
+|j|☆rjhrhfhfhfh
+|j|☆nonotheslap
+|t:|1779937992
+|gametype|singles
+|player|p1|rjhrhfhfhfh|cyrus|1026
+|player|p2|nonotheslap|n|1028
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Yanmega, F|
+|poke|p1|Smeargle, F|
+|poke|p1|Walking Wake|
+|poke|p1|Kingambit, F|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Clefable, F|
+|poke|p2|Incineroar, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Tornadus, M|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1779938008
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|turn|1
+|
+|t:|1779938016
+|move|p1a: Kingambit|Nasty Plot|p1a: Kingambit
+|-boost|p1a: Kingambit|spa|2
+|move|p2a: Rotom|Will-O-Wisp|p1a: Kingambit
+|-status|p1a: Kingambit|brn
+|
+|-damage|p1a: Kingambit|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1779938047
+|move|p1a: Kingambit|Hyper Voice|p2a: Rotom
+|-damage|p2a: Rotom|2/100
+|move|p2a: Rotom|Hydro Pump|p1a: Kingambit
+|-damage|p1a: Kingambit|20/100 brn
+|replace|p1a: Zoroark|Zoroark-Hisui, M
+|-end|p1a: Zoroark|Illusion
+|
+|-heal|p2a: Rotom|8/100|[from] item: Leftovers
+|-damage|p1a: Zoroark|14/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1779938060
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Zoroark|Hyper Voice|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-heal|p2a: Rotom|14/100|[from] item: Leftovers
+|-damage|p1a: Zoroark|8/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1779938075
+|move|p2a: Rotom|Protect||[still]
+|-fail|p2a: Rotom
+|move|p1a: Zoroark|Hyper Voice|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Zoroark|2/100 brn|[from] brn
+|upkeep
+|
+|t:|1779938107
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|5
+|
+|t:|1779938126
+|move|p2a: Rillaboom|Grassy Glide|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|t:|1779938137
+|switch|p1a: Clefable|Clefable, F|100/100
+|turn|6
+|
+|t:|1779938169
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|move|p1a: Clefable|Thunder Wave|p2a: Tornadus
+|-status|p2a: Tornadus|par
+|
+|upkeep
+|turn|7
+|
+|t:|1779938179
+|move|p2a: Tornadus|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|cant|p1a: Clefable|move: Taunt|Calm Mind
+|
+|upkeep
+|turn|8
+|
+|t:|1779938204
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: nonotheslap|move: Tailwind
+|
+|upkeep
+|turn|9
+|
+|t:|1779938228
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|100/100
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Clefable|Clefable, F|100/100
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1779938237
+|move|p2a: Rillaboom|Fake Out|p1a: Clefable
+|-damage|p1a: Clefable|88/100
+|-damage|p2a: Rillaboom|84/100|[from] item: Rocky Helmet|[of] p1a: Clefable
+|cant|p1a: Clefable|flinch
+|
+|upkeep
+|turn|11
+|
+|t:|1779938244
+|move|p2a: Rillaboom|Grassy Glide|p1a: Clefable
+|-damage|p1a: Clefable|62/100
+|-damage|p2a: Rillaboom|67/100|[from] item: Rocky Helmet|[of] p1a: Clefable
+|move|p1a: Clefable|Thunder Wave|p2a: Rillaboom
+|-status|p2a: Rillaboom|par
+|
+|-sideend|p2: nonotheslap|move: Tailwind
+|upkeep
+|turn|12
+|
+|t:|1779938255
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|move|p2a: Rillaboom|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|50/100
+|-damage|p2a: Rillaboom|51/100 par|[from] item: Rocky Helmet|[of] p1a: Clefable
+|
+|t:|1779938269
+|switch|p2a: Incineroar|Incineroar, M|100/100|[from] U-turn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Clefable|atk|1
+|
+|upkeep
+|turn|13
+|
+|t:|1779938281
+|move|p2a: Incineroar|Fake Out|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|37/100
+|-damage|p2a: Incineroar|84/100|[from] item: Rocky Helmet|[of] p1a: Clefable
+|cant|p1a: Clefable|flinch
+|
+|upkeep
+|turn|14
+|
+|t:|1779938288
+|move|p1a: Clefable|Thunder Wave|p2a: Incineroar
+|-status|p2a: Incineroar|par
+|cant|p2a: Incineroar|par
+|
+|upkeep
+|turn|15
+|
+|t:|1779938294
+|move|p1a: Clefable|Endeavor|p2a: Incineroar
+|-damage|p2a: Incineroar|37/100 par
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|61/100 par|[from] item: Sitrus Berry
+|cant|p2a: Incineroar|par
+|
+|upkeep
+|turn|16
+|
+|t:|1779938312
+|move|p1a: Clefable|Endeavor|p2a: Incineroar
+|-damage|p2a: Incineroar|37/100 par
+|cant|p2a: Incineroar|par
+|
+|upkeep
+|turn|17
+|
+|t:|1779938320
+|move|p1a: Clefable|Substitute|p1a: Clefable
+|-start|p1a: Clefable|Substitute
+|-damage|p1a: Clefable|12/100
+|move|p2a: Incineroar|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-activate|p1a: Clefable|move: Substitute|[damage]
+|
+|upkeep
+|turn|18
+|
+|t:|1779938332
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|move|p2a: Incineroar|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-end|p1a: Clefable|Substitute
+|
+|upkeep
+|turn|19
+|
+|t:|1779938348
+|move|p1a: Clefable|Endeavor|p2a: Incineroar
+|-damage|p2a: Incineroar|12/100 par
+|move|p2a: Incineroar|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-damage|p2a: Incineroar|0 fnt|[from] item: Rocky Helmet|[of] p1a: Clefable
+|faint|p1a: Clefable
+|faint|p2a: Incineroar
+|
+|upkeep
+|
+|t:|1779938371
+|switch|p1a: Smeargle|Smeargle, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|51/100 par
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|20
+|
+|t:|1779938385
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|move|p2a: Rillaboom|Fake Out|p1a: Walking Wake
+|-damage|p1a: Walking Wake|85/100
+|
+|-heal|p1a: Walking Wake|91/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|57/100 par|[from] Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1779938398
+|move|p1a: Walking Wake|Hurricane|p2a: Rillaboom|[miss]
+|-miss|p1a: Walking Wake|p2a: Rillaboom
+|move|p2a: Rillaboom|U-turn|p1a: Walking Wake
+|-damage|p1a: Walking Wake|62/100
+|
+|t:|1779938422
+|switch|p2a: Kingambit|Kingambit, M, shiny|100/100|[from] U-turn
+|
+|-heal|p1a: Walking Wake|69/100|[from] Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1779938445
+|move|p1a: Walking Wake|Hydro Pump|p2a: Kingambit
+|-damage|p2a: Kingambit|46/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Walking Wake
+|-damage|p1a: Walking Wake|3/100
+|
+|-heal|p1a: Walking Wake|9/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|52/100|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|t:|1779938458
+|move|p2a: Kingambit|Sucker Punch|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-heal|p2a: Kingambit|59/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779938466
+|switch|p1a: Yanmega|Yanmega, F, shiny|100/100
+|turn|24
+|
+|t:|1779938471
+|move|p1a: Yanmega|Protect|p1a: Yanmega
+|-singleturn|p1a: Yanmega|Protect
+|move|p2a: Kingambit|Protect||[still]
+|-fail|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|65/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|25
+|
+|t:|1779938503
+|switch|p2a: Tornadus|Tornadus, M|100/100 par
+|-terastallize|p1a: Yanmega|Fighting
+|move|p1a: Yanmega|Reversal|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|96/100 par
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|26
+|
+|t:|1779938525
+|move|p1a: Yanmega|Endure|p1a: Yanmega
+|-singleturn|p1a: Yanmega|move: Endure
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: nonotheslap|move: Tailwind
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|27
+|
+|t:|1779938534
+|move|p1a: Yanmega|Endure|p1a: Yanmega
+|-singleturn|p1a: Yanmega|move: Endure
+|cant|p2a: Tornadus|par
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|28
+|
+|t:|1779938549
+|move|p1a: Yanmega|Endure||[still]
+|-fail|p1a: Yanmega
+|move|p2a: Tornadus|Rain Dance|p2a: Tornadus
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|29
+|
+|t:|1779938558
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|cant|p2a: Tornadus|par
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: nonotheslap|move: Tailwind
+|upkeep
+|turn|30
+|
+|t:|1779938571
+|cant|p2a: Tornadus|par
+|move|p1a: Kingambit|Night Slash|p2a: Tornadus
+|-damage|p2a: Tornadus|18/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|t:|1779938581
+|cant|p2a: Tornadus|par
+|move|p1a: Kingambit|Aerial Ace|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779938596
+|switch|p2a: Kingambit|Kingambit, M, shiny|65/100
+|turn|32
+|
+|t:|1779938606
+|move|p2a: Kingambit|Protect|p2a: Kingambit
+|-singleturn|p2a: Kingambit|Protect
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-weather|none
+|upkeep
+|turn|33
+|
+|t:|1779938620
+|move|p2a: Kingambit|Sucker Punch|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|82/100
+|move|p1a: Kingambit|Night Slash|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|upkeep
+|
+|t:|1779938628
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|turn|34
+|
+|t:|1779938646
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Yanmega|Yanmega, F, shiny, tera:Fighting|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Yanmega
+|-damage|p1a: Yanmega|41/100
+|
+|upkeep
+|turn|35
+|
+|t:|1779938663
+|move|p1a: Yanmega|Protect|p1a: Yanmega
+|-singleturn|p1a: Yanmega|Protect
+|move|p2a: Garchomp|Dragon Claw|p1a: Yanmega
+|-activate|p1a: Yanmega|move: Protect
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|36
+|
+|t:|1779938674
+|move|p1a: Yanmega|Endure|p1a: Yanmega
+|-singleturn|p1a: Yanmega|move: Endure
+|move|p2a: Garchomp|Rock Slide|p1a: Yanmega
+|-resisted|p1a: Yanmega
+|-damage|p1a: Yanmega|24/100
+|-enditem|p1a: Yanmega|Liechi Berry|[eat]
+|-boost|p1a: Yanmega|atk|1|[from] item: Liechi Berry
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|37
+|
+|t:|1779938694
+|move|p1a: Yanmega|Reversal|p2a: Garchomp
+|-damage|p2a: Garchomp|52/100
+|-damage|p1a: Yanmega|12/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Yanmega|0 fnt|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p1a: Yanmega
+|move|p2a: Garchomp|Earthquake|p1: Yanmega|[notarget]
+|-fail|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1779938705
+|switch|p1a: Smeargle|Smeargle, F|100/100
+|turn|38
+|
+|t:|1779938720
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1a: Smeargle|Shell Smash|p1a: Smeargle
+|-unboost|p1a: Smeargle|def|1
+|-unboost|p1a: Smeargle|spd|1
+|-boost|p1a: Smeargle|atk|2
+|-boost|p1a: Smeargle|spa|2
+|-boost|p1a: Smeargle|spe|2
+|
+|upkeep
+|turn|39
+|
+|t:|1779938747
+|-terastallize|p2a: Garchomp|Dragon
+|move|p1a: Smeargle|Shell Smash|p1a: Smeargle
+|-unboost|p1a: Smeargle|def|1
+|-unboost|p1a: Smeargle|spd|1
+|-boost|p1a: Smeargle|atk|2
+|-boost|p1a: Smeargle|spa|2
+|-boost|p1a: Smeargle|spe|2
+|move|p2a: Garchomp|Dragon Claw|p1a: Smeargle
+|-enditem|p1a: Smeargle|Focus Sash
+|-damage|p1a: Smeargle|1/100
+|
+|upkeep
+|turn|40
+|
+|t:|1779938762
+|move|p1a: Smeargle|Boomburst|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1779938767
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|57/100 par
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|41
+|
+|t:|1779938772
+|cant|p2a: Rillaboom|par
+|move|p1a: Smeargle|Armor Cannon|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-unboost|p1a: Smeargle|def|1
+|-unboost|p1a: Smeargle|spd|1
+|faint|p2a: Rillaboom
+|
+|win|rjhrhfhfhfh
+|raw|rjhrhfhfhfh's rating: 1026 &rarr; <strong>1062</strong><br />(+36 for winning)
+|raw|nonotheslap's rating: 1028 &rarr; <strong>1014</strong><br />(-14 for losing)
+|l|☆nonotheslap
+|player|p2|

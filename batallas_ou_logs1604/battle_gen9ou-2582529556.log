@@ -1,0 +1,753 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆orange fruit
+|j|☆Blastoise_Choice
+|t:|1776097506
+|gametype|singles
+|player|p1|orange fruit|cynthia|1772
+|player|p2|Blastoise_Choice|benga|1744
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tyranitar, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Sinistcha|
+|poke|p1|Cinderace, F|
+|poke|p1|Iron Crown|
+|poke|p2|Garganacl, M|
+|poke|p2|Darkrai|
+|poke|p2|Great Tusk|
+|poke|p2|Hatterene, F|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Dragonite, M|
+|teampreview
+|c|☆Blastoise_Choice|hf
+|j| ohko_smeargle
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Blastoise_Choice)
+|j| Eternity o2
+|
+|t:|1776097524
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|1
+|
+|t:|1776097530
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Iron Crown|Focus Blast|p2a: Great Tusk
+|-damage|p2a: Great Tusk|44/100
+|
+|upkeep
+|turn|2
+|j| kanitanku
+|l| kanitanku
+|inactive|orange fruit has 120 seconds left.
+|
+|t:|1776097572
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1776097578
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Alomomola|Flip Turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|97/100
+|inactive|orange fruit has 120 seconds left.
+|
+|t:|1776097589
+|switch|p1a: Gliscor|Gliscor, M|100/100|[from] Flip Turn
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1776097595
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Gliscor|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|
+|-damage|p2a: Dragonite|91/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1776097602
+|switch|p2a: Darkrai|Darkrai|100/100
+|move|p1a: Gliscor|Knock Off|p2a: Darkrai
+|-resisted|p2a: Darkrai
+|-damage|p2a: Darkrai|86/100
+|-enditem|p2a: Darkrai|Choice Specs|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|upkeep
+|turn|6
+|
+|t:|1776097609
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1776097615
+|move|p1a: Alomomola|Flip Turn|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|78/100
+|
+|t:|1776097625
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox|[from] Flip Turn
+|move|p2a: Garganacl|Salt Cure|p1a: Gliscor
+|-damage|p1a: Gliscor|91/100 tox
+|-start|p1a: Gliscor|Salt Cure
+|
+|-heal|p2a: Garganacl|84/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Gliscor|88/100 tox|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1776097632
+|move|p1a: Gliscor|Knock Off|p2a: Garganacl
+|-damage|p2a: Garganacl|69/100
+|-enditem|p2a: Garganacl|Leftovers|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Garganacl|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: orange fruit|move: Stealth Rock
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Gliscor|88/100 tox|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1776097639
+|move|p1a: Gliscor|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|27/100
+|move|p2a: Garganacl|Salt Cure|p1a: Gliscor
+|-damage|p1a: Gliscor|78/100 tox
+|
+|-heal|p1a: Gliscor|90/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Gliscor|78/100 tox|[from] Salt Cure
+|upkeep
+|turn|10
+|
+|t:|1776097647
+|switch|p2a: Tornadus|Tornadus-Therian, M, shiny|100/100
+|move|p1a: Gliscor|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|-heal|p1a: Gliscor|90/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Gliscor|78/100 tox|[from] Salt Cure
+|upkeep
+|turn|11
+|
+|t:|1776097653
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Tornadus|U-turn|p1a: Alomomola
+|-damage|p1a: Alomomola|80/100
+|
+|t:|1776097660
+|switch|p2a: Garganacl|Garganacl, M|27/100|[from] U-turn
+|
+|upkeep
+|turn|12
+|
+|t:|1776097667
+|move|p1a: Alomomola|Flip Turn|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|5/100
+|
+|t:|1776097668
+|switch|p1a: Gliscor|Gliscor, M|78/100 tox|[from] Flip Turn
+|-damage|p1a: Gliscor|65/100 tox|[from] Stealth Rock
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|55/100
+|
+|-heal|p1a: Gliscor|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1776097672
+|move|p1a: Gliscor|Knock Off|p2a: Garganacl
+|-damage|p2a: Garganacl|46/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|96/100
+|
+|-heal|p1a: Gliscor|90/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1776097676
+|move|p1a: Gliscor|Knock Off|p2a: Garganacl
+|-damage|p2a: Garganacl|86/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1776097680
+|move|p1a: Gliscor|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|56/100
+|move|p2a: Garganacl|Salt Cure|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|85/100 tox
+|-start|p1a: Gliscor|Salt Cure
+|
+|-heal|p1a: Gliscor|98/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Gliscor|85/100 tox|[from] Salt Cure
+|upkeep
+|turn|16
+|
+|t:|1776097685
+|move|p1a: Gliscor|Knock Off|p2a: Garganacl
+|-damage|p2a: Garganacl|47/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|97/100
+|
+|-heal|p1a: Gliscor|98/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Gliscor|85/100 tox|[from] Salt Cure
+|upkeep
+|turn|17
+|
+|t:|1776097689
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Garganacl|Salt Cure|p1a: Alomomola
+|-damage|p1a: Alomomola|80/100
+|-start|p1a: Alomomola|Salt Cure
+|
+|-damage|p1a: Alomomola|55/100|[from] Salt Cure
+|upkeep
+|turn|18
+|
+|t:|1776097697
+|switch|p1a: Gliscor|Gliscor, M|85/100 tox
+|-damage|p1a: Gliscor|73/100 tox|[from] Stealth Rock
+|move|p2a: Garganacl|Salt Cure|p1a: Gliscor
+|-damage|p1a: Gliscor|63/100 tox
+|-start|p1a: Gliscor|Salt Cure
+|
+|-heal|p1a: Gliscor|75/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Gliscor|63/100 tox|[from] Salt Cure
+|upkeep
+|turn|19
+|
+|t:|1776097702
+|switch|p1a: Alomomola|Alomomola, M|88/100
+|-damage|p1a: Alomomola|75/100|[from] Stealth Rock
+|move|p2a: Garganacl|Salt Cure|p1a: Alomomola
+|-damage|p1a: Alomomola|67/100
+|-start|p1a: Alomomola|Salt Cure
+|
+|-damage|p1a: Alomomola|42/100|[from] Salt Cure
+|upkeep
+|turn|20
+|
+|t:|1776097709
+|switch|p1a: Gliscor|Gliscor, M|63/100 tox
+|-damage|p1a: Gliscor|50/100 tox|[from] Stealth Rock
+|move|p2a: Garganacl|Salt Cure|p1a: Gliscor
+|-damage|p1a: Gliscor|42/100 tox
+|-start|p1a: Gliscor|Salt Cure
+|
+|-heal|p1a: Gliscor|54/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Gliscor|42/100 tox|[from] Salt Cure
+|upkeep
+|turn|21
+|
+|t:|1776097713
+|move|p1a: Gliscor|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|53/100
+|move|p2a: Garganacl|Salt Cure|p1a: Gliscor
+|-damage|p1a: Gliscor|33/100 tox
+|
+|-heal|p1a: Gliscor|45/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Gliscor|33/100 tox|[from] Salt Cure
+|upkeep
+|turn|22
+|
+|t:|1776097720
+|move|p1a: Gliscor|Knock Off|p2a: Garganacl
+|-damage|p2a: Garganacl|44/100
+|move|p2a: Garganacl|Salt Cure|p1a: Gliscor
+|-damage|p1a: Gliscor|23/100 tox
+|
+|-heal|p1a: Gliscor|36/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Gliscor|23/100 tox|[from] Salt Cure
+|upkeep
+|turn|23
+|
+|t:|1776097725
+|switch|p1a: Alomomola|Alomomola, M|75/100
+|-damage|p1a: Alomomola|63/100|[from] Stealth Rock
+|switch|p2a: Tornadus|Tornadus-Therian, M, shiny|100/100
+|
+|upkeep
+|turn|24
+|
+|t:|1776097731
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Alomomola
+|-damage|p1a: Alomomola|39/100
+|move|p1a: Alomomola|Flip Turn|p2a: Tornadus
+|-damage|p2a: Tornadus|82/100
+|
+|t:|1776097735
+|switch|p1a: Tyranitar|Tyranitar, F|100/100|[from] Flip Turn
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|76/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|t:|1776097741
+|move|p2a: Tornadus|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|60/100
+|
+|t:|1776097749
+|switch|p2a: Great Tusk|Great Tusk|44/100|[from] U-turn
+|move|p1a: Tyranitar|Ice Punch|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1776097755
+|switch|p2a: Garganacl|Garganacl, M|44/100
+|turn|26
+|
+|t:|1776097767
+|move|p1a: Tyranitar|Ice Punch|p2a: Garganacl
+|-damage|p2a: Garganacl|16/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|c|☆Blastoise_Choice|Now i cast Cobble Stone!
+|
+|t:|1776097774
+|switch|p1a: Alomomola|Alomomola, M|72/100
+|-damage|p1a: Alomomola|60/100|[from] Stealth Rock
+|move|p2a: Garganacl|Salt Cure|p1a: Alomomola
+|-damage|p1a: Alomomola|52/100
+|-start|p1a: Alomomola|Salt Cure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alomomola|45/100|[from] Sandstorm
+|-damage|p1a: Alomomola|20/100|[from] Salt Cure
+|upkeep
+|turn|28
+|j| ArtistsRendition
+|
+|t:|1776097781
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|move|p2a: Garganacl|Salt Cure|p1a: Sinistcha
+|-damage|p1a: Sinistcha|90/100
+|-start|p1a: Sinistcha|Salt Cure
+|
+|-weather|none
+|-damage|p1a: Sinistcha|77/100|[from] Salt Cure
+|upkeep
+|turn|29
+|
+|t:|1776097789
+|switch|p2a: Darkrai|Darkrai|86/100
+|move|p1a: Sinistcha|Shadow Ball|p2a: Darkrai
+|-resisted|p2a: Darkrai
+|-damage|p2a: Darkrai|65/100
+|
+|-damage|p1a: Sinistcha|65/100|[from] Salt Cure
+|upkeep
+|turn|30
+|
+|t:|1776097797
+|switch|p1a: Tyranitar|Tyranitar, F|60/100
+|-damage|p1a: Tyranitar|47/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Darkrai|Focus Blast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Darkrai|59/100|[from] Sandstorm
+|upkeep
+|
+|t:|1776097807
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-damage|p1a: Iron Crown|94/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1776097814
+|-terastallize|p1a: Iron Crown|Steel
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Darkrai
+|-damage|p2a: Darkrai|15/100
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|-hitcount|p2: Darkrai|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1776097820
+|switch|p2a: Dragonite|Dragonite, M|91/100 tox
+|turn|32
+|
+|t:|1776097827
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Sinistcha|Sinistcha|65/100
+|move|p2a: Dragonite|Earthquake|p1a: Sinistcha
+|-resisted|p1a: Sinistcha
+|-damage|p1a: Sinistcha|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|85/100 tox|[from] Sandstorm
+|-damage|p1a: Sinistcha|44/100|[from] Sandstorm
+|-damage|p2a: Dragonite|79/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1776097834
+|switch|p2a: Tornadus|Tornadus-Therian, M, shiny|100/100
+|move|p1a: Sinistcha|Strength Sap|p2a: Tornadus
+|-unboost|p2a: Tornadus|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|94/100|[from] Sandstorm
+|-damage|p1a: Sinistcha|94/100|[from] Sandstorm
+|upkeep
+|turn|34
+|
+|t:|1776097840
+|switch|p1a: Alomomola|Alomomola, M|54/100
+|-damage|p1a: Alomomola|41/100|[from] Stealth Rock
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Alomomola
+|-damage|p1a: Alomomola|16/100
+|
+|-weather|none
+|upkeep
+|turn|35
+|
+|t:|1776097848
+|switch|p1a: Iron Crown|Iron Crown, tera:Steel|94/100
+|-damage|p1a: Iron Crown|88/100|[from] Stealth Rock
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|71/100
+|
+|upkeep
+|turn|36
+|
+|t:|1776097855
+|move|p1a: Iron Crown|Volt Switch|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|65/100
+|
+|t:|1776097857
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Alomomola|Alomomola, M|49/100|[from] Volt Switch
+|-damage|p1a: Alomomola|37/100|[from] Stealth Rock
+|move|p2a: Tornadus|Heat Wave|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|28/100
+|
+|upkeep
+|turn|37
+|
+|t:|1776097864
+|move|p2a: Tornadus|U-turn|p1a: Alomomola
+|-damage|p1a: Alomomola|22/100
+|
+|t:|1776097870
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|move|p1a: Alomomola|Mirror Coat||[still]
+|-fail|p1a: Alomomola
+|
+|upkeep
+|turn|38
+|
+|t:|1776097876
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Hatterene|Nuzzle|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|91/100
+|-status|p1a: Cinderace|par
+|
+|upkeep
+|turn|39
+|
+|t:|1776097883
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Cinderace
+|-damage|p1a: Cinderace|43/100 par
+|
+|upkeep
+|turn|40
+|
+|t:|1776097891
+|switch|p2a: Garganacl|Garganacl, M|66/100
+|-damage|p2a: Garganacl|53/100|[from] Stealth Rock
+|move|p1a: Cinderace|U-turn|p2a: Garganacl
+|-damage|p2a: Garganacl|38/100
+|
+|t:|1776097898
+|switch|p1a: Iron Crown|Iron Crown, tera:Steel|71/100|[from] U-turn
+|
+|upkeep
+|turn|41
+|j| Monkey D MinMin
+|
+|t:|1776097905
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Iron Crown|Volt Switch|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|upkeep
+|turn|42
+|
+|t:|1776097909
+|move|p1a: Iron Crown|Volt Switch|p2a: Garganacl
+|-damage|p2a: Garganacl|23/100
+|
+|t:|1776097913
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Sinistcha|Sinistcha|94/100|[from] Volt Switch
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|73/100
+|
+|upkeep
+|turn|43
+|
+|t:|1776097919
+|move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+|-boost|p1a: Sinistcha|spa|1
+|-boost|p1a: Sinistcha|spd|1
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|upkeep
+|turn|44
+|
+|t:|1776097926
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|30/100
+|-heal|p1a: Sinistcha|100/100|[from] drain|[of] p2a: Garganacl
+|move|p2a: Garganacl|Salt Cure|p1a: Sinistcha
+|-damage|p1a: Sinistcha|90/100
+|-start|p1a: Sinistcha|Salt Cure
+|
+|-damage|p1a: Sinistcha|77/100|[from] Salt Cure
+|upkeep
+|turn|45
+|
+|t:|1776097930
+|switch|p2a: Tornadus|Tornadus-Therian, M, shiny|99/100
+|-damage|p2a: Tornadus|74/100|[from] Stealth Rock
+|move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+|-boost|p1a: Sinistcha|spa|1
+|-boost|p1a: Sinistcha|spd|1
+|
+|-damage|p1a: Sinistcha|65/100|[from] Salt Cure
+|upkeep
+|turn|46
+|
+|t:|1776097934
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|20/100
+|move|p1a: Sinistcha|Shadow Ball|p2a: Tornadus
+|-damage|p2a: Tornadus|29/100
+|
+|-damage|p1a: Sinistcha|7/100|[from] Salt Cure
+|upkeep
+|turn|47
+|
+|t:|1776097939
+|switch|p1a: Iron Crown|Iron Crown, tera:Steel|71/100
+|move|p2a: Tornadus|Knock Off|p1a: Iron Crown
+|-damage|p1a: Iron Crown|49/100
+|-enditem|p1a: Iron Crown|Choice Scarf|[from] move: Knock Off|[of] p2a: Tornadus
+|
+|upkeep
+|turn|48
+|
+|t:|1776097942
+|move|p2a: Tornadus|Heat Wave|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1776097947
+|switch|p1a: Alomomola|Alomomola, M|56/100
+|turn|49
+|
+|t:|1776097953
+|move|p2a: Tornadus|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|43/100
+|-enditem|p1a: Alomomola|Assault Vest|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: Alomomola|Flip Turn|p2a: Tornadus
+|-damage|p2a: Tornadus|9/100
+|
+|t:|1776097960
+|switch|p1a: Cinderace|Cinderace, F|43/100 par|[from] Flip Turn
+|
+|upkeep
+|turn|50
+|
+|t:|1776097966
+|move|p1a: Cinderace|Sucker Punch|p2a: Tornadus
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|t:|1776097970
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|51
+|
+|t:|1776097981
+|move|p1a: Cinderace|Pyro Ball|p2a: Hatterene
+|-damage|p2a: Hatterene|55/100
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1776097987
+|switch|p1a: Alomomola|Alomomola, M|77/100
+|turn|52
+|
+|t:|1776097994
+|switch|p1a: Sinistcha|Sinistcha|7/100
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|upkeep
+|
+|t:|1776097998
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|turn|53
+|
+|t:|1776098004
+|move|p1a: Alomomola|Body Slam|p2a: Hatterene
+|-damage|p2a: Hatterene|43/100
+|-status|p2a: Hatterene|par
+|-damage|p1a: Alomomola|84/100|[from] item: Rocky Helmet|[of] p2a: Hatterene
+|move|p2a: Hatterene|Future Sight|p1a: Alomomola
+|-start|p2a: Hatterene|move: Future Sight
+|
+|upkeep
+|turn|54
+|
+|t:|1776098008
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Alomomola
+|-damage|p1a: Alomomola|49/100
+|move|p1a: Alomomola|Mirror Coat|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1776098012
+|switch|p2a: Dragonite|Dragonite, M|79/100 tox
+|-damage|p2a: Dragonite|54/100 tox|[from] Stealth Rock
+|turn|55
+|
+|t:|1776098017
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Alomomola|Flip Turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|46/100 tox
+|
+|t:|1776098019
+|switch|p1a: Gliscor|Gliscor, M|23/100 tox|[from] Flip Turn
+|
+|-end|p1a: Gliscor|move: Future Sight
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-damage|p2a: Dragonite|40/100 tox|[from] psn
+|upkeep
+|
+|t:|1776098021
+|switch|p1a: Alomomola|Alomomola, M|82/100
+|turn|56
+|
+|t:|1776098024
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1a: Alomomola
+|-damage|p1a: Alomomola|31/100
+|move|p1a: Alomomola|Flip Turn|p2a: Dragonite
+|-damage|p2a: Dragonite|23/100 tox
+|
+|-damage|p2a: Dragonite|10/100 tox|[from] psn
+|upkeep
+|turn|57
+|
+|t:|1776098029
+|move|p2a: Dragonite|Extreme Speed|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|win|Blastoise_Choice
+|raw|orange fruit's rating: 1748 &rarr; <strong>1728</strong><br />(-20 for losing)
+|raw|Blastoise_Choice's rating: 1744 &rarr; <strong>1764</strong><br />(+20 for winning)
+|c|☆Blastoise_Choice|gg
+|l| ohko_smeargle
+|c|☆orange fruit|Holy throw
+|c|☆orange fruit|Lol hh
+|c|☆orange fruit|Gg
+|c|☆orange fruit|Im actually so tilted
+|l| ArtistsRendition
+|l| Monkey D MinMin
+|l|☆orange fruit
+|player|p1|
+|l|☆Blastoise_Choice
+|player|p2|

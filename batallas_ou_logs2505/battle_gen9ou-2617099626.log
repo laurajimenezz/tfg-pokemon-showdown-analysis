@@ -1,0 +1,361 @@
+|j|☆reaperofares
+|j|☆PharaJimbo
+|t:|1779647875
+|gametype|singles
+|player|p1|reaperofares|hooligans|1188
+|player|p2|PharaJimbo|101|1199
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meowscarada, M|
+|poke|p1|Pecharunt|
+|poke|p1|Enamorus, F|
+|poke|p1|Iron Treads|
+|poke|p1|Skarmory, F|
+|poke|p1|Slowking, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragonite, M|
+|poke|p2|Walking Wake|
+|poke|p2|Zapdos|
+|teampreview
+|
+|t:|1779647890
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: blupty|Glimmora, M|100/100
+|turn|1
+|
+|t:|1779647900
+|move|p1a: Meowscarada|Triple Axel|p2a: blupty
+|-start|p1a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-damage|p2a: blupty|85/100
+|-activate|p2a: blupty|ability: Toxic Debris
+|-sidestart|p1: reaperofares|move: Toxic Spikes
+|-damage|p2a: blupty|49/100
+|-activate|p2a: blupty|ability: Toxic Debris
+|-sidestart|p1: reaperofares|move: Toxic Spikes
+|-damage|p2a: blupty|0 fnt
+|faint|p2a: blupty
+|-hitcount|p2: blupty|3
+|
+|upkeep
+|
+|t:|1779647918
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-enditem|p2a: Walking Wake|Booster Energy
+|-activate|p2a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|2
+|
+|t:|1779647930
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-sideend|p1: reaperofares|move: Toxic Spikes|[of] p1a: Pecharunt
+|-terastallize|p2a: Walking Wake|Water
+|move|p2a: Walking Wake|Flamethrower|p1a: Pecharunt
+|-damage|p1a: Pecharunt|71/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779647951
+|move|p2a: Walking Wake|Flip Turn|p1a: Pecharunt
+|-damage|p1a: Pecharunt|60/100
+|-damage|p2a: Walking Wake|84/100|[from] item: Rocky Helmet|[of] p1a: Pecharunt
+|
+|t:|1779647957
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Flip Turn
+|move|p1a: Pecharunt|Malignant Chain|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|87/100
+|-status|p2a: Great Tusk|tox
+|-start|p2a: Great Tusk|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-damage|p2a: Great Tusk|81/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1779647978
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|-activate|p2a: Great Tusk|confusion
+|move|p2a: Great Tusk|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|83/100
+|-enditem|p1a: Skarmory|Covert Cloak|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-damage|p2a: Great Tusk|68/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1779647996
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake, tera:Water|84/100
+|move|p1a: Skarmory|Spikes|p2a: Walking Wake
+|-sidestart|p2: PharaJimbo|Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1779648005
+|switch|p1a: Slowking|Slowking, M|100/100
+|move|p2a: Walking Wake|Flamethrower|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|93/100
+|
+|upkeep
+|turn|7
+|
+|t:|1779648020
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Slowking|Future Sight|p2a: Zapdos
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|8
+|
+|t:|1779648031
+|move|p2a: Zapdos|Discharge|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|63/100
+|move|p1a: Slowking|Fire Blast|p2a: Zapdos
+|-damage|p2a: Zapdos|66/100
+|
+|upkeep
+|turn|9
+|
+|t:|1779648039
+|move|p2a: Zapdos|Discharge|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|32/100
+|move|p1a: Slowking|Fire Blast|p2a: Zapdos
+|-damage|p2a: Zapdos|33/100
+|
+|-end|p2a: Zapdos|move: Future Sight
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|upkeep
+|
+|t:|1779648052
+|switch|p2a: Great Tusk|Great Tusk|68/100 tox
+|-damage|p2a: Great Tusk|56/100 tox|[from] Spikes
+|turn|10
+|
+|t:|1779648062
+|switch|p1a: Skarmory|Skarmory, F|83/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|79/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: PharaJimbo|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-damage|p2a: Great Tusk|50/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1779648075
+|move|p2a: Great Tusk|Close Combat|p1a: Skarmory
+|-damage|p1a: Skarmory|48/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Skarmory|Spikes|p2a: Great Tusk
+|-sidestart|p2: PharaJimbo|Spikes
+|
+|-damage|p2a: Great Tusk|37/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1779648090
+|move|p2a: Great Tusk|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|43/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: PharaJimbo|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|94/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-damage|p2a: Great Tusk|19/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1779648103
+|move|p2a: Great Tusk|Close Combat|p1a: Skarmory
+|-damage|p1a: Skarmory|60/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Skarmory|Spikes|p2a: Great Tusk
+|-sidestart|p2: PharaJimbo|Spikes
+|
+|-damage|p2a: Great Tusk|0 fnt|[from] psn
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1779648115
+|switch|p2a: Walking Wake|Walking Wake, tera:Water|84/100
+|-damage|p2a: Walking Wake|72/100|[from] Spikes
+|turn|14
+|
+|t:|1779648122
+|switch|p1a: Slowking|Slowking, M|65/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|52/100
+|
+|upkeep
+|turn|15
+|
+|t:|1779648132
+|move|p2a: Walking Wake|Draco Meteor|p1a: Slowking
+|-damage|p1a: Slowking|21/100
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Slowking|Future Sight|p2a: Walking Wake
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|16
+|
+|t:|1779648146
+|switch|p1a: Pecharunt|Pecharunt|60/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Pecharunt
+|-damage|p1a: Pecharunt|29/100
+|-unboost|p2a: Walking Wake|spa|2
+|
+|upkeep
+|turn|17
+|
+|t:|1779648157
+|move|p2a: Walking Wake|Hydro Steam|p1a: Pecharunt
+|-damage|p1a: Pecharunt|10/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|60/100
+|
+|-end|p2a: Walking Wake|move: Future Sight
+|-damage|p2a: Walking Wake|16/100
+|upkeep
+|turn|18
+|
+|t:|1779648170
+|move|p2a: Walking Wake|Hydro Steam|p1a: Pecharunt
+|-damage|p1a: Pecharunt|42/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|92/100
+|
+|upkeep
+|turn|19
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PharaJimbo)
+|
+|t:|1779648185
+|move|p2a: Walking Wake|Hydro Steam|p1a: Pecharunt
+|-damage|p1a: Pecharunt|72/100
+|move|p1a: Pecharunt|Foul Play|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779648194
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|20
+|
+|t:|1779648218
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Pecharunt|Parting Shot|p2a: Dragonite
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2a: Dragonite|spa|1
+|
+|t:|1779648225
+|switch|p1a: Meowscarada|Meowscarada, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|21
+|
+|t:|1779648244
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Meowscarada|Triple Axel|p2a: Dragonite
+|-start|p1a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|69/100
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-hitcount|p2: Dragonite|2
+|
+|upkeep
+|
+|t:|1779648255
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|22
+|
+|t:|1779648267
+|move|p2a: Kingambit|Sucker Punch|p1a: Meowscarada
+|-damage|p1a: Meowscarada|11/100
+|move|p1a: Meowscarada|Triple Axel|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|94/100
+|-enditem|p2a: Kingambit|Air Balloon
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|83/100
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|65/100
+|-hitcount|p2a: Kingambit|3
+|
+|upkeep
+|turn|23
+|
+|t:|1779648280
+|switch|p1a: Pecharunt|Pecharunt|72/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|9/100
+|-damage|p2a: Kingambit|48/100|[from] item: Rocky Helmet|[of] p1a: Pecharunt
+|
+|upkeep
+|turn|24
+|
+|t:|1779648289
+|move|p1a: Pecharunt|Parting Shot|p2a: Kingambit
+|-unboost|p2a: Kingambit|atk|1
+|-unboost|p2a: Kingambit|spa|1
+|
+|t:|1779648293
+|switch|p1a: Enamorus|Enamorus, F|100/100|[from] Parting Shot
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|25
+|
+|t:|1779648306
+|move|p1a: Enamorus|Mystical Fire|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|reaperofares
+|raw|reaperofares's rating: 1188 &rarr; <strong>1214</strong><br />(+26 for winning)
+|raw|PharaJimbo's rating: 1199 &rarr; <strong>1173</strong><br />(-26 for losing)
+|l|☆PharaJimbo
+|player|p2|

@@ -1,0 +1,497 @@
+|j|☆Ragged_Rag_King
+|j|☆afdsher
+|t:|1779701524
+|gametype|singles
+|player|p1|Ragged_Rag_King|fisherman-gen4|1092
+|player|p2|afdsher|169|1073
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Orthworm, M|
+|poke|p1|Chandelure, M|
+|poke|p1|Zebstrika, M|
+|poke|p1|Gastrodon-East, M|
+|poke|p1|Pawmot, M|
+|poke|p1|Clodsire, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1779701532
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|1
+|
+|t:|1779701537
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Gastrodon|Ice Beam|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1779701545
+|-terastallize|p2a: Gliscor|Water
+|move|p2a: Gliscor|Toxic|p1a: Gastrodon
+|-status|p1a: Gastrodon|tox
+|move|p1a: Gastrodon|Ice Beam|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|89/100 tox
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Gastrodon|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1779701558
+|move|p2a: Gliscor|Earthquake|p1a: Gastrodon
+|-damage|p1a: Gastrodon|68/100 tox
+|move|p1a: Gastrodon|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: afdsher|move: Stealth Rock
+|
+|-damage|p1a: Gastrodon|56/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1779701566
+|switch|p1a: Orthworm|Orthworm, M|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Orthworm
+|-immune|p1a: Orthworm|[from] ability: Earth Eater
+|
+|upkeep
+|turn|5
+|
+|t:|1779701579
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Orthworm|Body Slam|p2a: Great Tusk
+|-damage|p2a: Great Tusk|89/100
+|-status|p2a: Great Tusk|par
+|
+|upkeep
+|turn|6
+|
+|t:|1779701591
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Great Tusk|Close Combat|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|upkeep
+|turn|7
+|
+|t:|1779701598
+|move|p1a: Chandelure|Energy Ball|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779701605
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|8
+|
+|t:|1779701613
+|switch|p1a: Orthworm|Orthworm, M|100/100
+|move|p2a: Slowking|Future Sight|p1a: Orthworm
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|9
+|
+|t:|1779701620
+|move|p1a: Orthworm|Body Slam|p2a: Slowking
+|-damage|p2a: Slowking|81/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1779701626
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] Chilly Reception
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1779701636
+|move|p2a: Gholdengo|Focus Blast|p1a: Orthworm|[miss]
+|-miss|p2a: Gholdengo|p1a: Orthworm
+|move|p1a: Orthworm|Heavy Slam|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|74/100
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Orthworm|move: Future Sight
+|-resisted|p1a: Orthworm
+|-damage|p1a: Orthworm|63/100
+|-heal|p1a: Orthworm|69/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1779701646
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Gholdengo|Focus Blast|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1779701654
+|switch|p2a: Gliscor|Gliscor, M, tera:Water|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p1a: Chandelure|Flamethrower|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|55/100 tox
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|67/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1779701666
+|switch|p1a: Orthworm|Orthworm, M|69/100
+|move|p2a: Gliscor|Earthquake|p1a: Orthworm
+|-heal|p1a: Orthworm|94/100|[from] ability: Earth Eater|[of] p2a: Gliscor
+|
+|-weather|none
+|-heal|p1a: Orthworm|99/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1779701676
+|move|p2a: Gliscor|Spikes|p1a: Orthworm
+|-sidestart|p1: Ragged_Rag_King|Spikes
+|move|p1a: Orthworm|Curse|p1a: Orthworm
+|-unboost|p1a: Orthworm|spe|1
+|-boost|p1a: Orthworm|atk|1
+|-boost|p1a: Orthworm|def|1
+|
+|-heal|p1a: Orthworm|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|92/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1779701687
+|switch|p2a: Gholdengo|Gholdengo|74/100
+|-damage|p2a: Gholdengo|68/100|[from] Stealth Rock
+|move|p1a: Orthworm|Body Slam|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|16
+|
+|t:|1779701695
+|move|p2a: Gholdengo|Trick|p1a: Orthworm
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Orthworm
+|-item|p1a: Orthworm|Choice Specs|[from] move: Trick
+|-item|p2a: Gholdengo|Leftovers|[from] move: Trick
+|move|p1a: Orthworm|Heavy Slam|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|39/100
+|
+|-heal|p2a: Gholdengo|45/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1779701704
+|move|p2a: Gholdengo|Focus Blast|p1a: Orthworm
+|-supereffective|p1a: Orthworm
+|-damage|p1a: Orthworm|0 fnt
+|faint|p1a: Orthworm
+|
+|-heal|p2a: Gholdengo|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779701713
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|-damage|p1a: Chandelure|88/100|[from] Spikes
+|turn|18
+|
+|t:|1779701722
+|move|p1a: Chandelure|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1779701730
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|19
+|
+|t:|1779701733
+|move|p1a: Chandelure|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|45/100
+|move|p2a: Slowking|Future Sight|p1a: Chandelure
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|20
+|
+|t:|1779701741
+|switch|p2a: Gliscor|Gliscor, M, tera:Water|92/100 tox
+|-damage|p2a: Gliscor|80/100 tox|[from] Stealth Rock
+|move|p1a: Chandelure|Shadow Ball|p2a: Gliscor
+|-damage|p2a: Gliscor|26/100 tox
+|
+|-heal|p2a: Gliscor|39/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|t:|1779701751
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Chandelure|Shadow Ball|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-end|p1a: Chandelure|move: Future Sight
+|-damage|p1a: Chandelure|20/100
+|-heal|p2a: Gliscor|51/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|t:|1779701769
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|move|p1a: Chandelure|Shadow Ball|p2a: Ogerpon
+|-damage|p2a: Ogerpon|30/100
+|-unboost|p2a: Ogerpon|spd|1
+|
+|upkeep
+|turn|23
+|
+|t:|1779701779
+|move|p1a: Chandelure|Shadow Ball|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1779701786
+|switch|p2a: Gliscor|Gliscor, M, tera:Water|51/100 tox
+|-damage|p2a: Gliscor|39/100 tox|[from] Stealth Rock
+|turn|24
+|
+|t:|1779701791
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Chandelure|Shadow Ball|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|51/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|t:|1779701798
+|switch|p2a: Slowking|Slowking-Galar, M|78/100
+|move|p1a: Chandelure|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|27/100
+|
+|upkeep
+|turn|26
+|
+|t:|1779701807
+|move|p1a: Chandelure|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1779701812
+|switch|p2a: Gliscor|Gliscor, M, tera:Water|51/100 tox
+|-damage|p2a: Gliscor|39/100 tox|[from] Stealth Rock
+|turn|27
+|
+|t:|1779701821
+|switch|p1a: Zebstrika|Zebstrika, M|100/100
+|-damage|p1a: Zebstrika|88/100|[from] Spikes
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|51/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|t:|1779701831
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Zebstrika|Supercell Slam|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|-damage|p1a: Zebstrika|38/100|[from] supercellslam
+|
+|-heal|p2a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|t:|1779701839
+|move|p1a: Zebstrika|Supercell Slam|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|11/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Zebstrika
+|-supereffective|p1a: Zebstrika
+|-damage|p1a: Zebstrika|0 fnt
+|faint|p1a: Zebstrika
+|
+|-heal|p2a: Gliscor|24/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1779701852
+|switch|p1a: Pawmot|Pawmot, M|100/100
+|-damage|p1a: Pawmot|88/100|[from] Spikes
+|turn|30
+|
+|t:|1779701860
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Pawmot|Double Shock|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|36/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|31
+|
+|t:|1779701869
+|move|p1a: Pawmot|Double Shock|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-start|p1a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+|faint|p2a: Gliscor
+|-damage|p1a: Pawmot|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779701876
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|32
+|
+|t:|1779701885
+|move|p1a: Pawmot|Revival Blessing|p1a: Pawmot
+|
+|t:|1779701896
+|-heal|p1: Zebstrika|50/100|[from] move: Revival Blessing
+|move|p2a: Kingambit|Iron Head|p1a: Pawmot
+|-damage|p1a: Pawmot|0 fnt
+|faint|p1a: Pawmot
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779701907
+|switch|p1a: Gastrodon|Gastrodon-East, M|56/100 tox
+|-damage|p1a: Gastrodon|43/100 tox|[from] Spikes
+|turn|33
+|
+|t:|1779701913
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|93/100 tox
+|
+|-damage|p1a: Gastrodon|87/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1779701928
+|move|p2a: Kingambit|Sucker Punch|p1a: Gastrodon
+|-damage|p1a: Gastrodon|45/100 tox
+|-damage|p2a: Kingambit|84/100|[from] item: Rocky Helmet|[of] p1a: Gastrodon
+|move|p1a: Gastrodon|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|42/100
+|
+|-heal|p2a: Kingambit|49/100|[from] item: Leftovers
+|-damage|p1a: Gastrodon|33/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1779701939
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|-damage|p2a: Kingambit|32/100|[from] item: Rocky Helmet|[of] p1a: Gastrodon
+|faint|p1a: Gastrodon
+|
+|-heal|p2a: Kingambit|38/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779701949
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|turn|36
+|
+|t:|1779701955
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Clodsire
+|-damage|p1a: Clodsire|39/100
+|move|p1a: Clodsire|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|2/100
+|
+|-heal|p2a: Kingambit|8/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1779701964
+|move|p2a: Kingambit|Sucker Punch|p1a: Clodsire
+|-crit|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|-heal|p2a: Kingambit|14/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779701970
+|switch|p1a: Zebstrika|Zebstrika, M|50/100
+|-damage|p1a: Zebstrika|38/100|[from] Spikes
+|turn|38
+|
+|t:|1779701981
+|move|p2a: Kingambit|Sucker Punch|p1a: Zebstrika
+|-damage|p1a: Zebstrika|0 fnt
+|faint|p1a: Zebstrika
+|
+|-heal|p2a: Kingambit|21/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779701986
+|switch|p1a: Chandelure|Chandelure, M|20/100
+|-damage|p1a: Chandelure|8/100|[from] Spikes
+|turn|39
+|
+|t:|1779701991
+|move|p2a: Kingambit|Sucker Punch|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|win|afdsher
+|raw|Ragged_Rag_King's rating: 1092 &rarr; <strong>1067</strong><br />(-25 for losing)
+|raw|afdsher's rating: 1073 &rarr; <strong>1104</strong><br />(+31 for winning)
+|l|☆Ragged_Rag_King
+|player|p1|
+|l|☆afdsher
+|player|p2|

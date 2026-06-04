@@ -1,0 +1,601 @@
+|j|☆adow
+|j|☆Psypedro
+|t:|1779903411
+|gametype|singles
+|player|p1|adow|265|1227
+|player|p2|Psypedro|dragontamer|1184
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Jolteon, M|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Skeledirge, M|
+|poke|p1|Toucannon, F|
+|poke|p1|Umbreon, M|
+|poke|p1|Donphan, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1779903422
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Donphan|Donphan, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|t:|1779903428
+|move|p2a: Grimmsnarl|Taunt|p1a: Donphan
+|-start|p1a: Donphan|move: Taunt
+|cant|p1a: Donphan|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1779903434
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Psypedro|Reflect
+|move|p1a: Donphan|Earthquake|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|75/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779903448
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Psypedro|move: Light Screen
+|move|p1a: Donphan|Earthquake|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|48/100
+|
+|-end|p1a: Donphan|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1779903457
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Donphan
+|-unboost|p1a: Donphan|atk|1
+|-unboost|p1a: Donphan|spa|1
+|
+|t:|1779903472
+|switch|p2a: Iron Moth|Iron Moth|100/100|[from] Parting Shot
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Donphan|Stealth Rock|p2a: Iron Moth
+|-sidestart|p2: Psypedro|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1779903482
+|move|p2a: Iron Moth|Energy Ball|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|18/100
+|move|p1a: Donphan|Earthquake|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|19/100
+|
+|-heal|p1a: Donphan|24/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1779903495
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|move|p2a: Iron Moth|Energy Ball|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-crit|p1a: Skeledirge
+|-damage|p1a: Skeledirge|76/100
+|
+|upkeep
+|turn|7
+|
+|t:|1779903513
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|-damage|p2a: Glimmora|88/100|[from] Stealth Rock
+|move|p1a: Skeledirge|Substitute|p1a: Skeledirge
+|-start|p1a: Skeledirge|Substitute
+|-damage|p1a: Skeledirge|51/100
+|
+|upkeep
+|turn|8
+|
+|t:|1779903523
+|move|p2a: Glimmora|Earth Power|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-end|p1a: Skeledirge|Substitute
+|move|p1a: Skeledirge|Will-O-Wisp|p2a: Glimmora|[miss]
+|-miss|p1a: Skeledirge|p2a: Glimmora
+|
+|upkeep
+|turn|9
+|
+|t:|1779903536
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|move|p2a: Glimmora|Mortal Spin|p1a: Umbreon
+|-damage|p1a: Umbreon|96/100
+|-status|p1a: Umbreon|psn
+|-activate|p1a: Umbreon|ability: Synchronize
+|-immune|p2a: Glimmora
+|-sideend|p2: Psypedro|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Glimmora
+|
+|-heal|p1a: Umbreon|100/100 psn|[from] item: Leftovers
+|-damage|p1a: Umbreon|88/100 psn|[from] psn
+|-sideend|p2: Psypedro|Reflect
+|upkeep
+|turn|10
+|
+|t:|1779903550
+|move|p2a: Glimmora|Stealth Rock|p1a: Umbreon
+|-sidestart|p1: adow|move: Stealth Rock
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|94/100 psn|[from] item: Leftovers
+|-damage|p1a: Umbreon|82/100 psn|[from] psn
+|-sideend|p2: Psypedro|move: Light Screen
+|upkeep
+|turn|11
+|
+|t:|1779903572
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Umbreon|Curse|p1a: Umbreon
+|-unboost|p1a: Umbreon|spe|1
+|-boost|p1a: Umbreon|atk|1
+|-boost|p1a: Umbreon|def|1
+|
+|-heal|p1a: Umbreon|100/100 psn|[from] move: Wish|[wisher] Umbreon
+|-damage|p1a: Umbreon|88/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1779903589
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|48/100
+|move|p1a: Umbreon|Foul Play|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|36/100
+|
+|-heal|p1a: Umbreon|94/100 psn|[from] item: Leftovers
+|-damage|p1a: Umbreon|82/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1779903599
+|move|p2a: Grimmsnarl|Taunt|p1a: Umbreon
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Umbreon
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|88/100 psn|[from] item: Leftovers
+|-damage|p1a: Umbreon|75/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1779903608
+|switch|p1a: Donphan|Donphan, M|24/100
+|-damage|p1a: Donphan|18/100|[from] Stealth Rock
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Psypedro|Reflect
+|
+|-heal|p1a: Donphan|69/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Donphan|75/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1779903618
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Psypedro|move: Light Screen
+|move|p1a: Donphan|Rapid Spin|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|27/100
+|-boost|p1a: Donphan|spe|1
+|-sideend|p1: adow|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Donphan
+|
+|-heal|p1a: Donphan|81/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1779903629
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|move|p1a: Donphan|Stealth Rock|p2a: Kingambit
+|-sidestart|p2: Psypedro|move: Stealth Rock
+|
+|-heal|p1a: Donphan|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1779903641
+|switch|p1a: Toucannon|Toucannon, F|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Toucannon
+|-damage|p1a: Toucannon|51/100
+|-damage|p2a: Kingambit|84/100|[from] item: Rocky Helmet|[of] p1a: Toucannon
+|
+|upkeep
+|turn|18
+|
+|t:|1779903655
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Glimmora|Glimmora, M|88/100
+|-damage|p2a: Glimmora|76/100|[from] Stealth Rock
+|-singleturn|p1a: Toucannon|move: Beak Blast
+|move|p1a: Toucannon|Beak Blast|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|64/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: adow|move: Toxic Spikes
+|
+|upkeep
+|turn|19
+|
+|t:|1779903668
+|switch|p1a: Donphan|Donphan, M|88/100
+|-status|p1a: Donphan|psn
+|move|p2a: Glimmora|Mortal Spin|p1a: Donphan
+|-resisted|p1a: Donphan
+|-damage|p1a: Donphan|86/100 psn
+|-sideend|p2: Psypedro|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Glimmora
+|
+|-heal|p1a: Donphan|92/100 psn|[from] item: Leftovers
+|-damage|p1a: Donphan|80/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1779903684
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Donphan|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: Psypedro|move: Stealth Rock
+|
+|-heal|p1a: Donphan|86/100 psn|[from] item: Leftovers
+|-damage|p1a: Donphan|74/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1779903694
+|move|p1a: Donphan|Ice Shard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|88/100
+|move|p2a: Dragonite|Ice Spinner|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|34/100 psn
+|
+|-heal|p1a: Donphan|40/100 psn|[from] item: Leftovers
+|-damage|p1a: Donphan|28/100 psn|[from] psn
+|-sideend|p2: Psypedro|Reflect
+|upkeep
+|turn|22
+|
+|t:|1779903706
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-status|p1a: Ninetales|psn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Ice Spinner|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|88/100 psn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ninetales|76/100 psn|[from] psn
+|-sideend|p2: Psypedro|move: Light Screen
+|upkeep
+|turn|23
+|
+|t:|1779903726
+|move|p2a: Dragonite|Extreme Speed|p1a: Ninetales
+|-damage|p1a: Ninetales|43/100 psn
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: adow|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ninetales|31/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1779903736
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Ninetales|Pain Split|p2a: Dragonite
+|-sethp|p2a: Dragonite|61/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Ninetales|56/100 psn|[from] move: Pain Split
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ninetales|44/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1779903746
+|switch|p1a: Skeledirge|Skeledirge, M|51/100
+|move|p2a: Dragonite|Extreme Speed|p1a: Skeledirge
+|-immune|p1a: Skeledirge
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1779903755
+|move|p2a: Dragonite|Earthquake|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|25/100
+|move|p1a: Skeledirge|Will-O-Wisp|p2a: Dragonite
+|-status|p2a: Dragonite|brn
+|
+|-weather|none
+|-damage|p2a: Dragonite|55/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1779903765
+|move|p2a: Dragonite|Earthquake|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|10/100
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|60/100
+|
+|-damage|p2a: Dragonite|48/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1779903774
+|move|p2a: Dragonite|Earthquake|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|47/100
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|97/100
+|
+|-damage|p2a: Dragonite|42/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1779903784
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|27/100
+|-damage|p2a: Grimmsnarl|15/100|[from] Stealth Rock
+|switch|p1a: Umbreon|Umbreon, M|75/100 psn
+|
+|-heal|p1a: Umbreon|81/100 psn|[from] item: Leftovers
+|-damage|p1a: Umbreon|69/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1779903795
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Psypedro|move: Light Screen
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|75/100 psn|[from] item: Leftovers
+|-damage|p1a: Umbreon|63/100 psn|[from] psn
+|-sideend|p1: adow|move: Aurora Veil
+|upkeep
+|turn|31
+|
+|t:|1779903803
+|switch|p1a: Ninetales|Ninetales-Alola, M|44/100 psn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Psypedro|Reflect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ninetales|99/100 psn|[from] move: Wish|[wisher] Umbreon
+|-damage|p1a: Ninetales|88/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1779903831
+|switch|p1a: Umbreon|Umbreon, M|63/100 psn
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Umbreon
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Umbreon
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Umbreon|69/100 psn|[from] item: Leftovers
+|-damage|p1a: Umbreon|56/100 psn|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1779903849
+|move|p2a: Grimmsnarl|Taunt|p1a: Umbreon
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Umbreon
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Umbreon|62/100 psn|[from] item: Leftovers
+|-damage|p1a: Umbreon|50/100 psn|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1779903863
+|switch|p1a: Donphan|Donphan, M|28/100 psn
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Donphan|79/100 psn|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Donphan|85/100 psn|[from] item: Leftovers
+|-damage|p1a: Donphan|73/100 psn|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1779903883
+|move|p2a: Iron Valiant|Moonblast|p1a: Donphan
+|-damage|p1a: Donphan|7/100 psn
+|move|p1a: Donphan|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|67/100
+|
+|-weather|none
+|-heal|p1a: Donphan|14/100 psn|[from] item: Leftovers
+|-damage|p1a: Donphan|1/100 psn|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1779903899
+|switch|p1a: Skeledirge|Skeledirge, M|97/100
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|45/100
+|
+|upkeep
+|turn|37
+|
+|t:|1779903911
+|-terastallize|p1a: Skeledirge|Fire
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Skeledirge
+|-damage|p1a: Skeledirge|17/100
+|-unboost|p1a: Skeledirge|spd|1
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|67/100
+|
+|-sideend|p2: Psypedro|move: Light Screen
+|upkeep
+|turn|38
+|
+|t:|1779903931
+|switch|p1a: Umbreon|Umbreon, M|50/100 psn
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Umbreon
+|-resisted|p1a: Umbreon
+|-damage|p1a: Umbreon|42/100 psn
+|
+|-heal|p1a: Umbreon|48/100 psn|[from] item: Leftovers
+|-damage|p1a: Umbreon|36/100 psn|[from] psn
+|-sideend|p2: Psypedro|Reflect
+|upkeep
+|turn|39
+|
+|t:|1779903946
+|switch|p1a: Skeledirge|Skeledirge, M, tera:Fire|67/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|43/100
+|-unboost|p1a: Skeledirge|spa|1
+|
+|upkeep
+|turn|40
+|
+|t:|1779903956
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Skeledirge
+|-damage|p1a: Skeledirge|17/100
+|-unboost|p1a: Skeledirge|spd|1
+|move|p1a: Skeledirge|Torch Song|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|13/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|upkeep
+|turn|41
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Psypedro)
+|
+|t:|1779904032
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|upkeep
+|
+|t:|1779904039
+|switch|p1a: Ninetales|Ninetales-Alola, M|88/100 psn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|42
+|
+|t:|1779904053
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|15/100
+|-damage|p2a: Grimmsnarl|3/100|[from] Stealth Rock
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: adow|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ninetales|76/100 psn|[from] psn
+|upkeep
+|turn|43
+|inactive|adow has 120 seconds left.
+|inactive|adow has 90 seconds left.
+|
+|t:|1779904119
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Psypedro|Reflect
+|move|p1a: Ninetales|Freeze-Dry|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ninetales|63/100 psn|[from] psn
+|upkeep
+|
+|t:|1779904139
+|switch|p2a: Kingambit|Kingambit, F|84/100
+|-damage|p2a: Kingambit|78/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|44
+|inactive|adow has 90 seconds left.
+|
+|t:|1779904159
+|switch|p1a: Donphan|Donphan, M|1/100 psn
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Donphan|7/100 psn|[from] item: Leftovers
+|-damage|p1a: Donphan|0 fnt|[from] psn
+|faint|p1a: Donphan
+|upkeep
+|
+|t:|1779904173
+|switch|p1a: Toucannon|Toucannon, F|51/100
+|turn|45
+|
+|t:|1779904185
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Toucannon
+|-damage|p1a: Toucannon|0 fnt
+|-damage|p2a: Kingambit|61/100|[from] item: Rocky Helmet|[of] p1a: Toucannon
+|faint|p1a: Toucannon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779904189
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|-status|p1a: Jolteon|psn
+|turn|46
+|
+|t:|1779904197
+|move|p2a: Kingambit|Sucker Punch|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|-weather|none
+|upkeep
+|
+|t:|1779904203
+|switch|p1a: Ninetales|Ninetales-Alola, M|63/100 psn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|47
+|inactive|adow has 90 seconds left.
+|inactive|adow has 60 seconds left.
+|inactive|adow has 30 seconds left.
+|inactive|adow has 20 seconds left.
+|inactive|adow has 15 seconds left.
+|inactive|adow has 10 seconds left.
+|inactive|adow has 5 seconds left.
+|-message|adow lost due to inactivity.
+|
+|win|Psypedro
+|raw|adow's rating: 1227 &rarr; <strong>1199</strong><br />(-28 for losing)
+|raw|Psypedro's rating: 1184 &rarr; <strong>1212</strong><br />(+28 for winning)
+|l|☆Psypedro
+|player|p2|
+|l|☆adow
+|player|p1|

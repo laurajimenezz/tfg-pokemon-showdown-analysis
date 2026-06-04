@@ -1,0 +1,304 @@
+|j|☆Ham pro
+|j|☆Moldy Moss
+|t:|1779685035
+|gametype|singles
+|player|p1|Ham pro|2|1139
+|player|p2|Moldy Moss|102|1164
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Meowscarada, M|
+|poke|p1|Araquanid, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Gholdengo|
+|poke|p2|Araquanid, M|
+|poke|p2|Quaquaval, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Barraskewda, M|
+|poke|p2|Iron Treads|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1779685050
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|switch|p2a: Duolingo|Pelipper, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Duolingo
+|turn|1
+|
+|t:|1779685061
+|move|p2a: Duolingo|Knock Off|p1a: Araquanid
+|-damage|p1a: Araquanid|87/100
+|-enditem|p1a: Araquanid|Leftovers|[from] move: Knock Off|[of] p2a: Duolingo
+|move|p1a: Araquanid|Sticky Web|p2a: Duolingo
+|-sidestart|p2: Moldy Moss|move: Sticky Web
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|l|☆Moldy Moss
+|player|p2|
+|j|☆Moldy Moss
+|player|p2|Moldy Moss|102|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ham pro)
+|
+|t:|1779685127
+|move|p2a: Duolingo|U-turn|p1a: Araquanid
+|-damage|p1a: Araquanid|77/100
+|
+|t:|1779685135
+|switch|p2a: Zebskyka|Raging Bolt|100/100|[from] U-turn
+|-activate|p2a: Zebskyka|move: Sticky Web
+|-unboost|p2a: Zebskyka|spe|1
+|move|p1a: Araquanid|Lunge|p2a: Zebskyka
+|-damage|p2a: Zebskyka|80/100
+|-unboost|p2a: Zebskyka|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779685160
+|move|p2a: Zebskyka|Thunder|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779685169
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|4
+|
+|t:|1779685176
+|-end|p2a: Zebskyka|Protosynthesis|[silent]
+|switch|p2a: Elephelec|Iron Treads|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Elephelec
+|-resisted|p2a: Elephelec
+|-damage|p2a: Elephelec|73/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779685187
+|-end|p2a: Elephelec|Quark Drive|[silent]
+|switch|p2a: Duolingo|Pelipper, F, shiny|100/100
+|move|p1a: Iron Valiant|Aura Sphere|p2a: Duolingo
+|-resisted|p2a: Duolingo
+|-damage|p2a: Duolingo|74/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779685196
+|move|p1a: Iron Valiant|Thunderbolt|p2a: Duolingo
+|-supereffective|p2a: Duolingo
+|-damage|p2a: Duolingo|0 fnt
+|faint|p2a: Duolingo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779685203
+|switch|p2a: Fishc|Barraskewda, M|100/100
+|-activate|p2a: Fishc|move: Sticky Web
+|-unboost|p2a: Fishc|spe|1
+|turn|7
+|
+|t:|1779685223
+|move|p1a: Iron Valiant|Thunderbolt|p2a: Fishc
+|-supereffective|p2a: Fishc
+|-damage|p2a: Fishc|0 fnt
+|faint|p2a: Fishc
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779685234
+|switch|p2a: Zebskyka|Raging Bolt|80/100
+|-activate|p2a: Zebskyka|move: Sticky Web
+|-unboost|p2a: Zebskyka|spe|1
+|turn|8
+|
+|t:|1779685240
+|move|p2a: Zebskyka|Thunderclap|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1779685267
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|9
+|
+|t:|1779685276
+|-end|p2a: Zebskyka|Protosynthesis|[silent]
+|switch|p2a: Elephelec|Iron Treads|73/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Elephelec
+|-damage|p2a: Elephelec|18/100
+|
+|upkeep
+|turn|10
+|
+|t:|1779685287
+|-end|p2a: Elephelec|Quark Drive|[silent]
+|switch|p2a: Multi-legged|Araquanid, M|100/100
+|-activate|p2a: Multi-legged|move: Sticky Web
+|-unboost|p2a: Multi-legged|spe|1
+|move|p1a: Gholdengo|Shadow Ball|p2a: Multi-legged
+|-damage|p2a: Multi-legged|69/100
+|
+|upkeep
+|turn|11
+|
+|t:|1779685303
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|move|p2a: Multi-legged|Mirror Coat||[still]
+|-fail|p2a: Multi-legged
+|
+|upkeep
+|turn|12
+|
+|t:|1779685312
+|move|p1a: Meowscarada|Triple Axel|p2a: Multi-legged
+|-start|p1a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-resisted|p2a: Multi-legged
+|-damage|p2a: Multi-legged|62/100
+|-resisted|p2a: Multi-legged
+|-crit|p2a: Multi-legged
+|-damage|p2a: Multi-legged|43/100
+|-resisted|p2a: Multi-legged
+|-damage|p2a: Multi-legged|22/100
+|-hitcount|p2a: Multi-legged|3
+|-damage|p1a: Meowscarada|91/100|[from] item: Life Orb
+|move|p2a: Multi-legged|Sticky Web|p1a: Meowscarada
+|-sidestart|p1: Ham pro|move: Sticky Web
+|
+|upkeep
+|turn|13
+|
+|t:|1779685330
+|move|p1a: Meowscarada|Flower Trick|p2a: Multi-legged
+|-crit|p2a: Multi-legged
+|-damage|p2a: Multi-legged|0 fnt
+|faint|p2a: Multi-legged
+|-damage|p1a: Meowscarada|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779685340
+|switch|p2a: Zebskyka|Raging Bolt|80/100
+|-activate|p2a: Zebskyka|move: Sticky Web
+|-unboost|p2a: Zebskyka|spe|1
+|turn|14
+|
+|t:|1779685353
+|move|p1a: Meowscarada|Triple Axel|p2a: Zebskyka
+|-supereffective|p2a: Zebskyka
+|-damage|p2a: Zebskyka|61/100
+|-supereffective|p2a: Zebskyka
+|-damage|p2a: Zebskyka|19/100
+|-supereffective|p2a: Zebskyka
+|-crit|p2a: Zebskyka
+|-damage|p2a: Zebskyka|0 fnt
+|faint|p2a: Zebskyka
+|-end|p2a: Zebskyka|Protosynthesis|[silent]
+|-hitcount|p2: Zebskyka|3
+|-damage|p1a: Meowscarada|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779685365
+|switch|p2a: Donald|Quaquaval, F, shiny|100/100
+|-activate|p2a: Donald|move: Sticky Web
+|-unboost|p2a: Donald|spe|1
+|turn|15
+|
+|t:|1779685375
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-activate|p1a: Gholdengo|move: Sticky Web
+|-unboost|p1a: Gholdengo|spe|1
+|move|p2a: Donald|Aqua Step|p1a: Gholdengo
+|-damage|p1a: Gholdengo|41/100
+|-boost|p2a: Donald|spe|1
+|-damage|p2a: Donald|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|
+|t:|1779685387
+|move|p2a: Donald|Aqua Step|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-boost|p2a: Donald|spe|1
+|faint|p1a: Gholdengo
+|-ability|p2a: Donald|Moxie|boost
+|-boost|p2a: Donald|atk|1
+|-damage|p2a: Donald|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779685394
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|-activate|p1a: Kommo-o|move: Sticky Web
+|-unboost|p1a: Kommo-o|spe|1
+|turn|17
+|
+|t:|1779685406
+|-terastallize|p1a: Kommo-o|Dragon
+|move|p2a: Donald|Triple Axel|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|77/100
+|-hitcount|p1a: Kommo-o|1
+|-damage|p2a: Donald|71/100|[from] item: Life Orb
+|move|p1a: Kommo-o|Scale Shot|p2a: Donald
+|-damage|p2a: Donald|49/100
+|-damage|p2a: Donald|28/100
+|-damage|p2a: Donald|8/100
+|-damage|p2a: Donald|0 fnt
+|faint|p2a: Donald
+|-hitcount|p2: Donald|4
+|-unboost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spe|1
+|
+|upkeep
+|
+|t:|1779685424
+|switch|p2a: Elephelec|Iron Treads|18/100
+|turn|18
+|
+|t:|1779685429
+|move|p2a: Elephelec|Body Press|p1a: Kommo-o
+|-damage|p1a: Kommo-o|45/100
+|move|p1a: Kommo-o|Drain Punch|p2a: Elephelec
+|-supereffective|p2a: Elephelec
+|-damage|p2a: Elephelec|0 fnt
+|-heal|p1a: Kommo-o|56/100|[from] drain|[of] p2a: Elephelec
+|faint|p2a: Elephelec
+|-end|p2a: Elephelec|Quark Drive|[silent]
+|
+|win|Ham pro
+|raw|Ham pro's rating: 1139 &rarr; <strong>1166</strong><br />(+27 for winning)
+|raw|Moldy Moss's rating: 1164 &rarr; <strong>1137</strong><br />(-27 for losing)
+|l|☆Ham pro
+|player|p1|

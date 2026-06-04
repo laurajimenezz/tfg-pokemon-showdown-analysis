@@ -1,0 +1,171 @@
+|j|☆azureflatlands
+|j|☆Negative1stClass
+|t:|1779962056
+|gametype|singles
+|player|p1|azureflatlands|preschoolerf|1457
+|player|p2|Negative1stClass|hilbert|1414
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clodsire, F|
+|poke|p1|Pecharunt|
+|poke|p1|Talonflame, F|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Blissey, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Overqwil, M|
+|poke|p2|Barraskewda, F|
+|poke|p2|Iron Treads|
+|poke|p2|Azelf|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Negative1stClass)
+|
+|t:|1779962063
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1779962075
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Talonflame
+|-sidestart|p1: azureflatlands|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1779962080
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Talonflame|Defog|p2a: Pelipper
+|-unboost|p2a: Pelipper|evasion|1
+|-sideend|p1: azureflatlands|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779962089
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Pelipper|U-turn|p1a: Blissey
+|-damage|p1a: Blissey|92/100
+|
+|t:|1779962094
+|switch|p2a: Barraskewda|Barraskewda, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1779962099
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Barraskewda|Flip Turn|p1a: Pecharunt
+|-damage|p1a: Pecharunt|65/100
+|-damage|p2a: Barraskewda|84/100|[from] item: Rocky Helmet|[of] p1a: Pecharunt
+|
+|t:|1779962107
+|switch|p2a: Overqwil|Overqwil, M|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779962114
+|move|p2a: Overqwil|Swords Dance|p2a: Overqwil
+|-boost|p2a: Overqwil|atk|2
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779962119
+|-terastallize|p1a: Pecharunt|Dark
+|move|p2a: Overqwil|Crunch|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|75/100
+|-damage|p2a: Overqwil|84/100|[from] item: Rocky Helmet|[of] p1a: Pecharunt
+|-damage|p2a: Overqwil|74/100|[from] item: Life Orb
+|move|p1a: Pecharunt|Foul Play|p2a: Overqwil
+|-resisted|p2a: Overqwil
+|-damage|p2a: Overqwil|16/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779962133
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1779962138
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Talonflame
+|-sidestart|p1: azureflatlands|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1779962142
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Azelf|Azelf|100/100
+|move|p1a: Talonflame|Defog|p2a: Azelf
+|-unboost|p2a: Azelf|evasion|1
+|-sideend|p1: azureflatlands|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1779962146
+|switch|p1a: Blissey|Blissey, F|98/100
+|move|p2a: Azelf|Thunder|p1a: Blissey|[miss]
+|-miss|p2a: Azelf|p1a: Blissey
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1779962152
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Blissey|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: Negative1stClass|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|-message|Negative1stClass forfeited.
+|
+|win|azureflatlands
+|raw|azureflatlands's rating: 1457 &rarr; <strong>1475</strong><br />(+18 for winning)
+|raw|Negative1stClass's rating: 1414 &rarr; <strong>1396</strong><br />(-18 for losing)
+|l|☆Negative1stClass
+|player|p2|
+|l|☆azureflatlands
+|player|p1|

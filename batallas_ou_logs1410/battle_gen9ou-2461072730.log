@@ -1,0 +1,385 @@
+|j|☆spongeon
+|j|‽Legends of ZA
+|t:|1760390814
+|gametype|singles
+|player|p1|spongeon|169|1333
+|player|p2|Legends of ZA|ginchiyo-conquest|1409
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Zapdos|
+|poke|p1|Maushold|
+|poke|p1|Comfey, F|
+|poke|p1|Sandslash-Alola, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Pecharunt|
+|poke|p2|Scizor, F|
+|poke|p2|Latios, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|t:|1760390821
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|1
+|
+|t:|1760390831
+|move|p1a: Zapdos|Hurricane|p2a: Samurott|[miss]
+|-miss|p1a: Zapdos|p2a: Samurott
+|move|p2a: Samurott|Ceaseless Edge|p1a: Zapdos
+|-damage|p1a: Zapdos|42/100
+|-sidestart|p1: spongeon|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1760390840
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|3
+|
+|t:|1760390844
+|move|p1a: Zapdos|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|20/100
+|-damage|p1a: Zapdos|32/100|[from] item: Life Orb
+|move|p2a: Landorus|Smack Down|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1760390871
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|turn|4
+|
+|t:|1760390874
+|move|p2a: Landorus|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|68/100
+|
+|t:|1760390877
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100|[from] U-turn
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760390886
+|switch|p1a: Zamazenta|Zamazenta|100/100|[from] Chilly Reception
+|-damage|p1a: Zamazenta|88/100|[from] Spikes
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760390890
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760390895
+|move|p1a: Zamazenta|Crunch|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|76/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Zamazenta
+|-damage|p1a: Zamazenta|59/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760390914
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|move|p2a: Pecharunt|Parting Shot|p1a: Slowking
+|-unboost|p1a: Slowking|atk|1
+|-unboost|p1a: Slowking|spa|1
+|
+|t:|1760390918
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100|[from] Parting Shot
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760390926
+|move|p2a: Samurott|Ceaseless Edge|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-sidestart|p1: spongeon|Spikes
+|faint|p1a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760390932
+|switch|p1a: Sandslash|Sandslash-Alola, F|100/100
+|-damage|p1a: Sandslash|84/100|[from] Spikes
+|turn|9
+|
+|t:|1760390939
+|switch|p2a: Pecharunt|Pecharunt|76/100
+|move|p1a: Sandslash|Earthquake|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|29/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760390949
+|-terastallize|p2a: Pecharunt|Ghost
+|move|p1a: Sandslash|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|-enditem|p2a: Pecharunt|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Sandslash
+|faint|p2a: Pecharunt
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760390957
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|11
+|
+|t:|1760390963
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Sandslash|Triple Axel|p2a: Zamazenta
+|-damage|p2a: Zamazenta|98/100
+|-damage|p2a: Zamazenta|92/100
+|-hitcount|p2a: Zamazenta|2
+|
+|-weather|none
+|-heal|p2a: Zamazenta|98/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1760390977
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Sandslash|Triple Axel|p2a: Zamazenta
+|-damage|p2a: Zamazenta|96/100
+|-damage|p2a: Zamazenta|92/100
+|-damage|p2a: Zamazenta|85/100
+|-hitcount|p2a: Zamazenta|3
+|
+|-heal|p2a: Zamazenta|91/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760390984
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Sandslash|Triple Axel|p2a: Zamazenta
+|-damage|p2a: Zamazenta|89/100
+|-damage|p2a: Zamazenta|85/100
+|-damage|p2a: Zamazenta|80/100
+|-hitcount|p2a: Zamazenta|3
+|
+|-heal|p2a: Zamazenta|86/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1760390993
+|move|p2a: Zamazenta|Body Press|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|-heal|p2a: Zamazenta|92/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760390996
+|switch|p1a: Maushold|Maushold|100/100
+|-damage|p1a: Maushold|84/100|[from] Spikes
+|turn|15
+|
+|t:|1760391000
+|-terastallize|p1a: Maushold|Ghost
+|move|p2a: Zamazenta|Body Press|p1a: Maushold
+|-immune|p1a: Maushold
+|move|p1a: Maushold|Encore|p2a: Zamazenta
+|-start|p2a: Zamazenta|Encore
+|
+|-heal|p2a: Zamazenta|98/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1760391011
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-sideend|p1: spongeon|Spikes
+|-activate|p1a: Maushold|move: Tidy Up
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|upkeep
+|turn|17
+|
+|t:|1760391018
+|move|p1a: Maushold|Population Bomb|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|90/100
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|81/100
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|71/100
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|62/100
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|51/100
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|41/100
+|-resisted|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|25/100
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|15/100
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|5/100
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|-hitcount|p2: Scizor|10
+|
+|upkeep
+|
+|t:|1760391028
+|switch|p2a: Landorus|Landorus-Therian, M|20/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Maushold|atk|1
+|turn|18
+|
+|t:|1760391042
+|move|p1a: Maushold|Population Bomb|p2a: Landorus
+|-damage|p2a: Landorus|9/100
+|-damage|p1a: Maushold|67/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Maushold|51/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|-hitcount|p2: Landorus|2
+|
+|upkeep
+|
+|t:|1760391048
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|19
+|
+|t:|1760391053
+|move|p2a: Samurott|Aqua Jet|p1a: Maushold
+|-damage|p1a: Maushold|21/100
+|move|p1a: Maushold|Population Bomb|p2a: Samurott
+|-damage|p2a: Samurott|85/100
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|64/100
+|-damage|p2a: Samurott|51/100
+|-damage|p2a: Samurott|36/100
+|-damage|p2a: Samurott|22/100
+|-damage|p2a: Samurott|9/100
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|-hitcount|p2: Samurott|7
+|
+|upkeep
+|
+|t:|1760391058
+|switch|p2a: Zamazenta|Zamazenta|98/100
+|turn|20
+|
+|t:|1760391060
+|move|p1a: Maushold|Population Bomb|p2a: Zamazenta
+|-damage|p2a: Zamazenta|89/100
+|-damage|p2a: Zamazenta|81/100
+|-damage|p2a: Zamazenta|73/100
+|-damage|p2a: Zamazenta|64/100
+|-damage|p2a: Zamazenta|56/100
+|-damage|p2a: Zamazenta|48/100
+|-damage|p2a: Zamazenta|39/100
+|-damage|p2a: Zamazenta|31/100
+|-damage|p2a: Zamazenta|23/100
+|-damage|p2a: Zamazenta|14/100
+|-hitcount|p2a: Zamazenta|10
+|move|p2a: Zamazenta|Crunch|p1a: Maushold
+|-supereffective|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|-heal|p2a: Zamazenta|20/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760391077
+|switch|p1a: Comfey|Comfey, F|100/100
+|turn|21
+|
+|t:|1760391083
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|move|p2a: Zamazenta|Roar|p1a: Comfey
+|drag|p1a: Zamazenta|Zamazenta|59/100
+|
+|-heal|p2a: Zamazenta|26/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1760391095
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Zamazenta|Body Press|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|79/100
+|
+|upkeep
+|turn|23
+|
+|t:|1760391103
+|move|p1a: Zamazenta|Crunch|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|33/100
+|move|p2a: Latios|Psychic Noise|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1760391109
+|switch|p1a: Comfey|Comfey, F|100/100
+|turn|24
+|-message|Legends of ZA forfeited.
+|
+|win|spongeon
+|raw|spongeon's rating: 1333 &rarr; <strong>1357</strong><br />(+24 for winning)
+|raw|Legends of ZA's rating: 1409 &rarr; <strong>1385</strong><br />(-24 for losing)
+|l|‽Legends of ZA
+|player|p2|
+|l|☆spongeon
+|player|p1|

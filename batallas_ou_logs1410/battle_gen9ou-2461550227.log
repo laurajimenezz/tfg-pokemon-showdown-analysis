@@ -1,0 +1,170 @@
+|j|☆ph1fan
+|j|☆Chickton
+|t:|1760457253
+|gametype|singles
+|player|p1|ph1fan|twins-gen4dp|1282
+|player|p2|Chickton|depotagent|1260
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Serperior, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Milotic, M|
+|poke|p2|Weavile, M|
+|poke|p2|Primarina, M|
+|poke|p2|Iron Treads|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Darkrai|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chickton)
+|
+|t:|1760457265
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|1
+|
+|t:|1760457268
+|move|p2a: Iron Treads|Rapid Spin|p1a: Araquanid
+|-damage|p1a: Araquanid|88/100
+|-boost|p2a: Iron Treads|spe|1
+|move|p1a: Araquanid|Sticky Web|p2a: Iron Treads
+|-sidestart|p2: Chickton|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1760457275
+|move|p2a: Iron Treads|Rapid Spin|p1a: Araquanid
+|-damage|p1a: Araquanid|73/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: Chickton|Sticky Web|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Araquanid|Surf|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|22/100
+|
+|upkeep
+|turn|3
+|
+|t:|1760457282
+|move|p2a: Iron Treads|Volt Switch|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|54/100
+|
+|t:|1760457287
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Rillaboom|Rillaboom, F|100/100|[from] Volt Switch
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Araquanid|Sticky Web|p2a: Rillaboom
+|-sidestart|p2: Chickton|move: Sticky Web
+|
+|-heal|p1a: Araquanid|60/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1760457307
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Rillaboom|Wood Hammer|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|14/100
+|-damage|p2a: Rillaboom|75/100|[from] Recoil
+|
+|-heal|p1a: Cinderace|20/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|81/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1760457311
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|
+|-heal|p1a: Cinderace|26/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1760457322
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Cinderace|U-turn|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|17/100
+|
+|t:|1760457341
+|switch|p1a: Kingambit|Kingambit, F|100/100|[from] U-turn
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2a: Weavile|23/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1760457343
+|move|p1a: Kingambit|Sucker Punch|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1760457348
+|switch|p2a: Primarina|Primarina, M|100/100
+|turn|8
+|
+|t:|1760457354
+|-terastallize|p2a: Primarina|Poison
+|move|p2a: Primarina|Moonblast|p1a: Kingambit
+|-damage|p1a: Kingambit|51/100
+|-unboost|p1a: Kingambit|spa|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|move|p1a: Kingambit|Iron Head|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-heal|p1a: Kingambit|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760457365
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|9
+|
+|t:|1760457381
+|move|p1a: Kingambit|Sucker Punch|p2a: Darkrai
+|-resisted|p2a: Darkrai
+|-damage|p2a: Darkrai|18/100
+|move|p2a: Darkrai|Dark Pulse|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|28/100
+|
+|-heal|p1a: Kingambit|34/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|-message|Chickton forfeited.
+|
+|win|ph1fan
+|raw|ph1fan's rating: 1282 &rarr; <strong>1305</strong><br />(+23 for winning)
+|raw|Chickton's rating: 1260 &rarr; <strong>1237</strong><br />(-23 for losing)
+|l|☆Chickton
+|player|p2|

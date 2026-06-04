@@ -1,0 +1,161 @@
+|j|☆Twilights
+|j|☆sauce squad
+|t:|1759022298
+|gametype|singles
+|player|p1|Twilights|2|1217
+|player|p2|sauce squad|clown|1223
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Chansey, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p2|Greninja-*, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Walking Wake|
+|poke|p2|Great Tusk|
+|poke|p2|Ninetales, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1759022308
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1759022316
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1759022321
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-terastallize|p2a: Great Tusk|Ice
+|move|p2a: Great Tusk|Ice Spinner|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|85/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|91/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1759022326
+|move|p2a: Great Tusk|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: Twilights|move: Stealth Rock
+|move|p1a: Toxapex|Chilling Water|p2a: Great Tusk
+|-damage|p2a: Great Tusk|94/100
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|97/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1759022335
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Greninja|Greninja, M|100/100
+|move|p1a: Toxapex|Chilling Water|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|97/100
+|-unboost|p2a: Greninja|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1759022339
+|move|p2a: Greninja|Spikes|p1a: Toxapex
+|-start|p2a: Greninja|typechange|Ground|[from] ability: Protean
+|-sidestart|p1: Twilights|Spikes
+|move|p1a: Toxapex|Toxic|p2a: Greninja
+|-status|p2a: Greninja|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Greninja|91/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1759022344
+|move|p2a: Greninja|Mud Shot|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|41/100
+|-unboost|p1a: Toxapex|spe|1
+|-damage|p2a: Greninja|81/100 tox|[from] item: Life Orb
+|move|p1a: Toxapex|Chilling Water|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|65/100 tox
+|-unboost|p2a: Greninja|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|47/100|[from] item: Black Sludge
+|-damage|p2a: Greninja|53/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1759022355
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|-damage|p1a: Ogerpon|76/100|[from] Spikes
+|move|p2a: Greninja|Spikes|p1a: Ogerpon
+|-sidestart|p1: Twilights|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Greninja|36/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1759022365
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Greninja|Weather Ball|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|57/100
+|-damage|p2a: Greninja|26/100 tox|[from] item: Life Orb
+|
+|-weather|none
+|-damage|p2a: Greninja|2/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1759022372
+|move|p2a: Greninja|Mud Shot|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|-damage|p2a: Greninja|0 fnt|[from] item: Life Orb
+|faint|p2a: Greninja
+|
+|upkeep
+|-message|Twilights forfeited.
+|
+|win|sauce squad
+|raw|Twilights's rating: 1217 &rarr; <strong>1192</strong><br />(-25 for losing)
+|raw|sauce squad's rating: 1223 &rarr; <strong>1248</strong><br />(+25 for winning)
+|l|☆Twilights
+|player|p1|

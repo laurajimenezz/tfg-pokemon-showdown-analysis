@@ -1,0 +1,176 @@
+|j|☆BigBadGuzmaIsHere
+|j|☆Jon Mateo
+|t:|1759063724
+|gametype|singles
+|player|p1|BigBadGuzmaIsHere|guzma|1232
+|player|p2|Jon Mateo|266|1242
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Scizor, M|
+|poke|p1|Araquanid, M|
+|poke|p1|Frosmoth, M|
+|poke|p1|Slither Wing|
+|poke|p1|Forretress, M|
+|poke|p1|Masquerain, F|
+|poke|p2|Ceruledge, F|
+|poke|p2|Quaquaval, F|
+|poke|p2|Gardevoir, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Rotom-Frost|
+|poke|p2|Kingdra, F|
+|teampreview
+|
+|t:|1759063737
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Golisopod 3|Slither Wing, shiny|100/100
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|-enditem|p1a: Golisopod 3|Booster Energy
+|-activate|p1a: Golisopod 3|ability: Protosynthesis|[fromitem]
+|-start|p1a: Golisopod 3|protosynthesisatk
+|turn|1
+|
+|t:|1759063744
+|move|p2a: Rotom|Volt Switch|p1a: Golisopod 3
+|-damage|p1a: Golisopod 3|66/100
+|
+|t:|1759063748
+|switch|p2a: Garchomp|Garchomp, M|100/100|[from] Volt Switch
+|move|p1a: Golisopod 3|Close Combat|p2a: Garchomp
+|-damage|p2a: Garchomp|22/100
+|-unboost|p1a: Golisopod 3|def|1
+|-unboost|p1a: Golisopod 3|spd|1
+|-damage|p1a: Golisopod 3|54/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|upkeep
+|turn|2
+|
+|t:|1759063761
+|-end|p1a: Golisopod 3|Protosynthesis|[silent]
+|switch|p1a: Masquerain|Masquerain, F|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Scale Shot|p1a: Masquerain
+|-damage|p1a: Masquerain|82/100
+|-damage|p1a: Masquerain|65/100
+|-damage|p1a: Masquerain|49/100
+|-damage|p1a: Masquerain|30/100
+|-damage|p1a: Masquerain|12/100
+|-hitcount|p1a: Masquerain|5
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1759063777
+|move|p2a: Garchomp|Iron Head|p1a: Masquerain
+|-damage|p1a: Masquerain|0 fnt
+|faint|p1a: Masquerain
+|
+|upkeep
+|
+|t:|1759063781
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|4
+|
+|t:|1759063786
+|move|p1a: Scizor|Bullet Punch|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Scizor|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-heal|p1a: Scizor|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1759063790
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|turn|5
+|
+|t:|1759063798
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Araquanid
+|-damage|p1a: Araquanid|68/100
+|-damage|p2a: Ceruledge|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1759063805
+|move|p2a: Ceruledge|Poltergeist|p1a: Araquanid
+|-activate|p1a: Araquanid|move: Poltergeist|Mystic Water
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|-damage|p2a: Ceruledge|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1759063814
+|switch|p1a: Golisopod 3|Slither Wing, shiny|54/100
+|turn|7
+|
+|t:|1759063818
+|-terastallize|p1a: Golisopod 3|Fire
+|move|p1a: Golisopod 3|Wild Charge|p2a: Ceruledge
+|-damage|p2a: Ceruledge|40/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|-damage|p1a: Golisopod 3|44/100|[from] Recoil
+|move|p2a: Ceruledge|Bitter Blade|p1a: Golisopod 3
+|-resisted|p1a: Golisopod 3
+|-damage|p1a: Golisopod 3|4/100
+|-heal|p2a: Ceruledge|62/100|[from] drain|[of] p1a: Golisopod 3
+|-damage|p2a: Ceruledge|52/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|t:|1759063832
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Golisopod 3
+|-damage|p1a: Golisopod 3|0 fnt
+|faint|p1a: Golisopod 3
+|-end|p1a: Golisopod 3|Protosynthesis|[silent]
+|-damage|p2a: Ceruledge|42/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1759063837
+|switch|p1a: Scizor|Scizor, M|94/100
+|turn|9
+|
+|t:|1759063839
+|move|p1a: Scizor|Bullet Punch|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|9/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|move|p2a: Ceruledge|Bitter Blade|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-heal|p2a: Ceruledge|64/100|[from] drain|[of] p1a: Scizor
+|faint|p1a: Scizor
+|-damage|p2a: Ceruledge|54/100|[from] item: Life Orb
+|
+|upkeep
+|-message|BigBadGuzmaIsHere forfeited.
+|
+|win|Jon Mateo
+|raw|BigBadGuzmaIsHere's rating: 1232 &rarr; <strong>1208</strong><br />(-24 for losing)
+|raw|Jon Mateo's rating: 1242 &rarr; <strong>1266</strong><br />(+24 for winning)
+|l|☆BigBadGuzmaIsHere
+|player|p1|
+|l|☆Jon Mateo
+|player|p2|

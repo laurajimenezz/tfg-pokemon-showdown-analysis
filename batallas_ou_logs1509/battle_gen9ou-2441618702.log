@@ -1,0 +1,288 @@
+|j|☆Andad
+|j|☆Mreda
+|t:|1757874570
+|gametype|singles
+|player|p1|Andad|ghetsis|1456
+|player|p2|Mreda|steven|1450
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Gliscor, F|
+|poke|p1|Primarina, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Kingambit, M|
+|poke|p2|Moltres|
+|poke|p2|Zamazenta-*|
+|poke|p2|Corviknight, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1757874597
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Primarina|Primarina, M|100/100
+|switch|p2a: Megalodon|Garchomp, M|100/100
+|turn|1
+|
+|t:|1757874604
+|switch|p2a: Jogäider|Clodsire, M|100/100
+|move|p1a: Primarina|Moonblast|p2a: Jogäider
+|-resisted|p2a: Jogäider
+|-damage|p2a: Jogäider|86/100
+|
+|-heal|p2a: Jogäider|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1757874612
+|move|p1a: Primarina|Psychic Noise|p2a: Jogäider
+|-heal|p2a: Jogäider|100/100|[from] ability: Water Absorb|[of] p1a: Primarina
+|move|p2a: Jogäider|Stealth Rock|p1a: Primarina
+|-sidestart|p1: Andad|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1757874627
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|move|p2a: Jogäider|Toxic|p1a: Gliscor
+|-status|p1a: Gliscor|tox
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1757874637
+|switch|p2a: Fuego|Zamazenta|100/100
+|-ability|p2a: Fuego|Dauntless Shield|boost
+|-boost|p2a: Fuego|def|1
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1757874645
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Fuego|Ice Fang|p1a: Weezing
+|-damage|p1a: Weezing|79/100
+|
+|upkeep
+|turn|6
+|
+|t:|1757874662
+|switch|p2a: Marco|Moltres|100/100
+|move|p1a: Weezing|Defog|p2a: Marco
+|-unboost|p2a: Marco|evasion|1
+|-sideend|p1: Andad|Stealth Rock|[from] move: Defog|[of] p1a: Weezing
+|
+|upkeep
+|turn|7
+|
+|t:|1757874670
+|move|p2a: Marco|Flamethrower|p1a: Weezing
+|-damage|p1a: Weezing|25/100
+|move|p1a: Weezing|Pain Split|p2a: Marco
+|-sethp|p2a: Marco|61/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|70/100|[from] move: Pain Split
+|
+|upkeep
+|turn|8
+|
+|t:|1757874678
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Primarina|Primarina, M|100/100
+|move|p2a: Marco|Flamethrower|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|88/100
+|-status|p1a: Primarina|brn
+|
+|-damage|p1a: Primarina|82/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1757874689
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox
+|move|p2a: Marco|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|97/100 tox
+|
+|t:|1757874697
+|switch|p2a: Fuego|Zamazenta|100/100|[from] U-turn
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1757874710
+|move|p2a: Fuego|Ice Fang|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|26/100 tox
+|move|p1a: Gliscor|Knock Off|p2a: Fuego
+|-resisted|p2a: Fuego
+|-damage|p2a: Fuego|91/100
+|-enditem|p2a: Fuego|Choice Band|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-heal|p1a: Gliscor|38/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1757874722
+|switch|p1a: Weezing|Weezing-Galar, M|70/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Fuego|Ice Fang|p1a: Weezing
+|-damage|p1a: Weezing|57/100
+|
+|upkeep
+|turn|12
+|
+|t:|1757874734
+|switch|p2a: Marco|Moltres|61/100
+|move|p1a: Weezing|Pain Split|p2a: Marco
+|-sethp|p2a: Marco|55/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|63/100|[from] move: Pain Split
+|
+|upkeep
+|turn|13
+|
+|t:|1757874742
+|move|p2a: Marco|Flamethrower|p1a: Weezing
+|-damage|p1a: Weezing|15/100
+|move|p1a: Weezing|Toxic|p2a: Marco
+|-status|p2a: Marco|tox
+|
+|-damage|p2a: Marco|49/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1757874751
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Primarina|Primarina, M|82/100 brn
+|move|p2a: Marco|U-turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|73/100 brn
+|
+|t:|1757874758
+|switch|p2a: Jogäider|Clodsire, M|100/100|[from] U-turn
+|
+|-damage|p1a: Primarina|67/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1757874766
+|switch|p1a: Gliscor|Gliscor, F|38/100 tox
+|switch|p2a: Fuego|Zamazenta|91/100
+|
+|-heal|p1a: Gliscor|51/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1757874777
+|switch|p1a: Weezing|Weezing-Galar, M|15/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Fuego|Ice Fang|p1a: Weezing
+|-damage|p1a: Weezing|2/100
+|
+|upkeep
+|turn|17
+|
+|t:|1757874784
+|move|p2a: Fuego|Iron Head|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1757874789
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|18
+|
+|t:|1757874794
+|switch|p2a: Jogäider|Clodsire, M|100/100
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Jogäider
+|-status|p2a: Jogäider|brn
+|
+|-damage|p2a: Jogäider|94/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1757874803
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|move|p2a: Jogäider|Stealth Rock|p1a: Arcanine
+|-sidestart|p1: Andad|move: Stealth Rock
+|
+|-heal|p2a: Jogäider|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Jogäider|94/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1757874813
+|switch|p2a: Marco|Moltres|49/100 tox
+|move|p1a: Arcanine|Flare Blitz|p2a: Marco
+|-resisted|p2a: Marco
+|-damage|p2a: Marco|18/100 tox
+|
+|-damage|p2a: Marco|12/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1757874823
+|move|p1a: Arcanine|Flare Blitz|p2a: Marco
+|-resisted|p2a: Marco
+|-damage|p2a: Marco|0 fnt
+|faint|p2a: Marco
+|
+|upkeep
+|
+|t:|1757874832
+|switch|p2a: Megalodon|Garchomp, M|100/100
+|turn|22
+|
+|t:|1757874850
+|switch|p1a: Gliscor|Gliscor, F|51/100 tox
+|-damage|p1a: Gliscor|38/100 tox|[from] Stealth Rock
+|move|p2a: Megalodon|Swords Dance|p2a: Megalodon
+|-boost|p2a: Megalodon|atk|2
+|
+|-heal|p1a: Gliscor|51/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|t:|1757874862
+|move|p2a: Megalodon|Scale Shot|p1a: Gliscor
+|-damage|p1a: Gliscor|34/100 tox
+|-damage|p1a: Gliscor|19/100 tox
+|-damage|p1a: Gliscor|4/100 tox
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-hitcount|p1: Gliscor|4
+|-unboost|p2a: Megalodon|def|1
+|-boost|p2a: Megalodon|spe|1
+|
+|upkeep
+|-message|Andad forfeited.
+|
+|win|Mreda
+|raw|Andad's rating: 1456 &rarr; <strong>1436</strong><br />(-20 for losing)
+|raw|Mreda's rating: 1450 &rarr; <strong>1470</strong><br />(+20 for winning)
+|l|☆Andad
+|player|p1|
+|c|☆Mreda|Gg

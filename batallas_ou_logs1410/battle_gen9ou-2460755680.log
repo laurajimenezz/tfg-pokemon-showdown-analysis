@@ -1,0 +1,415 @@
+|j|☆bifletattor
+|j|☆Passerby bye
+|t:|1760356971
+|gametype|singles
+|player|p1|bifletattor|volkner|1342
+|player|p2|Passerby bye|scientist-gen4|1367
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Ceruledge, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Vileplume, M|
+|poke|p2|Houndoom, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Magnezone|
+|poke|p2|Azumarill, M|
+|poke|p2|Mismagius, F|
+|teampreview
+|
+|t:|1760356975
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|1
+|
+|t:|1760356982
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|move|p1a: Gliscor|Earthquake|p2a: Vileplume
+|-damage|p2a: Vileplume|74/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1760356990
+|move|p1a: Gliscor|Knock Off|p2a: Vileplume
+|-damage|p2a: Vileplume|56/100
+|-damage|p1a: Gliscor|84/100 tox|[from] item: Rocky Helmet|[of] p2a: Vileplume
+|-enditem|p2a: Vileplume|Rocky Helmet|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Vileplume|Leech Seed|p1a: Gliscor
+|-start|p1a: Gliscor|move: Leech Seed
+|
+|-damage|p1a: Gliscor|72/100 tox|[from] Leech Seed|[of] p2a: Vileplume
+|-heal|p2a: Vileplume|69/100|[silent]
+|-heal|p1a: Gliscor|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1760357000
+|move|p1a: Gliscor|U-turn|p2a: Vileplume
+|-damage|p2a: Vileplume|56/100
+|
+|t:|1760357003
+|switch|p1a: Ceruledge|Ceruledge, F|100/100|[from] U-turn
+|move|p2a: Vileplume|Leech Seed|p1a: Ceruledge
+|-start|p1a: Ceruledge|move: Leech Seed
+|
+|-damage|p1a: Ceruledge|88/100|[from] Leech Seed|[of] p2a: Vileplume
+|-heal|p2a: Vileplume|69/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1760357010
+|switch|p2a: Houndoom|Houndoom, F|100/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Houndoom
+|-start|p2a: Houndoom|ability: Flash Fire
+|
+|-damage|p1a: Ceruledge|76/100|[from] Leech Seed|[of] p2a: Houndoom
+|upkeep
+|turn|5
+|
+|t:|1760357021
+|switch|p1a: Gliscor|Gliscor, M|84/100 tox
+|move|p2a: Houndoom|Dark Pulse|p1a: Gliscor
+|-damage|p1a: Gliscor|45/100 tox
+|
+|-heal|p1a: Gliscor|57/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1760357029
+|move|p2a: Houndoom|Fire Blast|p1a: Gliscor|[miss]
+|-miss|p2a: Houndoom|p1a: Gliscor
+|move|p1a: Gliscor|Earthquake|p2a: Houndoom
+|-supereffective|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|faint|p2a: Houndoom
+|
+|-heal|p1a: Gliscor|70/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1760357038
+|switch|p2a: Mismagius|Mismagius, F|100/100
+|turn|7
+|
+|t:|1760357042
+|move|p2a: Mismagius|Substitute|p2a: Mismagius
+|-start|p2a: Mismagius|Substitute
+|-damage|p2a: Mismagius|76/100
+|move|p1a: Gliscor|Knock Off|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-end|p2a: Mismagius|Substitute
+|
+|-heal|p1a: Gliscor|82/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1760357049
+|-terastallize|p2a: Mismagius|Fairy
+|move|p2a: Mismagius|Substitute|p2a: Mismagius
+|-start|p2a: Mismagius|Substitute
+|-damage|p2a: Mismagius|51/100
+|move|p1a: Gliscor|Knock Off|p2a: Mismagius
+|-resisted|p2a: Mismagius
+|-activate|p2a: Mismagius|move: Substitute|[damage]
+|
+|-heal|p1a: Gliscor|95/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1760357057
+|move|p2a: Mismagius|Nasty Plot|p2a: Mismagius
+|-boost|p2a: Mismagius|spa|2
+|move|p1a: Gliscor|Facade|p2a: Mismagius
+|-end|p2a: Mismagius|Substitute
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1760357066
+|move|p2a: Mismagius|Shadow Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-damage|p2a: Mismagius|41/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760357072
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|11
+|
+|t:|1760357075
+|move|p1a: Greninja|Surf|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|
+|upkeep
+|
+|t:|1760357079
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|12
+|
+|t:|1760357092
+|-terastallize|p1a: Greninja|Water
+|move|p1a: Greninja|Grass Knot|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|58/100
+|move|p2a: Azumarill|Play Rough|p1a: Greninja|[miss]
+|-miss|p2a: Azumarill|p1a: Greninja
+|
+|upkeep
+|turn|13
+|
+|t:|1760357103
+|move|p1a: Greninja|Surf|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|30/100
+|move|p2a: Azumarill|Play Rough|p1a: Greninja
+|-damage|p1a: Greninja|4/100
+|
+|upkeep
+|turn|14
+|
+|t:|1760357109
+|move|p2a: Azumarill|Aqua Jet|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|upkeep
+|
+|t:|1760357116
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|15
+|
+|t:|1760357122
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Ninetales|Freeze-Dry|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|90/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1760357129
+|switch|p1a: Ceruledge|Ceruledge, F|76/100
+|move|p2a: Magnezone|Flash Cannon|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|42/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1760357136
+|switch|p2a: Azumarill|Azumarill, M|30/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-crit|p2a: Azumarill
+|-damage|p2a: Azumarill|2/100
+|-heal|p1a: Ceruledge|58/100|[from] drain|[of] p2a: Azumarill
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1760357144
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760357147
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|19
+|
+|t:|1760357158
+|move|p1a: Ceruledge|Bulk Up|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|1
+|-boost|p1a: Ceruledge|def|1
+|move|p2a: Gliscor|Earthquake|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|13/100
+|
+|-weather|none
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|20
+|
+|t:|1760357167
+|move|p1a: Ceruledge|Poltergeist|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Poltergeist|Toxic Orb
+|-damage|p2a: Gliscor|47/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|-heal|p2a: Gliscor|59/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1760357177
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|21
+|
+|t:|1760357182
+|switch|p2a: Magnezone|Magnezone|90/100
+|move|p1a: Ninetales|Freeze-Dry|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|79/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1760357191
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Magnezone|Flash Cannon|p1a: Zamazenta
+|-damage|p1a: Zamazenta|14/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1760357206
+|switch|p2a: Gliscor|Gliscor, M|59/100 tox
+|move|p1a: Zamazenta|Body Press|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|38/100 tox
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|51/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|t:|1760357216
+|move|p1a: Zamazenta|Rest|p1a: Zamazenta
+|-status|p1a: Zamazenta|slp|[from] move: Rest
+|-heal|p1a: Zamazenta|100/100 slp|[silent]
+|-enditem|p1a: Zamazenta|Chesto Berry|[eat]
+|-curestatus|p1a: Zamazenta|slp|[msg]
+|move|p2a: Gliscor|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|83/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|63/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|t:|1760357239
+|switch|p2a: Vileplume|Vileplume, M|69/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-weather|none
+|upkeep
+|turn|26
+|
+|t:|1760357257
+|move|p1a: Zamazenta|Body Press|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|34/100
+|-status|p1a: Zamazenta|slp|[from] ability: Effect Spore|[of] p2a: Vileplume
+|move|p2a: Vileplume|Strength Sap|p1a: Zamazenta
+|-unboost|p1a: Zamazenta|atk|1
+|-heal|p2a: Vileplume|100/100
+|
+|upkeep
+|turn|27
+|
+|t:|1760357268
+|cant|p1a: Zamazenta|slp
+|move|p2a: Vileplume|Sludge Wave|p1a: Zamazenta
+|-damage|p1a: Zamazenta|52/100 slp
+|
+|upkeep
+|turn|28
+|
+|t:|1760357273
+|cant|p1a: Zamazenta|slp
+|move|p2a: Vileplume|Leech Seed|p1a: Zamazenta
+|-start|p1a: Zamazenta|move: Leech Seed
+|
+|-damage|p1a: Zamazenta|40/100 slp|[from] Leech Seed|[of] p2a: Vileplume
+|upkeep
+|turn|29
+|
+|t:|1760357281
+|cant|p1a: Zamazenta|slp
+|move|p2a: Vileplume|Sludge Wave|p1a: Zamazenta
+|-damage|p1a: Zamazenta|7/100 slp
+|
+|-damage|p1a: Zamazenta|0 fnt|[from] Leech Seed|[of] p2a: Vileplume
+|faint|p1a: Zamazenta
+|upkeep
+|
+|t:|1760357289
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|30
+|
+|t:|1760357295
+|switch|p2a: Magnezone|Magnezone|79/100
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: bifletattor|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|31
+|
+|t:|1760357304
+|move|p1a: Ninetales|Freeze-Dry|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-damage|p2a: Magnezone|62/100
+|move|p2a: Magnezone|Flash Cannon|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|l|☆bifletattor
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Passerby bye)
+|inactive|bifletattor has 30 seconds to reconnect!
+|inactive|bifletattor has 20 seconds to reconnect!
+|inactive|bifletattor has 15 seconds to reconnect!
+|inactive|bifletattor has 10 seconds to reconnect!
+|inactive|bifletattor has 5 seconds to reconnect!
+|-message|bifletattor lost due to inactivity.
+|
+|win|Passerby bye
+|raw|bifletattor's rating: 1342 &rarr; <strong>1323</strong><br />(-19 for losing)
+|raw|Passerby bye's rating: 1367 &rarr; <strong>1386</strong><br />(+19 for winning)
+|l|☆Passerby bye
+|player|p2|

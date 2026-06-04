@@ -1,0 +1,480 @@
+|j|☆teapause
+|j|‽Ponponstar5
+|t:|1779888199
+|gametype|singles
+|player|p1|teapause|waiter|1425
+|player|p2|Ponponstar5|harlequin|1435
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tropius, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Heatran, F|
+|poke|p1|Clefable, M|
+|poke|p1|Glimmora, F|
+|poke|p1|Walking Wake|
+|poke|p2|Torkoal, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Walking Wake|
+|poke|p2|Ninetales, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ponponstar5)
+|inactive|teapause also wants the timer to be on.
+|
+|t:|1779888215
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|turn|1
+|
+|t:|1779888223
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Walking Wake|Flip Turn|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|96/100
+|
+|t:|1779888229
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Clefable|Clefable, M|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|2
+|
+|t:|1779888235
+|move|p2a: Walking Wake|Flip Turn|p1a: Clefable
+|-damage|p1a: Clefable|84/100
+|
+|t:|1779888238
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M, shiny|100/100|[from] Flip Turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779888249
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|move|p2a: Torkoal|Stealth Rock|p1a: Glimmora
+|-sidestart|p1: teapause|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779888259
+|move|p1a: Glimmora|Sludge Wave|p2a: Torkoal
+|-damage|p2a: Torkoal|54/100
+|move|p2a: Torkoal|Rapid Spin|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|95/100
+|-boost|p2a: Torkoal|spe|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Ponponstar5|move: Toxic Spikes
+|-sideend|p2: Ponponstar5|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779888272
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|-enditem|p1a: Glimmora|Power Herb
+|-anim|p1a: Glimmora|Meteor Beam|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|66/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|72/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1779888291
+|switch|p1a: Tropius|Tropius, M|100/100
+|-damage|p1a: Tropius|76/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Rapid Spin|p1a: Tropius
+|-damage|p1a: Tropius|52/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779888306
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|96/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p1a: Tropius|Leech Seed|p2a: Walking Wake
+|-start|p2a: Walking Wake|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Walking Wake|84/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|63/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1779888319
+|move|p1a: Tropius|Protect|p1a: Tropius
+|-singleturn|p1a: Tropius|Protect
+|move|p2a: Walking Wake|Draco Meteor|p1a: Tropius
+|-activate|p1a: Tropius|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Walking Wake|72/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|73/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1779888329
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Clefable
+|-immune|p1a: Clefable
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|-damage|p2a: Walking Wake|59/100|[from] Leech Seed|[of] p1a: Clefable
+|upkeep
+|turn|10
+|
+|t:|1779888340
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M, shiny|54/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Clefable|Moonblast|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779888353
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-damage|p1a: Torkoal|76/100|[from] Stealth Rock
+|switch|p2a: Great Tusk|Great Tusk, shiny|78/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|85/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779888368
+|switch|p1a: Tropius|Tropius, M|73/100
+|-damage|p1a: Tropius|48/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Rapid Spin|p1a: Tropius
+|-damage|p1a: Tropius|22/100
+|-boost|p2a: Great Tusk|spe|1
+|-enditem|p1a: Tropius|Starf Berry|[eat]
+|-boost|p1a: Tropius|spe|2|[from] item: Starf Berry
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|91/100|[from] item: Leftovers
+|-item|p1a: Tropius|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropius|Starf Berry|[eat]
+|-boost|p1a: Tropius|spa|2|[from] item: Starf Berry
+|turn|13
+|
+|t:|1779888384
+|move|p1a: Tropius|Protect|p1a: Tropius
+|-singleturn|p1a: Tropius|Protect
+|move|p2a: Great Tusk|Rapid Spin|p1a: Tropius
+|-activate|p1a: Tropius|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|97/100|[from] item: Leftovers
+|-item|p1a: Tropius|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropius|Starf Berry|[eat]
+|-boost|p1a: Tropius|spe|2|[from] item: Starf Berry
+|turn|14
+|
+|t:|1779888397
+|move|p1a: Tropius|Hurricane|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-item|p1a: Tropius|Starf Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropius|Starf Berry|[eat]
+|-boost|p1a: Tropius|spa|2|[from] item: Starf Berry
+|
+|t:|1779888408
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|15
+|
+|t:|1779888420
+|move|p1a: Tropius|Leech Seed|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|move: Leech Seed
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Tropius
+|-damage|p1a: Tropius|0 fnt
+|faint|p1a: Tropius
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779888433
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|16
+|
+|t:|1779888445
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Clefable|Moonblast|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|71/100
+|-unboost|p2a: Raging Bolt|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Raging Bolt|77/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|64/100|[from] Leech Seed|[of] p1a: Clefable
+|upkeep
+|turn|17
+|
+|t:|1779888460
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|30/100
+|move|p1a: Clefable|Moonblast|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|30/100
+|-unboost|p2a: Raging Bolt|spa|1
+|
+|-weather|none
+|-end|p2a: Raging Bolt|Protosynthesis
+|-heal|p2a: Raging Bolt|36/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|24/100|[from] Leech Seed|[of] p1a: Clefable
+|-heal|p1a: Clefable|44/100|[silent]
+|upkeep
+|turn|18
+|
+|t:|1779888472
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M, shiny|30/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1779888483
+|move|p1a: Clefable|Moonblast|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|6/100
+|-unboost|p2a: Torkoal|spa|1
+|move|p2a: Torkoal|Sludge Bomb|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1779888493
+|move|p1a: Clefable|Moonblast|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779888499
+|switch|p2a: Walking Wake|Walking Wake|59/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|21
+|
+|t:|1779888509
+|move|p2a: Walking Wake|Flip Turn|p1a: Clefable
+|-damage|p1a: Clefable|67/100
+|
+|t:|1779888512
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Lilligant|Lilligant-Hisui, F, shiny|100/100|[from] Flip Turn
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1779888528
+|move|p2a: Lilligant|Solar Blade||[still]
+|-prepare|p2a: Lilligant|Solar Blade
+|-anim|p2a: Lilligant|Solar Blade|p1a: Clefable
+|-damage|p1a: Clefable|9/100
+|-damage|p2a: Lilligant|91/100|[from] item: Life Orb
+|move|p1a: Clefable|Flamethrower|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779888543
+|switch|p2a: Walking Wake|Walking Wake|59/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|23
+|
+|t:|1779888550
+|move|p2a: Walking Wake|Flip Turn|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|t:|1779888555
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt, tera:Fairy|24/100|[from] Flip Turn
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Raging Bolt|30/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779888564
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1779888569
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-terastallize|p1a: Heatran|Grass
+|move|p1a: Heatran|Solar Beam||[still]
+|-prepare|p1a: Heatran|Solar Beam
+|-anim|p1a: Heatran|Solar Beam|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1779888582
+|move|p2a: Ninetales|Encore|p1a: Heatran
+|-start|p1a: Heatran|Encore
+|move|p1a: Heatran|Solar Beam||[still]
+|-prepare|p1a: Heatran|Solar Beam
+|-anim|p1a: Heatran|Solar Beam|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|48/100
+|
+|-weather|none
+|upkeep
+|turn|26
+|
+|t:|1779888597
+|move|p2a: Ninetales|Healing Wish|p2a: Ninetales
+|faint|p2a: Ninetales
+|move|p1a: Heatran|Solar Beam||[still]
+|-prepare|p1a: Heatran|Solar Beam
+|
+|upkeep
+|
+|t:|1779888603
+|switch|p2a: Raging Bolt|Raging Bolt, tera:Fairy|30/100
+|-heal|p2a: Raging Bolt|100/100|[from] move: Healing Wish
+|turn|27
+|
+|t:|1779888608
+|move|p1a: Heatran|Solar Beam|p2a: Raging Bolt|[from] lockedmove
+|-damage|p2a: Raging Bolt|57/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-heal|p2a: Raging Bolt|63/100|[from] item: Leftovers
+|-end|p1a: Heatran|Encore
+|upkeep
+|turn|28
+|
+|t:|1779888628
+|move|p1a: Heatran|Magma Storm|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|38/100
+|-activate|p2a: Raging Bolt|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Heatran
+|-damage|p1a: Heatran|42/100
+|
+|-heal|p2a: Raging Bolt|44/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|27/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|29
+|
+|t:|1779888642
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|-heal|p2a: Raging Bolt|34/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|17/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|30
+|
+|t:|1779888652
+|move|p1a: Heatran|Magma Storm|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779888657
+|switch|p2a: Walking Wake|Walking Wake|59/100
+|turn|31
+|
+|t:|1779888661
+|move|p2a: Walking Wake|Hydro Steam|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|24/100
+|move|p1a: Heatran|Magma Storm|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|46/100
+|-activate|p2a: Walking Wake|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Walking Wake|30/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|32
+|-message|Ponponstar5 forfeited.
+|
+|win|teapause
+|raw|teapause's rating: 1425 &rarr; <strong>1446</strong><br />(+21 for winning)
+|raw|Ponponstar5's rating: 1435 &rarr; <strong>1414</strong><br />(-21 for losing)
+|l|‽Ponponstar5
+|player|p2|
+|l|☆teapause
+|player|p1|

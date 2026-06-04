@@ -1,0 +1,278 @@
+|j|☆henry_mercury
+|j|☆kabutopzboy
+|t:|1760774852
+|gametype|singles
+|player|p1|henry_mercury|265|1098
+|player|p2|kabutopzboy|acetrainer-gen4|1155
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cresselia, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Magnezone|
+|poke|p1|Iron Hands|
+|poke|p1|Torkoal, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Zapdos|
+|poke|p2|Jolteon, M|
+|poke|p2|Great Tusk|
+|poke|p2|Clefable, M|
+|poke|p2|Registeel|
+|poke|p2|Overqwil, F|
+|teampreview
+|
+|t:|1760774867
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|1
+|
+|t:|1760774898
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|2
+|
+|t:|1760774912
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1760774921
+|-terastallize|p2a: Clefable|Steel
+|move|p1a: Slowking|Sludge Bomb|p2a: Clefable
+|-immune|p2a: Clefable
+|move|p2a: Clefable|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|59/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760774930
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760774939
+|switch|p1a: Magnezone|Magnezone|100/100|[from] Chilly Reception
+|move|p2a: Clefable|Shadow Ball|p1a: Magnezone
+|-damage|p1a: Magnezone|70/100
+|-unboost|p1a: Magnezone|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760774947
+|move|p1a: Magnezone|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|68/100
+|
+|t:|1760774952
+|switch|p1a: Iron Hands|Iron Hands|100/100|[from] Volt Switch
+|move|p2a: Clefable|Flamethrower|p1a: Iron Hands
+|-damage|p1a: Iron Hands|86/100
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1760774965
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Iron Hands|Drain Punch|p2a: Great Tusk
+|-damage|p2a: Great Tusk|73/100
+|-heal|p1a: Iron Hands|99/100|[from] drain|[of] p2a: Great Tusk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760774982
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760774994
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Titanforge|Registeel|100/100
+|move|p1a: Cresselia|Moonblast|p2a: Titanforge
+|-resisted|p2a: Titanforge
+|-damage|p2a: Titanforge|96/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1760775002
+|move|p2a: Titanforge|Rain Dance|p2a: Titanforge
+|-weather|RainDance
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760775009
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Titanforge|Iron Defense|p2a: Titanforge
+|-boost|p2a: Titanforge|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760775016
+|move|p1a: Torkoal|Eruption|p2a: Titanforge
+|-supereffective|p2a: Titanforge
+|-damage|p2a: Titanforge|1/100
+|move|p2a: Titanforge|Rain Dance|p2a: Titanforge
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1760775024
+|switch|p2a: Overqwil|Overqwil, F, shiny|100/100
+|move|p1a: Torkoal|Earth Power|p2a: Overqwil
+|-supereffective|p2a: Overqwil
+|-damage|p2a: Overqwil|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Overqwil|32/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760775043
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|switch|p2a: Zapp|Zapdos|100/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|t:|1760775057
+|move|p2a: Zapp|Thunder|p1a: Cresselia
+|-damage|p1a: Cresselia|64/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1760775066
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Zapp|Thunder|p1a: Torkoal|[miss]
+|-miss|p2a: Zapp|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1760775084
+|switch|p2a: Overqwil|Overqwil, F, shiny|32/100
+|move|p1a: Torkoal|Eruption|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760775092
+|switch|p2a: Titanforge|Registeel|1/100
+|turn|17
+|
+|t:|1760775099
+|move|p1a: Torkoal|Eruption|p2a: Titanforge
+|-supereffective|p2a: Titanforge
+|-damage|p2a: Titanforge|0 fnt
+|faint|p2a: Titanforge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760775109
+|switch|p2a: Great Tusk|Great Tusk|73/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|18
+|
+|t:|1760775117
+|move|p1a: Torkoal|Solar Beam||[still]
+|-prepare|p1a: Torkoal|Solar Beam
+|-anim|p1a: Torkoal|Solar Beam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760775123
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|turn|19
+|
+|t:|1760775129
+|move|p2a: Jolteon|Calm Mind|p2a: Jolteon
+|-boost|p2a: Jolteon|spa|1
+|-boost|p2a: Jolteon|spd|1
+|move|p1a: Torkoal|Earth Power|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1760775140
+|switch|p1a: Slowking|Slowking-Galar, F|92/100
+|move|p2a: Jolteon|Thunder|p1a: Slowking|[miss]
+|-miss|p2a: Jolteon|p1a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|-message|kabutopzboy forfeited.
+|
+|win|henry_mercury
+|raw|henry_mercury's rating: 1098 &rarr; <strong>1127</strong><br />(+29 for winning)
+|raw|kabutopzboy's rating: 1155 &rarr; <strong>1126</strong><br />(-29 for losing)
+|l|☆kabutopzboy
+|player|p2|
+|l|☆henry_mercury
+|player|p1|

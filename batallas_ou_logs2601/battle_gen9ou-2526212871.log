@@ -1,0 +1,363 @@
+|j|☆tkmanz
+|j|☆ry20010
+|t:|1769383427
+|gametype|singles
+|player|p1|tkmanz|benga|
+|player|p2|ry20010|102|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Moth|
+|poke|p1|Salamence, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Zarude|
+|poke|p2|Ceruledge, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Ditto|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Glimmora, F|
+|teampreview
+|
+|t:|1769383460
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Moth|atk|1
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|1
+|
+|t:|1769383469
+|move|p1a: Iron Moth|Sludge Wave|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|68/100
+|move|p2a: Landorus|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769383478
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|2
+|
+|t:|1769383491
+|switch|p2a: Ditto|Ditto, shiny|100/100
+|-transform|p2a: Ditto|p1a: Ogerpon|[from] ability: Imposter
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Ditto|[anim] Ivy Cudgel Water
+|-immune|p2a: Ditto|[from] ability: Water Absorb
+|
+|upkeep
+|turn|3
+|
+|t:|1769383512
+|move|p2a: Ditto|U-turn|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|39/100
+|
+|t:|1769383522
+|switch|p2a: Dragonite|Dragonite, F, shiny|100/100|[from] U-turn
+|move|p1a: Ogerpon|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|93/100
+|
+|t:|1769383530
+|switch|p1a: Salamence|Salamence, M|100/100|[from] U-turn
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|
+|upkeep
+|turn|4
+|
+|t:|1769383560
+|move|p1a: Salamence|Draco Meteor|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-unboost|p1a: Salamence|spa|2
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1769383573
+|switch|p2a: Glimmora|Glimmora, F, shiny|100/100
+|turn|5
+|
+|t:|1769383590
+|move|p1a: Salamence|Draco Meteor|p2a: Glimmora
+|-damage|p2a: Glimmora|65/100
+|-unboost|p1a: Salamence|spa|2
+|move|p2a: Glimmora|Toxic|p1a: Salamence
+|-status|p1a: Salamence|tox
+|
+|-damage|p1a: Salamence|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1769383616
+|switch|p1a: Zarude|Zarude|100/100
+|move|p2a: Glimmora|Earth Power|p1a: Zarude
+|-resisted|p1a: Zarude
+|-damage|p1a: Zarude|92/100
+|
+|-heal|p1a: Zarude|98/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1769383634
+|move|p1a: Zarude|Bulk Up|p1a: Zarude
+|-boost|p1a: Zarude|atk|1
+|-boost|p1a: Zarude|def|1
+|move|p2a: Glimmora|Toxic|p1a: Zarude
+|-status|p1a: Zarude|tox
+|
+|-heal|p1a: Zarude|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Zarude|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1769383644
+|move|p1a: Zarude|Power Whip|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: tkmanz|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|-heal|p1a: Zarude|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Zarude|88/100 tox|[from] psn
+|upkeep
+|
+|t:|1769383666
+|switch|p2a: Meowscarada|Meowscarada, F, shiny|100/100
+|turn|9
+|
+|t:|1769383682
+|move|p2a: Meowscarada|Play Rough|p1a: Zarude
+|-start|p2a: Meowscarada|typechange|Fairy|[from] ability: Protean
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|42/100 tox
+|move|p1a: Zarude|Drain Punch|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|76/100
+|-heal|p1a: Zarude|50/100 tox|[from] drain|[of] p2a: Meowscarada
+|
+|-heal|p1a: Zarude|57/100 tox|[from] item: Leftovers
+|-damage|p1a: Zarude|38/100 tox|[from] psn
+|upkeep
+|turn|10
+|j| attemptingtolearn
+|l| attemptingtolearn
+|
+|t:|1769383713
+|switch|p2a: Ceruledge|Ceruledge, M, shiny|100/100
+|-item|p2a: Ceruledge|Air Balloon
+|move|p1a: Zarude|Drain Punch|p2a: Ceruledge
+|-immune|p2a: Ceruledge
+|
+|-heal|p1a: Zarude|44/100 tox|[from] item: Leftovers
+|-damage|p1a: Zarude|20/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1769383730
+|switch|p1a: Salamence|Salamence, M|94/100 tox
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Ceruledge|atk|1
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-damage|p1a: Salamence|88/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1769383774
+|move|p1a: Salamence|Hydro Pump|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|14/100
+|-enditem|p2a: Ceruledge|Air Balloon
+|move|p2a: Ceruledge|Poison Jab|p1a: Salamence
+|-damage|p1a: Salamence|39/100 tox
+|
+|-damage|p1a: Salamence|27/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1769383784
+|switch|p2a: Ditto|Ditto, shiny|100/100
+|-transform|p2a: Ditto|p1a: Salamence|[from] ability: Imposter
+|-ability|p2a: Ditto|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|move|p1a: Salamence|Hydro Pump|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|77/100
+|
+|-damage|p1a: Salamence|9/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1769383804
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|39/100
+|-status|p1a: Ogerpon|psn
+|move|p2a: Ditto|Hurricane|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1769383813
+|switch|p1a: Zarude|Zarude|20/100 tox
+|turn|15
+|
+|t:|1769383827
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-status|p1a: Iron Valiant|psn
+|move|p2a: Ditto|Hurricane|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769383837
+|switch|p1a: Zarude|Zarude|20/100 tox
+|turn|16
+|
+|t:|1769383842
+|move|p2a: Ditto|Hurricane|p1a: Zarude|[miss]
+|-miss|p2a: Ditto|p1a: Zarude
+|move|p1a: Zarude|Power Whip|p2a: Ditto|[miss]
+|-miss|p1a: Zarude|p2a: Ditto
+|
+|-heal|p1a: Zarude|26/100 tox|[from] item: Leftovers
+|-damage|p1a: Zarude|20/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1769383853
+|move|p2a: Ditto|Hurricane|p1a: Zarude
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|0 fnt
+|faint|p1a: Zarude
+|
+|upkeep
+|
+|t:|1769383861
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|turn|18
+|
+|t:|1769383887
+|switch|p2a: Ceruledge|Ceruledge, M, shiny|14/100
+|move|p1a: Garganacl|Salt Cure|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1769383897
+|switch|p2a: Meowscarada|Meowscarada, F, shiny|76/100
+|turn|19
+|
+|t:|1769383927
+|switch|p2a: Ditto|Ditto, shiny|77/100
+|-transform|p2a: Ditto|p1a: Garganacl|[from] ability: Imposter
+|move|p1a: Garganacl|Salt Cure|p2a: Ditto
+|-damage|p2a: Ditto|64/100
+|-start|p2a: Ditto|Salt Cure
+|
+|-damage|p2a: Ditto|52/100|[from] Salt Cure
+|upkeep
+|turn|20
+|
+|t:|1769383957
+|move|p2a: Ditto|Recover|p2a: Ditto
+|-heal|p2a: Ditto|100/100
+|move|p1a: Garganacl|Earthquake|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|62/100
+|
+|-damage|p2a: Ditto|49/100|[from] Salt Cure
+|upkeep
+|turn|21
+|
+|t:|1769383969
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|68/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Garganacl|atk|1
+|move|p1a: Garganacl|Stealth Rock|p2a: Landorus
+|-sidestart|p2: ry20010|move: Stealth Rock
+|
+|upkeep
+|turn|22
+|
+|t:|1769383985
+|move|p2a: Landorus|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|26/100
+|move|p1a: Garganacl|Salt Cure|p2a: Landorus
+|-damage|p2a: Landorus|58/100
+|-start|p2a: Landorus|Salt Cure
+|
+|-heal|p1a: Garganacl|32/100|[from] item: Leftovers
+|-damage|p2a: Landorus|46/100|[from] Salt Cure
+|upkeep
+|turn|23
+|
+|t:|1769383995
+|move|p2a: Landorus|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-damage|p2a: Landorus|33/100|[from] Salt Cure
+|upkeep
+|
+|t:|1769384004
+|switch|p1a: Salamence|Salamence, M|9/100 tox
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|24
+|
+|t:|1769384014
+|move|p1a: Salamence|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-damage|p1a: Salamence|3/100 tox|[from] psn
+|upkeep
+|
+|t:|1769384018
+|switch|p2a: Ditto|Ditto, shiny|49/100
+|-damage|p2a: Ditto|37/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Salamence|[from] ability: Imposter
+|-ability|p2a: Ditto|Intimidate|boost
+|-unboost|p1a: Salamence|atk|1
+|turn|25
+|
+|t:|1769384024
+|move|p1a: Salamence|Hurricane|p2a: Ditto|[miss]
+|-miss|p1a: Salamence|p2a: Ditto
+|move|p2a: Ditto|Dragon Pulse|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|win|ry20010

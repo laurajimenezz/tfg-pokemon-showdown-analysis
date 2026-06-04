@@ -1,0 +1,317 @@
+|j|☆imdashellsmasher
+|j|‽Sacred Quill
+|t:|1757838654
+|gametype|singles
+|player|p1|imdashellsmasher|clown|1333
+|player|p2|Sacred Quill|clerk|1268
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Raging Bolt|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Ceruledge, M|
+|poke|p1|Iron Valiant|
+|poke|p2|Araquanid, F|
+|poke|p2|Weavile, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Pecharunt|
+|poke|p2|Rotom-Wash|
+|poke|p2|Donphan, F|
+|teampreview
+|
+|t:|1757838665
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pressure|Raging Bolt|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|-enditem|p1a: Pressure|Booster Energy
+|-activate|p1a: Pressure|ability: Protosynthesis|[fromitem]
+|-start|p1a: Pressure|protosynthesisspa
+|turn|1
+|
+|t:|1757838671
+|switch|p2a: Donphan|Donphan, F, shiny|100/100
+|move|p1a: Pressure|Thunderbolt|p2a: Donphan
+|-immune|p2a: Donphan
+|
+|upkeep
+|turn|2
+|
+|t:|1757838677
+|-end|p1a: Pressure|Protosynthesis|[silent]
+|switch|p1a: Speed Boost|Enamorus, F|100/100
+|move|p2a: Donphan|Stealth Rock|p1a: Speed Boost
+|-sidestart|p1: imdashellsmasher|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1757838682
+|-terastallize|p1a: Speed Boost|Stellar
+|move|p1a: Speed Boost|Tera Blast|p2a: Donphan|[anim] Tera Blast Stellar
+|-damage|p2a: Donphan|34/100
+|-boost|p1a: Speed Boost|atk|1
+|-boost|p1a: Speed Boost|spa|1
+|move|p2a: Donphan|Knock Off|p1a: Speed Boost
+|-resisted|p1a: Speed Boost
+|-damage|p1a: Speed Boost|81/100
+|-enditem|p1a: Speed Boost|Choice Scarf|[from] move: Knock Off|[of] p2a: Donphan
+|
+|-heal|p2a: Donphan|40/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757838694
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Speed Boost|Tera Blast|p2a: Pecharunt|[anim] Tera Blast Stellar
+|-damage|p2a: Pecharunt|34/100
+|-boost|p1a: Speed Boost|atk|1
+|-boost|p1a: Speed Boost|spa|1
+|
+|upkeep
+|turn|5
+|
+|t:|1757838704
+|move|p1a: Speed Boost|Tera Blast|p2a: Pecharunt|[anim] Tera Blast Stellar
+|-damage|p2a: Pecharunt|0 fnt
+|-boost|p1a: Speed Boost|atk|1
+|-boost|p1a: Speed Boost|spa|1
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1757838707
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|turn|6
+|
+|t:|1757838714
+|move|p1a: Speed Boost|Tera Blast|p2a: Gliscor|[anim] Tera Blast Stellar
+|-damage|p2a: Gliscor|13/100
+|-boost|p1a: Speed Boost|atk|1
+|-boost|p1a: Speed Boost|spa|1
+|move|p2a: Gliscor|Toxic|p1a: Speed Boost
+|-status|p1a: Speed Boost|tox
+|
+|-damage|p1a: Speed Boost|75/100 tox|[from] psn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1757838724
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Speed Boost|Tera Blast|p2a: Gliscor|[anim] Tera Blast Stellar
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Speed Boost|62/100 tox|[from] psn
+|-heal|p2a: Gliscor|26/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1757838733
+|switch|p2a: Donphan|Donphan, F, shiny|40/100
+|move|p1a: Speed Boost|Tera Blast|p2a: Donphan|[anim] Tera Blast Stellar
+|-damage|p2a: Donphan|0 fnt
+|-boost|p1a: Speed Boost|atk|1
+|-boost|p1a: Speed Boost|spa|1
+|faint|p2a: Donphan
+|
+|-damage|p1a: Speed Boost|43/100 tox|[from] psn
+|upkeep
+|
+|t:|1757838739
+|switch|p2a: Gliscor|Gliscor, F|26/100 tox
+|turn|9
+|
+|t:|1757838743
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Speed Boost|Tera Blast|p2a: Gliscor|[anim] Tera Blast Stellar
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Speed Boost|18/100 tox|[from] psn
+|-heal|p2a: Gliscor|38/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1757838755
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|move|p1a: Speed Boost|Tera Blast|p2a: Gliscor|[anim] Tera Blast Stellar
+|-damage|p2a: Gliscor|0 fnt
+|-boost|p1a: Speed Boost|atk|1
+|-boost|p1a: Speed Boost|spa|1
+|faint|p2a: Gliscor
+|
+|-damage|p1a: Speed Boost|0 fnt|[from] psn
+|faint|p1a: Speed Boost
+|upkeep
+|
+|t:|1757838762
+|switch|p1a: Tough Claws|Samurott-Hisui, M|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|-damage|p1a: Tough Claws|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1757838766
+|move|p1a: Tough Claws|Ceaseless Edge|p2a: Araquanid
+|-damage|p2a: Araquanid|57/100
+|-sidestart|p2: Sacred Quill|Spikes
+|move|p2a: Araquanid|Sticky Web|p1a: Tough Claws
+|-sidestart|p1: imdashellsmasher|move: Sticky Web
+|
+|upkeep
+|turn|12
+|
+|t:|1757838775
+|move|p1a: Tough Claws|Ceaseless Edge|p2a: Araquanid
+|-damage|p2a: Araquanid|10/100
+|-sidestart|p2: Sacred Quill|Spikes
+|move|p2a: Araquanid|Surf|p1a: Tough Claws
+|-resisted|p1a: Tough Claws
+|-damage|p1a: Tough Claws|48/100
+|
+|upkeep
+|turn|13
+|-enditem|p2a: Araquanid|Custap Berry|[eat]
+|-activate|p2a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1757838782
+|move|p2a: Araquanid|Endeavor|p1a: Tough Claws
+|-damage|p1a: Tough Claws|11/100
+|move|p1a: Tough Claws|Ceaseless Edge|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|-sidestart|p2: Sacred Quill|Spikes
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1757838790
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|turn|14
+|
+|t:|1757838793
+|move|p1a: Tough Claws|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|67/100
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Tough Claws
+|move|p2a: Rotom|Volt Switch|p1a: Tough Claws
+|-supereffective|p1a: Tough Claws
+|-damage|p1a: Tough Claws|0 fnt
+|faint|p1a: Tough Claws
+|
+|t:|1757838799
+|switch|p2a: Weavile|Weavile, F|100/100|[from] Volt Switch
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|
+|t:|1757838805
+|switch|p1a: Pressure|Raging Bolt|100/100
+|-damage|p1a: Pressure|88/100|[from] Stealth Rock
+|-activate|p1a: Pressure|move: Sticky Web
+|-unboost|p1a: Pressure|spe|1
+|turn|15
+|
+|t:|1757838817
+|move|p1a: Pressure|Thunderclap|p2a: Weavile
+|-damage|p2a: Weavile|42/100
+|move|p2a: Weavile|Triple Axel|p1a: Pressure
+|-supereffective|p1a: Pressure
+|-damage|p1a: Pressure|72/100
+|-supereffective|p1a: Pressure
+|-damage|p1a: Pressure|39/100
+|-hitcount|p1a: Pressure|2
+|
+|upkeep
+|turn|16
+|
+|t:|1757838822
+|move|p1a: Pressure|Thunderclap||[still]
+|-fail|p1a: Pressure
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|
+|upkeep
+|turn|17
+|
+|t:|1757838826
+|move|p2a: Weavile|Ice Shard|p1a: Pressure
+|-supereffective|p1a: Pressure
+|-damage|p1a: Pressure|0 fnt
+|faint|p1a: Pressure
+|-end|p1a: Pressure|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1757838834
+|switch|p1a: Unnerve|Iron Valiant|100/100
+|-damage|p1a: Unnerve|94/100|[from] Stealth Rock
+|-activate|p1a: Unnerve|move: Sticky Web
+|-unboost|p1a: Unnerve|spe|1
+|-enditem|p1a: Unnerve|Booster Energy
+|-activate|p1a: Unnerve|ability: Quark Drive|[fromitem]
+|-start|p1a: Unnerve|quarkdriveatk
+|turn|18
+|
+|t:|1757838844
+|move|p2a: Weavile|Triple Axel|p1a: Unnerve
+|-crit|p1a: Unnerve
+|-damage|p1a: Unnerve|54/100
+|-damage|p1a: Unnerve|0 fnt
+|faint|p1a: Unnerve
+|-end|p1a: Unnerve|Quark Drive|[silent]
+|-hitcount|p1: Unnerve|2
+|
+|upkeep
+|
+|t:|1757838855
+|switch|p1a: Clear Body|Gholdengo|100/100
+|-damage|p1a: Clear Body|94/100|[from] Stealth Rock
+|-item|p1a: Clear Body|Air Balloon
+|turn|19
+|
+|t:|1757838860
+|move|p2a: Weavile|Knock Off|p1a: Clear Body
+|-supereffective|p1a: Clear Body
+|-damage|p1a: Clear Body|0 fnt
+|-enditem|p1a: Clear Body|Air Balloon
+|faint|p1a: Clear Body
+|
+|upkeep
+|
+|t:|1757838862
+|switch|p1a: Moxie|Ceruledge, M|100/100
+|-damage|p1a: Moxie|76/100|[from] Stealth Rock
+|-activate|p1a: Moxie|move: Sticky Web
+|-unboost|p1a: Moxie|spe|1
+|turn|20
+|
+|t:|1757838866
+|move|p1a: Moxie|Shadow Sneak|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|23/100
+|move|p2a: Weavile|Knock Off|p1a: Moxie
+|-supereffective|p1a: Moxie
+|-damage|p1a: Moxie|0 fnt
+|-enditem|p1a: Moxie|Focus Sash|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Moxie
+|
+|win|Sacred Quill
+|raw|imdashellsmasher's rating: 1333 &rarr; <strong>1309</strong><br />(-24 for losing)
+|raw|Sacred Quill's rating: 1268 &rarr; <strong>1298</strong><br />(+30 for winning)
+|l|☆imdashellsmasher
+|player|p1|
+|l|‽Sacred Quill
+|player|p2|

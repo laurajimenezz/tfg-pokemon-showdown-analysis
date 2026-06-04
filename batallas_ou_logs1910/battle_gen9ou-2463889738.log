@@ -1,0 +1,269 @@
+|j|☆duskfvl
+|j|☆HZBKAI3
+|t:|1760760360
+|gametype|singles
+|player|p1|duskfvl|cynthia|1056
+|player|p2|HZBKAI3|266|1086
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Exeggutor, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Ambipom, F|
+|poke|p2|Jirachi|
+|poke|p2|Gholdengo|
+|poke|p2|Gliscor, F|
+|poke|p2|Iron Moth|
+|poke|p2|Quaquaval, F|
+|poke|p2|Iron Boulder|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by duskfvl)
+|
+|t:|1760760381
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Exeggutor|Exeggutor, F|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|1
+|
+|t:|1760760396
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Iron Moth|Sludge Wave|p1a: Cinderace
+|-damage|p1a: Cinderace|31/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760760407
+|move|p1a: Cinderace|Sucker Punch|p2a: Iron Moth
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p2a: Iron Moth|56/100
+|move|p2a: Iron Moth|Sludge Wave|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1760760429
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|3
+|
+|t:|1760760432
+|move|p1a: Grimmsnarl|Trick|p2a: Iron Moth
+|-activate|p1a: Grimmsnarl|move: Trick|[of] p2a: Iron Moth
+|-item|p2a: Iron Moth|Lagging Tail|[from] move: Trick
+|-enditem|p1a: Grimmsnarl|Lagging Tail|[silent]|[from] move: Trick
+|move|p2a: Iron Moth|Sludge Wave|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|24/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760760441
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Iron Moth
+|-unboost|p2a: Iron Moth|atk|1
+|-unboost|p2a: Iron Moth|spa|1
+|
+|t:|1760760448
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100|[from] Parting Shot
+|move|p2a: Iron Moth|Sludge Wave|p1a: Tornadus
+|-damage|p1a: Tornadus|63/100
+|
+|upkeep
+|turn|5
+|
+|t:|1760760458
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Iron Moth
+|-damage|p2a: Iron Moth|4/100
+|-unboost|p2a: Iron Moth|spe|1
+|move|p2a: Iron Moth|Sludge Wave|p1a: Tornadus
+|-damage|p1a: Tornadus|21/100
+|
+|upkeep
+|turn|6
+|
+|t:|1760760465
+|-terastallize|p2a: Iron Moth|Fairy
+|move|p1a: Tornadus|Heat Wave|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760760471
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|7
+|
+|t:|1760760479
+|move|p1a: Tornadus|U-turn|p2a: Jirachi
+|-damage|p2a: Jirachi|87/100
+|
+|t:|1760760484
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|24/100|[from] U-turn
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|-heal|p2a: Jirachi|93/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760760491
+|move|p1a: Grimmsnarl|Taunt|p2a: Jirachi
+|-start|p2a: Jirachi|move: Taunt
+|move|p2a: Jirachi|Aura Sphere|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-heal|p2a: Jirachi|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760760499
+|switch|p1a: Ambipom|Ambipom, F|100/100
+|turn|9
+|
+|t:|1760760502
+|move|p1a: Ambipom|Knock Off|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|24/100
+|-enditem|p2a: Jirachi|Leftovers|[from] move: Knock Off|[of] p1a: Ambipom
+|move|p2a: Jirachi|Aura Sphere|p1a: Ambipom
+|-supereffective|p1a: Ambipom
+|-damage|p1a: Ambipom|0 fnt
+|faint|p1a: Ambipom
+|
+|upkeep
+|
+|t:|1760760510
+|switch|p1a: Tornadus|Tornadus-Therian, M|54/100
+|turn|10
+|
+|t:|1760760512
+|move|p1a: Tornadus|Heat Wave|p2a: Jirachi|[miss]
+|-miss|p1a: Tornadus|p2a: Jirachi
+|move|p2a: Jirachi|Aura Sphere|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|31/100
+|
+|-end|p2a: Jirachi|move: Taunt
+|upkeep
+|turn|11
+|
+|t:|1760760515
+|move|p1a: Tornadus|Heat Wave|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-crit|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|upkeep
+|
+|t:|1760760515
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|12
+|
+|t:|1760760524
+|move|p1a: Tornadus|Heat Wave|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|33/100
+|-status|p2a: Gholdengo|brn
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Make It Rain|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Tornadus
+|
+|-damage|p2a: Gholdengo|27/100 brn|[from] brn
+|upkeep
+|
+|t:|1760760534
+|switch|p1a: Exeggutor|Exeggutor, F|100/100
+|turn|13
+|
+|t:|1760760536
+|move|p2a: Gholdengo|Shadow Ball|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|43/100
+|move|p1a: Exeggutor|Leech Seed|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|-damage|p2a: Gholdengo|20/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1760760552
+|move|p2a: Gholdengo|Shadow Ball|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|-damage|p2a: Gholdengo|14/100 brn|[from] brn
+|upkeep
+|
+|t:|1760760555
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|15
+|
+|t:|1760760559
+|move|p1a: Dragapult|Dragon Darts|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760760559
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|turn|16
+|
+|t:|1760760565
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Gliscor|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|30/100
+|-enditem|p1a: Dragapult|Life Orb|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|17
+|
+|t:|1760760572
+|move|p1a: Dragapult|Dragon Darts|p2a: Gliscor
+|-damage|p2a: Gliscor|67/100 tox
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Gliscor
+|-damage|p2a: Gliscor|38/100 tox
+|move|p2a: Gliscor|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|HZBKAI3
+|raw|duskfvl's rating: 1056 &rarr; <strong>1039</strong><br />(-17 for losing)
+|raw|HZBKAI3's rating: 1086 &rarr; <strong>1111</strong><br />(+25 for winning)
+|l|☆HZBKAI3
+|player|p2|
+|l|☆duskfvl
+|player|p1|

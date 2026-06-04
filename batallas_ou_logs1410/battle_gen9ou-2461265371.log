@@ -1,0 +1,309 @@
+|j|☆stootic
+|j|☆mucino
+|t:|1760416280
+|gametype|singles
+|player|p1|stootic|volkner|1262
+|player|p2|mucino|2|1342
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Kyurem|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Clodsire, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Porygon-Z|
+|poke|p2|Chandelure, F|
+|poke|p2|Primarina, F|
+|poke|p2|Grimmsnarl, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by stootic)
+|
+|t:|1760416302
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|switch|p2a: Primarina|Primarina, F|100/100
+|turn|1
+|
+|t:|1760416313
+|-terastallize|p2a: Primarina|Ground
+|move|p2a: Primarina|Tera Blast|p1a: Slowking|[anim] Tera Blast Ground
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|49/100
+|move|p1a: Slowking|Thunder Wave|p2a: Primarina
+|-immune|p2a: Primarina
+|
+|upkeep
+|turn|2
+|
+|t:|1760416323
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Primarina|atk|1
+|move|p2a: Primarina|Hyper Voice|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1760416333
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|3
+|
+|t:|1760416337
+|move|p1a: Kyurem|Freeze-Dry|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|58/100
+|move|p2a: Primarina|Moonblast|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|3/100
+|
+|-heal|p1a: Kyurem|9/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1760416341
+|move|p1a: Kyurem|Freeze-Dry|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|19/100
+|move|p2a: Primarina|Moonblast|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1760416352
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|5
+|
+|t:|1760416358
+|move|p1a: Cinderace|Pyro Ball|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1760416360
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|turn|6
+|
+|t:|1760416365
+|move|p2a: Chandelure|Trick|p1a: Cinderace
+|-activate|p2a: Chandelure|move: Trick|[of] p1a: Cinderace
+|-item|p1a: Cinderace|Choice Scarf|[from] move: Trick
+|-item|p2a: Chandelure|Heavy-Duty Boots|[from] move: Trick
+|move|p1a: Cinderace|U-turn|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|94/100
+|
+|t:|1760416370
+|switch|p1a: Slowking|Slowking-Galar, M|82/100|[from] U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1760416374
+|move|p2a: Chandelure|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|28/100
+|-unboost|p1a: Slowking|spd|1
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760416382
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100|[from] Chilly Reception
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760416388
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Chandelure|Flamethrower|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|30/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1760416391
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760416394
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|turn|10
+|
+|t:|1760416398
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Clodsire
+|-damage|p2a: Clodsire|82/100
+|move|p2a: Clodsire|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Clodsire|89/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760416403
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|11
+|
+|t:|1760416408
+|move|p1a: Kingambit|Iron Head|p2a: Clodsire
+|-damage|p2a: Clodsire|41/100
+|cant|p2a: Clodsire|flinch
+|
+|-weather|none
+|-heal|p2a: Clodsire|48/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1760416414
+|move|p1a: Kingambit|Iron Head|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|upkeep
+|
+|t:|1760416417
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|13
+|
+|t:|1760416421
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: mucino|Reflect
+|move|p1a: Kingambit|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|31/100
+|
+|upkeep
+|turn|14
+|
+|t:|1760416428
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: mucino|move: Light Screen
+|move|p1a: Kingambit|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1760416430
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|15
+|
+|t:|1760416433
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Kingambit|Brick Break|p1a: Cinderace
+|-damage|p1a: Cinderace|52/100
+|
+|upkeep
+|turn|16
+|
+|t:|1760416435
+|-end|p2a: Kingambit|fallen4|[silent]
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Porygon-Z
+|-status|p2a: Porygon-Z|brn
+|
+|-damage|p2a: Porygon-Z|94/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1760416438
+|switch|p1a: Slowking|Slowking-Galar, M|61/100
+|move|p2a: Porygon-Z|Tri Attack|p1a: Slowking
+|-damage|p1a: Slowking|8/100
+|-status|p1a: Slowking|brn
+|
+|-damage|p2a: Porygon-Z|88/100 brn|[from] brn
+|-damage|p1a: Slowking|2/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1760416445
+|switch|p1a: Cinderace|Cinderace, F|52/100
+|move|p2a: Porygon-Z|Tri Attack|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-damage|p2a: Porygon-Z|82/100 brn|[from] brn
+|upkeep
+|
+|t:|1760416448
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|19
+|
+|t:|1760416449
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|20
+|
+|t:|1760416453
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|72/100
+|move|p2a: Kingambit|Brick Break|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|-sideend|p2: mucino|Reflect
+|upkeep
+|
+|t:|1760416456
+|switch|p1a: Slowking|Slowking-Galar, M|35/100 brn
+|turn|21
+|-message|stootic forfeited.
+|
+|win|mucino
+|raw|stootic's rating: 1262 &rarr; <strong>1243</strong><br />(-19 for losing)
+|raw|mucino's rating: 1342 &rarr; <strong>1357</strong><br />(+15 for winning)
+|l|☆stootic
+|player|p1|
+|l|☆mucino
+|player|p2|

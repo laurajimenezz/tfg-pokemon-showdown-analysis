@@ -1,0 +1,304 @@
+|j|☆Drgresaur
+|j|☆masaluca026
+|t:|1779970847
+|gametype|singles
+|player|p1|Drgresaur|red|1098
+|player|p2|masaluca026|1|1102
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Wartortle, M|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Lucario, M|
+|poke|p1|Toxicroak, M|
+|poke|p1|Kilowattrel, M|
+|poke|p1|Charizard, M|
+|poke|p2|Great Tusk|
+|poke|p2|Regieleki|
+|poke|p2|Kingambit, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Thundurus-Therian, M|
+|teampreview
+|
+|t:|1779970864
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Whislash|Lucario, M|100/100
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|turn|1
+|
+|t:|1779970875
+|move|p1a: Whislash|Meteor Mash|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|43/100
+|move|p2a: Garganacl|Salt Cure|p1a: Whislash
+|-resisted|p1a: Whislash
+|-damage|p1a: Whislash|95/100
+|-start|p1a: Whislash|Salt Cure
+|
+|-heal|p2a: Garganacl|49/100|[from] item: Leftovers
+|-damage|p1a: Whislash|70/100|[from] Salt Cure
+|upkeep
+|turn|2
+|
+|t:|1779970885
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Whislash|Meteor Mash|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|55/100|[from] item: Leftovers
+|-damage|p1a: Whislash|45/100|[from] Salt Cure
+|upkeep
+|turn|3
+|
+|t:|1779970906
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|move|p1a: Whislash|Meteor Mash|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|86/100
+|
+|-damage|p1a: Whislash|20/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1779970917
+|move|p1a: Whislash|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Whislash|def|1
+|-unboost|p1a: Whislash|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|
+|-damage|p1a: Whislash|0 fnt|[from] Salt Cure
+|faint|p1a: Whislash
+|upkeep
+|
+|t:|1779970925
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|switch|p2a: Regieleki|Regieleki|100/100
+|turn|5
+|
+|t:|1779970931
+|move|p1a: Toxicroak|Fake Out|p2a: Regieleki
+|-damage|p2a: Regieleki|75/100
+|-status|p2a: Regieleki|psn|[from] ability: Poison Touch|[of] p1a: Toxicroak
+|cant|p2a: Regieleki|flinch
+|
+|-damage|p2a: Regieleki|62/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1779970941
+|move|p1a: Toxicroak|Sucker Punch|p2a: Regieleki
+|-damage|p2a: Regieleki|22/100 psn
+|move|p2a: Regieleki|Thunder Cage|p1a: Toxicroak
+|-damage|p1a: Toxicroak|34/100
+|-activate|p1a: Toxicroak|move: Thunder Cage|[of] p2a: Regieleki
+|
+|-heal|p1a: Toxicroak|40/100|[from] item: Leftovers
+|-damage|p2a: Regieleki|9/100 psn|[from] psn
+|-damage|p1a: Toxicroak|28/100|[from] move: Thunder Cage|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1779970956
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Toxicroak|Sucker Punch||[still]
+|-fail|p1a: Toxicroak
+|
+|-heal|p1a: Toxicroak|34/100|[from] item: Leftovers
+|-end|p1a: Toxicroak|Thunder Cage|[partiallytrapped]|[silent]
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Drgresaur)
+|
+|t:|1779970968
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Toxicroak|Poison Jab|p2a: Zamazenta
+|-damage|p2a: Zamazenta|93/100
+|-status|p2a: Zamazenta|psn|[from] ability: Poison Touch|[of] p1a: Toxicroak
+|
+|-heal|p2a: Zamazenta|99/100 psn|[from] item: Leftovers
+|-heal|p1a: Toxicroak|40/100|[from] item: Leftovers
+|-damage|p2a: Zamazenta|86/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1779970983
+|move|p2a: Zamazenta|Rest|p2a: Zamazenta
+|-status|p2a: Zamazenta|slp|[from] move: Rest
+|-heal|p2a: Zamazenta|100/100 slp|[silent]
+|move|p1a: Toxicroak|Cross Chop|p2a: Zamazenta|[miss]
+|-miss|p1a: Toxicroak|p2a: Zamazenta
+|
+|-heal|p1a: Toxicroak|46/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779970995
+|switch|p1a: Sintersob|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Sintersob
+|cant|p2a: Zamazenta|slp
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779971003
+|move|p1a: Sintersob|Aurora Veil|p1a: Sintersob
+|-sidestart|p1: Drgresaur|move: Aurora Veil
+|cant|p2a: Zamazenta|slp
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1779971020
+|switch|p2a: Garganacl|Garganacl, M|55/100
+|move|p1a: Sintersob|Moonblast|p2a: Garganacl
+|-damage|p2a: Garganacl|30/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garganacl|36/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1779971028
+|switch|p1a: Toxicroak|Toxicroak, M|46/100
+|move|p2a: Garganacl|Salt Cure|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|41/100
+|-start|p1a: Toxicroak|Salt Cure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Toxicroak|47/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|43/100|[from] item: Leftovers
+|-damage|p1a: Toxicroak|35/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1779971038
+|move|p1a: Toxicroak|Fake Out|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|38/100
+|cant|p2a: Garganacl|flinch
+|
+|-weather|none
+|-heal|p1a: Toxicroak|41/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|44/100|[from] item: Leftovers
+|-damage|p1a: Toxicroak|29/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1779971046
+|move|p1a: Toxicroak|Cross Chop|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-heal|p1a: Toxicroak|35/100|[from] item: Leftovers
+|-damage|p1a: Toxicroak|22/100|[from] Salt Cure
+|upkeep
+|
+|t:|1779971054
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|16
+|
+|t:|1779971058
+|move|p2a: Thundurus|Thunderbolt|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|upkeep
+|
+|t:|1779971069
+|switch|p1a: Amperwing|Kilowattrel, M|100/100
+|turn|17
+|
+|t:|1779971076
+|move|p1a: Amperwing|Air Slash|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|78/100
+|cant|p2a: Thundurus|flinch
+|
+|upkeep
+|turn|18
+|
+|t:|1779971084
+|move|p1a: Amperwing|Air Slash|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|54/100
+|move|p2a: Thundurus|Thunderbolt|p1a: Amperwing
+|-immune|p1a: Amperwing|[from] ability: Volt Absorb
+|
+|-sideend|p1: Drgresaur|move: Aurora Veil
+|upkeep
+|turn|19
+|
+|t:|1779971113
+|switch|p2a: Zamazenta|Zamazenta|100/100 slp
+|move|p1a: Amperwing|Air Slash|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|52/100 slp
+|
+|-heal|p2a: Zamazenta|58/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1779971127
+|move|p1a: Amperwing|Air Slash|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|8/100 slp
+|-curestatus|p2a: Zamazenta|slp|[msg]
+|cant|p2a: Zamazenta|flinch
+|
+|-heal|p2a: Zamazenta|14/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|masaluca026 has 120 seconds left.
+|
+|t:|1779971153
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisdef
+|move|p1a: Amperwing|Volt Switch|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|upkeep
+|turn|22
+|inactive|masaluca026 has 120 seconds left.
+|
+|t:|1779971166
+|move|p1a: Amperwing|Air Slash|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|19/100
+|cant|p2a: Great Tusk|flinch
+|
+|upkeep
+|turn|23
+|-message|masaluca026 forfeited.
+|
+|win|Drgresaur
+|raw|Drgresaur's rating: 1098 &rarr; <strong>1124</strong><br />(+26 for winning)
+|raw|masaluca026's rating: 1102 &rarr; <strong>1077</strong><br />(-25 for losing)
+|l|☆masaluca026
+|player|p2|
+|l|☆Drgresaur
+|player|p1|

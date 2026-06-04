@@ -1,0 +1,152 @@
+|j|☆Plesentbat
+|j|☆calavine
+|t:|1760862389
+|gametype|singles
+|player|p1|Plesentbat|101|1209
+|player|p2|calavine|1|1244
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Treads|
+|poke|p1|Quaquaval, M|
+|poke|p1|Hawlucha, M|
+|poke|p2|Frosmoth, F|
+|poke|p2|Cinccino, F|
+|poke|p2|Moltres|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1760862418
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads, shiny|100/100
+|switch|p2a: Frosmoth|Frosmoth, F|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1760862428
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Iron Treads|Steel Beam|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|79/100
+|-damage|p1a: Iron Treads|50/100|[from] steelbeam
+|
+|upkeep
+|turn|2
+|
+|t:|1760862450
+|move|p1a: Iron Treads|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: calavine|move: Stealth Rock
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|3
+|
+|t:|1760862479
+|move|p1a: Iron Treads|Earth Power|p2a: Alomomola
+|-damage|p2a: Alomomola|49/100
+|move|p2a: Alomomola|Flip Turn|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|24/100
+|
+|t:|1760862499
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] Flip Turn
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Ogerpon|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|4
+|
+|t:|1760862517
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Ogerpon|U-turn|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|75/100
+|
+|t:|1760862537
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|5
+|
+|t:|1760862546
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Gholdengo
+|-damage|p2a: Gholdengo|8/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|6
+|
+|t:|1760862554
+|move|p1a: Raging Bolt|Thunderclap|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1760862565
+|switch|p2a: Cinccino|Cinccino, F|100/100
+|-damage|p2a: Cinccino|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1760862573
+|move|p1a: Raging Bolt|Thunderclap|p2a: Cinccino
+|-damage|p2a: Cinccino|0 fnt
+|faint|p2a: Cinccino
+|
+|upkeep
+|
+|t:|1760862592
+|switch|p2a: Frosmoth|Frosmoth, F|100/100
+|-damage|p2a: Frosmoth|50/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1760862599
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Frosmoth
+|-damage|p2a: Frosmoth|22/100
+|move|p2a: Frosmoth|Substitute|p2a: Frosmoth
+|-fail|p2a: Frosmoth|move: Substitute|[weak]
+|
+|-heal|p2a: Frosmoth|28/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760862609
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|upkeep
+|-message|calavine forfeited.
+|
+|win|Plesentbat
+|raw|Plesentbat's rating: 1209 &rarr; <strong>1237</strong><br />(+28 for winning)
+|raw|calavine's rating: 1244 &rarr; <strong>1216</strong><br />(-28 for losing)
+|l|☆calavine
+|player|p2|
+|l|☆Plesentbat
+|player|p1|

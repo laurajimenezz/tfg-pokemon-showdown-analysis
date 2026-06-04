@@ -1,0 +1,492 @@
+|j|‽bladegalaxy
+|j|☆katholikon
+|t:|1779884420
+|gametype|singles
+|player|p1|bladegalaxy|102|1545
+|player|p2|katholikon|102|1607
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Rillaboom, F|
+|poke|p1|Garganacl, M|
+|poke|p1|Pecharunt|
+|poke|p1|Iron Treads|
+|poke|p1|Zamazenta-*|
+|poke|p2|Iron Boulder|
+|poke|p2|Dragapult, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Great Tusk|
+|poke|p2|Ting-Lu|
+|poke|p2|Corviknight, F|
+|teampreview
+|
+|t:|1779884430
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1779884436
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779884443
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|98/100
+|-start|p2a: Great Tusk|Salt Cure
+|
+|-heal|p2a: Great Tusk|100/100|[from] Grassy Terrain
+|-damage|p2a: Great Tusk|88/100|[from] Salt Cure
+|upkeep
+|turn|3
+|
+|t:|1779884448
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Great Tusk|Knock Off|p1a: Kyurem
+|-damage|p1a: Kyurem|50/100
+|-enditem|p1a: Kyurem|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-heal|p1a: Kyurem|56/100|[from] Grassy Terrain
+|-heal|p2a: Great Tusk|94/100|[from] Grassy Terrain
+|-damage|p2a: Great Tusk|82/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1779884458
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Kyurem|Freeze-Dry|p2a: Corviknight
+|-damage|p2a: Corviknight|72/100
+|
+|-heal|p1a: Kyurem|62/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bladegalaxy)
+|
+|t:|1779884469
+|move|p1a: Kyurem|Freeze-Dry|p2a: Corviknight
+|-damage|p2a: Corviknight|45/100
+|move|p2a: Corviknight|U-turn|p1a: Kyurem
+|-damage|p1a: Kyurem|50/100
+|
+|t:|1779884474
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] U-turn
+|
+|-heal|p1a: Kyurem|56/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1779884476
+|move|p1a: Kyurem|Protect|p1a: Kyurem
+|-singleturn|p1a: Kyurem|Protect
+|move|p2a: Dragapult|U-turn|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1779884482
+|move|p2a: Dragapult|U-turn|p1a: Kyurem
+|-damage|p1a: Kyurem|40/100
+|
+|t:|1779884485
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] U-turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Kyurem|Freeze-Dry|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|70/100
+|
+|-heal|p2a: Ting-Lu|76/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|j| Zero Faction
+|
+|t:|1779884493
+|move|p1a: Kyurem|Freeze-Dry|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|47/100
+|move|p2a: Ting-Lu|Whirlwind|p1a: Kyurem
+|drag|p1a: Garganacl|Garganacl, M|100/100
+|
+|-heal|p2a: Ting-Lu|53/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1779884503
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Garganacl
+|-sidestart|p1: bladegalaxy|move: Stealth Rock
+|move|p1a: Garganacl|Stealth Rock|p2a: Ting-Lu
+|-sidestart|p2: katholikon|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|60/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779884511
+|move|p2a: Ting-Lu|Spikes|p1a: Garganacl
+|-sidestart|p1: bladegalaxy|Spikes
+|move|p1a: Garganacl|Salt Cure|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|56/100
+|-start|p2a: Ting-Lu|Salt Cure
+|
+|-heal|p2a: Ting-Lu|62/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|49/100|[from] Salt Cure
+|upkeep
+|turn|11
+|
+|t:|1779884516
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-damage|p1a: Iron Treads|98/100|[from] Stealth Rock
+|-damage|p1a: Iron Treads|85/100|[from] Spikes
+|move|p2a: Ting-Lu|Spikes|p1a: Iron Treads
+|-sidestart|p1: bladegalaxy|Spikes
+|
+|-heal|p2a: Ting-Lu|56/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|43/100|[from] Salt Cure
+|upkeep
+|turn|12
+|
+|t:|1779884521
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Iron Treads|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|8/100
+|-enditem|p2a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p1a: Iron Treads
+|
+|upkeep
+|turn|13
+|
+|t:|1779884532
+|move|p2a: Dragapult|Flamethrower|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|39/100
+|-status|p1a: Iron Treads|brn
+|move|p1a: Iron Treads|Ice Spinner|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Iron Treads|33/100 brn|[from] brn
+|upkeep
+|l| Zero Faction
+|
+|t:|1779884553
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-damage|p2a: Iron Boulder|88/100|[from] Stealth Rock
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|turn|14
+|
+|t:|1779884557
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Kyurem|Kyurem|40/100
+|-damage|p1a: Kyurem|16/100|[from] Stealth Rock
+|-damage|p1a: Kyurem|0 fnt|[from] Spikes
+|faint|p1a: Kyurem
+|move|p2a: Iron Boulder|Earthquake|p1: Kyurem|[notarget]
+|-fail|p2a: Iron Boulder
+|
+|upkeep
+|
+|t:|1779884560
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-damage|p1a: Rillaboom|72/100|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|15
+|
+|t:|1779884568
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|switch|p2a: Corviknight|Corviknight, F|45/100
+|-damage|p2a: Corviknight|32/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Rillaboom|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|25/100
+|-damage|p1a: Rillaboom|55/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|t:|1779884570
+|switch|p1a: Iron Treads|Iron Treads|33/100 brn|[from] U-turn
+|-damage|p1a: Iron Treads|30/100 brn|[from] Stealth Rock
+|-damage|p1a: Iron Treads|14/100 brn|[from] Spikes
+|
+|-heal|p1a: Iron Treads|20/100 brn|[from] Grassy Terrain
+|-damage|p1a: Iron Treads|14/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1779884581
+|move|p1a: Iron Treads|Rapid Spin|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|22/100
+|-boost|p1a: Iron Treads|spe|1
+|-damage|p1a: Iron Treads|0 fnt|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|73/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|79/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779884586
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|-damage|p1a: Garganacl|88/100|[from] Stealth Rock
+|-damage|p1a: Garganacl|72/100|[from] Spikes
+|turn|17
+|
+|t:|1779884590
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|move|p1a: Garganacl|Salt Cure|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|75/100
+|-start|p2a: Raging Bolt|Salt Cure
+|
+|-heal|p2a: Raging Bolt|81/100|[from] Grassy Terrain
+|-heal|p1a: Garganacl|78/100|[from] Grassy Terrain
+|-heal|p1a: Garganacl|84/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|69/100|[from] Salt Cure
+|upkeep
+|turn|18
+|
+|t:|1779884597
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p2a: Raging Bolt|75/100|[from] Grassy Terrain
+|-heal|p1a: Garganacl|90/100|[from] Grassy Terrain
+|-heal|p1a: Garganacl|96/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|62/100|[from] Salt Cure
+|upkeep
+|turn|19
+|
+|t:|1779884602
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Garganacl
+|-crit|p1a: Garganacl
+|-damage|p1a: Garganacl|12/100
+|move|p1a: Garganacl|Salt Cure|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|49/100
+|
+|-heal|p2a: Raging Bolt|55/100|[from] Grassy Terrain
+|-heal|p1a: Garganacl|19/100|[from] Grassy Terrain
+|-heal|p1a: Garganacl|25/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|42/100|[from] Salt Cure
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|20
+|
+|t:|1779884607
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|82/100
+|-damage|p2a: Great Tusk|79/100|[from] Stealth Rock
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|-heal|p1a: Garganacl|31/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1779884610
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|41/100
+|-enditem|p1a: Pecharunt|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|22
+|
+|t:|1779884619
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Ting-Lu|Ting-Lu|43/100
+|-damage|p2a: Ting-Lu|37/100|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|92/100
+|
+|-heal|p2a: Ting-Lu|43/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1779884622
+|move|p1a: Pecharunt|Malignant Chain|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|37/100
+|move|p2a: Ting-Lu|Spikes|p1a: Pecharunt
+|-sidestart|p1: bladegalaxy|Spikes
+|
+|-heal|p2a: Ting-Lu|43/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1779884626
+|move|p1a: Pecharunt|Malignant Chain|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|37/100
+|-status|p2a: Ting-Lu|tox
+|-start|p2a: Ting-Lu|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|-activate|p2a: Ting-Lu|confusion
+|move|p2a: Ting-Lu|Whirlwind|p1a: Pecharunt
+|drag|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|94/100|[from] Stealth Rock
+|-damage|p1a: Zamazenta|70/100|[from] Spikes
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|-heal|p1a: Zamazenta|76/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|43/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|37/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1779884636
+|-terastallize|p2a: Ting-Lu|Poison
+|move|p1a: Zamazenta|Body Press|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|21/100 tox
+|-activate|p2a: Ting-Lu|confusion
+|move|p2a: Ting-Lu|Whirlwind|p1a: Zamazenta
+|drag|p1a: Rillaboom|Rillaboom, F|55/100
+|-damage|p1a: Rillaboom|43/100|[from] Stealth Rock
+|-damage|p1a: Rillaboom|18/100|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|24/100|[from] Grassy Terrain
+|-heal|p2a: Ting-Lu|27/100 tox|[from] Grassy Terrain
+|-heal|p2a: Ting-Lu|34/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|21/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1779884645
+|move|p1a: Rillaboom|Wood Hammer|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|-damage|p1a: Rillaboom|14/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|20/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779884647
+|switch|p2a: Corviknight|Corviknight, F|79/100
+|-damage|p2a: Corviknight|66/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|27
+|
+|t:|1779884650
+|move|p1a: Rillaboom|Wood Hammer|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|44/100
+|-damage|p1a: Rillaboom|4/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Rillaboom|0 fnt|[from] Recoil
+|faint|p1a: Rillaboom
+|move|p2a: Corviknight|U-turn|p1: Rillaboom|[notarget]
+|-fail|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1779884653
+|switch|p1a: Zamazenta|Zamazenta|76/100
+|-damage|p1a: Zamazenta|70/100|[from] Stealth Rock
+|-damage|p1a: Zamazenta|45/100|[from] Spikes
+|turn|28
+|
+|t:|1779884657
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Corviknight|Brave Bird|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|18/100
+|-damage|p2a: Corviknight|37/100|[from] Recoil
+|
+|-heal|p1a: Zamazenta|24/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|31/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1779884671
+|-terastallize|p1a: Zamazenta|Fire
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Corviknight|Brave Bird|p1a: Zamazenta
+|-damage|p1a: Zamazenta|21/100
+|-damage|p2a: Corviknight|34/100|[from] Recoil
+|
+|-heal|p1a: Zamazenta|27/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|33/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|30
+|j| 1Slyver2_
+|
+|t:|1779884679
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Corviknight|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|32/100
+|
+|t:|1779884680
+|switch|p2a: Iron Boulder|Iron Boulder|88/100|[from] U-turn
+|-damage|p2a: Iron Boulder|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Zamazenta|38/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1779884684
+|move|p1a: Zamazenta|Body Press|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|-heal|p1a: Zamazenta|44/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779884686
+|switch|p2a: Raging Bolt|Raging Bolt|42/100
+|-damage|p2a: Raging Bolt|30/100|[from] Stealth Rock
+|turn|32
+|
+|t:|1779884689
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|-message|bladegalaxy forfeited.
+|
+|win|katholikon
+|raw|bladegalaxy's rating: 1545 &rarr; <strong>1529</strong><br />(-16 for losing)
+|raw|katholikon's rating: 1607 &rarr; <strong>1623</strong><br />(+16 for winning)
+|l|‽bladegalaxy
+|player|p1|

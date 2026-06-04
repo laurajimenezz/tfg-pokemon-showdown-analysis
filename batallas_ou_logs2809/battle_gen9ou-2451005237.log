@@ -1,0 +1,218 @@
+|j|☆LikeEmerald
+|j|☆coinysleftarm
+|t:|1759065895
+|gametype|singles
+|player|p1|LikeEmerald|265|1139
+|player|p2|coinysleftarm|cilan|1110
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Deoxys-Speed|
+|poke|p1|Pikachu, F|
+|poke|p1|Moltres|
+|poke|p1|Haunter, F|
+|poke|p1|Hydrapple, M|
+|poke|p1|Empoleon, M|
+|poke|p2|Greninja-*, M|
+|poke|p2|Falinks|
+|poke|p2|Mimikyu, M|
+|poke|p2|Arcanine, M|
+|poke|p2|Latios, M|
+|poke|p2|Scizor, M|
+|teampreview
+|
+|t:|1759065904
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|t:|1759065912
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1759065919
+|move|p1a: Moltres|Flamethrower|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-enditem|p2a: Scizor|Focus Sash
+|-damage|p2a: Scizor|1/100
+|move|p2a: Scizor|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|28/100
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Scizor
+|
+|upkeep
+|turn|3
+|
+|t:|1759065928
+|move|p2a: Scizor|Bullet Punch|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1759065931
+|switch|p1a: Pikachu|Pikachu, F|100/100
+|turn|4
+|
+|t:|1759065939
+|move|p1a: Pikachu|Fake Out|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1759065946
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Pikachu|atk|1
+|turn|5
+|
+|t:|1759065953
+|switch|p1a: Hydrapple|Hydrapple, M|100/100
+|move|p2a: Arcanine|Flamethrower|p1a: Hydrapple
+|-damage|p1a: Hydrapple|48/100
+|-damage|p2a: Arcanine|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1759065962
+|move|p1a: Hydrapple|Protect|p1a: Hydrapple
+|-singleturn|p1a: Hydrapple|Protect
+|move|p2a: Arcanine|Flamethrower|p1a: Hydrapple
+|-activate|p1a: Hydrapple|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1759065970
+|move|p2a: Arcanine|Flamethrower|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|-damage|p2a: Arcanine|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1759065988
+|switch|p1a: Haunter|Haunter, F|100/100
+|turn|8
+|
+|t:|1759065992
+|move|p2a: Arcanine|Flamethrower|p1a: Haunter
+|-damage|p1a: Haunter|34/100
+|-damage|p2a: Arcanine|71/100|[from] item: Life Orb
+|move|p1a: Haunter|Toxic|p2a: Arcanine
+|-status|p2a: Arcanine|tox
+|
+|-damage|p2a: Arcanine|64/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1759066002
+|move|p2a: Arcanine|Flamethrower|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|faint|p1a: Haunter
+|-damage|p2a: Arcanine|54/100 tox|[from] item: Life Orb
+|
+|-damage|p2a: Arcanine|42/100 tox|[from] psn
+|upkeep
+|
+|t:|1759066009
+|switch|p1a: Pikachu|Pikachu, F|100/100
+|turn|10
+|
+|t:|1759066013
+|move|p1a: Pikachu|Fake Out|p2a: Arcanine
+|-damage|p2a: Arcanine|20/100 tox
+|cant|p2a: Arcanine|flinch
+|
+|-damage|p2a: Arcanine|1/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1759066023
+|move|p2a: Arcanine|Flamethrower|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|faint|p1a: Pikachu
+|-damage|p2a: Arcanine|0 fnt|[from] item: Life Orb
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1759066033
+|switch|p2a: Falinks|Falinks, shiny|100/100
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|12
+|
+|t:|1759066039
+|move|p2a: Falinks|First Impression|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-enditem|p1a: Deoxys|Focus Sash
+|-damage|p1a: Deoxys|1/100
+|move|p1a: Deoxys|Stealth Rock|p2a: Falinks
+|-sidestart|p2: coinysleftarm|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1759066048
+|move|p1a: Deoxys|Psycho Boost|p2a: Falinks
+|-supereffective|p2a: Falinks
+|-damage|p2a: Falinks|0 fnt
+|-unboost|p1a: Deoxys|spa|2
+|faint|p2a: Falinks
+|
+|upkeep
+|
+|t:|1759066055
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1759066063
+|-terastallize|p2a: Latios|Electric
+|move|p1a: Deoxys|Psycho Boost|p2a: Latios
+|-damage|p2a: Latios|59/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Latios|Thunderbolt|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|
+|t:|1759066069
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|turn|15
+|
+|t:|1759066079
+|move|p2a: Latios|Thunderbolt|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|faint|p1a: Empoleon
+|
+|win|coinysleftarm
+|raw|LikeEmerald's rating: 1139 &rarr; <strong>1112</strong><br />(-27 for losing)
+|raw|coinysleftarm's rating: 1110 &rarr; <strong>1137</strong><br />(+27 for winning)
+|l|☆LikeEmerald
+|player|p1|
+|l|☆coinysleftarm
+|player|p2|

@@ -1,0 +1,352 @@
+|j|☆immaterial-light
+|j|☆danna_danonino
+|t:|1779598340
+|gametype|singles
+|player|p1|immaterial-light|170|1331
+|player|p2|danna_danonino|2|1343
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cresselia, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Hands|
+|poke|p1|Ursaluna, M|
+|poke|p1|Exeggutor-Alola, M|
+|poke|p1|Porygon2|
+|poke|p2|Weavile, F|
+|poke|p2|Entei|
+|poke|p2|Zapdos|
+|poke|p2|Espeon, F|
+|poke|p2|Goodra, F|
+|poke|p2|Donphan, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by immaterial-light)
+|
+|t:|1779598345
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Porygon2|Porygon2|100/100
+|switch|p2a: Espeon|Espeon, F|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|turn|1
+|
+|t:|1779598359
+|move|p2a: Espeon|Trick|p1a: Porygon2
+|-activate|p2a: Espeon|move: Trick|[of] p1a: Porygon2
+|-item|p1a: Porygon2|Choice Scarf|[from] move: Trick
+|-item|p2a: Espeon|Eviolite|[from] move: Trick
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|upkeep
+|turn|2
+|
+|t:|1779598364
+|switch|p1a: Exeggutor|Exeggutor-Alola, M|100/100
+|move|p2a: Espeon|Trick|p1a: Exeggutor
+|-activate|p2a: Espeon|move: Trick|[of] p1a: Exeggutor
+|-item|p1a: Exeggutor|Eviolite|[from] move: Trick
+|-item|p2a: Espeon|Sitrus Berry|[from] move: Trick
+|
+|upkeep
+|turn|3
+|
+|t:|1779598373
+|switch|p2a: Goodra|Goodra, F, shiny|100/100
+|move|p1a: Exeggutor|Draco Meteor|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|30/100
+|-unboost|p1a: Exeggutor|spa|2
+|
+|-heal|p2a: Goodra|36/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1779598379
+|-terastallize|p2a: Goodra|Fairy
+|move|p1a: Exeggutor|Draco Meteor|p2a: Goodra
+|-immune|p2a: Goodra
+|move|p2a: Goodra|Sludge Bomb|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|51/100
+|-status|p1a: Exeggutor|psn
+|
+|-heal|p2a: Goodra|43/100|[from] item: Leftovers
+|-damage|p1a: Exeggutor|38/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1779598390
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|move|p2a: Goodra|Scald|p1a: Porygon2
+|-damage|p1a: Porygon2|82/100
+|-status|p1a: Porygon2|brn
+|
+|-heal|p2a: Goodra|49/100|[from] item: Leftovers
+|-damage|p1a: Porygon2|76/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1779598397
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|-damage|p1a: Porygon2|69/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1779598424
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Ursaluna
+|-damage|p1a: Ursaluna|55/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1779598430
+|-terastallize|p1a: Ursaluna|Normal
+|move|p1a: Ursaluna|Facade|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-damage|p1a: Ursaluna|49/100 brn|[from] brn
+|upkeep
+|
+|t:|1779598434
+|switch|p2a: Donphan|Donphan, M, shiny|100/100
+|turn|9
+|
+|t:|1779598459
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Donphan|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock|p2a: Donphan|[from] ability: Magic Bounce
+|-sidestart|p2: danna_danonino|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1779598463
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Donphan
+|-damage|p2a: Donphan|35/100
+|move|p2a: Donphan|Rapid Spin|p1a: Hatterene
+|-damage|p1a: Hatterene|85/100
+|-boost|p2a: Donphan|spe|1
+|-sideend|p2: danna_danonino|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Donphan
+|
+|-heal|p2a: Donphan|42/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1779598471
+|switch|p2a: Entei|Entei|100/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|12
+|
+|t:|1779598473
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|move|p2a: Entei|Flare Blitz|p1: Hatterene|[notarget]
+|-fail|p2a: Entei
+|
+|upkeep
+|
+|t:|1779598477
+|switch|p1a: Exeggutor|Exeggutor-Alola, M|38/100 psn
+|-heal|p1a: Exeggutor|100/100|[from] move: Healing Wish
+|turn|13
+|
+|t:|1779598484
+|move|p1a: Exeggutor|Draco Meteor|p2a: Entei|[miss]
+|-miss|p1a: Exeggutor|p2a: Entei
+|move|p2a: Entei|Flare Blitz|p1a: Exeggutor
+|-damage|p1a: Exeggutor|22/100
+|-damage|p2a: Entei|73/100|[from] Recoil
+|
+|upkeep
+|turn|14
+|
+|t:|1779598487
+|switch|p2a: Goodra|Goodra, F, shiny, tera:Fairy|49/100
+|move|p1a: Exeggutor|Draco Meteor|p2a: Goodra
+|-immune|p2a: Goodra
+|
+|-heal|p2a: Goodra|55/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1779598493
+|move|p1a: Exeggutor|Sludge Bomb|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|23/100
+|move|p2a: Goodra|Sludge Bomb|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|-heal|p2a: Goodra|30/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1779598509
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|16
+|
+|t:|1779598512
+|move|p2a: Goodra|Toxic|p1a: Cresselia
+|-status|p1a: Cresselia|tox
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-heal|p2a: Goodra|36/100|[from] item: Leftovers
+|-damage|p1a: Cresselia|94/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1779598517
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Goodra|Dragon Tail|p1: Cresselia|[notarget]
+|-fail|p2a: Goodra
+|
+|-heal|p2a: Goodra|42/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779598519
+|switch|p1a: Ursaluna|Ursaluna, M, tera:Normal|49/100 brn
+|-heal|p1a: Ursaluna|100/100|[from] move: Lunar Dance
+|turn|18
+|
+|t:|1779598521
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Goodra|Dragon Tail|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-heal|p2a: Goodra|48/100|[from] item: Leftovers
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|19
+|
+|t:|1779598528
+|move|p1a: Ursaluna|Facade|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1779598531
+|switch|p2a: Donphan|Donphan, M, shiny|42/100
+|turn|20
+|
+|t:|1779598534
+|move|p1a: Ursaluna|Facade|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1779598541
+|switch|p2a: Weavile|Weavile, F, shiny|100/100
+|turn|21
+|
+|t:|1779598546
+|move|p2a: Weavile|Knock Off|p1a: Ursaluna
+|-damage|p1a: Ursaluna|55/100 brn
+|-enditem|p1a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Ursaluna|Facade|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-damage|p1a: Ursaluna|49/100 brn|[from] brn
+|upkeep
+|
+|t:|1779598556
+|switch|p2a: Entei|Entei|73/100
+|turn|22
+|
+|t:|1779598561
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Entei|Flare Blitz|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-damage|p1a: Ursaluna|43/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1779598567
+|move|p2a: Entei|Flare Blitz|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|-damage|p2a: Entei|56/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1779598569
+|switch|p1a: Porygon2|Porygon2|69/100 brn
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|turn|24
+|
+|t:|1779598572
+|move|p2a: Entei|Flare Blitz|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|-damage|p2a: Entei|33/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1779598579
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|25
+|
+|t:|1779598581
+|move|p2a: Entei|Flare Blitz|p1a: Iron Hands
+|-damage|p1a: Iron Hands|43/100
+|-damage|p2a: Entei|7/100|[from] Recoil
+|move|p1a: Iron Hands|Drain Punch|p2a: Entei
+|-damage|p2a: Entei|0 fnt
+|-heal|p1a: Iron Hands|46/100|[from] drain|[of] p2a: Entei
+|faint|p2a: Entei
+|
+|upkeep
+|
+|t:|1779598584
+|switch|p2a: Espeon|Espeon, F|100/100
+|turn|26
+|-message|immaterial-light forfeited.
+|
+|win|danna_danonino
+|raw|immaterial-light's rating: 1331 &rarr; <strong>1312</strong><br />(-19 for losing)
+|raw|danna_danonino's rating: 1343 &rarr; <strong>1362</strong><br />(+19 for winning)
+|l|☆immaterial-light
+|player|p1|
+|l|☆danna_danonino
+|player|p2|

@@ -1,0 +1,292 @@
+|j|☆boogerstastegood
+|j|☆NaCl fish
+|t:|1760861429
+|gametype|singles
+|player|p1|boogerstastegood|giovanni|1214
+|player|p2|NaCl fish|irida|1241
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p1|Raging Bolt|
+|poke|p1|Conkeldurr, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Walking Wake|
+|poke|p2|Gliscor, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Toxapex, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by boogerstastegood)
+|inactive|NaCl fish also wants the timer to be on.
+|
+|t:|1760861452
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1760861455
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Great Tusk|Earthquake|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1760861461
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1760861464
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Toxapex
+|-damage|p2a: Toxapex|78/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|-heal|p2a: Toxapex|84/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1760861474
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Great Tusk|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|90/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1760861477
+|move|p1a: Great Tusk|Rapid Spin|p2a: Toxapex
+|-damage|p2a: Toxapex|67/100
+|-boost|p1a: Great Tusk|spe|1
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|74/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1760861482
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Toxapex|Pain Split|p1a: Great Tusk
+|-sethp|p1a: Great Tusk|78/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Toxapex|100/100|[from] move: Pain Split
+|
+|upkeep
+|turn|7
+|
+|t:|1760861486
+|move|p1a: Great Tusk|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|t:|1760861489
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|turn|8
+|
+|t:|1760861493
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Great Tusk|Rapid Spin|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|upkeep
+|turn|9
+|
+|t:|1760861498
+|move|p1a: Great Tusk|Rapid Spin|p2a: Gliscor
+|-damage|p2a: Gliscor|73/100 tox
+|-boost|p1a: Great Tusk|spe|1
+|move|p2a: Gliscor|Fling|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|77/100
+|-status|p1a: Great Tusk|tox
+|-enditem|p2a: Gliscor|Toxic Orb|[from] move: Fling
+|
+|-damage|p1a: Great Tusk|70/100 tox|[from] psn
+|-heal|p2a: Gliscor|86/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1760861502
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|-damage|p1a: Great Tusk|58/100 tox|[from] psn
+|-heal|p2a: Gliscor|98/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1760861505
+|move|p1a: Great Tusk|Ice Spinner|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-damage|p1a: Great Tusk|39/100 tox|[from] psn
+|upkeep
+|
+|t:|1760861508
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|12
+|
+|t:|1760861512
+|move|p2a: Ogerpon|Spiky Shield|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Protect
+|move|p1a: Great Tusk|Ice Spinner|p2a: Ogerpon
+|-activate|p2a: Ogerpon|move: Protect
+|-damage|p1a: Great Tusk|27/100 tox|[from] Spiky Shield|[of] p2a: Ogerpon
+|
+|-damage|p1a: Great Tusk|2/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1760861516
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Great Tusk|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Great Tusk|0 fnt|[from] psn
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1760861522
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|14
+|
+|t:|1760861532
+|-terastallize|p1a: Raging Bolt|Fairy
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Raging Bolt
+|-immune|p2a: Raging Bolt
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1760861537
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|56/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Raging Bolt|62/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1760861540
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|30/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Raging Bolt|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760861551
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|17
+|
+|t:|1760861557
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-enditem|p1a: Gholdengo|Air Balloon
+|faint|p1a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Raging Bolt|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760861559
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|18
+|
+|t:|1760861562
+|move|p1a: Enamorus|Earth Power|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|24/100
+|-damage|p1a: Enamorus|91/100|[from] item: Life Orb
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Raging Bolt|30/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760861567
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|turn|19
+|
+|t:|1760861569
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Raging Bolt|36/100|[from] item: Leftovers
+|upkeep
+|-message|boogerstastegood forfeited.
+|
+|win|NaCl fish
+|raw|boogerstastegood's rating: 1214 &rarr; <strong>1191</strong><br />(-23 for losing)
+|raw|NaCl fish's rating: 1241 &rarr; <strong>1264</strong><br />(+23 for winning)
+|l|☆boogerstastegood
+|player|p1|

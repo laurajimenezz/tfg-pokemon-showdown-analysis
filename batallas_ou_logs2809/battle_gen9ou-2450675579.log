@@ -1,0 +1,299 @@
+|j|☆saint246
+|j|☆ScaryObongo
+|t:|1759011679
+|gametype|singles
+|player|p1|saint246|102|1131
+|player|p2|ScaryObongo|lance|1243
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Iron Treads|
+|poke|p1|Greninja-*, M|
+|poke|p1|Whimsicott, F|
+|poke|p1|Lycanroc, F|
+|poke|p2|Quaquaval, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Iron Treads|
+|poke|p2|Dragapult, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1759011689
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Lycanroc|Lycanroc, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdriveatk
+|turn|1
+|
+|t:|1759011702
+|move|p1a: Lycanroc|Taunt|p2a: Iron Treads
+|-start|p2a: Iron Treads|move: Taunt
+|cant|p2a: Iron Treads|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1759011709
+|move|p1a: Lycanroc|Stealth Rock|p2a: Iron Treads
+|-sidestart|p2: ScaryObongo|move: Stealth Rock
+|move|p2a: Iron Treads|Rapid Spin|p1a: Lycanroc
+|-resisted|p1a: Lycanroc
+|-damage|p1a: Lycanroc|84/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: ScaryObongo|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|3
+|
+|t:|1759011723
+|move|p1a: Lycanroc|Sucker Punch|p2a: Iron Treads
+|-damage|p2a: Iron Treads|81/100
+|move|p2a: Iron Treads|Iron Head|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|-end|p2a: Iron Treads|move: Taunt
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ScaryObongo)
+|
+|t:|1759011730
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|turn|4
+|
+|t:|1759011735
+|move|p1a: Whimsicott|Stun Spore|p2a: Iron Treads|[miss]
+|-miss|p1a: Whimsicott|p2a: Iron Treads
+|move|p2a: Iron Treads|Iron Head|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-enditem|p1a: Whimsicott|Focus Sash
+|-damage|p1a: Whimsicott|1/100
+|
+|upkeep
+|turn|5
+|
+|t:|1759011743
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Whimsicott|Encore||[still]
+|-fail|p1a: Whimsicott
+|
+|-heal|p1a: Whimsicott|7/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1759011753
+|move|p1a: Whimsicott|Moonblast|p2a: Rillaboom
+|-damage|p2a: Rillaboom|56/100
+|move|p2a: Rillaboom|U-turn|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|t:|1759011775
+|switch|p2a: Quaquaval|Quaquaval, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1759011780
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|7
+|
+|t:|1759011784
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Quaquaval|Aqua Step|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|70/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|-heal|p1a: Grimmsnarl|76/100|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1759011804
+|move|p2a: Quaquaval|Aqua Step|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|51/100
+|-boost|p2a: Quaquaval|spe|1
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|-heal|p1a: Grimmsnarl|57/100|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1759011816
+|switch|p2a: Iron Treads|Iron Treads|81/100
+|turn|9
+|
+|t:|1759011823
+|-terastallize|p1a: Grimmsnarl|Fire
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Iron Treads|Iron Head|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|52/100
+|
+|-heal|p2a: Iron Treads|87/100|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|58/100|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|64/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1759011838
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Iron Treads|Earthquake|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|19/100
+|
+|-heal|p1a: Grimmsnarl|25/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1759011845
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Iron Treads
+|-damage|p2a: Iron Treads|3/100
+|move|p2a: Iron Treads|Earthquake|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1759011854
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|12
+|
+|t:|1759011863
+|move|p1a: Greninja|Flamethrower|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1759011880
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|13
+|
+|t:|1759011886
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|upkeep
+|turn|14
+|
+|t:|1759011901
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Rillaboom|Rillaboom, M|56/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Iron Treads|Ice Spinner|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-fieldend|move: Grassy Terrain
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|t:|1759011916
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|15
+|
+|t:|1759011921
+|move|p1a: Iron Treads|Ice Spinner|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|37/100
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Iron Treads
+|-status|p1a: Iron Treads|brn
+|
+|-damage|p1a: Iron Treads|94/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1759011929
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Greninja|Greninja, M|91/100
+|move|p2a: Dragapult|Hex|p1a: Greninja
+|-immune|p1a: Greninja
+|
+|upkeep
+|turn|17
+|
+|t:|1759011958
+|move|p2a: Dragapult|Thunder Wave|p1a: Greninja
+|-status|p1a: Greninja|par
+|move|p1a: Greninja|Bitter Malice|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-damage|p1a: Greninja|81/100 par|[from] item: Life Orb
+|
+|upkeep
+|inactive|ScaryObongo has 120 seconds left.
+|
+|t:|1759011976
+|switch|p2a: Hawlucha|Hawlucha, M, shiny|100/100
+|turn|18
+|inactive|ScaryObongo has 120 seconds left.
+|
+|t:|1759011984
+|move|p2a: Hawlucha|Acrobatics|p1a: Greninja
+|-damage|p1a: Greninja|27/100 par
+|replace|p1a: Zoroark|Zoroark-Hisui, M
+|-end|p1a: Zoroark|Illusion
+|cant|p1a: Zoroark|par
+|
+|upkeep
+|turn|19
+|
+|t:|1759011990
+|move|p2a: Hawlucha|Acrobatics|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|t:|1759011996
+|switch|p1a: Iron Treads|Iron Treads|94/100 brn
+|turn|20
+|-message|saint246 forfeited.
+|
+|win|ScaryObongo
+|raw|saint246's rating: 1131 &rarr; <strong>1114</strong><br />(-17 for losing)
+|raw|ScaryObongo's rating: 1243 &rarr; <strong>1260</strong><br />(+17 for winning)
+|l|☆saint246
+|player|p1|
+|l|☆ScaryObongo
+|player|p2|

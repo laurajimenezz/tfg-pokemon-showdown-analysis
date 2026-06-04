@@ -1,0 +1,157 @@
+|j|☆Gypsoph1la
+|j|☆wufuni
+|t:|1759066592
+|gametype|singles
+|player|p1|Gypsoph1la|n|1423
+|player|p2|wufuni|170|1378
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Sandy Shocks|
+|poke|p1|Scizor, M|
+|poke|p2|Kommo-o, F|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Gliscor, F|
+|poke|p2|Iron Crown|
+|poke|p2|Glimmora, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gypsoph1la)
+|
+|t:|1759066604
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1759066610
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Sandy Shocks|Earth Power|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1759066613
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Sandy Shocks|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: wufuni|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1759066620
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-damage|p2a: Iron Crown|95/100|[from] Stealth Rock
+|-terastallize|p1a: Sandy Shocks|Ice
+|move|p1a: Sandy Shocks|Tera Blast|p2a: Iron Crown|[anim] Tera Blast Ice
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|82/100
+|
+|upkeep
+|turn|4
+|
+|t:|1759066623
+|move|p1a: Sandy Shocks|Earth Power|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|28/100
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Sandy Shocks
+|-supereffective|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|44/100
+|-supereffective|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|-hitcount|p1: Sandy Shocks|2
+|
+|upkeep
+|
+|t:|1759066627
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|5
+|
+|t:|1759066631
+|move|p2a: Iron Crown|Volt Switch|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|t:|1759066647
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Kommo-o|Kommo-o, F|100/100|[from] Volt Switch
+|-damage|p2a: Kommo-o|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759066652
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|6
+|
+|t:|1759066656
+|move|p2a: Kommo-o|Flamethrower|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759066663
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|7
+|
+|t:|1759066670
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Iron Valiant
+|-immune|p2a: Iron Valiant
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1759066674
+|move|p2a: Iron Valiant|Encore|p1a: Raging Bolt
+|-start|p1a: Raging Bolt|Encore
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Iron Valiant
+|-immune|p2a: Iron Valiant
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|-message|Gypsoph1la forfeited.
+|
+|win|wufuni
+|raw|Gypsoph1la's rating: 1423 &rarr; <strong>1400</strong><br />(-23 for losing)
+|raw|wufuni's rating: 1378 &rarr; <strong>1401</strong><br />(+23 for winning)
+|l|☆Gypsoph1la
+|player|p1|

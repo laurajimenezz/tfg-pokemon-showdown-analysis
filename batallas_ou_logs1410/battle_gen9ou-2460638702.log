@@ -1,0 +1,284 @@
+|j|‽battler12312001
+|j|☆depecos
+|t:|1760336085
+|gametype|singles
+|player|p1|battler12312001|hilbert-wonderlauncher|1305
+|player|p2|depecos|266|1304
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Primarina, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Zapdos|
+|poke|p1|Gholdengo|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Great Tusk|
+|poke|p2|Heatran, F|
+|poke|p2|Hawlucha, M|
+|poke|p2|Iron Hands|
+|poke|p2|Rillaboom, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by depecos)
+|
+|t:|1760336096
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1760336103
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Cinderace|High Jump Kick|p2a: Heatran
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1760336122
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|turn|2
+|
+|t:|1760336135
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1760336139
+|move|p1a: Zapdos|Volt Switch|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|50/100
+|
+|t:|1760336143
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100|[from] Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Enamorus|Draining Kiss|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|55/100
+|-heal|p2a: Enamorus|84/100|[from] drain|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|61/100|[from] Grassy Terrain
+|-heal|p2a: Enamorus|90/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1760336155
+|move|p1a: Tyranitar|Stone Edge|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|67/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760336159
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Grassy Seed
+|-boost|p2a: Iron Hands|def|1|[from] item: Grassy Seed
+|turn|5
+|
+|t:|1760336169
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Iron Hands|Swords Dance|p2a: Iron Hands
+|-boost|p2a: Iron Hands|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-damage|p2a: Iron Hands|94/100|[from] Sandstorm
+|-heal|p2a: Iron Hands|100/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1760336173
+|move|p1a: Zapdos|Hurricane|p2a: Iron Hands|[miss]
+|-miss|p1a: Zapdos|p2a: Iron Hands
+|move|p2a: Iron Hands|Ice Punch|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Hands|94/100|[from] Sandstorm
+|-heal|p2a: Iron Hands|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760336184
+|switch|p1a: Meowscarada|Meowscarada, M, shiny|100/100
+|turn|7
+|
+|t:|1760336187
+|move|p1a: Meowscarada|Play Rough|p2a: Iron Hands
+|-start|p1a: Meowscarada|typechange|Fairy|[from] ability: Protean
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|52/100
+|-damage|p1a: Meowscarada|91/100|[from] item: Life Orb
+|move|p2a: Iron Hands|Drain Punch|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|17/100
+|-heal|p2a: Iron Hands|76/100|[from] drain|[of] p1a: Meowscarada
+|
+|-weather|none
+|-heal|p1a: Meowscarada|23/100|[from] Grassy Terrain
+|-heal|p2a: Iron Hands|82/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1760336199
+|move|p1a: Meowscarada|Play Rough|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|30/100
+|-damage|p1a: Meowscarada|13/100|[from] item: Life Orb
+|move|p2a: Iron Hands|Drain Punch|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|-heal|p2a: Iron Hands|34/100|[from] drain|[of] p1a: Meowscarada
+|faint|p1a: Meowscarada
+|
+|-heal|p2a: Iron Hands|41/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1760336221
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|9
+|
+|t:|1760336223
+|move|p1a: Cinderace|Pyro Ball|p2a: Iron Hands
+|-damage|p2a: Iron Hands|14/100
+|-status|p2a: Iron Hands|brn
+|move|p2a: Iron Hands|Drain Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|34/100
+|-heal|p2a: Iron Hands|37/100 brn|[from] drain|[of] p1a: Cinderace
+|
+|-damage|p2a: Iron Hands|31/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1760336231
+|move|p1a: Cinderace|Pyro Ball|p2a: Iron Hands
+|-damage|p2a: Iron Hands|4/100 brn
+|move|p2a: Iron Hands|Drain Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-heal|p2a: Iron Hands|15/100 brn|[from] drain|[of] p1a: Cinderace
+|faint|p1a: Cinderace
+|
+|-damage|p2a: Iron Hands|9/100 brn|[from] brn
+|upkeep
+|
+|t:|1760336243
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|11
+|
+|t:|1760336249
+|move|p1a: Gholdengo|Shadow Ball|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760336252
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|12
+|
+|t:|1760336256
+|move|p2a: Rillaboom|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|35/100
+|-enditem|p1a: Gholdengo|Leftovers|[from] move: Knock Off|[of] p2a: Rillaboom
+|move|p1a: Gholdengo|Shadow Ball|p2a: Rillaboom
+|-damage|p2a: Rillaboom|43/100
+|
+|-heal|p2a: Rillaboom|49/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|41/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1760336267
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|67/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Rillaboom|Grassy Glide|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rillaboom|43/100|[from] Sandstorm
+|-heal|p2a: Rillaboom|49/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760336275
+|switch|p1a: Primarina|Primarina, M, shiny|100/100
+|turn|14
+|
+|t:|1760336284
+|switch|p1a: Gholdengo|Gholdengo|41/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rillaboom|43/100|[from] Sandstorm
+|-heal|p2a: Rillaboom|49/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|30/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1760336290
+|move|p2a: Rillaboom|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rillaboom|43/100|[from] Sandstorm
+|-heal|p2a: Rillaboom|49/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760336294
+|switch|p1a: Primarina|Primarina, M, shiny|100/100
+|turn|16
+|
+|t:|1760336302
+|move|p2a: Rillaboom|Grassy Glide|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|3/100
+|move|p1a: Primarina|Moonblast|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Primarina|0 fnt|[from] Sandstorm
+|faint|p1a: Primarina
+|
+|win|depecos
+|raw|battler12312001's rating: 1305 &rarr; <strong>1285</strong><br />(-20 for losing)
+|raw|depecos's rating: 1304 &rarr; <strong>1324</strong><br />(+20 for winning)
+|l|‽battler12312001
+|player|p1|
+|l|☆depecos
+|player|p2|

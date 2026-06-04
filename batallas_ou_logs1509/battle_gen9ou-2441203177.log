@@ -1,0 +1,409 @@
+|j|☆dboutin25
+|j|☆Husk1903
+|t:|1757812549
+|gametype|singles
+|player|p1|dboutin25|2|1121
+|player|p2|Husk1903|ingo|1094
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Dragapult, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Iron Treads|
+|poke|p1|Hydrapple, F|
+|poke|p1|Golurk|
+|poke|p2|Haxorus, M|
+|poke|p2|Iron Hands|
+|poke|p2|Blaziken, M|
+|poke|p2|Polteageist|
+|poke|p2|Toxapex, M|
+|poke|p2|Cottonee, L1, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Husk1903)
+|
+|t:|1757812562
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Polteageist|Polteageist|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdriveatk
+|turn|1
+|
+|t:|1757812572
+|move|p1a: Iron Treads|Iron Head|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|2
+|
+|t:|1757812584
+|move|p2a: Polteageist|Stored Power|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|7/100
+|move|p1a: Iron Treads|Iron Head|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|upkeep
+|
+|t:|1757812599
+|switch|p2a: Cottonee|Cottonee, L1, F|100/100
+|turn|3
+|
+|t:|1757812602
+|move|p2a: Cottonee|Leech Seed|p1a: Iron Treads
+|-start|p1a: Iron Treads|move: Leech Seed
+|move|p1a: Iron Treads|Iron Head|p2a: Cottonee
+|-supereffective|p2a: Cottonee
+|-crit|p2a: Cottonee
+|-enditem|p2a: Cottonee|Focus Sash
+|-damage|p2a: Cottonee|9/100
+|
+|-damage|p1a: Iron Treads|0 fnt|[from] Leech Seed|[of] p2a: Cottonee
+|-heal|p2a: Cottonee|100/100|[silent]
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|upkeep
+|
+|t:|1757812622
+|switch|p1a: Golurk|Golurk|100/100
+|turn|4
+|
+|t:|1757812625
+|move|p2a: Cottonee|Substitute|p2a: Cottonee
+|-start|p2a: Cottonee|Substitute
+|-damage|p2a: Cottonee|75/100
+|move|p1a: Golurk|Dynamic Punch|p2a: Cottonee|[miss]
+|-miss|p1a: Golurk|p2a: Cottonee
+|-enditem|p1a: Golurk|Blunder Policy
+|-boost|p1a: Golurk|spe|2
+|
+|upkeep
+|turn|5
+|
+|t:|1757812634
+|move|p2a: Cottonee|Leech Seed|p1a: Golurk
+|-start|p1a: Golurk|move: Leech Seed
+|move|p1a: Golurk|Ice Punch|p2a: Cottonee
+|-supereffective|p2a: Cottonee
+|-end|p2a: Cottonee|Substitute
+|
+|-damage|p1a: Golurk|88/100|[from] Leech Seed|[of] p2a: Cottonee
+|-heal|p2a: Cottonee|100/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1757812642
+|move|p2a: Cottonee|Substitute|p2a: Cottonee
+|-start|p2a: Cottonee|Substitute
+|-damage|p2a: Cottonee|75/100
+|move|p1a: Golurk|Ice Punch|p2a: Cottonee
+|-supereffective|p2a: Cottonee
+|-end|p2a: Cottonee|Substitute
+|
+|-damage|p1a: Golurk|76/100|[from] Leech Seed|[of] p2a: Cottonee
+|-heal|p2a: Cottonee|100/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1757812649
+|move|p2a: Cottonee|Substitute|p2a: Cottonee
+|-start|p2a: Cottonee|Substitute
+|-damage|p2a: Cottonee|75/100
+|move|p1a: Golurk|Ice Punch|p2a: Cottonee
+|-supereffective|p2a: Cottonee
+|-end|p2a: Cottonee|Substitute
+|
+|-damage|p1a: Golurk|63/100|[from] Leech Seed|[of] p2a: Cottonee
+|-heal|p2a: Cottonee|100/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1757812657
+|move|p2a: Cottonee|Substitute|p2a: Cottonee
+|-start|p2a: Cottonee|Substitute
+|-damage|p2a: Cottonee|75/100
+|move|p1a: Golurk|Ice Punch|p2a: Cottonee
+|-supereffective|p2a: Cottonee
+|-end|p2a: Cottonee|Substitute
+|
+|-damage|p1a: Golurk|51/100|[from] Leech Seed|[of] p2a: Cottonee
+|-heal|p2a: Cottonee|100/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1757812665
+|move|p2a: Cottonee|Substitute|p2a: Cottonee
+|-start|p2a: Cottonee|Substitute
+|-damage|p2a: Cottonee|75/100
+|move|p1a: Golurk|Ice Punch|p2a: Cottonee
+|-supereffective|p2a: Cottonee
+|-end|p2a: Cottonee|Substitute
+|
+|-damage|p1a: Golurk|38/100|[from] Leech Seed|[of] p2a: Cottonee
+|-heal|p2a: Cottonee|100/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1757812673
+|move|p2a: Cottonee|Substitute|p2a: Cottonee
+|-start|p2a: Cottonee|Substitute
+|-damage|p2a: Cottonee|75/100
+|move|p1a: Golurk|Ice Punch|p2a: Cottonee
+|-supereffective|p2a: Cottonee
+|-end|p2a: Cottonee|Substitute
+|
+|-damage|p1a: Golurk|26/100|[from] Leech Seed|[of] p2a: Cottonee
+|-heal|p2a: Cottonee|100/100|[silent]
+|upkeep
+|turn|11
+|
+|t:|1757812680
+|move|p2a: Cottonee|Substitute|p2a: Cottonee
+|-start|p2a: Cottonee|Substitute
+|-damage|p2a: Cottonee|75/100
+|move|p1a: Golurk|Ice Punch|p2a: Cottonee
+|-supereffective|p2a: Cottonee
+|-end|p2a: Cottonee|Substitute
+|
+|-damage|p1a: Golurk|13/100|[from] Leech Seed|[of] p2a: Cottonee
+|-heal|p2a: Cottonee|100/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1757812689
+|move|p2a: Cottonee|Substitute|p2a: Cottonee
+|-start|p2a: Cottonee|Substitute
+|-damage|p2a: Cottonee|75/100
+|move|p1a: Golurk|Ice Punch|p2a: Cottonee
+|-supereffective|p2a: Cottonee
+|-end|p2a: Cottonee|Substitute
+|
+|-damage|p1a: Golurk|1/100|[from] Leech Seed|[of] p2a: Cottonee
+|-heal|p2a: Cottonee|100/100|[silent]
+|upkeep
+|turn|13
+|
+|t:|1757812696
+|move|p2a: Cottonee|Substitute|p2a: Cottonee
+|-start|p2a: Cottonee|Substitute
+|-damage|p2a: Cottonee|75/100
+|move|p1a: Golurk|Ice Punch|p2a: Cottonee
+|-supereffective|p2a: Cottonee
+|-end|p2a: Cottonee|Substitute
+|
+|-damage|p1a: Golurk|0 fnt|[from] Leech Seed|[of] p2a: Cottonee
+|-heal|p2a: Cottonee|84/100|[silent]
+|faint|p1a: Golurk
+|upkeep
+|
+|t:|1757812718
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|14
+|
+|t:|1757812723
+|move|p2a: Cottonee|Substitute|p2a: Cottonee
+|-start|p2a: Cottonee|Substitute
+|-damage|p2a: Cottonee|59/100
+|move|p1a: Rotom|Thunderbolt|p2a: Cottonee
+|-resisted|p2a: Cottonee
+|-crit|p2a: Cottonee
+|-end|p2a: Cottonee|Substitute
+|
+|upkeep
+|turn|15
+|
+|t:|1757812730
+|move|p2a: Cottonee|Substitute|p2a: Cottonee
+|-start|p2a: Cottonee|Substitute
+|-damage|p2a: Cottonee|34/100
+|move|p1a: Rotom|Thunderbolt|p2a: Cottonee
+|-resisted|p2a: Cottonee
+|-end|p2a: Cottonee|Substitute
+|
+|upkeep
+|turn|16
+|
+|t:|1757812736
+|move|p2a: Cottonee|Substitute|p2a: Cottonee
+|-start|p2a: Cottonee|Substitute
+|-damage|p2a: Cottonee|9/100
+|move|p1a: Rotom|Thunderbolt|p2a: Cottonee
+|-resisted|p2a: Cottonee
+|-end|p2a: Cottonee|Substitute
+|
+|upkeep
+|turn|17
+|
+|t:|1757812743
+|move|p1a: Rotom|Volt Switch|p2a: Cottonee
+|-resisted|p2a: Cottonee
+|-damage|p2a: Cottonee|0 fnt
+|faint|p2a: Cottonee
+|
+|t:|1757812747
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1757812751
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|18
+|
+|t:|1757812757
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Toxapex
+|-status|p2a: Toxapex|brn
+|move|p2a: Toxapex|Toxic|p1a: Dragapult
+|-status|p1a: Dragapult|tox
+|
+|-damage|p1a: Dragapult|95/100 tox|[from] psn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1757812768
+|move|p1a: Dragapult|Hex|p2a: Toxapex
+|-damage|p2a: Toxapex|48/100 brn
+|move|p2a: Toxapex|Substitute|p2a: Toxapex
+|-start|p2a: Toxapex|Substitute
+|-damage|p2a: Toxapex|23/100 brn
+|
+|-damage|p1a: Dragapult|83/100 tox|[from] psn
+|-damage|p2a: Toxapex|17/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1757812777
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Dragapult|Hex|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Dragapult|65/100 tox|[from] psn
+|-damage|p2a: Toxapex|11/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1757812788
+|move|p1a: Dragapult|Hex|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-damage|p1a: Dragapult|41/100 tox|[from] psn
+|upkeep
+|
+|t:|1757812796
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|22
+|
+|t:|1757812801
+|-terastallize|p2a: Haxorus|Steel
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Haxorus
+|-status|p2a: Haxorus|brn
+|-enditem|p2a: Haxorus|Lum Berry|[eat]
+|-curestatus|p2a: Haxorus|brn|[msg]
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|
+|-damage|p1a: Dragapult|11/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1757812816
+|move|p2a: Haxorus|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1757812832
+|switch|p1a: Hydrapple|Hydrapple, F|100/100
+|turn|24
+|
+|t:|1757812836
+|-terastallize|p1a: Hydrapple|Steel
+|move|p2a: Haxorus|Outrage|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|60/100
+|move|p1a: Hydrapple|Earth Power|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|
+|t:|1757812845
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|turn|25
+|
+|t:|1757812851
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Blaziken|Close Combat|p1a: Rotom
+|-damage|p1a: Rotom|25/100
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|26
+|
+|t:|1757812859
+|move|p2a: Blaziken|Close Combat|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|faint|p1a: Rotom
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1757812867
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|turn|27
+|
+|t:|1757812870
+|move|p2a: Blaziken|Close Combat|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|faint|p1a: Hoopa
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|-message|dboutin25 forfeited.
+|
+|win|Husk1903
+|raw|dboutin25's rating: 1121 &rarr; <strong>1094</strong><br />(-27 for losing)
+|raw|Husk1903's rating: 1094 &rarr; <strong>1122</strong><br />(+28 for winning)
+|l|☆dboutin25
+|player|p1|
+|l|☆Husk1903
+|player|p2|

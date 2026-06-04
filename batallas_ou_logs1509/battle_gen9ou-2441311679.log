@@ -1,0 +1,281 @@
+|j|☆WickedRest
+|j|☆Greeeted
+|t:|1757828259
+|gametype|singles
+|player|p1|WickedRest|blue|1243
+|player|p2|Greeeted|266|1332
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Primeape, M|
+|poke|p1|Ribombee, M|
+|poke|p1|Cinderace, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Iron Hands|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Mimikyu, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WickedRest)
+|
+|t:|1757828271
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|switch|p2a: LEBRON|Iron Hands|100/100
+|-enditem|p2a: LEBRON|Booster Energy
+|-activate|p2a: LEBRON|ability: Quark Drive|[fromitem]
+|-start|p2a: LEBRON|quarkdriveatk
+|turn|1
+|
+|t:|1757828279
+|move|p1a: Ribombee|Sticky Web|p2a: LEBRON
+|-sidestart|p2: Greeeted|move: Sticky Web
+|move|p2a: LEBRON|Heavy Slam|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1757828294
+|move|p1a: Ribombee|Psychic Noise|p2a: LEBRON
+|-supereffective|p2a: LEBRON
+|-damage|p2a: LEBRON|67/100
+|-start|p2a: LEBRON|move: Heal Block
+|move|p2a: LEBRON|Heavy Slam|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|t:|1757828311
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|3
+|
+|t:|1757828315
+|move|p1a: Cinderace|Will-O-Wisp|p2a: LEBRON
+|-status|p2a: LEBRON|brn
+|move|p2a: LEBRON|Close Combat|p1a: Cinderace
+|-damage|p1a: Cinderace|48/100
+|-unboost|p2a: LEBRON|def|1
+|-unboost|p2a: LEBRON|spd|1
+|
+|-damage|p2a: LEBRON|61/100 brn|[from] brn
+|-end|p2a: LEBRON|move: Heal Block
+|upkeep
+|turn|4
+|
+|t:|1757828321
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: LEBRON|Close Combat|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-unboost|p2a: LEBRON|def|1
+|-unboost|p2a: LEBRON|spd|1
+|faint|p1a: Cinderace
+|
+|-damage|p2a: LEBRON|55/100 brn|[from] brn
+|upkeep
+|
+|t:|1757828330
+|switch|p1a: Serperior|Serperior, M|100/100
+|-activate|p1a: Serperior|move: Sticky Web
+|-boost|p1a: Serperior|spe|1
+|turn|5
+|
+|t:|1757828343
+|move|p1a: Serperior|Leaf Storm|p2a: LEBRON
+|-damage|p2a: LEBRON|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: LEBRON
+|-end|p2a: LEBRON|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757828345
+|switch|p2a: Mimi|Mimikyu, F, shiny|100/100
+|turn|6
+|
+|t:|1757828349
+|move|p1a: Serperior|Leaf Storm|p2a: Mimi
+|-activate|p2a: Mimi|ability: Disguise
+|-damage|p2a: Mimi|100/100
+|-boost|p1a: Serperior|spa|2
+|detailschange|p2a: Mimi|Mimikyu-Busted, F, shiny
+|-damage|p2a: Mimi|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Mimi|Red Card|[of] p1a: Serperior
+|drag|p1a: Bisharp|Bisharp, M|100/100
+|-activate|p1a: Bisharp|move: Sticky Web
+|-unboost|p1a: Bisharp|spe|1
+|-ability|p1a: Bisharp|Defiant|boost
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Mimi|Trick Room|p2a: Mimi
+|-fieldstart|move: Trick Room|[of] p2a: Mimi
+|
+|upkeep
+|turn|7
+|
+|t:|1757828362
+|move|p1a: Bisharp|Iron Head|p2a: Mimi
+|-supereffective|p2a: Mimi
+|-damage|p2a: Mimi|0 fnt
+|faint|p2a: Mimi
+|
+|upkeep
+|
+|t:|1757828367
+|switch|p2a: Subaru|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Subaru
+|turn|8
+|inactive|WickedRest has 120 seconds left.
+|
+|t:|1757828405
+|switch|p2a: 5 Nights in TR|Ursaluna, F, shiny|100/100
+|move|p1a: Bisharp|Throat Chop|p2a: 5 Nights in TR
+|-damage|p2a: 5 Nights in TR|34/100
+|-start|p2a: 5 Nights in TR|Throat Chop|[silent]
+|
+|-status|p2a: 5 Nights in TR|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|inactive|WickedRest has 120 seconds left.
+|
+|t:|1757828431
+|-terastallize|p1a: Bisharp|Water
+|move|p1a: Bisharp|Throat Chop|p2a: 5 Nights in TR
+|-damage|p2a: 5 Nights in TR|0 fnt
+|faint|p2a: 5 Nights in TR
+|
+|upkeep
+|
+|t:|1757828439
+|switch|p2a: Satella|Hatterene, F, shiny|100/100
+|turn|10
+|
+|t:|1757828442
+|-terastallize|p2a: Satella|Stellar
+|move|p2a: Satella|Expanding Force|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|-damage|p2a: Satella|91/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|inactive|WickedRest has 120 seconds left.
+|
+|t:|1757828453
+|switch|p1a: Serperior|Serperior, M|100/100
+|-activate|p1a: Serperior|move: Sticky Web
+|-boost|p1a: Serperior|spe|1
+|turn|11
+|inactive|WickedRest has 120 seconds left.
+|
+|t:|1757828461
+|move|p1a: Serperior|Leaf Storm|p2a: Satella
+|-damage|p2a: Satella|43/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Satella|Expanding Force|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|-damage|p2a: Satella|33/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|WickedRest has 120 seconds left.
+|
+|t:|1757828469
+|switch|p1a: Primeape|Primeape, M|100/100
+|-activate|p1a: Primeape|move: Sticky Web
+|-unboost|p1a: Primeape|spe|1
+|-ability|p1a: Primeape|Defiant|boost
+|-boost|p1a: Primeape|atk|2
+|turn|12
+|
+|t:|1757828472
+|move|p1a: Primeape|Ice Punch|p2a: Satella
+|-damage|p2a: Satella|0 fnt
+|faint|p2a: Satella
+|
+|upkeep
+|
+|t:|1757828488
+|switch|p2a: Subaru|Indeedee, M, shiny|100/100
+|turn|13
+|
+|t:|1757828497
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Subaru|Expanding Force|p1a: Kingambit
+|-immune|p1a: Kingambit
+|
+|upkeep
+|turn|14
+|
+|t:|1757828506
+|move|p2a: Subaru|Healing Wish|p2a: Subaru
+|faint|p2a: Subaru
+|move|p1a: Kingambit|Kowtow Cleave|p2: Subaru|[notarget]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|
+|t:|1757828508
+|switch|p2a: King Von|Hoopa-Unbound|100/100
+|-enditem|p2a: King Von|Psychic Seed
+|-boost|p2a: King Von|spd|1|[from] item: Psychic Seed
+|turn|15
+|
+|t:|1757828511
+|move|p2a: King Von|Focus Blast|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-item|p2a: King Von|Leftovers|[from] ability: Magician|[of] p1: Kingambit
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1757828515
+|switch|p1a: Primeape|Primeape, M|100/100
+|-activate|p1a: Primeape|move: Sticky Web
+|-unboost|p1a: Primeape|spe|1
+|-ability|p1a: Primeape|Defiant|boost
+|-boost|p1a: Primeape|atk|2
+|turn|16
+|
+|t:|1757828520
+|move|p1a: Primeape|Drain Punch|p2a: King Von
+|-damage|p2a: King Von|31/100
+|move|p2a: King Von|Expanding Force|p1a: Primeape
+|-supereffective|p1a: Primeape
+|-crit|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|win|Greeeted
+|raw|WickedRest's rating: 1243 &rarr; <strong>1224</strong><br />(-19 for losing)
+|raw|Greeeted's rating: 1332 &rarr; <strong>1347</strong><br />(+15 for winning)
+|l|☆Greeeted
+|player|p2|
+|l|☆WickedRest
+|player|p1|

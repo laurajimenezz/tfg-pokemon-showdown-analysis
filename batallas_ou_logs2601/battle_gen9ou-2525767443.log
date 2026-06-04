@@ -1,0 +1,427 @@
+|j|☆derbua
+|j|‽hisohisokurione
+|t:|1769322483
+|gametype|singles
+|player|p1|derbua|1|1085
+|player|p2|hisohisokurione|backersf|1103
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, F|
+|poke|p1|Hawlucha, M|
+|poke|p1|Heatran, F|
+|poke|p1|Great Tusk|
+|poke|p1|Hatterene, F|
+|poke|p1|Milotic, M|
+|poke|p2|Registeel|
+|poke|p2|Sunkern, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Mew|
+|poke|p2|Pecharunt|
+|teampreview
+|
+|t:|1769322533
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1769322546
+|move|p1a: Rillaboom|U-turn|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|93/100
+|
+|t:|1769322549
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|-enditem|p1a: Hatterene|Grassy Seed
+|-boost|p1a: Hatterene|def|1|[from] item: Grassy Seed
+|move|p2a: Torkoal|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock|p2a: Torkoal|[from] ability: Magic Bounce
+|-sidestart|p2: hisohisokurione|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|99/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1769322575
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|move|p2a: Torkoal|Rapid Spin|p1a: Hatterene
+|-damage|p1a: Hatterene|95/100
+|-boost|p2a: Torkoal|spe|1
+|-sideend|p2: hisohisokurione|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Hatterene|100/100|[from] Grassy Terrain
+|-heal|p2a: Torkoal|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1769322586
+|move|p1a: Hatterene|Agility|p1a: Hatterene
+|-boost|p1a: Hatterene|spe|2
+|move|p2a: Torkoal|Overheat|p1a: Hatterene
+|-damage|p1a: Hatterene|60/100
+|-unboost|p2a: Torkoal|spa|2
+|-enditem|p2a: Torkoal|Eject Pack
+|
+|t:|1769322594
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Hatterene|66/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1769322606
+|-terastallize|p1a: Hatterene|Steel
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force
+|move|p1a: Hatterene|Draining Kiss|p2a: Dragapult|[miss]
+|-miss|p1a: Hatterene|p2a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Hatterene|72/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1769322614
+|move|p2a: Dragapult|Phantom Force|p1a: Hatterene|[from] lockedmove
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|14/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-weather|none
+|-heal|p1a: Hatterene|20/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by derbua)
+|
+|t:|1769322640
+|move|p1a: Hatterene|Stored Power|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Hatterene|26/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1769322659
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|7
+|
+|t:|1769322671
+|move|p2a: Pecharunt|Malignant Chain|p1a: Hatterene
+|-immune|p1a: Hatterene
+|move|p1a: Hatterene|Stored Power|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|-heal|p1a: Hatterene|32/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1769322684
+|switch|p2a: Registeel|Registeel|100/100
+|turn|8
+|
+|t:|1769322692
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|move|p2a: Registeel|Amnesia|p2a: Registeel
+|-boost|p2a: Registeel|spd|2
+|
+|-heal|p1a: Hatterene|38/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1769322702
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|move|p2a: Registeel|Amnesia|p2a: Registeel
+|-boost|p2a: Registeel|spd|2
+|
+|upkeep
+|turn|10
+|
+|t:|1769322709
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|move|p2a: Registeel|Iron Defense|p2a: Registeel
+|-boost|p2a: Registeel|def|2
+|
+|upkeep
+|turn|11
+|
+|t:|1769322717
+|move|p1a: Hatterene|Agility|p1a: Hatterene
+|-boost|p1a: Hatterene|spe|2
+|move|p2a: Registeel|Amnesia|p2a: Registeel
+|-boost|p2a: Registeel|spd|2
+|
+|upkeep
+|turn|12
+|
+|t:|1769322724
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|move|p2a: Registeel|Iron Defense|p2a: Registeel
+|-boost|p2a: Registeel|def|2
+|
+|upkeep
+|turn|13
+|
+|t:|1769322729
+|move|p1a: Hatterene|Stored Power|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|62/100
+|move|p2a: Registeel|Iron Defense|p2a: Registeel
+|-boost|p2a: Registeel|def|2
+|
+|-heal|p2a: Registeel|68/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1769322737
+|move|p1a: Hatterene|Agility|p1a: Hatterene
+|-boost|p1a: Hatterene|spe|2
+|move|p2a: Registeel|Body Press|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Registeel|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769322748
+|switch|p1a: Milotic|Milotic, M|100/100
+|turn|15
+|
+|t:|1769322753
+|move|p2a: Registeel|Body Press|p1a: Milotic
+|-damage|p1a: Milotic|29/100
+|move|p1a: Milotic|Dragon Tail|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|74/100
+|drag|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Milotic|35/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1769322763
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|85/100
+|move|p2a: Torkoal|Stealth Rock|p1a: Milotic
+|-sidestart|p1: derbua|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Milotic|91/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1769322776
+|move|p1a: Milotic|Scald|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|70/100
+|move|p2a: Torkoal|Solar Beam||[still]
+|-prepare|p2a: Torkoal|Solar Beam
+|-anim|p2a: Torkoal|Solar Beam|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Milotic|61/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1769322788
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Torkoal|Solar Beam||[still]
+|-prepare|p2a: Torkoal|Solar Beam
+|-anim|p2a: Torkoal|Solar Beam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|32/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1769322803
+|move|p1a: Great Tusk|Headlong Rush|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|10/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Torkoal|Solar Beam||[still]
+|-prepare|p2a: Torkoal|Solar Beam
+|-anim|p2a: Torkoal|Solar Beam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1769322814
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|20
+|
+|t:|1769322823
+|switch|p2a: Registeel|Registeel|74/100
+|move|p1a: Rillaboom|Knock Off|p2a: Registeel
+|-damage|p2a: Registeel|50/100
+|-enditem|p2a: Registeel|Leftovers|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p2a: Registeel|56/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1769322834
+|move|p1a: Rillaboom|Low Kick|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|faint|p2a: Registeel
+|
+|-heal|p1a: Rillaboom|99/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1769322839
+|switch|p2a: Torkoal|Torkoal, M|10/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|22
+|
+|t:|1769322850
+|move|p1a: Rillaboom|Grassy Glide|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1769322857
+|switch|p2a: Sunkern|Sunkern, M|100/100
+|turn|23
+|
+|t:|1769322877
+|move|p2a: Sunkern|Leech Seed|p1a: Rillaboom
+|-immune|p1a: Rillaboom
+|move|p1a: Rillaboom|U-turn|p2a: Sunkern
+|-supereffective|p2a: Sunkern
+|-enditem|p2a: Sunkern|Focus Sash
+|-damage|p2a: Sunkern|1/100
+|
+|t:|1769322886
+|switch|p1a: Heatran|Heatran, F|100/100|[from] U-turn
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Sunkern|7/100|[from] Grassy Terrain
+|-heal|p1a: Heatran|94/100|[from] Grassy Terrain
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|derbua has 120 seconds left.
+|
+|t:|1769322908
+|move|p2a: Sunkern|Endeavor|p1a: Heatran
+|-damage|p1a: Heatran|4/100
+|move|p1a: Heatran|Magma Storm|p2a: Sunkern
+|-supereffective|p2a: Sunkern
+|-damage|p2a: Sunkern|0 fnt
+|faint|p2a: Sunkern
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Heatran|10/100|[from] Grassy Terrain
+|-heal|p1a: Heatran|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769322917
+|switch|p2a: Mew|Mew|100/100
+|turn|25
+|
+|t:|1769322932
+|move|p2a: Mew|Rock Blast|p1a: Heatran
+|-damage|p1a: Heatran|10/100
+|-damage|p1a: Heatran|2/100
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-hitcount|p1: Heatran|3
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769322941
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1769322954
+|move|p2a: Mew|Dragon Dance|p2a: Mew
+|-boost|p2a: Mew|atk|1
+|-boost|p2a: Mew|spe|1
+|move|p1a: Rillaboom|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|33/100
+|-enditem|p2a: Mew|Loaded Dice|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-weather|none
+|-heal|p2a: Mew|39/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|94/100|[from] Grassy Terrain
+|upkeep
+|turn|27
+|
+|t:|1769322972
+|move|p2a: Mew|Icicle Spear|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|70/100
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|48/100
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|24/100
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|2/100
+|-hitcount|p1a: Rillaboom|4
+|move|p1a: Rillaboom|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|win|derbua
+|raw|derbua's rating: 1085 &rarr; <strong>1114</strong><br />(+29 for winning)
+|raw|hisohisokurione's rating: 1103 &rarr; <strong>1077</strong><br />(-26 for losing)
+|l|‽hisohisokurione
+|player|p2|

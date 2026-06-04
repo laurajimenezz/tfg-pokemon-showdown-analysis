@@ -1,0 +1,267 @@
+|j|☆hat_fm
+|j|☆pokmonshoinclass
+|t:|1779901023
+|gametype|singles
+|player|p1|hat_fm|pilot|1423
+|player|p2|pokmonshoinclass|swimmer-gen4dp|1474
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Ceruledge, F|
+|poke|p1|Scizor, F|
+|poke|p1|Donphan, M|
+|poke|p1|Lycanroc-Dusk, F|
+|poke|p1|Florges, F|
+|poke|p2|Frosmoth, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Cinccino, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Slowking, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pokmonshoinclass)
+|
+|t:|1779901039
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Donphan|Donphan, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|t:|1779901044
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Donphan
+|-unboost|p1a: Donphan|atk|1
+|-unboost|p1a: Donphan|spa|1
+|
+|t:|1779901046
+|switch|p2a: Slowking|Slowking, M|100/100|[from] Parting Shot
+|move|p1a: Donphan|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|71/100
+|-enditem|p2a: Slowking|Leftovers|[from] move: Knock Off|[of] p1a: Donphan
+|
+|upkeep
+|turn|2
+|
+|t:|1779901057
+|move|p1a: Donphan|Stealth Rock|p2a: Slowking
+|-sidestart|p2: pokmonshoinclass|move: Stealth Rock
+|move|p2a: Slowking|Whirlpool|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|65/100
+|-activate|p1a: Donphan|move: Whirlpool|[of] p2a: Slowking
+|
+|-damage|p1a: Donphan|52/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1779901064
+|move|p1a: Donphan|Earthquake|p2a: Slowking
+|-damage|p2a: Slowking|51/100
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|100/100
+|
+|-damage|p1a: Donphan|40/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1779901087
+|move|p1a: Donphan|Rapid Spin|p2a: Slowking
+|-damage|p2a: Slowking|94/100
+|-boost|p1a: Donphan|spe|1
+|-end|p1a: Donphan|Whirlpool|[partiallytrapped]
+|move|p2a: Slowking|Whirlpool|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|6/100
+|-activate|p1a: Donphan|move: Whirlpool|[of] p2a: Slowking
+|
+|-damage|p1a: Donphan|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p1a: Donphan
+|upkeep
+|
+|t:|1779901092
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|5
+|
+|t:|1779901098
+|move|p1a: Scizor|U-turn|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|6/100
+|-damage|p1a: Scizor|91/100|[from] item: Life Orb
+|
+|t:|1779901109
+|switch|p1a: Florges|Florges, F|100/100|[from] U-turn
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1779901114
+|switch|p2a: Corviknight|Corviknight, F|100/100|[from] Chilly Reception
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1779901119
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|move|p2a: Corviknight|Defog|p1a: Ceruledge
+|-unboost|p1a: Ceruledge|evasion|1
+|-sideend|p2: pokmonshoinclass|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Corviknight|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779901128
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|move|p2a: Corviknight|U-turn|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|96/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|
+|t:|1779901137
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1779901145
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: pokmonshoinclass|Reflect
+|move|p1a: Ceruledge|Bitter Blade|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|60/100
+|-heal|p1a: Ceruledge|100/100|[from] drain|[of] p2a: Grimmsnarl
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1779901151
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|move|p2a: Grimmsnarl|Crunch|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-enditem|p1a: Ceruledge|Focus Sash
+|-damage|p1a: Ceruledge|1/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1779901162
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: pokmonshoinclass|move: Light Screen
+|move|p1a: Ceruledge|Bitter Blade|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-heal|p1a: Ceruledge|41/100|[from] drain|[of] p2a: Grimmsnarl
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1779901178
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|11
+|
+|t:|1779901190
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Rillaboom
+|-damage|p2a: Rillaboom|74/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|-heal|p2a: Rillaboom|80/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779901195
+|switch|p1a: Scizor|Scizor, F|91/100
+|turn|12
+|
+|t:|1779901205
+|switch|p2a: Corviknight|Corviknight, F|99/100
+|move|p1a: Scizor|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|97/100
+|-damage|p1a: Scizor|81/100|[from] item: Life Orb
+|
+|t:|1779901213
+|switch|p1a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1779901220
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Corviknight|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|98/100
+|
+|t:|1779901225
+|switch|p2a: Frosmoth|Frosmoth, M|100/100|[from] U-turn
+|-enditem|p2a: Frosmoth|Grassy Seed
+|-boost|p2a: Frosmoth|def|1|[from] item: Grassy Seed
+|
+|-heal|p1a: Zamazenta|100/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1779901236
+|-terastallize|p2a: Frosmoth|Poison
+|move|p1a: Zamazenta|Body Press|p2a: Frosmoth
+|-resisted|p2a: Frosmoth
+|-damage|p2a: Frosmoth|80/100
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|
+|-heal|p2a: Frosmoth|86/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1779901246
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Zamazenta|Roar|p2a: Frosmoth
+|drag|p2a: Corviknight|Corviknight, F|100/100
+|
+|-sideend|p2: pokmonshoinclass|Reflect
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|16
+|c|☆pokmonshoinclass|lameeee
+|-message|pokmonshoinclass forfeited.
+|
+|win|hat_fm
+|raw|hat_fm's rating: 1423 &rarr; <strong>1446</strong><br />(+23 for winning)
+|raw|pokmonshoinclass's rating: 1474 &rarr; <strong>1451</strong><br />(-23 for losing)
+|l|☆pokmonshoinclass
+|player|p2|

@@ -1,0 +1,231 @@
+|j|☆irubic
+|j|☆beentheredonepat
+|t:|1760875897
+|gametype|singles
+|player|p1|irubic|ethan|1171
+|player|p2|beentheredonepat|ethan|1200
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zapdos|
+|poke|p1|Iron Valiant|
+|poke|p1|Kyurem|
+|poke|p1|Darkrai|
+|poke|p1|Iron Treads|
+|poke|p1|Scizor, F|
+|poke|p2|Typhlosion, M|
+|poke|p2|Ninetales, F|
+|poke|p2|Shiftry, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Hatterene, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by beentheredonepat)
+|
+|t:|1760875926
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Nymph|Hatterene, F|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1760875951
+|move|p1a: Iron Treads|Stealth Rock|p2a: Nymph
+|move|p2a: Nymph|Stealth Rock|p1a: Iron Treads|[from] ability: Magic Bounce
+|-sidestart|p1: irubic|move: Stealth Rock
+|move|p2a: Nymph|Trick Room|p2a: Nymph
+|-fieldstart|move: Trick Room|[of] p2a: Nymph
+|
+|upkeep
+|turn|2
+|
+|t:|1760875975
+|move|p2a: Nymph|Healing Wish|p2a: Nymph
+|faint|p2a: Nymph
+|move|p1a: Iron Treads|Volt Switch|p2: Nymph|[notarget]
+|-fail|p1a: Iron Treads
+|
+|upkeep
+|
+|t:|1760875980
+|switch|p2a: Sol|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Sol
+|turn|3
+|
+|t:|1760875984
+|move|p2a: Sol|Eruption|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760876001
+|switch|p1a: Kyurem|Kyurem|100/100
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|turn|4
+|
+|t:|1760876008
+|-terastallize|p1a: Kyurem|Ground
+|move|p2a: Sol|Eruption|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760876023
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1760876036
+|move|p2a: Sol|Eruption|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|inactive|irubic has 120 seconds left.
+|
+|t:|1760876053
+|switch|p1a: Darkrai|Darkrai|100/100
+|-damage|p1a: Darkrai|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1760876059
+|move|p1a: Darkrai|Focus Blast|p2a: Sol
+|-damage|p2a: Sol|26/100
+|move|p2a: Sol|Eruption|p1a: Darkrai
+|-damage|p1a: Darkrai|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760876068
+|move|p1a: Darkrai|Focus Blast|p2a: Sol
+|-damage|p2a: Sol|0 fnt
+|faint|p2a: Sol
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760876073
+|switch|p2a: Shinobi|Shiftry, M|100/100
+|turn|8
+|
+|t:|1760876077
+|move|p1a: Darkrai|Focus Blast|p2a: Shinobi
+|-supereffective|p2a: Shinobi
+|-enditem|p2a: Shinobi|Focus Sash
+|-damage|p2a: Shinobi|1/100
+|move|p2a: Shinobi|Tailwind|p2a: Shinobi
+|-sidestart|p2: beentheredonepat|move: Tailwind
+|-ability|p2a: Shinobi|Wind Rider|boost
+|-boost|p2a: Shinobi|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1760876087
+|move|p1a: Darkrai|Focus Blast|p2a: Shinobi
+|-supereffective|p2a: Shinobi
+|-damage|p2a: Shinobi|0 fnt
+|faint|p2a: Shinobi
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760876090
+|switch|p2a: Charlie|Typhlosion, M|100/100
+|turn|10
+|
+|t:|1760876096
+|-terastallize|p2a: Charlie|Fire
+|move|p2a: Charlie|Eruption|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|-weather|none
+|upkeep
+|
+|t:|1760876106
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|11
+|
+|t:|1760876112
+|switch|p2a: Tollomot|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Tollomot
+|move|p1a: Zapdos|Hurricane|p2a: Tollomot
+|-damage|p2a: Tollomot|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: beentheredonepat|move: Tailwind
+|upkeep
+|turn|12
+|
+|t:|1760876122
+|move|p1a: Zapdos|Hurricane|p2a: Tollomot
+|-damage|p2a: Tollomot|0 fnt
+|faint|p2a: Tollomot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760876124
+|switch|p2a: Charlie|Typhlosion, M, tera:Fire|100/100
+|turn|13
+|
+|t:|1760876131
+|move|p2a: Charlie|Eruption|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760876138
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|14
+|
+|t:|1760876150
+|move|p1a: Iron Valiant|Moonblast|p2a: Charlie
+|-resisted|p2a: Charlie
+|-damage|p2a: Charlie|68/100
+|-unboost|p2a: Charlie|spa|1
+|move|p2a: Charlie|Eruption|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|win|beentheredonepat
+|raw|irubic's rating: 1171 &rarr; <strong>1148</strong><br />(-23 for losing)
+|raw|beentheredonepat's rating: 1200 &rarr; <strong>1223</strong><br />(+23 for winning)
+|l|☆irubic
+|player|p1|
+|l|☆beentheredonepat
+|player|p2|

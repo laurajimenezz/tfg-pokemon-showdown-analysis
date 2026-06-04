@@ -1,0 +1,327 @@
+|j|☆geekbarthief
+|j|☆4kazter
+|t:|1758969239
+|gametype|singles
+|player|p1|geekbarthief|boarder|1467
+|player|p2|4kazter|101|1579
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Ceruledge, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Ribombee, F|
+|poke|p1|Quaquaval, F|
+|poke|p1|Iron Treads|
+|poke|p2|Slowbro-Galar, F|
+|poke|p2|Iron Boulder|
+|poke|p2|Indeedee, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Ninetales, M|
+|poke|p2|Blaziken, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by geekbarthief)
+|
+|t:|1758969249
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|switch|p2a: DeeDee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: DeeDee
+|turn|1
+|
+|t:|1758969258
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdriveatk
+|move|p2a: DeeDee|Expanding Force|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-crit|p1a: Iron Treads
+|-damage|p1a: Iron Treads|41/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758969268
+|-terastallize|p2a: DeeDee|Psychic
+|move|p2a: DeeDee|Expanding Force|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758969281
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|3
+|
+|t:|1758969287
+|switch|p2a: Kurama|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Kurama
+|move|p1a: Gholdengo|Shadow Ball|p2a: Kurama
+|-damage|p2a: Kurama|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758969295
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|move|p2a: Kurama|Weather Ball|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758969302
+|move|p2a: Kurama|Will-O-Wisp|p1a: Quaquaval
+|-status|p1a: Quaquaval|brn
+|move|p1a: Quaquaval|Aqua Step|p2a: Kurama
+|-supereffective|p2a: Kurama
+|-damage|p2a: Kurama|18/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Quaquaval|68/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1758969311
+|move|p1a: Quaquaval|Knock Off|p2a: Kurama
+|-damage|p2a: Kurama|0 fnt
+|-enditem|p2a: Kurama|Heat Rock|[from] move: Knock Off|[of] p1a: Quaquaval
+|faint|p2a: Kurama
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Quaquaval|62/100 brn|[from] brn
+|upkeep
+|
+|t:|1758969321
+|switch|p2a: Toph|Iron Boulder|100/100
+|-enditem|p2a: Toph|Booster Energy
+|-activate|p2a: Toph|ability: Quark Drive|[fromitem]
+|-start|p2a: Toph|quarkdrivespe
+|turn|7
+|
+|t:|1758969326
+|move|p2a: Toph|Psycho Cut|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-crit|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758969345
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|8
+|
+|t:|1758969354
+|move|p2a: Toph|Swords Dance|p2a: Toph
+|-boost|p2a: Toph|atk|2
+|move|p1a: Gholdengo|Make It Rain|p2a: Toph
+|-supereffective|p2a: Toph
+|-crit|p2a: Toph
+|-damage|p2a: Toph|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Toph
+|-end|p2a: Toph|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1758969364
+|switch|p2a: ReverseUNO|Cinderace, F|100/100
+|turn|9
+|
+|t:|1758969371
+|switch|p1a: Ribombee|Ribombee, F, shiny|100/100
+|move|p2a: ReverseUNO|Pyro Ball|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758969379
+|move|p1a: Ribombee|Stun Spore|p2a: ReverseUNO
+|-status|p2a: ReverseUNO|par
+|move|p2a: ReverseUNO|Pyro Ball|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-crit|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|-weather|none
+|upkeep
+|
+|t:|1758969383
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|turn|11
+|
+|t:|1758969388
+|switch|p2a: DeeDee|Indeedee, M, tera:Psychic|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: DeeDee
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1758969395
+|move|p2a: DeeDee|Encore|p1a: Ceruledge
+|-start|p1a: Ceruledge|Encore
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|
+|upkeep
+|turn|13
+|
+|t:|1758969400
+|switch|p2a: CaptFalcon|Blaziken, M|100/100
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|14
+|
+|t:|1758969407
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|move|p2a: CaptFalcon|Focus Energy|p2a: CaptFalcon
+|-start|p2a: CaptFalcon|move: Focus Energy
+|
+|-ability|p2a: CaptFalcon|Speed Boost|boost
+|-boost|p2a: CaptFalcon|spe|1
+|upkeep
+|turn|15
+|
+|t:|1758969416
+|move|p2a: CaptFalcon|Rock Slide|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-crit|p1a: Ceruledge
+|-damage|p1a: Ceruledge|4/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|move|p1a: Ceruledge|Poltergeist|p2a: CaptFalcon
+|-activate|p2a: CaptFalcon|move: Poltergeist|Scope Lens
+|-damage|p2a: CaptFalcon|9/100
+|
+|-ability|p2a: CaptFalcon|Speed Boost|boost
+|-boost|p2a: CaptFalcon|spe|1
+|upkeep
+|turn|16
+|
+|t:|1758969428
+|move|p1a: Ceruledge|Bitter Blade|p2a: CaptFalcon
+|-resisted|p2a: CaptFalcon
+|-damage|p2a: CaptFalcon|0 fnt
+|-heal|p1a: Ceruledge|8/100|[from] drain|[of] p2a: CaptFalcon
+|faint|p2a: CaptFalcon
+|
+|upkeep
+|
+|t:|1758969434
+|switch|p2a: ReverseUNO|Cinderace, F|100/100 par
+|turn|17
+|
+|t:|1758969440
+|move|p1a: Ceruledge|Poltergeist|p2a: ReverseUNO
+|-activate|p2a: ReverseUNO|move: Poltergeist|Heavy-Duty Boots
+|-damage|p2a: ReverseUNO|6/100 par
+|move|p2a: ReverseUNO|Pyro Ball|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|upkeep
+|
+|t:|1758969452
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|18
+|
+|t:|1758969455
+|-terastallize|p1a: Enamorus|Stellar
+|move|p1a: Enamorus|Tera Blast|p2a: ReverseUNO|[anim] Tera Blast Stellar
+|-damage|p2a: ReverseUNO|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|spa|1
+|faint|p2a: ReverseUNO
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1758969464
+|switch|p2a: WildWest|Slowbro-Galar, F|100/100
+|turn|19
+|-activate|p2a: WildWest|item: Quick Claw
+|
+|t:|1758969467
+|move|p2a: WildWest|Shell Side Arm|p1a: Enamorus|[anim] Shell Side Arm Special
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|-hint|Special Shell Side Arm
+|faint|p1a: Enamorus
+|
+|upkeep
+|
+|t:|1758969471
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|20
+|-activate|p2a: WildWest|ability: Quick Draw
+|
+|t:|1758969477
+|move|p2a: WildWest|Fire Blast|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|25/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Shadow Ball|p2a: WildWest
+|-supereffective|p2a: WildWest
+|-damage|p2a: WildWest|0 fnt
+|faint|p2a: WildWest
+|
+|upkeep
+|
+|t:|1758969487
+|switch|p2a: DeeDee|Indeedee, M, tera:Psychic|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: DeeDee
+|turn|21
+|c|☆geekbarthief|why be good when you can just get lucky
+|c|☆geekbarthief|good strats
+|c|☆geekbarthief|wp
+|
+|t:|1758969500
+|move|p2a: DeeDee|Expanding Force|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|win|4kazter
+|raw|geekbarthief's rating: 1467 &rarr; <strong>1453</strong><br />(-14 for losing)
+|raw|4kazter's rating: 1579 &rarr; <strong>1593</strong><br />(+14 for winning)
+|l|☆geekbarthief
+|player|p1|

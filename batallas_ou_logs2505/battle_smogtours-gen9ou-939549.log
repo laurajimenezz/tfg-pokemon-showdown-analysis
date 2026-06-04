@@ -1,0 +1,295 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1779649429
+|gametype|singles
+|player|p1|linesll|2|
+|player|p2|Cow|#wcop2026uk2|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Great Tusk|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Alomomola, F|
+|poke|p1|Latios, M|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Glimmora, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Darkrai|
+|poke|p2|Zamazenta-*|
+|poke|p2|Ceruledge, M|
+|teampreview
+|c|☆Cow|hf
+|inactive|Cow has 270 seconds left.
+|
+|t:|1779649462
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|
+|t:|1779649478
+|move|p1a: Latios|Draco Meteor|p2a: Deoxys
+|-damage|p2a: Deoxys|23/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Deoxys|Light Screen|p2a: Deoxys
+|-sidestart|p2: Cow|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|t:|1779649489
+|move|p1a: Latios|Draco Meteor|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Deoxys
+|
+|upkeep
+|
+|t:|1779649493
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|3
+|
+|t:|1779649499
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1779649514
+|move|p2a: Darkrai|Focus Blast|p1a: Kingambit|[miss]
+|-miss|p2a: Darkrai|p1a: Kingambit
+|move|p1a: Kingambit|Low Kick|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|15/100
+|
+|-heal|p2a: Darkrai|21/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1779649522
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|6
+|
+|t:|1779649532
+|move|p2a: Glimmora|Stealth Rock|p1a: Kingambit
+|-sidestart|p1: linesll|move: Stealth Rock
+|move|p1a: Kingambit|Iron Head|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: linesll|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1779649541
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|7
+|
+|t:|1779649549
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-status|p1a: Great Tusk|psn
+|move|p2a: Zamazenta|Crunch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|89/100 psn
+|-damage|p2a: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|-damage|p2a: Zamazenta|74/100|[from] item: Life Orb
+|
+|-damage|p1a: Great Tusk|76/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1779649554
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|-item|p2a: Ceruledge|Air Balloon
+|move|p1a: Great Tusk|Rapid Spin|p2a: Ceruledge
+|-immune|p2a: Ceruledge
+|
+|-damage|p1a: Great Tusk|64/100 psn|[from] psn
+|-sideend|p2: Cow|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1779649564
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|-status|p1a: Alomomola|psn
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-damage|p1a: Alomomola|75/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1779649583
+|-terastallize|p2a: Ceruledge|Ghost
+|move|p2a: Ceruledge|Poltergeist|p1a: Alomomola|[miss]
+|-miss|p2a: Ceruledge|p1a: Alomomola
+|move|p1a: Alomomola|Flip Turn|p2a: Ceruledge
+|-damage|p2a: Ceruledge|76/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|-enditem|p2a: Ceruledge|Air Balloon
+|c|☆Cow|ok bro
+|
+|t:|1779649595
+|switch|p1a: Latios|Latios, M|100/100|[from] Flip Turn
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1779649598
+|switch|p1a: Alomomola|Alomomola, F|100/100 psn
+|-damage|p1a: Alomomola|88/100 psn|[from] Stealth Rock
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Alomomola
+|-damage|p1a: Alomomola|53/100 psn
+|-enditem|p1a: Alomomola|Red Card|[of] p2a: Ceruledge
+|drag|p2a: Zamazenta|Zamazenta|74/100
+|
+|-damage|p1a: Alomomola|41/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1779649614
+|move|p2a: Zamazenta|Crunch|p1a: Alomomola
+|-damage|p1a: Alomomola|20/100 psn
+|-damage|p2a: Zamazenta|64/100|[from] item: Life Orb
+|move|p1a: Alomomola|Flip Turn|p2a: Zamazenta
+|-damage|p2a: Zamazenta|49/100
+|
+|t:|1779649627
+|switch|p1a: Latios|Latios, M|88/100|[from] Flip Turn
+|-damage|p1a: Latios|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1779649635
+|move|p1a: Latios|Draco Meteor|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-unboost|p1a: Latios|spa|2
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1779649638
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|14
+|
+|t:|1779649647
+|move|p1a: Latios|Draco Meteor|p2a: Ursaluna
+|-damage|p2a: Ursaluna|71/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|15
+|
+|t:|1779649652
+|move|p1a: Latios|Draco Meteor|p2a: Ursaluna
+|-damage|p2a: Ursaluna|50/100 brn
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Ursaluna|Facade|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-damage|p2a: Ursaluna|44/100 brn|[from] brn
+|upkeep
+|
+|t:|1779649657
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|-status|p1a: Ogerpon|psn
+|turn|16
+|
+|t:|1779649663
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Ursaluna|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-damage|p1a: Ogerpon|76/100 psn|[from] psn
+|upkeep
+|
+|t:|1779649665
+|switch|p2a: Darkrai|Darkrai|21/100
+|turn|17
+|
+|t:|1779649686
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Darkrai|Sludge Bomb|p1a: Kingambit
+|-immune|p1a: Kingambit
+|
+|-heal|p2a: Darkrai|27/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1779649697
+|-terastallize|p1a: Kingambit|Flying
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|move|p1a: Kingambit|Low Kick|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1779649699
+|switch|p2a: Ceruledge|Ceruledge, M, tera:Ghost|76/100
+|turn|19
+|
+|t:|1779649706
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Kingambit|Iron Head|p2a: Ceruledge
+|-damage|p2a: Ceruledge|3/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|upkeep
+|turn|20
+|
+|t:|1779649714
+|move|p1a: Kingambit|Sucker Punch|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|win|linesll
+|c|☆linesll|gg
+|c|☆Cow|whatever
+|player|p2|
+|player|p1|

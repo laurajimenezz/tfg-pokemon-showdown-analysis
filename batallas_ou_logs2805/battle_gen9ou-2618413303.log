@@ -1,0 +1,160 @@
+|j|‽KAHALL
+|j|☆tazlkrazy
+|t:|1779807827
+|gametype|singles
+|player|p1|KAHALL|101|1138
+|player|p2|tazlkrazy|101|1176
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Bisharp, M|
+|poke|p1|Swampert, F|
+|poke|p1|Ribombee, M|
+|poke|p1|Cryogonal|
+|poke|p1|Dachsbun, M|
+|poke|p1|Weezing, F|
+|poke|p2|Iron Crown|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Zapdos|
+|poke|p2|Dragapult, F|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Boulder|
+|teampreview
+|
+|t:|1779807867
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Swampert|Swampert, F|100/100
+|switch|p2a: Mindreader|Iron Crown|100/100
+|turn|1
+|
+|t:|1779807880
+|move|p2a: Mindreader|Psyshock|p1a: Swampert
+|-damage|p1a: Swampert|41/100
+|move|p1a: Swampert|Knock Off|p2a: Mindreader
+|-supereffective|p2a: Mindreader
+|-damage|p2a: Mindreader|36/100
+|-enditem|p2a: Mindreader|Choice Specs|[from] move: Knock Off|[of] p1a: Swampert
+|
+|-heal|p1a: Swampert|47/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1779807888
+|move|p2a: Mindreader|Psyshock|p1a: Swampert
+|-damage|p1a: Swampert|8/100
+|move|p1a: Swampert|Stealth Rock|p2a: Mindreader
+|-sidestart|p2: tazlkrazy|move: Stealth Rock
+|
+|-heal|p1a: Swampert|14/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1779807893
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Mindreader|Psyshock|p1a: Bisharp
+|-immune|p1a: Bisharp
+|
+|upkeep
+|turn|4
+|
+|t:|1779807901
+|move|p2a: Mindreader|Volt Switch|p1a: Bisharp
+|-damage|p1a: Bisharp|78/100
+|
+|t:|1779807907
+|-end|p2a: Mindreader|Quark Drive|[silent]
+|switch|p2a: Pump It|Great Tusk|100/100|[from] Volt Switch
+|move|p1a: Bisharp|Iron Head|p2a: Pump It
+|-damage|p2a: Pump It|66/100
+|
+|upkeep
+|turn|5
+|
+|t:|1779807927
+|switch|p1a: Weezing|Weezing, F, shiny|100/100
+|move|p2a: Pump It|Rapid Spin|p1a: Weezing
+|-damage|p1a: Weezing|85/100
+|-boost|p2a: Pump It|spe|1
+|-sideend|p2: tazlkrazy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Pump It
+|
+|upkeep
+|turn|6
+|
+|t:|1779807935
+|move|p2a: Pump It|Stealth Rock|p1a: Weezing
+|-sidestart|p1: KAHALL|move: Stealth Rock
+|move|p1a: Weezing|Fire Blast|p2a: Pump It
+|-damage|p2a: Pump It|0 fnt
+|faint|p2a: Pump It
+|-end|p2a: Pump It|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779807945
+|switch|p2a: Revery|Iron Boulder|100/100
+|-enditem|p2a: Revery|Booster Energy
+|-activate|p2a: Revery|ability: Quark Drive|[fromitem]
+|-start|p2a: Revery|quarkdrivespe
+|turn|7
+|
+|t:|1779807963
+|switch|p1a: Dachsbun|Dachsbun, M|100/100
+|-damage|p1a: Dachsbun|88/100|[from] Stealth Rock
+|move|p2a: Revery|Swords Dance|p2a: Revery
+|-boost|p2a: Revery|atk|2
+|
+|-heal|p1a: Dachsbun|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1779807979
+|move|p2a: Revery|Mighty Cleave|p1a: Dachsbun
+|-damage|p1a: Dachsbun|16/100
+|move|p1a: Dachsbun|Body Press|p2a: Revery
+|-damage|p2a: Revery|71/100
+|
+|-heal|p1a: Dachsbun|22/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1779807987
+|move|p2a: Revery|Mighty Cleave|p1a: Dachsbun
+|-damage|p1a: Dachsbun|0 fnt
+|faint|p1a: Dachsbun
+|
+|upkeep
+|
+|t:|1779807991
+|switch|p1a: Bisharp|Bisharp, M|78/100
+|-damage|p1a: Bisharp|72/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1779808000
+|-terastallize|p2a: Revery|Fighting
+|-terastallize|p1a: Bisharp|Flying
+|move|p2a: Revery|Mighty Cleave|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|-message|KAHALL forfeited.
+|
+|win|tazlkrazy
+|raw|KAHALL's rating: 1138 &rarr; <strong>1116</strong><br />(-22 for losing)
+|raw|tazlkrazy's rating: 1176 &rarr; <strong>1198</strong><br />(+22 for winning)
+|l|‽KAHALL
+|player|p1|
+|l|☆tazlkrazy
+|player|p2|

@@ -1,0 +1,240 @@
+|j|☆BasicGobbo
+|j|☆G0LDI
+|t:|1779894271
+|gametype|singles
+|player|p1|BasicGobbo|maid|1000
+|player|p2|G0LDI|hilda-wonderlauncher|1055
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hydrapple, F|
+|poke|p1|Scizor, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Kingdra, F|
+|poke|p1|Ribombee, F|
+|poke|p1|Metagross|
+|poke|p2|Alomomola, F|
+|poke|p2|Milotic, F|
+|poke|p2|Azumarill, F|
+|poke|p2|Politoed, F|
+|poke|p2|Quaquaval, F|
+|poke|p2|Keldeo|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by G0LDI)
+|
+|t:|1779894285
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Politoed|Politoed, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|t:|1779894297
+|move|p1a: Ribombee|Sticky Web|p2a: Politoed
+|-sidestart|p2: G0LDI|move: Sticky Web
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Ribombee|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Ribombee|perish3
+|-start|p2a: Politoed|perish3
+|upkeep
+|turn|2
+|
+|t:|1779894306
+|move|p1a: Ribombee|Stun Spore|p2a: Politoed
+|-status|p2a: Politoed|par
+|cant|p2a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Ribombee|perish2
+|-start|p2a: Politoed|perish2
+|upkeep
+|turn|3
+|
+|t:|1779894319
+|move|p1a: Ribombee|Moonblast|p2a: Politoed
+|-damage|p2a: Politoed|72/100 par
+|cant|p2a: Politoed|par
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Ribombee|perish1
+|-start|p2a: Politoed|perish1
+|upkeep
+|turn|4
+|
+|t:|1779894331
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|switch|p2a: Alomomola|Alomomola, F, shiny|100/100
+|-activate|p2a: Alomomola|move: Sticky Web
+|-unboost|p2a: Alomomola|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779894345
+|move|p1a: Kingdra|Focus Energy|p1a: Kingdra
+|-start|p1a: Kingdra|move: Focus Energy
+|move|p2a: Alomomola|Substitute|p2a: Alomomola
+|-start|p2a: Alomomola|Substitute
+|-damage|p2a: Alomomola|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1779894355
+|move|p1a: Kingdra|Hydro Pump|p2a: Alomomola|[miss]
+|-miss|p1a: Kingdra|p2a: Alomomola
+|move|p2a: Alomomola|Whirlpool|p1a: Kingdra|[miss]
+|-miss|p2a: Alomomola|p1a: Kingdra
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779894365
+|move|p1a: Kingdra|Draco Meteor|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-end|p2a: Alomomola|Substitute
+|-unboost|p1a: Kingdra|spa|2
+|move|p2a: Alomomola|Whirlpool|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|98/100
+|-activate|p1a: Kingdra|move: Whirlpool|[of] p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|94/100|[from] item: Leftovers
+|-damage|p1a: Kingdra|85/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1779894378
+|move|p1a: Kingdra|Draco Meteor|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|-unboost|p1a: Kingdra|spa|2
+|faint|p2a: Alomomola
+|
+|-weather|none
+|-end|p1a: Kingdra|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1779894389
+|switch|p2a: Milotic|Milotic, F, shiny|100/100
+|-activate|p2a: Milotic|move: Sticky Web
+|-unboost|p2a: Milotic|spe|1
+|-ability|p2a: Milotic|Competitive|boost
+|-boost|p2a: Milotic|spa|2
+|turn|9
+|
+|t:|1779894397
+|-terastallize|p1a: Kingdra|Water
+|move|p1a: Kingdra|Hydro Pump|p2a: Milotic
+|-resisted|p2a: Milotic
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|40/100
+|move|p2a: Milotic|Ice Beam|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|61/100
+|
+|upkeep
+|turn|10
+|
+|t:|1779894409
+|move|p2a: Milotic|Protect|p2a: Milotic
+|-singleturn|p2a: Milotic|Protect
+|move|p1a: Kingdra|Hydro Pump|p2a: Milotic
+|-activate|p2a: Milotic|move: Protect
+|
+|upkeep
+|turn|11
+|
+|t:|1779894418
+|move|p1a: Kingdra|Hydro Pump|p2a: Milotic
+|-resisted|p2a: Milotic
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|upkeep
+|
+|t:|1779894423
+|switch|p2a: Politoed|Politoed, F, shiny|72/100 par
+|-activate|p2a: Politoed|move: Sticky Web
+|-unboost|p2a: Politoed|spe|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|12
+|
+|t:|1779894427
+|move|p1a: Kingdra|Draco Meteor|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: Kingdra|spa|2
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779894435
+|switch|p2a: Keldeo|Keldeo, shiny|100/100
+|-activate|p2a: Keldeo|move: Sticky Web
+|-unboost|p2a: Keldeo|spe|1
+|turn|13
+|
+|t:|1779894439
+|move|p1a: Kingdra|Draco Meteor|p2a: Keldeo
+|-crit|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779894444
+|switch|p2a: Quaquaval|Quaquaval, F, shiny|100/100
+|-activate|p2a: Quaquaval|move: Sticky Web
+|-unboost|p2a: Quaquaval|spe|1
+|turn|14
+|
+|t:|1779894451
+|move|p1a: Kingdra|Draco Meteor|p2a: Quaquaval
+|-crit|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779894455
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|-activate|p2a: Azumarill|move: Sticky Web
+|-unboost|p2a: Azumarill|spe|1
+|turn|15
+|
+|t:|1779894469
+|move|p1a: Kingdra|Hydro Pump|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-crit|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|win|BasicGobbo
+|raw|BasicGobbo's rating: 1000 &rarr; <strong>1046</strong><br />(+46 for winning)
+|raw|G0LDI's rating: 1055 &rarr; <strong>1034</strong><br />(-21 for losing)

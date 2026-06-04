@@ -1,0 +1,435 @@
+|j|☆splishsplish12
+|j|☆arvends5
+|t:|1760330804
+|gametype|singles
+|player|p1|splishsplish12|steven|1074
+|player|p2|arvends5|blackbelt|1148
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Snom, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Pecharunt|
+|poke|p1|Registeel|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Whimsicott, F|
+|poke|p2|Venusaur, M|
+|poke|p2|Ninetales, M|
+|poke|p2|Clefable, F|
+|poke|p2|Tentacruel, M|
+|poke|p2|Ditto|
+|poke|p2|Haxorus, M|
+|teampreview
+|
+|t:|1760330816
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: AstralSpnom|Snom, M|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: AstralSpnom|[from] ability: Imposter
+|turn|1
+|
+|t:|1760330828
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: AstralSpnom|Pounce|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|96/100
+|-unboost|p2a: Ninetales|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760330840
+|-terastallize|p1a: AstralSpnom|Water
+|move|p2a: Ninetales|Flamethrower|p1a: AstralSpnom
+|-resisted|p1a: AstralSpnom
+|-damage|p1a: AstralSpnom|79/100
+|-status|p1a: AstralSpnom|brn
+|move|p1a: AstralSpnom|Mirror Coat|p2a: Ninetales
+|-damage|p2a: Ninetales|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: AstralSpnom|72/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1760330850
+|move|p2a: Ninetales|Encore|p1a: AstralSpnom
+|-start|p1a: AstralSpnom|Encore
+|move|p1a: AstralSpnom|Mirror Coat||[still]
+|-fail|p1a: AstralSpnom
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: AstralSpnom|66/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1760330853
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|move|p1a: AstralSpnom|Mirror Coat||[still]
+|-fail|p1a: AstralSpnom
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: AstralSpnom|60/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1760330858
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|-item|p1a: Whimsicott|Air Balloon
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760330862
+|move|p1a: Whimsicott|Taunt|p2a: Venusaur
+|-start|p2a: Venusaur|move: Taunt
+|move|p2a: Venusaur|Sludge Bomb|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-enditem|p1a: Whimsicott|Air Balloon
+|faint|p1a: Whimsicott
+|-damage|p2a: Venusaur|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760330869
+|switch|p1a: AstralSpnom|Snom, M, tera:Water|60/100 brn
+|turn|7
+|
+|t:|1760330876
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam
+|-anim|p2a: Venusaur|Solar Beam|p1a: AstralSpnom
+|-supereffective|p1a: AstralSpnom
+|-damage|p1a: AstralSpnom|0 fnt
+|faint|p1a: AstralSpnom
+|-damage|p2a: Venusaur|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760330889
+|switch|p1a: Registeel|Registeel|100/100
+|turn|8
+|
+|t:|1760330894
+|move|p2a: Venusaur|Earth Power|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|17/100
+|-damage|p2a: Venusaur|71/100|[from] item: Life Orb
+|move|p1a: Registeel|Iron Defense|p1a: Registeel
+|-boost|p1a: Registeel|def|2
+|
+|-weather|none
+|-heal|p1a: Registeel|23/100|[from] item: Leftovers
+|-end|p2a: Venusaur|move: Taunt
+|upkeep
+|turn|9
+|
+|t:|1760330905
+|move|p2a: Venusaur|Earth Power|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|0 fnt
+|faint|p1a: Registeel
+|-damage|p2a: Venusaur|61/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760330908
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Venusaur|atk|1
+|turn|10
+|
+|t:|1760330919
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Landorus|[from] ability: Imposter
+|-ability|p2a: Ditto|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Earthquake|p2a: Ditto
+|-immune|p2a: Ditto
+|
+|upkeep
+|turn|11
+|
+|t:|1760330929
+|move|p2a: Ditto|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|86/100
+|
+|t:|1760330932
+|switch|p2a: Ninetales|Ninetales, M|55/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Landorus|Stone Edge|p2a: Ninetales|[miss]
+|-miss|p1a: Landorus|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1760330940
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Landorus|[miss]
+|-miss|p2a: Ninetales|p1a: Landorus
+|move|p1a: Landorus|Earthquake|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|-damage|p1a: Landorus|76/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760330942
+|switch|p2a: Venusaur|Venusaur, M|61/100
+|turn|13
+|
+|t:|1760330945
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam
+|-anim|p2a: Venusaur|Solar Beam|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-damage|p2a: Venusaur|51/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760330948
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|14
+|
+|t:|1760330955
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam
+|-anim|p2a: Venusaur|Solar Beam|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|8/100
+|-damage|p2a: Venusaur|41/100|[from] item: Life Orb
+|move|p1a: Ting-Lu|Earthquake|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760330971
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|turn|15
+|
+|t:|1760330978
+|move|p2a: Tentacruel|Surf|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760330981
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|turn|16
+|
+|t:|1760330987
+|move|p1a: Pecharunt|Protect|p1a: Pecharunt
+|-singleturn|p1a: Pecharunt|Protect
+|move|p2a: Tentacruel|Mirror Coat||[still]
+|-fail|p2a: Tentacruel
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1760330995
+|move|p2a: Tentacruel|Surf|p1a: Pecharunt
+|-damage|p1a: Pecharunt|90/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|91/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Tentacruel|97/100|[from] item: Black Sludge
+|-heal|p1a: Pecharunt|96/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1760331002
+|move|p2a: Tentacruel|Surf|p1a: Pecharunt
+|-damage|p1a: Pecharunt|87/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|88/100
+|
+|-weather|none
+|-heal|p2a: Tentacruel|94/100|[from] item: Black Sludge
+|-heal|p1a: Pecharunt|93/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1760331005
+|move|p2a: Tentacruel|Surf|p1a: Pecharunt
+|-damage|p1a: Pecharunt|70/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|86/100
+|
+|-heal|p2a: Tentacruel|92/100|[from] item: Black Sludge
+|-heal|p1a: Pecharunt|77/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1760331013
+|move|p1a: Pecharunt|Malignant Chain|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|82/100
+|move|p2a: Tentacruel|Mirror Coat|p1a: Pecharunt
+|-damage|p1a: Pecharunt|56/100
+|
+|-heal|p2a: Tentacruel|88/100|[from] item: Black Sludge
+|-heal|p1a: Pecharunt|62/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1760331024
+|move|p2a: Tentacruel|Surf|p1a: Pecharunt
+|-damage|p1a: Pecharunt|40/100
+|move|p1a: Pecharunt|Hex|p2a: Tentacruel
+|-damage|p2a: Tentacruel|75/100
+|
+|-heal|p2a: Tentacruel|81/100|[from] item: Black Sludge
+|-heal|p1a: Pecharunt|47/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1760331028
+|move|p2a: Tentacruel|Surf|p1a: Pecharunt
+|-damage|p1a: Pecharunt|27/100
+|move|p1a: Pecharunt|Hex|p2a: Tentacruel
+|-damage|p2a: Tentacruel|68/100
+|
+|-heal|p2a: Tentacruel|74/100|[from] item: Black Sludge
+|-heal|p1a: Pecharunt|33/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1760331033
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|move|p1a: Pecharunt|Malignant Chain|p2a: Haxorus
+|-damage|p2a: Haxorus|48/100
+|-status|p2a: Haxorus|tox
+|-start|p2a: Haxorus|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-heal|p1a: Pecharunt|39/100|[from] item: Leftovers
+|-damage|p2a: Haxorus|42/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1760331066
+|move|p1a: Pecharunt|Protect|p1a: Pecharunt
+|-singleturn|p1a: Pecharunt|Protect
+|-activate|p2a: Haxorus|confusion
+|-damage|p2a: Haxorus|21/100 tox|[from] confusion
+|
+|-heal|p1a: Pecharunt|45/100|[from] item: Leftovers
+|-damage|p2a: Haxorus|9/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1760331070
+|-activate|p2a: Haxorus|confusion
+|-damage|p2a: Haxorus|0 fnt|[from] confusion
+|faint|p2a: Haxorus
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|95/100
+|
+|-heal|p1a: Pecharunt|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760331084
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Pecharunt|[from] ability: Imposter
+|turn|26
+|
+|t:|1760331088
+|move|p2a: Ditto|Hex|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|66/100
+|move|p1a: Pecharunt|Hex|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|58/100
+|
+|-heal|p1a: Pecharunt|73/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1760331091
+|move|p2a: Ditto|Hex|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|36/100
+|move|p1a: Pecharunt|Hex|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|16/100
+|
+|-heal|p1a: Pecharunt|43/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1760331096
+|move|p2a: Ditto|Hex|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|5/100
+|move|p1a: Pecharunt|Hex|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-heal|p1a: Pecharunt|11/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760331099
+|switch|p2a: Tentacruel|Tentacruel, M|74/100
+|turn|29
+|
+|t:|1760331101
+|move|p1a: Pecharunt|Protect|p1a: Pecharunt
+|-singleturn|p1a: Pecharunt|Protect
+|move|p2a: Tentacruel|Surf|p1a: Pecharunt
+|-activate|p1a: Pecharunt|move: Protect
+|
+|-heal|p2a: Tentacruel|80/100|[from] item: Black Sludge
+|-heal|p1a: Pecharunt|18/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1760331105
+|move|p2a: Tentacruel|Surf|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|win|arvends5
+|raw|splishsplish12's rating: 1074 &rarr; <strong>1057</strong><br />(-17 for losing)
+|raw|arvends5's rating: 1148 &rarr; <strong>1168</strong><br />(+20 for winning)
+|c|☆splishsplish12|gg
+|l|☆arvends5
+|player|p2|
+|l|☆splishsplish12
+|player|p1|

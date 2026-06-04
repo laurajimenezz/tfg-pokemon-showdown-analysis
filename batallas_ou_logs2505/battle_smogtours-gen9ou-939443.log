@@ -1,0 +1,429 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1779646481
+|gametype|singles
+|player|p1|SKE|burglar|
+|player|p2|Nultiprise|2|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Pecharunt|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Forretress, M|
+|poke|p1|Ting-Lu|
+|poke|p2|Rillaboom, M|
+|poke|p2|Sceptile, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Great Tusk|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Heatran, F|
+|teampreview
+|c|☆SKE|Hf
+|
+|t:|1779646505
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1779646516
+|move|p2a: Heatran|Stealth Rock|p1a: Rillaboom
+|-sidestart|p1: SKE|move: Stealth Rock
+|move|p1a: Rillaboom|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|94/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|t:|1779646518
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Ogerpon|94/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|100/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1779646526
+|switch|p2a: Sceptile|Sceptile, M|100/100
+|-enditem|p2a: Sceptile|Grassy Seed
+|-boost|p2a: Sceptile|def|1|[from] item: Grassy Seed
+|move|p1a: Ogerpon|U-turn|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|31/100
+|
+|t:|1779646534
+|switch|p1a: Zamazenta|Zamazenta, shiny|100/100|[from] U-turn
+|-damage|p1a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|-heal|p2a: Sceptile|37/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1779646538
+|move|p2a: Sceptile|Acrobatics|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|63/100
+|move|p1a: Zamazenta|Close Combat|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|faint|p2a: Sceptile
+|-damage|p1a: Zamazenta|53/100|[from] item: Life Orb
+|
+|-heal|p1a: Zamazenta|59/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779646543
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|4
+|
+|t:|1779646551
+|-terastallize|p1a: Zamazenta|Dark
+|move|p1a: Zamazenta|Crunch|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-unboost|p2a: Ceruledge|def|1
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|-damage|p1a: Zamazenta|49/100|[from] item: Life Orb
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-heal|p2a: Ceruledge|7/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|56/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|inactive|SKE has 270 seconds left.
+|
+|t:|1779646609
+|move|p2a: Ceruledge|Bitter Blade|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-heal|p2a: Ceruledge|38/100|[from] drain|[of] p1a: Zamazenta
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Ceruledge|44/100|[from] Grassy Terrain
+|upkeep
+|inactive|SKE has 240 seconds left.
+|
+|t:|1779646622
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-damage|p1a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|6
+|
+|t:|1779646641
+|move|p2a: Ceruledge|Bitter Blade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|41/100
+|-heal|p2a: Ceruledge|91/100|[from] drain|[of] p1a: Ting-Lu
+|move|p1a: Ting-Lu|Stomping Tantrum|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-heal|p1a: Ting-Lu|47/100|[from] Grassy Terrain
+|-heal|p1a: Ting-Lu|53/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779646655
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|turn|7
+|
+|t:|1779646662
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Rillaboom|Bullet Seed|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|96/100
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|92/100
+|-hitcount|p1a: Pecharunt|2
+|
+|-heal|p1a: Pecharunt|98/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1779646669
+|move|p2a: Rillaboom|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-crit|p1a: Pecharunt
+|-damage|p1a: Pecharunt|47/100
+|-enditem|p1a: Pecharunt|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Rillaboom
+|move|p1a: Pecharunt|Parting Shot|p2a: Rillaboom
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2a: Rillaboom|spa|1
+|
+|t:|1779646672
+|switch|p1a: Forretress|Forretress, M|100/100|[from] Parting Shot
+|-damage|p1a: Forretress|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Forretress|94/100|[from] Grassy Terrain
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1779646679
+|move|p2a: Rillaboom|U-turn|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|95/100
+|
+|t:|1779646680
+|switch|p2a: Heatran|Heatran, F|100/100|[from] U-turn
+|move|p1a: Forretress|Rapid Spin|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|96/100
+|-boost|p1a: Forretress|spe|1
+|-sideend|p1: SKE|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-heal|p1a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779646691
+|move|p2a: Heatran|Magma Storm|p1a: Forretress
+|-supereffective|p1a: Forretress
+|-ability|p1a: Forretress|Sturdy
+|-damage|p1a: Forretress|1/100
+|-activate|p1a: Forretress|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Forretress|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|85/100
+|
+|t:|1779646699
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|94/100|[from] Volt Switch
+|
+|upkeep
+|turn|11
+|
+|t:|1779646706
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Rillaboom|[anim] Ivy Cudgel Water
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|75/100
+|
+|-heal|p1a: Ogerpon|99/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|81/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1779646714
+|move|p2a: Rillaboom|Grassy Glide|p1a: Ogerpon
+|-damage|p1a: Ogerpon|47/100
+|move|p1a: Ogerpon|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|31/100
+|
+|t:|1779646722
+|switch|p1a: Ting-Lu|Ting-Lu|53/100|[from] U-turn
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p2a: Rillaboom|37/100|[from] Grassy Terrain
+|-heal|p1a: Ting-Lu|60/100|[from] Grassy Terrain
+|-heal|p1a: Ting-Lu|66/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1779646730
+|switch|p1a: Forretress|Forretress, M|1/100
+|move|p2a: Rillaboom|Bullet Seed|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|-hitcount|p1: Forretress|1
+|
+|-heal|p2a: Rillaboom|43/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779646735
+|switch|p1a: Pecharunt|Pecharunt|47/100
+|turn|14
+|
+|t:|1779646737
+|move|p2a: Rillaboom|U-turn|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|44/100
+|
+|t:|1779646739
+|switch|p2a: Heatran|Heatran, F|85/100|[from] U-turn
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|94/100
+|
+|-heal|p2a: Heatran|91/100|[from] Grassy Terrain
+|-heal|p1a: Pecharunt|99/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1779646744
+|move|p2a: Heatran|Magma Storm|p1a: Pecharunt
+|-damage|p1a: Pecharunt|50/100
+|-activate|p1a: Pecharunt|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Pecharunt|Parting Shot|p2a: Heatran
+|-unboost|p2a: Heatran|atk|1
+|-unboost|p2a: Heatran|spa|1
+|
+|t:|1779646747
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|47/100|[from] Parting Shot
+|
+|-heal|p1a: Ogerpon|53/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|97/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1779646758
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Ogerpon|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|91/100
+|
+|t:|1779646761
+|switch|p1a: Rillaboom|Rillaboom, F|100/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|
+|-heal|p2a: Great Tusk|98/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1779646768
+|move|p1a: Rillaboom|Grassy Glide|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|43/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|49/100
+|-fieldend|move: Grassy Terrain
+|
+|upkeep
+|turn|18
+|
+|t:|1779646776
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|53/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Ogerpon
+|-damage|p1a: Ogerpon|31/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|upkeep
+|turn|19
+|
+|t:|1779646794
+|move|p2a: Great Tusk|Headlong Rush|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Ogerpon
+|-enditem|p2a: Great Tusk|Eject Pack
+|
+|t:|1779646800
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|
+|upkeep
+|
+|t:|1779646806
+|switch|p1a: Rillaboom|Rillaboom, F|49/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|20
+|
+|t:|1779646813
+|switch|p2a: Great Tusk|Great Tusk|43/100
+|switch|p1a: Ting-Lu|Ting-Lu|66/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p2a: Great Tusk|49/100|[from] Grassy Terrain
+|-heal|p1a: Ting-Lu|72/100|[from] Grassy Terrain
+|-heal|p1a: Ting-Lu|78/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1779646825
+|switch|p1a: Pecharunt|Pecharunt|50/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: Pecharunt
+|-damage|p1a: Pecharunt|37/100
+|-fieldend|move: Grassy Terrain
+|
+|upkeep
+|turn|22
+|
+|t:|1779646831
+|switch|p1a: Rillaboom|Rillaboom, F|49/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Great Tusk|Headlong Rush|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|22/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-heal|p2a: Great Tusk|55/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|28/100|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|t:|1779646838
+|move|p2a: Great Tusk|Ice Spinner|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-fieldend|move: Grassy Terrain
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|t:|1779646844
+|switch|p1a: Ting-Lu|Ting-Lu|78/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|24
+|
+|t:|1779646849
+|-terastallize|p2a: Great Tusk|Ground
+|move|p2a: Great Tusk|Headlong Rush|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|31/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Ting-Lu|Stomping Tantrum|p2a: Great Tusk
+|-damage|p2a: Great Tusk|16/100
+|
+|-heal|p1a: Ting-Lu|37/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1779646854
+|move|p2a: Great Tusk|Headlong Rush|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|c|☆SKE|gg
+|
+|t:|1779646864
+|switch|p1a: Pecharunt|Pecharunt|37/100
+|turn|26
+|
+|t:|1779646866
+|move|p2a: Great Tusk|Headlong Rush|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Pecharunt
+|
+|win|Nultiprise

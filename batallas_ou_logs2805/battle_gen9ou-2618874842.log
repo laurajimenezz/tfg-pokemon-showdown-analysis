@@ -1,0 +1,640 @@
+|j|☆strangestrategies
+|j|☆Spongenoodles
+|t:|1779854591
+|gametype|singles
+|player|p1|strangestrategies|gambler|1293
+|player|p2|Spongenoodles|red|1305
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Lokix, M|
+|poke|p1|Alomomola, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Valiant|
+|poke|p2|Lokix, F|
+|poke|p2|Dondozo, F|
+|poke|p2|Sinistcha|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|
+|t:|1779854609
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|turn|1
+|
+|t:|1779854624
+|move|p1a: Great Tusk|Knock Off|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|53/100
+|-enditem|p2a: Sinistcha|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1779854644
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Sinistcha|Strength Sap|p1a: Slowking
+|-unboost|p1a: Slowking|atk|1
+|-heal|p2a: Sinistcha|87/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779854652
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Slowking|Toxic|p2a: Slowking
+|-immune|p2a: Slowking
+|
+|upkeep
+|turn|4
+|
+|t:|1779854657
+|move|p1a: Slowking|Future Sight|p2a: Slowking
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: Slowking|Future Sight|p1a: Slowking
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|5
+|
+|t:|1779854660
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779854671
+|switch|p1a: Alomomola|Alomomola, M|100/100|[from] Chilly Reception
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|
+|t:|1779854678
+|switch|p2a: Lokix|Lokix, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779854685
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Lokix|Knock Off|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Lokix|move: Future Sight
+|-immune|p2a: Lokix
+|-end|p1a: Alomomola|move: Future Sight
+|-damage|p1a: Alomomola|48/100
+|upkeep
+|turn|7
+|
+|t:|1779854699
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Lokix|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|25/100
+|-enditem|p1a: Great Tusk|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Lokix
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1779854712
+|move|p2a: Lokix|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779854720
+|switch|p1a: Lokix|Lokix, M|100/100
+|turn|9
+|
+|t:|1779854726
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Lokix|First Impression|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|90/100
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1779854735
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Slowking
+|-status|p1a: Slowking|brn
+|
+|-damage|p1a: Slowking|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1779854743
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Slowking|Future Sight|p2a: Slowking
+|-start|p1a: Slowking|move: Future Sight
+|
+|-damage|p1a: Slowking|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1779854754
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779854761
+|switch|p1a: Gliscor|Gliscor, M|100/100|[from] Chilly Reception
+|move|p2a: Slowking|Thunder Wave|p1a: Gliscor
+|-immune|p1a: Gliscor
+|
+|-weather|Snowscape|[upkeep]
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|13
+|
+|t:|1779854774
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Slowking|Ice Beam|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|18/100 tox
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Slowking|move: Future Sight
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|58/100
+|-heal|p1a: Gliscor|30/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1779854785
+|switch|p2a: Sinistcha|Sinistcha|87/100
+|move|p1a: Gliscor|Earthquake|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|66/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1779854799
+|switch|p1a: Lokix|Lokix, M|100/100
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1779854813
+|-terastallize|p2a: Sinistcha|Poison
+|move|p1a: Lokix|U-turn|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|32/100
+|
+|t:|1779854822
+|switch|p1a: Slowking|Slowking-Galar, F|100/100 brn|[from] U-turn
+|move|p2a: Sinistcha|Strength Sap|p1a: Slowking
+|-unboost|p1a: Slowking|atk|1
+|-heal|p2a: Sinistcha|67/100
+|
+|-weather|none
+|-damage|p1a: Slowking|94/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1779854830
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|move|p1a: Slowking|Future Sight|p2a: Sinistcha
+|-start|p1a: Slowking|move: Future Sight
+|
+|-damage|p1a: Slowking|88/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1779854838
+|move|p2a: Sinistcha|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|15/100 brn
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779854845
+|switch|p1a: Gliscor|Gliscor, M|43/100 tox|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Gliscor|55/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|
+|t:|1779854851
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Sinistcha|move: Future Sight
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|22/100
+|-heal|p1a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|t:|1779854878
+|move|p1a: Gliscor|Earthquake|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Gliscor|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1779854886
+|switch|p2a: Slowking|Slowking-Galar, M|91/100
+|turn|21
+|
+|t:|1779854897
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Slowking|Future Sight|p1a: Gliscor
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Gliscor|93/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|t:|1779854903
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|move|p1a: Gliscor|Earthquake|p2a: Dondozo
+|-damage|p2a: Dondozo|80/100
+|
+|-weather|none
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|t:|1779854916
+|switch|p1a: Slowking|Slowking-Galar, F|48/100 brn
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-end|p1a: Slowking|move: Future Sight
+|-damage|p1a: Slowking|22/100 brn
+|-damage|p1a: Slowking|16/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1779854926
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|66/100 brn
+|move|p2a: Dondozo|Liquidation|p1a: Slowking
+|-damage|p1a: Slowking|19/100 brn
+|
+|-damage|p1a: Slowking|13/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1779854932
+|move|p1a: Slowking|Toxic|p2a: Dondozo
+|-status|p2a: Dondozo|tox
+|move|p2a: Dondozo|Liquidation|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-damage|p2a: Dondozo|74/100 tox|[from] psn
+|upkeep
+|
+|t:|1779854948
+|switch|p1a: Alomomola|Alomomola, M|82/100
+|turn|26
+|
+|t:|1779854951
+|move|p1a: Alomomola|Flip Turn|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|71/100 tox
+|
+|t:|1779854959
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox|[from] Flip Turn
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-damage|p2a: Dondozo|59/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1779854968
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-damage|p2a: Dondozo|40/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1779854976
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|-enditem|p2a: Dondozo|Chesto Berry|[eat]
+|-curestatus|p2a: Dondozo|slp|[msg]
+|
+|upkeep
+|turn|29
+|
+|t:|1779854988
+|move|p1a: Alomomola|Scald|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|96/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|upkeep
+|turn|30
+|
+|t:|1779854996
+|move|p1a: Alomomola|Scald|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|91/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|upkeep
+|turn|31
+|
+|t:|1779855003
+|move|p1a: Alomomola|Scald|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|86/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|upkeep
+|turn|32
+|
+|t:|1779855010
+|move|p1a: Alomomola|Scald|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|82/100
+|-status|p2a: Dondozo|brn
+|move|p2a: Dondozo|Liquidation|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|84/100
+|-damage|p2a: Dondozo|65/100 brn|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|-damage|p2a: Dondozo|59/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1779855025
+|move|p1a: Alomomola|Scald|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|55/100 brn
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|34
+|
+|t:|1779855032
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|cant|p2a: Dondozo|slp
+|
+|upkeep
+|turn|35
+|
+|t:|1779855042
+|move|p1a: Iron Valiant|Moonblast|p2a: Dondozo
+|-damage|p2a: Dondozo|56/100 slp
+|cant|p2a: Dondozo|slp
+|
+|upkeep
+|turn|36
+|
+|t:|1779855050
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Liquidation|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|68/100
+|-damage|p2a: Dondozo|40/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|upkeep
+|turn|37
+|
+|t:|1779855061
+|move|p1a: Alomomola|Scald|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|36/100
+|move|p2a: Dondozo|Liquidation|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|37/100
+|-damage|p2a: Dondozo|19/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|upkeep
+|turn|38
+|
+|t:|1779855071
+|move|p1a: Alomomola|Scald|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-crit|p2a: Dondozo
+|-damage|p2a: Dondozo|13/100
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|39
+|
+|t:|1779855079
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|cant|p2a: Dondozo|slp
+|
+|upkeep
+|turn|40
+|
+|t:|1779855088
+|-terastallize|p1a: Iron Valiant|Fairy
+|move|p1a: Iron Valiant|Moonblast|p2a: Dondozo
+|-damage|p2a: Dondozo|37/100 slp
+|cant|p2a: Dondozo|slp
+|
+|upkeep
+|turn|41
+|
+|t:|1779855094
+|move|p1a: Iron Valiant|Moonblast|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|upkeep
+|
+|t:|1779855096
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|42
+|
+|t:|1779855103
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox
+|move|p2a: Slowking|Future Sight|p1a: Gliscor
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|43
+|
+|t:|1779855114
+|switch|p1a: Iron Valiant|Iron Valiant, tera:Fairy|100/100
+|move|p2a: Slowking|Ice Beam|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|60/100
+|
+|upkeep
+|turn|44
+|
+|t:|1779855122
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox
+|move|p2a: Slowking|Thunder Wave|p1a: Gliscor
+|-immune|p1a: Gliscor
+|
+|-end|p1a: Gliscor|move: Future Sight
+|-damage|p1a: Gliscor|63/100 tox
+|-heal|p1a: Gliscor|75/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|45
+|
+|t:|1779855131
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Slowking|Future Sight|p1a: Gliscor
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|46
+|
+|t:|1779855137
+|switch|p1a: Alomomola|Alomomola, M|70/100
+|move|p2a: Slowking|Ice Beam|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|57/100
+|
+|upkeep
+|turn|47
+|
+|t:|1779855145
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Slowking|Thunder Wave|p1a: Alomomola|[miss]
+|-miss|p2a: Slowking|p1a: Alomomola
+|
+|-end|p1a: Alomomola|move: Future Sight
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|upkeep
+|
+|t:|1779855154
+|switch|p1a: Iron Valiant|Iron Valiant, tera:Fairy|60/100
+|turn|48
+|
+|t:|1779855164
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|55/100
+|move|p2a: Slowking|Thunder Wave|p1a: Iron Valiant
+|-status|p1a: Iron Valiant|par
+|
+|-heal|p1a: Iron Valiant|100/100 par|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|49
+|
+|t:|1779855172
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|8/100
+|move|p2a: Slowking|Future Sight|p1a: Iron Valiant
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|50
+|
+|t:|1779855179
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Lokix|Lokix, M|100/100
+|switch|p2a: Weezing|Weezing-Galar, M|90/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|
+|upkeep
+|turn|51
+|
+|t:|1779855186
+|move|p1a: Lokix|Knock Off|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|67/100
+|-enditem|p2a: Weezing|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Lokix
+|move|p2a: Weezing|Strange Steam|p1a: Lokix
+|-supereffective|p1a: Lokix
+|-damage|p1a: Lokix|0 fnt
+|faint|p1a: Lokix
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|-message|strangestrategies forfeited.
+|
+|win|Spongenoodles
+|raw|strangestrategies's rating: 1293 &rarr; <strong>1269</strong><br />(-24 for losing)
+|raw|Spongenoodles's rating: 1305 &rarr; <strong>1324</strong><br />(+19 for winning)
+|l|☆strangestrategies
+|player|p1|
+|l|☆Spongenoodles
+|player|p2|

@@ -1,0 +1,294 @@
+|j|☆hi im squid
+|j|☆SpecificIz
+|t:|1760453128
+|gametype|singles
+|player|p1|hi im squid|unknown|1121
+|player|p2|SpecificIz|wattson|1170
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Metagross|
+|poke|p1|Forretress, F|
+|poke|p1|Slither Wing|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Glimmora, M|
+|poke|p1|Magneton|
+|poke|p2|Ceruledge, M|
+|poke|p2|Incineroar, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Scizor, F|
+|poke|p2|Rillaboom, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hi im squid)
+|
+|t:|1760453138
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|switch|p2a: Ceruledge|Ceruledge, M, shiny|100/100
+|-enditem|p1a: Slither Wing|Booster Energy
+|-activate|p1a: Slither Wing|ability: Protosynthesis|[fromitem]
+|-start|p1a: Slither Wing|protosynthesisatk
+|turn|1
+|
+|t:|1760453147
+|move|p1a: Slither Wing|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1760453155
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Slither Wing|atk|1
+|turn|2
+|
+|t:|1760453161
+|move|p2a: Incineroar|Fake Out|p1a: Slither Wing
+|-damage|p1a: Slither Wing|80/100
+|cant|p1a: Slither Wing|flinch
+|
+|upkeep
+|turn|3
+|
+|t:|1760453169
+|move|p1a: Slither Wing|Close Combat|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-unboost|p1a: Slither Wing|def|1
+|-unboost|p1a: Slither Wing|spd|1
+|faint|p2a: Incineroar
+|
+|upkeep
+|
+|t:|1760453180
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|4
+|
+|t:|1760453186
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Magneton|Magneton|100/100
+|move|p2a: Ogerpon|Spiky Shield||[still]
+|-fail|p2a: Ogerpon
+|
+|upkeep
+|turn|5
+|
+|t:|1760453191
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2a: Rillaboom|Grassy Seed
+|-boost|p2a: Rillaboom|def|1|[from] item: Grassy Seed
+|move|p1a: Magneton|Thunder Wave|p2a: Rillaboom
+|-status|p2a: Rillaboom|par
+|
+|upkeep
+|turn|6
+|
+|t:|1760453201
+|move|p1a: Magneton|Flash Cannon|p2a: Rillaboom
+|-damage|p2a: Rillaboom|54/100 par
+|cant|p2a: Rillaboom|par
+|
+|-heal|p2a: Rillaboom|60/100 par|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1760453206
+|move|p1a: Magneton|Flash Cannon|p2a: Rillaboom
+|-damage|p2a: Rillaboom|9/100 par
+|move|p2a: Rillaboom|U-turn|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|93/100
+|
+|t:|1760453212
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|
+|-heal|p1a: Magneton|99/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1760453219
+|move|p2a: Ogerpon|Wood Hammer|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|69/100
+|-damage|p2a: Ogerpon|91/100|[from] Recoil
+|move|p1a: Magneton|Thunder Wave|p2a: Ogerpon|[miss]
+|-miss|p1a: Magneton|p2a: Ogerpon
+|
+|-heal|p2a: Ogerpon|97/100|[from] Grassy Terrain
+|-heal|p1a: Magneton|75/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1760453236
+|move|p2a: Ogerpon|Spiky Shield|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Protect
+|move|p1a: Magneton|Thunder Wave|p2a: Ogerpon
+|-activate|p2a: Ogerpon|move: Protect
+|
+|-heal|p2a: Ogerpon|100/100|[from] Grassy Terrain
+|-heal|p1a: Magneton|81/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1760453243
+|move|p2a: Ogerpon|Stomping Tantrum|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|upkeep
+|
+|t:|1760453252
+|switch|p1a: Glimmora|Glimmora, M, shiny|100/100
+|turn|11
+|
+|t:|1760453258
+|switch|p2a: Rillaboom|Rillaboom, M|9/100 par
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Glimmora|Sludge Wave|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|t:|1760453267
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|12
+|
+|t:|1760453276
+|switch|p1a: Basculegion|Basculegion-F, F, shiny|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|77/100
+|-damage|p2a: Scizor|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Basculegion|83/100|[from] Grassy Terrain
+|-heal|p2a: Scizor|97/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1760453285
+|move|p1a: Basculegion|Shadow Ball|p2a: Scizor
+|-damage|p2a: Scizor|50/100
+|move|p2a: Scizor|Bug Bite|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|46/100
+|-damage|p2a: Scizor|40/100|[from] item: Life Orb
+|
+|-heal|p1a: Basculegion|52/100|[from] Grassy Terrain
+|-heal|p2a: Scizor|46/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1760453306
+|move|p1a: Basculegion|Surf|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-heal|p1a: Basculegion|58/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760453312
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|15
+|
+|t:|1760453321
+|move|p2a: Ogerpon|Wood Hammer|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|-damage|p2a: Ogerpon|73/100|[from] Recoil
+|
+|-heal|p2a: Ogerpon|79/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1760453325
+|switch|p1a: Glimmora|Glimmora, M, shiny|100/100
+|turn|16
+|
+|t:|1760453331
+|move|p1a: Glimmora|Sludge Wave|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1760453335
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|17
+|
+|t:|1760453340
+|switch|p1a: Slither Wing|Slither Wing|80/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|18
+|
+|t:|1760453347
+|move|p1a: Slither Wing|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-enditem|p2a: Kingambit|Focus Sash
+|-damage|p2a: Kingambit|1/100
+|-unboost|p1a: Slither Wing|def|1
+|-unboost|p1a: Slither Wing|spd|1
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|19
+|
+|t:|1760453359
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Sucker Punch|p1a: Slither Wing
+|-resisted|p1a: Slither Wing
+|-damage|p1a: Slither Wing|0 fnt
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760453363
+|switch|p1a: Forretress|Forretress, F|100/100
+|turn|20
+|c|☆hi im squid|gg
+|
+|t:|1760453372
+|move|p2a: Kingambit|Sucker Punch|p1a: Forretress
+|-ability|p1a: Forretress|Sturdy
+|-damage|p1a: Forretress|1/100
+|move|p1a: Forretress|Rapid Spin|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-boost|p1a: Forretress|spe|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|hi im squid
+|raw|hi im squid's rating: 1121 &rarr; <strong>1150</strong><br />(+29 for winning)
+|raw|SpecificIz's rating: 1170 &rarr; <strong>1141</strong><br />(-29 for losing)
+|c|☆SpecificIz|ggs
+|l|☆SpecificIz
+|player|p2|
+|l|☆hi im squid
+|player|p1|

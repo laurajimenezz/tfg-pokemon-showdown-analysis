@@ -1,0 +1,309 @@
+|j|☆xlbxaaa
+|j|☆pipsqeak
+|t:|1760429388
+|gametype|singles
+|player|p1|xlbxaaa|2|1068
+|player|p2|pipsqeak|ltsurge|1117
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Greninja-*, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Zapdos|
+|poke|p1|Sandy Shocks|
+|poke|p1|Scizor, M|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Lokix, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Mimikyu, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pipsqeak)
+|
+|t:|1760429405
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1760429414
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Sandy Shocks|atk|1
+|-terastallize|p1a: Sandy Shocks|Ice
+|move|p1a: Sandy Shocks|Tera Blast|p2a: Landorus|[anim] Tera Blast Ice
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1760429425
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|2
+|
+|t:|1760429432
+|move|p1a: Sandy Shocks|Tera Blast|p2a: Ogerpon|[anim] Tera Blast Ice
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|6/100
+|move|p2a: Ogerpon|U-turn|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|72/100
+|
+|t:|1760429448
+|switch|p2a: Lokix|Lokix, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1760429455
+|move|p2a: Lokix|First Impression|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|8/100
+|-damage|p2a: Lokix|91/100|[from] item: Life Orb
+|move|p1a: Sandy Shocks|Tera Blast|p2a: Lokix|[anim] Tera Blast Ice
+|-damage|p2a: Lokix|16/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760429464
+|move|p2a: Lokix|Sucker Punch||[still]
+|-fail|p2a: Lokix
+|move|p1a: Sandy Shocks|Stealth Rock|p2a: Lokix
+|-sidestart|p2: pipsqeak|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1760429473
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Lokix|Sucker Punch||[still]
+|-fail|p2a: Lokix
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760429494
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Lokix|U-turn|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|58/100
+|-damage|p2a: Lokix|6/100|[from] item: Life Orb
+|
+|t:|1760429501
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] U-turn
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760429514
+|move|p2a: Corviknight|Defog|p1a: Scizor
+|-unboost|p1a: Scizor|evasion|1
+|-sideend|p2: pipsqeak|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Scizor|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|65/100
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|71/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760429529
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Corviknight|Body Press|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|89/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|77/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760429538
+|move|p1a: Zapdos|Thunder|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760429542
+|switch|p2a: Lokix|Lokix, F|6/100
+|turn|10
+|
+|t:|1760429550
+|switch|p1a: Scizor|Scizor, M|58/100
+|move|p2a: Lokix|First Impression|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|-damage|p2a: Lokix|0 fnt|[from] item: Life Orb
+|faint|p2a: Lokix
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760429564
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|switch|p1a: Sandy Shocks|Sandy Shocks, tera:Ice|8/100
+|turn|11
+|
+|t:|1760429569
+|move|p2a: Raging Bolt|Thunderclap|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760429576
+|switch|p1a: Greninja|Greninja, F|100/100
+|turn|12
+|
+|t:|1760429586
+|move|p1a: Greninja|Ice Beam|p2a: Raging Bolt
+|-start|p1a: Greninja|typechange|Ice|[from] ability: Protean
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|35/100
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|move|p2a: Raging Bolt|Volt Switch|p1a: Greninja
+|-damage|p1a: Greninja|26/100
+|
+|t:|1760429596
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Mimikyu|Mimikyu, F|100/100|[from] Volt Switch
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1760429602
+|move|p1a: Greninja|Ice Beam|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|-status|p2a: Mimikyu|frz
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|88/100 frz|[from] pokemon: Mimikyu-Busted
+|-damage|p1a: Greninja|17/100|[from] item: Life Orb
+|cant|p2a: Mimikyu|frz
+|
+|upkeep
+|turn|14
+|
+|t:|1760429613
+|cant|p2a: Mimikyu|frz
+|move|p1a: Greninja|Ice Beam|p2a: Mimikyu
+|-damage|p2a: Mimikyu|21/100 frz
+|-damage|p1a: Greninja|7/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|
+|t:|1760429620
+|-curestatus|p2a: Mimikyu|frz|[msg]
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|-damage|p2a: Mimikyu|11/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760429628
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|16
+|
+|t:|1760429640
+|move|p2a: Mimikyu|Play Rough|p1a: Pelipper
+|-damage|p1a: Pelipper|47/100
+|-damage|p2a: Mimikyu|1/100|[from] item: Life Orb
+|move|p1a: Pelipper|U-turn|p2a: Mimikyu
+|-resisted|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|t:|1760429649
+|switch|p1a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760429661
+|switch|p2a: Raging Bolt|Raging Bolt|35/100
+|turn|17
+|
+|t:|1760429664
+|move|p2a: Raging Bolt|Thunderclap|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|1/100
+|move|p1a: Basculegion|Double-Edge|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|-damage|p1a: Basculegion|0 fnt|[from] Recoil
+|faint|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760429676
+|switch|p1a: Zapdos|Zapdos|89/100
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|6/100
+|turn|18
+|
+|t:|1760429686
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Zapdos|[anim] Ivy Cudgel Rock
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760429693
+|switch|p1a: Pelipper|Pelipper, F|47/100
+|turn|19
+|
+|t:|1760429697
+|-terastallize|p2a: Ogerpon|Rock
+|detailschange|p2a: Ogerpon|Ogerpon-Cornerstone-Tera, F, tera:Rock
+|-ability|p2a: Ogerpon|Embody Aspect (Cornerstone)|boost
+|-boost|p2a: Ogerpon|def|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Pelipper|[anim] Ivy Cudgel Rock
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|win|pipsqeak
+|raw|xlbxaaa's rating: 1068 &rarr; <strong>1051</strong><br />(-17 for losing)
+|raw|pipsqeak's rating: 1117 &rarr; <strong>1138</strong><br />(+21 for winning)
+|l|☆xlbxaaa
+|player|p1|
+|l|☆pipsqeak
+|player|p2|

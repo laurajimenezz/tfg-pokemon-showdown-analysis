@@ -1,0 +1,301 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆gizmex
+|j|☆fautser
+|t:|1776192888
+|gametype|singles
+|player|p1|gizmex|burglar|1019
+|player|p2|fautser|kimonogirl|1078
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Weavile, F|
+|poke|p1|Garchomp, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Great Tusk|
+|poke|p2|Zamazenta-*|
+|poke|p2|Pecharunt|
+|poke|p2|Great Tusk|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Kyurem|
+|poke|p2|Darkrai|
+|teampreview
+|
+|t:|1776192905
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1776192916
+|move|p2a: Great Tusk|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock|p2a: Great Tusk|[from] ability: Magic Bounce
+|-sidestart|p2: fautser|move: Stealth Rock
+|move|p1a: Hatterene|Psychic Noise|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|12/100
+|-start|p2a: Great Tusk|move: Heal Block
+|
+|upkeep
+|turn|2
+|
+|t:|1776192928
+|move|p2a: Great Tusk|Rapid Spin|p1a: Hatterene
+|-damage|p1a: Hatterene|83/100
+|-boost|p2a: Great Tusk|spe|1
+|-damage|p2a: Great Tusk|0 fnt|[from] item: Rocky Helmet|[of] p1a: Hatterene
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|move|p1a: Hatterene|Psychic Noise|p2: Great Tusk|[notarget]
+|-fail|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1776192952
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|3
+|
+|t:|1776192960
+|move|p2a: Pecharunt|Malignant Chain|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|4/100
+|-status|p1a: Hatterene|tox
+|-start|p1a: Hatterene|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Hatterene|confusion
+|move|p1a: Hatterene|Nuzzle|p2a: Pecharunt
+|-damage|p2a: Pecharunt|98/100
+|-status|p2a: Pecharunt|par
+|
+|-damage|p1a: Hatterene|0 fnt|[from] psn
+|faint|p1a: Hatterene
+|upkeep
+|
+|t:|1776192977
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|4
+|
+|t:|1776192988
+|move|p1a: Great Tusk|Headlong Rush|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|20/100 par
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Pecharunt|Parting Shot|p1a: Great Tusk
+|-unboost|p1a: Great Tusk|atk|1
+|-unboost|p1a: Great Tusk|spa|1
+|
+|t:|1776192998
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|5
+|
+|t:|1776193011
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Weavile|Weavile, F|100/100
+|move|p2a: Tornadus|Grass Knot|p1a: Weavile
+|-damage|p1a: Weavile|77/100
+|
+|upkeep
+|turn|6
+|
+|t:|1776193043
+|switch|p2a: Zamazenta|Zamazenta, shiny|100/100
+|-damage|p2a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Weavile|Icicle Crash|p2a: Zamazenta|[miss]
+|-miss|p1a: Weavile|p2a: Zamazenta
+|
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1776193064
+|-terastallize|p1a: Weavile|Ghost
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|upkeep
+|turn|8
+|
+|t:|1776193080
+|move|p1a: Weavile|Low Kick|p2a: Zamazenta
+|-damage|p2a: Zamazenta|80/100
+|move|p2a: Zamazenta|Roar|p1a: Weavile
+|drag|p1a: Great Tusk|Great Tusk|100/100
+|
+|-heal|p2a: Zamazenta|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1776193102
+|move|p2a: Zamazenta|Body Press|p1a: Great Tusk
+|-damage|p1a: Great Tusk|28/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Zamazenta
+|-damage|p2a: Zamazenta|70/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-heal|p2a: Zamazenta|77/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1776193113
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Garchomp
+|-damage|p1a: Garchomp|15/100
+|-damage|p2a: Zamazenta|64/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|-heal|p2a: Zamazenta|70/100|[from] item: Leftovers
+|-heal|p1a: Garchomp|21/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1776193129
+|move|p2a: Zamazenta|Body Press|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Zamazenta|58/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-heal|p2a: Zamazenta|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1776193142
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|12
+|
+|t:|1776193156
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|13
+|
+|t:|1776193171
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Kyurem|Icicle Spear|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|95/100
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|89/100
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|83/100
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|78/100
+|-hitcount|p1a: Kingambit|4
+|
+|upkeep
+|turn|14
+|
+|t:|1776193194
+|switch|p2a: Darkrai|Darkrai|100/100
+|-damage|p2a: Darkrai|88/100|[from] Stealth Rock
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|15
+|
+|t:|1776193208
+|move|p2a: Darkrai|Focus Blast|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|-damage|p2a: Darkrai|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1776193216
+|switch|p1a: Weavile|Weavile, F, tera:Ghost|77/100
+|turn|16
+|
+|t:|1776193228
+|-terastallize|p2a: Darkrai|Poison
+|move|p2a: Darkrai|Dark Pulse|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-damage|p2a: Darkrai|68/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1776193240
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|17
+|
+|t:|1776193252
+|move|p2a: Darkrai|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|17/100
+|-damage|p2a: Darkrai|58/100|[from] item: Life Orb
+|move|p1a: Dragonite|Ice Spinner|p2a: Darkrai
+|-damage|p2a: Darkrai|20/100
+|
+|-heal|p1a: Dragonite|23/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1776193263
+|move|p2a: Darkrai|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|-damage|p2a: Darkrai|10/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1776193271
+|switch|p1a: Great Tusk|Great Tusk|28/100
+|turn|19
+|
+|t:|1776193276
+|move|p2a: Darkrai|Dark Pulse|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|9/100
+|-damage|p2a: Darkrai|0 fnt|[from] item: Life Orb
+|faint|p2a: Darkrai
+|move|p1a: Great Tusk|Headlong Rush|p2: Darkrai|[notarget]
+|-fail|p1a: Great Tusk
+|
+|upkeep
+|
+|t:|1776193286
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|20
+|
+|t:|1776193293
+|move|p2a: Tornadus|Grass Knot|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|fautser
+|raw|gizmex's rating: 1019 &rarr; <strong>1008</strong><br />(-11 for losing)
+|raw|fautser's rating: 1078 &rarr; <strong>1102</strong><br />(+24 for winning)

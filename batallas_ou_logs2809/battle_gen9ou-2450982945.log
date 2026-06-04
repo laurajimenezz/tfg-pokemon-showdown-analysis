@@ -1,0 +1,397 @@
+|j|☆TotallySkilled
+|j|‽jlce
+|t:|1759062534
+|gametype|singles
+|player|p1|TotallySkilled|guzma|1441
+|player|p2|jlce|169|1415
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Manaphy|
+|poke|p1|Rillaboom, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Iron Treads|
+|poke|p1|Iron Hands|
+|poke|p1|Iron Valiant|
+|poke|p2|Skeledirge, F|
+|poke|p2|Smeargle, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Gholdengo|
+|poke|p2|Quaquaval, M|
+|poke|p2|Gallade, M|
+|teampreview
+|
+|t:|1759062545
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1759062548
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Smeargle|Burning Bulwark||[still]
+|-fail|p2a: Smeargle
+|
+|upkeep
+|turn|2
+|
+|t:|1759062551
+|move|p1a: Iron Treads|Stealth Rock|p2a: Smeargle
+|-sidestart|p2: jlce|move: Stealth Rock
+|move|p2a: Smeargle|Sticky Web|p1a: Iron Treads
+|-sidestart|p1: TotallySkilled|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|t:|1759062557
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|move|p1a: Iron Treads|Rapid Spin|p2a: Skeledirge
+|-immune|p2a: Skeledirge
+|
+|upkeep
+|turn|4
+|
+|t:|1759062560
+|move|p1a: Iron Treads|High Horsepower|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|42/100
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Iron Treads
+|-status|p1a: Iron Treads|brn
+|
+|-heal|p2a: Skeledirge|48/100|[from] Grassy Terrain
+|-damage|p1a: Iron Treads|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1759062565
+|move|p1a: Iron Treads|Volt Switch|p2a: Skeledirge
+|-damage|p2a: Skeledirge|41/100
+|
+|t:|1759062567
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Manaphy|Manaphy|100/100|[from] Volt Switch
+|-activate|p1a: Manaphy|move: Sticky Web
+|-unboost|p1a: Manaphy|spe|1
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|91/100
+|
+|-heal|p2a: Skeledirge|97/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1759062576
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|-damage|p2a: Smeargle|88/100|[from] Stealth Rock
+|move|p1a: Manaphy|Scald|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|upkeep
+|
+|t:|1759062583
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|-damage|p2a: Quaquaval|94/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1759062588
+|move|p2a: Quaquaval|Rapid Spin|p1a: Manaphy
+|-damage|p1a: Manaphy|85/100
+|-boost|p2a: Quaquaval|spe|1
+|-sideend|p2: jlce|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Quaquaval
+|move|p1a: Manaphy|Energy Ball|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|20/100
+|-unboost|p2a: Quaquaval|spd|1
+|
+|-heal|p1a: Manaphy|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1759062593
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Quaquaval|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|64/100
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|
+|upkeep
+|turn|9
+|
+|t:|1759062596
+|move|p2a: Quaquaval|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|18/100
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|10
+|
+|t:|1759062600
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Quaquaval|Close Combat|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|68/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|11
+|
+|t:|1759062606
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-activate|p1a: Iron Hands|move: Sticky Web
+|-unboost|p1a: Iron Hands|spe|1
+|move|p2a: Quaquaval|Close Combat|p1a: Iron Hands
+|-damage|p1a: Iron Hands|62/100
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|
+|upkeep
+|turn|12
+|
+|t:|1759062611
+|move|p2a: Quaquaval|Close Combat|p1a: Iron Hands
+|-damage|p1a: Iron Hands|15/100
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|move|p1a: Iron Hands|Volt Switch|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|t:|1759062616
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Manaphy|Manaphy|91/100|[from] Volt Switch
+|-activate|p1a: Manaphy|move: Sticky Web
+|-unboost|p1a: Manaphy|spe|1
+|
+|-heal|p1a: Manaphy|97/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1759062620
+|switch|p2a: Gallade|Gallade, M|100/100
+|turn|13
+|
+|t:|1759062628
+|switch|p1a: Iron Hands|Iron Hands|15/100
+|-activate|p1a: Iron Hands|move: Sticky Web
+|-unboost|p1a: Iron Hands|spe|1
+|move|p2a: Gallade|Sacred Sword|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|-damage|p2a: Gallade|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1759062630
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-activate|p1a: Rillaboom|move: Sticky Web
+|-unboost|p1a: Rillaboom|spe|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|14
+|
+|t:|1759062636
+|move|p2a: Gallade|Sacred Sword|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-damage|p2a: Gallade|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Gallade|87/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1759062641
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|turn|15
+|
+|t:|1759062652
+|move|p2a: Gallade|Sacred Sword|p1a: Alomomola
+|-damage|p1a: Alomomola|41/100
+|-damage|p2a: Gallade|77/100|[from] item: Life Orb
+|move|p1a: Alomomola|Tickle|p2a: Gallade
+|-unboost|p2a: Gallade|atk|1
+|-unboost|p2a: Gallade|def|1
+|
+|-heal|p2a: Gallade|84/100|[from] Grassy Terrain
+|-heal|p1a: Alomomola|47/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1759062658
+|move|p2a: Gallade|Encore|p1a: Alomomola
+|-start|p1a: Alomomola|Encore
+|move|p1a: Alomomola|Tickle|p2a: Gallade
+|-unboost|p2a: Gallade|atk|1
+|-unboost|p2a: Gallade|def|1
+|
+|-heal|p2a: Gallade|90/100|[from] Grassy Terrain
+|-heal|p1a: Alomomola|53/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1759062662
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Alomomola|Tickle|p2a: Gholdengo
+|-unboost|p2a: Gholdengo|atk|1
+|-unboost|p2a: Gholdengo|def|1
+|
+|-heal|p1a: Alomomola|59/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1759062668
+|switch|p1a: Iron Treads|Iron Treads|94/100 brn
+|-activate|p1a: Iron Treads|move: Sticky Web
+|-unboost|p1a: Iron Treads|spe|1
+|move|p2a: Gholdengo|Trick|p1a: Iron Treads
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Iron Treads
+|-item|p1a: Iron Treads|Choice Specs|[from] move: Trick
+|-item|p2a: Gholdengo|Leftovers|[from] move: Trick
+|
+|-heal|p1a: Iron Treads|100/100 brn|[from] Grassy Terrain
+|-damage|p1a: Iron Treads|94/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1759062677
+|move|p2a: Gholdengo|Flamethrower|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|29/100 brn
+|move|p1a: Iron Treads|Volt Switch|p2a: Gholdengo
+|-damage|p2a: Gholdengo|69/100
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|
+|t:|1759062680
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Manaphy|Manaphy|97/100|[from] Volt Switch
+|-activate|p1a: Manaphy|move: Sticky Web
+|-unboost|p1a: Manaphy|spe|1
+|
+|-heal|p2a: Zoroark|75/100|[from] item: Leftovers
+|-heal|p1a: Manaphy|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1759062689
+|move|p2a: Zoroark|Shadow Ball|p1a: Manaphy
+|-damage|p1a: Manaphy|62/100
+|-unboost|p1a: Manaphy|spd|1
+|move|p1a: Manaphy|Scald|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|-heal|p1a: Manaphy|68/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1759062692
+|switch|p2a: Gallade|Gallade, M|90/100
+|turn|21
+|
+|t:|1759062698
+|switch|p1a: Iron Treads|Iron Treads|29/100 brn
+|-activate|p1a: Iron Treads|move: Sticky Web
+|-unboost|p1a: Iron Treads|spe|1
+|move|p2a: Gallade|Sacred Sword|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-damage|p2a: Gallade|80/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1759062702
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-activate|p1a: Iron Valiant|move: Sticky Web
+|-unboost|p1a: Iron Valiant|spe|1
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespa
+|turn|22
+|
+|t:|1759062705
+|-terastallize|p1a: Iron Valiant|Ghost
+|move|p2a: Gallade|Psycho Cut|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|7/100
+|-damage|p2a: Gallade|70/100|[from] item: Life Orb
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|upkeep
+|
+|t:|1759062712
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|23
+|
+|t:|1759062715
+|move|p2a: Gholdengo|Shadow Ball|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1759062718
+|switch|p1a: Manaphy|Manaphy|68/100
+|-activate|p1a: Manaphy|move: Sticky Web
+|-unboost|p1a: Manaphy|spe|1
+|turn|24
+|
+|t:|1759062721
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Manaphy|Take Heart|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|1
+|-boost|p1a: Manaphy|spd|1
+|
+|-heal|p1a: Manaphy|75/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1759062727
+|move|p2a: Gholdengo|Shadow Ball|p1a: Manaphy
+|-damage|p1a: Manaphy|32/100
+|move|p1a: Manaphy|Scald|p2a: Gholdengo
+|-damage|p2a: Gholdengo|42/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|-heal|p1a: Manaphy|38/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1759062733
+|switch|p1a: Alomomola|Alomomola, M|92/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Alomomola
+|-damage|p1a: Alomomola|34/100
+|
+|upkeep
+|turn|27
+|-message|TotallySkilled forfeited.
+|
+|win|jlce
+|raw|TotallySkilled's rating: 1441 &rarr; <strong>1420</strong><br />(-21 for losing)
+|raw|jlce's rating: 1415 &rarr; <strong>1436</strong><br />(+21 for winning)
+|l|☆TotallySkilled
+|player|p1|
+|l|‽jlce
+|player|p2|

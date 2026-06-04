@@ -1,0 +1,166 @@
+|j|☆Pig Perfect
+|j|☆Reginald Chaos
+|t:|1758343968
+|gametype|singles
+|player|p1|Pig Perfect|workerice|1447
+|player|p2|Reginald Chaos|170|1388
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hawlucha, M|
+|poke|p1|Iron Hands|
+|poke|p1|Iron Treads|
+|poke|p1|Kingambit, M|
+|poke|p1|Quaquaval, F|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Beartic, F|
+|poke|p2|Barraskewda, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Zapdos|
+|poke|p2|Hatterene, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Reginald Chaos)
+|
+|t:|1758343989
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Weezing
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1758344004
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-item|p1a: Iron Treads|Air Balloon
+|move|p2a: Pelipper|Surf|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-enditem|p1a: Iron Treads|Air Balloon
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758344011
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|-enditem|p1a: Quaquaval|Misty Seed
+|-boost|p1a: Quaquaval|spd|1|[from] item: Misty Seed
+|turn|2
+|
+|t:|1758344022
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Quaquaval|Aqua Step|p2a: Hatterene
+|-damage|p2a: Hatterene|39/100
+|-boost|p1a: Quaquaval|spe|1
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1758344027
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758344034
+|move|p1a: Quaquaval|Aqua Step|p2a: Zapdos
+|-damage|p2a: Zapdos|26/100
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Zapdos|Hurricane|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-crit|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758344056
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|4
+|
+|t:|1758344061
+|move|p2a: Zapdos|Hurricane|p1a: Iron Hands
+|-damage|p1a: Iron Hands|58/100
+|move|p1a: Iron Hands|Swords Dance|p1a: Iron Hands
+|-boost|p1a: Iron Hands|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758344065
+|move|p2a: Zapdos|Hurricane|p1a: Iron Hands
+|-damage|p1a: Iron Hands|21/100
+|move|p1a: Iron Hands|Drain Punch|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-heal|p1a: Iron Hands|29/100|[from] drain|[of] p2a: Zapdos
+|faint|p2a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758344072
+|switch|p2a: Beartic|Beartic, F|100/100
+|turn|6
+|
+|t:|1758344080
+|move|p2a: Beartic|Earthquake|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758344086
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p1a: Hawlucha|Misty Seed
+|-boost|p1a: Hawlucha|spd|1|[from] item: Misty Seed
+|turn|7
+|
+|t:|1758344099
+|move|p1a: Hawlucha|Encore|p2a: Beartic
+|-start|p2a: Beartic|Encore
+|move|p2a: Beartic|Earthquake|p1a: Hawlucha
+|-immune|p1a: Hawlucha
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758344106
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|-weather|none
+|-fieldend|Misty Terrain
+|upkeep
+|turn|9
+|-message|Reginald Chaos forfeited.
+|
+|win|Pig Perfect
+|raw|Pig Perfect's rating: 1447 &rarr; <strong>1464</strong><br />(+17 for winning)
+|raw|Reginald Chaos's rating: 1388 &rarr; <strong>1371</strong><br />(-17 for losing)
+|l|☆Reginald Chaos
+|player|p2|
+|l|☆Pig Perfect
+|player|p1|

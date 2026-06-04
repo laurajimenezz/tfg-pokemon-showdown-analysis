@@ -1,0 +1,209 @@
+|j|☆mio3777
+|j|☆maxmoefoe pokemon
+|t:|1769340120
+|gametype|singles
+|player|p1|mio3777|102|1681
+|player|p2|maxmoefoe pokemon|1|1733
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Polteageist-Antique|
+|poke|p1|Cinderace, M|
+|poke|p1|Armarouge, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Iron Moth|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Deoxys-Speed|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mio3777)
+|
+|t:|1769340146
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1769340158
+|switch|p1a: Armarouge|Armarouge, M|100/100
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Armarouge|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1769340171
+|move|p2a: Landorus|U-turn|p1a: Armarouge
+|-damage|p1a: Armarouge|77/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|
+|t:|1769340178
+|switch|p2a: Iron Moth|Iron Moth|100/100|[from] U-turn
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Armarouge|Expanding Force|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769340182
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|3
+|
+|t:|1769340192
+|move|p1a: Armarouge|Armor Cannon|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1769340197
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|4
+|
+|t:|1769340201
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Armarouge|Destiny Bond|p1a: Armarouge
+|-singlemove|p1a: Armarouge|Destiny Bond
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Armarouge|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|-activate|p1a: Armarouge|move: Destiny Bond
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|upkeep
+|
+|t:|1769340214
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|5
+|
+|t:|1769340220
+|move|p2a: Deoxys|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|64/100
+|-enditem|p1a: Hatterene|Custap Berry|[from] move: Knock Off|[of] p2a: Deoxys
+|-damage|p2a: Deoxys|91/100|[from] item: Life Orb
+|move|p1a: Hatterene|Expanding Force|p2a: Deoxys
+|-resisted|p2a: Deoxys
+|-damage|p2a: Deoxys|7/100
+|
+|upkeep
+|turn|6
+|
+|t:|1769340231
+|move|p2a: Deoxys|Psycho Boost|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|12/100
+|-unboost|p2a: Deoxys|spa|2
+|-damage|p2a: Deoxys|0 fnt|[from] item: Life Orb
+|faint|p2a: Deoxys
+|move|p1a: Hatterene|Expanding Force|p2: Deoxys|[notarget]
+|-fail|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1769340243
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|7
+|
+|t:|1769340247
+|move|p2a: Enamorus|Earth Power|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1769340251
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p1a: Hawlucha|Psychic Seed
+|-boost|p1a: Hawlucha|spd|1|[from] item: Psychic Seed
+|turn|8
+|
+|t:|1769340257
+|-terastallize|p1a: Hawlucha|Fire
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Enamorus|Play Rough|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|69/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1769340267
+|move|p1a: Hawlucha|Acrobatics|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|upkeep
+|
+|t:|1769340270
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Hawlucha|atk|1
+|turn|10
+|
+|t:|1769340275
+|move|p1a: Hawlucha|Acrobatics|p2a: Landorus
+|-damage|p2a: Landorus|27/100
+|-damage|p1a: Hawlucha|53/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|t:|1769340283
+|switch|p1a: Polteageist|Polteageist-Antique|100/100
+|turn|11
+|
+|t:|1769340286
+|move|p2a: Landorus|Taunt|p1a: Polteageist
+|-start|p1a: Polteageist|move: Taunt
+|move|p1a: Polteageist|Shadow Ball|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|win|mio3777
+|raw|mio3777's rating: 1681 &rarr; <strong>1704</strong><br />(+23 for winning)
+|raw|maxmoefoe pokemon's rating: 1733 &rarr; <strong>1710</strong><br />(-23 for losing)
+|l|☆maxmoefoe pokemon
+|player|p2|

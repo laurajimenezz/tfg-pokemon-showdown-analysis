@@ -1,0 +1,337 @@
+|j|☆dtmj
+|j|‽lcjxiaochuachua
+|t:|1760774007
+|gametype|singles
+|player|p1|dtmj|n|
+|player|p2|lcjxiaochuachua|gentleman|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Crown|
+|poke|p1|Inteleon, F|
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p2|Charizard, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Great Tusk|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Walking Wake|
+|teampreview
+|
+|t:|1760774056
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1760774070
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|switch|p2a: Charizard|Charizard, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760774086
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Pelipper|Surf|p2a: Hatterene
+|-damage|p2a: Hatterene|57/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1760774089
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760774101
+|move|p1a: Pelipper|U-turn|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|98/100
+|
+|t:|1760774109
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Torkoal|Eruption|p1a: Great Tusk
+|-damage|p1a: Great Tusk|3/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760774139
+|move|p1a: Great Tusk|Headlong Rush|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760774156
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|5
+|
+|t:|1760774165
+|move|p2a: Lilligant|Triple Axel|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p1: Great Tusk|1
+|-damage|p2a: Lilligant|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760774175
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|6
+|
+|t:|1760774194
+|move|p2a: Lilligant|Solar Blade||[still]
+|-prepare|p2a: Lilligant|Solar Blade
+|move|p1a: Pelipper|U-turn|p2a: Lilligant
+|-damage|p2a: Lilligant|79/100
+|
+|t:|1760774209
+|switch|p1a: Iron Crown|Iron Crown|100/100|[from] U-turn
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespa
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760774223
+|move|p2a: Lilligant|Solar Blade|p1a: Iron Crown|[from] lockedmove
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|77/100
+|-damage|p2a: Lilligant|69/100|[from] item: Life Orb
+|move|p1a: Iron Crown|Psychic|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760774228
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|8
+|
+|t:|1760774266
+|-terastallize|p2a: Charizard|Fire
+|move|p2a: Charizard|Overheat|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|-unboost|p2a: Charizard|spa|2
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760774276
+|switch|p1a: Inteleon|Inteleon, F|100/100
+|turn|9
+|
+|t:|1760774281
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Inteleon|Snipe Shot|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|76/100
+|-damage|p1a: Inteleon|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760774338
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Ogerpon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760774353
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|11
+|
+|t:|1760774358
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Zapdos|Thunder Wave|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1760774383
+|move|p1a: Zapdos|Hurricane|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760774397
+|switch|p2a: Walking Wake|Walking Wake|76/100
+|turn|13
+|
+|t:|1760774413
+|move|p2a: Walking Wake|Hydro Steam|p1a: Zapdos
+|-damage|p1a: Zapdos|2/100
+|move|p1a: Zapdos|Hurricane|p2a: Walking Wake
+|-damage|p2a: Walking Wake|8/100
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1760774424
+|move|p2a: Walking Wake|Hydro Steam|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1760774431
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|15
+|
+|t:|1760774442
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|57/100
+|move|p1a: Pelipper|Ice Beam|p2a: Hatterene
+|-damage|p2a: Hatterene|38/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1760774454
+|move|p1a: Pelipper|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|30/100
+|
+|t:|1760774457
+|switch|p1a: Inteleon|Inteleon, F|91/100|[from] U-turn
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760774463
+|switch|p2a: Walking Wake|Walking Wake|8/100
+|-heal|p2a: Walking Wake|100/100|[from] move: Healing Wish
+|turn|17
+|
+|t:|1760774476
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760774486
+|switch|p1a: Inteleon|Inteleon, F|91/100
+|turn|18
+|
+|t:|1760774493
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Charizard|Charizard, M, tera:Fire|100/100
+|move|p1a: Inteleon|Ice Beam|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|75/100
+|-damage|p1a: Inteleon|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1760774507
+|-terastallize|p1a: Inteleon|Water
+|move|p1a: Inteleon|Snipe Shot|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|-damage|p1a: Inteleon|71/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760774510
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|20
+|
+|t:|1760774519
+|move|p1a: Inteleon|Ice Beam|p2a: Walking Wake
+|-damage|p2a: Walking Wake|53/100
+|-status|p2a: Walking Wake|frz
+|-damage|p1a: Inteleon|61/100|[from] item: Life Orb
+|cant|p2a: Walking Wake|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1760774534
+|move|p1a: Inteleon|Ice Beam|p2a: Walking Wake
+|-damage|p2a: Walking Wake|8/100 frz
+|-damage|p1a: Inteleon|51/100|[from] item: Life Orb
+|cant|p2a: Walking Wake|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1760774542
+|move|p1a: Inteleon|Ice Beam|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|-damage|p1a: Inteleon|41/100|[from] item: Life Orb
+|
+|win|dtmj
+|l|‽lcjxiaochuachua
+|player|p2|
+|l|☆dtmj
+|player|p1|
+|j|‽lcjxiaochuachua
+|player|p2|lcjxiaochuachua|gentleman|

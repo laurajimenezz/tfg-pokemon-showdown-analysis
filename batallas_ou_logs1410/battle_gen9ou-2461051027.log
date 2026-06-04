@@ -1,0 +1,325 @@
+|j|☆Lormsby25
+|j|☆ennvee98
+|t:|1760388450
+|gametype|singles
+|player|p1|Lormsby25|170|1324
+|player|p2|ennvee98|1|1360
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Polteageist|
+|poke|p1|Crabominable, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Heatran, F|
+|poke|p1|Maushold|
+|poke|p1|Regidrago|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Kyurem|
+|poke|p2|Great Tusk|
+|poke|p2|Moltres|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1760388473
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1760388487
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Moltres|Moltres|100/100
+|switch|p1a: Polteageist|Polteageist|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760388509
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Moltres|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|97/100
+|
+|t:|1760388514
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1760388522
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Hydreigon
+|-immune|p1a: Hydreigon|[from] ability: Levitate
+|
+|upkeep
+|turn|4
+|
+|t:|1760388529
+|move|p1a: Hydreigon|Draco Meteor|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760388537
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|5
+|
+|t:|1760388546
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Iron Valiant|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|77/100
+|-enditem|p1a: Heatran|Leftovers|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|upkeep
+|turn|6
+|
+|t:|1760388553
+|move|p2a: Iron Valiant|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1760388575
+|switch|p1a: Polteageist|Polteageist|100/100
+|turn|7
+|
+|t:|1760388584
+|move|p2a: Iron Valiant|Knock Off|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|1/100
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|-enditem|p1a: Polteageist|Focus Sash|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|upkeep
+|turn|8
+|
+|t:|1760388596
+|move|p1a: Polteageist|Shadow Ball|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760388601
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|9
+|
+|t:|1760388608
+|switch|p1a: Crabominable|Crabominable, M|100/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|upkeep
+|turn|10
+|
+|t:|1760388621
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Crabominable|Knock Off|p2a: Moltres
+|-damage|p2a: Moltres|64/100
+|-status|p1a: Crabominable|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|-enditem|p2a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Crabominable
+|
+|-damage|p1a: Crabominable|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1760388642
+|switch|p1a: Polteageist|Polteageist|1/100
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|100/100
+|-singleturn|p2a: Moltres|move: Roost
+|
+|upkeep
+|turn|12
+|
+|t:|1760388649
+|move|p1a: Polteageist|Shadow Ball|p2a: Moltres
+|-damage|p2a: Moltres|54/100
+|-unboost|p2a: Moltres|spd|1
+|move|p2a: Moltres|U-turn|p1a: Polteageist
+|-resisted|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lormsby25)
+|
+|t:|1760388666
+|switch|p2a: Kyurem|Kyurem|100/100|[from] U-turn
+|-ability|p2a: Kyurem|Pressure
+|
+|upkeep
+|
+|t:|1760388676
+|switch|p1a: Regidrago|Regidrago|100/100
+|turn|13
+|
+|t:|1760388683
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Regidrago|Dragon Energy|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|53/100
+|
+|upkeep
+|turn|14
+|
+|t:|1760388695
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Kingambit|Iron Head|p1a: Hydreigon
+|-damage|p1a: Hydreigon|40/100
+|
+|-heal|p1a: Hydreigon|47/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1760388724
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Moltres|Moltres|54/100
+|move|p1a: Hydreigon|Earth Power|p2a: Moltres
+|-immune|p2a: Moltres
+|
+|-heal|p1a: Hydreigon|53/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1760388734
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Moltres|Flamethrower|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|30/100
+|-status|p1a: Hydreigon|brn
+|
+|-heal|p1a: Hydreigon|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Hydreigon|30/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1760388745
+|move|p1a: Hydreigon|Draco Meteor|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Moltres
+|
+|-heal|p1a: Hydreigon|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Hydreigon|30/100 brn|[from] brn
+|upkeep
+|
+|t:|1760388757
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|18
+|
+|t:|1760388784
+|move|p1a: Hydreigon|Draco Meteor|p2a: Slowking
+|-damage|p2a: Slowking|61/100
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Slowking|Ice Beam|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|inactive|Lormsby25 has 120 seconds left.
+|
+|t:|1760388801
+|switch|p1a: Maushold|Maushold|100/100
+|turn|19
+|
+|t:|1760388804
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1760388810
+|switch|p2a: Kyurem|Kyurem|100/100|[from] Chilly Reception
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1760388818
+|move|p1a: Maushold|Population Bomb|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-damage|p2a: Kyurem|84/100
+|-damage|p2a: Kyurem|73/100
+|-damage|p2a: Kyurem|62/100
+|-damage|p2a: Kyurem|51/100
+|-damage|p2a: Kyurem|41/100
+|-damage|p2a: Kyurem|31/100
+|-damage|p2a: Kyurem|21/100
+|-damage|p2a: Kyurem|11/100
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|-hitcount|p2: Kyurem|9
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760388834
+|switch|p2a: Kingambit|Kingambit, F|53/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|21
+|
+|t:|1760388855
+|-terastallize|p2a: Kingambit|Dark
+|move|p1a: Maushold|Population Bomb|p2a: Kingambit
+|-damage|p2a: Kingambit|42/100
+|-damage|p2a: Kingambit|30/100
+|-damage|p2a: Kingambit|17/100
+|-damage|p2a: Kingambit|5/100
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|-hitcount|p2: Kingambit|5
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|-message|ennvee98 forfeited.
+|
+|win|Lormsby25
+|raw|Lormsby25's rating: 1324 &rarr; <strong>1346</strong><br />(+22 for winning)
+|raw|ennvee98's rating: 1360 &rarr; <strong>1338</strong><br />(-22 for losing)
+|l|☆ennvee98
+|player|p2|
+|l|☆Lormsby25
+|player|p1|

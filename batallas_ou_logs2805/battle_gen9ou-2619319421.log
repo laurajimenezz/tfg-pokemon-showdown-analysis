@@ -1,0 +1,302 @@
+|j|☆amiruae
+|j|‽tyflu
+|t:|1779906425
+|gametype|singles
+|player|p1|amiruae|acetrainercouple|1467
+|player|p2|tyflu|102|1630
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Greninja-*, M|
+|poke|p1|Salamence, M|
+|poke|p1|Porygon-Z|
+|poke|p1|Volcanion|
+|poke|p2|Iron Valiant|
+|poke|p2|Ceruledge, M|
+|poke|p2|Gholdengo|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1779906447
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Porygon-Z|Porygon-Z|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1779906453
+|move|p2a: Iron Valiant|Close Combat|p1a: Porygon-Z
+|-supereffective|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Porygon-Z
+|
+|upkeep
+|
+|t:|1779906458
+|switch|p1a: Volcanion|Volcanion|100/100
+|turn|2
+|
+|t:|1779906471
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Volcanion|Flamethrower|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|64/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779906488
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|76/100
+|-sidestart|p1: amiruae|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1779906495
+|move|p2a: Samurott|Ceaseless Edge|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|54/100
+|-sidestart|p1: amiruae|Spikes
+|move|p1a: Samurott|Sacred Sword|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1779906506
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|5
+|
+|t:|1779906512
+|move|p2a: Ogerpon|Trailblaze|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-crit|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-boost|p2a: Ogerpon|spe|1
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1779906518
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Ogerpon|atk|1
+|turn|6
+|
+|t:|1779906528
+|move|p2a: Ogerpon|Play Rough|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-crit|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1779906536
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|84/100|[from] Spikes
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|7
+|
+|t:|1779906542
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1779906549
+|move|p2a: Ogerpon|Play Rough|p1a: Zamazenta|[miss]
+|-miss|p2a: Ogerpon|p1a: Zamazenta
+|move|p1a: Zamazenta|Body Press|p2a: Ogerpon
+|-crit|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-heal|p1a: Zamazenta|96/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779906552
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|9
+|
+|t:|1779906571
+|switch|p1a: Greninja|Greninja, M|100/100
+|-damage|p1a: Greninja|84/100|[from] Spikes
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|10
+|
+|t:|1779906583
+|-terastallize|p2a: Gholdengo|Fairy
+|move|p1a: Greninja|Dark Pulse|p2a: Gholdengo
+|-start|p1a: Greninja|typechange|Dark|[from] ability: Protean
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|76/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|cant|p2a: Gholdengo|flinch
+|
+|upkeep
+|turn|11
+|
+|t:|1779906607
+|switch|p1a: Volcanion|Volcanion|100/100
+|-damage|p1a: Volcanion|84/100|[from] Spikes
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1779906615
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|46/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779906633
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|13
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by amiruae)
+|
+|t:|1779906641
+|move|p2a: Great Tusk|Headlong Rush|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Volcanion
+|
+|upkeep
+|
+|t:|1779906644
+|switch|p1a: Zamazenta|Zamazenta|96/100
+|-damage|p1a: Zamazenta|80/100|[from] Spikes
+|turn|14
+|
+|t:|1779906654
+|move|p1a: Zamazenta|Crunch|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|92/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Zamazenta
+|-damage|p1a: Zamazenta|34/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-heal|p1a: Zamazenta|40/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1779906679
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Great Tusk|Close Combat|p1a: Zamazenta
+|-damage|p1a: Zamazenta|17/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-heal|p1a: Zamazenta|23/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1779906685
+|move|p1a: Zamazenta|Body Press|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p1a: Zamazenta|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779906691
+|switch|p2a: Gholdengo|Gholdengo, tera:Fairy|76/100
+|turn|17
+|
+|t:|1779906702
+|-terastallize|p1a: Zamazenta|Steel
+|move|p1a: Zamazenta|Iron Head|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|28/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1779906710
+|switch|p1a: Greninja|Greninja, M|84/100
+|-damage|p1a: Greninja|68/100|[from] Spikes
+|turn|18
+|
+|t:|1779906719
+|move|p1a: Greninja|Surf|p2a: Gholdengo
+|-start|p1a: Greninja|typechange|Water|[from] ability: Protean
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1779906723
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|19
+|
+|t:|1779906728
+|move|p1a: Greninja|Surf|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-crit|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|upkeep
+|turn|20
+|
+|t:|1779906734
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Greninja
+|-crit|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|win|tyflu
+|raw|amiruae's rating: 1467 &rarr; <strong>1456</strong><br />(-11 for losing)
+|raw|tyflu's rating: 1630 &rarr; <strong>1641</strong><br />(+11 for winning)
+|l|☆amiruae
+|player|p1|
+|l|‽tyflu
+|player|p2|

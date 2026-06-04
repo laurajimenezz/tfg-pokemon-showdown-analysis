@@ -1,0 +1,332 @@
+|j|☆RandomChickenx
+|j|☆zenny0785e
+|t:|1758242998
+|gametype|singles
+|player|p1|RandomChickenx|101|
+|player|p2|zenny0785e|170|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Heatran, M|
+|poke|p1|Clefable, M|
+|poke|p1|Garchomp, M|
+|poke|p2|Serperior, F|
+|poke|p2|Spidops, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Revavroom, M|
+|poke|p2|Clodsire, F|
+|poke|p2|Gliscor, M|
+|teampreview
+|
+|t:|1758243018
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Jessie|Rillaboom, F|100/100
+|switch|p2a: sticky|Spidops, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Jessie
+|turn|1
+|
+|t:|1758243033
+|switch|p1a: headman|Heatran, M|100/100
+|move|p2a: sticky|Sticky Web|p1a: headman
+|-sidestart|p1: RandomChickenx|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1758243039
+|move|p1a: headman|Magma Storm|p2a: sticky|[miss]
+|-miss|p1a: headman|p2a: sticky
+|move|p2a: sticky|Toxic Spikes|p1a: headman
+|-sidestart|p1: RandomChickenx|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1758243044
+|move|p1a: headman|Magma Storm|p2a: sticky
+|-supereffective|p2a: sticky
+|-enditem|p2a: sticky|Focus Sash
+|-damage|p2a: sticky|1/100
+|-activate|p2a: sticky|move: Magma Storm|[of] p1a: headman
+|move|p2a: sticky|Toxic Spikes|p1a: headman
+|-sidestart|p1: RandomChickenx|move: Toxic Spikes
+|
+|-heal|p2a: sticky|7/100|[from] Grassy Terrain
+|-damage|p2a: sticky|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+|faint|p2a: sticky
+|upkeep
+|
+|t:|1758243058
+|switch|p2a: take salt|Garganacl, F|100/100
+|turn|4
+|
+|t:|1758243065
+|move|p1a: headman|Flash Cannon|p2a: take salt
+|-supereffective|p2a: take salt
+|-crit|p2a: take salt
+|-damage|p2a: take salt|0 fnt
+|faint|p2a: take salt
+|
+|upkeep
+|
+|t:|1758243076
+|switch|p2a: lets a go|Clodsire, F|100/100
+|turn|5
+|
+|t:|1758243090
+|move|p1a: headman|Earth Power|p2a: lets a go
+|-supereffective|p2a: lets a go
+|-damage|p2a: lets a go|49/100
+|move|p2a: lets a go|Curse|p2a: lets a go
+|-unboost|p2a: lets a go|spe|1
+|-boost|p2a: lets a go|atk|1
+|-boost|p2a: lets a go|def|1
+|
+|-heal|p2a: lets a go|55/100|[from] Grassy Terrain
+|-heal|p2a: lets a go|61/100|[from] item: Black Sludge
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1758243100
+|move|p1a: headman|Earth Power|p2a: lets a go
+|-supereffective|p2a: lets a go
+|-damage|p2a: lets a go|15/100
+|move|p2a: lets a go|Earthquake|p1a: headman
+|-supereffective|p1a: headman
+|-damage|p1a: headman|0 fnt
+|faint|p1a: headman
+|
+|-heal|p2a: lets a go|21/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1758243125
+|switch|p1a: and or us|Landorus-Therian, M|100/100
+|-ability|p1a: and or us|Intimidate|boost
+|-unboost|p2a: lets a go|atk|1
+|turn|7
+|
+|t:|1758243136
+|move|p1a: and or us|Earth Power|p2a: lets a go
+|-supereffective|p2a: lets a go
+|-damage|p2a: lets a go|0 fnt
+|faint|p2a: lets a go
+|
+|upkeep
+|
+|t:|1758243143
+|switch|p2a: leaf|Serperior, F|100/100
+|turn|8
+|
+|t:|1758243155
+|switch|p1a: clef|Clefable, M|100/100
+|-activate|p1a: clef|move: Sticky Web
+|-unboost|p1a: clef|spe|1
+|-status|p1a: clef|tox
+|move|p2a: leaf|Leaf Storm|p1a: clef
+|-damage|p1a: clef|58/100 tox
+|-boost|p2a: leaf|spa|2
+|
+|-heal|p1a: clef|64/100 tox|[from] item: Leftovers
+|-damage|p1a: clef|58/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1758243166
+|move|p2a: leaf|Leaf Storm|p1a: clef
+|-damage|p1a: clef|15/100 tox
+|-boost|p2a: leaf|spa|2
+|move|p1a: clef|Flamethrower|p2a: leaf
+|-supereffective|p2a: leaf
+|-damage|p2a: leaf|57/100
+|-status|p2a: leaf|brn
+|
+|-heal|p1a: clef|21/100 tox|[from] item: Leftovers
+|-damage|p1a: clef|9/100 tox|[from] psn
+|-damage|p2a: leaf|51/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1758243180
+|move|p2a: leaf|Leaf Storm|p1a: clef
+|-damage|p1a: clef|0 fnt
+|-boost|p2a: leaf|spa|2
+|faint|p1a: clef
+|
+|-damage|p2a: leaf|45/100 brn|[from] brn
+|upkeep
+|
+|t:|1758243212
+|switch|p1a: and or us|Landorus-Therian, M|100/100
+|-ability|p1a: and or us|Intimidate|boost
+|-boost|p2a: leaf|atk|1
+|turn|11
+|
+|t:|1758243225
+|move|p1a: and or us|U-turn|p2a: leaf
+|-supereffective|p2a: leaf
+|-damage|p2a: leaf|0 fnt
+|faint|p2a: leaf
+|
+|t:|1758243235
+|switch|p1a: Jessie|Rillaboom, F|100/100|[from] U-turn
+|-activate|p1a: Jessie|move: Sticky Web
+|-unboost|p1a: Jessie|spe|1
+|-status|p1a: Jessie|tox
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Jessie
+|
+|-damage|p1a: Jessie|94/100 tox|[from] psn
+|upkeep
+|
+|t:|1758243247
+|switch|p2a: vroom|Revavroom, M|100/100
+|turn|12
+|
+|t:|1758243257
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-activate|p1a: Garchomp|move: Sticky Web
+|-unboost|p1a: Garchomp|spe|1
+|-status|p1a: Garchomp|tox
+|move|p2a: vroom|Shift Gear|p2a: vroom
+|-boost|p2a: vroom|spe|2
+|-boost|p2a: vroom|atk|1
+|
+|-damage|p1a: Garchomp|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1758243272
+|-terastallize|p2a: vroom|Ground
+|move|p2a: vroom|Shift Gear|p2a: vroom
+|-boost|p2a: vroom|spe|2
+|-boost|p2a: vroom|atk|1
+|move|p1a: Garchomp|Earthquake|p2a: vroom
+|-damage|p2a: vroom|75/100
+|
+|-heal|p2a: vroom|81/100|[from] Grassy Terrain
+|-heal|p2a: vroom|87/100|[from] item: Leftovers
+|-heal|p1a: Garchomp|100/100 tox|[from] Grassy Terrain
+|-damage|p1a: Garchomp|88/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1758243291
+|move|p2a: vroom|Iron Head|p1a: Garchomp
+|-damage|p1a: Garchomp|19/100 tox
+|-damage|p2a: vroom|75/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1a: Garchomp|Outrage|p2a: vroom
+|-damage|p2a: vroom|13/100
+|
+|-heal|p2a: vroom|19/100|[from] Grassy Terrain
+|-heal|p2a: vroom|25/100|[from] item: Leftovers
+|-heal|p1a: Garchomp|25/100 tox|[from] Grassy Terrain
+|-heal|p1a: Garchomp|32/100 tox|[from] item: Leftovers
+|-damage|p1a: Garchomp|13/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1758243304
+|move|p2a: vroom|Iron Head|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: vroom|13/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-heal|p2a: vroom|19/100|[from] Grassy Terrain
+|-heal|p2a: vroom|25/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1758243320
+|switch|p1a: and or us|Landorus-Therian, M|100/100
+|-ability|p1a: and or us|Intimidate|boost
+|-unboost|p2a: vroom|atk|1
+|turn|16
+|
+|t:|1758243331
+|move|p2a: vroom|Iron Head|p1a: and or us
+|-damage|p1a: and or us|51/100
+|move|p1a: and or us|Extrasensory|p2a: vroom
+|-damage|p2a: vroom|5/100
+|
+|-heal|p2a: vroom|11/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758243338
+|move|p2a: vroom|Iron Head|p1a: and or us
+|-damage|p1a: and or us|0 fnt
+|faint|p1a: and or us
+|
+|-heal|p2a: vroom|17/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758243344
+|switch|p1a: Jessie|Rillaboom, F|94/100 tox
+|-activate|p1a: Jessie|move: Sticky Web
+|-unboost|p1a: Jessie|spe|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Jessie
+|turn|18
+|
+|t:|1758243353
+|move|p2a: vroom|Poison Jab|p1a: Jessie
+|-supereffective|p1a: Jessie
+|-damage|p1a: Jessie|0 fnt
+|faint|p1a: Jessie
+|
+|-heal|p2a: vroom|23/100|[from] Grassy Terrain
+|-heal|p2a: vroom|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758243361
+|switch|p1a: Bishar|Kingambit, M|100/100
+|-activate|p1a: Bishar|move: Sticky Web
+|-unboost|p1a: Bishar|spe|1
+|-activate|p1a: Bishar|ability: Supreme Overlord
+|-start|p1a: Bishar|fallen5|[silent]
+|turn|19
+|
+|t:|1758243377
+|move|p1a: Bishar|Sucker Punch|p2a: vroom
+|-damage|p2a: vroom|0 fnt
+|faint|p2a: vroom
+|
+|upkeep
+|
+|t:|1758243380
+|switch|p2a: glider|Gliscor, M|100/100
+|turn|20
+|
+|t:|1758243386
+|move|p2a: glider|Earthquake|p1a: Bishar
+|-supereffective|p1a: Bishar
+|-damage|p1a: Bishar|62/100
+|move|p1a: Bishar|Swords Dance|p1a: Bishar
+|-boost|p1a: Bishar|atk|2
+|
+|-heal|p1a: Bishar|68/100|[from] Grassy Terrain
+|-heal|p1a: Bishar|74/100|[from] item: Leftovers
+|-status|p2a: glider|tox|[from] item: Toxic Orb
+|upkeep
+|turn|21
+|
+|t:|1758243399
+|move|p2a: glider|Swords Dance|p2a: glider
+|-boost|p2a: glider|atk|2
+|move|p1a: Bishar|Kowtow Cleave|p2a: glider
+|-damage|p2a: glider|0 fnt
+|faint|p2a: glider
+|
+|win|RandomChickenx

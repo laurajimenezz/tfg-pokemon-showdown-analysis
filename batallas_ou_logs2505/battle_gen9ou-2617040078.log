@@ -1,0 +1,177 @@
+|j|☆Railio
+|j|☆EastSideConnection
+|t:|1779641604
+|gametype|singles
+|player|p1|Railio|169|1539
+|player|p2|EastSideConnection|2|1522
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Meowscarada, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Iron Boulder|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p2|Ninetales, M|
+|poke|p2|Venusaur, M|
+|poke|p2|Great Tusk|
+|poke|p2|Cinderace, M|
+|poke|p2|Walking Wake|
+|poke|p2|Enamorus, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Railio)
+|
+|t:|1779641632
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|switch|p2a: Smokey|Cinderace, M, shiny|100/100
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdrivespe
+|turn|1
+|
+|t:|1779641655
+|-terastallize|p2a: Smokey|Fighting
+|move|p1a: Iron Boulder|Swords Dance|p1a: Iron Boulder
+|-boost|p1a: Iron Boulder|atk|2
+|move|p2a: Smokey|U-turn|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|26/100
+|
+|t:|1779641665
+|switch|p2a: Ninetales|Ninetales, M|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1779641671
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779641673
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|3
+|
+|t:|1779641678
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779641681
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|turn|4
+|
+|t:|1779641685
+|move|p2a: Venusaur|Weather Ball|p1a: Iron Boulder
+|-resisted|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|0 fnt
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|-damage|p2a: Venusaur|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779641706
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|5
+|
+|t:|1779641712
+|switch|p2a: Smokey|Cinderace, M, shiny, tera:Fighting|100/100
+|move|p1a: Cinderace|Flare Blitz|p2a: Smokey
+|-damage|p2a: Smokey|0 fnt
+|faint|p2a: Smokey
+|-damage|p1a: Cinderace|67/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779641719
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|6
+|
+|t:|1779641728
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|93/100
+|-boost|p2a: Great Tusk|spe|1
+|-damage|p2a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|90/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779641732
+|move|p2a: Great Tusk|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|47/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-damage|p2a: Great Tusk|74/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|move|p1a: Corviknight|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|67/100
+|
+|t:|1779641739
+|switch|p1a: Meowscarada|Meowscarada, M|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|73/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1779641745
+|move|p1a: Meowscarada|Triple Axel|p2a: Great Tusk
+|-start|p1a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|50/100
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|8/100
+|-hitcount|p2a: Great Tusk|2
+|move|p2a: Great Tusk|Ice Spinner|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-crit|p1a: Meowscarada
+|-damage|p1a: Meowscarada|60/100
+|
+|-weather|none
+|-end|p2a: Great Tusk|Protosynthesis
+|-heal|p2a: Great Tusk|14/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|-message|EastSideConnection forfeited.
+|
+|win|Railio
+|raw|Railio's rating: 1539 &rarr; <strong>1558</strong><br />(+19 for winning)
+|raw|EastSideConnection's rating: 1522 &rarr; <strong>1503</strong><br />(-19 for losing)
+|l|☆Railio
+|player|p1|
+|l|☆EastSideConnection
+|player|p2|

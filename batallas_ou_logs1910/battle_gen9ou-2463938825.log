@@ -1,0 +1,320 @@
+|j|☆kurt_d2
+|j|☆Bakelitepharaoh
+|t:|1760770069
+|gametype|singles
+|player|p1|kurt_d2|265|1189
+|player|p2|Bakelitepharaoh|ethan|1222
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dudunsparce-*, F|
+|poke|p1|Serperior, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Lokix, F|
+|poke|p1|Electivire, M|
+|poke|p1|Ninetales-Alola, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Scizor, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Heatran, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kurt_d2)
+|
+|t:|1760770082
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, F|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1760770098
+|switch|p1a: Electivire|Electivire, M|100/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1760770107
+|move|p1a: Electivire|Ice Punch|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|31/100
+|-damage|p1a: Electivire|91/100|[from] item: Life Orb
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Electivire
+|-ability|p1a: Electivire|Motor Drive|boost
+|-boost|p1a: Electivire|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1760770118
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Electivire|atk|1
+|move|p1a: Electivire|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|11/100
+|-damage|p1a: Electivire|74/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-damage|p1a: Electivire|64/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1760770135
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Electivire|Ice Punch|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|95/100
+|-enditem|p2a: Heatran|Air Balloon
+|-damage|p1a: Electivire|54/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1760770149
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Earth Power|p1a: Gyarados
+|-immune|p1a: Gyarados
+|
+|upkeep
+|turn|6
+|
+|t:|1760770159
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|7
+|
+|t:|1760770166
+|move|p1a: Gyarados|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|72/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|8
+|
+|t:|1760770172
+|move|p1a: Gyarados|Waterfall|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|54/100
+|move|p2a: Alomomola|Flip Turn|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|90/100
+|
+|t:|1760770178
+|switch|p2a: Raging Bolt|Raging Bolt|31/100|[from] Flip Turn
+|
+|-heal|p2a: Raging Bolt|99/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Gyarados|96/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760770195
+|-terastallize|p1a: Gyarados|Steel
+|move|p2a: Raging Bolt|Thunderclap|p1a: Gyarados
+|-damage|p1a: Gyarados|53/100
+|move|p1a: Gyarados|Earthquake|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-heal|p1a: Gyarados|59/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760770215
+|switch|p2a: Alomomola|Alomomola, F|88/100
+|turn|10
+|
+|t:|1760770228
+|move|p1a: Gyarados|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|58/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Gyarados|65/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760770239
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Alomomola|Flip Turn|p1a: Gyarados
+|-damage|p1a: Gyarados|45/100
+|
+|t:|1760770245
+|switch|p2a: Landorus|Landorus-Therian, M|11/100|[from] Flip Turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gyarados|atk|1
+|
+|-heal|p2a: Landorus|81/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Gyarados|51/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1760770259
+|move|p1a: Gyarados|Waterfall|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Gyarados|34/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|-heal|p1a: Gyarados|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760770273
+|switch|p2a: Heatran|Heatran, F|95/100
+|turn|13
+|
+|t:|1760770277
+|-terastallize|p2a: Heatran|Ghost
+|move|p1a: Gyarados|Earthquake|p2a: Heatran
+|-damage|p2a: Heatran|39/100
+|move|p2a: Heatran|Magma Storm|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|t:|1760770288
+|switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, F|100/100
+|turn|14
+|
+|t:|1760770295
+|move|p2a: Heatran|Magma Storm|p1a: Dudunsparce
+|-damage|p1a: Dudunsparce|53/100
+|-activate|p1a: Dudunsparce|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Dudunsparce|Shadow Ball|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|2/100
+|-unboost|p2a: Heatran|spd|1
+|
+|-heal|p1a: Dudunsparce|60/100|[from] item: Leftovers
+|-damage|p1a: Dudunsparce|47/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1760770308
+|switch|p2a: Alomomola|Alomomola, F|91/100
+|move|p1a: Dudunsparce|Shadow Ball|p2a: Alomomola
+|-damage|p2a: Alomomola|72/100
+|
+|-heal|p1a: Dudunsparce|53/100|[from] item: Leftovers
+|-end|p1a: Dudunsparce|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|16
+|
+|t:|1760770317
+|move|p1a: Dudunsparce|Glare|p2a: Alomomola
+|-status|p2a: Alomomola|par
+|cant|p2a: Alomomola|par
+|
+|-heal|p1a: Dudunsparce|60/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1760770325
+|move|p1a: Dudunsparce|Ancient Power|p2a: Alomomola
+|-damage|p2a: Alomomola|56/100 par
+|move|p2a: Alomomola|Scald|p1a: Dudunsparce
+|-damage|p1a: Dudunsparce|47/100
+|
+|-heal|p1a: Dudunsparce|53/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1760770335
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Dudunsparce|Ancient Power|p2a: Scizor
+|-damage|p2a: Scizor|85/100
+|-boost|p1a: Dudunsparce|atk|1
+|-boost|p1a: Dudunsparce|def|1
+|-boost|p1a: Dudunsparce|spa|1
+|-boost|p1a: Dudunsparce|spd|1
+|-boost|p1a: Dudunsparce|spe|1
+|
+|-heal|p1a: Dudunsparce|59/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1760770346
+|move|p1a: Dudunsparce|Glare|p2a: Scizor
+|-status|p2a: Scizor|par
+|move|p2a: Scizor|Knock Off|p1a: Dudunsparce
+|-damage|p1a: Dudunsparce|38/100
+|-enditem|p1a: Dudunsparce|Leftovers|[from] move: Knock Off|[of] p2a: Scizor
+|
+|upkeep
+|turn|20
+|
+|t:|1760770354
+|cant|p2a: Scizor|par
+|move|p1a: Dudunsparce|Ancient Power|p2a: Scizor
+|-damage|p2a: Scizor|63/100 par
+|-boost|p1a: Dudunsparce|atk|1
+|-boost|p1a: Dudunsparce|def|1
+|-boost|p1a: Dudunsparce|spa|1
+|-boost|p1a: Dudunsparce|spd|1
+|-boost|p1a: Dudunsparce|spe|1
+|
+|upkeep
+|turn|21
+|
+|t:|1760770362
+|move|p2a: Scizor|Bullet Punch|p1a: Dudunsparce
+|-damage|p1a: Dudunsparce|24/100
+|move|p1a: Dudunsparce|Air Slash|p2a: Scizor
+|-damage|p2a: Scizor|25/100 par
+|
+|upkeep
+|turn|22
+|
+|t:|1760770372
+|switch|p2a: Alomomola|Alomomola, F|89/100 par
+|move|p1a: Dudunsparce|Ancient Power|p2a: Alomomola
+|-damage|p2a: Alomomola|60/100 par
+|
+|upkeep
+|turn|23
+|
+|t:|1760770378
+|move|p1a: Dudunsparce|Air Slash|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|5/100 par
+|cant|p2a: Alomomola|flinch
+|
+|upkeep
+|turn|24
+|-message|Bakelitepharaoh forfeited.
+|
+|win|kurt_d2
+|raw|kurt_d2's rating: 1189 &rarr; <strong>1216</strong><br />(+27 for winning)
+|raw|Bakelitepharaoh's rating: 1222 &rarr; <strong>1195</strong><br />(-27 for losing)
+|l|☆Bakelitepharaoh
+|player|p2|
+|l|☆kurt_d2
+|player|p1|

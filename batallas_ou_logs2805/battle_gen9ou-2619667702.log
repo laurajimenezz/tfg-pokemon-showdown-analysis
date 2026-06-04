@@ -1,0 +1,452 @@
+|j|☆jabottle
+|j|☆Railio
+|t:|1779945457
+|gametype|singles
+|player|p1|jabottle|giovanni|1405
+|player|p2|Railio|101|1490
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, F|
+|poke|p1|Regieleki|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Weavile, F|
+|poke|p1|Heatran, M|
+|poke|p1|Sinistcha-Masterpiece|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Scizor, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Railio)
+|
+|t:|1779945484
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|t:|1779945487
+|move|p1a: Slowking|Sludge Bomb|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|29/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1779945494
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779945501
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779945506
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|3
+|
+|t:|1779945518
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|7/100
+|move|p1a: Sinistcha|Strength Sap|p2a: Kingambit
+|-unboost|p2a: Kingambit|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779945547
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Sinistcha|Strength Sap|p2a: Scizor
+|-unboost|p2a: Scizor|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779945553
+|move|p2a: Scizor|U-turn|p1a: Sinistcha
+|-damage|p1a: Sinistcha|79/100
+|
+|t:|1779945556
+|switch|p2a: Indeedee|Indeedee, M|100/100|[from] U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Sinistcha|Strength Sap|p2a: Indeedee
+|-unboost|p2a: Indeedee|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1779945562
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1779945566
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Ursaluna
+|-sidestart|p2: Railio|move: Stealth Rock
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1779945573
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|100/100
+|move|p2a: Ursaluna|Ice Punch|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|32/100
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1779945580
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Ursaluna|Ice Punch|p1a: Slowking
+|-damage|p1a: Slowking|68/100
+|-status|p1a: Slowking|frz
+|
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|10
+|
+|t:|1779945584
+|cant|p1a: Slowking|frz
+|move|p2a: Ursaluna|Ice Punch|p1a: Slowking
+|-damage|p1a: Slowking|34/100 frz
+|
+|-damage|p2a: Ursaluna|82/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1779945587
+|move|p2a: Ursaluna|Ice Punch|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-damage|p2a: Ursaluna|76/100 brn|[from] brn
+|upkeep
+|
+|t:|1779945590
+|switch|p1a: Weavile|Weavile, F|100/100
+|turn|12
+|
+|t:|1779945598
+|move|p1a: Weavile|Triple Axel|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|61/100 brn
+|-hitcount|p2a: Ursaluna|1
+|move|p2a: Ursaluna|Facade|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-damage|p2a: Ursaluna|55/100 brn|[from] brn
+|upkeep
+|
+|t:|1779945604
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|32/100
+|turn|13
+|
+|t:|1779945607
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-heal|p1a: Sinistcha|68/100|[from] drain|[of] p2a: Ursaluna
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1779945612
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|14
+|
+|t:|1779945616
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Scizor|Defog|p1a: Heatran
+|-unboost|p1a: Heatran|evasion|1
+|-sideend|p2: Railio|Stealth Rock|[from] move: Defog|[of] p2a: Scizor
+|
+|upkeep
+|turn|15
+|
+|t:|1779945618
+|move|p1a: Heatran|Will-O-Wisp|p2a: Scizor
+|-status|p2a: Scizor|brn
+|move|p2a: Scizor|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|69/100
+|-unboost|p2a: Scizor|def|1
+|-unboost|p2a: Scizor|spd|1
+|
+|-heal|p1a: Heatran|75/100|[from] item: Leftovers
+|-damage|p2a: Scizor|94/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1779945625
+|move|p1a: Heatran|Stealth Rock|p2a: Scizor
+|-sidestart|p2: Railio|move: Stealth Rock
+|move|p2a: Scizor|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|70/100
+|
+|t:|1779945629
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100|[from] U-turn
+|-damage|p2a: Hoopa|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Heatran|76/100|[from] item: Leftovers
+|-heal|p2a: Hoopa|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1779945644
+|move|p1a: Heatran|Will-O-Wisp|p2a: Hoopa
+|-status|p2a: Hoopa|brn
+|move|p2a: Hoopa|Trick Room|p2a: Hoopa
+|-fieldstart|move: Trick Room|[of] p2a: Hoopa
+|
+|-heal|p2a: Hoopa|99/100 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|82/100|[from] item: Leftovers
+|-damage|p2a: Hoopa|94/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1779945649
+|move|p2a: Hoopa|Thunderbolt|p1a: Heatran
+|-damage|p1a: Heatran|46/100
+|move|p1a: Heatran|Lava Plume|p2a: Hoopa
+|-crit|p2a: Hoopa
+|-damage|p2a: Hoopa|53/100 brn
+|
+|-heal|p2a: Hoopa|59/100 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|52/100|[from] item: Leftovers
+|-damage|p2a: Hoopa|53/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1779945653
+|move|p2a: Hoopa|Psychic|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|25/100
+|move|p1a: Heatran|Lava Plume|p2a: Hoopa
+|-damage|p2a: Hoopa|25/100 brn
+|
+|-heal|p2a: Hoopa|31/100 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|31/100|[from] item: Leftovers
+|-damage|p2a: Hoopa|25/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1779945659
+|move|p2a: Hoopa|Thunderbolt|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-heal|p2a: Hoopa|31/100 brn|[from] item: Leftovers
+|-damage|p2a: Hoopa|25/100 brn|[from] brn
+|upkeep
+|
+|t:|1779945662
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|turn|21
+|
+|t:|1779945664
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Hoopa|Psychic|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p2a: Hoopa|31/100 brn|[from] item: Leftovers
+|-damage|p2a: Hoopa|25/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|22
+|
+|t:|1779945673
+|move|p1a: Gliscor|U-turn|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|t:|1779945677
+|switch|p1a: Regieleki|Regieleki|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1779945680
+|switch|p2a: Scizor|Scizor, M|94/100 brn
+|-heal|p2a: Scizor|100/100|[from] move: Healing Wish
+|turn|23
+|
+|t:|1779945687
+|move|p1a: Regieleki|Volt Switch|p2a: Scizor
+|-damage|p2a: Scizor|53/100
+|
+|t:|1779945689
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox|[from] Volt Switch
+|move|p2a: Scizor|Defog|p1a: Gliscor
+|-unboost|p1a: Gliscor|evasion|1
+|-sideend|p2: Railio|Stealth Rock|[from] move: Defog|[of] p2a: Scizor
+|
+|upkeep
+|turn|24
+|
+|t:|1779945694
+|move|p2a: Scizor|Bullet Punch|p1a: Gliscor
+|-damage|p1a: Gliscor|75/100 tox
+|move|p1a: Gliscor|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|32/100
+|-enditem|p2a: Scizor|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-heal|p1a: Gliscor|87/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|t:|1779945697
+|move|p2a: Scizor|Bullet Punch|p1a: Gliscor
+|-damage|p1a: Gliscor|59/100 tox
+|move|p1a: Gliscor|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|17/100
+|
+|-heal|p1a: Gliscor|71/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|
+|t:|1779945699
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Scizor|Bullet Punch|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|
+|t:|1779945702
+|move|p2a: Scizor|Bullet Punch|p1a: Gliscor
+|-damage|p1a: Gliscor|58/100 tox
+|move|p1a: Gliscor|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|2/100
+|
+|-heal|p1a: Gliscor|70/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|t:|1779945706
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Scizor|Bullet Punch|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|83/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|t:|1779945714
+|move|p2a: Scizor|Bullet Punch|p1a: Gliscor
+|-damage|p1a: Gliscor|55/100 tox
+|move|p1a: Gliscor|Spikes|p2a: Scizor
+|-sidestart|p2: Railio|Spikes
+|
+|-heal|p1a: Gliscor|67/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|t:|1779945716
+|move|p2a: Scizor|Bullet Punch|p1a: Gliscor
+|-damage|p1a: Gliscor|37/100 tox
+|move|p1a: Gliscor|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-heal|p1a: Gliscor|50/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1779945721
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-damage|p2a: Indeedee|88/100|[from] Spikes
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|31
+|
+|t:|1779945723
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-heal|p1a: Gliscor|62/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|32
+|
+|t:|1779945726
+|move|p2a: Indeedee|Expanding Force|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1779945730
+|switch|p1a: Regieleki|Regieleki|100/100
+|turn|33
+|
+|t:|1779945734
+|move|p2a: Indeedee|Expanding Force|p1a: Regieleki
+|-damage|p1a: Regieleki|0 fnt
+|faint|p1a: Regieleki
+|
+|upkeep
+|
+|t:|1779945737
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|68/100
+|turn|34
+|
+|t:|1779945741
+|move|p2a: Indeedee|Expanding Force|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|win|Railio
+|raw|jabottle's rating: 1405 &rarr; <strong>1390</strong><br />(-15 for losing)
+|raw|Railio's rating: 1490 &rarr; <strong>1505</strong><br />(+15 for winning)
+|l|☆Railio
+|player|p2|
+|l|☆jabottle
+|player|p1|

@@ -1,0 +1,537 @@
+|j|☆ramenn
+|j|☆Tuan Pham
+|t:|1760353810
+|gametype|singles
+|player|p1|ramenn|1|1201
+|player|p2|Tuan Pham|youngster-gen4dp|1154
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Great Tusk|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Scizor, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Vileplume, F|
+|poke|p2|Gengar, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Toxapex, M|
+|teampreview
+|
+|t:|1760353818
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|1
+|
+|t:|1760353831
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1760353841
+|move|p1a: Ogerpon|Spikes|p2a: Gliscor
+|-sidestart|p2: Tuan Pham|Spikes
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|75/100 tox
+|
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1760353847
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Gliscor|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|move|p2a: Gliscor|Toxic|p1a: Ogerpon
+|-status|p1a: Ogerpon|tox
+|
+|-damage|p1a: Ogerpon|95/100 tox|[from] psn
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ramenn)
+|
+|t:|1760353893
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|upkeep
+|turn|5
+|
+|t:|1760353909
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|75/100 tox
+|move|p1a: Slowking|Ice Beam|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1760353925
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|-damage|p2a: Garganacl|88/100|[from] Spikes
+|move|p1a: Slowking|Ice Beam|p2a: Garganacl
+|-damage|p2a: Garganacl|74/100
+|
+|-heal|p2a: Garganacl|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760353930
+|move|p2a: Garganacl|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|87/100
+|-start|p1a: Slowking|Salt Cure
+|move|p1a: Slowking|Psychic Noise|p2a: Garganacl
+|-damage|p2a: Garganacl|62/100
+|-start|p2a: Garganacl|move: Heal Block
+|
+|-damage|p1a: Slowking|74/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1760353937
+|move|p2a: Garganacl|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|59/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760353951
+|switch|p1a: Scizor|Scizor, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Garganacl|move: Heal Block
+|upkeep
+|turn|9
+|
+|t:|1760353962
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|-damage|p2a: Vileplume|88/100|[from] Spikes
+|move|p1a: Scizor|U-turn|p2a: Vileplume
+|-damage|p2a: Vileplume|45/100
+|-status|p1a: Scizor|par|[from] ability: Effect Spore|[of] p2a: Vileplume
+|
+|t:|1760353974
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Vileplume|52/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760353982
+|move|p1a: Dragapult|Draco Meteor|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Vileplume
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760353992
+|switch|p2a: Gengar|Gengar, F, shiny|100/100
+|-damage|p2a: Gengar|88/100|[from] Spikes
+|turn|11
+|
+|t:|1760354014
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Gengar|Trick|p1a: Dragonite
+|-activate|p2a: Gengar|move: Trick|[of] p1a: Dragonite
+|-item|p1a: Dragonite|Choice Scarf|[from] move: Trick
+|-item|p2a: Gengar|Heavy-Duty Boots|[from] move: Trick
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1760354022
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Dragonite|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1760354027
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Corviknight|Defog|p1a: Dragapult
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|-sideend|p2: Tuan Pham|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|14
+|
+|t:|1760354042
+|switch|p2a: Gliscor|Gliscor, M|88/100 tox
+|move|p1a: Dragapult|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|82/100 tox
+|
+|t:|1760354066
+|switch|p1a: Slowking|Slowking-Galar, F|92/100|[from] U-turn
+|
+|-heal|p2a: Gliscor|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1760354076
+|switch|p2a: Garganacl|Garganacl, F|62/100
+|move|p1a: Slowking|Psychic Noise|p2a: Garganacl
+|-damage|p2a: Garganacl|44/100
+|-start|p2a: Garganacl|move: Heal Block
+|
+|upkeep
+|turn|16
+|
+|t:|1760354083
+|move|p2a: Garganacl|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|77/100
+|-start|p1a: Slowking|Salt Cure
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|inactive|ramenn has 120 seconds left.
+|
+|t:|1760354112
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Garganacl|move: Heal Block
+|upkeep
+|turn|17
+|
+|t:|1760354118
+|move|p1a: Dragapult|Draco Meteor|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Garganacl
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760354121
+|switch|p2a: Gengar|Gengar, F, shiny|88/100
+|turn|18
+|
+|t:|1760354128
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Gengar|Hex|p1a: Dragonite
+|-damage|p1a: Dragonite|82/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1760354143
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Dragonite|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|47/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Toxapex|53/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1760354148
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Dragonite|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-weather|none
+|-heal|p2a: Toxapex|60/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1760354151
+|switch|p2a: Gliscor|Gliscor, M|94/100 tox
+|move|p1a: Dragonite|Earthquake|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|t:|1760354157
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Gliscor|Toxic|p1a: Slowking
+|-immune|p1a: Slowking
+|
+|upkeep
+|turn|23
+|
+|t:|1760354167
+|-terastallize|p2a: Gliscor|Water
+|move|p2a: Gliscor|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|35/100
+|move|p1a: Slowking|Psychic Noise|p2a: Gliscor
+|-damage|p2a: Gliscor|72/100 tox
+|-start|p2a: Gliscor|move: Heal Block
+|
+|upkeep
+|turn|24
+|inactive|ramenn has 120 seconds left.
+|
+|t:|1760354204
+|switch|p1a: Dragonite|Dragonite, M|82/100
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|47/100 tox
+|
+|-end|p2a: Gliscor|move: Heal Block
+|upkeep
+|turn|25
+|inactive|ramenn has 120 seconds left.
+|
+|t:|1760354213
+|move|p1a: Dragonite|Earthquake|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|move|p2a: Gliscor|Toxic|p1a: Dragonite
+|-status|p1a: Dragonite|tox
+|
+|-damage|p1a: Dragonite|75/100 tox|[from] psn
+|-heal|p2a: Gliscor|59/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|inactive|ramenn has 120 seconds left.
+|
+|t:|1760354225
+|switch|p1a: Slowking|Slowking-Galar, F|68/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|72/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|
+|t:|1760354231
+|-terastallize|p1a: Slowking|Water
+|move|p2a: Gliscor|Earthquake|p1a: Slowking
+|-damage|p1a: Slowking|34/100
+|move|p1a: Slowking|Psychic Noise|p2a: Gliscor
+|-damage|p2a: Gliscor|41/100 tox
+|-start|p2a: Gliscor|move: Heal Block
+|
+|upkeep
+|turn|28
+|inactive|ramenn has 120 seconds left.
+|
+|t:|1760354252
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|54/100
+|
+|-end|p2a: Gliscor|move: Heal Block
+|upkeep
+|turn|29
+|
+|t:|1760354261
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Dragapult|Shadow Ball|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|53/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|t:|1760354272
+|switch|p2a: Toxapex|Toxapex, M|93/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|56/100
+|
+|-heal|p2a: Toxapex|62/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1760354281
+|switch|p1a: Scizor|Scizor, F|100/100 par
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|69/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1760354289
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|cant|p1a: Scizor|par
+|
+|upkeep
+|turn|33
+|
+|t:|1760354294
+|move|p2a: Corviknight|Body Press|p1a: Scizor
+|-damage|p1a: Scizor|77/100 par
+|move|p1a: Scizor|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|89/100
+|-damage|p1a: Scizor|61/100 par|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|t:|1760354318
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|95/100 tox|[from] U-turn
+|
+|-damage|p1a: Ogerpon|89/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1760354322
+|move|p1a: Ogerpon|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|62/100
+|-damage|p1a: Ogerpon|72/100 tox|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Corviknight|Brave Bird|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-damage|p2a: Corviknight|44/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1760354328
+|switch|p1a: Dragapult|Dragapult, F|54/100
+|turn|35
+|
+|t:|1760354340
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|61/100
+|
+|-heal|p2a: Toxapex|67/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1760354352
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|74/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1760354366
+|switch|p2a: Corviknight|Corviknight, F|44/100
+|move|p1a: Great Tusk|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Tuan Pham|move: Stealth Rock
+|
+|upkeep
+|turn|38
+|
+|t:|1760354370
+|move|p1a: Great Tusk|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1760354378
+|switch|p2a: Gliscor|Gliscor, M, tera:Water|53/100 tox
+|-damage|p2a: Gliscor|41/100 tox|[from] Stealth Rock
+|turn|39
+|
+|t:|1760354384
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|53/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|40
+|
+|t:|1760354396
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gliscor
+|-damage|p2a: Gliscor|8/100 tox
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Gliscor|Toxic|p1a: Great Tusk
+|-status|p1a: Great Tusk|tox
+|
+|-damage|p1a: Great Tusk|94/100 tox|[from] psn
+|-heal|p2a: Gliscor|21/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|41
+|
+|t:|1760354407
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Dragapult|Dragapult, F|54/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|33/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|42
+|inactive|Tuan Pham has 120 seconds left.
+|
+|t:|1760354443
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Dragapult|Shadow Ball|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|46/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|43
+|
+|t:|1760354447
+|move|p1a: Dragapult|Shadow Ball|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|inactive|Tuan Pham has 120 seconds left.
+|
+|t:|1760354461
+|switch|p2a: Gengar|Gengar, F, shiny|88/100
+|turn|44
+|
+|t:|1760354464
+|move|p1a: Dragapult|Shadow Ball|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|l|☆Tuan Pham
+|inactive|Tuan Pham disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Tuan Pham has 30 seconds to reconnect!
+|inactive|Tuan Pham has 20 seconds to reconnect!
+|inactive|Tuan Pham has 15 seconds to reconnect!
+|inactive|Tuan Pham has 10 seconds to reconnect!
+|inactive|Tuan Pham has 5 seconds to reconnect!
+|-message|Tuan Pham lost due to inactivity.
+|
+|win|ramenn
+|raw|ramenn's rating: 1201 &rarr; <strong>1223</strong><br />(+22 for winning)
+|raw|Tuan Pham's rating: 1154 &rarr; <strong>1132</strong><br />(-22 for losing)

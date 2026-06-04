@@ -1,0 +1,254 @@
+|j|☆kayjulers
+|j|☆Supa Dupa Hoopa
+|t:|1769322376
+|gametype|singles
+|player|p1|kayjulers|clair|1451
+|player|p2|Supa Dupa Hoopa|102|1342
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Raging Bolt|
+|poke|p1|Hydrapple, F|
+|poke|p1|Cryogonal|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Kingambit, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Toxtricity-Low-Key, M|
+|teampreview
+|
+|t:|1769322392
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Meowscarada|atk|1
+|turn|1
+|
+|t:|1769322400
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Landorus|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|92/100
+|
+|t:|1769322408
+|switch|p1a: Hydrapple|Hydrapple, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1769322413
+|move|p2a: Great Tusk|Ice Spinner|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-crit|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|
+|upkeep
+|
+|t:|1769322417
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|3
+|
+|t:|1769322421
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Enamorus|Moonblast|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|63/100
+|
+|upkeep
+|turn|4
+|
+|t:|1769322428
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|move|p2a: Alomomola|Mirror Coat||[still]
+|-fail|p2a: Alomomola
+|
+|upkeep
+|turn|5
+|
+|t:|1769322433
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|39/100
+|move|p2a: Alomomola|Mirror Coat|p1a: Cryogonal
+|-damage|p1a: Cryogonal|31/100
+|
+|upkeep
+|turn|6
+|
+|t:|1769322440
+|move|p1a: Cryogonal|Recover|p1a: Cryogonal
+|-heal|p1a: Cryogonal|81/100
+|move|p2a: Alomomola|Flip Turn|p1a: Cryogonal
+|-damage|p1a: Cryogonal|61/100
+|
+|t:|1769322468
+|switch|p2a: Meowscarada|Meowscarada, M|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|7
+|
+|t:|1769322475
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Meowscarada|atk|1
+|move|p2a: Meowscarada|U-turn|p1a: Landorus
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|93/100
+|-damage|p2a: Meowscarada|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|t:|1769322488
+|switch|p2a: Great Tusk|Great Tusk|92/100|[from] U-turn
+|
+|upkeep
+|turn|8
+|
+|t:|1769322495
+|switch|p1a: Cryogonal|Cryogonal|61/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Cryogonal
+|-sidestart|p1: kayjulers|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1769322502
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Alomomola|Alomomola, F|72/100
+|move|p1a: Cryogonal|Freeze-Dry|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|51/100
+|
+|upkeep
+|turn|10
+|
+|t:|1769322509
+|move|p1a: Cryogonal|Rapid Spin|p2a: Alomomola
+|-damage|p2a: Alomomola|46/100
+|-boost|p1a: Cryogonal|spe|1
+|-sideend|p1: kayjulers|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Cryogonal
+|move|p2a: Alomomola|Flip Turn|p1a: Cryogonal
+|-damage|p1a: Cryogonal|42/100
+|
+|t:|1769322516
+|switch|p2a: Meowscarada|Meowscarada, M|84/100|[from] Flip Turn
+|
+|upkeep
+|turn|11
+|
+|t:|1769322524
+|move|p2a: Meowscarada|Flower Trick|p1a: Cryogonal
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p1a: Cryogonal
+|-damage|p1a: Cryogonal|0 fnt
+|faint|p1a: Cryogonal
+|
+|upkeep
+|
+|t:|1769322531
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|12
+|
+|t:|1769322537
+|switch|p2a: Great Tusk|Great Tusk|92/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769322544
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|13
+|
+|t:|1769322551
+|-terastallize|p1a: Raging Bolt|Fairy
+|move|p2a: Dragapult|U-turn|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|93/100
+|
+|t:|1769322555
+|switch|p2a: Alomomola|Alomomola, F|80/100|[from] U-turn
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Alomomola
+|-damage|p2a: Alomomola|47/100
+|
+|upkeep
+|turn|14
+|
+|t:|1769322565
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1769322569
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|turn|15
+|
+|t:|1769322573
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|93/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Toxtricity|atk|1
+|move|p2a: Toxtricity|Sludge Bomb|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|60/100
+|
+|upkeep
+|turn|16
+|
+|t:|1769322581
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|17
+|
+|t:|1769322591
+|move|p1a: Landorus|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Supa Dupa Hoopa|move: Stealth Rock
+|move|p2a: Corviknight|Body Press|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|50/100
+|-damage|p2a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|-heal|p2a: Corviknight|90/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|-message|Supa Dupa Hoopa forfeited.
+|
+|win|kayjulers
+|raw|kayjulers's rating: 1451 &rarr; <strong>1465</strong><br />(+14 for winning)
+|raw|Supa Dupa Hoopa's rating: 1342 &rarr; <strong>1328</strong><br />(-14 for losing)
+|l|☆Supa Dupa Hoopa
+|player|p2|
+|l|☆kayjulers
+|player|p1|

@@ -1,0 +1,291 @@
+|j|☆Megumin's Husband
+|j|☆PINGaBurger
+|t:|1760321336
+|gametype|singles
+|player|p1|Megumin's Husband|alder|1540
+|player|p2|PINGaBurger|266|1598
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pecharunt|
+|poke|p1|Primarina, F|
+|poke|p1|Heatran, M|
+|poke|p1|Great Tusk|
+|poke|p1|Weavile, F|
+|poke|p1|Ogerpon, F|
+|poke|p2|Maushold|
+|poke|p2|Darkrai|
+|poke|p2|Iron Valiant|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Indeedee, M|
+|poke|p2|Kyurem|
+|teampreview
+|
+|t:|1760321361
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Chomusuke|Weavile, F|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-ability|p1a: Chomusuke|Pressure
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1760321369
+|switch|p1a: Primarina|Primarina, F|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Primarina
+|-damage|p1a: Primarina|77/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760321381
+|move|p2a: Iron Valiant|Psyshock|p1a: Primarina
+|-damage|p1a: Primarina|45/100
+|move|p1a: Primarina|Moonblast|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760321392
+|switch|p2a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|3
+|
+|t:|1760321403
+|switch|p1a: Chomusuke|Weavile, F|100/100
+|-ability|p1a: Chomusuke|Pressure
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Chomusuke
+|-supereffective|p1a: Chomusuke
+|-damage|p1a: Chomusuke|28/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760321420
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Chomusuke|Knock Off|p2a: Kyurem
+|-damage|p2a: Kyurem|27/100
+|-enditem|p2a: Kyurem|Loaded Dice|[from] move: Knock Off|[of] p1a: Chomusuke
+|
+|upkeep
+|turn|5
+|
+|t:|1760321424
+|move|p1a: Chomusuke|Knock Off|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1760321435
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|6
+|
+|t:|1760321439
+|switch|p1a: Primarina|Primarina, F|45/100
+|move|p2a: Darkrai|Dark Pulse|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|33/100
+|
+|upkeep
+|turn|7
+|
+|t:|1760321450
+|switch|p2a: Mutant|Deoxys-Speed, shiny|100/100
+|-ability|p2a: Mutant|Pressure
+|move|p1a: Primarina|Moonblast|p2a: Mutant
+|-damage|p2a: Mutant|14/100
+|
+|upkeep
+|turn|8
+|
+|t:|1760321454
+|move|p2a: Mutant|Expanding Force|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|-damage|p2a: Mutant|4/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760321459
+|switch|p1a: Yamawaro|Ogerpon, F|100/100
+|turn|9
+|
+|t:|1760321465
+|-terastallize|p1a: Yamawaro|Grass
+|detailschange|p1a: Yamawaro|Ogerpon-Teal-Tera, F, tera:Grass
+|-ability|p1a: Yamawaro|Embody Aspect (Teal)|boost
+|-boost|p1a: Yamawaro|spe|1
+|move|p1a: Yamawaro|Ivy Cudgel|p2a: Mutant
+|-damage|p2a: Mutant|0 fnt
+|faint|p2a: Mutant
+|
+|upkeep
+|
+|t:|1760321469
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|10
+|
+|t:|1760321474
+|switch|p1a: Heatran|Heatran, M, shiny|100/100
+|-item|p1a: Heatran|Air Balloon
+|-terastallize|p2a: Darkrai|Poison
+|move|p2a: Darkrai|Sludge Bomb|p1a: Heatran
+|-immune|p1a: Heatran
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|11
+|
+|t:|1760321481
+|switch|p2a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Heatran|Earth Power|p2a: Indeedee
+|-damage|p2a: Indeedee|62/100
+|
+|upkeep
+|turn|12
+|
+|t:|1760321495
+|move|p2a: Indeedee|Healing Wish|p2a: Indeedee
+|faint|p2a: Indeedee
+|move|p1a: Heatran|Stealth Rock|p2: Indeedee
+|-sidestart|p2: PINGaBurger|move: Stealth Rock
+|
+|upkeep
+|
+|t:|1760321500
+|switch|p2a: Maushold|Maushold|100/100
+|-damage|p2a: Maushold|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1760321503
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Maushold|Encore||[still]
+|-fail|p2a: Maushold
+|
+|upkeep
+|turn|14
+|
+|t:|1760321507
+|move|p2a: Maushold|Tidy Up|p2a: Maushold
+|-sideend|p2: PINGaBurger|Stealth Rock
+|-activate|p2a: Maushold|move: Tidy Up
+|-boost|p2a: Maushold|atk|1
+|-boost|p2a: Maushold|spe|1
+|move|p1a: Pecharunt|Malignant Chain|p2a: Maushold
+|-damage|p2a: Maushold|44/100
+|-status|p2a: Maushold|tox
+|-start|p2a: Maushold|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-damage|p2a: Maushold|38/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1760321516
+|-activate|p2a: Maushold|confusion
+|move|p2a: Maushold|Bite|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|68/100
+|-damage|p2a: Maushold|21/100 tox|[from] item: Rocky Helmet|[of] p1a: Pecharunt
+|move|p1a: Pecharunt|Malignant Chain|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|
+|upkeep
+|
+|t:|1760321520
+|switch|p2a: Darkrai|Darkrai, tera:Poison|100/100
+|turn|16
+|
+|t:|1760321523
+|move|p2a: Darkrai|Dark Pulse|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1760321527
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|17
+|
+|t:|1760321530
+|move|p2a: Darkrai|Dark Pulse|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|67/100
+|cant|p1a: Great Tusk|flinch
+|
+|upkeep
+|turn|18
+|
+|t:|1760321534
+|move|p2a: Darkrai|Dark Pulse|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|32/100
+|cant|p1a: Great Tusk|flinch
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|19
+|
+|t:|1760321539
+|move|p2a: Darkrai|Dark Pulse|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760321546
+|switch|p1a: Heatran|Heatran, M, shiny|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|20
+|
+|t:|1760321548
+|move|p2a: Darkrai|Dark Pulse|p1a: Heatran
+|-damage|p1a: Heatran|73/100
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Earth Power|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|36/100
+|
+|upkeep
+|turn|21
+|
+|t:|1760321554
+|move|p2a: Darkrai|Dark Pulse|p1a: Heatran
+|-damage|p1a: Heatran|46/100
+|cant|p1a: Heatran|flinch
+|
+|upkeep
+|turn|22
+|
+|t:|1760321559
+|move|p2a: Darkrai|Dark Pulse|p1a: Heatran
+|-damage|p1a: Heatran|20/100
+|move|p1a: Heatran|Earth Power|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|win|Megumin's Husband
+|raw|Megumin&apos;s Husband's rating: 1540 &rarr; <strong>1563</strong><br />(+23 for winning)
+|raw|PINGaBurger's rating: 1598 &rarr; <strong>1575</strong><br />(-23 for losing)

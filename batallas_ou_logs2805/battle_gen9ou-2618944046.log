@@ -1,0 +1,256 @@
+|j|☆dsekop
+|j|☆2001civic
+|t:|1779865595
+|gametype|singles
+|player|p1|dsekop|unknown|1559
+|player|p2|2001civic|169|1568
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glimmora, M|
+|poke|p1|Iron Treads|
+|poke|p1|Polteageist-Antique|
+|poke|p1|Raging Bolt|
+|poke|p1|Dragonite, M|
+|poke|p1|Zamazenta-*|
+|poke|p2|Torkoal, F|
+|poke|p2|Great Tusk|
+|poke|p2|Walking Wake|
+|poke|p2|Kingambit, M|
+|poke|p2|Slither Wing|
+|poke|p2|Venusaur, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dsekop)
+|
+|t:|1779865612
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1779865619
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Polteageist|Polteageist-Antique|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Polteageist
+|-immune|p1a: Polteageist
+|
+|upkeep
+|turn|2
+|
+|t:|1779865623
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|upkeep
+|turn|3
+|
+|t:|1779865628
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-enditem|p1a: Polteageist|Focus Sash
+|-damage|p1a: Polteageist|1/100
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|
+|upkeep
+|turn|4
+|
+|t:|1779865640
+|move|p1a: Polteageist|Pain Split|p2a: Kingambit
+|-sethp|p2a: Kingambit|51/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Polteageist|78/100|[from] move: Pain Split
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|-heal|p2a: Kingambit|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779865644
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|turn|5
+|
+|t:|1779865651
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Iron Treads|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|93/100
+|-enditem|p2a: Great Tusk|Leftovers|[from] move: Knock Off|[of] p1a: Iron Treads
+|
+|upkeep
+|turn|6
+|
+|t:|1779865659
+|move|p1a: Iron Treads|Rapid Spin|p2a: Great Tusk
+|-damage|p2a: Great Tusk|85/100
+|-boost|p1a: Iron Treads|spe|1
+|move|p2a: Great Tusk|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|37/100
+|
+|upkeep
+|turn|7
+|
+|t:|1779865666
+|move|p1a: Iron Treads|Endeavor|p2a: Great Tusk
+|-damage|p2a: Great Tusk|33/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|33/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1779865673
+|move|p1a: Iron Treads|Rapid Spin|p2a: Great Tusk
+|-damage|p2a: Great Tusk|25/100
+|-boost|p1a: Iron Treads|spe|1
+|move|p2a: Great Tusk|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779865676
+|switch|p1a: 快龙一定要快|Dragonite, M|100/100
+|turn|9
+|
+|t:|1779865681
+|move|p1a: 快龙一定要快|Extreme Speed|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779865685
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|turn|10
+|
+|t:|1779865687
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Slither Wing|U-turn|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|61/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: 2001civic|move: Toxic Spikes
+|
+|t:|1779865699
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Venusaur|Venusaur, F|100/100|[from] U-turn
+|-sideend|p2: 2001civic|move: Toxic Spikes|[of] p2a: Venusaur
+|
+|upkeep
+|turn|11
+|
+|t:|1779865710
+|move|p1a: Glimmora|Sludge Wave|p2a: Venusaur
+|-damage|p2a: Venusaur|43/100
+|move|p2a: Venusaur|Giga Drain|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-heal|p2a: Venusaur|74/100|[from] drain|[of] p1a: Glimmora
+|faint|p1a: Glimmora
+|-damage|p2a: Venusaur|65/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779865720
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|12
+|
+|t:|1779865723
+|move|p2a: Venusaur|Sludge Bomb|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|51/100
+|-damage|p2a: Venusaur|55/100|[from] item: Life Orb
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|upkeep
+|
+|t:|1779865738
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|13
+|
+|t:|1779865741
+|move|p1a: Raging Bolt|Thunderclap|p2a: Walking Wake
+|-damage|p2a: Walking Wake|36/100
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779865750
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|14
+|
+|t:|1779865756
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1779865765
+|move|p1a: Zamazenta|Body Press|p2a: Torkoal
+|-damage|p2a: Torkoal|49/100
+|move|p2a: Torkoal|Lava Plume|p1a: Zamazenta
+|-damage|p1a: Zamazenta|71/100
+|-status|p1a: Zamazenta|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Zamazenta|77/100 brn|[from] item: Leftovers
+|-damage|p1a: Zamazenta|71/100 brn|[from] brn
+|upkeep
+|turn|16
+|-message|dsekop forfeited.
+|
+|win|2001civic
+|raw|dsekop's rating: 1559 &rarr; <strong>1540</strong><br />(-19 for losing)
+|raw|2001civic's rating: 1568 &rarr; <strong>1587</strong><br />(+19 for winning)
+|l|☆dsekop
+|player|p1|

@@ -1,0 +1,301 @@
+|j|☆knrdle
+|j|☆not thatone pls
+|t:|1779605794
+|gametype|singles
+|player|p1|knrdle|266|1153
+|player|p2|not thatone pls|266|1115
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mimikyu, M|
+|poke|p1|Serperior, M|
+|poke|p1|Milotic, F|
+|poke|p1|Iron Moth|
+|poke|p1|Tyranitar, M|
+|poke|p1|Iron Hands|
+|poke|p2|Enamorus, F|
+|poke|p2|Iron Crown|
+|poke|p2|Quaquaval, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1779605805
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Serperior|Serperior, M|100/100
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespa
+|turn|1
+|
+|t:|1779605813
+|move|p1a: Serperior|Leech Seed|p2a: Iron Crown
+|-start|p2a: Iron Crown|move: Leech Seed
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Serperior
+|-damage|p1a: Serperior|56/100
+|-damage|p1a: Serperior|13/100
+|-hitcount|p1a: Serperior|2
+|
+|-damage|p2a: Iron Crown|88/100|[from] Leech Seed|[of] p1a: Serperior
+|-heal|p1a: Serperior|26/100|[silent]
+|upkeep
+|turn|2
+|
+|t:|1779605822
+|move|p1a: Serperior|Protect|p1a: Serperior
+|-singleturn|p1a: Serperior|Protect
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|
+|-damage|p2a: Iron Crown|76/100|[from] Leech Seed|[of] p1a: Serperior
+|-heal|p1a: Serperior|40/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1779605840
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Iron Crown|Agility|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spe|2
+|
+|-damage|p2a: Iron Crown|63/100|[from] Leech Seed|[of] p1a: Iron Moth
+|upkeep
+|turn|4
+|
+|t:|1779605864
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-item|p1a: Tyranitar|Air Balloon
+|move|p2a: Iron Crown|Psychic|p1a: Tyranitar
+|-immune|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Crown|51/100|[from] Leech Seed|[of] p1a: Tyranitar
+|upkeep
+|turn|5
+|
+|t:|1779605869
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|74/100
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|45/100
+|-hitcount|p1a: Iron Moth|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|39/100|[from] Sandstorm
+|-damage|p2a: Iron Crown|38/100|[from] Leech Seed|[of] p1a: Iron Moth
+|-heal|p1a: Iron Moth|52/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1779605880
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|22/100
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|-hitcount|p1: Iron Moth|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1779605884
+|switch|p1a: Mimikyu|Mimikyu, M, shiny|100/100
+|turn|7
+|
+|t:|1779605888
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|-damage|p1a: Mimikyu|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mimikyu|85/100|[from] Sandstorm
+|upkeep
+|
+|t:|1779605908
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|8
+|
+|t:|1779605927
+|move|p2a: Thundurus|Thunderbolt|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|85/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M, shiny
+|-damage|p1a: Mimikyu|72/100|[from] pokemon: Mimikyu-Busted
+|-damage|p2a: Thundurus|91/100|[from] item: Life Orb
+|move|p1a: Mimikyu|Play Rough|p2a: Thundurus
+|-damage|p2a: Thundurus|23/100
+|-unboost|p2a: Thundurus|atk|1
+|-damage|p1a: Mimikyu|62/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1779605943
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Great Tusk
+|-damage|p2a: Great Tusk|85/100
+|-damage|p1a: Mimikyu|52/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1779605970
+|move|p1a: Mimikyu|Play Rough|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|13/100
+|-damage|p1a: Mimikyu|42/100|[from] item: Life Orb
+|move|p2a: Great Tusk|Headlong Rush|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Mimikyu
+|
+|upkeep
+|
+|t:|1779605974
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|11
+|
+|t:|1779605983
+|move|p1a: Iron Hands|Fake Out|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779605994
+|switch|p2a: Thundurus|Thundurus-Therian, M|23/100
+|turn|12
+|
+|t:|1779605999
+|move|p2a: Thundurus|Focus Blast|p1a: Iron Hands
+|-damage|p1a: Iron Hands|36/100
+|-damage|p2a: Thundurus|13/100|[from] item: Life Orb
+|move|p1a: Iron Hands|Supercell Slam|p2a: Thundurus
+|-heal|p2a: Thundurus|38/100|[from] ability: Volt Absorb|[of] p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt|[from] supercellslam
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779606014
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-item|p1a: Tyranitar|Air Balloon
+|turn|13
+|
+|t:|1779606023
+|move|p2a: Thundurus|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|55/100
+|-enditem|p1a: Tyranitar|Air Balloon
+|-damage|p2a: Thundurus|28/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Stone Edge|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1779606033
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|14
+|
+|t:|1779606036
+|move|p2a: Enamorus|Superpower|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Enamorus|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1779606038
+|switch|p1a: Milotic|Milotic, F, shiny|100/100
+|turn|15
+|
+|t:|1779606045
+|move|p2a: Enamorus|Superpower|p1a: Milotic
+|-damage|p1a: Milotic|30/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|move|p1a: Milotic|Haze|p1a: Milotic
+|-clearallboost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Enamorus|88/100|[from] Sandstorm
+|-damage|p1a: Milotic|24/100|[from] Sandstorm
+|-heal|p1a: Milotic|30/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1779606051
+|move|p2a: Enamorus|Superpower|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|faint|p1a: Milotic
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Enamorus|82/100|[from] Sandstorm
+|upkeep
+|
+|t:|1779606054
+|switch|p1a: Serperior|Serperior, M|40/100
+|turn|17
+|c|☆knrdle|gg
+|
+|t:|1779606061
+|move|p1a: Serperior|Leaf Storm|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|60/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Enamorus|Superpower|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|faint|p1a: Serperior
+|
+|win|not thatone pls
+|raw|knrdle's rating: 1153 &rarr; <strong>1125</strong><br />(-28 for losing)
+|raw|not thatone pls's rating: 1115 &rarr; <strong>1143</strong><br />(+28 for winning)
+|c|☆not thatone pls|gg
+|l|☆knrdle
+|player|p1|

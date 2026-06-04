@@ -1,0 +1,334 @@
+|j|☆argadini
+|j|☆mushtery
+|t:|1779725055
+|gametype|singles
+|player|p1|argadini|scott|1426
+|player|p2|mushtery|unknown|1429
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Kyurem|
+|poke|p1|Iron Treads|
+|poke|p1|Iron Crown|
+|poke|p2|Mew|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Alomomola, M|
+|poke|p2|Rillaboom, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mushtery)
+|inactive|mushtery has 120 seconds left.
+|
+|t:|1779725096
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|switch|p2a: Mew|Mew|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespe
+|turn|1
+|
+|t:|1779725105
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1779725112
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Mew
+|-damage|p2a: Mew|62/100
+|-damage|p2a: Mew|26/100
+|-hitcount|p2a: Mew|2
+|move|p2a: Mew|Close Combat|p1a: Iron Crown
+|-damage|p1a: Iron Crown|17/100
+|-unboost|p2a: Mew|def|1
+|-unboost|p2a: Mew|spd|1
+|-damage|p2a: Mew|16/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1779725127
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Rillaboom
+|-damage|p2a: Rillaboom|57/100
+|-damage|p2a: Rillaboom|8/100
+|-hitcount|p2a: Rillaboom|2
+|
+|-heal|p1a: Iron Crown|23/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|15/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1779725135
+|move|p2a: Rillaboom|Grassy Glide|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|-heal|p2a: Rillaboom|21/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779725139
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|5
+|
+|t:|1779725144
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|turn|6
+|
+|t:|1779725164
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Kommo-o
+|-crit|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|t:|1779725169
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|7
+|
+|t:|1779725177
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1779725184
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2a: Great Tusk|Stealth Rock|p1a: Kingambit
+|-sidestart|p1: argadini|move: Stealth Rock
+|move|p1a: Kingambit|Iron Head|p2a: Great Tusk
+|-damage|p2a: Great Tusk|17/100
+|
+|upkeep
+|turn|9
+|
+|t:|1779725189
+|move|p1a: Kingambit|Sucker Punch|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779725198
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|turn|10
+|
+|t:|1779725202
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Alomomola|Scald|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|77/100
+|
+|-heal|p1a: Kingambit|83/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1779725208
+|move|p1a: Kingambit|Iron Head|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|52/100
+|-damage|p1a: Kingambit|66/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|move|p2a: Alomomola|Scald|p1a: Kingambit
+|-damage|p1a: Kingambit|51/100
+|
+|-heal|p1a: Kingambit|58/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779725214
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Kingambit|64/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1779725218
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Kingambit|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1779725223
+|move|p1a: Kingambit|Sucker Punch|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|-damage|p1a: Kingambit|53/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|faint|p2a: Alomomola
+|
+|-heal|p1a: Kingambit|59/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779725231
+|switch|p2a: Rillaboom|Rillaboom, F|21/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|15
+|
+|t:|1779725235
+|-terastallize|p2a: Rillaboom|Grass
+|move|p2a: Rillaboom|Grassy Glide|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|-heal|p2a: Rillaboom|27/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779725241
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-damage|p1a: Iron Treads|98/100|[from] Stealth Rock
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|16
+|
+|t:|1779725254
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Iron Treads|Rapid Spin|p2a: Tornadus
+|-damage|p2a: Tornadus|87/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: argadini|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|
+|-heal|p1a: Iron Treads|100/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1779725260
+|move|p1a: Iron Treads|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: mushtery|move: Stealth Rock
+|move|p2a: Tornadus|Heat Wave|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|45/100
+|
+|-heal|p1a: Iron Treads|51/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1779725265
+|move|p1a: Iron Treads|Endeavor|p2a: Tornadus
+|-damage|p2a: Tornadus|54/100
+|move|p2a: Tornadus|Heat Wave|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779725268
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|19
+|
+|t:|1779725272
+|move|p2a: Tornadus|U-turn|p1a: Kyurem
+|-damage|p1a: Kyurem|88/100
+|
+|t:|1779725274
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|-heal|p1a: Kyurem|94/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|100/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|20
+|
+|t:|1779725281
+|move|p1a: Kyurem|Earth Power|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|35/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1779725284
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|21
+|
+|t:|1779725289
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1779725293
+|switch|p2a: Rillaboom|Rillaboom, F, tera:Grass|27/100
+|-damage|p2a: Rillaboom|15/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|22
+|
+|t:|1779725297
+|move|p2a: Rillaboom|Grassy Glide|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|win|mushtery
+|raw|argadini's rating: 1426 &rarr; <strong>1406</strong><br />(-20 for losing)
+|raw|mushtery's rating: 1429 &rarr; <strong>1449</strong><br />(+20 for winning)
+|l|☆argadini
+|player|p1|
+|l|☆mushtery
+|player|p2|
+|j|☆mushtery
+|player|p2|mushtery|unknown|
+|l|☆mushtery
+|player|p2|

@@ -1,0 +1,334 @@
+|j|☆DeeGrader
+|j|☆Grok4test
+|t:|1758255031
+|gametype|singles
+|player|p1|DeeGrader|265|1223
+|player|p2|Grok4test|hoopster|1274
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Gholdengo|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Great Tusk|
+|poke|p1|Rotom-Wash|
+|poke|p2|Incineroar, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Salamence, M|
+|poke|p2|Whimsicott, F|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Walking Wake|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DeeGrader)
+|
+|t:|1758255055
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Slowking|atk|1
+|turn|1
+|
+|t:|1758255064
+|move|p2a: Incineroar|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-enditem|p1a: Slowking|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1a: Slowking
+|-damage|p2a: Incineroar|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758255072
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|2
+|
+|t:|1758255079
+|move|p1a: Rotom|Thunder Wave|p2a: Incineroar
+|-status|p2a: Incineroar|par
+|cant|p2a: Incineroar|par
+|
+|upkeep
+|turn|3
+|
+|t:|1758255086
+|move|p1a: Rotom|Hydro Pump|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|upkeep
+|
+|t:|1758255104
+|switch|p2a: Salamence|Salamence, M|100/100
+|turn|4
+|
+|t:|1758255108
+|move|p2a: Salamence|Hyper Beam|p1a: Rotom
+|-damage|p1a: Rotom|11/100
+|-mustrecharge|p2a: Salamence
+|move|p1a: Rotom|Thunder Wave|p2a: Salamence
+|-status|p2a: Salamence|par
+|
+|-heal|p1a: Rotom|17/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1758255117
+|cant|p2a: Salamence|recharge
+|move|p1a: Rotom|Volt Switch|p2a: Salamence
+|-damage|p2a: Salamence|29/100 par
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|
+|t:|1758255125
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|6
+|
+|t:|1758255144
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Gholdengo|Make It Rain|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|71/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758255159
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Torkoal|Overheat|p1a: Hatterene
+|-damage|p1a: Hatterene|41/100
+|-unboost|p2a: Torkoal|spa|2
+|-enditem|p2a: Torkoal|Eject Pack
+|inactive|Grok4test has 120 seconds left.
+|
+|t:|1758255203
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Hatterene|47/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758255212
+|move|p2a: Walking Wake|Hydro Steam|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758255224
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|9
+|
+|t:|1758255228
+|switch|p1a: Rotom|Rotom-Wash|17/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758255239
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|10
+|
+|t:|1758255244
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1758255254
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Whimsicott|Moonblast|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|72/100
+|-unboost|p1a: Dragonite|spa|1
+|-enditem|p1a: Dragonite|Weakness Policy
+|-boost|p1a: Dragonite|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Dragonite|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|12
+|
+|t:|1758255264
+|move|p1a: Dragonite|Extreme Speed|p2a: Whimsicott
+|-damage|p2a: Whimsicott|2/100
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: Grok4test|move: Tailwind
+|
+|upkeep
+|turn|13
+|
+|t:|1758255280
+|move|p1a: Dragonite|Extreme Speed|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|upkeep
+|
+|t:|1758255291
+|switch|p2a: Salamence|Salamence, M|29/100 par
+|turn|14
+|
+|t:|1758255303
+|move|p1a: Dragonite|Extreme Speed|p2a: Salamence
+|-immune|p2a: Salamence
+|move|p2a: Salamence|Trick|p1a: Dragonite
+|-activate|p2a: Salamence|move: Trick|[of] p1a: Dragonite
+|-item|p1a: Dragonite|Choice Scarf|[from] move: Trick
+|-enditem|p2a: Salamence|Choice Scarf|[silent]|[from] move: Trick
+|
+|upkeep
+|turn|15
+|inactive|Grok4test has 120 seconds left.
+|
+|t:|1758255335
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Salamence|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|40/100
+|
+|-sideend|p2: Grok4test|move: Tailwind
+|upkeep
+|turn|16
+|inactive|Grok4test has 120 seconds left.
+|
+|t:|1758255344
+|move|p1a: Great Tusk|Knock Off|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|
+|upkeep
+|inactive|Grok4test has 120 seconds left.
+|
+|t:|1758255349
+|switch|p2a: Torkoal|Torkoal, M|71/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|17
+|
+|t:|1758255357
+|move|p1a: Great Tusk|Rapid Spin|p2a: Torkoal
+|-damage|p2a: Torkoal|54/100
+|-boost|p1a: Great Tusk|spe|1
+|move|p2a: Torkoal|Overheat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Torkoal|spa|2
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758255368
+|switch|p1a: Dragonite|Dragonite, M|72/100
+|turn|18
+|
+|t:|1758255373
+|move|p1a: Dragonite|Extreme Speed|p2a: Torkoal
+|-damage|p2a: Torkoal|31/100
+|move|p2a: Torkoal|Gyro Ball|p1a: Dragonite
+|-damage|p1a: Dragonite|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1758255382
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758255389
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|turn|20
+|
+|t:|1758255406
+|move|p1a: Dragonite|Extreme Speed|p2a: Salamence
+|-damage|p2a: Salamence|61/100
+|move|p2a: Salamence|Flamethrower|p1a: Dragonite
+|-damage|p1a: Dragonite|3/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1758255423
+|move|p1a: Dragonite|Extreme Speed|p2a: Salamence
+|-damage|p2a: Salamence|22/100
+|move|p2a: Salamence|Flamethrower|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|none
+|upkeep
+|
+|t:|1758255432
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|22
+|
+|t:|1758255437
+|move|p1a: Gholdengo|Shadow Ball|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|upkeep
+|
+|t:|1758255441
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|23
+|
+|t:|1758255455
+|-terastallize|p2a: Walking Wake|Fire
+|move|p2a: Walking Wake|Flamethrower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|win|Grok4test
+|raw|DeeGrader's rating: 1223 &rarr; <strong>1202</strong><br />(-21 for losing)
+|raw|Grok4test's rating: 1274 &rarr; <strong>1295</strong><br />(+21 for winning)
+|l|☆DeeGrader
+|player|p1|
+|l|☆Grok4test
+|player|p2|

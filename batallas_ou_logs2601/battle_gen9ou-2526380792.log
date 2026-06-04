@@ -1,0 +1,401 @@
+|j|☆z4chhhhh
+|j|☆router_z
+|t:|1769404623
+|gametype|singles
+|player|p1|z4chhhhh|169|1165
+|player|p2|router_z|rood|1130
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Clefable, F|
+|poke|p1|Gliscor, F|
+|poke|p1|Gholdengo|
+|poke|p1|Zamazenta-*|
+|poke|p2|Iron Valiant|
+|poke|p2|Excadrill, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Toxapex, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by router_z)
+|
+|t:|1769404647
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Clefable|Clefable, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1769404657
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|move|p1a: Clefable|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: router_z|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1769404675
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Gholdengo
+|-sidestart|p1: z4chhhhh|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|89/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1769404687
+|move|p1a: Gholdengo|Trick|p2a: Toxapex
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Toxapex
+|-item|p2a: Toxapex|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Eject Button|[from] move: Trick
+|move|p2a: Toxapex|Toxic|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|83/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1769404703
+|switch|p2a: Tornadus|Tornadus-Therian, M, shiny|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Gholdengo|Shadow Ball|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1769404714
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1769404720
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Excadrill|Substitute|p2a: Excadrill
+|-start|p2a: Excadrill|Substitute
+|-damage|p2a: Excadrill|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|79/100|[from] item: Leftovers
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1769404728
+|move|p2a: Excadrill|Rock Slide|p1a: Gliscor
+|-damage|p1a: Gliscor|78/100 tox
+|move|p1a: Gliscor|Knock Off|p2a: Excadrill
+|-end|p2a: Excadrill|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|85/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|90/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1769404740
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|move|p1a: Gliscor|Knock Off|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|78/100
+|-enditem|p2a: Tyranitar|Smooth Rock|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1769404752
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Tyranitar|Ice Punch|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|none
+|upkeep
+|
+|t:|1769404764
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|9
+|
+|t:|1769404775
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Gholdengo|Make It Rain|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|67/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|upkeep
+|turn|10
+|
+|t:|1769404796
+|move|p1a: Gholdengo|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|48/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Gholdengo
+|-sidestart|p1: z4chhhhh|move: Toxic Spikes
+|
+|upkeep
+|turn|11
+|
+|t:|1769404803
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|78/100
+|-damage|p2a: Tyranitar|66/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|94/100|[from] Sandstorm
+|upkeep
+|turn|12
+|inactive|z4chhhhh has 120 seconds left.
+|
+|t:|1769404825
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|-status|p1a: Samurott|tox
+|move|p2a: Tyranitar|Ice Punch|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|84/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Samurott|78/100 tox|[from] Sandstorm
+|-damage|p1a: Samurott|72/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1769404835
+|switch|p2a: Toxapex|Toxapex, F, shiny|82/100
+|-damage|p2a: Toxapex|69/100|[from] Stealth Rock
+|move|p1a: Samurott|Ceaseless Edge|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|21/100
+|-sidestart|p2: router_z|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Samurott|66/100 tox|[from] Sandstorm
+|-damage|p2a: Toxapex|15/100|[from] Sandstorm
+|-damage|p1a: Samurott|54/100 tox|[from] psn
+|upkeep
+|turn|14
+|inactive|z4chhhhh has 120 seconds left.
+|
+|t:|1769404851
+|move|p1a: Samurott|Ceaseless Edge|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|-sidestart|p2: router_z|Spikes
+|faint|p2a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Samurott|48/100 tox|[from] Sandstorm
+|-damage|p1a: Samurott|30/100 tox|[from] psn
+|upkeep
+|
+|t:|1769404859
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-damage|p2a: Iron Valiant|78/100|[from] Spikes
+|turn|15
+|
+|t:|1769404867
+|switch|p1a: Clefable|Clefable, F|100/100
+|-status|p1a: Clefable|tox
+|-terastallize|p2a: Iron Valiant|Ghost
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|42/100 tox
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1769404886
+|switch|p1a: Dragonite|Dragonite, M|94/100
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|10/100
+|-unboost|p1a: Dragonite|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1769404899
+|switch|p1a: Samurott|Samurott-Hisui, F|30/100 tox
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|6/100 tox
+|-unboost|p1a: Samurott|spd|1
+|
+|-damage|p1a: Samurott|0 fnt|[from] psn
+|faint|p1a: Samurott
+|upkeep
+|
+|t:|1769404909
+|switch|p1a: Dragonite|Dragonite, M|10/100
+|turn|18
+|
+|t:|1769404911
+|-terastallize|p1a: Dragonite|Normal
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Dragonite
+|-immune|p1a: Dragonite
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|60/100
+|
+|upkeep
+|turn|19
+|
+|t:|1769404925
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Tyranitar|Tyranitar, M|66/100
+|-damage|p2a: Tyranitar|54/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|37/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|54/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|t:|1769404940
+|move|p1a: Dragonite|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|48/100|[from] Sandstorm
+|upkeep
+|
+|t:|1769404947
+|switch|p2a: Excadrill|Excadrill, M|85/100
+|-damage|p2a: Excadrill|82/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|65/100|[from] Spikes
+|turn|21
+|
+|t:|1769404962
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769404972
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-status|p1a: Zamazenta|tox
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|22
+|
+|t:|1769404981
+|switch|p2a: Iron Valiant|Iron Valiant, shiny, tera:Ghost|78/100
+|-damage|p2a: Iron Valiant|65/100|[from] Stealth Rock
+|-damage|p2a: Iron Valiant|49/100|[from] Spikes
+|move|p1a: Zamazenta|Body Press|p2a: Iron Valiant
+|-immune|p2a: Iron Valiant
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zamazenta|94/100 tox|[from] Sandstorm
+|-damage|p2a: Iron Valiant|42/100|[from] Sandstorm
+|-heal|p1a: Zamazenta|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Zamazenta|94/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1769405002
+|switch|p1a: Clefable|Clefable, F|42/100 tox
+|move|p2a: Iron Valiant|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-weather|none
+|upkeep
+|
+|t:|1769405007
+|switch|p1a: Dragonite|Dragonite, M, tera:Normal|48/100
+|turn|24
+|
+|t:|1769405010
+|move|p2a: Iron Valiant|Moonblast|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1769405013
+|switch|p1a: Zamazenta|Zamazenta|94/100 tox
+|turn|25
+|
+|t:|1769405019
+|move|p1a: Zamazenta|Crunch|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Zamazenta|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Zamazenta|94/100 tox|[from] psn
+|upkeep
+|
+|t:|1769405027
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|-damage|p2a: Ogerpon|72/100|[from] Spikes
+|turn|26
+|
+|t:|1769405033
+|move|p1a: Zamazenta|Body Press|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-heal|p1a: Zamazenta|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Zamazenta|88/100 tox|[from] psn
+|upkeep
+|
+|t:|1769405039
+|switch|p2a: Excadrill|Excadrill, M|71/100
+|-damage|p2a: Excadrill|68/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|51/100|[from] Spikes
+|turn|27
+|
+|t:|1769405045
+|move|p1a: Zamazenta|Body Press|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|z4chhhhh
+|raw|z4chhhhh's rating: 1165 &rarr; <strong>1187</strong><br />(+22 for winning)
+|raw|router_z's rating: 1130 &rarr; <strong>1108</strong><br />(-22 for losing)
+|l|☆router_z
+|player|p2|

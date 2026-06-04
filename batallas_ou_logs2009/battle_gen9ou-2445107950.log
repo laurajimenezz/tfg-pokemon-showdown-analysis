@@ -1,0 +1,305 @@
+|j|☆Orion_blx
+|j|☆PlinPlinPlon2
+|t:|1758304891
+|gametype|singles
+|player|p1|Orion_blx|hoopster|1128
+|player|p2|PlinPlinPlon2|hiker-gen4|1122
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tyranitar, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Hydrapple, F|
+|poke|p1|Moltres|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Serperior, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Lycanroc, M|
+|poke|p2|Lokix, F|
+|poke|p2|Maushold-Four|
+|teampreview
+|
+|t:|1758304902
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Moltres|Moltres|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|
+|t:|1758304908
+|move|p2a: Garchomp|Stealth Rock|p1a: Moltres
+|-sidestart|p1: Orion_blx|move: Stealth Rock
+|move|p1a: Moltres|Will-O-Wisp|p2a: Garchomp
+|-status|p2a: Garchomp|brn
+|
+|-damage|p2a: Garchomp|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1758304918
+|switch|p2a: Lycanroc|Lycanroc, M|100/100
+|move|p1a: Moltres|U-turn|p2a: Lycanroc
+|-damage|p2a: Lycanroc|73/100
+|
+|t:|1758304923
+|switch|p1a: Excadrill|Excadrill, F|100/100|[from] U-turn
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-item|p1a: Excadrill|Air Balloon
+|
+|upkeep
+|turn|3
+|
+|t:|1758304938
+|move|p2a: Lycanroc|Swords Dance|p2a: Lycanroc
+|-boost|p2a: Lycanroc|atk|2
+|move|p1a: Excadrill|Rapid Spin|p2a: Lycanroc
+|-resisted|p2a: Lycanroc
+|-damage|p2a: Lycanroc|57/100
+|-boost|p1a: Excadrill|spe|1
+|-sideend|p1: Orion_blx|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|upkeep
+|turn|4
+|
+|t:|1758304945
+|move|p1a: Excadrill|Earthquake|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|upkeep
+|
+|t:|1758304966
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|5
+|
+|t:|1758304972
+|-terastallize|p1a: Excadrill|Fairy
+|move|p2a: Iron Valiant|Close Combat|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|61/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|-enditem|p1a: Excadrill|Air Balloon
+|move|p1a: Excadrill|Iron Head|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758304995
+|switch|p2a: Serperior|Serperior, M|100/100
+|turn|6
+|
+|t:|1758305009
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-terastallize|p2a: Serperior|Stellar
+|move|p2a: Serperior|Tera Blast|p1a: Slowking|[anim] Tera Blast Stellar
+|-damage|p1a: Slowking|83/100
+|-boost|p2a: Serperior|atk|1
+|-boost|p2a: Serperior|spa|1
+|
+|upkeep
+|turn|7
+|
+|t:|1758305019
+|move|p2a: Serperior|Leaf Storm|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|55/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Slowking|Toxic|p2a: Serperior
+|-status|p2a: Serperior|tox
+|
+|-damage|p2a: Serperior|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1758305028
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|70/100 tox
+|move|p1a: Slowking|Sludge Bomb|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Serperior|63/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1758305039
+|move|p2a: Serperior|Glare|p1a: Slowking
+|-status|p1a: Slowking|par
+|move|p1a: Slowking|Sludge Bomb|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+|
+|t:|1758305048
+|switch|p2a: Lokix|Lokix, F|100/100
+|turn|10
+|
+|t:|1758305076
+|move|p2a: Lokix|First Impression|p1a: Slowking
+|-damage|p1a: Slowking|5/100 par
+|move|p1a: Slowking|Sludge Bomb|p2a: Lokix
+|-damage|p2a: Lokix|37/100
+|
+|upkeep
+|turn|11
+|
+|t:|1758305087
+|move|p2a: Lokix|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-enditem|p1a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Lokix
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1758305161
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|12
+|
+|t:|1758305171
+|move|p1a: Keldeo|Vacuum Wave|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|faint|p2a: Lokix
+|
+|upkeep
+|
+|t:|1758305176
+|switch|p2a: Garchomp|Garchomp, M|94/100 brn
+|turn|13
+|
+|t:|1758305227
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Garchomp|Outrage|p1a: Moltres
+|-damage|p1a: Moltres|77/100
+|
+|-damage|p2a: Garchomp|88/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1758305236
+|move|p2a: Garchomp|Outrage|p1a: Moltres|[from] lockedmove
+|-damage|p1a: Moltres|51/100
+|move|p1a: Moltres|Overheat|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|64/100 brn
+|-unboost|p1a: Moltres|spa|2
+|
+|-damage|p2a: Garchomp|58/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1758305256
+|move|p2a: Garchomp|Outrage|p1a: Moltres|[from] lockedmove
+|-damage|p1a: Moltres|27/100
+|-start|p2a: Garchomp|confusion|[fatigue]
+|move|p1a: Moltres|U-turn|p2a: Garchomp
+|-damage|p2a: Garchomp|43/100 brn
+|-damage|p1a: Moltres|15/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Moltres|0 fnt|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p1a: Moltres
+|
+|-damage|p2a: Garchomp|37/100 brn|[from] brn
+|upkeep
+|
+|t:|1758305267
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|16
+|
+|t:|1758305273
+|-activate|p2a: Garchomp|confusion
+|-damage|p2a: Garchomp|28/100 brn|[from] confusion
+|move|p1a: Tyranitar|Ice Punch|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Tyranitar|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Tyranitar|72/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1758305282
+|switch|p2a: Maushold|Maushold-Four|100/100
+|turn|17
+|
+|t:|1758305294
+|move|p2a: Maushold|Tidy Up|p2a: Maushold
+|-boost|p2a: Maushold|atk|1
+|-boost|p2a: Maushold|spe|1
+|move|p1a: Tyranitar|Ice Punch|p2a: Maushold
+|-damage|p2a: Maushold|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Maushold|27/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|t:|1758305304
+|move|p2a: Maushold|Population Bomb|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|64/100
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|57/100
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|50/100
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|43/100
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|35/100
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|28/100
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|20/100
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|12/100
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|5/100
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-hitcount|p1: Tyranitar|10
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Maushold|21/100|[from] Sandstorm
+|upkeep
+|
+|t:|1758305309
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|19
+|
+|t:|1758305329
+|move|p1a: Keldeo|Vacuum Wave|p2a: Maushold
+|-supereffective|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|
+|win|Orion_blx
+|raw|Orion_blx's rating: 1128 &rarr; <strong>1153</strong><br />(+25 for winning)
+|raw|PlinPlinPlon2's rating: 1122 &rarr; <strong>1097</strong><br />(-25 for losing)
+|l|☆PlinPlinPlon2
+|player|p2|

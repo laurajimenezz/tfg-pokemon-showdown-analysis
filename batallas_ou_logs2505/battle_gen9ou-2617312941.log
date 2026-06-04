@@ -1,0 +1,273 @@
+|j|☆hat40
+|j|☆harrolux
+|t:|1779671887
+|gametype|singles
+|player|p1|hat40|102|1535
+|player|p2|harrolux|steven|1465
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Manaphy|
+|poke|p1|Bruxish, F|
+|poke|p1|Overqwil, M|
+|poke|p1|Iron Treads|
+|poke|p1|Raging Bolt|
+|poke|p2|Garganacl, F|
+|poke|p2|Mesprit|
+|poke|p2|Kyurem|
+|poke|p2|Iron Moth|
+|poke|p2|Clefable, F|
+|poke|p2|Rampardos, M|
+|teampreview
+|
+|t:|1779671894
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Levi|Mesprit, shiny|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1779671904
+|move|p1a: Iron Treads|Knock Off|p2a: Levi
+|-supereffective|p2a: Levi
+|-damage|p2a: Levi|47/100
+|-enditem|p2a: Levi|Choice Scarf|[from] move: Knock Off|[of] p1a: Iron Treads
+|move|p2a: Levi|Knock Off|p1a: Iron Treads
+|-damage|p1a: Iron Treads|85/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779671913
+|move|p1a: Iron Treads|Stealth Rock|p2a: Levi
+|-sidestart|p2: harrolux|move: Stealth Rock
+|move|p2a: Levi|Fire Punch|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|47/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779671922
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Levi|Fire Punch|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|96/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779671930
+|move|p2a: Levi|Thunder Punch|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|26/100
+|move|p1a: Pelipper|U-turn|p2a: Levi
+|-supereffective|p2a: Levi
+|-damage|p2a: Levi|30/100
+|
+|t:|1779671939
+|switch|p1a: Overqwil|Overqwil, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779671945
+|move|p1a: Overqwil|Swords Dance|p1a: Overqwil
+|-boost|p1a: Overqwil|atk|2
+|move|p2a: Levi|Trick|p1a: Overqwil
+|-activate|p2a: Levi|move: Trick|[of] p1a: Overqwil
+|-enditem|p1a: Overqwil|Life Orb|[silent]|[from] move: Trick
+|-item|p2a: Levi|Life Orb|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779671955
+|move|p1a: Overqwil|Crunch|p2a: Levi
+|-supereffective|p2a: Levi
+|-damage|p2a: Levi|0 fnt
+|faint|p2a: Levi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779671990
+|switch|p2a: Magic Guard|Clefable, F, shiny|100/100
+|-damage|p2a: Magic Guard|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1779672003
+|-terastallize|p2a: Magic Guard|Electric
+|move|p1a: Overqwil|Gunk Shot|p2a: Magic Guard|[miss]
+|-miss|p1a: Overqwil|p2a: Magic Guard
+|move|p2a: Magic Guard|Calm Mind|p2a: Magic Guard
+|-boost|p2a: Magic Guard|spa|1
+|-boost|p2a: Magic Guard|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magic Guard|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1779672012
+|move|p1a: Overqwil|Crunch|p2a: Magic Guard
+|-damage|p2a: Magic Guard|52/100
+|-unboost|p2a: Magic Guard|def|1
+|move|p2a: Magic Guard|Thunderbolt|p1a: Overqwil
+|-damage|p1a: Overqwil|0 fnt
+|faint|p1a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magic Guard|58/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779672017
+|switch|p1a: Iron Treads|Iron Treads|47/100
+|turn|9
+|
+|t:|1779672048
+|move|p1a: Iron Treads|Earthquake|p2a: Magic Guard
+|-supereffective|p2a: Magic Guard
+|-damage|p2a: Magic Guard|0 fnt
+|faint|p2a: Magic Guard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779672055
+|switch|p2a: Sheer|Rampardos, M, shiny|100/100
+|-damage|p2a: Sheer|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1779672059
+|move|p2a: Sheer|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1779672063
+|switch|p1a: Pelipper|Pelipper, F|26/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|11
+|
+|t:|1779672079
+|switch|p2a: Pressure|Kyurem, shiny|100/100
+|-damage|p2a: Pressure|76/100|[from] Stealth Rock
+|-ability|p2a: Pressure|Pressure
+|move|p1a: Pelipper|U-turn|p2a: Pressure
+|-damage|p2a: Pressure|69/100
+|
+|t:|1779672082
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1779672095
+|-terastallize|p1a: Raging Bolt|Fairy
+|move|p2a: Pressure|Freeze-Dry|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|63/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Pressure
+|-supereffective|p2a: Pressure
+|-damage|p2a: Pressure|0 fnt
+|faint|p2a: Pressure
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779672113
+|switch|p2a: Quark|Iron Moth, shiny|100/100
+|-damage|p2a: Quark|76/100|[from] Stealth Rock
+|-enditem|p2a: Quark|Booster Energy
+|-activate|p2a: Quark|ability: Quark Drive|[fromitem]
+|-start|p2a: Quark|quarkdrivespa
+|turn|13
+|
+|t:|1779672118
+|move|p1a: Raging Bolt|Thunderclap|p2a: Quark
+|-damage|p2a: Quark|19/100
+|move|p2a: Quark|Flash Cannon|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779672123
+|switch|p1a: Bruxish|Bruxish, F|100/100
+|turn|14
+|
+|t:|1779672127
+|move|p1a: Bruxish|Wave Crash|p2a: Quark
+|-supereffective|p2a: Quark
+|-damage|p2a: Quark|0 fnt
+|faint|p2a: Quark
+|-end|p2a: Quark|Quark Drive|[silent]
+|-damage|p1a: Bruxish|94/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779672133
+|switch|p2a: Sheer|Rampardos, M, shiny|88/100
+|-damage|p2a: Sheer|75/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1779672140
+|move|p1a: Bruxish|Wave Crash|p2a: Sheer
+|-supereffective|p2a: Sheer
+|-damage|p2a: Sheer|0 fnt
+|faint|p2a: Sheer
+|-damage|p1a: Bruxish|64/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779672145
+|switch|p2a: Purify|Garganacl, F, shiny|100/100
+|-damage|p2a: Purify|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1779672149
+|move|p1a: Bruxish|Wave Crash|p2a: Purify
+|-supereffective|p2a: Purify
+|-damage|p2a: Purify|0 fnt
+|faint|p2a: Purify
+|-damage|p1a: Bruxish|29/100|[from] Recoil
+|
+|win|hat40
+|raw|hat40's rating: 1535 &rarr; <strong>1551</strong><br />(+16 for winning)
+|raw|harrolux's rating: 1465 &rarr; <strong>1449</strong><br />(-16 for losing)
+|l|☆harrolux
+|player|p2|
+|l|☆hat40
+|player|p1|

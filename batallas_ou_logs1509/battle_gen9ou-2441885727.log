@@ -1,0 +1,217 @@
+|j|☆XYnotfound
+|j|☆Jorora
+|t:|1757917200
+|gametype|singles
+|player|p1|XYnotfound|170|1127
+|player|p2|Jorora|lance|1094
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienshao, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Hands|
+|poke|p1|Infernape, F|
+|poke|p1|Keldeo-Resolute|
+|poke|p2|Garchomp, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Walking Wake|
+|poke|p2|Duraludon, F|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Kingdra, M|
+|teampreview
+|
+|t:|1757917215
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Infernape|Infernape, F|100/100
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|-item|p2a: Goodra|Air Balloon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by XYnotfound)
+|
+|t:|1757917229
+|-terastallize|p2a: Goodra|Poison
+|move|p1a: Infernape|Fake Out|p2a: Goodra
+|-damage|p2a: Goodra|90/100
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Infernape|spe|1
+|-enditem|p2a: Goodra|Air Balloon
+|cant|p2a: Goodra|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1757917238
+|move|p1a: Infernape|Stealth Rock|p2a: Goodra
+|-sidestart|p2: Jorora|move: Stealth Rock
+|move|p2a: Goodra|Counter||[still]
+|-fail|p2a: Goodra
+|
+|upkeep
+|turn|3
+|
+|t:|1757917244
+|move|p1a: Infernape|Overheat|p2a: Goodra
+|-damage|p2a: Goodra|57/100
+|-unboost|p1a: Infernape|spa|2
+|move|p2a: Goodra|Knock Off|p1a: Infernape
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|82/100
+|-enditem|p1a: Infernape|Focus Sash|[from] move: Knock Off|[of] p2a: Goodra
+|
+|upkeep
+|turn|4
+|
+|t:|1757917260
+|move|p1a: Infernape|Mach Punch|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|48/100
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Infernape|spe|1
+|move|p2a: Goodra|Sludge Bomb|p1a: Infernape
+|-damage|p1a: Infernape|12/100
+|-status|p1a: Infernape|psn
+|
+|-damage|p1a: Infernape|0 fnt|[from] psn
+|faint|p1a: Infernape
+|upkeep
+|
+|t:|1757917276
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|5
+|
+|t:|1757917285
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Goodra|Sludge Bomb|p1a: Zamazenta
+|-damage|p1a: Zamazenta|65/100
+|
+|-heal|p1a: Zamazenta|71/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1757917295
+|move|p1a: Zamazenta|Body Press|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|5/100
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Zamazenta|spe|1
+|move|p2a: Goodra|Sludge Bomb|p1a: Zamazenta
+|-damage|p1a: Zamazenta|36/100
+|-status|p1a: Zamazenta|psn
+|
+|-heal|p1a: Zamazenta|43/100 psn|[from] item: Leftovers
+|-damage|p1a: Zamazenta|30/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1757917307
+|move|p1a: Zamazenta|Crunch|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Zamazenta|spe|1
+|faint|p2a: Goodra
+|
+|-heal|p1a: Zamazenta|36/100 psn|[from] item: Leftovers
+|-damage|p1a: Zamazenta|24/100 psn|[from] psn
+|upkeep
+|
+|t:|1757917317
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|-damage|p2a: Kingdra|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1757917330
+|move|p2a: Kingdra|Rain Dance|p2a: Kingdra
+|-weather|RainDance
+|move|p1a: Zamazenta|Body Press|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|faint|p2a: Kingdra
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|30/100 psn|[from] item: Leftovers
+|-damage|p1a: Zamazenta|18/100 psn|[from] psn
+|upkeep
+|
+|t:|1757917338
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-damage|p2a: Walking Wake|88/100|[from] Stealth Rock
+|-enditem|p2a: Walking Wake|Booster Energy
+|-activate|p2a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|9
+|
+|t:|1757917344
+|move|p2a: Walking Wake|Hurricane|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757917347
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|10
+|
+|t:|1757917352
+|move|p1a: Iron Valiant|Moonblast|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757917357
+|switch|p2a: Duraludon|Duraludon, F, shiny|100/100
+|-damage|p2a: Duraludon|94/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1757917373
+|move|p1a: Iron Valiant|Aura Sphere|p2a: Duraludon
+|-supereffective|p2a: Duraludon
+|-damage|p2a: Duraludon|6/100
+|move|p2a: Duraludon|Metal Burst|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757917387
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|turn|12
+|l|☆XYnotfound
+|inactive|XYnotfound disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|XYnotfound has 30 seconds to reconnect!
+|inactive|XYnotfound has 20 seconds to reconnect!
+|inactive|XYnotfound has 15 seconds to reconnect!
+|inactive|XYnotfound has 10 seconds to reconnect!
+|inactive|XYnotfound has 5 seconds to reconnect!
+|-message|XYnotfound lost due to inactivity.
+|
+|win|Jorora
+|raw|XYnotfound's rating: 1127 &rarr; <strong>1100</strong><br />(-27 for losing)
+|raw|Jorora's rating: 1094 &rarr; <strong>1122</strong><br />(+28 for winning)
+|l|☆Jorora
+|player|p2|

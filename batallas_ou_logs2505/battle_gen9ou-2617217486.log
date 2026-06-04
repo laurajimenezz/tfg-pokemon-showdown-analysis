@@ -1,0 +1,295 @@
+|j|☆comisariogrek
+|j|☆buglion
+|t:|1779660506
+|gametype|singles
+|player|p1|comisariogrek|265|1017
+|player|p2|buglion|acetrainersnowf|1018
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Iron Moth|
+|poke|p1|Kingambit, M|
+|poke|p1|Rotom-Wash|
+|poke|p2|Iron Valiant|
+|poke|p2|Glimmora, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Zapdos|
+|poke|p2|Kingambit, F|
+|poke|p2|Rillaboom, F|
+|teampreview
+|
+|t:|1779660513
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|switch|p2a: Glimmerence|Glimmora, F|100/100
+|turn|1
+|
+|t:|1779660520
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|move|p2a: Glimmerence|Meteor Beam||[still]
+|-prepare|p2a: Glimmerence|Meteor Beam
+|-boost|p2a: Glimmerence|spa|1
+|-enditem|p2a: Glimmerence|Power Herb
+|-anim|p2a: Glimmerence|Meteor Beam|p1a: Hatterene
+|-damage|p1a: Hatterene|4/100
+|
+|-heal|p1a: Hatterene|10/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|j| biparel
+|
+|t:|1779660533
+|move|p2a: Glimmerence|Mortal Spin|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1779660538
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|turn|3
+|
+|t:|1779660544
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Glimmerence|Meteor Beam||[still]
+|-prepare|p2a: Glimmerence|Meteor Beam
+|-boost|p2a: Glimmerence|spa|1
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1779660553
+|move|p2a: Glimmerence|Meteor Beam|p1a: Gliscor|[from] lockedmove
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1779660558
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|turn|5
+|
+|t:|1779660565
+|move|p2a: Glimmerence|Earth Power|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|22/100
+|move|p1a: Kingambit|Iron Head|p2a: Glimmerence
+|-supereffective|p2a: Glimmerence
+|-damage|p2a: Glimmerence|0 fnt
+|-activate|p2a: Glimmerence|ability: Toxic Debris
+|-sidestart|p1: comisariogrek|move: Toxic Spikes
+|faint|p2a: Glimmerence
+|
+|upkeep
+|
+|t:|1779660575
+|switch|p2a: Zaddy|Zapdos|100/100
+|-ability|p2a: Zaddy|Pressure
+|turn|6
+|
+|t:|1779660582
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-item|p1a: Rotom|Air Balloon
+|move|p2a: Zaddy|Heat Wave|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|87/100
+|-enditem|p1a: Rotom|Air Balloon
+|
+|upkeep
+|turn|7
+|
+|t:|1779660611
+|move|p2a: Zaddy|Eerie Impulse|p1a: Rotom
+|-unboost|p1a: Rotom|spa|2
+|move|p1a: Rotom|Will-O-Wisp|p2a: Zaddy
+|-status|p2a: Zaddy|brn
+|
+|-damage|p2a: Zaddy|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1779660623
+|move|p2a: Zaddy|Ancient Power|p1a: Rotom
+|-damage|p1a: Rotom|70/100
+|move|p1a: Rotom|Volt Switch|p2a: Zaddy
+|-damage|p2a: Zaddy|78/100 brn
+|
+|t:|1779660629
+|switch|p1a: Iron Moth|Iron Moth|100/100|[from] Volt Switch
+|-sideend|p1: comisariogrek|move: Toxic Spikes|[of] p1a: Iron Moth
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|
+|-damage|p2a: Zaddy|72/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1779660641
+|move|p1a: Iron Moth|Fiery Dance|p2a: Zaddy
+|-damage|p2a: Zaddy|21/100 brn
+|move|p2a: Zaddy|Thunder Wave|p1a: Iron Moth
+|-status|p1a: Iron Moth|par
+|
+|-damage|p2a: Zaddy|14/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1779660650
+|move|p2a: Zaddy|Ancient Power|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|65/100 par
+|cant|p1a: Iron Moth|par
+|
+|-damage|p2a: Zaddy|8/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1779660658
+|move|p2a: Zaddy|Ancient Power|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|30/100 par
+|move|p1a: Iron Moth|Agility|p1a: Iron Moth
+|-boost|p1a: Iron Moth|spe|2
+|
+|-damage|p2a: Zaddy|2/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1779660667
+|move|p1a: Iron Moth|Fiery Dance|p2a: Zaddy
+|-damage|p2a: Zaddy|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Zaddy
+|
+|upkeep
+|
+|t:|1779660678
+|switch|p2a: Slayyyter|Iron Valiant|100/100
+|-enditem|p2a: Slayyyter|Booster Energy
+|-activate|p2a: Slayyyter|ability: Quark Drive|[fromitem]
+|-start|p2a: Slayyyter|quarkdrivespa
+|turn|13
+|
+|t:|1779660688
+|move|p1a: Iron Moth|Fiery Dance|p2a: Slayyyter
+|-damage|p2a: Slayyyter|0 fnt
+|faint|p2a: Slayyyter
+|-end|p2a: Slayyyter|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779660693
+|switch|p2a: Dragula|Dragapult, F|100/100
+|turn|14
+|
+|t:|1779660705
+|move|p2a: Dragula|Hex|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779660712
+|switch|p1a: Kingambit|Kingambit, M|22/100
+|turn|15
+|
+|t:|1779660744
+|move|p1a: Kingambit|Sucker Punch|p2a: Dragula
+|-supereffective|p2a: Dragula
+|-damage|p2a: Dragula|0 fnt
+|faint|p2a: Dragula
+|
+|upkeep
+|
+|t:|1779660752
+|switch|p2a: Kongo Krush|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Kongo Krush
+|turn|16
+|
+|t:|1779660763
+|move|p1a: Kingambit|Sucker Punch|p2a: Kongo Krush
+|-damage|p2a: Kongo Krush|59/100
+|move|p2a: Kongo Krush|Hammer Arm|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Kongo Krush|spe|1
+|faint|p1a: Kingambit
+|
+|-heal|p2a: Kongo Krush|65/100|[from] Grassy Terrain
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by buglion)
+|
+|t:|1779660775
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|17
+|
+|t:|1779660783
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Kongo Krush
+|-damage|p2a: Kongo Krush|0 fnt
+|faint|p2a: Kongo Krush
+|
+|upkeep
+|
+|t:|1779660789
+|switch|p2a: Samurai Jack|Kingambit, F|100/100
+|turn|18
+|
+|t:|1779660794
+|move|p1a: Dragonite|Extreme Speed|p2a: Samurai Jack
+|-resisted|p2a: Samurai Jack
+|-damage|p2a: Samurai Jack|73/100
+|move|p2a: Samurai Jack|Swords Dance|p2a: Samurai Jack
+|-boost|p2a: Samurai Jack|atk|2
+|
+|-heal|p2a: Samurai Jack|79/100|[from] Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1779660804
+|move|p1a: Dragonite|Extreme Speed|p2a: Samurai Jack
+|-resisted|p2a: Samurai Jack
+|-damage|p2a: Samurai Jack|55/100
+|move|p2a: Samurai Jack|Low Kick|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Samurai Jack|61/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779660814
+|switch|p1a: Rotom|Rotom-Wash|70/100
+|turn|20
+|
+|t:|1779660819
+|move|p1a: Rotom|Hydro Pump|p2a: Samurai Jack
+|-damage|p2a: Samurai Jack|10/100
+|move|p2a: Samurai Jack|Kowtow Cleave|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|win|buglion
+|raw|comisariogrek's rating: 1017 &rarr; <strong>1004</strong><br />(-13 for losing)
+|raw|buglion's rating: 1018 &rarr; <strong>1055</strong><br />(+37 for winning)
+|l|☆buglion
+|player|p2|

@@ -1,0 +1,148 @@
+|j|☆Bleud29
+|j|☆Gyatt_0
+|t:|1759051241
+|gametype|singles
+|player|p1|Bleud29|102|1064
+|player|p2|Gyatt_0|170|1051
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Thundurus, M|
+|poke|p1|Vileplume, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Passimian, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Toxapex, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|
+|t:|1759051256
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-item|p1a: Torkoal|Air Balloon
+|turn|1
+|
+|t:|1759051274
+|move|p1a: Torkoal|Shell Smash|p1a: Torkoal
+|-unboost|p1a: Torkoal|def|1
+|-unboost|p1a: Torkoal|spd|1
+|-boost|p1a: Torkoal|atk|2
+|-boost|p1a: Torkoal|spa|2
+|-boost|p1a: Torkoal|spe|2
+|move|p2a: Slowking|Psychic Terrain|p2a: Slowking
+|-fieldstart|move: Psychic Terrain
+|
+|upkeep
+|turn|2
+|
+|t:|1759051290
+|move|p1a: Torkoal|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|2/100
+|move|p2a: Slowking|Expanding Force|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-enditem|p1a: Torkoal|Air Balloon
+|faint|p1a: Torkoal
+|
+|-heal|p2a: Slowking|8/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1759051319
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|turn|3
+|
+|t:|1759051337
+|move|p1a: Thundurus|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-enditem|p2a: Slowking|Leftovers|[from] move: Knock Off|[of] p1a: Thundurus
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1759051350
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|4
+|
+|t:|1759051358
+|move|p1a: Thundurus|Swagger|p2a: Hatterene
+|move|p2a: Hatterene|Swagger|p1a: Thundurus|[from] ability: Magic Bounce
+|-boost|p1a: Thundurus|atk|2
+|-start|p1a: Thundurus|confusion
+|move|p2a: Hatterene|Expanding Force|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1759051372
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|turn|5
+|
+|t:|1759051380
+|move|p1a: Toxapex|Poison Jab|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|32/100
+|move|p2a: Hatterene|Expanding Force|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1759051393
+|switch|p1a: Passimian|Passimian, M|100/100
+|turn|6
+|
+|t:|1759051399
+|move|p1a: Passimian|Fling|p2a: Hatterene
+|-damage|p2a: Hatterene|4/100
+|-status|p2a: Hatterene|psn
+|-enditem|p1a: Passimian|Poison Barb|[from] move: Fling
+|move|p2a: Hatterene|Draining Kiss|p1a: Passimian
+|-supereffective|p1a: Passimian
+|-damage|p1a: Passimian|17/100
+|-heal|p2a: Hatterene|71/100 psn|[from] drain|[of] p1a: Passimian
+|
+|-damage|p2a: Hatterene|59/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1759051412
+|move|p1a: Passimian|Acrobatics|p2a: Hatterene
+|-damage|p2a: Hatterene|21/100 psn
+|move|p2a: Hatterene|Draining Kiss|p1a: Passimian
+|-supereffective|p1a: Passimian
+|-damage|p1a: Passimian|0 fnt
+|-heal|p2a: Hatterene|34/100 psn|[from] drain|[of] p1a: Passimian
+|faint|p1a: Passimian
+|
+|-damage|p2a: Hatterene|22/100 psn|[from] psn
+|upkeep
+|-message|Bleud29 forfeited.
+|
+|win|Gyatt_0
+|raw|Bleud29's rating: 1064 &rarr; <strong>1044</strong><br />(-20 for losing)
+|raw|Gyatt_0's rating: 1051 &rarr; <strong>1085</strong><br />(+34 for winning)
+|l|☆Bleud29
+|player|p1|
+|l|☆Gyatt_0
+|player|p2|

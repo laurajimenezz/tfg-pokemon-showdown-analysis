@@ -1,0 +1,273 @@
+|j|☆silverlol
+|j|☆Flumani
+|t:|1760309599
+|gametype|singles
+|player|p1|silverlol|gambler|1264
+|player|p2|Flumani|leon|1221
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Scizor, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Garchomp, F|
+|poke|p1|Metagross|
+|poke|p1|Zapdos|
+|poke|p1|Excadrill, M|
+|poke|p2|Great Tusk|
+|poke|p2|Polteageist|
+|poke|p2|Serperior, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Golurk|
+|poke|p2|Toxtricity, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Flumani)
+|
+|t:|1760309625
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Scizor|Scizor, M|100/100
+|switch|p2a: Golurk|Golurk|100/100
+|turn|1
+|
+|t:|1760309634
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Golurk|Poltergeist|p1a: Scizor
+|-activate|p1a: Scizor|move: Poltergeist|Metal Coat
+|-damage|p1a: Scizor|50/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760309642
+|move|p1a: Scizor|Dual Wingbeat|p2a: Golurk
+|-damage|p2a: Golurk|65/100
+|-damage|p2a: Golurk|30/100
+|-hitcount|p2a: Golurk|2
+|move|p2a: Golurk|Poltergeist|p1a: Scizor
+|-activate|p1a: Scizor|move: Poltergeist|Metal Coat
+|-damage|p1a: Scizor|3/100
+|
+|upkeep
+|turn|3
+|
+|t:|1760309652
+|move|p1a: Scizor|Bullet Punch|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|upkeep
+|
+|t:|1760309663
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|4
+|
+|t:|1760309667
+|move|p1a: Scizor|Bullet Punch|p2a: Great Tusk
+|-damage|p2a: Great Tusk|45/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1760309674
+|switch|p1a: Metagross|Metagross|100/100
+|turn|5
+|
+|t:|1760309681
+|move|p2a: Great Tusk|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|13/100
+|-enditem|p1a: Metagross|Weakness Policy
+|-boost|p1a: Metagross|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Metagross|spa|2|[from] item: Weakness Policy
+|move|p1a: Metagross|Psychic Fangs|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760309696
+|switch|p2a: Serperior|Serperior, M, shiny|100/100
+|turn|6
+|
+|t:|1760309701
+|move|p1a: Metagross|Bullet Punch|p2a: Serperior
+|-damage|p2a: Serperior|52/100
+|move|p2a: Serperior|Leaf Storm|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Metagross
+|
+|upkeep
+|
+|t:|1760309709
+|switch|p1a: Zapdos|Zapdos, shiny|100/100
+|turn|7
+|
+|t:|1760309719
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|move|p1a: Zapdos|Heat Wave|p2a: Ursaluna|[miss]
+|-miss|p1a: Zapdos|p2a: Ursaluna
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1760309729
+|move|p1a: Zapdos|Hurricane|p2a: Ursaluna
+|-damage|p2a: Ursaluna|53/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-damage|p2a: Ursaluna|47/100 brn|[from] brn
+|upkeep
+|
+|t:|1760309744
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|9
+|
+|t:|1760309750
+|-terastallize|p2a: Ursaluna|Ghost
+|move|p1a: Greninja|Surf|p2a: Ursaluna
+|-damage|p2a: Ursaluna|14/100 brn
+|move|p2a: Ursaluna|Thunder Punch|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|-damage|p2a: Ursaluna|8/100 brn|[from] brn
+|upkeep
+|
+|t:|1760309765
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|10
+|
+|t:|1760309772
+|move|p1a: Excadrill|Iron Head|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1760309781
+|switch|p2a: Serperior|Serperior, M, shiny|52/100
+|turn|11
+|
+|t:|1760309786
+|move|p2a: Serperior|Leaf Storm|p1a: Excadrill
+|-damage|p1a: Excadrill|32/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Excadrill|Iron Head|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+|
+|t:|1760309799
+|switch|p2a: Polteageist|Polteageist, shiny|100/100
+|turn|12
+|
+|t:|1760309803
+|move|p1a: Excadrill|Iron Head|p2a: Polteageist
+|-damage|p2a: Polteageist|27/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|cant|p2a: Polteageist|flinch
+|
+|upkeep
+|turn|13
+|
+|t:|1760309811
+|move|p2a: Polteageist|Shadow Ball|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|t:|1760309814
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|turn|14
+|
+|t:|1760309820
+|move|p2a: Polteageist|Strength Sap|p1a: Garchomp
+|-unboost|p1a: Garchomp|atk|1
+|-heal|p2a: Polteageist|100/100
+|move|p1a: Garchomp|Scale Shot|p2a: Polteageist
+|-damage|p2a: Polteageist|74/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|-damage|p2a: Polteageist|39/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|-hitcount|p2a: Polteageist|2
+|-unboost|p1a: Garchomp|def|1
+|-boost|p1a: Garchomp|spe|1
+|
+|upkeep
+|turn|15
+|
+|t:|1760309838
+|move|p2a: Polteageist|Stored Power|p1a: Garchomp
+|-damage|p1a: Garchomp|55/100
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|upkeep
+|turn|16
+|
+|t:|1760309846
+|move|p2a: Polteageist|Stored Power|p1a: Garchomp
+|-damage|p1a: Garchomp|12/100
+|move|p1a: Garchomp|Earthquake|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|upkeep
+|
+|t:|1760309851
+|switch|p2a: Toxtricity|Toxtricity, M, shiny|100/100
+|turn|17
+|c|☆Flumani|Hopefully earthquake misses lol
+|inactive|Flumani has 120 seconds left.
+|c|☆Flumani|😭
+|c|☆Flumani|ggs
+|
+|t:|1760309890
+|move|p1a: Garchomp|Earthquake|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|win|silverlol
+|raw|silverlol's rating: 1264 &rarr; <strong>1286</strong><br />(+22 for winning)
+|raw|Flumani's rating: 1221 &rarr; <strong>1199</strong><br />(-22 for losing)
+|l|☆Flumani
+|player|p2|
+|c|☆silverlol|Gg
+|l|☆silverlol
+|player|p1|

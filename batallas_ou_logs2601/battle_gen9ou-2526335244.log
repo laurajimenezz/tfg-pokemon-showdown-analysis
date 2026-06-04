@@ -1,0 +1,182 @@
+|j|☆emyrtheking
+|j|☆222pokemon
+|t:|1769398171
+|gametype|singles
+|player|p1|emyrtheking|bruno|1169
+|player|p2|222pokemon|silver|1167
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Kyurem|
+|poke|p1|Ursaluna, M|
+|poke|p1|Moltres|
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p2|Ninetales, M|
+|poke|p2|Talonflame, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Armarouge, M|
+|poke|p2|Scovillain, M|
+|poke|p2|Camerupt, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by emyrtheking)
+|
+|t:|1769398232
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Camerupt|Camerupt, M, shiny|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1769398249
+|switch|p2a: Talonflame|Talonflame, M, shiny|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Talonflame
+|-damage|p2a: Talonflame|45/100
+|-enditem|p2a: Talonflame|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|2
+|
+|t:|1769398259
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Great Tusk|[miss]
+|-miss|p2a: Talonflame|p1a: Great Tusk
+|move|p1a: Great Tusk|Head Smash|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|-damage|p1a: Great Tusk|79/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1769398281
+|switch|p2a: Ninetales|Ninetales, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|3
+|
+|t:|1769398287
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam
+|-anim|p2a: Ninetales|Solar Beam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769398307
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|turn|4
+|
+|t:|1769398316
+|move|p2a: Ninetales|Dark Pulse|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|72/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Ninetales
+|-damage|p2a: Ninetales|59/100
+|-status|p2a: Ninetales|psn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|78/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|47/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1769398326
+|move|p2a: Ninetales|Scorching Sands|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|51/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|57/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|35/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1769398338
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1769398344
+|switch|p1a: Kyurem|Kyurem|100/100|[from] Chilly Reception
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Ninetales|Dark Pulse|p1a: Kyurem
+|-damage|p1a: Kyurem|84/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Ninetales|23/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1769398356
+|switch|p2a: Camerupt|Camerupt, M, shiny|100/100
+|move|p1a: Kyurem|Ancient Power|p2a: Camerupt
+|-damage|p2a: Camerupt|77/100
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spa|1
+|-boost|p1a: Kyurem|spd|1
+|-boost|p1a: Kyurem|spe|1
+|-damage|p1a: Kyurem|74/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1769398376
+|move|p2a: Camerupt|Lava Plume|p1a: Kyurem
+|-damage|p1a: Kyurem|59/100
+|move|p1a: Kyurem|Earth Power|p2a: Camerupt
+|-supereffective|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|-damage|p1a: Kyurem|49/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|inactive|222pokemon has 120 seconds left.
+|
+|t:|1769398413
+|switch|p2a: Ceruledge|Ceruledge, M, shiny|100/100
+|turn|9
+|
+|t:|1769398419
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Kyurem|Earth Power|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|-damage|p1a: Kyurem|39/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|-message|222pokemon forfeited.
+|
+|win|emyrtheking
+|raw|emyrtheking's rating: 1169 &rarr; <strong>1194</strong><br />(+25 for winning)
+|raw|222pokemon's rating: 1167 &rarr; <strong>1142</strong><br />(-25 for losing)
+|l|☆222pokemon
+|player|p2|
+|c|☆emyrtheking|not very smart
+|l|☆emyrtheking
+|player|p1|

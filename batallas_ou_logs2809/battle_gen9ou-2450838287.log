@@ -1,0 +1,296 @@
+|j|☆Jewgi_moto
+|j|☆chaintrainalt
+|t:|1759034571
+|gametype|singles
+|player|p1|Jewgi_moto|101|1434
+|player|p2|chaintrainalt|cyclistf|1475
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Umbreon, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Heatran, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Ribombee, M|
+|poke|p2|Iron Moth|
+|poke|p2|Raging Bolt|
+|poke|p2|Gholdengo|
+|poke|p2|Garchomp, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by chaintrainalt)
+|
+|t:|1759034581
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1759034595
+|move|p2a: Ribombee|Moonblast|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|34/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1759034599
+|move|p2a: Ribombee|Sticky Web|p1a: Raging Bolt
+|-sidestart|p1: Jewgi_moto|move: Sticky Web
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1759034609
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|3
+|
+|t:|1759034612
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Weezing
+|-immune|p1a: Weezing|[from] ability: Levitate
+|
+|upkeep
+|turn|4
+|
+|t:|1759034618
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Weezing|Defog|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|upkeep
+|turn|5
+|
+|t:|1759034632
+|switch|p1a: Umbreon|Umbreon, M, shiny|100/100
+|-activate|p1a: Umbreon|move: Sticky Web
+|-unboost|p1a: Umbreon|spe|1
+|move|p2a: Gholdengo|Shadow Ball|p1a: Umbreon
+|-resisted|p1a: Umbreon
+|-damage|p1a: Umbreon|88/100
+|
+|-heal|p1a: Umbreon|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1759034655
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1759034662
+|move|p2a: Iron Valiant|Knock Off|p1a: Umbreon
+|-resisted|p1a: Umbreon
+|-damage|p1a: Umbreon|86/100
+|-enditem|p1a: Umbreon|Leftovers|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Umbreon|Toxic|p2a: Iron Valiant
+|-status|p2a: Iron Valiant|tox
+|
+|-heal|p1a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|-damage|p2a: Iron Valiant|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1759034671
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Iron Valiant|Close Combat|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-damage|p2a: Iron Valiant|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1759034676
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: Iron Valiant|Spirit Break|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|87/100
+|-unboost|p1a: Weezing|spa|1
+|-damage|p2a: Iron Valiant|65/100 tox|[from] item: Rocky Helmet|[of] p1a: Weezing
+|
+|-damage|p2a: Iron Valiant|47/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1759034679
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|switch|p1a: Umbreon|Umbreon, M, shiny|100/100
+|-activate|p1a: Umbreon|move: Sticky Web
+|-unboost|p1a: Umbreon|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1759034683
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Umbreon|Foul Play|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|66/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|12
+|
+|t:|1759034686
+|move|p2a: Gholdengo|Focus Blast|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|3/100
+|move|p1a: Umbreon|Foul Play|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|28/100
+|
+|upkeep
+|turn|13
+|
+|t:|1759034691
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Gholdengo|Shadow Ball|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|upkeep
+|turn|14
+|
+|t:|1759034696
+|move|p2a: Gholdengo|Shadow Ball|p1a: Umbreon
+|-resisted|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|
+|upkeep
+|
+|t:|1759034707
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-activate|p1a: Iron Valiant|move: Sticky Web
+|-unboost|p1a: Iron Valiant|spe|1
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdriveatk
+|turn|15
+|
+|t:|1759034717
+|move|p2a: Gholdengo|Shadow Ball|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1759034723
+|switch|p1a: Raging Bolt|Raging Bolt|34/100
+|-activate|p1a: Raging Bolt|move: Sticky Web
+|-unboost|p1a: Raging Bolt|spe|1
+|turn|16
+|
+|t:|1759034732
+|switch|p2a: Iron Valiant|Iron Valiant|47/100 tox
+|-terastallize|p1a: Raging Bolt|Ice
+|move|p1a: Raging Bolt|Tera Blast|p2a: Iron Valiant|[anim] Tera Blast Ice
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|inactive|chaintrainalt has 120 seconds left.
+|
+|t:|1759034772
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|17
+|
+|t:|1759034776
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1759034780
+|switch|p1a: Weezing|Weezing-Galar, M|87/100
+|turn|18
+|
+|t:|1759034793
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|28/100
+|move|p1a: Weezing|Dazzling Gleam|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|13/100
+|
+|upkeep
+|turn|19
+|
+|t:|1759034802
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-activate|p1a: Ogerpon|move: Sticky Web
+|-unboost|p1a: Ogerpon|spe|1
+|move|p2a: Gholdengo|Shadow Ball|p1a: Ogerpon
+|-damage|p1a: Ogerpon|50/100
+|
+|upkeep
+|turn|20
+|
+|t:|1759034808
+|move|p2a: Gholdengo|Shadow Ball|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1759034812
+|switch|p1a: Weezing|Weezing-Galar, M|87/100
+|turn|21
+|
+|t:|1759034816
+|move|p2a: Gholdengo|Shadow Ball|p1a: Weezing
+|-damage|p1a: Weezing|26/100
+|move|p1a: Weezing|Dazzling Gleam|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|-message|Jewgi_moto forfeited.
+|
+|win|chaintrainalt
+|raw|Jewgi_moto's rating: 1434 &rarr; <strong>1416</strong><br />(-18 for losing)
+|raw|chaintrainalt's rating: 1475 &rarr; <strong>1493</strong><br />(+18 for winning)
+|l|☆Jewgi_moto
+|player|p1|
+|l|☆chaintrainalt
+|player|p2|

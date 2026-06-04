@@ -1,0 +1,214 @@
+|j|☆ssss umeno
+|j|‽Otherthero
+|t:|1758983946
+|gametype|singles
+|player|p1|ssss umeno|265|1203
+|player|p2|Otherthero|265|1239
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Zapdos|
+|poke|p1|Sandy Shocks|
+|poke|p1|Scizor, M|
+|poke|p2|Heracross, M|
+|poke|p2|Piloswine, F|
+|poke|p2|Amoonguss, M|
+|poke|p2|Bombirdier, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Goodra-Hisui, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ssss umeno)
+|
+|t:|1758983958
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1758983968
+|move|p1a: Sandy Shocks|Stealth Rock|p2a: Ribombee
+|-sidestart|p2: Otherthero|move: Stealth Rock
+|move|p2a: Ribombee|Sticky Web|p1a: Sandy Shocks
+|-sidestart|p1: ssss umeno|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1758983974
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: Ribombee
+|-crit|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|move|p2a: Ribombee|Moonblast|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|47/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758983982
+|move|p1a: Sandy Shocks|Earth Power|p2a: Ribombee
+|-resisted|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1758983987
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1758983992
+|-terastallize|p1a: Sandy Shocks|Ice
+|move|p1a: Sandy Shocks|Tera Blast|p2a: Amoonguss|[anim] Tera Blast Ice
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|53/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|18/100
+|-heal|p2a: Amoonguss|64/100|[from] drain|[of] p1a: Sandy Shocks
+|
+|upkeep
+|turn|5
+|
+|t:|1758984004
+|move|p1a: Sandy Shocks|Tera Blast|p2a: Amoonguss|[anim] Tera Blast Ice
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|30/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|-heal|p2a: Amoonguss|37/100|[from] drain|[of] p1a: Sandy Shocks
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758984024
+|switch|p1a: Scizor|Scizor, M|100/100
+|-activate|p1a: Scizor|move: Sticky Web
+|-unboost|p1a: Scizor|spe|1
+|turn|6
+|
+|t:|1758984030
+|switch|p2a: Piloswine|Piloswine, F|100/100
+|-damage|p2a: Piloswine|88/100|[from] Stealth Rock
+|move|p1a: Scizor|U-turn|p2a: Piloswine
+|-damage|p2a: Piloswine|70/100
+|
+|t:|1758984037
+|switch|p1a: Pelipper|Pelipper, M|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758984043
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|-damage|p2a: Goodra|94/100|[from] Stealth Rock
+|move|p1a: Pelipper|Surf|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|84/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758984053
+|switch|p1a: Scizor|Scizor, M|100/100
+|-activate|p1a: Scizor|move: Sticky Web
+|-unboost|p1a: Scizor|spe|1
+|move|p2a: Goodra|Dragon Pulse|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|82/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1758984063
+|move|p2a: Goodra|Flamethrower|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|30/100
+|move|p1a: Scizor|U-turn|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|65/100
+|
+|t:|1758984071
+|switch|p1a: Greninja|Greninja, M|100/100|[from] U-turn
+|-activate|p1a: Greninja|move: Sticky Web
+|-unboost|p1a: Greninja|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758984077
+|move|p1a: Greninja|Ice Beam|p2a: Goodra
+|-damage|p2a: Goodra|53/100
+|-status|p2a: Goodra|frz
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|cant|p2a: Goodra|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758984087
+|move|p1a: Greninja|Ice Beam|p2a: Goodra
+|-damage|p2a: Goodra|41/100 frz
+|-damage|p1a: Greninja|81/100|[from] item: Life Orb
+|cant|p2a: Goodra|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1758984102
+|move|p1a: Greninja|Surf|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|28/100 frz
+|-damage|p1a: Greninja|71/100|[from] item: Life Orb
+|-curestatus|p2a: Goodra|frz|[msg]
+|move|p2a: Goodra|Dragon Pulse|p1a: Greninja
+|-damage|p1a: Greninja|20/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1758984115
+|move|p1a: Greninja|Dark Pulse|p2a: Goodra
+|-damage|p2a: Goodra|13/100
+|-damage|p1a: Greninja|11/100|[from] item: Life Orb
+|move|p2a: Goodra|Dragon Pulse|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|-weather|none
+|upkeep
+|-message|ssss umeno forfeited.
+|
+|win|Otherthero
+|raw|ssss umeno's rating: 1203 &rarr; <strong>1181</strong><br />(-22 for losing)
+|raw|Otherthero's rating: 1239 &rarr; <strong>1261</strong><br />(+22 for winning)
+|l|☆ssss umeno
+|player|p1|
+|l|‽Otherthero
+|player|p2|

@@ -1,0 +1,228 @@
+|j|☆c.empty
+|j|☆JaponaisAnglais
+|t:|1758346098
+|gametype|singles
+|player|p1|c.empty|2|1251
+|player|p2|JaponaisAnglais|silver|1206
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Great Tusk|
+|poke|p1|Walking Wake|
+|poke|p1|Dragonite, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Venusaur, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Moltres-Galar|
+|poke|p2|Pecharunt|
+|poke|p2|Hitmontop, M|
+|poke|p2|Iron Crown|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JaponaisAnglais)
+|
+|t:|1758346106
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|1
+|
+|t:|1758346112
+|move|p1a: Walking Wake|Hydro Steam|p2a: Kleavor
+|-supereffective|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|upkeep
+|
+|t:|1758346135
+|switch|p2a: Moltres|Moltres-Galar|100/100
+|turn|2
+|
+|t:|1758346146
+|move|p1a: Walking Wake|Draco Meteor|p2a: Moltres
+|-damage|p2a: Moltres|61/100
+|-unboost|p1a: Walking Wake|spa|2
+|move|p2a: Moltres|Hurricane|p1a: Walking Wake|[miss]
+|-miss|p2a: Moltres|p1a: Walking Wake
+|
+|upkeep
+|turn|3
+|
+|t:|1758346165
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Moltres|Hurricane|p1a: Ninetales|[miss]
+|-miss|p2a: Moltres|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758346173
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Moltres
+|-status|p2a: Moltres|brn
+|move|p2a: Moltres|Fiery Wrath|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Moltres|55/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1758346185
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Moltres|Hurricane|p1a: Great Tusk|[miss]
+|-miss|p2a: Moltres|p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Moltres|49/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1758346201
+|-terastallize|p1a: Great Tusk|Steel
+|move|p2a: Moltres|Hurricane|p1a: Great Tusk|[miss]
+|-miss|p2a: Moltres|p1a: Great Tusk
+|move|p1a: Great Tusk|Ice Spinner|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758346207
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|7
+|
+|t:|1758346215
+|-terastallize|p2a: Dragonite|Normal
+|move|p1a: Great Tusk|Rapid Spin|p2a: Dragonite
+|-damage|p2a: Dragonite|90/100
+|-boost|p1a: Great Tusk|spe|1
+|move|p2a: Dragonite|Earthquake|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758346227
+|move|p1a: Great Tusk|Close Combat|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758346233
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|turn|9
+|
+|t:|1758346244
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|move|p2a: Hitmontop|Mach Punch|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|82/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758346254
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|move|p1a: Venusaur|Giga Drain|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|81/100
+|-heal|p1a: Venusaur|92/100|[from] drain|[of] p2a: Iron Crown
+|-damage|p1a: Venusaur|82/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1758346270
+|switch|p1a: Ninetales|Ninetales, F|50/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Iron Crown|Focus Blast|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758346279
+|switch|p1a: Venusaur|Venusaur, M|82/100
+|turn|12
+|
+|t:|1758346289
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Venusaur|Weather Ball|p2a: Pecharunt
+|-damage|p2a: Pecharunt|42/100
+|-damage|p1a: Venusaur|72/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Pecharunt|48/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1758346296
+|move|p1a: Venusaur|Weather Ball|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|-damage|p1a: Venusaur|62/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758346302
+|switch|p2a: Iron Crown|Iron Crown|81/100
+|turn|14
+|c|☆c.empty|gg
+|
+|t:|1758346311
+|move|p1a: Venusaur|Weather Ball|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|-damage|p1a: Venusaur|52/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|JaponaisAnglais forfeited.
+|
+|win|c.empty
+|raw|c.empty's rating: 1251 &rarr; <strong>1273</strong><br />(+22 for winning)
+|raw|JaponaisAnglais's rating: 1206 &rarr; <strong>1184</strong><br />(-22 for losing)
+|l|☆JaponaisAnglais
+|player|p2|
+|l|☆c.empty
+|player|p1|
+|j|☆c.empty
+|player|p1|c.empty|2|
+|l|☆c.empty
+|player|p1|

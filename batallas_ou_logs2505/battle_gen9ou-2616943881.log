@@ -1,0 +1,430 @@
+|j|☆morebile
+|j|☆KenjiShiguma
+|t:|1779630916
+|gametype|singles
+|player|p1|morebile|169|1273
+|player|p2|KenjiShiguma|pokemonbreeder-gen4|1203
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Dragapult, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Rotom-Wash|
+|poke|p1|Kingambit, M|
+|poke|p2|Drednaw, M|
+|poke|p2|Golem, M|
+|poke|p2|Snorlax, F|
+|poke|p2|Clefable, F|
+|poke|p2|Oricorio-Sensu, M|
+|poke|p2|Infernape, F|
+|teampreview
+|
+|t:|1779630939
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Clefable|Clefable, F|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisdef
+|turn|1
+|
+|t:|1779630951
+|move|p1a: Great Tusk|Stealth Rock|p2a: Clefable
+|-sidestart|p2: KenjiShiguma|move: Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779630960
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|2
+|
+|t:|1779630967
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|-damage|p2a: Snorlax|88/100|[from] Stealth Rock
+|-terastallize|p1a: Gholdengo|Flying
+|move|p1a: Gholdengo|Make It Rain|p2a: Snorlax
+|-damage|p2a: Snorlax|41/100
+|-unboost|p1a: Gholdengo|spa|1
+|-enditem|p2a: Snorlax|Sitrus Berry|[eat]
+|-heal|p2a: Snorlax|66/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|3
+|
+|t:|1779630981
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|move|p2a: Snorlax|Block|p1a: Iron Valiant
+|-activate|p1a: Iron Valiant|trapped
+|
+|upkeep
+|turn|4
+|
+|t:|1779630988
+|-terastallize|p2a: Snorlax|Ghost
+|move|p1a: Iron Valiant|Trick|p2a: Snorlax
+|-activate|p1a: Iron Valiant|move: Trick|[of] p2a: Snorlax
+|-item|p2a: Snorlax|Choice Scarf|[from] move: Trick
+|-enditem|p1a: Iron Valiant|Choice Scarf|[silent]|[from] move: Trick
+|move|p2a: Snorlax|Encore|p1a: Iron Valiant
+|-start|p1a: Iron Valiant|Encore
+|
+|upkeep
+|turn|5
+|
+|t:|1779631001
+|move|p1a: Iron Valiant|Trick|p2a: Snorlax
+|-activate|p1a: Iron Valiant|move: Trick|[of] p2a: Snorlax
+|-enditem|p2a: Snorlax|Choice Scarf|[silent]|[from] move: Trick
+|-item|p1a: Iron Valiant|Choice Scarf|[from] move: Trick
+|move|p2a: Snorlax|Encore||[still]
+|-fail|p2a: Snorlax
+|
+|upkeep
+|turn|6
+|
+|t:|1779631007
+|move|p1a: Iron Valiant|Trick|p2a: Snorlax
+|-activate|p1a: Iron Valiant|move: Trick|[of] p2a: Snorlax
+|-item|p2a: Snorlax|Choice Scarf|[from] move: Trick
+|-enditem|p1a: Iron Valiant|Choice Scarf|[silent]|[from] move: Trick
+|move|p2a: Snorlax|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|67/100
+|
+|upkeep
+|turn|7
+|
+|t:|1779631025
+|move|p1a: Iron Valiant|Trick|p2a: Snorlax
+|-activate|p1a: Iron Valiant|move: Trick|[of] p2a: Snorlax
+|-enditem|p2a: Snorlax|Choice Scarf|[silent]|[from] move: Trick
+|-item|p1a: Iron Valiant|Choice Scarf|[from] move: Trick
+|move|p2a: Snorlax|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|35/100
+|
+|-end|p1a: Iron Valiant|Encore
+|upkeep
+|turn|8
+|
+|t:|1779631037
+|move|p1a: Iron Valiant|Knock Off|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|34/100
+|move|p2a: Snorlax|Last Resort|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779631068
+|switch|p1a: Gholdengo|Gholdengo, tera:Flying|100/100
+|turn|9
+|
+|t:|1779631074
+|move|p1a: Gholdengo|Shadow Ball|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|t:|1779631083
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|10
+|
+|t:|1779631100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Clefable
+|-damage|p2a: Clefable|59/100
+|move|p2a: Clefable|Knock Off|p1a: Gholdengo
+|-damage|p1a: Gholdengo|83/100
+|-enditem|p1a: Gholdengo|Choice Specs|[from] move: Knock Off|[of] p2a: Clefable
+|
+|upkeep
+|turn|11
+|
+|t:|1779631108
+|move|p1a: Gholdengo|Make It Rain|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|t:|1779631118
+|switch|p2a: Drednaw|Drednaw, M|100/100
+|-damage|p2a: Drednaw|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1779631125
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Drednaw|Shell Smash|p2a: Drednaw
+|-unboost|p2a: Drednaw|def|1
+|-unboost|p2a: Drednaw|spd|1
+|-boost|p2a: Drednaw|atk|2
+|-boost|p2a: Drednaw|spa|2
+|-boost|p2a: Drednaw|spe|2
+|-enditem|p2a: Drednaw|White Herb
+|-clearnegativeboost|p2a: Drednaw|[silent]
+|
+|upkeep
+|turn|13
+|
+|t:|1779631142
+|move|p2a: Drednaw|Jaw Lock|p1a: Rotom
+|-damage|p1a: Rotom|9/100
+|-activate|p2a: Drednaw|trapped
+|-activate|p1a: Rotom|trapped
+|move|p1a: Rotom|Thunder Wave|p2a: Drednaw|[miss]
+|-miss|p1a: Rotom|p2a: Drednaw
+|
+|-heal|p1a: Rotom|15/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1779631151
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Drednaw|Jaw Lock|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-heal|p1a: Rotom|21/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1779631161
+|move|p2a: Drednaw|Jaw Lock|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1779631175
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|16
+|
+|t:|1779631182
+|move|p1a: Dragapult|Draco Meteor|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Drednaw
+|
+|upkeep
+|
+|t:|1779631188
+|switch|p2a: Golem|Golem, M|100/100
+|-damage|p2a: Golem|94/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1779631198
+|switch|p1a: Gholdengo|Gholdengo, tera:Flying|83/100
+|move|p2a: Golem|Stone Edge|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1779631209
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|18
+|
+|t:|1779631214
+|move|p1a: Kingambit|Low Kick|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|upkeep
+|
+|t:|1779631219
+|switch|p2a: Infernape|Infernape, F|100/100
+|-damage|p2a: Infernape|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1779631236
+|move|p2a: Infernape|Switcheroo|p1a: Kingambit
+|-activate|p2a: Infernape|move: Trick|[of] p1a: Kingambit
+|-item|p1a: Kingambit|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Infernape|Leftovers|[from] move: Switcheroo
+|move|p1a: Kingambit|Low Kick|p2a: Infernape
+|-crit|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|upkeep
+|
+|t:|1779631244
+|switch|p2a: Oricorio|Oricorio-Sensu, M|100/100
+|-damage|p2a: Oricorio|76/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1779631248
+|move|p1a: Kingambit|Low Kick|p2a: Oricorio
+|-immune|p2a: Oricorio
+|move|p2a: Oricorio|Quiver Dance|p2a: Oricorio
+|-boost|p2a: Oricorio|spa|1
+|-boost|p2a: Oricorio|spd|1
+|-boost|p2a: Oricorio|spe|1
+|
+|upkeep
+|turn|21
+|
+|t:|1779631264
+|-end|p1a: Kingambit|fallen4|[silent]
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Oricorio|Quiver Dance|p2a: Oricorio
+|-boost|p2a: Oricorio|spa|1
+|-boost|p2a: Oricorio|spd|1
+|-boost|p2a: Oricorio|spe|1
+|
+|upkeep
+|turn|22
+|
+|t:|1779631272
+|move|p2a: Oricorio|Revelation Dance|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1779631278
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|23
+|
+|t:|1779631286
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Oricorio|Quiver Dance|p2a: Oricorio
+|-boost|p2a: Oricorio|spa|1
+|-boost|p2a: Oricorio|spd|1
+|-boost|p2a: Oricorio|spe|1
+|
+|upkeep
+|turn|24
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KenjiShiguma)
+|
+|t:|1779631293
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Oricorio|Quiver Dance|p2a: Oricorio
+|-boost|p2a: Oricorio|spa|1
+|-boost|p2a: Oricorio|spd|1
+|-boost|p2a: Oricorio|spe|1
+|
+|upkeep
+|turn|25
+|c|☆morebile|I messed up gg
+|
+|t:|1779631305
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Oricorio|Quiver Dance|p2a: Oricorio
+|-boost|p2a: Oricorio|spa|1
+|-boost|p2a: Oricorio|spd|1
+|-boost|p2a: Oricorio|spe|1
+|
+|upkeep
+|turn|26
+|c|☆KenjiShiguma|Right
+|c|☆KenjiShiguma|It happens
+|c|☆KenjiShiguma|Gg
+|
+|t:|1779631312
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Oricorio|Quiver Dance|p2a: Oricorio
+|-boost|p2a: Oricorio|spa|1
+|-boost|p2a: Oricorio|spd|1
+|-boost|p2a: Oricorio|spe|1
+|
+|upkeep
+|turn|27
+|
+|t:|1779631319
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Oricorio|Quiver Dance|p2a: Oricorio
+|-boost|p2a: Oricorio|spa|0
+|-boost|p2a: Oricorio|spd|0
+|-boost|p2a: Oricorio|spe|0
+|
+|upkeep
+|turn|28
+|
+|t:|1779631326
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Oricorio|Quiver Dance|p2a: Oricorio
+|-boost|p2a: Oricorio|spa|0
+|-boost|p2a: Oricorio|spd|0
+|-boost|p2a: Oricorio|spe|0
+|
+|upkeep
+|turn|29
+|
+|t:|1779631333
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Oricorio|Quiver Dance|p2a: Oricorio
+|-boost|p2a: Oricorio|spa|0
+|-boost|p2a: Oricorio|spd|0
+|-boost|p2a: Oricorio|spe|0
+|
+|upkeep
+|turn|30
+|
+|t:|1779631340
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Oricorio|Quiver Dance|p2a: Oricorio
+|-boost|p2a: Oricorio|spa|0
+|-boost|p2a: Oricorio|spd|0
+|-boost|p2a: Oricorio|spe|0
+|
+|upkeep
+|turn|31
+|
+|t:|1779631348
+|move|p2a: Oricorio|Revelation Dance|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|6/100
+|-activate|p1a: Kingambit|move: Struggle
+|move|p1a: Kingambit|Struggle|p2a: Oricorio
+|-damage|p2a: Oricorio|21/100
+|-damage|p1a: Kingambit|0 fnt|[from] recoil
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|KenjiShiguma
+|raw|morebile's rating: 1273 &rarr; <strong>1243</strong><br />(-30 for losing)
+|raw|KenjiShiguma's rating: 1203 &rarr; <strong>1233</strong><br />(+30 for winning)
+|c|☆morebile|Gg
+|c|☆KenjiShiguma|Wp
+|l|☆morebile
+|player|p1|
+|l|☆KenjiShiguma
+|player|p2|

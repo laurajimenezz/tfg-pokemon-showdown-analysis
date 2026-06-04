@@ -1,0 +1,250 @@
+|j|☆Battonia
+|j|‽biujouhi99
+|t:|1758966693
+|gametype|singles
+|player|p1|Battonia|bugsy|1079
+|player|p2|biujouhi99|doubleteam|1070
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Vikavolt, M|
+|poke|p1|Mudsdale, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Magmortar, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Treads|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Zamazenta-*|
+|poke|p2|Tornadus-Therian, M|
+|teampreview
+|
+|t:|1758966706
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Vikavolt|Vikavolt, M|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1758966713
+|move|p2a: Iron Treads|Stone Edge|p1a: Vikavolt
+|-supereffective|p1a: Vikavolt
+|-damage|p1a: Vikavolt|16/100
+|move|p1a: Vikavolt|Agility|p1a: Vikavolt
+|-boost|p1a: Vikavolt|spe|2
+|
+|upkeep
+|turn|2
+|
+|t:|1758966724
+|move|p2a: Iron Treads|Ice Spinner|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|
+|upkeep
+|
+|t:|1758966732
+|switch|p1a: Iskandar|Mudsdale, M|100/100
+|turn|3
+|
+|t:|1758966740
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Iskandar|Body Press|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|85/100
+|
+|upkeep
+|turn|4
+|
+|t:|1758966746
+|move|p2a: Tornadus|Nasty Plot|p2a: Tornadus
+|-boost|p2a: Tornadus|spa|2
+|move|p1a: Iskandar|Smack Down|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|30/100
+|-start|p2a: Tornadus|Smack Down
+|
+|upkeep
+|turn|5
+|
+|t:|1758966757
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Iskandar
+|-damage|p1a: Iskandar|9/100
+|-unboost|p1a: Iskandar|spe|1
+|-damage|p2a: Tornadus|20/100|[from] item: Life Orb
+|move|p1a: Iskandar|Smack Down|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|t:|1758966769
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|6
+|
+|t:|1758966774
+|move|p2a: Iron Treads|Ice Spinner|p1a: Iskandar
+|-supereffective|p1a: Iskandar
+|-damage|p1a: Iskandar|0 fnt
+|faint|p1a: Iskandar
+|
+|upkeep
+|
+|t:|1758966784
+|switch|p1a: Pon-Pon|Ogerpon-Wellspring, F|100/100
+|turn|7
+|
+|t:|1758966790
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Pon-Pon|Spiky Shield||[still]
+|-fail|p1a: Pon-Pon
+|
+|upkeep
+|turn|8
+|
+|t:|1758966799
+|move|p2a: Zamazenta|Crunch|p1a: Pon-Pon
+|-damage|p1a: Pon-Pon|72/100
+|move|p1a: Pon-Pon|Knock Off|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|90/100
+|-enditem|p2a: Zamazenta|Leftovers|[from] move: Knock Off|[of] p1a: Pon-Pon
+|
+|upkeep
+|turn|9
+|
+|t:|1758966806
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Pon-Pon|Horn Leech|p2a: Zamazenta
+|-damage|p2a: Zamazenta|77/100
+|-heal|p1a: Pon-Pon|79/100|[from] drain|[of] p2a: Zamazenta
+|
+|upkeep
+|turn|10
+|
+|t:|1758966820
+|-terastallize|p1a: Pon-Pon|Water
+|detailschange|p1a: Pon-Pon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Pon-Pon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Pon-Pon|spd|1
+|move|p2a: Zamazenta|Body Press|p1a: Pon-Pon
+|-damage|p1a: Pon-Pon|0 fnt
+|faint|p1a: Pon-Pon
+|detailschange|p1: Pon-Pon|Ogerpon-Wellspring, F|[silent]
+|
+|upkeep
+|
+|t:|1758966828
+|switch|p1a: Royale|Hawlucha, M|100/100
+|turn|11
+|
+|t:|1758966835
+|move|p2a: Zamazenta|Body Press|p1a: Royale
+|-resisted|p1a: Royale
+|-damage|p1a: Royale|45/100
+|-enditem|p1a: Royale|Sitrus Berry|[eat]
+|-heal|p1a: Royale|70/100|[from] item: Sitrus Berry
+|move|p1a: Royale|Acrobatics|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|49/100
+|
+|upkeep
+|turn|12
+|
+|t:|1758966842
+|move|p1a: Royale|Acrobatics|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|21/100
+|move|p2a: Zamazenta|Roar|p1a: Royale
+|drag|p1a: Warlock|Slowking-Galar, M|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1758966850
+|move|p2a: Zamazenta|Crunch|p1a: Warlock
+|-supereffective|p1a: Warlock
+|-damage|p1a: Warlock|59/100
+|move|p1a: Warlock|Eerie Spell|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-heal|p1a: Warlock|65/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1758966857
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|14
+|
+|t:|1758966860
+|move|p2a: Iron Treads|Earthquake|p1a: Warlock
+|-supereffective|p1a: Warlock
+|-damage|p1a: Warlock|0 fnt
+|faint|p1a: Warlock
+|
+|upkeep
+|
+|t:|1758966865
+|switch|p1a: Royale|Hawlucha, M|70/100
+|turn|15
+|
+|t:|1758966875
+|move|p2a: Iron Treads|Ice Spinner|p1a: Royale
+|-supereffective|p1a: Royale
+|-damage|p1a: Royale|14/100
+|move|p1a: Royale|Close Combat|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|9/100
+|-unboost|p1a: Royale|def|1
+|-unboost|p1a: Royale|spd|1
+|
+|upkeep
+|turn|16
+|
+|t:|1758966885
+|move|p2a: Iron Treads|Ice Spinner|p1a: Royale
+|-supereffective|p1a: Royale
+|-damage|p1a: Royale|0 fnt
+|faint|p1a: Royale
+|
+|upkeep
+|
+|t:|1758966890
+|switch|p1a: Alarm|Magmortar, F|100/100
+|turn|17
+|
+|t:|1758966895
+|move|p2a: Iron Treads|Earthquake|p1a: Alarm
+|-supereffective|p1a: Alarm
+|-damage|p1a: Alarm|0 fnt
+|faint|p1a: Alarm
+|
+|win|biujouhi99
+|raw|Battonia's rating: 1079 &rarr; <strong>1058</strong><br />(-21 for losing)
+|raw|biujouhi99's rating: 1096 &rarr; <strong>1120</strong><br />(+24 for winning)
+|l|☆Battonia
+|player|p1|
+|l|‽biujouhi99
+|player|p2|

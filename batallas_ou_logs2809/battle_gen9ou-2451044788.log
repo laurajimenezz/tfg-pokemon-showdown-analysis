@@ -1,0 +1,324 @@
+|j|☆beaudiddly
+|j|☆refind
+|t:|1759071064
+|gametype|singles
+|player|p1|beaudiddly|beauty|1530
+|player|p2|refind|elesa|1568
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mamoswine, M|
+|poke|p1|Alomomola, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Scizor, M|
+|poke|p1|Zapdos|
+|poke|p1|Meowscarada, F|
+|poke|p2|Darkrai|
+|poke|p2|Raging Bolt|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Iron Treads|
+|poke|p2|Meowscarada, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by beaudiddly)
+|
+|t:|1759071081
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Scizor|Scizor, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|1
+|
+|t:|1759071088
+|move|p2a: Meowscarada|Knock Off|p1a: Scizor
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Scizor|58/100
+|-enditem|p1a: Scizor|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Meowscarada
+|move|p1a: Scizor|U-turn|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|t:|1759071111
+|switch|p1a: Meowscarada|Meowscarada, F|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1759071116
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|2
+|
+|t:|1759071129
+|move|p1a: Meowscarada|U-turn|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|97/100
+|
+|t:|1759071131
+|switch|p1a: Zapdos|Zapdos|100/100|[from] U-turn
+|move|p2a: Weezing|Will-O-Wisp|p1a: Zapdos
+|-status|p1a: Zapdos|brn
+|
+|-damage|p1a: Zapdos|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1759071140
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Zapdos|Hurricane|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|79/100
+|
+|-heal|p2a: Iron Treads|85/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1759071145
+|move|p1a: Zapdos|Heat Wave|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-crit|p2a: Iron Treads
+|-damage|p2a: Iron Treads|9/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: beaudiddly|move: Stealth Rock
+|
+|-heal|p2a: Iron Treads|15/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1759071153
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Zapdos|Heat Wave|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|86/100
+|
+|-heal|p2a: Raging Bolt|92/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|76/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1759071160
+|move|p1a: Zapdos|Volt Switch|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|86/100
+|
+|t:|1759071171
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from] Volt Switch
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Cinderace
+|-damage|p1a: Cinderace|36/100
+|
+|-heal|p2a: Raging Bolt|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1759071199
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-heal|p2a: Raging Bolt|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1759071213
+|move|p1a: Cinderace|U-turn|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|82/100
+|
+|t:|1759071230
+|switch|p1a: Scizor|Scizor, M|58/100|[from] U-turn
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|16/100
+|
+|-heal|p2a: Raging Bolt|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1759071240
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-heal|p2a: Raging Bolt|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1759071245
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|turn|10
+|
+|t:|1759071250
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Weezing|Weezing-Galar, F|97/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Mamoswine|Icicle Crash|p2a: Weezing
+|-damage|p2a: Weezing|55/100
+|
+|upkeep
+|turn|11
+|
+|t:|1759071266
+|move|p1a: Mamoswine|Earthquake|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1759071277
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|12
+|inactive|beaudiddly has 120 seconds left.
+|
+|t:|1759071315
+|switch|p1a: Cinderace|Cinderace, M|36/100
+|move|p2a: Darkrai|Focus Blast|p1a: Cinderace|[miss]
+|-miss|p2a: Darkrai|p1a: Cinderace
+|
+|upkeep
+|turn|13
+|
+|t:|1759071321
+|move|p2a: Darkrai|Dark Pulse|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1759071325
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|14
+|
+|t:|1759071330
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Meowscarada|U-turn|p2a: Tornadus
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|57/100
+|
+|t:|1759071336
+|switch|p1a: Mamoswine|Mamoswine, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|15
+|
+|t:|1759071345
+|-terastallize|p2a: Tornadus|Steel
+|move|p1a: Mamoswine|Ice Shard|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|34/100
+|move|p2a: Tornadus|Knock Off|p1a: Mamoswine
+|-damage|p1a: Mamoswine|79/100
+|-enditem|p1a: Mamoswine|Never-Melt Ice|[from] move: Knock Off|[of] p2a: Tornadus
+|
+|upkeep
+|turn|16
+|
+|t:|1759071365
+|move|p2a: Tornadus|U-turn|p1a: Mamoswine
+|-damage|p1a: Mamoswine|61/100
+|
+|t:|1759071368
+|switch|p2a: Iron Treads|Iron Treads|15/100|[from] U-turn
+|-damage|p2a: Iron Treads|13/100|[from] Stealth Rock
+|move|p1a: Mamoswine|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1759071373
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|17
+|
+|t:|1759071383
+|move|p1a: Mamoswine|Ice Shard|p2a: Darkrai
+|-damage|p2a: Darkrai|70/100
+|move|p2a: Darkrai|Dark Pulse|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+|
+|t:|1759071385
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|18
+|
+|t:|1759071392
+|switch|p2a: Tornadus|Tornadus-Therian, M, tera:Steel|67/100
+|-damage|p2a: Tornadus|61/100|[from] Stealth Rock
+|move|p1a: Meowscarada|U-turn|p2a: Tornadus
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|41/100
+|
+|t:|1759071394
+|switch|p1a: Zapdos|Zapdos|76/100 brn|[from] U-turn
+|
+|-damage|p1a: Zapdos|69/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1759071404
+|switch|p2a: Raging Bolt|Raging Bolt|94/100
+|-damage|p2a: Raging Bolt|82/100|[from] Stealth Rock
+|move|p1a: Zapdos|Volt Switch|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|75/100
+|
+|t:|1759071421
+|switch|p1a: Meowscarada|Meowscarada, F|100/100|[from] Volt Switch
+|
+|-heal|p2a: Raging Bolt|81/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1759071432
+|move|p1a: Meowscarada|Knock Off|p2a: Raging Bolt
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Raging Bolt|42/100
+|-enditem|p2a: Raging Bolt|Leftovers|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Meowscarada
+|-damage|p1a: Meowscarada|28/100
+|
+|upkeep
+|turn|21
+|
+|t:|1759071442
+|switch|p1a: Zapdos|Zapdos|69/100 brn
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|-message|beaudiddly forfeited.
+|
+|win|refind
+|raw|beaudiddly's rating: 1530 &rarr; <strong>1512</strong><br />(-18 for losing)
+|raw|refind's rating: 1568 &rarr; <strong>1586</strong><br />(+18 for winning)
+|l|☆beaudiddly
+|player|p1|
+|l|☆refind
+|player|p2|

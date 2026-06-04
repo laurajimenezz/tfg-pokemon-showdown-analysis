@@ -1,0 +1,354 @@
+|j|☆Roboute
+|j|☆Free P&lestine
+|t:|1757939051
+|gametype|singles
+|player|p1|Roboute|265|1649
+|player|p2|Free P&lestine|unknown|1626
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Tinkaton, F|
+|poke|p1|Sinistcha|
+|poke|p1|Toxapex, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Great Tusk|
+|poke|p2|Dragonite, F|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Glimmora, M|
+|poke|p2|Kingambit, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Roboute)
+|
+|t:|1757939066
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Tinkaton|Tinkaton, F, shiny|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|turn|1
+|
+|t:|1757939074
+|move|p1a: Tinkaton|Stealth Rock|p2a: Glimmora
+|-sidestart|p2: Free P&lestine|move: Stealth Rock
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|-enditem|p2a: Glimmora|Power Herb
+|-anim|p2a: Glimmora|Meteor Beam|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|49/100
+|-enditem|p1a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|t:|1757939091
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Great Tusk
+|-damage|p2a: Great Tusk|62/100
+|
+|upkeep
+|turn|3
+|
+|t:|1757939095
+|switch|p1a: Sinistcha|Sinistcha, shiny|100/100
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|upkeep
+|turn|4
+|
+|t:|1757939110
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|-damage|p2a: Glimmora|88/100|[from] Stealth Rock
+|move|p1a: Sinistcha|Strength Sap|p2a: Glimmora
+|-unboost|p2a: Glimmora|atk|1
+|
+|upkeep
+|turn|5
+|
+|t:|1757939135
+|move|p2a: Glimmora|Stealth Rock|p1a: Sinistcha
+|-sidestart|p1: Roboute|move: Stealth Rock
+|move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+|-boost|p1a: Sinistcha|spa|1
+|-boost|p1a: Sinistcha|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1757939141
+|move|p2a: Glimmora|Mortal Spin|p1a: Sinistcha
+|-damage|p1a: Sinistcha|98/100
+|-status|p1a: Sinistcha|psn
+|-sideend|p2: Free P&lestine|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Glimmora
+|move|p1a: Sinistcha|Shadow Ball|p2a: Glimmora
+|-damage|p2a: Glimmora|20/100
+|
+|-heal|p1a: Sinistcha|100/100 psn|[from] item: Leftovers
+|-damage|p1a: Sinistcha|88/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1757939148
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|move|p1a: Sinistcha|Shadow Ball|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|-heal|p1a: Sinistcha|94/100 psn|[from] item: Leftovers
+|-damage|p1a: Sinistcha|82/100 psn|[from] psn
+|upkeep
+|
+|t:|1757939156
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|8
+|
+|t:|1757939162
+|-terastallize|p1a: Sinistcha|Fighting
+|move|p1a: Sinistcha|Tera Blast|p2a: Kingambit|[anim] Tera Blast Fighting
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|-heal|p1a: Sinistcha|88/100 psn|[from] item: Leftovers
+|-damage|p1a: Sinistcha|75/100 psn|[from] psn
+|upkeep
+|
+|t:|1757939170
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|9
+|
+|t:|1757939187
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Sinistcha|Shadow Ball|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|42/100
+|
+|-heal|p1a: Sinistcha|81/100 psn|[from] item: Leftovers
+|-damage|p1a: Sinistcha|69/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1757939192
+|move|p2a: Iron Valiant|Moonblast|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-crit|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|upkeep
+|
+|t:|1757939212
+|switch|p1a: Toxapex|Toxapex, M, shiny|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1757939219
+|move|p2a: Iron Valiant|Moonblast|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|63/100
+|-enditem|p1a: Toxapex|Eject Button
+|
+|t:|1757939225
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|36/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1757939229
+|switch|p1a: Tinkaton|Tinkaton, F, shiny|49/100
+|-damage|p1a: Tinkaton|43/100|[from] Stealth Rock
+|move|p2a: Iron Valiant|Focus Blast|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|30/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757939232
+|switch|p1a: Toxapex|Toxapex, M, shiny|96/100
+|-damage|p1a: Toxapex|84/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1757939238
+|move|p2a: Iron Valiant|Moonblast|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|58/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|23/100|[from] Sandstorm
+|-damage|p1a: Toxapex|52/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1757939248
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Toxapex|Toxic|p2a: Deoxys
+|-status|p2a: Deoxys|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Deoxys|94/100 tox|[from] Sandstorm
+|-damage|p1a: Toxapex|46/100|[from] Sandstorm
+|-damage|p2a: Deoxys|88/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1757939261
+|switch|p2a: Dragonite|Dragonite, F, shiny|100/100
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|88/100
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1757939273
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Tyranitar|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|51/100
+|-enditem|p2a: Dragonite|Leftovers|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|upkeep
+|turn|17
+|
+|t:|1757939281
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Tyranitar|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1757939289
+|switch|p2a: Great Tusk|Great Tusk|62/100
+|turn|18
+|
+|t:|1757939301
+|switch|p1a: Tornadus|Tornadus-Therian, M, shiny|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|upkeep
+|turn|19
+|
+|t:|1757939305
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Great Tusk|[miss]
+|-miss|p1a: Tornadus|p2a: Great Tusk
+|move|p2a: Great Tusk|Head Smash|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-damage|p2a: Great Tusk|36/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1757939314
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|76/100
+|-damage|p1a: Tyranitar|64/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|20
+|
+|t:|1757939326
+|move|p2a: Great Tusk|Headlong Rush|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1757939330
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1757939333
+|move|p1a: Excadrill|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757939342
+|switch|p2a: Deoxys|Deoxys-Speed|88/100 tox
+|-ability|p2a: Deoxys|Pressure
+|turn|22
+|
+|t:|1757939346
+|move|p1a: Excadrill|Earthquake|p2a: Deoxys
+|-damage|p2a: Deoxys|12/100 tox
+|move|p2a: Deoxys|Reflect|p2a: Deoxys
+|-sidestart|p2: Free P&lestine|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Deoxys|5/100 tox|[from] Sandstorm
+|-damage|p2a: Deoxys|0 fnt|[from] psn
+|faint|p2a: Deoxys
+|upkeep
+|
+|t:|1757939349
+|switch|p2a: Iron Valiant|Iron Valiant|23/100
+|turn|23
+|
+|t:|1757939352
+|move|p1a: Excadrill|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|win|Roboute
+|raw|Roboute's rating: 1649 &rarr; <strong>1668</strong><br />(+19 for winning)
+|raw|Free P&amp;lestine's rating: 1626 &rarr; <strong>1607</strong><br />(-19 for losing)
+|l|☆Free P&lestine
+|player|p2|
+|l|☆Roboute
+|player|p1|

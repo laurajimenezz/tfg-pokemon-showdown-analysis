@@ -1,0 +1,257 @@
+|j|☆Ivuly
+|j|☆chrisfeb1992
+|t:|1779652917
+|gametype|singles
+|player|p1|Ivuly|gambler|1179
+|player|p2|chrisfeb1992|266|1197
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Polteageist|
+|poke|p1|Bisharp, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Breloom, F|
+|poke|p1|Barraskewda, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Ribombee, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Darkrai|
+|poke|p2|Iron Treads|
+|poke|p2|Regieleki|
+|teampreview
+|
+|t:|1779652923
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1779652933
+|move|p2a: Iron Treads|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: Ivuly|move: Stealth Rock
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: Ivuly|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1779652939
+|move|p2a: Iron Treads|Volt Switch|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|22/100
+|
+|t:|1779652946
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Regieleki|Regieleki|100/100|[from] Volt Switch
+|move|p1a: Pelipper|Weather Ball|p2a: Regieleki
+|-damage|p2a: Regieleki|0 fnt
+|faint|p2a: Regieleki
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pelipper|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779652958
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|3
+|
+|t:|1779652962
+|move|p2a: Darkrai|Dark Pulse|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779652969
+|switch|p1a: Barraskewda|Barraskewda, M, shiny|100/100
+|-damage|p1a: Barraskewda|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1779652979
+|move|p1a: Barraskewda|Liquidation|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|-damage|p1a: Barraskewda|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: Ivuly|move: Tailwind
+|upkeep
+|
+|t:|1779652988
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|turn|5
+|
+|t:|1779652993
+|move|p1a: Barraskewda|Liquidation|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|-unboost|p2a: Ribombee|def|1
+|-damage|p1a: Barraskewda|69/100|[from] item: Life Orb
+|move|p2a: Ribombee|Moonblast|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-weather|none
+|upkeep
+|
+|t:|1779653002
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|6
+|
+|t:|1779653009
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Ribombee|Quiver Dance|p2a: Ribombee
+|-boost|p2a: Ribombee|spa|1
+|-boost|p2a: Ribombee|spd|1
+|-boost|p2a: Ribombee|spe|1
+|
+|upkeep
+|turn|7
+|
+|t:|1779653018
+|move|p1a: Cinderace|Sucker Punch|p2a: Ribombee
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-resisted|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1779653027
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|8
+|
+|t:|1779653036
+|-terastallize|p1a: Cinderace|Fire
+|move|p1a: Cinderace|Pyro Ball|p2a: Ursaluna
+|-damage|p2a: Ursaluna|56/100
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|t:|1779653049
+|move|p1a: Cinderace|Pyro Ball|p2a: Ursaluna
+|-damage|p2a: Ursaluna|16/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-damage|p2a: Ursaluna|10/100 brn|[from] brn
+|upkeep
+|
+|t:|1779653057
+|switch|p1a: Bisharp|Bisharp, F, shiny|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1779653062
+|move|p1a: Bisharp|Sucker Punch|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1779653069
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|11
+|
+|t:|1779653075
+|move|p1a: Bisharp|Sucker Punch|p2a: Iron Treads
+|-damage|p2a: Iron Treads|62/100
+|move|p2a: Iron Treads|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|32/100
+|
+|upkeep
+|turn|12
+|
+|t:|1779653082
+|move|p1a: Bisharp|Sucker Punch|p2a: Iron Treads
+|-damage|p2a: Iron Treads|23/100
+|move|p2a: Iron Treads|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|t:|1779653087
+|switch|p1a: Breloom|Breloom, F, shiny|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1779653094
+|move|p1a: Breloom|Mach Punch|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|
+|t:|1779653101
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|turn|14
+|
+|t:|1779653110
+|-terastallize|p2a: Ceruledge|Ghost
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Breloom|Seed Bomb|p2a: Ceruledge
+|-damage|p2a: Ceruledge|45/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1779653123
+|move|p2a: Ceruledge|Bitter Blade|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-heal|p2a: Ceruledge|90/100|[from] drain|[of] p1a: Breloom
+|faint|p1a: Breloom
+|
+|upkeep
+|
+|t:|1779653127
+|switch|p1a: Polteageist|Polteageist, shiny|100/100
+|-damage|p1a: Polteageist|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1779653138
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|win|chrisfeb1992
+|raw|Ivuly's rating: 1179 &rarr; <strong>1155</strong><br />(-24 for losing)
+|raw|chrisfeb1992's rating: 1197 &rarr; <strong>1221</strong><br />(+24 for winning)
+|l|☆Ivuly
+|player|p1|

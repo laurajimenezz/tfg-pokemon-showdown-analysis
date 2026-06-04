@@ -1,0 +1,169 @@
+|j|☆evilmassacre
+|j|☆lorped
+|t:|1758345918
+|gametype|singles
+|player|p1|evilmassacre|clown|1230
+|player|p2|lorped|265|1231
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Gliscor, M|
+|poke|p1|Ceruledge, M|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Iron Treads|
+|poke|p1|Chansey, F|
+|poke|p2|Leavanny, F|
+|poke|p2|Ceruledge, M|
+|poke|p2|Iron Hands|
+|poke|p2|Sinistcha|
+|poke|p2|Altaria, F|
+|poke|p2|Mamoswine, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by evilmassacre)
+|
+|t:|1758345933
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Leavanny|Leavanny, F|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1758345942
+|move|p1a: Iron Treads|Iron Head|p2a: Leavanny
+|-damage|p2a: Leavanny|47/100
+|move|p2a: Leavanny|Leaf Blade|p1a: Iron Treads
+|-damage|p1a: Iron Treads|65/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758345951
+|move|p1a: Iron Treads|Iron Head|p2a: Leavanny
+|-crit|p2a: Leavanny
+|-damage|p2a: Leavanny|0 fnt
+|faint|p2a: Leavanny
+|
+|upkeep
+|
+|t:|1758345973
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|turn|3
+|
+|t:|1758345977
+|move|p1a: Iron Treads|Stealth Rock|p2a: Sinistcha
+|-sidestart|p2: lorped|move: Stealth Rock
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1758345984
+|move|p1a: Iron Treads|Iron Head|p2a: Sinistcha
+|-damage|p2a: Sinistcha|66/100
+|cant|p2a: Sinistcha|flinch
+|
+|upkeep
+|turn|5
+|
+|t:|1758345990
+|move|p1a: Iron Treads|Iron Head|p2a: Sinistcha
+|-damage|p2a: Sinistcha|29/100
+|-enditem|p2a: Sinistcha|Sitrus Berry|[eat]
+|-heal|p2a: Sinistcha|54/100|[from] item: Sitrus Berry
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-heal|p2a: Sinistcha|84/100|[from] drain|[of] p1a: Iron Treads
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758346005
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|6
+|
+|t:|1758346014
+|move|p1a: Gholdengo|Thunder Wave|p2a: Sinistcha|[miss]
+|-miss|p1a: Gholdengo|p2a: Sinistcha
+|move|p2a: Sinistcha|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1758346033
+|switch|p1a: Chansey|Chansey, F|100/100
+|turn|7
+|
+|t:|1758346037
+|move|p1a: Chansey|Nasty Plot|p1a: Chansey
+|-boost|p1a: Chansey|spa|2
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Chansey
+|-enditem|p1a: Chansey|Focus Sash
+|-damage|p1a: Chansey|1/100
+|-heal|p2a: Sinistcha|100/100|[from] drain|[of] p1a: Chansey
+|replace|p1a: Zoroark|Zoroark-Hisui, M
+|-end|p1a: Zoroark|Illusion
+|
+|upkeep
+|turn|8
+|
+|t:|1758346048
+|move|p1a: Zoroark|Shadow Ball|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|upkeep
+|
+|t:|1758346055
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|-damage|p2a: Ceruledge|76/100|[from] Stealth Rock
+|-item|p2a: Ceruledge|Air Balloon
+|turn|9
+|
+|t:|1758346064
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Zoroark
+|-immune|p1a: Zoroark
+|move|p1a: Zoroark|Shadow Ball|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|-enditem|p2a: Ceruledge|Air Balloon
+|faint|p2a: Ceruledge
+|
+|upkeep
+|inactive|lorped has 120 seconds left.
+|inactive|lorped has 90 seconds left.
+|inactive|lorped has 60 seconds left.
+|inactive|lorped has 30 seconds left.
+|c|☆evilmassacre|gg
+|inactive|lorped has 20 seconds left.
+|inactive|lorped has 15 seconds left.
+|inactive|lorped has 10 seconds left.
+|inactive|lorped has 5 seconds left.
+|-message|lorped lost due to inactivity.
+|
+|win|evilmassacre
+|raw|evilmassacre's rating: 1230 &rarr; <strong>1255</strong><br />(+25 for winning)
+|raw|lorped's rating: 1231 &rarr; <strong>1206</strong><br />(-25 for losing)
+|l|☆evilmassacre
+|player|p1|
+|l|☆lorped
+|player|p2|

@@ -1,0 +1,307 @@
+|j|☆derpsaur
+|j|☆StarLi
+|t:|1769407946
+|gametype|singles
+|player|p1|derpsaur|102|1457
+|player|p2|StarLi|iono|1385
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Heatran, F|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Slither Wing|
+|poke|p1|Dragonite, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Iron Treads|
+|poke|p2|Ceruledge, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Zapdos|
+|teampreview
+|
+|t:|1769407962
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1769407966
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Ogerpon
+|-sidestart|p1: derpsaur|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1769407973
+|move|p2a: Iron Treads|Steel Beam|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|72/100
+|-damage|p2a: Iron Treads|50/100|[from] steelbeam
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Iron Treads|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769407989
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|turn|3
+|
+|t:|1769407998
+|-terastallize|p2a: Ceruledge|Ghost
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Ceruledge|[anim] Ivy Cudgel Water
+|-crit|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1769408005
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|4
+|
+|t:|1769408018
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: StarLi|Reflect
+|move|p1a: Ogerpon|Spikes|p2a: Grimmsnarl
+|-sidestart|p2: StarLi|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1769408024
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Grimmsnarl|Taunt|p1a: Weezing
+|-start|p1a: Weezing|move: Taunt
+|
+|upkeep
+|turn|6
+|
+|t:|1769408031
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Weezing|Strange Steam|p2a: Zapdos|[miss]
+|-miss|p1a: Weezing|p2a: Zapdos
+|
+|upkeep
+|turn|7
+|
+|t:|1769408036
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|move|p2a: Zapdos|Hurricane|p1a: Heatran|[miss]
+|-miss|p2a: Zapdos|p1a: Heatran
+|
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1769408039
+|move|p2a: Zapdos|Volt Switch|p1a: Heatran
+|-damage|p1a: Heatran|68/100
+|
+|t:|1769408044
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100|[from] Volt Switch
+|-damage|p2a: Grimmsnarl|88/100|[from] Spikes
+|move|p1a: Heatran|Magma Storm|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|30/100
+|-activate|p2a: Grimmsnarl|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|74/100|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|17/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1769408049
+|move|p2a: Grimmsnarl|Low Kick|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-end|p2a: Grimmsnarl|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1769408051
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Grimmsnarl|atk|1
+|turn|10
+|
+|t:|1769408053
+|move|p2a: Grimmsnarl|Taunt|p1a: Landorus
+|-start|p1a: Landorus|move: Taunt
+|move|p1a: Landorus|Earthquake|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1769408058
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Spikes
+|turn|11
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by derpsaur)
+|
+|t:|1769408064
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|-sideend|p2: StarLi|Reflect
+|upkeep
+|turn|12
+|
+|t:|1769408069
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Weezing|[anim] Ivy Cudgel Water
+|-damage|p1a: Weezing|23/100
+|move|p1a: Weezing|Toxic|p2a: Ogerpon
+|-status|p2a: Ogerpon|tox
+|
+|-damage|p2a: Ogerpon|82/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1769408075
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|move|p2a: Ogerpon|Trailblaze|p1a: Slither Wing
+|-resisted|p1a: Slither Wing
+|-damage|p1a: Slither Wing|76/100
+|-boost|p2a: Ogerpon|spe|1
+|
+|-damage|p2a: Ogerpon|70/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1769408080
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Slither Wing|Will-O-Wisp|p2a: Zapdos
+|-status|p2a: Zapdos|brn
+|
+|-damage|p2a: Zapdos|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1769408089
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Weezing|Weezing-Galar, M|23/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Zapdos|Hurricane|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|
+|-damage|p2a: Zapdos|88/100 brn|[from] brn
+|upkeep
+|inactive|derpsaur has 120 seconds left.
+|
+|t:|1769408126
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|16
+|
+|t:|1769408135
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Zapdos|Hurricane|p1a: Dragonite
+|-damage|p1a: Dragonite|66/100
+|
+|-damage|p2a: Zapdos|82/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1769408145
+|move|p1a: Dragonite|Ice Spinner|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1769408151
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|88/100|[from] Spikes
+|turn|18
+|
+|t:|1769408164
+|move|p1a: Dragonite|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|13/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1769408169
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|72/100
+|-damage|p1a: Ogerpon|60/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1769408173
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p2a: Iron Valiant|Moonblast|p1a: Ogerpon
+|-crit|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|upkeep
+|
+|t:|1769408179
+|switch|p1a: Slither Wing|Slither Wing|76/100
+|turn|20
+|
+|t:|1769408182
+|move|p1a: Slither Wing|First Impression|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769408185
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|70/100 tox
+|-damage|p2a: Ogerpon|58/100 tox|[from] Spikes
+|turn|21
+|
+|t:|1769408192
+|move|p2a: Ogerpon|Play Rough|p1a: Slither Wing
+|-supereffective|p1a: Slither Wing
+|-damage|p1a: Slither Wing|17/100
+|move|p1a: Slither Wing|U-turn|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|win|derpsaur
+|raw|derpsaur's rating: 1457 &rarr; <strong>1473</strong><br />(+16 for winning)
+|raw|StarLi's rating: 1385 &rarr; <strong>1369</strong><br />(-16 for losing)
+|l|☆derpsaur
+|player|p1|

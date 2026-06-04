@@ -1,0 +1,164 @@
+|j|☆Danwotto
+|j|☆cozyprincemshroom
+|t:|1760739798
+|gametype|singles
+|player|p1|Danwotto|morty|1120
+|player|p2|cozyprincemshroom|waiter|1169
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Alomomola, M|
+|poke|p1|Espeon, M|
+|poke|p1|Incineroar, M|
+|poke|p1|Iron Treads|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Sinistcha|
+|poke|p2|Munkidori, M|
+|poke|p2|Lycanroc-Dusk, F|
+|poke|p2|Altaria, M|
+|poke|p2|Meganium, M|
+|poke|p2|Inteleon, M|
+|poke|p2|Mew|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Danwotto)
+|inactive|cozyprincemshroom also wants the timer to be on.
+|
+|t:|1760739802
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Munkidori|Munkidori, M|100/100
+|turn|1
+|
+|t:|1760739811
+|move|p1a: Grimmsnarl|Sucker Punch||[still]
+|-fail|p1a: Grimmsnarl
+|move|p2a: Munkidori|Trick|p1a: Grimmsnarl
+|-activate|p2a: Munkidori|move: Trick|[of] p1a: Grimmsnarl
+|-item|p1a: Grimmsnarl|Choice Scarf|[from] move: Trick
+|-item|p2a: Munkidori|Life Orb|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|t:|1760739825
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Munkidori
+|-unboost|p2a: Munkidori|atk|1
+|-unboost|p2a: Munkidori|spa|1
+|
+|t:|1760739832
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] Parting Shot
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Munkidori|Nasty Plot|p2a: Munkidori
+|-boost|p2a: Munkidori|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1760739842
+|switch|p2a: Altaria|Altaria, M|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Altaria
+|-sidestart|p2: cozyprincemshroom|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1760739856
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Espeon|Espeon, M|100/100
+|move|p2a: Altaria|Defog|p1a: Espeon
+|move|p1a: Espeon|Defog|p2a: Altaria|[from] ability: Magic Bounce
+|-unboost|p2a: Altaria|evasion|1
+|-sideend|p2: cozyprincemshroom|Stealth Rock|[from] move: Defog|[of] p1a: Espeon
+|
+|upkeep
+|turn|5
+|
+|t:|1760739867
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1760739874
+|move|p2a: Inteleon|Dark Pulse|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|54/100
+|move|p1a: Espeon|Psychic Noise|p2a: Inteleon
+|-damage|p2a: Inteleon|0 fnt
+|faint|p2a: Inteleon
+|-damage|p1a: Espeon|44/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760739884
+|switch|p2a: Lycanroc|Lycanroc-Dusk, F|100/100
+|turn|7
+|
+|t:|1760739892
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Lycanroc|atk|1
+|move|p2a: Lycanroc|Swords Dance|p2a: Lycanroc
+|-boost|p2a: Lycanroc|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1760739900
+|-terastallize|p1a: Incineroar|Dragon
+|move|p2a: Lycanroc|Accelerock|p1a: Incineroar
+|-damage|p1a: Incineroar|56/100
+|-damage|p2a: Lycanroc|91/100|[from] item: Life Orb
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Lycanroc|[miss]
+|-miss|p1a: Incineroar|p2a: Lycanroc
+|
+|-heal|p1a: Incineroar|62/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760739911
+|move|p2a: Lycanroc|Play Rough|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-damage|p2a: Lycanroc|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760739916
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|10
+|
+|t:|1760739921
+|move|p1a: Grimmsnarl|Sucker Punch||[still]
+|-fail|p1a: Grimmsnarl
+|move|p2a: Lycanroc|Swords Dance|p2a: Lycanroc
+|-boost|p2a: Lycanroc|atk|2
+|
+|upkeep
+|turn|11
+|-message|Danwotto forfeited.
+|
+|win|cozyprincemshroom
+|raw|Danwotto's rating: 1120 &rarr; <strong>1099</strong><br />(-21 for losing)
+|raw|cozyprincemshroom's rating: 1169 &rarr; <strong>1190</strong><br />(+21 for winning)
+|l|☆Danwotto
+|player|p1|
+|l|☆cozyprincemshroom
+|player|p2|

@@ -1,0 +1,295 @@
+|j|☆rickyflames1
+|j|☆106abd
+|t:|1760329817
+|gametype|singles
+|player|p1|rickyflames1|102|1428
+|player|p2|106abd|hilbert-wonderlauncher|1395
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Chansey, F|
+|poke|p1|Gliscor, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Deoxys-Defense|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Skarmory, F|
+|poke|p2|Whimsicott, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Talonflame, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Greninja-*, M|
+|teampreview
+|
+|t:|1760329825
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garganacl|atk|1
+|turn|1
+|
+|t:|1760329837
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|move|p1a: Landorus|Earthquake|p2a: Talonflame
+|-immune|p2a: Talonflame
+|
+|upkeep
+|turn|2
+|
+|t:|1760329845
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|brn
+|
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1760329856
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|move|p1a: Mandibuzz|Toxic|p2a: Garganacl
+|-immune|p2a: Garganacl|[from] ability: Purifying Salt
+|
+|-damage|p1a: Mandibuzz|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1760329867
+|switch|p1a: Gliscor|Gliscor, F, shiny|100/100
+|move|p2a: Garganacl|Salt Cure|p1a: Gliscor
+|-damage|p1a: Gliscor|89/100
+|-start|p1a: Gliscor|Salt Cure
+|
+|-damage|p1a: Gliscor|76/100|[from] Salt Cure
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rickyflames1)
+|
+|t:|1760329878
+|switch|p2a: Greninja|Greninja, M, shiny|100/100
+|move|p1a: Gliscor|Knock Off|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|77/100
+|-enditem|p2a: Greninja|Life Orb|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-heal|p1a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Gliscor|76/100 tox|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1760329889
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|switch|p1a: Chansey|Chansey, F, shiny|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1760329898
+|move|p1a: Chansey|Heal Bell|p1a: Chansey
+|-activate|p1a: Chansey|move: Heal Bell
+|-curestatus|p1: Mandibuzz|brn|[msg]
+|-curestatus|p1: Gliscor|tox|[msg]
+|move|p2a: Garganacl|Salt Cure|p1a: Chansey
+|-damage|p1a: Chansey|79/100
+|-start|p1a: Chansey|Salt Cure
+|
+|-damage|p1a: Chansey|67/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1760329908
+|move|p1a: Chansey|Stealth Rock|p2a: Garganacl
+|-sidestart|p2: 106abd|move: Stealth Rock
+|move|p2a: Garganacl|Avalanche|p1a: Chansey
+|-damage|p1a: Chansey|44/100
+|
+|-damage|p1a: Chansey|32/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1760329917
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Garganacl|Avalanche|p1a: Skarmory
+|-damage|p1a: Skarmory|93/100
+|-damage|p2a: Garganacl|84/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|
+|-heal|p2a: Garganacl|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760329928
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|move|p1a: Skarmory|Sandstorm|p1a: Skarmory
+|-weather|Sandstorm
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Talonflame|95/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1760329938
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|88/100
+|move|p2a: Talonflame|Defog|p1a: Mandibuzz
+|-unboost|p1a: Mandibuzz|evasion|1
+|-sideend|p2: 106abd|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Talonflame|89/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1760329955
+|switch|p2a: Garganacl|Garganacl, M|90/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Garganacl
+|-damage|p2a: Garganacl|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Garganacl|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760329970
+|switch|p1a: Gliscor|Gliscor, F, shiny|76/100
+|move|p2a: Garganacl|Salt Cure|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|60/100
+|-start|p1a: Gliscor|Salt Cure
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Garganacl|82/100|[from] item: Leftovers
+|-damage|p1a: Gliscor|47/100|[from] Salt Cure
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|14
+|
+|t:|1760329991
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Gliscor|Toxic|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-weather|none
+|-heal|p2a: Garganacl|88/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|60/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Gliscor|47/100 tox|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1760330003
+|switch|p2a: Talonflame|Talonflame, M|89/100
+|move|p1a: Gliscor|Earthquake|p2a: Talonflame
+|-immune|p2a: Talonflame
+|
+|-heal|p1a: Gliscor|60/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Gliscor|47/100 tox|[from] Salt Cure
+|upkeep
+|turn|16
+|
+|t:|1760330017
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|
+|upkeep
+|turn|17
+|
+|t:|1760330026
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Talonflame|Talonflame, M|89/100
+|move|p1a: Landorus|Rock Slide|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|upkeep
+|
+|t:|1760330032
+|switch|p2a: Greninja|Greninja, M, shiny|77/100
+|turn|18
+|
+|t:|1760330041
+|switch|p1a: Chansey|Chansey, F, shiny|32/100
+|switch|p2a: Garganacl|Garganacl, M|88/100
+|
+|-heal|p2a: Garganacl|95/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1760330051
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|82/100
+|move|p2a: Garganacl|Salt Cure|p1a: Chansey
+|-damage|p1a: Chansey|61/100
+|-start|p1a: Chansey|Salt Cure
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Chansey|49/100|[from] Salt Cure
+|upkeep
+|turn|20
+|
+|t:|1760330061
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|99/100
+|move|p2a: Garganacl|Salt Cure|p1a: Chansey
+|-damage|p1a: Chansey|75/100
+|
+|-damage|p1a: Chansey|62/100|[from] Salt Cure
+|upkeep
+|turn|21
+|
+|t:|1760330071
+|move|p1a: Chansey|Stealth Rock|p2a: Garganacl
+|-sidestart|p2: 106abd|move: Stealth Rock
+|move|p2a: Garganacl|Salt Cure|p1a: Chansey
+|-damage|p1a: Chansey|42/100
+|
+|-damage|p1a: Chansey|29/100|[from] Salt Cure
+|upkeep
+|turn|22
+|
+|t:|1760330095
+|switch|p1a: Gliscor|Gliscor, F, shiny|47/100 tox
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|60/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|t:|1760330110
+|move|p1a: Gliscor|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|28/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Gliscor
+|-damage|p1a: Gliscor|13/100 tox
+|
+|-heal|p2a: Kingambit|34/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|26/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|-message|106abd forfeited.
+|
+|win|rickyflames1
+|raw|rickyflames1's rating: 1428 &rarr; <strong>1446</strong><br />(+18 for winning)
+|raw|106abd's rating: 1395 &rarr; <strong>1377</strong><br />(-18 for losing)
+|l|☆106abd
+|player|p2|
+|l|☆rickyflames1
+|player|p1|

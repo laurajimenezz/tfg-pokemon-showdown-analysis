@@ -1,0 +1,333 @@
+|j|☆il0p
+|j|☆Hammez40
+|t:|1769393502
+|gametype|singles
+|player|p1|il0p|pokemaniac|1192
+|player|p2|Hammez40|harlequin|1188
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Hydrapple, M|
+|poke|p1|Great Tusk|
+|poke|p1|Cobalion|
+|poke|p1|Darkrai|
+|poke|p2|Darkrai|
+|poke|p2|Iron Crown|
+|poke|p2|Quaquaval, M|
+|poke|p2|Gliscor, M|
+|poke|p2|Florges, F|
+|poke|p2|Pecharunt|
+|teampreview
+|
+|t:|1769393533
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cobalion|Cobalion|100/100
+|switch|p2a: bambs|Iron Crown|100/100
+|-enditem|p2a: bambs|Booster Energy
+|-activate|p2a: bambs|ability: Quark Drive|[fromitem]
+|-start|p2a: bambs|quarkdrivespe
+|turn|1
+|
+|t:|1769393543
+|move|p2a: bambs|Calm Mind|p2a: bambs
+|-boost|p2a: bambs|spa|1
+|-boost|p2a: bambs|spd|1
+|move|p1a: Cobalion|Thunder Wave|p2a: bambs|[miss]
+|-miss|p1a: Cobalion|p2a: bambs
+|
+|upkeep
+|turn|2
+|
+|t:|1769393557
+|move|p2a: bambs|Volt Switch|p1a: Cobalion
+|-damage|p1a: Cobalion|64/100
+|
+|t:|1769393562
+|-end|p2a: bambs|Quark Drive|[silent]
+|switch|p2a: bat|Gliscor, M|100/100|[from] Volt Switch
+|move|p1a: Cobalion|Thunder Wave|p2a: bat
+|-immune|p2a: bat
+|
+|-status|p2a: bat|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1769393571
+|switch|p1a: Hydrapple|Hydrapple, M|100/100
+|move|p2a: bat|Stealth Rock|p1a: Hydrapple
+|-sidestart|p1: il0p|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1769393577
+|move|p2a: bat|Toxic|p1a: Hydrapple
+|-status|p1a: Hydrapple|tox
+|move|p1a: Hydrapple|Nasty Plot|p1a: Hydrapple
+|-boost|p1a: Hydrapple|spa|2
+|
+|-damage|p1a: Hydrapple|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1769393587
+|switch|p2a: rosatia|Florges, F, shiny|100/100
+|move|p1a: Hydrapple|Fickle Beam|p2a: rosatia
+|-immune|p2a: rosatia
+|
+|-damage|p1a: Hydrapple|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1769393599
+|switch|p1a: Cobalion|Cobalion|64/100
+|-damage|p1a: Cobalion|61/100|[from] Stealth Rock
+|move|p2a: rosatia|Alluring Voice|p1a: Cobalion
+|-damage|p1a: Cobalion|25/100
+|
+|upkeep
+|turn|7
+|
+|t:|1769393616
+|move|p1a: Cobalion|Volt Switch|p2a: rosatia
+|-damage|p2a: rosatia|94/100
+|
+|t:|1769393620
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from] Volt Switch
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: rosatia|Alluring Voice|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: rosatia|88/100|[from] Sandstorm
+|-heal|p2a: rosatia|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1769393633
+|move|p1a: Tyranitar|Stone Edge|p2a: rosatia
+|-damage|p2a: rosatia|0 fnt
+|faint|p2a: rosatia
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1769393647
+|switch|p2a: elton|Quaquaval, M, shiny|100/100
+|turn|9
+|
+|t:|1769393659
+|switch|p1a: Hydrapple|Hydrapple, M|100/100 tox
+|move|p2a: elton|Aqua Step|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|95/100 tox
+|-boost|p2a: elton|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: elton|94/100|[from] Sandstorm
+|-damage|p1a: Hydrapple|89/100 tox|[from] Sandstorm
+|-heal|p2a: elton|100/100|[from] item: Leftovers
+|-damage|p1a: Hydrapple|83/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1769393673
+|-terastallize|p2a: elton|Ice
+|move|p2a: elton|Ice Spinner|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|2/100 tox
+|move|p1a: Hydrapple|Giga Drain|p2a: elton
+|-damage|p2a: elton|62/100
+|-heal|p1a: Hydrapple|16/100 tox|[from] drain|[of] p2a: elton
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: elton|55/100|[from] Sandstorm
+|-damage|p1a: Hydrapple|10/100 tox|[from] Sandstorm
+|-heal|p2a: elton|62/100|[from] item: Leftovers
+|-damage|p1a: Hydrapple|0 fnt|[from] psn
+|faint|p1a: Hydrapple
+|upkeep
+|
+|t:|1769393676
+|switch|p1a: Cobalion|Cobalion|100/100
+|turn|11
+|
+|t:|1769393694
+|move|p2a: elton|Close Combat|p1a: Cobalion
+|-immune|p1a: Cobalion
+|move|p1a: Cobalion|Hyper Voice|p2a: elton
+|-damage|p2a: elton|0 fnt
+|faint|p2a: elton
+|
+|-weather|none
+|upkeep
+|
+|t:|1769393701
+|switch|p2a: Darius|Darkrai, shiny|100/100
+|turn|12
+|c|☆il0p|get got
+|
+|t:|1769393705
+|switch|p1a: Tyranitar|Tyranitar, M|48/100
+|-damage|p1a: Tyranitar|35/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Darius|Dark Pulse|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Darius|94/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1769393713
+|move|p2a: Darius|Dark Pulse|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Darius|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1769393717
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|14
+|
+|t:|1769393721
+|switch|p2a: dayman wayans|Pecharunt|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: dayman wayans
+|-immune|p2a: dayman wayans
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: dayman wayans|94/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1769393730
+|move|p1a: Great Tusk|Knock Off|p2a: dayman wayans
+|-supereffective|p2a: dayman wayans
+|-damage|p2a: dayman wayans|61/100
+|-enditem|p2a: dayman wayans|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: dayman wayans|Malignant Chain|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: dayman wayans|55/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1769393740
+|move|p1a: Great Tusk|Headlong Rush|p2a: dayman wayans
+|-supereffective|p2a: dayman wayans
+|-damage|p2a: dayman wayans|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: dayman wayans
+|
+|-weather|none
+|upkeep
+|
+|t:|1769393745
+|switch|p2a: bambs|Iron Crown|100/100
+|turn|17
+|
+|t:|1769393751
+|-end|p2a: bambs|Quark Drive|[silent]
+|switch|p2a: bat|Gliscor, M|100/100 tox
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Cobalion|Cobalion|25/100
+|-damage|p1a: Cobalion|22/100|[from] Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|t:|1769393759
+|move|p1a: Cobalion|Stealth Rock|p2a: bat
+|-sidestart|p2: Hammez40|move: Stealth Rock
+|move|p2a: bat|Earthquake|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|upkeep
+|
+|t:|1769393761
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|19
+|
+|t:|1769393772
+|switch|p2a: bambs|Iron Crown|100/100
+|-damage|p2a: bambs|94/100|[from] Stealth Rock
+|move|p1a: Great Tusk|Nasty Plot|p1a: Great Tusk
+|-boost|p1a: Great Tusk|spa|2
+|
+|upkeep
+|turn|20
+|
+|t:|1769393781
+|move|p1a: Great Tusk|Hyper Voice|p2a: bambs
+|-resisted|p2a: bambs
+|-damage|p2a: bambs|54/100
+|move|p2a: bambs|Calm Mind|p2a: bambs
+|-boost|p2a: bambs|spa|1
+|-boost|p2a: bambs|spd|1
+|
+|upkeep
+|turn|21
+|
+|t:|1769393791
+|move|p1a: Great Tusk|Shadow Ball|p2a: bambs
+|-supereffective|p2a: bambs
+|-damage|p2a: bambs|0 fnt
+|faint|p2a: bambs
+|-end|p2a: bambs|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769393798
+|switch|p2a: Darius|Darkrai, shiny|88/100
+|-damage|p2a: Darius|76/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1769393803
+|move|p2a: Darius|Ice Beam|p1a: Great Tusk
+|-damage|p1a: Great Tusk|2/100
+|replace|p1a: Zoroark|Zoroark-Hisui, M
+|-end|p1a: Zoroark|Illusion
+|move|p1a: Zoroark|Hyper Voice|p2a: Darius
+|-damage|p2a: Darius|0 fnt
+|faint|p2a: Darius
+|
+|upkeep
+|
+|t:|1769393810
+|switch|p2a: bat|Gliscor, M|100/100 tox
+|-damage|p2a: bat|88/100 tox|[from] Stealth Rock
+|turn|23
+|
+|t:|1769393817
+|-terastallize|p1a: Zoroark|Ghost
+|move|p1a: Zoroark|Shadow Ball|p2a: bat
+|-damage|p2a: bat|0 fnt
+|faint|p2a: bat
+|
+|win|il0p
+|raw|il0p's rating: 1192 &rarr; <strong>1217</strong><br />(+25 for winning)
+|raw|Hammez40's rating: 1188 &rarr; <strong>1163</strong><br />(-25 for losing)

@@ -1,0 +1,186 @@
+|j|☆spongeon
+|j|☆sanjywanjy
+|t:|1760328124
+|gametype|singles
+|player|p1|spongeon|2|1324
+|player|p2|sanjywanjy|skyla|1282
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Zapdos|
+|poke|p1|Maushold|
+|poke|p1|Comfey, M|
+|poke|p1|Pecharunt|
+|poke|p1|Chansey, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Iron Moth|
+|poke|p2|Meowscarada, M|
+|teampreview
+|
+|t:|1760328144
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1760328161
+|switch|p1a: Maushold|Maushold|100/100
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Maushold
+|-sidestart|p1: spongeon|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1760328167
+|move|p1a: Maushold|Encore|p2a: Ting-Lu
+|-start|p2a: Ting-Lu|Encore
+|move|p2a: Ting-Lu|Stealth Rock||[still]
+|-fail|p2a: Ting-Lu
+|
+|upkeep
+|turn|3
+|
+|t:|1760328180
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-sideend|p1: spongeon|Stealth Rock
+|-activate|p1a: Maushold|move: Tidy Up
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1760328187
+|move|p1a: Maushold|Bite|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|1/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Maushold
+|-damage|p1a: Maushold|44/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|upkeep
+|
+|t:|1760328199
+|switch|p1a: Comfey|Comfey, M|100/100
+|turn|5
+|
+|t:|1760328205
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1760328213
+|-terastallize|p1a: Comfey|Ground
+|move|p1a: Comfey|Tera Blast|p2a: Slowking|[anim] Tera Blast Ground
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|41/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Comfey
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|86/100
+|
+|upkeep
+|turn|7
+|
+|t:|1760328230
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|move|p1a: Comfey|Tera Blast|p2a: Meowscarada|[anim] Tera Blast Ground
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|59/100
+|
+|upkeep
+|turn|8
+|
+|t:|1760328236
+|move|p1a: Comfey|Draining Kiss|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|-heal|p1a: Comfey|100/100|[from] drain|[of] p2a: Meowscarada
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1760328262
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|9
+|
+|t:|1760328267
+|-terastallize|p2a: Iron Moth|Grass
+|move|p2a: Iron Moth|Energy Ball|p1a: Comfey
+|-supereffective|p1a: Comfey
+|-damage|p1a: Comfey|38/100
+|move|p1a: Comfey|Tera Blast|p2a: Iron Moth|[anim] Tera Blast Ground
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|79/100
+|
+|upkeep
+|turn|10
+|
+|t:|1760328275
+|move|p1a: Comfey|Draining Kiss|p2a: Iron Moth
+|-damage|p2a: Iron Moth|48/100
+|-heal|p1a: Comfey|60/100|[from] drain|[of] p2a: Iron Moth
+|move|p2a: Iron Moth|Energy Ball|p1a: Comfey
+|-supereffective|p1a: Comfey
+|-damage|p1a: Comfey|0 fnt
+|faint|p1a: Comfey
+|
+|upkeep
+|
+|t:|1760328293
+|switch|p1a: Chansey|Chansey, F|100/100
+|turn|11
+|
+|t:|1760328303
+|move|p2a: Iron Moth|Fiery Dance|p1a: Chansey
+|-damage|p1a: Chansey|85/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Chansey|Thunder Wave|p2a: Iron Moth
+|-status|p2a: Iron Moth|par
+|
+|-heal|p1a: Chansey|91/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1760328312
+|cant|p2a: Iron Moth|par
+|move|p1a: Chansey|Seismic Toss|p2a: Iron Moth
+|-damage|p2a: Iron Moth|15/100 par
+|
+|-heal|p1a: Chansey|97/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|-message|sanjywanjy forfeited.
+|
+|win|spongeon
+|raw|spongeon's rating: 1324 &rarr; <strong>1342</strong><br />(+18 for winning)
+|raw|sanjywanjy's rating: 1282 &rarr; <strong>1260</strong><br />(-22 for losing)
+|l|☆sanjywanjy
+|player|p2|
+|l|☆spongeon
+|player|p1|

@@ -1,0 +1,347 @@
+|j|‽typicaltully
+|j|☆cramorantgawkgawk
+|t:|1779863861
+|gametype|singles
+|player|p1|typicaltully|pokemaniac|1154
+|player|p2|cramorantgawkgawk|marlon|1207
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Greninja-*, M|
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Kingambit, M|
+|poke|p2|Dragalge, M|
+|poke|p2|Cacturne, M|
+|poke|p2|Whiscash, M|
+|poke|p2|Mismagius, F|
+|poke|p2|Great Tusk|
+|poke|p2|Veluza, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cramorantgawkgawk)
+|
+|t:|1779863873
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Whiscash|Whiscash, M|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1779863884
+|move|p1a: Great Tusk|Close Combat|p2a: Whiscash
+|-damage|p2a: Whiscash|4/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Whiscash|Dragon Dance|p2a: Whiscash
+|-boost|p2a: Whiscash|atk|1
+|-boost|p2a: Whiscash|spe|1
+|
+|-heal|p2a: Whiscash|10/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1779863899
+|move|p2a: Whiscash|Waterfall|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Whiscash|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779863906
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|3
+|
+|t:|1779863913
+|switch|p2a: Cacturne|Cacturne, M|100/100
+|move|p1a: Greninja|Water Shuriken|p2a: Cacturne
+|-immune|p2a: Cacturne|[from] ability: Water Absorb
+|
+|upkeep
+|turn|4
+|
+|t:|1779863924
+|move|p1a: Greninja|Sludge Wave|p2a: Cacturne
+|-supereffective|p2a: Cacturne
+|-damage|p2a: Cacturne|40/100
+|move|p2a: Cacturne|Leech Seed|p1a: Greninja
+|-start|p1a: Greninja|move: Leech Seed
+|
+|-heal|p2a: Cacturne|47/100|[from] item: Leftovers
+|-damage|p1a: Greninja|88/100|[from] Leech Seed|[of] p2a: Cacturne
+|-heal|p2a: Cacturne|57/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1779863932
+|move|p2a: Cacturne|Spiky Shield|p2a: Cacturne
+|-singleturn|p2a: Cacturne|move: Protect
+|move|p1a: Greninja|Sludge Wave|p2a: Cacturne
+|-activate|p2a: Cacturne|move: Protect
+|
+|-heal|p2a: Cacturne|63/100|[from] item: Leftovers
+|-damage|p1a: Greninja|76/100|[from] Leech Seed|[of] p2a: Cacturne
+|-heal|p2a: Cacturne|73/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1779863941
+|move|p1a: Greninja|Sludge Wave|p2a: Cacturne
+|-supereffective|p2a: Cacturne
+|-damage|p2a: Cacturne|22/100
+|move|p2a: Cacturne|Destiny Bond|p2a: Cacturne
+|-singlemove|p2a: Cacturne|Destiny Bond
+|
+|-heal|p2a: Cacturne|28/100|[from] item: Leftovers
+|-damage|p1a: Greninja|64/100|[from] Leech Seed|[of] p2a: Cacturne
+|-heal|p2a: Cacturne|38/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1779863951
+|switch|p1a: Dragapult|Dragapult, F, shiny|100/100
+|move|p2a: Cacturne|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|2/100
+|-enditem|p1a: Dragapult|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Cacturne
+|
+|-heal|p2a: Cacturne|44/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1779863960
+|move|p2a: Cacturne|Spiky Shield|p2a: Cacturne
+|-singleturn|p2a: Cacturne|move: Protect
+|move|p1a: Dragapult|U-turn|p2a: Cacturne
+|-activate|p2a: Cacturne|move: Protect
+|-damage|p1a: Dragapult|0 fnt|[from] Spiky Shield|[of] p2a: Cacturne
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Cacturne|50/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779863969
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|9
+|
+|t:|1779863974
+|move|p2a: Cacturne|Leech Seed|p1a: Kingambit
+|-start|p1a: Kingambit|move: Leech Seed
+|move|p1a: Kingambit|Iron Head|p2a: Cacturne
+|-damage|p2a: Cacturne|0 fnt
+|faint|p2a: Cacturne
+|
+|upkeep
+|
+|t:|1779863983
+|switch|p2a: Whiscash|Whiscash, M|16/100
+|turn|10
+|
+|t:|1779863992
+|-terastallize|p1a: Kingambit|Flying
+|move|p2a: Whiscash|Stealth Rock|p1a: Kingambit
+|-sidestart|p1: typicaltully|move: Stealth Rock
+|move|p1a: Kingambit|Iron Head|p2a: Whiscash
+|-resisted|p2a: Whiscash
+|-damage|p2a: Whiscash|0 fnt
+|faint|p2a: Whiscash
+|
+|upkeep
+|
+|t:|1779864004
+|switch|p2a: Dragalge|Dragalge, M|100/100
+|turn|11
+|
+|t:|1779864008
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Dragalge|Toxic|p1a: Kingambit
+|-status|p1a: Kingambit|tox
+|
+|-damage|p1a: Kingambit|88/100 tox|[from] Leech Seed|[of] p2a: Dragalge
+|-damage|p1a: Kingambit|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1779864020
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Dragalge
+|-damage|p2a: Dragalge|3/100
+|move|p2a: Dragalge|Draco Meteor|p1a: Kingambit
+|-damage|p1a: Kingambit|39/100 tox
+|-unboost|p2a: Dragalge|spa|2
+|
+|-heal|p1a: Kingambit|45/100 tox|[from] item: Leftovers
+|-heal|p2a: Dragalge|9/100|[from] item: Black Sludge
+|-damage|p1a: Kingambit|33/100 tox|[from] Leech Seed|[of] p2a: Dragalge
+|-heal|p2a: Dragalge|24/100|[silent]
+|-damage|p1a: Kingambit|20/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1779864032
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|faint|p2a: Dragalge
+|
+|-heal|p1a: Kingambit|26/100 tox|[from] item: Leftovers
+|-damage|p1a: Kingambit|8/100 tox|[from] psn
+|upkeep
+|
+|t:|1779864058
+|switch|p2a: Mismagius|Mismagius, F|100/100
+|turn|14
+|
+|t:|1779864062
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-heal|p1a: Kingambit|14/100 tox|[from] item: Leftovers
+|-damage|p1a: Kingambit|2/100 tox|[from] Leech Seed|[of] p2a: Great Tusk
+|-damage|p1a: Kingambit|0 fnt|[from] psn
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|upkeep
+|
+|t:|1779864076
+|switch|p1a: Greninja|Greninja, M|64/100
+|-damage|p1a: Greninja|51/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1779864080
+|move|p1a: Greninja|Surf|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|
+|upkeep
+|
+|t:|1779864087
+|switch|p2a: Veluza|Veluza, M|100/100
+|turn|16
+|
+|t:|1779864095
+|-terastallize|p2a: Veluza|Water
+|move|p1a: Greninja|Dark Pulse|p2a: Veluza
+|-damage|p2a: Veluza|35/100
+|-enditem|p2a: Veluza|Sitrus Berry|[eat]
+|-heal|p2a: Veluza|60/100|[from] item: Sitrus Berry
+|move|p2a: Veluza|Aqua Cutter|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|upkeep
+|
+|t:|1779864107
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|-damage|p1a: Kommo-o|94/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1779864114
+|move|p1a: Kommo-o|Iron Defense|p1a: Kommo-o
+|-boost|p1a: Kommo-o|def|2
+|move|p2a: Veluza|Psycho Cut|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|62/100
+|
+|-heal|p1a: Kommo-o|68/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1779864121
+|move|p1a: Kommo-o|Body Press|p2a: Veluza
+|-damage|p2a: Veluza|0 fnt
+|faint|p2a: Veluza
+|
+|-heal|p1a: Kommo-o|75/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779864124
+|switch|p2a: Mismagius|Mismagius, F|100/100
+|turn|19
+|
+|t:|1779864134
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|move|p2a: Mismagius|Psyshock|p1a: Slowking
+|-damage|p1a: Slowking|50/100
+|
+|upkeep
+|turn|20
+|
+|t:|1779864142
+|move|p2a: Mismagius|Psyshock|p1a: Slowking
+|-damage|p1a: Slowking|12/100
+|move|p1a: Slowking|Future Sight|p2a: Mismagius
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|21
+|
+|t:|1779864152
+|switch|p1a: Kommo-o|Kommo-o, M|75/100
+|-damage|p1a: Kommo-o|68/100|[from] Stealth Rock
+|move|p2a: Mismagius|Psyshock|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|25/100
+|
+|-heal|p1a: Kommo-o|31/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1779864164
+|move|p2a: Mismagius|Psyshock|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|-end|p2a: Mismagius|move: Future Sight
+|-damage|p2a: Mismagius|43/100
+|upkeep
+|
+|t:|1779864173
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|45/100
+|-damage|p1a: Slowking|33/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1779864183
+|move|p2a: Mismagius|Psyshock|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|win|cramorantgawkgawk
+|raw|typicaltully's rating: 1154 &rarr; <strong>1133</strong><br />(-21 for losing)
+|raw|cramorantgawkgawk's rating: 1207 &rarr; <strong>1228</strong><br />(+21 for winning)
+|l|‽typicaltully
+|player|p1|
+|l|☆cramorantgawkgawk
+|player|p2|

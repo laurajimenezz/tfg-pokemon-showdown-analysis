@@ -1,0 +1,240 @@
+|j|☆FOX lRL
+|j|☆Lasker
+|t:|1759062210
+|gametype|singles
+|player|p1|FOX lRL|170|1562
+|player|p2|Lasker|brycen|1546
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cresselia, F|
+|poke|p1|Glastrier|
+|poke|p1|Ursaluna, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Torkoal, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Cinderace, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Incineroar, F|
+|poke|p2|Kyurem|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|t:|1759062227
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Pervert|Dragapult, F|100/100
+|turn|1
+|
+|t:|1759062235
+|move|p2a: Pervert|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|83/100
+|
+|t:|1759062239
+|switch|p2a: Angry Winnie|Incineroar, F|100/100|[from] U-turn
+|-ability|p2a: Angry Winnie|Intimidate|boost
+|-unboost|p1a: Hatterene|atk|1
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1759062256
+|move|p1a: Hatterene|Nuzzle|p2a: Angry Winnie
+|-damage|p2a: Angry Winnie|98/100
+|-status|p2a: Angry Winnie|par
+|move|p2a: Angry Winnie|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|40/100
+|-enditem|p1a: Hatterene|Focus Sash|[from] move: Knock Off|[of] p2a: Angry Winnie
+|
+|-heal|p2a: Angry Winnie|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1759062266
+|move|p1a: Hatterene|Misty Explosion|p2a: Angry Winnie
+|-damage|p2a: Angry Winnie|46/100 par
+|faint|p1a: Hatterene
+|move|p2a: Angry Winnie|Knock Off|p1: Hatterene|[notarget]
+|-fail|p2a: Angry Winnie
+|
+|-heal|p2a: Angry Winnie|53/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1759062286
+|switch|p1a: BOMBA|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: BOMBA
+|turn|4
+|
+|t:|1759062291
+|move|p1a: BOMBA|Eruption|p2a: Angry Winnie
+|-resisted|p2a: Angry Winnie
+|-damage|p2a: Angry Winnie|0 fnt
+|faint|p2a: Angry Winnie
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1759062304
+|switch|p2a: Eeyore|Ting-Lu|100/100
+|-ability|p2a: Eeyore|Vessel of Ruin
+|turn|5
+|
+|t:|1759062314
+|move|p1a: BOMBA|Eruption|p2a: Eeyore
+|-damage|p2a: Eeyore|50/100
+|move|p2a: Eeyore|Ruination|p1a: BOMBA
+|-damage|p1a: BOMBA|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Eeyore|56/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|j| Koga_Ninja_Frog
+|
+|t:|1759062324
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|move|p2a: Eeyore|Stealth Rock|p1a: Ursaluna
+|-sidestart|p1: FOX lRL|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Eeyore|62/100|[from] item: Leftovers
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|t:|1759062333
+|move|p2a: Eeyore|Ruination|p1a: Ursaluna|[miss]
+|-miss|p2a: Eeyore|p1a: Ursaluna
+|move|p1a: Ursaluna|Substitute|p1a: Ursaluna
+|-start|p1a: Ursaluna|Substitute
+|-damage|p1a: Ursaluna|76/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Eeyore|68/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|70/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1759062342
+|move|p1a: Ursaluna|Facade|p2a: Eeyore
+|-damage|p2a: Eeyore|2/100
+|move|p2a: Eeyore|Whirlwind|p1a: Ursaluna
+|drag|p1a: BOMBA|Torkoal, M|50/100
+|-damage|p1a: BOMBA|25/100|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Eeyore|8/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1759062355
+|switch|p2a: Pervert|Dragapult, F|100/100
+|switch|p1a: Ursaluna|Ursaluna, F|70/100 brn
+|-damage|p1a: Ursaluna|64/100 brn|[from] Stealth Rock
+|
+|-damage|p1a: Ursaluna|58/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1759062365
+|switch|p1a: BOMBA|Torkoal, M|25/100
+|-damage|p1a: BOMBA|0 fnt|[from] Stealth Rock
+|faint|p1a: BOMBA
+|move|p2a: Pervert|Draco Meteor|p1: BOMBA|[notarget]
+|-fail|p2a: Pervert
+|
+|upkeep
+|l| Koga_Ninja_Frog
+|
+|t:|1759062373
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|11
+|
+|t:|1759062388
+|switch|p2a: Eeyore|Ting-Lu|8/100
+|-ability|p2a: Eeyore|Vessel of Ruin
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2a: Eeyore|15/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1759062432
+|move|p1a: Kingambit|Sucker Punch|p2a: Eeyore
+|-resisted|p2a: Eeyore
+|-damage|p2a: Eeyore|0 fnt
+|faint|p2a: Eeyore
+|
+|upkeep
+|
+|t:|1759062439
+|switch|p2a: Wagallade|Iron Valiant|100/100
+|-enditem|p2a: Wagallade|Booster Energy
+|-activate|p2a: Wagallade|ability: Quark Drive|[fromitem]
+|-start|p2a: Wagallade|quarkdrivespe
+|turn|13
+|
+|t:|1759062452
+|-terastallize|p1a: Kingambit|Flying
+|move|p2a: Wagallade|Close Combat|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|71/100
+|-unboost|p2a: Wagallade|def|1
+|-unboost|p2a: Wagallade|spd|1
+|move|p1a: Kingambit|Iron Head|p2a: Wagallade
+|-supereffective|p2a: Wagallade
+|-damage|p2a: Wagallade|0 fnt
+|faint|p2a: Wagallade
+|-end|p2a: Wagallade|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1759062462
+|switch|p2a: Landlord|Kyurem|100/100
+|-ability|p2a: Landlord|Pressure
+|turn|14
+|
+|t:|1759062469
+|move|p1a: Kingambit|Sucker Punch|p2a: Landlord
+|-damage|p2a: Landlord|0 fnt
+|faint|p2a: Landlord
+|
+|upkeep
+|c|☆Lasker|lol
+|
+|t:|1759062478
+|switch|p2a: Bang Bus|Cinderace, F|100/100
+|turn|15
+|
+|t:|1759062483
+|move|p1a: Kingambit|Sucker Punch|p2a: Bang Bus
+|-damage|p2a: Bang Bus|0 fnt
+|faint|p2a: Bang Bus
+|
+|upkeep
+|-message|Lasker forfeited.
+|
+|win|FOX lRL
+|raw|FOX lRL's rating: 1562 &rarr; <strong>1581</strong><br />(+19 for winning)
+|raw|Lasker's rating: 1546 &rarr; <strong>1527</strong><br />(-19 for losing)
+|l|☆Lasker
+|player|p2|

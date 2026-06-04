@@ -1,0 +1,213 @@
+|j|☆ColeQAQ
+|j|☆lzw00
+|t:|1760769625
+|gametype|singles
+|player|p1|ColeQAQ|1|1171
+|player|p2|lzw00|cynthia|1155
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Maushold|
+|poke|p1|Zapdos|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Skeledirge, F|
+|poke|p1|Milotic, F|
+|poke|p1|Corviknight, F|
+|poke|p2|Regidrago|
+|poke|p2|Moltres-Galar|
+|poke|p2|Great Tusk|
+|poke|p2|Ceruledge, M|
+|poke|p2|Fezandipiti, M|
+|poke|p2|Zapdos|
+|teampreview
+|
+|t:|1760769632
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Maushold|Maushold|100/100
+|switch|p2a: Regidrago|Regidrago|100/100
+|turn|1
+|
+|t:|1760769641
+|move|p2a: Regidrago|Dragon Energy|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|upkeep
+|
+|t:|1760769645
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|2
+|
+|t:|1760769654
+|switch|p2a: Fezandipiti|Fezandipiti, M|100/100
+|move|p1a: Deoxys|Ice Beam|p2a: Fezandipiti
+|-damage|p2a: Fezandipiti|84/100
+|
+|upkeep
+|turn|3
+|
+|t:|1760769663
+|move|p1a: Deoxys|Meteor Beam||[still]
+|-prepare|p1a: Deoxys|Meteor Beam
+|-boost|p1a: Deoxys|spa|1
+|-enditem|p1a: Deoxys|Power Herb
+|-anim|p1a: Deoxys|Meteor Beam|p2a: Fezandipiti
+|-damage|p2a: Fezandipiti|52/100
+|move|p2a: Fezandipiti|Beat Up|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|91/100
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|81/100
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|67/100
+|-status|p1a: Deoxys|tox|[from] ability: Toxic Chain|[of] p2a: Fezandipiti
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|56/100 tox
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|45/100 tox
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|36/100 tox
+|-hitcount|p1a: Deoxys|6
+|
+|-damage|p1a: Deoxys|30/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1760769684
+|move|p1a: Deoxys|Psychic|p2a: Fezandipiti
+|-supereffective|p2a: Fezandipiti
+|-damage|p2a: Fezandipiti|0 fnt
+|faint|p2a: Fezandipiti
+|
+|-damage|p1a: Deoxys|17/100 tox|[from] psn
+|upkeep
+|
+|t:|1760769689
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|5
+|
+|t:|1760769693
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|
+|t:|1760769698
+|switch|p1a: Milotic|Milotic, F|100/100
+|turn|6
+|
+|t:|1760769725
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Milotic|Whirlpool|p2a: Zapdos
+|-damage|p2a: Zapdos|88/100
+|-activate|p2a: Zapdos|move: Whirlpool|[of] p1a: Milotic
+|
+|-heal|p2a: Zapdos|94/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|82/100|[from] move: Whirlpool|[partiallytrapped]
+|-status|p1a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|t:|1760769744
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|71/100
+|
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|-end|p2a: Zapdos|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|8
+|
+|t:|1760769756
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Zapdos|Heat Wave|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|27/100
+|
+|upkeep
+|turn|9
+|
+|t:|1760769763
+|move|p1a: Zapdos|Heat Wave|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760769766
+|switch|p2a: Moltres|Moltres-Galar, shiny|100/100
+|turn|10
+|
+|t:|1760769771
+|move|p1a: Zapdos|Thunderbolt|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|27/100
+|-ability|p2a: Moltres|Berserk|boost
+|-boost|p2a: Moltres|spa|1
+|-enditem|p2a: Moltres|Sitrus Berry|[eat]
+|-heal|p2a: Moltres|52/100|[from] item: Sitrus Berry
+|move|p2a: Moltres|Nasty Plot|p2a: Moltres
+|-boost|p2a: Moltres|spa|2
+|
+|upkeep
+|turn|11
+|
+|t:|1760769780
+|-terastallize|p2a: Moltres|Fire
+|move|p1a: Zapdos|Thunderbolt|p2a: Moltres
+|-damage|p2a: Moltres|13/100
+|-ability|p2a: Moltres|Berserk|boost
+|-boost|p2a: Moltres|spa|1
+|move|p2a: Moltres|Agility|p2a: Moltres
+|-boost|p2a: Moltres|spe|2
+|
+|upkeep
+|turn|12
+|
+|t:|1760769790
+|move|p2a: Moltres|Fiery Wrath|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1760769795
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|turn|13
+|
+|t:|1760769799
+|move|p2a: Moltres|Fiery Wrath|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-crit|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|upkeep
+|
+|t:|1760769805
+|switch|p1a: Milotic|Milotic, F|100/100 brn
+|turn|14
+|-message|ColeQAQ forfeited.
+|
+|win|lzw00
+|raw|ColeQAQ's rating: 1171 &rarr; <strong>1145</strong><br />(-26 for losing)
+|raw|lzw00's rating: 1155 &rarr; <strong>1181</strong><br />(+26 for winning)
+|l|☆ColeQAQ
+|player|p1|
+|l|☆lzw00
+|player|p2|

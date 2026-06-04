@@ -1,0 +1,295 @@
+|j|☆Tantsuchiplouploup
+|j|☆Attal
+|t:|1779819610
+|gametype|singles
+|player|p1|Tantsuchiplouploup|hilbert-wonderlauncher|1101
+|player|p2|Attal|lance|1137
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gastrodon-East, M|
+|poke|p1|Chandelure, F|
+|poke|p1|Goodra, M|
+|poke|p1|Tauros-Paldea-Aqua, M|
+|poke|p1|Mabosstiff, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Ninetales, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Cinderace, F|
+|poke|p2|Walking Wake|
+|poke|p2|Slither Wing|
+|poke|p2|Raging Bolt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Attal)
+|
+|t:|1779819626
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gastrodon|Gastrodon-East, M, shiny|100/100
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1779819640
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|switch|p1a: Goodra|Goodra, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1779819659
+|-terastallize|p1a: Goodra|Fairy
+|move|p2a: Walking Wake|Draco Meteor|p1a: Goodra
+|-immune|p1a: Goodra
+|move|p1a: Goodra|Dragon Claw|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779819669
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Goodra|Dragon Claw|p2a: Cinderace
+|-damage|p2a: Cinderace|47/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779819679
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Goodra
+|-status|p1a: Goodra|brn
+|move|p1a: Goodra|Rock Slide|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|13/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Goodra|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1779819697
+|move|p2a: Cinderace|U-turn|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|83/100 brn
+|
+|t:|1779819708
+|switch|p2a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Goodra|Rock Slide|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|92/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Goodra|89/100 brn|[from] item: Leftovers
+|-damage|p1a: Goodra|83/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1779819732
+|switch|p1a: Gastrodon|Gastrodon-East, M, shiny|100/100
+|move|p2a: Raging Bolt|Weather Ball|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-crit|p1a: Gastrodon
+|-damage|p1a: Gastrodon|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gastrodon|63/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779819746
+|move|p2a: Raging Bolt|Solar Beam||[still]
+|-prepare|p2a: Raging Bolt|Solar Beam
+|-anim|p2a: Raging Bolt|Solar Beam|p1a: Gastrodon
+|-supereffective|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779819760
+|switch|p1a: Goodra|Goodra, M, tera:Fairy|83/100 brn
+|turn|8
+|
+|t:|1779819769
+|move|p1a: Goodra|Dragon Claw|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|62/100
+|move|p2a: Raging Bolt|Weather Ball|p1a: Goodra
+|-damage|p1a: Goodra|32/100 brn
+|
+|-weather|none
+|-end|p2a: Raging Bolt|Protosynthesis
+|-heal|p1a: Goodra|38/100 brn|[from] item: Leftovers
+|-damage|p1a: Goodra|32/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1779819783
+|move|p2a: Raging Bolt|Thunderclap|p1a: Goodra
+|-damage|p1a: Goodra|4/100 brn
+|move|p1a: Goodra|Dragon Claw|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|32/100
+|
+|-heal|p1a: Goodra|10/100 brn|[from] item: Leftovers
+|-damage|p1a: Goodra|4/100 brn|[from] brn
+|upkeep
+|turn|10
+|inactive|Tantsuchiplouploup has 120 seconds left.
+|
+|t:|1779819807
+|move|p1a: Goodra|Dragon Claw|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|2/100
+|move|p2a: Raging Bolt|Weather Ball|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|upkeep
+|inactive|Tantsuchiplouploup has 120 seconds left.
+|
+|t:|1779819825
+|switch|p1a: Tauros|Tauros-Paldea-Aqua, M|100/100
+|turn|11
+|
+|t:|1779819834
+|move|p2a: Raging Bolt|Thunderclap|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|3/100
+|move|p1a: Tauros|Raging Bull|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779819840
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|12
+|
+|t:|1779819847
+|switch|p2a: Cinderace|Cinderace, F|13/100
+|move|p1a: Tauros|Rest|p1a: Tauros
+|-status|p1a: Tauros|slp|[from] move: Rest
+|-heal|p1a: Tauros|100/100 slp|[silent]
+|-enditem|p1a: Tauros|Chesto Berry|[eat]
+|-curestatus|p1a: Tauros|slp|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|inactive|Tantsuchiplouploup has 120 seconds left.
+|
+|t:|1779819869
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Tauros|[miss]
+|-miss|p2a: Cinderace|p1a: Tauros
+|move|p1a: Tauros|Raging Bull|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|SunnyDay|[upkeep]
+|-activate|p1a: Tauros|ability: Cud Chew
+|-enditem|p1a: Tauros|Chesto Berry|[eat]
+|upkeep
+|
+|t:|1779819874
+|switch|p2a: Walking Wake|Walking Wake|25/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|14
+|inactive|Tantsuchiplouploup has 120 seconds left.
+|
+|t:|1779819899
+|move|p2a: Walking Wake|Draco Meteor|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Tauros
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779819915
+|switch|p1a: Mabosstiff|Mabosstiff, M|100/100
+|turn|15
+|
+|t:|1779819924
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|-activate|p2a: Slither Wing|ability: Protosynthesis
+|-start|p2a: Slither Wing|protosynthesisatk
+|move|p1a: Mabosstiff|Play Rough|p2a: Slither Wing
+|-supereffective|p2a: Slither Wing
+|-damage|p2a: Slither Wing|0 fnt
+|faint|p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779819931
+|switch|p2a: Walking Wake|Walking Wake|25/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|16
+|
+|t:|1779819940
+|-terastallize|p2a: Walking Wake|Water
+|move|p2a: Walking Wake|Hydro Steam|p1a: Mabosstiff
+|-damage|p1a: Mabosstiff|0 fnt
+|faint|p1a: Mabosstiff
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779819949
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|turn|17
+|inactive|Tantsuchiplouploup has 120 seconds left.
+|
+|t:|1779819965
+|move|p2a: Walking Wake|Hydro Steam|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779819972
+|switch|p1a: Chandelure|Chandelure, F|100/100
+|turn|18
+|
+|t:|1779819983
+|move|p2a: Walking Wake|Hydro Steam|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|win|Attal
+|raw|Tantsuchiplouploup's rating: 1101 &rarr; <strong>1079</strong><br />(-22 for losing)
+|raw|Attal's rating: 1137 &rarr; <strong>1159</strong><br />(+22 for winning)
+|l|☆Attal
+|player|p2|
+|l|☆Tantsuchiplouploup
+|player|p1|

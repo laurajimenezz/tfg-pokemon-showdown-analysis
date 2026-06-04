@@ -1,0 +1,237 @@
+|j|☆dicolibri
+|j|☆leezee-yy
+|t:|1758277836
+|gametype|singles
+|player|p1|dicolibri|hiker|1496
+|player|p2|leezee-yy|steven|1460
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mesprit|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Hands|
+|poke|p1|Ursaluna, M|
+|poke|p1|Volcanion|
+|poke|p1|Hoopa-Unbound|
+|poke|p2|Gengar, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Metagross|
+|poke|p2|Zapdos|
+|poke|p2|Meowscarada, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by leezee-yy)
+|
+|t:|1758277845
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1758277853
+|move|p2a: Meowscarada|Flower Trick|p1a: Iron Hands
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|57/100
+|move|p1a: Iron Hands|Swords Dance|p1a: Iron Hands
+|-boost|p1a: Iron Hands|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1758277865
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Iron Hands|Drain Punch|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|61/100
+|-heal|p1a: Iron Hands|72/100|[from] drain|[of] p2a: Zapdos
+|-damage|p1a: Iron Hands|55/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|
+|upkeep
+|turn|3
+|
+|t:|1758277874
+|move|p2a: Zapdos|Heat Wave|p1a: Iron Hands|[miss]
+|-miss|p2a: Zapdos|p1a: Iron Hands
+|move|p1a: Iron Hands|Ice Punch|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-damage|p1a: Iron Hands|39/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1758277879
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|4
+|
+|t:|1758277890
+|-terastallize|p1a: Iron Hands|Flying
+|move|p2a: Meowscarada|Flower Trick|p1a: Iron Hands
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-resisted|p1a: Iron Hands
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|15/100
+|move|p1a: Iron Hands|Drain Punch|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|-heal|p1a: Iron Hands|45/100|[from] drain|[of] p2a: Meowscarada
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1758277895
+|switch|p2a: Metagross|Metagross, shiny|100/100
+|turn|5
+|
+|t:|1758277921
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Metagross|Ice Punch|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|58/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1758277935
+|-terastallize|p2a: Metagross|Dark
+|move|p2a: Metagross|Knock Off|p1a: Ursaluna
+|-damage|p1a: Ursaluna|16/100 brn
+|-enditem|p1a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2a: Metagross
+|move|p1a: Ursaluna|Headlong Rush|p2a: Metagross
+|-damage|p2a: Metagross|24/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|
+|-heal|p2a: Metagross|30/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|10/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1758277952
+|move|p2a: Metagross|Knock Off|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-heal|p2a: Metagross|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758277958
+|switch|p1a: Mesprit|Mesprit|100/100
+|turn|8
+|
+|t:|1758277961
+|move|p2a: Metagross|Knock Off|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-enditem|p1a: Mesprit|Colbur Berry|[eat]
+|-enditem|p1a: Mesprit|Colbur Berry|[weaken]
+|-damage|p1a: Mesprit|53/100
+|move|p1a: Mesprit|Trick Room|p1a: Mesprit
+|-fieldstart|move: Trick Room|[of] p1a: Mesprit
+|
+|-heal|p2a: Metagross|43/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758277968
+|move|p1a: Mesprit|Stealth Rock|p2a: Metagross
+|-sidestart|p2: leezee-yy|move: Stealth Rock
+|move|p2a: Metagross|Knock Off|p1a: Mesprit
+|-supereffective|p1a: Mesprit
+|-damage|p1a: Mesprit|0 fnt
+|faint|p1a: Mesprit
+|
+|-heal|p2a: Metagross|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758277978
+|switch|p1a: Volcanion|Volcanion|100/100
+|turn|10
+|
+|t:|1758277987
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|95/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Volcanion|Steam Eruption|p2a: Zamazenta
+|-damage|p2a: Zamazenta|58/100
+|-status|p2a: Zamazenta|brn
+|
+|-damage|p2a: Zamazenta|52/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1758278004
+|move|p1a: Volcanion|Steam Eruption|p2a: Zamazenta
+|-damage|p2a: Zamazenta|17/100 brn
+|move|p2a: Zamazenta|Stone Edge|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|76/100
+|
+|-damage|p2a: Zamazenta|11/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1758278011
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Zamazenta|Stone Edge|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|82/100
+|
+|-heal|p1a: Hatterene|88/100|[from] item: Leftovers
+|-damage|p2a: Zamazenta|5/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|
+|t:|1758278017
+|move|p2a: Zamazenta|Psychic Fangs|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|82/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|88/100|[from] item: Leftovers
+|-damage|p2a: Zamazenta|0 fnt|[from] brn
+|faint|p2a: Zamazenta
+|upkeep
+|
+|t:|1758278019
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1758278034
+|move|p1a: Hatterene|Psychic Noise|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-crit|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-heal|p1a: Hatterene|94/100|[from] item: Leftovers
+|upkeep
+|-message|leezee-yy forfeited.
+|
+|win|dicolibri
+|raw|dicolibri's rating: 1496 &rarr; <strong>1514</strong><br />(+18 for winning)
+|raw|leezee-yy's rating: 1460 &rarr; <strong>1442</strong><br />(-18 for losing)
+|l|☆leezee-yy
+|player|p2|
+|l|☆dicolibri
+|player|p1|

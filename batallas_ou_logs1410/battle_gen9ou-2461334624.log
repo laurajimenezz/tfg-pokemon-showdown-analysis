@@ -1,0 +1,407 @@
+|j|☆LLBattler
+|j|☆WondaOfUu
+|t:|1760429483
+|gametype|singles
+|player|p1|LLBattler|102|1126
+|player|p2|WondaOfUu|102|1045
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Dragonite, M|
+|poke|p1|Iron Moth|
+|poke|p1|Primarina, F|
+|poke|p1|Gholdengo|
+|poke|p1|Rillaboom, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|t:|1760429526
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Siren|Primarina, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|t:|1760429538
+|move|p2a: Dragapult|U-turn|p1a: Siren
+|-resisted|p1a: Siren
+|-damage|p1a: Siren|88/100
+|
+|t:|1760429547
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|move|p1a: Siren|Whirlpool|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|88/100
+|-activate|p2a: Rotom|move: Whirlpool|[of] p1a: Siren
+|-damage|p1a: Siren|78/100|[from] item: Life Orb
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|-damage|p2a: Rotom|81/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1760429563
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Rotom|Will-O-Wisp|p1a: Rillaboom
+|-status|p1a: Rillaboom|brn
+|
+|-heal|p2a: Rotom|88/100|[from] item: Leftovers
+|-damage|p1a: Rillaboom|94/100 brn|[from] brn
+|-end|p2a: Rotom|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|3
+|
+|t:|1760429574
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Rillaboom|Knock Off|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-heal|p1a: Rillaboom|100/100 brn|[from] Grassy Terrain
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|-damage|p1a: Rillaboom|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1760429600
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Rillaboom|Grassy Glide|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|80/100
+|
+|-heal|p1a: Rillaboom|100/100 brn|[from] Grassy Terrain
+|-heal|p2a: Ting-Lu|86/100|[from] Grassy Terrain
+|-heal|p2a: Ting-Lu|92/100|[from] item: Leftovers
+|-damage|p1a: Rillaboom|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1760429622
+|move|p1a: Rillaboom|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|79/100
+|
+|t:|1760429635
+|switch|p1a: Iron Moth|Iron Moth|100/100|[from] U-turn
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|move|p2a: Ting-Lu|Spikes|p1a: Iron Moth
+|-sidestart|p1: LLBattler|Spikes
+|
+|-heal|p2a: Ting-Lu|86/100|[from] Grassy Terrain
+|-heal|p2a: Ting-Lu|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760429680
+|-terastallize|p1a: Iron Moth|Ground
+|-terastallize|p2a: Ting-Lu|Poison
+|move|p1a: Iron Moth|Sludge Wave|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|82/100
+|move|p2a: Ting-Lu|Ruination|p1a: Iron Moth
+|-damage|p1a: Iron Moth|51/100
+|
+|-heal|p1a: Iron Moth|57/100|[from] Grassy Terrain
+|-heal|p2a: Ting-Lu|88/100|[from] Grassy Terrain
+|-heal|p2a: Ting-Lu|95/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1760429695
+|move|p1a: Iron Moth|Fiery Dance|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|77/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Ting-Lu|Spikes|p1a: Iron Moth
+|-sidestart|p1: LLBattler|Spikes
+|
+|-heal|p2a: Ting-Lu|83/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760429706
+|move|p1a: Iron Moth|Tera Blast|p2a: Ting-Lu|[anim] Tera Blast Ground
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|31/100
+|move|p2a: Ting-Lu|Whirlwind|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|drag|p1a: Great Tusk|Great Tusk, shiny|100/100
+|-damage|p1a: Great Tusk|84/100|[from] Spikes
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|
+|-heal|p2a: Ting-Lu|37/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760429731
+|switch|p2a: Rotom|Rotom-Wash|94/100
+|move|p1a: Great Tusk|Close Combat|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1760429752
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|10
+|
+|t:|1760429771
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|11
+|
+|t:|1760429786
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1760429807
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|45/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760429823
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|13
+|
+|t:|1760429838
+|switch|p1a: Siren|Primarina, F|78/100
+|-damage|p1a: Siren|62/100|[from] Spikes
+|move|p2a: Dragapult|Shadow Ball|p1a: Siren
+|-damage|p1a: Siren|8/100
+|
+|upkeep
+|turn|14
+|
+|t:|1760429850
+|move|p2a: Dragapult|Shadow Ball|p1a: Siren
+|-damage|p1a: Siren|0 fnt
+|faint|p1a: Siren
+|
+|upkeep
+|
+|t:|1760429854
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|15
+|
+|t:|1760429862
+|switch|p2a: Ting-Lu|Ting-Lu, tera:Poison|37/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Dragonite|Ice Spinner|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|10/100
+|
+|-heal|p2a: Ting-Lu|17/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1760429874
+|move|p1a: Dragonite|Ice Spinner|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1760429899
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|17
+|
+|t:|1760429917
+|move|p1a: Dragonite|Ice Spinner|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|77/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-heal|p2a: Gholdengo|83/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1760429928
+|switch|p1a: Gholdengo|Gholdengo|45/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-heal|p2a: Gholdengo|89/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1760429941
+|move|p2a: Gholdengo|Make It Rain|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Gholdengo
+|
+|-heal|p2a: Gholdengo|95/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760429961
+|switch|p1a: Iron Moth|Iron Moth, tera:Ground|57/100
+|-damage|p1a: Iron Moth|40/100|[from] Spikes
+|turn|20
+|
+|t:|1760429987
+|move|p1a: Iron Moth|Tera Blast|p2a: Gholdengo|[anim] Tera Blast Ground
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|17/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p2a: Gholdengo|23/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760429997
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|21
+|
+|t:|1760430002
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Dragonite|Extreme Speed|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|upkeep
+|turn|22
+|
+|t:|1760430011
+|switch|p1a: Great Tusk|Great Tusk, shiny|84/100
+|-damage|p1a: Great Tusk|68/100|[from] Spikes
+|move|p2a: Dragapult|Draco Meteor|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760430019
+|switch|p1a: Rillaboom|Rillaboom, F|94/100 brn
+|-damage|p1a: Rillaboom|78/100 brn|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|23
+|
+|t:|1760430034
+|switch|p2a: Hisuian Arcanine|Arcanine-Hisui, M|100/100
+|move|p1a: Rillaboom|U-turn|p2a: Hisuian Arcanine
+|-resisted|p2a: Hisuian Arcanine
+|-damage|p2a: Hisuian Arcanine|93/100
+|
+|t:|1760430039
+|switch|p1a: Dragonite|Dragonite, M|100/100|[from] U-turn
+|
+|-heal|p2a: Hisuian Arcanine|99/100|[from] Grassy Terrain
+|upkeep
+|turn|24
+|
+|t:|1760430063
+|switch|p2a: Gholdengo|Gholdengo|23/100
+|move|p1a: Dragonite|Outrage|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1760430072
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|25
+|
+|t:|1760430079
+|move|p2a: Dragapult|Draco Meteor|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|10/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Dragonite|Outrage|p2a: Dragapult|[from] lockedmove
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1760430090
+|switch|p2a: Hisuian Arcanine|Arcanine-Hisui, M|99/100
+|turn|26
+|
+|t:|1760430101
+|move|p2a: Hisuian Arcanine|Extreme Speed|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Hisuian Arcanine|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760430106
+|switch|p1a: Rillaboom|Rillaboom, F|78/100 brn
+|-damage|p1a: Rillaboom|61/100 brn|[from] Spikes
+|turn|27
+|
+|t:|1760430112
+|move|p2a: Hisuian Arcanine|Extreme Speed|p1a: Rillaboom
+|-damage|p1a: Rillaboom|17/100 brn
+|move|p1a: Rillaboom|Knock Off|p2a: Hisuian Arcanine
+|-damage|p2a: Hisuian Arcanine|82/100
+|-enditem|p2a: Hisuian Arcanine|Choice Band|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-heal|p2a: Hisuian Arcanine|88/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|23/100 brn|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|29/100 brn|[from] item: Leftovers
+|-damage|p1a: Rillaboom|23/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|28
+|
+|t:|1760430130
+|move|p2a: Hisuian Arcanine|Extreme Speed|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|win|WondaOfUu
+|raw|LLBattler's rating: 1126 &rarr; <strong>1095</strong><br />(-31 for losing)
+|raw|WondaOfUu's rating: 1045 &rarr; <strong>1086</strong><br />(+41 for winning)
+|l|☆WondaOfUu
+|player|p2|

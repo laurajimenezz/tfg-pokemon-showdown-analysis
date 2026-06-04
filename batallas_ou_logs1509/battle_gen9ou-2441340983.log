@@ -1,0 +1,278 @@
+|j|☆JRmonster
+|j|☆Bernobayobaylee
+|t:|1757833840
+|gametype|singles
+|player|p1|JRmonster|youngster-gen4dp|1096
+|player|p2|Bernobayobaylee|saturn|1094
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sceptile, M|
+|poke|p1|Great Tusk|
+|poke|p1|Rillaboom, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Glimmora, F|
+|poke|p2|Lokix, F|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Scizor, M|
+|poke|p2|Slither Wing|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JRmonster)
+|j| arataomega1
+|
+|t:|1757833855
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|-enditem|p2a: Slither Wing|Booster Energy
+|-activate|p2a: Slither Wing|ability: Protosynthesis|[fromitem]
+|-start|p2a: Slither Wing|protosynthesisatk
+|turn|1
+|
+|t:|1757833874
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|-enditem|p1a: Glimmora|Power Herb
+|-anim|p1a: Glimmora|Meteor Beam|p2a: Slither Wing
+|-damage|p2a: Slither Wing|9/100
+|move|p2a: Slither Wing|Zen Headbutt|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|3/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Bernobayobaylee|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1757833889
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|move|p1a: Glimmora|Earth Power|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|37/100
+|
+|upkeep
+|turn|3
+|
+|t:|1757833899
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Kingambit|Foul Play|p1a: Rillaboom
+|-damage|p1a: Rillaboom|52/100
+|
+|-heal|p1a: Rillaboom|58/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|43/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1757833914
+|move|p1a: Rillaboom|U-turn|p2a: Kingambit
+|-damage|p2a: Kingambit|25/100
+|
+|t:|1757833920
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|move|p2a: Kingambit|Low Kick|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|57/100
+|
+|-heal|p1a: Raging Bolt|63/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|31/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1757833935
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Slither Wing|Slither Wing|9/100
+|-status|p2a: Slither Wing|psn
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Slither Wing
+|-damage|p2a: Slither Wing|0 fnt
+|faint|p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|
+|-heal|p1a: Raging Bolt|70/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757833948
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-status|p2a: Iron Valiant|psn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespa
+|turn|6
+|
+|t:|1757833976
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Sceptile|Sceptile, M|100/100
+|-enditem|p1a: Sceptile|Grassy Seed
+|-boost|p1a: Sceptile|def|1|[from] item: Grassy Seed
+|move|p2a: Iron Valiant|Focus Blast|p1a: Sceptile
+|-damage|p1a: Sceptile|12/100
+|
+|-heal|p1a: Sceptile|18/100|[from] Grassy Terrain
+|-damage|p2a: Iron Valiant|88/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1757833987
+|move|p1a: Sceptile|Acrobatics|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|11/100 psn
+|move|p2a: Iron Valiant|Grass Knot|p1a: Sceptile
+|-resisted|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|-heal|p2a: Iron Valiant|17/100 psn|[from] Grassy Terrain
+|-damage|p2a: Iron Valiant|4/100 psn|[from] psn
+|upkeep
+|inactive|JRmonster has 120 seconds left.
+|
+|t:|1757834004
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|8
+|inactive|JRmonster has 120 seconds left.
+|
+|t:|1757834015
+|move|p1a: Cinderace|Pyro Ball|p2a: Iron Valiant
+|-crit|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757834022
+|switch|p2a: unasa|Ogerpon-Cornerstone, F|100/100
+|-status|p2a: unasa|psn
+|turn|9
+|l| arataomega1
+|inactive|JRmonster has 120 seconds left.
+|
+|t:|1757834043
+|move|p1a: Cinderace|High Jump Kick|p2a: unasa
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p2a: unasa
+|-ability|p2a: unasa|Sturdy
+|-damage|p2a: unasa|1/100 psn
+|move|p2a: unasa|Ivy Cudgel|p1a: Cinderace|[anim] Ivy Cudgel Rock
+|-resisted|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|39/100
+|
+|-heal|p1a: Cinderace|45/100|[from] Grassy Terrain
+|-heal|p2a: unasa|7/100 psn|[from] Grassy Terrain
+|-damage|p2a: unasa|0 fnt|[from] psn
+|faint|p2a: unasa
+|upkeep
+|
+|t:|1757834058
+|switch|p2a: Lokix|Lokix, F|100/100
+|-status|p2a: Lokix|psn
+|turn|10
+|inactive|JRmonster has 120 seconds left.
+|
+|t:|1757834069
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Lokix|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|46/100
+|-enditem|p1a: Great Tusk|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Lokix
+|
+|-heal|p1a: Great Tusk|52/100|[from] Grassy Terrain
+|-damage|p2a: Lokix|88/100 psn|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|inactive|JRmonster has 120 seconds left.
+|
+|t:|1757834087
+|move|p1a: Great Tusk|Headlong Rush|p2a: Lokix
+|-resisted|p2a: Lokix
+|-damage|p2a: Lokix|41/100 psn
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Lokix|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|3/100
+|
+|-damage|p2a: Lokix|29/100 psn|[from] psn
+|upkeep
+|turn|12
+|inactive|JRmonster has 120 seconds left.
+|
+|t:|1757834099
+|move|p1a: Great Tusk|Headlong Rush|p2a: Lokix
+|-resisted|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Lokix
+|
+|upkeep
+|
+|t:|1757834106
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|13
+|inactive|JRmonster has 120 seconds left.
+|
+|t:|1757834118
+|move|p1a: Great Tusk|Headlong Rush|p2a: Scizor
+|-damage|p2a: Scizor|43/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Scizor|X-Scissor|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Scizor|49/100|[from] item: Leftovers
+|upkeep
+|inactive|JRmonster has 120 seconds left.
+|
+|t:|1757834136
+|switch|p1a: Cinderace|Cinderace, F|45/100
+|turn|14
+|
+|t:|1757834141
+|move|p1a: Cinderace|Pyro Ball|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1757834147
+|switch|p2a: Kingambit|Kingambit, F|31/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|15
+|
+|t:|1757834151
+|move|p1a: Cinderace|Pyro Ball|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|JRmonster
+|raw|JRmonster's rating: 1096 &rarr; <strong>1121</strong><br />(+25 for winning)
+|raw|Bernobayobaylee's rating: 1094 &rarr; <strong>1070</strong><br />(-24 for losing)
+|l|☆JRmonster
+|player|p1|
+|l|☆Bernobayobaylee
+|player|p2|

@@ -1,0 +1,451 @@
+|j|☆loneslopeman
+|j|☆peaceinverarity
+|t:|1760759893
+|gametype|singles
+|player|p1|loneslopeman|1|1316
+|player|p2|peaceinverarity|265|1358
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Heatran, F|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Walking Wake|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Okidogi, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Iron Treads|
+|poke|p2|Darkrai|
+|teampreview
+|
+|t:|1760759969
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1760759980
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: Rillaboom|Knock Off|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|84/100
+|-enditem|p1a: Weezing|Leftovers|[from] move: Knock Off|[of] p2a: Rillaboom
+|-damage|p2a: Rillaboom|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Rillaboom|97/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1760759993
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Weezing|Sludge Wave|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|44/100
+|
+|-heal|p2a: Hatterene|50/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1760760001
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Weezing|Sludge Wave|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|upkeep
+|turn|4
+|
+|t:|1760760012
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Hatterene|Hatterene, F|50/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Hatterene
+|move|p2a: Hatterene|Will-O-Wisp|p1a: Weezing|[from] ability: Magic Bounce
+|-status|p1a: Weezing|brn
+|
+|-heal|p2a: Hatterene|56/100|[from] Grassy Terrain
+|-damage|p1a: Weezing|78/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1760760031
+|switch|p2a: Okidogi|Okidogi, M|100/100
+|move|p1a: Weezing|Toxic Spikes|p2a: Okidogi
+|-sidestart|p2: peaceinverarity|move: Toxic Spikes
+|
+|-damage|p1a: Weezing|72/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1760760045
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Iron Treads|[miss]
+|-miss|p1a: Weezing|p2a: Iron Treads
+|
+|-damage|p1a: Weezing|66/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1760760053
+|move|p2a: Iron Treads|Earthquake|p1a: Weezing
+|-immune|p1a: Weezing|[from] ability: Levitate
+|move|p1a: Weezing|Will-O-Wisp|p2a: Iron Treads
+|-status|p2a: Iron Treads|brn
+|
+|-damage|p2a: Iron Treads|94/100 brn|[from] brn
+|-damage|p1a: Weezing|60/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1760760061
+|move|p2a: Iron Treads|Rapid Spin|p1a: Weezing
+|-damage|p1a: Weezing|54/100 brn
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: peaceinverarity|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Weezing|Strange Steam|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|75/100 brn
+|
+|-heal|p2a: Iron Treads|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Iron Treads|75/100 brn|[from] brn
+|-damage|p1a: Weezing|48/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1760760071
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Darkrai|Darkrai|100/100
+|move|p1a: Weezing|Strange Steam|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|26/100
+|
+|-damage|p1a: Weezing|42/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1760760083
+|move|p2a: Darkrai|Sludge Bomb|p1a: Weezing
+|-damage|p1a: Weezing|2/100 brn
+|move|p1a: Weezing|Strange Steam|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-crit|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|-damage|p1a: Weezing|0 fnt|[from] brn
+|faint|p1a: Weezing
+|upkeep
+|
+|t:|1760760104
+|switch|p2a: Rillaboom|Rillaboom, F|97/100
+|switch|p1a: Heatran|Heatran, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-item|p1a: Heatran|Air Balloon
+|turn|11
+|
+|t:|1760760109
+|move|p2a: Rillaboom|Swords Dance|p2a: Rillaboom
+|-boost|p2a: Rillaboom|atk|2
+|move|p1a: Heatran|Magma Storm|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|t:|1760760114
+|switch|p2a: Iron Treads|Iron Treads|75/100 brn
+|turn|12
+|
+|t:|1760760117
+|move|p2a: Iron Treads|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|88/100
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Magma Storm|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-crit|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p1a: Heatran|94/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760760158
+|switch|p2a: Okidogi|Okidogi, M|100/100
+|turn|13
+|
+|t:|1760760167
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Okidogi|Bulk Up|p2a: Okidogi
+|-boost|p2a: Okidogi|atk|1
+|-boost|p2a: Okidogi|def|1
+|
+|upkeep
+|turn|14
+|
+|t:|1760760183
+|move|p2a: Okidogi|Bulk Up|p2a: Okidogi
+|-boost|p2a: Okidogi|atk|1
+|-boost|p2a: Okidogi|def|1
+|move|p1a: Slowking|Future Sight|p2a: Okidogi
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|15
+|
+|t:|1760760204
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|-terastallize|p2a: Okidogi|Water
+|move|p2a: Okidogi|Fire Punch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|71/100
+|
+|-heal|p1a: Great Tusk|77/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1760760231
+|move|p1a: Great Tusk|Headlong Rush|p2a: Okidogi
+|-damage|p2a: Okidogi|68/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Okidogi|Drain Punch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|10/100
+|-heal|p2a: Okidogi|100/100|[from] drain|[of] p1a: Great Tusk
+|
+|-end|p2a: Okidogi|move: Future Sight
+|-damage|p2a: Okidogi|58/100
+|-heal|p2a: Okidogi|64/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1760760241
+|move|p1a: Great Tusk|Headlong Rush|p2a: Okidogi
+|-damage|p2a: Okidogi|30/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Okidogi|Drain Punch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-heal|p2a: Okidogi|34/100|[from] drain|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Okidogi|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760760248
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|turn|18
+|
+|t:|1760760256
+|switch|p2a: Hatterene|Hatterene, F|56/100
+|-terastallize|p1a: Walking Wake|Ghost
+|move|p1a: Walking Wake|Draco Meteor|p2a: Hatterene
+|-immune|p2a: Hatterene
+|
+|upkeep
+|turn|19
+|
+|t:|1760760263
+|move|p1a: Walking Wake|Flip Turn|p2a: Hatterene
+|-damage|p2a: Hatterene|40/100
+|-damage|p1a: Walking Wake|84/100|[from] item: Rocky Helmet|[of] p2a: Hatterene
+|
+|t:|1760760266
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] Flip Turn
+|move|p2a: Hatterene|Nuzzle|p1a: Slowking
+|-damage|p1a: Slowking|96/100
+|-status|p1a: Slowking|par
+|
+|upkeep
+|turn|20
+|
+|t:|1760760281
+|move|p2a: Hatterene|Pain Split|p1a: Slowking
+|-sethp|p1a: Slowking|66/100 par|[from] move: Pain Split|[silent]
+|-sethp|p2a: Hatterene|73/100|[from] move: Pain Split
+|move|p1a: Slowking|Future Sight|p2a: Hatterene
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|21
+|
+|t:|1760760286
+|move|p2a: Hatterene|Draining Kiss|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|58/100 par
+|-heal|p2a: Hatterene|79/100|[from] drain|[of] p1a: Slowking
+|cant|p1a: Slowking|par
+|
+|upkeep
+|turn|22
+|
+|t:|1760760293
+|move|p2a: Hatterene|Psychic Noise|p1a: Slowking
+|-damage|p1a: Slowking|35/100 par
+|-start|p1a: Slowking|move: Heal Block
+|move|p1a: Slowking|Sludge Wave|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1760760303
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|23
+|
+|t:|1760760308
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Slowking|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|43/100
+|
+|-end|p1a: Slowking|move: Heal Block
+|upkeep
+|turn|24
+|
+|t:|1760760316
+|move|p2a: Dragonite|Scale Shot|p1a: Slowking
+|-damage|p1a: Slowking|11/100 par
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|-hitcount|p1: Slowking|2
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1760760320
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|25
+|
+|t:|1760760325
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Dragonite|Encore|p1a: Kingambit
+|-start|p1a: Kingambit|Encore
+|
+|upkeep
+|turn|26
+|
+|t:|1760760332
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|27
+|
+|t:|1760760340
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|28
+|
+|t:|1760760356
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Dragonite|Encore||[still]
+|-fail|p2a: Dragonite
+|
+|-end|p1a: Kingambit|Encore
+|upkeep
+|turn|29
+|
+|t:|1760760366
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Heatran|Heatran, F|94/100
+|move|p2a: Dragonite|Fire Punch|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|30
+|
+|t:|1760760378
+|move|p2a: Dragonite|Scale Shot|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|79/100
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|63/100
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|47/100
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|32/100
+|-hitcount|p1a: Heatran|4
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Heatran|Magma Storm|p2a: Dragonite|[miss]
+|-miss|p1a: Heatran|p2a: Dragonite
+|
+|upkeep
+|turn|31
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by peaceinverarity)
+|
+|t:|1760760394
+|move|p2a: Dragonite|Scale Shot|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|16/100
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-hitcount|p1: Heatran|2
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1760760402
+|switch|p1a: Walking Wake|Walking Wake, tera:Ghost|84/100
+|turn|32
+|
+|t:|1760760413
+|move|p2a: Dragonite|Scale Shot|p1a: Walking Wake
+|-damage|p1a: Walking Wake|48/100
+|-damage|p1a: Walking Wake|17/100
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|-hitcount|p1: Walking Wake|3
+|-unboost|p2a: Dragonite|def|1
+|
+|upkeep
+|-message|loneslopeman forfeited.
+|
+|win|peaceinverarity
+|raw|loneslopeman's rating: 1316 &rarr; <strong>1298</strong><br />(-18 for losing)
+|raw|peaceinverarity's rating: 1358 &rarr; <strong>1376</strong><br />(+18 for winning)
+|l|☆loneslopeman
+|player|p1|
+|l|☆peaceinverarity
+|player|p2|

@@ -1,0 +1,251 @@
+|j|☆Attackthegoat
+|j|☆juancbas1234
+|t:|1759033193
+|gametype|singles
+|player|p1|Attackthegoat|170|1317
+|player|p2|juancbas1234|169|1326
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Great Tusk|
+|poke|p1|Latios, M|
+|poke|p1|Gardevoir, M|
+|poke|p1|Quaquaval, F|
+|poke|p1|Galvantula, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Gholdengo|
+|poke|p2|Zapdos|
+|poke|p2|Great Tusk|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Scizor, F|
+|teampreview
+|
+|t:|1759033216
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|t:|1759033254
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Zapdos|Hurricane|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1759033264
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-ability|p1a: Gardevoir|Static|Trace|[from] ability: Trace|[of] p2a: Zapdos
+|turn|2
+|
+|t:|1759033291
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Gardevoir|Calm Mind|p1a: Gardevoir
+|-boost|p1a: Gardevoir|spa|1
+|-boost|p1a: Gardevoir|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1759033300
+|-terastallize|p1a: Gardevoir|Fire
+|move|p2a: Gholdengo|Trick|p1a: Gardevoir
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Gardevoir
+|-item|p1a: Gardevoir|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Leftovers|[from] move: Trick
+|move|p1a: Gardevoir|Mystical Fire|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1759033311
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|4
+|
+|t:|1759033320
+|switch|p1a: Latios|Latios, M|100/100
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1759033327
+|-terastallize|p2a: Garchomp|Fire
+|move|p1a: Latios|Dragon Pulse|p2a: Garchomp
+|-damage|p2a: Garchomp|46/100
+|move|p2a: Garchomp|Scale Shot|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|40/100
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|-hitcount|p1: Latios|2
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|
+|upkeep
+|
+|t:|1759033347
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|turn|6
+|
+|t:|1759033380
+|move|p2a: Garchomp|Scale Shot|p1a: Galvantula|[miss]
+|-miss|p2a: Garchomp|p1a: Galvantula
+|move|p1a: Galvantula|Thunder|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1759033390
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|7
+|
+|t:|1759033396
+|move|p1a: Galvantula|Energy Ball|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|10/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Galvantula
+|-damage|p1a: Galvantula|60/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1759033404
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Dragonite
+|-immune|p1a: Dragonite
+|
+|upkeep
+|turn|9
+|
+|t:|1759033413
+|move|p1a: Dragonite|Extreme Speed|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1759033420
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|10
+|
+|t:|1759033466
+|move|p2a: Zapdos|Discharge|p1a: Dragonite
+|-damage|p1a: Dragonite|86/100
+|move|p1a: Dragonite|Dragon Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|67/100
+|-damage|p1a: Dragonite|69/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|-status|p1a: Dragonite|par|[from] ability: Static|[of] p2a: Zapdos
+|
+|upkeep
+|turn|11
+|
+|t:|1759033480
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|cant|p1a: Dragonite|par
+|
+|upkeep
+|turn|12
+|
+|t:|1759033487
+|move|p2a: Zapdos|Discharge|p1a: Dragonite
+|-damage|p1a: Dragonite|40/100 par
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|13
+|
+|t:|1759033499
+|move|p1a: Dragonite|Extreme Speed|p2a: Zapdos
+|-damage|p2a: Zapdos|67/100
+|-damage|p1a: Dragonite|24/100 par|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|move|p2a: Zapdos|Discharge|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1759033507
+|switch|p1a: Galvantula|Galvantula, F|60/100
+|turn|14
+|
+|t:|1759033512
+|move|p1a: Galvantula|Sticky Web|p2a: Zapdos
+|-sidestart|p2: juancbas1234|move: Sticky Web
+|move|p2a: Zapdos|Heat Wave|p1a: Galvantula
+|-supereffective|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|t:|1759033515
+|switch|p1a: Gardevoir|Gardevoir, M, tera:Fire|100/100
+|-ability|p1a: Gardevoir|Static|Trace|[from] ability: Trace|[of] p2a: Zapdos
+|turn|15
+|
+|t:|1759033526
+|move|p1a: Gardevoir|Calm Mind|p1a: Gardevoir
+|-boost|p1a: Gardevoir|spa|1
+|-boost|p1a: Gardevoir|spd|1
+|move|p2a: Zapdos|Discharge|p1a: Gardevoir
+|-damage|p1a: Gardevoir|81/100
+|-status|p1a: Gardevoir|par
+|
+|upkeep
+|turn|16
+|
+|t:|1759033534
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|move|p2a: Zapdos|Discharge|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|upkeep
+|
+|t:|1759033536
+|switch|p1a: Gardevoir|Gardevoir, M, tera:Fire|81/100 par
+|-ability|p1a: Gardevoir|Static|Trace|[from] ability: Trace|[of] p2a: Zapdos
+|turn|17
+|-message|Attackthegoat forfeited.
+|
+|win|juancbas1234
+|raw|Attackthegoat's rating: 1317 &rarr; <strong>1298</strong><br />(-19 for losing)
+|raw|juancbas1234's rating: 1326 &rarr; <strong>1345</strong><br />(+19 for winning)
+|l|☆Attackthegoat
+|player|p1|
+|l|☆juancbas1234
+|player|p2|

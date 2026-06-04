@@ -1,0 +1,563 @@
+|j|☆Zakdia
+|j|☆iwanttowinthisgame
+|t:|1758984432
+|gametype|singles
+|player|p1|Zakdia|265|1270
+|player|p2|iwanttowinthisgame|cheryl|1331
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Kingambit, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Heatran, M|
+|poke|p2|Blaziken, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Slowking, M|
+|teampreview
+|
+|t:|1758984468
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1758984482
+|move|p1a: Iron Valiant|Knock Off|p2a: Rillaboom
+|-damage|p2a: Rillaboom|70/100
+|-enditem|p2a: Rillaboom|Assault Vest|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Rillaboom|U-turn|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|92/100
+|
+|t:|1758984494
+|switch|p2a: Weezing|Weezing-Galar, F|100/100|[from] U-turn
+|-ability|p2a: Weezing|Neutralizing Gas
+|
+|-heal|p1a: Iron Valiant|98/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1758984499
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Valiant|atk|1
+|move|p1a: Iron Valiant|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|74/100
+|-damage|p1a: Iron Valiant|81/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-enditem|p2a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|-heal|p1a: Iron Valiant|87/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1758984513
+|move|p1a: Iron Valiant|Destiny Bond|p1a: Iron Valiant
+|-singlemove|p1a: Iron Valiant|Destiny Bond
+|move|p2a: Landorus|Stealth Rock|p1a: Iron Valiant
+|-sidestart|p1: Zakdia|move: Stealth Rock
+|
+|-heal|p1a: Iron Valiant|94/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1758984523
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|move|p2a: Landorus|Taunt|p1a: Iron Valiant
+|-start|p1a: Iron Valiant|move: Taunt
+|
+|-heal|p1a: Iron Valiant|99/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1758984531
+|move|p1a: Iron Valiant|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|38/100
+|move|p2a: Landorus|U-turn|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|94/100
+|
+|t:|1758984537
+|switch|p2a: Weezing|Weezing-Galar, F|100/100|[from] U-turn
+|-ability|p2a: Weezing|Neutralizing Gas
+|
+|-heal|p1a: Iron Valiant|99/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1758984542
+|move|p1a: Iron Valiant|Knock Off|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|85/100
+|-enditem|p2a: Weezing|Black Sludge|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Weezing|Toxic|p1a: Iron Valiant
+|-status|p1a: Iron Valiant|tox
+|
+|-damage|p1a: Iron Valiant|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1758984559
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Dragonite|Dragonite, M, shiny|100/100
+|move|p2a: Weezing|Pain Split|p1a: Dragonite
+|-sethp|p1a: Dragonite|94/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|91/100|[from] move: Pain Split
+|
+|upkeep
+|turn|8
+|
+|t:|1758984565
+|move|p1a: Dragonite|Earthquake|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|35/100
+|move|p2a: Weezing|Toxic|p1a: Dragonite
+|-status|p1a: Dragonite|tox
+|
+|-damage|p1a: Dragonite|88/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1758984573
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Landorus|Landorus-Therian, M|38/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-damage|p1a: Dragonite|75/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1758984582
+|-terastallize|p1a: Dragonite|Flying
+|move|p1a: Dragonite|Tera Blast|p2a: Landorus|[anim] Tera Blast Flying
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-damage|p1a: Dragonite|57/100 tox|[from] psn
+|upkeep
+|
+|t:|1758984590
+|switch|p2a: Weezing|Weezing-Galar, F|35/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|11
+|
+|t:|1758984595
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Rillaboom|Rillaboom, M|70/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Dragonite|Earthquake|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|60/100
+|
+|-heal|p2a: Rillaboom|66/100|[from] Grassy Terrain
+|-damage|p1a: Dragonite|32/100 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zakdia)
+|inactive|iwanttowinthisgame has 120 seconds left.
+|
+|t:|1758984722
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Dragonite|Tera Blast|p2a: Heatran|[anim] Tera Blast Flying
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|75/100
+|
+|-heal|p2a: Heatran|82/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|88/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|1/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1758984732
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Dragonite|Earthquake|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p2a: Heatran|94/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|99/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|0 fnt|[from] psn
+|faint|p1a: Dragonite
+|upkeep
+|
+|t:|1758984741
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|94/100 tox
+|-damage|p1a: Iron Valiant|87/100 tox|[from] Stealth Rock
+|turn|14
+|
+|t:|1758984749
+|move|p1a: Iron Valiant|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Heatran
+|
+|-heal|p1a: Iron Valiant|94/100 tox|[from] Grassy Terrain
+|-damage|p1a: Iron Valiant|87/100 tox|[from] psn
+|upkeep
+|
+|t:|1758984756
+|switch|p2a: Rillaboom|Rillaboom, M|66/100
+|turn|15
+|
+|t:|1758984774
+|move|p2a: Rillaboom|Grassy Glide|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|13/100 tox
+|move|p1a: Iron Valiant|Destiny Bond|p1a: Iron Valiant
+|-singlemove|p1a: Iron Valiant|Destiny Bond
+|
+|-heal|p1a: Iron Valiant|19/100 tox|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|72/100|[from] Grassy Terrain
+|-damage|p1a: Iron Valiant|6/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1758984782
+|move|p1a: Iron Valiant|Close Combat|p2a: Rillaboom
+|-damage|p2a: Rillaboom|17/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|move|p2a: Rillaboom|Drain Punch|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-heal|p2a: Rillaboom|20/100|[from] drain|[of] p1a: Iron Valiant
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758984795
+|switch|p1a: Iron Moth|Iron Moth, shiny|100/100
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|17
+|
+|t:|1758984802
+|switch|p2a: Slowking|Slowking, M|100/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|86/100
+|
+|upkeep
+|turn|18
+|
+|t:|1758984813
+|switch|p2a: Weezing|Weezing-Galar, F|35/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Iron Moth|Energy Ball|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|15/100
+|
+|upkeep
+|turn|19
+|
+|t:|1758984820
+|move|p1a: Iron Moth|Fiery Dance|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1758984823
+|switch|p2a: Slowking|Slowking, M|100/100
+|turn|20
+|
+|t:|1758984826
+|move|p1a: Iron Moth|Energy Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|58/100
+|-unboost|p2a: Slowking|spd|1
+|move|p2a: Slowking|Thunder Wave|p1a: Iron Moth
+|-status|p1a: Iron Moth|par
+|
+|upkeep
+|turn|21
+|
+|t:|1758984837
+|cant|p1a: Iron Moth|par
+|move|p2a: Slowking|Scald|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|7/100 par
+|
+|upkeep
+|turn|22
+|
+|t:|1758984839
+|move|p1a: Iron Moth|Energy Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1758984843
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|turn|23
+|
+|t:|1758984847
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Blaziken
+|-damage|p2a: Blaziken|66/100
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|
+|-heal|p2a: Blaziken|72/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|24
+|
+|t:|1758984851
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-heal|p2a: Blaziken|79/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|25
+|
+|t:|1758984856
+|move|p2a: Blaziken|Flare Blitz|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|-damage|p2a: Blaziken|77/100|[from] Recoil
+|
+|-heal|p2a: Blaziken|83/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1758984861
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1758984867
+|move|p2a: Blaziken|Flare Blitz|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-damage|p2a: Blaziken|57/100|[from] Recoil
+|
+|-heal|p2a: Blaziken|64/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1758984870
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-damage|p1a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|27
+|
+|t:|1758984881
+|-terastallize|p2a: Blaziken|Poison
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|
+|-heal|p2a: Blaziken|70/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|28
+|
+|t:|1758984887
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|-heal|p2a: Blaziken|76/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|29
+|
+|t:|1758984895
+|move|p1a: Raging Bolt|Thunderclap|p2a: Blaziken
+|-damage|p2a: Blaziken|6/100
+|move|p2a: Blaziken|Close Combat|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-heal|p2a: Blaziken|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758984899
+|switch|p1a: Kingambit|Kingambit, F, shiny|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|30
+|
+|t:|1758984903
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|
+|-heal|p2a: Blaziken|18/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1758984906
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-heal|p2a: Blaziken|24/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1758984908
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|0
+|
+|-heal|p2a: Blaziken|31/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1758984911
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-heal|p2a: Blaziken|37/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1758984928
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|0
+|
+|-heal|p2a: Blaziken|43/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1758984939
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-heal|p2a: Blaziken|49/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1758984942
+|switch|p2a: Rillaboom|Rillaboom, M|20/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-heal|p2a: Rillaboom|26/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|100/100|[from] Grassy Terrain
+|upkeep
+|turn|37
+|
+|t:|1758984952
+|move|p2a: Rillaboom|Drain Punch|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|5/100
+|-heal|p2a: Rillaboom|67/100|[from] drain|[of] p1a: Kingambit
+|move|p1a: Kingambit|Iron Head|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Kingambit|12/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758984959
+|switch|p2a: Blaziken|Blaziken, F, tera:Poison|49/100
+|turn|38
+|
+|t:|1758984965
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2a: Blaziken|55/100|[from] Grassy Terrain
+|-heal|p2a: Blaziken|61/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|18/100|[from] Grassy Terrain
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|39
+|
+|t:|1758984976
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|
+|-heal|p2a: Blaziken|67/100|[from] Grassy Terrain
+|-heal|p2a: Blaziken|73/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|24/100|[from] Grassy Terrain
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|40
+|
+|t:|1758984985
+|move|p2a: Blaziken|Flare Blitz|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|-damage|p2a: Blaziken|66/100|[from] Recoil
+|
+|win|iwanttowinthisgame
+|raw|Zakdia's rating: 1270 &rarr; <strong>1249</strong><br />(-21 for losing)
+|raw|iwanttowinthisgame's rating: 1331 &rarr; <strong>1348</strong><br />(+17 for winning)
+|l|☆Zakdia
+|player|p1|
+|c|☆iwanttowinthisgame|hahaha gg

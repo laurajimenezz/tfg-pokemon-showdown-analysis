@@ -1,0 +1,180 @@
+|j|☆LeaTaschenMonster
+|j|☆234567891d
+|t:|1757926273
+|gametype|singles
+|player|p1|LeaTaschenMonster|dawn|1374
+|player|p2|234567891d|n|1412
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Walking Wake|
+|poke|p1|Pecharunt|
+|poke|p1|Iron Crown|
+|poke|p1|Iron Valiant|
+|poke|p1|Polteageist-Antique|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Scizor, F|
+|poke|p2|Alomomola, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LeaTaschenMonster)
+|
+|t:|1757926278
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Meowscarada|atk|1
+|turn|1
+|
+|t:|1757926280
+|move|p2a: Meowscarada|Triple Axel|p1a: Landorus
+|-start|p2a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|71/100
+|-supereffective|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-hitcount|p1: Landorus|2
+|
+|upkeep
+|
+|t:|1757926286
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|turn|2
+|
+|t:|1757926290
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Iron Crown|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|86/100
+|
+|t:|1757926294
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Polteageist|Polteageist-Antique|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|3
+|
+|t:|1757926300
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1757926303
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] Chilly Reception
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757926318
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|move|p2a: Ting-Lu|Whirlwind|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|drag|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757926325
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1757926336
+|-terastallize|p1a: Iron Valiant|Poison
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|move|p2a: Weezing|Strange Steam|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|76/100
+|-start|p1a: Iron Valiant|confusion
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1757926341
+|-activate|p1a: Iron Valiant|confusion
+|move|p1a: Iron Valiant|Poison Jab|p2a: Weezing
+|-damage|p2a: Weezing|19/100
+|move|p2a: Weezing|Strange Steam|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|50/100
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1757926347
+|-end|p1a: Iron Valiant|confusion
+|move|p1a: Iron Valiant|Poison Jab|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1757926350
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|9
+|
+|t:|1757926353
+|move|p2a: Scizor|Bullet Punch|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757926356
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|turn|10
+|
+|t:|1757926361
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Slowking|[miss]
+|-miss|p1a: Walking Wake|p2a: Slowking
+|
+|upkeep
+|turn|11
+|-message|LeaTaschenMonster forfeited.
+|
+|win|234567891d
+|raw|LeaTaschenMonster's rating: 1374 &rarr; <strong>1356</strong><br />(-18 for losing)
+|raw|234567891d's rating: 1412 &rarr; <strong>1430</strong><br />(+18 for winning)
+|l|☆LeaTaschenMonster
+|player|p1|
+|l|☆234567891d
+|player|p2|

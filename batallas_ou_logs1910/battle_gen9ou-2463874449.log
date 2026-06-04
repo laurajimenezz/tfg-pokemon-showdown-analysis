@@ -1,0 +1,282 @@
+|j|☆frubidubi
+|j|☆Jun0spr3sso
+|t:|1760757758
+|gametype|singles
+|player|p1|frubidubi|milo|1204
+|player|p2|Jun0spr3sso|roxie|1229
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Orthworm, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Hydrapple, M|
+|poke|p1|Furret, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Serperior, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Galvantula, M|
+|poke|p2|Primarina, F|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|t:|1760757766
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hroth|Gyarados, F|100/100
+|switch|p2a: Galvantula|Galvantula, M, shiny|100/100
+|-item|p2a: Galvantula|Air Balloon
+|turn|1
+|
+|t:|1760757781
+|switch|p1a: Leigong|Raging Bolt|100/100
+|-enditem|p1a: Leigong|Booster Energy
+|-activate|p1a: Leigong|ability: Protosynthesis|[fromitem]
+|-start|p1a: Leigong|protosynthesisspa
+|move|p2a: Galvantula|Volt Switch|p1a: Leigong
+|-resisted|p1a: Leigong
+|-damage|p1a: Leigong|94/100
+|
+|t:|1760757793
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|2
+|
+|t:|1760757811
+|-terastallize|p1a: Leigong|Fairy
+|move|p2a: Dragapult|Dragon Darts|p1a: Leigong
+|-immune|p1a: Leigong
+|move|p1a: Leigong|Draco Meteor|p2a: Dragapult|[miss]
+|-miss|p1a: Leigong|p2a: Dragapult
+|
+|upkeep
+|turn|3
+|
+|t:|1760757828
+|move|p2a: Dragapult|Curse|p1a: Leigong
+|-start|p1a: Leigong|Curse|[of] p2a: Dragapult
+|-damage|p2a: Dragapult|50/100
+|move|p1a: Leigong|Draco Meteor|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1a: Leigong|spa|2
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Leigong|69/100|[from] Curse
+|upkeep
+|
+|t:|1760757841
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|4
+|
+|t:|1760757871
+|-end|p1a: Leigong|Protosynthesis|[silent]
+|switch|p1a: Hroth|Gyarados, F|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Hroth
+|-sidestart|p1: frubidubi|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1760757888
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Galvantula|Galvantula, M, shiny|100/100
+|-item|p2a: Galvantula|Air Balloon
+|move|p1a: Hroth|Dragon Dance|p1a: Hroth
+|-boost|p1a: Hroth|atk|1
+|-boost|p1a: Hroth|spe|1
+|
+|upkeep
+|turn|6
+|
+|t:|1760757899
+|move|p1a: Hroth|Scale Shot|p2a: Galvantula
+|-damage|p2a: Galvantula|74/100
+|-enditem|p2a: Galvantula|Air Balloon
+|-damage|p2a: Galvantula|47/100
+|-damage|p2a: Galvantula|20/100
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|-ability|p1a: Hroth|Moxie|boost
+|-boost|p1a: Hroth|atk|1
+|-hitcount|p2: Galvantula|4
+|-unboost|p1a: Hroth|def|1
+|-boost|p1a: Hroth|spe|1
+|
+|upkeep
+|
+|t:|1760757923
+|switch|p2a: Primarina|Primarina, F|100/100
+|turn|7
+|
+|t:|1760757932
+|move|p1a: Hroth|Taunt|p2a: Primarina
+|-start|p2a: Primarina|move: Taunt
+|cant|p2a: Primarina|move: Taunt|Encore
+|
+|upkeep
+|turn|8
+|
+|t:|1760757942
+|switch|p1a: Basil|Serperior, M|100/100
+|-damage|p1a: Basil|88/100|[from] Stealth Rock
+|move|p2a: Primarina|Moonblast|p1a: Basil
+|-damage|p1a: Basil|20/100
+|-boost|p1a: Basil|spa|1
+|
+|-heal|p1a: Basil|26/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760757962
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Basil|Glare|p2a: Cinderace
+|-status|p2a: Cinderace|par
+|
+|-heal|p1a: Basil|32/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760757975
+|switch|p1a: Mochi|Furret, F|100/100
+|-damage|p1a: Mochi|88/100|[from] Stealth Rock
+|-item|p2a: Cinderace|Heavy-Duty Boots|[from] ability: Frisk|[of] p1a: Mochi
+|cant|p2a: Cinderace|par
+|
+|upkeep
+|turn|11
+|
+|t:|1760757986
+|move|p1a: Mochi|Tidy Up|p1a: Mochi
+|-sideend|p1: frubidubi|Stealth Rock
+|-activate|p1a: Mochi|move: Tidy Up
+|-boost|p1a: Mochi|atk|1
+|-boost|p1a: Mochi|spe|1
+|cant|p2a: Cinderace|par
+|
+|upkeep
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jun0spr3sso)
+|
+|t:|1760758029
+|move|p1a: Mochi|Sucker Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|67/100 par
+|move|p2a: Cinderace|High Jump Kick|p1a: Mochi
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p1a: Mochi
+|-damage|p1a: Mochi|0 fnt
+|faint|p1a: Mochi
+|
+|upkeep
+|
+|t:|1760758043
+|switch|p1a: Ciran|Hydrapple, M|100/100
+|turn|13
+|
+|t:|1760758068
+|cant|p2a: Cinderace|par
+|move|p1a: Ciran|Draco Meteor|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-unboost|p1a: Ciran|spa|2
+|faint|p2a: Cinderace
+|
+|upkeep
+|inactive|Jun0spr3sso has 120 seconds left.
+|
+|t:|1760758078
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|14
+|
+|t:|1760758089
+|switch|p1a: Leigong|Raging Bolt, tera:Fairy|69/100
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Leigong
+|-damage|p1a: Leigong|35/100
+|
+|upkeep
+|turn|15
+|
+|t:|1760758101
+|move|p1a: Leigong|Thunderclap|p2a: Iron Moth
+|-damage|p2a: Iron Moth|53/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Leigong
+|-damage|p1a: Leigong|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: Leigong
+|-end|p1a: Leigong|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760758113
+|switch|p1a: Hroth|Gyarados, F|100/100
+|turn|16
+|
+|t:|1760758121
+|move|p2a: Iron Moth|Sludge Wave|p1a: Hroth
+|-damage|p1a: Hroth|0 fnt
+|faint|p1a: Hroth
+|
+|upkeep
+|
+|t:|1760758150
+|switch|p1a: Basil|Serperior, M|32/100
+|turn|17
+|
+|t:|1760758161
+|-terastallize|p2a: Iron Moth|Flying
+|move|p1a: Basil|Glare|p2a: Iron Moth
+|-status|p2a: Iron Moth|par
+|move|p2a: Iron Moth|Fiery Dance|p1a: Basil
+|-supereffective|p1a: Basil
+|-damage|p1a: Basil|0 fnt
+|faint|p1a: Basil
+|
+|upkeep
+|
+|t:|1760758171
+|switch|p1a: Kyooon|Orthworm, M|100/100
+|turn|18
+|
+|t:|1760758180
+|move|p2a: Iron Moth|Fiery Dance|p1a: Kyooon
+|-supereffective|p1a: Kyooon
+|-damage|p1a: Kyooon|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: Kyooon
+|
+|upkeep
+|
+|t:|1760758183
+|switch|p1a: Ciran|Hydrapple, M|100/100
+|turn|19
+|
+|t:|1760758190
+|move|p2a: Iron Moth|Sludge Wave|p1a: Ciran
+|-supereffective|p1a: Ciran
+|-damage|p1a: Ciran|0 fnt
+|faint|p1a: Ciran
+|
+|win|Jun0spr3sso
+|raw|frubidubi's rating: 1204 &rarr; <strong>1181</strong><br />(-23 for losing)
+|raw|Jun0spr3sso's rating: 1229 &rarr; <strong>1252</strong><br />(+23 for winning)
+|l|☆frubidubi
+|player|p1|
+|l|☆Jun0spr3sso
+|player|p2|

@@ -1,0 +1,209 @@
+|j|☆malkeshar
+|j|☆B/CFan
+|t:|1758286744
+|gametype|singles
+|player|p1|malkeshar|scientist-gen4|1297
+|player|p2|B/CFan|101|1264
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Porygon2|
+|poke|p1|Cresselia, F|
+|poke|p1|Iron Hands|
+|poke|p1|Volcanion|
+|poke|p2|Galvantula, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Sceptile, M|
+|poke|p2|Malamar, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|t:|1758286755
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Volcanion|Volcanion|100/100
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by malkeshar)
+|
+|t:|1758286764
+|move|p2a: Galvantula|Sticky Web|p1a: Volcanion
+|-sidestart|p1: malkeshar|move: Sticky Web
+|move|p1a: Volcanion|Flamethrower|p2a: Galvantula
+|-supereffective|p2a: Galvantula
+|-enditem|p2a: Galvantula|Focus Sash
+|-damage|p2a: Galvantula|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758286770
+|move|p2a: Galvantula|Thunder|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|3/100
+|move|p1a: Volcanion|Flamethrower|p2a: Galvantula
+|-supereffective|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|upkeep
+|
+|t:|1758286773
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|3
+|
+|t:|1758286779
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Volcanion|Steam Eruption|p2a: Cinderace
+|-damage|p2a: Cinderace|5/100
+|-status|p2a: Cinderace|brn
+|
+|-damage|p2a: Cinderace|0 fnt|[from] brn
+|faint|p2a: Cinderace
+|upkeep
+|
+|t:|1758286782
+|switch|p2a: Malamar|Malamar, M|100/100
+|-activate|p2a: Malamar|move: Sticky Web
+|-boost|p2a: Malamar|spe|1
+|turn|4
+|
+|t:|1758286794
+|move|p2a: Malamar|Superpower|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Volcanion
+|
+|upkeep
+|
+|t:|1758286804
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|5
+|
+|t:|1758286808
+|move|p2a: Malamar|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|38/100
+|-enditem|p1a: Hatterene|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Malamar
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|6
+|
+|t:|1758286835
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2a: Malamar|Knock Off|p1a: Iron Hands
+|-resisted|p1a: Iron Hands
+|-damage|p1a: Iron Hands|88/100
+|
+|upkeep
+|turn|7
+|
+|t:|1758286844
+|move|p1a: Iron Hands|Drain Punch|p2a: Malamar
+|-damage|p2a: Malamar|53/100
+|-heal|p1a: Iron Hands|100/100|[from] drain|[of] p2a: Malamar
+|move|p2a: Malamar|Psycho Cut|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|46/100
+|
+|-heal|p2a: Malamar|59/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758286855
+|move|p1a: Iron Hands|Wild Charge|p2a: Malamar
+|-damage|p2a: Malamar|5/100
+|-damage|p1a: Iron Hands|38/100|[from] Recoil
+|move|p2a: Malamar|Psycho Cut|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|-heal|p2a: Malamar|11/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758286865
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|turn|9
+|
+|t:|1758286870
+|move|p1a: Porygon2|Tera Blast|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758286875
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-activate|p2a: Excadrill|move: Sticky Web
+|-unboost|p2a: Excadrill|spe|1
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|10
+|
+|t:|1758286887
+|-terastallize|p1a: Porygon2|Ground
+|move|p2a: Excadrill|Rapid Spin|p1a: Porygon2
+|-damage|p1a: Porygon2|88/100
+|-boost|p2a: Excadrill|spe|1
+|-sideend|p2: B/CFan|Sticky Web|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: Porygon2|Tera Blast|p2a: Excadrill|[anim] Tera Blast Ground
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1758286892
+|switch|p2a: Sceptile|Sceptile, M|100/100
+|turn|11
+|
+|t:|1758286899
+|move|p2a: Sceptile|Swords Dance|p2a: Sceptile
+|-boost|p2a: Sceptile|atk|2
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|upkeep
+|turn|12
+|
+|t:|1758286904
+|move|p1a: Porygon2|Ice Beam|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|upkeep
+|-message|B/CFan forfeited.
+|
+|win|malkeshar
+|raw|malkeshar's rating: 1297 &rarr; <strong>1320</strong><br />(+23 for winning)
+|raw|B&#x2f;CFan's rating: 1264 &rarr; <strong>1241</strong><br />(-23 for losing)
+|l|☆B/CFan
+|player|p2|
+|l|☆malkeshar
+|player|p1|

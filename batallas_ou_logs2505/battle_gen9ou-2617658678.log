@@ -1,0 +1,407 @@
+|j|☆haricane
+|j|☆LUPIIT
+|t:|1779720249
+|gametype|singles
+|player|p1|haricane|hilbert|1328
+|player|p2|LUPIIT|lucas|1415
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Thorns|
+|poke|p1|Dragapult, M|
+|poke|p1|Latias, F|
+|poke|p1|Pawmot, M|
+|poke|p1|Noivern, M|
+|poke|p1|Armarouge, M|
+|poke|p2|Smeargle, F|
+|poke|p2|Comfey, M|
+|poke|p2|Incineroar, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Zapdos|
+|poke|p2|Darkrai|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LUPIIT)
+|
+|t:|1779720273
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Thorns|Iron Thorns, shiny|100/100
+|switch|p2a: Smeargle|Smeargle, F|100/100
+|-enditem|p1a: Iron Thorns|Booster Energy
+|-activate|p1a: Iron Thorns|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Thorns|quarkdriveatk
+|turn|1
+|
+|t:|1779720286
+|move|p2a: Smeargle|Stone Axe|p1a: Iron Thorns|[miss]
+|-miss|p2a: Smeargle|p1a: Iron Thorns
+|move|p1a: Iron Thorns|Supercell Slam|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779720296
+|-end|p1a: Iron Thorns|Quark Drive|[silent]
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Smeargle|Burning Bulwark||[still]
+|-fail|p2a: Smeargle
+|
+|upkeep
+|turn|3
+|
+|t:|1779720308
+|move|p2a: Smeargle|Burning Bulwark|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Protect
+|move|p1a: Dragapult|Dragon Darts|p2a: Smeargle
+|-activate|p2a: Smeargle|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1779720313
+|switch|p2a: Comfey|Comfey, M|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Comfey
+|-immune|p2a: Comfey
+|
+|upkeep
+|turn|5
+|
+|t:|1779720322
+|switch|p1a: Iron Thorns|Iron Thorns, shiny|100/100
+|move|p2a: Comfey|Leech Seed|p1a: Iron Thorns
+|-start|p1a: Iron Thorns|move: Leech Seed
+|
+|-damage|p1a: Iron Thorns|88/100|[from] Leech Seed|[of] p2a: Comfey
+|upkeep
+|turn|6
+|
+|t:|1779720337
+|switch|p2a: Incineroar|Incineroar, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Iron Thorns|atk|1
+|move|p1a: Iron Thorns|Dragon Dance|p1a: Iron Thorns
+|-boost|p1a: Iron Thorns|atk|1
+|-boost|p1a: Iron Thorns|spe|1
+|
+|-damage|p1a: Iron Thorns|76/100|[from] Leech Seed|[of] p2a: Incineroar
+|upkeep
+|turn|7
+|
+|t:|1779720346
+|move|p2a: Incineroar|Fake Out|p1a: Iron Thorns
+|-resisted|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|71/100
+|cant|p1a: Iron Thorns|flinch
+|
+|-damage|p1a: Iron Thorns|59/100|[from] Leech Seed|[of] p2a: Incineroar
+|upkeep
+|turn|8
+|
+|t:|1779720352
+|move|p2a: Incineroar|Protect|p2a: Incineroar
+|-singleturn|p2a: Incineroar|Protect
+|move|p1a: Iron Thorns|Dragon Dance|p1a: Iron Thorns
+|-boost|p1a: Iron Thorns|atk|1
+|-boost|p1a: Iron Thorns|spe|1
+|
+|-damage|p1a: Iron Thorns|47/100|[from] Leech Seed|[of] p2a: Incineroar
+|upkeep
+|turn|9
+|
+|t:|1779720359
+|move|p1a: Iron Thorns|Earthquake|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|upkeep
+|
+|t:|1779720364
+|switch|p2a: Smeargle|Smeargle, F|1/100
+|turn|10
+|
+|t:|1779720367
+|move|p2a: Smeargle|Burning Bulwark|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Protect
+|move|p1a: Iron Thorns|Ice Punch|p2a: Smeargle
+|-activate|p2a: Smeargle|move: Protect
+|-status|p1a: Iron Thorns|brn
+|
+|-damage|p1a: Iron Thorns|35/100 brn|[from] Leech Seed|[of] p2a: Smeargle
+|-heal|p2a: Smeargle|14/100|[silent]
+|-damage|p1a: Iron Thorns|28/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1779720375
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Iron Thorns|Supercell Slam|p2a: Ogerpon
+|-crit|p2a: Ogerpon
+|-damage|p2a: Ogerpon|9/100
+|
+|-damage|p1a: Iron Thorns|16/100 brn|[from] Leech Seed|[of] p2a: Ogerpon
+|-heal|p2a: Ogerpon|23/100|[silent]
+|-damage|p1a: Iron Thorns|10/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1779720385
+|move|p2a: Ogerpon|Spiky Shield|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Protect
+|move|p1a: Iron Thorns|Earthquake|p2a: Ogerpon
+|-activate|p2a: Ogerpon|move: Protect
+|
+|-damage|p1a: Iron Thorns|0 fnt|[from] Leech Seed|[of] p2a: Ogerpon
+|-heal|p2a: Ogerpon|34/100|[silent]
+|faint|p1a: Iron Thorns
+|-end|p1a: Iron Thorns|Quark Drive|[silent]
+|upkeep
+|
+|t:|1779720399
+|switch|p1a: Pawmot|Pawmot, M, shiny|100/100
+|turn|13
+|
+|t:|1779720403
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Pawmot|[anim] Ivy Cudgel Water
+|-damage|p1a: Pawmot|0 fnt
+|faint|p1a: Pawmot
+|
+|upkeep
+|
+|t:|1779720411
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|14
+|
+|t:|1779720415
+|switch|p2a: Comfey|Comfey, M|100/100
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|upkeep
+|turn|15
+|
+|t:|1779720428
+|move|p2a: Comfey|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|40/100
+|-enditem|p1a: Dragapult|Red Card|[of] p2a: Comfey
+|drag|p2a: Ogerpon|Ogerpon-Wellspring, F|34/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|15/100
+|
+|upkeep
+|turn|16
+|
+|t:|1779720436
+|switch|p2a: Comfey|Comfey, M|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Comfey
+|-immune|p2a: Comfey
+|
+|upkeep
+|turn|17
+|
+|t:|1779720441
+|move|p2a: Comfey|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|
+|upkeep
+|turn|18
+|
+|t:|1779720446
+|switch|p2a: Smeargle|Smeargle, F|14/100
+|move|p1a: Dragapult|Phantom Force|p2a: Smeargle|[from] lockedmove
+|-immune|p2a: Smeargle
+|
+|upkeep
+|turn|19
+|
+|t:|1779720454
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|move|p2a: Smeargle|Stone Axe|p1a: Dragapult|[miss]
+|-miss|p2a: Smeargle|p1a: Dragapult
+|
+|upkeep
+|turn|20
+|
+|t:|1779720458
+|move|p1a: Dragapult|Phantom Force|p2a: Smeargle|[from] lockedmove
+|-immune|p2a: Smeargle
+|move|p2a: Smeargle|Stone Axe|p1a: Dragapult
+|-damage|p1a: Dragapult|9/100
+|-sidestart|p1: haricane|move: Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|t:|1779720465
+|switch|p2a: Comfey|Comfey, M|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Comfey
+|-immune|p2a: Comfey
+|
+|upkeep
+|turn|22
+|
+|t:|1779720471
+|move|p2a: Comfey|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1779720477
+|switch|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1779720484
+|move|p1a: Latias|Agility|p1a: Latias
+|-boost|p1a: Latias|spe|2
+|move|p2a: Comfey|Leech Seed|p1a: Latias
+|-start|p1a: Latias|move: Leech Seed
+|
+|-damage|p1a: Latias|76/100|[from] Leech Seed|[of] p2a: Comfey
+|upkeep
+|turn|24
+|
+|t:|1779720494
+|switch|p1a: Noivern|Noivern, M|100/100
+|-damage|p1a: Noivern|76/100|[from] Stealth Rock
+|-item|p2a: Comfey|Metronome|[from] ability: Frisk|[of] p1a: Noivern
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|
+|upkeep
+|turn|25
+|
+|t:|1779720502
+|move|p2a: Comfey|Draining Kiss|p1a: Noivern
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|9/100
+|move|p1a: Noivern|Switcheroo|p2a: Comfey
+|-activate|p1a: Noivern|move: Trick|[of] p2a: Comfey
+|-item|p2a: Comfey|Choice Specs|[from] move: Switcheroo
+|-item|p1a: Noivern|Metronome|[from] move: Switcheroo
+|
+|upkeep
+|turn|26
+|
+|t:|1779720508
+|move|p2a: Comfey|Draining Kiss|p1a: Noivern
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|upkeep
+|
+|t:|1779720512
+|switch|p1a: Armarouge|Armarouge, M, shiny|100/100
+|-damage|p1a: Armarouge|76/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1779720517
+|switch|p2a: Smeargle|Smeargle, F|14/100
+|move|p1a: Armarouge|Armor Cannon|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|faint|p2a: Smeargle
+|
+|upkeep
+|
+|t:|1779720519
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|28
+|
+|t:|1779720526
+|move|p1a: Armarouge|Endure|p1a: Armarouge
+|-singleturn|p1a: Armarouge|move: Endure
+|move|p2a: Darkrai|Dark Pulse|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-activate|p1a: Armarouge|move: Endure
+|-damage|p1a: Armarouge|1/100
+|
+|upkeep
+|turn|29
+|-enditem|p1a: Armarouge|Custap Berry|[eat]
+|-activate|p1a: Armarouge|item: Custap Berry|[consumed]
+|
+|t:|1779720536
+|move|p2a: Darkrai|Protect|p2a: Darkrai
+|-singleturn|p2a: Darkrai|Protect
+|move|p1a: Armarouge|Destiny Bond|p1a: Armarouge
+|-singlemove|p1a: Armarouge|Destiny Bond
+|
+|upkeep
+|turn|30
+|
+|t:|1779720542
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|move|p1a: Armarouge|Armor Cannon|p2a: Darkrai
+|-damage|p2a: Darkrai|9/100
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|
+|-heal|p2a: Darkrai|15/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1779720552
+|move|p1a: Armarouge|Endure|p1a: Armarouge
+|-singleturn|p1a: Armarouge|move: Endure
+|move|p2a: Darkrai|Dark Pulse|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-activate|p1a: Armarouge|move: Endure
+|-damage|p1a: Armarouge|1/100
+|
+|-heal|p2a: Darkrai|21/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1779720559
+|move|p2a: Darkrai|Dark Pulse|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|-heal|p2a: Darkrai|28/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779720565
+|switch|p1a: Latias|Latias, F|76/100
+|-damage|p1a: Latias|64/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1779720570
+|-terastallize|p1a: Latias|Normal
+|move|p2a: Darkrai|Dark Pulse|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|win|LUPIIT
+|raw|haricane's rating: 1328 &rarr; <strong>1313</strong><br />(-15 for losing)
+|raw|LUPIIT's rating: 1415 &rarr; <strong>1430</strong><br />(+15 for winning)
+|l|☆LUPIIT
+|player|p2|
+|l|☆haricane
+|player|p1|

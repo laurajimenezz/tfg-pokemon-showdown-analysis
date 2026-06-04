@@ -1,0 +1,165 @@
+|j|☆broragebaited
+|j|☆elementalbalance
+|t:|1779863539
+|gametype|singles
+|player|p1|broragebaited|blue|1000
+|player|p2|elementalbalance|ghetsis|1056
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Manaphy|
+|poke|p1|Donphan, L1, M|
+|poke|p1|Whimsicott, L1, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Enamorus, F|
+|poke|p2|Scrafty, M|
+|poke|p2|Slowbro-Galar, M|
+|poke|p2|Maushold-Four|
+|poke|p2|Gliscor, F|
+|poke|p2|Quaquaval, M|
+|poke|p2|Milotic, F|
+|teampreview
+|
+|t:|1779863555
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Whimsicott|Whimsicott, L1, M|100/100
+|switch|p2a: Maushold|Maushold-Four|100/100
+|turn|1
+|
+|t:|1779863563
+|move|p1a: Whimsicott|Leech Seed|p2a: Maushold
+|-start|p2a: Maushold|move: Leech Seed
+|move|p2a: Maushold|Population Bomb|p1a: Whimsicott
+|-enditem|p1a: Whimsicott|Focus Sash
+|-damage|p1a: Whimsicott|9/100
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|-hitcount|p1: Whimsicott|2
+|
+|upkeep
+|
+|t:|1779863575
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|2
+|
+|t:|1779863584
+|switch|p2a: Slowbro|Slowbro-Galar, M|100/100
+|move|p1a: Enamorus|Superpower|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|95/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|-damage|p1a: Enamorus|84/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|
+|-heal|p1a: Enamorus|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1779863600
+|move|p1a: Enamorus|Mystical Fire|p2a: Slowbro
+|-damage|p2a: Slowbro|66/100
+|-unboost|p2a: Slowbro|spa|1
+|move|p2a: Slowbro|Shell Side Arm|p1a: Enamorus|[anim] Shell Side Arm Physical
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|33/100
+|-hint|Physical Shell Side Arm
+|
+|-heal|p1a: Enamorus|39/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1779863616
+|move|p1a: Enamorus|Mystical Fire|p2a: Slowbro
+|-damage|p2a: Slowbro|38/100
+|-unboost|p2a: Slowbro|spa|1
+|move|p2a: Slowbro|Shell Side Arm|p1a: Enamorus|[anim] Shell Side Arm Physical
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|-hint|Physical Shell Side Arm
+|faint|p1a: Enamorus
+|
+|upkeep
+|
+|t:|1779863631
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|turn|5
+|
+|t:|1779863644
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|move|p1a: Glimmora|Toxic Spikes|p2a: Quaquaval
+|-sidestart|p2: elementalbalance|move: Toxic Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1779863652
+|move|p2a: Quaquaval|Aqua Step|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|12/100
+|-boost|p2a: Quaquaval|spe|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: elementalbalance|move: Toxic Spikes
+|move|p1a: Glimmora|Toxic|p2a: Quaquaval
+|-status|p2a: Quaquaval|tox
+|-enditem|p2a: Quaquaval|Lum Berry|[eat]
+|-curestatus|p2a: Quaquaval|tox|[msg]
+|
+|upkeep
+|turn|7
+|
+|t:|1779863670
+|move|p2a: Quaquaval|Aqua Step|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-boost|p2a: Quaquaval|spe|1
+|faint|p1a: Glimmora
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1779863684
+|switch|p1a: Manaphy|Manaphy|100/100
+|turn|8
+|
+|t:|1779863690
+|move|p2a: Quaquaval|Close Combat|p1a: Manaphy
+|-damage|p1a: Manaphy|17/100
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|
+|-heal|p1a: Manaphy|23/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1779863704
+|move|p2a: Quaquaval|Aqua Step|p1a: Manaphy
+|-resisted|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|-boost|p2a: Quaquaval|spe|1
+|faint|p1a: Manaphy
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|-message|broragebaited forfeited.
+|
+|win|elementalbalance
+|raw|broragebaited's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|elementalbalance's rating: 1056 &rarr; <strong>1083</strong><br />(+27 for winning)
+|l|☆broragebaited
+|player|p1|

@@ -1,0 +1,259 @@
+|j|☆Brewers_Pizza
+|j|☆random18272
+|t:|1757914185
+|gametype|singles
+|player|p1|Brewers_Pizza|sabrina|1161
+|player|p2|random18272|1|1127
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glimmora, M|
+|poke|p1|Darkrai|
+|poke|p1|Delphox, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Breloom, M|
+|poke|p2|Skarmory, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Pecharunt|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Slither Wing|
+|poke|p2|Torkoal, F|
+|teampreview
+|
+|t:|1757914201
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1757914207
+|move|p1a: Indeedee|Trick|p2a: Skarmory
+|-activate|p1a: Indeedee|move: Trick|[of] p2a: Skarmory
+|-item|p2a: Skarmory|Choice Specs|[from] move: Trick
+|-item|p1a: Indeedee|Leftovers|[from] move: Trick
+|move|p2a: Skarmory|Stealth Rock|p1a: Indeedee
+|-sidestart|p1: Brewers_Pizza|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1757914216
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Indeedee|Dazzling Gleam|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|82/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757914224
+|move|p1a: Indeedee|Expanding Force|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757914233
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|-activate|p2a: Slither Wing|ability: Protosynthesis
+|-start|p2a: Slither Wing|protosynthesisatk
+|turn|4
+|
+|t:|1757914238
+|move|p2a: Slither Wing|Flare Blitz|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-damage|p2a: Slither Wing|73/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757914255
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|-damage|p1a: Arcanine|76/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Slither Wing|atk|1
+|turn|5
+|
+|t:|1757914263
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Crawdaunt|[miss]
+|-miss|p1a: Arcanine|p2a: Crawdaunt
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757914265
+|move|p2a: Crawdaunt|Knock Off|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p2a: Crawdaunt|84/100|[from] item: Rocky Helmet|[of] p1a: Arcanine
+|-enditem|p1a: Arcanine|Rocky Helmet|[from] move: Knock Off|[of] p2a: Crawdaunt
+|faint|p1a: Arcanine
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757914276
+|switch|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1757914286
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p1a: Breloom|Focus Punch|p2a: Pecharunt
+|-immune|p2a: Pecharunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1757914303
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-damage|p1a: Glimmora|88/100|[from] Stealth Rock
+|move|p2a: Pecharunt|Shadow Ball|p1a: Glimmora
+|-damage|p1a: Glimmora|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1757914310
+|move|p1a: Glimmora|Toxic|p2a: Pecharunt
+|-status|p2a: Pecharunt|tox
+|move|p2a: Pecharunt|Shadow Ball|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|-weather|none
+|-damage|p2a: Pecharunt|94/100 tox|[from] psn
+|upkeep
+|
+|t:|1757914318
+|switch|p1a: Darkrai|Darkrai|100/100
+|-damage|p1a: Darkrai|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1757914328
+|move|p1a: Darkrai|Thunder|p2a: Pecharunt|[miss]
+|-miss|p1a: Darkrai|p2a: Pecharunt
+|move|p2a: Pecharunt|Shadow Ball|p1a: Darkrai
+|-resisted|p1a: Darkrai
+|-damage|p1a: Darkrai|52/100
+|
+|-damage|p2a: Pecharunt|82/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1757914334
+|move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|2
+|move|p2a: Pecharunt|Shadow Ball|p1a: Darkrai
+|-resisted|p1a: Darkrai
+|-damage|p1a: Darkrai|19/100
+|-unboost|p1a: Darkrai|spd|1
+|
+|-damage|p2a: Pecharunt|64/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1757914336
+|move|p1a: Darkrai|Dark Pulse|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|-damage|p1a: Darkrai|9/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757914339
+|switch|p2a: Slither Wing|Slither Wing|73/100
+|turn|13
+|
+|t:|1757914345
+|move|p2a: Slither Wing|First Impression|p1a: Darkrai
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+|
+|t:|1757914349
+|switch|p1a: Delphox|Delphox, F|100/100
+|-damage|p1a: Delphox|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1757914352
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Delphox|Nasty Plot|p1a: Delphox
+|-boost|p1a: Delphox|spa|2
+|
+|upkeep
+|turn|15
+|
+|t:|1757914358
+|switch|p2a: Crawdaunt|Crawdaunt, M|84/100
+|move|p1a: Delphox|Flamethrower|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|
+|t:|1757914360
+|switch|p2a: Slither Wing|Slither Wing|73/100
+|turn|16
+|
+|t:|1757914367
+|move|p2a: Slither Wing|First Impression|p1a: Delphox
+|-damage|p1a: Delphox|0 fnt
+|faint|p1a: Delphox
+|
+|upkeep
+|
+|t:|1757914369
+|switch|p1a: Breloom|Breloom, M|94/100
+|-damage|p1a: Breloom|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1757914374
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Breloom|Bullet Seed|p2a: Gliscor
+|-damage|p2a: Gliscor|69/100
+|-damage|p2a: Gliscor|39/100
+|-damage|p2a: Gliscor|7/100
+|-hitcount|p2a: Gliscor|3
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|18
+|-message|Brewers_Pizza forfeited.
+|
+|win|random18272
+|raw|Brewers_Pizza's rating: 1161 &rarr; <strong>1134</strong><br />(-27 for losing)
+|raw|random18272's rating: 1127 &rarr; <strong>1154</strong><br />(+27 for winning)
+|l|☆Brewers_Pizza
+|player|p1|
+|l|☆random18272
+|player|p2|

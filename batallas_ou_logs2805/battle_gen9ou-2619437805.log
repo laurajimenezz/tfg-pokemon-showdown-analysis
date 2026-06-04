@@ -1,0 +1,289 @@
+|j|☆WiiShopMusic
+|j|☆AmadanNaBrion
+|t:|1779917395
+|gametype|singles
+|player|p1|WiiShopMusic|102|1325
+|player|p2|AmadanNaBrion|medium|1381
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Sandslash-Alola, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Beartic, F|
+|poke|p1|Pawmot, M|
+|poke|p1|Cetitan, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Pecharunt|
+|poke|p2|Kingambit, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|t:|1779917420
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1779917432
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1779917480
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|move|p1a: Toxapex|Toxic|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|88/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1779917491
+|switch|p1a: Sandslash|Sandslash-Alola, F|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Sandslash
+|-damage|p1a: Sandslash|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779917505
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Sandslash|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1779917520
+|move|p1a: Sandslash|Ice Spinner|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|29/100
+|-status|p1a: Sandslash|par|[from] ability: Static|[of] p2a: Zapdos
+|-damage|p1a: Sandslash|43/100 par|[from] item: Life Orb
+|move|p2a: Zapdos|Volt Switch|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|t:|1779917546
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] Volt Switch
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zamazenta|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1779917549
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|turn|6
+|
+|t:|1779917556
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|94/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1779917567
+|switch|p1a: Pawmot|Pawmot, M|100/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pawmot|94/100|[from] Sandstorm
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WiiShopMusic)
+|
+|t:|1779917601
+|-terastallize|p2a: Kingambit|Flying
+|move|p1a: Pawmot|Revival Blessing|p1a: Pawmot
+|-enditem|p1a: Pawmot|Leppa Berry|[eat]
+|-activate|p1a: Pawmot|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|t:|1779917606
+|-heal|p1: Sandslash|50/100|[from] move: Revival Blessing
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1779917615
+|move|p1a: Pawmot|Nuzzle|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|87/100
+|-status|p2a: Kingambit|par
+|cant|p2a: Kingambit|par
+|
+|-heal|p2a: Kingambit|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779917622
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|23/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Kingambit|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1779917634
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ninetales|Blizzard|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|18/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1779917654
+|move|p1a: Ninetales|Moonblast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|47/100
+|-unboost|p2a: Tyranitar|spa|1
+|move|p2a: Tyranitar|Stealth Rock|p1a: Ninetales
+|-sidestart|p1: WiiShopMusic|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|12/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1779917662
+|move|p1a: Ninetales|Moonblast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|20/100
+|move|p2a: Tyranitar|Knock Off|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-enditem|p1a: Ninetales|Icy Rock|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1a: Ninetales
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1779917672
+|switch|p1a: Pawmot|Pawmot, M|94/100
+|-damage|p1a: Pawmot|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1779917681
+|switch|p2a: Zapdos|Zapdos|29/100
+|move|p1a: Pawmot|Revival Blessing|p1a: Pawmot
+|
+|t:|1779917683
+|-heal|p1: Ninetales|50/100|[from] move: Revival Blessing
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pawmot|82/100|[from] Sandstorm
+|-damage|p2a: Zapdos|23/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1779917694
+|switch|p1a: Ninetales|Ninetales-Alola, M|50/100
+|-damage|p1a: Ninetales|26/100|[from] Stealth Rock
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|73/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1779917704
+|switch|p2a: Tyranitar|Tyranitar, M|20/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ninetales|Blizzard|p2a: Tyranitar|[miss]
+|-miss|p1a: Ninetales|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|20/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1779917726
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Ninetales|Moonblast|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|14/100|[from] Sandstorm
+|-damage|p2a: Pecharunt|73/100|[from] Sandstorm
+|upkeep
+|turn|18
+|inactive|AmadanNaBrion has 120 seconds left.
+|
+|t:|1779917752
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|82/100|[from] Sandstorm
+|upkeep
+|turn|19
+|inactive|AmadanNaBrion has 120 seconds left.
+|
+|t:|1779917763
+|-terastallize|p1a: Toxapex|Fairy
+|move|p2a: Great Tusk|Headlong Rush|p1a: Toxapex
+|-damage|p1a: Toxapex|41/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-enditem|p1a: Toxapex|Eject Button
+|
+|t:|1779917774
+|switch|p1a: Sandslash|Sandslash-Alola, F|50/100
+|-damage|p1a: Sandslash|38/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Eject Pack
+|-message|WiiShopMusic forfeited.
+|
+|win|AmadanNaBrion
+|raw|WiiShopMusic's rating: 1325 &rarr; <strong>1308</strong><br />(-17 for losing)
+|raw|AmadanNaBrion's rating: 1381 &rarr; <strong>1398</strong><br />(+17 for winning)
+|l|☆WiiShopMusic
+|player|p1|
+|l|☆AmadanNaBrion
+|player|p2|

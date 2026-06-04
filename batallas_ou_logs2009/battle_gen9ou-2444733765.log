@@ -1,0 +1,306 @@
+|j|☆Ghostops
+|j|☆BubbleWood
+|t:|1758258423
+|gametype|singles
+|player|p1|Ghostops|102|1116
+|player|p2|BubbleWood|1|1131
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ceruledge, M|
+|poke|p1|Clodsire, M|
+|poke|p1|Iron Leaves|
+|poke|p1|Iron Boulder|
+|poke|p1|Heatran, M|
+|poke|p1|Vaporeon, F|
+|poke|p2|Ogerpon, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Tinkaton, F|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Clodsire, M|
+|poke|p2|Meowscarada, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BubbleWood)
+|
+|t:|1758258437
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Clodsire|Clodsire, M, shiny|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|1
+|
+|t:|1758258451
+|move|p2a: Meowscarada|Knock Off|p1a: Clodsire
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Clodsire|59/100
+|-enditem|p1a: Clodsire|Leftovers|[from] move: Knock Off|[of] p2a: Meowscarada
+|move|p1a: Clodsire|Stealth Rock|p2a: Meowscarada
+|-sidestart|p2: BubbleWood|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1758258465
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-damage|p2a: Rotom|75/100|[from] Stealth Rock
+|move|p1a: Clodsire|Poison Jab|p2a: Rotom
+|-damage|p2a: Rotom|53/100
+|-status|p2a: Rotom|psn
+|
+|-damage|p2a: Rotom|40/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1758258475
+|move|p2a: Rotom|Will-O-Wisp|p1a: Clodsire
+|-status|p1a: Clodsire|brn
+|move|p1a: Clodsire|Poison Jab|p2a: Rotom
+|-damage|p2a: Rotom|30/100 psn
+|
+|-damage|p2a: Rotom|17/100 psn|[from] psn
+|-damage|p1a: Clodsire|53/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1758258484
+|move|p2a: Rotom|Pain Split|p1a: Clodsire
+|-sethp|p1a: Clodsire|33/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|44/100 psn|[from] move: Pain Split
+|move|p1a: Clodsire|Poison Jab|p2a: Rotom
+|-damage|p2a: Rotom|32/100 psn
+|
+|-damage|p2a: Rotom|20/100 psn|[from] psn
+|-damage|p1a: Clodsire|27/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1758258492
+|move|p2a: Rotom|Overheat|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Clodsire
+|-enditem|p2a: Rotom|Eject Pack
+|
+|t:|1758258519
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-damage|p2a: Tinkaton|94/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1758258533
+|switch|p1a: Ceruledge|Ceruledge, M, shiny|100/100
+|turn|6
+|
+|t:|1758258551
+|move|p1a: Ceruledge|Bitter Blade|p2a: Tinkaton
+|-supereffective|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|-damage|p1a: Ceruledge|91/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|BubbleWood has 120 seconds left.
+|
+|t:|1758258563
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|-damage|p2a: Meowscarada|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1758258572
+|switch|p1a: Heatran|Heatran, M, shiny|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Meowscarada|Knock Off|p1a: Heatran
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Heatran|53/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|upkeep
+|turn|8
+|
+|t:|1758258583
+|switch|p2a: Rotom|Rotom-Heat|20/100 psn
+|-damage|p2a: Rotom|0 fnt|[from] Stealth Rock
+|faint|p2a: Rotom
+|move|p1a: Heatran|Flamethrower|p2: Rotom|[notarget]
+|-fail|p1a: Heatran
+|
+|upkeep
+|
+|t:|1758258592
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|-damage|p2a: Zapdos|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1758258600
+|move|p2a: Zapdos|Thunderous Kick|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1758258620
+|switch|p1a: Ceruledge|Ceruledge, M, shiny|91/100
+|turn|10
+|
+|t:|1758258625
+|move|p2a: Zapdos|Knock Off|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-crit|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|-enditem|p1a: Ceruledge|Life Orb|[from] move: Knock Off|[of] p2a: Zapdos
+|faint|p1a: Ceruledge
+|
+|upkeep
+|
+|t:|1758258632
+|switch|p1a: Vaporeon|Vaporeon, F, shiny|100/100
+|turn|11
+|
+|t:|1758258635
+|move|p2a: Zapdos|Taunt|p1a: Vaporeon
+|-start|p1a: Vaporeon|move: Taunt
+|move|p1a: Vaporeon|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|31/100
+|-status|p2a: Zapdos|frz
+|-enditem|p2a: Zapdos|Sitrus Berry|[eat]
+|-heal|p2a: Zapdos|56/100 frz|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|12
+|inactive|BubbleWood has 120 seconds left.
+|
+|t:|1758258686
+|cant|p2a: Zapdos|frz
+|move|p1a: Vaporeon|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1758258693
+|switch|p2a: Meowscarada|Meowscarada, F|88/100
+|-damage|p2a: Meowscarada|76/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1758258701
+|move|p2a: Meowscarada|Flower Trick|p1a: Vaporeon
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-supereffective|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|upkeep
+|
+|t:|1758258708
+|switch|p1a: Iron Leaves|Iron Leaves|100/100
+|-enditem|p1a: Iron Leaves|Booster Energy
+|-activate|p1a: Iron Leaves|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Leaves|quarkdriveatk
+|turn|14
+|inactive|BubbleWood has 120 seconds left.
+|
+|t:|1758258719
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|-terastallize|p1a: Iron Leaves|Grass
+|move|p1a: Iron Leaves|Psyblade|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|6/100
+|
+|-heal|p2a: Clodsire|13/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|BubbleWood has 120 seconds left.
+|
+|t:|1758258736
+|move|p1a: Iron Leaves|Leaf Blade|p2a: Clodsire
+|-crit|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|upkeep
+|inactive|BubbleWood has 120 seconds left.
+|
+|t:|1758258746
+|switch|p2a: Meowscarada|Meowscarada, F|76/100
+|-damage|p2a: Meowscarada|64/100|[from] Stealth Rock
+|turn|16
+|inactive|BubbleWood has 120 seconds left.
+|
+|t:|1758258767
+|move|p2a: Meowscarada|U-turn|p1a: Iron Leaves
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-supereffective|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|22/100
+|
+|t:|1758258771
+|switch|p2a: Ogerpon|Ogerpon, F|100/100|[from] U-turn
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|move|p1a: Iron Leaves|Sacred Sword|p2a: Ogerpon
+|-damage|p2a: Ogerpon|29/100
+|
+|upkeep
+|turn|17
+|
+|t:|1758258781
+|-terastallize|p2a: Ogerpon|Grass
+|detailschange|p2a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass
+|-ability|p2a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p2a: Ogerpon|spe|1
+|move|p2a: Ogerpon|Horn Leech|p1a: Iron Leaves
+|-resisted|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|0 fnt
+|-heal|p2a: Ogerpon|41/100|[from] drain|[of] p1a: Iron Leaves
+|faint|p1a: Iron Leaves
+|-end|p1a: Iron Leaves|Quark Drive|[silent]
+|-damage|p2a: Ogerpon|31/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758258791
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdrivespe
+|turn|18
+|
+|t:|1758258802
+|move|p1a: Iron Boulder|Sacred Sword|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon, F|[silent]
+|
+|upkeep
+|
+|t:|1758258805
+|switch|p2a: Meowscarada|Meowscarada, F|64/100
+|-damage|p2a: Meowscarada|51/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1758258823
+|move|p1a: Iron Boulder|Sacred Sword|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|win|Ghostops
+|raw|Ghostops's rating: 1116 &rarr; <strong>1142</strong><br />(+26 for winning)
+|raw|BubbleWood's rating: 1131 &rarr; <strong>1105</strong><br />(-26 for losing)
+|l|☆BubbleWood
+|player|p2|
+|l|☆Ghostops
+|player|p1|

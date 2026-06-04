@@ -1,0 +1,288 @@
+|j|☆Churrini
+|j|☆vallic
+|t:|1760450957
+|gametype|singles
+|player|p1|Churrini|morty|1184
+|player|p2|vallic|102|1137
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Hawlucha, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Kyurem|
+|poke|p1|Azumarill, M|
+|poke|p2|Carbink, L1|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Iron Hands|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1760450965
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Marianito|Rillaboom, M|100/100
+|switch|p2a: Carbink|Carbink, L1, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Marianito
+|turn|1
+|
+|t:|1760450970
+|move|p1a: Marianito|Taunt|p2a: Carbink
+|-start|p2a: Carbink|move: Taunt
+|cant|p2a: Carbink|move: Taunt|Trick Room
+|
+|-damage|p2a: Carbink|92/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1760450978
+|move|p1a: Marianito|Knock Off|p2a: Carbink
+|-resisted|p2a: Carbink
+|-damage|p2a: Carbink|0 fnt
+|-enditem|p2a: Carbink|Black Sludge|[from] move: Knock Off|[of] p1a: Marianito
+|faint|p2a: Carbink
+|
+|upkeep
+|
+|t:|1760450984
+|switch|p2a: Braviary|Braviary-Hisui, M, shiny|100/100
+|turn|3
+|
+|t:|1760450991
+|move|p1a: Marianito|Knock Off|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|18/100
+|-enditem|p2a: Braviary|Life Orb|[from] move: Knock Off|[of] p1a: Marianito
+|move|p2a: Braviary|Psychic|p1a: Marianito
+|-damage|p1a: Marianito|18/100
+|
+|-heal|p1a: Marianito|24/100|[from] Grassy Terrain
+|-heal|p1a: Marianito|30/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1760451000
+|move|p2a: Braviary|Vacuum Wave|p1a: Marianito
+|-damage|p1a: Marianito|12/100
+|move|p1a: Marianito|Knock Off|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|-heal|p1a: Marianito|19/100|[from] Grassy Terrain
+|-heal|p1a: Marianito|25/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760451006
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|5
+|
+|t:|1760451013
+|move|p1a: Marianito|Knock Off|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|92/100
+|move|p2a: Iron Hands|Ice Punch|p1a: Marianito
+|-supereffective|p1a: Marianito
+|-damage|p1a: Marianito|0 fnt
+|faint|p1a: Marianito
+|
+|-heal|p2a: Iron Hands|98/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1760451017
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|6
+|
+|t:|1760451027
+|move|p1a: Ninetales|Encore|p2a: Iron Hands
+|-start|p2a: Iron Hands|Encore
+|move|p2a: Iron Hands|Ice Punch|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|84/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760451033
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Churrini|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760451042
+|switch|p1a: Churrini|Azumarill, M|100/100
+|move|p2a: Kingambit|Iron Head|p1a: Churrini
+|-damage|p1a: Churrini|64/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1760451047
+|move|p1a: Churrini|Play Rough|p2a: Kingambit
+|-damage|p2a: Kingambit|60/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760451052
+|move|p1a: Churrini|Play Rough|p2a: Kingambit
+|-damage|p2a: Kingambit|23/100
+|move|p2a: Kingambit|Iron Head|p1a: Churrini
+|-damage|p1a: Churrini|0 fnt
+|faint|p1a: Churrini
+|
+|-weather|none
+|upkeep
+|
+|t:|1760451059
+|switch|p1a: El Santo|Hawlucha, M, shiny|100/100
+|turn|11
+|
+|t:|1760451063
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: El Santo|Swords Dance|p1a: El Santo
+|-boost|p1a: El Santo|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1760451073
+|move|p2a: Kingambit|Sucker Punch|p1a: El Santo
+|-resisted|p1a: El Santo
+|-damage|p1a: El Santo|65/100
+|move|p1a: El Santo|Acrobatics|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|4/100
+|
+|upkeep
+|turn|13
+|
+|t:|1760451080
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: El Santo|Swords Dance|p1a: El Santo
+|-boost|p1a: El Santo|atk|2
+|
+|upkeep
+|turn|14
+|
+|t:|1760451084
+|move|p2a: Kingambit|Sucker Punch|p1a: El Santo
+|-resisted|p1a: El Santo
+|-damage|p1a: El Santo|24/100
+|move|p1a: El Santo|Acrobatics|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|-sideend|p1: Churrini|move: Aurora Veil
+|upkeep
+|
+|t:|1760451094
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|15
+|
+|t:|1760451101
+|-terastallize|p2a: Hatterene|Steel
+|move|p1a: El Santo|Acrobatics|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|55/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|16
+|
+|t:|1760451109
+|move|p2a: Hatterene|Psychic Noise|p1a: El Santo
+|-supereffective|p1a: El Santo
+|-damage|p1a: El Santo|0 fnt
+|faint|p1a: El Santo
+|
+|upkeep
+|
+|t:|1760451114
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|turn|17
+|
+|t:|1760451118
+|move|p2a: Hatterene|Psychic Noise|p1a: Slowking
+|-damage|p1a: Slowking|75/100
+|-start|p1a: Slowking|move: Heal Block
+|move|p1a: Slowking|Sludge Bomb|p2a: Hatterene
+|-immune|p2a: Hatterene
+|
+|upkeep
+|turn|18
+|
+|t:|1760451125
+|move|p2a: Hatterene|Psychic Noise|p1a: Slowking
+|-damage|p1a: Slowking|50/100
+|move|p1a: Slowking|Thunder Wave|p2a: Hatterene
+|move|p2a: Hatterene|Thunder Wave|p1a: Slowking|[from] ability: Magic Bounce
+|-status|p1a: Slowking|par
+|
+|-end|p1a: Slowking|move: Heal Block
+|upkeep
+|turn|19
+|
+|t:|1760451134
+|cant|p1a: Slowking|par
+|move|p2a: Hatterene|Psychic Noise|p1a: Slowking
+|-damage|p1a: Slowking|23/100 par
+|-start|p1a: Slowking|move: Heal Block
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|20
+|
+|t:|1760451142
+|move|p1a: Slowking|Thunder Wave|p2a: Hatterene
+|move|p2a: Hatterene|Thunder Wave|p1a: Slowking|[from] ability: Magic Bounce
+|-fail|p1a: Slowking|par
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-end|p1a: Slowking|move: Heal Block
+|upkeep
+|turn|21
+|-message|Churrini forfeited.
+|
+|win|vallic
+|raw|Churrini's rating: 1184 &rarr; <strong>1156</strong><br />(-28 for losing)
+|raw|vallic's rating: 1137 &rarr; <strong>1165</strong><br />(+28 for winning)
+|l|☆Churrini
+|player|p1|
+|l|☆vallic
+|player|p2|

@@ -1,0 +1,254 @@
+|j|☆poke.crys1
+|j|☆Arceusmielpops
+|t:|1759070000
+|gametype|singles
+|player|p1|poke.crys1|2|1085
+|player|p2|Arceusmielpops|unknown|1061
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ting-Lu|
+|poke|p1|Glimmora, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Vespiquen, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|t:|1759070041
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1759070063
+|-terastallize|p1a: Iron Valiant|Psychic
+|move|p1a: Iron Valiant|Psychic|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|move|p2a: Glimmora|Stealth Rock|p1a: Iron Valiant
+|-sidestart|p1: poke.crys1|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1759070071
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Iron Valiant|Psychic|p2a: Samurott
+|-immune|p2a: Samurott
+|
+|upkeep
+|turn|3
+|
+|t:|1759070077
+|move|p1a: Iron Valiant|Moonblast|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1759070088
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|4
+|
+|t:|1759070111
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|move|p2a: Indeedee|Hyper Voice|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|77/100
+|
+|-heal|p1a: Kingambit|83/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1759070120
+|switch|p2a: Glimmora|Glimmora, F|1/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-heal|p1a: Kingambit|89/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1759070131
+|move|p2a: Glimmora|Earth Power|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|28/100
+|move|p1a: Kingambit|Iron Head|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: poke.crys1|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|-heal|p1a: Kingambit|34/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1759070145
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|7
+|
+|t:|1759070155
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-damage|p1a: Glimmora|88/100|[from] Stealth Rock
+|-sideend|p1: poke.crys1|move: Toxic Spikes|[of] p1a: Glimmora
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1759070164
+|move|p2a: Dragonite|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Arceusmielpops|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1759070171
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-damage|p1a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|9
+|
+|t:|1759070183
+|move|p1a: Raging Bolt|Thunderclap|p2a: Dragonite
+|-hint|Psychic Terrain doesn't affect Pokémon immune to Ground.
+|-damage|p2a: Dragonite|70/100
+|move|p2a: Dragonite|Earthquake|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1759070195
+|switch|p1a: Iron Valiant|Iron Valiant, tera:Psychic|100/100
+|-damage|p1a: Iron Valiant|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1759070202
+|move|p2a: Dragonite|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|19/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1759070210
+|switch|p2a: Vespiquen|Vespiquen, F|100/100
+|-ability|p2a: Vespiquen|Unnerve
+|-enditem|p2a: Vespiquen|Psychic Seed
+|-boost|p2a: Vespiquen|spd|1|[from] item: Psychic Seed
+|turn|11
+|
+|t:|1759070263
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Vespiquen|Agility|p2a: Vespiquen
+|-boost|p2a: Vespiquen|spe|2
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|12
+|
+|t:|1759070271
+|move|p2a: Vespiquen|Fell Stinger|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-boost|p2a: Vespiquen|atk|3
+|
+|upkeep
+|
+|t:|1759070278
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|13
+|
+|t:|1759070285
+|move|p2a: Vespiquen|Acrobatics|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|48/100
+|move|p1a: Ting-Lu|Ruination|p2a: Vespiquen
+|-damage|p2a: Vespiquen|50/100
+|
+|upkeep
+|turn|14
+|
+|t:|1759070294
+|move|p2a: Vespiquen|Acrobatics|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1759070299
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1759070320
+|move|p2a: Vespiquen|Fell Stinger|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-boost|p2a: Vespiquen|atk|3
+|
+|upkeep
+|
+|t:|1759070326
+|switch|p1a: Kingambit|Kingambit, M|34/100
+|-damage|p1a: Kingambit|28/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|16
+|
+|t:|1759070334
+|move|p2a: Vespiquen|Acrobatics|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|Arceusmielpops
+|raw|poke.crys1's rating: 1085 &rarr; <strong>1061</strong><br />(-24 for losing)
+|raw|Arceusmielpops's rating: 1061 &rarr; <strong>1094</strong><br />(+33 for winning)
+|l|☆Arceusmielpops
+|player|p2|

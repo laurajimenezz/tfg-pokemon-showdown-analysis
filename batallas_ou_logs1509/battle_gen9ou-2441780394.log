@@ -1,0 +1,271 @@
+|j|☆corpsefire
+|j|☆potayo
+|t:|1757900969
+|gametype|singles
+|player|p1|corpsefire|allister|1657
+|player|p2|potayo|1|1702
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Glimmora, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Kingambit, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Rabsca, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1757900982
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by corpsefire)
+|
+|t:|1757900992
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Ogerpon|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|78/100
+|-damage|p1a: Ogerpon|84/100|[from] item: Rocky Helmet|[of] p2a: Hatterene
+|
+|t:|1757900998
+|switch|p1a: Kingambit|Kingambit, M, shiny|100/100|[from] U-turn
+|-item|p1a: Kingambit|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|t:|1757901021
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1757901027
+|move|p1a: Kingambit|Low Kick|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|
+|upkeep
+|
+|t:|1757901034
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|turn|4
+|
+|t:|1757901051
+|move|p1a: Kingambit|Iron Head|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Mimikyu|Red Card|[of] p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|drag|p1a: Dragonite|Dragonite, M, shiny|100/100
+|move|p2a: Mimikyu|Will-O-Wisp|p1a: Dragonite
+|-status|p1a: Dragonite|brn
+|-enditem|p1a: Dragonite|Lum Berry|[eat]
+|-curestatus|p1a: Dragonite|brn|[msg]
+|
+|upkeep
+|turn|5
+|
+|t:|1757901058
+|switch|p1a: Glimmora|Glimmora, M, shiny|100/100
+|move|p2a: Mimikyu|Trick Room|p2a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p2a: Mimikyu
+|
+|upkeep
+|turn|6
+|
+|t:|1757901062
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|move|p1a: Glimmora|Mortal Spin|p2a: Hoopa
+|-crit|p2a: Hoopa
+|-damage|p2a: Hoopa|87/100
+|-status|p2a: Hoopa|psn
+|
+|-damage|p2a: Hoopa|75/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1757901089
+|switch|p1a: Dragonite|Dragonite, M, shiny|100/100
+|move|p2a: Hoopa|Psychic Noise|p1a: Dragonite
+|-damage|p1a: Dragonite|78/100
+|-start|p1a: Dragonite|move: Heal Block
+|
+|-damage|p2a: Hoopa|62/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1757901105
+|switch|p2a: Hatterene|Hatterene, F|78/100
+|move|p1a: Dragonite|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|50/100
+|
+|-end|p1a: Dragonite|move: Heal Block
+|upkeep
+|turn|9
+|
+|t:|1757901115
+|move|p2a: Hatterene|Draining Kiss|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|32/100
+|-heal|p2a: Hatterene|86/100|[from] drain|[of] p1a: Dragonite
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|82/100
+|-singleturn|p1a: Dragonite|move: Roost
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+|
+|t:|1757901121
+|move|p1a: Dragonite|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|59/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|35/100
+|-heal|p2a: Hatterene|94/100|[from] drain|[of] p1a: Dragonite
+|
+|upkeep
+|turn|11
+|
+|t:|1757901125
+|switch|p1a: Glimmora|Glimmora, M, shiny|100/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-crit|p1a: Glimmora
+|-damage|p1a: Glimmora|81/100
+|-heal|p2a: Hatterene|100/100|[from] drain|[of] p1a: Glimmora
+|-enditem|p1a: Glimmora|Red Card|[of] p2a: Hatterene
+|drag|p2a: Rabsca|Rabsca, M|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1757901131
+|move|p1a: Glimmora|Mortal Spin|p2a: Rabsca
+|-damage|p2a: Rabsca|96/100
+|-status|p2a: Rabsca|psn
+|-activate|p2a: Rabsca|ability: Synchronize
+|-immune|p1a: Glimmora
+|move|p2a: Rabsca|Revival Blessing|p2a: Rabsca
+|-enditem|p2a: Rabsca|Leppa Berry|[eat]
+|-activate|p2a: Rabsca|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|t:|1757901134
+|-heal|p2: Kingambit|50/100|[from] move: Revival Blessing
+|
+|-damage|p2a: Rabsca|84/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1757901148
+|switch|p2a: Hoopa|Hoopa-Unbound|62/100 psn
+|move|p1a: Glimmora|Spikes|p2a: Hoopa
+|-sidestart|p2: potayo|Spikes
+|
+|-damage|p2a: Hoopa|50/100 psn|[from] psn
+|upkeep
+|-enditem|p2a: Hoopa|Sitrus Berry|[eat]
+|-heal|p2a: Hoopa|75/100 psn|[from] item: Sitrus Berry
+|turn|14
+|
+|t:|1757901154
+|move|p1a: Glimmora|Spikes|p2a: Hoopa
+|-sidestart|p2: potayo|Spikes
+|move|p2a: Hoopa|Psychic Noise|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|-damage|p2a: Hoopa|63/100 psn|[from] psn
+|upkeep
+|
+|t:|1757901161
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|84/100
+|turn|15
+|
+|t:|1757901175
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|84/100|[from] Spikes
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Hatterene|[anim] Ivy Cudgel Water
+|-damage|p2a: Hatterene|36/100
+|
+|upkeep
+|turn|16
+|
+|t:|1757901181
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Hatterene|[anim] Ivy Cudgel Water
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1757901200
+|switch|p2a: Rabsca|Rabsca, M|84/100 psn
+|-damage|p2a: Rabsca|67/100 psn|[from] Spikes
+|turn|17
+|
+|t:|1757901203
+|move|p1a: Ogerpon|Taunt|p2a: Rabsca
+|-start|p2a: Rabsca|move: Taunt
+|cant|p2a: Rabsca|move: Taunt|Trick Room
+|
+|-damage|p2a: Rabsca|54/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1757901206
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Rabsca|[anim] Ivy Cudgel Water
+|-damage|p2a: Rabsca|8/100 psn
+|move|p2a: Rabsca|Psychic Noise|p1a: Ogerpon
+|-damage|p1a: Ogerpon|48/100
+|-start|p1a: Ogerpon|move: Heal Block
+|
+|-damage|p2a: Rabsca|0 fnt|[from] psn
+|faint|p2a: Rabsca
+|upkeep
+|
+|t:|1757901216
+|switch|p2a: Mimikyu|Mimikyu-Busted, M|88/100
+|-damage|p2a: Mimikyu|72/100|[from] Spikes
+|turn|19
+|
+|t:|1757901222
+|move|p1a: Ogerpon|Taunt|p2a: Mimikyu
+|-start|p2a: Mimikyu|move: Taunt
+|cant|p2a: Mimikyu|move: Taunt|Trick Room
+|
+|-end|p1a: Ogerpon|move: Heal Block
+|upkeep
+|turn|20
+|-message|potayo forfeited.
+|
+|win|corpsefire
+|raw|corpsefire's rating: 1657 &rarr; <strong>1680</strong><br />(+23 for winning)
+|raw|potayo's rating: 1702 &rarr; <strong>1679</strong><br />(-23 for losing)
+|l|☆potayo
+|player|p2|

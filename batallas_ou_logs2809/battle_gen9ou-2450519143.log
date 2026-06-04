@@ -1,0 +1,265 @@
+|j|☆GummyDeino
+|j|☆tapu moxo
+|t:|1758993336
+|gametype|singles
+|player|p1|GummyDeino|2|1670
+|player|p2|tapu moxo|yellow|1674
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Iron Hands|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Mimikyu, F|
+|poke|p2|Smeargle, F|
+|poke|p2|Ceruledge, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Serperior, F|
+|poke|p2|Gyarados, F|
+|poke|p2|Enamorus, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GummyDeino)
+|
+|t:|1758993345
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Catch These Hands|Iron Hands, shiny|100/100
+|switch|p2a: Smeargle|Smeargle, F|100/100
+|-enditem|p1a: Catch These Hands|Booster Energy
+|-activate|p1a: Catch These Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Catch These Hands|quarkdriveatk
+|turn|1
+|
+|t:|1758993352
+|move|p2a: Smeargle|Burning Bulwark|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Protect
+|move|p1a: Catch These Hands|Heavy Slam|p2a: Smeargle
+|-activate|p2a: Smeargle|move: Protect
+|-status|p1a: Catch These Hands|brn
+|
+|-damage|p1a: Catch These Hands|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1758993360
+|move|p2a: Smeargle|Sticky Web|p1a: Catch These Hands
+|-sidestart|p1: GummyDeino|move: Sticky Web
+|move|p1a: Catch These Hands|Close Combat|p2a: Smeargle
+|-supereffective|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|-unboost|p1a: Catch These Hands|def|1
+|-unboost|p1a: Catch These Hands|spd|1
+|
+|-damage|p1a: Catch These Hands|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1758993369
+|move|p2a: Smeargle|Court Change|p2a: Smeargle
+|-swapsideconditions
+|-activate|p2a: Smeargle|move: Court Change
+|move|p1a: Catch These Hands|Supercell Slam|p2a: Smeargle|[miss]
+|-miss|p1a: Catch These Hands|p2a: Smeargle
+|-damage|p1a: Catch These Hands|38/100 brn|[from] supercellslam
+|
+|-damage|p1a: Catch These Hands|32/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1758993377
+|move|p2a: Smeargle|Burning Bulwark|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Protect
+|move|p1a: Catch These Hands|Ice Punch|p2a: Smeargle
+|-activate|p2a: Smeargle|move: Protect
+|
+|-damage|p1a: Catch These Hands|26/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1758993383
+|move|p2a: Smeargle|Glare||[still]
+|-fail|p2a: Smeargle
+|move|p1a: Catch These Hands|Ice Punch|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|-damage|p1a: Catch These Hands|19/100 brn|[from] brn
+|upkeep
+|
+|t:|1758993386
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|turn|6
+|
+|t:|1758993391
+|move|p2a: Gyarados|Waterfall|p1a: Catch These Hands
+|-damage|p1a: Catch These Hands|0 fnt
+|faint|p1a: Catch These Hands
+|-end|p1a: Catch These Hands|Quark Drive|[silent]
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|t:|1758993396
+|switch|p1a: Ayo Doc Heal Me|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Ayo Doc Heal Me
+|turn|7
+|
+|t:|1758993403
+|move|p2a: Gyarados|Waterfall|p1a: Ayo Doc Heal Me
+|-damage|p1a: Ayo Doc Heal Me|33/100
+|move|p1a: Ayo Doc Heal Me|Trick Room|p1a: Ayo Doc Heal Me
+|-fieldstart|move: Trick Room|[of] p1a: Ayo Doc Heal Me
+|
+|upkeep
+|turn|8
+|
+|t:|1758993409
+|move|p1a: Ayo Doc Heal Me|Healing Wish|p1a: Ayo Doc Heal Me
+|faint|p1a: Ayo Doc Heal Me
+|move|p2a: Gyarados|Waterfall|p1: Ayo Doc Heal Me|[notarget]
+|-fail|p2a: Gyarados
+|
+|upkeep
+|
+|t:|1758993413
+|switch|p1a: 5 Nights In TR|Ursaluna, F, shiny|100/100
+|turn|9
+|
+|t:|1758993417
+|move|p1a: 5 Nights In TR|Supercell Slam|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-status|p1a: 5 Nights In TR|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1758993430
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|10
+|
+|t:|1758993432
+|switch|p2a: Serperior|Serperior, F, shiny|100/100
+|-activate|p2a: Serperior|move: Sticky Web
+|-boost|p2a: Serperior|spe|1
+|move|p1a: 5 Nights In TR|Facade|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|-damage|p1a: 5 Nights In TR|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1758993440
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|-activate|p2a: Ceruledge|move: Sticky Web
+|-unboost|p2a: Ceruledge|spe|1
+|turn|11
+|
+|t:|1758993444
+|move|p1a: 5 Nights In TR|Headlong Rush|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-unboost|p1a: 5 Nights In TR|def|1
+|-unboost|p1a: 5 Nights In TR|spd|1
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-damage|p1a: 5 Nights In TR|88/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|t:|1758993458
+|switch|p1a: Mimi :3|Mimikyu, F, shiny|100/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Mimi :3
+|-activate|p1a: Mimi :3|ability: Disguise
+|-damage|p1a: Mimi :3|100/100
+|detailschange|p1a: Mimi :3|Mimikyu-Busted, F, shiny
+|-damage|p1a: Mimi :3|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p1a: Mimi :3|Red Card|[of] p2a: Ceruledge
+|drag|p2a: Kingambit|Kingambit, F, shiny|100/100
+|-activate|p2a: Kingambit|move: Sticky Web
+|-unboost|p2a: Kingambit|spe|1
+|-ability|p2a: Kingambit|Defiant|boost
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|13
+|
+|t:|1758993470
+|move|p1a: Mimi :3|Destiny Bond|p1a: Mimi :3
+|-singlemove|p1a: Mimi :3|Destiny Bond
+|move|p2a: Kingambit|Iron Head|p1a: Mimi :3
+|-supereffective|p1a: Mimi :3
+|-damage|p1a: Mimi :3|0 fnt
+|faint|p1a: Mimi :3
+|-activate|p1a: Mimi :3|move: Destiny Bond
+|faint|p2a: Kingambit
+|
+|upkeep
+|
+|t:|1758993478
+|switch|p1a: Sukuna|Hoopa-Unbound|100/100
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|-enditem|p1a: Sukuna|Psychic Seed
+|-boost|p1a: Sukuna|spd|1|[from] item: Psychic Seed
+|turn|14
+|
+|t:|1758993483
+|move|p2a: Enamorus|Superpower|p1a: Sukuna
+|-damage|p1a: Sukuna|66/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|move|p1a: Sukuna|Trick Room|p1a: Sukuna
+|-fieldstart|move: Trick Room|[of] p1a: Sukuna
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|15
+|
+|t:|1758993492
+|-terastallize|p1a: Sukuna|Psychic
+|move|p1a: Sukuna|Expanding Force|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|-item|p1a: Sukuna|Leftovers|[from] ability: Magician|[of] p2: Enamorus
+|
+|-heal|p1a: Sukuna|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758993495
+|switch|p2a: Ceruledge|Ceruledge, M|1/100
+|-activate|p2a: Ceruledge|move: Sticky Web
+|-unboost|p2a: Ceruledge|spe|1
+|turn|16
+|
+|t:|1758993502
+|move|p1a: Sukuna|Expanding Force|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|win|GummyDeino
+|raw|GummyDeino's rating: 1670 &rarr; <strong>1690</strong><br />(+20 for winning)
+|raw|tapu moxo's rating: 1674 &rarr; <strong>1654</strong><br />(-20 for losing)
+|l|☆tapu moxo
+|player|p2|
+|l|☆GummyDeino
+|player|p1|

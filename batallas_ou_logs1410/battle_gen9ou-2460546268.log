@@ -1,0 +1,363 @@
+|j|☆ballyhoogreen
+|j|☆106abd
+|t:|1760320950
+|gametype|singles
+|player|p1|ballyhoogreen|maid|1317
+|player|p2|106abd|hilbert-wonderlauncher|1405
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Glastrier|
+|poke|p1|Cinderace, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Iron Boulder|
+|poke|p1|Lanturn, F|
+|poke|p2|Whimsicott, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Talonflame, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Greninja-*, M|
+|teampreview
+|
+|t:|1760320958
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ballyhoogreen)
+|
+|t:|1760320976
+|move|p1a: Cinderace|U-turn|p2a: Garganacl
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Garganacl|79/100
+|
+|t:|1760320984
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|move|p2a: Garganacl|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|86/100
+|
+|-heal|p2a: Garganacl|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1760321002
+|move|p1a: Slowking|Sludge Wave|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|70/100
+|move|p2a: Garganacl|Avalanche|p1a: Slowking
+|-damage|p1a: Slowking|59/100
+|
+|-heal|p2a: Garganacl|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1760321007
+|move|p1a: Slowking|Psychic Noise|p2a: Garganacl
+|-damage|p2a: Garganacl|50/100
+|-start|p2a: Garganacl|move: Heal Block
+|move|p2a: Garganacl|Avalanche|p1a: Slowking
+|-damage|p1a: Slowking|29/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760321010
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760321014
+|switch|p1a: Glastrier|Glastrier|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Garganacl|move: Heal Block
+|upkeep
+|turn|5
+|
+|t:|1760321022
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|move|p1a: Glastrier|High Horsepower|p2a: Talonflame
+|-immune|p2a: Talonflame
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760321026
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Cinderace
+|-immune|p1a: Cinderace
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760321031
+|move|p1a: Cinderace|Pyro Ball|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|72/100
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Cinderace
+|-immune|p1a: Cinderace
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760321035
+|move|p1a: Cinderace|Pyro Ball|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|47/100
+|move|p2a: Talonflame|Fire Spin|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|94/100
+|-activate|p1a: Cinderace|move: Fire Spin|[of] p2a: Talonflame
+|
+|-weather|none
+|-damage|p1a: Cinderace|81/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1760321038
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|97/100
+|-singleturn|p2a: Talonflame|move: Roost
+|
+|-damage|p1a: Cinderace|69/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1760321041
+|move|p1a: Cinderace|Pyro Ball|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|70/100
+|move|p2a: Talonflame|Fire Spin|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|62/100
+|
+|-damage|p1a: Cinderace|50/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|11
+|
+|t:|1760321044
+|move|p1a: Cinderace|Pyro Ball|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|45/100
+|move|p2a: Talonflame|Fire Spin|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|43/100
+|
+|-damage|p1a: Cinderace|31/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1760321047
+|move|p1a: Cinderace|Pyro Ball|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|20/100
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|71/100
+|-singleturn|p2a: Talonflame|move: Roost
+|
+|-damage|p1a: Cinderace|18/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1760321049
+|move|p1a: Cinderace|Pyro Ball|p2a: Talonflame|[miss]
+|-miss|p1a: Cinderace|p2a: Talonflame
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|100/100
+|-singleturn|p2a: Talonflame|move: Roost
+|
+|-end|p1a: Cinderace|Fire Spin|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1760321052
+|switch|p1a: Lanturn|Lanturn, F|100/100
+|move|p2a: Talonflame|Fire Spin|p1a: Lanturn
+|-resisted|p1a: Lanturn
+|-damage|p1a: Lanturn|95/100
+|-activate|p1a: Lanturn|move: Fire Spin|[of] p2a: Talonflame
+|
+|-heal|p1a: Lanturn|100/100|[from] item: Leftovers
+|-damage|p1a: Lanturn|88/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1760321061
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|move|p1a: Lanturn|Whirlpool|p2a: Whimsicott|[miss]
+|-miss|p1a: Lanturn|p2a: Whimsicott
+|
+|-heal|p1a: Lanturn|94/100|[from] item: Leftovers
+|-end|p1a: Lanturn|Fire Spin|[partiallytrapped]|[silent]
+|upkeep
+|turn|16
+|
+|t:|1760321065
+|-terastallize|p1a: Lanturn|Grass
+|move|p2a: Whimsicott|Giga Drain|p1a: Lanturn
+|-resisted|p1a: Lanturn
+|-damage|p1a: Lanturn|72/100
+|move|p1a: Lanturn|Agility|p1a: Lanturn
+|-boost|p1a: Lanturn|spe|2
+|
+|-heal|p1a: Lanturn|78/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1760321071
+|switch|p2a: Greninja|Greninja, M, shiny|100/100
+|move|p1a: Lanturn|Charge Beam|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|36/100
+|
+|-heal|p1a: Lanturn|84/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1760321075
+|move|p1a: Lanturn|Charge Beam|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-boost|p1a: Lanturn|spa|1
+|faint|p2a: Greninja
+|
+|-heal|p1a: Lanturn|90/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760321082
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|turn|19
+|
+|t:|1760321085
+|move|p1a: Lanturn|Ice Beam|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-heal|p1a: Lanturn|96/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760321092
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|20
+|
+|t:|1760321094
+|move|p1a: Lanturn|Whirlpool|p2a: Kingambit
+|-damage|p2a: Kingambit|80/100
+|-activate|p2a: Kingambit|move: Whirlpool|[of] p1a: Lanturn
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p1a: Lanturn|100/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|86/100|[from] item: Leftovers
+|-damage|p2a: Kingambit|74/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|21
+|
+|t:|1760321099
+|move|p1a: Lanturn|Agility|p1a: Lanturn
+|-boost|p1a: Lanturn|spe|2
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|80/100|[from] item: Leftovers
+|-damage|p2a: Kingambit|67/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|22
+|
+|t:|1760321101
+|move|p1a: Lanturn|Charge Beam|p2a: Kingambit
+|-damage|p2a: Kingambit|39/100
+|-boost|p1a: Lanturn|spa|1
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|45/100|[from] item: Leftovers
+|-damage|p2a: Kingambit|33/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|23
+|
+|t:|1760321104
+|move|p1a: Lanturn|Agility|p1a: Lanturn
+|-boost|p1a: Lanturn|spe|2
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|0
+|
+|-heal|p2a: Kingambit|39/100|[from] item: Leftovers
+|-damage|p2a: Kingambit|27/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|24
+|
+|t:|1760321106
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Lanturn|Agility|p1a: Lanturn
+|-boost|p1a: Lanturn|spe|0
+|
+|-heal|p2a: Kingambit|33/100|[from] item: Leftovers
+|-damage|p2a: Kingambit|20/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|25
+|
+|t:|1760321108
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Lanturn|Agility|p1a: Lanturn
+|-boost|p1a: Lanturn|spe|0
+|
+|-heal|p2a: Kingambit|27/100|[from] item: Leftovers
+|-end|p2a: Kingambit|Whirlpool|[partiallytrapped]
+|upkeep
+|turn|26
+|
+|t:|1760321110
+|move|p2a: Kingambit|Sucker Punch|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|-heal|p2a: Kingambit|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760321112
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|turn|27
+|
+|t:|1760321116
+|move|p1a: Mimikyu|Drain Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|-message|106abd forfeited.
+|
+|win|ballyhoogreen
+|raw|ballyhoogreen's rating: 1317 &rarr; <strong>1342</strong><br />(+25 for winning)
+|raw|106abd's rating: 1405 &rarr; <strong>1380</strong><br />(-25 for losing)
+|l|☆106abd
+|player|p2|
+|l|☆ballyhoogreen
+|player|p1|

@@ -1,0 +1,188 @@
+|j|☆love free
+|j|☆rat de service
+|t:|1779621559
+|gametype|singles
+|player|p1|love free|cynthia|1259
+|player|p2|rat de service|170|1323
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Walking Wake|
+|poke|p1|Basculegion, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Treads|
+|poke|p1|Zapdos|
+|poke|p2|Grumpig, F|
+|poke|p2|Kilowattrel, F|
+|poke|p2|Staraptor, M|
+|poke|p2|Toucannon, F|
+|poke|p2|Toxicroak, M|
+|poke|p2|Grafaiai, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by love free)
+|
+|t:|1779621571
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Kilowattrel|Kilowattrel, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1779621585
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Kilowattrel|Hurricane|p1a: Walking Wake
+|-damage|p1a: Walking Wake|12/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1779621613
+|move|p1a: Walking Wake|Hydro Pump|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|0 fnt
+|faint|p2a: Kilowattrel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779621617
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|-item|p2a: Toxicroak|Air Balloon
+|turn|3
+|
+|t:|1779621627
+|move|p2a: Toxicroak|Sucker Punch|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779621633
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|4
+|
+|t:|1779621639
+|move|p1a: Zapdos|Hurricane|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|-enditem|p2a: Toxicroak|Air Balloon
+|faint|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779621645
+|switch|p2a: Grumpig|Grumpig, F|100/100
+|turn|5
+|
+|t:|1779621649
+|move|p1a: Zapdos|Thunder|p2a: Grumpig
+|-damage|p2a: Grumpig|41/100
+|-enditem|p2a: Grumpig|Salac Berry|[eat]
+|-boost|p2a: Grumpig|spe|1|[from] item: Salac Berry
+|move|p2a: Grumpig|Nasty Plot|p2a: Grumpig
+|-boost|p2a: Grumpig|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779621657
+|move|p2a: Grumpig|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|10/100
+|move|p1a: Zapdos|Thunder|p2a: Grumpig
+|-damage|p2a: Grumpig|0 fnt
+|faint|p2a: Grumpig
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779621665
+|switch|p2a: Staraptor|Staraptor, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|turn|7
+|
+|t:|1779621670
+|move|p2a: Staraptor|Brave Bird|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-damage|p2a: Staraptor|98/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779621677
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|8
+|
+|t:|1779621683
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Staraptor|[anim] Ivy Cudgel Water
+|-crit|p2a: Staraptor
+|-damage|p2a: Staraptor|0 fnt
+|faint|p2a: Staraptor
+|
+|-weather|none
+|upkeep
+|
+|t:|1779621692
+|switch|p2a: Toucannon|Toucannon, F|100/100
+|turn|9
+|
+|t:|1779621696
+|-singleturn|p2a: Toucannon|move: Beak Blast
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Toucannon|[anim] Ivy Cudgel Water
+|-damage|p2a: Toucannon|11/100
+|move|p2a: Toucannon|Beak Blast|p1a: Ogerpon
+|-damage|p1a: Ogerpon|28/100
+|
+|-heal|p2a: Toucannon|17/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779621715
+|-singleturn|p2a: Toucannon|move: Beak Blast
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Toucannon|[anim] Ivy Cudgel Water
+|-damage|p2a: Toucannon|0 fnt
+|faint|p2a: Toucannon
+|
+|upkeep
+|
+|t:|1779621718
+|switch|p2a: Grafaiai|Grafaiai, M|100/100
+|turn|11
+|
+|t:|1779621727
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Grafaiai|[anim] Ivy Cudgel Water
+|-damage|p2a: Grafaiai|0 fnt
+|faint|p2a: Grafaiai
+|
+|win|love free
+|raw|love free's rating: 1259 &rarr; <strong>1289</strong><br />(+30 for winning)
+|raw|rat de service's rating: 1323 &rarr; <strong>1299</strong><br />(-24 for losing)
+|l|☆rat de service
+|player|p2|
+|l|☆love free
+|player|p1|

@@ -1,0 +1,165 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆NebulaTrainer
+|j|☆mr parasect alt
+|t:|1776035285
+|gametype|singles
+|player|p1|NebulaTrainer|cynthia-gen4|1700
+|player|p2|mr parasect alt|waitress|1638
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Hippowdon, M|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Excadrill, M|
+|poke|p1|Hydrapple, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Great Tusk|
+|poke|p2|Dragonite, F|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Glimmora, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|j| ohko_smeargle
+|
+|t:|1776035338
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Heatran|Heatran, M, shiny|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|1
+|
+|t:|1776035372
+|switch|p1a: Hydrapple|Hydrapple, F, shiny|100/100
+|move|p2a: Ogerpon|Knock Off|p1a: Hydrapple
+|-damage|p1a: Hydrapple|73/100
+|-enditem|p1a: Hydrapple|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|upkeep
+|turn|2
+|
+|t:|1776035386
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Hydrapple|Fickle Beam|p2a: Iron Valiant
+|-immune|p2a: Iron Valiant
+|
+|upkeep
+|turn|3
+|
+|t:|1776035398
+|switch|p1a: Tornadus|Tornadus-Therian, M, shiny|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Tornadus
+|-damage|p1a: Tornadus|72/100
+|
+|upkeep
+|turn|4
+|
+|t:|1776035404
+|move|p2a: Iron Valiant|Knock Off|p1a: Tornadus
+|-crit|p1a: Tornadus
+|-damage|p1a: Tornadus|25/100
+|-enditem|p1a: Tornadus|Assault Vest|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Tornadus|Hurricane|p2a: Iron Valiant|[miss]
+|-miss|p1a: Tornadus|p2a: Iron Valiant
+|
+|upkeep
+|turn|5
+|
+|t:|1776035413
+|switch|p1a: Heatran|Heatran, M, shiny|100/100
+|move|p2a: Iron Valiant|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|75/100
+|-enditem|p1a: Heatran|Leftovers|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|upkeep
+|turn|6
+|
+|t:|1776035420
+|move|p2a: Iron Valiant|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1776035428
+|switch|p1a: Tornadus|Tornadus-Therian, M, shiny|58/100
+|turn|7
+|
+|t:|1776035432
+|move|p2a: Iron Valiant|Moonblast|p1a: Tornadus
+|-damage|p1a: Tornadus|12/100
+|move|p1a: Tornadus|Hurricane|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1776035445
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|8
+|
+|t:|1776035449
+|move|p1a: Tornadus|Heat Wave|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|86/100
+|move|p2a: Glimmora|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: NebulaTrainer|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1776035456
+|switch|p1a: Hippowdon|Hippowdon, M, shiny|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|-enditem|p2a: Glimmora|Power Herb
+|-anim|p2a: Glimmora|Meteor Beam|p1a: Hippowdon
+|-resisted|p1a: Hippowdon
+|-damage|p1a: Hippowdon|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1776035475
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|move|p2a: Glimmora|Earth Power|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|-message|NebulaTrainer forfeited.
+|
+|win|mr parasect alt
+|raw|NebulaTrainer's rating: 1700 &rarr; <strong>1676</strong><br />(-24 for losing)
+|raw|mr parasect alt's rating: 1638 &rarr; <strong>1662</strong><br />(+24 for winning)
+|l|☆NebulaTrainer
+|player|p1|
+|l| ohko_smeargle
+|l|☆mr parasect alt
+|player|p2|

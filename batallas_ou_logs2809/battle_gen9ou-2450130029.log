@@ -1,0 +1,215 @@
+|j|☆basic_name
+|j|☆4 Pool
+|t:|1758933057
+|gametype|singles
+|player|p1|basic_name|collector|1396
+|player|p2|4 Pool|sage|1456
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Maushold|
+|poke|p1|Gastrodon, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Ting-Lu|
+|poke|p1|Serperior, M|
+|poke|p1|Weavile, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Weavile, M|
+|poke|p2|Serperior, M|
+|poke|p2|Gengar, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Tyranitar, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 4 Pool)
+|
+|t:|1758933070
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Weavile|Weavile, F|100/100
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|
+|t:|1758933080
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Weavile|Low Kick|p2a: Corviknight
+|-damage|p2a: Corviknight|85/100
+|-damage|p1a: Weavile|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|upkeep
+|turn|2
+|
+|t:|1758933086
+|move|p1a: Weavile|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|58/100
+|-damage|p1a: Weavile|68/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Corviknight|U-turn|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|19/100
+|
+|t:|1758933090
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1758933096
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|move|p2a: Dragapult|U-turn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|85/100
+|-damage|p2a: Dragapult|84/100|[from] item: Rocky Helmet|[of] p1a: Gastrodon
+|
+|t:|1758933102
+|switch|p2a: Serperior|Serperior, M, shiny|100/100|[from] U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1758933105
+|move|p2a: Serperior|Leaf Storm|p1a: Gastrodon
+|-supereffective|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Gastrodon
+|
+|upkeep
+|
+|t:|1758933116
+|switch|p1a: Weavile|Weavile, F|19/100
+|-ability|p1a: Weavile|Pressure
+|turn|5
+|
+|t:|1758933122
+|switch|p2a: Corviknight|Corviknight, M|58/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Weavile|Icicle Crash|p2a: Corviknight
+|-damage|p2a: Corviknight|33/100
+|
+|upkeep
+|turn|6
+|
+|t:|1758933136
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|83/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|7
+|
+|t:|1758933143
+|move|p1a: Zamazenta|Stone Edge|p2a: Corviknight
+|-damage|p2a: Corviknight|63/100
+|move|p2a: Corviknight|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|96/100
+|
+|t:|1758933147
+|switch|p2a: Gengar|Gengar, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|8
+|
+|t:|1758933154
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Gengar|Trick|p1a: Ting-Lu
+|-activate|p2a: Gengar|move: Trick|[of] p1a: Ting-Lu
+|-item|p1a: Ting-Lu|Choice Scarf|[from] move: Trick
+|-item|p2a: Gengar|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|9
+|
+|t:|1758933165
+|move|p2a: Gengar|Toxic Spikes|p1a: Ting-Lu
+|-sidestart|p1: basic_name|move: Toxic Spikes
+|move|p1a: Ting-Lu|Ruination|p2a: Gengar
+|-damage|p2a: Gengar|51/100
+|
+|-heal|p2a: Gengar|57/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758933170
+|switch|p2a: Corviknight|Corviknight, M|63/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ting-Lu|Ruination|p2a: Corviknight
+|-damage|p2a: Corviknight|32/100
+|
+|upkeep
+|turn|11
+|
+|t:|1758933175
+|switch|p1a: Weavile|Weavile, F|19/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|82/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|12
+|
+|t:|1758933182
+|switch|p1a: Zamazenta|Zamazenta|96/100
+|move|p2a: Corviknight|Brave Bird|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|32/100
+|-damage|p2a: Corviknight|65/100|[from] Recoil
+|
+|upkeep
+|turn|13
+|
+|t:|1758933188
+|move|p1a: Zamazenta|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|27/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Corviknight|Brave Bird|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-damage|p2a: Corviknight|19/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1758933192
+|switch|p1a: Weavile|Weavile, F|19/100
+|-ability|p1a: Weavile|Pressure
+|turn|14
+|
+|t:|1758933196
+|move|p1a: Weavile|Low Kick|p2a: Corviknight
+|-damage|p2a: Corviknight|2/100
+|move|p2a: Corviknight|U-turn|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|t:|1758933199
+|switch|p2a: Dragapult|Dragapult, M|84/100|[from] U-turn
+|
+|upkeep
+|-message|basic_name forfeited.
+|
+|win|4 Pool
+|raw|basic_name's rating: 1396 &rarr; <strong>1379</strong><br />(-17 for losing)
+|raw|4 Pool's rating: 1456 &rarr; <strong>1473</strong><br />(+17 for winning)
+|l|☆basic_name
+|player|p1|

@@ -1,0 +1,183 @@
+|j|‽Joe123445
+|j|☆ipuhhpniu
+|t:|1760383685
+|gametype|singles
+|player|p1|Joe123445|2|1000
+|player|p2|ipuhhpniu|102|1000
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Heatran, M|
+|poke|p1|Weavile, M|
+|poke|p1|Primarina, M|
+|poke|p1|Ogerpon, F|
+|poke|p1|Pecharunt|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Gallade, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|
+|t:|1760383719
+|teamsize|p1|6
+|teamsize|p2|4
+|start
+|switch|p1a: Heatran|Heatran, M, shiny|100/100
+|switch|p2a: Indeedee|Indeedee, M, shiny|100/100
+|-item|p1a: Heatran|Air Balloon
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1760383756
+|switch|p2a: Gallade|Gallade, M, shiny|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Gallade
+|-damage|p2a: Gallade|53/100
+|-activate|p2a: Gallade|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Gallade|41/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1760383789
+|-terastallize|p1a: Heatran|Fairy
+|move|p1a: Heatran|Earth Power|p2a: Gallade
+|-damage|p2a: Gallade|13/100
+|move|p2a: Gallade|Drain Punch|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|81/100
+|-heal|p2a: Gallade|23/100|[from] drain|[of] p1a: Heatran
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-damage|p2a: Gallade|11/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1760383810
+|move|p1a: Heatran|Earth Power|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|upkeep
+|
+|t:|1760383816
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|100/100
+|turn|4
+|
+|t:|1760383848
+|switch|p1a: Weavile|Weavile, M, shiny|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Slowking|Trick|p1a: Weavile
+|-activate|p2a: Slowking|move: Trick|[of] p1a: Weavile
+|-item|p1a: Weavile|Toxic Orb|[from] move: Trick
+|-item|p2a: Slowking|Choice Band|[from] move: Trick
+|
+|-status|p1a: Weavile|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1760383879
+|move|p1a: Weavile|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|8/100
+|-enditem|p2a: Slowking|Choice Band|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Slowking|Chilling Water|p1a: Weavile
+|-damage|p1a: Weavile|77/100 tox
+|-unboost|p1a: Weavile|atk|1
+|
+|-damage|p1a: Weavile|71/100 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1760383893
+|switch|p2a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Weavile|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|8/100
+|-enditem|p2a: Indeedee|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|
+|-damage|p1a: Weavile|59/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1760383914
+|move|p2a: Indeedee|Protect|p2a: Indeedee
+|-singleturn|p2a: Indeedee|Protect
+|move|p1a: Weavile|Knock Off|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Protect
+|
+|-damage|p1a: Weavile|41/100 tox|[from] psn
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Joe123445)
+|
+|t:|1760383981
+|move|p1a: Weavile|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-damage|p1a: Weavile|17/100 tox|[from] psn
+|upkeep
+|
+|t:|1760383989
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|9
+|
+|t:|1760384016
+|-terastallize|p2a: Deoxys|Fairy
+|move|p1a: Weavile|Ice Shard|p2a: Deoxys
+|-activate|p2a: Deoxys|move: Psychic Terrain
+|move|p2a: Deoxys|Nasty Plot|p2a: Deoxys
+|-boost|p2a: Deoxys|spa|2
+|
+|-damage|p1a: Weavile|0 fnt|[from] psn
+|faint|p1a: Weavile
+|upkeep
+|inactive|Joe123445 has 120 seconds left.
+|
+|t:|1760384050
+|switch|p1a: Primarina|Primarina, M, shiny|100/100
+|turn|10
+|inactive|Joe123445 has 90 seconds left.
+|
+|t:|1760384078
+|move|p2a: Deoxys|Nasty Plot|p2a: Deoxys
+|-boost|p2a: Deoxys|spa|2
+|move|p1a: Primarina|Moonblast|p2a: Deoxys
+|-damage|p2a: Deoxys|37/100
+|-unboost|p2a: Deoxys|spa|1
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|11
+|inactive|Joe123445 has 90 seconds left.
+|
+|t:|1760384097
+|move|p2a: Deoxys|Meteor Beam||[still]
+|-prepare|p2a: Deoxys|Meteor Beam
+|-boost|p2a: Deoxys|spa|1
+|move|p1a: Primarina|Moonblast|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|-message|ipuhhpniu forfeited.
+|
+|win|Joe123445
+|raw|Joe123445's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|raw|ipuhhpniu's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆ipuhhpniu
+|player|p2|

@@ -1,0 +1,232 @@
+|j|☆moron tester
+|j|☆dasraybzh
+|t:|1757945228
+|gametype|singles
+|player|p1|moron tester|169|1484
+|player|p2|dasraybzh|volkner|1467
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Quaquaval, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Pecharunt|
+|poke|p1|Scizor, F|
+|poke|p1|Ting-Lu|
+|poke|p2|Pelipper, M|
+|poke|p2|Zapdos|
+|poke|p2|Overqwil, M|
+|poke|p2|Iron Treads|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Goodra-Hisui, F|
+|teampreview
+|
+|t:|1757945254
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|turn|1
+|
+|t:|1757945260
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Goodra|Thunder|p1a: Scizor
+|-damage|p1a: Scizor|58/100
+|-status|p1a: Scizor|par
+|
+|upkeep
+|turn|2
+|
+|t:|1757945269
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Scizor|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|74/100
+|-enditem|p2a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757945279
+|move|p2a: Pelipper|Weather Ball|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757945282
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|turn|4
+|
+|t:|1757945289
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|switch|p2a: Zapdos|Zapdos, shiny|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757945295
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Zapdos|Hurricane|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|86/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1757945304
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Basculegion
+|-sidestart|p2: dasraybzh|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1757945311
+|move|p2a: Basculegion|Surf|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|6/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Basculegion
+|-damage|p2a: Basculegion|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|12/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1757945318
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Basculegion|Surf|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|55/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1757945327
+|switch|p2a: Iron Treads|Iron Treads, shiny|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1757945335
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Iron Treads|Earthquake|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|58/100
+|
+|upkeep
+|turn|11
+|
+|t:|1757945340
+|move|p2a: Iron Treads|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|32/100
+|-enditem|p1a: Pecharunt|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Pecharunt|Parting Shot|p2a: Iron Treads
+|-unboost|p2a: Iron Treads|atk|1
+|-unboost|p2a: Iron Treads|spa|1
+|
+|t:|1757945343
+|switch|p1a: Quaquaval|Quaquaval, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|12
+|
+|t:|1757945349
+|move|p2a: Iron Treads|Rapid Spin|p1a: Quaquaval
+|-crit|p1a: Quaquaval
+|-damage|p1a: Quaquaval|73/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: dasraybzh|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Quaquaval|Aqua Step|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1757945360
+|switch|p2a: Pelipper|Pelipper, M, shiny|74/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|13
+|
+|t:|1757945364
+|-terastallize|p1a: Quaquaval|Water
+|move|p1a: Quaquaval|Aqua Step|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|4/100
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Pelipper|Hurricane|p1a: Quaquaval
+|-damage|p1a: Quaquaval|26/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1757945373
+|move|p1a: Quaquaval|Aqua Step|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Pelipper
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757945382
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|turn|15
+|
+|t:|1757945387
+|move|p1a: Quaquaval|Aqua Step|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Goodra
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|dasraybzh forfeited.
+|
+|win|moron tester
+|raw|moron tester's rating: 1484 &rarr; <strong>1503</strong><br />(+19 for winning)
+|raw|dasraybzh's rating: 1467 &rarr; <strong>1448</strong><br />(-19 for losing)
+|l|☆dasraybzh
+|player|p2|
+|l|☆moron tester
+|player|p1|

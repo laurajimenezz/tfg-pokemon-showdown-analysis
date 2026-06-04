@@ -1,0 +1,366 @@
+|j|☆Flaco666
+|j|‽sylasmn
+|t:|1779815868
+|gametype|singles
+|player|p1|Flaco666|giovanni|1166
+|player|p2|sylasmn|170|1109
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Salamence, M|
+|poke|p1|Ceruledge, M|
+|poke|p1|Scizor, M|
+|poke|p1|Great Tusk|
+|poke|p2|Primeape, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Sandslash, F|
+|poke|p2|Mismagius, F|
+|poke|p2|Scizor, F|
+|poke|p2|Lapras, M|
+|teampreview
+|c|☆Flaco666|...zzz...
+|
+|t:|1779815915
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Mastodon|Great Tusk, shiny|100/100
+|switch|p2a: Scizor|Scizor, F|100/100
+|-enditem|p1a: Mastodon|Booster Energy
+|-activate|p1a: Mastodon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Mastodon|protosynthesisatk
+|turn|1
+|
+|t:|1779815926
+|-end|p1a: Mastodon|Protosynthesis|[silent]
+|switch|p1a: EdgeLord|Ceruledge, M, shiny|100/100
+|move|p2a: Scizor|U-turn|p1a: EdgeLord
+|-resisted|p1a: EdgeLord
+|-damage|p1a: EdgeLord|79/100
+|-ability|p1a: EdgeLord|Weak Armor|boost
+|-unboost|p1a: EdgeLord|def|1
+|-boost|p1a: EdgeLord|spe|2
+|
+|t:|1779815943
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: EdgeLord|73/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1779815955
+|move|p1a: EdgeLord|Swords Dance|p1a: EdgeLord
+|-boost|p1a: EdgeLord|atk|2
+|move|p2a: Tyranitar|Knock Off|p1a: EdgeLord
+|-supereffective|p1a: EdgeLord
+|-damage|p1a: EdgeLord|0 fnt
+|-enditem|p1a: EdgeLord|Focus Sash|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1a: EdgeLord
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1779815961
+|switch|p1a: Bahamut|Salamence, M, shiny|100/100
+|turn|3
+|
+|t:|1779815964
+|move|p1a: Bahamut|Dragon Dance|p1a: Bahamut
+|-boost|p1a: Bahamut|atk|1
+|-boost|p1a: Bahamut|spe|1
+|move|p2a: Tyranitar|Ice Beam|p1a: Bahamut
+|-supereffective|p1a: Bahamut
+|-damage|p1a: Bahamut|2/100
+|-status|p1a: Bahamut|frz
+|-enditem|p1a: Bahamut|Lum Berry|[eat]
+|-curestatus|p1a: Bahamut|frz|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bahamut|0 fnt|[from] Sandstorm
+|faint|p1a: Bahamut
+|upkeep
+|
+|t:|1779815968
+|switch|p1a: Gundam|Iron Valiant|100/100
+|-enditem|p1a: Gundam|Booster Energy
+|-activate|p1a: Gundam|ability: Quark Drive|[fromitem]
+|-start|p1a: Gundam|quarkdrivespa
+|turn|4
+|
+|t:|1779815979
+|-terastallize|p2a: Tyranitar|Flying
+|move|p1a: Gundam|Moonblast|p2a: Tyranitar
+|-damage|p2a: Tyranitar|59/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Gundam
+|-sidestart|p1: Flaco666|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gundam|94/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|53/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1779815985
+|move|p1a: Gundam|Thunderbolt|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|2/100
+|-status|p2a: Tyranitar|par
+|move|p2a: Tyranitar|Stealth Rock||[still]
+|-fail|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gundam|88/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|0 fnt|[from] Sandstorm
+|faint|p2a: Tyranitar
+|upkeep
+|
+|t:|1779815998
+|switch|p2a: Sandslash|Sandslash, F|100/100
+|turn|6
+|
+|t:|1779816012
+|-end|p1a: Gundam|Quark Drive|[silent]
+|switch|p1a: Mastodon|Great Tusk, shiny|100/100
+|-damage|p1a: Mastodon|98/100|[from] Stealth Rock
+|move|p2a: Sandslash|Poison Jab|p1a: Mastodon
+|-resisted|p1a: Mastodon
+|-damage|p1a: Mastodon|91/100
+|-status|p1a: Mastodon|psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mastodon|78/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1779816019
+|move|p2a: Sandslash|Spikes|p1a: Mastodon
+|-sidestart|p1: Flaco666|Spikes
+|move|p1a: Mastodon|Rapid Spin|p2a: Sandslash
+|-damage|p2a: Sandslash|88/100
+|-boost|p1a: Mastodon|spe|1
+|-sideend|p1: Flaco666|Spikes|[from] move: Rapid Spin|[of] p1a: Mastodon
+|-sideend|p1: Flaco666|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Mastodon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Sandslash|94/100|[from] item: Leftovers
+|-damage|p1a: Mastodon|66/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1779816023
+|move|p2a: Sandslash|Knock Off|p1a: Mastodon
+|-resisted|p1a: Mastodon
+|-damage|p1a: Mastodon|61/100 psn
+|move|p1a: Mastodon|Ice Spinner|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|52/100
+|
+|-weather|none
+|-heal|p2a: Sandslash|58/100|[from] item: Leftovers
+|-damage|p1a: Mastodon|48/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1779816033
+|switch|p2a: Mismagius|Mismagius, F|100/100
+|move|p1a: Mastodon|Ice Spinner|p2a: Mismagius
+|-damage|p2a: Mismagius|55/100
+|
+|-heal|p2a: Mismagius|62/100|[from] item: Leftovers
+|-damage|p1a: Mastodon|36/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1779816043
+|move|p1a: Mastodon|Earthquake|p2a: Mismagius
+|-immune|p2a: Mismagius|[from] ability: Levitate
+|move|p2a: Mismagius|Draining Kiss|p1a: Mastodon
+|-supereffective|p1a: Mastodon
+|-damage|p1a: Mastodon|6/100 psn
+|-heal|p2a: Mismagius|88/100|[from] drain|[of] p1a: Mastodon
+|
+|-heal|p2a: Mismagius|94/100|[from] item: Leftovers
+|-damage|p1a: Mastodon|0 fnt|[from] psn
+|faint|p1a: Mastodon
+|-end|p1a: Mastodon|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1779816049
+|switch|p1a: Kuriboh|Grimmsnarl, M|100/100
+|turn|11
+|
+|t:|1779816057
+|move|p1a: Kuriboh|Thunder Wave|p2a: Mismagius
+|-status|p2a: Mismagius|par
+|move|p2a: Mismagius|Thunder Wave|p1a: Kuriboh
+|-status|p1a: Kuriboh|par
+|
+|-heal|p2a: Mismagius|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779816065
+|move|p1a: Kuriboh|Sucker Punch||[still]
+|-fail|p1a: Kuriboh
+|cant|p2a: Mismagius|par
+|
+|upkeep
+|turn|13
+|
+|t:|1779816069
+|move|p1a: Kuriboh|Parting Shot|p2a: Mismagius
+|-unboost|p2a: Mismagius|atk|1
+|-unboost|p2a: Mismagius|spa|1
+|
+|t:|1779816072
+|switch|p1a: Rizor|Scizor, M|100/100|[from] Parting Shot
+|cant|p2a: Mismagius|par
+|
+|upkeep
+|turn|14
+|
+|t:|1779816080
+|move|p1a: Rizor|Swords Dance|p1a: Rizor
+|-boost|p1a: Rizor|atk|2
+|cant|p2a: Mismagius|par
+|
+|upkeep
+|turn|15
+|
+|t:|1779816086
+|move|p1a: Rizor|Bullet Punch|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|
+|upkeep
+|
+|t:|1779816098
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|16
+|
+|t:|1779816106
+|move|p2a: Scizor|Close Combat|p1a: Rizor
+|-damage|p1a: Rizor|36/100
+|-unboost|p2a: Scizor|def|1
+|-unboost|p2a: Scizor|spd|1
+|-damage|p2a: Scizor|84/100|[from] item: Rocky Helmet|[of] p1a: Rizor
+|move|p1a: Rizor|Close Combat|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-unboost|p1a: Rizor|def|1
+|-unboost|p1a: Rizor|spd|1
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1779816116
+|switch|p2a: Primeape|Primeape, M|100/100
+|turn|17
+|
+|t:|1779816127
+|move|p1a: Rizor|Bullet Punch|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|upkeep
+|
+|t:|1779816132
+|switch|p2a: Sandslash|Sandslash, F|58/100
+|turn|18
+|
+|t:|1779816135
+|move|p1a: Rizor|Bullet Punch|p2a: Sandslash
+|-damage|p2a: Sandslash|12/100
+|move|p2a: Sandslash|Knock Off|p1a: Rizor
+|-damage|p1a: Rizor|4/100
+|-damage|p2a: Sandslash|0 fnt|[from] item: Rocky Helmet|[of] p1a: Rizor
+|faint|p2a: Sandslash
+|
+|upkeep
+|
+|t:|1779816141
+|switch|p2a: Lapras|Lapras, M|100/100
+|turn|19
+|
+|t:|1779816143
+|move|p1a: Rizor|Bullet Punch|p2a: Lapras
+|-damage|p2a: Lapras|47/100
+|move|p2a: Lapras|Alluring Voice|p1a: Rizor
+|-resisted|p1a: Rizor
+|-damage|p1a: Rizor|0 fnt
+|faint|p1a: Rizor
+|
+|upkeep
+|
+|t:|1779816146
+|switch|p1a: Kuriboh|Grimmsnarl, M|100/100 par
+|turn|20
+|
+|t:|1779816150
+|move|p1a: Kuriboh|Thunder Wave|p2a: Lapras
+|-status|p2a: Lapras|par
+|move|p2a: Lapras|Alluring Voice|p1a: Kuriboh
+|-supereffective|p1a: Kuriboh
+|-damage|p1a: Kuriboh|51/100 par
+|
+|-heal|p1a: Kuriboh|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆Flaco666|gg
+|
+|t:|1779816156
+|cant|p1a: Kuriboh|par
+|cant|p2a: Lapras|par
+|
+|-heal|p1a: Kuriboh|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1779816159
+|move|p1a: Kuriboh|Sucker Punch|p2a: Lapras
+|-damage|p2a: Lapras|17/100 par
+|cant|p2a: Lapras|par
+|
+|-heal|p1a: Kuriboh|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1779816166
+|move|p1a: Kuriboh|Parting Shot|p2a: Lapras
+|-unboost|p2a: Lapras|atk|1
+|-unboost|p2a: Lapras|spa|1
+|
+|t:|1779816168
+|switch|p1a: Gundam|Iron Valiant|88/100|[from] Parting Shot
+|move|p2a: Lapras|Alluring Voice|p1a: Gundam
+|-supereffective|p1a: Gundam
+|-damage|p1a: Gundam|29/100
+|
+|upkeep
+|turn|24
+|
+|t:|1779816174
+|move|p1a: Gundam|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|win|Flaco666
+|raw|Flaco666's rating: 1166 &rarr; <strong>1187</strong><br />(+21 for winning)
+|raw|sylasmn's rating: 1109 &rarr; <strong>1088</strong><br />(-21 for losing)
+|l|‽sylasmn
+|player|p2|
+|l|☆Flaco666
+|player|p1|

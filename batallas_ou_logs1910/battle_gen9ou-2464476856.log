@@ -1,0 +1,313 @@
+|j|☆Heat_wave_miss.exe
+|j|☆JapYap
+|t:|1760854702
+|gametype|singles
+|player|p1|Heat_wave_miss.exe|ghetsis|1144
+|player|p2|JapYap|169|1121
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Kingambit, F|
+|poke|p1|Ceruledge, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Kyurem|
+|poke|p1|Rotom-Wash|
+|poke|p2|Sceptile, F|
+|poke|p2|Charizard, M|
+|poke|p2|Dragalge, F|
+|poke|p2|Weezing, F|
+|poke|p2|Tatsugiri-Droopy, F|
+|poke|p2|Primarina, F|
+|teampreview
+|
+|t:|1760854720
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|1
+|
+|t:|1760854736
+|switch|p2a: Sceptile|Sceptile, F|100/100
+|move|p1a: Rotom|Thunder Wave|p2a: Sceptile
+|-status|p2a: Sceptile|par
+|
+|upkeep
+|turn|2
+|
+|t:|1760854742
+|move|p1a: Rotom|Volt Switch|p2a: Sceptile
+|-resisted|p2a: Sceptile
+|-damage|p2a: Sceptile|81/100 par
+|
+|t:|1760854757
+|switch|p1a: Ceruledge|Ceruledge, M|100/100|[from] Volt Switch
+|move|p2a: Sceptile|Leech Seed|p1a: Ceruledge
+|-start|p1a: Ceruledge|move: Leech Seed
+|
+|-damage|p1a: Ceruledge|88/100|[from] Leech Seed|[of] p2a: Sceptile
+|-heal|p2a: Sceptile|92/100 par|[silent]
+|upkeep
+|turn|3
+|
+|t:|1760854766
+|switch|p2a: Weezing|Weezing, F|100/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Weezing
+|-damage|p2a: Weezing|70/100
+|-heal|p1a: Ceruledge|100/100|[from] drain|[of] p2a: Weezing
+|
+|-damage|p1a: Ceruledge|88/100|[from] Leech Seed|[of] p2a: Weezing
+|-heal|p2a: Weezing|81/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1760854774
+|move|p1a: Ceruledge|Poltergeist|p2a: Weezing
+|-activate|p2a: Weezing|move: Poltergeist|Heavy-Duty Boots
+|-damage|p2a: Weezing|47/100
+|move|p2a: Weezing|Toxic|p1a: Ceruledge
+|-status|p1a: Ceruledge|tox
+|
+|-damage|p1a: Ceruledge|76/100 tox|[from] Leech Seed|[of] p2a: Weezing
+|-heal|p2a: Weezing|57/100|[silent]
+|-damage|p1a: Ceruledge|70/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1760854787
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Weezing|Pain Split|p1a: Hoopa
+|-sethp|p1a: Hoopa|82/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|74/100|[from] move: Pain Split
+|
+|upkeep
+|turn|6
+|
+|t:|1760854810
+|switch|p2a: Primarina|Primarina, F|100/100
+|move|p1a: Hoopa|Thunder Punch|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|6/100
+|
+|upkeep
+|turn|7
+|
+|t:|1760854818
+|switch|p2a: Sceptile|Sceptile, F|92/100 par
+|move|p1a: Hoopa|Thunder Punch|p2a: Sceptile
+|-resisted|p2a: Sceptile
+|-damage|p2a: Sceptile|60/100 par
+|
+|upkeep
+|turn|8
+|
+|t:|1760854825
+|switch|p1a: Ceruledge|Ceruledge, M|70/100 tox
+|move|p2a: Sceptile|Leech Seed|p1a: Ceruledge
+|-start|p1a: Ceruledge|move: Leech Seed
+|
+|-damage|p1a: Ceruledge|57/100 tox|[from] Leech Seed|[of] p2a: Sceptile
+|-heal|p2a: Sceptile|70/100 par|[silent]
+|-damage|p1a: Ceruledge|51/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1760854839
+|switch|p2a: Weezing|Weezing, F|74/100
+|move|p1a: Ceruledge|Poltergeist|p2a: Weezing
+|-activate|p2a: Weezing|move: Poltergeist|Heavy-Duty Boots
+|-damage|p2a: Weezing|35/100
+|
+|-damage|p1a: Ceruledge|39/100 tox|[from] Leech Seed|[of] p2a: Weezing
+|-heal|p2a: Weezing|46/100|[silent]
+|-damage|p1a: Ceruledge|26/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1760854858
+|switch|p2a: Primarina|Primarina, F|6/100
+|move|p1a: Ceruledge|Poltergeist|p2a: Primarina
+|-activate|p2a: Primarina|move: Poltergeist|Assault Vest
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-damage|p1a: Ceruledge|8/100 tox|[from] psn
+|upkeep
+|
+|t:|1760854869
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|11
+|
+|t:|1760854875
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Charizard
+|-damage|p2a: Charizard|69/100
+|move|p2a: Charizard|Scorching Sands|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|upkeep
+|
+|t:|1760854884
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|12
+|
+|t:|1760854889
+|move|p2a: Charizard|Scorching Sands|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|move|p1a: Rotom|Volt Switch|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|t:|1760854898
+|switch|p1a: Kyurem|Kyurem|100/100|[from] Volt Switch
+|-ability|p1a: Kyurem|Pressure
+|
+|upkeep
+|
+|t:|1760854906
+|switch|p2a: Weezing|Weezing, F|46/100
+|turn|13
+|
+|t:|1760854912
+|move|p1a: Kyurem|Freeze-Dry|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|upkeep
+|
+|t:|1760854915
+|switch|p2a: Dragalge|Dragalge, F|100/100
+|turn|14
+|
+|t:|1760854932
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Dragalge|Draco Meteor|p1a: Rotom
+|-damage|p1a: Rotom|13/100
+|-unboost|p2a: Dragalge|spa|2
+|
+|upkeep
+|turn|15
+|
+|t:|1760854938
+|move|p1a: Rotom|Thunder Wave|p2a: Dragalge
+|-status|p2a: Dragalge|par
+|move|p2a: Dragalge|Sludge Bomb|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1760854946
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|16
+|
+|t:|1760854949
+|move|p1a: Kyurem|Freeze-Dry|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-crit|p2a: Dragalge
+|-damage|p2a: Dragalge|41/100 par
+|move|p2a: Dragalge|Draco Meteor|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|36/100
+|-unboost|p2a: Dragalge|spa|2
+|
+|upkeep
+|turn|17
+|
+|t:|1760854958
+|move|p1a: Kyurem|Freeze-Dry|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|1/100 par
+|cant|p2a: Dragalge|par
+|
+|upkeep
+|turn|18
+|
+|t:|1760854963
+|move|p1a: Kyurem|Freeze-Dry|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|faint|p2a: Dragalge
+|
+|upkeep
+|
+|t:|1760854965
+|switch|p2a: Tatsugiri|Tatsugiri-Droopy, F|100/100
+|turn|19
+|
+|t:|1760854970
+|-terastallize|p2a: Tatsugiri|Fairy
+|move|p1a: Kyurem|Freeze-Dry|p2a: Tatsugiri
+|-damage|p2a: Tatsugiri|53/100
+|move|p2a: Tatsugiri|Rapid Spin|p1a: Kyurem
+|-damage|p1a: Kyurem|30/100
+|-boost|p2a: Tatsugiri|spe|1
+|
+|upkeep
+|turn|20
+|
+|t:|1760854979
+|move|p1a: Kyurem|Freeze-Dry|p2a: Tatsugiri
+|-damage|p2a: Tatsugiri|4/100
+|move|p2a: Tatsugiri|Hydro Pump|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|7/100
+|
+|upkeep
+|turn|21
+|
+|t:|1760854985
+|move|p1a: Kyurem|Freeze-Dry|p2a: Tatsugiri
+|-damage|p2a: Tatsugiri|0 fnt
+|faint|p2a: Tatsugiri
+|
+|upkeep
+|
+|t:|1760854987
+|switch|p2a: Sceptile|Sceptile, F|70/100 par
+|turn|22
+|
+|t:|1760854989
+|move|p2a: Sceptile|Vacuum Wave|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1760854993
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|23
+|
+|t:|1760854995
+|move|p2a: Sceptile|Vacuum Wave|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|36/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|-damage|p1a: Kingambit|26/100|[from] item: Life Orb
+|
+|win|Heat_wave_miss.exe
+|raw|Heat_wave_miss.exe's rating: 1144 &rarr; <strong>1167</strong><br />(+23 for winning)
+|raw|JapYap's rating: 1121 &rarr; <strong>1098</strong><br />(-23 for losing)
+|l|☆JapYap
+|player|p2|
+|l|☆Heat_wave_miss.exe
+|player|p1|

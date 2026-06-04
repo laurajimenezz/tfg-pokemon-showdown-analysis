@@ -1,0 +1,231 @@
+|j|☆firecharmander004
+|j|☆aws 10
+|t:|1758976691
+|gametype|singles
+|player|p1|firecharmander004|101|1441
+|player|p2|aws 10|101|1497
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Iron Valiant|
+|poke|p2|Ting-Lu|
+|poke|p2|Darkrai|
+|poke|p2|Corviknight, M|
+|poke|p2|Fezandipiti, M|
+|poke|p2|Pecharunt|
+|poke|p2|Latios, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by firecharmander004)
+|
+|t:|1758976709
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Yagami|Darkrai, shiny|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1758976734
+|move|p1a: Iron Treads|Stealth Rock|p2a: Yagami
+|-sidestart|p2: aws 10|move: Stealth Rock
+|move|p2a: Yagami|Dark Pulse|p1a: Iron Treads
+|-damage|p1a: Iron Treads|35/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758976742
+|move|p1a: Iron Treads|Steel Beam|p2a: Yagami
+|-damage|p2a: Yagami|22/100
+|-damage|p1a: Iron Treads|0 fnt|[from] steelbeam
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|move|p2a: Yagami|Dark Pulse|p1: Iron Treads|[notarget]
+|-fail|p2a: Yagami
+|
+|upkeep
+|
+|t:|1758976749
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|3
+|
+|t:|1758976765
+|switch|p2a: Goliath|Ting-Lu|100/100
+|-damage|p2a: Goliath|94/100|[from] Stealth Rock
+|-ability|p2a: Goliath|Vessel of Ruin
+|move|p1a: Dragapult|U-turn|p2a: Goliath
+|-supereffective|p2a: Goliath
+|-damage|p2a: Goliath|75/100
+|
+|t:|1758976774
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|
+|-heal|p2a: Goliath|81/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1758976786
+|switch|p2a: Yami|Corviknight, M, shiny|100/100
+|-damage|p2a: Yami|88/100|[from] Stealth Rock
+|-ability|p2a: Yami|Pressure
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1758976813
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Yami|Roost|p2a: Yami
+|-heal|p2a: Yami|100/100
+|-singleturn|p2a: Yami|move: Roost
+|
+|upkeep
+|turn|6
+|
+|t:|1758976822
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Yami|[anim] Ivy Cudgel Water
+|-damage|p2a: Yami|0 fnt
+|faint|p2a: Yami
+|
+|upkeep
+|
+|t:|1758976827
+|switch|p2a: Overseer|Pecharunt|100/100
+|turn|7
+|
+|t:|1758976829
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Overseer|[anim] Ivy Cudgel Water
+|-damage|p2a: Overseer|0 fnt
+|faint|p2a: Overseer
+|
+|upkeep
+|
+|t:|1758976833
+|switch|p2a: Yagami|Darkrai, shiny|22/100
+|turn|8
+|
+|t:|1758976836
+|move|p2a: Yagami|Dark Pulse|p1a: Ogerpon
+|-damage|p1a: Ogerpon|66/100
+|cant|p1a: Ogerpon|flinch
+|
+|upkeep
+|turn|9
+|
+|t:|1758976841
+|move|p2a: Yagami|Dark Pulse|p1a: Ogerpon
+|-damage|p1a: Ogerpon|34/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Yagami|[anim] Ivy Cudgel Water
+|-crit|p2a: Yagami
+|-damage|p2a: Yagami|0 fnt
+|faint|p2a: Yagami
+|
+|upkeep
+|
+|t:|1758976847
+|switch|p2a: Avalon|Latios, M, shiny|100/100
+|-damage|p2a: Avalon|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1758976849
+|move|p2a: Avalon|Dragon Pulse|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|upkeep
+|
+|t:|1758976864
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|11
+|
+|t:|1758976871
+|switch|p2a: Goliath|Ting-Lu|81/100
+|-damage|p2a: Goliath|75/100|[from] Stealth Rock
+|-ability|p2a: Goliath|Vessel of Ruin
+|move|p1a: Iron Valiant|Knock Off|p2a: Goliath
+|-resisted|p2a: Goliath
+|-damage|p2a: Goliath|66/100
+|-enditem|p2a: Goliath|Leftovers|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|upkeep
+|turn|12
+|
+|t:|1758976876
+|move|p1a: Iron Valiant|Moonblast|p2a: Goliath
+|-supereffective|p2a: Goliath
+|-damage|p2a: Goliath|27/100
+|-unboost|p2a: Goliath|spa|1
+|move|p2a: Goliath|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|57/100
+|
+|upkeep
+|turn|13
+|
+|t:|1758976882
+|switch|p2a: Cosmic Owl|Fezandipiti, M|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Cosmic Owl
+|-resisted|p2a: Cosmic Owl
+|-damage|p2a: Cosmic Owl|86/100
+|
+|upkeep
+|turn|14
+|
+|t:|1758976886
+|move|p1a: Iron Valiant|Knock Off|p2a: Cosmic Owl
+|-resisted|p2a: Cosmic Owl
+|-damage|p2a: Cosmic Owl|72/100
+|-enditem|p2a: Cosmic Owl|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Cosmic Owl|Calm Mind|p2a: Cosmic Owl
+|-boost|p2a: Cosmic Owl|spa|1
+|-boost|p2a: Cosmic Owl|spd|1
+|
+|upkeep
+|turn|15
+|
+|t:|1758976893
+|move|p1a: Iron Valiant|Encore|p2a: Cosmic Owl
+|-start|p2a: Cosmic Owl|Encore
+|move|p2a: Cosmic Owl|Calm Mind|p2a: Cosmic Owl
+|-boost|p2a: Cosmic Owl|spa|1
+|-boost|p2a: Cosmic Owl|spd|1
+|
+|upkeep
+|turn|16
+|-message|aws 10 forfeited.
+|
+|win|firecharmander004
+|raw|firecharmander004's rating: 1441 &rarr; <strong>1464</strong><br />(+23 for winning)
+|raw|aws 10's rating: 1497 &rarr; <strong>1474</strong><br />(-23 for losing)
+|l|☆aws 10
+|player|p2|
+|j|☆aws 10
+|player|p2|aws 10|101|
+|l|☆aws 10
+|player|p2|

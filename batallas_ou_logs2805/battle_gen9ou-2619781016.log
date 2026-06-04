@@ -1,0 +1,156 @@
+|j|☆excadrill-1800
+|j|☆24iomxx
+|t:|1779963202
+|gametype|singles
+|player|p1|excadrill-1800|hilbert|1239
+|player|p2|24iomxx|hilbert-masters|1265
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Excadrill, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Sinistcha|
+|poke|p1|Hydreigon, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Corviknight, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Galvantula, M|
+|poke|p2|Chandelure, F|
+|poke|p2|Amoonguss, F|
+|poke|p2|Braviary, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by excadrill-1800)
+|inactive|excadrill-1800 has 120 seconds left.
+|
+|t:|1779963261
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|turn|1
+|
+|t:|1779963267
+|move|p2a: Galvantula|Sticky Web|p1a: Rotom
+|-sidestart|p1: excadrill-1800|move: Sticky Web
+|move|p1a: Rotom|Will-O-Wisp|p2a: Galvantula
+|-status|p2a: Galvantula|brn
+|
+|-damage|p2a: Galvantula|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1779963271
+|move|p2a: Galvantula|Thunder|p1a: Rotom
+|-damage|p1a: Rotom|50/100
+|move|p1a: Rotom|Hydro Pump|p2a: Galvantula
+|-damage|p2a: Galvantula|25/100 brn
+|
+|-heal|p1a: Rotom|56/100|[from] item: Leftovers
+|-damage|p2a: Galvantula|19/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1779963285
+|move|p2a: Galvantula|Thunder|p1a: Rotom
+|-damage|p1a: Rotom|2/100
+|move|p1a: Rotom|Volt Switch|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|t:|1779963292
+|switch|p1a: Corviknight|Corviknight, F, shiny|100/100|[from] Volt Switch
+|-ability|p1a: Corviknight|Pressure
+|
+|upkeep
+|
+|t:|1779963296
+|switch|p2a: Braviary|Braviary, M|100/100
+|turn|4
+|
+|t:|1779963309
+|move|p2a: Braviary|Agility|p2a: Braviary
+|-boost|p2a: Braviary|spe|2
+|move|p1a: Corviknight|Defog|p2a: Braviary
+|-unboost|p2a: Braviary|evasion|1
+|-ability|p2a: Braviary|Defiant|boost
+|-boost|p2a: Braviary|atk|2
+|-sideend|p1: excadrill-1800|Sticky Web|[from] move: Defog|[of] p1a: Corviknight
+|
+|upkeep
+|turn|5
+|
+|t:|1779963324
+|move|p2a: Braviary|Sky Attack||[still]
+|-prepare|p2a: Braviary|Sky Attack
+|-enditem|p2a: Braviary|Power Herb
+|-anim|p2a: Braviary|Sky Attack|p1a: Corviknight|[miss]
+|-miss|p2a: Braviary|p1a: Corviknight
+|move|p1a: Corviknight|U-turn|p2a: Braviary
+|-resisted|p2a: Braviary
+|-damage|p2a: Braviary|91/100
+|
+|t:|1779963333
+|switch|p1a: Tyranitar|Tyranitar, F|100/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Braviary|84/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1779963346
+|-terastallize|p1a: Tyranitar|Flying
+|move|p2a: Braviary|Close Combat|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|65/100
+|-unboost|p2a: Braviary|def|1
+|-unboost|p2a: Braviary|spd|1
+|move|p1a: Tyranitar|Rock Blast|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|43/100
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|-hitcount|p2: Braviary|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|59/100|[from] Sandstorm
+|upkeep
+|
+|t:|1779963355
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|turn|7
+|
+|t:|1779963363
+|move|p2a: Chandelure|Fire Blast|p1a: Tyranitar
+|-damage|p1a: Tyranitar|18/100
+|move|p1a: Tyranitar|Crunch|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chandelure|0 fnt|[from] Sandstorm
+|-damage|p1a: Tyranitar|12/100|[from] Sandstorm
+|faint|p2a: Chandelure
+|upkeep
+|-message|24iomxx forfeited.
+|
+|win|excadrill-1800
+|raw|excadrill-1800's rating: 1239 &rarr; <strong>1266</strong><br />(+27 for winning)
+|raw|24iomxx's rating: 1265 &rarr; <strong>1238</strong><br />(-27 for losing)
+|l|☆24iomxx
+|player|p2|
+|l|☆excadrill-1800
+|player|p1|

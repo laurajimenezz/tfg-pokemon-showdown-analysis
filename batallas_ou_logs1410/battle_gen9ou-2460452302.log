@@ -1,0 +1,390 @@
+|j|☆PaintexDeluxe
+|j|☆Buhf Luxray
+|t:|1760308337
+|gametype|singles
+|player|p1|PaintexDeluxe|roxie|1374
+|player|p2|Buhf Luxray|policeman-gen4|1309
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Cobalion|
+|poke|p1|Moltres|
+|poke|p1|Grafaiai, M|
+|poke|p1|Darkrai|
+|poke|p2|Luxray, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Kyurem|
+|poke|p2|Clefable, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|t:|1760308360
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Moltres|Moltres|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|1
+|
+|t:|1760308375
+|move|p2a: Iron Moth|Meteor Beam||[still]
+|-prepare|p2a: Iron Moth|Meteor Beam
+|-boost|p2a: Iron Moth|spa|1
+|-enditem|p2a: Iron Moth|Power Herb
+|-anim|p2a: Iron Moth|Meteor Beam|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1760308387
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|2
+|
+|t:|1760308406
+|move|p1a: Darkrai|Dark Pulse|p2a: Iron Moth
+|-damage|p2a: Iron Moth|56/100
+|move|p2a: Iron Moth|Agility|p2a: Iron Moth
+|-boost|p2a: Iron Moth|spe|2
+|
+|upkeep
+|turn|3
+|
+|t:|1760308413
+|move|p2a: Iron Moth|Fiery Dance|p1a: Darkrai
+|-damage|p1a: Darkrai|16/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Darkrai|Dark Pulse|p2a: Iron Moth
+|-damage|p2a: Iron Moth|11/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760308419
+|move|p2a: Iron Moth|Fiery Dance|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+|
+|t:|1760308421
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|5
+|
+|t:|1760308428
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|91/100
+|-damage|p1a: Rillaboom|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-heal|p1a: Rillaboom|90/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1760308440
+|switch|p1a: Cobalion|Cobalion|100/100
+|move|p2a: Corviknight|U-turn|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|98/100
+|
+|t:|1760308445
+|switch|p2a: Luxray|Luxray, M, shiny|100/100|[from] U-turn
+|-ability|p2a: Luxray|Intimidate|boost
+|-unboost|p1a: Cobalion|atk|1
+|
+|-heal|p1a: Cobalion|100/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1760308450
+|move|p1a: Cobalion|Stealth Rock|p2a: Luxray
+|-sidestart|p2: Buhf Luxray|move: Stealth Rock
+|move|p2a: Luxray|Thunder Wave|p1a: Cobalion
+|-status|p1a: Cobalion|par
+|
+|upkeep
+|turn|8
+|
+|t:|1760308456
+|move|p2a: Luxray|Volt Switch|p1a: Cobalion
+|-damage|p1a: Cobalion|71/100 par
+|
+|t:|1760308460
+|switch|p2a: Corviknight|Corviknight, M, shiny|91/100|[from] Volt Switch
+|-damage|p2a: Corviknight|79/100|[from] Stealth Rock
+|cant|p1a: Cobalion|par
+|
+|-heal|p1a: Cobalion|78/100 par|[from] Grassy Terrain
+|-heal|p1a: Cobalion|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760308466
+|move|p1a: Cobalion|Stealth Rock||[still]
+|-fail|p1a: Cobalion
+|move|p2a: Corviknight|Defog|p1a: Cobalion
+|-unboost|p1a: Cobalion|evasion|1
+|-sideend|p2: Buhf Luxray|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-fieldend|move: Grassy Terrain
+|
+|-heal|p1a: Cobalion|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760308483
+|cant|p1a: Cobalion|par
+|move|p2a: Corviknight|Brave Bird|p1a: Cobalion
+|-damage|p1a: Cobalion|66/100 par
+|-damage|p2a: Corviknight|72/100|[from] Recoil
+|
+|-heal|p1a: Cobalion|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760308486
+|move|p1a: Cobalion|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Buhf Luxray|move: Stealth Rock
+|move|p2a: Corviknight|U-turn|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|69/100 par
+|
+|t:|1760308492
+|switch|p2a: Clefable|Clefable, M|100/100|[from] U-turn
+|
+|-heal|p1a: Cobalion|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1760308497
+|move|p1a: Cobalion|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|65/100
+|move|p2a: Clefable|Flamethrower|p1a: Cobalion
+|-supereffective|p1a: Cobalion
+|-damage|p1a: Cobalion|16/100 par
+|
+|-heal|p1a: Cobalion|22/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|72/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760308504
+|move|p1a: Cobalion|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|61/100
+|
+|t:|1760308508
+|switch|p1a: Grafaiai|Grafaiai, M|100/100|[from] Volt Switch
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p2a: Clefable|67/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1760308517
+|move|p1a: Grafaiai|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|53/100
+|-enditem|p2a: Clefable|Leftovers|[from] move: Knock Off|[of] p1a: Grafaiai
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|upkeep
+|turn|15
+|
+|t:|1760308523
+|move|p1a: Grafaiai|Gunk Shot|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|t:|1760308542
+|switch|p2a: Luxray|Luxray, M, shiny|100/100
+|-damage|p2a: Luxray|88/100|[from] Stealth Rock
+|-ability|p2a: Luxray|Intimidate|boost
+|-unboost|p1a: Grafaiai|atk|1
+|turn|16
+|
+|t:|1760308555
+|switch|p1a: Rillaboom|Rillaboom, M|90/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Luxray|Thunder Wave|p1a: Rillaboom
+|-status|p1a: Rillaboom|par
+|
+|-heal|p2a: Luxray|94/100|[from] Grassy Terrain
+|-heal|p2a: Luxray|99/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|96/100 par|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1760308564
+|move|p2a: Luxray|Ice Fang|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|58/100 par
+|move|p1a: Rillaboom|U-turn|p2a: Luxray
+|-damage|p2a: Luxray|70/100
+|
+|t:|1760308569
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|-enditem|p1a: Hatterene|Grassy Seed
+|-boost|p1a: Hatterene|def|1|[from] item: Grassy Seed
+|
+|-heal|p2a: Luxray|76/100|[from] Grassy Terrain
+|-heal|p2a: Luxray|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1760308576
+|move|p2a: Luxray|Volt Switch|p1a: Hatterene
+|-damage|p1a: Hatterene|80/100
+|
+|t:|1760308583
+|switch|p2a: Corviknight|Corviknight, M, shiny|72/100|[from] Volt Switch
+|-damage|p2a: Corviknight|60/100|[from] Stealth Rock
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|86/100|[from] Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1760308592
+|move|p2a: Corviknight|Defog|p1a: Hatterene
+|move|p1a: Hatterene|Defog|p2a: Corviknight|[from] ability: Magic Bounce
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Hatterene|evasion|1
+|-sideend|p2: Buhf Luxray|Stealth Rock|[from] move: Defog|[of] p1a: Hatterene
+|-fieldend|move: Grassy Terrain
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|upkeep
+|turn|20
+|
+|t:|1760308606
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|21
+|
+|t:|1760308616
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|move|p2a: Corviknight|Brave Bird|p1a: Hatterene
+|-damage|p1a: Hatterene|58/100
+|-damage|p2a: Corviknight|93/100|[from] Recoil
+|
+|upkeep
+|turn|22
+|
+|t:|1760308627
+|move|p1a: Hatterene|Draining Kiss|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|61/100
+|-heal|p1a: Hatterene|88/100|[from] drain|[of] p2a: Corviknight
+|-damage|p1a: Hatterene|71/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Hatterene
+|-damage|p1a: Hatterene|44/100
+|-damage|p2a: Corviknight|54/100|[from] Recoil
+|
+|upkeep
+|turn|23
+|
+|t:|1760308637
+|move|p1a: Hatterene|Stored Power|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1760308645
+|switch|p2a: Iron Moth|Iron Moth|11/100
+|turn|24
+|
+|t:|1760308650
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Meowscarada
+|faint|p2a: Meowscarada
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760308667
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|25
+|
+|t:|1760308674
+|-terastallize|p2a: Kyurem|Fire
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|move|p1a: Hatterene|Draining Kiss|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-damage|p2a: Kyurem|52/100
+|
+|upkeep
+|turn|26
+|
+|t:|1760308690
+|move|p2a: Kyurem|Icicle Spear|p1a: Hatterene
+|-damage|p1a: Hatterene|83/100
+|-damage|p1a: Hatterene|65/100
+|-damage|p1a: Hatterene|47/100
+|-damage|p1a: Hatterene|31/100
+|-damage|p1a: Hatterene|14/100
+|-hitcount|p1a: Hatterene|5
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|27
+|
+|t:|1760308707
+|move|p1a: Hatterene|Stored Power|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|-message|Buhf Luxray forfeited.
+|
+|win|PaintexDeluxe
+|raw|PaintexDeluxe's rating: 1374 &rarr; <strong>1390</strong><br />(+16 for winning)
+|raw|Buhf Luxray's rating: 1309 &rarr; <strong>1293</strong><br />(-16 for losing)
+|l|☆Buhf Luxray
+|player|p2|
+|l|☆PaintexDeluxe
+|player|p1|

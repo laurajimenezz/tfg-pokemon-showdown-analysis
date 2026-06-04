@@ -1,0 +1,378 @@
+|j|☆3gris
+|j|☆egstolfo
+|t:|1758997876
+|gametype|singles
+|player|p1|3gris|scientist-gen4dp|1220
+|player|p2|egstolfo|valerie|1178
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Great Tusk|
+|poke|p1|Raging Bolt|
+|poke|p1|Primarina, M|
+|poke|p1|Araquanid, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Gholdengo|
+|poke|p2|Gliscor, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1758997904
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|1
+|
+|t:|1758997907
+|move|p1a: Iron Valiant|Trick|p2a: Corviknight
+|-activate|p1a: Iron Valiant|move: Trick|[of] p2a: Corviknight
+|-item|p2a: Corviknight|Choice Specs|[from] move: Trick
+|-item|p1a: Iron Valiant|Leftovers|[from] move: Trick
+|move|p2a: Corviknight|Brave Bird|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|9/100
+|-damage|p2a: Corviknight|79/100|[from] Recoil
+|
+|-heal|p1a: Iron Valiant|15/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1758997918
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Corviknight|Brave Bird|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|83/100
+|-damage|p2a: Corviknight|73/100|[from] Recoil
+|
+|upkeep
+|turn|3
+|
+|t:|1758997926
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1758997936
+|-terastallize|p2a: Gliscor|Steel
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|62/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|23/100
+|
+|-heal|p2a: Gliscor|74/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1758998015
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|86/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1758998029
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|85/100
+|
+|-heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1758998043
+|switch|p2a: Corviknight|Corviknight, F|73/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Araquanid|Sticky Web|p2a: Corviknight
+|-sidestart|p2: egstolfo|move: Sticky Web
+|
+|upkeep
+|turn|8
+|
+|t:|1758998059
+|move|p2a: Corviknight|Defog|p1a: Araquanid
+|-unboost|p1a: Araquanid|evasion|1
+|-sideend|p2: egstolfo|Sticky Web|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Araquanid|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|23/100
+|
+|upkeep
+|turn|9
+|
+|t:|1758998077
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Araquanid|Surf|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|74/100
+|
+|upkeep
+|turn|10
+|
+|t:|1758998089
+|move|p1a: Araquanid|Endure|p1a: Araquanid
+|-singleturn|p1a: Araquanid|move: Endure
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Araquanid
+|-damage|p1a: Araquanid|16/100
+|-unboost|p2a: Raging Bolt|spa|2
+|
+|upkeep
+|turn|11
+|-enditem|p1a: Araquanid|Custap Berry|[eat]
+|-activate|p1a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1758998100
+|move|p1a: Araquanid|Sticky Web|p2a: Raging Bolt
+|-sidestart|p2: egstolfo|move: Sticky Web
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1758998104
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|12
+|
+|t:|1758998114
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F|23/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Headlong Rush|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|13
+|
+|t:|1758998147
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|23/100
+|move|p2a: Corviknight|Defog|p1a: Raging Bolt
+|-unboost|p1a: Raging Bolt|evasion|1
+|-sideend|p2: egstolfo|Sticky Web|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|14
+|
+|t:|1758998168
+|switch|p2a: Raging Bolt|Raging Bolt|74/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|15
+|
+|t:|1758998179
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Iron Valiant|Iron Valiant|15/100
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Iron Valiant
+|-immune|p1a: Iron Valiant
+|
+|-heal|p1a: Iron Valiant|22/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758998199
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|upkeep
+|turn|17
+|
+|t:|1758998207
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F|23/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: egstolfo|move: Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|t:|1758998221
+|move|p1a: Great Tusk|Ice Spinner|p2a: Corviknight
+|-damage|p2a: Corviknight|4/100
+|move|p2a: Corviknight|Defog|p1a: Great Tusk
+|-unboost|p1a: Great Tusk|evasion|1
+|-sideend|p2: egstolfo|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|19
+|
+|t:|1758998233
+|move|p1a: Great Tusk|Ice Spinner|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1758998239
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|20
+|
+|t:|1758998264
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Primarina|Primarina, M|100/100
+|move|p2a: Ogerpon|Wood Hammer|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|-damage|p2a: Ogerpon|65/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1758998269
+|switch|p1a: Raging Bolt|Raging Bolt|23/100
+|turn|21
+|
+|t:|1758998278
+|switch|p2a: Raging Bolt|Raging Bolt|74/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|22
+|
+|t:|1758998283
+|-terastallize|p1a: Raging Bolt|Fairy
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758998288
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Raging Bolt|atk|1
+|turn|23
+|
+|t:|1758998295
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Landorus|Earthquake|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|24
+|
+|t:|1758998308
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|46/100
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|25
+|
+|t:|1758998315
+|move|p1a: Great Tusk|Ice Spinner|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|86/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758998317
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|turn|26
+|
+|t:|1758998351
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|65/100
+|move|p1a: Landorus|Earthquake|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|25/100
+|
+|upkeep
+|turn|27
+|
+|t:|1758998368
+|move|p1a: Landorus|Earthquake|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1758998374
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|28
+|
+|t:|1758998386
+|move|p2a: Iron Valiant|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|39/100
+|-unboost|p1a: Landorus|spa|1
+|move|p1a: Landorus|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|25/100
+|
+|upkeep
+|turn|29
+|
+|t:|1758998392
+|move|p2a: Iron Valiant|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1758998399
+|switch|p1a: Iron Valiant|Iron Valiant|22/100
+|turn|30
+|
+|t:|1758998422
+|move|p2a: Iron Valiant|Moonblast|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|win|egstolfo
+|raw|3gris's rating: 1220 &rarr; <strong>1192</strong><br />(-28 for losing)
+|raw|egstolfo's rating: 1178 &rarr; <strong>1206</strong><br />(+28 for winning)

@@ -1,0 +1,198 @@
+|j|☆test acc p
+|j|‽Flocking glock
+|t:|1757914607
+|gametype|singles
+|player|p1|test acc p|rocketgruntf|1455
+|player|p2|Flocking glock|266|1452
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Gholdengo|
+|poke|p1|Enamorus, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Valiant|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Sinistcha|
+|poke|p2|Toxapex, M|
+|teampreview
+|
+|t:|1757914611
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1757914617
+|move|p2a: Tyranitar|Stone Edge|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1757914628
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|2
+|
+|t:|1757914642
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Valiant|94/100|[from] Sandstorm
+|-damage|p2a: Toxapex|95/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1757914653
+|move|p1a: Iron Valiant|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|49/100
+|-enditem|p2a: Toxapex|Eject Button|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Toxapex|Toxic|p1a: Iron Valiant
+|-status|p1a: Iron Valiant|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Valiant|88/100 tox|[from] Sandstorm
+|-damage|p2a: Toxapex|43/100|[from] Sandstorm
+|-damage|p1a: Iron Valiant|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1757914661
+|move|p1a: Iron Valiant|Close Combat|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Valiant|76/100 tox|[from] Sandstorm
+|-damage|p1a: Iron Valiant|63/100 tox|[from] psn
+|upkeep
+|
+|t:|1757914670
+|switch|p2a: Excadrill|Excadrill, M, shiny|100/100
+|turn|5
+|
+|t:|1757914674
+|move|p2a: Excadrill|Earthquake|p1a: Iron Valiant
+|-crit|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1757914681
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|6
+|
+|t:|1757914695
+|switch|p2a: Sinistcha|Sinistcha, shiny|100/100
+|move|p1a: Enamorus|Earth Power|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|72/100
+|
+|-heal|p2a: Sinistcha|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1757914708
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|switch|p2a: Tinkaton|Tinkaton, F, shiny|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|8
+|
+|t:|1757914719
+|move|p2a: Tinkaton|Stealth Rock|p1a: Gholdengo
+|-sidestart|p1: test acc p|move: Stealth Rock
+|move|p1a: Gholdengo|Shadow Ball|p2a: Tinkaton
+|-damage|p2a: Tinkaton|53/100
+|-enditem|p2a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|9
+|
+|t:|1757914726
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Gholdengo|Make It Rain|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|4/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1757914740
+|move|p1a: Gholdengo|Shadow Ball|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1757914744
+|switch|p2a: Excadrill|Excadrill, M, shiny|100/100
+|turn|11
+|
+|t:|1757914749
+|move|p2a: Excadrill|Rock Slide|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|83/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Shadow Ball|p2a: Excadrill
+|-damage|p2a: Excadrill|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|63/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1757914754
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|-damage|p1a: Enamorus|76/100|[from] Stealth Rock
+|move|p2a: Excadrill|Rock Slide|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|69/100|[from] item: Leftovers
+|upkeep
+|-message|test acc p forfeited.
+|
+|win|Flocking glock
+|raw|test acc p's rating: 1455 &rarr; <strong>1435</strong><br />(-20 for losing)
+|raw|Flocking glock's rating: 1452 &rarr; <strong>1472</strong><br />(+20 for winning)
+|l|☆test acc p
+|player|p1|

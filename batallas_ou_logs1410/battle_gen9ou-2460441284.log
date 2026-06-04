@@ -1,0 +1,299 @@
+|j|☆Bag of Rabbits
+|j|☆niloswan
+|t:|1760306888
+|gametype|singles
+|player|p1|Bag of Rabbits|karen|1476
+|player|p2|niloswan|zinzolin|1512
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meowscarada, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Iron Valiant|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Avalugg, F|
+|poke|p1|Garchomp, M|
+|poke|p2|Scizor, F|
+|poke|p2|Great Tusk|
+|poke|p2|Tyranitar, M|
+|poke|p2|Slowbro, M|
+|poke|p2|Kommo-o, M|
+|poke|p2|Gholdengo|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by niloswan)
+|inactive|niloswan has 120 seconds left.
+|
+|t:|1760306927
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1760306937
+|move|p1a: Meowscarada|Flower Trick|p2a: Great Tusk
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-supereffective|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760306946
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|2
+|
+|t:|1760306949
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Scizor|U-turn|p1a: Garchomp
+|-crit|p1a: Garchomp
+|-damage|p1a: Garchomp|49/100
+|-damage|p2a: Scizor|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Scizor|72/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|
+|t:|1760306959
+|switch|p2a: Slowbro|Slowbro, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1760306967
+|move|p1a: Garchomp|Spikes|p2a: Slowbro
+|-sidestart|p2: niloswan|Spikes
+|move|p2a: Slowbro|Calm Mind|p2a: Slowbro
+|-boost|p2a: Slowbro|spa|1
+|-boost|p2a: Slowbro|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1760306973
+|move|p2a: Slowbro|Scald|p1a: Garchomp
+|-damage|p1a: Garchomp|13/100
+|move|p1a: Garchomp|Dragon Tail|p2a: Slowbro
+|-damage|p2a: Slowbro|86/100
+|drag|p2a: Scizor|Scizor, F|72/100
+|-damage|p2a: Scizor|59/100|[from] Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1760306981
+|move|p2a: Scizor|Bullet Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Scizor|47/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Scizor|31/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1760307000
+|switch|p1a: Avalugg|Avalugg, F|100/100
+|turn|6
+|
+|t:|1760307005
+|move|p2a: Scizor|Bullet Punch|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|58/100
+|move|p1a: Avalugg|Body Press|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1760307020
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|88/100|[from] Spikes
+|turn|7
+|
+|t:|1760307026
+|move|p2a: Gholdengo|Make It Rain|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Avalugg
+|
+|upkeep
+|
+|t:|1760307030
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|turn|8
+|
+|t:|1760307036
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|52/100
+|-unboost|p1a: Hoopa|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hoopa|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|59/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760307053
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|switch|p2a: Gholdengo|Gholdengo|88/100
+|-damage|p2a: Gholdengo|76/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Meowscarada|94/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1760307066
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Slowking
+|-damage|p1a: Slowking|65/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowking|59/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1760307077
+|switch|p2a: Tyranitar|Tyranitar, M|59/100
+|-damage|p2a: Tyranitar|46/100|[from] Spikes
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760307082
+|switch|p1a: Meowscarada|Meowscarada, F|94/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Tyranitar|52/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1760307091
+|move|p1a: Meowscarada|U-turn|p2a: Tyranitar
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1760307099
+|switch|p1a: Hoopa|Hoopa-Unbound|94/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760307111
+|switch|p2a: Gholdengo|Gholdengo|76/100
+|-damage|p2a: Gholdengo|63/100|[from] Spikes
+|turn|13
+|
+|t:|1760307121
+|move|p2a: Gholdengo|Trick|p1a: Hoopa
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Hoopa
+|-item|p1a: Hoopa|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Choice Band|[from] move: Trick
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-unboost|p1a: Hoopa|def|1
+|faint|p2a: Gholdengo
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760307130
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|-damage|p2a: Kommo-o|88/100|[from] Spikes
+|turn|14
+|
+|t:|1760307136
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|55/100
+|-enditem|p2a: Kommo-o|Throat Spray
+|-boost|p2a: Kommo-o|spa|1|[from] item: Throat Spray
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1760307155
+|-terastallize|p2a: Kommo-o|Normal
+|move|p1a: Iron Valiant|Encore|p2a: Kommo-o
+|-start|p2a: Kommo-o|Encore
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|22/100
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1760307169
+|move|p2a: Kommo-o|Clangorous Soul||[still]
+|-fail|p2a: Kommo-o
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1760307176
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|-damage|p2a: Slowbro|88/100|[from] Spikes
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|
+|-heal|p2a: Slowbro|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1760307184
+|-terastallize|p1a: Iron Valiant|Fairy
+|move|p1a: Iron Valiant|Moonblast|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|upkeep
+|c|☆niloswan|gg
+|-message|niloswan forfeited.
+|
+|win|Bag of Rabbits
+|raw|Bag of Rabbits's rating: 1476 &rarr; <strong>1498</strong><br />(+22 for winning)
+|raw|niloswan's rating: 1512 &rarr; <strong>1490</strong><br />(-22 for losing)
+|l|☆niloswan
+|player|p2|
+|c|☆Bag of Rabbits|ggs
+|l|☆Bag of Rabbits
+|player|p1|

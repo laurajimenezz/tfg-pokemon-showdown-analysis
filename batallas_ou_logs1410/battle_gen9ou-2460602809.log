@@ -1,0 +1,307 @@
+|j|☆BradenWoA
+|j|☆acathasnorival
+|t:|1760329304
+|gametype|singles
+|player|p1|BradenWoA|266|1405
+|player|p2|acathasnorival|266|1349
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dusclops, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Iron Hands|
+|poke|p1|Iron Valiant|
+|poke|p1|Ursaluna, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Great Tusk|
+|poke|p2|Corviknight, F|
+|poke|p2|Kyurem|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Lokix, F|
+|teampreview
+|
+|t:|1760329317
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|switch|p2a: Lokix|Lokix, F|100/100
+|turn|1
+|
+|t:|1760329327
+|switch|p1a: Dusclops|Dusclops, F|100/100
+|-item|p2a: Lokix|Choice Band|[from] ability: Frisk|[of] p1a: Dusclops
+|move|p2a: Lokix|U-turn|p1a: Dusclops
+|-resisted|p1a: Dusclops
+|-damage|p1a: Dusclops|71/100
+|
+|t:|1760329337
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1760329344
+|move|p2a: Ogerpon|Knock Off|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|20/100
+|-enditem|p1a: Dusclops|Eviolite|[from] move: Knock Off|[of] p2a: Ogerpon
+|move|p1a: Dusclops|Trick Room|p1a: Dusclops
+|-fieldstart|move: Trick Room|[of] p1a: Dusclops
+|
+|upkeep
+|turn|3
+|
+|t:|1760329362
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Dusclops|Pain Split|p2a: Slowking
+|-sethp|p2a: Slowking|57/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|79/100|[from] move: Pain Split
+|
+|upkeep
+|turn|4
+|
+|t:|1760329367
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Slowking|Future Sight|p1a: Ursaluna
+|-start|p2a: Slowking|move: Future Sight
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1760329378
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ursaluna|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100
+|-damage|p1a: Ursaluna|84/100 brn|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-damage|p1a: Ursaluna|78/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1760329405
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Ursaluna|Facade|p2a: Great Tusk
+|-damage|p2a: Great Tusk|13/100
+|
+|-end|p1a: Ursaluna|move: Future Sight
+|-damage|p1a: Ursaluna|36/100 brn
+|-damage|p1a: Ursaluna|30/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1760329413
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Enamorus
+|-sidestart|p1: BradenWoA|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1760329425
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M|91/100
+|-terastallize|p1a: Enamorus|Stellar
+|move|p1a: Enamorus|Tera Blast|p2a: Slowking|[anim] Tera Blast Stellar
+|-damage|p2a: Slowking|65/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|spa|1
+|
+|upkeep
+|turn|9
+|
+|t:|1760329432
+|move|p1a: Enamorus|Tera Blast|p2a: Slowking|[anim] Tera Blast Stellar
+|-damage|p2a: Slowking|35/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|spa|1
+|move|p2a: Slowking|Thunder Wave|p1a: Enamorus
+|-status|p1a: Enamorus|par
+|
+|upkeep
+|turn|10
+|
+|t:|1760329441
+|move|p1a: Enamorus|Tera Blast|p2a: Slowking|[anim] Tera Blast Stellar
+|-damage|p2a: Slowking|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|spa|1
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1760329448
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|11
+|
+|t:|1760329451
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Enamorus|[anim] Ivy Cudgel Water
+|-crit|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|upkeep
+|
+|t:|1760329461
+|switch|p1a: Dusclops|Dusclops, F|79/100
+|-damage|p1a: Dusclops|67/100|[from] Stealth Rock
+|-item|p2a: Ogerpon|Wellspring Mask|[from] ability: Frisk|[of] p1a: Dusclops
+|turn|12
+|
+|t:|1760329465
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Dusclops|[anim] Ivy Cudgel Water
+|-damage|p1a: Dusclops|0 fnt
+|faint|p1a: Dusclops
+|
+|upkeep
+|
+|t:|1760329469
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-damage|p1a: Iron Hands|94/100|[from] Stealth Rock
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|13
+|
+|t:|1760329519
+|switch|p2a: Corviknight|Corviknight, F|51/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Iron Hands|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Iron Hands|def|1
+|-unboost|p1a: Iron Hands|spd|1
+|-damage|p1a: Iron Hands|78/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1760329531
+|switch|p2a: Great Tusk|Great Tusk|13/100
+|turn|14
+|
+|t:|1760329548
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p1a: Hoopa|88/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Headlong Rush|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Hoopa
+|
+|upkeep
+|
+|t:|1760329551
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|15
+|
+|t:|1760329567
+|move|p1a: Iron Valiant|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760329569
+|switch|p2a: Lokix|Lokix, F|100/100
+|turn|16
+|
+|t:|1760329621
+|move|p2a: Lokix|First Impression|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|49/100
+|move|p1a: Iron Valiant|Close Combat|p2a: Lokix
+|-damage|p2a: Lokix|31/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1760329660
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Iron Valiant|Moonblast|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|13/100
+|
+|upkeep
+|turn|18
+|
+|t:|1760329667
+|move|p1a: Iron Valiant|Moonblast|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1760329669
+|switch|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|100/100
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|turn|19
+|
+|t:|1760329676
+|move|p1a: Iron Valiant|Destiny Bond|p1a: Iron Valiant
+|-singlemove|p1a: Iron Valiant|Destiny Bond
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Iron Valiant|[anim] Ivy Cudgel Water
+|-crit|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-activate|p1a: Iron Valiant|move: Destiny Bond
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|upkeep
+|
+|t:|1760329685
+|switch|p1a: Iron Hands|Iron Hands|78/100
+|switch|p2a: Lokix|Lokix, F|31/100
+|-damage|p1a: Iron Hands|71/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1760329692
+|move|p2a: Lokix|Leech Life|p1a: Iron Hands
+|-resisted|p1a: Iron Hands
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|10/100
+|-heal|p2a: Lokix|79/100|[from] drain|[of] p1a: Iron Hands
+|move|p1a: Iron Hands|Close Combat|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|-unboost|p1a: Iron Hands|def|1
+|-unboost|p1a: Iron Hands|spd|1
+|faint|p2a: Lokix
+|
+|win|BradenWoA
+|raw|BradenWoA's rating: 1405 &rarr; <strong>1422</strong><br />(+17 for winning)
+|raw|acathasnorival's rating: 1349 &rarr; <strong>1332</strong><br />(-17 for losing)
+|l|☆acathasnorival
+|player|p2|
+|l|☆BradenWoA
+|player|p1|

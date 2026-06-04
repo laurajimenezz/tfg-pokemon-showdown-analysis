@@ -1,0 +1,342 @@
+|j|☆cp9 leader
+|j|☆Nottortoise
+|t:|1758269332
+|gametype|singles
+|player|p1|cp9 leader|266|1014
+|player|p2|Nottortoise|2|1040
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Froslass, F|
+|poke|p1|Regidrago|
+|poke|p1|Donphan, F|
+|poke|p1|Pelipper, M|
+|poke|p1|Manaphy|
+|poke|p1|Lumineon, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Gholdengo|
+|poke|p2|Incineroar, M|
+|poke|p2|Heracross, F|
+|poke|p2|Volcanion|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|t:|1758269339
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Frostitute|Froslass, F|100/100
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Frostitute|atk|1
+|turn|1
+|
+|t:|1758269345
+|move|p1a: Frostitute|Switcheroo|p2a: Incineroar
+|-activate|p1a: Frostitute|move: Trick|[of] p2a: Incineroar
+|-item|p2a: Incineroar|Choice Band|[from] move: Switcheroo
+|-item|p1a: Frostitute|Rocky Helmet|[from] move: Switcheroo
+|move|p2a: Incineroar|Fire Punch|p1a: Frostitute
+|-supereffective|p1a: Frostitute
+|-damage|p1a: Frostitute|0 fnt
+|-damage|p2a: Incineroar|84/100|[from] item: Rocky Helmet|[of] p1a: Frostitute
+|-start|p2a: Incineroar|Disable|Fire Punch|[from] ability: Cursed Body|[of] p1a: Frostitute
+|faint|p1a: Frostitute
+|
+|upkeep
+|
+|t:|1758269360
+|switch|p1a: Toilet|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Toilet
+|turn|2
+|
+|t:|1758269372
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Toilet|Weather Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|34/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|40/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1758269382
+|move|p2a: Corviknight|Hurricane|p1a: Toilet
+|-damage|p1a: Toilet|66/100
+|move|p1a: Toilet|Weather Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758269397
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|4
+|
+|t:|1758269403
+|move|p2a: Gholdengo|Thunderbolt|p1a: Toilet
+|-supereffective|p1a: Toilet
+|-damage|p1a: Toilet|0 fnt
+|faint|p1a: Toilet
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758269406
+|switch|p1a: Manaphy|Manaphy|100/100
+|turn|5
+|
+|t:|1758269413
+|-terastallize|p1a: Manaphy|Fire
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Manaphy|Take Heart|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|1
+|-boost|p1a: Manaphy|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758269424
+|move|p2a: Gholdengo|Thunderbolt|p1a: Manaphy
+|-damage|p1a: Manaphy|73/100
+|move|p1a: Manaphy|Scald|p2a: Gholdengo
+|-damage|p2a: Gholdengo|13/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gholdengo|19/100|[from] item: Leftovers
+|-heal|p1a: Manaphy|79/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758269445
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Manaphy|Scald|p2a: Volcanion
+|-immune|p2a: Volcanion|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Manaphy|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758269461
+|move|p1a: Manaphy|Ice Beam|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|93/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|1/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Manaphy|7/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758269470
+|move|p1a: Manaphy|Rest|p1a: Manaphy
+|-status|p1a: Manaphy|slp|[from] move: Rest
+|-heal|p1a: Manaphy|100/100 slp|[silent]
+|move|p2a: Volcanion|Steam Eruption|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|15/100 slp
+|
+|-weather|none
+|-heal|p1a: Manaphy|22/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758269485
+|cant|p1a: Manaphy|slp
+|move|p2a: Volcanion|Earth Power|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|faint|p1a: Manaphy
+|
+|upkeep
+|
+|t:|1758269494
+|switch|p1a: Regidrago|Regidrago|100/100
+|turn|11
+|
+|t:|1758269525
+|switch|p2a: Heracross|Heracross, F|100/100
+|move|p1a: Regidrago|Dragon Energy|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|upkeep
+|
+|t:|1758269532
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|12
+|
+|t:|1758269560
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1a: Regidrago|Dragon Energy|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|
+|upkeep
+|turn|13
+|
+|t:|1758269566
+|move|p1a: Regidrago|Dragon Energy|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1758269576
+|switch|p2a: Incineroar|Incineroar, M|84/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Regidrago|atk|1
+|-enditem|p1a: Regidrago|Eject Pack
+|
+|t:|1758269583
+|switch|p1a: Lumineon|Lumineon, F|100/100
+|turn|14
+|
+|t:|1758269600
+|move|p1a: Lumineon|Alluring Voice|p2a: Incineroar
+|-damage|p2a: Incineroar|59/100
+|-enditem|p1a: Lumineon|Throat Spray
+|-boost|p1a: Lumineon|spa|1|[from] item: Throat Spray
+|move|p2a: Incineroar|Parting Shot|p1a: Lumineon
+|-unboost|p1a: Lumineon|atk|1
+|-unboost|p1a: Lumineon|spa|1
+|
+|t:|1758269630
+|switch|p2a: Gholdengo|Gholdengo|19/100|[from] Parting Shot
+|
+|-heal|p2a: Gholdengo|25/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758269641
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|75/100
+|move|p1a: Lumineon|Hydro Pump|p2a: Gholdengo
+|-damage|p2a: Gholdengo|36/100
+|
+|-heal|p2a: Gholdengo|42/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758269651
+|move|p2a: Gholdengo|Thunderbolt|p1a: Lumineon
+|-supereffective|p1a: Lumineon
+|-damage|p1a: Lumineon|25/100
+|move|p1a: Lumineon|Ice Beam|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|32/100
+|
+|-heal|p2a: Gholdengo|38/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758269681
+|move|p2a: Gholdengo|Thunderbolt|p1a: Lumineon
+|-supereffective|p1a: Lumineon
+|-damage|p1a: Lumineon|0 fnt
+|faint|p1a: Lumineon
+|
+|-heal|p2a: Gholdengo|44/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758269684
+|switch|p1a: Donphan|Donphan, F|100/100
+|turn|18
+|
+|t:|1758269712
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|94/100
+|move|p1a: Donphan|Stealth Rock|p2a: Gholdengo
+|-sidestart|p2: Nottortoise|move: Stealth Rock
+|
+|-heal|p2a: Gholdengo|99/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1758269751
+|-terastallize|p2a: Gholdengo|Steel
+|move|p2a: Gholdengo|Make It Rain|p1a: Donphan
+|-damage|p1a: Donphan|15/100
+|-unboost|p2a: Gholdengo|spa|1
+|-enditem|p1a: Donphan|Red Card|[of] p2a: Gholdengo
+|drag|p2a: Volcanion|Volcanion|93/100
+|-damage|p2a: Volcanion|68/100|[from] Stealth Rock
+|move|p1a: Donphan|Earthquake|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|upkeep
+|
+|t:|1758269771
+|switch|p2a: Incineroar|Incineroar, M|59/100
+|-damage|p2a: Incineroar|35/100|[from] Stealth Rock
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Donphan|atk|1
+|turn|20
+|
+|t:|1758269789
+|move|p2a: Incineroar|Fire Punch|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|upkeep
+|
+|t:|1758269795
+|switch|p1a: Regidrago|Regidrago|100/100
+|turn|21
+|
+|t:|1758269821
+|move|p1a: Regidrago|Earth Power|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|upkeep
+|
+|t:|1758269826
+|switch|p2a: Gholdengo|Gholdengo, tera:Steel|99/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1758269834
+|move|p2a: Gholdengo|Make It Rain|p1a: Regidrago
+|-damage|p1a: Regidrago|27/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Regidrago|Earth Power|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|40/100
+|
+|-heal|p2a: Gholdengo|47/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆Nottortoise|gg
+|
+|t:|1758269853
+|move|p2a: Gholdengo|Make It Rain|p1a: Regidrago
+|-damage|p1a: Regidrago|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Regidrago
+|
+|win|Nottortoise
+|raw|cp9 leader's rating: 1050 &rarr; <strong>1032</strong><br />(-18 for losing)
+|raw|Nottortoise's rating: 1040 &rarr; <strong>1075</strong><br />(+35 for winning)
+|c|☆cp9 leader|gg
+|l|☆cp9 leader
+|player|p1|

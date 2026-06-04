@@ -1,0 +1,255 @@
+|j|☆dicolibri
+|j|☆ho_learner
+|t:|1758294626
+|gametype|singles
+|player|p1|dicolibri|hiker|1579
+|player|p2|ho_learner|266|1609
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mesprit|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Hands|
+|poke|p1|Ursaluna, F|
+|poke|p1|Volcanion|
+|poke|p1|Hoopa-Unbound|
+|poke|p2|Great Tusk|
+|poke|p2|Araquanid, M|
+|poke|p2|Iron Moth|
+|poke|p2|Gholdengo|
+|poke|p2|Dragonite, F|
+|poke|p2|Ogerpon-Cornerstone, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dicolibri)
+|inactive|ho_learner has 120 seconds left.
+|
+|t:|1758294686
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1758294691
+|move|p2a: Great Tusk|Headlong Rush|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758294698
+|switch|p1a: Mesprit|Mesprit|100/100
+|turn|2
+|
+|t:|1758294710
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Mesprit|Stealth Rock|p2a: Gholdengo
+|-sidestart|p2: ho_learner|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1758294720
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1758294727
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|move|p1a: Hoopa|Trick Room|p1a: Hoopa
+|-fieldstart|move: Trick Room|[of] p1a: Hoopa
+|
+|upkeep
+|turn|5
+|
+|t:|1758294735
+|-terastallize|p2a: Great Tusk|Steel
+|move|p1a: Hoopa|Psychic|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|49/100
+|-damage|p1a: Hoopa|91/100|[from] item: Life Orb
+|move|p2a: Great Tusk|Rapid Spin|p1a: Hoopa
+|-damage|p1a: Hoopa|67/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: ho_learner|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|6
+|
+|t:|1758294749
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Araquanid
+|-damage|p2a: Araquanid|3/100
+|-unboost|p1a: Hoopa|def|1
+|-damage|p1a: Hoopa|57/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|-enditem|p2a: Araquanid|Custap Berry|[eat]
+|-activate|p2a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1758294759
+|move|p2a: Araquanid|Endeavor|p1a: Hoopa
+|-damage|p1a: Hoopa|3/100
+|move|p1a: Hoopa|Psychic|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|-damage|p1a: Hoopa|0 fnt|[from] item: Life Orb
+|faint|p1a: Hoopa
+|
+|upkeep
+|
+|t:|1758294772
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|switch|p1a: Volcanion|Volcanion|100/100
+|turn|8
+|
+|t:|1758294785
+|switch|p2a: Great Tusk|Great Tusk, tera:Steel|49/100
+|-terastallize|p1a: Volcanion|Water
+|move|p1a: Volcanion|Steam Eruption|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758294792
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|9
+|
+|t:|1758294806
+|move|p2a: Ogerpon|Power Whip|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|upkeep
+|
+|t:|1758294816
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|10
+|
+|t:|1758294822
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|11
+|
+|t:|1758294834
+|move|p1a: Hatterene|Psychic Noise|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|79/100
+|-start|p2a: Gholdengo|move: Heal Block
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|12
+|
+|t:|1758294843
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|move|p2a: Gholdengo|Make It Rain|p1: Hatterene|[notarget]
+|-fail|p2a: Gholdengo
+|
+|-end|p2a: Gholdengo|move: Heal Block
+|upkeep
+|
+|t:|1758294847
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|turn|13
+|
+|t:|1758294852
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Ursaluna|Headlong Rush|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|14
+|
+|t:|1758294866
+|switch|p2a: Gholdengo|Gholdengo|79/100
+|move|p1a: Ursaluna|Facade|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|t:|1758294871
+|move|p2a: Gholdengo|Make It Rain|p1a: Ursaluna
+|-damage|p1a: Ursaluna|35/100 brn
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Ursaluna|Headlong Rush|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Gholdengo
+|
+|-damage|p1a: Ursaluna|29/100 brn|[from] brn
+|upkeep
+|
+|t:|1758294880
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|16
+|
+|t:|1758294884
+|switch|p1a: Mesprit|Mesprit|100/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Mesprit|[anim] Ivy Cudgel Rock
+|-damage|p1a: Mesprit|44/100
+|
+|upkeep
+|turn|17
+|
+|t:|1758294890
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Mesprit|[anim] Ivy Cudgel Rock
+|-damage|p1a: Mesprit|0 fnt
+|faint|p1a: Mesprit
+|
+|upkeep
+|-message|dicolibri forfeited.
+|
+|win|ho_learner
+|raw|dicolibri's rating: 1579 &rarr; <strong>1561</strong><br />(-18 for losing)
+|raw|ho_learner's rating: 1609 &rarr; <strong>1627</strong><br />(+18 for winning)
+|l|☆dicolibri
+|player|p1|
+|l|☆ho_learner
+|player|p2|

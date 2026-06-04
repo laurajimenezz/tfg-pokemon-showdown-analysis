@@ -1,0 +1,453 @@
+|j|☆jadhe
+|j|☆xMutationd
+|t:|1760373140
+|gametype|singles
+|player|p1|jadhe|266|1119
+|player|p2|xMutationd|169|1079
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, M|
+|poke|p1|Tropius, M|
+|poke|p1|Blaziken, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Iron Treads|
+|poke|p1|Rillaboom, M|
+|poke|p2|Galvantula, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Dondozo, M|
+|poke|p2|Gardevoir, M|
+|poke|p2|Blaziken, M|
+|teampreview
+|
+|t:|1760373149
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Tropius|Tropius, M|100/100
+|switch|p2a: Galvantula|Galvantula, M, shiny|100/100
+|turn|1
+|
+|t:|1760373156
+|move|p2a: Galvantula|Sticky Web|p1a: Tropius
+|-sidestart|p1: jadhe|move: Sticky Web
+|move|p1a: Tropius|Leech Seed|p2a: Galvantula
+|-start|p2a: Galvantula|move: Leech Seed
+|
+|-damage|p2a: Galvantula|88/100|[from] Leech Seed|[of] p1a: Tropius
+|upkeep
+|turn|2
+|
+|t:|1760373162
+|move|p2a: Galvantula|Thunder Wave|p1a: Tropius|[miss]
+|-miss|p2a: Galvantula|p1a: Tropius
+|move|p1a: Tropius|Substitute|p1a: Tropius
+|-start|p1a: Tropius|Substitute
+|-damage|p1a: Tropius|76/100
+|
+|-damage|p2a: Galvantula|76/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|84/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1760373170
+|move|p2a: Galvantula|Discharge|p1a: Tropius
+|-end|p1a: Tropius|Substitute
+|move|p1a: Tropius|Air Slash|p2a: Galvantula
+|-damage|p2a: Galvantula|25/100
+|
+|-damage|p2a: Galvantula|13/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|93/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1760373176
+|move|p1a: Tropius|Protect|p1a: Tropius
+|-singleturn|p1a: Tropius|Protect
+|move|p2a: Galvantula|Discharge|p1a: Tropius
+|-activate|p1a: Tropius|move: Protect
+|
+|-damage|p2a: Galvantula|0 fnt|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|100/100|[silent]
+|faint|p2a: Galvantula
+|upkeep
+|
+|t:|1760373188
+|switch|p2a: Blaziken|Blaziken, M, shiny|100/100
+|-item|p2a: Blaziken|Air Balloon
+|turn|5
+|
+|t:|1760373193
+|-terastallize|p1a: Tropius|Dragon
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|move|p1a: Tropius|Air Slash|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|8/100
+|-enditem|p2a: Blaziken|Air Balloon
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|6
+|
+|t:|1760373212
+|move|p2a: Blaziken|Earthquake|p1a: Tropius
+|-damage|p1a: Tropius|34/100
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|59/100|[from] item: Sitrus Berry
+|move|p1a: Tropius|Leech Seed|p2a: Blaziken
+|-start|p2a: Blaziken|move: Leech Seed
+|
+|-damage|p2a: Blaziken|0 fnt|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|64/100|[silent]
+|faint|p2a: Blaziken
+|-item|p1a: Tropius|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|
+|t:|1760373224
+|switch|p2a: Gardevoir|Gardevoir, M, shiny|100/100
+|turn|7
+|l|☆jadhe
+|player|p1|
+|j|☆jadhe
+|player|p1|jadhe|266|
+|
+|t:|1760373257
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-activate|p1a: Iron Treads|move: Sticky Web
+|-unboost|p1a: Iron Treads|spe|1
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivedef
+|-terastallize|p2a: Gardevoir|Fairy
+|move|p2a: Gardevoir|Moonblast|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|59/100
+|
+|upkeep
+|turn|8
+|
+|t:|1760373274
+|move|p2a: Gardevoir|Mystical Fire|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760373280
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|turn|9
+|
+|t:|1760373293
+|move|p2a: Gardevoir|Moonblast|p1a: Gliscor
+|-damage|p1a: Gliscor|23/100
+|move|p1a: Gliscor|Toxic|p2a: Gardevoir
+|-status|p2a: Gardevoir|tox
+|-activate|p2a: Gardevoir|ability: Synchronize
+|-status|p1a: Gliscor|tox
+|
+|-damage|p2a: Gardevoir|94/100 tox|[from] psn
+|-heal|p1a: Gliscor|35/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1760373304
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Gardevoir|Calm Mind|p2a: Gardevoir
+|-boost|p2a: Gardevoir|spa|1
+|-boost|p2a: Gardevoir|spd|1
+|
+|-damage|p2a: Gardevoir|82/100 tox|[from] psn
+|-heal|p1a: Gliscor|47/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1760373322
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-activate|p1a: Indeedee|move: Sticky Web
+|-unboost|p1a: Indeedee|spe|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Gardevoir|Moonblast|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-damage|p2a: Gardevoir|64/100 tox|[from] psn
+|upkeep
+|
+|t:|1760373333
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|-activate|p1a: Blaziken|move: Sticky Web
+|-unboost|p1a: Blaziken|spe|1
+|turn|12
+|
+|t:|1760373348
+|switch|p2a: Dondozo|Dondozo, M, shiny|100/100
+|move|p1a: Blaziken|Protect||[still]
+|-fail|p1a: Blaziken
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|13
+|
+|t:|1760373362
+|switch|p1a: Tropius|Tropius, M, tera:Dragon|64/100
+|-activate|p1a: Tropius|move: Sticky Web
+|-unboost|p1a: Tropius|spe|1
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|upkeep
+|turn|14
+|
+|t:|1760373387
+|move|p1a: Tropius|Leech Seed|p2a: Dondozo
+|-start|p2a: Dondozo|move: Leech Seed
+|move|p2a: Dondozo|Body Press|p1a: Tropius
+|-damage|p1a: Tropius|23/100
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|48/100|[from] item: Sitrus Berry
+|
+|-damage|p2a: Dondozo|88/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|64/100|[silent]
+|-item|p1a: Tropius|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|15
+|
+|t:|1760373425
+|move|p1a: Tropius|Protect|p1a: Tropius
+|-singleturn|p1a: Tropius|Protect
+|move|p2a: Dondozo|Body Press|p1a: Tropius
+|-activate|p1a: Tropius|move: Protect
+|
+|-heal|p2a: Dondozo|94/100|[from] item: Leftovers
+|-damage|p2a: Dondozo|82/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|79/100|[silent]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|16
+|
+|t:|1760373434
+|move|p1a: Tropius|Substitute|p1a: Tropius
+|-start|p1a: Tropius|Substitute
+|-damage|p1a: Tropius|54/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|88/100|[from] item: Leftovers
+|-damage|p2a: Dondozo|75/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|70/100|[silent]
+|upkeep
+|turn|17
+|
+|t:|1760373444
+|move|p1a: Tropius|Protect|p1a: Tropius
+|-singleturn|p1a: Tropius|Protect
+|move|p2a: Dondozo|Body Press|p1a: Tropius
+|-activate|p1a: Tropius|move: Protect
+|
+|-heal|p2a: Dondozo|81/100|[from] item: Leftovers
+|-damage|p2a: Dondozo|69/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|86/100|[silent]
+|upkeep
+|turn|18
+|
+|t:|1760373455
+|move|p1a: Tropius|Air Slash|p2a: Dondozo
+|-damage|p2a: Dondozo|41/100
+|move|p2a: Dondozo|Body Press|p1a: Tropius
+|-end|p1a: Tropius|Substitute
+|
+|-heal|p2a: Dondozo|47/100|[from] item: Leftovers
+|-damage|p2a: Dondozo|34/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|100/100|[silent]
+|upkeep
+|turn|19
+|
+|t:|1760373468
+|move|p1a: Tropius|Substitute|p1a: Tropius
+|-start|p1a: Tropius|Substitute
+|-damage|p1a: Tropius|76/100
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|-damage|p2a: Dondozo|88/100 slp|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|91/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1760373479
+|move|p1a: Tropius|Air Slash|p2a: Dondozo
+|-damage|p2a: Dondozo|59/100 slp
+|cant|p2a: Dondozo|slp
+|
+|-heal|p2a: Dondozo|65/100 slp|[from] item: Leftovers
+|-damage|p2a: Dondozo|52/100 slp|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|100/100|[silent]
+|upkeep
+|turn|21
+|
+|t:|1760373495
+|move|p1a: Tropius|Air Slash|p2a: Dondozo
+|-damage|p2a: Dondozo|26/100 slp
+|cant|p2a: Dondozo|slp
+|
+|-heal|p2a: Dondozo|32/100 slp|[from] item: Leftovers
+|-damage|p2a: Dondozo|19/100 slp|[from] Leech Seed|[of] p1a: Tropius
+|upkeep
+|turn|22
+|
+|t:|1760373503
+|move|p1a: Tropius|Air Slash|p2a: Dondozo
+|-crit|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|upkeep
+|
+|t:|1760373509
+|switch|p2a: Meowscarada|Meowscarada, M, shiny|100/100
+|turn|23
+|
+|t:|1760373519
+|move|p2a: Meowscarada|Triple Axel|p1a: Tropius
+|-start|p2a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-supereffective|p1a: Tropius
+|-end|p1a: Tropius|Substitute
+|-supereffective|p1a: Tropius
+|-damage|p1a: Tropius|46/100
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|71/100|[from] item: Sitrus Berry
+|-supereffective|p1a: Tropius
+|-damage|p1a: Tropius|0 fnt
+|faint|p1a: Tropius
+|-hitcount|p1: Tropius|3
+|
+|upkeep
+|
+|t:|1760373523
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|-activate|p1a: Blaziken|move: Sticky Web
+|-unboost|p1a: Blaziken|spe|1
+|turn|24
+|
+|t:|1760373533
+|switch|p2a: Dragonite|Dragonite, M, shiny|100/100
+|move|p1a: Blaziken|Protect||[still]
+|-fail|p1a: Blaziken
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|25
+|
+|t:|1760373544
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|26
+|
+|t:|1760373555
+|move|p2a: Dragonite|Earthquake|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1760373560
+|switch|p1a: Gliscor|Gliscor, M|47/100 tox
+|turn|27
+|
+|t:|1760373565
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Dragonite|Dragon Claw|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|60/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|t:|1760373585
+|move|p2a: Dragonite|Dragon Claw|p1a: Gliscor
+|-damage|p1a: Gliscor|14/100 tox
+|move|p1a: Gliscor|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|
+|-damage|p2a: Dragonite|94/100 tox|[from] psn
+|-heal|p1a: Gliscor|26/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|t:|1760373597
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p2a: Dragonite|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Dragonite|88/100 tox|[from] psn
+|-heal|p1a: Gliscor|39/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|t:|1760373648
+|move|p1a: Gliscor|Protect||[still]
+|-fail|p1a: Gliscor
+|move|p2a: Dragonite|Dragon Claw|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-heal|p2a: Dragonite|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Dragonite|76/100 tox|[from] psn
+|upkeep
+|
+|t:|1760373652
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-activate|p1a: Rillaboom|move: Sticky Web
+|-unboost|p1a: Rillaboom|spe|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|31
+|c|☆xMutationd|gg
+|l|☆jadhe
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xMutationd)
+|inactive|jadhe has 30 seconds to reconnect!
+|inactive|jadhe has 20 seconds to reconnect!
+|inactive|jadhe has 15 seconds to reconnect!
+|inactive|jadhe has 10 seconds to reconnect!
+|inactive|jadhe has 5 seconds to reconnect!
+|-message|jadhe lost due to inactivity.
+|
+|win|xMutationd
+|raw|jadhe's rating: 1119 &rarr; <strong>1091</strong><br />(-28 for losing)
+|raw|xMutationd's rating: 1079 &rarr; <strong>1110</strong><br />(+31 for winning)
+|l|☆xMutationd
+|player|p2|

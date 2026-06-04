@@ -1,0 +1,324 @@
+|j|☆flora.en
+|j|☆accidentalrabies
+|t:|1779694313
+|gametype|singles
+|player|p1|flora.en|elesa|1040
+|player|p2|accidentalrabies|cynthia-gen4|1124
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Primarina, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Clodsire, M|
+|poke|p1|Garganacl, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Dragapult, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Gliscor, F|
+|poke|p2|Goodra-Hisui, M|
+|teampreview
+|
+|t:|1779694324
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hex|Dragapult, F|100/100
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|turn|1
+|
+|t:|1779694337
+|move|p1a: Hex|Dragon Darts|p2a: Gliscor
+|-damage|p2a: Gliscor|84/100
+|-anim|p1a: Hex|Dragon Darts|p2a: Gliscor
+|-damage|p2a: Gliscor|68/100
+|move|p2a: Gliscor|Stealth Rock|p1a: Hex
+|-sidestart|p1: flora.en|move: Stealth Rock
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1779694357
+|switch|p1a: Prim|Primarina, M|100/100
+|-damage|p1a: Prim|88/100|[from] Stealth Rock
+|move|p2a: Gliscor|Earthquake|p1a: Prim
+|-damage|p1a: Prim|42/100
+|
+|-heal|p2a: Gliscor|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1779694373
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Prim|Sparkling Aria|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|46/100
+|
+|upkeep
+|turn|4
+|
+|t:|1779694394
+|switch|p1a: Maurice|Kingambit, L50, M|100/100
+|-damage|p1a: Maurice|94/100|[from] Stealth Rock
+|move|p2a: Samurott|Ceaseless Edge|p1a: Maurice|[miss]
+|-miss|p2a: Samurott|p1a: Maurice
+|
+|upkeep
+|turn|5
+|
+|t:|1779694408
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|-end|p1a: Maurice|fallenundefined|[silent]
+|switch|p1a: Tempo|Slowking-Galar, M|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1779694420
+|-prepare|p1a: Tempo|Chilly Reception|[premajor]
+|move|p1a: Tempo|Chilly Reception|p1a: Tempo
+|-weather|Snowscape
+|
+|t:|1779694425
+|switch|p1a: Prim|Primarina, M|42/100|[from] Chilly Reception
+|-damage|p1a: Prim|29/100|[from] Stealth Rock
+|move|p2a: Goodra|Dragon Tail|p1a: Prim
+|-immune|p1a: Prim
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779694437
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Prim|Moonblast|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779694443
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|8
+|
+|t:|1779694470
+|switch|p2a: Gliscor|Gliscor, F|80/100 tox
+|move|p1a: Prim|Moonblast|p2a: Gliscor
+|-damage|p2a: Gliscor|8/100 tox
+|-unboost|p2a: Gliscor|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Prim|23/100|[from] Sandstorm
+|-heal|p2a: Gliscor|21/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1779694484
+|switch|p1a: Hex|Dragapult, F|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hex|95/100|[from] Sandstorm
+|-heal|p2a: Gliscor|33/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1779694499
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|move|p1a: Hex|Hex|p2a: Excadrill
+|-damage|p2a: Excadrill|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hex|89/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1779694523
+|switch|p1a: Fudgee bar|Garganacl, F|100/100
+|-damage|p1a: Fudgee bar|88/100|[from] Stealth Rock
+|move|p2a: Excadrill|Earthquake|p1a: Fudgee bar
+|-supereffective|p1a: Fudgee bar
+|-damage|p1a: Fudgee bar|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Fudgee bar|27/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779694538
+|switch|p1a: Tempo|Slowking-Galar, M|100/100
+|move|p2a: Excadrill|Iron Head|p1a: Tempo
+|-damage|p1a: Tempo|60/100
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1779694547
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|-prepare|p1a: Tempo|Chilly Reception|[premajor]
+|move|p1a: Tempo|Chilly Reception|p1a: Tempo
+|-weather|Snowscape
+|
+|t:|1779694556
+|switch|p1a: Hex|Dragapult, F|89/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1779694566
+|-terastallize|p1a: Hex|Ghost
+|-terastallize|p2a: Goodra|Fairy
+|move|p1a: Hex|Hex|p2a: Goodra
+|-damage|p2a: Goodra|83/100
+|move|p2a: Goodra|Draco Meteor|p1a: Hex
+|-damage|p1a: Hex|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|faint|p1a: Hex
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779694579
+|switch|p1a: Maurice|Kingambit, L50, M|94/100
+|-damage|p1a: Maurice|88/100|[from] Stealth Rock
+|-activate|p1a: Maurice|ability: Supreme Overlord
+|-start|p1a: Maurice|fallen1|[silent]
+|turn|15
+|
+|t:|1779694588
+|move|p2a: Goodra|Fire Blast|p1a: Maurice
+|-supereffective|p1a: Maurice
+|-damage|p1a: Maurice|0 fnt
+|faint|p1a: Maurice
+|-end|p1a: Maurice|fallen1|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779694594
+|switch|p1a: Toto|Clodsire, M|100/100
+|turn|16
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by accidentalrabies)
+|
+|t:|1779694631
+|switch|p2a: Samurott|Samurott-Hisui, M|46/100
+|move|p1a: Toto|Poison Jab|p2a: Samurott
+|-damage|p2a: Samurott|20/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1779694645
+|move|p2a: Samurott|Razor Shell|p1a: Toto
+|-supereffective|p1a: Toto
+|-damage|p1a: Toto|7/100
+|-unboost|p1a: Toto|def|1
+|move|p1a: Toto|Poison Jab|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-weather|none
+|upkeep
+|
+|t:|1779694657
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|18
+|
+|t:|1779694663
+|move|p2a: Tyranitar|Knock Off|p1a: Toto
+|-damage|p1a: Toto|0 fnt
+|-enditem|p1a: Toto|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1a: Toto
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1779694670
+|switch|p1a: Tempo|Slowking-Galar, M|93/100
+|turn|19
+|
+|t:|1779694679
+|move|p2a: Tyranitar|Knock Off|p1a: Tempo
+|-supereffective|p1a: Tempo
+|-damage|p1a: Tempo|0 fnt
+|-enditem|p1a: Tempo|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1a: Tempo
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1779694686
+|switch|p1a: Fudgee bar|Garganacl, F|27/100
+|-damage|p1a: Fudgee bar|15/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1779694693
+|move|p1a: Fudgee bar|Protect|p1a: Fudgee bar
+|-singleturn|p1a: Fudgee bar|Protect
+|move|p2a: Tyranitar|Knock Off|p1a: Fudgee bar
+|-activate|p1a: Fudgee bar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Fudgee bar|21/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1779694703
+|move|p1a: Fudgee bar|Protect|p1a: Fudgee bar
+|-singleturn|p1a: Fudgee bar|Protect
+|move|p2a: Tyranitar|Knock Off|p1a: Fudgee bar
+|-activate|p1a: Fudgee bar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Fudgee bar|27/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1779694713
+|move|p1a: Fudgee bar|Protect||[still]
+|-fail|p1a: Fudgee bar
+|move|p2a: Tyranitar|Knock Off|p1a: Fudgee bar
+|-damage|p1a: Fudgee bar|0 fnt
+|-enditem|p1a: Fudgee bar|Leftovers|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1a: Fudgee bar
+|
+|-weather|none
+|upkeep
+|
+|t:|1779694721
+|switch|p1a: Prim|Primarina, M|23/100
+|-damage|p1a: Prim|11/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1779694726
+|move|p2a: Tyranitar|Knock Off|p1a: Prim
+|-resisted|p1a: Prim
+|-damage|p1a: Prim|0 fnt
+|-enditem|p1a: Prim|Choice Specs|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1a: Prim
+|
+|win|accidentalrabies
+|raw|flora.en's rating: 1040 &rarr; <strong>1028</strong><br />(-12 for losing)
+|raw|accidentalrabies's rating: 1124 &rarr; <strong>1143</strong><br />(+19 for winning)
+|l|☆flora.en
+|player|p1|

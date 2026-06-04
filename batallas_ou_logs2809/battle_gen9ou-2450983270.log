@@ -1,0 +1,305 @@
+|j|☆iyasih
+|j|‽cacao1
+|t:|1759062580
+|gametype|singles
+|player|p1|iyasih|1|1221
+|player|p2|cacao1|170|1282
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Rabsca, M|
+|poke|p1|Ursaluna, F|
+|poke|p1|Indeedee-F, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Greninja-*, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Primarina, M|
+|poke|p2|Infernape, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cacao1)
+|
+|t:|1759062594
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1759062603
+|move|p2a: Rillaboom|Wood Hammer|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|-damage|p2a: Rillaboom|76/100|[from] Recoil
+|
+|-heal|p2a: Rillaboom|82/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1759062610
+|switch|p1a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|2
+|
+|t:|1759062616
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Primarina|Primarina, M|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1759062626
+|move|p2a: Primarina|Flip Turn|p1a: Slowking
+|-damage|p1a: Slowking|86/100
+|
+|t:|1759062629
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from] Flip Turn
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-heal|p1a: Slowking|92/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1759062643
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1759062647
+|switch|p1a: Ursaluna|Ursaluna, F|100/100|[from] Chilly Reception
+|move|p2a: Cinderace|Pyro Ball|p1a: Ursaluna
+|-damage|p1a: Ursaluna|55/100
+|
+|-weather|Snowscape|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1759062663
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|move|p1a: Ursaluna|Drain Punch|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|-heal|p1a: Ursaluna|92/100 brn|[from] drain|[of] p2a: Meowscarada
+|faint|p2a: Meowscarada
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ursaluna|86/100 brn|[from] brn
+|upkeep
+|
+|t:|1759062679
+|switch|p2a: Rillaboom|Rillaboom, M|82/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|6
+|
+|t:|1759062698
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-terastallize|p2a: Rillaboom|Grass
+|move|p2a: Rillaboom|Grassy Glide|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|65/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Slowking|71/100|[from] Grassy Terrain
+|-heal|p1a: Slowking|77/100|[from] item: Leftovers
+|-heal|p2a: Rillaboom|88/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1759062713
+|move|p2a: Rillaboom|Grassy Glide|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|42/100
+|move|p1a: Slowking|Flamethrower|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|5/100
+|-status|p2a: Rillaboom|brn
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Slowking|48/100|[from] Grassy Terrain
+|-heal|p1a: Slowking|54/100|[from] item: Leftovers
+|-heal|p2a: Rillaboom|12/100 brn|[from] Grassy Terrain
+|-damage|p2a: Rillaboom|5/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1759062734
+|switch|p2a: Greninja|Greninja, M|100/100
+|switch|p1a: Rabsca|Rabsca, M|100/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1759062748
+|-terastallize|p1a: Rabsca|Bug
+|move|p2a: Greninja|Dark Pulse|p1a: Rabsca
+|-damage|p1a: Rabsca|34/100
+|move|p1a: Rabsca|Trick Room|p1a: Rabsca
+|-fieldstart|move: Trick Room|[of] p1a: Rabsca
+|
+|-heal|p1a: Rabsca|40/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|inactive|iyasih has 120 seconds left.
+|
+|t:|1759062775
+|switch|p1a: Ursaluna|Ursaluna, F|86/100 brn
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|
+|-heal|p1a: Ursaluna|92/100 brn|[from] Grassy Terrain
+|-damage|p1a: Ursaluna|86/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1759062795
+|move|p1a: Ursaluna|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-damage|p1a: Ursaluna|80/100 brn|[from] brn
+|upkeep
+|
+|t:|1759062812
+|switch|p2a: Rillaboom|Rillaboom, M, tera:Grass|5/100 brn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|12
+|
+|t:|1759062823
+|switch|p1a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Rillaboom|Grassy Glide|p1a: Indeedee
+|-damage|p1a: Indeedee|46/100
+|
+|-damage|p2a: Rillaboom|0 fnt|[from] brn
+|faint|p2a: Rillaboom
+|upkeep
+|
+|t:|1759062851
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|13
+|inactive|iyasih has 120 seconds left.
+|
+|t:|1759062868
+|move|p1a: Indeedee|Draining Kiss|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|54/100
+|-heal|p1a: Indeedee|81/100|[from] drain|[of] p2a: Greninja
+|move|p2a: Greninja|Dark Pulse|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-ability|p2a: Greninja|Battle Bond|boost
+|-boost|p2a: Greninja|atk|1
+|-boost|p2a: Greninja|spa|1
+|-boost|p2a: Greninja|spe|1
+|-activate|p2a: Greninja|ability: Battle Bond
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1759062892
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|turn|14
+|
+|t:|1759062901
+|move|p2a: Greninja|Dark Pulse|p1a: Hoopa
+|-crit|p1a: Hoopa
+|-enditem|p1a: Hoopa|Focus Sash
+|-damage|p1a: Hoopa|1/100
+|move|p1a: Hoopa|Drain Punch|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-heal|p1a: Hoopa|26/100|[from] drain|[of] p2a: Greninja
+|faint|p2a: Greninja
+|-item|p1a: Hoopa|Choice Specs|[from] ability: Magician|[of] p2: Greninja
+|
+|upkeep
+|
+|t:|1759062923
+|switch|p2a: Infernape|Infernape, M|100/100
+|turn|15
+|
+|t:|1759062936
+|switch|p1a: Rabsca|Rabsca, M, tera:Bug|40/100
+|move|p2a: Infernape|Fire Blast|p1a: Rabsca
+|-supereffective|p1a: Rabsca
+|-damage|p1a: Rabsca|0 fnt
+|faint|p1a: Rabsca
+|-damage|p2a: Infernape|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1759062941
+|switch|p1a: Slowking|Slowking-Galar, F|87/100
+|turn|16
+|
+|t:|1759062944
+|move|p2a: Infernape|Nasty Plot|p2a: Infernape
+|-boost|p2a: Infernape|spa|2
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-heal|p1a: Slowking|93/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1759062952
+|move|p1a: Slowking|Future Sight|p2a: Infernape
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: Infernape|Fire Blast|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|-damage|p2a: Infernape|81/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|iyasih has 120 seconds left.
+|inactive|iyasih has 90 seconds left.
+|
+|t:|1759063005
+|switch|p1a: Ursaluna|Ursaluna, F|80/100 brn
+|turn|18
+|
+|t:|1759063014
+|move|p2a: Infernape|Vacuum Wave|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Psychic Terrain
+|move|p1a: Ursaluna|Facade|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|-damage|p1a: Ursaluna|73/100 brn|[from] brn
+|upkeep
+|
+|t:|1759063020
+|switch|p2a: Primarina|Primarina, M|100/100
+|turn|19
+|
+|t:|1759063026
+|move|p1a: Ursaluna|Facade|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|win|iyasih
+|raw|iyasih's rating: 1221 &rarr; <strong>1250</strong><br />(+29 for winning)
+|raw|cacao1's rating: 1282 &rarr; <strong>1253</strong><br />(-29 for losing)
+|l|‽cacao1
+|player|p2|
+|l|☆iyasih
+|player|p1|

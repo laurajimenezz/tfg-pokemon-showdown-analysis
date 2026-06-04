@@ -1,0 +1,312 @@
+|j|☆geovanedias
+|j|☆wysenberg
+|t:|1760322306
+|gametype|singles
+|player|p1|geovanedias|266|1040
+|player|p2|wysenberg|1|1076
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Feraligatr, M|
+|poke|p1|Raikou|
+|poke|p1|Zamazenta-*|
+|poke|p1|Skeledirge, F|
+|poke|p1|Iron Treads|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Alomomola, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1760322314
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Raikou|Raikou|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Raikou|Pressure
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Raikou|atk|1
+|turn|1
+|
+|t:|1760322328
+|-terastallize|p1a: Raikou|Flying
+|move|p1a: Raikou|Reflect|p1a: Raikou
+|-sidestart|p1: geovanedias|Reflect
+|move|p2a: Landorus|Stealth Rock|p1a: Raikou
+|-sidestart|p1: geovanedias|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1760322336
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Raikou|Light Screen|p1a: Raikou
+|-sidestart|p1: geovanedias|move: Light Screen
+|
+|upkeep
+|turn|3
+|
+|t:|1760322348
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdriveatk
+|move|p1a: Raikou|Thunder Wave|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|upkeep
+|turn|4
+|
+|t:|1760322361
+|switch|p1a: Feraligatr|Feraligatr, M|100/100
+|-damage|p1a: Feraligatr|88/100|[from] Stealth Rock
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1760322369
+|move|p2a: Dragapult|U-turn|p1a: Feraligatr
+|-damage|p1a: Feraligatr|74/100
+|
+|t:|1760322372
+|switch|p2a: Alomomola|Alomomola, M|100/100|[from] U-turn
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|
+|upkeep
+|turn|6
+|
+|t:|1760322384
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|move|p2a: Alomomola|Scald|p1a: Feraligatr
+|-resisted|p1a: Feraligatr
+|-damage|p1a: Feraligatr|70/100
+|
+|upkeep
+|turn|7
+|
+|t:|1760322397
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1760322406
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Feraligatr|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-sideend|p1: geovanedias|Reflect
+|upkeep
+|
+|t:|1760322413
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-item|p2a: Raging Bolt|Air Balloon
+|turn|9
+|
+|t:|1760322428
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-damage|p1a: Iron Treads|97/100|[from] Stealth Rock
+|move|p2a: Raging Bolt|Volt Switch|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|-heal|p1a: Iron Treads|100/100|[from] item: Leftovers
+|-sideend|p1: geovanedias|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1760322440
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: wysenberg|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1760322448
+|move|p1a: Iron Treads|Rapid Spin|p2a: Alomomola
+|-damage|p2a: Alomomola|91/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: geovanedias|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|move|p2a: Alomomola|Scald|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|55/100
+|
+|-heal|p1a: Iron Treads|61/100|[from] item: Leftovers
+|-heal|p2a: Alomomola|97/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1760322462
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Raikou|Raikou, tera:Flying|100/100
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Alomomola|Scald|p1a: Raikou
+|-damage|p1a: Raikou|88/100
+|
+|-heal|p2a: Alomomola|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760322474
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|move|p1a: Raikou|Light Screen|p1a: Raikou
+|-sidestart|p1: geovanedias|move: Light Screen
+|
+|upkeep
+|turn|14
+|
+|t:|1760322479
+|move|p1a: Raikou|Reflect|p1a: Raikou
+|-sidestart|p1: geovanedias|Reflect
+|move|p2a: Iron Treads|Rapid Spin|p1a: Raikou
+|-damage|p1a: Raikou|77/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: wysenberg|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|15
+|
+|t:|1760322493
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-item|p2a: Raging Bolt|Air Balloon
+|switch|p1a: Raikou|Raikou|100/100
+|
+|upkeep
+|-start|p1a: Raikou|typechange|Flying|[silent]
+|turn|16
+|
+|t:|1760322512
+|move|p1a: Raikou|Shadow Ball|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|66/100
+|-enditem|p2a: Raging Bolt|Air Balloon
+|move|p2a: Raging Bolt|Volt Switch|p1a: Raikou
+|-damage|p1a: Raikou|56/100
+|replace|p1a: Zoroark|Zoroark-Hisui, M
+|-end|p1a: Zoroark|Illusion
+|
+|t:|1760322525
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zoroark|atk|1
+|
+|upkeep
+|turn|17
+|
+|t:|1760322541
+|move|p1a: Zoroark|Will-O-Wisp|p2a: Landorus
+|-status|p2a: Landorus|brn
+|move|p2a: Landorus|Stealth Rock|p1a: Zoroark
+|-sidestart|p1: geovanedias|move: Stealth Rock
+|
+|-damage|p2a: Landorus|94/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1760322550
+|move|p1a: Zoroark|Shadow Ball|p2a: Landorus
+|-damage|p2a: Landorus|42/100 brn
+|move|p2a: Landorus|Rock Slide|p1a: Zoroark
+|-damage|p1a: Zoroark|38/100
+|-damage|p2a: Landorus|32/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Landorus|26/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1760322560
+|move|p1a: Zoroark|Hyper Voice|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1760322565
+|switch|p2a: Raging Bolt|Raging Bolt|66/100
+|turn|20
+|
+|t:|1760322570
+|move|p1a: Zoroark|Hyper Voice|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|28/100
+|move|p2a: Raging Bolt|Volt Switch|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|t:|1760322578
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Iron Treads|Iron Treads|97/100|[from] Volt Switch
+|
+|-sideend|p1: geovanedias|move: Light Screen
+|upkeep
+|
+|t:|1760322589
+|switch|p1a: Feraligatr|Feraligatr, M|70/100
+|-damage|p1a: Feraligatr|57/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1760322595
+|move|p2a: Iron Treads|Earthquake|p1a: Feraligatr
+|-damage|p1a: Feraligatr|28/100
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|
+|-sideend|p1: geovanedias|Reflect
+|upkeep
+|turn|22
+|
+|t:|1760322602
+|move|p1a: Feraligatr|Liquidation|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760322613
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|23
+|
+|t:|1760322635
+|move|p1a: Feraligatr|Crunch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|-message|wysenberg forfeited.
+|
+|win|geovanedias
+|raw|geovanedias's rating: 1040 &rarr; <strong>1078</strong><br />(+38 for winning)
+|raw|wysenberg's rating: 1076 &rarr; <strong>1052</strong><br />(-24 for losing)
+|l|☆wysenberg
+|player|p2|

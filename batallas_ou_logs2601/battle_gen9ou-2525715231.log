@@ -1,0 +1,291 @@
+|j|☆MonkeyKoko
+|j|☆Garnotashchimop
+|t:|1769314341
+|gametype|singles
+|player|p1|MonkeyKoko|red|
+|player|p2|Garnotashchimop|iris-gen5bw2|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Rotom-Wash|
+|poke|p1|Iron Valiant|
+|poke|p1|Corviknight, F|
+|poke|p1|Charizard, F|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p2|Bisharp, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Ribombee, M|
+|poke|p2|Slowking, F|
+|poke|p2|Empoleon, F|
+|teampreview
+|
+|t:|1769314359
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|turn|1
+|
+|t:|1769314367
+|move|p1a: Rotom|Volt Switch|p2a: Ribombee
+|-damage|p2a: Ribombee|43/100
+|
+|t:|1769314383
+|switch|p1a: Big Chungazard|Charizard, F, shiny|100/100|[from] Volt Switch
+|move|p2a: Ribombee|Sticky Web|p1a: Big Chungazard
+|-sidestart|p1: MonkeyKoko|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1769314390
+|move|p2a: Ribombee|Stun Spore|p1a: Big Chungazard
+|-status|p1a: Big Chungazard|par
+|cant|p1a: Big Chungazard|par
+|
+|upkeep
+|turn|3
+|
+|t:|1769314399
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Big Chungazard|Flame Charge|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|87/100
+|-boost|p1a: Big Chungazard|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1769314408
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Big Chungazard|Flame Charge|p2a: Cinderace
+|-damage|p2a: Cinderace|61/100
+|-boost|p1a: Big Chungazard|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1769314420
+|move|p2a: Cinderace|U-turn|p1a: Big Chungazard
+|-resisted|p1a: Big Chungazard
+|-damage|p1a: Big Chungazard|92/100 par
+|
+|t:|1769314425
+|switch|p2a: Slowking|Slowking, F|100/100|[from] U-turn
+|move|p1a: Big Chungazard|Belly Drum|p1a: Big Chungazard
+|-damage|p1a: Big Chungazard|42/100 par
+|-setboost|p1a: Big Chungazard|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Big Chungazard|Sitrus Berry|[eat]
+|-heal|p1a: Big Chungazard|67/100 par|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|6
+|
+|t:|1769314429
+|move|p1a: Big Chungazard|Acrobatics|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1769314436
+|switch|p2a: Empoleon|Empoleon, F|100/100
+|-activate|p2a: Empoleon|move: Sticky Web
+|-unboost|p2a: Empoleon|spe|1
+|-ability|p2a: Empoleon|Competitive|boost
+|-boost|p2a: Empoleon|spa|2
+|turn|7
+|
+|t:|1769314445
+|-terastallize|p1a: Big Chungazard|Flying
+|move|p1a: Big Chungazard|Earthquake|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|upkeep
+|
+|t:|1769314455
+|switch|p2a: Cinderace|Cinderace, M|61/100
+|turn|8
+|
+|t:|1769314459
+|move|p2a: Cinderace|Pyro Ball|p1a: Big Chungazard
+|-damage|p1a: Big Chungazard|0 fnt
+|faint|p1a: Big Chungazard
+|
+|upkeep
+|
+|t:|1769314487
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|9
+|
+|t:|1769314497
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Cinderace|Pyro Ball|p1a: Iron Valiant|[miss]
+|-miss|p2a: Cinderace|p1a: Iron Valiant
+|
+|upkeep
+|turn|10
+|
+|t:|1769314505
+|move|p1a: Iron Valiant|Thunderbolt|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1769314520
+|switch|p2a: Ribombee|Ribombee, M|43/100
+|-activate|p2a: Ribombee|move: Sticky Web
+|-unboost|p2a: Ribombee|spe|1
+|turn|11
+|
+|t:|1769314526
+|move|p1a: Iron Valiant|Moonblast|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1769314531
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-activate|p2a: Bisharp|move: Sticky Web
+|-unboost|p2a: Bisharp|spe|1
+|-ability|p2a: Bisharp|Defiant|boost
+|-boost|p2a: Bisharp|atk|2
+|turn|12
+|
+|t:|1769314538
+|move|p1a: Iron Valiant|Thunderbolt|p2a: Bisharp
+|-damage|p2a: Bisharp|59/100
+|move|p2a: Bisharp|Iron Head|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769314548
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|turn|13
+|
+|t:|1769314555
+|move|p1a: Corviknight|Flamethrower|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|1/100
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|14
+|
+|t:|1769314564
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|upkeep
+|turn|15
+|
+|t:|1769314571
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|move|p2a: Bisharp|Throat Chop|p1a: Corviknight
+|-damage|p1a: Corviknight|47/100
+|-start|p1a: Corviknight|Throat Chop|[silent]
+|-damage|p2a: Bisharp|0 fnt|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|t:|1769314579
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|move: Sticky Web
+|-unboost|p2a: Kingambit|spe|1
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|16
+|
+|t:|1769314586
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-terastallize|p2a: Kingambit|Ghost
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|17
+|
+|t:|1769314598
+|move|p1a: Rotom|Trick|p2a: Kingambit
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Kingambit
+|-item|p2a: Kingambit|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1769314609
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|turn|18
+|
+|t:|1769314614
+|move|p1a: Corviknight|Flamethrower|p2a: Kingambit
+|-damage|p2a: Kingambit|66/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|replace|p1a: Zoroark|Zoroark-Hisui, F
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|t:|1769314631
+|switch|p1a: Corviknight|Corviknight, F|47/100
+|turn|19
+|
+|t:|1769314635
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Kingambit|49/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1769314638
+|switch|p1a: Clever Girl|Walking Wake|100/100
+|turn|20
+|
+|t:|1769314642
+|move|p1a: Clever Girl|Hydro Steam|p2a: Kingambit
+|-damage|p2a: Kingambit|3/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Clever Girl
+|-damage|p1a: Clever Girl|0 fnt
+|faint|p1a: Clever Girl
+|-end|p1a: Clever Girl|Protosynthesis|[silent]
+|
+|win|Garnotashchimop

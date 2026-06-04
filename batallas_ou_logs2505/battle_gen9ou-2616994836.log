@@ -1,0 +1,230 @@
+|j|☆YoSoyDelBronx
+|j|☆pokecutieismyname
+|t:|1779636780
+|gametype|singles
+|player|p1|YoSoyDelBronx|noland|1346
+|player|p2|pokecutieismyname|scientistf|1335
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Venusaur, M|
+|poke|p1|Walking Wake|
+|poke|p1|Brute Bonnet|
+|poke|p1|Great Tusk|
+|poke|p1|Golem-Alola, M|
+|poke|p2|Porygon2|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Volcanion|
+|poke|p2|Cresselia, F|
+|teampreview
+|
+|t:|1779636796
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Emongus|Brute Bonnet, shiny|100/100
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|-enditem|p1a: Emongus|Booster Energy
+|-activate|p1a: Emongus|ability: Protosynthesis|[fromitem]
+|-start|p1a: Emongus|protosynthesisatk
+|turn|1
+|
+|t:|1779636811
+|move|p1a: Emongus|Thief|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|38/100
+|-enditem|p2a: Cresselia|Mental Herb|[silent]|[from] move: Thief|[of] p1a: Emongus
+|-item|p1a: Emongus|Mental Herb|[from] move: Thief|[of] p2a: Cresselia
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|upkeep
+|turn|2
+|
+|t:|1779636819
+|move|p1a: Emongus|Sucker Punch||[still]
+|-fail|p1a: Emongus
+|move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
+|faint|p2a: Cresselia
+|
+|upkeep
+|
+|t:|1779636828
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1779636840
+|move|p2a: Torkoal|Eruption|p1a: Emongus
+|-supereffective|p1a: Emongus
+|-crit|p1a: Emongus
+|-damage|p1a: Emongus|0 fnt
+|faint|p1a: Emongus
+|-end|p1a: Emongus|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779636844
+|switch|p1a: Weiki|Walking Wake|100/100
+|-activate|p1a: Weiki|ability: Protosynthesis
+|-start|p1a: Weiki|protosynthesisspe
+|turn|4
+|
+|t:|1779636853
+|-terastallize|p1a: Weiki|Water
+|move|p2a: Torkoal|Solar Beam||[still]
+|-prepare|p2a: Torkoal|Solar Beam
+|-anim|p2a: Torkoal|Solar Beam|p1a: Weiki
+|-supereffective|p1a: Weiki
+|-damage|p1a: Weiki|18/100
+|move|p1a: Weiki|Draco Meteor|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-unboost|p1a: Weiki|spa|2
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779636868
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|5
+|
+|t:|1779636874
+|-end|p1a: Weiki|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Ursaluna|Facade|p1a: Great Tusk
+|-damage|p1a: Great Tusk|73/100
+|-damage|p2a: Ursaluna|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1779636887
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779636899
+|move|p1a: Great Tusk|Headlong Rush|p2a: Porygon2
+|-damage|p2a: Porygon2|65/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Porygon2|Ice Beam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1779636905
+|switch|p1a: SimaSoyYo|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: SimaSoyYo
+|turn|8
+|
+|t:|1779636914
+|move|p1a: SimaSoyYo|Encore|p2a: Porygon2
+|-start|p2a: Porygon2|Encore
+|move|p2a: Porygon2|Ice Beam|p1a: SimaSoyYo
+|-resisted|p1a: SimaSoyYo
+|-damage|p1a: SimaSoyYo|84/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1779636922
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: SimaSoyYo|Healing Wish|p1a: SimaSoyYo
+|faint|p1a: SimaSoyYo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779636925
+|switch|p1a: Weiki|Walking Wake, tera:Water|18/100
+|-heal|p1a: Weiki|100/100|[from] move: Healing Wish
+|-activate|p1a: Weiki|ability: Protosynthesis
+|-start|p1a: Weiki|protosynthesisspe
+|turn|10
+|
+|t:|1779636938
+|move|p1a: Weiki|Flip Turn|p2a: Hatterene
+|-damage|p2a: Hatterene|87/100
+|
+|t:|1779636941
+|-end|p1a: Weiki|Protosynthesis|[silent]
+|switch|p1a: Hustle Hard|Golem-Alola, M, shiny|100/100|[from] Flip Turn
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779636957
+|switch|p2a: Ursaluna|Ursaluna, F|84/100 brn
+|-heal|p2a: Ursaluna|100/100|[from] move: Lunar Dance
+|move|p1a: Hustle Hard|Explosion|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p1a: Hustle Hard
+|faint|p2a: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779636969
+|switch|p1a: Sapopeta|Venusaur, M|100/100
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|12
+|
+|t:|1779636981
+|move|p2a: Volcanion|Overheat|p1a: Sapopeta
+|-supereffective|p1a: Sapopeta
+|-damage|p1a: Sapopeta|0 fnt
+|-unboost|p2a: Volcanion|spa|2
+|faint|p1a: Sapopeta
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779636983
+|switch|p1a: Weiki|Walking Wake, tera:Water|100/100
+|-activate|p1a: Weiki|ability: Protosynthesis
+|-start|p1a: Weiki|protosynthesisspe
+|turn|13
+|-message|YoSoyDelBronx forfeited.
+|
+|win|pokecutieismyname
+|raw|YoSoyDelBronx's rating: 1346 &rarr; <strong>1325</strong><br />(-21 for losing)
+|raw|pokecutieismyname's rating: 1335 &rarr; <strong>1356</strong><br />(+21 for winning)
+|l|☆YoSoyDelBronx
+|player|p1|
+|l|☆pokecutieismyname
+|player|p2|

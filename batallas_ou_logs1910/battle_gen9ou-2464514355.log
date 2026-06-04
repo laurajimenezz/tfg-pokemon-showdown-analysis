@@ -1,0 +1,326 @@
+|j|☆phonekretchy
+|j|☆Plesentbat
+|t:|1760863206
+|gametype|singles
+|player|p1|phonekretchy|1|1202
+|player|p2|Plesentbat|101|1237
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Whimsicott, F|
+|poke|p1|Sunflora, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Mimikyu, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Treads|
+|poke|p2|Quaquaval, F|
+|poke|p2|Hawlucha, F|
+|teampreview
+|
+|t:|1760863218
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1760863225
+|move|p2a: Rillaboom|U-turn|p1a: Whimsicott
+|-damage|p1a: Whimsicott|67/100
+|
+|t:|1760863234
+|switch|p2a: Iron Treads|Iron Treads, shiny|100/100|[from] U-turn
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Whimsicott|Trick Room|p1a: Whimsicott
+|-fieldstart|move: Trick Room|[of] p1a: Whimsicott
+|
+|-heal|p1a: Whimsicott|74/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1760863245
+|move|p1a: Whimsicott|Sunny Day|p1a: Whimsicott
+|-weather|SunnyDay
+|move|p2a: Iron Treads|Stealth Rock|p1a: Whimsicott
+|-sidestart|p1: phonekretchy|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Whimsicott|80/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1760863254
+|move|p1a: Whimsicott|Memento|p2a: Iron Treads
+|-unboost|p2a: Iron Treads|atk|2
+|-unboost|p2a: Iron Treads|spa|2
+|faint|p1a: Whimsicott
+|move|p2a: Iron Treads|Steel Beam|p1: Whimsicott|[notarget]
+|-fail|p2a: Iron Treads
+|-damage|p2a: Iron Treads|50/100|[from] steelbeam
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Iron Treads|57/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760863259
+|switch|p1a: Sunflora|Sunflora, F|100/100
+|-damage|p1a: Sunflora|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1760863276
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|-terastallize|p1a: Sunflora|Fire
+|move|p1a: Sunflora|Weather Ball|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Sunflora|76/100|[from] ability: Solar Power|[of] p1a: Sunflora
+|-heal|p1a: Sunflora|82/100|[from] Grassy Terrain
+|-heal|p2a: Raging Bolt|31/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1760863290
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Stealth Rock
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mimikyu|94/100|[from] Grassy Terrain
+|-heal|p2a: Raging Bolt|37/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1760863303
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|-weather|none
+|-end|p2a: Raging Bolt|Protosynthesis
+|upkeep
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|7
+|
+|t:|1760863317
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-damage|p1a: Torkoal|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760863322
+|switch|p1a: Sunflora|Sunflora, F, tera:Fire|82/100
+|-damage|p1a: Sunflora|57/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1760863330
+|move|p2a: Raging Bolt|Thunderclap|p1a: Sunflora
+|-damage|p1a: Sunflora|1/100
+|move|p1a: Sunflora|Earth Power|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Sunflora|0 fnt|[from] ability: Solar Power|[of] p1a: Sunflora
+|faint|p1a: Sunflora
+|upkeep
+|
+|t:|1760863345
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|100/100
+|-damage|p1a: Raging Bolt|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|9
+|
+|t:|1760863360
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Rillaboom
+|-damage|p2a: Rillaboom|9/100
+|move|p2a: Rillaboom|U-turn|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|53/100
+|
+|t:|1760863367
+|switch|p2a: Iron Treads|Iron Treads, shiny|57/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Raging Bolt|59/100|[from] Grassy Terrain
+|-heal|p2a: Iron Treads|63/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1760863374
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|14/100
+|move|p2a: Iron Treads|Earth Power|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|20/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Raging Bolt|27/100|[from] Grassy Terrain
+|-heal|p2a: Iron Treads|20/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1760863385
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|move|p2a: Iron Treads|Earth Power|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|71/100
+|
+|-weather|none
+|-heal|p1a: Ogerpon|77/100|[from] Grassy Terrain
+|-heal|p2a: Iron Treads|27/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1760863398
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Iron Treads|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p1a: Ogerpon|83/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760863405
+|switch|p2a: Hawlucha|Hawlucha, F, shiny|100/100
+|-enditem|p2a: Hawlucha|Grassy Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Grassy Seed
+|turn|13
+|
+|t:|1760863415
+|move|p2a: Hawlucha|Acrobatics|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1760863417
+|switch|p1a: Mimikyu|Mimikyu, F|94/100
+|-damage|p1a: Mimikyu|82/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1760863426
+|move|p2a: Hawlucha|Acrobatics|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|82/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|69/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p1a: Mimikyu|Red Card|[of] p2a: Hawlucha
+|drag|p2a: Dragapult|Dragapult, F, shiny|100/100
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|upkeep
+|turn|15
+|
+|t:|1760863440
+|move|p1a: Mimikyu|Play Rough|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|29/100
+|move|p2a: Dragapult|Hex|p1a: Mimikyu
+|-supereffective|p1a: Mimikyu
+|-damage|p1a: Mimikyu|5/100
+|
+|upkeep
+|turn|16
+|
+|t:|1760863452
+|move|p1a: Mimikyu|Play Rough|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by phonekretchy)
+|
+|t:|1760863460
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|9/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|17
+|
+|t:|1760863466
+|move|p2a: Rillaboom|Grassy Glide|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-heal|p2a: Rillaboom|15/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760863468
+|switch|p1a: Raging Bolt|Raging Bolt|27/100
+|-damage|p1a: Raging Bolt|14/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1760863477
+|move|p1a: Raging Bolt|Thunderclap|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Raging Bolt|20/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760863485
+|switch|p2a: Quaquaval|Quaquaval, F, shiny|100/100
+|turn|19
+|
+|t:|1760863491
+|-terastallize|p2a: Quaquaval|Steel
+|move|p2a: Quaquaval|Close Combat|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|Plesentbat
+|raw|phonekretchy's rating: 1202 &rarr; <strong>1180</strong><br />(-22 for losing)
+|raw|Plesentbat's rating: 1237 &rarr; <strong>1259</strong><br />(+22 for winning)
+|l|☆phonekretchy
+|player|p1|
+|l|☆Plesentbat
+|player|p2|

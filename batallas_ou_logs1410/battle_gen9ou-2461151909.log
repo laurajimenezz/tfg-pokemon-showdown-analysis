@@ -1,0 +1,337 @@
+|j|☆Gamestore
+|j|☆pantlsg
+|t:|1760400587
+|gametype|singles
+|player|p1|Gamestore|steven|1080
+|player|p2|pantlsg|102|1068
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garchomp, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Sylveon, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Gengar, F|
+|poke|p1|Azumarill, M|
+|poke|p2|Pikachu-Kalos, M|
+|poke|p2|Meditite, F|
+|poke|p2|Wartortle, M|
+|poke|p2|Glimmet, M|
+|poke|p2|Qwilfish-Hisui, F|
+|poke|p2|Vullaby, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pantlsg)
+|
+|t:|1760400594
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Meditite|Meditite, F|100/100
+|turn|1
+|
+|t:|1760400604
+|-terastallize|p1a: Cinderace|Fire
+|move|p1a: Cinderace|Pyro Ball|p2a: Meditite
+|-enditem|p2a: Meditite|Focus Sash
+|-damage|p2a: Meditite|1/100
+|move|p2a: Meditite|Close Combat|p1a: Cinderace
+|-damage|p1a: Cinderace|5/100
+|-unboost|p2a: Meditite|def|1
+|-unboost|p2a: Meditite|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1760400618
+|move|p1a: Cinderace|U-turn|p2a: Meditite
+|-damage|p2a: Meditite|0 fnt
+|faint|p2a: Meditite
+|
+|t:|1760400622
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1760400636
+|switch|p2a: Pikachu|Pikachu-Kalos, M|100/100
+|turn|3
+|
+|t:|1760400642
+|-terastallize|p2a: Pikachu|Flying
+|move|p2a: Pikachu|Alluring Voice|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|44/100
+|move|p1a: Garchomp|Earthquake|p2a: Pikachu
+|-immune|p2a: Pikachu
+|
+|upkeep
+|turn|4
+|
+|t:|1760400653
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|move|p2a: Pikachu|Alluring Voice|p1a: Sylveon
+|-damage|p1a: Sylveon|85/100
+|
+|-heal|p1a: Sylveon|91/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760400665
+|move|p2a: Pikachu|Thunderbolt|p1a: Sylveon
+|-damage|p1a: Sylveon|65/100
+|move|p1a: Sylveon|Shadow Ball|p2a: Pikachu
+|-crit|p2a: Pikachu
+|-damage|p2a: Pikachu|12/100
+|-unboost|p2a: Pikachu|spd|1
+|
+|-heal|p1a: Sylveon|72/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760400675
+|move|p2a: Pikachu|Thunderbolt|p1a: Sylveon
+|-damage|p1a: Sylveon|46/100
+|-status|p1a: Sylveon|par
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760400683
+|move|p2a: Pikachu|Thunderbolt|p1a: Sylveon
+|-damage|p1a: Sylveon|26/100 par
+|move|p1a: Sylveon|Draining Kiss|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|-heal|p1a: Sylveon|30/100 par|[from] drain|[of] p2a: Pikachu
+|faint|p2a: Pikachu
+|
+|-heal|p1a: Sylveon|80/100 par|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Sylveon|87/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1760400700
+|switch|p2a: Qwilfish|Qwilfish-Hisui, F|100/100
+|turn|8
+|
+|t:|1760400706
+|switch|p1a: Garchomp|Garchomp, M|44/100
+|move|p2a: Qwilfish|Rain Dance|p2a: Qwilfish
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1760400715
+|move|p2a: Qwilfish|Liquidation|p1a: Garchomp
+|-crit|p1a: Garchomp
+|-damage|p1a: Garchomp|6/100
+|-damage|p2a: Qwilfish|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Qwilfish|72/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|move|p1a: Garchomp|Rest|p1a: Garchomp
+|-status|p1a: Garchomp|slp|[from] move: Rest
+|-heal|p1a: Garchomp|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760400729
+|move|p2a: Qwilfish|Liquidation|p1a: Garchomp
+|-damage|p1a: Garchomp|76/100 slp
+|-unboost|p1a: Garchomp|def|1
+|-damage|p2a: Qwilfish|60/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Qwilfish|43/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|cant|p1a: Garchomp|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760400740
+|move|p2a: Qwilfish|Liquidation|p1a: Garchomp
+|-damage|p1a: Garchomp|43/100 slp
+|-damage|p2a: Qwilfish|31/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Qwilfish|14/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|cant|p1a: Garchomp|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1760400750
+|move|p2a: Qwilfish|Liquidation|p1a: Garchomp
+|-damage|p1a: Garchomp|10/100 slp
+|-damage|p2a: Qwilfish|2/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Qwilfish|0 fnt|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|faint|p2a: Qwilfish
+|-curestatus|p1a: Garchomp|slp|[msg]
+|move|p1a: Garchomp|Rest|p1a: Garchomp
+|-status|p1a: Garchomp|slp|[from] move: Rest
+|-heal|p1a: Garchomp|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760400762
+|switch|p2a: Wartortle|Wartortle, M|100/100
+|turn|13
+|
+|t:|1760400767
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Wartortle|Shell Smash|p2a: Wartortle
+|-unboost|p2a: Wartortle|def|1
+|-unboost|p2a: Wartortle|spd|1
+|-boost|p2a: Wartortle|atk|2
+|-boost|p2a: Wartortle|spa|2
+|-boost|p2a: Wartortle|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Wartortle|94/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1760400780
+|move|p2a: Wartortle|Liquidation|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|2/100
+|move|p1a: Tyranitar|Knock Off|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|-enditem|p2a: Wartortle|Focus Sash|[from] move: Knock Off|[of] p1a: Tyranitar
+|faint|p2a: Wartortle
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1760400797
+|switch|p2a: Glimmet|Glimmet, M|100/100
+|turn|15
+|
+|t:|1760400805
+|switch|p1a: Sylveon|Sylveon, M|87/100 par
+|move|p2a: Glimmet|Dazzling Gleam|p1a: Sylveon
+|-damage|p1a: Sylveon|72/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sylveon|65/100 par|[from] Sandstorm
+|-heal|p1a: Sylveon|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1760400815
+|move|p2a: Glimmet|Sludge Wave|p1a: Sylveon
+|-supereffective|p1a: Sylveon
+|-damage|p1a: Sylveon|21/100 par
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sylveon|15/100 par|[from] Sandstorm
+|-heal|p1a: Sylveon|21/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1760400823
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Glimmet|Sludge Wave|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-weather|none
+|-heal|p1a: Sylveon|71/100 par|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Sylveon|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1760400837
+|switch|p1a: Tyranitar|Tyranitar, F|2/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Glimmet|Sludge Wave|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1760400847
+|switch|p1a: Cinderace|Cinderace, F, tera:Fire|5/100
+|turn|19
+|
+|t:|1760400857
+|move|p1a: Cinderace|High Jump Kick|p2a: Glimmet
+|-enditem|p2a: Glimmet|Focus Sash
+|-damage|p2a: Glimmet|1/100
+|-activate|p2a: Glimmet|ability: Toxic Debris
+|-sidestart|p1: Gamestore|move: Toxic Spikes
+|move|p2a: Glimmet|Power Gem|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1760400868
+|switch|p1a: Gengar|Gengar, F|100/100
+|-sideend|p1: Gamestore|move: Toxic Spikes|[of] p1a: Gengar
+|turn|20
+|
+|t:|1760400874
+|move|p1a: Gengar|Sludge Wave|p2a: Glimmet
+|-resisted|p2a: Glimmet
+|-damage|p2a: Glimmet|0 fnt
+|faint|p2a: Glimmet
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1760400880
+|switch|p2a: Vullaby|Vullaby, F|100/100
+|turn|21
+|
+|t:|1760400885
+|move|p1a: Gengar|Sludge Wave|p2a: Vullaby
+|-damage|p2a: Vullaby|51/100
+|move|p2a: Vullaby|Whirlwind|p1a: Gengar
+|drag|p1a: Sylveon|Sylveon, M|77/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vullaby|45/100|[from] Sandstorm
+|-damage|p1a: Sylveon|71/100 par|[from] Sandstorm
+|-heal|p1a: Sylveon|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1760400896
+|move|p2a: Vullaby|Toxic||[still]
+|-fail|p2a: Vullaby
+|move|p1a: Sylveon|Draining Kiss|p2a: Vullaby
+|-supereffective|p2a: Vullaby
+|-damage|p2a: Vullaby|8/100
+|-heal|p1a: Sylveon|100/100 par|[from] drain|[of] p2a: Vullaby
+|
+|-weather|none
+|upkeep
+|turn|23
+|-message|pantlsg forfeited.
+|
+|win|Gamestore
+|raw|Gamestore's rating: 1080 &rarr; <strong>1107</strong><br />(+27 for winning)
+|raw|pantlsg's rating: 1068 &rarr; <strong>1048</strong><br />(-20 for losing)
+|l|☆pantlsg
+|player|p2|
+|l|☆Gamestore
+|player|p1|

@@ -1,0 +1,422 @@
+|j|☆brlt2 blemeno
+|j|☆basic_name
+|t:|1758312822
+|gametype|singles
+|player|p1|brlt2 blemeno|2|1459
+|player|p2|basic_name|collector|1465
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, M|
+|poke|p1|Walking Wake|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Comfey, M|
+|poke|p1|Ceruledge, F|
+|poke|p2|Maushold|
+|poke|p2|Gastrodon, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Ting-Lu|
+|poke|p2|Serperior, F|
+|poke|p2|Weavile, F|
+|teampreview
+|
+|t:|1758312834
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Daydream|Ninetales, M, shiny|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Daydream
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1758312837
+|switch|p1a: Duko|Hatterene, F, shiny|100/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Duko
+|-damage|p1a: Duko|73/100
+|-enditem|p1a: Duko|Eject Button
+|
+|t:|1758312839
+|switch|p1a: Glass Shadows|Ceruledge, F, shiny|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758312843
+|move|p1a: Glass Shadows|Solar Blade||[still]
+|-prepare|p1a: Glass Shadows|Solar Blade
+|-anim|p1a: Glass Shadows|Solar Blade|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|52/100
+|move|p2a: Ting-Lu|Ruination|p1a: Glass Shadows
+|-damage|p1a: Glass Shadows|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|58/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1758312847
+|move|p1a: Glass Shadows|Endure|p1a: Glass Shadows
+|-singleturn|p1a: Glass Shadows|move: Endure
+|move|p2a: Ting-Lu|Earthquake|p1a: Glass Shadows
+|-supereffective|p1a: Glass Shadows
+|-activate|p1a: Glass Shadows|move: Endure
+|-damage|p1a: Glass Shadows|1/100
+|-ability|p1a: Glass Shadows|Weak Armor|boost
+|-unboost|p1a: Glass Shadows|def|1
+|-boost|p1a: Glass Shadows|spe|2
+|-enditem|p1a: Glass Shadows|Weakness Policy
+|-boost|p1a: Glass Shadows|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Glass Shadows|spa|2|[from] item: Weakness Policy
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|65/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1758312852
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|move|p1a: Glass Shadows|Bitter Blade|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|45/100
+|-heal|p1a: Glass Shadows|42/100|[from] drain|[of] p2a: Gastrodon
+|-damage|p1a: Glass Shadows|25/100|[from] item: Rocky Helmet|[of] p2a: Gastrodon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758312859
+|move|p1a: Glass Shadows|Bitter Blade|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-heal|p1a: Glass Shadows|58/100|[from] drain|[of] p2a: Gastrodon
+|-damage|p1a: Glass Shadows|41/100|[from] item: Rocky Helmet|[of] p2a: Gastrodon
+|faint|p2a: Gastrodon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758312866
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|6
+|
+|t:|1758312872
+|move|p2a: Weavile|Ice Shard|p1a: Glass Shadows
+|-resisted|p1a: Glass Shadows
+|-damage|p1a: Glass Shadows|20/100
+|-ability|p1a: Glass Shadows|Weak Armor|boost
+|-unboost|p1a: Glass Shadows|def|1
+|-boost|p1a: Glass Shadows|spe|2
+|move|p1a: Glass Shadows|Bitter Blade|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-heal|p1a: Glass Shadows|69/100|[from] drain|[of] p2a: Weavile
+|faint|p2a: Weavile
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758312877
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|7
+|
+|t:|1758312882
+|move|p1a: Glass Shadows|Bitter Blade|p2a: Zamazenta
+|-damage|p2a: Zamazenta|9/100
+|-heal|p1a: Glass Shadows|100/100|[from] drain|[of] p2a: Zamazenta
+|move|p2a: Zamazenta|Stone Edge|p1a: Glass Shadows
+|-supereffective|p1a: Glass Shadows
+|-damage|p1a: Glass Shadows|0 fnt
+|faint|p1a: Glass Shadows
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758312892
+|switch|p1a: Mr. Banana|Walking Wake|100/100
+|-activate|p1a: Mr. Banana|ability: Protosynthesis
+|-start|p1a: Mr. Banana|protosynthesisspe
+|turn|8
+|
+|t:|1758312901
+|move|p1a: Mr. Banana|Flamethrower|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-weather|none
+|-end|p1a: Mr. Banana|Protosynthesis
+|upkeep
+|
+|t:|1758312903
+|switch|p2a: Ting-Lu|Ting-Lu|65/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|9
+|
+|t:|1758312907
+|-end|p1a: Mr. Banana|Protosynthesis|[silent]
+|switch|p1a: Duko|Hatterene, F, shiny|73/100
+|-terastallize|p2a: Ting-Lu|Water
+|move|p2a: Ting-Lu|Ruination|p1a: Duko
+|-damage|p1a: Duko|37/100
+|
+|-heal|p2a: Ting-Lu|71/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758312914
+|move|p2a: Ting-Lu|Earthquake|p1a: Duko
+|-damage|p1a: Duko|6/100
+|move|p1a: Duko|Nuzzle|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|66/100
+|-status|p2a: Ting-Lu|par
+|
+|-heal|p2a: Ting-Lu|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758312924
+|switch|p2a: Maushold|Maushold|100/100
+|move|p1a: Duko|Psychic Noise|p2a: Maushold
+|-damage|p2a: Maushold|49/100
+|-start|p2a: Maushold|move: Heal Block
+|
+|upkeep
+|turn|12
+|
+|t:|1758312927
+|move|p2a: Maushold|Population Bomb|p1a: Duko
+|-damage|p1a: Duko|0 fnt
+|faint|p1a: Duko
+|-hitcount|p1: Duko|1
+|
+|-end|p2a: Maushold|move: Heal Block
+|upkeep
+|
+|t:|1758312929
+|switch|p1a: Daydream|Ninetales, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Daydream
+|turn|13
+|
+|t:|1758312934
+|-terastallize|p1a: Daydream|Ghost
+|move|p2a: Maushold|Population Bomb|p1a: Daydream
+|-immune|p1a: Daydream
+|move|p1a: Daydream|Weather Ball|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758312938
+|switch|p2a: Serperior|Serperior, F|100/100
+|turn|14
+|
+|t:|1758312949
+|switch|p2a: Ting-Lu|Ting-Lu, tera:Water|72/100 par
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Daydream|Weather Ball|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|63/100 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758312961
+|switch|p1a: Asmi|Comfey, M, shiny|100/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Asmi
+|-damage|p1a: Asmi|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758312968
+|switch|p2a: Serperior|Serperior, F|100/100
+|move|p1a: Asmi|Growth|p1a: Asmi
+|-boost|p1a: Asmi|atk|2
+|-boost|p1a: Asmi|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1758312974
+|move|p1a: Asmi|Draining Kiss|p2a: Serperior
+|-damage|p2a: Serperior|54/100
+|-heal|p1a: Asmi|98/100|[from] drain|[of] p2a: Serperior
+|-damage|p1a: Asmi|88/100|[from] item: Life Orb
+|move|p2a: Serperior|Leech Seed|p1a: Asmi
+|-start|p1a: Asmi|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Serperior|60/100|[from] item: Leftovers
+|-damage|p1a: Asmi|75/100|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|71/100|[silent]
+|upkeep
+|turn|18
+|
+|t:|1758312978
+|move|p1a: Asmi|Draining Kiss|p2a: Serperior
+|-damage|p2a: Serperior|24/100
+|-heal|p1a: Asmi|100/100|[from] drain|[of] p2a: Serperior
+|-damage|p1a: Asmi|91/100|[from] item: Life Orb
+|move|p2a: Serperior|Glare|p1a: Asmi
+|-status|p1a: Asmi|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Serperior|30/100|[from] item: Leftovers
+|-damage|p1a: Asmi|78/100 par|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|41/100|[silent]
+|upkeep
+|turn|19
+|
+|t:|1758312982
+|switch|p2a: Ting-Lu|Ting-Lu, tera:Water|76/100 par
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Asmi|Draining Kiss|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|56/100 par
+|-heal|p1a: Asmi|100/100 par|[from] drain|[of] p2a: Ting-Lu
+|-damage|p1a: Asmi|91/100 par|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|62/100 par|[from] item: Leftovers
+|-damage|p1a: Asmi|78/100 par|[from] Leech Seed|[of] p2a: Ting-Lu
+|-heal|p2a: Ting-Lu|69/100 par|[silent]
+|upkeep
+|turn|20
+|
+|t:|1758312992
+|switch|p1a: Luisin|Great Tusk|100/100
+|-activate|p1a: Luisin|ability: Protosynthesis
+|-start|p1a: Luisin|protosynthesisatk
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Luisin
+|-sidestart|p1: brlt2 blemeno|move: Stealth Rock
+|
+|-weather|none
+|-end|p1a: Luisin|Protosynthesis
+|-heal|p2a: Ting-Lu|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1758312998
+|move|p1a: Luisin|Rapid Spin|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|63/100 par
+|-boost|p1a: Luisin|spe|1
+|-sideend|p1: brlt2 blemeno|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Luisin
+|-damage|p1a: Luisin|90/100|[from] item: Life Orb
+|move|p2a: Ting-Lu|Ruination|p1a: Luisin
+|-damage|p1a: Luisin|46/100
+|
+|-heal|p2a: Ting-Lu|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1758313018
+|-end|p1a: Luisin|Protosynthesis|[silent]
+|switch|p1a: Daydream|Ninetales, M, shiny, tera:Ghost|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Daydream
+|move|p2a: Ting-Lu|Earthquake|p1a: Daydream
+|-damage|p1a: Daydream|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1758313029
+|move|p1a: Daydream|Healing Wish|p1a: Daydream
+|faint|p1a: Daydream
+|move|p2a: Ting-Lu|Stealth Rock|p1: Daydream
+|-sidestart|p1: brlt2 blemeno|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|82/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1758313032
+|switch|p1a: Luisin|Great Tusk|46/100
+|-heal|p1a: Luisin|100/100|[from] move: Healing Wish
+|-damage|p1a: Luisin|98/100|[from] Stealth Rock
+|-activate|p1a: Luisin|ability: Protosynthesis
+|-start|p1a: Luisin|protosynthesisatk
+|turn|24
+|
+|t:|1758313038
+|move|p1a: Luisin|Rapid Spin|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|65/100 par
+|-boost|p1a: Luisin|spe|1
+|-sideend|p1: brlt2 blemeno|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Luisin
+|-damage|p1a: Luisin|88/100|[from] item: Life Orb
+|move|p2a: Ting-Lu|Ruination|p1a: Luisin|[miss]
+|-miss|p2a: Ting-Lu|p1a: Luisin
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1758313042
+|move|p1a: Luisin|Headlong Rush|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|16/100 par
+|-unboost|p1a: Luisin|def|1
+|-unboost|p1a: Luisin|spd|1
+|-damage|p1a: Luisin|78/100|[from] item: Life Orb
+|move|p2a: Ting-Lu|Ruination|p1a: Luisin
+|-damage|p1a: Luisin|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|22/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1758313046
+|move|p1a: Luisin|Close Combat|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|-unboost|p1a: Luisin|def|1
+|-unboost|p1a: Luisin|spd|1
+|faint|p2a: Ting-Lu
+|-damage|p1a: Luisin|29/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758313048
+|switch|p2a: Serperior|Serperior, F|41/100
+|turn|27
+|
+|t:|1758313051
+|move|p1a: Luisin|Close Combat|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|-unboost|p1a: Luisin|def|1
+|-unboost|p1a: Luisin|spd|1
+|faint|p2a: Serperior
+|-damage|p1a: Luisin|19/100|[from] item: Life Orb
+|
+|win|brlt2 blemeno
+|raw|brlt2 blemeno's rating: 1459 &rarr; <strong>1479</strong><br />(+20 for winning)
+|raw|basic_name's rating: 1465 &rarr; <strong>1445</strong><br />(-20 for losing)
+|l|☆basic_name
+|player|p2|
+|l|☆brlt2 blemeno
+|player|p1|

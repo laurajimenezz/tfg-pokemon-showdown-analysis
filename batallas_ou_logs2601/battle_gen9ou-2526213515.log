@@ -1,0 +1,292 @@
+|j|☆localdealerr
+|j|☆sampoke19
+|t:|1769383497
+|gametype|singles
+|player|p1|localdealerr|266|1571
+|player|p2|sampoke19|265|1504
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, F|
+|poke|p1|Ogerpon, F|
+|poke|p1|Gholdengo|
+|poke|p1|Cinderace, F|
+|poke|p1|Zapdos|
+|poke|p1|Primarina, M|
+|poke|p2|Blastoise, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Volcanion|
+|poke|p2|Great Tusk|
+|poke|p2|Haxorus, M|
+|teampreview
+|
+|t:|1769383510
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|1
+|
+|t:|1769383518
+|move|p2a: Great Tusk|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: localdealerr|move: Stealth Rock
+|move|p1a: Zapdos|Hurricane|p2a: Great Tusk|[miss]
+|-miss|p1a: Zapdos|p2a: Great Tusk
+|
+|upkeep
+|turn|2
+|
+|t:|1769383526
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|move|p1a: Zapdos|Hurricane|p2a: Kingambit|[miss]
+|-miss|p1a: Zapdos|p2a: Kingambit
+|
+|upkeep
+|turn|3
+|
+|t:|1769383532
+|move|p1a: Zapdos|Discharge|p2a: Kingambit
+|-damage|p2a: Kingambit|73/100
+|-status|p2a: Kingambit|par
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|4
+|
+|t:|1769383540
+|move|p1a: Zapdos|Discharge|p2a: Kingambit
+|-damage|p2a: Kingambit|42/100 par
+|-enditem|p2a: Kingambit|Sitrus Berry|[eat]
+|-heal|p2a: Kingambit|67/100 par|[from] item: Sitrus Berry
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Zapdos
+|-damage|p1a: Zapdos|21/100
+|
+|upkeep
+|turn|5
+|
+|t:|1769383549
+|move|p2a: Kingambit|Sucker Punch|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1769383560
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1769383565
+|move|p1a: Cinderace|Swords Dance|p1a: Cinderace
+|-boost|p1a: Cinderace|atk|2
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1769383569
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|7
+|
+|t:|1769383576
+|move|p1a: Rillaboom|High Horsepower|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|4/100 par
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Kingambit|10/100 par|[from] Grassy Terrain
+|upkeep
+|
+|t:|1769383580
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1769383589
+|move|p1a: Ogerpon|Grassy Glide|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|
+|-heal|p1a: Ogerpon|94/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1769383611
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|9
+|
+|t:|1769383618
+|switch|p1a: Primarina|Primarina, M|100/100
+|-damage|p1a: Primarina|88/100|[from] Stealth Rock
+|move|p2a: Volcanion|Fire Blast|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|64/100
+|
+|-heal|p1a: Primarina|70/100|[from] Grassy Terrain
+|-heal|p1a: Primarina|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1769383631
+|switch|p2a: Blastoise|Blastoise, M, shiny|100/100
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-start|p1a: Primarina|Substitute
+|-damage|p1a: Primarina|51/100
+|
+|-heal|p1a: Primarina|57/100|[from] Grassy Terrain
+|-heal|p1a: Primarina|63/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1769383640
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|-enditem|p2a: Blastoise|White Herb
+|-clearnegativeboost|p2a: Blastoise|[silent]
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|-heal|p1a: Primarina|69/100|[from] Grassy Terrain
+|-heal|p1a: Primarina|75/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1769383654
+|-terastallize|p2a: Blastoise|Grass
+|move|p2a: Blastoise|Tera Blast|p1a: Primarina|[anim] Tera Blast Grass
+|-supereffective|p1a: Primarina
+|-end|p1a: Primarina|Substitute
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|-heal|p1a: Primarina|82/100|[from] Grassy Terrain
+|-heal|p1a: Primarina|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1769383669
+|-terastallize|p1a: Primarina|Steel
+|move|p2a: Blastoise|Tera Blast|p1a: Primarina|[anim] Tera Blast Grass
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|70/100
+|move|p1a: Primarina|Draining Kiss|p2a: Blastoise
+|-damage|p2a: Blastoise|59/100
+|-heal|p1a: Primarina|95/100|[from] drain|[of] p2a: Blastoise
+|
+|-heal|p2a: Blastoise|65/100|[from] Grassy Terrain
+|-heal|p1a: Primarina|100/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1769383681
+|move|p2a: Blastoise|Hydro Pump|p1a: Primarina
+|-damage|p1a: Primarina|59/100
+|move|p1a: Primarina|Draining Kiss|p2a: Blastoise
+|-damage|p2a: Blastoise|20/100
+|-heal|p1a: Primarina|87/100|[from] drain|[of] p2a: Blastoise
+|
+|-heal|p2a: Blastoise|26/100|[from] Grassy Terrain
+|-heal|p1a: Primarina|93/100|[from] Grassy Terrain
+|-heal|p1a: Primarina|99/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1769383692
+|move|p2a: Blastoise|Hydro Pump|p1a: Primarina|[miss]
+|-miss|p2a: Blastoise|p1a: Primarina
+|move|p1a: Primarina|Draining Kiss|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|-heal|p1a: Primarina|100/100|[from] drain|[of] p2a: Blastoise
+|faint|p2a: Blastoise
+|
+|upkeep
+|
+|t:|1769383704
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|16
+|
+|t:|1769383708
+|move|p2a: Ceruledge|Bitter Blade|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|15/100
+|move|p1a: Primarina|Psychic Noise|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-start|p2a: Ceruledge|move: Heal Block
+|
+|-heal|p1a: Primarina|21/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1769383720
+|move|p2a: Ceruledge|Poltergeist|p1a: Primarina
+|-activate|p1a: Primarina|move: Poltergeist|Leftovers
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|-end|p2a: Ceruledge|move: Heal Block
+|upkeep
+|
+|t:|1769383727
+|switch|p1a: Ogerpon|Ogerpon, F|94/100
+|-damage|p1a: Ogerpon|82/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1769383732
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1769383738
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|19
+|
+|t:|1769383741
+|move|p2a: Volcanion|Fire Blast|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|-message|localdealerr forfeited.
+|
+|win|sampoke19
+|raw|localdealerr's rating: 1571 &rarr; <strong>1547</strong><br />(-24 for losing)
+|raw|sampoke19's rating: 1504 &rarr; <strong>1528</strong><br />(+24 for winning)
+|l|☆localdealerr
+|player|p1|
+|l|☆sampoke19
+|player|p2|

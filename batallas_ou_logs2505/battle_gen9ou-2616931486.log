@@ -1,0 +1,401 @@
+|j|☆Joopey
+|j|☆broski07
+|t:|1779629323
+|gametype|singles
+|player|p1|Joopey|policeman-gen4|1156
+|player|p2|broski07|266|1226
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Clodsire, M|
+|poke|p1|Surskit, F|
+|poke|p1|Carkol, F|
+|poke|p1|Azelf|
+|poke|p1|Tauros-Paldea-Blaze, M|
+|poke|p2|Whimsicott, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Samurott-Hisui, M|
+|teampreview
+|
+|t:|1779629357
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Surskit|Surskit, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1779629371
+|move|p2a: Samurott|Hyper Voice|p1a: Surskit
+|-enditem|p1a: Surskit|Focus Sash
+|-damage|p1a: Surskit|1/100
+|move|p1a: Surskit|Pounce|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|93/100
+|-unboost|p2a: Samurott|spe|1
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|
+|upkeep
+|turn|2
+|
+|t:|1779629386
+|move|p1a: Surskit|Sticky Web|p2a: Zoroark
+|-sidestart|p2: broski07|move: Sticky Web
+|move|p2a: Zoroark|Hyper Voice|p1a: Surskit
+|-damage|p1a: Surskit|0 fnt
+|faint|p1a: Surskit
+|
+|upkeep
+|
+|t:|1779629394
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|turn|3
+|
+|t:|1779629401
+|move|p2a: Zoroark|Hyper Voice|p1a: Clodsire
+|-damage|p1a: Clodsire|66/100
+|move|p1a: Clodsire|Spikes|p2a: Zoroark
+|-sidestart|p2: broski07|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1779629422
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1779629430
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Clodsire|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|92/100
+|-status|p2a: Dragonite|par
+|
+|upkeep
+|turn|6
+|
+|t:|1779629441
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Clodsire|Toxic Spikes|p2a: Dragonite
+|-sidestart|p2: broski07|move: Toxic Spikes
+|
+|upkeep
+|turn|7
+|
+|t:|1779629455
+|switch|p1a: Carkol|Carkol, F|100/100
+|cant|p2a: Dragonite|par
+|
+|upkeep
+|turn|8
+|
+|t:|1779629463
+|move|p2a: Dragonite|Earthquake|p1a: Carkol
+|-supereffective|p1a: Carkol
+|-damage|p1a: Carkol|0 fnt
+|faint|p1a: Carkol
+|
+|upkeep
+|
+|t:|1779629469
+|switch|p1a: Azelf|Azelf|100/100
+|turn|9
+|
+|t:|1779629488
+|move|p1a: Azelf|Encore|p2a: Dragonite
+|-start|p2a: Dragonite|Encore
+|move|p2a: Dragonite|Earthquake|p1a: Azelf
+|-immune|p1a: Azelf|[from] ability: Levitate
+|
+|upkeep
+|turn|10
+|
+|t:|1779629496
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-activate|p2a: Slowking|move: Sticky Web
+|-unboost|p2a: Slowking|spe|1
+|-damage|p2a: Slowking|88/100|[from] Spikes
+|-sideend|p2: broski07|move: Toxic Spikes|[of] p2a: Slowking
+|move|p1a: Azelf|Mystical Power|p2a: Slowking|[miss]
+|-miss|p1a: Azelf|p2a: Slowking
+|
+|-heal|p2a: Slowking|94/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1779629517
+|move|p1a: Azelf|Mystical Power|p2a: Slowking
+|-damage|p2a: Slowking|71/100
+|-boost|p1a: Azelf|spa|1
+|move|p2a: Slowking|Trick|p1a: Azelf
+|-activate|p2a: Slowking|move: Trick|[of] p1a: Azelf
+|-item|p1a: Azelf|Black Sludge|[from] move: Trick
+|-item|p2a: Slowking|Leftovers|[from] move: Trick
+|
+|-damage|p1a: Azelf|88/100|[from] item: Black Sludge
+|-heal|p2a: Slowking|77/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779629531
+|move|p1a: Azelf|Encore|p2a: Slowking
+|-start|p2a: Slowking|Encore
+|move|p2a: Slowking|Trick|p1a: Azelf
+|-activate|p2a: Slowking|move: Trick|[of] p1a: Azelf
+|-item|p1a: Azelf|Leftovers|[from] move: Trick
+|-item|p2a: Slowking|Black Sludge|[from] move: Trick
+|
+|-heal|p1a: Azelf|94/100|[from] item: Leftovers
+|-heal|p2a: Slowking|83/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1779629540
+|move|p1a: Azelf|Mystical Power|p2a: Slowking
+|-damage|p2a: Slowking|47/100
+|-boost|p1a: Azelf|spa|1
+|move|p2a: Slowking|Trick|p1a: Azelf
+|-activate|p2a: Slowking|move: Trick|[of] p1a: Azelf
+|-item|p1a: Azelf|Black Sludge|[from] move: Trick
+|-item|p2a: Slowking|Leftovers|[from] move: Trick
+|
+|-damage|p1a: Azelf|82/100|[from] item: Black Sludge
+|-heal|p2a: Slowking|54/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1779629559
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|-activate|p2a: Samurott|move: Sticky Web
+|-unboost|p2a: Samurott|spe|1
+|-damage|p2a: Samurott|88/100|[from] Spikes
+|move|p1a: Azelf|Mystical Power|p2a: Samurott
+|-immune|p2a: Samurott
+|
+|-damage|p1a: Azelf|70/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1779629574
+|-terastallize|p1a: Azelf|Fairy
+|move|p1a: Azelf|Draining Kiss|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-heal|p1a: Azelf|100/100|[from] drain|[of] p2a: Samurott
+|faint|p2a: Samurott
+|
+|-damage|p1a: Azelf|88/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1779629599
+|switch|p2a: Slowking|Slowking-Galar, M|87/100
+|-activate|p2a: Slowking|move: Sticky Web
+|-unboost|p2a: Slowking|spe|1
+|-damage|p2a: Slowking|74/100|[from] Spikes
+|turn|16
+|
+|t:|1779629606
+|move|p1a: Azelf|Mystical Power|p2a: Slowking
+|-damage|p2a: Slowking|31/100
+|-boost|p1a: Azelf|spa|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|-heal|p2a: Slowking|38/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779629621
+|switch|p1a: Tauros|Tauros-Paldea-Blaze, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|turn|17
+|
+|t:|1779629630
+|move|p1a: Tauros|High Horsepower|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1779629644
+|switch|p2a: Garganacl|Garganacl, M|93/100
+|-activate|p2a: Garganacl|move: Sticky Web
+|-unboost|p2a: Garganacl|spe|1
+|-damage|p2a: Garganacl|81/100|[from] Spikes
+|turn|18
+|
+|t:|1779629658
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Garganacl|Hyper Voice|p1a: Clodsire
+|-damage|p1a: Clodsire|66/100
+|
+|upkeep
+|turn|19
+|
+|t:|1779629671
+|move|p2a: Garganacl|Hyper Voice|p1a: Clodsire
+|-damage|p1a: Clodsire|31/100
+|move|p1a: Clodsire|Toxic Spikes|p2a: Garganacl
+|-sidestart|p2: broski07|move: Toxic Spikes
+|
+|upkeep
+|turn|20
+|
+|t:|1779629679
+|move|p2a: Garganacl|Hyper Voice|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|upkeep
+|
+|t:|1779629685
+|switch|p1a: Tauros|Tauros-Paldea-Blaze, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Garganacl|atk|1
+|turn|21
+|
+|t:|1779629691
+|switch|p2a: Dragonite|Dragonite, F|92/100 par
+|move|p1a: Tauros|Raging Bull|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|73/100 par
+|
+|upkeep
+|turn|22
+|
+|t:|1779629704
+|move|p1a: Tauros|Raging Bull|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|56/100 par
+|move|p2a: Dragonite|Earthquake|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|49/100
+|
+|upkeep
+|turn|23
+|
+|t:|1779629713
+|move|p1a: Tauros|Close Combat|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|30/100 par
+|-unboost|p1a: Tauros|def|1
+|-unboost|p1a: Tauros|spd|1
+|cant|p2a: Dragonite|par
+|
+|upkeep
+|turn|24
+|
+|t:|1779629721
+|move|p1a: Tauros|Close Combat|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|4/100 par
+|-unboost|p1a: Tauros|def|1
+|-unboost|p1a: Tauros|spd|1
+|cant|p2a: Dragonite|par
+|
+|upkeep
+|turn|25
+|
+|t:|1779629729
+|move|p2a: Dragonite|Extreme Speed|p1a: Tauros
+|-damage|p1a: Tauros|4/100
+|move|p1a: Tauros|Trailblaze|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|1/100 par
+|-boost|p1a: Tauros|spe|1
+|
+|upkeep
+|turn|26
+|
+|t:|1779629740
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Dragonite|Extreme Speed|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|27
+|
+|t:|1779629752
+|move|p1a: Gholdengo|Dazzling Gleam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1779629766
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-activate|p2a: Garganacl|move: Sticky Web
+|-unboost|p2a: Garganacl|spe|1
+|-damage|p2a: Garganacl|88/100|[from] Spikes
+|turn|28
+|
+|t:|1779629785
+|move|p1a: Gholdengo|Make It Rain|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Garganacl
+|
+|upkeep
+|
+|t:|1779629791
+|switch|p2a: Whimsicott|Whimsicott, M|81/100
+|-activate|p2a: Whimsicott|move: Sticky Web
+|-unboost|p2a: Whimsicott|spe|1
+|-damage|p2a: Whimsicott|68/100|[from] Spikes
+|-status|p2a: Whimsicott|psn
+|turn|29
+|
+|t:|1779629803
+|switch|p1a: Tauros|Tauros-Paldea-Blaze, M|4/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Whimsicott|atk|1
+|move|p2a: Whimsicott|Shadow Ball|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|-damage|p2a: Whimsicott|56/100 psn|[from] psn
+|upkeep
+|
+|t:|1779629814
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|30
+|
+|t:|1779629821
+|move|p2a: Whimsicott|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|win|broski07
+|raw|Joopey's rating: 1156 &rarr; <strong>1136</strong><br />(-20 for losing)
+|raw|broski07's rating: 1226 &rarr; <strong>1246</strong><br />(+20 for winning)
+|l|☆Joopey
+|player|p1|
+|l|☆broski07
+|player|p2|

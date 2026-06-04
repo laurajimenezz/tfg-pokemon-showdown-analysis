@@ -1,0 +1,328 @@
+|j|☆DrainGangBuilds
+|j|☆kamehameha37
+|t:|1760804325
+|gametype|singles
+|player|p1|DrainGangBuilds|galacticgrunt|1233
+|player|p2|kamehameha37|silver|1238
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Shiftry, F|
+|poke|p1|Great Tusk|
+|poke|p1|Moltres|
+|poke|p1|Primarina, F|
+|poke|p1|Dragonite, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Dragonite, M|
+|poke|p2|Darkrai|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1760804333
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Shiftry|Shiftry, F|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1760804342
+|move|p1a: Shiftry|Tailwind|p1a: Shiftry
+|-sidestart|p1: DrainGangBuilds|move: Tailwind
+|-ability|p1a: Shiftry|Wind Rider|boost
+|-boost|p1a: Shiftry|atk|1
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Shiftry
+|-enditem|p1a: Shiftry|Focus Sash
+|-damage|p1a: Shiftry|1/100
+|-unboost|p2a: Raging Bolt|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1760804344
+|move|p1a: Shiftry|Toxic Spikes|p2a: Raging Bolt
+|-sidestart|p2: kamehameha37|move: Toxic Spikes
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Shiftry
+|-resisted|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|faint|p1a: Shiftry
+|
+|upkeep
+|
+|t:|1760804346
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|3
+|
+|t:|1760804361
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|upkeep
+|turn|4
+|
+|t:|1760804365
+|move|p1a: Great Tusk|Rapid Spin|p2a: Dragonite
+|-damage|p2a: Dragonite|87/100
+|-boost|p1a: Great Tusk|spe|1
+|move|p2a: Dragonite|Ice Spinner|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|55/100
+|
+|-sideend|p1: DrainGangBuilds|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1760804369
+|move|p1a: Great Tusk|Ice Spinner|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1760804377
+|switch|p2a: Darkrai|Darkrai|100/100
+|-status|p2a: Darkrai|psn
+|turn|6
+|
+|t:|1760804382
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Primarina|Primarina, F, shiny|100/100
+|move|p2a: Darkrai|Substitute|p2a: Darkrai
+|-start|p2a: Darkrai|Substitute
+|-damage|p2a: Darkrai|76/100 psn
+|
+|-damage|p2a: Darkrai|63/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1760804384
+|move|p2a: Darkrai|Thunder Wave|p1a: Primarina
+|-status|p1a: Primarina|par
+|cant|p1a: Primarina|par
+|
+|-damage|p2a: Darkrai|51/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1760804390
+|move|p2a: Darkrai|Dark Pulse|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|79/100 par
+|-damage|p2a: Darkrai|41/100 psn|[from] item: Life Orb
+|cant|p1a: Primarina|par
+|
+|-damage|p2a: Darkrai|28/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1760804396
+|move|p2a: Darkrai|Dark Pulse|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|58/100 par
+|-damage|p2a: Darkrai|18/100 psn|[from] item: Life Orb
+|move|p1a: Primarina|Moonblast|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-end|p2a: Darkrai|Substitute
+|
+|-damage|p2a: Darkrai|6/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1760804402
+|move|p2a: Darkrai|Dark Pulse|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|34/100 par
+|-damage|p2a: Darkrai|0 fnt|[from] item: Life Orb
+|faint|p2a: Darkrai
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|upkeep
+|
+|t:|1760804407
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|11
+|
+|t:|1760804412
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1760804415
+|switch|p1a: Great Tusk|Great Tusk|55/100
+|turn|12
+|
+|t:|1760804420
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-status|p2a: Raging Bolt|psn
+|move|p1a: Great Tusk|Close Combat|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|48/100 psn
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-damage|p2a: Raging Bolt|35/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1760804426
+|move|p1a: Great Tusk|Close Combat|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760804430
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-status|p2a: Iron Valiant|psn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|14
+|
+|t:|1760804433
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Moltres|Moltres, shiny|100/100
+|move|p2a: Iron Valiant|Spirit Break|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|77/100
+|-unboost|p1a: Moltres|spa|1
+|
+|-damage|p2a: Iron Valiant|88/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1760804437
+|move|p2a: Iron Valiant|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|38/100
+|-enditem|p1a: Moltres|Life Orb|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Moltres|Flamethrower|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|33/100 psn
+|
+|-damage|p2a: Iron Valiant|20/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1760804446
+|move|p2a: Iron Valiant|Close Combat|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Moltres
+|
+|-damage|p2a: Iron Valiant|8/100 psn|[from] psn
+|upkeep
+|
+|t:|1760804450
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|17
+|
+|t:|1760804453
+|move|p1a: Dragonite|Extreme Speed|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760804457
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|18
+|
+|t:|1760804459
+|move|p1a: Dragonite|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|42/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dragonite
+|-damage|p1a: Dragonite|40/100
+|
+|upkeep
+|turn|19
+|
+|t:|1760804465
+|-terastallize|p2a: Kingambit|Flying
+|move|p1a: Dragonite|Extreme Speed|p2a: Kingambit
+|-damage|p2a: Kingambit|17/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1760804471
+|switch|p1a: Great Tusk|Great Tusk|55/100
+|turn|20
+|
+|t:|1760804477
+|-end|p2a: Kingambit|fallen4|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-status|p2a: Ogerpon|psn
+|-terastallize|p1a: Great Tusk|Stellar
+|move|p1a: Great Tusk|Rapid Spin|p2a: Ogerpon
+|-damage|p2a: Ogerpon|63/100 psn
+|-boost|p1a: Great Tusk|spe|1
+|
+|-damage|p2a: Ogerpon|51/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1760804485
+|move|p1a: Great Tusk|Ice Spinner|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1760804488
+|switch|p2a: Kingambit|Kingambit, M, tera:Flying|17/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|22
+|
+|t:|1760804491
+|move|p2a: Kingambit|Sucker Punch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|22/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|DrainGangBuilds
+|raw|DrainGangBuilds's rating: 1233 &rarr; <strong>1258</strong><br />(+25 for winning)
+|raw|kamehameha37's rating: 1238 &rarr; <strong>1213</strong><br />(-25 for losing)

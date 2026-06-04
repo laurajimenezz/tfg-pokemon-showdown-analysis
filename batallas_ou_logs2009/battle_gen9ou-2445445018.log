@@ -1,0 +1,226 @@
+|j|☆Scepticskep
+|j|☆Crocodile E
+|t:|1758346959
+|gametype|singles
+|player|p1|Scepticskep|2|1433
+|player|p2|Crocodile E|depotagent|1472
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Iron Hands|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Mimikyu, F|
+|poke|p2|Weavile, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Hydrapple, F|
+|poke|p2|Cinderace, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Scepticskep)
+|
+|t:|1758346969
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Subaru|Indeedee, M, shiny|100/100
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Subaru
+|turn|1
+|
+|t:|1758346972
+|switch|p1a: LEBRON|Iron Hands, shiny|100/100
+|-enditem|p1a: LEBRON|Booster Energy
+|-activate|p1a: LEBRON|ability: Quark Drive|[fromitem]
+|-start|p1a: LEBRON|quarkdriveatk
+|move|p2a: Weavile|Knock Off|p1a: LEBRON
+|-resisted|p1a: LEBRON
+|-damage|p1a: LEBRON|90/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758346980
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: LEBRON|atk|1
+|move|p1a: LEBRON|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1758346988
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|3
+|
+|t:|1758346993
+|move|p2a: Iron Valiant|Moonblast|p1a: LEBRON
+|-supereffective|p1a: LEBRON
+|-damage|p1a: LEBRON|0 fnt
+|faint|p1a: LEBRON
+|-end|p1a: LEBRON|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758346997
+|switch|p1a: King Von|Hoopa-Unbound|100/100
+|-enditem|p1a: King Von|Psychic Seed
+|-boost|p1a: King Von|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|t:|1758346999
+|move|p2a: Iron Valiant|Moonblast|p1a: King Von
+|-supereffective|p1a: King Von
+|-damage|p1a: King Von|24/100
+|move|p1a: King Von|Trick Room|p1a: King Von
+|-fieldstart|move: Trick Room|[of] p1a: King Von
+|
+|upkeep
+|turn|5
+|
+|t:|1758347006
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|move|p1a: King Von|Expanding Force|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|-item|p1a: King Von|Heavy-Duty Boots|[from] ability: Magician|[of] p2: Hydrapple
+|
+|upkeep
+|
+|t:|1758347013
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|6
+|
+|t:|1758347015
+|move|p1a: King Von|Focus Blast|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-crit|p2a: Weavile
+|-enditem|p2a: Weavile|Focus Sash
+|-damage|p2a: Weavile|1/100
+|move|p2a: Weavile|Knock Off|p1a: King Von
+|-damage|p1a: King Von|0 fnt
+|-enditem|p1a: King Von|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: King Von
+|
+|upkeep
+|
+|t:|1758347024
+|switch|p1a: Crashout YN|Ursaluna, F, shiny|100/100
+|turn|7
+|
+|t:|1758347029
+|move|p2a: Weavile|Ice Shard|p1a: Crashout YN
+|-activate|p1a: Crashout YN|move: Psychic Terrain
+|move|p1a: Crashout YN|Facade|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-status|p1a: Crashout YN|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1758347034
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|8
+|
+|t:|1758347037
+|-terastallize|p2a: Cinderace|Ghost
+|move|p1a: Crashout YN|Facade|p2a: Cinderace
+|-immune|p2a: Cinderace
+|move|p2a: Cinderace|Pyro Ball|p1a: Crashout YN
+|-damage|p1a: Crashout YN|69/100 brn
+|
+|-damage|p1a: Crashout YN|62/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1758347043
+|move|p2a: Cinderace|Pyro Ball|p1a: Crashout YN
+|-damage|p1a: Crashout YN|26/100 brn
+|move|p1a: Crashout YN|Headlong Rush|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-unboost|p1a: Crashout YN|def|1
+|-unboost|p1a: Crashout YN|spd|1
+|faint|p2a: Cinderace
+|
+|-damage|p1a: Crashout YN|20/100 brn|[from] brn
+|upkeep
+|
+|t:|1758347046
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|10
+|
+|t:|1758347051
+|switch|p1a: Subaru|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Subaru
+|move|p2a: Iron Valiant|Moonblast|p1a: Subaru
+|-damage|p1a: Subaru|29/100
+|
+|upkeep
+|turn|11
+|
+|t:|1758347057
+|switch|p1a: Mimi|Mimikyu, F, shiny|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Mimi
+|-activate|p1a: Mimi|ability: Disguise
+|-damage|p1a: Mimi|100/100
+|detailschange|p1a: Mimi|Mimikyu-Busted, F, shiny
+|-damage|p1a: Mimi|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p1a: Mimi|Red Card|[of] p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|drag|p2a: Alomomola|Alomomola, F|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1758347064
+|move|p2a: Alomomola|Flip Turn|p1a: Mimi
+|-damage|p1a: Mimi|74/100
+|
+|t:|1758347066
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Flip Turn
+|move|p1a: Mimi|Trick Room|p1a: Mimi
+|-fieldstart|move: Trick Room|[of] p1a: Mimi
+|
+|upkeep
+|turn|13
+|
+|t:|1758347070
+|move|p1a: Mimi|Destiny Bond|p1a: Mimi
+|-singlemove|p1a: Mimi|Destiny Bond
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Mimi
+|-supereffective|p1a: Mimi
+|-damage|p1a: Mimi|0 fnt
+|faint|p1a: Mimi
+|-activate|p1a: Mimi|move: Destiny Bond
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|-message|Crocodile E forfeited.
+|
+|win|Scepticskep
+|raw|Scepticskep's rating: 1433 &rarr; <strong>1455</strong><br />(+22 for winning)
+|raw|Crocodile E's rating: 1472 &rarr; <strong>1450</strong><br />(-22 for losing)
+|l|☆Crocodile E
+|player|p2|
+|l|☆Scepticskep
+|player|p1|

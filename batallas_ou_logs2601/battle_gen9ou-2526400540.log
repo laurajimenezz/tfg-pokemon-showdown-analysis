@@ -1,0 +1,283 @@
+|j|☆Galarapio
+|j|☆ekd26
+|t:|1769407901
+|gametype|singles
+|player|p1|Galarapio|170|1122
+|player|p2|ekd26|1|1169
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Serperior, M|
+|poke|p1|Gholdengo|
+|poke|p1|Enamorus, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Dusclops, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Iron Treads|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Valiant|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Ceruledge, M|
+|teampreview
+|
+|t:|1769407921
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|turn|1
+|
+|t:|1769407949
+|move|p2a: Grimmsnarl|Taunt|p1a: Enamorus
+|-start|p1a: Enamorus|move: Taunt
+|move|p1a: Enamorus|Sludge Bomb|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1769407955
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|2
+|
+|t:|1769407961
+|switch|p1a: Dusclops|Dusclops, M|100/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Dusclops
+|-damage|p1a: Dusclops|56/100
+|
+|upkeep
+|turn|3
+|
+|t:|1769407970
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Dusclops|Pain Split|p2a: Raging Bolt
+|-sethp|p2a: Raging Bolt|68/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|100/100|[from] move: Pain Split
+|
+|upkeep
+|turn|4
+|
+|t:|1769407973
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Dusclops|Haze|p1a: Dusclops
+|-clearallboost
+|
+|upkeep
+|turn|5
+|
+|t:|1769407977
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Raging Bolt
+|-status|p2a: Raging Bolt|brn
+|
+|-damage|p2a: Raging Bolt|62/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1769407980
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Dusclops
+|-damage|p1a: Dusclops|37/100
+|move|p1a: Dusclops|Haze|p1a: Dusclops
+|-clearallboost
+|
+|-damage|p2a: Raging Bolt|56/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1769407983
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|faint|p1a: Dusclops
+|
+|-damage|p2a: Raging Bolt|50/100 brn|[from] brn
+|upkeep
+|
+|t:|1769408004
+|switch|p1a: Serperior|Serperior, M|100/100
+|turn|8
+|
+|t:|1769408027
+|move|p1a: Serperior|Leech Seed|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|move: Leech Seed
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Serperior
+|-crit|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|-damage|p2a: Raging Bolt|43/100 brn|[from] brn
+|upkeep
+|
+|t:|1769408042
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|9
+|
+|t:|1769408066
+|move|p1a: Cinderace|U-turn|p2a: Raging Bolt
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Raging Bolt|12/100 brn
+|
+|t:|1769408079
+|switch|p1a: Araquanid|Araquanid, M|100/100|[from] U-turn
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|-damage|p2a: Raging Bolt|6/100 brn|[from] brn
+|upkeep
+|
+|t:|1769408088
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|10
+|
+|t:|1769408121
+|move|p1a: Cinderace|Sucker Punch|p2a: Raging Bolt
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769408127
+|switch|p2a: Iron Treads|Iron Treads, shiny|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|11
+|
+|t:|1769408134
+|move|p2a: Iron Treads|Earth Power|p1a: Cinderace
+|-damage|p1a: Cinderace|55/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|29/100
+|
+|upkeep
+|turn|12
+|
+|t:|1769408148
+|move|p1a: Cinderace|Sucker Punch|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769408154
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespa
+|turn|13
+|
+|t:|1769408165
+|move|p1a: Cinderace|Pyro Ball|p2a: Iron Valiant
+|-crit|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|30/100
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|14
+|
+|t:|1769408172
+|move|p1a: Cinderace|Pyro Ball|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769408179
+|switch|p2a: Ceruledge|Ceruledge, M, shiny|100/100
+|turn|15
+|
+|t:|1769408186
+|move|p1a: Cinderace|U-turn|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|93/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|t:|1769408191
+|switch|p1a: Enamorus|Enamorus, F|100/100|[from] U-turn
+|move|p2a: Ceruledge|Bitter Blade|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|-heal|p2a: Ceruledge|100/100|[from] drain|[of] p1a: Enamorus
+|faint|p1a: Enamorus
+|-damage|p2a: Ceruledge|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1769408201
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|16
+|
+|t:|1769408209
+|move|p2a: Ceruledge|Bitter Blade|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-heal|p2a: Ceruledge|100/100|[from] drain|[of] p1a: Gholdengo
+|-enditem|p1a: Gholdengo|Air Balloon
+|faint|p1a: Gholdengo
+|-damage|p2a: Ceruledge|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1769408214
+|switch|p1a: Cinderace|Cinderace, M|55/100
+|turn|17
+|
+|t:|1769408221
+|move|p1a: Cinderace|Sucker Punch|p2a: Ceruledge
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1769408226
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|18
+|
+|t:|1769408233
+|move|p1a: Cinderace|Pyro Ball|p2a: Ogerpon
+|-damage|p2a: Ogerpon|52/100
+|move|p2a: Ogerpon|Play Rough|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|win|ekd26
+|raw|Galarapio's rating: 1122 &rarr; <strong>1100</strong><br />(-22 for losing)
+|raw|ekd26's rating: 1169 &rarr; <strong>1191</strong><br />(+22 for winning)
+|l|☆ekd26
+|player|p2|
+|l|☆Galarapio
+|player|p1|

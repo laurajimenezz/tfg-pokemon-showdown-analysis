@@ -1,0 +1,185 @@
+|j|☆PINGaBurger
+|j|☆hrt boymoder
+|t:|1760309861
+|gametype|singles
+|player|p1|PINGaBurger|266|1648
+|player|p2|hrt boymoder|elaine|1681
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Maushold|
+|poke|p1|Iron Boulder|
+|poke|p1|Iron Crown|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Indeedee, M|
+|poke|p1|Kyurem|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Kyurem|
+|poke|p2|Kingambit, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hrt boymoder)
+|j| OP Earthquakes
+|
+|t:|1760309883
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Indeedee|Indeedee, M, shiny|100/100
+|switch|p2a: Phoenix|Cinderace, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|inactive|PINGaBurger has 120 seconds left.
+|
+|t:|1760309925
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Phoenix|U-turn|p1a: Kyurem
+|-damage|p1a: Kyurem|81/100
+|j| crowv2
+|
+|t:|1760309940
+|switch|p2a: Strange Weather|Slowking-Galar, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|inactive|PINGaBurger has 120 seconds left.
+|
+|t:|1760309946
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|-prepare|p2a: Strange Weather|Chilly Reception|[premajor]
+|move|p2a: Strange Weather|Chilly Reception|p2a: Strange Weather
+|-weather|Snowscape
+|
+|t:|1760309958
+|switch|p2a: Map of the Stars|Iron Valiant|100/100|[from] Chilly Reception
+|-enditem|p2a: Map of the Stars|Booster Energy
+|-activate|p2a: Map of the Stars|ability: Quark Drive|[fromitem]
+|-start|p2a: Map of the Stars|quarkdrivespe
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760309969
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|move|p2a: Map of the Stars|Encore||[still]
+|-fail|p2a: Map of the Stars
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760309987
+|move|p2a: Map of the Stars|Knock Off|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|34/100
+|-enditem|p1a: Iron Crown|Choice Specs|[from] move: Knock Off|[of] p2a: Map of the Stars
+|move|p1a: Iron Crown|Expanding Force|p2a: Map of the Stars
+|-supereffective|p2a: Map of the Stars
+|-damage|p2a: Map of the Stars|0 fnt
+|faint|p2a: Map of the Stars
+|-end|p2a: Map of the Stars|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760309996
+|switch|p2a: Phoenix|Cinderace, F|100/100
+|turn|5
+|
+|t:|1760310003
+|move|p2a: Phoenix|Pyro Ball|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760310010
+|switch|p1a: Mutant|Deoxys-Speed, shiny|100/100
+|-ability|p1a: Mutant|Pressure
+|turn|6
+|
+|t:|1760310013
+|move|p1a: Mutant|Expanding Force|p2a: Phoenix
+|-damage|p2a: Phoenix|0 fnt
+|faint|p2a: Phoenix
+|-damage|p1a: Mutant|91/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1760310015
+|switch|p2a: Black Oak|Kingambit, F|100/100
+|-activate|p2a: Black Oak|ability: Supreme Overlord
+|-start|p2a: Black Oak|fallen2|[silent]
+|turn|7
+|
+|t:|1760310019
+|-end|p2a: Black Oak|fallen2|[silent]
+|switch|p2a: Strange Weather|Slowking-Galar, M|100/100
+|-terastallize|p1a: Mutant|Fighting
+|move|p1a: Mutant|Tera Blast|p2a: Strange Weather|[anim] Tera Blast Fighting
+|-resisted|p2a: Strange Weather
+|-damage|p2a: Strange Weather|94/100
+|-damage|p1a: Mutant|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|t:|1760310029
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdriveatk
+|-prepare|p2a: Strange Weather|Chilly Reception|[premajor]
+|move|p2a: Strange Weather|Chilly Reception|p2a: Strange Weather
+|-weather|Snowscape
+|j| Nikator98
+|
+|t:|1760310056
+|switch|p2a: Black Oak|Kingambit, F|100/100|[from] Chilly Reception
+|-activate|p2a: Black Oak|ability: Supreme Overlord
+|-start|p2a: Black Oak|fallen2|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1760310060
+|move|p1a: Iron Boulder|Close Combat|p2a: Black Oak
+|-supereffective|p2a: Black Oak
+|-damage|p2a: Black Oak|0 fnt
+|-unboost|p1a: Iron Boulder|def|1
+|-unboost|p1a: Iron Boulder|spd|1
+|faint|p2a: Black Oak
+|-end|p2a: Black Oak|fallen2|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|-message|hrt boymoder forfeited.
+|
+|win|PINGaBurger
+|raw|PINGaBurger's rating: 1648 &rarr; <strong>1670</strong><br />(+22 for winning)
+|raw|hrt boymoder's rating: 1681 &rarr; <strong>1659</strong><br />(-22 for losing)
+|l|☆hrt boymoder
+|player|p2|
+|l| crowv2
+|l| OP Earthquakes

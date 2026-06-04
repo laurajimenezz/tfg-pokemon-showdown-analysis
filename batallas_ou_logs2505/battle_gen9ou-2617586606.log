@@ -1,0 +1,311 @@
+|j|☆Mca player 11
+|j|☆merlin sword
+|t:|1779712100
+|gametype|singles
+|player|p1|Mca player 11|lucas|1486
+|player|p2|merlin sword|hiker-gen4|1478
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Deoxys-Speed|
+|poke|p1|Iron Moth|
+|poke|p1|Zamazenta-*|
+|poke|p1|Gholdengo|
+|poke|p1|Rillaboom, M|
+|poke|p1|Iron Jugulis|
+|poke|p2|Dragonite, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Weavile, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1779712132
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Vent de l'est|Hatterene, F|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|1
+|
+|t:|1779712138
+|move|p1a: Iron Moth|Sludge Wave|p2a: Vent de l'est
+|-supereffective|p2a: Vent de l'est
+|-damage|p2a: Vent de l'est|2/100
+|-status|p2a: Vent de l'est|psn
+|move|p2a: Vent de l'est|Psychic Noise|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|24/100
+|-start|p1a: Iron Moth|move: Heal Block
+|
+|-damage|p2a: Vent de l'est|0 fnt|[from] psn
+|faint|p2a: Vent de l'est
+|upkeep
+|
+|t:|1779712158
+|switch|p2a: Swish|Dragonite, F|100/100
+|turn|2
+|
+|t:|1779712168
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Swish|Dragon Dance|p2a: Swish
+|-boost|p2a: Swish|atk|1
+|-boost|p2a: Swish|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1779712175
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Swish|Earthquake|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|87/100
+|
+|-heal|p1a: Rillaboom|93/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1779712178
+|switch|p1a: Zamazenta|Zamazenta, shiny|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Swish|Ice Spinner|p1a: Zamazenta
+|-damage|p1a: Zamazenta|74/100
+|-fieldend|move: Grassy Terrain
+|
+|upkeep
+|turn|5
+|
+|t:|1779712183
+|move|p2a: Swish|Dragon Dance|p2a: Swish
+|-boost|p2a: Swish|atk|1
+|-boost|p2a: Swish|spe|1
+|move|p1a: Zamazenta|Ice Fang|p2a: Swish
+|-supereffective|p2a: Swish
+|-damage|p2a: Swish|35/100
+|
+|-heal|p2a: Swish|42/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1779712192
+|move|p2a: Swish|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|28/100
+|move|p1a: Zamazenta|Ice Fang|p2a: Swish
+|-supereffective|p2a: Swish
+|-damage|p2a: Swish|0 fnt
+|faint|p2a: Swish
+|
+|upkeep
+|
+|t:|1779712207
+|switch|p2a: Z-machine|Great Tusk|100/100
+|turn|7
+|
+|t:|1779712214
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Z-machine|Headlong Rush|p1a: Deoxys
+|-damage|p1a: Deoxys|16/100
+|-unboost|p2a: Z-machine|def|1
+|-unboost|p2a: Z-machine|spd|1
+|-damage|p2a: Z-machine|84/100|[from] item: Rocky Helmet|[of] p1a: Deoxys
+|
+|upkeep
+|turn|8
+|
+|t:|1779712222
+|-end|p2a: Z-machine|Protosynthesis|[silent]
+|switch|p2a: Hello .RAW-Z|Weavile, M|100/100
+|move|p1a: Deoxys|Spikes|p2a: Hello .RAW-Z
+|-sidestart|p2: merlin sword|Spikes
+|
+|upkeep
+|turn|9
+|
+|t:|1779712231
+|switch|p1a: Iron Moth|Iron Moth|24/100
+|move|p2a: Hello .RAW-Z|Beat Up|p1a: Iron Moth
+|-damage|p1a: Iron Moth|11/100
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|-hitcount|p1: Iron Moth|2
+|
+|upkeep
+|
+|t:|1779712234
+|switch|p1a: Zamazenta|Zamazenta, shiny|28/100
+|turn|10
+|
+|t:|1779712239
+|move|p1a: Zamazenta|Stone Edge|p2a: Hello .RAW-Z|[miss]
+|-miss|p1a: Zamazenta|p2a: Hello .RAW-Z
+|move|p2a: Hello .RAW-Z|Low Kick|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1779712244
+|switch|p1a: Rillaboom|Rillaboom, M|93/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|11
+|
+|t:|1779712250
+|switch|p1a: Deoxys|Deoxys-Speed|16/100
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Hello .RAW-Z|Icicle Crash|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|
+|t:|1779712254
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-enditem|p1a: Gholdengo|Grassy Seed
+|-boost|p1a: Gholdengo|def|1|[from] item: Grassy Seed
+|turn|12
+|
+|t:|1779712259
+|-terastallize|p1a: Gholdengo|Water
+|move|p2a: Hello .RAW-Z|Beat Up|p1a: Gholdengo
+|-damage|p1a: Gholdengo|95/100
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|82/100
+|-damage|p1a: Gholdengo|77/100
+|-damage|p1a: Gholdengo|71/100
+|-hitcount|p1a: Gholdengo|4
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-heal|p1a: Gholdengo|77/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1779712274
+|move|p2a: Hello .RAW-Z|Swords Dance|p2a: Hello .RAW-Z
+|-boost|p2a: Hello .RAW-Z|atk|2
+|move|p1a: Gholdengo|Shadow Ball|p2a: Hello .RAW-Z
+|-resisted|p2a: Hello .RAW-Z
+|-damage|p2a: Hello .RAW-Z|48/100
+|
+|-heal|p2a: Hello .RAW-Z|54/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|83/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1779712281
+|move|p2a: Hello .RAW-Z|Beat Up|p1a: Gholdengo
+|-damage|p1a: Gholdengo|73/100
+|-damage|p1a: Gholdengo|61/100
+|-damage|p1a: Gholdengo|50/100
+|-damage|p1a: Gholdengo|38/100
+|-hitcount|p1a: Gholdengo|4
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|88/100
+|
+|-heal|p2a: Hello .RAW-Z|60/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|94/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1779712289
+|move|p2a: Hello .RAW-Z|Beat Up|p1a: Gholdengo
+|-damage|p1a: Gholdengo|83/100
+|-damage|p1a: Gholdengo|73/100
+|-damage|p1a: Gholdengo|63/100
+|-damage|p1a: Gholdengo|52/100
+|-hitcount|p1a: Gholdengo|4
+|move|p1a: Gholdengo|Make It Rain|p2a: Hello .RAW-Z
+|-supereffective|p2a: Hello .RAW-Z
+|-crit|p2a: Hello .RAW-Z
+|-damage|p2a: Hello .RAW-Z|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Hello .RAW-Z
+|
+|-heal|p1a: Gholdengo|58/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1779712296
+|switch|p2a: Maladresse|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Maladresse|88/100|[from] Spikes
+|turn|16
+|
+|t:|1779712299
+|switch|p1a: Rillaboom|Rillaboom, M|93/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Maladresse|Power Whip|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|45/100
+|
+|-heal|p2a: Maladresse|94/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|52/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1779712306
+|move|p2a: Maladresse|Play Rough|p1a: Rillaboom
+|-damage|p1a: Rillaboom|10/100
+|move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|
+|-heal|p2a: Maladresse|99/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|16/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1779712313
+|move|p2a: Maladresse|Ivy Cudgel|p1a: Rillaboom|[anim] Ivy Cudgel Water
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Maladresse|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779712314
+|switch|p1a: Iron Jugulis|Iron Jugulis|100/100
+|-enditem|p1a: Iron Jugulis|Booster Energy
+|-activate|p1a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Jugulis|quarkdrivespe
+|turn|19
+|
+|t:|1779712333
+|-terastallize|p2a: Maladresse|Water
+|detailschange|p2a: Maladresse|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Maladresse|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Maladresse|spd|1
+|move|p1a: Iron Jugulis|Hurricane|p2a: Maladresse|[miss]
+|-miss|p1a: Iron Jugulis|p2a: Maladresse
+|move|p2a: Maladresse|Play Rough|p1a: Iron Jugulis
+|-supereffective|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|11/100
+|
+|upkeep
+|turn|20
+|-message|Mca player 11 forfeited.
+|
+|win|merlin sword
+|raw|Mca player 11's rating: 1486 &rarr; <strong>1466</strong><br />(-20 for losing)
+|raw|merlin sword's rating: 1478 &rarr; <strong>1498</strong><br />(+20 for winning)
+|l|☆Mca player 11
+|player|p1|
+|l|☆merlin sword
+|player|p2|

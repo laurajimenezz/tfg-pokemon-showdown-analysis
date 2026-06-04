@@ -1,0 +1,153 @@
+|j|☆underlife1v1
+|j|☆Cynthia's shoelace
+|t:|1758940661
+|gametype|singles
+|player|p1|underlife1v1|acetrainerf-gen4|1023
+|player|p2|Cynthia's shoelace|cynthia-gen4|1000
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Malamar, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Galvantula, F|
+|poke|p1|Garganacl, F|
+|poke|p1|Murkrow, M|
+|poke|p1|Glimmora, M|
+|poke|p2|Kyurem|
+|poke|p2|Tyranitar, M|
+|poke|p2|Blaziken, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Corviknight, M|
+|poke|p2|Gliscor, F|
+|teampreview
+|
+|t:|1758940668
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|switch|p2a: Cracker|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Cracker
+|turn|1
+|
+|t:|1758940677
+|move|p2a: Cracker|Earthquake|p1a: Galvantula
+|-damage|p1a: Galvantula|38/100
+|-enditem|p1a: Galvantula|Sitrus Berry|[eat]
+|-heal|p1a: Galvantula|62/100|[from] item: Sitrus Berry
+|move|p1a: Galvantula|Sticky Web|p2a: Cracker
+|-sidestart|p2: Cynthia's shoelace|move: Sticky Web
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Galvantula|56/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1758940689
+|-terastallize|p2a: Cracker|Rock
+|move|p2a: Cracker|Earthquake|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1758940699
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|3
+|
+|t:|1758940703
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Cracker|Earthquake|p1a: Cinderace
+|-damage|p1a: Cinderace|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|41/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1758940716
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-activate|p1a: Glimmora|move: Sticky Web
+|-unboost|p1a: Glimmora|spe|1
+|move|p2a: Cracker|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Cynthia's shoelace|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1758940729
+|switch|p1a: Malamar|Malamar, M|100/100
+|-activate|p1a: Malamar|move: Sticky Web
+|-boost|p1a: Malamar|spe|1
+|turn|5
+|
+|t:|1758940734
+|move|p2a: Cracker|Earthquake|p1a: Malamar
+|-damage|p1a: Malamar|64/100
+|move|p1a: Malamar|Superpower|p2a: Cracker
+|-supereffective|p2a: Cracker
+|-damage|p2a: Cracker|6/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|-damage|p1a: Malamar|55/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1758940752
+|-terastallize|p1a: Malamar|Dark
+|move|p2a: Cracker|Earthquake|p1a: Malamar
+|-damage|p1a: Malamar|29/100
+|move|p1a: Malamar|Superpower|p2a: Cracker
+|-supereffective|p2a: Cracker
+|-damage|p2a: Cracker|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Cracker
+|-damage|p1a: Malamar|19/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758940768
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-status|p2a: Iron Valiant|psn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|7
+|
+|t:|1758940778
+|move|p2a: Iron Valiant|Close Combat|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Malamar
+|
+|-damage|p2a: Iron Valiant|88/100 psn|[from] psn
+|upkeep
+|-message|underlife1v1 forfeited.
+|
+|win|Cynthia's shoelace
+|raw|underlife1v1's rating: 1023 &rarr; <strong>1009</strong><br />(-14 for losing)
+|raw|Cynthia&apos;s shoelace's rating: 1000 &rarr; <strong>1043</strong><br />(+43 for winning)
+|l|☆underlife1v1
+|player|p1|

@@ -1,0 +1,151 @@
+|j|☆mr.yifi
+|j|☆Churrini
+|t:|1760451168
+|gametype|singles
+|player|p1|mr.yifi|1|1144
+|player|p2|Churrini|morty|1156
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, F|
+|poke|p1|Bronzong|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Alomomola, F|
+|poke|p1|Weavile, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Clefable, M|
+|poke|p2|Exeggutor-Alola, F|
+|poke|p2|Venusaur, F|
+|poke|p2|Ninetales, M|
+|poke|p2|Gengar, F|
+|poke|p2|Dragonite, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mr.yifi)
+|
+|t:|1760451175
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Bronzong|Bronzong|100/100
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|1
+|
+|t:|1760451178
+|move|p2a: Clefable|Stealth Rock|p1a: Bronzong
+|-sidestart|p1: mr.yifi|move: Stealth Rock
+|move|p1a: Bronzong|Trick|p2a: Clefable
+|-activate|p1a: Bronzong|move: Trick|[of] p2a: Clefable
+|-item|p2a: Clefable|Toxic Orb|[from] move: Trick
+|-item|p1a: Bronzong|Leftovers|[from] move: Trick
+|
+|-status|p2a: Clefable|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1760451191
+|move|p2a: Clefable|Thunder Wave|p1a: Bronzong
+|-status|p1a: Bronzong|par
+|move|p1a: Bronzong|Stealth Rock|p2a: Clefable
+|-sidestart|p2: Churrini|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1760451198
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-damage|p2a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Bronzong|Reflect|p1a: Bronzong
+|-sidestart|p1: mr.yifi|Reflect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760451204
+|move|p2a: Ninetales|Encore|p1a: Bronzong
+|-start|p1a: Bronzong|Encore
+|cant|p1a: Bronzong|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760451226
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|-damage|p2a: Venusaur|88/100|[from] Stealth Rock
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Alomomola|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760451231
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|move|p1a: Alomomola|Flip Turn|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|83/100
+|
+|t:|1760451239
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] Flip Turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Venusaur|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760451245
+|move|p2a: Venusaur|Giga Drain|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-heal|p2a: Venusaur|100/100|[from] drain|[of] p1a: Landorus
+|faint|p1a: Landorus
+|-damage|p2a: Venusaur|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: mr.yifi|Reflect
+|upkeep
+|
+|t:|1760451249
+|switch|p1a: Weavile|Weavile, M|100/100
+|turn|8
+|
+|t:|1760451253
+|move|p1a: Weavile|Fake Out|p2a: Venusaur
+|-damage|p2a: Venusaur|73/100
+|cant|p2a: Venusaur|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1760451255
+|move|p2a: Venusaur|Weather Ball|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-damage|p2a: Venusaur|63/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|mr.yifi forfeited.
+|
+|win|Churrini
+|raw|mr.yifi's rating: 1144 &rarr; <strong>1120</strong><br />(-24 for losing)
+|raw|Churrini's rating: 1156 &rarr; <strong>1180</strong><br />(+24 for winning)
+|l|☆mr.yifi
+|player|p1|
+|c|☆Churrini|XD

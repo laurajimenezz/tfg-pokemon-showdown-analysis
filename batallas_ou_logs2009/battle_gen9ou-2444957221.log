@@ -1,0 +1,318 @@
+|j|☆Jjnt
+|j|☆Titanos_Mosura
+|t:|1758291108
+|gametype|singles
+|player|p1|Jjnt|169|1040
+|player|p2|Titanos_Mosura|riley|1028
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, F|
+|poke|p1|Great Tusk|
+|poke|p1|Raging Bolt|
+|poke|p1|Gengar, F|
+|poke|p1|Gyarados, M|
+|poke|p1|Iron Moth|
+|poke|p2|Toxapex, M|
+|poke|p2|Garchomp, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Iron Moth|
+|poke|p2|Maushold-Four|
+|teampreview
+|
+|t:|1758291117
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Maushold|Maushold-Four|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisdef
+|turn|1
+|
+|t:|1758291126
+|move|p2a: Maushold|Bullet Seed|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|94/100
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|87/100
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|79/100
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|73/100
+|-hitcount|p1a: Great Tusk|4
+|move|p1a: Great Tusk|Body Press|p2a: Maushold
+|-supereffective|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|
+|upkeep
+|
+|t:|1758291141
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|2
+|
+|t:|1758291150
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|upkeep
+|turn|3
+|
+|t:|1758291161
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Raging Bolt|Thunder|p2a: Garchomp
+|-immune|p2a: Garchomp
+|
+|upkeep
+|turn|4
+|
+|t:|1758291172
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|move|p2a: Garchomp|Outrage|p1a: Gyarados
+|-damage|p1a: Gyarados|39/100
+|
+|upkeep
+|turn|5
+|
+|t:|1758291180
+|move|p2a: Garchomp|Outrage|p1a: Gyarados|[from] lockedmove
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|-start|p2a: Garchomp|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1758291201
+|switch|p1a: Kingambit|Kingambit, F, shiny|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|6
+|
+|t:|1758291207
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|7
+|
+|t:|1758291215
+|move|p2a: Hawlucha|Agility|p2a: Hawlucha
+|-boost|p2a: Hawlucha|spe|2
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-damage|p2a: Hawlucha|65/100
+|
+|upkeep
+|turn|8
+|
+|t:|1758291227
+|move|p1a: Kingambit|Sucker Punch|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-damage|p2a: Hawlucha|35/100
+|-enditem|p2a: Hawlucha|Sitrus Berry|[eat]
+|-heal|p2a: Hawlucha|60/100|[from] item: Sitrus Berry
+|move|p2a: Hawlucha|Cross Chop|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1758291239
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|9
+|
+|t:|1758291246
+|move|p2a: Hawlucha|Cross Chop|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|66/100
+|move|p1a: Raging Bolt|Thunder|p2a: Hawlucha|[miss]
+|-miss|p1a: Raging Bolt|p2a: Hawlucha
+|
+|upkeep
+|turn|10
+|
+|t:|1758291253
+|move|p2a: Hawlucha|Detect|p2a: Hawlucha
+|-singleturn|p2a: Hawlucha|Protect
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1758291264
+|-terastallize|p2a: Hawlucha|Fighting
+|move|p2a: Hawlucha|Cross Chop|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|17/100
+|move|p1a: Raging Bolt|Thunder|p2a: Hawlucha
+|-crit|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|t:|1758291280
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|12
+|
+|t:|1758291292
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Tyranitar
+|-damage|p2a: Tyranitar|39/100
+|-unboost|p1a: Raging Bolt|spa|2
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raging Bolt|11/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1758291304
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Tyranitar
+|-damage|p2a: Tyranitar|12/100
+|-unboost|p1a: Raging Bolt|spa|2
+|move|p2a: Tyranitar|Rock Blast|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|-hitcount|p1: Raging Bolt|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1758291319
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|14
+|
+|t:|1758291330
+|-singleturn|p2a: Tyranitar|move: Focus Punch
+|move|p1a: Iron Moth|Fiery Dance|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1758291341
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|15
+|
+|t:|1758291351
+|move|p2a: Garchomp|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1758291361
+|switch|p1a: Great Tusk|Great Tusk|73/100
+|turn|16
+|
+|t:|1758291377
+|move|p2a: Garchomp|Outrage|p1a: Great Tusk
+|-damage|p1a: Great Tusk|41/100
+|move|p1a: Great Tusk|Body Press|p2a: Garchomp
+|-damage|p2a: Garchomp|61/100
+|-damage|p1a: Great Tusk|29/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1758291397
+|-terastallize|p1a: Great Tusk|Ground
+|move|p2a: Garchomp|Outrage|p1a: Great Tusk|[from] lockedmove
+|-damage|p1a: Great Tusk|3/100
+|-start|p2a: Garchomp|confusion|[fatigue]
+|move|p1a: Great Tusk|Earthquake|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1758291414
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|18
+|
+|t:|1758291425
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: Iron Moth|Fire Blast|p1a: Gengar
+|-damage|p1a: Gengar|4/100
+|-start|p2a: Iron Moth|Disable|Fire Blast|[from] ability: Cursed Body|[of] p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|0 fnt|[from] Sandstorm
+|-damage|p2a: Iron Moth|94/100|[from] Sandstorm
+|faint|p1a: Gengar
+|upkeep
+|
+|t:|1758291436
+|switch|p1a: Great Tusk|Great Tusk, tera:Ground|3/100
+|turn|19
+|
+|t:|1758291443
+|move|p2a: Iron Moth|Meteor Beam||[still]
+|-prepare|p2a: Iron Moth|Meteor Beam
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Great Tusk|Earthquake|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1758291453
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|20
+|
+|t:|1758291461
+|move|p1a: Great Tusk|Body Press|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|82/100
+|move|p2a: Toxapex|Liquidation|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|Titanos_Mosura
+|raw|Jjnt's rating: 1040 &rarr; <strong>1023</strong><br />(-17 for losing)
+|raw|Titanos_Mosura's rating: 1028 &rarr; <strong>1065</strong><br />(+37 for winning)

@@ -1,0 +1,310 @@
+|j|☆Paffu
+|j|☆Volga123
+|t:|1758290618
+|gametype|singles
+|player|p1|Paffu|102|1415
+|player|p2|Volga123|cynthia|1435
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Floatzel, M|
+|poke|p1|Overqwil, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Treads|
+|poke|p2|Torkoal, M|
+|poke|p2|Scovillain, F|
+|poke|p2|Walking Wake|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Grimmsnarl, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Paffu)
+|
+|t:|1758290632
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1758290644
+|move|p2a: Arcanine|Head Smash|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|18/100
+|-damage|p2a: Arcanine|91/100|[from] item: Life Orb
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Arcanine
+|-damage|p2a: Arcanine|10/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758290651
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|3
+|
+|t:|1758290657
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Great Tusk|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|74/100
+|-enditem|p1a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758290661
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Pelipper|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|93/100
+|-enditem|p2a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p1a: Pelipper
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758290666
+|move|p1a: Pelipper|U-turn|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|90/100
+|
+|t:|1758290672
+|switch|p1a: Raging Bolt|Raging Bolt|18/100|[from] U-turn
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Torkoal|Stealth Rock|p1a: Raging Bolt
+|-sidestart|p1: Paffu|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758290686
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-damage|p1a: Iron Treads|98/100|[from] Stealth Rock
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758290691
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Volga123|Reflect
+|move|p1a: Iron Treads|Stealth Rock|p2a: Grimmsnarl
+|-sidestart|p2: Volga123|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758290697
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Iron Treads|Rapid Spin|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|87/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: Paffu|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|93/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758290701
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Pelipper|Pelipper, F|74/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-end|p2a: Great Tusk|Protosynthesis
+|move|p2a: Great Tusk|Rapid Spin|p1a: Pelipper
+|-damage|p1a: Pelipper|59/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Volga123|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Great Tusk|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758290711
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M|90/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758290716
+|switch|p2a: Arcanine|Arcanine-Hisui, F|10/100
+|move|p1a: Araquanid|Liquidation|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758290727
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|12
+|
+|t:|1758290738
+|switch|p1a: Floatzel|Floatzel, M|100/100
+|-terastallize|p2a: Walking Wake|Electric
+|move|p2a: Walking Wake|Tera Blast|p1a: Floatzel|[anim] Tera Blast Electric
+|-supereffective|p1a: Floatzel
+|-damage|p1a: Floatzel|0 fnt
+|faint|p1a: Floatzel
+|-damage|p2a: Walking Wake|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758290745
+|switch|p1a: Pelipper|Pelipper, F|59/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-end|p2a: Walking Wake|Protosynthesis
+|turn|13
+|
+|t:|1758290749
+|switch|p1a: Iron Treads|Iron Treads|98/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-damage|p2a: Walking Wake|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758290755
+|switch|p1a: Raging Bolt|Raging Bolt|18/100
+|turn|14
+|
+|t:|1758290762
+|move|p1a: Raging Bolt|Thunderclap|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|57/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|-damage|p2a: Walking Wake|48/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Volga123|Reflect
+|upkeep
+|
+|t:|1758290769
+|switch|p1a: Overqwil|Overqwil, M|100/100
+|turn|15
+|
+|t:|1758290773
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M|90/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Overqwil|Liquidation|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|69/100
+|-unboost|p2a: Torkoal|def|1
+|-damage|p1a: Overqwil|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1758290784
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Overqwil|Self-Destruct|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p1a: Overqwil
+|faint|p2a: Grimmsnarl
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758290794
+|switch|p1a: Pelipper|Pelipper, F|59/100
+|switch|p2a: Walking Wake|Walking Wake, tera:Electric|48/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|17
+|
+|t:|1758290800
+|move|p2a: Walking Wake|Tera Blast|p1a: Pelipper|[anim] Tera Blast Electric
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|-damage|p2a: Walking Wake|38/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758290802
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|turn|18
+|
+|t:|1758290812
+|-terastallize|p1a: Araquanid|Water
+|move|p2a: Walking Wake|Tera Blast|p1a: Araquanid|[anim] Tera Blast Electric
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|1/100
+|-damage|p2a: Walking Wake|28/100|[from] item: Life Orb
+|move|p1a: Araquanid|Liquidation|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758290818
+|switch|p2a: Great Tusk|Great Tusk|99/100
+|turn|19
+|
+|t:|1758290821
+|move|p2a: Great Tusk|Rapid Spin|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|faint|p1a: Araquanid
+|
+|win|Volga123
+|raw|Paffu's rating: 1415 &rarr; <strong>1396</strong><br />(-19 for losing)
+|raw|Volga123's rating: 1435 &rarr; <strong>1454</strong><br />(+19 for winning)
+|l|☆Paffu
+|player|p1|
+|l|☆Volga123
+|player|p2|

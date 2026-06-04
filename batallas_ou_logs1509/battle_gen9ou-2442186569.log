@@ -1,0 +1,225 @@
+|j|☆tillersaplant
+|j|☆frosssted
+|t:|1757955791
+|gametype|singles
+|player|p1|tillersaplant|chili|1367
+|player|p2|frosssted|1|1374
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Basculegion, M|
+|poke|p1|Haxorus, F|
+|poke|p1|Scream Tail|
+|poke|p1|Cryogonal|
+|poke|p1|Eelektross, M|
+|poke|p1|Slither Wing|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Iron Hands|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Mimikyu, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by frosssted)
+|
+|t:|1757955810
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1757955821
+|move|p1a: Basculegion|Wave Crash|p2a: Iron Hands
+|-damage|p2a: Iron Hands|19/100
+|-damage|p1a: Basculegion|70/100|[from] Recoil
+|move|p2a: Iron Hands|Supercell Slam|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|upkeep
+|inactive|tillersaplant has 120 seconds left.
+|
+|t:|1757955851
+|switch|p1a: Tomato|Haxorus, F|100/100
+|-ability|p1a: Tomato|Mold Breaker
+|turn|2
+|inactive|tillersaplant has 120 seconds left.
+|inactive|frosssted has 120 seconds left.
+|inactive|frosssted has 90 seconds left.
+|
+|t:|1757955915
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Tomato|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|51/100
+|
+|upkeep
+|turn|3
+|
+|t:|1757955924
+|move|p1a: Tomato|Iron Head|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1757955928
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|4
+|
+|t:|1757955940
+|move|p1a: Tomato|Dragon Dance|p1a: Tomato
+|-boost|p1a: Tomato|atk|1
+|-boost|p1a: Tomato|spe|1
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|5
+|
+|t:|1757955959
+|move|p2a: Indeedee|Expanding Force|p1a: Tomato
+|-damage|p1a: Tomato|13/100
+|move|p1a: Tomato|Iron Head|p2a: Indeedee
+|-damage|p2a: Indeedee|49/100
+|
+|upkeep
+|turn|6
+|
+|t:|1757955968
+|switch|p2a: Iron Hands|Iron Hands|19/100
+|move|p1a: Tomato|Iron Head|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757955977
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-enditem|p2a: Hoopa|Psychic Seed
+|-boost|p2a: Hoopa|spd|1|[from] item: Psychic Seed
+|turn|7
+|
+|t:|1757955997
+|move|p2a: Hoopa|Expanding Force|p1a: Tomato
+|-damage|p1a: Tomato|0 fnt
+|faint|p1a: Tomato
+|-item|p2a: Hoopa|Lum Berry|[from] ability: Magician|[of] p1: Tomato
+|
+|upkeep
+|inactive|tillersaplant has 120 seconds left.
+|
+|t:|1757956031
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|turn|8
+|
+|t:|1757956039
+|-terastallize|p2a: Hoopa|Psychic
+|move|p1a: Eelektross|Thunder Wave|p2a: Hoopa
+|-status|p2a: Hoopa|par
+|-enditem|p2a: Hoopa|Lum Berry|[eat]
+|-curestatus|p2a: Hoopa|par|[msg]
+|move|p2a: Hoopa|Expanding Force|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|-item|p2a: Hoopa|Life Orb|[from] ability: Magician|[of] p1: Eelektross
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757956063
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-enditem|p1a: Slither Wing|Booster Energy
+|-activate|p1a: Slither Wing|ability: Protosynthesis|[fromitem]
+|-start|p1a: Slither Wing|protosynthesisatk
+|turn|9
+|
+|t:|1757956080
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|move|p1a: Slither Wing|U-turn|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Mimikyu|Red Card|[of] p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|drag|p1a: Jiren|Scream Tail|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1757956104
+|move|p1a: Jiren|Calm Mind|p1a: Jiren
+|-boost|p1a: Jiren|spa|1
+|-boost|p1a: Jiren|spd|1
+|move|p2a: Mimikyu|Trick Room|p2a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p2a: Mimikyu
+|
+|upkeep
+|turn|11
+|inactive|frosssted has 120 seconds left.
+|
+|t:|1757956124
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Jiren|Dazzling Gleam|p2a: Ursaluna
+|-damage|p2a: Ursaluna|66/100
+|
+|-fieldend|move: Psychic Terrain
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|12
+|inactive|tillersaplant has 90 seconds left.
+|
+|t:|1757956139
+|move|p2a: Ursaluna|Facade|p1a: Jiren
+|-damage|p1a: Jiren|0 fnt
+|faint|p1a: Jiren
+|-end|p1a: Jiren|Protosynthesis|[silent]
+|
+|-damage|p2a: Ursaluna|60/100 brn|[from] brn
+|upkeep
+|inactive|tillersaplant has 90 seconds left.
+|
+|t:|1757956147
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|turn|13
+|
+|t:|1757956156
+|-terastallize|p1a: Slither Wing|Bug
+|move|p1a: Slither Wing|First Impression|p2a: Ursaluna
+|-damage|p2a: Ursaluna|14/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Slither Wing
+|-damage|p1a: Slither Wing|0 fnt
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|
+|-damage|p2a: Ursaluna|8/100 brn|[from] brn
+|upkeep
+|-message|tillersaplant forfeited.
+|
+|win|frosssted
+|raw|tillersaplant's rating: 1367 &rarr; <strong>1347</strong><br />(-20 for losing)
+|raw|frosssted's rating: 1374 &rarr; <strong>1394</strong><br />(+20 for winning)
+|l|☆tillersaplant
+|player|p1|
+|l|☆frosssted
+|player|p2|

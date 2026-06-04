@@ -1,0 +1,337 @@
+|j|☆Copy my Flow
+|j|☆339357037621q
+|t:|1760765320
+|gametype|singles
+|player|p1|Copy my Flow|elesa-masters2|1282
+|player|p2|339357037621q|102|1308
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Walking Wake|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Zamazenta-*|
+|poke|p1|Alomomola, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Greninja-*, M|
+|poke|p2|Zapdos|
+|poke|p2|Sandy Shocks|
+|poke|p2|Scizor, F|
+|poke|p2|Basculegion, M|
+|teampreview
+|
+|t:|1760765341
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-enditem|p2a: Sandy Shocks|Booster Energy
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1760765346
+|move|p2a: Sandy Shocks|Stealth Rock|p1a: Alomomola
+|-sidestart|p1: Copy my Flow|move: Stealth Rock
+|move|p1a: Alomomola|Flip Turn|p2a: Sandy Shocks
+|-supereffective|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|67/100
+|
+|t:|1760765360
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Flip Turn
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1760765378
+|-terastallize|p2a: Sandy Shocks|Ice
+|move|p2a: Sandy Shocks|Tera Blast|p1a: Great Tusk|[anim] Tera Blast Ice
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|24/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760765386
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|3
+|
+|t:|1760765392
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Greninja|Surf|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|68/100
+|-enditem|p1a: Alomomola|Eject Button
+|-damage|p2a: Greninja|91/100|[from] item: Life Orb
+|
+|t:|1760765412
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-damage|p1a: Walking Wake|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1760765417
+|move|p1a: Walking Wake|Draco Meteor|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Greninja
+|
+|upkeep
+|
+|t:|1760765425
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|5
+|
+|t:|1760765430
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F, shiny|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Pelipper|U-turn|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|70/100
+|
+|t:|1760765440
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760765446
+|move|p1a: Ninetales|Overheat|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-unboost|p1a: Ninetales|spa|2
+|faint|p2a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760765448
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|7
+|
+|t:|1760765454
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Pelipper|Hurricane|p1a: Alomomola
+|-damage|p1a: Alomomola|47/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760765461
+|move|p2a: Pelipper|Hurricane|p1a: Alomomola
+|-damage|p1a: Alomomola|5/100
+|move|p1a: Alomomola|Flip Turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|87/100
+|
+|t:|1760765471
+|switch|p1a: Great Tusk|Great Tusk|24/100|[from] Flip Turn
+|-damage|p1a: Great Tusk|21/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1760765475
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Basculegion
+|-immune|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760765483
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Basculegion|Wave Crash|p1a: Zamazenta
+|-damage|p1a: Zamazenta|15/100
+|-damage|p2a: Basculegion|78/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|21/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760765492
+|move|p2a: Basculegion|Wave Crash|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-damage|p2a: Basculegion|72/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760765496
+|switch|p1a: Walking Wake|Walking Wake|88/100
+|-damage|p1a: Walking Wake|76/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1760765502
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|57/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1760765512
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F, shiny|70/100
+|-damage|p1a: Ninetales|45/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Scizor|Close Combat|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-unboost|p2a: Scizor|def|1
+|-unboost|p2a: Scizor|spd|1
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760765522
+|switch|p1a: Walking Wake|Walking Wake|76/100
+|-damage|p1a: Walking Wake|63/100|[from] Stealth Rock
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|14
+|
+|t:|1760765536
+|switch|p2a: Pelipper|Pelipper, M|87/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-end|p1a: Walking Wake|Protosynthesis
+|move|p1a: Walking Wake|Hydro Steam|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|42/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1760765551
+|move|p1a: Walking Wake|Hydro Steam|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760765554
+|switch|p2a: Basculegion|Basculegion, M|72/100
+|turn|16
+|
+|t:|1760765560
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|21/100
+|-damage|p1a: Great Tusk|18/100|[from] Stealth Rock
+|move|p2a: Basculegion|Wave Crash|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Basculegion|67/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760765569
+|switch|p1a: Alomomola|Alomomola, M|39/100
+|-damage|p1a: Alomomola|26/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1760765575
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|move|p2a: Basculegion|Wave Crash|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-damage|p2a: Basculegion|50/100|[from] item: Rocky Helmet|[of] p1a: Hatterene
+|faint|p1a: Hatterene
+|-damage|p2a: Basculegion|26/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760765581
+|switch|p1a: Alomomola|Alomomola, M|60/100
+|-damage|p1a: Alomomola|47/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1760765593
+|move|p2a: Basculegion|Wave Crash|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|-damage|p2a: Basculegion|7/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760765595
+|switch|p1a: Walking Wake|Walking Wake|63/100
+|-damage|p1a: Walking Wake|51/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1760765598
+|move|p2a: Basculegion|Wave Crash|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|10/100
+|-damage|p2a: Basculegion|0 fnt|[from] Recoil
+|faint|p2a: Basculegion
+|move|p1a: Walking Wake|Flamethrower|p2: Basculegion|[notarget]
+|-fail|p1a: Walking Wake
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760765601
+|switch|p2a: Scizor|Scizor, F|57/100
+|turn|20
+|
+|t:|1760765605
+|move|p2a: Scizor|Bullet Punch|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-crit|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|win|339357037621q
+|raw|Copy my Flow's rating: 1282 &rarr; <strong>1259</strong><br />(-23 for losing)
+|raw|339357037621q's rating: 1308 &rarr; <strong>1327</strong><br />(+19 for winning)
+|l|☆Copy my Flow
+|player|p1|
+|l|☆339357037621q
+|player|p2|

@@ -1,0 +1,679 @@
+|j|‽RadiantSol
+|j|☆douadyrabbit
+|t:|1759048544
+|gametype|singles
+|player|p1|RadiantSol|flint|1224
+|player|p2|douadyrabbit|pokefanf-gen2|1260
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Espeon, F|
+|poke|p1|Ninetales, F|
+|poke|p1|Leafeon, M|
+|poke|p1|Slither Wing|
+|poke|p1|Quagsire, F|
+|poke|p1|Cinderace, F|
+|poke|p2|Kyurem|
+|poke|p2|Corviknight, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Dondozo, F|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Skeledirge, M|
+|teampreview
+|
+|t:|1759048556
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1759048564
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Weezing
+|-status|p2a: Weezing|brn
+|move|p2a: Weezing|Toxic|p1a: Ninetales
+|-status|p1a: Ninetales|tox
+|
+|-damage|p1a: Ninetales|95/100 tox|[from] psn
+|-damage|p2a: Weezing|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1759048573
+|move|p1a: Ninetales|Encore|p2a: Weezing
+|-start|p2a: Weezing|Encore
+|move|p2a: Weezing|Toxic|p1a: Ninetales
+|-fail|p1a: Ninetales|tox
+|
+|-heal|p1a: Ninetales|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Weezing|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ninetales|89/100 tox|[from] psn
+|-damage|p2a: Weezing|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1759048582
+|switch|p1a: Espeon|Espeon, F|100/100
+|move|p2a: Weezing|Toxic|p1a: Espeon
+|-status|p1a: Espeon|tox
+|
+|-heal|p2a: Weezing|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Espeon|95/100 tox|[from] psn
+|-damage|p2a: Weezing|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1759048599
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Espeon|Psychic|p2a: Ting-Lu
+|-immune|p2a: Ting-Lu
+|
+|-damage|p1a: Espeon|83/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1759048611
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|move|p2a: Ting-Lu|Ruination|p1a: Slither Wing
+|-damage|p1a: Slither Wing|50/100
+|
+|upkeep
+|turn|6
+|
+|t:|1759048618
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|move|p1a: Slither Wing|U-turn|p2a: Dondozo
+|-damage|p2a: Dondozo|87/100
+|
+|t:|1759048626
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Quagsire|Quagsire, F|100/100|[from] U-turn
+|
+|-heal|p2a: Dondozo|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1759048634
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Quagsire|Toxic|p2a: Kyurem
+|-status|p2a: Kyurem|tox
+|
+|-damage|p2a: Kyurem|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1759048646
+|switch|p1a: Ninetales|Ninetales, F|89/100 tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Kyurem|Freeze-Dry|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|66/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Kyurem|82/100 tox|[from] psn
+|-damage|p1a: Ninetales|66/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1759048658
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|72/100 tox|[from] item: Leftovers
+|-damage|p1a: Ninetales|60/100 tox|[from] psn
+|-damage|p2a: Ting-Lu|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1759048668
+|move|p1a: Ninetales|Pain Split|p2a: Ting-Lu
+|-sethp|p2a: Ting-Lu|64/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Ninetales|100/100 tox|[from] move: Pain Split
+|move|p2a: Ting-Lu|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|53/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|59/100 tox|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Ninetales|42/100 tox|[from] psn
+|-damage|p2a: Ting-Lu|64/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1759048679
+|move|p1a: Ninetales|Pain Split|p2a: Ting-Lu
+|-sethp|p2a: Ting-Lu|44/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Ninetales|78/100 tox|[from] move: Pain Split
+|move|p2a: Ting-Lu|Rest|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|slp|[from] move: Rest
+|-heal|p2a: Ting-Lu|100/100 slp|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|84/100 tox|[from] item: Leftovers
+|-damage|p1a: Ninetales|60/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1759048693
+|switch|p1a: Espeon|Espeon, F|83/100 tox
+|cant|p2a: Ting-Lu|slp
+|
+|-weather|none
+|-damage|p1a: Espeon|77/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1759048700
+|move|p1a: Espeon|Sunny Day|p1a: Espeon
+|-weather|SunnyDay
+|cant|p2a: Ting-Lu|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Espeon|65/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1759048705
+|switch|p1a: Leafeon|Leafeon, M|100/100
+|-curestatus|p2a: Ting-Lu|slp|[msg]
+|move|p2a: Ting-Lu|Earthquake|p1a: Leafeon
+|-resisted|p1a: Leafeon
+|-damage|p1a: Leafeon|82/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1759048716
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|move|p1a: Leafeon|Solar Blade||[still]
+|-prepare|p1a: Leafeon|Solar Blade
+|-anim|p1a: Leafeon|Solar Blade|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|65/100
+|-damage|p1a: Leafeon|72/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skeledirge|71/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1759048731
+|move|p1a: Leafeon|Knock Off|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|-enditem|p2a: Skeledirge|Leftovers|[from] move: Knock Off|[of] p1a: Leafeon
+|faint|p2a: Skeledirge
+|-damage|p1a: Leafeon|62/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1759048738
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|17
+|
+|t:|1759048746
+|move|p1a: Leafeon|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|74/100
+|-damage|p1a: Leafeon|46/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Leafeon
+|-damage|p1a: Leafeon|36/100|[from] item: Life Orb
+|move|p2a: Corviknight|Brave Bird|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|-damage|p2a: Corviknight|66/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|
+|t:|1759048755
+|switch|p1a: Ninetales|Ninetales, F|60/100 tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|18
+|
+|t:|1759048764
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Ninetales|Weather Ball|p2a: Ting-Lu
+|-crit|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|60/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|66/100 tox|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|66/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|60/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1759048778
+|move|p1a: Ninetales|Pain Split|p2a: Ting-Lu
+|-sethp|p2a: Ting-Lu|50/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Ninetales|89/100 tox|[from] move: Pain Split
+|move|p2a: Ting-Lu|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|56/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1759048789
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|20
+|
+|t:|1759048792
+|move|p1a: Cinderace|U-turn|p2a: Ting-Lu
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|29/100
+|
+|t:|1759048795
+|switch|p1a: Slither Wing|Slither Wing|50/100|[from] U-turn
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|move|p2a: Ting-Lu|Earthquake|p1a: Slither Wing
+|-resisted|p1a: Slither Wing
+|-crit|p1a: Slither Wing
+|-damage|p1a: Slither Wing|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|36/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1759048806
+|switch|p2a: Corviknight|Corviknight, M|66/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Slither Wing|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|60/100
+|
+|t:|1759048809
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Espeon|Espeon, F|65/100 tox|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Espeon|59/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1759048816
+|move|p1a: Espeon|Weather Ball|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|none
+|-damage|p1a: Espeon|47/100 tox|[from] psn
+|upkeep
+|
+|t:|1759048825
+|switch|p2a: Dondozo|Dondozo, F|94/100
+|turn|23
+|
+|t:|1759048832
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|move|p2a: Dondozo|Waterfall|p1a: Quagsire
+|-damage|p1a: Quagsire|81/100
+|-damage|p2a: Dondozo|77/100|[from] item: Rocky Helmet|[of] p1a: Quagsire
+|
+|-heal|p2a: Dondozo|83/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1759048840
+|switch|p2a: Weezing|Weezing-Galar, F|95/100 brn
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Quagsire|Toxic||[still]
+|-fail|p1a: Quagsire
+|
+|-heal|p2a: Weezing|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Weezing|95/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1759048850
+|switch|p1a: Espeon|Espeon, F|47/100 tox
+|-terastallize|p2a: Weezing|Flying
+|move|p2a: Weezing|Toxic|p1a: Espeon
+|-fail|p1a: Espeon|tox
+|
+|-heal|p2a: Weezing|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Espeon|41/100 tox|[from] psn
+|-damage|p2a: Weezing|95/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1759048860
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Ting-Lu|Ting-Lu|36/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Espeon|Morning Sun|p1a: Espeon
+|-heal|p1a: Espeon|91/100 tox
+|
+|-heal|p2a: Ting-Lu|42/100|[from] item: Leftovers
+|-damage|p1a: Espeon|79/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1759048871
+|move|p1a: Espeon|Sunny Day|p1a: Espeon
+|-weather|SunnyDay
+|move|p2a: Ting-Lu|Earthquake|p1a: Espeon
+|-damage|p1a: Espeon|10/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|48/100|[from] item: Leftovers
+|-damage|p1a: Espeon|0 fnt|[from] psn
+|faint|p1a: Espeon
+|upkeep
+|
+|t:|1759048879
+|switch|p1a: Slither Wing|Slither Wing|18/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|turn|28
+|
+|t:|1759048899
+|move|p1a: Slither Wing|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|14/100
+|
+|t:|1759048901
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Quagsire|Quagsire, F|81/100|[from] U-turn
+|move|p2a: Ting-Lu|Earthquake|p1a: Quagsire
+|-damage|p1a: Quagsire|53/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|20/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1759048911
+|switch|p2a: Weezing|Weezing-Galar, F, tera:Flying|95/100 brn
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Quagsire|Liquidation|p2a: Weezing
+|-damage|p2a: Weezing|83/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Weezing|89/100 brn|[from] item: Leftovers
+|-damage|p2a: Weezing|83/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1759048929
+|move|p2a: Weezing|Toxic|p1a: Quagsire
+|-status|p1a: Quagsire|tox
+|move|p1a: Quagsire|Stealth Rock|p2a: Weezing
+|-sidestart|p2: douadyrabbit|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Weezing|89/100 brn|[from] item: Leftovers
+|-damage|p1a: Quagsire|47/100 tox|[from] psn
+|-damage|p2a: Weezing|83/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1759048938
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Weezing|Strange Steam|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|83/100
+|
+|-weather|none
+|-heal|p2a: Weezing|89/100 brn|[from] item: Leftovers
+|-damage|p2a: Weezing|83/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1759048948
+|move|p1a: Cinderace|Pyro Ball|p2a: Weezing
+|-damage|p2a: Weezing|30/100 brn
+|move|p2a: Weezing|Toxic|p1a: Cinderace
+|-status|p1a: Cinderace|tox
+|
+|-heal|p2a: Weezing|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Cinderace|77/100 tox|[from] psn
+|-damage|p2a: Weezing|30/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1759048958
+|move|p1a: Cinderace|Pyro Ball|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|-damage|p1a: Cinderace|65/100 tox|[from] psn
+|upkeep
+|
+|t:|1759048966
+|switch|p2a: Kyurem|Kyurem|82/100 tox
+|-damage|p2a: Kyurem|57/100 tox|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|34
+|
+|t:|1759048972
+|move|p2a: Kyurem|Earth Power|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-damage|p2a: Kyurem|51/100 tox|[from] psn
+|upkeep
+|
+|t:|1759048978
+|switch|p1a: Slither Wing|Slither Wing|18/100
+|turn|35
+|
+|t:|1759048981
+|move|p1a: Slither Wing|First Impression|p2a: Kyurem
+|-damage|p2a: Kyurem|11/100 tox
+|move|p2a: Kyurem|Earth Power|p1a: Slither Wing
+|-resisted|p1a: Slither Wing
+|-damage|p1a: Slither Wing|4/100
+|
+|-damage|p2a: Kyurem|0 fnt|[from] psn
+|faint|p2a: Kyurem
+|upkeep
+|
+|t:|1759048990
+|switch|p2a: Dondozo|Dondozo, F|83/100
+|-damage|p2a: Dondozo|71/100|[from] Stealth Rock
+|turn|36
+|
+|t:|1759049001
+|move|p1a: Slither Wing|U-turn|p2a: Dondozo
+|-damage|p2a: Dondozo|57/100
+|
+|t:|1759049004
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Quagsire|Quagsire, F|47/100 tox|[from] U-turn
+|move|p2a: Dondozo|Waterfall|p1a: Quagsire
+|-damage|p1a: Quagsire|29/100 tox
+|-damage|p2a: Dondozo|41/100|[from] item: Rocky Helmet|[of] p1a: Quagsire
+|
+|-heal|p2a: Dondozo|47/100|[from] item: Leftovers
+|-damage|p1a: Quagsire|23/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1759049016
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|73/100 tox
+|
+|-heal|p2a: Dondozo|53/100|[from] item: Leftovers
+|-damage|p1a: Quagsire|60/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1759049025
+|move|p1a: Quagsire|Toxic|p2a: Dondozo
+|-status|p2a: Dondozo|tox
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|59/100 tox|[from] item: Leftovers
+|-damage|p1a: Quagsire|42/100 tox|[from] psn
+|-damage|p2a: Dondozo|53/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1759049035
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|92/100 tox
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|59/100 tox|[from] item: Leftovers
+|-damage|p1a: Quagsire|68/100 tox|[from] psn
+|-damage|p2a: Dondozo|47/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|t:|1759049044
+|move|p1a: Quagsire|Liquidation|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|41/100 tox
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|-damage|p1a: Quagsire|37/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1759049053
+|switch|p1a: Slither Wing|Slither Wing|4/100
+|cant|p2a: Dondozo|slp
+|
+|upkeep
+|turn|42
+|
+|t:|1759049057
+|move|p1a: Slither Wing|U-turn|p2a: Dondozo
+|-damage|p2a: Dondozo|94/100 slp
+|
+|t:|1759049060
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Quagsire|Quagsire, F|37/100 tox|[from] U-turn
+|cant|p2a: Dondozo|slp
+|
+|-heal|p2a: Dondozo|100/100 slp|[from] item: Leftovers
+|-damage|p1a: Quagsire|31/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|t:|1759049067
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|81/100 tox
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Waterfall|p1a: Quagsire
+|-damage|p1a: Quagsire|61/100 tox
+|-damage|p2a: Dondozo|84/100|[from] item: Rocky Helmet|[of] p1a: Quagsire
+|
+|-heal|p2a: Dondozo|90/100|[from] item: Leftovers
+|-damage|p1a: Quagsire|49/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|t:|1759049077
+|move|p1a: Quagsire|Toxic|p2a: Dondozo
+|-status|p2a: Dondozo|tox
+|move|p2a: Dondozo|Body Press|p1a: Quagsire
+|-damage|p1a: Quagsire|30/100 tox
+|-damage|p2a: Dondozo|73/100 tox|[from] item: Rocky Helmet|[of] p1a: Quagsire
+|
+|-heal|p2a: Dondozo|79/100 tox|[from] item: Leftovers
+|-damage|p1a: Quagsire|11/100 tox|[from] psn
+|-damage|p2a: Dondozo|73/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|t:|1759049086
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|61/100 tox
+|move|p2a: Dondozo|Body Press|p1a: Quagsire
+|-damage|p1a: Quagsire|41/100 tox
+|-damage|p2a: Dondozo|57/100 tox|[from] item: Rocky Helmet|[of] p1a: Quagsire
+|
+|-heal|p2a: Dondozo|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Quagsire|17/100 tox|[from] psn
+|-damage|p2a: Dondozo|50/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1759049098
+|switch|p1a: Slither Wing|Slither Wing|4/100
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|47
+|
+|t:|1759049104
+|move|p1a: Slither Wing|U-turn|p2a: Dondozo
+|-damage|p2a: Dondozo|94/100 slp
+|
+|t:|1759049106
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Quagsire|Quagsire, F|17/100 tox|[from] U-turn
+|cant|p2a: Dondozo|slp
+|
+|-heal|p2a: Dondozo|100/100 slp|[from] item: Leftovers
+|-damage|p1a: Quagsire|11/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|t:|1759049114
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|61/100 tox
+|cant|p2a: Dondozo|slp
+|
+|-damage|p1a: Quagsire|49/100 tox|[from] psn
+|upkeep
+|turn|49
+|-message|RadiantSol forfeited.
+|
+|win|douadyrabbit
+|raw|RadiantSol's rating: 1224 &rarr; <strong>1202</strong><br />(-22 for losing)
+|raw|douadyrabbit's rating: 1260 &rarr; <strong>1282</strong><br />(+22 for winning)
+|l|‽RadiantSol
+|player|p1|
+|l|☆douadyrabbit
+|player|p2|

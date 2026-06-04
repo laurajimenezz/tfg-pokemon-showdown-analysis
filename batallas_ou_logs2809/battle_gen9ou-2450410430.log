@@ -1,0 +1,334 @@
+|j|☆Johnny tots
+|j|☆CopiumBathTub
+|t:|1758980255
+|gametype|singles
+|player|p1|Johnny tots|266|1655
+|player|p2|CopiumBathTub|170|1652
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Klefki, M|
+|poke|p1|Manaphy|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Maushold-Four|
+|poke|p1|Clefable, M|
+|poke|p2|Kyurem|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Iron Treads|
+|poke|p2|Darkrai|
+|poke|p2|Ting-Lu|
+|poke|p2|Pecharunt|
+|teampreview
+|
+|t:|1758980275
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1758980280
+|switch|p1a: Klefki|Klefki, M|100/100
+|move|p2a: Kyurem|Protect||[still]
+|-fail|p2a: Kyurem
+|
+|upkeep
+|turn|2
+|
+|t:|1758980287
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: Johnny tots|move: Light Screen
+|
+|upkeep
+|turn|3
+|
+|t:|1758980289
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: Johnny tots|Reflect
+|move|p2a: Iron Treads|Stealth Rock|p1a: Klefki
+|-sidestart|p1: Johnny tots|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1758980294
+|move|p1a: Klefki|Spikes|p2a: Iron Treads
+|-sidestart|p2: CopiumBathTub|Spikes
+|move|p2a: Iron Treads|Earth Power|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|60/100
+|
+|-heal|p1a: Klefki|66/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1758980298
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Iron Treads|Rapid Spin|p1a: Clefable
+|-damage|p1a: Clefable|95/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: CopiumBathTub|Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|
+|-heal|p1a: Clefable|100/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1758980300
+|move|p2a: Iron Treads|Steel Beam|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|51/100
+|-damage|p2a: Iron Treads|50/100|[from] steelbeam
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p2a: Iron Treads|57/100|[from] Grassy Terrain
+|-heal|p1a: Clefable|57/100|[from] Grassy Terrain
+|-heal|p1a: Clefable|64/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758980303
+|move|p2a: Iron Treads|Steel Beam|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|34/100
+|-damage|p2a: Iron Treads|6/100|[from] steelbeam
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p2a: Iron Treads|13/100|[from] Grassy Terrain
+|-heal|p1a: Clefable|41/100|[from] Grassy Terrain
+|-heal|p1a: Clefable|47/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758980307
+|move|p2a: Iron Treads|Steel Beam|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|24/100
+|-damage|p2a: Iron Treads|0 fnt|[from] steelbeam
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|move|p1a: Clefable|Moonblast|p2: Iron Treads|[notarget]
+|-fail|p1a: Clefable
+|
+|-heal|p1a: Clefable|30/100|[from] Grassy Terrain
+|-heal|p1a: Clefable|36/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1758980312
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|9
+|
+|t:|1758980317
+|move|p1a: Clefable|Moonblast|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|33/100
+|move|p2a: Ting-Lu|Whirlwind|p1a: Clefable
+|drag|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Ting-Lu|39/100|[from] item: Leftovers
+|-sideend|p1: Johnny tots|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1758980325
+|switch|p1a: Clefable|Clefable, M|36/100
+|move|p2a: Ting-Lu|Ruination|p1a: Clefable
+|-damage|p1a: Clefable|19/100
+|
+|-heal|p1a: Clefable|25/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|45/100|[from] item: Leftovers
+|-sideend|p1: Johnny tots|Reflect
+|upkeep
+|turn|11
+|
+|t:|1758980331
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Ting-Lu|Earthquake|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|79/100
+|
+|-heal|p1a: Rillaboom|85/100|[from] Grassy Terrain
+|-heal|p2a: Ting-Lu|51/100|[from] Grassy Terrain
+|-heal|p2a: Ting-Lu|58/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758980339
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-item|p2a: Pecharunt|Air Balloon
+|move|p1a: Rillaboom|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-crit|p2a: Pecharunt
+|-damage|p2a: Pecharunt|49/100
+|-enditem|p2a: Pecharunt|Air Balloon
+|
+|-heal|p1a: Rillaboom|91/100|[from] Grassy Terrain
+|-heal|p2a: Pecharunt|55/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1758980350
+|switch|p1a: Klefki|Klefki, M|66/100
+|-damage|p1a: Klefki|60/100|[from] Stealth Rock
+|move|p2a: Pecharunt|Parting Shot|p1a: Klefki
+|-unboost|p1a: Klefki|atk|1
+|-unboost|p1a: Klefki|spa|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Johnny tots)
+|
+|t:|1758980353
+|switch|p2a: Kyurem|Kyurem|100/100|[from] Parting Shot
+|-ability|p2a: Kyurem|Pressure
+|
+|-heal|p1a: Klefki|66/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1758980357
+|move|p1a: Klefki|Thunder Wave|p2a: Kyurem
+|-status|p2a: Kyurem|par
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|75/100 par
+|
+|-heal|p1a: Klefki|72/100|[from] Grassy Terrain
+|-heal|p2a: Kyurem|82/100 par|[from] Grassy Terrain
+|-heal|p2a: Kyurem|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758980360
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: Johnny tots|move: Light Screen
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|
+|-heal|p2a: Kyurem|94/100 par|[from] Grassy Terrain
+|-heal|p2a: Kyurem|99/100 par|[from] item: Leftovers
+|-heal|p1a: Klefki|78/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1758980362
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: Johnny tots|Reflect
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|
+|-heal|p2a: Kyurem|100/100 par|[from] Grassy Terrain
+|-heal|p1a: Klefki|84/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1758980374
+|switch|p1a: Maushold|Maushold-Four|100/100
+|-damage|p1a: Maushold|88/100|[from] Stealth Rock
+|move|p2a: Kyurem|Icicle Spear|p1a: Maushold
+|-damage|p1a: Maushold|70/100
+|-damage|p1a: Maushold|50/100
+|-hitcount|p1a: Maushold|2
+|
+|-heal|p1a: Maushold|56/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1758980380
+|move|p2a: Kyurem|Icicle Spear|p1a: Maushold
+|-damage|p1a: Maushold|38/100
+|-damage|p1a: Maushold|20/100
+|-damage|p1a: Maushold|1/100
+|-hitcount|p1a: Maushold|3
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-end|p2a: Kyurem|Substitute
+|-sideend|p1: Johnny tots|Stealth Rock
+|-activate|p1a: Maushold|move: Tidy Up
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|-heal|p1a: Maushold|7/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1758980389
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Maushold|Population Bomb|p2a: Weezing
+|-damage|p2a: Weezing|93/100
+|-damage|p2a: Weezing|85/100
+|-damage|p2a: Weezing|77/100
+|-damage|p2a: Weezing|68/100
+|-damage|p2a: Weezing|60/100
+|-damage|p2a: Weezing|51/100
+|-damage|p2a: Weezing|43/100
+|-damage|p2a: Weezing|35/100
+|-damage|p2a: Weezing|27/100
+|-damage|p2a: Weezing|18/100
+|-hitcount|p2a: Weezing|10
+|
+|upkeep
+|turn|20
+|
+|t:|1758980392
+|move|p1a: Maushold|Population Bomb|p2a: Weezing
+|-damage|p2a: Weezing|10/100
+|-damage|p2a: Weezing|1/100
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-hitcount|p2: Weezing|3
+|
+|upkeep
+|
+|t:|1758980396
+|switch|p2a: Ting-Lu|Ting-Lu|58/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|21
+|
+|t:|1758980401
+|move|p1a: Maushold|Population Bomb|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|48/100
+|-damage|p2a: Ting-Lu|39/100
+|-damage|p2a: Ting-Lu|29/100
+|-damage|p2a: Ting-Lu|21/100
+|-damage|p2a: Ting-Lu|10/100
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|-hitcount|p2: Ting-Lu|6
+|
+|upkeep
+|-message|CopiumBathTub forfeited.
+|
+|win|Johnny tots
+|raw|Johnny tots's rating: 1655 &rarr; <strong>1675</strong><br />(+20 for winning)
+|raw|CopiumBathTub's rating: 1652 &rarr; <strong>1632</strong><br />(-20 for losing)
+|l|☆CopiumBathTub
+|player|p2|
+|l|☆Johnny tots
+|player|p1|

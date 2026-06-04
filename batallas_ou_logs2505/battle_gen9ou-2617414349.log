@@ -1,0 +1,219 @@
+|j|☆DPH300
+|j|☆K3Pop
+|t:|1779684971
+|gametype|singles
+|player|p1|DPH300|biker-gen4|1320
+|player|p2|K3Pop|riley|1367
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Iron Moth|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Moltres-Galar|
+|poke|p2|Greninja-*, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Valiant|
+|poke|p2|Raging Bolt|
+|poke|p2|Gholdengo|
+|teampreview
+|j| Calcublast
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DPH300)
+|
+|t:|1779684982
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1779685000
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|85/100
+|-sidestart|p2: K3Pop|Spikes
+|
+|upkeep
+|turn|2
+|l| Calcublast
+|
+|t:|1779685012
+|move|p2a: Iron Valiant|Moonblast|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|move|p1a: Samurott|Razor Shell|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|11/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779685032
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Spikes
+|move|p1a: Samurott|Sucker Punch||[still]
+|-fail|p1a: Samurott
+|
+|upkeep
+|turn|4
+|
+|t:|1779685044
+|move|p2a: Ogerpon|Knock Off|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1779685060
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|turn|5
+|
+|t:|1779685067
+|move|p2a: Ogerpon|Play Rough|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|20/100
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|-enditem|p1a: Moltres|Sitrus Berry|[eat]
+|-heal|p1a: Moltres|45/100|[from] item: Sitrus Berry
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|
+|upkeep
+|turn|6
+|
+|t:|1779685086
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Moltres|Hurricane|p2a: Ogerpon
+|-damage|p2a: Ogerpon|28/100
+|move|p2a: Ogerpon|Play Rough|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1779685098
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|7
+|
+|t:|1779685108
+|move|p1a: Iron Valiant|Moonblast|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|upkeep
+|inactive|K3Pop has 120 seconds left.
+|
+|t:|1779685134
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|88/100|[from] Spikes
+|turn|8
+|
+|t:|1779685142
+|move|p1a: Iron Valiant|Destiny Bond|p1a: Iron Valiant
+|-singlemove|p1a: Iron Valiant|Destiny Bond
+|move|p2a: Gholdengo|Make It Rain|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Iron Valiant
+|-activate|p1a: Iron Valiant|move: Destiny Bond
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|faint|p2a: Gholdengo
+|
+|upkeep
+|inactive|K3Pop has 120 seconds left.
+|
+|t:|1779685170
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|9
+|
+|t:|1779685180
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|44/100
+|
+|upkeep
+|turn|10
+|inactive|K3Pop has 120 seconds left.
+|
+|t:|1779685194
+|move|p1a: Dragonite|Earthquake|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779685211
+|switch|p2a: Greninja|Greninja, M|100/100
+|-damage|p2a: Greninja|88/100|[from] Spikes
+|turn|11
+|
+|t:|1779685217
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|upkeep
+|
+|t:|1779685223
+|switch|p2a: Iron Valiant|Iron Valiant|11/100
+|-damage|p2a: Iron Valiant|0 fnt|[from] Spikes
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|t:|1779685224
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|88/100|[from] Spikes
+|turn|12
+|
+|t:|1779685230
+|move|p1a: Dragonite|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|win|DPH300
+|raw|DPH300's rating: 1320 &rarr; <strong>1343</strong><br />(+23 for winning)
+|raw|K3Pop's rating: 1367 &rarr; <strong>1344</strong><br />(-23 for losing)
+|c|☆K3Pop|gg
+|l|☆K3Pop
+|player|p2|
+|l|☆DPH300
+|player|p1|

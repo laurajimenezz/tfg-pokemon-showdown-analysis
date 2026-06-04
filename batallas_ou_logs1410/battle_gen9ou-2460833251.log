@@ -1,0 +1,315 @@
+|j|☆monotyrant
+|j|☆bxjjne c
+|t:|1760366449
+|gametype|singles
+|player|p1|monotyrant|1|1244
+|player|p2|bxjjne c|2|1243
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Muk-Alola, F|
+|poke|p1|Krookodile, M|
+|poke|p1|Gallade, M|
+|poke|p1|Veluza, M|
+|poke|p2|Kyurem|
+|poke|p2|Corviknight, M|
+|poke|p2|Heatran, M|
+|poke|p2|Blissey, F|
+|poke|p2|Great Tusk|
+|poke|p2|Deoxys-Speed|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bxjjne c)
+|
+|t:|1760366454
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Muk|Muk-Alola, F, shiny|100/100
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|
+|t:|1760366458
+|move|p2a: Deoxys|Trick|p1a: Muk
+|-activate|p2a: Deoxys|move: Trick|[of] p1a: Muk
+|-item|p1a: Muk|Toxic Orb|[from] move: Trick
+|-item|p2a: Deoxys|Assault Vest|[from] move: Trick
+|move|p1a: Muk|Knock Off|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-crit|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|-enditem|p2a: Deoxys|Assault Vest|[from] move: Knock Off|[of] p1a: Muk
+|faint|p2a: Deoxys
+|
+|upkeep
+|
+|t:|1760366466
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|2
+|
+|t:|1760366474
+|switch|p1a: Krookodile|Krookodile, M, shiny|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Ancient Power|p1a: Krookodile
+|-resisted|p1a: Krookodile
+|-damage|p1a: Krookodile|83/100
+|
+|upkeep
+|turn|3
+|
+|t:|1760366483
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Krookodile|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|78/100
+|-enditem|p2a: Great Tusk|Expert Belt|[from] move: Knock Off|[of] p1a: Krookodile
+|
+|upkeep
+|turn|4
+|
+|t:|1760366488
+|switch|p1a: Garchomp|Garchomp, M, shiny|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Garchomp
+|-damage|p1a: Garchomp|88/100
+|-boost|p2a: Great Tusk|spe|1
+|-damage|p2a: Great Tusk|66/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Great Tusk|50/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|
+|upkeep
+|turn|5
+|
+|t:|1760366494
+|-terastallize|p1a: Garchomp|Fire
+|move|p2a: Great Tusk|Ice Spinner|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|78/100
+|-damage|p2a: Great Tusk|37/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Great Tusk|21/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|move|p1a: Garchomp|Fire Blast|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760366503
+|switch|p2a: Blissey|Blissey, F|100/100
+|turn|6
+|
+|t:|1760366512
+|switch|p1a: Muk|Muk-Alola, F, shiny|100/100
+|move|p2a: Blissey|Thunder Wave|p1a: Muk
+|-status|p1a: Muk|par
+|
+|upkeep
+|turn|7
+|
+|t:|1760366518
+|move|p2a: Blissey|Stealth Rock|p1a: Muk
+|-sidestart|p1: monotyrant|move: Stealth Rock
+|cant|p1a: Muk|par
+|
+|upkeep
+|turn|8
+|
+|t:|1760366523
+|move|p2a: Blissey|Seismic Toss|p1a: Muk
+|-damage|p1a: Muk|73/100 par
+|move|p1a: Muk|Drain Punch|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|59/100
+|-heal|p1a: Muk|100/100 par|[from] drain|[of] p2a: Blissey
+|-status|p2a: Blissey|psn|[from] ability: Poison Touch|[of] p1a: Muk
+|
+|-heal|p2a: Blissey|65/100 psn|[from] item: Leftovers
+|-damage|p2a: Blissey|52/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1760366533
+|-curestatus|p2a: Blissey|psn|[from] ability: Natural Cure
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Muk|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|60/100
+|-damage|p1a: Muk|84/100 par|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Muk
+|
+|upkeep
+|turn|10
+|
+|t:|1760366542
+|switch|p1a: Garchomp|Garchomp, M, shiny, tera:Fire|78/100
+|-damage|p1a: Garchomp|53/100|[from] Stealth Rock
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|upkeep
+|turn|11
+|
+|t:|1760366548
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Garchomp|Dragon Tail|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|55/100
+|drag|p2a: Blissey|Blissey, F|52/100
+|
+|-heal|p2a: Blissey|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1760366558
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|move|p1a: Garchomp|Dragon Tail|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|67/100
+|drag|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|
+|upkeep
+|turn|13
+|
+|t:|1760366566
+|switch|p1a: Gallade|Gallade, M, shiny|100/100
+|-damage|p1a: Gallade|94/100|[from] Stealth Rock
+|move|p2a: Kyurem|Earth Power|p1a: Gallade
+|-damage|p1a: Gallade|61/100
+|
+|upkeep
+|turn|14
+|
+|t:|1760366575
+|switch|p2a: Corviknight|Corviknight, M|55/100
+|move|p1a: Gallade|Sacred Sword|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1760366584
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|15
+|inactive|monotyrant has 120 seconds left.
+|
+|t:|1760366631
+|-terastallize|p2a: Kyurem|Ghost
+|move|p1a: Gallade|Sacred Sword|p2a: Kyurem
+|-immune|p2a: Kyurem
+|move|p2a: Kyurem|Shadow Ball|p1a: Gallade
+|-supereffective|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|upkeep
+|
+|t:|1760366645
+|switch|p1a: Krookodile|Krookodile, M, shiny|83/100
+|-damage|p1a: Krookodile|77/100|[from] Stealth Rock
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Kyurem|atk|1
+|turn|16
+|
+|t:|1760366653
+|move|p2a: Kyurem|Ice Beam|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|faint|p1a: Krookodile
+|
+|upkeep
+|
+|t:|1760366659
+|switch|p1a: Muk|Muk-Alola, F, shiny|84/100 par
+|-damage|p1a: Muk|72/100 par|[from] Stealth Rock
+|turn|17
+|
+|t:|1760366664
+|move|p2a: Kyurem|Earth Power|p1a: Muk
+|-supereffective|p1a: Muk
+|-damage|p1a: Muk|23/100 par
+|cant|p1a: Muk|par
+|
+|upkeep
+|turn|18
+|
+|t:|1760366671
+|move|p1a: Muk|Shadow Sneak|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|75/100
+|-status|p2a: Kyurem|psn|[from] ability: Poison Touch|[of] p1a: Muk
+|move|p2a: Kyurem|Earth Power|p1a: Muk
+|-supereffective|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|-heal|p2a: Kyurem|81/100 psn|[from] item: Leftovers
+|-damage|p2a: Kyurem|69/100 psn|[from] psn
+|upkeep
+|
+|t:|1760366679
+|switch|p1a: Dragonite|Dragonite, M, shiny|100/100
+|turn|19
+|inactive|monotyrant has 120 seconds left.
+|
+|t:|1760366721
+|move|p2a: Kyurem|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|6/100
+|move|p1a: Dragonite|Hurricane|p2a: Kyurem
+|-damage|p2a: Kyurem|17/100 psn
+|
+|-heal|p2a: Kyurem|23/100 psn|[from] item: Leftovers
+|-damage|p2a: Kyurem|11/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1760366735
+|move|p2a: Kyurem|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Kyurem|17/100 psn|[from] item: Leftovers
+|-damage|p2a: Kyurem|5/100 psn|[from] psn
+|upkeep
+|
+|t:|1760366739
+|switch|p1a: Veluza|Veluza, M, shiny|100/100
+|-damage|p1a: Veluza|88/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1760366747
+|move|p2a: Kyurem|Shadow Ball|p1a: Veluza
+|-supereffective|p1a: Veluza
+|-damage|p1a: Veluza|0 fnt
+|faint|p1a: Veluza
+|
+|-heal|p2a: Kyurem|11/100 psn|[from] item: Leftovers
+|-damage|p2a: Kyurem|0 fnt|[from] psn
+|faint|p2a: Kyurem
+|upkeep
+|-message|monotyrant forfeited.
+|
+|win|bxjjne c
+|raw|monotyrant's rating: 1244 &rarr; <strong>1219</strong><br />(-25 for losing)
+|raw|bxjjne c's rating: 1243 &rarr; <strong>1268</strong><br />(+25 for winning)
+|l|☆monotyrant
+|player|p1|
+|l|☆bxjjne c
+|player|p2|

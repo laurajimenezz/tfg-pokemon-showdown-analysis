@@ -1,0 +1,199 @@
+|j|☆lacoperon0109
+|j|☆woshishui000
+|t:|1758946746
+|gametype|singles
+|player|p1|lacoperon0109|n|1230
+|player|p2|woshishui000|hilda-wonderlauncher|1187
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glastrier|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Kyurem|
+|poke|p1|Kingambit, M|
+|poke|p1|Ceruledge, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Houndstone, F|
+|teampreview
+|
+|t:|1758946757
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-item|p2a: Excadrill|Air Balloon
+|turn|1
+|
+|t:|1758946768
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ninetales|Aurora Veil||[still]
+|-fail|p1a: Ninetales
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1758946779
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Slowking
+|-sidestart|p1: lacoperon0109|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowking|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1758946785
+|move|p2a: Tyranitar|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|5/100
+|-enditem|p1a: Slowking|Lagging Tail|[from] move: Knock Off|[of] p2a: Tyranitar
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowking|0 fnt|[from] Sandstorm
+|faint|p1a: Slowking
+|upkeep
+|
+|t:|1758946794
+|switch|p1a: Glastrier|Glastrier|100/100
+|turn|4
+|
+|t:|1758946801
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Glastrier|High Horsepower|p2a: Alomomola
+|-damage|p2a: Alomomola|78/100
+|-damage|p1a: Glastrier|84/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glastrier|78/100|[from] Sandstorm
+|-damage|p2a: Alomomola|72/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1758946814
+|move|p1a: Glastrier|Swords Dance|p1a: Glastrier
+|-boost|p1a: Glastrier|atk|2
+|move|p2a: Alomomola|Tickle|p1a: Glastrier
+|-unboost|p1a: Glastrier|atk|1
+|-unboost|p1a: Glastrier|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glastrier|72/100|[from] Sandstorm
+|-damage|p2a: Alomomola|65/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1758946823
+|move|p1a: Glastrier|Outrage|p2a: Alomomola
+|-damage|p2a: Alomomola|28/100
+|-damage|p1a: Glastrier|55/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|move|p2a: Alomomola|Tickle|p1a: Glastrier
+|-unboost|p1a: Glastrier|atk|1
+|-unboost|p1a: Glastrier|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glastrier|49/100|[from] Sandstorm
+|-damage|p2a: Alomomola|22/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1758946835
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Glastrier|Outrage|p2a: Corviknight|[from] lockedmove
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Glastrier|43/100|[from] Sandstorm
+|-heal|p2a: Corviknight|93/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1758946846
+|move|p2a: Corviknight|Body Press|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-damage|p1a: Glastrier|0 fnt
+|faint|p1a: Glastrier
+|
+|-weather|none
+|-heal|p2a: Corviknight|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758946854
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|-damage|p1a: Ceruledge|76/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1758946866
+|switch|p2a: Houndstone|Houndstone, F|100/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Houndstone
+|-damage|p2a: Houndstone|48/100
+|-heal|p1a: Ceruledge|100/100|[from] drain|[of] p2a: Houndstone
+|
+|upkeep
+|turn|10
+|
+|t:|1758946896
+|switch|p2a: Alomomola|Alomomola, F|55/100
+|move|p1a: Ceruledge|Poltergeist|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Poltergeist|Rocky Helmet
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|9/100
+|
+|upkeep
+|turn|11
+|
+|t:|1758946904
+|switch|p2a: Houndstone|Houndstone, F|48/100
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-crit|p2a: Houndstone
+|-damage|p2a: Houndstone|0 fnt
+|faint|p2a: Houndstone
+|
+|upkeep
+|
+|t:|1758946912
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-item|p2a: Excadrill|Air Balloon
+|turn|12
+|
+|t:|1758946920
+|move|p1a: Ceruledge|Bitter Blade|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-enditem|p2a: Excadrill|Air Balloon
+|faint|p2a: Excadrill
+|
+|upkeep
+|-message|woshishui000 forfeited.
+|
+|win|lacoperon0109
+|raw|lacoperon0109's rating: 1230 &rarr; <strong>1252</strong><br />(+22 for winning)
+|raw|woshishui000's rating: 1187 &rarr; <strong>1165</strong><br />(-22 for losing)
+|l|☆woshishui000
+|player|p2|
+|l|☆lacoperon0109
+|player|p1|

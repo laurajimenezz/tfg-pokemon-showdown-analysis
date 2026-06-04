@@ -1,0 +1,280 @@
+|j|☆bigter
+|j|☆Saundrs
+|t:|1760825617
+|gametype|singles
+|player|p1|bigter|1|1173
+|player|p2|Saundrs|170|1212
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Gholdengo|
+|poke|p1|Regidrago|
+|poke|p1|Scizor, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Walking Wake|
+|poke|p2|Great Tusk|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Heatran, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Saundrs)
+|inactive|bigter also wants the timer to be on.
+|
+|t:|1760825625
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1760825632
+|move|p1a: Weezing|Sludge Bomb|p2a: Torkoal
+|-damage|p2a: Torkoal|65/100
+|-status|p2a: Torkoal|psn
+|move|p2a: Torkoal|Lava Plume|p1a: Weezing
+|-damage|p1a: Weezing|70/100
+|-status|p1a: Weezing|brn
+|
+|-damage|p2a: Torkoal|53/100 psn|[from] psn
+|-damage|p1a: Weezing|64/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1760825640
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Weezing|Sludge Bomb|p2a: Heatran
+|-immune|p2a: Heatran
+|
+|-damage|p1a: Weezing|58/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1760825643
+|move|p2a: Heatran|Taunt|p1a: Weezing
+|-start|p1a: Weezing|move: Taunt
+|cant|p1a: Weezing|move: Taunt|Pain Split
+|
+|-damage|p1a: Weezing|52/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1760825649
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Heatran|Magma Storm|p1a: Ting-Lu|[miss]
+|-miss|p2a: Heatran|p1a: Ting-Lu
+|
+|upkeep
+|turn|5
+|
+|t:|1760825656
+|switch|p2a: Torkoal|Torkoal, M|53/100 psn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Ting-Lu|Ruination|p2a: Torkoal
+|-damage|p2a: Torkoal|27/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Torkoal|14/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1760825659
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Walking Wake
+|-sidestart|p2: Saundrs|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760825669
+|-terastallize|p2a: Walking Wake|Water
+|move|p2a: Walking Wake|Hydro Steam|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|3/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|drag|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ting-Lu|9/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760825680
+|move|p2a: Heatran|Earth Power|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760825690
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|9
+|
+|t:|1760825693
+|move|p1a: Dragonite|Extreme Speed|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|75/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Magma Storm|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|78/100
+|-activate|p1a: Dragonite|move: Magma Storm|[of] p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Dragonite|66/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1760825704
+|move|p1a: Dragonite|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Dragonite|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1760825709
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|11
+|
+|t:|1760825721
+|move|p1a: Dragonite|Extreme Speed|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|61/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Raging Bolt|67/100|[from] item: Leftovers
+|upkeep
+|inactive|bigter has 120 seconds left.
+|
+|t:|1760825750
+|switch|p1a: Regidrago|Regidrago, shiny|100/100
+|turn|12
+|
+|t:|1760825759
+|switch|p1a: Weezing|Weezing-Galar, M|52/100 brn
+|-ability|p1a: Weezing|Neutralizing Gas
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|-damage|p2a: Lilligant|94/100|[from] Stealth Rock
+|
+|-weather|none
+|-damage|p1a: Weezing|46/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1760825766
+|move|p2a: Lilligant|Triple Axel|p1a: Weezing
+|-damage|p1a: Weezing|40/100 brn
+|-damage|p1a: Weezing|28/100 brn
+|-damage|p1a: Weezing|10/100 brn
+|-hitcount|p1a: Weezing|3
+|-damage|p2a: Lilligant|84/100|[from] item: Life Orb
+|move|p1a: Weezing|Will-O-Wisp|p2a: Lilligant
+|-status|p2a: Lilligant|brn
+|
+|-damage|p2a: Lilligant|78/100 brn|[from] brn
+|-damage|p1a: Weezing|4/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1760825777
+|move|p2a: Lilligant|Triple Axel|p1a: Weezing
+|-damage|p1a: Weezing|1/100 brn
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-hitcount|p1: Weezing|2
+|-damage|p2a: Lilligant|68/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Lilligant|62/100 brn|[from] brn
+|upkeep
+|
+|t:|1760825787
+|switch|p1a: Regidrago|Regidrago, shiny|100/100
+|turn|15
+|
+|t:|1760825791
+|move|p1a: Regidrago|Dragon Energy|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|upkeep
+|
+|t:|1760825794
+|switch|p2a: Torkoal|Torkoal, M|14/100 psn
+|-damage|p2a: Torkoal|0 fnt|[from] Stealth Rock
+|faint|p2a: Torkoal
+|
+|t:|1760825798
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|16
+|
+|t:|1760825801
+|move|p1a: Regidrago|Dragon Energy|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760825807
+|switch|p2a: Walking Wake|Walking Wake, tera:Water|100/100
+|-damage|p2a: Walking Wake|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1760825811
+|move|p1a: Regidrago|Dragon Energy|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760825813
+|switch|p2a: Raging Bolt|Raging Bolt|67/100
+|-damage|p2a: Raging Bolt|55/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1760825816
+|move|p1a: Regidrago|Dragon Energy|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|bigter
+|raw|bigter's rating: 1173 &rarr; <strong>1201</strong><br />(+28 for winning)
+|raw|Saundrs's rating: 1212 &rarr; <strong>1184</strong><br />(-28 for losing)
+|l|☆Saundrs
+|player|p2|

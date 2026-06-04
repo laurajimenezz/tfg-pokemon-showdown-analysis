@@ -1,0 +1,170 @@
+|j|☆Davetron3030
+|j|‽tyflu
+|t:|1779599391
+|gametype|singles
+|player|p1|Davetron3030|dancer|1523
+|player|p2|tyflu|170|1449
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Iron Crown|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Great Tusk|
+|poke|p1|Heatran, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Ceruledge, F|
+|poke|p2|Gholdengo|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1779599401
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1779599412
+|move|p2a: Iron Valiant|Close Combat|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|move|p1a: Samurott|Ceaseless Edge|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|82/100
+|-sidestart|p2: tyflu|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1779599423
+|move|p1a: Samurott|Sucker Punch|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|69/100
+|move|p2a: Iron Valiant|Knock Off|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1779599431
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|3
+|
+|t:|1779599439
+|-terastallize|p2a: Iron Valiant|Electric
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|upkeep
+|
+|t:|1779599448
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|4
+|
+|t:|1779599454
+|move|p2a: Iron Valiant|Moonblast|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|63/100
+|move|p1a: Dragonite|Earthquake|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779599466
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|5
+|
+|t:|1779599470
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|6
+|
+|t:|1779599476
+|move|p2a: Gholdengo|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|51/100
+|move|p1a: Heatran|Lava Plume|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2a: Gholdengo|Air Balloon
+|faint|p2a: Gholdengo
+|
+|-heal|p1a: Heatran|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779599485
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Spikes
+|turn|7
+|
+|t:|1779599491
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Heatran|Will-O-Wisp|p2a: Ogerpon
+|-status|p2a: Ogerpon|brn
+|
+|-heal|p1a: Heatran|63/100|[from] item: Leftovers
+|-damage|p2a: Ogerpon|82/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1779599502
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Heatran|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-damage|p2a: Ogerpon|76/100 brn|[from] brn
+|upkeep
+|
+|t:|1779599511
+|switch|p1a: Dragonite|Dragonite, F|63/100
+|turn|9
+|
+|t:|1779599516
+|move|p2a: Ogerpon|Play Rough|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-damage|p2a: Ogerpon|70/100 brn|[from] brn
+|upkeep
+|-message|Davetron3030 forfeited.
+|
+|win|tyflu
+|raw|Davetron3030's rating: 1523 &rarr; <strong>1499</strong><br />(-24 for losing)
+|raw|tyflu's rating: 1449 &rarr; <strong>1473</strong><br />(+24 for winning)
+|l|☆Davetron3030
+|player|p1|
+|l|‽tyflu
+|player|p2|

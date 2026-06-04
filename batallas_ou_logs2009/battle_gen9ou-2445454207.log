@@ -1,0 +1,464 @@
+|j|☆obih
+|j|☆hoihouh
+|t:|1758348737
+|gametype|singles
+|player|p1|obih|102|1144
+|player|p2|hoihouh|1|1228
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Toxapex, M|
+|poke|p1|Alomomola, F|
+|poke|p1|Amoonguss, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Mienshao, F|
+|poke|p1|Dragonite, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, M|
+|poke|p2|Garganacl, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by obih)
+|
+|t:|1758348753
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1758348763
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1758348777
+|move|p2a: Raging Bolt|Thunderclap|p1a: Dragonite
+|-damage|p1a: Dragonite|57/100
+|move|p1a: Dragonite|Earthquake|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|48/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758348791
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|upkeep
+|turn|4
+|
+|t:|1758348798
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Amoonguss
+|-damage|p1a: Amoonguss|21/100
+|move|p1a: Amoonguss|Toxic|p2a: Raging Bolt
+|-status|p2a: Raging Bolt|tox
+|
+|-heal|p1a: Amoonguss|27/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|42/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1758348808
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Amoonguss
+|-activate|p1a: Amoonguss|move: Protect
+|
+|-heal|p1a: Amoonguss|33/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|30/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1758348818
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Toxapex
+|-damage|p1a: Toxapex|31/100
+|
+|-heal|p1a: Toxapex|38/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|11/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1758348828
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p1a: Toxapex|44/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|0 fnt|[from] psn
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1758348837
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|8
+|
+|t:|1758348841
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Gholdengo|Trick|p1a: Alomomola
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Alomomola
+|-item|p1a: Alomomola|Choice Specs|[from] move: Trick
+|-item|p2a: Gholdengo|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|9
+|
+|t:|1758348849
+|move|p2a: Gholdengo|Shadow Ball|p1a: Alomomola
+|-damage|p1a: Alomomola|58/100
+|move|p1a: Alomomola|Mirror Coat|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1758348855
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|10
+|
+|t:|1758348861
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|11
+|
+|t:|1758348869
+|move|p2a: Kingambit|Sucker Punch|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1758348877
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|turn|12
+|
+|t:|1758348883
+|move|p1a: Mienshao|Fake Out|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|94/100
+|cant|p2a: Kingambit|flinch
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1758348893
+|move|p2a: Kingambit|Sucker Punch|p1a: Mienshao
+|-resisted|p1a: Mienshao
+|-damage|p1a: Mienshao|5/100
+|move|p1a: Mienshao|Drain Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-heal|p1a: Mienshao|67/100|[from] drain|[of] p2a: Kingambit
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|-heal|p1a: Mienshao|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758348898
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|14
+|
+|t:|1758348908
+|switch|p1a: Toxapex|Toxapex, M|77/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Toxapex|[anim] Ivy Cudgel Water
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|57/100
+|
+|-heal|p1a: Toxapex|64/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758348918
+|move|p2a: Ogerpon|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|39/100
+|-enditem|p1a: Toxapex|Leftovers|[from] move: Knock Off|[of] p2a: Ogerpon
+|move|p1a: Toxapex|Toxic|p2a: Ogerpon
+|-status|p2a: Ogerpon|tox
+|
+|-damage|p2a: Ogerpon|95/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1758348927
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Ogerpon|Spikes|p1a: Toxapex
+|-sidestart|p1: obih|Spikes
+|
+|-damage|p2a: Ogerpon|83/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1758348941
+|move|p2a: Ogerpon|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|30/100
+|
+|t:|1758348946
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] U-turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|80/100
+|
+|upkeep
+|turn|18
+|
+|t:|1758348955
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: obih|move: Stealth Rock
+|move|p1a: Toxapex|Toxic|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|tox
+|
+|-damage|p2a: Ting-Lu|94/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1758348968
+|move|p2a: Ting-Lu|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|28/100
+|move|p1a: Toxapex|Infestation|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|92/100 tox
+|-activate|p2a: Ting-Lu|move: Infestation|[of] p1a: Toxapex
+|
+|-heal|p2a: Ting-Lu|98/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|86/100 tox|[from] psn
+|-damage|p2a: Ting-Lu|73/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|20
+|
+|t:|1758348981
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Ting-Lu|Whirlwind|p1a: Toxapex
+|drag|p1a: Amoonguss|Amoonguss, M|66/100
+|-damage|p1a: Amoonguss|54/100|[from] Spikes
+|-damage|p1a: Amoonguss|42/100|[from] Stealth Rock
+|
+|-heal|p2a: Ting-Lu|79/100 tox|[from] item: Leftovers
+|-heal|p1a: Amoonguss|48/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|61/100 tox|[from] psn
+|-end|p2a: Ting-Lu|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|21
+|
+|t:|1758348994
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|83/100 tox
+|move|p1a: Amoonguss|Protect||[still]
+|-fail|p1a: Amoonguss
+|
+|-heal|p1a: Amoonguss|54/100|[from] item: Leftovers
+|-damage|p2a: Ogerpon|77/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1758349005
+|move|p2a: Ogerpon|Knock Off|p1a: Amoonguss
+|-damage|p1a: Amoonguss|20/100
+|-enditem|p1a: Amoonguss|Leftovers|[from] move: Knock Off|[of] p2a: Ogerpon
+|move|p1a: Amoonguss|Synthesis|p1a: Amoonguss
+|-heal|p1a: Amoonguss|70/100
+|
+|-damage|p2a: Ogerpon|65/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1758349014
+|move|p2a: Ogerpon|Spikes|p1a: Amoonguss
+|-sidestart|p1: obih|Spikes
+|move|p1a: Amoonguss|Hex|p2a: Ogerpon
+|-damage|p2a: Ogerpon|34/100 tox
+|
+|-damage|p2a: Ogerpon|16/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1758349026
+|move|p2a: Ogerpon|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|43/100
+|
+|t:|1758349030
+|switch|p2a: Garganacl|Garganacl, F|100/100|[from] U-turn
+|move|p1a: Amoonguss|Synthesis|p1a: Amoonguss
+|-heal|p1a: Amoonguss|93/100
+|
+|upkeep
+|turn|25
+|
+|t:|1758349039
+|move|p2a: Garganacl|Salt Cure|p1a: Amoonguss
+|-damage|p1a: Amoonguss|81/100
+|-start|p1a: Amoonguss|Salt Cure
+|move|p1a: Amoonguss|Hex|p2a: Garganacl
+|-damage|p2a: Garganacl|96/100
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Amoonguss|69/100|[from] Salt Cure
+|upkeep
+|turn|26
+|
+|t:|1758349055
+|switch|p1a: Alomomola|Alomomola, F|92/100
+|-damage|p1a: Alomomola|75/100|[from] Spikes
+|-damage|p1a: Alomomola|62/100|[from] Stealth Rock
+|move|p2a: Garganacl|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|47/100
+|
+|upkeep
+|turn|27
+|
+|t:|1758349069
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Garganacl|Salt Cure|p1a: Alomomola
+|-damage|p1a: Alomomola|39/100
+|-start|p1a: Alomomola|Salt Cure
+|
+|-damage|p1a: Alomomola|14/100|[from] Salt Cure
+|upkeep
+|turn|28
+|
+|t:|1758349077
+|switch|p1a: Dragonite|Dragonite, M|57/100
+|move|p2a: Garganacl|Salt Cure|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|25/100
+|-start|p1a: Dragonite|Salt Cure
+|
+|-heal|p1a: Dragonite|100/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Dragonite|88/100|[from] Salt Cure
+|upkeep
+|turn|29
+|
+|t:|1758349089
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-damage|p1a: Dragonite|76/100|[from] Salt Cure
+|upkeep
+|turn|30
+|
+|t:|1758349099
+|move|p1a: Dragonite|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|47/100
+|move|p2a: Garganacl|Salt Cure|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|33/100
+|
+|-heal|p2a: Garganacl|53/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|21/100|[from] Salt Cure
+|upkeep
+|turn|31
+|
+|t:|1758349110
+|move|p1a: Dragonite|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|1/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|51/100
+|
+|-heal|p2a: Garganacl|57/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|8/100|[from] Salt Cure
+|upkeep
+|turn|32
+|
+|t:|1758349121
+|-terastallize|p1a: Dragonite|Ground
+|move|p1a: Dragonite|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-damage|p1a: Dragonite|0 fnt|[from] Salt Cure
+|faint|p1a: Dragonite
+|upkeep
+|
+|t:|1758349131
+|switch|p1a: Toxapex|Toxapex, M|62/100
+|switch|p2a: Ting-Lu|Ting-Lu|61/100 tox
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|-damage|p1a: Toxapex|45/100|[from] Spikes
+|-damage|p1a: Toxapex|33/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1758349142
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Ting-Lu|Earthquake|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p2a: Ting-Lu|67/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|61/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1758349154
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|-damage|p1a: Amoonguss|84/100|[from] Spikes
+|-damage|p1a: Amoonguss|72/100|[from] Stealth Rock
+|move|p2a: Ting-Lu|Earthquake|p1a: Amoonguss
+|-damage|p1a: Amoonguss|40/100
+|
+|-heal|p2a: Ting-Lu|67/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|55/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1758349166
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|move|p2a: Ting-Lu|Earthquake|p1a: Amoonguss
+|-activate|p1a: Amoonguss|move: Protect
+|
+|-heal|p2a: Ting-Lu|61/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|42/100 tox|[from] psn
+|upkeep
+|turn|36
+|-message|hoihouh forfeited.
+|
+|win|obih
+|raw|obih's rating: 1144 &rarr; <strong>1175</strong><br />(+31 for winning)
+|raw|hoihouh's rating: 1228 &rarr; <strong>1197</strong><br />(-31 for losing)
+|l|☆hoihouh
+|player|p2|
+|l|☆obih
+|player|p1|

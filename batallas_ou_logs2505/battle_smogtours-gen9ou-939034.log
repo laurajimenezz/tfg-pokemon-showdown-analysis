@@ -1,0 +1,465 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1779571752
+|gametype|singles
+|player|p1|storm zone|#wcop2021latinamerica|
+|player|p2|benjaboynl|#wcop2026netherlands2|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Raging Bolt|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Treads|
+|poke|p1|Overqwil, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Pelipper, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Iron Treads|
+|poke|p2|Kyurem|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|c|☆benjaboynl|glhf
+|c|+blooclipse|go mr_papu2
+|
+|t:|1779571773
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rage|Iron Treads, shiny|100/100
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|-enditem|p1a: Rage|Booster Energy
+|-activate|p1a: Rage|ability: Quark Drive|[fromitem]
+|-start|p1a: Rage|quarkdrivespe
+|turn|1
+|
+|t:|1779571786
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Rage|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: benjaboynl|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1779571807
+|-end|p1a: Rage|Quark Drive|[silent]
+|switch|p1a: Messenger|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Messenger
+|move|p2a: Tornadus|Heat Wave|p1a: Messenger
+|-resisted|p1a: Messenger
+|-damage|p1a: Messenger|91/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779571820
+|move|p2a: Tornadus|Knock Off|p1a: Messenger
+|-damage|p1a: Messenger|66/100
+|-enditem|p1a: Messenger|Damp Rock|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: Messenger|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|96/100
+|
+|t:|1779571823
+|switch|p1a: Byakko|Raging Bolt|100/100|[from] U-turn
+|-enditem|p1a: Byakko|Booster Energy
+|-activate|p1a: Byakko|ability: Protosynthesis|[fromitem]
+|-start|p1a: Byakko|protosynthesisspa
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779571841
+|move|p2a: Tornadus|U-turn|p1a: Byakko
+|-damage|p1a: Byakko|89/100
+|
+|t:|1779571844
+|switch|p2a: Kyurem|Kyurem|100/100|[from] U-turn
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Byakko|Weather Ball|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|51/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779571855
+|-end|p1a: Byakko|Protosynthesis|[silent]
+|switch|p1a: Trojan|Zamazenta, shiny|100/100
+|-ability|p1a: Trojan|Dauntless Shield|boost
+|-boost|p1a: Trojan|def|1
+|move|p2a: Kyurem|Ice Beam|p1a: Trojan
+|-damage|p1a: Trojan|62/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779571879
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Trojan|Light Screen|p1a: Trojan
+|-sidestart|p1: storm zone|move: Light Screen
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779571888
+|move|p1a: Trojan|Reflect|p1a: Trojan
+|-sidestart|p1: storm zone|Reflect
+|move|p2a: Tornadus|U-turn|p1a: Trojan
+|-resisted|p1a: Trojan
+|-damage|p1a: Trojan|60/100
+|
+|t:|1779571903
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|-damage|p2a: Zamazenta|95/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1779571910
+|switch|p1a: Messenger|Pelipper, M, shiny|66/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1779571930
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|move|p1a: Messenger|Hurricane|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|78/100
+|
+|-weather|none
+|-heal|p2a: Iron Treads|84/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779571938
+|move|p2a: Iron Treads|Rapid Spin|p1a: Messenger
+|-damage|p1a: Messenger|58/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: benjaboynl|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Messenger|U-turn|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|81/100
+|
+|t:|1779571941
+|switch|p1a: Rage|Iron Treads, shiny|100/100|[from] U-turn
+|
+|-heal|p2a: Iron Treads|87/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1779571948
+|move|p2a: Iron Treads|Earthquake|p1a: Rage
+|-supereffective|p1a: Rage
+|-damage|p1a: Rage|67/100
+|move|p1a: Rage|Earth Power|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|36/100
+|
+|-heal|p2a: Iron Treads|43/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779571958
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Rage|Rapid Spin|p2a: Hatterene
+|-damage|p2a: Hatterene|91/100
+|-boost|p1a: Rage|spe|1
+|-damage|p1a: Rage|51/100|[from] item: Rocky Helmet|[of] p2a: Hatterene
+|
+|upkeep
+|turn|13
+|
+|t:|1779571968
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Rage|Earth Power|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|-sideend|p1: storm zone|move: Light Screen
+|upkeep
+|turn|14
+|
+|t:|1779571975
+|switch|p2a: Hatterene|Hatterene, F|91/100
+|move|p1a: Rage|Steel Beam|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-damage|p1a: Rage|1/100|[from] steelbeam
+|faint|p2a: Hatterene
+|
+|-sideend|p1: storm zone|Reflect
+|upkeep
+|
+|t:|1779571984
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|15
+|
+|t:|1779571990
+|move|p1a: Rage|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: benjaboynl|move: Stealth Rock
+|move|p2a: Tornadus|Knock Off|p1a: Rage
+|-damage|p1a: Rage|0 fnt
+|faint|p1a: Rage
+|-end|p1a: Rage|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779572016
+|switch|p1a: Trojan|Zamazenta, shiny|60/100
+|turn|16
+|
+|t:|1779572020
+|move|p1a: Trojan|Light Screen|p1a: Trojan
+|-sidestart|p1: storm zone|move: Light Screen
+|move|p2a: Tornadus|Knock Off|p1a: Trojan
+|-resisted|p1a: Trojan
+|-damage|p1a: Trojan|53/100
+|-enditem|p1a: Trojan|Light Clay|[from] move: Knock Off|[of] p2a: Tornadus
+|
+|upkeep
+|turn|17
+|
+|t:|1779572027
+|move|p1a: Trojan|Reflect|p1a: Trojan
+|-sidestart|p1: storm zone|Reflect
+|move|p2a: Tornadus|Heat Wave|p1a: Trojan
+|-damage|p1a: Trojan|42/100
+|
+|upkeep
+|turn|18
+|
+|t:|1779572032
+|switch|p1a: Messenger|Pelipper, M, shiny|58/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Messenger
+|move|p2a: Tornadus|Heat Wave|p1a: Messenger
+|-resisted|p1a: Messenger
+|-damage|p1a: Messenger|53/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1779572040
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Messenger
+|-damage|p1a: Messenger|18/100
+|move|p1a: Messenger|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|96/100
+|
+|t:|1779572043
+|switch|p1a: Predator|Overqwil, M, shiny|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1779572048
+|move|p1a: Predator|Swords Dance|p1a: Predator
+|-boost|p1a: Predator|atk|2
+|move|p2a: Tornadus|U-turn|p1a: Predator
+|-damage|p1a: Predator|93/100
+|
+|t:|1779572065
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|-damage|p2a: Zamazenta|95/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1779572072
+|switch|p2a: Iron Treads|Iron Treads|43/100
+|-damage|p2a: Iron Treads|40/100|[from] Stealth Rock
+|-terastallize|p1a: Predator|Water
+|move|p1a: Predator|Liquidation|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|-damage|p1a: Predator|83/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: storm zone|Reflect
+|upkeep
+|
+|t:|1779572082
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1779572089
+|-terastallize|p2a: Garganacl|Water
+|move|p1a: Predator|Gunk Shot|p2a: Garganacl|[miss]
+|-miss|p1a: Predator|p2a: Garganacl
+|move|p2a: Garganacl|Salt Cure|p1a: Predator
+|-damage|p1a: Predator|67/100
+|-start|p1a: Predator|Salt Cure
+|
+|-weather|none
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|-damage|p1a: Predator|43/100|[from] Salt Cure
+|upkeep
+|turn|23
+|c|☆benjaboynl|mb
+|
+|t:|1779572117
+|switch|p1a: Messenger|Pelipper, M, shiny|18/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Messenger
+|switch|p2a: Kyurem|Kyurem|51/100
+|-damage|p2a: Kyurem|26/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: storm zone|move: Light Screen
+|upkeep
+|turn|24
+|
+|t:|1779572125
+|switch|p1a: Trojan|Zamazenta, shiny|42/100
+|move|p2a: Kyurem|Freeze-Dry|p1a: Trojan
+|-damage|p1a: Trojan|12/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1779572132
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|95/100|[from] Stealth Rock
+|move|p1a: Trojan|Body Press|p2a: Zamazenta
+|-damage|p2a: Zamazenta|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|69/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1779572152
+|switch|p1a: Byakko|Raging Bolt|89/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|75/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1779572165
+|move|p2a: Zamazenta|Body Press|p1a: Byakko
+|-damage|p1a: Byakko|31/100
+|move|p1a: Byakko|Weather Ball|p2a: Zamazenta
+|-damage|p2a: Zamazenta|17/100
+|
+|-weather|none
+|-heal|p2a: Zamazenta|23/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1779572192
+|-end|p1a: Byakko|Protosynthesis|[silent]
+|switch|p1a: Messenger|Pelipper, M, shiny|18/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Messenger
+|move|p2a: Zamazenta|Roar|p1a: Messenger
+|drag|p1a: Byakko|Raging Bolt|31/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|29/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1779572205
+|move|p1a: Byakko|Thunderclap|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|benjaboynl has 270 seconds left.
+|
+|t:|1779572216
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1779572223
+|move|p2a: Tornadus|U-turn|p1a: Byakko
+|-damage|p1a: Byakko|20/100
+|
+|t:|1779572226
+|switch|p2a: Kyurem|Kyurem|26/100|[from] U-turn
+|-damage|p2a: Kyurem|1/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Byakko|Calm Mind|p1a: Byakko
+|-boost|p1a: Byakko|spa|1
+|-boost|p1a: Byakko|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|t:|1779572230
+|move|p1a: Byakko|Thunderclap|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779572234
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|32
+|c|☆benjaboynl|gg
+|
+|t:|1779572241
+|move|p1a: Byakko|Thunderclap|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|none
+|upkeep
+|
+|t:|1779572243
+|switch|p2a: Garganacl|Garganacl, F, tera:Water|94/100
+|-damage|p2a: Garganacl|82/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1779572247
+|move|p1a: Byakko|Thunderclap|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|win|storm zone
+|c|☆storm zone|Gg
+|player|p1|
+|player|p2|

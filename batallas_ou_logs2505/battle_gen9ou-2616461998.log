@@ -1,0 +1,306 @@
+|j|☆shadowstrikegaming
+|j|☆mehcuzas
+|t:|1779562873
+|gametype|singles
+|player|p1|shadowstrikegaming|169|1135
+|player|p2|mehcuzas|2|1149
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Blastoise, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Grafaiai, M|
+|poke|p2|Venusaur, M|
+|poke|p2|Ninetales, M|
+|poke|p2|Great Tusk|
+|poke|p2|Walking Wake|
+|poke|p2|Cresselia, F|
+|poke|p2|Cinderace, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by shadowstrikegaming)
+|inactive|shadowstrikegaming has 120 seconds left.
+|inactive|mehcuzas has 120 seconds left.
+|
+|t:|1779562920
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisdef
+|turn|1
+|
+|t:|1779562936
+|move|p2a: Great Tusk|Ice Spinner|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|78/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1779562945
+|move|p2a: Great Tusk|Headlong Rush|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|32/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-enditem|p2a: Great Tusk|Eject Pack
+|
+|t:|1779562957
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1779562965
+|move|p2a: Cresselia|Ice Beam|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|18/100
+|move|p1a: Raging Bolt|Rest|p1a: Raging Bolt
+|-status|p1a: Raging Bolt|slp|[from] move: Rest
+|-heal|p1a: Raging Bolt|100/100 slp|[silent]
+|
+|upkeep
+|turn|4
+|
+|t:|1779562979
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|cant|p1a: Raging Bolt|slp
+|
+|upkeep
+|turn|5
+|
+|t:|1779562989
+|move|p2a: Great Tusk|Headlong Rush|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-crit|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|29/100 slp
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|cant|p1a: Raging Bolt|slp
+|
+|upkeep
+|turn|6
+|
+|t:|1779562996
+|move|p2a: Great Tusk|Headlong Rush|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779563001
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|turn|7
+|
+|t:|1779563008
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Blastoise|Surf|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|93/100
+|
+|upkeep
+|turn|8
+|
+|t:|1779563019
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Walking Wake|Draco Meteor|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Walking Wake|99/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779563029
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|9
+|
+|t:|1779563039
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|10
+|c|☆shadowstrikegaming|Choice draco huh??
+|
+|t:|1779563049
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Cresselia|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|upkeep
+|turn|11
+|
+|t:|1779563055
+|cant|p1a: Dragonite|par
+|move|p2a: Cresselia|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|68/100 par
+|-enditem|p1a: Dragonite|Weakness Policy
+|-boost|p1a: Dragonite|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Dragonite|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|12
+|
+|t:|1779563061
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Cresselia|Ice Beam|p1a: Dragonite
+|-damage|p1a: Dragonite|50/100 par
+|
+|-heal|p1a: Dragonite|56/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1779563076
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|move|p1a: Dragonite|Dragon Claw|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-enditem|p2a: Venusaur|Focus Sash
+|-damage|p2a: Venusaur|1/100
+|
+|upkeep
+|turn|14
+|
+|t:|1779563084
+|move|p1a: Dragonite|Extreme Speed|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|upkeep
+|
+|t:|1779563094
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|15
+|
+|t:|1779563100
+|move|p1a: Dragonite|Dragon Claw|p2a: Great Tusk
+|-damage|p2a: Great Tusk|12/100
+|move|p2a: Great Tusk|Close Combat|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1779563108
+|switch|p1a: Grafaiai|Grafaiai, M|100/100
+|turn|16
+|
+|t:|1779563114
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Grafaiai|Metronome|p1a: Grafaiai
+|move|p1a: Grafaiai|Blizzard|p2a: Ninetales|[from] move: Metronome
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|90/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1779563130
+|move|p1a: Grafaiai|Metronome|p1a: Grafaiai
+|move|p1a: Grafaiai|Liquidation|p2a: Ninetales|[from] move: Metronome
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|46/100
+|move|p2a: Ninetales|Scorching Sands|p1a: Grafaiai
+|-supereffective|p1a: Grafaiai
+|-damage|p1a: Grafaiai|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1779563140
+|move|p1a: Grafaiai|Metronome|p1a: Grafaiai
+|move|p1a: Grafaiai|Heat Wave|p2a: Ninetales|[from] move: Metronome
+|-resisted|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|26/100
+|move|p2a: Ninetales|Encore||[still]
+|-fail|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1779563149
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Grafaiai|Metronome|p1a: Grafaiai
+|move|p1a: Grafaiai|Circle Throw|p2a: Cinderace|[from] move: Metronome
+|-damage|p2a: Cinderace|72/100
+|drag|p2a: Great Tusk|Great Tusk|12/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1779563160
+|move|p1a: Grafaiai|Metronome|p1a: Grafaiai
+|move|p1a: Grafaiai|Eerie Impulse|p2a: Great Tusk|[from] move: Metronome
+|-unboost|p2a: Great Tusk|spa|2
+|move|p2a: Great Tusk|Headlong Rush|p1a: Grafaiai
+|-supereffective|p1a: Grafaiai
+|-damage|p1a: Grafaiai|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Grafaiai
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779563180
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|turn|21
+|-message|shadowstrikegaming forfeited.
+|
+|win|mehcuzas
+|raw|shadowstrikegaming's rating: 1135 &rarr; <strong>1111</strong><br />(-24 for losing)
+|raw|mehcuzas's rating: 1149 &rarr; <strong>1173</strong><br />(+24 for winning)
+|l|☆shadowstrikegaming
+|player|p1|
+|l|☆mehcuzas
+|player|p2|

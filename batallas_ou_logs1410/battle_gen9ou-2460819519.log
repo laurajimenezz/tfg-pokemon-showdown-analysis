@@ -1,0 +1,399 @@
+|j|☆Final boss11
+|j|☆Aliashood75
+|t:|1760364979
+|gametype|singles
+|player|p1|Final boss11|cynthia-gen4|1292
+|player|p2|Aliashood75|265|1323
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Great Tusk|
+|poke|p1|Walking Wake|
+|poke|p1|Iron Valiant|
+|poke|p1|Hatterene, F|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Great Tusk|
+|poke|p2|Dragonite, M|
+|poke|p2|Iron Moth|
+|poke|p2|Primarina, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Final boss11)
+|
+|t:|1760364996
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Anomaly|Great Tusk|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Anomaly|ability: Protosynthesis
+|-start|p2a: Anomaly|protosynthesisatk
+|turn|1
+|
+|t:|1760365012
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Anomaly|Headlong Rush|p1a: Great Tusk
+|-damage|p1a: Great Tusk|68/100
+|-unboost|p2a: Anomaly|def|1
+|-unboost|p2a: Anomaly|spd|1
+|-damage|p2a: Anomaly|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760365037
+|move|p2a: Anomaly|Ice Spinner|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|39/100
+|-damage|p2a: Anomaly|68/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Stealth Rock|p2a: Anomaly
+|-sidestart|p2: Aliashood75|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760365051
+|move|p2a: Anomaly|Rapid Spin|p1a: Great Tusk
+|-damage|p1a: Great Tusk|29/100
+|-boost|p2a: Anomaly|spe|1
+|-damage|p2a: Anomaly|51/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|-sideend|p2: Aliashood75|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Anomaly
+|move|p1a: Great Tusk|Close Combat|p2a: Anomaly
+|-damage|p2a: Anomaly|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Anomaly
+|-end|p2a: Anomaly|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760365065
+|switch|p2a: Moebius|Deoxys-Speed|100/100
+|-ability|p2a: Moebius|Pressure
+|turn|4
+|
+|t:|1760365079
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Moebius|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|54/100
+|-damage|p2a: Moebius|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760365092
+|switch|p2a: Siren|Primarina, F|100/100
+|move|p1a: Hatterene|Nuzzle|p2a: Siren
+|-supereffective|p2a: Siren
+|-damage|p2a: Siren|89/100
+|-status|p2a: Siren|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760365104
+|cant|p2a: Siren|par
+|move|p1a: Hatterene|Future Sight|p2a: Siren
+|-start|p1a: Hatterene|move: Future Sight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760365110
+|cant|p2a: Siren|par
+|move|p1a: Hatterene|Draining Kiss|p2a: Siren
+|-damage|p2a: Siren|71/100 par
+|-heal|p1a: Hatterene|68/100|[from] drain|[of] p2a: Siren
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760365116
+|cant|p2a: Siren|par
+|move|p1a: Hatterene|Draining Kiss|p2a: Siren
+|-damage|p2a: Siren|52/100 par
+|-heal|p1a: Hatterene|82/100|[from] drain|[of] p2a: Siren
+|
+|-weather|none
+|-end|p2a: Siren|move: Future Sight
+|-damage|p2a: Siren|10/100 par
+|upkeep
+|turn|9
+|c|☆Final boss11|I’m so sorry
+|
+|t:|1760365128
+|cant|p2a: Siren|par
+|move|p1a: Hatterene|Draining Kiss|p2a: Siren
+|-damage|p2a: Siren|0 fnt
+|-heal|p1a: Hatterene|90/100|[from] drain|[of] p2a: Siren
+|faint|p2a: Siren
+|
+|upkeep
+|c|☆Final boss11|Jesus christ
+|c|☆Aliashood75|yeah fun game
+|
+|t:|1760365138
+|switch|p2a: Meruem|Kingambit, M|100/100
+|-activate|p2a: Meruem|ability: Supreme Overlord
+|-start|p2a: Meruem|fallen2|[silent]
+|turn|10
+|
+|t:|1760365164
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Meruem|Swords Dance|p2a: Meruem
+|-boost|p2a: Meruem|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|c|☆Final boss11|I’ve never seen 4 paras in a row
+|
+|t:|1760365176
+|move|p2a: Meruem|Iron Head|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|56/100
+|move|p1a: Torkoal|Will-O-Wisp|p2a: Meruem
+|-status|p2a: Meruem|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Meruem|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1760365184
+|move|p2a: Meruem|Swords Dance|p2a: Meruem
+|-boost|p2a: Meruem|atk|2
+|move|p1a: Torkoal|Lava Plume|p2a: Meruem
+|-supereffective|p2a: Meruem
+|-damage|p2a: Meruem|14/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Meruem|20/100 brn|[from] item: Leftovers
+|-damage|p2a: Meruem|14/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1760365195
+|switch|p1a: Great Tusk|Great Tusk|29/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Meruem|Kowtow Cleave|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|11/100
+|-damage|p2a: Meruem|0 fnt|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p2a: Meruem
+|-end|p2a: Meruem|fallen2|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760365206
+|switch|p2a: Anomаly|Iron Moth|100/100
+|-enditem|p2a: Anomаly|Booster Energy
+|-activate|p2a: Anomаly|ability: Quark Drive|[fromitem]
+|-start|p2a: Anomаly|quarkdrivespe
+|turn|14
+|
+|t:|1760365215
+|move|p2a: Anomаly|Fiery Dance|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760365218
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|15
+|
+|t:|1760365228
+|-terastallize|p2a: Anomаly|Ground
+|-terastallize|p1a: Ogerpon|Rock
+|detailschange|p1a: Ogerpon|Ogerpon-Cornerstone-Tera, F, tera:Rock
+|-ability|p1a: Ogerpon|Embody Aspect (Cornerstone)|boost
+|-boost|p1a: Ogerpon|def|1
+|move|p2a: Anomаly|Tera Blast|p1a: Ogerpon|[anim] Tera Blast Ground
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|4/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Anomаly|[anim] Ivy Cudgel Rock
+|-resisted|p2a: Anomаly
+|-damage|p2a: Anomаly|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1760365240
+|move|p2a: Anomаly|Fiery Dance|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon-Cornerstone, F|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760365254
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|17
+|
+|t:|1760365273
+|move|p1a: Iron Valiant|Moonblast|p2a: Anomаly
+|-damage|p2a: Anomаly|2/100
+|-unboost|p2a: Anomаly|spa|1
+|move|p2a: Anomаly|Sludge Wave|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1760365283
+|switch|p1a: Torkoal|Torkoal, F|56/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|18
+|
+|t:|1760365287
+|move|p2a: Anomаly|Tera Blast|p1a: Torkoal|[anim] Tera Blast Ground
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|9/100
+|move|p1a: Torkoal|Lava Plume|p2a: Anomаly
+|-damage|p2a: Anomаly|0 fnt
+|faint|p2a: Anomаly
+|-end|p2a: Anomаly|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760365296
+|switch|p2a: Yoshi|Dragonite, M, shiny|100/100
+|turn|19
+|
+|t:|1760365301
+|move|p2a: Yoshi|Extreme Speed|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760365305
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|20
+|
+|t:|1760365315
+|move|p2a: Yoshi|Extreme Speed|p1a: Walking Wake
+|-damage|p1a: Walking Wake|50/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Yoshi
+|-supereffective|p2a: Yoshi
+|-damage|p2a: Yoshi|7/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1760365323
+|move|p2a: Yoshi|Extreme Speed|p1a: Walking Wake
+|-damage|p1a: Walking Wake|3/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Yoshi
+|-supereffective|p2a: Yoshi
+|-damage|p2a: Yoshi|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Yoshi
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760365332
+|switch|p2a: Moebius|Deoxys-Speed|91/100
+|-ability|p2a: Moebius|Pressure
+|turn|22
+|
+|t:|1760365338
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|90/100
+|move|p2a: Moebius|Nasty Plot|p2a: Moebius
+|-boost|p2a: Moebius|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1760365344
+|move|p2a: Moebius|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|6/100
+|-damage|p2a: Moebius|81/100|[from] item: Life Orb
+|move|p1a: Hatterene|Nuzzle|p2a: Moebius
+|-damage|p2a: Moebius|74/100
+|-status|p2a: Moebius|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1760365354
+|move|p2a: Moebius|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|-damage|p2a: Moebius|65/100 par|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760365357
+|switch|p1a: Walking Wake|Walking Wake|3/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|25
+|c|☆Final boss11|For all the marbles
+|c|☆Final boss11|orr I could not be dumb and steam
+|c|☆Aliashood75|what ever
+|
+|t:|1760365380
+|move|p1a: Walking Wake|Hydro Steam|p2a: Moebius
+|-damage|p2a: Moebius|0 fnt
+|faint|p2a: Moebius
+|
+|win|Final boss11
+|raw|Final boss11's rating: 1292 &rarr; <strong>1319</strong><br />(+27 for winning)
+|raw|Aliashood75's rating: 1323 &rarr; <strong>1301</strong><br />(-22 for losing)
+|c|☆Final boss11|Gg
+|c|☆Aliashood75|deserved win kekw
+|l|☆Aliashood75
+|player|p2|
+|c|☆Final boss11|Was not deserved

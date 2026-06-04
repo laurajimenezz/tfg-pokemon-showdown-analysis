@@ -1,0 +1,348 @@
+|j|☆choispecs ironmoth
+|j|☆kitakami kitchen
+|t:|1779601519
+|gametype|singles
+|player|p1|choispecs ironmoth|lucas|1623
+|player|p2|kitakami kitchen|roxie|1609
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Cinderace, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Primarina, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Avalugg, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1779601543
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|switch|p2a: Primarina|Primarina, F|100/100
+|turn|1
+|
+|t:|1779601546
+|move|p2a: Primarina|Flip Turn|p1a: Slowking
+|-damage|p1a: Slowking|87/100
+|
+|t:|1779601548
+|switch|p2a: Slowking|Slowking-Galar, M|100/100|[from] Flip Turn
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779601555
+|switch|p1a: Kingambit|Kingambit, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1779601560
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Gliscor
+|-damage|p2a: Gliscor|60/100
+|
+|-weather|Snowscape|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1779601573
+|move|p2a: Gliscor|Knock Off|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|92/100
+|-enditem|p1a: Kingambit|Leftovers|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|73/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1779601585
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|85/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1779601589
+|move|p2a: Gliscor|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|31/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Gliscor
+|-damage|p2a: Gliscor|3/100 tox
+|
+|-weather|none
+|-heal|p2a: Gliscor|15/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1779601594
+|move|p2a: Gliscor|Spikes|p1a: Kingambit
+|-sidestart|p1: choispecs ironmoth|Spikes
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2a: Gliscor|28/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1779601597
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|40/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1779601604
+|move|p2a: Gliscor|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|
+|-heal|p2a: Gliscor|53/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1779601607
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|9
+|
+|t:|1779601610
+|move|p1a: Cinderace|Pyro Ball|p2a: Gliscor|[miss]
+|-miss|p1a: Cinderace|p2a: Gliscor
+|move|p2a: Gliscor|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|68/100
+|-enditem|p1a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|65/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1779601614
+|move|p1a: Cinderace|Pyro Ball|p2a: Gliscor
+|-damage|p2a: Gliscor|24/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Gliscor|36/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1779601617
+|switch|p1a: Kyurem|Kyurem|100/100
+|-damage|p1a: Kyurem|88/100|[from] Spikes
+|-ability|p1a: Kyurem|Pressure
+|turn|11
+|
+|t:|1779601627
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Kyurem|Freeze-Dry|p2a: Slowking
+|-damage|p2a: Slowking|77/100
+|
+|upkeep
+|turn|12
+|
+|t:|1779601634
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|78/100
+|
+|upkeep
+|turn|13
+|
+|t:|1779601638
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|move|p1a: Landorus|U-turn|p2a: Avalugg
+|-damage|p2a: Avalugg|91/100
+|
+|t:|1779601643
+|switch|p1a: Kyurem|Kyurem|88/100|[from] U-turn
+|-damage|p1a: Kyurem|76/100|[from] Spikes
+|-ability|p1a: Kyurem|Pressure
+|
+|upkeep
+|turn|14
+|
+|t:|1779601645
+|switch|p2a: Primarina|Primarina, F|100/100
+|move|p1a: Kyurem|Earth Power|p2a: Primarina
+|-damage|p2a: Primarina|81/100
+|-unboost|p2a: Primarina|spd|1
+|
+|upkeep
+|turn|15
+|
+|t:|1779601650
+|-terastallize|p1a: Kyurem|Steel
+|move|p1a: Kyurem|Freeze-Dry|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|9/100
+|move|p2a: Primarina|Flip Turn|p1a: Kyurem
+|-damage|p1a: Kyurem|61/100
+|
+|t:|1779601659
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|16
+|
+|t:|1779601665
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Dragapult|Flamethrower|p1a: Slowking
+|-damage|p1a: Slowking|77/100
+|
+|upkeep
+|turn|17
+|
+|t:|1779601672
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779601676
+|switch|p1a: Kyurem|Kyurem, tera:Steel|61/100|[from] Chilly Reception
+|-damage|p1a: Kyurem|48/100|[from] Spikes
+|-ability|p1a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1779601683
+|move|p1a: Kyurem|Blizzard|p2a: Slowking
+|-damage|p2a: Slowking|64/100
+|-status|p2a: Slowking|frz
+|cant|p2a: Slowking|frz
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1779601689
+|move|p1a: Kyurem|Blizzard|p2a: Slowking
+|-damage|p2a: Slowking|29/100 frz
+|cant|p2a: Slowking|frz
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1779601692
+|switch|p2a: Primarina|Primarina, F|9/100
+|move|p1a: Kyurem|Blizzard|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779601700
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|21
+|
+|t:|1779601712
+|move|p2a: Dragapult|Flamethrower|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-weather|none
+|upkeep
+|
+|t:|1779601717
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|88/100|[from] Spikes
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|22
+|
+|t:|1779601731
+|-terastallize|p2a: Dragapult|Ghost
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Dragapult|Flamethrower|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|38/100
+|
+|upkeep
+|turn|23
+|
+|t:|1779601739
+|switch|p2a: Slowking|Slowking-Galar, M|62/100 frz
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|12/100 frz
+|
+|upkeep
+|turn|24
+|j| gimmicks strategy
+|l| gimmicks strategy
+|
+|t:|1779601756
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1779601768
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|25
+|
+|t:|1779601773
+|move|p1a: Iron Valiant|Encore||[still]
+|-fail|p1a: Iron Valiant
+|move|p2a: Kingambit|Iron Head|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|-message|choispecs ironmoth forfeited.
+|
+|win|kitakami kitchen
+|raw|choispecs ironmoth's rating: 1623 &rarr; <strong>1602</strong><br />(-21 for losing)
+|raw|kitakami kitchen's rating: 1609 &rarr; <strong>1630</strong><br />(+21 for winning)
+|l|☆choispecs ironmoth
+|player|p1|
+|l|☆kitakami kitchen
+|player|p2|

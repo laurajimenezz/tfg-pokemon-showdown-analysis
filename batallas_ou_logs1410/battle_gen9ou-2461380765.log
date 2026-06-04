@@ -1,0 +1,415 @@
+|j|☆Overgame00
+|j|☆giag1234
+|t:|1760437393
+|gametype|singles
+|player|p1|Overgame00|baker|1400
+|player|p2|giag1234|red|1453
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Revavroom, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Raging Bolt|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Scizor, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by giag1234)
+|
+|t:|1760437417
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: RatherMadThunder|Raging Bolt|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: RatherMadThunder|atk|1
+|turn|1
+|
+|t:|1760437424
+|move|p2a: Landorus|Stealth Rock|p1a: RatherMadThunder
+|-sidestart|p1: Overgame00|move: Stealth Rock
+|move|p1a: RatherMadThunder|Draco Meteor|p2a: Landorus
+|-damage|p2a: Landorus|24/100
+|-unboost|p1a: RatherMadThunder|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1760437433
+|-end|p1a: RatherMadThunder|Protosynthesis|[silent]
+|switch|p1a: Enamorbius|Enamorus, F|100/100
+|-damage|p1a: Enamorbius|76/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Enamorbius
+|-resisted|p1a: Enamorbius
+|-damage|p1a: Enamorbius|67/100
+|
+|t:|1760437441
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1760437451
+|switch|p1a: Napoli|Cinderace, M|100/100
+|move|p2a: Slowking|Future Sight|p1a: Napoli
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|4
+|
+|t:|1760437460
+|move|p1a: Napoli|Court Change|p1a: Napoli
+|-start|p1a: Napoli|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Napoli|move: Court Change
+|move|p2a: Slowking|Toxic|p1a: Napoli
+|-status|p1a: Napoli|tox
+|
+|-damage|p1a: Napoli|95/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1760437468
+|move|p1a: Napoli|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|75/100
+|
+|t:|1760437471
+|switch|p1a: Bambi|Ting-Lu|100/100|[from] U-turn
+|-ability|p1a: Bambi|Vessel of Ruin
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1760437479
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100|[from] Chilly Reception
+|-damage|p2a: Samurott|88/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Bambi|move: Future Sight
+|-immune|p1a: Bambi
+|upkeep
+|turn|6
+|
+|t:|1760437487
+|move|p2a: Samurott|Ceaseless Edge|p1a: Bambi|[miss]
+|-miss|p2a: Samurott|p1a: Bambi
+|move|p1a: Bambi|Whirlwind|p2a: Samurott
+|drag|p2a: Dragapult|Dragapult, F|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760437497
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Bambi
+|-status|p1a: Bambi|brn
+|move|p1a: Bambi|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|77/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Bambi|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1760437506
+|move|p2a: Dragapult|U-turn|p1a: Bambi
+|-supereffective|p1a: Bambi
+|-damage|p1a: Bambi|73/100 brn
+|
+|t:|1760437510
+|switch|p2a: Landorus|Landorus-Therian, M|24/100|[from] U-turn
+|-damage|p2a: Landorus|12/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Bambi|atk|1
+|move|p1a: Bambi|Ruination|p2a: Landorus
+|-damage|p2a: Landorus|6/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Bambi|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Bambi|73/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1760437522
+|move|p2a: Landorus|Stealth Rock|p1a: Bambi
+|-sidestart|p1: Overgame00|move: Stealth Rock
+|move|p1a: Bambi|Whirlwind|p2a: Landorus
+|drag|p2a: Samurott|Samurott-Hisui, F|88/100
+|-damage|p2a: Samurott|76/100|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Bambi|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Bambi|73/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1760437533
+|move|p2a: Samurott|Ceaseless Edge|p1a: Bambi
+|-resisted|p1a: Bambi
+|-damage|p1a: Bambi|55/100 brn
+|-sidestart|p1: Overgame00|Spikes
+|move|p1a: Bambi|Earthquake|p2a: Samurott
+|-damage|p2a: Samurott|60/100
+|
+|-heal|p1a: Bambi|61/100 brn|[from] item: Leftovers
+|-damage|p1a: Bambi|55/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1760437543
+|move|p2a: Samurott|Ceaseless Edge|p1a: Bambi
+|-resisted|p1a: Bambi
+|-damage|p1a: Bambi|35/100 brn
+|-sidestart|p1: Overgame00|Spikes
+|move|p1a: Bambi|Ruination|p2a: Samurott
+|-damage|p2a: Samurott|30/100
+|
+|-heal|p1a: Bambi|41/100 brn|[from] item: Leftovers
+|-damage|p1a: Bambi|35/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1760437560
+|switch|p2a: Landorus|Landorus-Therian, M|6/100
+|-damage|p2a: Landorus|0 fnt|[from] Stealth Rock
+|faint|p2a: Landorus
+|move|p1a: Bambi|Earthquake|p2: Landorus|[notarget]
+|-fail|p1a: Bambi
+|
+|-heal|p1a: Bambi|41/100 brn|[from] item: Leftovers
+|-damage|p1a: Bambi|35/100 brn|[from] brn
+|upkeep
+|
+|t:|1760437575
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|13
+|
+|t:|1760437579
+|move|p1a: Bambi|Ruination|p2a: Slowking|[miss]
+|-miss|p1a: Bambi|p2a: Slowking
+|move|p2a: Slowking|Future Sight|p1a: Bambi
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Bambi|41/100 brn|[from] item: Leftovers
+|-damage|p1a: Bambi|35/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1760437586
+|move|p1a: Bambi|Ruination|p2a: Slowking
+|-damage|p2a: Slowking|51/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1760437592
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] Chilly Reception
+|-damage|p2a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|-heal|p1a: Bambi|41/100 brn|[from] item: Leftovers
+|-damage|p1a: Bambi|35/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1760437604
+|move|p2a: Zamazenta|Roar|p1a: Bambi
+|drag|p1a: Enamorbius|Enamorus, F|67/100
+|-damage|p1a: Enamorbius|42/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Enamorbius|move: Future Sight
+|-damage|p1a: Enamorbius|0 fnt
+|faint|p1a: Enamorbius
+|upkeep
+|
+|t:|1760437614
+|switch|p1a: Napoli|Cinderace, M|95/100 tox
+|turn|16
+|
+|t:|1760437619
+|move|p2a: Zamazenta|Body Press|p1a: Napoli
+|-damage|p1a: Napoli|17/100 tox
+|move|p1a: Napoli|Court Change|p1a: Napoli
+|-start|p1a: Napoli|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Napoli|move: Court Change
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Napoli|11/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1760437627
+|move|p2a: Zamazenta|Body Press|p1a: Napoli
+|-supereffective|p1a: Napoli
+|-damage|p1a: Napoli|0 fnt
+|faint|p1a: Napoli
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760437631
+|switch|p1a: Bambi|Ting-Lu|35/100 brn
+|-damage|p1a: Bambi|29/100 brn|[from] Stealth Rock
+|-ability|p1a: Bambi|Vessel of Ruin
+|turn|18
+|
+|t:|1760437636
+|move|p2a: Zamazenta|Body Press|p1a: Bambi
+|-supereffective|p1a: Bambi
+|-damage|p1a: Bambi|0 fnt
+|faint|p1a: Bambi
+|
+|-weather|none
+|upkeep
+|
+|t:|1760437641
+|switch|p1a: RatherMadThunder|Raging Bolt|100/100
+|-damage|p1a: RatherMadThunder|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1760437647
+|switch|p2a: Samurott|Samurott-Hisui, F|30/100
+|-damage|p2a: Samurott|18/100|[from] Stealth Rock
+|-damage|p2a: Samurott|1/100|[from] Spikes
+|move|p1a: RatherMadThunder|Draco Meteor|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-unboost|p1a: RatherMadThunder|spa|2
+|faint|p2a: Samurott
+|
+|-heal|p1a: RatherMadThunder|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760437659
+|switch|p2a: Slowking|Slowking-Galar, F|84/100
+|turn|20
+|
+|t:|1760437664
+|move|p1a: RatherMadThunder|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|71/100
+|
+|t:|1760437667
+|-end|p1a: RatherMadThunder|Protosynthesis|[silent]
+|switch|p1a: TURBOMOTORE|Revavroom, F|100/100|[from] Volt Switch
+|-damage|p1a: TURBOMOTORE|95/100|[from] Stealth Rock
+|move|p2a: Slowking|Future Sight|p1a: TURBOMOTORE
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: TURBOMOTORE|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1760437676
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: TURBOMOTORE|Shift Gear|p1a: TURBOMOTORE
+|-boost|p1a: TURBOMOTORE|spe|2
+|-boost|p1a: TURBOMOTORE|atk|1
+|
+|upkeep
+|turn|22
+|
+|t:|1760437683
+|move|p1a: TURBOMOTORE|High Horsepower|p2a: Scizor
+|-damage|p2a: Scizor|49/100
+|move|p2a: Scizor|Knock Off|p1a: TURBOMOTORE
+|-damage|p1a: TURBOMOTORE|53/100
+|-enditem|p1a: TURBOMOTORE|Leftovers|[from] move: Knock Off|[of] p2a: Scizor
+|
+|-end|p1a: TURBOMOTORE|move: Future Sight
+|-crit|p1a: TURBOMOTORE
+|-damage|p1a: TURBOMOTORE|0 fnt
+|faint|p1a: TURBOMOTORE
+|upkeep
+|
+|t:|1760437691
+|switch|p1a: Ogeporn|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogeporn|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1760437703
+|move|p1a: Ogeporn|Ivy Cudgel|p2a: Scizor|[anim] Ivy Cudgel Water
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1760437712
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|94/100|[from] Stealth Rock
+|-damage|p2a: Zamazenta|78/100|[from] Spikes
+|turn|24
+|
+|t:|1760437719
+|move|p2a: Zamazenta|Body Press|p1a: Ogeporn
+|-damage|p1a: Ogeporn|43/100
+|move|p1a: Ogeporn|Swords Dance|p1a: Ogeporn
+|-boost|p1a: Ogeporn|atk|2
+|
+|-heal|p2a: Zamazenta|84/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1760437726
+|move|p2a: Zamazenta|Body Press|p1a: Ogeporn
+|-damage|p1a: Ogeporn|0 fnt
+|faint|p1a: Ogeporn
+|
+|-heal|p2a: Zamazenta|90/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760437728
+|switch|p1a: RatherMadThunder|Raging Bolt|94/100
+|-damage|p1a: RatherMadThunder|82/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1760437741
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-terastallize|p1a: RatherMadThunder|Fairy
+|move|p1a: RatherMadThunder|Calm Mind|p1a: RatherMadThunder
+|-boost|p1a: RatherMadThunder|spa|1
+|-boost|p1a: RatherMadThunder|spd|1
+|
+|-heal|p1a: RatherMadThunder|88/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1760437749
+|move|p1a: RatherMadThunder|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|61/100
+|move|p2a: Slowking|Toxic|p1a: RatherMadThunder
+|-status|p1a: RatherMadThunder|tox
+|
+|-heal|p1a: RatherMadThunder|94/100 tox|[from] item: Leftovers
+|-damage|p1a: RatherMadThunder|88/100 tox|[from] psn
+|upkeep
+|turn|28
+|c|☆Overgame00|Gg
+|-message|Overgame00 forfeited.
+|
+|win|giag1234
+|raw|Overgame00's rating: 1400 &rarr; <strong>1383</strong><br />(-17 for losing)
+|raw|giag1234's rating: 1453 &rarr; <strong>1470</strong><br />(+17 for winning)
+|l|☆Overgame00
+|player|p1|
+|l|☆giag1234
+|player|p2|

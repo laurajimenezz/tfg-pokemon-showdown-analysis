@@ -1,0 +1,330 @@
+|j|☆eemiee
+|j|☆mansonabuluting
+|t:|1760741800
+|gametype|singles
+|player|p1|eemiee|170|1750
+|player|p2|mansonabuluting|bellelba|1883
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Chandelure, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Walking Wake|
+|poke|p1|Slither Wing|
+|poke|p1|Corviknight, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Hawlucha, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Great Tusk|
+|poke|p2|Volcanion|
+|poke|p2|Goodra-Hisui, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mansonabuluting)
+|
+|t:|1760741818
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|1
+|
+|t:|1760741830
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Walking Wake|Draco Meteor|p2a: Rillaboom
+|-damage|p2a: Rillaboom|12/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-heal|p2a: Rillaboom|18/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1760741837
+|move|p2a: Rillaboom|Grassy Glide|p1a: Walking Wake
+|-damage|p1a: Walking Wake|37/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Walking Wake|43/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760741852
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p2a: Hawlucha|Grassy Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Grassy Seed
+|turn|3
+|
+|t:|1760741857
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760741871
+|move|p2a: Hawlucha|Substitute|p2a: Hawlucha
+|-start|p2a: Hawlucha|Substitute
+|-damage|p2a: Hawlucha|76/100
+|move|p1a: Torkoal|Will-O-Wisp||[still]
+|-fail|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760741874
+|move|p2a: Hawlucha|Acrobatics|p1a: Torkoal
+|-damage|p1a: Torkoal|42/100
+|move|p1a: Torkoal|Lava Plume|p2a: Hawlucha
+|-end|p2a: Hawlucha|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|48/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1760741891
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Hawlucha|Acrobatics|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|70/100
+|-damage|p2a: Hawlucha|59/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760741899
+|move|p2a: Hawlucha|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|-damage|p2a: Hawlucha|43/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760741908
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|8
+|
+|t:|1760741929
+|-terastallize|p1a: Dragonite|Fairy
+|move|p2a: Hawlucha|Acrobatics|p1a: Dragonite
+|-damage|p1a: Dragonite|57/100
+|move|p1a: Dragonite|Tera Blast|p2a: Hawlucha|[anim] Tera Blast Fairy
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760741936
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|9
+|
+|t:|1760741946
+|-terastallize|p2a: Thundurus|Flying
+|move|p2a: Thundurus|Tera Blast|p1a: Dragonite|[anim] Tera Blast Flying
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760741950
+|switch|p1a: Walking Wake|Walking Wake|43/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|10
+|j| steven 2222
+|inactive|mansonabuluting has 120 seconds left.
+|
+|t:|1760741985
+|move|p1a: Walking Wake|Draco Meteor|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Thundurus
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1760741989
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|turn|11
+|
+|t:|1760742015
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|48/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Goodra|Draco Meteor|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760742024
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|turn|12
+|inactive|mansonabuluting has 120 seconds left.
+|
+|t:|1760742058
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|move|p1a: Slither Wing|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|87/100
+|-damage|p1a: Slither Wing|84/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|
+|t:|1760742067
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Chandelure|Chandelure, M|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|j| Trucker Hat Mew
+|inactive|mansonabuluting has 120 seconds left.
+|inactive|mansonabuluting has 90 seconds left.
+|
+|t:|1760742124
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|move|p1a: Chandelure|Flamethrower|p2a: Goodra
+|-damage|p2a: Goodra|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1760742132
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Chandelure|Flamethrower|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|l| steven 2222
+|
+|t:|1760742145
+|switch|p1a: Slither Wing|Slither Wing|84/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|move|p2a: Volcanion|Earth Power|p1a: Slither Wing
+|-resisted|p1a: Slither Wing
+|-damage|p1a: Slither Wing|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1760742158
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Walking Wake|Walking Wake|43/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|switch|p2a: Great Tusk|Great Tusk|87/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1760742168
+|move|p1a: Walking Wake|Draco Meteor|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760742171
+|switch|p2a: Goodra|Goodra-Hisui, F|44/100
+|turn|18
+|
+|t:|1760742179
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Goodra|Draco Meteor|p1a: Chandelure
+|-damage|p1a: Chandelure|9/100
+|-unboost|p2a: Goodra|spa|2
+|
+|-weather|none
+|upkeep
+|turn|19
+|inactive|mansonabuluting has 120 seconds left.
+|
+|t:|1760742206
+|move|p1a: Chandelure|Shadow Ball|p2a: Goodra
+|-damage|p2a: Goodra|10/100
+|move|p2a: Goodra|Surf|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|t:|1760742212
+|switch|p1a: Slither Wing|Slither Wing|56/100
+|turn|20
+|
+|t:|1760742224
+|move|p1a: Slither Wing|Earthquake|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|upkeep
+|inactive|mansonabuluting has 120 seconds left.
+|
+|t:|1760742253
+|switch|p2a: Volcanion|Volcanion|68/100
+|turn|21
+|
+|t:|1760742261
+|move|p1a: Slither Wing|Earthquake|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|win|eemiee
+|raw|eemiee's rating: 1750 &rarr; <strong>1777</strong><br />(+27 for winning)
+|raw|mansonabuluting's rating: 1883 &rarr; <strong>1856</strong><br />(-27 for losing)
+|l|☆mansonabuluting
+|player|p2|
+|l|☆eemiee
+|player|p1|
+|l| Trucker Hat Mew

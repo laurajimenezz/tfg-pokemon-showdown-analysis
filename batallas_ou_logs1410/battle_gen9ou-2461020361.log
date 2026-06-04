@@ -1,0 +1,545 @@
+|j|☆GlormbusTemples
+|j|‽Luna226
+|t:|1760385287
+|gametype|singles
+|player|p1|GlormbusTemples|pokekid|1151
+|player|p2|Luna226|102|1106
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zapdos|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Jirachi|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Alomomola, F|
+|poke|p1|Kingambit, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Pecharunt|
+|poke|p2|Great Tusk|
+|poke|p2|Scizor, M|
+|teampreview
+|
+|t:|1760385291
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|1
+|
+|t:|1760385301
+|move|p2a: Landorus|Taunt|p1a: Landorus
+|-start|p1a: Landorus|move: Taunt
+|cant|p1a: Landorus|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1760385310
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: GlormbusTemples|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1760385323
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|76/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760385329
+|move|p1a: Zapdos|Discharge|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|92/100
+|move|p2a: Goodra|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-end|p1a: Zapdos|Substitute
+|
+|upkeep
+|turn|5
+|
+|t:|1760385337
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Goodra|Ice Beam|p1a: Slowking
+|-damage|p1a: Slowking|83/100
+|
+|upkeep
+|turn|6
+|
+|t:|1760385344
+|move|p2a: Goodra|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|44/100
+|-enditem|p1a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Goodra
+|move|p1a: Slowking|Thunder Wave|p2a: Goodra
+|-status|p2a: Goodra|par
+|
+|upkeep
+|turn|7
+|
+|t:|1760385352
+|move|p2a: Goodra|Draco Meteor|p1a: Slowking|[miss]
+|-miss|p2a: Goodra|p1a: Slowking
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760385360
+|switch|p1a: Alomomola|Alomomola, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760385365
+|switch|p1a: Slowking|Slowking-Galar, M|77/100
+|-damage|p1a: Slowking|64/100|[from] Stealth Rock
+|move|p2a: Goodra|Draco Meteor|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|9/100
+|-unboost|p2a: Goodra|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1760385374
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Goodra|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|90/100
+|-enditem|p1a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Goodra
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760385381
+|switch|p1a: Slowking|Slowking-Galar, M|42/100
+|-damage|p1a: Slowking|29/100|[from] Stealth Rock
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760385389
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|move|p2a: Pecharunt|Shadow Ball|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|81/100
+|-unboost|p1a: Kingambit|spd|1
+|
+|-weather|none
+|-heal|p1a: Kingambit|87/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1760385401
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|move|p1a: Kingambit|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|70/100
+|-damage|p1a: Kingambit|70/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|-heal|p1a: Kingambit|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760385410
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|62/100
+|
+|upkeep
+|turn|14
+|
+|t:|1760385417
+|move|p2a: Landorus|U-turn|p1a: Alomomola
+|-damage|p1a: Alomomola|49/100
+|
+|t:|1760385421
+|switch|p2a: Goodra|Goodra-Hisui, M|92/100 par|[from] U-turn
+|move|p1a: Alomomola|Flip Turn|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|85/100 par
+|
+|t:|1760385436
+|switch|p1a: Kingambit|Kingambit, M|76/100|[from] Flip Turn
+|-damage|p1a: Kingambit|70/100|[from] Stealth Rock
+|
+|-heal|p1a: Kingambit|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1760385443
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Slowking|Slowking-Galar, M|63/100
+|-damage|p1a: Slowking|50/100|[from] Stealth Rock
+|move|p2a: Goodra|Flamethrower|p1a: Slowking
+|-damage|p1a: Slowking|32/100
+|
+|upkeep
+|turn|16
+|
+|t:|1760385451
+|switch|p1a: Alomomola|Alomomola, F|83/100
+|-damage|p1a: Alomomola|70/100|[from] Stealth Rock
+|move|p2a: Goodra|Draco Meteor|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1760385453
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1760385462
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|69/100
+|move|p2a: Goodra|Knock Off|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1760385471
+|move|p1a: Jirachi|Iron Head|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|72/100 par
+|cant|p2a: Goodra|flinch
+|
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1760385479
+|switch|p2a: Landorus|Landorus-Therian, M|70/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|-terastallize|p1a: Jirachi|Dark
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|57/100
+|
+|-heal|p1a: Jirachi|63/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1760385490
+|move|p1a: Jirachi|Body Slam|p2a: Landorus
+|-damage|p2a: Landorus|57/100
+|-status|p2a: Landorus|par
+|-damage|p1a: Jirachi|46/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|cant|p2a: Landorus|par
+|
+|-heal|p1a: Jirachi|52/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1760385499
+|move|p1a: Jirachi|Psychic Noise|p2a: Landorus
+|-damage|p2a: Landorus|31/100 par
+|-start|p2a: Landorus|move: Heal Block
+|move|p2a: Landorus|U-turn|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|t:|1760385506
+|switch|p2a: Scizor|Scizor, M|100/100|[from] U-turn
+|
+|-heal|p1a: Jirachi|59/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1760385512
+|switch|p1a: Zapdos|Zapdos|76/100
+|move|p2a: Scizor|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|53/100
+|-status|p2a: Scizor|par|[from] ability: Static|[of] p1a: Zapdos
+|
+|t:|1760385519
+|switch|p2a: Goodra|Goodra-Hisui, M|72/100 par|[from] U-turn
+|
+|upkeep
+|turn|23
+|
+|t:|1760385525
+|switch|p1a: Slowking|Slowking-Galar, M|66/100
+|-damage|p1a: Slowking|53/100|[from] Stealth Rock
+|move|p2a: Goodra|Ice Beam|p1a: Slowking
+|-damage|p1a: Slowking|37/100
+|
+|upkeep
+|turn|24
+|
+|t:|1760385532
+|move|p2a: Goodra|Draco Meteor|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1760385537
+|switch|p1a: Jirachi|Jirachi, tera:Dark|59/100
+|-damage|p1a: Jirachi|46/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1760385544
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|21/100
+|move|p2a: Goodra|Draco Meteor|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|-unboost|p2a: Goodra|spa|2
+|
+|-heal|p1a: Jirachi|27/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1760385556
+|switch|p2a: Scizor|Scizor, M|100/100 par
+|move|p1a: Jirachi|Substitute|p1a: Jirachi
+|-start|p1a: Jirachi|Substitute
+|-damage|p1a: Jirachi|2/100
+|
+|-heal|p1a: Jirachi|9/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1760385567
+|move|p1a: Jirachi|Psychic Noise|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|84/100 par
+|-start|p2a: Scizor|move: Heal Block
+|cant|p2a: Scizor|par
+|
+|-heal|p1a: Jirachi|15/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1760385577
+|move|p1a: Jirachi|Iron Head|p2a: Scizor
+|-resisted|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|60/100 par
+|cant|p2a: Scizor|par
+|
+|-heal|p1a: Jirachi|21/100|[from] item: Leftovers
+|-end|p2a: Scizor|move: Heal Block
+|upkeep
+|turn|29
+|
+|t:|1760385585
+|move|p1a: Jirachi|Iron Head|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|43/100 par
+|cant|p2a: Scizor|flinch
+|
+|-heal|p1a: Jirachi|27/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1760385592
+|move|p1a: Jirachi|Iron Head|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|26/100 par
+|move|p2a: Scizor|U-turn|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-end|p1a: Jirachi|Substitute
+|
+|t:|1760385602
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100|[from] U-turn
+|
+|-heal|p1a: Jirachi|33/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1760385610
+|switch|p1a: Zapdos|Zapdos|53/100
+|-terastallize|p2a: Samurott|Water
+|move|p2a: Samurott|Aqua Jet|p1a: Zapdos
+|-damage|p1a: Zapdos|35/100
+|
+|upkeep
+|turn|32
+|
+|t:|1760385624
+|switch|p2a: Landorus|Landorus-Therian, M|31/100 par
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|85/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|upkeep
+|turn|33
+|
+|t:|1760385632
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|61/100
+|move|p2a: Landorus|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-activate|p1a: Zapdos|move: Substitute|[damage]
+|
+|t:|1760385638
+|switch|p2a: Goodra|Goodra-Hisui, M|72/100 par|[from] U-turn
+|
+|upkeep
+|turn|34
+|
+|t:|1760385642
+|move|p1a: Zapdos|Hurricane|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|61/100 par
+|-start|p2a: Goodra|confusion
+|-activate|p2a: Goodra|confusion
+|-damage|p2a: Goodra|54/100 par|[from] confusion
+|
+|upkeep
+|turn|35
+|
+|t:|1760385649
+|move|p1a: Zapdos|Hurricane|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|43/100 par
+|-activate|p2a: Goodra|confusion
+|move|p2a: Goodra|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-end|p1a: Zapdos|Substitute
+|
+|upkeep
+|turn|36
+|
+|t:|1760385656
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|36/100
+|-activate|p2a: Goodra|confusion
+|cant|p2a: Goodra|par
+|
+|upkeep
+|turn|37
+|
+|t:|1760385662
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|86/100
+|-singleturn|p1a: Zapdos|move: Roost
+|-activate|p2a: Goodra|confusion
+|move|p2a: Goodra|Ice Beam|p1a: Zapdos
+|-end|p1a: Zapdos|Substitute
+|
+|upkeep
+|turn|38
+|
+|t:|1760385669
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|61/100
+|-end|p2a: Goodra|confusion
+|move|p2a: Goodra|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-end|p1a: Zapdos|Substitute
+|
+|upkeep
+|turn|39
+|
+|t:|1760385677
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|36/100
+|move|p2a: Goodra|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-end|p1a: Zapdos|Substitute
+|
+|upkeep
+|turn|40
+|
+|t:|1760385683
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|11/100
+|cant|p2a: Goodra|par
+|
+|upkeep
+|turn|41
+|
+|t:|1760385688
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|62/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Goodra|Ice Beam|p1a: Zapdos
+|-end|p1a: Zapdos|Substitute
+|
+|upkeep
+|turn|42
+|
+|t:|1760385695
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Goodra|Ice Beam|p1a: Zapdos
+|-damage|p1a: Zapdos|69/100
+|-status|p1a: Zapdos|frz
+|
+|upkeep
+|turn|43
+|
+|t:|1760385705
+|-curestatus|p1a: Zapdos|frz|[msg]
+|move|p1a: Zapdos|Hurricane|p2a: Goodra|[miss]
+|-miss|p1a: Zapdos|p2a: Goodra
+|move|p2a: Goodra|Draco Meteor|p1a: Zapdos
+|-damage|p1a: Zapdos|6/100
+|-unboost|p2a: Goodra|spa|2
+|
+|upkeep
+|turn|44
+|
+|t:|1760385713
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|56/100
+|-singleturn|p1a: Zapdos|move: Roost
+|cant|p2a: Goodra|par
+|
+|upkeep
+|turn|45
+|-message|Luna226 forfeited.
+|
+|win|GlormbusTemples
+|raw|GlormbusTemples's rating: 1151 &rarr; <strong>1173</strong><br />(+22 for winning)
+|raw|Luna226's rating: 1106 &rarr; <strong>1084</strong><br />(-22 for losing)
+|l|‽Luna226
+|player|p2|

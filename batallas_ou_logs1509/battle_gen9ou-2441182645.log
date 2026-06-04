@@ -1,0 +1,258 @@
+|j|☆e3720
+|j|☆Pig Perfect
+|t:|1757809787
+|gametype|singles
+|player|p1|e3720|101|1554
+|player|p2|Pig Perfect|workerice|1548
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pincurchin, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Treads|
+|poke|p1|Iron Moth|
+|poke|p1|Hawlucha, F|
+|poke|p1|Dragonite, F|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Hatterene, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Indeedee, M|
+|poke|p2|Iron Crown|
+|teampreview
+|
+|t:|1757809809
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1757809869
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Iron Treads|Knock Off|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-enditem|p2a: Deoxys|Colbur Berry|[eat]
+|-enditem|p2a: Deoxys|Colbur Berry|[weaken]
+|-damage|p2a: Deoxys|71/100
+|
+|upkeep
+|turn|2
+|
+|t:|1757809882
+|move|p2a: Deoxys|Knock Off|p1a: Iron Treads
+|-damage|p1a: Iron Treads|82/100
+|-enditem|p1a: Iron Treads|Clear Amulet|[from] move: Knock Off|[of] p2a: Deoxys
+|move|p1a: Iron Treads|Rapid Spin|p2a: Deoxys
+|-damage|p2a: Deoxys|53/100
+|-boost|p1a: Iron Treads|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1757809913
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Hatterene
+|move|p2a: Hatterene|Stealth Rock|p1a: Iron Treads|[from] ability: Magic Bounce
+|-sidestart|p1: e3720|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1757809916
+|move|p1a: Iron Treads|Rapid Spin|p2a: Hatterene
+|-damage|p2a: Hatterene|88/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: e3720|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1757809928
+|move|p1a: Iron Treads|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|56/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p2a: Hatterene|62/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757809942
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|turn|6
+|
+|t:|1757809986
+|move|p1a: Iron Moth|Overheat|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-unboost|p1a: Iron Moth|spa|2
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1757810001
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespa
+|turn|7
+|
+|t:|1757810008
+|move|p1a: Iron Moth|Overheat|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|-unboost|p1a: Iron Moth|spa|2
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757810015
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p2a: Hawlucha|Psychic Seed
+|-boost|p2a: Hawlucha|spd|1|[from] item: Psychic Seed
+|turn|8
+|
+|t:|1757810032
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1757810056
+|move|p2a: Hawlucha|Close Combat|p1a: Pincurchin
+|-damage|p1a: Pincurchin|6/100
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|move|p1a: Pincurchin|Discharge|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|11/100
+|-status|p2a: Hawlucha|par
+|
+|upkeep
+|turn|10
+|
+|t:|1757810068
+|move|p2a: Hawlucha|Acrobatics|p1a: Pincurchin
+|-resisted|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|upkeep
+|
+|t:|1757810104
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|turn|11
+|
+|t:|1757810107
+|move|p1a: Iron Moth|Flamethrower|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|t:|1757810123
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|12
+|
+|t:|1757810145
+|switch|p2a: Deoxys|Deoxys-Speed|53/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Iron Moth|Flamethrower|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|
+|t:|1757810148
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|13
+|
+|t:|1757810151
+|move|p1a: Iron Moth|Flamethrower|p2a: Hoopa
+|-damage|p2a: Hoopa|65/100
+|move|p2a: Hoopa|Expanding Force|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757810159
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|turn|14
+|
+|t:|1757810163
+|move|p1a: Hawlucha|Close Combat|p2a: Hoopa
+|-damage|p2a: Hoopa|11/100
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|move|p2a: Hoopa|Expanding Force|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|t:|1757810174
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|15
+|
+|t:|1757810180
+|move|p1a: Dragonite|Earthquake|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1757810183
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|turn|16
+|
+|t:|1757810192
+|move|p2a: Indeedee|Expanding Force|p1a: Dragonite
+|-damage|p1a: Dragonite|28/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p1a: Dragonite|34/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1757810197
+|move|p1a: Dragonite|Earthquake|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|win|e3720
+|raw|e3720's rating: 1554 &rarr; <strong>1574</strong><br />(+20 for winning)
+|raw|Pig Perfect's rating: 1548 &rarr; <strong>1528</strong><br />(-20 for losing)
+|l|☆Pig Perfect
+|player|p2|
+|l|☆e3720
+|player|p1|

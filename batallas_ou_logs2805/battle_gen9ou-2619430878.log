@@ -1,0 +1,297 @@
+|j|☆Tweakachu
+|j|☆RinRinOwO
+|t:|1779916689
+|gametype|singles
+|player|p1|Tweakachu|marlon|1000
+|player|p2|RinRinOwO|iris|1029
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cryogonal|
+|poke|p1|Inteleon, M|
+|poke|p1|Meowscarada, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Braviary, M|
+|poke|p1|Mienshao, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Crown|
+|poke|p2|Ting-Lu|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1779916706
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|t:|1779916719
+|move|p1a: Meowscarada|Sucker Punch|p2a: Dragapult
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|15/100
+|move|p2a: Dragapult|U-turn|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|45/100
+|-enditem|p1a: Meowscarada|Enigma Berry|[eat]
+|-heal|p1a: Meowscarada|69/100|[from] item: Enigma Berry|[of] p2a: Dragapult
+|
+|t:|1779916735
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|-item|p2a: Kingambit|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|t:|1779916747
+|move|p1a: Meowscarada|Leech Seed|p2a: Kingambit
+|-start|p2a: Kingambit|move: Leech Seed
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-damage|p2a: Kingambit|88/100|[from] Leech Seed|[of] p1a: Meowscarada
+|-heal|p1a: Meowscarada|84/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1779916760
+|move|p1a: Meowscarada|Play Rough|p2a: Kingambit|[miss]
+|-miss|p1a: Meowscarada|p2a: Kingambit
+|move|p2a: Kingambit|Low Kick|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|upkeep
+|
+|t:|1779916773
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|turn|4
+|
+|t:|1779916781
+|move|p1a: Mienshao|Drain Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-enditem|p2a: Kingambit|Air Balloon
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|
+|upkeep
+|
+|t:|1779916786
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|turn|5
+|
+|t:|1779916792
+|move|p1a: Mienshao|Triple Axel|p2a: Gliscor|[miss]
+|-miss|p1a: Mienshao|p2a: Gliscor
+|move|p2a: Gliscor|Toxic Spikes|p1a: Mienshao
+|-sidestart|p1: Tweakachu|move: Toxic Spikes
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1779916800
+|move|p1a: Mienshao|Triple Axel|p2a: Gliscor|[miss]
+|-miss|p1a: Mienshao|p2a: Gliscor
+|move|p2a: Gliscor|Earthquake|p1a: Mienshao
+|-damage|p1a: Mienshao|47/100
+|
+|upkeep
+|turn|7
+|
+|t:|1779916806
+|move|p1a: Mienshao|Triple Axel|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|71/100 tox
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|30/100 tox
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|-hitcount|p2: Gliscor|3
+|
+|upkeep
+|
+|t:|1779916813
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespe
+|turn|8
+|
+|t:|1779916825
+|move|p2a: Iron Crown|Psychic|p1a: Mienshao
+|-supereffective|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|
+|upkeep
+|
+|t:|1779916832
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|-status|p1a: Ursaluna|psn
+|turn|9
+|
+|t:|1779916844
+|-terastallize|p2a: Iron Crown|Fighting
+|move|p2a: Iron Crown|Focus Blast|p1a: Ursaluna|[miss]
+|-miss|p2a: Iron Crown|p1a: Ursaluna
+|move|p1a: Ursaluna|Earthquake|p2a: Iron Crown
+|-crit|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-damage|p1a: Ursaluna|88/100 psn|[from] psn
+|upkeep
+|
+|t:|1779916850
+|switch|p2a: Dragapult|Dragapult, F|15/100
+|turn|10
+|
+|t:|1779916858
+|move|p2a: Dragapult|U-turn|p1a: Ursaluna
+|-damage|p1a: Ursaluna|75/100 psn
+|
+|t:|1779916863
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] U-turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Ursaluna|Supercell Slam|p2a: Ting-Lu
+|-immune|p2a: Ting-Lu
+|-damage|p1a: Ursaluna|25/100 psn|[from] supercellslam
+|
+|-damage|p1a: Ursaluna|13/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1779916869
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Ursaluna
+|-sidestart|p1: Tweakachu|move: Stealth Rock
+|move|p1a: Ursaluna|Body Press|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|62/100
+|-damage|p1a: Ursaluna|0 fnt|[from] item: Rocky Helmet|[of] p2a: Ting-Lu
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1779916875
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|-damage|p1a: Cryogonal|76/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1779916880
+|move|p1a: Cryogonal|Rapid Spin|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|58/100
+|-boost|p1a: Cryogonal|spe|1
+|-damage|p1a: Cryogonal|59/100|[from] item: Rocky Helmet|[of] p2a: Ting-Lu
+|-sideend|p1: Tweakachu|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Cryogonal
+|-sideend|p1: Tweakachu|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Cryogonal
+|move|p2a: Ting-Lu|Heavy Slam|p1a: Cryogonal
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|0 fnt
+|faint|p1a: Cryogonal
+|
+|upkeep
+|
+|t:|1779916885
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|turn|13
+|
+|t:|1779916894
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Inteleon|Snipe Shot|p2a: Ogerpon
+|-immune|p2a: Ogerpon|[from] ability: Water Absorb
+|
+|upkeep
+|turn|14
+|
+|t:|1779916916
+|switch|p1a: Braviary|Braviary, M|100/100
+|move|p2a: Ogerpon|Knock Off|p1a: Braviary
+|-damage|p1a: Braviary|50/100
+|-enditem|p1a: Braviary|Leftovers|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|upkeep
+|turn|15
+|
+|t:|1779916933
+|move|p2a: Ogerpon|Knock Off|p1a: Braviary
+|-damage|p1a: Braviary|18/100
+|move|p1a: Braviary|Dual Wingbeat|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|45/100
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|-hitcount|p2: Ogerpon|2
+|
+|upkeep
+|
+|t:|1779916940
+|switch|p2a: Dragapult|Dragapult, F|15/100
+|turn|16
+|
+|t:|1779916947
+|move|p2a: Dragapult|Dragon Darts|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|upkeep
+|
+|t:|1779916952
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|turn|17
+|
+|t:|1779916960
+|move|p2a: Dragapult|Hex|p1a: Inteleon
+|-damage|p1a: Inteleon|48/100
+|move|p1a: Inteleon|Ice Beam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1779916962
+|switch|p2a: Ting-Lu|Ting-Lu|58/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|18
+|
+|t:|1779916973
+|move|p1a: Inteleon|Snipe Shot|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|20/100
+|move|p2a: Ting-Lu|Ruination|p1a: Inteleon
+|-damage|p1a: Inteleon|24/100
+|
+|upkeep
+|turn|19
+|
+|t:|1779916980
+|move|p1a: Inteleon|Ice Beam|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|win|Tweakachu
+|raw|Tweakachu's rating: 1000 &rarr; <strong>1043</strong><br />(+43 for winning)
+|raw|RinRinOwO's rating: 1029 &rarr; <strong>1013</strong><br />(-16 for losing)
+|l|☆Tweakachu
+|player|p1|

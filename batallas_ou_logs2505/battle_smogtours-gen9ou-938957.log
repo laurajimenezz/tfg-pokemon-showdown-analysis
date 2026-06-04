@@ -1,0 +1,264 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1779569169
+|gametype|singles
+|player|p1|sand castle|swimmer|
+|player|p2|Prav33n|170|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Pecharunt|
+|poke|p1|Gholdengo|
+|poke|p1|Darkrai|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Dragonite, M|
+|poke|p2|Kyurem|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Deoxys-Speed|
+|teampreview
+|c|☆Prav33n|hf
+|c|☆sand castle|hf
+|inactive|sand castle has 270 seconds left.
+|
+|t:|1779569210
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1779569237
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|move|p2a: Great Tusk|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|36/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|2
+|inactive|sand castle has 270 seconds left.
+|
+|t:|1779569255
+|move|p1a: Great Tusk|Headlong Rush|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779569260
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|3
+|
+|t:|1779569267
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo, shiny|100/100
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1779569276
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Gholdengo|Trick|p2a: Samurott
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Samurott
+|-item|p2a: Samurott|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Assault Vest|[from] move: Trick
+|
+|upkeep
+|turn|5
+|
+|t:|1779569289
+|switch|p1a: Great Tusk|Great Tusk, shiny|36/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|20/100
+|-sidestart|p1: sand castle|Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1779569299
+|move|p2a: Samurott|Ceaseless Edge|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|5/100
+|-sidestart|p1: sand castle|Spikes
+|move|p1a: Great Tusk|Rapid Spin|p2a: Samurott
+|-damage|p2a: Samurott|80/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: sand castle|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|7
+|
+|t:|1779569303
+|move|p1a: Great Tusk|Headlong Rush|p2a: Samurott
+|-damage|p2a: Samurott|9/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Samurott|Ceaseless Edge|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-sidestart|p1: sand castle|Spikes
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779569318
+|switch|p1a: Dragonite|Dragonite, M, shiny|100/100
+|turn|8
+|
+|t:|1779569324
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Dragonite|Extreme Speed|p2a: Deoxys
+|-damage|p2a: Deoxys|64/100
+|-damage|p1a: Dragonite|84/100|[from] item: Rocky Helmet|[of] p2a: Deoxys
+|
+|upkeep
+|turn|9
+|
+|t:|1779569343
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|-damage|p1a: Samurott|88/100|[from] Spikes
+|move|p2a: Deoxys|Stealth Rock|p1a: Samurott
+|-sidestart|p1: sand castle|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1779569348
+|switch|p2a: Samurott|Samurott-Hisui, M|9/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-sidestart|p2: Prav33n|Spikes
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1779569368
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-damage|p2a: Kyurem|88/100|[from] Spikes
+|-ability|p2a: Kyurem|Pressure
+|turn|11
+|
+|t:|1779569373
+|move|p2a: Kyurem|Freeze-Dry|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|44/100
+|move|p1a: Samurott|Sacred Sword|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|25/100
+|
+|upkeep
+|turn|12
+|
+|t:|1779569381
+|move|p2a: Kyurem|Freeze-Dry|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1779569384
+|switch|p1a: Darkrai|Darkrai, shiny|100/100
+|-damage|p1a: Darkrai|88/100|[from] Spikes
+|-damage|p1a: Darkrai|76/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1779569392
+|move|p1a: Darkrai|Dark Pulse|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1779569397
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|-damage|p2a: Iron Valiant|88/100|[from] Spikes
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|14
+|
+|t:|1779569408
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Darkrai|Ice Beam|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|55/100
+|
+|upkeep
+|turn|15
+|
+|t:|1779569421
+|move|p2a: Iron Valiant|Moonblast|p1a: Darkrai
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+|inactive|sand castle has 270 seconds left.
+|
+|t:|1779569455
+|switch|p1a: Gholdengo|Gholdengo, shiny|100/100
+|-damage|p1a: Gholdengo|88/100|[from] Spikes
+|-damage|p1a: Gholdengo|82/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1779569468
+|-terastallize|p2a: Iron Valiant|Ghost
+|-terastallize|p1a: Gholdengo|Steel
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Gholdengo
+|-damage|p1a: Gholdengo|34/100
+|-unboost|p1a: Gholdengo|spd|1
+|move|p1a: Gholdengo|Shadow Ball|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779569479
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|17
+|
+|t:|1779569484
+|move|p1a: Gholdengo|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|24/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Hex|p1a: Gholdengo
+|-damage|p1a: Gholdengo|3/100
+|
+|upkeep
+|turn|18
+|-message|Prav33n forfeited.
+|
+|win|sand castle

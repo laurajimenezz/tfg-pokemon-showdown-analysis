@@ -1,0 +1,588 @@
+|j|☆abyssalcloud
+|j|☆hujolumpky
+|t:|1779602069
+|gametype|singles
+|player|p1|abyssalcloud|n|1270
+|player|p2|hujolumpky|unknown|1312
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Beartic, M|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Hydrapple, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Quaquaval, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Clodsire, F|
+|poke|p2|Tornadus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by abyssalcloud)
+|
+|t:|1779602080
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Drizzle My Nizzle|Pelipper, F|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Drizzle My Nizzle
+|turn|1
+|
+|t:|1779602089
+|switch|p1a: Thunderclap Cheeks|Raging Bolt|100/100
+|-enditem|p1a: Thunderclap Cheeks|Booster Energy
+|-activate|p1a: Thunderclap Cheeks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Thunderclap Cheeks|protosynthesisspa
+|move|p2a: Tornadus|Knock Off|p1a: Thunderclap Cheeks
+|-damage|p1a: Thunderclap Cheeks|88/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1779602100
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Thunderclap Cheeks|Calm Mind|p1a: Thunderclap Cheeks
+|-boost|p1a: Thunderclap Cheeks|spa|1
+|-boost|p1a: Thunderclap Cheeks|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779602107
+|move|p1a: Thunderclap Cheeks|Draco Meteor|p2a: Clodsire
+|-damage|p2a: Clodsire|45/100
+|-unboost|p1a: Thunderclap Cheeks|spa|2
+|move|p2a: Clodsire|Toxic|p1a: Thunderclap Cheeks
+|-status|p1a: Thunderclap Cheeks|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Thunderclap Cheeks|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1779602121
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Thunderclap Cheeks|Draco Meteor|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|78/100
+|-unboost|p1a: Thunderclap Cheeks|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|84/100|[from] item: Leftovers
+|-damage|p1a: Thunderclap Cheeks|70/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1779602133
+|move|p1a: Thunderclap Cheeks|Thunder|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|39/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|89/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|95/100|[from] item: Leftovers
+|-damage|p1a: Thunderclap Cheeks|52/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1779602146
+|-end|p1a: Thunderclap Cheeks|Protosynthesis|[silent]
+|switch|p1a: 5 Sons of Bascu|Hydrapple, M|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779602155
+|move|p2a: Corviknight|U-turn|p1a: 5 Sons of Bascu
+|-supereffective|p1a: 5 Sons of Bascu
+|-damage|p1a: 5 Sons of Bascu|78/100
+|
+|t:|1779602179
+|switch|p2a: Clodsire|Clodsire, F|45/100|[from] U-turn
+|move|p1a: 5 Sons of Bascu|Hydro Pump|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779602192
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|8
+|
+|t:|1779602210
+|move|p2a: Tornadus|U-turn|p1a: 5 Sons of Bascu
+|-supereffective|p1a: 5 Sons of Bascu
+|-damage|p1a: 5 Sons of Bascu|55/100
+|
+|t:|1779602218
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: 5 Sons of Bascu|Hydro Pump|p2a: Corviknight|[miss]
+|-miss|p1a: 5 Sons of Bascu|p2a: Corviknight
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1779602228
+|switch|p1a: Drizzle My Nizzle|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Drizzle My Nizzle
+|move|p2a: Corviknight|U-turn|p1a: Drizzle My Nizzle
+|-resisted|p1a: Drizzle My Nizzle
+|-damage|p1a: Drizzle My Nizzle|95/100
+|
+|t:|1779602234
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1779602239
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Drizzle My Nizzle
+|-damage|p1a: Drizzle My Nizzle|32/100
+|move|p1a: Drizzle My Nizzle|Tailwind|p1a: Drizzle My Nizzle
+|-sidestart|p1: abyssalcloud|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779602248
+|switch|p1a: Thunderclap Cheeks|Raging Bolt|52/100 tox
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Thunderclap Cheeks
+|-resisted|p1a: Thunderclap Cheeks
+|-damage|p1a: Thunderclap Cheeks|31/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Thunderclap Cheeks|25/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1779602257
+|move|p1a: Thunderclap Cheeks|Thunder|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Thunderclap Cheeks|13/100 tox|[from] psn
+|upkeep
+|
+|t:|1779602271
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|13
+|
+|t:|1779602274
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Thunderclap Cheeks|Thunder|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Thunderclap Cheeks|0 fnt|[from] psn
+|faint|p1a: Thunderclap Cheeks
+|-end|p1a: Thunderclap Cheeks|Protosynthesis|[silent]
+|-sideend|p1: abyssalcloud|move: Tailwind
+|upkeep
+|
+|t:|1779602299
+|switch|p1a: Me When I'm Goated|Beartic, M|100/100
+|turn|14
+|
+|t:|1779602306
+|move|p1a: Me When I'm Goated|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|55/100
+|move|p2a: Toxapex|Toxic|p1a: Me When I'm Goated
+|-status|p1a: Me When I'm Goated|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|61/100|[from] item: Black Sludge
+|-damage|p1a: Me When I'm Goated|94/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1779602316
+|move|p1a: Me When I'm Goated|Swords Dance|p1a: Me When I'm Goated
+|-boost|p1a: Me When I'm Goated|atk|2
+|move|p2a: Toxapex|Infestation|p1a: Me When I'm Goated
+|-damage|p1a: Me When I'm Goated|91/100 tox
+|-activate|p1a: Me When I'm Goated|move: Infestation|[of] p2a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|68/100|[from] item: Black Sludge
+|-damage|p1a: Me When I'm Goated|78/100 tox|[from] psn
+|-damage|p1a: Me When I'm Goated|66/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1779602326
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Me When I'm Goated|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-weather|none
+|-heal|p2a: Toxapex|74/100|[from] item: Black Sludge
+|-damage|p1a: Me When I'm Goated|48/100 tox|[from] psn
+|-damage|p1a: Me When I'm Goated|36/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|17
+|
+|t:|1779602341
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Me When I'm Goated|Icicle Spear|p2a: Corviknight
+|-damage|p2a: Corviknight|79/100
+|-damage|p2a: Corviknight|58/100
+|-damage|p2a: Corviknight|37/100
+|-damage|p2a: Corviknight|15/100
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|-hitcount|p2: Corviknight|5
+|
+|-damage|p1a: Me When I'm Goated|11/100 tox|[from] psn
+|-end|p1a: Me When I'm Goated|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1779602361
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|18
+|
+|t:|1779602370
+|switch|p1a: 5 Sons of Bascu|Hydrapple, M|88/100
+|move|p2a: Ogerpon|Horn Leech|p1a: 5 Sons of Bascu
+|-resisted|p1a: 5 Sons of Bascu
+|-damage|p1a: 5 Sons of Bascu|80/100
+|
+|upkeep
+|turn|19
+|
+|t:|1779602389
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Play Rough|p1a: 5 Sons of Bascu
+|-supereffective|p1a: 5 Sons of Bascu
+|-damage|p1a: 5 Sons of Bascu|28/100
+|move|p1a: 5 Sons of Bascu|Nasty Plot|p1a: 5 Sons of Bascu
+|-boost|p1a: 5 Sons of Bascu|spa|2
+|
+|upkeep
+|turn|20
+|
+|t:|1779602404
+|switch|p1a: Drizzle My Nizzle|Pelipper, F|32/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Drizzle My Nizzle
+|move|p2a: Ogerpon|Play Rough|p1a: Drizzle My Nizzle
+|-damage|p1a: Drizzle My Nizzle|7/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1779602415
+|move|p2a: Ogerpon|Play Rough|p1a: Drizzle My Nizzle
+|-damage|p1a: Drizzle My Nizzle|0 fnt
+|faint|p1a: Drizzle My Nizzle
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779602431
+|switch|p1a: 5 Sons of Bascu|Hydrapple, M|61/100
+|turn|22
+|
+|t:|1779602440
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|-terastallize|p1a: 5 Sons of Bascu|Steel
+|move|p1a: 5 Sons of Bascu|Giga Drain|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|87/100
+|-heal|p1a: 5 Sons of Bascu|68/100|[from] drain|[of] p2a: Skeledirge
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1779602460
+|switch|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|100/100
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|switch|p1a: Lil Uzi Squirt|Quaquaval, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1779602474
+|move|p2a: Ogerpon|Play Rough|p1a: Lil Uzi Squirt|[miss]
+|-miss|p2a: Ogerpon|p1a: Lil Uzi Squirt
+|move|p1a: Lil Uzi Squirt|Rapid Spin|p2a: Ogerpon
+|-damage|p2a: Ogerpon|77/100
+|-boost|p1a: Lil Uzi Squirt|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1779602486
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Lil Uzi Squirt|Close Combat|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|80/100
+|-unboost|p1a: Lil Uzi Squirt|def|1
+|-unboost|p1a: Lil Uzi Squirt|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|86/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|t:|1779602496
+|move|p1a: Lil Uzi Squirt|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|65/100
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Lil Uzi Squirt
+|move|p2a: Toxapex|Infestation|p1a: Lil Uzi Squirt
+|-resisted|p1a: Lil Uzi Squirt
+|-damage|p1a: Lil Uzi Squirt|98/100
+|-activate|p1a: Lil Uzi Squirt|move: Infestation|[of] p2a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Lil Uzi Squirt|86/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|27
+|inactive|abyssalcloud has 120 seconds left.
+|
+|t:|1779602519
+|move|p1a: Lil Uzi Squirt|Aqua Step|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|45/100
+|-boost|p1a: Lil Uzi Squirt|spe|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|95/100
+|
+|-weather|none
+|-damage|p1a: Lil Uzi Squirt|73/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|28
+|
+|t:|1779602529
+|move|p1a: Lil Uzi Squirt|Aqua Step|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|82/100
+|-boost|p1a: Lil Uzi Squirt|spe|1
+|move|p2a: Toxapex|Toxic|p1a: Lil Uzi Squirt
+|-status|p1a: Lil Uzi Squirt|tox
+|
+|-damage|p1a: Lil Uzi Squirt|67/100 tox|[from] psn
+|-damage|p1a: Lil Uzi Squirt|55/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|29
+|inactive|abyssalcloud has 120 seconds left.
+|
+|t:|1779602544
+|move|p1a: Lil Uzi Squirt|Knock Off|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|60/100
+|move|p2a: Toxapex|Infestation|p1a: Lil Uzi Squirt
+|-resisted|p1a: Lil Uzi Squirt
+|-damage|p1a: Lil Uzi Squirt|52/100 tox
+|
+|-damage|p1a: Lil Uzi Squirt|40/100 tox|[from] psn
+|-damage|p1a: Lil Uzi Squirt|28/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|30
+|inactive|abyssalcloud has 120 seconds left.
+|
+|t:|1779602568
+|move|p1a: Lil Uzi Squirt|Close Combat|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|41/100
+|-unboost|p1a: Lil Uzi Squirt|def|1
+|-unboost|p1a: Lil Uzi Squirt|spd|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|91/100
+|
+|-damage|p1a: Lil Uzi Squirt|10/100 tox|[from] psn
+|-damage|p1a: Lil Uzi Squirt|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p1a: Lil Uzi Squirt
+|upkeep
+|
+|t:|1779602584
+|switch|p1a: 5 Sons of Bascu|Hydrapple, M, tera:Steel|100/100
+|turn|31
+|
+|t:|1779602591
+|switch|p2a: Skeledirge|Skeledirge, M|87/100
+|move|p1a: 5 Sons of Bascu|Nasty Plot|p1a: 5 Sons of Bascu
+|-boost|p1a: 5 Sons of Bascu|spa|2
+|
+|upkeep
+|turn|32
+|
+|t:|1779602600
+|move|p2a: Skeledirge|Torch Song|p1a: 5 Sons of Bascu
+|-supereffective|p1a: 5 Sons of Bascu
+|-damage|p1a: 5 Sons of Bascu|47/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: 5 Sons of Bascu|Hydro Pump|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|37/100
+|
+|upkeep
+|turn|33
+|inactive|abyssalcloud has 120 seconds left.
+|
+|t:|1779602610
+|switch|p1a: Tired Mother Of 5|Basculegion-F, F|100/100
+|move|p2a: Skeledirge|Torch Song|p1a: Tired Mother Of 5
+|-resisted|p1a: Tired Mother Of 5
+|-damage|p1a: Tired Mother Of 5|75/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|upkeep
+|turn|34
+|inactive|abyssalcloud has 120 seconds left.
+|
+|t:|1779602621
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Tired Mother Of 5|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|54/100
+|
+|upkeep
+|turn|35
+|
+|t:|1779602630
+|switch|p1a: 5 Sons of Bascu|Hydrapple, M, tera:Steel|80/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|36
+|
+|t:|1779602640
+|move|p1a: 5 Sons of Bascu|Hydro Pump|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|86/100
+|move|p2a: Toxapex|Infestation|p1a: 5 Sons of Bascu
+|-resisted|p1a: 5 Sons of Bascu
+|-damage|p1a: 5 Sons of Bascu|79/100
+|-activate|p1a: 5 Sons of Bascu|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: 5 Sons of Bascu|67/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|37
+|
+|t:|1779602649
+|move|p1a: 5 Sons of Bascu|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|56/100
+|-heal|p1a: 5 Sons of Bascu|77/100|[from] drain|[of] p2a: Toxapex
+|move|p2a: Toxapex|Infestation|p1a: 5 Sons of Bascu
+|-resisted|p1a: 5 Sons of Bascu
+|-damage|p1a: 5 Sons of Bascu|76/100
+|
+|-damage|p1a: 5 Sons of Bascu|64/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|38
+|
+|t:|1779602658
+|switch|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|77/100
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: 5 Sons of Bascu|Nasty Plot|p1a: 5 Sons of Bascu
+|-boost|p1a: 5 Sons of Bascu|spa|2
+|
+|-end|p1a: 5 Sons of Bascu|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|39
+|
+|t:|1779602666
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: 5 Sons of Bascu|[anim] Ivy Cudgel Water
+|-damage|p1a: 5 Sons of Bascu|9/100
+|move|p1a: 5 Sons of Bascu|Giga Drain|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-heal|p1a: 5 Sons of Bascu|37/100|[from] drain|[of] p2a: Ogerpon
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|upkeep
+|
+|t:|1779602672
+|switch|p2a: Skeledirge|Skeledirge, M|37/100
+|turn|40
+|
+|t:|1779602678
+|switch|p1a: Me When I'm Goated|Beartic, M|11/100 tox
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|88/100
+|
+|-damage|p1a: Me When I'm Goated|5/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1779602692
+|move|p1a: Me When I'm Goated|Earthquake|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|30/100
+|move|p2a: Skeledirge|Torch Song|p1a: Me When I'm Goated
+|-supereffective|p1a: Me When I'm Goated
+|-damage|p1a: Me When I'm Goated|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Me When I'm Goated
+|
+|upkeep
+|
+|t:|1779602703
+|switch|p1a: Tired Mother Of 5|Basculegion-F, F|75/100
+|turn|42
+|
+|t:|1779602708
+|switch|p2a: Toxapex|Toxapex, M|89/100
+|move|p1a: Tired Mother Of 5|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|40/100
+|
+|upkeep
+|turn|43
+|
+|t:|1779602716
+|move|p1a: Tired Mother Of 5|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|-message|hujolumpky forfeited.
+|
+|win|abyssalcloud
+|raw|abyssalcloud's rating: 1270 &rarr; <strong>1298</strong><br />(+28 for winning)
+|raw|hujolumpky's rating: 1312 &rarr; <strong>1290</strong><br />(-22 for losing)
+|l|☆hujolumpky
+|player|p2|
+|l|☆abyssalcloud
+|player|p1|

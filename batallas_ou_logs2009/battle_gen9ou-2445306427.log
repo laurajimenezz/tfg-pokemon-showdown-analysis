@@ -1,0 +1,257 @@
+|j|☆Felikeruto
+|j|☆bluebocat
+|t:|1758326681
+|gametype|singles
+|player|p1|Felikeruto|169|1142
+|player|p2|bluebocat|marshal|1052
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Meowscarada, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Blastoise, F|
+|poke|p1|Skeledirge, M|
+|poke|p1|Chesnaught, F|
+|poke|p2|Politoed, F|
+|poke|p2|Lanturn, F|
+|poke|p2|Feraligatr, F|
+|poke|p2|Buizel, F|
+|poke|p2|Poliwrath, M|
+|poke|p2|Pelipper, F|
+|teampreview
+|
+|t:|1758326689
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1758326728
+|move|p1a: Meowscarada|Thunder Punch|p2a: Pelipper
+|-start|p1a: Meowscarada|typechange|Electric|[from] ability: Protean
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758326736
+|switch|p2a: Lanturn|Lanturn, F|100/100
+|turn|2
+|
+|t:|1758326745
+|move|p1a: Meowscarada|Knock Off|p2a: Lanturn
+|-damage|p2a: Lanturn|71/100
+|-enditem|p2a: Lanturn|Leftovers|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Lanturn|Flip Turn|p1a: Meowscarada
+|-damage|p1a: Meowscarada|71/100
+|
+|t:|1758326751
+|switch|p2a: Poliwrath|Poliwrath, M|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758326757
+|move|p1a: Meowscarada|U-turn|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|88/100
+|
+|t:|1758326759
+|switch|p1a: Chesnaught|Chesnaught, F|100/100|[from] U-turn
+|move|p2a: Poliwrath|Circle Throw|p1a: Chesnaught
+|-damage|p1a: Chesnaught|86/100
+|-damage|p2a: Poliwrath|72/100|[from] item: Rocky Helmet|[of] p1a: Chesnaught
+|drag|p1a: Greninja|Greninja, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758326778
+|move|p2a: Poliwrath|Rest|p2a: Poliwrath
+|-status|p2a: Poliwrath|slp|[from] move: Rest
+|-heal|p2a: Poliwrath|100/100 slp|[silent]
+|move|p1a: Greninja|Sludge Wave|p2a: Poliwrath
+|-start|p1a: Greninja|typechange|Poison|[from] ability: Protean
+|-damage|p2a: Poliwrath|36/100 slp
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758326803
+|cant|p2a: Poliwrath|slp
+|move|p2a: Poliwrath|Sleep Talk|p2a: Poliwrath
+|move|p2a: Poliwrath|Drain Punch|p1a: Greninja|[from] move: Sleep Talk
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|64/100
+|-heal|p2a: Poliwrath|48/100 slp|[from] drain|[of] p1a: Greninja
+|move|p1a: Greninja|Sludge Wave|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|-damage|p1a: Greninja|54/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758326831
+|switch|p2a: Buizel|Buizel, F|100/100
+|turn|6
+|
+|t:|1758326854
+|switch|p1a: Chesnaught|Chesnaught, F|86/100
+|move|p2a: Buizel|Wave Crash|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|67/100
+|-damage|p2a: Buizel|84/100|[from] item: Rocky Helmet|[of] p1a: Chesnaught
+|-damage|p2a: Buizel|76/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758326868
+|move|p2a: Buizel|Dig||[still]
+|-prepare|p2a: Buizel|Dig
+|move|p1a: Chesnaught|Leech Seed|p2a: Buizel|[miss]
+|-miss|p1a: Chesnaught|p2a: Buizel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758326884
+|move|p2a: Buizel|Dig|p1a: Chesnaught|[from] lockedmove
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|62/100
+|-damage|p2a: Buizel|59/100|[from] item: Rocky Helmet|[of] p1a: Chesnaught
+|move|p1a: Chesnaught|Spikes|p2a: Buizel
+|-sidestart|p2: bluebocat|Spikes
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1758326946
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|88/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Chesnaught|Leech Seed|p2a: Politoed
+|-start|p2a: Politoed|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|75/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|74/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1758326956
+|move|p2a: Politoed|Ice Beam|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|34/100
+|move|p1a: Chesnaught|Synthesis|p1a: Chesnaught
+|-heal|p1a: Chesnaught|59/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|63/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|71/100|[silent]
+|upkeep
+|turn|11
+|
+|t:|1758326965
+|move|p2a: Politoed|Ice Beam|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|27/100
+|move|p1a: Chesnaught|Synthesis|p1a: Chesnaught
+|-heal|p1a: Chesnaught|52/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|50/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|65/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1758327003
+|move|p2a: Politoed|Ice Beam|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|22/100
+|move|p1a: Chesnaught|Synthesis|p1a: Chesnaught
+|-heal|p1a: Chesnaught|47/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Politoed|38/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|60/100|[silent]
+|upkeep
+|turn|13
+|
+|t:|1758327013
+|switch|p1a: Blastoise|Blastoise, F|100/100
+|move|p2a: Politoed|Ice Beam|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|94/100
+|-status|p1a: Blastoise|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Blastoise|99/100 frz|[from] ability: Rain Dish
+|-heal|p1a: Blastoise|100/100 frz|[from] item: Leftovers
+|-damage|p2a: Politoed|25/100|[from] Leech Seed|[of] p1a: Blastoise
+|upkeep
+|turn|14
+|
+|t:|1758327042
+|switch|p2a: Feraligatr|Feraligatr, F|100/100
+|-damage|p2a: Feraligatr|88/100|[from] Spikes
+|cant|p1a: Blastoise|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1758327061
+|switch|p1a: Chesnaught|Chesnaught, F|60/100
+|move|p2a: Feraligatr|Swords Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1758327069
+|move|p2a: Feraligatr|Crunch|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|43/100
+|-damage|p2a: Feraligatr|72/100|[from] item: Rocky Helmet|[of] p1a: Chesnaught
+|move|p1a: Chesnaught|Leech Seed|p2a: Feraligatr
+|-start|p2a: Feraligatr|move: Leech Seed
+|
+|-weather|none
+|-damage|p2a: Feraligatr|59/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|55/100|[silent]
+|upkeep
+|turn|17
+|-message|bluebocat forfeited.
+|
+|win|Felikeruto
+|raw|Felikeruto's rating: 1142 &rarr; <strong>1161</strong><br />(+19 for winning)
+|raw|bluebocat's rating: 1052 &rarr; <strong>1039</strong><br />(-13 for losing)
+|l|☆bluebocat
+|player|p2|
+|l|☆Felikeruto
+|player|p1|

@@ -1,0 +1,391 @@
+|j|☆one_angry_jew
+|j|☆Shabooya1
+|t:|1779630828
+|gametype|singles
+|player|p1|one_angry_jew|266|1463
+|player|p2|Shabooya1|brycenman|1461
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Vaporeon, M|
+|poke|p1|Sylveon, F|
+|poke|p1|Espeon, F|
+|poke|p1|Jolteon, M|
+|poke|p1|Glaceon, F|
+|poke|p1|Umbreon, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Primarina, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Araquanid, F|
+|teampreview
+|
+|t:|1779630857
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|t:|1779630865
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Shabooya1|move: Light Screen
+|move|p1a: Jolteon|Volt Switch|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|82/100
+|
+|t:|1779630870
+|switch|p1a: Espeon|Espeon, F|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|2
+|
+|t:|1779630881
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Shabooya1|Reflect
+|move|p1a: Espeon|Trick|p2a: Grimmsnarl
+|-activate|p1a: Espeon|move: Trick|[of] p2a: Grimmsnarl
+|-item|p2a: Grimmsnarl|Choice Scarf|[from] move: Trick
+|-item|p1a: Espeon|Light Clay|[from] move: Trick
+|
+|upkeep
+|turn|3
+|
+|t:|1779630901
+|move|p1a: Espeon|Trick|p2a: Grimmsnarl
+|-activate|p1a: Espeon|move: Trick|[of] p2a: Grimmsnarl
+|-item|p2a: Grimmsnarl|Light Clay|[from] move: Trick
+|-item|p1a: Espeon|Choice Scarf|[from] move: Trick
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Espeon
+|-damage|p1a: Espeon|43/100
+|-unboost|p1a: Espeon|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1779630910
+|switch|p1a: Glaceon|Glaceon, F|100/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Glaceon
+|-damage|p1a: Glaceon|71/100
+|-unboost|p1a: Glaceon|spa|1
+|-damage|p2a: Grimmsnarl|65/100|[from] item: Rocky Helmet|[of] p1a: Glaceon
+|
+|upkeep
+|turn|5
+|
+|t:|1779630920
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Glaceon
+|-unboost|p1a: Glaceon|atk|1
+|-unboost|p1a: Glaceon|spa|1
+|
+|t:|1779630939
+|switch|p2a: Raging Bolt|Raging Bolt|100/100|[from] Parting Shot
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Glaceon|Freeze-Dry|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|79/100
+|-status|p2a: Raging Bolt|frz
+|
+|upkeep
+|turn|6
+|
+|t:|1779630952
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|cant|p2a: Raging Bolt|frz
+|
+|upkeep
+|turn|7
+|
+|t:|1779630955
+|cant|p2a: Raging Bolt|frz
+|move|p1a: Sylveon|Hyper Voice|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|28/100 frz
+|
+|upkeep
+|turn|8
+|
+|t:|1779630958
+|cant|p2a: Raging Bolt|frz
+|move|p1a: Sylveon|Hyper Voice|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-sideend|p2: Shabooya1|move: Light Screen
+|upkeep
+|
+|t:|1779630965
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|65/100
+|turn|9
+|
+|t:|1779630968
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Shabooya1|move: Light Screen
+|move|p1a: Sylveon|Hyper Voice|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|20/100
+|
+|-sideend|p2: Shabooya1|Reflect
+|upkeep
+|turn|10
+|
+|t:|1779630975
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Sylveon
+|-unboost|p1a: Sylveon|atk|1
+|-unboost|p1a: Sylveon|spa|1
+|
+|t:|1779630979
+|switch|p2a: Pelipper|Pelipper, M|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Sylveon|Quick Attack|p2a: Pelipper
+|-damage|p2a: Pelipper|95/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779630983
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Pelipper|U-turn|p1a: Vaporeon
+|-damage|p1a: Vaporeon|90/100
+|
+|t:|1779630985
+|switch|p2a: Primarina|Primarina, M, shiny|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1779630988
+|switch|p1a: Espeon|Espeon, F|43/100
+|move|p2a: Primarina|Substitute|p2a: Primarina
+|-start|p2a: Primarina|Substitute
+|-damage|p2a: Primarina|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Primarina|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1779631003
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|move|p2a: Primarina|Calm Mind|p2a: Primarina
+|-boost|p2a: Primarina|spa|1
+|-boost|p2a: Primarina|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Primarina|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1779631010
+|move|p1a: Jolteon|Volt Switch|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-end|p2a: Primarina|Substitute
+|
+|t:|1779631015
+|switch|p1a: Espeon|Espeon, F|43/100|[from] Volt Switch
+|move|p2a: Primarina|Psychic Noise|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Primarina|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779631018
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|turn|15
+|
+|t:|1779631029
+|move|p1a: Jolteon|Volt Switch|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|68/100
+|
+|t:|1779631032
+|switch|p1a: Sylveon|Sylveon, F|100/100|[from] Volt Switch
+|move|p2a: Primarina|Calm Mind|p2a: Primarina
+|-boost|p2a: Primarina|spa|1
+|-boost|p2a: Primarina|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Primarina|74/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1779631036
+|move|p2a: Primarina|Draining Kiss|p1a: Sylveon
+|-damage|p1a: Sylveon|75/100
+|-heal|p2a: Primarina|92/100|[from] drain|[of] p1a: Sylveon
+|move|p1a: Sylveon|Psyshock|p2a: Primarina
+|-damage|p2a: Primarina|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Primarina|81/100|[from] item: Leftovers
+|-sideend|p2: Shabooya1|move: Light Screen
+|upkeep
+|turn|17
+|
+|t:|1779631044
+|move|p2a: Primarina|Substitute|p2a: Primarina
+|-start|p2a: Primarina|Substitute
+|-damage|p2a: Primarina|56/100
+|move|p1a: Sylveon|Psyshock|p2a: Primarina
+|-end|p2a: Primarina|Substitute
+|
+|-weather|none
+|-heal|p2a: Primarina|62/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1779631050
+|move|p2a: Primarina|Draining Kiss|p1a: Sylveon
+|-damage|p1a: Sylveon|49/100
+|-heal|p2a: Primarina|80/100|[from] drain|[of] p1a: Sylveon
+|move|p1a: Sylveon|Psyshock|p2a: Primarina
+|-damage|p2a: Primarina|48/100
+|
+|-heal|p2a: Primarina|54/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1779631059
+|move|p2a: Primarina|Psychic Noise|p1a: Sylveon
+|-damage|p1a: Sylveon|13/100
+|-start|p1a: Sylveon|move: Heal Block
+|move|p1a: Sylveon|Psyshock|p2a: Primarina
+|-damage|p2a: Primarina|21/100
+|
+|-heal|p2a: Primarina|27/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1779631063
+|move|p1a: Sylveon|Quick Attack|p2a: Primarina
+|-damage|p2a: Primarina|13/100
+|move|p2a: Primarina|Draining Kiss|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|-heal|p2a: Primarina|22/100|[from] drain|[of] p1a: Sylveon
+|faint|p1a: Sylveon
+|
+|-heal|p2a: Primarina|28/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779631066
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|turn|21
+|
+|t:|1779631069
+|-terastallize|p2a: Primarina|Dragon
+|move|p1a: Jolteon|Thunderbolt|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|15/100
+|move|p2a: Primarina|Draining Kiss|p1a: Jolteon
+|-damage|p1a: Jolteon|22/100
+|-heal|p2a: Primarina|59/100|[from] drain|[of] p1a: Jolteon
+|
+|-heal|p2a: Primarina|65/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1779631080
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|move|p2a: Primarina|Substitute|p2a: Primarina
+|-start|p2a: Primarina|Substitute
+|-damage|p2a: Primarina|40/100
+|
+|-heal|p2a: Primarina|46/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆Shabooya1|Ez
+|
+|t:|1779631090
+|switch|p1a: Glaceon|Glaceon, F|71/100
+|move|p2a: Primarina|Draining Kiss|p1a: Glaceon
+|-damage|p1a: Glaceon|9/100
+|-heal|p2a: Primarina|89/100|[from] drain|[of] p1a: Glaceon
+|-damage|p2a: Primarina|73/100|[from] item: Rocky Helmet|[of] p1a: Glaceon
+|
+|-heal|p2a: Primarina|79/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1779631098
+|move|p1a: Glaceon|Ice Shard|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-activate|p2a: Primarina|move: Substitute|[damage]
+|move|p2a: Primarina|Draining Kiss|p1a: Glaceon
+|-damage|p1a: Glaceon|0 fnt
+|-heal|p2a: Primarina|85/100|[from] drain|[of] p1a: Glaceon
+|-damage|p2a: Primarina|68/100|[from] item: Rocky Helmet|[of] p1a: Glaceon
+|faint|p1a: Glaceon
+|
+|-heal|p2a: Primarina|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779631101
+|switch|p1a: Vaporeon|Vaporeon, M|90/100
+|turn|25
+|
+|t:|1779631104
+|move|p1a: Vaporeon|Alluring Voice|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|39/100
+|move|p2a: Primarina|Draining Kiss|p1a: Vaporeon
+|-damage|p1a: Vaporeon|44/100
+|-heal|p2a: Primarina|84/100|[from] drain|[of] p1a: Vaporeon
+|
+|-heal|p2a: Primarina|90/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1779631107
+|move|p1a: Vaporeon|Alluring Voice|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|58/100
+|move|p2a: Primarina|Draining Kiss|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-heal|p2a: Primarina|99/100|[from] drain|[of] p1a: Vaporeon
+|faint|p1a: Vaporeon
+|
+|-heal|p2a: Primarina|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779631110
+|switch|p1a: Jolteon|Jolteon, M|22/100
+|turn|27
+|
+|t:|1779631112
+|-terastallize|p1a: Jolteon|Fairy
+|move|p1a: Jolteon|Alluring Voice|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|54/100
+|move|p2a: Primarina|Psychic Noise|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|-heal|p2a: Primarina|60/100|[from] item: Leftovers
+|upkeep
+|-message|one_angry_jew forfeited.
+|
+|win|Shabooya1
+|raw|one_angry_jew's rating: 1463 &rarr; <strong>1443</strong><br />(-20 for losing)
+|raw|Shabooya1's rating: 1461 &rarr; <strong>1481</strong><br />(+20 for winning)
+|l|☆one_angry_jew
+|player|p1|
+|l|☆Shabooya1
+|player|p2|

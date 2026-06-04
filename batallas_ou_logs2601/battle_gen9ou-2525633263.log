@@ -1,0 +1,336 @@
+|j|☆eduardo cheeze
+|j|☆the.ramen.gang
+|t:|1769303972
+|gametype|singles
+|player|p1|eduardo cheeze|101|1246
+|player|p2|the.ramen.gang|265|1291
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Dragonite, M|
+|poke|p1|Gliscor, F|
+|poke|p1|Heatran, M|
+|poke|p1|Clefable, M|
+|poke|p1|Sinistcha|
+|poke|p2|Shiftry, M|
+|poke|p2|Swanna, F|
+|poke|p2|Munkidori, M|
+|poke|p2|Magmortar, M|
+|poke|p2|Honchkrow, F|
+|poke|p2|Sudowoodo, F|
+|teampreview
+|
+|t:|1769303980
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|switch|p2a: Sudowoodo|Sudowoodo, F|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|1
+|
+|t:|1769303988
+|switch|p2a: Swanna|Swanna, F|100/100
+|move|p1a: Zamazenta|Body Press|p2a: Swanna
+|-resisted|p2a: Swanna
+|-damage|p2a: Swanna|64/100
+|
+|upkeep
+|turn|2
+|
+|t:|1769303993
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Swanna|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|81/100
+|-damage|p2a: Swanna|48/100|[from] item: Rocky Helmet|[of] p1a: Clefable
+|-enditem|p1a: Clefable|Rocky Helmet|[from] move: Knock Off|[of] p2a: Swanna
+|
+|upkeep
+|turn|3
+|
+|t:|1769303996
+|move|p2a: Swanna|Roost|p2a: Swanna
+|-heal|p2a: Swanna|98/100
+|-singleturn|p2a: Swanna|move: Roost
+|move|p1a: Clefable|Thunder Wave|p2a: Swanna
+|-status|p2a: Swanna|par
+|
+|upkeep
+|turn|4
+|
+|t:|1769304003
+|switch|p2a: Munkidori|Munkidori, M|100/100
+|move|p1a: Clefable|Knock Off|p2a: Munkidori
+|-supereffective|p2a: Munkidori
+|-damage|p2a: Munkidori|54/100
+|-enditem|p2a: Munkidori|Choice Specs|[from] move: Knock Off|[of] p1a: Clefable
+|
+|upkeep
+|turn|5
+|
+|t:|1769304007
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Munkidori|Trick|p1a: Heatran
+|-activate|p2a: Munkidori|move: Trick|[of] p1a: Heatran
+|-enditem|p1a: Heatran|Leftovers|[silent]|[from] move: Trick
+|-item|p2a: Munkidori|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Munkidori|60/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1769304012
+|move|p2a: Munkidori|Focus Blast|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|21/100
+|move|p1a: Heatran|Stealth Rock|p2a: Munkidori
+|-sidestart|p2: the.ramen.gang|move: Stealth Rock
+|
+|-heal|p2a: Munkidori|66/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1769304016
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Munkidori|Focus Blast|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|79/100
+|
+|-heal|p2a: Munkidori|72/100|[from] item: Leftovers
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|
+|t:|1769304019
+|move|p2a: Munkidori|Psychic|p1a: Gliscor
+|-damage|p1a: Gliscor|27/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: Munkidori
+|-supereffective|p2a: Munkidori
+|-damage|p2a: Munkidori|0 fnt
+|faint|p2a: Munkidori
+|
+|-heal|p1a: Gliscor|39/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1769304028
+|switch|p2a: Shiftry|Shiftry, M|100/100
+|-damage|p2a: Shiftry|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1769304032
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|move|p2a: Shiftry|Tailwind|p2a: Shiftry
+|-sidestart|p2: the.ramen.gang|move: Tailwind
+|-ability|p2a: Shiftry|Wind Rider|boost
+|-boost|p2a: Shiftry|atk|1
+|
+|upkeep
+|turn|10
+|
+|t:|1769304035
+|move|p2a: Shiftry|Knock Off|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|74/100
+|-enditem|p1a: Zamazenta|Leftovers|[from] move: Knock Off|[of] p2a: Shiftry
+|move|p1a: Zamazenta|Body Press|p2a: Shiftry
+|-supereffective|p2a: Shiftry
+|-damage|p2a: Shiftry|0 fnt
+|faint|p2a: Shiftry
+|
+|upkeep
+|
+|t:|1769304048
+|switch|p2a: Honchkrow|Honchkrow, F|100/100
+|-damage|p2a: Honchkrow|76/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1769304053
+|switch|p1a: Heatran|Heatran, M|21/100
+|move|p2a: Honchkrow|Brave Bird|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-ability|p2a: Honchkrow|Moxie|boost
+|-boost|p2a: Honchkrow|atk|1
+|-damage|p2a: Honchkrow|69/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1769304059
+|switch|p1a: Gliscor|Gliscor, F|39/100 tox
+|turn|12
+|
+|t:|1769304061
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Honchkrow|Brave Bird|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|52/100 tox|[from] ability: Poison Heal
+|-sideend|p2: the.ramen.gang|move: Tailwind
+|upkeep
+|turn|13
+|
+|t:|1769304064
+|move|p2a: Honchkrow|Brave Bird|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-ability|p2a: Honchkrow|Moxie|boost
+|-boost|p2a: Honchkrow|atk|1
+|-damage|p2a: Honchkrow|52/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1769304069
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|14
+|
+|t:|1769304071
+|move|p2a: Honchkrow|Brave Bird|p1a: Dragonite
+|-damage|p1a: Dragonite|41/100
+|-damage|p2a: Honchkrow|32/100|[from] Recoil
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|15
+|
+|t:|1769304075
+|move|p1a: Dragonite|Extreme Speed|p2a: Honchkrow
+|-damage|p2a: Honchkrow|0 fnt
+|faint|p2a: Honchkrow
+|
+|upkeep
+|
+|t:|1769304081
+|switch|p2a: Sudowoodo|Sudowoodo, F|100/100
+|-damage|p2a: Sudowoodo|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1769304083
+|move|p1a: Dragonite|Earthquake|p2a: Sudowoodo
+|-supereffective|p2a: Sudowoodo
+|-damage|p2a: Sudowoodo|0 fnt
+|faint|p2a: Sudowoodo
+|
+|upkeep
+|
+|t:|1769304088
+|switch|p2a: Swanna|Swanna, F|98/100 par
+|turn|17
+|
+|t:|1769304092
+|move|p1a: Dragonite|Extreme Speed|p2a: Swanna
+|-damage|p2a: Swanna|27/100 par
+|move|p2a: Swanna|Knock Off|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-enditem|p1a: Dragonite|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Swanna
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1769304096
+|switch|p1a: Clefable|Clefable, M|81/100
+|turn|18
+|
+|t:|1769304099
+|move|p1a: Clefable|Moonblast|p2a: Swanna
+|-damage|p2a: Swanna|0 fnt
+|faint|p2a: Swanna
+|
+|upkeep
+|
+|t:|1769304102
+|switch|p2a: Magmortar|Magmortar, M|100/100
+|-damage|p2a: Magmortar|76/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1769304105
+|move|p2a: Magmortar|Fire Blast|p1a: Clefable
+|-damage|p1a: Clefable|33/100
+|move|p1a: Clefable|Thunder Wave|p2a: Magmortar
+|-status|p2a: Magmortar|par
+|
+|upkeep
+|turn|20
+|
+|t:|1769304111
+|move|p1a: Clefable|Knock Off|p2a: Magmortar
+|-damage|p2a: Magmortar|57/100 par
+|-status|p1a: Clefable|brn|[from] ability: Flame Body|[of] p2a: Magmortar
+|-enditem|p2a: Magmortar|Assault Vest|[from] move: Knock Off|[of] p1a: Clefable
+|move|p2a: Magmortar|Fire Blast|p1a: Clefable|[miss]
+|-miss|p2a: Magmortar|p1a: Clefable
+|
+|upkeep
+|turn|21
+|
+|t:|1769304118
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|83/100 brn
+|cant|p2a: Magmortar|par
+|
+|upkeep
+|turn|22
+|
+|t:|1769304124
+|move|p1a: Clefable|Moonblast|p2a: Magmortar
+|-resisted|p2a: Magmortar
+|-damage|p2a: Magmortar|41/100 par
+|move|p2a: Magmortar|Fire Blast|p1a: Clefable
+|-damage|p1a: Clefable|36/100 brn
+|
+|upkeep
+|turn|23
+|
+|t:|1769304130
+|move|p1a: Clefable|Moonblast|p2a: Magmortar
+|-resisted|p2a: Magmortar
+|-damage|p2a: Magmortar|27/100 par
+|move|p2a: Magmortar|Fire Blast|p1a: Clefable|[miss]
+|-miss|p2a: Magmortar|p1a: Clefable
+|
+|upkeep
+|turn|24
+|
+|t:|1769304137
+|move|p1a: Clefable|Moonblast|p2a: Magmortar
+|-resisted|p2a: Magmortar
+|-damage|p2a: Magmortar|10/100 par
+|move|p2a: Magmortar|Fire Blast|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1769304140
+|switch|p1a: Zamazenta|Zamazenta|74/100
+|turn|25
+|
+|t:|1769304143
+|move|p1a: Zamazenta|Crunch|p2a: Magmortar
+|-damage|p2a: Magmortar|0 fnt
+|faint|p2a: Magmortar
+|
+|win|eduardo cheeze
+|raw|eduardo cheeze's rating: 1246 &rarr; <strong>1274</strong><br />(+28 for winning)
+|raw|the.ramen.gang's rating: 1291 &rarr; <strong>1263</strong><br />(-28 for losing)
+|l|☆eduardo cheeze
+|player|p1|
+|l|☆the.ramen.gang
+|player|p2|

@@ -1,0 +1,245 @@
+|j|☆ohgabooga
+|j|☆kenjihibiki
+|t:|1758259812
+|gametype|singles
+|player|p1|ohgabooga|2|1395
+|player|p2|kenjihibiki|hilbert|1475
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Amoonguss, M|
+|poke|p1|Dondozo, F|
+|poke|p1|Blissey, F|
+|poke|p1|Clodsire, F|
+|poke|p1|Clefable, M|
+|poke|p1|Gliscor, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Kingdra, M|
+|poke|p2|Feraligatr, M|
+|poke|p2|Scizor, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kenjihibiki)
+|
+|t:|1758259827
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|1
+|
+|t:|1758259832
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Scizor|Knock Off|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1758259850
+|move|p1a: Gliscor|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|81/100
+|-enditem|p2a: Scizor|Leftovers|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1758259857
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|upkeep
+|turn|4
+|
+|t:|1758259866
+|move|p2a: Scizor|Knock Off|p1a: Dondozo
+|-damage|p1a: Dondozo|85/100
+|-enditem|p1a: Dondozo|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Scizor
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|upkeep
+|turn|5
+|
+|t:|1758259881
+|move|p2a: Scizor|U-turn|p1a: Dondozo
+|-damage|p1a: Dondozo|73/100
+|
+|t:|1758259886
+|switch|p2a: Pelipper|Pelipper, F|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Dondozo|Avalanche|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758259902
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Pelipper|Hurricane|p1a: Blissey
+|-damage|p1a: Blissey|89/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758259909
+|move|p2a: Pelipper|U-turn|p1a: Blissey
+|-damage|p1a: Blissey|80/100
+|
+|t:|1758259919
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|move|p1a: Blissey|Stealth Rock|p2a: Ogerpon
+|-sidestart|p2: kenjihibiki|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758259925
+|switch|p1a: Goat|Amoonguss, M|100/100
+|move|p2a: Ogerpon|Substitute|p2a: Ogerpon
+|-start|p2a: Ogerpon|Substitute
+|-damage|p2a: Ogerpon|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1758259933
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Goat|Foul Play|p2a: Ogerpon
+|-end|p2a: Ogerpon|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758259942
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Goat|[anim] Ivy Cudgel Water
+|-resisted|p1a: Goat
+|-damage|p1a: Goat|12/100
+|move|p1a: Goat|Foul Play|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758259953
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|11
+|
+|t:|1758259964
+|switch|p1a: Dondozo|Dondozo, F|73/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Dondozo
+|-damage|p1a: Dondozo|65/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: kenjihibiki|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1758259977
+|move|p2a: Great Tusk|Stealth Rock|p1a: Dondozo
+|-sidestart|p1: ohgabooga|move: Stealth Rock
+|move|p1a: Dondozo|Avalanche|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|81/100
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1758259986
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|upkeep
+|turn|14
+|
+|t:|1758259995
+|switch|p1a: Blissey|Blissey, F|80/100
+|move|p2a: Kingdra|Draco Meteor|p1a: Blissey
+|-damage|p1a: Blissey|54/100
+|-unboost|p2a: Kingdra|spa|2
+|
+|upkeep
+|turn|15
+|
+|t:|1758260008
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|upkeep
+|turn|16
+|
+|t:|1758260015
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|
+|upkeep
+|turn|17
+|
+|t:|1758260022
+|switch|p1a: Dondozo|Dondozo, F|65/100
+|-damage|p1a: Dondozo|53/100|[from] Stealth Rock
+|move|p2a: Feraligatr|Crunch|p1a: Dondozo
+|-damage|p1a: Dondozo|36/100
+|
+|upkeep
+|turn|18
+|
+|t:|1758260028
+|move|p2a: Feraligatr|Crunch|p1a: Dondozo
+|-damage|p1a: Dondozo|19/100
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|19
+|-message|kenjihibiki forfeited.
+|
+|win|ohgabooga
+|raw|ohgabooga's rating: 1395 &rarr; <strong>1420</strong><br />(+25 for winning)
+|raw|kenjihibiki's rating: 1475 &rarr; <strong>1450</strong><br />(-25 for losing)
+|l|☆kenjihibiki
+|player|p2|
+|l|☆ohgabooga
+|player|p1|

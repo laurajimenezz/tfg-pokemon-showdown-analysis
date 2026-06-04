@@ -1,0 +1,253 @@
+|j|☆X Star_Sun Y
+|j|☆noodle10101
+|t:|1758956437
+|gametype|singles
+|player|p1|X Star_Sun Y|169|1296
+|player|p2|noodle10101|102|1273
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Clodsire, F|
+|poke|p1|Great Tusk|
+|poke|p1|Ditto|
+|poke|p1|Walking Wake|
+|poke|p2|Glimmora, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Volcanion|
+|poke|p2|Pecharunt|
+|poke|p2|Umbreon, F|
+|teampreview
+|
+|t:|1758956441
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|1
+|
+|t:|1758956450
+|move|p1a: Walking Wake|Surf|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|move|p2a: Glimmora|Stealth Rock|p1a: Walking Wake
+|-sidestart|p1: X Star_Sun Y|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1758956459
+|switch|p2a: Umbreon|Umbreon, F|100/100
+|move|p1a: Walking Wake|Surf|p2a: Umbreon
+|-damage|p2a: Umbreon|67/100
+|
+|-heal|p2a: Umbreon|73/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1758956467
+|move|p1a: Walking Wake|Surf|p2a: Umbreon
+|-damage|p2a: Umbreon|43/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|49/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1758956475
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Umbreon|Toxic|p1a: Great Tusk
+|-status|p1a: Great Tusk|tox
+|
+|-heal|p2a: Umbreon|99/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|100/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1758956485
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Great Tusk|Rapid Spin|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-damage|p1a: Great Tusk|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1758956500
+|move|p1a: Great Tusk|Rapid Spin|p2a: Umbreon
+|-damage|p2a: Umbreon|86/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: X Star_Sun Y|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Umbreon|Foul Play|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|65/100 tox
+|
+|-heal|p2a: Umbreon|92/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|46/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1758956511
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|98/100|[from] Grassy Terrain
+|-heal|p2a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758956521
+|move|p1a: Rillaboom|Knock Off|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|86/100
+|-enditem|p2a: Umbreon|Leftovers|[from] move: Knock Off|[of] p1a: Rillaboom
+|move|p2a: Umbreon|Toxic|p1a: Rillaboom
+|-status|p1a: Rillaboom|tox
+|
+|-heal|p2a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|-damage|p1a: Rillaboom|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1758956532
+|move|p1a: Rillaboom|Drain Punch|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|60/100
+|-heal|p1a: Rillaboom|100/100 tox|[from] drain|[of] p2a: Umbreon
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|66/100|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|88/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1758956542
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|switch|p2a: Glimmora|Glimmora, F|1/100
+|
+|-heal|p2a: Glimmora|54/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Glimmora|60/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1758956553
+|move|p2a: Glimmora|Stealth Rock|p1a: Clodsire
+|-sidestart|p1: X Star_Sun Y|move: Stealth Rock
+|move|p1a: Clodsire|Earthquake|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|7/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: X Star_Sun Y|move: Toxic Spikes
+|
+|-heal|p2a: Glimmora|13/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1758956569
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Clodsire|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|78/100
+|
+|-heal|p2a: Hatterene|84/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1758956581
+|move|p2a: Hatterene|Psyshock|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|23/100
+|move|p1a: Clodsire|Toxic|p2a: Hatterene
+|move|p2a: Hatterene|Toxic|p1a: Clodsire|[from] ability: Magic Bounce
+|-immune|p1a: Clodsire
+|
+|-heal|p2a: Hatterene|90/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|29/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1758956592
+|move|p2a: Hatterene|Psyshock|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|-heal|p2a: Hatterene|96/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758956595
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-damage|p1a: Walking Wake|88/100|[from] Stealth Rock
+|-status|p1a: Walking Wake|psn
+|turn|15
+|
+|t:|1758956604
+|move|p1a: Walking Wake|Surf|p2a: Hatterene
+|-damage|p2a: Hatterene|45/100
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-heal|p2a: Hatterene|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758956610
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-status|p1a: Ditto|psn
+|-transform|p1a: Ditto|p2a: Hatterene|[from] ability: Imposter
+|turn|16
+|
+|t:|1758956622
+|move|p1a: Ditto|Dazzling Gleam|p2a: Hatterene
+|-damage|p2a: Hatterene|13/100
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Ditto
+|-damage|p1a: Ditto|45/100 psn
+|
+|-heal|p2a: Hatterene|19/100|[from] item: Leftovers
+|-damage|p1a: Ditto|33/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1758956633
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Ditto|Dazzling Gleam|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|84/100
+|
+|-heal|p2a: Pecharunt|90/100|[from] item: Black Sludge
+|-damage|p1a: Ditto|20/100 psn|[from] psn
+|upkeep
+|turn|18
+|-message|X Star_Sun Y forfeited.
+|
+|win|noodle10101
+|raw|X Star_Sun Y's rating: 1296 &rarr; <strong>1269</strong><br />(-27 for losing)
+|raw|noodle10101's rating: 1273 &rarr; <strong>1300</strong><br />(+27 for winning)
+|l|☆X Star_Sun Y
+|player|p1|
+|l|☆noodle10101
+|player|p2|

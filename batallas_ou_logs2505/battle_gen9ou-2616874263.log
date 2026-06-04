@@ -1,0 +1,194 @@
+|j|☆eros maniac
+|j|‽p$ychopath
+|t:|1779620610
+|gametype|singles
+|player|p1|eros maniac|hilbert-wonderlauncher|1703
+|player|p2|p$ychopath|volo-ginkgo|1736
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Frosmoth, F|
+|poke|p1|Maushold-Four|
+|poke|p1|Okidogi, M|
+|poke|p1|Sinistcha|
+|poke|p1|Alomomola, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Sandy Shocks|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Raging Bolt|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Jugulis|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by eros maniac)
+|inactive|p$ychopath has 120 seconds left.
+|
+|t:|1779620654
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Frosmoth|Frosmoth, F, shiny|100/100
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100
+|-enditem|p2a: Iron Jugulis|Booster Energy
+|-activate|p2a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|turn|1
+|
+|t:|1779620679
+|switch|p1a: Alomomola|Alomomola, M, shiny|100/100
+|move|p2a: Iron Jugulis|Hurricane|p1a: Alomomola
+|-damage|p1a: Alomomola|52/100
+|-start|p1a: Alomomola|confusion
+|
+|upkeep
+|turn|2
+|
+|t:|1779620690
+|move|p2a: Iron Jugulis|Taunt|p1a: Alomomola
+|-start|p1a: Alomomola|move: Taunt
+|cant|p1a: Alomomola|move: Taunt|Wish
+|
+|upkeep
+|turn|3
+|j| chillncurry
+|
+|t:|1779620695
+|move|p2a: Iron Jugulis|Dark Pulse|p1a: Alomomola
+|-damage|p1a: Alomomola|14/100
+|-activate|p1a: Alomomola|confusion
+|move|p1a: Alomomola|Flip Turn|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|82/100
+|
+|t:|1779620701
+|switch|p1a: Frosmoth|Frosmoth, F, shiny|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|4
+|
+|t:|1779620711
+|-terastallize|p1a: Frosmoth|Electric
+|move|p2a: Iron Jugulis|Hurricane|p1a: Frosmoth
+|-resisted|p1a: Frosmoth
+|-damage|p1a: Frosmoth|87/100
+|move|p1a: Frosmoth|Substitute|p1a: Frosmoth
+|-start|p1a: Frosmoth|Substitute
+|-damage|p1a: Frosmoth|62/100
+|
+|-heal|p1a: Frosmoth|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1779620721
+|move|p2a: Iron Jugulis|Taunt|p1a: Frosmoth
+|-start|p1a: Frosmoth|move: Taunt
+|move|p1a: Frosmoth|Ice Beam|p2a: Iron Jugulis
+|-supereffective|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|0 fnt
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|
+|-heal|p1a: Frosmoth|75/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779620731
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|6
+|
+|t:|1779620734
+|move|p2a: Iron Moth|Fiery Dance|p1a: Frosmoth
+|-activate|p1a: Frosmoth|move: Substitute|[damage]
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Frosmoth|Ice Beam|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|78/100
+|
+|-heal|p1a: Frosmoth|81/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779620739
+|move|p2a: Iron Moth|Fiery Dance|p1a: Frosmoth
+|-end|p1a: Frosmoth|Substitute
+|move|p1a: Frosmoth|Ice Beam|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|56/100
+|-status|p2a: Iron Moth|frz
+|
+|-heal|p1a: Frosmoth|87/100|[from] item: Leftovers
+|-end|p1a: Frosmoth|move: Taunt
+|upkeep
+|turn|8
+|
+|t:|1779620744
+|cant|p2a: Iron Moth|frz
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|-heal|p1a: Frosmoth|93/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1779620747
+|cant|p2a: Iron Moth|frz
+|move|p1a: Frosmoth|Substitute|p1a: Frosmoth
+|-start|p1a: Frosmoth|Substitute
+|-damage|p1a: Frosmoth|68/100
+|
+|-heal|p1a: Frosmoth|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779620750
+|cant|p2a: Iron Moth|frz
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|-heal|p1a: Frosmoth|80/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1779620752
+|cant|p2a: Iron Moth|frz
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|-heal|p1a: Frosmoth|86/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779620754
+|cant|p2a: Iron Moth|frz
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|-heal|p1a: Frosmoth|92/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|-message|p$ychopath forfeited.
+|
+|win|eros maniac
+|raw|eros maniac's rating: 1703 &rarr; <strong>1725</strong><br />(+22 for winning)
+|raw|p$ychopath's rating: 1736 &rarr; <strong>1714</strong><br />(-22 for losing)
+|l|☆eros maniac
+|player|p1|
+|l| chillncurry

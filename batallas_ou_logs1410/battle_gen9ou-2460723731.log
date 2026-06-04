@@ -1,0 +1,148 @@
+|j|☆arnocalypse
+|j|☆Shrp1
+|t:|1760351929
+|gametype|singles
+|player|p1|arnocalypse|1|1395
+|player|p2|Shrp1|101|1430
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rampardos, F|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Moth|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Zapdos|
+|poke|p2|Great Tusk|
+|poke|p2|Cinderace, M|
+|poke|p2|Kyurem|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|t:|1760351942
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1760351966
+|switch|p1a: Rampardos|Rampardos, F, shiny|100/100
+|-ability|p1a: Rampardos|Mold Breaker
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Rampardos
+|-status|p1a: Rampardos|brn
+|
+|-damage|p1a: Rampardos|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1760351978
+|move|p2a: Cinderace|U-turn|p1a: Rampardos
+|-damage|p1a: Rampardos|60/100 brn
+|
+|t:|1760351983
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Rampardos|atk|1
+|move|p1a: Rampardos|Head Smash|p2a: Landorus|[miss]
+|-miss|p1a: Rampardos|p2a: Landorus
+|
+|-heal|p1a: Rampardos|66/100 brn|[from] Grassy Terrain
+|-damage|p1a: Rampardos|60/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1760351995
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-enditem|p1a: Hatterene|Grassy Seed
+|-boost|p1a: Hatterene|def|1|[from] item: Grassy Seed
+|move|p2a: Landorus|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock|p2a: Landorus|[from] ability: Magic Bounce
+|-sidestart|p2: Shrp1|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1760352005
+|move|p2a: Landorus|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|85/100
+|
+|t:|1760352019
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100|[from] U-turn
+|-damage|p2a: Samurott|88/100|[from] Stealth Rock
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p2a: Samurott|94/100|[from] Grassy Terrain
+|-heal|p1a: Hatterene|91/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1760352033
+|move|p2a: Samurott|Ceaseless Edge|p1a: Hatterene
+|-damage|p1a: Hatterene|54/100
+|-sidestart|p1: arnocalypse|Spikes
+|move|p1a: Hatterene|Agility|p1a: Hatterene
+|-boost|p1a: Hatterene|spe|2
+|
+|-heal|p1a: Hatterene|60/100|[from] Grassy Terrain
+|-heal|p2a: Samurott|100/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1760352043
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|move|p2a: Samurott|Razor Shell|p1a: Hatterene
+|-damage|p1a: Hatterene|19/100
+|
+|-heal|p1a: Hatterene|25/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1760352052
+|move|p2a: Samurott|Aqua Jet|p1a: Hatterene
+|-damage|p1a: Hatterene|9/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|30/100
+|-heal|p1a: Hatterene|71/100|[from] drain|[of] p2a: Samurott
+|
+|-heal|p1a: Hatterene|77/100|[from] Grassy Terrain
+|-heal|p2a: Samurott|37/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1760352073
+|move|p1a: Hatterene|Draining Kiss|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Samurott
+|faint|p2a: Samurott
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|-message|Shrp1 forfeited.
+|
+|win|arnocalypse
+|raw|arnocalypse's rating: 1395 &rarr; <strong>1417</strong><br />(+22 for winning)
+|raw|Shrp1's rating: 1430 &rarr; <strong>1408</strong><br />(-22 for losing)
+|l|☆Shrp1
+|player|p2|
+|l|☆arnocalypse
+|player|p1|

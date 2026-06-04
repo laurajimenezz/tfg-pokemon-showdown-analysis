@@ -1,0 +1,446 @@
+|j|☆pantalonescondidos
+|j|☆GummyDeino
+|t:|1758235151
+|gametype|singles
+|player|p1|pantalonescondidos|101|1592
+|player|p2|GummyDeino|169|1638
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sylveon, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, F|
+|poke|p1|Rotom-Heat|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Iron Hands|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Mimikyu, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GummyDeino)
+|inactive|pantalonescondidos also wants the timer to be on.
+|
+|t:|1758235163
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rotom|Rotom-Heat, shiny|100/100
+|switch|p2a: Machine|Iron Hands, shiny|100/100
+|-enditem|p2a: Machine|Booster Energy
+|-activate|p2a: Machine|ability: Quark Drive|[fromitem]
+|-start|p2a: Machine|quarkdriveatk
+|turn|1
+|
+|t:|1758235173
+|move|p1a: Rotom|Volt Switch|p2a: Machine
+|-resisted|p2a: Machine
+|-crit|p2a: Machine
+|-damage|p2a: Machine|85/100
+|
+|t:|1758235176
+|switch|p1a: Toxapex|Toxapex, M|100/100|[from] Volt Switch
+|move|p2a: Machine|Close Combat|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|74/100
+|-unboost|p2a: Machine|def|1
+|-unboost|p2a: Machine|spd|1
+|-damage|p2a: Machine|68/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|upkeep
+|turn|2
+|
+|t:|1758235186
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Machine|Supercell Slam|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|-status|p2a: Machine|psn
+|-damage|p2a: Machine|18/100 psn|[from] supercellslam
+|
+|-damage|p2a: Machine|6/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1758235197
+|switch|p1a: Rotom|Rotom-Heat, shiny|100/100
+|move|p2a: Machine|Supercell Slam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|53/100
+|
+|-damage|p2a: Machine|0 fnt|[from] psn
+|faint|p2a: Machine
+|-end|p2a: Machine|Quark Drive|[silent]
+|upkeep
+|
+|t:|1758235207
+|switch|p2a: Scientist|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Scientist
+|turn|4
+|
+|t:|1758235214
+|move|p1a: Rotom|Trick|p2a: Scientist
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Scientist
+|-item|p2a: Scientist|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Terrain Extender|[from] move: Trick
+|move|p2a: Scientist|Trick Room|p2a: Scientist
+|-fieldstart|move: Trick Room|[of] p2a: Scientist
+|
+|upkeep
+|turn|5
+|
+|t:|1758235222
+|switch|p2a: Stampede|Ursaluna, F, shiny|100/100
+|move|p1a: Rotom|Trick|p2a: Stampede
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Stampede
+|-item|p2a: Stampede|Terrain Extender|[from] move: Trick
+|-item|p1a: Rotom|Flame Orb|[from] move: Trick
+|
+|upkeep
+|turn|6
+|
+|t:|1758235233
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Stampede|Facade|p1a: Toxapex
+|-damage|p1a: Toxapex|76/100
+|-damage|p2a: Stampede|84/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|upkeep
+|turn|7
+|
+|t:|1758235243
+|switch|p1a: Rotom|Rotom-Heat, shiny|53/100
+|switch|p2a: Catastrophe|Hoopa-Unbound|100/100
+|-enditem|p2a: Catastrophe|Psychic Seed
+|-boost|p2a: Catastrophe|spd|1|[from] item: Psychic Seed
+|
+|upkeep
+|turn|8
+|
+|t:|1758235251
+|move|p2a: Catastrophe|Focus Blast|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-item|p2a: Catastrophe|Flame Orb|[from] ability: Magician|[of] p1: Rotom
+|
+|-fieldend|move: Trick Room
+|-status|p2a: Catastrophe|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1758235265
+|switch|p1a: Sylveon|Sylveon, F, shiny|100/100
+|turn|9
+|
+|t:|1758235269
+|move|p1a: Sylveon|Hyper Voice|p2a: Catastrophe
+|-supereffective|p2a: Catastrophe
+|-damage|p2a: Catastrophe|60/100 brn
+|move|p2a: Catastrophe|Expanding Force|p1a: Sylveon
+|-damage|p1a: Sylveon|53/100
+|
+|-heal|p1a: Sylveon|59/100|[from] item: Leftovers
+|-damage|p2a: Catastrophe|54/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1758235280
+|switch|p2a: Mimi|Mimikyu, F, shiny|100/100
+|move|p1a: Sylveon|Protect||[still]
+|-fail|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|65/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758235287
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Mimi|Trick Room|p2a: Mimi
+|-fieldstart|move: Trick Room|[of] p2a: Mimi
+|
+|-heal|p1a: Sylveon|71/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|12
+|
+|t:|1758235293
+|move|p2a: Mimi|Curse|p1a: Sylveon
+|-start|p1a: Sylveon|Curse|[of] p2a: Mimi
+|-damage|p2a: Mimi|50/100
+|move|p1a: Sylveon|Roar|p2a: Mimi
+|drag|p2a: Witch|Hatterene, F, shiny|100/100
+|
+|-heal|p1a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|-damage|p1a: Sylveon|76/100|[from] Curse
+|upkeep
+|turn|13
+|inactive|pantalonescondidos has 120 seconds left.
+|
+|t:|1758235330
+|switch|p2a: Scientist|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Scientist
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|
+|upkeep
+|turn|14
+|
+|t:|1758235339
+|move|p1a: Slowking|Future Sight|p2a: Scientist
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: Scientist|Healing Wish|p2a: Scientist
+|faint|p2a: Scientist
+|
+|upkeep
+|
+|t:|1758235344
+|switch|p2a: Catastrophe|Hoopa-Unbound|54/100 brn
+|-heal|p2a: Catastrophe|100/100|[from] move: Healing Wish
+|turn|15
+|
+|t:|1758235350
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Catastrophe|Hyperspace Fury|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|83/100
+|-unboost|p2a: Catastrophe|def|1
+|
+|-fieldend|move: Trick Room
+|-status|p2a: Catastrophe|brn|[from] item: Flame Orb
+|upkeep
+|turn|16
+|
+|t:|1758235363
+|switch|p2a: Mimi|Mimikyu, F, shiny|50/100
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Sylveon|Sylveon, F, shiny|76/100
+|
+|-end|p2a: Mimi|move: Future Sight
+|-activate|p2a: Mimi|ability: Disguise
+|-damage|p2a: Mimi|50/100
+|detailschange|p2a: Mimi|Mimikyu-Busted, F, shiny
+|-damage|p2a: Mimi|38/100|[from] pokemon: Mimikyu-Busted
+|-heal|p1a: Sylveon|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758235379
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Mimi|Trick Room|p2a: Mimi
+|-fieldstart|move: Trick Room|[of] p2a: Mimi
+|
+|-heal|p1a: Sylveon|88/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|18
+|
+|t:|1758235385
+|move|p2a: Mimi|Curse|p1a: Sylveon
+|-start|p1a: Sylveon|Curse|[of] p2a: Mimi
+|-damage|p2a: Mimi|0 fnt
+|faint|p2a: Mimi
+|move|p1a: Sylveon|Roar|p2: Mimi|[notarget]
+|-fail|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|-damage|p1a: Sylveon|76/100|[from] Curse
+|upkeep
+|
+|t:|1758235402
+|switch|p2a: Stampede|Ursaluna, F, shiny|84/100
+|turn|19
+|
+|t:|1758235406
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Stampede|Headlong Rush|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|17/100
+|-unboost|p2a: Stampede|def|1
+|-unboost|p2a: Stampede|spd|1
+|-damage|p2a: Stampede|67/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|upkeep
+|turn|20
+|
+|t:|1758235415
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Stampede|Facade|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|-status|p2a: Stampede|psn
+|
+|-damage|p2a: Stampede|55/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1758235424
+|move|p1a: Toxapex|Surf|p2a: Stampede
+|-supereffective|p2a: Stampede
+|-damage|p2a: Stampede|4/100 psn
+|move|p2a: Stampede|Headlong Rush|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|-unboost|p2a: Stampede|def|1
+|-unboost|p2a: Stampede|spd|1
+|-damage|p2a: Stampede|0 fnt|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|faint|p1a: Toxapex
+|faint|p2a: Stampede
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758235438
+|switch|p2a: Catastrophe|Hoopa-Unbound|100/100 brn
+|switch|p1a: Kingambit|Kingambit, F|83/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|22
+|
+|t:|1758235445
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Sylveon|Sylveon, F, shiny|76/100
+|move|p2a: Catastrophe|Focus Blast|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|62/100
+|
+|-heal|p1a: Sylveon|68/100|[from] item: Leftovers
+|-damage|p2a: Catastrophe|94/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1758235456
+|switch|p2a: Witch|Hatterene, F, shiny|100/100
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|74/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1758235463
+|switch|p1a: Kingambit|Kingambit, F|83/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Witch|Trick Room|p2a: Witch
+|-fieldstart|move: Trick Room|[of] p2a: Witch
+|
+|-heal|p1a: Kingambit|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|25
+|
+|t:|1758235472
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|-terastallize|p2a: Witch|Stellar
+|move|p2a: Witch|Mystical Fire|p1a: Slowking
+|-damage|p1a: Slowking|80/100
+|-unboost|p1a: Slowking|spa|1
+|-damage|p2a: Witch|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|26
+|
+|t:|1758235483
+|move|p2a: Witch|Expanding Force|p1a: Slowking
+|-damage|p1a: Slowking|48/100
+|-damage|p2a: Witch|81/100|[from] item: Life Orb
+|move|p1a: Slowking|Sludge Bomb|p2a: Witch
+|-supereffective|p2a: Witch
+|-damage|p2a: Witch|31/100
+|
+|upkeep
+|turn|27
+|
+|t:|1758235492
+|switch|p1a: Sylveon|Sylveon, F, shiny|74/100
+|move|p2a: Witch|Expanding Force|p1a: Sylveon
+|-damage|p1a: Sylveon|44/100
+|-damage|p2a: Witch|21/100|[from] item: Life Orb
+|
+|-heal|p1a: Sylveon|50/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1758235501
+|move|p2a: Witch|Draining Kiss|p1a: Sylveon
+|-damage|p1a: Sylveon|15/100
+|-heal|p2a: Witch|54/100|[from] drain|[of] p1a: Sylveon
+|-damage|p2a: Witch|44/100|[from] item: Life Orb
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|22/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|29
+|
+|t:|1758235511
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Witch|Trick Room|p2a: Witch
+|-fieldstart|move: Trick Room|[of] p2a: Witch
+|
+|-heal|p1a: Sylveon|72/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Sylveon|78/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1758235519
+|move|p2a: Witch|Draining Kiss|p1a: Sylveon
+|-damage|p1a: Sylveon|54/100
+|-heal|p2a: Witch|67/100|[from] drain|[of] p1a: Sylveon
+|-damage|p2a: Witch|57/100|[from] item: Life Orb
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|60/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1758235528
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Witch|Draining Kiss|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p1a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|32
+|
+|t:|1758235537
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|81/100
+|move|p2a: Witch|Draining Kiss|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|72/100
+|-heal|p2a: Witch|66/100|[from] drain|[of] p1a: Slowking
+|-damage|p2a: Witch|56/100|[from] item: Life Orb
+|
+|upkeep
+|turn|33
+|
+|t:|1758235546
+|move|p2a: Witch|Expanding Force|p1a: Slowking
+|-damage|p1a: Slowking|46/100
+|-damage|p2a: Witch|47/100|[from] item: Life Orb
+|move|p1a: Slowking|Sludge Bomb|p2a: Witch
+|-supereffective|p2a: Witch
+|-damage|p2a: Witch|0 fnt
+|faint|p2a: Witch
+|
+|-fieldend|move: Trick Room
+|upkeep
+|-message|GummyDeino forfeited.
+|
+|win|pantalonescondidos
+|raw|pantalonescondidos's rating: 1592 &rarr; <strong>1615</strong><br />(+23 for winning)
+|raw|GummyDeino's rating: 1638 &rarr; <strong>1615</strong><br />(-23 for losing)
+|l|☆pantalonescondidos
+|player|p1|

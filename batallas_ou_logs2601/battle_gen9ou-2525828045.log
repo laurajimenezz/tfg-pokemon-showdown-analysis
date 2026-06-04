@@ -1,0 +1,220 @@
+|j|☆gangnamgu
+|j|☆BOARRat
+|t:|1769335032
+|gametype|singles
+|player|p1|gangnamgu|169|1076
+|player|p2|BOARRat|hiker-gen4|1158
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meowscarada, M|
+|poke|p1|Skarmory, F|
+|poke|p1|Great Tusk|
+|poke|p1|Clefable, F|
+|poke|p1|Gholdengo|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Duraludon, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Torterra, F|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|t:|1769335040
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Torterra|Torterra, F|100/100
+|turn|1
+|
+|t:|1769335049
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Torterra|Shell Smash|p2a: Torterra
+|-unboost|p2a: Torterra|def|1
+|-unboost|p2a: Torterra|spd|1
+|-boost|p2a: Torterra|atk|2
+|-boost|p2a: Torterra|spa|2
+|-boost|p2a: Torterra|spe|2
+|-enditem|p2a: Torterra|White Herb
+|-clearnegativeboost|p2a: Torterra|[silent]
+|
+|upkeep
+|turn|2
+|
+|t:|1769335061
+|move|p2a: Torterra|Wood Hammer|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|82/100
+|-damage|p2a: Torterra|84/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-damage|p2a: Torterra|78/100|[from] Recoil
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|
+|upkeep
+|turn|3
+|
+|t:|1769335071
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|
+|upkeep
+|turn|4
+|
+|t:|1769335080
+|-terastallize|p1a: Skarmory|Dragon
+|move|p1a: Skarmory|Body Press|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-enditem|p2a: Heatran|Air Balloon
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1769335089
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|5
+|
+|t:|1769335095
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Clefable
+|-immune|p1a: Clefable
+|
+|upkeep
+|turn|6
+|
+|t:|1769335102
+|switch|p2a: Duraludon|Duraludon, M|100/100
+|move|p1a: Clefable|Moonblast|p2a: Duraludon
+|-damage|p2a: Duraludon|79/100
+|-unboost|p2a: Duraludon|spa|1
+|
+|upkeep
+|turn|7
+|
+|t:|1769335110
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Duraludon|Thunder Wave|p1a: Slowking
+|-status|p1a: Slowking|par
+|
+|upkeep
+|turn|8
+|
+|t:|1769335117
+|move|p2a: Duraludon|Stealth Rock|p1a: Slowking
+|-sidestart|p1: gangnamgu|move: Stealth Rock
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1769335121
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1769335130
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Thundurus
+|-damage|p2a: Thundurus|75/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: gangnamgu|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1769335140
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F|100/100 par
+|-terastallize|p2a: Thundurus|Water
+|move|p2a: Thundurus|Tera Blast|p1a: Slowking|[anim] Tera Blast Water
+|-damage|p1a: Slowking|64/100 par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1769335150
+|move|p2a: Thundurus|Tera Blast|p1a: Slowking|[anim] Tera Blast Water
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|7/100 par
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|cant|p1a: Slowking|par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1769335158
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|move|p2a: Thundurus|Tera Blast|p1a: Meowscarada|[anim] Tera Blast Water
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|45/100
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1769335178
+|move|p1a: Meowscarada|Flower Trick|p2a: Thundurus
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-supereffective|p2a: Thundurus
+|-crit|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+|
+|t:|1769335189
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|14
+|
+|t:|1769335197
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force
+|
+|upkeep
+|turn|15
+|
+|t:|1769335203
+|switch|p1a: Skarmory|Skarmory, F, tera:Dragon|82/100
+|move|p2a: Dragapult|Phantom Force|p1a: Skarmory|[from] lockedmove
+|-damage|p1a: Skarmory|42/100
+|-damage|p2a: Dragapult|84/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|
+|upkeep
+|turn|16
+|
+|t:|1769335213
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|switch|p1a: Clefable|Clefable, F|100/100
+|
+|upkeep
+|turn|17
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BOARRat)
+|inactive|gangnamgu has 120 seconds left.
+|inactive|gangnamgu has 90 seconds left.
+|-message|BOARRat forfeited.
+|
+|win|gangnamgu
+|raw|gangnamgu's rating: 1076 &rarr; <strong>1111</strong><br />(+35 for winning)
+|raw|BOARRat's rating: 1158 &rarr; <strong>1127</strong><br />(-31 for losing)
+|l|☆BOARRat
+|player|p2|
+|l|☆gangnamgu
+|player|p1|

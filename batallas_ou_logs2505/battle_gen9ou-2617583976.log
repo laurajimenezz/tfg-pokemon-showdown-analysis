@@ -1,0 +1,343 @@
+|j|☆InDaHouseSun
+|j|☆Mca player 11
+|t:|1779711757
+|gametype|singles
+|player|p1|InDaHouseSun|biker-gen4|1403
+|player|p2|Mca player 11|lucas|1470
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, F|
+|poke|p1|Moltres|
+|poke|p1|Raging Bolt|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Iron Moth|
+|poke|p2|Zamazenta-*|
+|poke|p2|Gholdengo|
+|poke|p2|Rillaboom, M|
+|poke|p2|Iron Jugulis|
+|teampreview
+|
+|t:|1779711765
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|
+|t:|1779711772
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100
+|-enditem|p2a: Iron Jugulis|Booster Energy
+|-activate|p2a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|move|p1a: Gholdengo|Shadow Ball|p2a: Iron Jugulis
+|-resisted|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|69/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779711793
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|move|p2a: Iron Jugulis|Knock Off|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|91/100
+|-enditem|p1a: Kingambit|Lum Berry|[from] move: Knock Off|[of] p2a: Iron Jugulis
+|
+|upkeep
+|turn|3
+|
+|t:|1779711802
+|move|p2a: Iron Jugulis|Earth Power|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|35/100
+|-unboost|p1a: Kingambit|spd|1
+|move|p1a: Kingambit|Iron Head|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|8/100
+|
+|upkeep
+|turn|4
+|
+|t:|1779711810
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|5
+|
+|t:|1779711821
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Iron Moth|Toxic Spikes|p1a: Raging Bolt
+|-sidestart|p1: InDaHouseSun|move: Toxic Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1779711832
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Iron Jugulis|Iron Jugulis|8/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Iron Jugulis
+|-supereffective|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|0 fnt
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779711836
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|7
+|
+|t:|1779711853
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Moltres|Moltres|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1779711862
+|move|p2a: Deoxys|Stealth Rock|p1a: Moltres
+|-sidestart|p1: InDaHouseSun|move: Stealth Rock
+|move|p1a: Moltres|U-turn|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|66/100
+|-damage|p1a: Moltres|84/100|[from] item: Rocky Helmet|[of] p2a: Deoxys
+|
+|t:|1779711869
+|switch|p1a: Kingambit|Kingambit, F|35/100|[from] U-turn
+|-damage|p1a: Kingambit|29/100|[from] Stealth Rock
+|
+|-heal|p2a: Deoxys|71/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|35/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1779711877
+|move|p2a: Deoxys|Spikes|p1a: Kingambit
+|-sidestart|p1: InDaHouseSun|Spikes
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|-damage|p1a: Kingambit|18/100|[from] item: Rocky Helmet|[of] p2a: Deoxys
+|faint|p2a: Deoxys
+|
+|-heal|p1a: Kingambit|24/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779711880
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|10
+|
+|t:|1779711908
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-status|p1a: Raging Bolt|psn
+|-damage|p1a: Raging Bolt|88/100 psn|[from] Stealth Rock
+|-damage|p1a: Raging Bolt|76/100 psn|[from] Spikes
+|move|p2a: Iron Moth|Fiery Dance|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|57/100 psn
+|-boost|p2a: Iron Moth|spa|1
+|
+|-heal|p1a: Raging Bolt|63/100 psn|[from] Grassy Terrain
+|-heal|p1a: Raging Bolt|69/100 psn|[from] item: Leftovers
+|-damage|p1a: Raging Bolt|57/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1779711918
+|move|p2a: Iron Moth|Sludge Wave|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1779711935
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-status|p1a: Ogerpon|psn
+|-damage|p1a: Ogerpon|88/100 psn|[from] Stealth Rock
+|-damage|p1a: Ogerpon|76/100 psn|[from] Spikes
+|turn|12
+|
+|t:|1779711942
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Rillaboom|[anim] Ivy Cudgel Water
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|57/100
+|
+|-heal|p1a: Ogerpon|82/100 psn|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|63/100|[from] Grassy Terrain
+|-damage|p1a: Ogerpon|70/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1779711959
+|switch|p1a: Moltres|Moltres|84/100
+|move|p2a: Rillaboom|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|52/100
+|-status|p2a: Rillaboom|brn|[from] ability: Flame Body|[of] p1a: Moltres
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Rillaboom
+|-damage|p2a: Rillaboom|53/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Rillaboom|59/100 brn|[from] Grassy Terrain
+|-damage|p2a: Rillaboom|53/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1779711972
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|move|p1a: Moltres|U-turn|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|95/100
+|
+|t:|1779711977
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100|[from] U-turn
+|
+|-heal|p2a: Iron Moth|100/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1779711983
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-enditem|p2a: Gholdengo|Grassy Seed
+|-boost|p2a: Gholdengo|def|1|[from] item: Grassy Seed
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|27/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-heal|p2a: Gholdengo|33/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1779711995
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Gholdengo
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1779711997
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|17
+|
+|t:|1779712009
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Kingambit|Kingambit, F|24/100
+|-damage|p1a: Kingambit|18/100|[from] Stealth Rock
+|-damage|p1a: Kingambit|6/100|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Iron Moth|Fiery Dance|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1779712027
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|turn|18
+|
+|t:|1779712032
+|-terastallize|p2a: Iron Moth|Ghost
+|move|p2a: Iron Moth|Fiery Dance|p1a: Great Tusk
+|-damage|p1a: Great Tusk|41/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Great Tusk|Rapid Spin|p2a: Iron Moth
+|-immune|p2a: Iron Moth
+|
+|upkeep
+|turn|19
+|
+|t:|1779712045
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Moltres|Moltres|52/100
+|-damage|p1a: Moltres|2/100|[from] Stealth Rock
+|move|p2a: Iron Moth|Fiery Dance|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1779712060
+|switch|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|70/100 psn
+|-damage|p1a: Ogerpon|57/100 psn|[from] Stealth Rock
+|-damage|p1a: Ogerpon|45/100 psn|[from] Spikes
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|turn|20
+|
+|t:|1779712068
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Rillaboom|Rillaboom, M|53/100 brn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Ogerpon|Knock Off|p2a: Rillaboom
+|-damage|p2a: Rillaboom|15/100 brn
+|-enditem|p2a: Rillaboom|Life Orb|[from] move: Knock Off|[of] p1a: Ogerpon
+|
+|-heal|p1a: Ogerpon|51/100 psn|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|21/100 brn|[from] Grassy Terrain
+|-damage|p1a: Ogerpon|39/100 psn|[from] psn
+|-damage|p2a: Rillaboom|15/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1779712085
+|switch|p1a: Great Tusk|Great Tusk, shiny|41/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|15/100
+|
+|-heal|p1a: Great Tusk|21/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|21/100 brn|[from] Grassy Terrain
+|-damage|p2a: Rillaboom|15/100 brn|[from] brn
+|upkeep
+|turn|22
+|-message|InDaHouseSun forfeited.
+|
+|win|Mca player 11
+|raw|InDaHouseSun's rating: 1403 &rarr; <strong>1387</strong><br />(-16 for losing)
+|raw|Mca player 11's rating: 1470 &rarr; <strong>1486</strong><br />(+16 for winning)
+|l|☆InDaHouseSun
+|player|p1|

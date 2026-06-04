@@ -1,0 +1,438 @@
+|j|☆rk2k
+|j|☆thebacchusbraviary
+|t:|1760408415
+|gametype|singles
+|player|p1|rk2k|102|1510
+|player|p2|thebacchusbraviary|winona|1488
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Kyurem|
+|poke|p1|Hatterene, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Garganacl, F|
+|poke|p2|Braviary, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Regice|
+|poke|p2|Greninja-*, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Thundurus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by thebacchusbraviary)
+|
+|t:|1760408418
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1760408421
+|move|p1a: Iron Treads|Stealth Rock|p2a: Thundurus
+|-sidestart|p2: thebacchusbraviary|move: Stealth Rock
+|move|p2a: Thundurus|Grass Knot|p1a: Iron Treads
+|-damage|p1a: Iron Treads|11/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760408423
+|move|p1a: Iron Treads|Steel Beam|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|65/100
+|-damage|p1a: Iron Treads|0 fnt|[from] steelbeam
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|move|p2a: Thundurus|Grass Knot|p1: Iron Treads|[notarget]
+|-fail|p2a: Thundurus
+|
+|upkeep
+|
+|t:|1760408429
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|3
+|
+|t:|1760408434
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragapult|Dragon Darts|p2a: Tyranitar
+|-damage|p2a: Tyranitar|71/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Tyranitar
+|-damage|p2a: Tyranitar|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|95/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1760408437
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Tyranitar
+|-status|p2a: Tyranitar|brn
+|move|p2a: Tyranitar|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|11/100
+|-enditem|p1a: Dragapult|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|5/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|50/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1760408439
+|move|p1a: Dragapult|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|18/100 brn
+|
+|t:|1760408441
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|move|p2a: Tyranitar|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|79/100
+|-enditem|p1a: Hatterene|Leftovers|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hatterene|73/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|12/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1760408445
+|move|p2a: Tyranitar|Earthquake|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|46/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-heal|p1a: Hatterene|57/100|[from] drain|[of] p2a: Tyranitar
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hatterene|51/100|[from] Sandstorm
+|upkeep
+|
+|t:|1760408454
+|switch|p2a: Braviary|Braviary, M|100/100
+|-damage|p2a: Braviary|76/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1760408458
+|move|p2a: Braviary|Defog|p1a: Hatterene
+|move|p1a: Hatterene|Defog|p2a: Braviary|[from] ability: Magic Bounce
+|-unboost|p2a: Braviary|evasion|1
+|-ability|p2a: Braviary|Defiant|boost
+|-boost|p2a: Braviary|atk|2
+|-sideend|p2: thebacchusbraviary|Stealth Rock|[from] move: Defog|[of] p1a: Hatterene
+|move|p1a: Hatterene|Psychic Noise|p2a: Braviary
+|-damage|p2a: Braviary|37/100
+|-start|p2a: Braviary|move: Heal Block
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1760408466
+|switch|p2a: Thundurus|Thundurus-Therian, M|65/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Thundurus
+|-damage|p2a: Thundurus|35/100
+|-heal|p1a: Hatterene|73/100|[from] drain|[of] p2a: Thundurus
+|
+|upkeep
+|turn|9
+|
+|t:|1760408469
+|move|p2a: Thundurus|Sludge Wave|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1760408472
+|switch|p1a: Dragapult|Dragapult, F|5/100
+|turn|10
+|
+|t:|1760408476
+|switch|p2a: Regice|Regice|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Regice
+|-damage|p2a: Regice|85/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Regice
+|-damage|p2a: Regice|69/100
+|
+|-heal|p2a: Regice|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760408478
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Regice
+|-status|p2a: Regice|brn
+|move|p2a: Regice|Ice Beam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Regice|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|75/100 brn|[from] brn
+|upkeep
+|
+|t:|1760408481
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|12
+|
+|t:|1760408482
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|76/100
+|move|p2a: Regice|Thunder Wave||[still]
+|-fail|p2a: Regice
+|
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|-heal|p2a: Regice|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|75/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1760408487
+|move|p1a: Kyurem|Protect|p1a: Kyurem
+|-singleturn|p1a: Kyurem|Protect
+|move|p2a: Regice|Body Press|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Protect
+|
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|-heal|p2a: Regice|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|75/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1760408494
+|move|p1a: Kyurem|Earth Power|p2a: Regice
+|-damage|p2a: Regice|59/100 brn
+|move|p2a: Regice|Body Press|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Substitute|[damage]
+|
+|-heal|p1a: Kyurem|94/100|[from] item: Leftovers
+|-heal|p2a: Regice|65/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|59/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1760408500
+|move|p1a: Kyurem|Earth Power|p2a: Regice
+|-damage|p2a: Regice|43/100 brn
+|move|p2a: Regice|Body Press|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-heal|p1a: Kyurem|99/100|[from] item: Leftovers
+|-heal|p2a: Regice|49/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|43/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1760408504
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|75/100
+|move|p2a: Regice|Body Press|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|-heal|p2a: Regice|49/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|43/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1760408509
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|57/100
+|move|p2a: Regice|Body Press|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Substitute|[damage]
+|
+|-heal|p1a: Kyurem|63/100|[from] item: Leftovers
+|-heal|p2a: Regice|49/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|43/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1760408514
+|move|p1a: Kyurem|Protect|p1a: Kyurem
+|-singleturn|p1a: Kyurem|Protect
+|move|p2a: Regice|Body Press|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Protect
+|
+|-heal|p1a: Kyurem|69/100|[from] item: Leftovers
+|-heal|p2a: Regice|49/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|43/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1760408518
+|move|p1a: Kyurem|Earth Power|p2a: Regice
+|-damage|p2a: Regice|26/100 brn
+|move|p2a: Regice|Body Press|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-heal|p1a: Kyurem|75/100|[from] item: Leftovers
+|-heal|p2a: Regice|32/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|26/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1760408525
+|move|p1a: Kyurem|Protect|p1a: Kyurem
+|-singleturn|p1a: Kyurem|Protect
+|move|p2a: Regice|Body Press|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Protect
+|
+|-heal|p1a: Kyurem|81/100|[from] item: Leftovers
+|-heal|p2a: Regice|32/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|26/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1760408531
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|57/100
+|move|p2a: Regice|Ice Beam|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-heal|p1a: Kyurem|63/100|[from] item: Leftovers
+|-heal|p2a: Regice|32/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|26/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1760408535
+|move|p1a: Kyurem|Earth Power|p2a: Regice
+|-damage|p2a: Regice|11/100 brn
+|move|p2a: Regice|Ice Beam|p1a: Kyurem
+|-damage|p1a: Kyurem|33/100
+|
+|-heal|p1a: Kyurem|39/100|[from] item: Leftovers
+|-heal|p2a: Regice|17/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|11/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1760408539
+|move|p1a: Kyurem|Earth Power|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|faint|p2a: Regice
+|
+|-heal|p1a: Kyurem|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760408550
+|switch|p2a: Thundurus|Thundurus-Therian, M|35/100
+|turn|24
+|
+|t:|1760408562
+|move|p2a: Thundurus|Sludge Wave|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1760408567
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|turn|25
+|
+|t:|1760408569
+|switch|p2a: Greninja|Greninja, M|100/100
+|move|p1a: Garganacl|Iron Defense|p1a: Garganacl
+|-boost|p1a: Garganacl|def|2
+|
+|upkeep
+|turn|26
+|
+|t:|1760408572
+|-terastallize|p1a: Garganacl|Water
+|move|p2a: Greninja|Dark Pulse|p1a: Garganacl
+|-damage|p1a: Garganacl|79/100
+|move|p1a: Garganacl|Iron Defense|p1a: Garganacl
+|-boost|p1a: Garganacl|def|2
+|
+|-heal|p1a: Garganacl|85/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1760408578
+|switch|p2a: Braviary|Braviary, M|37/100
+|move|p1a: Garganacl|Body Press|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|-heal|p1a: Garganacl|91/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760408580
+|switch|p2a: Thundurus|Thundurus-Therian, M|35/100
+|turn|28
+|
+|t:|1760408582
+|move|p2a: Thundurus|Thunderbolt|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|upkeep
+|
+|t:|1760408584
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|29
+|
+|t:|1760408588
+|move|p1a: Rillaboom|Grassy Glide|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|-damage|p1a: Rillaboom|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Rillaboom|97/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760408590
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|30
+|
+|t:|1760408593
+|-terastallize|p2a: Greninja|Poison
+|move|p1a: Rillaboom|Grassy Glide|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|58/100
+|-damage|p1a: Rillaboom|87/100|[from] item: Life Orb
+|move|p2a: Greninja|Sludge Wave|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|win|thebacchusbraviary
+|raw|rk2k's rating: 1510 &rarr; <strong>1489</strong><br />(-21 for losing)
+|raw|thebacchusbraviary's rating: 1488 &rarr; <strong>1509</strong><br />(+21 for winning)
+|l|☆rk2k
+|player|p1|
+|l|☆thebacchusbraviary
+|player|p2|

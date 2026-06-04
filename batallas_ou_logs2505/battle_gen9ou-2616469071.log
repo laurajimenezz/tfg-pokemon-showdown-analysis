@@ -1,0 +1,359 @@
+|j|☆immaterial-light
+|j|☆Exilos
+|t:|1779563628
+|gametype|singles
+|player|p1|immaterial-light|2|1422
+|player|p2|Exilos|101|1384
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slither Wing|
+|poke|p1|Ninetales, M|
+|poke|p1|Walking Wake|
+|poke|p1|Whimsicott, M|
+|poke|p1|Great Tusk|
+|poke|p1|Hatterene, F|
+|poke|p2|Clawitzer, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Zamazenta-*|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Moltres|
+|poke|p2|Dragapult, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Exilos)
+|
+|t:|1779563632
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|switch|p2a: Moltres|Moltres|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1779563638
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Moltres|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|88/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1779563645
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1779563652
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Walking Wake|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|64/100
+|-enditem|p2a: Slowking|Assault Vest|[from] move: Knock Off|[of] p1a: Walking Wake
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|immaterial-light has 120 seconds left.
+|
+|t:|1779563696
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|move|p2a: Slowking|Sludge Bomb|p1a: Slither Wing
+|-damage|p1a: Slither Wing|53/100
+|-status|p1a: Slither Wing|psn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Slither Wing|41/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1779563705
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Slither Wing|U-turn|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|88/100
+|
+|t:|1779563707
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|88/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779563714
+|move|p2a: Moltres|Flamethrower|p1a: Hatterene
+|-damage|p1a: Hatterene|28/100
+|move|p1a: Hatterene|Nuzzle|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|82/100
+|-status|p2a: Moltres|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779563721
+|move|p2a: Moltres|Flamethrower|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779563725
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|7
+|
+|t:|1779563731
+|switch|p2a: Slowking|Slowking-Galar, F|97/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Slowking
+|-damage|p2a: Slowking|31/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1779563742
+|move|p1a: Walking Wake|Hydro Steam|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1779563758
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|9
+|
+|t:|1779563774
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1779563782
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779563786
+|move|p1a: Ninetales|Encore|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|Encore
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1779563794
+|switch|p1a: Slither Wing|Slither Wing|41/100 psn
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Slither Wing|29/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1779563799
+|move|p1a: Slither Wing|Flare Blitz|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|-damage|p1a: Slither Wing|0 fnt|[from] Recoil
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779563825
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|14
+|
+|t:|1779563833
+|switch|p2a: Moltres|Moltres|82/100 par
+|move|p1a: Whimsicott|Growth|p1a: Whimsicott
+|-boost|p1a: Whimsicott|atk|2
+|-boost|p1a: Whimsicott|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1779563841
+|-terastallize|p1a: Whimsicott|Ghost
+|move|p1a: Whimsicott|Shadow Ball|p2a: Moltres
+|-damage|p2a: Moltres|2/100 par
+|-damage|p1a: Whimsicott|91/100|[from] item: Life Orb
+|move|p2a: Moltres|Flamethrower|p1a: Whimsicott
+|-damage|p1a: Whimsicott|17/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1779563845
+|move|p1a: Whimsicott|Shadow Ball|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|-damage|p1a: Whimsicott|7/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779563858
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|17
+|
+|t:|1779563866
+|move|p1a: Whimsicott|Moonblast|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-damage|p1a: Whimsicott|0 fnt|[from] item: Life Orb
+|faint|p1a: Whimsicott
+|
+|-weather|none
+|upkeep
+|
+|t:|1779563872
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|18
+|
+|t:|1779563879
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1779563884
+|move|p2a: Dragapult|Dragon Darts|p1a: Great Tusk
+|-damage|p1a: Great Tusk|80/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Great Tusk
+|-damage|p1a: Great Tusk|58/100
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|move|p1a: Great Tusk|Headlong Rush|p2a: Dragapult
+|-damage|p2a: Dragapult|16/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1779563893
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Ninetales
+|-damage|p1a: Ninetales|42/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|-damage|p2a: Dragapult|6/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779563894
+|switch|p1a: Great Tusk|Great Tusk|58/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|turn|21
+|
+|t:|1779563901
+|move|p2a: Dragapult|Dragon Darts|p1a: Great Tusk
+|-damage|p1a: Great Tusk|36/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Great Tusk
+|-damage|p1a: Great Tusk|14/100
+|-damage|p2a: Dragapult|0 fnt|[from] item: Life Orb
+|faint|p2a: Dragapult
+|move|p1a: Great Tusk|Ice Spinner|p2: Dragapult|[notarget]
+|-fail|p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779563907
+|switch|p2a: boom|Clawitzer, M, shiny|100/100
+|turn|22
+|
+|t:|1779563911
+|move|p1a: Great Tusk|Headlong Rush|p2a: boom
+|-damage|p2a: boom|29/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: boom|Dragon Pulse|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779563914
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|23
+|
+|t:|1779563917
+|move|p1a: Walking Wake|Dragon Pulse|p2a: boom
+|-damage|p2a: boom|0 fnt
+|faint|p2a: boom
+|
+|win|immaterial-light
+|raw|immaterial-light's rating: 1401 &rarr; <strong>1420</strong><br />(+19 for winning)
+|raw|Exilos's rating: 1384 &rarr; <strong>1365</strong><br />(-19 for losing)
+|l|☆immaterial-light
+|player|p1|
+|l|☆Exilos
+|player|p2|

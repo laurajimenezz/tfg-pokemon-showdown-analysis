@@ -1,0 +1,392 @@
+|j|☆Spikenard
+|j|☆Scce
+|t:|1779559821
+|gametype|singles
+|player|p1|Spikenard|erika|1328
+|player|p2|Scce|169|1325
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ambipom, M|
+|poke|p1|Chandelure, M|
+|poke|p1|Clefable, M|
+|poke|p1|Decidueye-Hisui, M|
+|poke|p1|Dusclops, F|
+|poke|p1|Glimmora, M|
+|poke|p2|Pecharunt|
+|poke|p2|Umbreon, M|
+|poke|p2|Iron Crown|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Kyurem|
+|teampreview
+|
+|t:|1779559841
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|turn|1
+|
+|t:|1779559849
+|switch|p1a: Decidueye|Decidueye-Hisui, M|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Decidueye
+|-resisted|p1a: Decidueye
+|-damage|p1a: Decidueye|78/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1779559855
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Decidueye|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|74/100
+|-enditem|p2a: Pecharunt|Black Sludge|[from] move: Knock Off|[of] p1a: Decidueye
+|
+|upkeep
+|turn|3
+|
+|t:|1779559873
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|89/100
+|
+|upkeep
+|turn|4
+|
+|t:|1779559879
+|move|p1a: Glimmora|Stealth Rock|p2a: Pecharunt
+|-sidestart|p2: Scce|move: Stealth Rock
+|move|p2a: Pecharunt|Parting Shot|p1a: Glimmora
+|-unboost|p1a: Glimmora|atk|1
+|-unboost|p1a: Glimmora|spa|1
+|
+|t:|1779559881
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|5
+|
+|t:|1779559892
+|switch|p1a: Dusclops|Dusclops, F|100/100
+|-ability|p1a: Dusclops|Pressure
+|move|p2a: Great Tusk|Headlong Rush|p1a: Dusclops
+|-damage|p1a: Dusclops|57/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1779559905
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Umbreon|Umbreon, M, shiny|100/100
+|-damage|p2a: Umbreon|88/100|[from] Stealth Rock
+|move|p1a: Dusclops|Trick Room|p1a: Dusclops
+|-fieldstart|move: Trick Room|[of] p1a: Dusclops
+|
+|upkeep
+|turn|7
+|
+|t:|1779559910
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Umbreon
+|-status|p2a: Umbreon|brn
+|-activate|p2a: Umbreon|ability: Synchronize
+|-status|p1a: Dusclops|brn
+|move|p2a: Umbreon|Toxic||[still]
+|-fail|p2a: Umbreon
+|
+|-damage|p1a: Dusclops|51/100 brn|[from] brn
+|-damage|p2a: Umbreon|82/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1779559917
+|move|p1a: Dusclops|Pain Split|p2a: Umbreon
+|-sethp|p2a: Umbreon|59/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|82/100 brn|[from] move: Pain Split
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-damage|p1a: Dusclops|76/100 brn|[from] brn
+|-damage|p2a: Umbreon|53/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1779559925
+|switch|p1a: Glimmora|Glimmora, M|89/100
+|move|p2a: Umbreon|Foul Play|p1a: Glimmora
+|-damage|p1a: Glimmora|77/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Scce|move: Toxic Spikes
+|
+|-heal|p2a: Umbreon|100/100 brn|[from] move: Wish|[wisher] Umbreon
+|-damage|p2a: Umbreon|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1779559934
+|switch|p2a: Pecharunt|Pecharunt|74/100
+|-damage|p2a: Pecharunt|62/100|[from] Stealth Rock
+|-sideend|p2: Scce|move: Toxic Spikes|[of] p2a: Pecharunt
+|move|p1a: Glimmora|Power Gem|p2a: Pecharunt
+|-damage|p2a: Pecharunt|18/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1779559941
+|move|p1a: Glimmora|Earth Power|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1779559948
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|turn|12
+|
+|t:|1779559954
+|switch|p1a: Decidueye|Decidueye-Hisui, M|78/100
+|move|p2a: Great Tusk|Close Combat|p1a: Decidueye
+|-damage|p1a: Decidueye|34/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|13
+|
+|t:|1779559964
+|move|p2a: Great Tusk|Close Combat|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Decidueye
+|
+|upkeep
+|
+|t:|1779559976
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|turn|14
+|
+|t:|1779559982
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Umbreon|Umbreon, M, shiny|94/100 brn
+|-damage|p2a: Umbreon|82/100 brn|[from] Stealth Rock
+|move|p1a: Chandelure|Energy Ball|p2a: Umbreon
+|-damage|p2a: Umbreon|63/100 brn
+|
+|-damage|p2a: Umbreon|57/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1779559995
+|switch|p1a: Glimmora|Glimmora, M|77/100
+|switch|p2a: Arcanine|Arcanine-Hisui, M, shiny|100/100
+|-damage|p2a: Arcanine|75/100|[from] Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|t:|1779560015
+|switch|p2a: Umbreon|Umbreon, M, shiny|57/100 brn
+|-damage|p2a: Umbreon|44/100 brn|[from] Stealth Rock
+|move|p1a: Glimmora|Earth Power|p2a: Umbreon
+|-damage|p2a: Umbreon|27/100 brn
+|
+|-damage|p2a: Umbreon|21/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1779560022
+|move|p1a: Glimmora|Power Gem|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|
+|upkeep
+|
+|t:|1779560025
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-damage|p2a: Iron Crown|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespe
+|turn|18
+|
+|t:|1779560033
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|
+|upkeep
+|turn|19
+|
+|t:|1779560039
+|move|p2a: Iron Crown|Psychic Noise|p1a: Chandelure
+|-crit|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|t:|1779560045
+|switch|p1a: Dusclops|Dusclops, F|76/100 brn
+|-ability|p1a: Dusclops|Pressure
+|turn|20
+|
+|t:|1779560050
+|-terastallize|p2a: Iron Crown|Steel
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Dusclops
+|-damage|p1a: Dusclops|55/100 brn
+|-damage|p1a: Dusclops|33/100 brn
+|-hitcount|p1a: Dusclops|2
+|move|p1a: Dusclops|Trick Room|p1a: Dusclops
+|-fieldstart|move: Trick Room|[of] p1a: Dusclops
+|
+|-damage|p1a: Dusclops|27/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1779560062
+|move|p1a: Dusclops|Pain Split|p2a: Iron Crown
+|-sethp|p2a: Iron Crown|59/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|67/100 brn|[from] move: Pain Split
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Dusclops
+|-damage|p1a: Dusclops|44/100 brn
+|-damage|p1a: Dusclops|24/100 brn
+|-hitcount|p1a: Dusclops|2
+|
+|-damage|p1a: Dusclops|18/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1779560070
+|move|p1a: Dusclops|Pain Split|p2a: Iron Crown
+|-sethp|p2a: Iron Crown|37/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|42/100 brn|[from] move: Pain Split
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|
+|-damage|p1a: Dusclops|36/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1779560074
+|move|p1a: Dusclops|Night Shade|p2a: Iron Crown
+|-damage|p2a: Iron Crown|6/100
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Dusclops
+|-damage|p1a: Dusclops|5/100 brn
+|-damage|p1a: Dusclops|0 fnt
+|faint|p1a: Dusclops
+|-hitcount|p1: Dusclops|2
+|
+|upkeep
+|
+|t:|1779560082
+|switch|p1a: Glimmora|Glimmora, M|77/100
+|turn|24
+|
+|t:|1779560085
+|move|p1a: Glimmora|Power Gem|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1779560089
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|turn|25
+|
+|t:|1779560099
+|move|p2a: Great Tusk|Headlong Rush|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Scce|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1779560109
+|switch|p1a: Ambipom|Ambipom, M|100/100
+|turn|26
+|
+|t:|1779560119
+|move|p1a: Ambipom|Fake Out|p2a: Great Tusk
+|-damage|p2a: Great Tusk|74/100
+|cant|p2a: Great Tusk|flinch
+|
+|upkeep
+|turn|27
+|
+|t:|1779560129
+|move|p1a: Ambipom|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|62/100
+|
+|t:|1779560132
+|switch|p1a: Clefable|Clefable, M|100/100|[from] U-turn
+|move|p2a: Great Tusk|Rapid Spin|p1a: Clefable
+|-damage|p1a: Clefable|88/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Scce|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: Scce|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|28
+|
+|t:|1779560139
+|move|p2a: Great Tusk|Headlong Rush|p1a: Clefable
+|-damage|p1a: Clefable|38/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Clefable|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779560144
+|switch|p2a: Arcanine|Arcanine-Hisui, M, shiny|75/100
+|turn|29
+|
+|t:|1779560147
+|move|p2a: Arcanine|Flare Blitz|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|-message|Spikenard forfeited.
+|
+|win|Scce
+|raw|Spikenard's rating: 1328 &rarr; <strong>1308</strong><br />(-20 for losing)
+|raw|Scce's rating: 1325 &rarr; <strong>1345</strong><br />(+20 for winning)
+|l|☆Spikenard
+|player|p1|
+|l|☆Scce
+|player|p2|

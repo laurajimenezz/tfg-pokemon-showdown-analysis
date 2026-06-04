@@ -1,0 +1,338 @@
+|j|☆Zakdia
+|j|☆Sauronikov
+|t:|1758990053
+|gametype|singles
+|player|p1|Zakdia|265|1182
+|player|p2|Sauronikov|101|1177
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Kingambit, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Rhyperior, F|
+|poke|p2|Revavroom, M|
+|poke|p2|Kommo-o, M|
+|poke|p2|Torterra, F|
+|poke|p2|Blaziken, M|
+|teampreview
+|
+|t:|1758990072
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragonite|Dragonite, M, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|turn|1
+|
+|t:|1758990091
+|switch|p1a: Kingambit|Kingambit, M, shiny|100/100
+|move|p2a: Grimmsnarl|Taunt|p1a: Kingambit
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Kingambit
+|
+|upkeep
+|turn|2
+|
+|t:|1758990095
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Sauronikov|Reflect
+|move|p1a: Kingambit|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|54/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758990108
+|switch|p2a: Rhyperior|Rhyperior, F, shiny|100/100
+|move|p1a: Kingambit|Iron Head|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|72/100
+|-enditem|p2a: Rhyperior|Weakness Policy
+|-boost|p2a: Rhyperior|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Rhyperior|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|4
+|
+|t:|1758990122
+|-terastallize|p2a: Rhyperior|Fire
+|move|p1a: Kingambit|Iron Head|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|65/100
+|cant|p2a: Rhyperior|flinch
+|
+|upkeep
+|turn|5
+|
+|t:|1758990143
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Rhyperior|Rock Polish|p2a: Rhyperior
+|-boost|p2a: Rhyperior|spe|2
+|
+|upkeep
+|turn|6
+|
+|t:|1758990154
+|move|p1a: Iron Valiant|Close Combat|p2a: Rhyperior
+|-damage|p2a: Rhyperior|43/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|move|p2a: Rhyperior|Heat Crash|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758990171
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|7
+|
+|t:|1758990174
+|move|p2a: Rhyperior|Heat Crash|p1a: Ogerpon
+|-ability|p1a: Ogerpon|Sturdy
+|-damage|p1a: Ogerpon|1/100
+|move|p1a: Ogerpon|Knock Off|p2a: Rhyperior
+|-damage|p2a: Rhyperior|33/100
+|
+|upkeep
+|turn|8
+|
+|t:|1758990181
+|move|p2a: Rhyperior|Heat Crash|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1758990190
+|switch|p1a: Dragonite|Dragonite, M, shiny|100/100
+|turn|9
+|
+|t:|1758990197
+|-terastallize|p1a: Dragonite|Flying
+|move|p2a: Rhyperior|Heat Crash|p1a: Dragonite
+|-damage|p1a: Dragonite|77/100
+|move|p1a: Dragonite|Tera Blast|p2a: Rhyperior|[anim] Tera Blast Flying
+|-damage|p2a: Rhyperior|10/100
+|
+|-sideend|p2: Sauronikov|Reflect
+|upkeep
+|turn|10
+|
+|t:|1758990205
+|move|p1a: Dragonite|Extreme Speed|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+|
+|t:|1758990207
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|54/100
+|turn|11
+|
+|t:|1758990212
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Sauronikov|Reflect
+|move|p1a: Dragonite|Earthquake|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|35/100
+|
+|upkeep
+|turn|12
+|
+|t:|1758990219
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Dragonite
+|-unboost|p1a: Dragonite|atk|1
+|-unboost|p1a: Dragonite|spa|1
+|
+|t:|1758990221
+|switch|p2a: Torterra|Torterra, F|100/100|[from] Parting Shot
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|13
+|
+|t:|1758990234
+|move|p1a: Dragonite|Tera Blast|p2a: Torterra|[anim] Tera Blast Flying
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|41/100
+|move|p2a: Torterra|Shell Smash|p2a: Torterra
+|-unboost|p2a: Torterra|def|1
+|-unboost|p2a: Torterra|spd|1
+|-boost|p2a: Torterra|atk|2
+|-boost|p2a: Torterra|spa|2
+|-boost|p2a: Torterra|spe|2
+|
+|upkeep
+|turn|14
+|
+|t:|1758990238
+|move|p2a: Torterra|Rock Slide|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1758990246
+|switch|p1a: Iron Moth|Iron Moth, shiny|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|15
+|
+|t:|1758990251
+|move|p1a: Iron Moth|Sludge Wave|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|faint|p2a: Torterra
+|
+|upkeep
+|
+|t:|1758990253
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|35/100
+|turn|16
+|
+|t:|1758990258
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Sauronikov|move: Light Screen
+|move|p1a: Iron Moth|Sludge Wave|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1758990262
+|switch|p2a: Revavroom|Revavroom, M, shiny|100/100
+|turn|17
+|
+|t:|1758990269
+|move|p1a: Iron Moth|Fiery Dance|p2a: Revavroom
+|-supereffective|p2a: Revavroom
+|-damage|p2a: Revavroom|61/100
+|-boost|p1a: Iron Moth|spa|1
+|-enditem|p2a: Revavroom|Weakness Policy
+|-boost|p2a: Revavroom|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Revavroom|spa|2|[from] item: Weakness Policy
+|move|p2a: Revavroom|High Horsepower|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758990290
+|switch|p1a: Kingambit|Kingambit, M, shiny|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|18
+|
+|t:|1758990294
+|move|p2a: Revavroom|High Horsepower|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-enditem|p1a: Kingambit|Focus Sash
+|-damage|p1a: Kingambit|1/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-sideend|p2: Sauronikov|Reflect
+|upkeep
+|turn|19
+|
+|t:|1758990311
+|move|p1a: Kingambit|Sucker Punch|p2a: Revavroom
+|-damage|p2a: Revavroom|0 fnt
+|faint|p2a: Revavroom
+|
+|upkeep
+|
+|t:|1758990313
+|switch|p2a: Kommo-o|Kommo-o, M, shiny|100/100
+|turn|20
+|
+|t:|1758990318
+|move|p1a: Kingambit|Sucker Punch|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|41/100
+|move|p2a: Kommo-o|Close Combat|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Kommo-o|def|1
+|-unboost|p2a: Kommo-o|spd|1
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1758990321
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|21
+|
+|t:|1758990325
+|move|p2a: Kommo-o|Scale Shot|p1a: Raging Bolt|[miss]
+|-miss|p2a: Kommo-o|p1a: Raging Bolt
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|t:|1758990327
+|switch|p2a: Blaziken|Blaziken, M, shiny|100/100
+|turn|22
+|
+|t:|1758990337
+|move|p2a: Blaziken|Earthquake|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|28/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|23
+|
+|t:|1758990342
+|move|p1a: Raging Bolt|Thunderclap|p2a: Blaziken
+|-damage|p2a: Blaziken|38/100
+|move|p2a: Blaziken|Earthquake|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|Sauronikov
+|raw|Zakdia's rating: 1182 &rarr; <strong>1157</strong><br />(-25 for losing)
+|raw|Sauronikov's rating: 1177 &rarr; <strong>1202</strong><br />(+25 for winning)
+|l|☆Sauronikov
+|player|p2|
+|l|☆Zakdia
+|player|p1|

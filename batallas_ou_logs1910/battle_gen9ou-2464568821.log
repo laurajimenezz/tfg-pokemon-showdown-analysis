@@ -1,0 +1,315 @@
+|j|☆petertonetto
+|j|☆VerveTA
+|t:|1760874516
+|gametype|singles
+|player|p1|petertonetto|1|1313
+|player|p2|VerveTA|265|1324
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Walking Wake|
+|poke|p1|Glimmora, M|
+|poke|p1|Scizor, F|
+|poke|p1|Ceruledge, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Iron Treads|
+|poke|p2|Ceruledge, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by petertonetto)
+|
+|t:|1760874526
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1760874536
+|-terastallize|p1a: Torkoal|Flying
+|move|p2a: Iron Treads|Volt Switch|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|59/100
+|
+|t:|1760874540
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100|[from] Volt Switch
+|move|p1a: Torkoal|Eruption|p2a: Hatterene
+|-damage|p2a: Hatterene|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760874549
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Hatterene|Nuzzle|p1a: Glimmora
+|-damage|p1a: Glimmora|97/100
+|-status|p1a: Glimmora|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760874556
+|cant|p1a: Glimmora|par
+|move|p2a: Hatterene|Psyshock|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|10/100 par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760874568
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Glimmora|Mortal Spin|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760874574
+|move|p2a: Iron Treads|Volt Switch|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|t:|1760874586
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760874594
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|6
+|
+|t:|1760874598
+|move|p1a: Walking Wake|Hydro Steam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760874616
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|7
+|
+|t:|1760874628
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Scizor|Scizor, F|100/100
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760874640
+|move|p1a: Scizor|Bullet Punch|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|71/100
+|-damage|p1a: Scizor|91/100|[from] item: Life Orb
+|move|p2a: Ogerpon|Knock Off|p1a: Scizor
+|-damage|p1a: Scizor|20/100
+|-enditem|p1a: Scizor|Life Orb|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1760874650
+|move|p1a: Scizor|Bullet Punch|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|46/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Scizor|[anim] Ivy Cudgel Water
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1760874657
+|switch|p1a: Torkoal|Torkoal, F, tera:Flying|59/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|10
+|j| dadiaocha
+|
+|t:|1760874664
+|move|p2a: Ogerpon|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-enditem|p1a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p2a: Ogerpon
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760874671
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|turn|11
+|
+|t:|1760874678
+|move|p1a: Typhlosion|Solar Beam||[still]
+|-prepare|p1a: Typhlosion|Solar Beam
+|-anim|p1a: Typhlosion|Solar Beam|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760874691
+|switch|p2a: Ceruledge|Ceruledge, F, shiny|100/100
+|turn|12
+|
+|t:|1760874693
+|move|p1a: Typhlosion|Solar Beam||[still]
+|-prepare|p1a: Typhlosion|Solar Beam
+|-anim|p1a: Typhlosion|Solar Beam|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|77/100
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1760874700
+|move|p1a: Typhlosion|Solar Beam||[still]
+|-prepare|p1a: Typhlosion|Solar Beam
+|-anim|p1a: Typhlosion|Solar Beam|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|54/100
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1760874709
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760874714
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|turn|15
+|
+|t:|1760874721
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760874725
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|16
+|
+|t:|1760874729
+|move|p2a: Iron Treads|Earth Power|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|32/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-heal|p1a: Ceruledge|87/100|[from] drain|[of] p2a: Iron Treads
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760874735
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|turn|17
+|
+|t:|1760874740
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|45/100
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|20/100
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|t:|1760874748
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force
+|
+|upkeep
+|turn|19
+|
+|t:|1760874757
+|move|p2a: Dragapult|Phantom Force|p1a: Ceruledge|[from] lockedmove
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|-damage|p2a: Dragapult|10/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760874763
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|turn|20
+|
+|t:|1760874767
+|move|p2a: Dragapult|Dragon Darts|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|27/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|-damage|p2a: Dragapult|0 fnt|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|win|VerveTA
+|raw|petertonetto's rating: 1313 &rarr; <strong>1294</strong><br />(-19 for losing)
+|raw|VerveTA's rating: 1324 &rarr; <strong>1343</strong><br />(+19 for winning)
+|l|☆petertonetto
+|player|p1|

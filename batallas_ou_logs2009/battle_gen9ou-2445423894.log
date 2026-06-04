@@ -1,0 +1,323 @@
+|j|☆ur doggo
+|j|☆e3720
+|t:|1758343242
+|gametype|singles
+|player|p1|ur doggo|169|1614
+|player|p2|e3720|102|1721
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Treads|
+|poke|p1|Toxicroak, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Zapdos|
+|poke|p2|Pincurchin, M|
+|poke|p2|Iron Treads|
+|poke|p2|Hawlucha, F|
+|poke|p2|Pecharunt|
+|poke|p2|Iron Valiant|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1758343271
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|t:|1758343302
+|move|p1a: Pelipper|U-turn|p2a: Pincurchin
+|-damage|p2a: Pincurchin|92/100
+|
+|t:|1758343308
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|-activate|p1a: Iron Treads|ability: Quark Drive
+|-start|p1a: Iron Treads|quarkdrivedef
+|move|p2a: Pincurchin|Scald|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|58/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|64/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1758343323
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-item|p2a: Iron Treads|Air Balloon
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Iron Treads|Volt Switch|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1758343335
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Iron Treads|Steel Beam|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-damage|p2a: Iron Treads|50/100|[from] steelbeam
+|faint|p1a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758343340
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|4
+|
+|t:|1758343407
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-activate|p2a: Iron Valiant|ability: Quark Drive
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Barraskewda|Liquidation|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758343440
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-item|p2a: Pecharunt|Air Balloon
+|turn|5
+|
+|t:|1758343448
+|switch|p1a: Iron Treads|Iron Treads|70/100
+|-activate|p1a: Iron Treads|ability: Quark Drive
+|-start|p1a: Iron Treads|quarkdrivedef
+|move|p2a: Pecharunt|Nasty Plot|p2a: Pecharunt
+|-boost|p2a: Pecharunt|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1758343455
+|move|p2a: Pecharunt|Shadow Ball|p1a: Iron Treads
+|-damage|p1a: Iron Treads|22/100
+|move|p1a: Iron Treads|Volt Switch|p2a: Pecharunt
+|-damage|p2a: Pecharunt|84/100
+|-enditem|p2a: Pecharunt|Air Balloon
+|
+|t:|1758343462
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Zapdos|Zapdos|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758343472
+|switch|p2a: Iron Treads|Iron Treads|50/100
+|-item|p2a: Iron Treads|Air Balloon
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Zapdos|Hurricane|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-enditem|p2a: Iron Treads|Air Balloon
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758343487
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|8
+|
+|t:|1758343496
+|switch|p1a: Iron Treads|Iron Treads|22/100
+|-activate|p1a: Iron Treads|ability: Quark Drive
+|-start|p1a: Iron Treads|quarkdrivedef
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1758343510
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|9
+|
+|t:|1758343533
+|move|p1a: Zapdos|Volt Switch|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|88/100
+|
+|t:|1758343573
+|switch|p1a: Pelipper|Pelipper, F|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Pelipper
+|-damage|p1a: Pelipper|38/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758343584
+|move|p2a: Raging Bolt|Rising Voltage|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758343587
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|turn|11
+|
+|t:|1758343617
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Pincurchin|Pincurchin, M|92/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Toxicroak|Drain Punch|p2a: Pincurchin
+|-damage|p2a: Pincurchin|68/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ur doggo)
+|
+|t:|1758343654
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Pincurchin|Spikes|p1a: Zapdos
+|-sidestart|p1: ur doggo|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1758343669
+|move|p1a: Zapdos|Weather Ball|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|faint|p2a: Pincurchin
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758343676
+|switch|p2a: Raging Bolt|Raging Bolt|88/100
+|turn|14
+|
+|t:|1758343682
+|move|p1a: Zapdos|Weather Ball|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|52/100
+|move|p2a: Raging Bolt|Rising Voltage|p1a: Zapdos
+|-damage|p1a: Zapdos|34/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1758343691
+|move|p1a: Zapdos|Weather Ball|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|18/100
+|move|p2a: Raging Bolt|Rising Voltage|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758343695
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|-damage|p1a: Barraskewda|88/100|[from] Spikes
+|turn|16
+|
+|t:|1758343712
+|move|p1a: Barraskewda|Aqua Jet|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1758343717
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Electric Seed
+|turn|17
+|
+|t:|1758343723
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|-damage|p1a: Toxicroak|88/100|[from] Spikes
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|
+|upkeep
+|turn|18
+|
+|t:|1758343738
+|-terastallize|p1a: Toxicroak|Ghost
+|move|p2a: Hawlucha|Acrobatics|p1a: Toxicroak
+|-damage|p1a: Toxicroak|2/100
+|-damage|p2a: Hawlucha|84/100|[from] item: Rocky Helmet|[of] p1a: Toxicroak
+|move|p1a: Toxicroak|Encore|p2a: Hawlucha
+|-start|p2a: Hawlucha|Encore
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|19
+|
+|t:|1758343746
+|move|p2a: Hawlucha|Acrobatics|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|-damage|p2a: Hawlucha|67/100|[from] item: Rocky Helmet|[of] p1a: Toxicroak
+|faint|p1a: Toxicroak
+|
+|upkeep
+|
+|t:|1758343750
+|switch|p1a: Barraskewda|Barraskewda, F|88/100
+|-damage|p1a: Barraskewda|76/100|[from] Spikes
+|turn|20
+|
+|t:|1758343753
+|move|p2a: Hawlucha|Acrobatics|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|win|e3720
+|raw|ur doggo's rating: 1614 &rarr; <strong>1600</strong><br />(-14 for losing)
+|raw|e3720's rating: 1721 &rarr; <strong>1735</strong><br />(+14 for winning)
+|c|☆ur doggo|gg wp
+|l|☆ur doggo
+|player|p1|
+|c|☆e3720|Gg

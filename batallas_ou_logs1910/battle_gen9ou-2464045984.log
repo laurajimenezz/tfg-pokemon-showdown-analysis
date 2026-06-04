@@ -1,0 +1,269 @@
+|j|☆mozzohman
+|j|☆jadhe
+|t:|1760792381
+|gametype|singles
+|player|p1|mozzohman|red|1155
+|player|p2|jadhe|2|1155
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Serperior, M|
+|poke|p1|Azelf|
+|poke|p1|Dragonite, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Moth|
+|poke|p2|Gliscor, F|
+|poke|p2|Tropius, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Iron Treads|
+|poke|p2|Heatran, M|
+|teampreview
+|
+|t:|1760792392
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Suicide Bomber|Azelf|100/100
+|switch|p2a: Tropius|Tropius, M|100/100
+|turn|1
+|
+|t:|1760792397
+|move|p1a: Suicide Bomber|Stealth Rock|p2a: Tropius
+|-sidestart|p2: jadhe|move: Stealth Rock
+|move|p2a: Tropius|Substitute|p2a: Tropius
+|-start|p2a: Tropius|Substitute
+|-damage|p2a: Tropius|76/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760792403
+|move|p1a: Suicide Bomber|Explosion|p2a: Tropius
+|-end|p2a: Tropius|Substitute
+|faint|p1a: Suicide Bomber
+|move|p2a: Tropius|Leech Seed|p1: Suicide Bomber|[notarget]
+|-fail|p2a: Tropius
+|
+|upkeep
+|
+|t:|1760792418
+|switch|p1a: Spitroast|Iron Moth|100/100
+|-enditem|p1a: Spitroast|Booster Energy
+|-activate|p1a: Spitroast|ability: Quark Drive|[fromitem]
+|-start|p1a: Spitroast|quarkdrivespe
+|turn|3
+|
+|t:|1760792461
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Spitroast|Fiery Dance|p2a: Heatran
+|-damage|p2a: Heatran|54/100
+|-boost|p1a: Spitroast|spa|1
+|-enditem|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|4
+|
+|t:|1760792476
+|-end|p1a: Spitroast|Quark Drive|[silent]
+|switch|p1a: Bob the Digger|Excadrill, F|100/100
+|-ability|p1a: Bob the Digger|Mold Breaker
+|move|p2a: Heatran|Stealth Rock|p1a: Bob the Digger
+|-sidestart|p1: mozzohman|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1760792484
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|move|p1a: Bob the Digger|Earthquake|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1760792502
+|move|p1a: Bob the Digger|Iron Head|p2a: Gliscor
+|-damage|p2a: Gliscor|66/100 tox
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|41/100 tox
+|
+|-heal|p2a: Gliscor|54/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1760792510
+|move|p1a: Bob the Digger|Rapid Spin|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Substitute|[damage]
+|-sideend|p1: mozzohman|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Bob the Digger
+|-boost|p1a: Bob the Digger|spe|1
+|move|p2a: Gliscor|Earthquake|p1a: Bob the Digger
+|-supereffective|p1a: Bob the Digger
+|-damage|p1a: Bob the Digger|17/100
+|
+|-heal|p1a: Bob the Digger|23/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|66/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1760792530
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Bob the Digger|Iron Head|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p1a: Bob the Digger|29/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1760792539
+|move|p1a: Bob the Digger|Iron Head|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|move|p2a: Gliscor|Earthquake|p1a: Bob the Digger
+|-supereffective|p1a: Bob the Digger
+|-damage|p1a: Bob the Digger|0 fnt
+|faint|p1a: Bob the Digger
+|
+|-heal|p2a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1760792553
+|switch|p1a: Spitroast|Iron Moth|100/100
+|turn|10
+|
+|t:|1760792564
+|move|p1a: Spitroast|Sludge Wave|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|62/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Spitroast
+|-supereffective|p1a: Spitroast
+|-damage|p1a: Spitroast|0 fnt
+|faint|p1a: Spitroast
+|-end|p1a: Spitroast|Quark Drive|[silent]
+|
+|-heal|p2a: Gliscor|75/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1760792577
+|switch|p1a: King Von|Kingambit, M|100/100
+|-activate|p1a: King Von|ability: Supreme Overlord
+|-start|p1a: King Von|fallen3|[silent]
+|turn|11
+|
+|t:|1760792582
+|move|p2a: Gliscor|Earthquake|p1a: King Von
+|-supereffective|p1a: King Von
+|-damage|p1a: King Von|39/100
+|move|p1a: King Von|Swords Dance|p1a: King Von
+|-boost|p1a: King Von|atk|2
+|
+|-heal|p1a: King Von|45/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|87/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1760792591
+|move|p1a: King Von|Sucker Punch|p2a: Gliscor
+|-damage|p2a: Gliscor|25/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: King Von
+|-supereffective|p1a: King Von
+|-damage|p1a: King Von|0 fnt
+|faint|p1a: King Von
+|-end|p1a: King Von|fallen3|[silent]
+|
+|-heal|p2a: Gliscor|37/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1760792599
+|switch|p1a: Bad Dragon 2|Dragonite, M|100/100
+|turn|13
+|
+|t:|1760792609
+|move|p1a: Bad Dragon 2|Ice Spinner|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1760792620
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|14
+|
+|t:|1760792637
+|move|p2a: Iron Treads|Ice Spinner|p1a: Bad Dragon 2
+|-supereffective|p1a: Bad Dragon 2
+|-damage|p1a: Bad Dragon 2|53/100
+|move|p1a: Bad Dragon 2|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|42/100
+|
+|upkeep
+|turn|15
+|
+|t:|1760792643
+|move|p1a: Bad Dragon 2|Extreme Speed|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|29/100
+|move|p2a: Iron Treads|Ice Spinner|p1a: Bad Dragon 2
+|-supereffective|p1a: Bad Dragon 2
+|-damage|p1a: Bad Dragon 2|0 fnt
+|faint|p1a: Bad Dragon 2
+|
+|upkeep
+|
+|t:|1760792650
+|switch|p1a: Medeucea|Serperior, M|100/100
+|turn|16
+|
+|t:|1760792652
+|move|p2a: Iron Treads|Ice Spinner|p1a: Medeucea
+|-supereffective|p1a: Medeucea
+|-damage|p1a: Medeucea|51/100
+|-damage|p2a: Iron Treads|13/100|[from] item: Rocky Helmet|[of] p1a: Medeucea
+|move|p1a: Medeucea|Leaf Storm|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-boost|p1a: Medeucea|spa|2
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760792659
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-damage|p2a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|17
+|
+|t:|1760792672
+|move|p2a: Indeedee|Psychic|p1a: Medeucea
+|-damage|p1a: Medeucea|0 fnt
+|faint|p1a: Medeucea
+|
+|win|jadhe
+|raw|mozzohman's rating: 1155 &rarr; <strong>1130</strong><br />(-25 for losing)
+|raw|jadhe's rating: 1155 &rarr; <strong>1180</strong><br />(+25 for winning)
+|l|☆mozzohman
+|player|p1|
+|l|☆jadhe
+|player|p2|

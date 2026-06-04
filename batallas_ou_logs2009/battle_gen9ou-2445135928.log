@@ -1,0 +1,447 @@
+|j|☆Quagmire21
+|j|☆Goldfishguy123
+|t:|1758307535
+|gametype|singles
+|player|p1|Quagmire21|brawly|1120
+|player|p2|Goldfishguy123|265|1095
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Politoed, M|
+|poke|p1|Overqwil, F|
+|poke|p1|Kingdra, M|
+|poke|p1|Drednaw, F|
+|poke|p1|Ludicolo, F|
+|poke|p1|Floatzel, M|
+|poke|p2|Arboliva, M|
+|poke|p2|Torterra, M|
+|poke|p2|Abomasnow, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Vileplume, F|
+|poke|p2|Electrode-Hisui|
+|teampreview
+|
+|t:|1758307551
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Politoed|Politoed, M, shiny|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|t:|1758307563
+|move|p2a: Meowscarada|Knock Off|p1a: Politoed
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Politoed|32/100
+|-enditem|p1a: Politoed|Choice Specs|[from] move: Knock Off|[of] p2a: Meowscarada
+|-damage|p2a: Meowscarada|91/100|[from] item: Life Orb
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p2a: Meowscarada|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Meowscarada|perish3
+|-start|p1a: Politoed|perish3
+|upkeep
+|turn|2
+|
+|t:|1758307585
+|switch|p2a: Electrode|Electrode-Hisui, shiny|100/100
+|move|p1a: Politoed|Weather Ball|p2a: Electrode
+|-resisted|p2a: Electrode
+|-damage|p2a: Electrode|49/100
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Politoed|perish2
+|upkeep
+|turn|3
+|
+|t:|1758307604
+|switch|p1a: Overqwil|Overqwil, F, shiny|100/100
+|move|p2a: Electrode|Electro Ball|p1a: Overqwil
+|-damage|p1a: Overqwil|77/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Overqwil|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1758307620
+|move|p1a: Overqwil|Swords Dance|p1a: Overqwil
+|-boost|p1a: Overqwil|atk|2
+|move|p2a: Electrode|Taunt|p1a: Overqwil
+|-start|p1a: Overqwil|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Overqwil|89/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1758307643
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|move|p1a: Overqwil|Barb Barrage|p2a: Vileplume
+|-damage|p2a: Vileplume|38/100
+|
+|-weather|none
+|-heal|p1a: Overqwil|95/100|[from] item: Leftovers
+|-heal|p2a: Vileplume|45/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1758307656
+|move|p2a: Vileplume|Protect|p2a: Vileplume
+|-singleturn|p2a: Vileplume|Protect
+|move|p1a: Overqwil|Barb Barrage|p2a: Vileplume
+|-activate|p2a: Vileplume|move: Protect
+|
+|-heal|p1a: Overqwil|100/100|[from] item: Leftovers
+|-heal|p2a: Vileplume|51/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758307679
+|move|p1a: Overqwil|Barb Barrage|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|-end|p1a: Overqwil|move: Taunt
+|upkeep
+|
+|t:|1758307685
+|switch|p2a: Electrode|Electrode-Hisui, shiny|49/100
+|turn|8
+|
+|t:|1758307695
+|switch|p1a: Politoed|Politoed, M, shiny|32/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|-terastallize|p2a: Electrode|Steel
+|move|p2a: Electrode|Leech Seed|p1a: Politoed
+|-start|p1a: Politoed|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|20/100|[from] Leech Seed|[of] p2a: Electrode
+|-heal|p2a: Electrode|67/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1758307728
+|move|p2a: Electrode|Electro Ball|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758307740
+|switch|p1a: Floatzel|Floatzel, M, shiny|100/100
+|turn|10
+|
+|t:|1758307751
+|move|p2a: Electrode|Electro Ball|p1a: Floatzel
+|-supereffective|p1a: Floatzel
+|-damage|p1a: Floatzel|15/100
+|move|p1a: Floatzel|Wave Crash|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|-status|p1a: Floatzel|par|[from] ability: Static|[of] p2a: Electrode
+|faint|p2a: Electrode
+|-damage|p1a: Floatzel|0 fnt|[from] Recoil
+|faint|p1a: Floatzel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758307791
+|switch|p2a: Torterra|Torterra, M|100/100
+|switch|p1a: Overqwil|Overqwil, F, shiny|100/100
+|turn|11
+|
+|t:|1758307808
+|move|p1a: Overqwil|Swords Dance|p1a: Overqwil
+|-boost|p1a: Overqwil|atk|2
+|move|p2a: Torterra|Shell Smash|p2a: Torterra
+|-unboost|p2a: Torterra|def|1
+|-unboost|p2a: Torterra|spd|1
+|-boost|p2a: Torterra|atk|2
+|-boost|p2a: Torterra|spa|2
+|-boost|p2a: Torterra|spe|2
+|-enditem|p2a: Torterra|White Herb
+|-clearnegativeboost|p2a: Torterra|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1758307829
+|-terastallize|p1a: Overqwil|Water
+|move|p1a: Overqwil|Barb Barrage|p2a: Torterra
+|-damage|p2a: Torterra|51/100
+|move|p2a: Torterra|Earthquake|p1a: Overqwil
+|-damage|p1a: Overqwil|11/100
+|
+|-weather|none
+|-heal|p1a: Overqwil|17/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1758307840
+|move|p2a: Torterra|Giga Drain|p1a: Overqwil
+|-supereffective|p1a: Overqwil
+|-damage|p1a: Overqwil|0 fnt
+|-heal|p2a: Torterra|58/100|[from] drain|[of] p1a: Overqwil
+|faint|p1a: Overqwil
+|
+|upkeep
+|
+|t:|1758307849
+|switch|p1a: Ludicolo|Ludicolo, F, shiny|100/100
+|turn|14
+|
+|t:|1758307862
+|move|p2a: Torterra|Rock Slide|p1a: Ludicolo|[miss]
+|-miss|p2a: Torterra|p1a: Ludicolo
+|move|p1a: Ludicolo|Rain Dance|p1a: Ludicolo
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1758307871
+|move|p1a: Ludicolo|Ice Beam|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|faint|p2a: Torterra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758307879
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|16
+|
+|t:|1758307888
+|move|p1a: Ludicolo|Rain Dance|p1a: Ludicolo
+|-weather|RainDance
+|move|p2a: Abomasnow|Aurora Veil||[still]
+|-fail|p2a: Abomasnow
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1758307896
+|switch|p1a: Drednaw|Drednaw, F, shiny|100/100
+|move|p2a: Abomasnow|Blizzard|p1a: Drednaw
+|-resisted|p1a: Drednaw
+|-damage|p1a: Drednaw|71/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1758307907
+|move|p1a: Drednaw|Poison Jab|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|48/100
+|-status|p2a: Abomasnow|psn
+|move|p2a: Abomasnow|Earthquake|p1a: Drednaw
+|-supereffective|p1a: Drednaw
+|-crit|p1a: Drednaw
+|-damage|p1a: Drednaw|0 fnt
+|faint|p1a: Drednaw
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Abomasnow|35/100 psn|[from] psn
+|upkeep
+|
+|t:|1758307920
+|switch|p1a: Ludicolo|Ludicolo, F, shiny|100/100
+|turn|19
+|
+|t:|1758307943
+|move|p2a: Abomasnow|Ice Shard|p1a: Ludicolo
+|-damage|p1a: Ludicolo|80/100
+|move|p1a: Ludicolo|Hydro Pump|p2a: Abomasnow
+|-resisted|p2a: Abomasnow
+|-damage|p2a: Abomasnow|1/100 psn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ludicolo|86/100|[from] item: Leftovers
+|-damage|p2a: Abomasnow|0 fnt|[from] psn
+|faint|p2a: Abomasnow
+|upkeep
+|
+|t:|1758307960
+|switch|p2a: Arboliva|Arboliva, M|100/100
+|turn|20
+|
+|t:|1758307967
+|move|p1a: Ludicolo|Ice Beam|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-damage|p2a: Arboliva|57/100
+|move|p2a: Arboliva|Strength Sap|p1a: Ludicolo
+|-unboost|p1a: Ludicolo|atk|1
+|-heal|p2a: Arboliva|93/100
+|
+|-weather|none
+|-heal|p1a: Ludicolo|92/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1758307980
+|move|p1a: Ludicolo|Ice Beam|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-damage|p2a: Arboliva|49/100
+|-enditem|p2a: Arboliva|Sitrus Berry|[eat]
+|-heal|p2a: Arboliva|74/100|[from] item: Sitrus Berry
+|move|p2a: Arboliva|Hyper Voice|p1a: Ludicolo
+|-damage|p1a: Ludicolo|45/100
+|
+|-heal|p1a: Ludicolo|51/100|[from] item: Leftovers
+|-item|p2a: Arboliva|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|22
+|
+|t:|1758307998
+|move|p1a: Ludicolo|Rain Dance|p1a: Ludicolo
+|-weather|RainDance
+|move|p2a: Arboliva|Hyper Voice|p1a: Ludicolo
+|-damage|p1a: Ludicolo|4/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ludicolo|10/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1758308008
+|move|p1a: Ludicolo|Ice Beam|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-damage|p2a: Arboliva|33/100
+|-enditem|p2a: Arboliva|Sitrus Berry|[eat]
+|-heal|p2a: Arboliva|58/100|[from] item: Sitrus Berry
+|move|p2a: Arboliva|Hyper Voice|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|faint|p1a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758308019
+|switch|p1a: Kingdra|Kingdra, M, shiny|100/100
+|turn|24
+|
+|t:|1758308024
+|move|p2a: Arboliva|Protect|p2a: Arboliva
+|-singleturn|p2a: Arboliva|Protect
+|move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+|-boost|p1a: Kingdra|atk|1
+|-boost|p1a: Kingdra|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-item|p2a: Arboliva|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|25
+|
+|t:|1758308034
+|move|p1a: Kingdra|Body Slam|p2a: Arboliva
+|-damage|p2a: Arboliva|14/100
+|-status|p2a: Arboliva|par
+|-enditem|p2a: Arboliva|Sitrus Berry|[eat]
+|-heal|p2a: Arboliva|39/100 par|[from] item: Sitrus Berry
+|-damage|p1a: Kingdra|91/100|[from] item: Life Orb
+|move|p2a: Arboliva|Strength Sap|p1a: Kingdra
+|-unboost|p1a: Kingdra|atk|1
+|-heal|p2a: Arboliva|100/100 par
+|
+|-weather|RainDance|[upkeep]
+|-item|p2a: Arboliva|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|26
+|
+|t:|1758308050
+|move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+|-boost|p1a: Kingdra|atk|1
+|-boost|p1a: Kingdra|spe|1
+|cant|p2a: Arboliva|par
+|
+|-weather|none
+|upkeep
+|turn|27
+|
+|t:|1758308057
+|move|p1a: Kingdra|Iron Head|p2a: Arboliva
+|-damage|p2a: Arboliva|53/100 par
+|-damage|p1a: Kingdra|81/100|[from] item: Life Orb
+|cant|p2a: Arboliva|par
+|
+|upkeep
+|turn|28
+|
+|t:|1758308064
+|move|p1a: Kingdra|Iron Head|p2a: Arboliva
+|-damage|p2a: Arboliva|9/100 par
+|-enditem|p2a: Arboliva|Sitrus Berry|[eat]
+|-heal|p2a: Arboliva|34/100 par|[from] item: Sitrus Berry
+|-damage|p1a: Kingdra|71/100|[from] item: Life Orb
+|cant|p2a: Arboliva|flinch
+|
+|upkeep
+|turn|29
+|
+|t:|1758308074
+|move|p2a: Arboliva|Protect|p2a: Arboliva
+|-singleturn|p2a: Arboliva|Protect
+|move|p1a: Kingdra|Iron Head|p2a: Arboliva
+|-activate|p2a: Arboliva|move: Protect
+|
+|upkeep
+|turn|30
+|
+|t:|1758308082
+|move|p2a: Arboliva|Protect|p2a: Arboliva
+|-singleturn|p2a: Arboliva|Protect
+|move|p1a: Kingdra|Iron Head|p2a: Arboliva
+|-activate|p2a: Arboliva|move: Protect
+|
+|upkeep
+|turn|31
+|
+|t:|1758308091
+|move|p1a: Kingdra|Iron Head|p2a: Arboliva
+|-damage|p2a: Arboliva|0 fnt
+|faint|p2a: Arboliva
+|-damage|p1a: Kingdra|61/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758308095
+|switch|p2a: Meowscarada|Meowscarada, F|91/100
+|turn|32
+|
+|t:|1758308100
+|move|p1a: Kingdra|Body Slam|p2a: Meowscarada
+|-damage|p2a: Meowscarada|12/100
+|-damage|p1a: Kingdra|51/100|[from] item: Life Orb
+|move|p2a: Meowscarada|Play Rough|p1a: Kingdra
+|-start|p2a: Meowscarada|typechange|Fairy|[from] ability: Protean
+|-supereffective|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|-damage|p2a: Meowscarada|3/100|[from] item: Life Orb
+|
+|win|Goldfishguy123
+|raw|Quagmire21's rating: 1120 &rarr; <strong>1093</strong><br />(-27 for losing)
+|raw|Goldfishguy123's rating: 1095 &rarr; <strong>1123</strong><br />(+28 for winning)

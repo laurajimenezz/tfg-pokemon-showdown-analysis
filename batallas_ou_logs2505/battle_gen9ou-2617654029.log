@@ -1,0 +1,380 @@
+|j|☆IsAeos
+|j|☆jvelepose
+|t:|1779719783
+|gametype|singles
+|player|p1|IsAeos|101|1054
+|player|p2|jvelepose|iris-gen5bw2|1099
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Raikou|
+|poke|p1|Tinkaton, F|
+|poke|p1|Infernape, F|
+|poke|p1|Riolu, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Deoxys-Defense|
+|poke|p2|Primarina, M|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Dragapult, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|t:|1779719826
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1779719860
+|move|p2a: Zapdos|Light Screen|p2a: Zapdos
+|-sidestart|p2: jvelepose|move: Light Screen
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Zapdos
+|-damage|p2a: Zapdos|44/100
+|-unboost|p1a: Raging Bolt|spa|2
+|
+|-heal|p2a: Zapdos|51/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1779719877
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Deoxys|Deoxys-Defense|100/100
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Zapdos|Volt Switch|p1a: Deoxys
+|-damage|p1a: Deoxys|79/100
+|
+|t:|1779719887
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|3
+|
+|t:|1779719898
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Deoxys
+|-status|p1a: Deoxys|brn
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|100/100 brn
+|
+|-damage|p1a: Deoxys|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1779719904
+|move|p1a: Deoxys|Protect|p1a: Deoxys
+|-singleturn|p1a: Deoxys|Protect
+|move|p2a: Dragapult|Hex|p1a: Deoxys
+|-activate|p1a: Deoxys|move: Protect
+|
+|-damage|p1a: Deoxys|89/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1779719914
+|switch|p1a: Riolu|Riolu, M|100/100
+|move|p2a: Dragapult|Hex|p1a: Riolu
+|-damage|p1a: Riolu|74/100
+|
+|-sideend|p2: jvelepose|move: Light Screen
+|upkeep
+|turn|6
+|
+|t:|1779719931
+|switch|p1a: Infernape|Infernape, F|100/100
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Infernape
+|-immune|p1a: Infernape
+|
+|upkeep
+|turn|7
+|
+|t:|1779719952
+|move|p2a: Dragapult|Draco Meteor|p1a: Infernape
+|-damage|p1a: Infernape|13/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Infernape|Throat Chop|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|34/100
+|-start|p2a: Dragapult|Throat Chop|[silent]
+|
+|upkeep
+|turn|8
+|
+|t:|1779719965
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Dragapult|Draco Meteor|p1a: Tinkaton
+|-immune|p1a: Tinkaton
+|
+|-end|p2a: Dragapult|Throat Chop|[silent]
+|upkeep
+|turn|9
+|
+|t:|1779719979
+|switch|p2a: Zapdos|Zapdos|51/100
+|move|p1a: Tinkaton|Knock Off|p2a: Zapdos
+|-damage|p2a: Zapdos|23/100
+|-enditem|p2a: Zapdos|Leftovers|[from] move: Knock Off|[of] p1a: Tinkaton
+|
+|upkeep
+|turn|10
+|
+|t:|1779719992
+|move|p2a: Zapdos|Volt Switch|p1a: Tinkaton
+|-crit|p1a: Tinkaton
+|-damage|p1a: Tinkaton|44/100
+|
+|t:|1779720006
+|switch|p2a: Dragapult|Dragapult, F|34/100|[from] Volt Switch
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1779720017
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|11
+|
+|t:|1779720024
+|move|p2a: Iron Moth|Fiery Dance|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|upkeep
+|
+|t:|1779720029
+|switch|p1a: Riolu|Riolu, M|74/100
+|turn|12
+|
+|t:|1779720047
+|move|p2a: Iron Moth|Fiery Dance|p1a: Riolu
+|-damage|p1a: Riolu|34/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Riolu|Circle Throw|p2a: Iron Moth|[miss]
+|-miss|p1a: Riolu|p2a: Iron Moth
+|
+|upkeep
+|turn|13
+|
+|t:|1779720056
+|move|p2a: Iron Moth|Fiery Dance|p1a: Riolu
+|-damage|p1a: Riolu|0 fnt
+|faint|p1a: Riolu
+|
+|upkeep
+|
+|t:|1779720063
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|14
+|
+|t:|1779720078
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|upkeep
+|turn|15
+|
+|t:|1779720085
+|move|p2a: Great Tusk|Ice Spinner|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|60/100
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779720108
+|switch|p2a: Kingambit|Kingambit, F, shiny|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|16
+|
+|t:|1779720120
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Deoxys|Deoxys-Defense|89/100 brn
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-damage|p1a: Deoxys|83/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1779720145
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Deoxys|Wrap|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|99/100
+|-activate|p2a: Kingambit|move: Wrap|[of] p1a: Deoxys
+|-damage|p1a: Deoxys|66/100 brn|[from] item: Rocky Helmet|[of] p2a: Kingambit
+|
+|-damage|p1a: Deoxys|60/100 brn|[from] brn
+|-damage|p2a: Kingambit|83/100|[from] move: Wrap|[partiallytrapped]
+|upkeep
+|turn|18
+|
+|t:|1779720160
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|100/100 brn
+|
+|-damage|p1a: Deoxys|95/100 brn|[from] brn
+|-damage|p2a: Kingambit|67/100|[from] move: Wrap|[partiallytrapped]
+|upkeep
+|turn|19
+|
+|t:|1779720170
+|move|p1a: Deoxys|Protect|p1a: Deoxys
+|-singleturn|p1a: Deoxys|Protect
+|move|p2a: Kingambit|Iron Head|p1a: Deoxys
+|-activate|p1a: Deoxys|move: Protect
+|
+|-damage|p1a: Deoxys|89/100 brn|[from] brn
+|-damage|p2a: Kingambit|51/100|[from] move: Wrap|[partiallytrapped]
+|upkeep
+|turn|20
+|
+|t:|1779720179
+|move|p2a: Kingambit|Iron Head|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|-end|p2a: Kingambit|Wrap|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1779720189
+|switch|p1a: Infernape|Infernape, F|13/100
+|turn|21
+|
+|t:|1779720195
+|move|p1a: Infernape|Mach Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1779720200
+|switch|p2a: Zapdos|Zapdos|23/100
+|turn|22
+|
+|t:|1779720210
+|move|p1a: Infernape|Throat Chop|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-status|p1a: Infernape|par|[from] ability: Static|[of] p2a: Zapdos
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1779720213
+|switch|p2a: Primarina|Primarina, M|100/100
+|turn|23
+|
+|t:|1779720221
+|cant|p1a: Infernape|par
+|move|p2a: Primarina|Flip Turn|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|t:|1779720226
+|switch|p2a: Iron Moth|Iron Moth|100/100|[from] Flip Turn
+|
+|upkeep
+|
+|t:|1779720234
+|switch|p1a: Raging Bolt|Raging Bolt|60/100
+|turn|24
+|
+|t:|1779720259
+|move|p2a: Iron Moth|Sludge Wave|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|21/100
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Iron Moth|[miss]
+|-miss|p1a: Raging Bolt|p2a: Iron Moth
+|
+|upkeep
+|turn|25
+|
+|t:|1779720266
+|move|p2a: Iron Moth|Sludge Wave|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779720268
+|switch|p1a: Raikou|Raikou|100/100
+|-ability|p1a: Raikou|Pressure
+|turn|26
+|
+|t:|1779720280
+|-terastallize|p1a: Raikou|Electric
+|move|p1a: Raikou|Extrasensory|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|39/100
+|-damage|p1a: Raikou|91/100|[from] item: Life Orb
+|move|p2a: Iron Moth|Fiery Dance|p1a: Raikou
+|-damage|p1a: Raikou|45/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|upkeep
+|turn|27
+|
+|t:|1779720302
+|move|p1a: Raikou|Extrasensory|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|-damage|p1a: Raikou|35/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779720304
+|switch|p2a: Primarina|Primarina, M|100/100
+|turn|28
+|
+|t:|1779720313
+|-terastallize|p2a: Primarina|Steel
+|move|p1a: Raikou|Thunderbolt|p2a: Primarina
+|-damage|p2a: Primarina|65/100
+|-damage|p1a: Raikou|25/100|[from] item: Life Orb
+|move|p2a: Primarina|Moonblast|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|win|jvelepose
+|raw|IsAeos's rating: 1054 &rarr; <strong>1038</strong><br />(-16 for losing)
+|raw|jvelepose's rating: 1099 &rarr; <strong>1121</strong><br />(+22 for winning)
+|l|☆IsAeos
+|player|p1|
+|l|☆jvelepose
+|player|p2|

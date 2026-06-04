@@ -1,0 +1,583 @@
+|j|☆On the wave now
+|j|☆one_angry_jew
+|t:|1769439776
+|gametype|singles
+|player|p1|On the wave now|depotagent|1530
+|player|p2|one_angry_jew|1|1455
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Regigigas|
+|poke|p1|Ting-Lu|
+|poke|p1|Great Tusk|
+|poke|p1|Zamazenta-*|
+|poke|p1|Pecharunt|
+|poke|p1|Alomomola, M|
+|poke|p2|Vaporeon, M|
+|poke|p2|Sylveon, F|
+|poke|p2|Espeon, F|
+|poke|p2|Jolteon, M|
+|poke|p2|Glaceon, M|
+|poke|p2|Umbreon, M|
+|teampreview
+|
+|t:|1769439784
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Regigigas|Regigigas|100/100
+|switch|p2a: Glaceon|Glaceon, M|100/100
+|-start|p1a: Regigigas|ability: Slow Start
+|turn|1
+|
+|t:|1769439790
+|move|p2a: Glaceon|Freeze-Dry|p1a: Regigigas
+|-damage|p1a: Regigigas|78/100
+|move|p1a: Regigigas|Knock Off|p2a: Glaceon
+|-crit|p2a: Glaceon
+|-damage|p2a: Glaceon|78/100
+|-enditem|p2a: Glaceon|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Regigigas
+|
+|-heal|p1a: Regigigas|84/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1769439795
+|move|p2a: Glaceon|Freeze-Dry|p1a: Regigigas
+|-damage|p1a: Regigigas|63/100
+|move|p1a: Regigigas|Body Slam|p2a: Glaceon
+|-damage|p2a: Glaceon|56/100
+|-status|p2a: Glaceon|par
+|
+|-heal|p1a: Regigigas|69/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1769439801
+|move|p1a: Regigigas|Body Slam|p2a: Glaceon
+|-damage|p2a: Glaceon|35/100 par
+|move|p2a: Glaceon|Freeze-Dry|p1a: Regigigas
+|-damage|p1a: Regigigas|49/100
+|
+|-heal|p1a: Regigigas|55/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1769439804
+|move|p1a: Regigigas|Rest|p1a: Regigigas
+|-status|p1a: Regigigas|slp|[from] move: Rest
+|-heal|p1a: Regigigas|100/100 slp|[silent]
+|move|p2a: Glaceon|Freeze-Dry|p1a: Regigigas
+|-damage|p1a: Regigigas|79/100 slp
+|
+|-heal|p1a: Regigigas|85/100 slp|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1769439809
+|switch|p2a: Espeon|Espeon, F|100/100
+|cant|p1a: Regigigas|slp
+|move|p1a: Regigigas|Sleep Talk|p1a: Regigigas
+|move|p1a: Regigigas|Knock Off|p2a: Espeon|[from] move: Sleep Talk
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|41/100
+|-enditem|p2a: Espeon|Choice Scarf|[from] move: Knock Off|[of] p1a: Regigigas
+|
+|-heal|p1a: Regigigas|92/100 slp|[from] item: Leftovers
+|-end|p1a: Regigigas|Slow Start
+|upkeep
+|turn|6
+|
+|t:|1769439813
+|move|p2a: Espeon|Trick|p1a: Regigigas
+|-activate|p2a: Espeon|move: Trick|[of] p1a: Regigigas
+|-enditem|p1a: Regigigas|Leftovers|[silent]|[from] move: Trick
+|-item|p2a: Espeon|Leftovers|[from] move: Trick
+|cant|p1a: Regigigas|slp
+|move|p1a: Regigigas|Sleep Talk|p1a: Regigigas
+|move|p1a: Regigigas|Body Slam|p2a: Espeon|[from] move: Sleep Talk
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|upkeep
+|
+|t:|1769439821
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|turn|7
+|
+|t:|1769439824
+|-curestatus|p1a: Regigigas|slp|[msg]
+|move|p1a: Regigigas|Sleep Talk||[still]
+|-fail|p1a: Regigigas
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|upkeep
+|turn|8
+|
+|t:|1769439827
+|move|p1a: Regigigas|Knock Off|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|91/100
+|-enditem|p2a: Umbreon|Leftovers|[from] move: Knock Off|[of] p1a: Regigigas
+|move|p2a: Umbreon|Toxic|p1a: Regigigas
+|-status|p1a: Regigigas|tox
+|
+|-heal|p2a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|-damage|p1a: Regigigas|85/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1769439830
+|move|p1a: Regigigas|Body Slam|p2a: Umbreon
+|-damage|p2a: Umbreon|75/100
+|move|p2a: Umbreon|Foul Play|p1a: Regigigas
+|-damage|p1a: Regigigas|52/100 tox
+|
+|-damage|p1a: Regigigas|40/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1769439834
+|move|p1a: Regigigas|Rest|p1a: Regigigas
+|-status|p1a: Regigigas|slp|[from] move: Rest
+|-heal|p1a: Regigigas|100/100 slp|[silent]
+|move|p2a: Umbreon|Foul Play|p1a: Regigigas
+|-damage|p1a: Regigigas|66/100 slp
+|
+|upkeep
+|turn|11
+|
+|t:|1769439838
+|cant|p1a: Regigigas|slp
+|move|p1a: Regigigas|Sleep Talk|p1a: Regigigas
+|move|p1a: Regigigas|Body Slam||[from] move: Sleep Talk|[still]
+|-damage|p2a: Umbreon|49/100
+|-status|p2a: Umbreon|par
+|-activate|p2a: Umbreon|ability: Synchronize
+|-fail|p2a: Umbreon
+|cant|p2a: Umbreon|par
+|
+|upkeep
+|turn|12
+|
+|t:|1769439844
+|cant|p1a: Regigigas|slp
+|move|p1a: Regigigas|Sleep Talk|p1a: Regigigas
+|move|p1a: Regigigas|Rest||[from] move: Sleep Talk|[still]
+|-fail|p1a: Regigigas
+|move|p2a: Umbreon|Foul Play|p1a: Regigigas
+|-damage|p1a: Regigigas|29/100 slp
+|
+|upkeep
+|turn|13
+|
+|t:|1769439848
+|-curestatus|p1a: Regigigas|slp|[msg]
+|move|p1a: Regigigas|Rest|p1a: Regigigas
+|-status|p1a: Regigigas|slp|[from] move: Rest
+|-heal|p1a: Regigigas|100/100 slp|[silent]
+|move|p2a: Umbreon|Foul Play|p1a: Regigigas
+|-damage|p1a: Regigigas|64/100 slp
+|
+|upkeep
+|turn|14
+|
+|t:|1769439855
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|cant|p2a: Umbreon|par
+|
+|upkeep
+|turn|15
+|
+|t:|1769439859
+|switch|p2a: Glaceon|Glaceon, M|35/100 par
+|move|p1a: Pecharunt|Parting Shot|p2a: Glaceon
+|-unboost|p2a: Glaceon|atk|1
+|-unboost|p2a: Glaceon|spa|1
+|
+|t:|1769439867
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|16
+|
+|t:|1769439880
+|move|p1a: Great Tusk|Headlong Rush|p2a: Glaceon
+|-damage|p2a: Glaceon|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Glaceon
+|
+|upkeep
+|
+|t:|1769439882
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|turn|17
+|
+|t:|1769439887
+|move|p1a: Great Tusk|Stealth Rock|p2a: Vaporeon
+|-sidestart|p2: one_angry_jew|move: Stealth Rock
+|move|p2a: Vaporeon|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|15/100
+|
+|upkeep
+|turn|18
+|
+|t:|1769439892
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Vaporeon|Shadow Ball|p1a: Alomomola
+|-damage|p1a: Alomomola|65/100
+|-unboost|p1a: Alomomola|spd|1
+|
+|upkeep
+|turn|19
+|
+|t:|1769439895
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Vaporeon|Shadow Ball|p1a: Alomomola
+|-damage|p1a: Alomomola|14/100
+|
+|upkeep
+|turn|20
+|
+|t:|1769439902
+|switch|p1a: Regigigas|Regigigas|64/100 slp
+|-start|p1a: Regigigas|ability: Slow Start
+|switch|p2a: Umbreon|Umbreon, M|49/100 par
+|-damage|p2a: Umbreon|37/100 par|[from] Stealth Rock
+|
+|-heal|p1a: Regigigas|100/100 slp|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|21
+|
+|t:|1769439909
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|upkeep
+|turn|22
+|
+|t:|1769439912
+|move|p1a: Ting-Lu|Spikes|p2a: Umbreon
+|-sidestart|p2: one_angry_jew|Spikes
+|move|p2a: Umbreon|Toxic|p1a: Ting-Lu
+|-status|p1a: Ting-Lu|tox
+|
+|-heal|p2a: Umbreon|87/100 par|[from] move: Wish|[wisher] Umbreon
+|-damage|p1a: Ting-Lu|94/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1769439915
+|move|p1a: Ting-Lu|Spikes|p2a: Umbreon
+|-sidestart|p2: one_angry_jew|Spikes
+|move|p2a: Umbreon|Foul Play|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|85/100 tox
+|
+|-heal|p1a: Ting-Lu|91/100 tox|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|79/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1769439917
+|move|p1a: Ting-Lu|Spikes|p2a: Umbreon
+|-sidestart|p2: one_angry_jew|Spikes
+|move|p2a: Umbreon|Foul Play|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|70/100 tox
+|
+|-heal|p1a: Ting-Lu|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|58/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1769439922
+|switch|p1a: Alomomola|Alomomola, M|47/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|upkeep
+|turn|26
+|
+|t:|1769439925
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Umbreon|Toxic|p1a: Alomomola
+|-status|p1a: Alomomola|tox
+|
+|-heal|p2a: Umbreon|100/100 par|[from] move: Wish|[wisher] Umbreon
+|-damage|p1a: Alomomola|41/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1769439929
+|switch|p1a: Regigigas|Regigigas|100/100 slp
+|-start|p1a: Regigigas|ability: Slow Start
+|move|p2a: Umbreon|Protect||[still]
+|-fail|p2a: Umbreon
+|
+|upkeep
+|turn|28
+|
+|t:|1769439933
+|cant|p1a: Regigigas|slp
+|move|p1a: Regigigas|Sleep Talk|p1a: Regigigas
+|move|p1a: Regigigas|Body Slam|p2a: Umbreon|[from] move: Sleep Talk
+|-damage|p2a: Umbreon|86/100 par
+|move|p2a: Umbreon|Foul Play|p1a: Regigigas
+|-damage|p1a: Regigigas|67/100 slp
+|
+|upkeep
+|turn|29
+|
+|t:|1769439939
+|cant|p1a: Regigigas|slp
+|move|p1a: Regigigas|Sleep Talk|p1a: Regigigas
+|move|p1a: Regigigas|Body Slam|p2a: Umbreon|[from] move: Sleep Talk
+|-damage|p2a: Umbreon|73/100 par
+|move|p2a: Umbreon|Foul Play|p1a: Regigigas
+|-damage|p1a: Regigigas|32/100 slp
+|
+|upkeep
+|turn|30
+|
+|t:|1769439945
+|-curestatus|p1a: Regigigas|slp|[msg]
+|move|p1a: Regigigas|Rest|p1a: Regigigas
+|-status|p1a: Regigigas|slp|[from] move: Rest
+|-heal|p1a: Regigigas|100/100 slp|[silent]
+|move|p2a: Umbreon|Foul Play|p1a: Regigigas
+|-damage|p1a: Regigigas|67/100 slp
+|
+|upkeep
+|turn|31
+|
+|t:|1769439950
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Umbreon|Foul Play|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|81/100
+|-damage|p2a: Umbreon|56/100 par|[from] item: Rocky Helmet|[of] p1a: Pecharunt
+|
+|upkeep
+|turn|32
+|
+|t:|1769439958
+|move|p1a: Pecharunt|Malignant Chain|p2a: Umbreon
+|-damage|p2a: Umbreon|34/100 par
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|upkeep
+|turn|33
+|
+|t:|1769439962
+|switch|p1a: Alomomola|Alomomola, M|74/100 tox
+|move|p2a: Umbreon|Protect||[still]
+|-fail|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|84/100 par|[from] move: Wish|[wisher] Umbreon
+|-damage|p1a: Alomomola|68/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1769439967
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-damage|p1a: Alomomola|56/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1769439969
+|switch|p1a: Regigigas|Regigigas|67/100 slp
+|-start|p1a: Regigigas|ability: Slow Start
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|-damage|p2a: Vaporeon|63/100|[from] Spikes
+|
+|-heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Regigigas|100/100 slp|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|36
+|
+|t:|1769439975
+|move|p2a: Vaporeon|Scald|p1a: Regigigas
+|-damage|p1a: Regigigas|65/100 slp
+|cant|p1a: Regigigas|slp
+|move|p1a: Regigigas|Sleep Talk|p1a: Regigigas
+|move|p1a: Regigigas|Rest||[from] move: Sleep Talk|[still]
+|-fail|p1a: Regigigas
+|
+|upkeep
+|turn|37
+|
+|t:|1769439979
+|move|p2a: Vaporeon|Scald|p1a: Regigigas
+|-damage|p1a: Regigigas|33/100 slp
+|cant|p1a: Regigigas|slp
+|move|p1a: Regigigas|Sleep Talk|p1a: Regigigas
+|move|p1a: Regigigas|Body Slam|p2a: Vaporeon|[from] move: Sleep Talk
+|-damage|p2a: Vaporeon|76/100
+|-status|p2a: Vaporeon|par
+|
+|upkeep
+|turn|38
+|
+|t:|1769439985
+|switch|p1a: Ting-Lu|Ting-Lu|58/100 tox
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Vaporeon|Scald|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|5/100 tox
+|
+|-heal|p1a: Ting-Lu|11/100 tox|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|5/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1769439990
+|switch|p1a: Alomomola|Alomomola, M|89/100 tox
+|move|p2a: Vaporeon|Scald|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|59/100 tox
+|
+|-damage|p1a: Alomomola|53/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|t:|1769439993
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Vaporeon|Scald|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|25/100 tox
+|
+|-damage|p1a: Alomomola|13/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1769439995
+|switch|p1a: Pecharunt|Pecharunt|81/100
+|cant|p2a: Vaporeon|par
+|
+|-heal|p1a: Pecharunt|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|42
+|
+|t:|1769439998
+|move|p1a: Pecharunt|Parting Shot|p2a: Vaporeon
+|-unboost|p2a: Vaporeon|atk|1
+|-unboost|p2a: Vaporeon|spa|1
+|
+|t:|1769440001
+|switch|p1a: Alomomola|Alomomola, M|46/100 tox|[from] Parting Shot
+|move|p2a: Vaporeon|Scald|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|28/100 tox
+|
+|-damage|p1a: Alomomola|22/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|t:|1769440007
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Vaporeon|Scald|p1a: Pecharunt
+|-damage|p1a: Pecharunt|62/100
+|
+|upkeep
+|turn|44
+|
+|t:|1769440013
+|move|p1a: Pecharunt|Malignant Chain|p2a: Vaporeon
+|-damage|p2a: Vaporeon|51/100 par
+|cant|p2a: Vaporeon|par
+|
+|upkeep
+|turn|45
+|
+|t:|1769440016
+|move|p1a: Pecharunt|Hex|p2a: Vaporeon
+|-damage|p2a: Vaporeon|21/100 par
+|move|p2a: Vaporeon|Scald|p1a: Pecharunt
+|-damage|p1a: Pecharunt|23/100
+|-status|p1a: Pecharunt|brn
+|
+|-damage|p1a: Pecharunt|17/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|t:|1769440020
+|move|p1a: Pecharunt|Malignant Chain|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-damage|p1a: Pecharunt|11/100 brn|[from] brn
+|upkeep
+|
+|t:|1769440022
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|-damage|p2a: Jolteon|88/100|[from] Stealth Rock
+|-damage|p2a: Jolteon|63/100|[from] Spikes
+|turn|47
+|
+|t:|1769440033
+|move|p2a: Jolteon|Alluring Voice|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1769440036
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|48
+|
+|t:|1769440039
+|-terastallize|p1a: Zamazenta|Fighting
+|-terastallize|p2a: Jolteon|Fairy
+|move|p1a: Zamazenta|Close Combat|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|faint|p2a: Jolteon
+|
+|upkeep
+|
+|t:|1769440045
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|-damage|p2a: Sylveon|63/100|[from] Spikes
+|turn|49
+|
+|t:|1769440048
+|move|p1a: Zamazenta|Close Combat|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|faint|p2a: Sylveon
+|
+|upkeep
+|c|☆one_angry_jew|what a dumb pokemon
+|c|☆one_angry_jew|just start by that
+|-message|one_angry_jew forfeited.
+|
+|win|On the wave now
+|raw|On the wave now's rating: 1553 &rarr; <strong>1568</strong><br />(+15 for winning)
+|raw|one_angry_jew's rating: 1455 &rarr; <strong>1440</strong><br />(-15 for losing)
+|l|☆one_angry_jew
+|player|p2|
+|l|☆On the wave now
+|player|p1|

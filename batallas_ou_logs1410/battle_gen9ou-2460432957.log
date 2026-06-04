@@ -1,0 +1,352 @@
+|j|☆kabangvgc
+|j|☆adestructive
+|t:|1760305812
+|gametype|singles
+|player|p1|kabangvgc|265|1321
+|player|p2|adestructive|1|1317
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Gholdengo|
+|poke|p1|Alomomola, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Primarina, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Kyurem|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1760305826
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|t:|1760305837
+|switch|p2a: Primarina|Primarina, F|100/100
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760305841
+|move|p2a: Primarina|Flip Turn|p1a: Hatterene
+|-damage|p1a: Hatterene|85/100
+|
+|t:|1760305842
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] Flip Turn
+|move|p1a: Hatterene|Nuzzle|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|98/100
+|-status|p2a: Dragapult|par
+|
+|upkeep
+|turn|3
+|
+|t:|1760305856
+|move|p2a: Dragapult|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|9/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|18/100 par
+|-heal|p1a: Hatterene|69/100|[from] drain|[of] p2a: Dragapult
+|
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by adestructive)
+|
+|t:|1760305864
+|move|p2a: Dragapult|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1760305871
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|5
+|
+|t:|1760305873
+|move|p2a: Dragapult|Shadow Ball|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|45/100
+|move|p1a: Conkeldurr|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p1a: Conkeldurr
+|faint|p2a: Dragapult
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1760305888
+|switch|p2a: Primarina|Primarina, F|100/100
+|turn|6
+|
+|t:|1760305894
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Primarina|Surf|p1a: Gholdengo
+|-damage|p1a: Gholdengo|41/100
+|
+|upkeep
+|turn|7
+|
+|t:|1760305896
+|move|p1a: Gholdengo|Thunderbolt|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-crit|p2a: Primarina
+|-damage|p2a: Primarina|11/100
+|move|p2a: Primarina|Surf|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1760305898
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|8
+|
+|t:|1760305901
+|move|p1a: Kingambit|Sucker Punch|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1760305904
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|9
+|
+|t:|1760305910
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Alomomola
+|-damage|p1a: Alomomola|88/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-heal|p1a: Alomomola|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760305916
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100
+|move|p1a: Alomomola|Scald|p2a: Slowking
+|-damage|p2a: Slowking|94/100
+|
+|-heal|p1a: Alomomola|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760305923
+|move|p1a: Alomomola|Flip Turn|p2a: Slowking
+|-damage|p2a: Slowking|80/100
+|
+|t:|1760305930
+|switch|p1a: Kingambit|Kingambit, M|100/100|[from] Flip Turn
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Slowking|Flamethrower|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|48/100
+|
+|upkeep
+|turn|12
+|
+|t:|1760305933
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-ability|p2a: Kyurem|Pressure
+|-terastallize|p1a: Kingambit|Dark
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Kyurem
+|-damage|p2a: Kyurem|29/100
+|
+|upkeep
+|turn|13
+|
+|t:|1760305938
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|14
+|
+|t:|1760305944
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Gliscor|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|90/100
+|-enditem|p1a: Alomomola|Leftovers|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|upkeep
+|turn|15
+|
+|t:|1760305947
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Alomomola|Scald|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|68/100 tox
+|
+|-heal|p2a: Gliscor|81/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1760305954
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Alomomola|Scald|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|52/100 tox
+|
+|-heal|p2a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|t:|1760305956
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Alomomola|Scald|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|35/100 tox
+|
+|-heal|p2a: Gliscor|48/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|
+|t:|1760305958
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Alomomola|Scald|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|60/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|
+|t:|1760305960
+|move|p2a: Gliscor|Facade|p1a: Alomomola
+|-damage|p1a: Alomomola|27/100
+|move|p1a: Alomomola|Scald|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|31/100 tox
+|
+|-heal|p2a: Gliscor|44/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|t:|1760305965
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Alomomola|Flip Turn|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|56/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|t:|1760305967
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Gliscor|Facade|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-heal|p2a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|t:|1760305970
+|move|p1a: Dragapult|Dragon Darts|p2a: Gliscor
+|-damage|p2a: Gliscor|50/100 tox
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Gliscor
+|-damage|p2a: Gliscor|31/100 tox
+|move|p2a: Gliscor|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gliscor
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|upkeep
+|l|☆kabangvgc
+|inactive|kabangvgc disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆kabangvgc
+|inactive|kabangvgc reconnected and has 115 seconds left.
+|player|p1|kabangvgc|265|
+|
+|t:|1760306008
+|switch|p1a: Kingambit|Kingambit, M, tera:Dark|48/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|23
+|
+|t:|1760306014
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-heal|p2a: Gliscor|56/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|t:|1760306019
+|move|p1a: Kingambit|Sucker Punch|p2a: Gliscor
+|-damage|p2a: Gliscor|11/100 tox
+|move|p2a: Gliscor|Facade|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|
+|-heal|p2a: Gliscor|23/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1760306022
+|switch|p1a: Alomomola|Alomomola, M|61/100
+|turn|25
+|
+|t:|1760306024
+|move|p2a: Gliscor|Facade|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|-heal|p2a: Gliscor|36/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1760306030
+|switch|p1a: Conkeldurr|Conkeldurr, M|45/100 brn
+|turn|26
+|
+|t:|1760306032
+|move|p2a: Gliscor|Facade|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|win|adestructive
+|raw|kabangvgc's rating: 1321 &rarr; <strong>1301</strong><br />(-20 for losing)
+|raw|adestructive's rating: 1317 &rarr; <strong>1337</strong><br />(+20 for winning)
+|c|☆adestructive|gg

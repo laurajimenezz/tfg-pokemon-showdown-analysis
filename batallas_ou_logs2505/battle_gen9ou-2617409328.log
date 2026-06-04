@@ -1,0 +1,341 @@
+|j|☆monday2026
+|j|☆SWAGGER_W2F
+|t:|1779684205
+|gametype|singles
+|player|p1|monday2026|2|1584
+|player|p2|SWAGGER_W2F|flint|1605
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Regidrago|
+|poke|p1|Ditto|
+|poke|p1|Dondozo, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Iron Hands|
+|poke|p2|Ceruledge, M|
+|poke|p2|Scizor, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Primarina, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by monday2026)
+|
+|t:|1779684222
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|1
+|j| testingrainteam1
+|l| testingrainteam1
+|
+|t:|1779684232
+|-terastallize|p1a: Hoopa|Fighting
+|move|p2a: Scizor|U-turn|p1a: Hoopa
+|-resisted|p1a: Hoopa
+|-damage|p1a: Hoopa|50/100
+|
+|t:|1779684243
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100|[from] U-turn
+|move|p1a: Hoopa|Focus Blast|p2a: Mandibuzz|[miss]
+|-miss|p1a: Hoopa|p2a: Mandibuzz
+|
+|upkeep
+|turn|2
+|j| HerbySage
+|
+|t:|1779684252
+|move|p2a: Mandibuzz|U-turn|p1a: Hoopa
+|-resisted|p1a: Hoopa
+|-damage|p1a: Hoopa|41/100
+|
+|t:|1779684256
+|switch|p2a: Primarina|Primarina, F|100/100|[from] U-turn
+|move|p1a: Hoopa|Focus Blast|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|75/100
+|
+|-heal|p2a: Primarina|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1779684264
+|move|p1a: Hoopa|Gunk Shot|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|14/100
+|move|p2a: Primarina|Draining Kiss|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|24/100
+|-heal|p2a: Primarina|27/100|[from] drain|[of] p1a: Hoopa
+|
+|-heal|p2a: Primarina|33/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|j| ueyr76
+|l| ueyr76
+|
+|t:|1779684281
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|move|p1a: Hoopa|Psychic|p2a: Ceruledge
+|-damage|p2a: Ceruledge|67/100
+|
+|upkeep
+|turn|5
+|
+|t:|1779684289
+|move|p2a: Ceruledge|Bitter Blade|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|-heal|p2a: Ceruledge|79/100|[from] drain|[of] p1a: Hoopa
+|faint|p1a: Hoopa
+|
+|upkeep
+|
+|t:|1779684314
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|turn|6
+|
+|t:|1779684325
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Dondozo|Wave Crash|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|58/100
+|-damage|p1a: Dondozo|90/100|[from] Recoil
+|
+|upkeep
+|turn|7
+|
+|t:|1779684333
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|62/100
+|-unboost|p2a: Raging Bolt|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Raging Bolt|52/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1779684344
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Tyranitar|Ice Punch|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1779684354
+|switch|p1a: Dondozo|Dondozo, M|90/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Dondozo
+|-damage|p1a: Dondozo|49/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dondozo|43/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1779684365
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Dondozo|Wave Crash|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|53/100
+|-damage|p1a: Dondozo|30/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dondozo|24/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1779684373
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Dondozo|Wave Crash|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|51/100
+|-damage|p1a: Dondozo|10/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1779684382
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Dondozo|Wave Crash|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|53/100
+|-damage|p1a: Dondozo|0 fnt|[from] Recoil
+|faint|p1a: Dondozo
+|
+|upkeep
+|
+|t:|1779684397
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|13
+|
+|t:|1779684407
+|switch|p2a: Primarina|Primarina, F|33/100
+|move|p1a: Iron Hands|Supercell Slam|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1779684414
+|switch|p2a: Great Tusk|Great Tusk|56/100
+|turn|14
+|
+|t:|1779684421
+|move|p2a: Great Tusk|Headlong Rush|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779684428
+|switch|p1a: Regidrago|Regidrago, shiny|100/100
+|turn|15
+|
+|t:|1779684435
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Mandibuzz|Mandibuzz, F|53/100
+|move|p1a: Regidrago|Dragon Energy|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|t:|1779684445
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|16
+|
+|t:|1779684451
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Scizor|[from] ability: Imposter
+|-terastallize|p2a: Scizor|Steel
+|move|p2a: Scizor|Bullet Punch|p1a: Ditto
+|-resisted|p1a: Ditto
+|-crit|p1a: Ditto
+|-damage|p1a: Ditto|40/100
+|
+|upkeep
+|turn|17
+|
+|t:|1779684462
+|move|p2a: Scizor|Bullet Punch|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|2/100
+|move|p1a: Ditto|Close Combat|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-unboost|p1a: Ditto|def|1
+|-unboost|p1a: Ditto|spd|1
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1779684471
+|switch|p2a: Ceruledge|Ceruledge, M|79/100
+|turn|18
+|
+|t:|1779684475
+|switch|p1a: Tyranitar|Tyranitar, F|62/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ceruledge|73/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|t:|1779684484
+|move|p2a: Ceruledge|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Ceruledge|def|1
+|-unboost|p2a: Ceruledge|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ceruledge|67/100|[from] Sandstorm
+|upkeep
+|
+|t:|1779684498
+|switch|p1a: Regidrago|Regidrago, shiny|100/100
+|turn|20
+|
+|t:|1779684501
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Regidrago
+|-damage|p1a: Regidrago|76/100
+|move|p1a: Regidrago|Dragon Energy|p2a: Ceruledge
+|-crit|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Regidrago|69/100|[from] Sandstorm
+|upkeep
+|
+|t:|1779684509
+|switch|p2a: Great Tusk|Great Tusk|56/100
+|turn|21
+|
+|t:|1779684513
+|move|p2a: Great Tusk|Ice Spinner|p1a: Regidrago
+|-supereffective|p1a: Regidrago
+|-damage|p1a: Regidrago|4/100
+|move|p1a: Regidrago|Dragon Energy|p2a: Great Tusk
+|-damage|p2a: Great Tusk|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Regidrago|0 fnt|[from] Sandstorm
+|faint|p1a: Regidrago
+|upkeep
+|
+|t:|1779684516
+|switch|p1a: Ditto|Ditto|2/100
+|-transform|p1a: Ditto|p2a: Great Tusk|[from] ability: Imposter
+|turn|22
+|
+|t:|1779684525
+|move|p2a: Great Tusk|Ice Spinner|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|-end|p1a: Ditto|Protosynthesis|[silent]
+|
+|win|SWAGGER_W2F
+|raw|monday2026's rating: 1584 &rarr; <strong>1565</strong><br />(-19 for losing)
+|raw|SWAGGER_W2F's rating: 1605 &rarr; <strong>1624</strong><br />(+19 for winning)
+|l|☆monday2026
+|player|p1|
+|l|☆SWAGGER_W2F
+|player|p2|

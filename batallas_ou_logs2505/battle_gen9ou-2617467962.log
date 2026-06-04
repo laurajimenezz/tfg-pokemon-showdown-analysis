@@ -1,0 +1,225 @@
+|j|☆potion of binding
+|j|☆healboy009
+|t:|1779693778
+|gametype|singles
+|player|p1|potion of binding|2|1543
+|player|p2|healboy009|lucas|1476
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ceruledge, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Ting-Lu|
+|poke|p2|Primarina, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Clefable, M|
+|poke|p2|Heatran, M|
+|teampreview
+|
+|t:|1779693788
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|c|☆potion of binding|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by potion of binding)
+|
+|t:|1779693804
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|2
+|
+|t:|1779693809
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|move|p2a: Heatran|Magma Storm|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|64/100
+|-activate|p1a: Ceruledge|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: Ceruledge|70/100|[from] Grassy Terrain
+|-damage|p1a: Ceruledge|58/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1779693820
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Ceruledge|Poltergeist|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p1a: Ceruledge|64/100|[from] Grassy Terrain
+|-damage|p1a: Ceruledge|51/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1779693824
+|move|p1a: Ceruledge|Poltergeist|p2a: Heatran
+|-activate|p2a: Heatran|move: Poltergeist|Leftovers
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|-damage|p1a: Ceruledge|41/100|[from] item: Life Orb
+|
+|-heal|p1a: Ceruledge|48/100|[from] Grassy Terrain
+|-end|p1a: Ceruledge|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1779693836
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|5
+|
+|t:|1779693843
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Zamazenta|Crunch|p1a: Hatterene
+|-damage|p1a: Hatterene|72/100
+|-unboost|p1a: Hatterene|def|1
+|-damage|p2a: Zamazenta|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Zamazenta|97/100|[from] Grassy Terrain
+|-heal|p1a: Hatterene|78/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1779693846
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Zamazenta|Heavy Slam|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|91/100
+|-damage|p2a: Zamazenta|80/100|[from] item: Rocky Helmet|[of] p1a: Ting-Lu
+|-damage|p2a: Zamazenta|70/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1779693849
+|move|p2a: Zamazenta|Close Combat|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|2/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|-damage|p2a: Zamazenta|54/100|[from] item: Rocky Helmet|[of] p1a: Ting-Lu
+|-damage|p2a: Zamazenta|44/100|[from] item: Life Orb
+|move|p1a: Ting-Lu|Ruination|p2a: Zamazenta
+|-damage|p2a: Zamazenta|22/100
+|
+|upkeep
+|turn|8
+|
+|t:|1779693855
+|move|p2a: Zamazenta|Stone Edge|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|-damage|p2a: Zamazenta|12/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779693857
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|9
+|
+|t:|1779693862
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1779693864
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Clefable|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|upkeep
+|turn|11
+|
+|t:|1779693867
+|move|p1a: Dragonite|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|48/100
+|move|p2a: Clefable|Moonblast|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|66/100 par
+|
+|-heal|p1a: Dragonite|72/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|55/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779693877
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Dragonite|Earthquake|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p1a: Dragonite|79/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|61/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1779693881
+|cant|p1a: Dragonite|par
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Dragonite|85/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|67/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1779693884
+|-terastallize|p1a: Dragonite|Ground
+|move|p1a: Dragonite|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-heal|p1a: Dragonite|91/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1779693896
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|15
+|
+|t:|1779693902
+|move|p1a: Dragonite|Ice Spinner|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-fieldend|move: Grassy Terrain
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Dragonite|97/100 par|[from] item: Leftovers
+|upkeep
+|-message|healboy009 forfeited.
+|
+|win|potion of binding
+|raw|potion of binding's rating: 1543 &rarr; <strong>1559</strong><br />(+16 for winning)
+|raw|healboy009's rating: 1476 &rarr; <strong>1460</strong><br />(-16 for losing)
+|c|☆potion of binding|gg
+|l|☆healboy009
+|player|p2|

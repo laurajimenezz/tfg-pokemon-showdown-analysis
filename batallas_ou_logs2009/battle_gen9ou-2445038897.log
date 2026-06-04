@@ -1,0 +1,177 @@
+|j|☆Aimsss
+|j|‽CilenTreeco
+|t:|1758298576
+|gametype|singles
+|player|p1|Aimsss|policeman-gen4|1335
+|player|p2|CilenTreeco|169|1343
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Hawlucha, F|
+|poke|p1|Glimmora, M|
+|poke|p1|Chesnaught, F|
+|poke|p1|Gallade, M|
+|poke|p2|Gholdengo|
+|poke|p2|Quaquaval, F|
+|poke|p2|Armarouge, F|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Toxicroak, F|
+|poke|p2|Mamoswine, F|
+|teampreview
+|
+|t:|1758298592
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Chesnaught|Chesnaught, F|100/100
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|1
+|
+|t:|1758298607
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-item|p1a: Glimmora|Air Balloon
+|move|p2a: Mamoswine|Icicle Crash|p1a: Glimmora
+|-crit|p1a: Glimmora
+|-damage|p1a: Glimmora|27/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: CilenTreeco|move: Toxic Spikes
+|-enditem|p1a: Glimmora|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|t:|1758298618
+|move|p2a: Mamoswine|Icicle Crash|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: CilenTreeco|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1758298627
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|3
+|
+|t:|1758298630
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Mamoswine
+|-status|p2a: Mamoswine|brn
+|move|p2a: Mamoswine|Icicle Crash|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|26/100
+|
+|-damage|p2a: Mamoswine|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1758298639
+|move|p1a: Dragapult|Hex|p2a: Mamoswine
+|-damage|p2a: Mamoswine|16/100 brn
+|move|p2a: Mamoswine|Icicle Crash|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Mamoswine|10/100 brn|[from] brn
+|upkeep
+|
+|t:|1758298650
+|switch|p1a: Gallade|Gallade, M, shiny|100/100
+|turn|5
+|
+|t:|1758298657
+|switch|p2a: Armarouge|Armarouge, F, shiny|100/100
+|-status|p2a: Armarouge|tox
+|move|p1a: Gallade|Agility|p1a: Gallade
+|-boost|p1a: Gallade|spe|2
+|
+|-damage|p2a: Armarouge|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1758298668
+|move|p1a: Gallade|Night Slash|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|7/100 tox
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|move|p2a: Armarouge|Substitute|p2a: Armarouge
+|-fail|p2a: Armarouge|move: Substitute|[weak]
+|
+|-damage|p2a: Armarouge|0 fnt|[from] psn
+|faint|p2a: Armarouge
+|upkeep
+|
+|t:|1758298687
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|-status|p2a: Quaquaval|tox
+|turn|7
+|
+|t:|1758298692
+|move|p1a: Gallade|Psycho Cut|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-crit|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|upkeep
+|
+|t:|1758298699
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|-sideend|p2: CilenTreeco|move: Toxic Spikes|[of] p2a: Toxicroak
+|turn|8
+|
+|t:|1758298711
+|-terastallize|p2a: Toxicroak|Ground
+|move|p1a: Gallade|Psycho Cut|p2a: Toxicroak
+|-damage|p2a: Toxicroak|15/100
+|move|p2a: Toxicroak|Earthquake|p1a: Gallade
+|-damage|p1a: Gallade|25/100
+|-enditem|p1a: Gallade|Sitrus Berry|[eat]
+|-heal|p1a: Gallade|50/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|9
+|
+|t:|1758298720
+|move|p2a: Toxicroak|Sucker Punch|p1a: Gallade
+|-damage|p1a: Gallade|15/100
+|move|p1a: Gallade|Psycho Cut|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|upkeep
+|
+|t:|1758298724
+|switch|p2a: Mamoswine|Mamoswine, F|10/100 brn
+|turn|10
+|
+|t:|1758298729
+|move|p1a: Gallade|Sacred Sword|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-crit|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|upkeep
+|-message|CilenTreeco forfeited.
+|
+|win|Aimsss
+|raw|Aimsss's rating: 1335 &rarr; <strong>1355</strong><br />(+20 for winning)
+|raw|CilenTreeco's rating: 1343 &rarr; <strong>1323</strong><br />(-20 for losing)
+|l|‽CilenTreeco
+|player|p2|
+|l|☆Aimsss
+|player|p1|

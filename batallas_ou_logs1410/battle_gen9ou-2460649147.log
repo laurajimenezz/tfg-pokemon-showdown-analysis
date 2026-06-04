@@ -1,0 +1,360 @@
+|j|☆spaceworld2000
+|j|☆Lakerssuck
+|t:|1760338184
+|gametype|singles
+|player|p1|spaceworld2000|n|1292
+|player|p2|Lakerssuck|102|1325
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Charizard, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Hatterene, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Gliscor, F|
+|poke|p2|Forretress, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Valiant|
+|poke|p2|Darkrai|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by spaceworld2000)
+|
+|t:|1760338203
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|turn|1
+|
+|t:|1760338209
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1760338219
+|move|p2a: Gliscor|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|78/100
+|-enditem|p1a: Hatterene|Assault Vest|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Hatterene|Draining Kiss|p2a: Gliscor
+|-damage|p2a: Gliscor|64/100 tox
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1760338229
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760338237
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Slowking|[miss]
+|-miss|p1a: Dragapult|p2a: Slowking
+|move|p2a: Slowking|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|
+|upkeep
+|turn|5
+|
+|t:|1760338248
+|switch|p2a: Gliscor|Gliscor, F|76/100 tox
+|move|p1a: Dragapult|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|71/100 tox
+|
+|t:|1760338259
+|switch|p1a: Torkoal|Torkoal, F|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|83/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1760338271
+|move|p2a: Gliscor|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|88/100
+|-enditem|p1a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Torkoal|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: Lakerssuck|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|96/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1760338279
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760338288
+|move|p1a: Great Tusk|Rapid Spin|p2a: Slowking
+|-damage|p2a: Slowking|85/100
+|-boost|p1a: Great Tusk|spe|1
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|-end|p1a: Great Tusk|Protosynthesis
+|
+|t:|1760338296
+|switch|p2a: Forretress|Forretress, F|100/100|[from] Chilly Reception
+|-damage|p2a: Forretress|88/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1760338307
+|move|p1a: Great Tusk|Knock Off|p2a: Forretress
+|-damage|p2a: Forretress|72/100
+|-damage|p1a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p2a: Forretress
+|-enditem|p2a: Forretress|Rocky Helmet|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Forretress|Spikes|p1a: Great Tusk
+|-sidestart|p1: spaceworld2000|Spikes
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760338314
+|move|p1a: Great Tusk|Rapid Spin|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|67/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: spaceworld2000|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Forretress|Rapid Spin|p1a: Great Tusk
+|-damage|p1a: Great Tusk|78/100
+|-boost|p2a: Forretress|spe|1
+|-damage|p2a: Forretress|51/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|-sideend|p2: Lakerssuck|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760338325
+|switch|p2a: Gliscor|Gliscor, F|96/100 tox
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1760338333
+|move|p1a: Great Tusk|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|81/100 tox
+|-enditem|p2a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Gliscor|Toxic|p1a: Great Tusk
+|-status|p1a: Great Tusk|tox
+|
+|-weather|none
+|-damage|p1a: Great Tusk|72/100 tox|[from] psn
+|-heal|p2a: Gliscor|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1760338342
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|88/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1760338348
+|move|p2a: Gliscor|Stealth Rock|p1a: Torkoal
+|-sidestart|p1: spaceworld2000|move: Stealth Rock
+|move|p1a: Torkoal|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: Lakerssuck|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1760338354
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Torkoal|Rapid Spin|p2a: Slowking
+|-damage|p2a: Slowking|92/100
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: spaceworld2000|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1760338362
+|move|p1a: Torkoal|Lava Plume|p2a: Slowking
+|-damage|p2a: Slowking|70/100
+|-status|p2a: Slowking|brn
+|move|p2a: Slowking|Future Sight|p1a: Torkoal
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Slowking|64/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1760338371
+|move|p1a: Torkoal|Lava Plume|p2a: Slowking
+|-damage|p2a: Slowking|44/100 brn
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1760338381
+|switch|p2a: Darkrai|Darkrai|100/100|[from] Chilly Reception
+|-damage|p2a: Darkrai|88/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1760338391
+|switch|p1a: Great Tusk|Great Tusk|72/100 tox
+|move|p2a: Darkrai|Trick|p1a: Great Tusk
+|-activate|p2a: Darkrai|move: Trick|[of] p1a: Great Tusk
+|-item|p1a: Great Tusk|Choice Specs|[from] move: Trick
+|-item|p2a: Darkrai|Rocky Helmet|[from] move: Trick
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Great Tusk|move: Future Sight
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1760338405
+|switch|p1a: Torkoal|Torkoal, F|88/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|19
+|
+|t:|1760338418
+|move|p2a: Darkrai|Dark Pulse|p1a: Torkoal
+|-damage|p1a: Torkoal|34/100
+|move|p1a: Torkoal|Lava Plume|p2a: Darkrai
+|-damage|p2a: Darkrai|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1760338426
+|move|p2a: Darkrai|Dark Pulse|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760338431
+|switch|p1a: Charizard|Charizard, M, shiny|100/100
+|turn|21
+|
+|t:|1760338439
+|switch|p2a: Slowking|Slowking-Galar, M|78/100 brn
+|-terastallize|p1a: Charizard|Fire
+|move|p1a: Charizard|Flamethrower|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|88/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|
+|t:|1760338464
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|22
+|
+|t:|1760338473
+|move|p1a: Charizard|Flamethrower|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|29/100
+|move|p2a: Raging Bolt|Volt Switch|p1a: Charizard
+|-damage|p1a: Charizard|13/100
+|
+|t:|1760338484
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Volt Switch
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|0 fnt|[from] ability: Solar Power|[of] p1a: Charizard
+|faint|p1a: Charizard
+|upkeep
+|
+|t:|1760338490
+|switch|p1a: Dragapult|Dragapult, M|100/100 par
+|turn|23
+|
+|t:|1760338505
+|move|p2a: Iron Valiant|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|none
+|upkeep
+|
+|t:|1760338509
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|24
+|
+|t:|1760338514
+|-terastallize|p2a: Iron Valiant|Ghost
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|17/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|45/100
+|-heal|p1a: Hatterene|51/100|[from] drain|[of] p2a: Iron Valiant
+|
+|upkeep
+|turn|25
+|-message|spaceworld2000 forfeited.
+|
+|win|Lakerssuck
+|raw|spaceworld2000's rating: 1292 &rarr; <strong>1269</strong><br />(-23 for losing)
+|raw|Lakerssuck's rating: 1325 &rarr; <strong>1343</strong><br />(+18 for winning)
+|l|☆spaceworld2000
+|player|p1|
+|l|☆Lakerssuck
+|player|p2|

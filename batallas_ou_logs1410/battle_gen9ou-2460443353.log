@@ -1,0 +1,348 @@
+|j|☆themxst
+|j|☆little ugly rat
+|t:|1760307159
+|gametype|singles
+|player|p1|themxst|101|1502
+|player|p2|little ugly rat|ninjaboy|1465
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Azelf|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Great Tusk|
+|poke|p1|Walking Wake|
+|poke|p1|Diancie|
+|poke|p2|Pelipper, F|
+|poke|p2|Barraskewda, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Iron Treads|
+|poke|p2|Enamorus, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|t:|1760307204
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|turn|1
+|
+|t:|1760307233
+|move|p2a: Barraskewda|Flip Turn|p1a: Azelf
+|-damage|p1a: Azelf|21/100
+|
+|t:|1760307235
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from] Flip Turn
+|move|p1a: Azelf|Psychic|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|58/100
+|-enditem|p2a: Hatterene|Eject Button
+|-damage|p1a: Azelf|11/100|[from] item: Life Orb
+|
+|t:|1760307238
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760307245
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|move|p2a: Barraskewda|Flip Turn|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|87/100
+|
+|t:|1760307249
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] Flip Turn
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1760307260
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Zamazenta|Close Combat|p1a: Torkoal
+|-damage|p1a: Torkoal|33/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760307272
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Zamazenta|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|69/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760307286
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-end|p1a: Great Tusk|Protosynthesis
+|move|p1a: Great Tusk|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|81/100
+|-enditem|p2a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760307297
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Walking Wake|Walking Wake|87/100
+|move|p2a: Pelipper|U-turn|p1a: Walking Wake
+|-damage|p1a: Walking Wake|76/100
+|
+|t:|1760307301
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760307307
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Azelf|Azelf|11/100
+|move|p2a: Zamazenta|Close Combat|p1a: Azelf
+|-resisted|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Azelf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760307314
+|switch|p1a: Diancie|Diancie|100/100
+|turn|8
+|
+|t:|1760307320
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Diancie|Trick Room|p1a: Diancie
+|-fieldstart|move: Trick Room|[of] p1a: Diancie
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1760307328
+|switch|p1a: Great Tusk|Great Tusk|69/100
+|move|p2a: Iron Treads|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|53/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760307335
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, F|81/100
+|move|p1a: Great Tusk|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|67/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760307344
+|move|p2a: Pelipper|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|50/100
+|
+|t:|1760307348
+|switch|p2a: Hatterene|Hatterene, F|58/100|[from] U-turn
+|move|p1a: Great Tusk|Stealth Rock|p2a: Hatterene
+|move|p2a: Hatterene|Stealth Rock|p1a: Great Tusk|[from] ability: Magic Bounce
+|-sidestart|p1: themxst|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1760307355
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Diancie|Diancie|100/100
+|-damage|p1a: Diancie|88/100|[from] Stealth Rock
+|move|p2a: Hatterene|Psychic Noise|p1a: Diancie
+|-damage|p1a: Diancie|66/100
+|-start|p1a: Diancie|move: Heal Block
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|
+|t:|1760307373
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|switch|p1a: Walking Wake|Walking Wake|76/100
+|-damage|p1a: Walking Wake|64/100|[from] Stealth Rock
+|
+|upkeep
+|turn|14
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by themxst)
+|
+|t:|1760307464
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Hatterene|Hatterene, F|58/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1760307467
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|turn|15
+|
+|t:|1760307482
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|50/100
+|move|p2a: Zamazenta|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|7/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|
+|upkeep
+|turn|16
+|
+|t:|1760307511
+|move|p2a: Zamazenta|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760307522
+|switch|p1a: Diancie|Diancie|66/100
+|-damage|p1a: Diancie|54/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1760307532
+|move|p2a: Zamazenta|Close Combat|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Diancie
+|
+|upkeep
+|
+|t:|1760307539
+|switch|p1a: Torkoal|Torkoal, F|33/100
+|-damage|p1a: Torkoal|8/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|18
+|
+|t:|1760307543
+|move|p2a: Zamazenta|Close Combat|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760307551
+|switch|p1a: Walking Wake|Walking Wake|64/100
+|-damage|p1a: Walking Wake|52/100|[from] Stealth Rock
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|19
+|
+|t:|1760307555
+|switch|p2a: Pelipper|Pelipper, F|67/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-end|p1a: Walking Wake|Protosynthesis
+|move|p1a: Walking Wake|Hydro Steam|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|5/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1760307559
+|move|p1a: Walking Wake|Hydro Steam|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760307562
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|21
+|
+|t:|1760307568
+|move|p2a: Enamorus|Moonblast|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760307570
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|-damage|p1a: Lilligant|94/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1760307576
+|-terastallize|p1a: Lilligant|Fire
+|move|p2a: Enamorus|Moonblast|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|57/100
+|move|p1a: Lilligant|Triple Axel|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|75/100
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|21/100
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|-hitcount|p2: Enamorus|3
+|-damage|p1a: Lilligant|47/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760307580
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|turn|23
+|-message|themxst forfeited.
+|
+|win|little ugly rat
+|raw|themxst's rating: 1502 &rarr; <strong>1480</strong><br />(-22 for losing)
+|raw|little ugly rat's rating: 1465 &rarr; <strong>1487</strong><br />(+22 for winning)
+|l|☆themxst
+|player|p1|
+|l|☆little ugly rat
+|player|p2|

@@ -1,0 +1,189 @@
+|j|☆vacineee
+|j|‽Roboute
+|t:|1769405127
+|gametype|singles
+|player|p1|vacineee|parasollady-gen4|1408
+|player|p2|Roboute|170|1450
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Rillaboom, F|
+|poke|p1|Iron Hands|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Heatran, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Porygon2|
+|poke|p2|Cresselia, F|
+|poke|p2|Iron Hands|
+|poke|p2|Volcanion|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Roboute)
+|
+|t:|1769405137
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Cresselia|Cresselia, F, shiny|100/100
+|turn|1
+|
+|t:|1769405145
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|move|p1a: Slowking|Future Sight|p2a: Ursaluna
+|-start|p1a: Slowking|move: Future Sight
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1769405160
+|switch|p1a: Heatran|Heatran, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Ursaluna|Facade|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|49/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1769405169
+|switch|p2a: Cresselia|Cresselia, F, shiny|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Cresselia
+|-damage|p2a: Cresselia|73/100
+|-activate|p2a: Cresselia|move: Magma Storm|[of] p1a: Heatran
+|
+|-end|p2a: Cresselia|move: Future Sight
+|-resisted|p2a: Cresselia
+|-damage|p2a: Cresselia|58/100
+|-damage|p2a: Cresselia|45/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1769405177
+|move|p1a: Heatran|Taunt|p2a: Cresselia
+|-start|p2a: Cresselia|move: Taunt
+|-enditem|p2a: Cresselia|Mental Herb
+|-end|p2a: Cresselia|move: Taunt
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-damage|p2a: Cresselia|33/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1769405185
+|move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
+|faint|p2a: Cresselia
+|move|p1a: Heatran|Taunt|p2: Cresselia|[notarget]
+|-fail|p1a: Heatran
+|
+|upkeep
+|
+|t:|1769405197
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|6
+|
+|t:|1769405205
+|move|p2a: Iron Hands|Wild Charge|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-damage|p2a: Iron Hands|91/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1769405225
+|switch|p1a: Iron Hands|Iron Hands, shiny|100/100
+|turn|7
+|
+|t:|1769405236
+|move|p2a: Iron Hands|Drain Punch|p1a: Iron Hands
+|-damage|p1a: Iron Hands|56/100
+|-heal|p2a: Iron Hands|100/100|[from] drain|[of] p1a: Iron Hands
+|move|p1a: Iron Hands|Drain Punch|p2a: Iron Hands
+|-damage|p2a: Iron Hands|70/100
+|-heal|p1a: Iron Hands|74/100|[from] drain|[of] p2a: Iron Hands
+|
+|upkeep
+|turn|8
+|
+|t:|1769405244
+|move|p2a: Iron Hands|Drain Punch|p1a: Iron Hands
+|-damage|p1a: Iron Hands|31/100
+|-heal|p2a: Iron Hands|89/100|[from] drain|[of] p1a: Iron Hands
+|move|p1a: Iron Hands|Swords Dance|p1a: Iron Hands
+|-boost|p1a: Iron Hands|atk|2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|t:|1769405253
+|move|p1a: Iron Hands|Drain Punch|p2a: Iron Hands
+|-damage|p2a: Iron Hands|28/100
+|-heal|p1a: Iron Hands|66/100|[from] drain|[of] p2a: Iron Hands
+|move|p2a: Iron Hands|Drain Punch|p1a: Iron Hands
+|-damage|p1a: Iron Hands|27/100
+|-heal|p2a: Iron Hands|46/100|[from] drain|[of] p1a: Iron Hands
+|
+|upkeep
+|turn|10
+|
+|t:|1769405265
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100
+|move|p1a: Iron Hands|Drain Punch|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|75/100
+|-heal|p1a: Iron Hands|36/100|[from] drain|[of] p2a: Hatterene
+|
+|upkeep
+|turn|11
+|
+|t:|1769405275
+|move|p1a: Iron Hands|Wild Charge|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|-damage|p1a: Iron Hands|23/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1769405290
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|12
+|
+|t:|1769405297
+|move|p1a: Iron Hands|Drain Punch|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|-heal|p1a: Iron Hands|64/100|[from] drain|[of] p2a: Porygon2
+|faint|p2a: Porygon2
+|
+|upkeep
+|-message|Roboute forfeited.
+|
+|win|vacineee
+|raw|vacineee's rating: 1408 &rarr; <strong>1430</strong><br />(+22 for winning)
+|raw|Roboute's rating: 1450 &rarr; <strong>1428</strong><br />(-22 for losing)
+|l|‽Roboute
+|player|p2|
+|l|☆vacineee
+|player|p1|

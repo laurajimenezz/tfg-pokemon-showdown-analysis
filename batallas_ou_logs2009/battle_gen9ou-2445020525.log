@@ -1,0 +1,214 @@
+|j|☆3ndgam3
+|j|☆hellstonegod
+|t:|1758296893
+|gametype|singles
+|player|p1|3ndgam3|red-gen1main|1191
+|player|p2|hellstonegod|marshal|1208
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Dragapult, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Kingambit, M|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Toxapex, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hellstonegod)
+|
+|t:|1758296905
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100
+|switch|p2a: Spin Forever|Great Tusk|100/100
+|turn|1
+|
+|t:|1758296910
+|move|p1a: Dragapult|Draco Meteor|p2a: Spin Forever
+|-damage|p2a: Spin Forever|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Spin Forever
+|-end|p2a: Spin Forever|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758296914
+|switch|p2a: Ed. Laserhands|Iron Valiant|100/100
+|-enditem|p2a: Ed. Laserhands|Booster Energy
+|-activate|p2a: Ed. Laserhands|ability: Quark Drive|[fromitem]
+|-start|p2a: Ed. Laserhands|quarkdrivespe
+|turn|2
+|
+|t:|1758296929
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Ed. Laserhands|Swords Dance|p2a: Ed. Laserhands
+|-boost|p2a: Ed. Laserhands|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1758296942
+|move|p2a: Ed. Laserhands|Spirit Break|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1758296963
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ed. Laserhands|atk|1
+|turn|4
+|
+|t:|1758296976
+|-end|p2a: Ed. Laserhands|Quark Drive|[silent]
+|switch|p2a: Kinjambit|Kingambit, M|100/100
+|-activate|p2a: Kinjambit|ability: Supreme Overlord
+|-start|p2a: Kinjambit|fallen1|[silent]
+|-item|p2a: Kinjambit|Air Balloon
+|move|p1a: Landorus|Earthquake|p2a: Kinjambit
+|-immune|p2a: Kinjambit
+|
+|upkeep
+|turn|5
+|
+|t:|1758296983
+|move|p1a: Landorus|Stealth Rock|p2a: Kinjambit
+|-sidestart|p2: hellstonegod|move: Stealth Rock
+|move|p2a: Kinjambit|Iron Head|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|34/100
+|-damage|p2a: Kinjambit|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|upkeep
+|turn|6
+|
+|t:|1758296986
+|move|p1a: Landorus|U-turn|p2a: Kinjambit
+|-damage|p2a: Kinjambit|65/100
+|-enditem|p2a: Kinjambit|Air Balloon
+|
+|t:|1758296989
+|switch|p1a: Glimmora|Glimmora, M, shiny|100/100|[from] U-turn
+|move|p2a: Kinjambit|Iron Head|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: hellstonegod|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1758296994
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|34/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kinjambit|atk|1
+|turn|7
+|
+|t:|1758296997
+|move|p2a: Kinjambit|Sucker Punch|p1a: Landorus
+|-damage|p1a: Landorus|6/100
+|-damage|p2a: Kinjambit|48/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|move|p1a: Landorus|Earthquake|p2a: Kinjambit
+|-supereffective|p2a: Kinjambit
+|-crit|p2a: Kinjambit
+|-damage|p2a: Kinjambit|0 fnt
+|faint|p2a: Kinjambit
+|-end|p2a: Kinjambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1758297003
+|switch|p2a: Ed. Laserhands|Iron Valiant|100/100
+|-damage|p2a: Ed. Laserhands|94/100|[from] Stealth Rock
+|-status|p2a: Ed. Laserhands|psn
+|turn|8
+|
+|t:|1758297006
+|move|p2a: Ed. Laserhands|Spirit Break|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Ed. Laserhands|78/100 psn|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|-damage|p2a: Ed. Laserhands|65/100 psn|[from] psn
+|upkeep
+|
+|t:|1758297013
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100
+|turn|9
+|
+|t:|1758297017
+|move|p1a: Dragapult|Shadow Ball|p2a: Ed. Laserhands
+|-damage|p2a: Ed. Laserhands|0 fnt
+|faint|p2a: Ed. Laserhands
+|-end|p2a: Ed. Laserhands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758297021
+|switch|p2a: GholdenJoe|Gholdengo|100/100
+|-damage|p2a: GholdenJoe|94/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1758297026
+|switch|p1a: Kingambit|Kingambit, M, shiny|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|move|p2a: GholdenJoe|Trick|p1a: Kingambit
+|-activate|p2a: GholdenJoe|move: Trick|[of] p1a: Kingambit
+|-item|p1a: Kingambit|Choice Scarf|[from] move: Trick
+|-item|p2a: GholdenJoe|Leftovers|[from] move: Trick
+|
+|-heal|p2a: GholdenJoe|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758297031
+|switch|p2a: KACAWWWW|Pelipper, F|100/100
+|-damage|p2a: KACAWWWW|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: KACAWWWW
+|move|p1a: Kingambit|Kowtow Cleave|p2a: KACAWWWW
+|-damage|p2a: KACAWWWW|0 fnt
+|faint|p2a: KACAWWWW
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758297035
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|-sideend|p2: hellstonegod|move: Toxic Spikes|[of] p2a: Toxapex
+|turn|12
+|
+|t:|1758297039
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Toxapex
+|-damage|p2a: Toxapex|33/100
+|move|p2a: Toxapex|Surf|p1a: Kingambit
+|-damage|p1a: Kingambit|60/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|-message|hellstonegod forfeited.
+|
+|win|3ndgam3
+|raw|3ndgam3's rating: 1191 &rarr; <strong>1217</strong><br />(+26 for winning)
+|raw|hellstonegod's rating: 1208 &rarr; <strong>1182</strong><br />(-26 for losing)
+|l|☆hellstonegod
+|player|p2|

@@ -1,0 +1,355 @@
+|j|☆Broadsword115
+|j|☆Beatbuy
+|t:|1769298868
+|gametype|singles
+|player|p1|Broadsword115|266|1173
+|player|p2|Beatbuy|169|1179
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gastrodon, M|
+|poke|p1|Wyrdeer, M|
+|poke|p1|Arcanine, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Brambleghast, F|
+|poke|p1|Kyurem|
+|poke|p2|Ceruledge, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Iron Treads|
+|poke|p2|Raging Bolt|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|j| lilmeloucd
+|
+|t:|1769298909
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Brambleghast|Brambleghast, F|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|1
+|
+|t:|1769298935
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Brambleghast|Poltergeist||[still]
+|-fail|p1a: Brambleghast
+|
+|upkeep
+|turn|2
+|
+|t:|1769298969
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1769299001
+|-terastallize|p2a: Raging Bolt|Flying
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Gastrodon|Clear Smog|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|95/100
+|-clearboost|p2a: Raging Bolt
+|
+|upkeep
+|turn|4
+|
+|t:|1769299017
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Gastrodon
+|-damage|p1a: Gastrodon|61/100
+|move|p1a: Gastrodon|Surf|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|70/100
+|
+|upkeep
+|turn|5
+|
+|t:|1769299023
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Gastrodon
+|-damage|p1a: Gastrodon|26/100
+|move|p1a: Gastrodon|Surf|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|42/100
+|
+|upkeep
+|turn|6
+|
+|t:|1769299053
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|upkeep
+|
+|t:|1769299057
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|turn|7
+|
+|t:|1769299081
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|-terastallize|p1a: Arcanine|Normal
+|move|p1a: Arcanine|Extreme Speed|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|85/100
+|
+|upkeep
+|turn|8
+|
+|t:|1769299098
+|move|p2a: Iron Treads|Earth Power|p1a: Arcanine
+|-damage|p1a: Arcanine|58/100
+|move|p1a: Arcanine|Curse|p1a: Arcanine
+|-unboost|p1a: Arcanine|spe|1
+|-boost|p1a: Arcanine|atk|1
+|-boost|p1a: Arcanine|def|1
+|
+|-heal|p1a: Arcanine|64/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1769299102
+|move|p2a: Iron Treads|Earth Power|p1a: Arcanine
+|-damage|p1a: Arcanine|24/100
+|move|p1a: Arcanine|Flame Charge|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|25/100
+|-boost|p1a: Arcanine|spe|1
+|
+|-heal|p1a: Arcanine|31/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1769299112
+|move|p1a: Arcanine|Extreme Speed|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|1/100
+|move|p2a: Iron Treads|Earth Power|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|t:|1769299115
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|turn|11
+|
+|t:|1769299121
+|move|p1a: Tornadus|U-turn|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|t:|1769299129
+|switch|p1a: Brambleghast|Brambleghast, F|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1769299146
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|turn|12
+|
+|t:|1769299164
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Beatbuy|Reflect
+|
+|upkeep
+|turn|13
+|
+|t:|1769299169
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Beatbuy|move: Light Screen
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|70/100
+|
+|upkeep
+|turn|14
+|
+|t:|1769299212
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Deoxys
+|-damage|p2a: Deoxys|67/100
+|
+|-heal|p2a: Deoxys|73/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1769299219
+|switch|p1a: Wyrdeer|Wyrdeer, M|100/100
+|move|p2a: Deoxys|Nasty Plot|p2a: Deoxys
+|-boost|p2a: Deoxys|spa|2
+|
+|-heal|p2a: Deoxys|79/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1769299233
+|move|p2a: Deoxys|Substitute|p2a: Deoxys
+|-start|p2a: Deoxys|Substitute
+|-damage|p2a: Deoxys|54/100
+|move|p1a: Wyrdeer|Trailblaze|p2a: Deoxys
+|-activate|p2a: Deoxys|move: Substitute|[damage]
+|-boost|p1a: Wyrdeer|spe|1
+|
+|-heal|p2a: Deoxys|61/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1769299239
+|move|p2a: Deoxys|Psycho Boost|p1a: Wyrdeer
+|-resisted|p1a: Wyrdeer
+|-damage|p1a: Wyrdeer|48/100
+|-unboost|p2a: Deoxys|spa|2
+|move|p1a: Wyrdeer|Megahorn|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-end|p2a: Deoxys|Substitute
+|
+|-heal|p2a: Deoxys|67/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1769299245
+|move|p2a: Deoxys|Psycho Boost|p1a: Wyrdeer
+|-resisted|p1a: Wyrdeer
+|-damage|p1a: Wyrdeer|20/100
+|-unboost|p2a: Deoxys|spa|2
+|move|p1a: Wyrdeer|Megahorn|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|14/100
+|
+|-heal|p2a: Deoxys|20/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1769299253
+|move|p2a: Deoxys|Focus Blast|p1a: Wyrdeer
+|-crit|p1a: Wyrdeer
+|-damage|p1a: Wyrdeer|0 fnt
+|faint|p1a: Wyrdeer
+|
+|-heal|p2a: Deoxys|26/100|[from] item: Leftovers
+|-sideend|p2: Beatbuy|Reflect
+|upkeep
+|
+|t:|1769299257
+|switch|p1a: Brambleghast|Brambleghast, F|100/100
+|turn|20
+|
+|t:|1769299275
+|switch|p2a: Raging Bolt|Raging Bolt, tera:Flying|42/100
+|move|p1a: Brambleghast|Rapid Spin|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|26/100
+|-boost|p1a: Brambleghast|spe|1
+|
+|-sideend|p2: Beatbuy|move: Light Screen
+|upkeep
+|turn|21
+|
+|t:|1769299281
+|move|p1a: Brambleghast|Power Whip|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|1/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Brambleghast
+|-damage|p1a: Brambleghast|1/100
+|
+|upkeep
+|turn|22
+|
+|t:|1769299288
+|move|p2a: Raging Bolt|Thunderclap|p1a: Brambleghast
+|-resisted|p1a: Brambleghast
+|-damage|p1a: Brambleghast|0 fnt
+|faint|p1a: Brambleghast
+|
+|upkeep
+|
+|t:|1769299292
+|switch|p1a: Kyurem|Kyurem, shiny|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|23
+|
+|t:|1769299304
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|70/100
+|move|p1a: Kyurem|Freeze-Dry|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1769299312
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|24
+|
+|t:|1769299320
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Tornadus
+|-damage|p1a: Tornadus|8/100
+|-damage|p2a: Ceruledge|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|25
+|
+|t:|1769299327
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Tornadus
+|-crit|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-damage|p2a: Ceruledge|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1769299329
+|switch|p1a: Kyurem|Kyurem, shiny|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|26
+|
+|t:|1769299346
+|move|p1a: Kyurem|Freeze-Dry|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|53/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Kyurem
+|-damage|p1a: Kyurem|39/100
+|-heal|p2a: Ceruledge|91/100|[from] drain|[of] p1a: Kyurem
+|-damage|p2a: Ceruledge|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|27
+|
+|t:|1769299349
+|move|p1a: Kyurem|Freeze-Dry|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|49/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-heal|p2a: Ceruledge|73/100|[from] drain|[of] p1a: Kyurem
+|faint|p1a: Kyurem
+|-damage|p2a: Ceruledge|64/100|[from] item: Life Orb
+|
+|win|Beatbuy
+|raw|Broadsword115's rating: 1173 &rarr; <strong>1148</strong><br />(-25 for losing)
+|raw|Beatbuy's rating: 1179 &rarr; <strong>1204</strong><br />(+25 for winning)
+|l|☆Broadsword115
+|player|p1|

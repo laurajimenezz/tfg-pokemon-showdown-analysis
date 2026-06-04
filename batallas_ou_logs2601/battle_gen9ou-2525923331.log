@@ -1,0 +1,225 @@
+|j|☆sr is sr Dr Dr
+|j|☆Rotex12345
+|t:|1769351725
+|gametype|singles
+|player|p1|sr is sr Dr Dr|265|1151
+|player|p2|Rotex12345|265|1105
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Raging Bolt|
+|poke|p1|Great Tusk|
+|poke|p1|Torkoal, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Ambipom, M|
+|poke|p2|Galvantula, M|
+|poke|p2|Skeledirge, M|
+|poke|p2|Rampardos, F|
+|poke|p2|Gloom, M|
+|poke|p2|Araquanid, M|
+|teampreview
+|
+|t:|1769351736
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Ambipom|Ambipom, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1769351744
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Ambipom|Fake Out|p1a: Great Tusk
+|-damage|p1a: Great Tusk|88/100
+|-damage|p2a: Ambipom|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|-damage|p2a: Ambipom|74/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1769351765
+|move|p2a: Ambipom|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|81/100
+|-damage|p2a: Ambipom|58/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|-enditem|p1a: Great Tusk|Rocky Helmet|[from] move: Knock Off|[of] p2a: Ambipom
+|-damage|p2a: Ambipom|48/100|[from] item: Life Orb
+|move|p1a: Great Tusk|Body Press|p2a: Ambipom
+|-supereffective|p2a: Ambipom
+|-damage|p2a: Ambipom|0 fnt
+|faint|p2a: Ambipom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769351781
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|turn|3
+|
+|t:|1769351796
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Araquanid|Waterfall|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|88/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1769351833
+|-terastallize|p2a: Araquanid|Ice
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Araquanid
+|-damage|p2a: Araquanid|48/100
+|-damage|p1a: Raging Bolt|79/100|[from] item: Life Orb
+|move|p2a: Araquanid|Tera Blast|p1a: Raging Bolt|[anim] Tera Blast Ice
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1769351847
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|-damage|p1a: Raging Bolt|20/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769351860
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|turn|6
+|
+|t:|1769351864
+|move|p2a: Galvantula|Bug Buzz|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769351883
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|7
+|
+|t:|1769351891
+|move|p1a: Walking Wake|Flip Turn|p2a: Galvantula
+|-damage|p2a: Galvantula|86/100
+|
+|t:|1769351895
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from] Flip Turn
+|move|p2a: Galvantula|Thunder|p1a: Hatterene
+|-damage|p1a: Hatterene|50/100
+|-status|p1a: Hatterene|par
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1769351901
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1769351909
+|move|p1a: Walking Wake|Hydro Steam|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1769351916
+|switch|p2a: Rampardos|Rampardos, F|100/100
+|turn|9
+|
+|t:|1769351922
+|move|p1a: Walking Wake|Hydro Steam|p2a: Rampardos
+|-supereffective|p2a: Rampardos
+|-damage|p2a: Rampardos|0 fnt
+|faint|p2a: Rampardos
+|
+|upkeep
+|
+|t:|1769351930
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|10
+|
+|t:|1769351934
+|move|p1a: Walking Wake|Hydro Steam|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|upkeep
+|
+|t:|1769351940
+|switch|p2a: Gloom|Gloom, M|100/100
+|turn|11
+|
+|t:|1769351943
+|move|p1a: Walking Wake|Hydro Steam|p2a: Gloom
+|-resisted|p2a: Gloom
+|-damage|p2a: Gloom|74/100
+|move|p2a: Gloom|Giga Drain|p1a: Walking Wake
+|-damage|p1a: Walking Wake|76/100
+|-heal|p2a: Gloom|87/100|[from] drain|[of] p1a: Walking Wake
+|
+|upkeep
+|turn|12
+|
+|t:|1769351951
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Gloom|Giga Drain|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|91/100
+|-heal|p2a: Gloom|93/100|[from] drain|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1769351969
+|move|p2a: Gloom|Sludge Bomb|p1a: Torkoal
+|-damage|p1a: Torkoal|64/100
+|move|p1a: Torkoal|Overheat|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|-unboost|p1a: Torkoal|spa|2
+|faint|p2a: Gloom
+|
+|win|sr is sr Dr Dr
+|raw|sr is sr Dr Dr's rating: 1151 &rarr; <strong>1173</strong><br />(+22 for winning)
+|raw|Rotex12345's rating: 1105 &rarr; <strong>1083</strong><br />(-22 for losing)
+|l|☆sr is sr Dr Dr
+|player|p1|
+|l|☆Rotex12345
+|player|p2|

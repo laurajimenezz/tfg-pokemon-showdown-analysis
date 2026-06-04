@@ -1,0 +1,333 @@
+|j|☆geniusandrei
+|j|☆mythicalmon
+|t:|1758982620
+|gametype|singles
+|player|p1|geniusandrei|101|1320
+|player|p2|mythicalmon|2|1333
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Indeedee, M|
+|poke|p1|Ursaluna, F|
+|poke|p1|Mimikyu, F|
+|poke|p1|Iron Hands|
+|poke|p1|Hatterene, F|
+|poke|p2|Mew|
+|poke|p2|Jirachi|
+|poke|p2|Manaphy|
+|poke|p2|Shaymin|
+|poke|p2|Meloetta|
+|poke|p2|Pecharunt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mythicalmon)
+|
+|t:|1758982640
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|switch|p2a: Shaymin|Shaymin|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1758982647
+|move|p2a: Shaymin|Leech Seed|p1a: Iron Hands
+|-start|p1a: Iron Hands|move: Leech Seed
+|move|p1a: Iron Hands|Ice Punch|p2a: Shaymin
+|-supereffective|p2a: Shaymin
+|-damage|p2a: Shaymin|32/100
+|
+|-heal|p2a: Shaymin|38/100|[from] item: Leftovers
+|-damage|p1a: Iron Hands|88/100|[from] Leech Seed|[of] p2a: Shaymin
+|-heal|p2a: Shaymin|52/100|[silent]
+|upkeep
+|turn|2
+|
+|t:|1758982656
+|move|p2a: Shaymin|Substitute|p2a: Shaymin
+|-start|p2a: Shaymin|Substitute
+|-damage|p2a: Shaymin|27/100
+|move|p1a: Iron Hands|Ice Punch|p2a: Shaymin
+|-supereffective|p2a: Shaymin
+|-end|p2a: Shaymin|Substitute
+|
+|-heal|p2a: Shaymin|33/100|[from] item: Leftovers
+|-damage|p1a: Iron Hands|76/100|[from] Leech Seed|[of] p2a: Shaymin
+|-heal|p2a: Shaymin|47/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1758982671
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Shaymin|Protect||[still]
+|-fail|p2a: Shaymin
+|
+|-heal|p2a: Shaymin|53/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1758982681
+|switch|p2a: Manaphy|Manaphy|100/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|5
+|
+|t:|1758982693
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|move|p2a: Manaphy|Rain Dance|p2a: Manaphy
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1758982700
+|move|p1a: Ursaluna|Supercell Slam|p2a: Manaphy
+|-supereffective|p2a: Manaphy
+|-damage|p2a: Manaphy|0 fnt
+|faint|p2a: Manaphy
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1758982711
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|7
+|
+|t:|1758982716
+|move|p2a: Jirachi|Protect|p2a: Jirachi
+|-singleturn|p2a: Jirachi|Protect
+|move|p1a: Ursaluna|Headlong Rush|p2a: Jirachi
+|-activate|p2a: Jirachi|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1758982723
+|switch|p2a: Shaymin|Shaymin|53/100
+|move|p1a: Ursaluna|Headlong Rush|p2a: Shaymin
+|-resisted|p2a: Shaymin
+|-damage|p2a: Shaymin|9/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Shaymin|15/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|82/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|t:|1758982734
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Shaymin|Synthesis|p2a: Shaymin
+|-heal|p2a: Shaymin|40/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Shaymin|46/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758982748
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|11
+|
+|t:|1758982758
+|move|p1a: Hatterene|Mystical Fire|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|60/100
+|-unboost|p2a: Jirachi|spa|1
+|-damage|p1a: Hatterene|91/100|[from] item: Life Orb
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|66/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758982770
+|-terastallize|p1a: Hatterene|Stellar
+|move|p1a: Hatterene|Mystical Fire|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|21/100
+|-unboost|p2a: Jirachi|spa|1
+|-damage|p1a: Hatterene|81/100|[from] item: Life Orb
+|move|p2a: Jirachi|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|7/100
+|
+|-weather|none
+|-heal|p2a: Jirachi|71/100|[from] move: Wish|[wisher] Jirachi
+|-heal|p2a: Jirachi|77/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1758982791
+|move|p1a: Hatterene|Mystical Fire|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|4/100
+|-unboost|p2a: Jirachi|spa|1
+|-damage|p1a: Hatterene|0 fnt|[from] item: Life Orb
+|faint|p1a: Hatterene
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|10/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758982801
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|14
+|
+|t:|1758982811
+|move|p1a: Indeedee|Expanding Force|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758982821
+|switch|p2a: Shaymin|Shaymin|46/100
+|turn|15
+|
+|t:|1758982826
+|move|p2a: Shaymin|Leech Seed|p1a: Indeedee
+|-start|p1a: Indeedee|move: Leech Seed
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-heal|p2a: Shaymin|52/100|[from] item: Leftovers
+|-damage|p1a: Indeedee|88/100|[from] Leech Seed|[of] p2a: Shaymin
+|-heal|p2a: Shaymin|62/100|[silent]
+|upkeep
+|turn|16
+|
+|t:|1758982846
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|-enditem|p1a: Hoopa|Psychic Seed
+|-boost|p1a: Hoopa|spd|1|[from] item: Psychic Seed
+|move|p2a: Shaymin|Substitute|p2a: Shaymin
+|-start|p2a: Shaymin|Substitute
+|-damage|p2a: Shaymin|37/100
+|
+|-heal|p2a: Shaymin|44/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758982855
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Shaymin
+|-damage|p2a: Shaymin|0 fnt
+|-unboost|p1a: Hoopa|def|1
+|faint|p2a: Shaymin
+|-item|p1a: Hoopa|Leftovers|[from] ability: Magician|[of] p2: Shaymin
+|
+|upkeep
+|
+|t:|1758982863
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|18
+|
+|t:|1758982871
+|move|p1a: Hoopa|Expanding Force|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1758982873
+|switch|p2a: Mew|Mew|100/100
+|turn|19
+|
+|t:|1758982880
+|-terastallize|p2a: Mew|Electric
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Mew
+|-damage|p2a: Mew|45/100
+|-unboost|p1a: Hoopa|def|1
+|move|p2a: Mew|Nasty Plot|p2a: Mew
+|-boost|p2a: Mew|spa|2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|20
+|
+|t:|1758982891
+|move|p2a: Mew|Draining Kiss|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|64/100
+|-heal|p2a: Mew|74/100|[from] drain|[of] p1a: Hoopa
+|-damage|p2a: Mew|64/100|[from] item: Life Orb
+|move|p1a: Hoopa|Trick Room|p1a: Hoopa
+|-fieldstart|move: Trick Room|[of] p1a: Hoopa
+|
+|-heal|p1a: Hoopa|70/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1758982906
+|switch|p1a: Ursaluna|Ursaluna, F|82/100 brn
+|move|p2a: Mew|Draining Kiss|p1a: Ursaluna
+|-damage|p1a: Ursaluna|51/100 brn
+|-heal|p2a: Mew|96/100|[from] drain|[of] p1a: Ursaluna
+|-damage|p2a: Mew|86/100|[from] item: Life Orb
+|
+|-damage|p1a: Ursaluna|45/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|22
+|
+|t:|1758982915
+|move|p1a: Ursaluna|Headlong Rush|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Mew
+|
+|-damage|p1a: Ursaluna|39/100 brn|[from] brn
+|upkeep
+|
+|t:|1758982917
+|switch|p2a: Meloetta|Meloetta|100/100
+|turn|23
+|
+|t:|1758982925
+|move|p1a: Ursaluna|Facade|p2a: Meloetta
+|-damage|p2a: Meloetta|0 fnt
+|faint|p2a: Meloetta
+|
+|win|geniusandrei
+|raw|geniusandrei's rating: 1320 &rarr; <strong>1341</strong><br />(+21 for winning)
+|raw|mythicalmon's rating: 1333 &rarr; <strong>1312</strong><br />(-21 for losing)
+|l|☆mythicalmon
+|player|p2|
+|l|☆geniusandrei
+|player|p1|

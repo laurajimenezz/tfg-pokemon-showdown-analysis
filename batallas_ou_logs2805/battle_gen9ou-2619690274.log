@@ -1,0 +1,288 @@
+|j|☆Wyrdwind
+|j|☆itkenreiza
+|t:|1779949216
+|gametype|singles
+|player|p1|Wyrdwind|piers|1378
+|player|p2|itkenreiza|169|1320
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Great Tusk|
+|poke|p1|Garganacl, F|
+|poke|p1|Kingambit, M|
+|poke|p2|Darkrai|
+|poke|p2|Ogerpon, F|
+|poke|p2|Iron Crown|
+|poke|p2|Dragapult, M|
+|poke|p2|Whimsicott, F|
+|poke|p2|Rotom-Wash|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by itkenreiza)
+|inactive|Wyrdwind also wants the timer to be on.
+|
+|t:|1779949225
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1779949231
+|move|p2a: Whimsicott|Moonblast|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779949241
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|turn|2
+|
+|t:|1779949250
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespe
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779949256
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779949269
+|-terastallize|p1a: Dragapult|Ghost
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Dragapult
+|-damage|p1a: Dragapult|66/100
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|21/100
+|-hitcount|p1a: Dragapult|2
+|move|p1a: Dragapult|Shadow Ball|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779949276
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|4
+|
+|t:|1779949280
+|move|p2a: Dragapult|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779949285
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|-item|p1a: Kingambit|Air Balloon
+|turn|5
+|
+|t:|1779949288
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779949295
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Garganacl|Garganacl, F, shiny|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Garganacl
+|-immune|p1a: Garganacl|[from] ability: Purifying Salt
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1779949305
+|move|p2a: Rotom|Hydro Pump|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|32/100
+|move|p1a: Garganacl|Salt Cure|p2a: Rotom
+|-damage|p2a: Rotom|84/100
+|-start|p2a: Rotom|Salt Cure
+|
+|-heal|p1a: Garganacl|38/100|[from] item: Leftovers
+|-damage|p2a: Rotom|59/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1779949316
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Rotom|Hydro Pump|p1a: Rillaboom|[miss]
+|-miss|p2a: Rotom|p1a: Rillaboom
+|
+|-damage|p2a: Rotom|35/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1779949328
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|58/100
+|
+|-heal|p2a: Dragapult|64/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1779949332
+|move|p1a: Rillaboom|Grassy Glide|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|20/100
+|move|p2a: Dragapult|U-turn|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|28/100
+|
+|t:|1779949336
+|switch|p2a: Ogerpon|Ogerpon, F|100/100|[from] U-turn
+|
+|-heal|p1a: Rillaboom|34/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1779949340
+|move|p1a: Rillaboom|Grassy Glide|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|60/100
+|move|p2a: Ogerpon|U-turn|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|t:|1779949346
+|switch|p2a: Dragapult|Dragapult, M|20/100|[from] U-turn
+|
+|-heal|p2a: Dragapult|26/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779949353
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|-item|p1a: Kingambit|Air Balloon
+|turn|12
+|
+|t:|1779949357
+|move|p2a: Dragapult|U-turn|p1a: Kingambit
+|-damage|p1a: Kingambit|76/100
+|-enditem|p1a: Kingambit|Air Balloon
+|
+|t:|1779949361
+|switch|p2a: Rotom|Rotom-Wash|35/100|[from] U-turn
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Kingambit|59/100|[from] item: Rocky Helmet|[of] p2a: Rotom
+|faint|p2a: Rotom
+|
+|-heal|p1a: Kingambit|65/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1779949364
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|13
+|
+|t:|1779949372
+|move|p2a: Darkrai|Focus Blast|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|-damage|p2a: Darkrai|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779949377
+|switch|p1a: Garganacl|Garganacl, F, shiny|38/100
+|turn|14
+|
+|t:|1779949381
+|move|p2a: Darkrai|Focus Blast|p1a: Garganacl|[miss]
+|-miss|p2a: Darkrai|p1a: Garganacl
+|move|p1a: Garganacl|Body Press|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|4/100
+|
+|-heal|p1a: Garganacl|45/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1779949392
+|move|p2a: Darkrai|Focus Blast|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|-damage|p2a: Darkrai|0 fnt|[from] item: Life Orb
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1779949397
+|switch|p2a: Ogerpon|Ogerpon, F|60/100
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|turn|16
+|
+|t:|1779949406
+|move|p2a: Ogerpon|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|62/100
+|
+|t:|1779949408
+|switch|p2a: Dragapult|Dragapult, M|26/100|[from] U-turn
+|move|p1a: Slowking|Sludge Bomb|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|3/100
+|
+|upkeep
+|turn|17
+|c|☆Wyrdwind|Ggs
+|c|☆itkenreiza|gg
+|
+|t:|1779949421
+|move|p2a: Dragapult|Dragon Darts|p1a: Slowking
+|-damage|p1a: Slowking|23/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|win|itkenreiza
+|raw|Wyrdwind's rating: 1378 &rarr; <strong>1355</strong><br />(-23 for losing)
+|raw|itkenreiza's rating: 1320 &rarr; <strong>1343</strong><br />(+23 for winning)
+|l|☆itkenreiza
+|player|p2|
+|l|☆Wyrdwind
+|player|p1|

@@ -1,0 +1,341 @@
+|j|☆chochaloca
+|j|☆Kamas279
+|t:|1760720070
+|gametype|singles
+|player|p1|chochaloca|170|1260
+|player|p2|Kamas279|waiter|1277
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Bellibolt, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Pelipper, M|
+|poke|p2|Dodrio, M|
+|poke|p2|Drifblim, M|
+|poke|p2|Primarina, F|
+|poke|p2|Moltres|
+|poke|p2|Scizor, F|
+|poke|p2|Jolteon, F|
+|teampreview
+|
+|t:|1760720078
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1760720086
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Jolteon|Calm Mind|p2a: Jolteon
+|-boost|p2a: Jolteon|spa|1
+|-boost|p2a: Jolteon|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760720097
+|move|p2a: Jolteon|Alluring Voice|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760720109
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|3
+|
+|t:|1760720119
+|move|p1a: Barraskewda|Close Combat|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|faint|p2a: Jolteon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760720143
+|switch|p2a: Moltres|Moltres|100/100
+|turn|4
+|
+|t:|1760720148
+|switch|p1a: Bellibolt|Bellibolt, F|100/100
+|move|p2a: Moltres|Substitute|p2a: Moltres
+|-start|p2a: Moltres|Substitute
+|-damage|p2a: Moltres|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760720174
+|move|p2a: Moltres|Scorching Sands|p1a: Bellibolt
+|-supereffective|p1a: Bellibolt
+|-damage|p1a: Bellibolt|69/100
+|-start|p1a: Bellibolt|Charge|Scorching Sands|[from] ability: Electromorphosis
+|move|p1a: Bellibolt|Thunder|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-end|p2a: Moltres|Substitute
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760720195
+|move|p2a: Moltres|Scorching Sands|p1a: Bellibolt
+|-supereffective|p1a: Bellibolt
+|-damage|p1a: Bellibolt|36/100
+|-status|p1a: Bellibolt|brn
+|-start|p1a: Bellibolt|Charge|Scorching Sands|[from] ability: Electromorphosis
+|move|p1a: Bellibolt|Thunder|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Bellibolt|30/100 brn|[from] brn
+|upkeep
+|
+|t:|1760720205
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|7
+|
+|t:|1760720214
+|switch|p1a: Goodra|Goodra-Hisui, F, shiny|100/100
+|move|p2a: Scizor|U-turn|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|70/100
+|
+|t:|1760720251
+|switch|p2a: Drifblim|Drifblim, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760720257
+|move|p2a: Drifblim|Thunder Wave|p1a: Goodra
+|-status|p1a: Goodra|par
+|move|p1a: Goodra|Thunder|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|33/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1760720270
+|move|p2a: Drifblim|Hex|p1a: Goodra
+|-damage|p1a: Goodra|43/100 par
+|move|p1a: Goodra|Dragon Pulse|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|upkeep
+|
+|t:|1760720272
+|switch|p2a: Dodrio|Dodrio, M|100/100
+|turn|10
+|
+|t:|1760720280
+|move|p2a: Dodrio|Substitute|p2a: Dodrio
+|-start|p2a: Dodrio|Substitute
+|-damage|p2a: Dodrio|76/100
+|move|p1a: Goodra|Rest|p1a: Goodra
+|-status|p1a: Goodra|slp|[from] move: Rest
+|-heal|p1a: Goodra|100/100 slp|[silent]
+|-enditem|p1a: Goodra|Chesto Berry|[eat]
+|-curestatus|p1a: Goodra|slp|[msg]
+|
+|upkeep
+|turn|11
+|
+|t:|1760720291
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Dodrio|Swords Dance|p2a: Dodrio
+|-boost|p2a: Dodrio|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1760720307
+|move|p2a: Dodrio|Acrobatics|p1a: Pelipper
+|-damage|p1a: Pelipper|57/100
+|move|p1a: Pelipper|Hurricane|p2a: Dodrio
+|-end|p2a: Dodrio|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1760720316
+|move|p2a: Dodrio|Substitute|p2a: Dodrio
+|-start|p2a: Dodrio|Substitute
+|-damage|p2a: Dodrio|51/100
+|move|p1a: Pelipper|Hurricane|p2a: Dodrio
+|-end|p2a: Dodrio|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1760720323
+|move|p2a: Dodrio|Substitute|p2a: Dodrio
+|-start|p2a: Dodrio|Substitute
+|-damage|p2a: Dodrio|26/100
+|move|p1a: Pelipper|Hurricane|p2a: Dodrio
+|-end|p2a: Dodrio|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1760720331
+|move|p2a: Dodrio|Substitute|p2a: Dodrio
+|-start|p2a: Dodrio|Substitute
+|-damage|p2a: Dodrio|1/100
+|-enditem|p2a: Dodrio|Salac Berry|[eat]
+|-boost|p2a: Dodrio|spe|1|[from] item: Salac Berry
+|move|p1a: Pelipper|Hurricane|p2a: Dodrio
+|-end|p2a: Dodrio|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1760720341
+|move|p2a: Dodrio|Flail|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760720348
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|17
+|
+|t:|1760720355
+|switch|p2a: Primarina|Primarina, F|100/100
+|move|p1a: Barraskewda|Aqua Jet|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|70/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1760720364
+|switch|p1a: Goodra|Goodra-Hisui, F, shiny|100/100
+|move|p2a: Primarina|Whirlpool|p1a: Goodra|[miss]
+|-miss|p2a: Primarina|p1a: Goodra
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1760720377
+|switch|p1a: Bellibolt|Bellibolt, F|30/100 brn
+|move|p2a: Primarina|Whirlpool|p1a: Bellibolt|[miss]
+|-miss|p2a: Primarina|p1a: Bellibolt
+|
+|-damage|p1a: Bellibolt|24/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1760720386
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Bellibolt|Volt Switch|p2a: Scizor
+|-damage|p2a: Scizor|53/100
+|
+|t:|1760720394
+|switch|p1a: Barraskewda|Barraskewda, F|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|21
+|
+|t:|1760720403
+|move|p2a: Scizor|Bullet Punch|p1a: Barraskewda
+|-resisted|p1a: Barraskewda
+|-damage|p1a: Barraskewda|52/100
+|move|p1a: Barraskewda|Close Combat|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1760720406
+|switch|p2a: Primarina|Primarina, F|70/100
+|turn|22
+|
+|t:|1760720417
+|switch|p1a: Bellibolt|Bellibolt, F|24/100 brn
+|switch|p2a: Dodrio|Dodrio, M|1/100
+|
+|-damage|p1a: Bellibolt|18/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1760720427
+|-terastallize|p2a: Dodrio|Normal
+|move|p2a: Dodrio|Flail|p1a: Bellibolt
+|-damage|p1a: Bellibolt|0 fnt
+|faint|p1a: Bellibolt
+|
+|upkeep
+|
+|t:|1760720435
+|switch|p1a: Barraskewda|Barraskewda, F|52/100
+|turn|24
+|
+|t:|1760720441
+|switch|p2a: Primarina|Primarina, F|70/100
+|move|p1a: Barraskewda|Poison Jab|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1760720443
+|switch|p2a: Dodrio|Dodrio, M, tera:Normal|1/100
+|turn|25
+|
+|t:|1760720450
+|move|p1a: Barraskewda|Poison Jab|p2a: Dodrio
+|-crit|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|faint|p2a: Dodrio
+|
+|win|chochaloca
+|raw|chochaloca's rating: 1260 &rarr; <strong>1286</strong><br />(+26 for winning)
+|raw|Kamas279's rating: 1277 &rarr; <strong>1251</strong><br />(-26 for losing)
+|c|☆chochaloca|Gg

@@ -1,0 +1,299 @@
+|j|☆KuroNoTamashi
+|j|☆Gigatusk
+|t:|1760804059
+|gametype|singles
+|player|p1|KuroNoTamashi|101|1411
+|player|p2|Gigatusk|101|1498
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ursaluna, F|
+|poke|p1|Mimikyu, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Copperajah, F|
+|poke|p1|Crawdaunt, F|
+|poke|p1|Hoopa|
+|poke|p2|Dragonite, F|
+|poke|p2|Alomomola, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Valiant|
+|poke|p2|Skeledirge, M|
+|teampreview
+|j| wobuhaole
+|
+|t:|1760804101
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hoopa|Hoopa|100/100
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|1
+|
+|t:|1760804106
+|move|p2a: Skeledirge|Shadow Ball|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-enditem|p1a: Hoopa|Focus Sash
+|-damage|p1a: Hoopa|1/100
+|-unboost|p1a: Hoopa|spd|1
+|move|p1a: Hoopa|Shadow Ball|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|-item|p1a: Hoopa|Choice Scarf|[from] ability: Magician|[of] p2: Skeledirge
+|
+|upkeep
+|
+|t:|1760804111
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|turn|2
+|
+|t:|1760804116
+|move|p2a: Alomomola|Flip Turn|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|t:|1760804131
+|switch|p2a: Weezing|Weezing-Galar, F|100/100|[from] Flip Turn
+|-ability|p2a: Weezing|Neutralizing Gas
+|
+|upkeep
+|
+|t:|1760804135
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|3
+|
+|t:|1760804139
+|move|p2a: Weezing|Toxic|p1a: Hatterene
+|-status|p1a: Hatterene|tox
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-damage|p1a: Hatterene|95/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1760804144
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Hatterene|Future Sight|p2a: Alomomola
+|-start|p1a: Hatterene|move: Future Sight
+|
+|-damage|p1a: Hatterene|83/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1760804156
+|switch|p1a: Ursaluna|Ursaluna, F, shiny|100/100
+|move|p2a: Alomomola|Mirror Coat||[still]
+|-fail|p2a: Alomomola
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1760804165
+|-terastallize|p1a: Ursaluna|Normal
+|move|p1a: Ursaluna|Facade|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1760804172
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|7
+|
+|t:|1760804177
+|move|p1a: Ursaluna|Facade|p2a: Weezing
+|-damage|p2a: Weezing|22/100
+|move|p2a: Weezing|Strange Steam|p1a: Ursaluna
+|-damage|p1a: Ursaluna|71/100 brn
+|
+|-heal|p2a: Weezing|28/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|65/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1760804184
+|move|p2a: Weezing|Pain Split|p1a: Ursaluna
+|-sethp|p1a: Ursaluna|43/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|59/100|[from] move: Pain Split
+|move|p1a: Ursaluna|Facade|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|-damage|p1a: Ursaluna|36/100 brn|[from] brn
+|upkeep
+|
+|t:|1760804211
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|9
+|l|☆KuroNoTamashi
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gigatusk)
+|j|☆KuroNoTamashi
+|inactive|KuroNoTamashi reconnected and has 145 seconds left.
+|player|p1|KuroNoTamashi|101|
+|
+|t:|1760804249
+|switch|p1a: Hatterene|Hatterene, F|83/100 tox
+|move|p2a: Iron Valiant|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|10/100 tox
+|-unboost|p1a: Hatterene|spa|1
+|
+|-damage|p1a: Hatterene|4/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1760804252
+|move|p2a: Iron Valiant|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1760804255
+|switch|p1a: Copperajah|Copperajah, F, shiny|100/100
+|turn|11
+|
+|t:|1760804259
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Dragonite|Dragonite, F, shiny|100/100
+|move|p1a: Copperajah|Iron Head|p2a: Dragonite
+|-damage|p2a: Dragonite|74/100
+|
+|upkeep
+|turn|12
+|
+|t:|1760804275
+|move|p2a: Dragonite|Body Press|p1a: Copperajah
+|-supereffective|p1a: Copperajah
+|-damage|p1a: Copperajah|47/100
+|move|p1a: Copperajah|Play Rough|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1760804285
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|13
+|
+|t:|1760804292
+|move|p2a: Great Tusk|Headlong Rush|p1a: Copperajah
+|-supereffective|p1a: Copperajah
+|-damage|p1a: Copperajah|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Copperajah
+|
+|upkeep
+|
+|t:|1760804298
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|turn|14
+|
+|t:|1760804305
+|move|p2a: Great Tusk|Ice Spinner|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|upkeep
+|turn|15
+|
+|t:|1760804317
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|move|p1a: Mimikyu|Curse|p2a: Iron Valiant
+|-start|p2a: Iron Valiant|Curse|[of] p1a: Mimikyu
+|-damage|p1a: Mimikyu|38/100
+|
+|-damage|p2a: Iron Valiant|76/100|[from] Curse
+|upkeep
+|turn|16
+|
+|t:|1760804324
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Great Tusk
+|-damage|p2a: Great Tusk|88/100
+|
+|upkeep
+|turn|17
+|
+|t:|1760804335
+|move|p1a: Mimikyu|Curse|p2a: Great Tusk
+|-start|p2a: Great Tusk|Curse|[of] p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|move|p2a: Great Tusk|Headlong Rush|p1: Mimikyu|[notarget]
+|-fail|p2a: Great Tusk
+|
+|-damage|p2a: Great Tusk|64/100|[from] Curse
+|upkeep
+|
+|t:|1760804342
+|switch|p1a: Ursaluna|Ursaluna, F, shiny, tera:Normal|36/100 brn
+|turn|18
+|
+|t:|1760804345
+|move|p1a: Ursaluna|Facade|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p1a: Ursaluna|30/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760804346
+|switch|p2a: Iron Valiant|Iron Valiant|76/100
+|turn|19
+|
+|t:|1760804351
+|move|p2a: Iron Valiant|Moonblast|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1760804354
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|turn|20
+|
+|t:|1760804357
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|22/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|win|Gigatusk
+|raw|KuroNoTamashi's rating: 1411 &rarr; <strong>1396</strong><br />(-15 for losing)
+|raw|Gigatusk's rating: 1498 &rarr; <strong>1513</strong><br />(+15 for winning)
+|l|☆KuroNoTamashi
+|player|p1|
+|l|☆Gigatusk
+|player|p2|
+|l| wobuhaole

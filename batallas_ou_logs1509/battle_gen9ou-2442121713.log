@@ -1,0 +1,508 @@
+|j|☆OnArceus
+|j|☆KingPikaPika
+|t:|1757949890
+|gametype|singles
+|player|p1|OnArceus|#scl2spartans|1832
+|player|p2|KingPikaPika|pokekid|1787
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ursaluna, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Great Tusk|
+|poke|p1|Moltres|
+|poke|p1|Gholdengo|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Clefable, F|
+|poke|p2|Iron Treads|
+|poke|p2|Raging Bolt|
+|poke|p2|Ceruledge, F|
+|poke|p2|Darkrai|
+|teampreview
+|
+|t:|1757949902
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1757949905
+|move|p2a: Iron Treads|Stealth Rock|p1a: Slowking
+|-sidestart|p1: OnArceus|move: Stealth Rock
+|move|p1a: Slowking|Future Sight|p2a: Iron Treads
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KingPikaPika)
+|
+|t:|1757949908
+|move|p2a: Iron Treads|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|47/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1757949910
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Chilly Reception
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757949917
+|move|p2a: Iron Treads|Earth Power|p1a: Great Tusk
+|-damage|p1a: Great Tusk|52/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1757949924
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|turn|4
+|
+|t:|1757949930
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757949932
+|move|p2a: Ceruledge|Poltergeist|p1a: Moltres
+|-activate|p1a: Moltres|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Moltres|26/100
+|move|p1a: Moltres|Roar|p2a: Ceruledge
+|drag|p2a: Clefable|Clefable, F|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1757949938
+|switch|p2a: Darkrai|Darkrai|100/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|76/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1757949944
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|move|p2a: Darkrai|Dark Pulse|p1a: Ursaluna
+|-damage|p1a: Ursaluna|67/100
+|
+|-heal|p1a: Ursaluna|73/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1757949955
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|move|p1a: Ursaluna|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-heal|p1a: Ursaluna|79/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1757949958
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|move|p1a: Ursaluna|Protect||[still]
+|-fail|p1a: Ursaluna
+|
+|-heal|p1a: Ursaluna|85/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1757949962
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Ursaluna|Bulk Up|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|1
+|-boost|p1a: Ursaluna|def|1
+|
+|-heal|p1a: Ursaluna|91/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1757949969
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Ursaluna|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|-heal|p1a: Ursaluna|97/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1757949974
+|move|p2a: Ceruledge|Bitter Blade|p1a: Ursaluna
+|-damage|p1a: Ursaluna|33/100
+|-heal|p2a: Ceruledge|51/100|[from] drain|[of] p1a: Ursaluna
+|move|p1a: Ursaluna|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-heal|p1a: Ursaluna|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757949980
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|turn|13
+|
+|t:|1757949983
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Landorus|Bulk Up|p2a: Landorus
+|-boost|p2a: Landorus|atk|1
+|-boost|p2a: Landorus|def|1
+|
+|-heal|p1a: Ursaluna|45/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1757949990
+|move|p2a: Landorus|Substitute|p2a: Landorus
+|-start|p2a: Landorus|Substitute
+|-damage|p2a: Landorus|76/100
+|move|p1a: Ursaluna|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-end|p2a: Landorus|Substitute
+|
+|-heal|p2a: Landorus|82/100|[from] item: Leftovers
+|-heal|p1a: Ursaluna|51/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1757949996
+|-terastallize|p2a: Landorus|Water
+|move|p2a: Landorus|Bulk Up|p2a: Landorus
+|-boost|p2a: Landorus|atk|1
+|-boost|p2a: Landorus|def|1
+|move|p1a: Ursaluna|Ice Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|78/100
+|
+|-heal|p2a: Landorus|84/100|[from] item: Leftovers
+|-heal|p1a: Ursaluna|58/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1757950001
+|move|p2a: Landorus|Substitute|p2a: Landorus
+|-start|p2a: Landorus|Substitute
+|-damage|p2a: Landorus|59/100
+|move|p1a: Ursaluna|Bulk Up|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|1
+|-boost|p1a: Ursaluna|def|1
+|
+|-heal|p2a: Landorus|65/100|[from] item: Leftovers
+|-heal|p1a: Ursaluna|64/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1757950006
+|move|p2a: Landorus|Bulk Up|p2a: Landorus
+|-boost|p2a: Landorus|atk|1
+|-boost|p2a: Landorus|def|1
+|move|p1a: Ursaluna|Bulk Up|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|1
+|-boost|p1a: Ursaluna|def|1
+|
+|-heal|p2a: Landorus|71/100|[from] item: Leftovers
+|-heal|p1a: Ursaluna|70/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1757950009
+|move|p2a: Landorus|Bulk Up|p2a: Landorus
+|-boost|p2a: Landorus|atk|1
+|-boost|p2a: Landorus|def|1
+|move|p1a: Ursaluna|Bulk Up|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|1
+|-boost|p1a: Ursaluna|def|1
+|
+|-heal|p2a: Landorus|77/100|[from] item: Leftovers
+|-heal|p1a: Ursaluna|76/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1757950013
+|move|p2a: Landorus|Bulk Up|p2a: Landorus
+|-boost|p2a: Landorus|atk|1
+|-boost|p2a: Landorus|def|1
+|move|p1a: Ursaluna|Bulk Up|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|1
+|-boost|p1a: Ursaluna|def|1
+|
+|-heal|p2a: Landorus|83/100|[from] item: Leftovers
+|-heal|p1a: Ursaluna|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1757950016
+|move|p2a: Landorus|Bulk Up|p2a: Landorus
+|-boost|p2a: Landorus|atk|1
+|-boost|p2a: Landorus|def|1
+|move|p1a: Ursaluna|Bulk Up|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|1
+|-boost|p1a: Ursaluna|def|1
+|
+|-heal|p2a: Landorus|89/100|[from] item: Leftovers
+|-heal|p1a: Ursaluna|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1757950019
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Landorus|Earthquake|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-heal|p2a: Landorus|95/100|[from] item: Leftovers
+|-heal|p1a: Ursaluna|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1757950020
+|move|p2a: Landorus|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|61/100
+|move|p1a: Ursaluna|Earthquake|p2a: Landorus
+|-end|p2a: Landorus|Substitute
+|
+|-heal|p2a: Landorus|100/100|[from] item: Leftovers
+|-heal|p1a: Ursaluna|67/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1757950024
+|move|p2a: Landorus|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|35/100
+|move|p1a: Ursaluna|Earthquake|p2a: Landorus
+|-damage|p2a: Landorus|70/100
+|
+|-heal|p2a: Landorus|76/100|[from] item: Leftovers
+|-heal|p1a: Ursaluna|41/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1757950028
+|move|p2a: Landorus|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|7/100
+|move|p1a: Ursaluna|Earthquake|p2a: Landorus
+|-damage|p2a: Landorus|41/100
+|
+|-heal|p2a: Landorus|47/100|[from] item: Leftovers
+|-heal|p1a: Ursaluna|13/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|j| FaronAan
+|
+|t:|1757950034
+|move|p2a: Landorus|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-heal|p2a: Landorus|53/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757950035
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|turn|26
+|
+|t:|1757950038
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Meowscarada|Flower Trick|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-crit|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|76/100
+|
+|upkeep
+|turn|27
+|
+|t:|1757950050
+|move|p1a: Meowscarada|U-turn|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|56/100
+|
+|t:|1757950051
+|switch|p1a: Moltres|Moltres|76/100|[from] U-turn
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Moltres
+|-damage|p1a: Moltres|10/100
+|
+|upkeep
+|turn|28
+|
+|t:|1757950056
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1757950057
+|switch|p1a: Great Tusk|Great Tusk|52/100
+|-damage|p1a: Great Tusk|49/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1757950059
+|move|p1a: Great Tusk|Headlong Rush|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1757950075
+|switch|p2a: Landorus|Landorus-Therian, M, tera:Water|53/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|turn|30
+|
+|t:|1757950078
+|move|p2a: Landorus|Bulk Up|p2a: Landorus
+|-boost|p2a: Landorus|atk|1
+|-boost|p2a: Landorus|def|1
+|move|p1a: Great Tusk|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|45/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: OnArceus|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p2a: Landorus|51/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1757950082
+|move|p1a: Great Tusk|Headlong Rush|p2a: Landorus
+|-damage|p2a: Landorus|24/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Landorus|Substitute|p2a: Landorus
+|-fail|p2a: Landorus|move: Substitute|[weak]
+|
+|-heal|p2a: Landorus|30/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1757950086
+|move|p1a: Great Tusk|Stealth Rock|p2a: Landorus
+|-sidestart|p2: KingPikaPika|move: Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Landorus|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757950089
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|turn|33
+|
+|t:|1757950091
+|move|p1a: Meowscarada|Flower Trick|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1757950093
+|switch|p2a: Darkrai|Darkrai|100/100
+|-damage|p2a: Darkrai|88/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1757950095
+|move|p2a: Darkrai|Trick|p1a: Meowscarada
+|-activate|p2a: Darkrai|move: Trick|[of] p1a: Meowscarada
+|-item|p1a: Meowscarada|Choice Scarf|[from] move: Trick
+|-item|p2a: Darkrai|Heavy-Duty Boots|[from] move: Trick
+|move|p1a: Meowscarada|U-turn|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|30/100
+|
+|t:|1757950099
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|
+|upkeep
+|turn|35
+|
+|t:|1757950102
+|move|p1a: Gholdengo|Make It Rain|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1757950104
+|switch|p2a: Clefable|Clefable, F|100/100
+|-damage|p2a: Clefable|88/100|[from] Stealth Rock
+|turn|36
+|
+|t:|1757950106
+|move|p1a: Gholdengo|Make It Rain|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Clefable
+|
+|win|OnArceus
+|raw|OnArceus's rating: 1832 &rarr; <strong>1849</strong><br />(+17 for winning)
+|raw|KingPikaPika's rating: 1787 &rarr; <strong>1770</strong><br />(-17 for losing)
+|l|☆KingPikaPika
+|player|p2|
+|c|☆OnArceus|Gg
+|l| FaronAan
+|l|☆OnArceus
+|player|p1|
+|j| ebizi
+|l| ebizi

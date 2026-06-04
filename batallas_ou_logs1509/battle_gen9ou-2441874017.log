@@ -1,0 +1,539 @@
+|j|☆UltraAero
+|j|☆DivinePunishment5
+|t:|1757914925
+|gametype|singles
+|player|p1|UltraAero|dawn-gen4pt|1241
+|player|p2|DivinePunishment5|skierf|1264
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sylveon, F|
+|poke|p1|Gliscor, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Vaporeon, M|
+|poke|p1|Iron Moth|
+|poke|p1|Raichu-Alola, F|
+|poke|p2|Primarina, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Iron Treads|
+|poke|p2|Zapdos|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DivinePunishment5)
+|
+|t:|1757914928
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Mika|Meowscarada, F|100/100
+|turn|1
+|
+|t:|1757914946
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Mika|U-turn|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|92/100
+|
+|t:|1757914954
+|switch|p2a: King Wall|Slowking-Galar, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1757914960
+|move|p1a: Iron Moth|Fiery Dance|p2a: King Wall
+|-damage|p2a: King Wall|68/100
+|move|p2a: King Wall|Future Sight|p1a: Iron Moth
+|-start|p2a: King Wall|move: Future Sight
+|
+|upkeep
+|turn|3
+|
+|t:|1757914969
+|move|p1a: Iron Moth|Fiery Dance|p2a: King Wall
+|-damage|p2a: King Wall|31/100
+|-boost|p1a: Iron Moth|spa|1
+|-prepare|p2a: King Wall|Chilly Reception|[premajor]
+|move|p2a: King Wall|Chilly Reception|p2a: King Wall
+|-weather|Snowscape
+|
+|t:|1757914978
+|switch|p2a: Feesh|Alomomola, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757914982
+|switch|p2a: King Wall|Slowking-Galar, M|65/100
+|move|p1a: Iron Moth|Electric Terrain|p1a: Iron Moth
+|-fieldstart|move: Electric Terrain
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Iron Moth|move: Future Sight
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|upkeep
+|
+|t:|1757914989
+|switch|p1a: Raichu|Raichu-Alola, F|100/100
+|turn|5
+|
+|t:|1757915004
+|move|p1a: Raichu|Nasty Plot|p1a: Raichu
+|-boost|p1a: Raichu|spa|2
+|-prepare|p2a: King Wall|Chilly Reception|[premajor]
+|move|p2a: King Wall|Chilly Reception|p2a: King Wall
+|
+|t:|1757915008
+|switch|p2a: Iron Elephant|Iron Treads|100/100|[from] Chilly Reception
+|-activate|p2a: Iron Elephant|ability: Quark Drive
+|-start|p2a: Iron Elephant|quarkdrivespe
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1757915022
+|move|p1a: Raichu|Surf|p2a: Iron Elephant
+|-supereffective|p2a: Iron Elephant
+|-damage|p2a: Iron Elephant|0 fnt
+|faint|p2a: Iron Elephant
+|-end|p2a: Iron Elephant|Quark Drive|[silent]
+|-damage|p1a: Raichu|91/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757915027
+|switch|p2a: Mika|Meowscarada, F|100/100
+|turn|7
+|
+|t:|1757915032
+|move|p1a: Raichu|Thunderbolt|p2a: Mika
+|-resisted|p2a: Mika
+|-damage|p2a: Mika|2/100
+|-damage|p1a: Raichu|81/100|[from] item: Life Orb
+|move|p2a: Mika|Knock Off|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|-enditem|p1a: Raichu|Life Orb|[from] move: Knock Off|[of] p2a: Mika
+|faint|p1a: Raichu
+|
+|-weather|none
+|upkeep
+|
+|t:|1757915041
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|8
+|
+|t:|1757915045
+|move|p1a: Cinderace|Sucker Punch|p2a: Mika
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-resisted|p2a: Mika
+|-damage|p2a: Mika|0 fnt
+|faint|p2a: Mika
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1757915050
+|switch|p2a: Beloved|Primarina, F, shiny|100/100
+|turn|9
+|
+|t:|1757915053
+|move|p1a: Cinderace|U-turn|p2a: Beloved
+|-resisted|p2a: Beloved
+|-damage|p2a: Beloved|88/100
+|
+|t:|1757915056
+|switch|p1a: Vaporeon|Vaporeon, M|100/100|[from] U-turn
+|move|p2a: Beloved|Calm Mind|p2a: Beloved
+|-boost|p2a: Beloved|spa|1
+|-boost|p2a: Beloved|spd|1
+|
+|-heal|p2a: Beloved|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1757915064
+|move|p1a: Vaporeon|Calm Mind|p1a: Vaporeon
+|-boost|p1a: Vaporeon|spa|1
+|-boost|p1a: Vaporeon|spd|1
+|move|p2a: Beloved|Calm Mind|p2a: Beloved
+|-boost|p2a: Beloved|spa|1
+|-boost|p2a: Beloved|spd|1
+|
+|-heal|p2a: Beloved|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1757915071
+|move|p1a: Vaporeon|Calm Mind|p1a: Vaporeon
+|-boost|p1a: Vaporeon|spa|1
+|-boost|p1a: Vaporeon|spd|1
+|move|p2a: Beloved|Calm Mind|p2a: Beloved
+|-boost|p2a: Beloved|spa|1
+|-boost|p2a: Beloved|spd|1
+|
+|-heal|p2a: Beloved|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1757915078
+|move|p1a: Vaporeon|Calm Mind|p1a: Vaporeon
+|-boost|p1a: Vaporeon|spa|1
+|-boost|p1a: Vaporeon|spd|1
+|move|p2a: Beloved|Moonblast|p1a: Vaporeon
+|-damage|p1a: Vaporeon|63/100
+|-unboost|p1a: Vaporeon|spa|1
+|
+|-heal|p1a: Vaporeon|69/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1757915087
+|move|p1a: Vaporeon|Calm Mind|p1a: Vaporeon
+|-boost|p1a: Vaporeon|spa|1
+|-boost|p1a: Vaporeon|spd|1
+|move|p2a: Beloved|Calm Mind|p2a: Beloved
+|-boost|p2a: Beloved|spa|1
+|-boost|p2a: Beloved|spd|1
+|
+|-heal|p1a: Vaporeon|75/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1757915094
+|move|p1a: Vaporeon|Calm Mind|p1a: Vaporeon
+|-boost|p1a: Vaporeon|spa|1
+|-boost|p1a: Vaporeon|spd|1
+|move|p2a: Beloved|Calm Mind|p2a: Beloved
+|-boost|p2a: Beloved|spa|1
+|-boost|p2a: Beloved|spd|1
+|
+|-heal|p1a: Vaporeon|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1757915101
+|move|p1a: Vaporeon|Calm Mind|p1a: Vaporeon
+|-boost|p1a: Vaporeon|spa|1
+|-boost|p1a: Vaporeon|spd|1
+|move|p2a: Beloved|Calm Mind|p2a: Beloved
+|-boost|p2a: Beloved|spa|1
+|-boost|p2a: Beloved|spd|1
+|
+|-heal|p1a: Vaporeon|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1757915108
+|move|p1a: Vaporeon|Scald|p2a: Beloved
+|-resisted|p2a: Beloved
+|-damage|p2a: Beloved|85/100
+|move|p2a: Beloved|Psychic Noise|p1a: Vaporeon
+|-damage|p1a: Vaporeon|66/100
+|-start|p1a: Vaporeon|move: Heal Block
+|
+|-heal|p2a: Beloved|91/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1757915117
+|move|p1a: Vaporeon|Scald|p2a: Beloved
+|-resisted|p2a: Beloved
+|-damage|p2a: Beloved|76/100
+|move|p2a: Beloved|Moonblast|p1a: Vaporeon
+|-damage|p1a: Vaporeon|25/100
+|
+|-heal|p2a: Beloved|82/100|[from] item: Leftovers
+|-end|p1a: Vaporeon|move: Heal Block
+|upkeep
+|turn|18
+|
+|t:|1757915125
+|move|p1a: Vaporeon|Scald|p2a: Beloved
+|-resisted|p2a: Beloved
+|-damage|p2a: Beloved|67/100
+|move|p2a: Beloved|Moonblast|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-heal|p2a: Beloved|73/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757915134
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|turn|19
+|
+|t:|1757915138
+|move|p1a: Gliscor|Knock Off|p2a: Beloved
+|-resisted|p2a: Beloved
+|-damage|p2a: Beloved|57/100
+|-enditem|p2a: Beloved|Leftovers|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Beloved|Surf|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1757915146
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|20
+|
+|t:|1757915149
+|move|p1a: Cinderace|Iron Head|p2a: Beloved
+|-start|p1a: Cinderace|typechange|Steel|[from] ability: Libero
+|-damage|p2a: Beloved|9/100
+|cant|p2a: Beloved|flinch
+|
+|upkeep
+|turn|21
+|
+|t:|1757915155
+|switch|p2a: Feesh|Alomomola, F|100/100
+|move|p1a: Cinderace|Iron Head|p2a: Feesh
+|-resisted|p2a: Feesh
+|-damage|p2a: Feesh|90/100
+|
+|-heal|p2a: Feesh|96/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1757915162
+|move|p1a: Cinderace|U-turn|p2a: Feesh
+|-damage|p2a: Feesh|84/100
+|
+|t:|1757915164
+|switch|p1a: Sylveon|Sylveon, F|100/100|[from] U-turn
+|move|p2a: Feesh|Wish|p2a: Feesh
+|
+|-heal|p2a: Feesh|90/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1757915170
+|move|p2a: Feesh|Flip Turn|p1a: Sylveon
+|-damage|p1a: Sylveon|84/100
+|
+|t:|1757915174
+|switch|p2a: King Wall|Slowking-Galar, M|98/100|[from] Flip Turn
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|
+|-heal|p2a: King Wall|100/100|[from] move: Wish|[wisher] Feesh
+|upkeep
+|turn|24
+|l|☆UltraAero
+|inactive|UltraAero disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆UltraAero
+|inactive|UltraAero reconnected and has 140 seconds left.
+|player|p1|UltraAero|dawn-gen4pt|
+|
+|t:|1757915189
+|move|p1a: Sylveon|Substitute|p1a: Sylveon
+|-start|p1a: Sylveon|Substitute
+|-damage|p1a: Sylveon|59/100
+|move|p2a: King Wall|Toxic||[still]
+|-fail|p2a: King Wall
+|
+|upkeep
+|turn|25
+|
+|t:|1757915197
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|move|p2a: King Wall|Sludge Wave|p1a: Sylveon
+|-supereffective|p1a: Sylveon
+|-end|p1a: Sylveon|Substitute
+|
+|upkeep
+|turn|26
+|
+|t:|1757915209
+|-terastallize|p1a: Sylveon|Normal
+|move|p1a: Sylveon|Hyper Voice|p2a: King Wall
+|-resisted|p2a: King Wall
+|-damage|p2a: King Wall|71/100
+|move|p2a: King Wall|Sludge Wave|p1a: Sylveon
+|-damage|p1a: Sylveon|47/100
+|
+|upkeep
+|turn|27
+|
+|t:|1757915219
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|move|p2a: King Wall|Toxic|p1a: Sylveon
+|-status|p1a: Sylveon|tox
+|
+|-damage|p1a: Sylveon|41/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1757915225
+|move|p1a: Sylveon|Draining Kiss|p2a: King Wall
+|-resisted|p2a: King Wall
+|-damage|p2a: King Wall|51/100
+|-heal|p1a: Sylveon|56/100 tox|[from] drain|[of] p2a: King Wall
+|move|p2a: King Wall|Future Sight|p1a: Sylveon
+|-start|p2a: King Wall|move: Future Sight
+|
+|-damage|p1a: Sylveon|44/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1757915232
+|move|p1a: Sylveon|Hyper Voice|p2a: King Wall
+|-resisted|p2a: King Wall
+|-damage|p2a: King Wall|10/100
+|-prepare|p2a: King Wall|Chilly Reception|[premajor]
+|move|p2a: King Wall|Chilly Reception|p2a: King Wall
+|-weather|Snowscape
+|
+|t:|1757915235
+|switch|p2a: Feesh|Alomomola, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Sylveon|26/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1757915242
+|move|p2a: Feesh|Wish|p2a: Feesh
+|move|p1a: Sylveon|Draining Kiss|p2a: Feesh
+|-damage|p2a: Feesh|25/100
+|-heal|p1a: Sylveon|100/100 tox|[from] drain|[of] p2a: Feesh
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Sylveon|move: Future Sight
+|-damage|p1a: Sylveon|89/100 tox
+|-heal|p2a: Feesh|31/100|[from] item: Leftovers
+|-damage|p1a: Sylveon|65/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1757915253
+|move|p2a: Feesh|Protect|p2a: Feesh
+|-singleturn|p2a: Feesh|Protect
+|move|p1a: Sylveon|Hyper Voice|p2a: Feesh
+|-activate|p2a: Feesh|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Feesh|81/100|[from] move: Wish|[wisher] Feesh
+|-heal|p2a: Feesh|87/100|[from] item: Leftovers
+|-damage|p1a: Sylveon|34/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1757915263
+|move|p2a: Feesh|Wish|p2a: Feesh
+|move|p1a: Sylveon|Draining Kiss|p2a: Feesh
+|-damage|p2a: Feesh|14/100
+|-heal|p1a: Sylveon|100/100 tox|[from] drain|[of] p2a: Feesh
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Feesh|20/100|[from] item: Leftovers
+|-damage|p1a: Sylveon|64/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1757915270
+|move|p2a: Feesh|Protect|p2a: Feesh
+|-singleturn|p2a: Feesh|Protect
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|
+|-weather|none
+|-heal|p2a: Feesh|70/100|[from] move: Wish|[wisher] Feesh
+|-heal|p2a: Feesh|76/100|[from] item: Leftovers
+|-damage|p1a: Sylveon|21/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1757915280
+|move|p2a: Feesh|Wish|p2a: Feesh
+|move|p1a: Sylveon|Draining Kiss|p2a: Feesh
+|-damage|p2a: Feesh|0 fnt
+|-heal|p1a: Sylveon|98/100 tox|[from] drain|[of] p2a: Feesh
+|faint|p2a: Feesh
+|
+|-damage|p1a: Sylveon|49/100 tox|[from] psn
+|upkeep
+|
+|t:|1757915290
+|switch|p2a: King Wall|Slowking-Galar, M|43/100
+|turn|35
+|
+|t:|1757915294
+|move|p1a: Sylveon|Hyper Voice|p2a: King Wall
+|-resisted|p2a: King Wall
+|-damage|p2a: King Wall|0 fnt
+|faint|p2a: King Wall
+|
+|-damage|p1a: Sylveon|0 fnt|[from] psn
+|faint|p1a: Sylveon
+|upkeep
+|
+|t:|1757915300
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Loftwing|Zapdos|100/100
+|turn|36
+|
+|t:|1757915305
+|move|p1a: Cinderace|Pyro Ball|p2a: Loftwing
+|-damage|p2a: Loftwing|28/100
+|move|p2a: Loftwing|Thunderbolt|p1a: Cinderace
+|-damage|p1a: Cinderace|32/100
+|
+|upkeep
+|turn|37
+|
+|t:|1757915311
+|move|p1a: Cinderace|Pyro Ball|p2a: Loftwing
+|-crit|p2a: Loftwing
+|-damage|p2a: Loftwing|0 fnt
+|faint|p2a: Loftwing
+|
+|upkeep
+|
+|t:|1757915313
+|switch|p2a: Beloved|Primarina, F, shiny|9/100
+|turn|38
+|
+|t:|1757915316
+|move|p1a: Cinderace|Iron Head|p2a: Beloved
+|-start|p1a: Cinderace|typechange|Steel|[from] ability: Libero
+|-damage|p2a: Beloved|0 fnt
+|faint|p2a: Beloved
+|
+|win|UltraAero
+|raw|UltraAero's rating: 1241 &rarr; <strong>1268</strong><br />(+27 for winning)
+|raw|DivinePunishment5's rating: 1264 &rarr; <strong>1237</strong><br />(-27 for losing)
+|l|☆DivinePunishment5
+|player|p2|
+|l|☆UltraAero
+|player|p1|

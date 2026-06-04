@@ -1,0 +1,234 @@
+|j|☆ssss umeno
+|j|☆edollas
+|t:|1759053887
+|gametype|singles
+|player|p1|ssss umeno|101|1201
+|player|p2|edollas|biker-gen4|1262
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Zapdos|
+|poke|p1|Sandy Shocks|
+|poke|p1|Scizor, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Great Tusk|
+|poke|p2|Golurk|
+|poke|p2|Talonflame, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Gholdengo|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ssss umeno)
+|
+|t:|1759053900
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1759053917
+|switch|p2a: Golurk|Golurk|100/100
+|move|p1a: Sandy Shocks|Stealth Rock|p2a: Golurk
+|-sidestart|p2: edollas|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1759053923
+|move|p1a: Sandy Shocks|Earth Power|p2a: Golurk
+|-damage|p2a: Golurk|53/100
+|move|p2a: Golurk|Trick|p1a: Sandy Shocks
+|-activate|p2a: Golurk|move: Trick|[of] p1a: Sandy Shocks
+|-item|p1a: Sandy Shocks|Sticky Barb|[from] move: Trick
+|-enditem|p2a: Golurk|Sticky Barb|[silent]|[from] move: Trick
+|
+|-damage|p1a: Sandy Shocks|88/100|[from] item: Sticky Barb
+|upkeep
+|turn|3
+|
+|t:|1759053944
+|-terastallize|p1a: Sandy Shocks|Ice
+|move|p1a: Sandy Shocks|Tera Blast|p2a: Golurk|[anim] Tera Blast Ice
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|-damage|p1a: Sandy Shocks|76/100|[from] item: Sticky Barb
+|upkeep
+|
+|t:|1759053961
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-damage|p2a: Tinkaton|94/100|[from] Stealth Rock
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|turn|4
+|
+|t:|1759053970
+|move|p1a: Sandy Shocks|Earth Power|p2a: Tinkaton
+|-immune|p2a: Tinkaton
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Sandy Shocks
+|-supereffective|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|inactive|ssss umeno has 120 seconds left.
+|
+|t:|1759054004
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|5
+|inactive|ssss umeno has 120 seconds left.
+|
+|t:|1759054016
+|move|p2a: Tinkaton|Thunder Wave|p1a: Pelipper
+|-status|p1a: Pelipper|par
+|cant|p1a: Pelipper|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|inactive|ssss umeno has 120 seconds left.
+|
+|t:|1759054041
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|move|p1a: Pelipper|U-turn|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|92/100
+|inactive|ssss umeno has 120 seconds left.
+|
+|t:|1759054061
+|switch|p1a: Scizor|Scizor, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|inactive|edollas has 120 seconds left.
+|
+|t:|1759054087
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Scizor|Thief|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|86/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|inactive|ssss umeno has 120 seconds left.
+|inactive|edollas has 120 seconds left.
+|
+|t:|1759054097
+|move|p2a: Great Tusk|Rapid Spin|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|89/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: edollas|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Scizor|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|68/100
+|
+|t:|1759054108
+|switch|p1a: Greninja|Greninja, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1759054121
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Tinkaton|Tinkaton, F|94/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|move|p1a: Greninja|Surf|p2a: Tinkaton
+|-damage|p2a: Tinkaton|17/100
+|-enditem|p2a: Tinkaton|Air Balloon
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|inactive|ssss umeno has 120 seconds left.
+|
+|t:|1759054131
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Greninja|Dark Pulse|p2a: Ogerpon
+|-damage|p2a: Ogerpon|43/100
+|-damage|p1a: Greninja|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|inactive|ssss umeno has 120 seconds left.
+|
+|t:|1759054146
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Greninja|Ice Beam|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|30/100
+|-damage|p1a: Greninja|71/100|[from] item: Life Orb
+|move|p2a: Ogerpon|Synthesis|p2a: Ogerpon
+|-heal|p2a: Ogerpon|55/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|inactive|ssss umeno has 120 seconds left.
+|
+|t:|1759054158
+|move|p1a: Greninja|Dark Pulse|p2a: Ogerpon
+|-damage|p2a: Ogerpon|19/100
+|-damage|p1a: Greninja|61/100|[from] item: Life Orb
+|cant|p2a: Ogerpon|flinch
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1759054165
+|move|p1a: Greninja|Dark Pulse|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|-damage|p1a: Greninja|51/100|[from] item: Life Orb
+|
+|upkeep
+|-message|edollas forfeited.
+|
+|win|ssss umeno
+|raw|ssss umeno's rating: 1201 &rarr; <strong>1230</strong><br />(+29 for winning)
+|raw|edollas's rating: 1262 &rarr; <strong>1233</strong><br />(-29 for losing)
+|l|☆edollas
+|player|p2|

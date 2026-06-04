@@ -1,0 +1,334 @@
+|j|☆Notarealanon
+|j|☆babajeje
+|t:|1760718982
+|gametype|singles
+|player|p1|Notarealanon|burglar|1367
+|player|p2|babajeje|101|1312
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Deoxys-Speed|
+|poke|p1|Primarina, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Kyurem|
+|poke|p1|Ting-Lu|
+|poke|p2|Medicham, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Zapdos|
+|poke|p2|Girafarig, M|
+|poke|p2|Ribombee, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|
+|t:|1760719006
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|t:|1760719012
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|move|p1a: Deoxys|Stealth Rock|p2a: Ribombee
+|-sidestart|p2: babajeje|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1760719015
+|move|p1a: Deoxys|Taunt|p2a: Ribombee
+|-start|p2a: Ribombee|move: Taunt
+|move|p2a: Ribombee|Pounce|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|71/100
+|-unboost|p1a: Deoxys|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1760719019
+|move|p2a: Ribombee|Moonblast|p1a: Deoxys
+|-damage|p1a: Deoxys|21/100
+|move|p1a: Deoxys|Psycho Boost|p2a: Ribombee
+|-damage|p2a: Ribombee|23/100
+|-unboost|p1a: Deoxys|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1760719024
+|move|p2a: Ribombee|Moonblast|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|-end|p2a: Ribombee|move: Taunt
+|upkeep
+|
+|t:|1760719027
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|5
+|
+|t:|1760719032
+|move|p1a: Dragapult|Hex|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1760719054
+|switch|p2a: Girafarig|Girafarig, M|100/100
+|-damage|p2a: Girafarig|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1760719059
+|move|p1a: Dragapult|U-turn|p2a: Girafarig
+|-supereffective|p2a: Girafarig
+|-damage|p2a: Girafarig|46/100
+|
+|t:|1760719061
+|switch|p1a: Kyurem|Kyurem|100/100|[from] U-turn
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Girafarig|Calm Mind|p2a: Girafarig
+|-boost|p2a: Girafarig|spa|1
+|-boost|p2a: Girafarig|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1760719063
+|move|p1a: Kyurem|Draco Meteor|p2a: Girafarig
+|-damage|p2a: Girafarig|0 fnt
+|-unboost|p1a: Kyurem|spa|2
+|faint|p2a: Girafarig
+|
+|upkeep
+|
+|t:|1760719068
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|8
+|
+|t:|1760719072
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Kingambit|Iron Head|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|77/100
+|
+|-heal|p1a: Corviknight|84/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760719076
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Corviknight|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|94/100
+|-status|p1a: Corviknight|par|[from] ability: Static|[of] p2a: Zapdos
+|
+|t:|1760719079
+|switch|p1a: Kyurem|Kyurem|100/100|[from] U-turn
+|-ability|p1a: Kyurem|Pressure
+|
+|upkeep
+|turn|10
+|
+|t:|1760719087
+|move|p1a: Kyurem|Freeze-Dry|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1760719090
+|switch|p2a: Kingambit|Kingambit, M|94/100
+|-damage|p2a: Kingambit|88/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|11
+|
+|t:|1760719093
+|switch|p1a: Corviknight|Corviknight, F|84/100 par
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Corviknight
+|-damage|p1a: Corviknight|21/100 par
+|
+|-heal|p1a: Corviknight|27/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1760719096
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1760719102
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|13
+|
+|t:|1760719106
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Medicham|Medicham, F|100/100
+|-damage|p2a: Medicham|94/100|[from] Stealth Rock
+|move|p1a: Ting-Lu|Earthquake|p2a: Medicham
+|-damage|p2a: Medicham|27/100
+|
+|upkeep
+|turn|14
+|
+|t:|1760719110
+|move|p2a: Medicham|Ice Punch|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|68/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|faint|p2a: Medicham
+|
+|-heal|p1a: Ting-Lu|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760719115
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1760719118
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Ting-Lu|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|27/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: Ogerpon
+|drag|p2a: Kingambit|Kingambit, M|88/100
+|-damage|p2a: Kingambit|82/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|
+|-heal|p1a: Ting-Lu|34/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1760719122
+|move|p2a: Kingambit|Iron Head|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|5/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|28/100
+|
+|-heal|p1a: Ting-Lu|12/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1760719125
+|move|p2a: Kingambit|Iron Head|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1760719127
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|18
+|
+|t:|1760719130
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Sucker Punch|p1a: Kyurem
+|-damage|p1a: Kyurem|20/100
+|move|p1a: Kyurem|Earth Power|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1760719133
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|88/100
+|-damage|p2a: Ogerpon|76/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1760719141
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Kyurem|Earth Power|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|48/100
+|
+|upkeep
+|turn|20
+|
+|t:|1760719143
+|move|p2a: Ogerpon|Horn Leech|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-heal|p2a: Ogerpon|60/100|[from] drain|[of] p1a: Kyurem
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1760719146
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|21
+|
+|t:|1760719149
+|move|p1a: Dragapult|U-turn|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|19/100
+|
+|t:|1760719151
+|switch|p1a: Primarina|Primarina, F|100/100|[from] U-turn
+|move|p2a: Ogerpon|Horn Leech|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|-heal|p2a: Ogerpon|80/100|[from] drain|[of] p1a: Primarina
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1760719153
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|22
+|
+|t:|1760719159
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Ogerpon
+|-status|p2a: Ogerpon|brn
+|move|p2a: Ogerpon|Play Rough|p1a: Dragapult
+|-damage|p1a: Dragapult|51/100
+|
+|-damage|p2a: Ogerpon|74/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1760719163
+|move|p1a: Dragapult|Hex|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|win|Notarealanon
+|raw|Notarealanon's rating: 1367 &rarr; <strong>1384</strong><br />(+17 for winning)
+|raw|babajeje's rating: 1312 &rarr; <strong>1295</strong><br />(-17 for losing)
+|c|☆babajeje|gg
+|l|☆babajeje
+|player|p2|
+|c|☆Notarealanon|Gg
+|l|☆Notarealanon
+|player|p1|

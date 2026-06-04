@@ -1,0 +1,220 @@
+|raw|<div class="broadcast-blue"><strong>This battle is required to be public due to a player having a name starting with 'lt2'.</div>
+|j|☆Palafinnieon
+|j|☆LT2 lulu
+|t:|1758989870
+|gametype|singles
+|player|p1|Palafinnieon|grimsley|1510
+|player|p2|LT2 lulu|102|1531
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Smeargle, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Gholdengo|
+|poke|p1|Polteageist|
+|poke|p1|Toxtricity, M|
+|poke|p2|Primarina, M|
+|poke|p2|Iron Treads|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Darkrai|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|t:|1758989891
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Smeargle|Smeargle, F|100/100
+|switch|p2a: Iron Treads|Iron Treads, shiny|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1758989902
+|move|p2a: Iron Treads|Stealth Rock|p1a: Smeargle
+|-sidestart|p1: Palafinnieon|move: Stealth Rock
+|move|p1a: Smeargle|Sticky Web|p2a: Iron Treads
+|-sidestart|p2: LT2 lulu|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1758989908
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Iron Treads|Rapid Spin|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|3
+|
+|t:|1758989914
+|move|p2a: Iron Treads|Ice Spinner|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|80/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Shadow Ball|p2a: Iron Treads
+|-damage|p2a: Iron Treads|33/100
+|
+|upkeep
+|turn|4
+|
+|t:|1758989923
+|move|p2a: Iron Treads|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1758989926
+|switch|p1a: Polteageist|Polteageist|100/100
+|-damage|p1a: Polteageist|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1758989936
+|move|p2a: Iron Treads|Earthquake|p1a: Polteageist
+|-damage|p1a: Polteageist|33/100
+|move|p1a: Polteageist|Strength Sap|p2a: Iron Treads
+|-unboost|p2a: Iron Treads|atk|1
+|-heal|p1a: Polteageist|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1758989944
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Darkrai|Darkrai, shiny|100/100
+|-activate|p2a: Darkrai|move: Sticky Web
+|-unboost|p2a: Darkrai|spe|1
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|-enditem|p1a: Polteageist|White Herb
+|-clearnegativeboost|p1a: Polteageist|[silent]
+|
+|upkeep
+|turn|7
+|
+|t:|1758989955
+|-terastallize|p2a: Darkrai|Poison
+|move|p1a: Polteageist|Shadow Ball|p2a: Darkrai
+|-damage|p2a: Darkrai|2/100
+|move|p2a: Darkrai|Trick|p1a: Polteageist
+|-activate|p2a: Darkrai|move: Trick|[of] p1a: Polteageist
+|-item|p1a: Polteageist|Choice Scarf|[from] move: Trick
+|-enditem|p2a: Darkrai|Choice Scarf|[silent]|[from] move: Trick
+|
+|upkeep
+|turn|8
+|
+|t:|1758989967
+|move|p1a: Polteageist|Shadow Ball|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1758989981
+|switch|p2a: Primarina|Primarina, M, shiny|100/100
+|-activate|p2a: Primarina|move: Sticky Web
+|-unboost|p2a: Primarina|spe|1
+|turn|9
+|
+|t:|1758989985
+|move|p1a: Polteageist|Shadow Ball|p2a: Primarina
+|-damage|p2a: Primarina|29/100
+|move|p2a: Primarina|Moonblast|p1a: Polteageist
+|-damage|p1a: Polteageist|51/100
+|-unboost|p1a: Polteageist|spa|1
+|
+|-heal|p2a: Primarina|35/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758989994
+|move|p1a: Polteageist|Shadow Ball|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1758989998
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|-activate|p2a: Ogerpon|move: Sticky Web
+|-unboost|p2a: Ogerpon|spe|1
+|turn|11
+|
+|t:|1758990002
+|move|p1a: Polteageist|Shadow Ball|p2a: Ogerpon
+|-damage|p2a: Ogerpon|36/100
+|-unboost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Polteageist|[anim] Ivy Cudgel Rock
+|-crit|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|-start|p2a: Ogerpon|Disable|Ivy Cudgel|[from] ability: Cursed Body|[of] p1a: Polteageist
+|faint|p1a: Polteageist
+|
+|upkeep
+|
+|t:|1758990010
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|-damage|p1a: Zapdos|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1758990019
+|move|p1a: Zapdos|Thunderous Kick|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1758990026
+|switch|p2a: Dragonite|Dragonite, M, shiny|100/100
+|turn|13
+|
+|t:|1758990038
+|move|p1a: Zapdos|Thunderous Kick|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|91/100
+|-unboost|p2a: Dragonite|def|1
+|move|p2a: Dragonite|Hurricane|p1a: Zapdos|[miss]
+|-miss|p2a: Dragonite|p1a: Zapdos
+|
+|upkeep
+|turn|14
+|
+|t:|1758990046
+|move|p1a: Zapdos|Brave Bird|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-damage|p1a: Zapdos|52/100|[from] Recoil
+|
+|upkeep
+|-message|LT2 lulu forfeited.
+|
+|win|Palafinnieon
+|raw|Palafinnieon's rating: 1510 &rarr; <strong>1531</strong><br />(+21 for winning)
+|raw|LT2 lulu's rating: 1531 &rarr; <strong>1510</strong><br />(-21 for losing)
+|l|☆LT2 lulu
+|player|p2|
+|l|☆Palafinnieon
+|player|p1|

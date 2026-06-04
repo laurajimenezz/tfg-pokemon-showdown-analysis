@@ -1,0 +1,362 @@
+|j|☆virtualrez
+|j|☆heal_fire
+|t:|1758357964
+|gametype|singles
+|player|p1|virtualrez|clerkf|1265
+|player|p2|heal_fire|ghetsis|1266
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sceptile, M|
+|poke|p1|Magnezone|
+|poke|p1|Primarina, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Great Tusk|
+|poke|p1|Moltres|
+|poke|p2|Pelipper, M|
+|poke|p2|Iron Treads|
+|poke|p2|Ludicolo, M|
+|poke|p2|Barraskewda, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Overqwil, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by virtualrez)
+|
+|t:|1758358001
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Primarina|Primarina, M, shiny|100/100
+|switch|p2a: Grosse mouette|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Grosse mouette
+|turn|1
+|
+|t:|1758358010
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-start|p1a: Primarina|Substitute
+|-damage|p1a: Primarina|76/100
+|move|p2a: Grosse mouette|U-turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-activate|p1a: Primarina|move: Substitute|[damage]
+|
+|t:|1758358018
+|switch|p2a: Mad max|Iron Treads|100/100|[from] U-turn
+|-enditem|p2a: Mad max|Booster Energy
+|-activate|p2a: Mad max|ability: Quark Drive|[fromitem]
+|-start|p2a: Mad max|quarkdrivespe
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Primarina|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1758358026
+|move|p2a: Mad max|Volt Switch|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-activate|p1a: Primarina|move: Substitute|[damage]
+|
+|t:|1758358030
+|-end|p2a: Mad max|Quark Drive|[silent]
+|switch|p2a: Assault vest|Raging Bolt|100/100|[from] Volt Switch
+|move|p1a: Primarina|Psychic Noise|p2a: Assault vest
+|-resisted|p2a: Assault vest
+|-damage|p2a: Assault vest|79/100
+|-start|p2a: Assault vest|move: Heal Block
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Primarina|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1758358044
+|-terastallize|p1a: Primarina|Poison
+|move|p2a: Assault vest|Thunder|p1a: Primarina
+|-end|p1a: Primarina|Substitute
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Primarina|94/100|[from] item: Leftovers
+|-end|p2a: Assault vest|move: Heal Block
+|upkeep
+|turn|4
+|
+|t:|1758358058
+|move|p2a: Assault vest|Thunder|p1a: Primarina
+|-damage|p1a: Primarina|43/100
+|move|p1a: Primarina|Draining Kiss|p2a: Assault vest
+|-supereffective|p2a: Assault vest
+|-damage|p2a: Assault vest|23/100
+|-heal|p1a: Primarina|96/100|[from] drain|[of] p2a: Assault vest
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Primarina|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1758358073
+|move|p2a: Assault vest|Thunder|p1a: Primarina
+|-damage|p1a: Primarina|51/100
+|move|p1a: Primarina|Draining Kiss|p2a: Assault vest
+|-supereffective|p2a: Assault vest
+|-damage|p2a: Assault vest|0 fnt
+|-heal|p1a: Primarina|73/100|[from] drain|[of] p2a: Assault vest
+|faint|p2a: Assault vest
+|-end|p2a: Assault vest|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Primarina|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758358077
+|switch|p2a: Mad max|Iron Treads|100/100
+|turn|6
+|
+|t:|1758358085
+|switch|p1a: Moltres|Moltres, shiny|100/100
+|move|p2a: Mad max|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758358095
+|move|p2a: Mad max|Volt Switch|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|77/100
+|
+|t:|1758358102
+|-end|p2a: Mad max|Quark Drive|[silent]
+|switch|p2a: Ananas|Ludicolo, M|100/100|[from] Volt Switch
+|move|p1a: Moltres|Will-O-Wisp|p2a: Ananas
+|-status|p2a: Ananas|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ananas|95/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1758358115
+|switch|p1a: Primarina|Primarina, M, shiny, tera:Poison|79/100
+|move|p2a: Ananas|Hydro Pump|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|-damage|p2a: Ananas|85/100 brn|[from] item: Life Orb
+|
+|-weather|none
+|-damage|p2a: Ananas|79/100 brn|[from] brn
+|upkeep
+|
+|t:|1758358139
+|switch|p1a: Moltres|Moltres, shiny|77/100
+|turn|9
+|
+|t:|1758358153
+|switch|p2a: Grosse mouette|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Grosse mouette
+|move|p1a: Moltres|Flamethrower|p2a: Grosse mouette
+|-resisted|p2a: Grosse mouette
+|-crit|p2a: Grosse mouette
+|-damage|p2a: Grosse mouette|80/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|c|☆heal_fire|never sleep on my ananas
+|
+|t:|1758358168
+|move|p1a: Moltres|Will-O-Wisp|p2a: Grosse mouette
+|-status|p2a: Grosse mouette|brn
+|move|p2a: Grosse mouette|Surf|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Grosse mouette|74/100 brn|[from] brn
+|upkeep
+|
+|t:|1758358183
+|switch|p1a: Magnezone|Magnezone, shiny|100/100
+|turn|11
+|
+|t:|1758358194
+|switch|p2a: Mad max|Iron Treads|100/100
+|move|p1a: Magnezone|Body Press|p2a: Mad max
+|-supereffective|p2a: Mad max
+|-damage|p2a: Mad max|63/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1758358207
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Mad max|Stealth Rock|p1a: Dragonite
+|-sidestart|p1: virtualrez|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1758358215
+|move|p2a: Mad max|Volt Switch|p1a: Dragonite
+|-damage|p1a: Dragonite|95/100
+|
+|t:|1758358225
+|-end|p2a: Mad max|Quark Drive|[silent]
+|switch|p2a: Fugu|Overqwil, M|100/100|[from] Volt Switch
+|move|p1a: Dragonite|Earthquake|p2a: Fugu
+|-supereffective|p2a: Fugu
+|-damage|p2a: Fugu|0 fnt
+|faint|p2a: Fugu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758358228
+|switch|p2a: Ananas|Ludicolo, M|79/100 brn
+|turn|14
+|
+|t:|1758358245
+|switch|p1a: Magnezone|Magnezone, shiny|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|move|p2a: Ananas|Ice Beam|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|85/100
+|-damage|p2a: Ananas|69/100 brn|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ananas|63/100 brn|[from] brn
+|upkeep
+|turn|15
+|inactive|heal_fire has 120 seconds left.
+|
+|t:|1758358287
+|move|p2a: Ananas|Hydro Pump|p1a: Magnezone
+|-damage|p1a: Magnezone|31/100
+|-damage|p2a: Ananas|53/100 brn|[from] item: Life Orb
+|move|p1a: Magnezone|Flash Cannon|p2a: Ananas
+|-resisted|p2a: Ananas
+|-damage|p2a: Ananas|32/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ananas|26/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1758358310
+|move|p2a: Ananas|Hydro Pump|p1a: Magnezone|[miss]
+|-miss|p2a: Ananas|p1a: Magnezone
+|move|p1a: Magnezone|Discharge|p2a: Ananas
+|-damage|p2a: Ananas|0 fnt
+|faint|p2a: Ananas
+|
+|-weather|none
+|upkeep
+|
+|t:|1758358313
+|switch|p2a: Grosse mouette|Pelipper, M|74/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Grosse mouette
+|turn|17
+|
+|t:|1758358320
+|move|p1a: Magnezone|Discharge|p2a: Grosse mouette
+|-supereffective|p2a: Grosse mouette
+|-damage|p2a: Grosse mouette|0 fnt
+|faint|p2a: Grosse mouette
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758358326
+|switch|p2a: barracuda|Barraskewda, F|100/100
+|turn|18
+|
+|t:|1758358331
+|move|p2a: barracuda|Liquidation|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758358345
+|switch|p1a: Dragonite|Dragonite, M|95/100
+|-damage|p1a: Dragonite|70/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1758358352
+|-terastallize|p2a: barracuda|Water
+|move|p1a: Dragonite|Extreme Speed|p2a: barracuda
+|-damage|p2a: barracuda|2/100
+|move|p2a: barracuda|Liquidation|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆heal_fire|._.
+|
+|t:|1758358363
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|97/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1758358371
+|move|p2a: barracuda|Liquidation|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-damage|p2a: barracuda|0 fnt|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|faint|p2a: barracuda
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758358378
+|switch|p2a: Mad max|Iron Treads|63/100
+|switch|p1a: Sceptile|Sceptile, M, shiny|100/100
+|-damage|p1a: Sceptile|88/100|[from] Stealth Rock
+|turn|21
+|c|☆heal_fire|nah I'd win
+|inactive|virtualrez has 120 seconds left.
+|inactive|virtualrez has 90 seconds left.
+|
+|t:|1758358442
+|move|p1a: Sceptile|Giga Drain|p2a: Mad max
+|-damage|p2a: Mad max|16/100
+|-heal|p1a: Sceptile|100/100|[from] drain|[of] p2a: Mad max
+|move|p2a: Mad max|Earthquake|p1a: Sceptile
+|-resisted|p1a: Sceptile
+|-damage|p1a: Sceptile|63/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|c|☆virtualrez|wp
+|inactive|heal_fire has 120 seconds left.
+|c|☆heal_fire|thx you
+|c|☆heal_fire|you too
+|-message|heal_fire forfeited.
+|
+|win|virtualrez
+|raw|virtualrez's rating: 1265 &rarr; <strong>1290</strong><br />(+25 for winning)
+|raw|heal_fire's rating: 1266 &rarr; <strong>1241</strong><br />(-25 for losing)
+|l|☆heal_fire
+|player|p2|
+|l|☆virtualrez
+|player|p1|

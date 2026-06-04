@@ -1,0 +1,339 @@
+|j|☆Gimmicko
+|j|☆asmongoldfish
+|t:|1758348995
+|gametype|singles
+|player|p1|Gimmicko|102|1070
+|player|p2|asmongoldfish|cyclist-gen4|1079
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Magmar, F|
+|poke|p1|Quagsire, F|
+|poke|p1|Overqwil, F|
+|poke|p1|Torterra, F|
+|poke|p1|Cramorant, F|
+|poke|p1|Dusclops, F|
+|poke|p2|Ludicolo, M|
+|poke|p2|Scrafty, M|
+|poke|p2|Weezing, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Drifblim, M|
+|poke|p2|Arbok, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gimmicko)
+|
+|t:|1758349003
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|switch|p2a: Purp|Arbok, M|100/100
+|-ability|p2a: Purp|Intimidate|boost
+|-unboost|p1a: Quagsire|atk|1
+|turn|1
+|
+|t:|1758349010
+|switch|p1a: Overqwil|Overqwil, F|100/100
+|-ability|p1a: Overqwil|Intimidate|boost
+|-unboost|p2a: Purp|atk|1
+|move|p2a: Purp|Switcheroo|p1a: Overqwil
+|-activate|p2a: Purp|move: Trick|[of] p1a: Overqwil
+|-item|p1a: Overqwil|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Purp|Leftovers|[from] move: Switcheroo
+|
+|upkeep
+|turn|2
+|
+|t:|1758349024
+|move|p1a: Overqwil|Liquidation|p2a: Purp
+|-damage|p2a: Purp|50/100
+|move|p2a: Purp|Glare|p1a: Overqwil
+|-status|p1a: Overqwil|par
+|
+|-heal|p2a: Purp|56/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1758349044
+|switch|p2a: Samba|Ludicolo, M|100/100
+|cant|p1a: Overqwil|par
+|
+|upkeep
+|turn|4
+|
+|t:|1758349053
+|switch|p1a: Magmar|Magmar, F|100/100
+|move|p2a: Samba|Leech Seed|p1a: Magmar
+|-start|p1a: Magmar|move: Leech Seed
+|
+|-damage|p1a: Magmar|88/100|[from] Leech Seed|[of] p2a: Samba
+|upkeep
+|turn|5
+|
+|t:|1758349066
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|move|p2a: Samba|Surf|p1a: Quagsire
+|-immune|p1a: Quagsire|[from] ability: Water Absorb
+|
+|upkeep
+|turn|6
+|
+|t:|1758349080
+|move|p2a: Samba|Leech Seed|p1a: Quagsire
+|-start|p1a: Quagsire|move: Leech Seed
+|move|p1a: Quagsire|Toxic|p2a: Samba
+|-status|p2a: Samba|tox
+|
+|-damage|p1a: Quagsire|88/100|[from] Leech Seed|[of] p2a: Samba
+|-damage|p2a: Samba|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1758349093
+|switch|p1a: Cramorant|Cramorant, F|100/100
+|move|p2a: Samba|Giga Drain|p1a: Cramorant
+|-damage|p1a: Cramorant|84/100
+|-heal|p2a: Samba|100/100 tox|[from] drain|[of] p1a: Cramorant
+|
+|-damage|p2a: Samba|88/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1758349105
+|move|p1a: Cramorant|Drill Peck|p2a: Samba
+|-supereffective|p2a: Samba
+|-damage|p2a: Samba|38/100 tox
+|move|p2a: Samba|Leech Seed|p1a: Cramorant
+|-start|p1a: Cramorant|move: Leech Seed
+|
+|-heal|p2a: Samba|44/100 tox|[from] item: Leftovers
+|-damage|p1a: Cramorant|71/100|[from] Leech Seed|[of] p2a: Samba
+|-heal|p2a: Samba|56/100 tox|[silent]
+|-damage|p2a: Samba|38/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1758349121
+|switch|p1a: Magmar|Magmar, F|88/100
+|move|p2a: Samba|Protect||[still]
+|-fail|p2a: Samba
+|
+|-heal|p2a: Samba|44/100 tox|[from] item: Leftovers
+|-damage|p2a: Samba|20/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1758349131
+|move|p1a: Magmar|Protect|p1a: Magmar
+|-singleturn|p1a: Magmar|Protect
+|move|p2a: Samba|Leech Seed|p1a: Magmar
+|-activate|p1a: Magmar|move: Protect
+|
+|-heal|p2a: Samba|26/100 tox|[from] item: Leftovers
+|-damage|p2a: Samba|0 fnt|[from] psn
+|faint|p2a: Samba
+|upkeep
+|
+|t:|1758349140
+|switch|p2a: Gamzi|Grimmsnarl, M|100/100
+|turn|11
+|
+|t:|1758349146
+|move|p2a: Gamzi|Reflect|p2a: Gamzi
+|-sidestart|p2: asmongoldfish|Reflect
+|move|p1a: Magmar|Knock Off|p2a: Gamzi
+|-resisted|p2a: Gamzi
+|-damage|p2a: Gamzi|96/100
+|-enditem|p2a: Gamzi|Leftovers|[from] move: Knock Off|[of] p1a: Magmar
+|
+|upkeep
+|turn|12
+|
+|t:|1758349152
+|move|p2a: Gamzi|Taunt|p1a: Magmar
+|-start|p1a: Magmar|move: Taunt
+|cant|p1a: Magmar|move: Taunt|Will-O-Wisp
+|
+|upkeep
+|turn|13
+|
+|t:|1758349162
+|move|p1a: Magmar|Flamethrower|p2a: Gamzi
+|-damage|p2a: Gamzi|65/100
+|move|p2a: Gamzi|Spirit Break|p1a: Magmar
+|-resisted|p1a: Magmar
+|-damage|p1a: Magmar|65/100
+|-unboost|p1a: Magmar|spa|1
+|
+|upkeep
+|turn|14
+|
+|t:|1758349176
+|switch|p2a: Donovan|Scrafty, M|100/100
+|move|p1a: Magmar|Flamethrower|p2a: Donovan
+|-damage|p2a: Donovan|82/100
+|-status|p2a: Donovan|brn
+|
+|-heal|p2a: Donovan|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Donovan|82/100 brn|[from] brn
+|-end|p1a: Magmar|move: Taunt
+|upkeep
+|turn|15
+|
+|t:|1758349188
+|switch|p1a: Overqwil|Overqwil, F|100/100 par
+|-ability|p1a: Overqwil|Intimidate|boost
+|-unboost|p2a: Donovan|atk|1
+|move|p2a: Donovan|Knock Off|p1a: Overqwil
+|-resisted|p1a: Overqwil
+|-damage|p1a: Overqwil|92/100 par
+|-enditem|p1a: Overqwil|Choice Scarf|[from] move: Knock Off|[of] p2a: Donovan
+|
+|-heal|p2a: Donovan|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Donovan|82/100 brn|[from] brn
+|-sideend|p2: asmongoldfish|Reflect
+|upkeep
+|turn|16
+|
+|t:|1758349199
+|switch|p2a: Lemon|Drifblim, M, shiny|100/100
+|move|p1a: Overqwil|Swords Dance|p1a: Overqwil
+|-boost|p1a: Overqwil|atk|2
+|
+|upkeep
+|turn|17
+|
+|t:|1758349212
+|-terastallize|p2a: Lemon|Normal
+|move|p2a: Lemon|Thunder Wave|p1a: Overqwil
+|-fail|p1a: Overqwil|par
+|cant|p1a: Overqwil|par
+|
+|upkeep
+|turn|18
+|
+|t:|1758349221
+|move|p2a: Lemon|Hex|p1a: Overqwil
+|-resisted|p1a: Overqwil
+|-damage|p1a: Overqwil|58/100 par
+|move|p1a: Overqwil|Barb Barrage|p2a: Lemon
+|-damage|p2a: Lemon|32/100
+|
+|-heal|p2a: Lemon|38/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1758349233
+|move|p2a: Lemon|Hex|p1a: Overqwil
+|-resisted|p1a: Overqwil
+|-damage|p1a: Overqwil|25/100 par
+|move|p1a: Overqwil|Crunch|p2a: Lemon
+|-damage|p2a: Lemon|0 fnt
+|-damage|p1a: Overqwil|0 fnt|[from] ability: Aftermath|[of] p2a: Lemon
+|faint|p2a: Lemon
+|faint|p1a: Overqwil
+|
+|upkeep
+|
+|t:|1758349243
+|switch|p1a: Magmar|Magmar, F|65/100
+|switch|p2a: Purp|Arbok, M|56/100
+|-ability|p2a: Purp|Intimidate|boost
+|-unboost|p1a: Magmar|atk|1
+|turn|20
+|
+|t:|1758349260
+|move|p2a: Purp|Earthquake|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|
+|-heal|p2a: Purp|62/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758349263
+|switch|p1a: Quagsire|Quagsire, F|88/100
+|turn|21
+|
+|t:|1758349271
+|move|p2a: Purp|Poison Fang|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|81/100
+|-status|p1a: Quagsire|tox
+|move|p1a: Quagsire|Earthquake|p2a: Purp
+|-supereffective|p2a: Purp
+|-damage|p2a: Purp|0 fnt
+|faint|p2a: Purp
+|
+|-heal|p1a: Quagsire|87/100 tox|[from] item: Leftovers
+|-damage|p1a: Quagsire|81/100 tox|[from] psn
+|upkeep
+|
+|t:|1758349285
+|switch|p2a: Kainan|Weezing, M, shiny|100/100
+|-ability|p2a: Kainan|Neutralizing Gas
+|turn|22
+|
+|t:|1758349292
+|move|p2a: Kainan|Toxic Spikes|p1a: Quagsire
+|-sidestart|p1: Gimmicko|move: Toxic Spikes
+|move|p1a: Quagsire|Earthquake|p2a: Kainan
+|-supereffective|p2a: Kainan
+|-damage|p2a: Kainan|46/100
+|
+|-heal|p1a: Quagsire|87/100 tox|[from] item: Leftovers
+|-damage|p1a: Quagsire|75/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1758349307
+|-end|p2a: Kainan|ability: Neutralizing Gas
+|switch|p2a: Donovan|Scrafty, M|82/100 brn
+|move|p1a: Quagsire|Earthquake|p2a: Donovan
+|-damage|p2a: Donovan|54/100 brn
+|
+|-activate|p2a: Donovan|ability: Shed Skin
+|-curestatus|p2a: Donovan|brn|[msg]
+|-heal|p2a: Donovan|60/100|[from] item: Leftovers
+|-heal|p1a: Quagsire|81/100 tox|[from] item: Leftovers
+|-damage|p1a: Quagsire|62/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1758349322
+|switch|p1a: Cramorant|Cramorant, F|71/100
+|move|p2a: Donovan|Knock Off|p1a: Cramorant
+|-damage|p1a: Cramorant|0 fnt
+|-enditem|p1a: Cramorant|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Donovan
+|faint|p1a: Cramorant
+|
+|-heal|p2a: Donovan|66/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758349335
+|switch|p1a: Quagsire|Quagsire, F|62/100 tox
+|turn|25
+|l|☆asmongoldfish
+|inactive|asmongoldfish disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|asmongoldfish has 30 seconds to reconnect!
+|inactive|asmongoldfish has 20 seconds to reconnect!
+|inactive|asmongoldfish has 15 seconds to reconnect!
+|inactive|asmongoldfish has 10 seconds to reconnect!
+|inactive|asmongoldfish has 5 seconds to reconnect!
+|-message|asmongoldfish lost due to inactivity.
+|
+|win|Gimmicko
+|raw|Gimmicko's rating: 1070 &rarr; <strong>1100</strong><br />(+30 for winning)
+|raw|asmongoldfish's rating: 1079 &rarr; <strong>1057</strong><br />(-22 for losing)
+|l|☆Gimmicko
+|player|p1|

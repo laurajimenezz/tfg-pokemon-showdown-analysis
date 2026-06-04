@@ -1,0 +1,381 @@
+|j|☆RMKSpeedy
+|j|☆Soyyo1223
+|t:|1779842361
+|gametype|singles
+|player|p1|RMKSpeedy|colress|1199
+|player|p2|Soyyo1223|palmer|1229
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Iron Valiant|
+|poke|p2|Darkrai|
+|poke|p2|Hatterene, F|
+|poke|p2|Quaquaval, F|
+|poke|p2|Klefki, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Rotom-Mow|
+|teampreview
+|
+|t:|1779842368
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Klefki|Klefki, F|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1779842375
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: Soyyo1223|Reflect
+|move|p1a: Great Tusk|Stealth Rock|p2a: Klefki
+|-sidestart|p2: Soyyo1223|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1779842378
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: Soyyo1223|move: Light Screen
+|move|p1a: Great Tusk|Earthquake|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|48/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779842385
+|move|p1a: Great Tusk|Ice Spinner|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|41/100
+|move|p2a: Klefki|Dazzling Gleam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|28/100
+|
+|upkeep
+|turn|4
+|
+|t:|1779842394
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Great Tusk|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|upkeep
+|turn|5
+|
+|t:|1779842397
+|move|p1a: Great Tusk|Ice Spinner|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1779842400
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|-damage|p2a: Quaquaval|94/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1779842407
+|move|p1a: Great Tusk|Earthquake|p2a: Quaquaval
+|-damage|p2a: Quaquaval|46/100
+|-enditem|p2a: Quaquaval|Sitrus Berry|[eat]
+|-heal|p2a: Quaquaval|71/100|[from] item: Sitrus Berry
+|move|p2a: Quaquaval|Aqua Step|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-boost|p2a: Quaquaval|spe|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1779842418
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|7
+|
+|t:|1779842423
+|move|p2a: Quaquaval|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p2a: Quaquaval
+|faint|p1a: Dragapult
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1779842436
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|8
+|
+|t:|1779842449
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|move|p1a: Iron Valiant|Encore||[still]
+|-fail|p1a: Iron Valiant
+|
+|-heal|p2a: Clodsire|100/100|[from] item: Black Sludge
+|-sideend|p2: Soyyo1223|Reflect
+|upkeep
+|turn|9
+|
+|t:|1779842455
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Clodsire|Toxic|p1a: Slowking
+|-immune|p1a: Slowking
+|
+|-sideend|p2: Soyyo1223|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1779842460
+|move|p1a: Slowking|Future Sight|p2a: Clodsire
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: Clodsire|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|47/100
+|
+|upkeep
+|turn|11
+|
+|t:|1779842471
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Clodsire|Earthquake|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|77/100
+|
+|-heal|p1a: Zamazenta|83/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779842479
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-end|p2a: Hatterene|move: Future Sight
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|56/100
+|-heal|p1a: Zamazenta|90/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1779842484
+|-terastallize|p1a: Zamazenta|Steel
+|move|p1a: Zamazenta|Heavy Slam|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-heal|p1a: Zamazenta|96/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779842494
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1779842498
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Clodsire|Earthquake|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|63/100
+|
+|-heal|p1a: Zamazenta|69/100|[from] item: Leftovers
+|-heal|p2a: Clodsire|100/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1779842501
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Clodsire|Earthquake|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|38/100
+|
+|-heal|p1a: Zamazenta|44/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1779842506
+|move|p1a: Zamazenta|Body Press|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|77/100
+|move|p2a: Clodsire|Earthquake|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|11/100
+|
+|-heal|p1a: Zamazenta|17/100|[from] item: Leftovers
+|-heal|p2a: Clodsire|83/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1779842513
+|move|p1a: Zamazenta|Crunch|p2a: Clodsire
+|-damage|p2a: Clodsire|60/100
+|-unboost|p2a: Clodsire|def|1
+|move|p2a: Clodsire|Earthquake|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Clodsire|66/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1779842521
+|switch|p1a: Slowking|Slowking-Galar, M|80/100
+|turn|18
+|
+|t:|1779842530
+|move|p1a: Slowking|Psychic Noise|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|27/100
+|-start|p2a: Clodsire|move: Heal Block
+|move|p2a: Clodsire|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|21/100
+|
+|upkeep
+|turn|19
+|
+|t:|1779842544
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|-damage|p2a: Darkrai|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|20
+|
+|t:|1779842553
+|move|p2a: Darkrai|Sludge Bomb|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779842560
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|21
+|
+|t:|1779842566
+|switch|p2a: Clodsire|Clodsire, M|27/100
+|-damage|p2a: Clodsire|21/100|[from] Stealth Rock
+|move|p1a: Gholdengo|Focus Blast|p2a: Clodsire|[miss]
+|-miss|p1a: Gholdengo|p2a: Clodsire
+|
+|-heal|p2a: Clodsire|27/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|t:|1779842572
+|switch|p1a: Slowking|Slowking-Galar, M|54/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|77/100
+|
+|-heal|p2a: Clodsire|83/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|t:|1779842575
+|move|p1a: Slowking|Psychic Noise|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|45/100
+|-start|p2a: Clodsire|move: Heal Block
+|move|p2a: Clodsire|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1779842578
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|24
+|
+|t:|1779842581
+|move|p1a: Gholdengo|Shadow Ball|p2a: Clodsire
+|-crit|p2a: Clodsire
+|-damage|p2a: Clodsire|14/100
+|-unboost|p2a: Clodsire|spd|1
+|move|p2a: Clodsire|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|43/100
+|
+|-end|p2a: Clodsire|move: Heal Block
+|upkeep
+|turn|25
+|
+|t:|1779842588
+|move|p1a: Gholdengo|Shadow Ball|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|upkeep
+|
+|t:|1779842591
+|switch|p2a: Klefki|Klefki, F|41/100
+|-damage|p2a: Klefki|35/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1779842593
+|move|p2a: Klefki|Thunder Wave|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|move|p1a: Gholdengo|Shadow Ball|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|upkeep
+|
+|t:|1779842605
+|switch|p2a: Quaquaval|Quaquaval, F|71/100
+|-damage|p2a: Quaquaval|65/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1779842607
+|move|p1a: Gholdengo|Shadow Ball|p2a: Quaquaval
+|-damage|p2a: Quaquaval|10/100
+|-unboost|p2a: Quaquaval|spd|1
+|move|p2a: Quaquaval|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-enditem|p1a: Gholdengo|Choice Scarf|[from] move: Knock Off|[of] p2a: Quaquaval
+|faint|p1a: Gholdengo
+|
+|win|Soyyo1223
+|raw|RMKSpeedy's rating: 1199 &rarr; <strong>1176</strong><br />(-23 for losing)
+|raw|Soyyo1223's rating: 1229 &rarr; <strong>1252</strong><br />(+23 for winning)
+|l|☆RMKSpeedy
+|player|p1|
+|l|☆Soyyo1223
+|player|p2|

@@ -1,0 +1,292 @@
+|j|☆CaptainMoulebite
+|j|☆lol_nymbus
+|t:|1779579426
+|gametype|singles
+|player|p1|CaptainMoulebite|drayden|1185
+|player|p2|lol_nymbus|1|1220
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Zapdos|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Regieleki|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Iron Treads|
+|poke|p2|Dragapult, M|
+|poke|p2|Overqwil, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1779579446
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Regieleki|Regieleki|100/100
+|switch|p2a: Wanda|Iron Valiant, shiny|100/100
+|turn|1
+|
+|t:|1779579465
+|-end|p2a: Wanda|Quark Drive|[silent]
+|switch|p2a: Armadillo|Iron Treads, shiny|100/100
+|-enditem|p2a: Armadillo|Booster Energy
+|-activate|p2a: Armadillo|ability: Quark Drive|[fromitem]
+|-start|p2a: Armadillo|quarkdrivespe
+|move|p1a: Regieleki|Thunder Wave|p2a: Armadillo
+|-immune|p2a: Armadillo
+|
+|upkeep
+|turn|2
+|
+|t:|1779579481
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Armadillo|atk|1
+|move|p2a: Armadillo|Stealth Rock|p1a: Landorus
+|-sidestart|p1: CaptainMoulebite|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1779579492
+|-end|p2a: Armadillo|Quark Drive|[silent]
+|switch|p2a: Messenger|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Messenger
+|move|p1a: Landorus|Body Slam|p2a: Messenger
+|-damage|p2a: Messenger|35/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779579501
+|switch|p2a: Jaws|Basculegion, M, shiny|100/100
+|move|p1a: Landorus|Body Slam|p2a: Jaws
+|-immune|p2a: Jaws
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779579512
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Jaws|Wave Crash|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-damage|p2a: Jaws|73/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779579519
+|switch|p1a: Regieleki|Regieleki|100/100
+|turn|6
+|
+|t:|1779579523
+|switch|p2a: Armadillo|Iron Treads, shiny|100/100
+|move|p1a: Regieleki|Volt Switch|p2a: Armadillo
+|-immune|p2a: Armadillo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779579530
+|move|p1a: Regieleki|Rapid Spin|p2a: Armadillo
+|-resisted|p2a: Armadillo
+|-damage|p2a: Armadillo|94/100
+|-boost|p1a: Regieleki|spe|1
+|-sideend|p1: CaptainMoulebite|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Regieleki
+|move|p2a: Armadillo|Steel Beam|p1a: Regieleki
+|-resisted|p1a: Regieleki
+|-damage|p1a: Regieleki|50/100
+|-damage|p2a: Armadillo|44/100|[from] steelbeam
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1779579539
+|move|p1a: Regieleki|Explosion|p2a: Armadillo
+|-resisted|p2a: Armadillo
+|-damage|p2a: Armadillo|10/100
+|faint|p1a: Regieleki
+|move|p2a: Armadillo|Steel Beam|p1: Regieleki|[notarget]
+|-fail|p2a: Armadillo
+|-damage|p2a: Armadillo|0 fnt|[from] steelbeam
+|faint|p2a: Armadillo
+|-end|p2a: Armadillo|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779579551
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|switch|p2a: Jaws|Basculegion, M, shiny|73/100
+|turn|9
+|
+|t:|1779579559
+|-terastallize|p1a: Keldeo|Water
+|move|p1a: Keldeo|Hydro Pump|p2a: Jaws
+|-resisted|p2a: Jaws
+|-damage|p2a: Jaws|0 fnt
+|faint|p2a: Jaws
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779579565
+|switch|p2a: Messenger|Pelipper, M, shiny|35/100
+|turn|10
+|
+|t:|1779579569
+|move|p1a: Keldeo|Hydro Pump|p2a: Messenger|[miss]
+|-miss|p1a: Keldeo|p2a: Messenger
+|move|p2a: Messenger|Roost|p2a: Messenger
+|-heal|p2a: Messenger|85/100
+|-singleturn|p2a: Messenger|move: Roost
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1779579578
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: Messenger|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|81/100
+|
+|t:|1779579584
+|switch|p2a: Wanda|Iron Valiant, shiny|100/100|[from] U-turn
+|
+|upkeep
+|turn|12
+|
+|t:|1779579595
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Wanda|atk|1
+|move|p2a: Wanda|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|3/100
+|-unboost|p1a: Landorus|spa|1
+|
+|upkeep
+|turn|13
+|
+|t:|1779579604
+|move|p2a: Wanda|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1779579608
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|14
+|
+|t:|1779579623
+|-end|p2a: Wanda|Quark Drive|[silent]
+|switch|p2a: Messenger|Pelipper, M, shiny|85/100
+|move|p1a: Pelipper|Hurricane|p2a: Messenger
+|-damage|p2a: Messenger|18/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1779579630
+|move|p2a: Messenger|Roost|p2a: Messenger
+|-heal|p2a: Messenger|68/100
+|-singleturn|p2a: Messenger|move: Roost
+|move|p1a: Pelipper|Hurricane|p2a: Messenger
+|-damage|p2a: Messenger|2/100
+|-start|p2a: Messenger|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1779579637
+|-activate|p2a: Messenger|confusion
+|move|p2a: Messenger|Hurricane|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|9/100
+|move|p1a: Pelipper|Hurricane|p2a: Messenger
+|-damage|p2a: Messenger|0 fnt
+|faint|p2a: Messenger
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779579643
+|switch|p2a: Overqwil|Overqwil, M, shiny|100/100
+|turn|17
+|
+|t:|1779579654
+|move|p2a: Overqwil|Gunk Shot|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|-damage|p2a: Overqwil|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779579656
+|switch|p1a: Samurott|Samurott-Hisui, M|81/100
+|turn|18
+|
+|t:|1779579663
+|move|p2a: Overqwil|Gunk Shot|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|-damage|p2a: Overqwil|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779579666
+|switch|p1a: Keldeo|Keldeo-Resolute, tera:Water|100/100
+|turn|19
+|
+|t:|1779579671
+|move|p2a: Overqwil|Gunk Shot|p1a: Keldeo
+|-damage|p1a: Keldeo|20/100
+|-status|p1a: Keldeo|psn
+|-damage|p2a: Overqwil|71/100|[from] item: Life Orb
+|move|p1a: Keldeo|Hydro Pump|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Keldeo|7/100 psn|[from] psn
+|upkeep
+|
+|t:|1779579677
+|switch|p2a: Leviathan|Dragapult, M, shiny|100/100
+|turn|20
+|c|☆lol_nymbus|gg
+|
+|t:|1779579684
+|move|p2a: Leviathan|Shadow Ball|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|-damage|p2a: Leviathan|91/100|[from] item: Life Orb
+|
+|win|lol_nymbus
+|raw|CaptainMoulebite's rating: 1185 &rarr; <strong>1163</strong><br />(-22 for losing)
+|raw|lol_nymbus's rating: 1220 &rarr; <strong>1242</strong><br />(+22 for winning)
+|l|☆CaptainMoulebite
+|player|p1|

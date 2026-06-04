@@ -1,0 +1,447 @@
+|j|☆maxcondones
+|j|‽kerom.pk
+|t:|1779707656
+|gametype|singles
+|player|p1|maxcondones|1|1537
+|player|p2|kerom.pk|265|1526
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Hippowdon, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Kommo-o, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Hydrapple, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Primarina, F|
+|poke|p2|Weezing-Galar, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kerom.pk)
+|
+|t:|1779707671
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|t:|1779707680
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Meowscarada|atk|1
+|move|p2a: Meowscarada|Knock Off|p1a: Landorus
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Landorus|57/100
+|-damage|p2a: Meowscarada|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Meowscarada
+|
+|upkeep
+|turn|2
+|j| Iuxazo
+|
+|t:|1779707696
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Landorus|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|88/100
+|
+|t:|1779707701
+|switch|p1a: Kommo-o|Kommo-o, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1779707705
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|68/100
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1|[from] item: Throat Spray
+|move|p2a: Alomomola|Flip Turn|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|62/100
+|
+|t:|1779707710
+|switch|p2a: Primarina|Primarina, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|4
+|
+|t:|1779707720
+|-terastallize|p1a: Kommo-o|Normal
+|move|p1a: Kommo-o|Boomburst|p2a: Primarina
+|-damage|p2a: Primarina|15/100
+|move|p2a: Primarina|Whirlpool|p1a: Kommo-o
+|-damage|p1a: Kommo-o|47/100
+|-activate|p1a: Kommo-o|move: Whirlpool|[of] p2a: Primarina
+|
+|-heal|p2a: Primarina|21/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|34/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1779707731
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1a: Kommo-o|Boomburst|p2a: Primarina
+|-activate|p2a: Primarina|move: Protect
+|
+|-heal|p2a: Primarina|27/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|22/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1779707738
+|move|p2a: Primarina|Protect||[still]
+|-fail|p2a: Primarina
+|move|p1a: Kommo-o|Boomburst|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-end|p1a: Kommo-o|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1779707745
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|turn|7
+|
+|t:|1779707749
+|move|p1a: Kommo-o|Boomburst|p2a: Clodsire
+|-damage|p2a: Clodsire|65/100
+|move|p2a: Clodsire|Earthquake|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|-heal|p2a: Clodsire|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779707756
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|8
+|
+|t:|1779707763
+|switch|p2a: Meowscarada|Meowscarada, F|84/100
+|move|p1a: Deoxys|Psycho Boost|p2a: Meowscarada
+|-immune|p2a: Meowscarada
+|
+|upkeep
+|turn|9
+|
+|t:|1779707777
+|move|p1a: Deoxys|Superpower|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|-unboost|p1a: Deoxys|atk|1
+|-unboost|p1a: Deoxys|def|1
+|faint|p2a: Meowscarada
+|-enditem|p1a: Deoxys|Eject Pack
+|
+|t:|1779707788
+|switch|p1a: Landorus|Landorus-Therian, M|57/100
+|
+|upkeep
+|
+|t:|1779707798
+|switch|p2a: Hydrapple|Hydrapple, M|100/100
+|turn|10
+|
+|t:|1779707802
+|move|p1a: Landorus|U-turn|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|69/100
+|
+|t:|1779707806
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Hydrapple|Earth Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|67/100
+|-enditem|p1a: Tyranitar|Eject Button
+|
+|t:|1779707815
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Deoxys|94/100|[from] Sandstorm
+|-damage|p2a: Hydrapple|63/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1779707821
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Deoxys|Ice Beam|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Deoxys|88/100|[from] Sandstorm
+|-damage|p2a: Alomomola|83/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1779707827
+|move|p1a: Deoxys|Psycho Boost|p2a: Alomomola
+|-damage|p2a: Alomomola|33/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Deoxys|82/100|[from] Sandstorm
+|-damage|p2a: Alomomola|27/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1779707850
+|switch|p1a: Tyranitar|Tyranitar, M|67/100
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alomomola|21/100|[from] Sandstorm
+|-heal|p2a: Alomomola|70/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|14
+|
+|t:|1779707856
+|move|p1a: Tyranitar|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|44/100
+|-enditem|p2a: Alomomola|Covert Cloak|[from] move: Knock Off|[of] p1a: Tyranitar
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|t:|1779707860
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Tyranitar|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: kerom.pk|move: Stealth Rock
+|
+|-heal|p2a: Alomomola|93/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|16
+|
+|t:|1779707863
+|move|p1a: Tyranitar|Thunder Wave|p2a: Alomomola|[miss]
+|-miss|p1a: Tyranitar|p2a: Alomomola
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|17
+|
+|t:|1779707871
+|switch|p2a: Clodsire|Clodsire, M|72/100
+|-damage|p2a: Clodsire|65/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Knock Off|p2a: Clodsire
+|-damage|p2a: Clodsire|26/100
+|-enditem|p2a: Clodsire|Leftovers|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-heal|p2a: Clodsire|82/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|18
+|
+|t:|1779707877
+|switch|p1a: Landorus|Landorus-Therian, M|57/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Clodsire|atk|1
+|move|p2a: Clodsire|Curse|p2a: Clodsire
+|-unboost|p2a: Clodsire|spe|1
+|-boost|p2a: Clodsire|atk|1
+|-boost|p2a: Clodsire|def|1
+|
+|upkeep
+|turn|19
+|
+|t:|1779707883
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|move|p1a: Landorus|Earth Power|p2a: Alomomola
+|-damage|p2a: Alomomola|58/100
+|
+|upkeep
+|turn|20
+|
+|t:|1779707888
+|move|p1a: Landorus|Taunt|p2a: Alomomola
+|-start|p2a: Alomomola|move: Taunt
+|cant|p2a: Alomomola|move: Taunt|Wish
+|
+|upkeep
+|turn|21
+|
+|t:|1779707892
+|move|p1a: Landorus|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|47/100
+|
+|t:|1779707897
+|switch|p1a: Hippowdon|Hippowdon, F|100/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Alomomola|Flip Turn|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|83/100
+|-enditem|p1a: Hippowdon|Eject Button
+|
+|t:|1779707902
+|switch|p1a: Deoxys|Deoxys-Speed|82/100
+|-ability|p1a: Deoxys|Pressure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Deoxys|76/100|[from] Sandstorm
+|-damage|p2a: Alomomola|40/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|t:|1779707907
+|switch|p2a: Hydrapple|Hydrapple, M|96/100
+|-damage|p2a: Hydrapple|84/100|[from] Stealth Rock
+|move|p1a: Deoxys|Psycho Boost|p2a: Hydrapple
+|-damage|p2a: Hydrapple|35/100
+|-unboost|p1a: Deoxys|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Deoxys|69/100|[from] Sandstorm
+|-damage|p2a: Hydrapple|29/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|t:|1779707931
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Alomomola|Alomomola, F|74/100
+|-damage|p2a: Alomomola|61/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alomomola|55/100|[from] Sandstorm
+|upkeep
+|turn|24
+|
+|t:|1779707937
+|move|p1a: Excadrill|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|4/100
+|move|p2a: Alomomola|Flip Turn|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|27/100
+|
+|t:|1779707943
+|switch|p2a: Hydrapple|Hydrapple, M|62/100|[from] Flip Turn
+|-damage|p2a: Hydrapple|50/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydrapple|43/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|t:|1779707955
+|move|p1a: Excadrill|Earthquake|p2a: Hydrapple
+|-resisted|p2a: Hydrapple
+|-damage|p2a: Hydrapple|8/100
+|move|p2a: Hydrapple|Leaf Storm|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-unboost|p2a: Hydrapple|spa|2
+|faint|p1a: Excadrill
+|
+|-weather|none
+|upkeep
+|
+|t:|1779707965
+|switch|p1a: Deoxys|Deoxys-Speed|69/100
+|-ability|p1a: Deoxys|Pressure
+|turn|26
+|
+|t:|1779707977
+|move|p1a: Deoxys|Ice Beam|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|upkeep
+|
+|t:|1779707979
+|switch|p2a: Alomomola|Alomomola, F|37/100
+|-damage|p2a: Alomomola|25/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1779707984
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Deoxys|Psycho Boost|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|upkeep
+|turn|28
+|
+|t:|1779707990
+|-terastallize|p2a: Alomomola|Steel
+|move|p1a: Deoxys|Psycho Boost|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|-unboost|p1a: Deoxys|spa|2
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1779707997
+|switch|p2a: Clodsire|Clodsire, M|82/100
+|-damage|p2a: Clodsire|76/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1779708009
+|switch|p1a: Landorus|Landorus-Therian, M|57/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Clodsire|atk|1
+|move|p2a: Clodsire|Curse|p2a: Clodsire
+|-unboost|p2a: Clodsire|spe|1
+|-boost|p2a: Clodsire|atk|1
+|-boost|p2a: Clodsire|def|1
+|
+|upkeep
+|turn|30
+|
+|t:|1779708013
+|move|p1a: Landorus|Earth Power|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|34/100
+|move|p2a: Clodsire|Curse|p2a: Clodsire
+|-unboost|p2a: Clodsire|spe|1
+|-boost|p2a: Clodsire|atk|1
+|-boost|p2a: Clodsire|def|1
+|
+|upkeep
+|turn|31
+|
+|t:|1779708019
+|move|p1a: Landorus|Earth Power|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|upkeep
+|-message|kerom.pk forfeited.
+|
+|win|maxcondones
+|raw|maxcondones's rating: 1537 &rarr; <strong>1556</strong><br />(+19 for winning)
+|raw|kerom.pk's rating: 1526 &rarr; <strong>1507</strong><br />(-19 for losing)
+|l|‽kerom.pk
+|player|p2|
+|l| Iuxazo

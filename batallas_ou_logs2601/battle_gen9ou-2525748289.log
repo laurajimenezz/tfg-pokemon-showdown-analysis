@@ -1,0 +1,197 @@
+|j|☆DiscoRain
+|j|☆ashyman2000
+|t:|1769319284
+|gametype|singles
+|player|p1|DiscoRain|benga|1143
+|player|p2|ashyman2000|hoopster|1148
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Iron Treads|
+|poke|p1|Barraskewda, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Dragonite, M|
+|poke|p2|Iron Moth|
+|poke|p2|Primarina, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Salazzle, F|
+|poke|p2|Mew|
+|teampreview
+|
+|t:|1769319293
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Primarina|Primarina, F|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1769319301
+|move|p1a: Iron Treads|Stealth Rock|p2a: Primarina
+|-sidestart|p2: ashyman2000|move: Stealth Rock
+|move|p2a: Primarina|Whirlpool|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|59/100
+|-activate|p1a: Iron Treads|move: Whirlpool|[of] p2a: Primarina
+|
+|-damage|p1a: Iron Treads|46/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1769319309
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1a: Iron Treads|Steel Beam|p2a: Primarina
+|-activate|p2a: Primarina|move: Protect
+|-damage|p1a: Iron Treads|0 fnt|[from] steelbeam
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769319323
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|3
+|
+|t:|1769319330
+|move|p2a: Primarina|Whirlpool|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|84/100
+|-activate|p1a: Pelipper|move: Whirlpool|[of] p2a: Primarina
+|move|p1a: Pelipper|Knock Off|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|93/100
+|-enditem|p2a: Primarina|Leftovers|[from] move: Knock Off|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|72/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1769319344
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1a: Pelipper|U-turn|p2a: Primarina
+|-activate|p2a: Primarina|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|60/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1769319351
+|move|p2a: Primarina|Draining Kiss|p1a: Pelipper
+|-damage|p1a: Pelipper|28/100
+|-heal|p2a: Primarina|100/100|[from] drain|[of] p1a: Pelipper
+|move|p1a: Pelipper|U-turn|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|94/100
+|
+|t:|1769319361
+|switch|p1a: Dragonite|Dragonite, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1769319368
+|move|p1a: Dragonite|Thunder|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|54/100
+|move|p2a: Primarina|Perish Song|p2a: Primarina
+|-start|p1a: Dragonite|perish3|[silent]
+|-start|p2a: Primarina|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Dragonite|perish3
+|-start|p2a: Primarina|perish3
+|upkeep
+|turn|7
+|
+|t:|1769319381
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1a: Dragonite|Thunder|p2a: Primarina
+|-activate|p2a: Primarina|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Dragonite|perish2
+|-start|p2a: Primarina|perish2
+|upkeep
+|turn|8
+|
+|t:|1769319398
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|-damage|p2a: Salazzle|76/100|[from] Stealth Rock
+|move|p1a: Dragonite|Thunder|p2a: Salazzle
+|-damage|p2a: Salazzle|23/100
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Dragonite|perish1
+|upkeep
+|turn|9
+|
+|t:|1769319446
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|move|p2a: Salazzle|Toxic|p1a: Keldeo
+|-status|p1a: Keldeo|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Keldeo|94/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1769319452
+|move|p2a: Salazzle|Endeavor|p1a: Keldeo
+|-damage|p1a: Keldeo|24/100 tox
+|move|p1a: Keldeo|Surf|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|-weather|none
+|-damage|p1a: Keldeo|12/100 tox|[from] psn
+|upkeep
+|
+|t:|1769319463
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|turn|11
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ashyman2000)
+|inactive|DiscoRain has 120 seconds left.
+|inactive|DiscoRain has 90 seconds left.
+|inactive|DiscoRain has 60 seconds left.
+|c|☆ashyman2000|Gg
+|inactive|DiscoRain has 30 seconds left.
+|inactive|DiscoRain has 20 seconds left.
+|inactive|DiscoRain has 15 seconds left.
+|inactive|DiscoRain has 10 seconds left.
+|inactive|DiscoRain has 5 seconds left.
+|-message|DiscoRain lost due to inactivity.
+|
+|win|ashyman2000
+|raw|DiscoRain's rating: 1143 &rarr; <strong>1118</strong><br />(-25 for losing)
+|raw|ashyman2000's rating: 1148 &rarr; <strong>1173</strong><br />(+25 for winning)
+|l|☆ashyman2000
+|player|p2|
+|j|☆ashyman2000
+|player|p2|ashyman2000|hoopster|
+|l|☆ashyman2000
+|player|p2|

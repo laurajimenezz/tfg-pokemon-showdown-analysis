@@ -1,0 +1,330 @@
+|j|☆drop a baby
+|j|☆a very bad gamer
+|t:|1757795942
+|gametype|singles
+|player|p1|drop a baby|chase|1736
+|player|p2|a very bad gamer|265|1683
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Kingambit, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p2|Kommo-o, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Gholdengo|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by drop a baby)
+|
+|t:|1757795957
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Valiant|atk|1
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1757795965
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1757795975
+|move|p1a: Iron Valiant|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|45/100
+|-enditem|p2a: Hatterene|Assault Vest|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Hatterene|Draining Kiss|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-heal|p2a: Hatterene|100/100|[from] drain|[of] p1a: Iron Valiant
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757795981
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|3
+|
+|t:|1757795984
+|move|p1a: Iron Moth|Fiery Dance|p2a: Hatterene
+|-damage|p2a: Hatterene|61/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Hatterene|Psyshock|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757795988
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|4
+|
+|t:|1757795997
+|move|p1a: Ogerpon|Power Whip|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1757796001
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|turn|5
+|
+|t:|1757796009
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Dragonite
+|-sidestart|p1: drop a baby|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1757796020
+|move|p2a: Landorus|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|95/100
+|
+|t:|1757796024
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|7
+|
+|t:|1757796036
+|-terastallize|p1a: Dragonite|Flying
+|move|p1a: Dragonite|Tera Blast|p2a: Ogerpon|[anim] Tera Blast Flying
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1757796058
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|8
+|
+|t:|1757796062
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|move|p1a: Dragonite|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|9
+|
+|t:|1757796074
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Landorus|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|83/100
+|
+|t:|1757796077
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|turn|10
+|
+|t:|1757796081
+|-terastallize|p2a: Kingambit|Ghost
+|move|p1a: Dragonite|Tera Blast|p2a: Kingambit|[anim] Tera Blast Flying
+|-damage|p2a: Kingambit|32/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dragonite
+|-damage|p1a: Dragonite|17/100
+|
+|-heal|p2a: Kingambit|38/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1757796088
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Dragonite|Encore|p2a: Kingambit
+|-start|p2a: Kingambit|Encore
+|
+|-heal|p2a: Kingambit|44/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1757796092
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|13
+|
+|t:|1757796099
+|move|p1a: Dragonite|Tera Blast|p2a: Landorus|[anim] Tera Blast Flying
+|-damage|p2a: Landorus|10/100
+|move|p2a: Landorus|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|5/100
+|
+|t:|1757796104
+|switch|p2a: Kingambit|Kingambit, M, tera:Ghost|44/100|[from] U-turn
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|
+|-heal|p2a: Kingambit|50/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1757796113
+|move|p2a: Kingambit|Sucker Punch|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Kingambit|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757796116
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-damage|p1a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|15
+|
+|t:|1757796124
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1757796128
+|switch|p2a: Landorus|Landorus-Therian, M|10/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Raging Bolt|atk|1
+|turn|16
+|
+|t:|1757796132
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|move|p2a: Landorus|Earth Power|p1a: Ogerpon
+|-damage|p1a: Ogerpon|51/100
+|
+|upkeep
+|turn|17
+|
+|t:|1757796138
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Landorus|[anim] Ivy Cudgel Rock
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1757796142
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|18
+|
+|t:|1757796146
+|move|p1a: Ogerpon|Knock Off|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|81/100
+|-enditem|p2a: Kommo-o|Throat Spray|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|48/100
+|
+|upkeep
+|turn|19
+|
+|t:|1757796152
+|move|p2a: Kommo-o|Drain Punch|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|-heal|p2a: Kommo-o|75/100|[from] drain|[of] p1a: Ogerpon
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1757796154
+|switch|p1a: Raging Bolt|Raging Bolt|88/100
+|-damage|p1a: Raging Bolt|76/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1757796159
+|move|p2a: Kommo-o|Boomburst|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|21/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|t:|1757796164
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|21
+|
+|t:|1757796168
+|move|p2a: Gholdengo|Trick|p1a: Raging Bolt
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Raging Bolt
+|-item|p1a: Raging Bolt|Choice Scarf|[from] move: Trick
+|-enditem|p2a: Gholdengo|Choice Scarf|[silent]|[from] move: Trick
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Gholdengo
+|-damage|p2a: Gholdengo|46/100
+|
+|upkeep
+|turn|22
+|-message|a very bad gamer forfeited.
+|
+|win|drop a baby
+|raw|drop a baby's rating: 1736 &rarr; <strong>1753</strong><br />(+17 for winning)
+|raw|a very bad gamer's rating: 1683 &rarr; <strong>1666</strong><br />(-17 for losing)
+|l|☆a very bad gamer
+|player|p2|
+|l|☆drop a baby
+|player|p1|

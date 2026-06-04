@@ -1,0 +1,191 @@
+|j|☆alexisahuman
+|j|☆Arcane Brain
+|t:|1760346292
+|gametype|singles
+|player|p1|alexisahuman|169|1259
+|player|p2|Arcane Brain|266|1256
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Tauros, M|
+|poke|p1|Feraligatr, M|
+|poke|p1|Salazzle, F|
+|poke|p1|Serperior, F|
+|poke|p1|Staraptor, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Walking Wake|
+|poke|p2|Cresselia, F|
+|teampreview
+|
+|t:|1760346316
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1760346320
+|move|p1a: Iron Treads|Iron Head|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|17/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1760346326
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|move|p1a: Iron Treads|Iron Head|p2: Hatterene|[notarget]
+|-fail|p1a: Iron Treads
+|
+|upkeep
+|
+|t:|1760346328
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1760346331
+|move|p2a: Torkoal|Eruption|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760346337
+|switch|p1a: Salazzle|Salazzle, F, shiny|100/100
+|turn|4
+|
+|t:|1760346342
+|move|p2a: Torkoal|Eruption|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760346353
+|switch|p1a: Serperior|Serperior, F|100/100
+|turn|5
+|
+|t:|1760346356
+|move|p2a: Torkoal|Eruption|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760346360
+|switch|p1a: Tauros|Tauros, M|100/100
+|turn|6
+|
+|t:|1760346363
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Tauros|Body Slam|p2a: Cresselia
+|-damage|p2a: Cresselia|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760346373
+|-terastallize|p1a: Tauros|Normal
+|move|p1a: Tauros|Body Slam|p2a: Cresselia
+|-damage|p2a: Cresselia|9/100
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|76/100
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1760346380
+|move|p1a: Tauros|Body Slam|p2a: Cresselia
+|-damage|p2a: Cresselia|27/100
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|upkeep
+|turn|9
+|
+|t:|1760346385
+|move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
+|faint|p2a: Cresselia
+|move|p1a: Tauros|Body Slam|p2: Cresselia|[notarget]
+|-fail|p1a: Tauros
+|
+|upkeep
+|
+|t:|1760346387
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-heal|p2a: Torkoal|100/100|[from] move: Lunar Dance
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|10
+|
+|t:|1760346389
+|move|p2a: Torkoal|Eruption|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760346393
+|switch|p1a: Feraligatr|Feraligatr, M|100/100
+|turn|11
+|
+|t:|1760346396
+|-terastallize|p2a: Torkoal|Fire
+|move|p1a: Feraligatr|Aqua Jet|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|88/100
+|move|p2a: Torkoal|Eruption|p1a: Feraligatr
+|-resisted|p1a: Feraligatr
+|-damage|p1a: Feraligatr|0 fnt
+|faint|p1a: Feraligatr
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760346400
+|switch|p1a: Staraptor|Staraptor, F|100/100
+|turn|12
+|
+|t:|1760346402
+|move|p2a: Torkoal|Eruption|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|faint|p1a: Staraptor
+|
+|win|Arcane Brain
+|raw|alexisahuman's rating: 1259 &rarr; <strong>1234</strong><br />(-25 for losing)
+|raw|Arcane Brain's rating: 1256 &rarr; <strong>1281</strong><br />(+25 for winning)
+|l|☆alexisahuman
+|player|p1|
+|l|☆Arcane Brain
+|player|p2|

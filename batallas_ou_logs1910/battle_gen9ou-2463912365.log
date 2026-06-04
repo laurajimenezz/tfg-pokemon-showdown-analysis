@@ -1,0 +1,192 @@
+|j|☆kabutopzboy
+|j|☆Charle_phate
+|t:|1760764517
+|gametype|singles
+|player|p1|kabutopzboy|acetrainer-gen4|1212
+|player|p2|Charle_phate|blue|1239
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Great Tusk|
+|poke|p1|Zangoose, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Alomomola, M|
+|poke|p2|Serperior, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Zapdos|
+|poke|p2|Heatran, F|
+|poke|p2|Clefable, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Charle_phate)
+|
+|t:|1760764525
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|1
+|
+|t:|1760764535
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Steelheart|Iron Valiant, shiny|100/100
+|-enditem|p1a: Steelheart|Booster Energy
+|-activate|p1a: Steelheart|ability: Quark Drive|[fromitem]
+|-start|p1a: Steelheart|quarkdrivespe
+|move|p2a: Rotom|Will-O-Wisp|p1a: Steelheart
+|-status|p1a: Steelheart|brn
+|
+|-damage|p1a: Steelheart|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1760764557
+|move|p1a: Steelheart|Thunderbolt|p2a: Rotom
+|-damage|p2a: Rotom|78/100
+|move|p2a: Rotom|Charge Beam|p1a: Steelheart
+|-damage|p1a: Steelheart|61/100 brn
+|
+|-heal|p2a: Rotom|84/100|[from] item: Leftovers
+|-damage|p1a: Steelheart|55/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1760764580
+|move|p2a: Rotom|Charge Beam|p1a: Steelheart
+|-damage|p1a: Steelheart|25/100 brn
+|-boost|p2a: Rotom|spa|1
+|move|p1a: Steelheart|Trick Room|p1a: Steelheart
+|-fieldstart|move: Trick Room|[of] p1a: Steelheart
+|
+|-heal|p2a: Rotom|90/100|[from] item: Leftovers
+|-damage|p1a: Steelheart|19/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|Charle_phate has 120 seconds left.
+|
+|t:|1760764597
+|move|p2a: Rotom|Charge Beam|p1a: Steelheart|[miss]
+|-miss|p2a: Rotom|p1a: Steelheart
+|move|p1a: Steelheart|Thunderbolt|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|57/100
+|
+|-heal|p2a: Rotom|64/100|[from] item: Leftovers
+|-damage|p1a: Steelheart|13/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1760764605
+|move|p2a: Rotom|Charge Beam|p1a: Steelheart|[miss]
+|-miss|p2a: Rotom|p1a: Steelheart
+|move|p1a: Steelheart|Thunderbolt|p2a: Rotom
+|-damage|p2a: Rotom|41/100
+|
+|-heal|p2a: Rotom|47/100|[from] item: Leftovers
+|-damage|p1a: Steelheart|7/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1760764613
+|move|p2a: Rotom|Charge Beam|p1a: Steelheart
+|-damage|p1a: Steelheart|0 fnt
+|-boost|p2a: Rotom|spa|1
+|faint|p1a: Steelheart
+|-end|p1a: Steelheart|Quark Drive|[silent]
+|
+|-heal|p2a: Rotom|53/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760764619
+|switch|p1a: Zangoose|Zangoose, F, shiny|100/100
+|turn|7
+|
+|t:|1760764637
+|-terastallize|p1a: Zangoose|Normal
+|move|p1a: Zangoose|Facade|p2a: Rotom
+|-damage|p2a: Rotom|1/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Zangoose
+|-status|p1a: Zangoose|brn
+|
+|-heal|p2a: Rotom|8/100|[from] item: Leftovers
+|-damage|p1a: Zangoose|95/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1760764648
+|move|p1a: Zangoose|Quick Attack|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Zangoose|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1760764670
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|9
+|
+|t:|1760764676
+|move|p1a: Zangoose|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|63/100
+|-unboost|p1a: Zangoose|def|1
+|-unboost|p1a: Zangoose|spd|1
+|move|p2a: Heatran|Substitute|p2a: Heatran
+|-start|p2a: Heatran|Substitute
+|-damage|p2a: Heatran|39/100
+|
+|-heal|p2a: Heatran|45/100|[from] item: Leftovers
+|-damage|p1a: Zangoose|83/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1760764700
+|move|p1a: Zangoose|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-end|p2a: Heatran|Substitute
+|-unboost|p1a: Zangoose|def|1
+|-unboost|p1a: Zangoose|spd|1
+|move|p2a: Heatran|Ancient Power|p1a: Zangoose
+|-damage|p1a: Zangoose|35/100 brn
+|
+|-heal|p2a: Heatran|51/100|[from] item: Leftovers
+|-damage|p1a: Zangoose|29/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1760764710
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Zangoose|Close Combat|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|91/100
+|-unboost|p1a: Zangoose|def|1
+|-unboost|p1a: Zangoose|spd|1
+|
+|-damage|p1a: Zangoose|23/100 brn|[from] brn
+|upkeep
+|turn|12
+|-message|kabutopzboy forfeited.
+|
+|win|Charle_phate
+|raw|kabutopzboy's rating: 1212 &rarr; <strong>1189</strong><br />(-23 for losing)
+|raw|Charle_phate's rating: 1239 &rarr; <strong>1262</strong><br />(+23 for winning)
+|l|☆kabutopzboy
+|player|p1|
+|l|☆Charle_phate
+|player|p2|

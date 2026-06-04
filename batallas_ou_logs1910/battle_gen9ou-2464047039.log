@@ -1,0 +1,345 @@
+|j|☆moldono
+|j|☆phonekretchy
+|t:|1760792559
+|gametype|singles
+|player|p1|moldono|crasherwake|1182
+|player|p2|phonekretchy|101|1175
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, M|
+|poke|p1|Iron Moth|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Latias, F|
+|poke|p1|Zapdos|
+|poke|p1|Golurk|
+|poke|p2|Whimsicott, F|
+|poke|p2|Sunflora, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Walking Wake|
+|poke|p2|Iron Hands|
+|teampreview
+|
+|t:|1760792569
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|turn|1
+|
+|t:|1760792576
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Whimsicott|Trick Room|p2a: Whimsicott
+|-fieldstart|move: Trick Room|[of] p2a: Whimsicott
+|
+|upkeep
+|turn|2
+|
+|t:|1760792587
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Iron Moth|Fiery Dance|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|8/100
+|-boost|p1a: Iron Moth|spa|1
+|-enditem|p2a: Torkoal|Eject Button
+|
+|t:|1760792596
+|switch|p2a: Sunflora|Sunflora, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Sunflora|88/100|[from] ability: Solar Power|[of] p2a: Sunflora
+|upkeep
+|turn|3
+|
+|t:|1760792603
+|move|p2a: Sunflora|Earth Power|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Sunflora|76/100|[from] ability: Solar Power|[of] p2a: Sunflora
+|upkeep
+|
+|t:|1760792643
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|4
+|
+|t:|1760792650
+|switch|p2a: Torkoal|Torkoal, M|8/100
+|move|p1a: Zapdos|Hurricane|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760792652
+|switch|p2a: Sunflora|Sunflora, M|76/100
+|turn|5
+|
+|t:|1760792661
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|-terastallize|p2a: Sunflora|Fire
+|move|p2a: Sunflora|Weather Ball|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Sunflora|63/100|[from] ability: Solar Power|[of] p2a: Sunflora
+|-heal|p1a: Garganacl|52/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1760792684
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|-terastallize|p1a: Garganacl|Water
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1760792694
+|move|p2a: Iron Hands|Swords Dance|p2a: Iron Hands
+|-boost|p2a: Iron Hands|atk|2
+|move|p1a: Garganacl|Salt Cure|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|96/100
+|-start|p2a: Iron Hands|Salt Cure
+|
+|-damage|p2a: Iron Hands|83/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1760792703
+|move|p2a: Iron Hands|Thunder Punch|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-damage|p2a: Iron Hands|71/100|[from] Salt Cure
+|upkeep
+|
+|t:|1760792728
+|switch|p1a: Latias|Latias, F|100/100
+|turn|9
+|
+|t:|1760792735
+|move|p1a: Latias|Mist Ball|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760792739
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|turn|10
+|
+|t:|1760792769
+|switch|p1a: Golurk|Golurk|100/100
+|move|p2a: Whimsicott|Trick Room|p2a: Whimsicott
+|-fieldstart|move: Trick Room|[of] p2a: Whimsicott
+|
+|upkeep
+|turn|11
+|
+|t:|1760792788
+|move|p2a: Whimsicott|Sunny Day|p2a: Whimsicott
+|-weather|SunnyDay
+|move|p1a: Golurk|Dynamic Punch|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|77/100
+|-start|p2a: Whimsicott|confusion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1760792799
+|switch|p1a: Zapdos|Zapdos|100/100
+|-activate|p2a: Whimsicott|confusion
+|move|p2a: Whimsicott|Memento|p1a: Zapdos
+|-unboost|p1a: Zapdos|atk|2
+|-unboost|p1a: Zapdos|spa|2
+|faint|p2a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760792801
+|switch|p2a: Sunflora|Sunflora, M, tera:Fire|63/100
+|turn|13
+|
+|t:|1760792835
+|move|p2a: Sunflora|Weather Ball|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Sunflora|51/100|[from] ability: Solar Power|[of] p2a: Sunflora
+|upkeep
+|
+|t:|1760792853
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|14
+|
+|t:|1760792859
+|move|p2a: Sunflora|Weather Ball|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Sunflora|38/100|[from] ability: Solar Power|[of] p2a: Sunflora
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760792865
+|switch|p1a: Golurk|Golurk|100/100
+|turn|15
+|
+|t:|1760792874
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p1a: Golurk|Earthquake|p2a: Walking Wake
+|-damage|p2a: Walking Wake|12/100
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|turn|16
+|
+|t:|1760792886
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Latias
+|-resisted|p1a: Latias
+|-crit|p1a: Latias
+|-damage|p1a: Latias|71/100
+|-damage|p2a: Walking Wake|2/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|
+|t:|1760792902
+|switch|p1a: Golurk|Golurk|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|-damage|p2a: Walking Wake|0 fnt|[from] item: Life Orb
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760792909
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|switch|p1a: Latias|Latias, F|71/100
+|turn|18
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by phonekretchy)
+|
+|t:|1760792945
+|move|p1a: Latias|Substitute|p1a: Latias
+|-start|p1a: Latias|Substitute
+|-damage|p1a: Latias|46/100
+|move|p2a: Mimikyu|Trick Room|p2a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p2a: Mimikyu
+|
+|upkeep
+|turn|19
+|
+|t:|1760792950
+|move|p2a: Mimikyu|Play Rough|p1a: Latias
+|-supereffective|p1a: Latias
+|-end|p1a: Latias|Substitute
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|96/100
+|
+|upkeep
+|turn|20
+|
+|t:|1760792964
+|move|p2a: Mimikyu|Play Rough|p1a: Latias|[miss]
+|-miss|p2a: Mimikyu|p1a: Latias
+|move|p1a: Latias|Substitute|p1a: Latias
+|-start|p1a: Latias|Substitute
+|-damage|p1a: Latias|72/100
+|
+|upkeep
+|turn|21
+|
+|t:|1760792971
+|move|p2a: Mimikyu|Play Rough|p1a: Latias|[miss]
+|-miss|p2a: Mimikyu|p1a: Latias
+|move|p1a: Latias|Mist Ball|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|
+|upkeep
+|turn|22
+|
+|t:|1760792984
+|move|p2a: Mimikyu|Destiny Bond|p2a: Mimikyu
+|-singlemove|p2a: Mimikyu|Destiny Bond
+|move|p1a: Latias|Mist Ball|p2a: Mimikyu
+|-damage|p2a: Mimikyu|24/100
+|-unboost|p2a: Mimikyu|spa|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|23
+|c|☆phonekretchy|nooo
+|
+|t:|1760792998
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|100/100
+|move|p2a: Mimikyu|Trick Room|p2a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p2a: Mimikyu
+|
+|upkeep
+|turn|24
+|
+|t:|1760793006
+|move|p2a: Mimikyu|Destiny Bond|p2a: Mimikyu
+|-singlemove|p2a: Mimikyu|Destiny Bond
+|move|p1a: Latias|Mist Ball|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|-activate|p2a: Mimikyu|move: Destiny Bond
+|faint|p1a: Latias
+|
+|win|phonekretchy
+|raw|moldono's rating: 1182 &rarr; <strong>1156</strong><br />(-26 for losing)
+|raw|phonekretchy's rating: 1175 &rarr; <strong>1201</strong><br />(+26 for winning)
+|c|☆phonekretchy|ggggg
+|l|☆moldono
+|player|p1|
+|l|☆phonekretchy
+|player|p2|

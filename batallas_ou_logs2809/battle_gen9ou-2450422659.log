@@ -1,0 +1,218 @@
+|j|☆jumbolino
+|j|☆potipot
+|t:|1758981878
+|gametype|singles
+|player|p1|jumbolino|101|1103
+|player|p2|potipot|psychic-gen4|1136
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zapdos|
+|poke|p1|Magnezone|
+|poke|p1|Jolteon, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Lanturn, M|
+|poke|p1|Golem-Alola, F|
+|poke|p2|Donphan, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Zapdos|
+|poke|p2|Drednaw, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by potipot)
+|
+|t:|1758981890
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Lanturn|Lanturn, M|100/100
+|switch|p2a: Donphan|Donphan, F|100/100
+|turn|1
+|
+|t:|1758981898
+|move|p1a: Lanturn|Scald|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|28/100
+|-status|p2a: Donphan|brn
+|move|p2a: Donphan|Stealth Rock|p1a: Lanturn
+|-sidestart|p1: jumbolino|move: Stealth Rock
+|
+|-damage|p2a: Donphan|22/100 brn|[from] brn
+|upkeep
+|turn|2
+|-enditem|p2a: Donphan|Custap Berry|[eat]
+|-activate|p2a: Donphan|item: Custap Berry|[consumed]
+|
+|t:|1758981908
+|move|p2a: Donphan|Earthquake|p1a: Lanturn
+|-supereffective|p1a: Lanturn
+|-damage|p1a: Lanturn|51/100
+|move|p1a: Lanturn|Scald|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|-heal|p1a: Lanturn|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758981919
+|switch|p2a: Toilet|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Toilet
+|turn|3
+|
+|t:|1758981925
+|switch|p2a: Iris|Meowscarada, F, shiny|100/100
+|move|p1a: Lanturn|Ice Beam|p2a: Iris
+|-supereffective|p2a: Iris
+|-damage|p2a: Iris|36/100
+|-status|p2a: Iris|frz
+|-enditem|p2a: Iris|Lum Berry|[eat]
+|-curestatus|p2a: Iris|frz|[msg]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lanturn|63/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1758981938
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|move|p2a: Iris|Flower Trick|p1a: Magnezone
+|-start|p2a: Iris|typechange|Grass|[from] ability: Protean
+|-resisted|p1a: Magnezone
+|-crit|p1a: Magnezone
+|-damage|p1a: Magnezone|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magnezone|85/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1758981951
+|move|p2a: Iris|Knock Off|p1a: Magnezone
+|-damage|p1a: Magnezone|66/100
+|-enditem|p1a: Magnezone|Leftovers|[from] move: Knock Off|[of] p2a: Iris
+|move|p1a: Magnezone|Flash Cannon|p2a: Iris
+|-damage|p2a: Iris|0 fnt
+|faint|p2a: Iris
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758981959
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|6
+|
+|t:|1758981965
+|move|p2a: Zapdos|Weather Ball|p1a: Magnezone
+|-damage|p1a: Magnezone|8/100
+|move|p1a: Magnezone|Volt Switch|p2a: Zapdos
+|-damage|p2a: Zapdos|52/100
+|
+|t:|1758981978
+|switch|p1a: Jolteon|Jolteon, M|100/100|[from] Volt Switch
+|-damage|p1a: Jolteon|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758981985
+|move|p1a: Jolteon|Thunder|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-damage|p1a: Jolteon|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758981992
+|switch|p2a: Red Shell|Drednaw, M|100/100
+|turn|8
+|
+|t:|1758981996
+|move|p2a: Red Shell|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758982009
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1758982014
+|move|p2a: Red Shell|Ice Spinner|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758982025
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1758982033
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Rotom|Pain Split|p2a: Cinderace
+|-sethp|p2a: Cinderace|86/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|100/100|[from] move: Pain Split
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1758982045
+|move|p2a: Cinderace|High Jump Kick|p1a: Rotom
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-damage|p1a: Rotom|1/100
+|move|p1a: Rotom|Hydro Pump|p2a: Cinderace
+|-damage|p2a: Cinderace|11/100
+|
+|upkeep
+|turn|12
+|
+|t:|1758982058
+|move|p2a: Cinderace|Sucker Punch|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1758982071
+|switch|p1a: Lanturn|Lanturn, M|63/100
+|-damage|p1a: Lanturn|51/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1758982078
+|move|p2a: Cinderace|High Jump Kick|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|faint|p1a: Lanturn
+|
+|upkeep
+|-message|jumbolino forfeited.
+|
+|win|potipot
+|raw|jumbolino's rating: 1103 &rarr; <strong>1080</strong><br />(-23 for losing)
+|raw|potipot's rating: 1136 &rarr; <strong>1159</strong><br />(+23 for winning)
+|l|☆jumbolino
+|player|p1|
+|l|☆potipot
+|player|p2|

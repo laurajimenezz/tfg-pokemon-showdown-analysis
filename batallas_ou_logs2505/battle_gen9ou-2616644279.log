@@ -1,0 +1,331 @@
+|j|☆venator
+|j|☆Morceguinhoir
+|t:|1779584414
+|gametype|singles
+|player|p1|venator|acetrainer-gen4dp|1115
+|player|p2|Morceguinhoir|n|1127
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Magmortar, M|
+|poke|p1|Azumarill, F|
+|poke|p1|Vileplume, F|
+|poke|p1|Clefable, F|
+|poke|p1|Mightyena, F|
+|poke|p1|Metagross|
+|poke|p2|Sableye, F|
+|poke|p2|Gardevoir, F|
+|poke|p2|Indeedee-F, F|
+|poke|p2|Venusaur, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Ceruledge, F|
+|teampreview
+|
+|t:|1779584420
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Clefable|Clefable, F|100/100
+|switch|p2a: Sableye|Sableye, F|100/100
+|turn|1
+|
+|t:|1779584426
+|move|p2a: Sableye|Will-O-Wisp|p1a: Clefable
+|-status|p1a: Clefable|brn
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1779584436
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Clefable|Fire Blast|p2a: Indeedee
+|-damage|p2a: Indeedee|45/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779584446
+|move|p2a: Indeedee|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|58/100 brn
+|move|p1a: Clefable|Thunder|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1779584456
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Magic Guard|Trace|[from] ability: Trace|[of] p1a: Clefable
+|turn|4
+|
+|t:|1779584462
+|move|p2a: Gardevoir|Expanding Force|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1779584473
+|switch|p1a: Mightyena|Mightyena, F|100/100
+|-ability|p1a: Mightyena|Intimidate|boost
+|-unboost|p2a: Gardevoir|atk|1
+|turn|5
+|
+|t:|1779584482
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Mightyena|Endeavor|p2a: Torkoal
+|-damage|p2a: Torkoal|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779584493
+|move|p1a: Mightyena|Taunt|p2a: Torkoal
+|-start|p2a: Torkoal|move: Taunt
+|cant|p2a: Torkoal|move: Taunt|Will-O-Wisp
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|7
+|
+|t:|1779584501
+|move|p1a: Mightyena|Charm|p2a: Torkoal
+|-unboost|p2a: Torkoal|atk|2
+|move|p2a: Torkoal|Eruption|p1a: Mightyena
+|-crit|p1a: Mightyena
+|-enditem|p1a: Mightyena|Focus Sash
+|-damage|p1a: Mightyena|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1779584512
+|move|p1a: Mightyena|Endeavor|p2a: Torkoal
+|-damage|p2a: Torkoal|1/100
+|move|p2a: Torkoal|Rapid Spin|p1a: Mightyena
+|-damage|p1a: Mightyena|0 fnt
+|-boost|p2a: Torkoal|spe|1
+|faint|p1a: Mightyena
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Torkoal|move: Taunt
+|upkeep
+|
+|t:|1779584522
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|turn|9
+|
+|t:|1779584535
+|move|p1a: Vileplume|Sludge Bomb|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779584538
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|turn|10
+|
+|t:|1779584551
+|move|p1a: Vileplume|Stun Spore|p2a: Ceruledge
+|-status|p2a: Ceruledge|par
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779584559
+|move|p1a: Vileplume|Sludge Bomb|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|81/100 par
+|move|p2a: Ceruledge|Bitter Blade|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|-heal|p2a: Ceruledge|100/100 par|[from] drain|[of] p1a: Vileplume
+|-damage|p2a: Ceruledge|84/100 par|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|faint|p1a: Vileplume
+|-damage|p2a: Ceruledge|74/100 par|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779584573
+|switch|p1a: Metagross|Metagross|100/100
+|turn|12
+|
+|t:|1779584582
+|-terastallize|p1a: Metagross|Water
+|-terastallize|p2a: Ceruledge|Ghost
+|move|p1a: Metagross|Earthquake|p2a: Ceruledge
+|-damage|p2a: Ceruledge|21/100 par
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|move|p2a: Ceruledge|Poltergeist|p1a: Metagross
+|-activate|p1a: Metagross|move: Poltergeist|Leftovers
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|-damage|p2a: Ceruledge|11/100 par|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1779584598
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|turn|13
+|
+|t:|1779584604
+|move|p1a: Azumarill|Aqua Jet|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1779584609
+|switch|p2a: Sableye|Sableye, F|100/100
+|turn|14
+|
+|t:|1779584612
+|switch|p1a: Magmortar|Magmortar, M|100/100
+|move|p2a: Sableye|Will-O-Wisp|p1a: Magmortar
+|-immune|p1a: Magmortar
+|
+|upkeep
+|turn|15
+|
+|t:|1779584620
+|move|p2a: Sableye|Light Screen|p2a: Sableye
+|-sidestart|p2: Morceguinhoir|move: Light Screen
+|move|p1a: Magmortar|Acid Spray|p2a: Sableye
+|-resisted|p2a: Sableye
+|-damage|p2a: Sableye|95/100
+|-unboost|p2a: Sableye|spd|2
+|
+|upkeep
+|turn|16
+|
+|t:|1779584627
+|move|p2a: Sableye|Reflect|p2a: Sableye
+|-sidestart|p2: Morceguinhoir|Reflect
+|move|p1a: Magmortar|Acid Spray|p2a: Sableye
+|-resisted|p2a: Sableye
+|-crit|p2a: Sableye
+|-damage|p2a: Sableye|64/100
+|-unboost|p2a: Sableye|spd|2
+|
+|upkeep
+|turn|17
+|
+|t:|1779584634
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Flame Body|Trace|[from] ability: Trace|[of] p1a: Magmortar
+|move|p1a: Magmortar|Lava Plume|p2a: Gardevoir
+|-damage|p2a: Gardevoir|79/100
+|
+|upkeep
+|turn|18
+|
+|t:|1779584647
+|move|p2a: Gardevoir|Expanding Force|p1a: Magmortar
+|-damage|p1a: Magmortar|54/100
+|move|p1a: Magmortar|Acid Spray|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|64/100
+|-unboost|p2a: Gardevoir|spd|2
+|
+|upkeep
+|turn|19
+|
+|t:|1779584657
+|switch|p2a: Sableye|Sableye, F|64/100
+|move|p1a: Magmortar|Lava Plume|p2a: Sableye
+|-damage|p2a: Sableye|32/100
+|
+|upkeep
+|turn|20
+|
+|t:|1779584667
+|move|p2a: Sableye|Shadow Sneak|p1a: Magmortar
+|-damage|p1a: Magmortar|38/100
+|-damage|p2a: Sableye|16/100|[from] item: Rocky Helmet|[of] p1a: Magmortar
+|move|p1a: Magmortar|Lava Plume|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|upkeep
+|
+|t:|1779584669
+|switch|p2a: Gardevoir|Gardevoir, F|64/100
+|-ability|p2a: Gardevoir|Flame Body|Trace|[from] ability: Trace|[of] p1a: Magmortar
+|turn|21
+|
+|t:|1779584682
+|move|p2a: Gardevoir|Expanding Force|p1a: Magmortar
+|-damage|p1a: Magmortar|0 fnt
+|faint|p1a: Magmortar
+|
+|upkeep
+|
+|t:|1779584686
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|turn|22
+|
+|t:|1779584692
+|move|p2a: Gardevoir|Expanding Force|p1a: Azumarill
+|-damage|p1a: Azumarill|56/100
+|move|p1a: Azumarill|Knock Off|p2a: Gardevoir
+|-damage|p2a: Gardevoir|11/100
+|-enditem|p2a: Gardevoir|Choice Scarf|[from] move: Knock Off|[of] p1a: Azumarill
+|
+|-sideend|p2: Morceguinhoir|move: Light Screen
+|upkeep
+|turn|23
+|
+|t:|1779584700
+|move|p2a: Gardevoir|Expanding Force|p1a: Azumarill
+|-damage|p1a: Azumarill|13/100
+|move|p1a: Azumarill|Knock Off|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|-sideend|p2: Morceguinhoir|Reflect
+|upkeep
+|
+|t:|1779584703
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|turn|24
+|
+|t:|1779584710
+|move|p2a: Venusaur|Giga Drain|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|win|Morceguinhoir
+|raw|venator's rating: 1115 &rarr; <strong>1091</strong><br />(-24 for losing)
+|raw|Morceguinhoir's rating: 1127 &rarr; <strong>1151</strong><br />(+24 for winning)
+|l|☆venator
+|player|p1|
+|l|☆Morceguinhoir
+|player|p2|

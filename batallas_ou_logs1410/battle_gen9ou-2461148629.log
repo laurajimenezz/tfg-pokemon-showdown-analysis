@@ -1,0 +1,274 @@
+|j|☆Noise mno
+|j|☆Yelo_Galaxy
+|t:|1760400170
+|gametype|singles
+|player|p1|Noise mno|101|1605
+|player|p2|Yelo_Galaxy|2|1570
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, F|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Great Tusk|
+|poke|p1|Dragonite, F|
+|poke|p1|Iron Moth|
+|poke|p1|Primarina, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Slither Wing|
+|poke|p2|Venusaur, F|
+|poke|p2|Walking Wake|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yelo_Galaxy)
+|
+|t:|1760400184
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Siren|Primarina, F|100/100
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|turn|1
+|
+|t:|1760400208
+|move|p2a: Slither Wing|Earthquake|p1a: Siren
+|-damage|p1a: Siren|55/100
+|move|p1a: Siren|Psychic Noise|p2a: Slither Wing
+|-supereffective|p2a: Slither Wing
+|-damage|p2a: Slither Wing|61/100
+|-start|p2a: Slither Wing|move: Heal Block
+|
+|upkeep
+|turn|2
+|
+|t:|1760400227
+|switch|p1a: Anomaly|Great Tusk|100/100
+|-enditem|p1a: Anomaly|Booster Energy
+|-activate|p1a: Anomaly|ability: Protosynthesis|[fromitem]
+|-start|p1a: Anomaly|protosynthesisatk
+|move|p2a: Slither Wing|U-turn|p1a: Anomaly
+|-resisted|p1a: Anomaly
+|-damage|p1a: Anomaly|85/100
+|
+|t:|1760400230
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1760400234
+|-end|p1a: Anomaly|Protosynthesis|[silent]
+|switch|p1a: Siren|Primarina, F|55/100
+|move|p2a: Walking Wake|Flip Turn|p1a: Siren
+|-resisted|p1a: Siren
+|-damage|p1a: Siren|47/100
+|
+|t:|1760400240
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|100/100|[from] Flip Turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760400245
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Siren|Whirlpool|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|96/100
+|-activate|p2a: Raging Bolt|move: Whirlpool|[of] p1a: Siren
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Raging Bolt|84/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1760400256
+|move|p2a: Raging Bolt|Solar Beam||[still]
+|-prepare|p2a: Raging Bolt|Solar Beam
+|-anim|p2a: Raging Bolt|Solar Beam|p1a: Siren
+|-supereffective|p1a: Siren
+|-damage|p1a: Siren|0 fnt
+|faint|p1a: Siren
+|-damage|p2a: Raging Bolt|74/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Raging Bolt|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1760400269
+|switch|p1a: Anomaly|Great Tusk|85/100
+|-activate|p1a: Anomaly|ability: Protosynthesis
+|-start|p1a: Anomaly|protosynthesisatk
+|turn|6
+|
+|t:|1760400283
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-item|p2a: Hatterene|Air Balloon
+|move|p1a: Anomaly|Ice Spinner|p2a: Hatterene
+|-damage|p2a: Hatterene|72/100
+|-enditem|p2a: Hatterene|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760400292
+|move|p1a: Anomaly|Headlong Rush|p2a: Hatterene
+|-damage|p2a: Hatterene|12/100
+|-unboost|p1a: Anomaly|def|1
+|-unboost|p1a: Anomaly|spd|1
+|move|p2a: Hatterene|Psychic Noise|p1a: Anomaly
+|-supereffective|p1a: Anomaly
+|-damage|p1a: Anomaly|0 fnt
+|faint|p1a: Anomaly
+|-end|p1a: Anomaly|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Noise mno has 120 seconds left.
+|
+|t:|1760400327
+|switch|p1a: Moebius|Deoxys-Speed|100/100
+|-ability|p1a: Moebius|Pressure
+|turn|8
+|
+|t:|1760400340
+|move|p1a: Moebius|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|-damage|p1a: Moebius|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760400342
+|switch|p2a: Slither Wing|Slither Wing|61/100
+|-activate|p2a: Slither Wing|ability: Protosynthesis
+|-start|p2a: Slither Wing|protosynthesisatk
+|turn|9
+|inactive|Noise mno has 120 seconds left.
+|
+|t:|1760400359
+|switch|p1a: Yoshi|Dragonite, F, shiny|100/100
+|move|p2a: Slither Wing|U-turn|p1a: Yoshi
+|-resisted|p1a: Yoshi
+|-damage|p1a: Yoshi|85/100
+|
+|t:|1760400362
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|inactive|Noise mno has 120 seconds left.
+|
+|t:|1760400371
+|switch|p1a: Moebius|Deoxys-Speed|91/100
+|-ability|p1a: Moebius|Pressure
+|move|p2a: Walking Wake|Draco Meteor|p1a: Moebius
+|-damage|p1a: Moebius|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Moebius
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|inactive|Noise mno has 120 seconds left.
+|
+|t:|1760400383
+|switch|p1a: Anomаly|Iron Moth|100/100
+|-enditem|p1a: Anomаly|Booster Energy
+|-activate|p1a: Anomаly|ability: Quark Drive|[fromitem]
+|-start|p1a: Anomаly|quarkdrivespe
+|turn|11
+|inactive|Noise mno has 120 seconds left.
+|
+|t:|1760400389
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Anomаly|Fiery Dance|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|60/100
+|-boost|p1a: Anomаly|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|inactive|Noise mno has 120 seconds left.
+|
+|t:|1760400410
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|move|p1a: Anomаly|Fiery Dance|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|-boost|p1a: Anomаly|spa|1
+|faint|p2a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760400412
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|13
+|inactive|Noise mno has 120 seconds left.
+|
+|t:|1760400419
+|move|p1a: Anomаly|Sludge Wave|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆Yelo_Galaxy|Goddamn it
+|c|☆Yelo_Galaxy|I forgot u had spe boost too
+|
+|t:|1760400443
+|switch|p2a: Raging Bolt|Raging Bolt|74/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|14
+|
+|t:|1760400448
+|move|p2a: Raging Bolt|Thunderclap|p1a: Anomаly
+|-damage|p1a: Anomаly|30/100
+|-damage|p2a: Raging Bolt|64/100|[from] item: Life Orb
+|move|p1a: Anomаly|Sludge Wave|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆Yelo_Galaxy|Gg
+|-message|Yelo_Galaxy forfeited.
+|
+|win|Noise mno
+|raw|Noise mno's rating: 1605 &rarr; <strong>1623</strong><br />(+18 for winning)
+|raw|Yelo_Galaxy's rating: 1570 &rarr; <strong>1552</strong><br />(-18 for losing)
+|l|☆Yelo_Galaxy
+|player|p2|
+|l|☆Noise mno
+|player|p1|

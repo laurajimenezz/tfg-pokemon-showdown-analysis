@@ -1,0 +1,293 @@
+|j|☆InfraredSense
+|j|☆realmathhills
+|t:|1760798343
+|gametype|singles
+|player|p1|InfraredSense|265|1328
+|player|p2|realmathhills|265|1355
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glimmora, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Great Tusk|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Raging Bolt|
+|poke|p2|Deoxys-Defense|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Mimikyu, F|
+|poke|p2|Kingambit, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by realmathhills)
+|
+|t:|1760798364
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|t:|1760798373
+|move|p1a: Glimmora|Sludge Wave|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|25/100
+|-enditem|p2a: Hatterene|Red Card|[of] p1a: Glimmora
+|drag|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1760798383
+|move|p1a: Raging Bolt|Thunderclap|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1760798387
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|3
+|
+|t:|1760798396
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|move|p2a: Ursaluna|Headlong Rush|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: realmathhills|move: Toxic Spikes
+|
+|-status|p2a: Ursaluna|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|inactive|InfraredSense has 120 seconds left.
+|
+|t:|1760798428
+|move|p2a: Ursaluna|Fire Punch|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: realmathhills|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-damage|p2a: Ursaluna|94/100 tox|[from] psn
+|upkeep
+|inactive|InfraredSense has 120 seconds left.
+|
+|t:|1760798437
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|5
+|
+|t:|1760798444
+|move|p2a: Ursaluna|Headlong Rush|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|27/100
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|move|p1a: Ogerpon|Horn Leech|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-heal|p1a: Ogerpon|99/100|[from] drain|[of] p2a: Ursaluna
+|faint|p2a: Ursaluna
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760798451
+|switch|p2a: Deoxys|Deoxys-Defense|100/100
+|-status|p2a: Deoxys|tox
+|-ability|p2a: Deoxys|Pressure
+|turn|6
+|
+|t:|1760798463
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Deoxys|Trick Room|p2a: Deoxys
+|-fieldstart|move: Trick Room|[of] p2a: Deoxys
+|
+|-damage|p2a: Deoxys|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1760798478
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p2a: Deoxys|Stealth Rock|p1a: Ogerpon
+|-sidestart|p1: InfraredSense|move: Stealth Rock
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Deoxys|[anim] Ivy Cudgel Water
+|-damage|p2a: Deoxys|7/100 tox
+|
+|-damage|p2a: Deoxys|0 fnt|[from] psn
+|faint|p2a: Deoxys
+|upkeep
+|
+|t:|1760798484
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|-status|p2a: Mimikyu|tox
+|turn|8
+|
+|t:|1760798493
+|move|p2a: Mimikyu|Play Rough|p1a: Ogerpon
+|-damage|p1a: Ogerpon|32/100
+|-damage|p2a: Mimikyu|91/100 tox|[from] item: Life Orb
+|move|p1a: Ogerpon|Horn Leech|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|91/100 tox
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|78/100 tox|[from] pokemon: Mimikyu-Busted
+|
+|-damage|p2a: Mimikyu|72/100 tox|[from] psn
+|upkeep
+|turn|9
+|inactive|InfraredSense has 120 seconds left.
+|
+|t:|1760798520
+|move|p2a: Mimikyu|Play Rough|p1a: Ogerpon
+|-crit|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|-damage|p2a: Mimikyu|62/100 tox|[from] item: Life Orb
+|
+|-damage|p2a: Mimikyu|50/100 tox|[from] psn
+|upkeep
+|inactive|InfraredSense has 120 seconds left.
+|
+|t:|1760798527
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|10
+|
+|t:|1760798537
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Mimikyu|Destiny Bond|p2a: Mimikyu
+|-singlemove|p2a: Mimikyu|Destiny Bond
+|
+|-damage|p2a: Mimikyu|32/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|inactive|InfraredSense has 120 seconds left.
+|
+|t:|1760798552
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Mimikyu|Trick Room|p2a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p2a: Mimikyu
+|
+|-damage|p2a: Mimikyu|8/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1760798560
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Mimikyu|Destiny Bond|p2a: Mimikyu
+|-singlemove|p2a: Mimikyu|Destiny Bond
+|
+|-damage|p2a: Mimikyu|0 fnt|[from] psn
+|faint|p2a: Mimikyu
+|upkeep
+|
+|t:|1760798565
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|13
+|
+|t:|1760798573
+|move|p2a: Kingambit|Low Kick|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1760798578
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|14
+|
+|t:|1760798587
+|-terastallize|p2a: Kingambit|Fairy
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Great Tusk|Headlong Rush|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|upkeep
+|turn|15
+|
+|t:|1760798595
+|move|p2a: Kingambit|Tera Blast|p1a: Great Tusk|[anim] Tera Blast Fairy
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760798602
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1760798610
+|move|p1a: Dragapult|Shadow Ball|p2a: Kingambit
+|-damage|p2a: Kingambit|47/100
+|-enditem|p2a: Kingambit|Air Balloon
+|move|p2a: Kingambit|Tera Blast|p1a: Dragapult|[anim] Tera Blast Fairy
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1760798617
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-damage|p1a: Raging Bolt|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1760798626
+|move|p1a: Raging Bolt|Thunderclap|p2a: Kingambit
+|-damage|p2a: Kingambit|14/100
+|move|p2a: Kingambit|Tera Blast|p1a: Raging Bolt|[anim] Tera Blast Fairy
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|realmathhills
+|raw|InfraredSense's rating: 1328 &rarr; <strong>1310</strong><br />(-18 for losing)
+|raw|realmathhills's rating: 1355 &rarr; <strong>1373</strong><br />(+18 for winning)

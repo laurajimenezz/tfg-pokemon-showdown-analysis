@@ -1,0 +1,286 @@
+|j|‽aaagislash
+|j|☆nerdy_head
+|t:|1779617878
+|gametype|singles
+|player|p1|aaagislash|102|1543
+|player|p2|nerdy_head|265|1458
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Gastrodon, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Cetitan, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Hoopa-Unbound|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Great Tusk|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1779617892
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|t:|1779617900
+|move|p2a: Dragapult|U-turn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|85/100
+|-enditem|p1a: Gastrodon|Red Card|[of] p2a: Dragapult
+|drag|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Gastrodon|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|61/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779617912
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Gastrodon|Earth Power|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|25/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779617920
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Gastrodon|Spikes|p2a: Slowking
+|-sidestart|p2: nerdy_head|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1779617926
+|move|p1a: Gastrodon|Stealth Rock|p2a: Slowking
+|-sidestart|p2: nerdy_head|move: Stealth Rock
+|move|p2a: Slowking|Future Sight|p1a: Gastrodon
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|5
+|
+|t:|1779617940
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1779617950
+|switch|p2a: Kingambit|Kingambit, F|100/100|[from] Chilly Reception
+|-damage|p2a: Kingambit|88/100|[from] Spikes
+|-damage|p2a: Kingambit|82/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Kingambit|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1779617959
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Hoopa
+|-damage|p1a: Hoopa|46/100
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Hoopa|move: Future Sight
+|-immune|p1a: Hoopa
+|-heal|p2a: Kingambit|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779617969
+|-terastallize|p1a: Hoopa|Fighting
+|move|p2a: Kingambit|Sucker Punch|p1a: Hoopa
+|-resisted|p1a: Hoopa
+|-damage|p1a: Hoopa|25/100
+|move|p1a: Hoopa|Drain Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-heal|p1a: Hoopa|83/100|[from] drain|[of] p2a: Kingambit
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779617985
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|8
+|
+|t:|1779617991
+|move|p2a: Great Tusk|Rapid Spin|p1a: Hoopa
+|-damage|p1a: Hoopa|65/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: nerdy_head|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: nerdy_head|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Hoopa|Psychic|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779618004
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|9
+|
+|t:|1779618009
+|switch|p1a: Gastrodon|Gastrodon, M|85/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-crit|p1a: Gastrodon
+|-damage|p1a: Gastrodon|12/100
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1779618016
+|move|p2a: Arcanine|Flare Blitz|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|upkeep
+|
+|t:|1779618023
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|turn|11
+|
+|t:|1779618028
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779618031
+|switch|p1a: Cetitan|Cetitan, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1779618041
+|move|p1a: Cetitan|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Cetitan
+|faint|p2a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779618048
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|13
+|
+|t:|1779618055
+|move|p1a: Cetitan|Knock Off|p2a: Arcanine
+|-damage|p2a: Arcanine|35/100
+|-enditem|p2a: Arcanine|Choice Band|[from] move: Knock Off|[of] p1a: Cetitan
+|move|p2a: Arcanine|Flare Blitz|p1a: Cetitan
+|-supereffective|p1a: Cetitan
+|-damage|p1a: Cetitan|9/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1779618068
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Slowking
+|-damage|p1a: Slowking|43/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1779618074
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|34/100
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1779618083
+|-terastallize|p2a: Arcanine|Normal
+|move|p1a: Dragapult|Dragon Pulse|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1779618089
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|17
+|
+|t:|1779618092
+|move|p2a: Dragapult|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1779618095
+|switch|p1a: Slowking|Slowking-Galar, F|77/100
+|turn|18
+|
+|t:|1779618099
+|move|p2a: Dragapult|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|8/100
+|-unboost|p1a: Slowking|spd|1
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779618106
+|switch|p1a: Cetitan|Cetitan, F|9/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1779618114
+|switch|p2a: Corviknight|Corviknight, M|25/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Cetitan|Ice Spinner|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Cetitan|0 fnt|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|faint|p1a: Cetitan
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|-message|nerdy_head forfeited.
+|
+|win|aaagislash
+|raw|aaagislash's rating: 1543 &rarr; <strong>1558</strong><br />(+15 for winning)
+|raw|nerdy_head's rating: 1458 &rarr; <strong>1443</strong><br />(-15 for losing)
+|l|‽aaagislash
+|player|p1|

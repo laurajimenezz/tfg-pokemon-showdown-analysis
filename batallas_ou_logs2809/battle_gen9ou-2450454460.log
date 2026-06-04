@@ -1,0 +1,296 @@
+|j|☆KuroNoTamashi
+|j|‽solascriptura1521
+|t:|1758985825
+|gametype|singles
+|player|p1|KuroNoTamashi|1|1560
+|player|p2|solascriptura1521|101|1617
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Crown|
+|poke|p1|Pincurchin, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Pelipper, M|
+|poke|p1|Barraskewda, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Kyurem|
+|poke|p2|Alomomola, M|
+|poke|p2|Scizor, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Garganacl, M|
+|teampreview
+|
+|t:|1758985832
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pincurchin|Pincurchin, M, shiny|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|1
+|
+|t:|1758985844
+|move|p2a: Scizor|U-turn|p1a: Pincurchin
+|-damage|p1a: Pincurchin|47/100
+|
+|t:|1758985850
+|switch|p2a: Kyurem|Kyurem|100/100|[from] U-turn
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Pincurchin|Thunderbolt|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|84/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758985861
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-activate|p1a: Iron Crown|ability: Quark Drive
+|-start|p1a: Iron Crown|quarkdrivespa
+|move|p2a: Kyurem|Freeze-Dry|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|75/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758985869
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|move|p1a: Iron Crown|Volt Switch|p2a: Kingambit
+|-damage|p2a: Kingambit|45/100
+|
+|t:|1758985878
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|
+|upkeep
+|turn|4
+|
+|t:|1758985884
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Landorus|Substitute|p1a: Landorus
+|-start|p1a: Landorus|Substitute
+|-damage|p1a: Landorus|76/100
+|
+|-heal|p1a: Landorus|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1758985895
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Landorus|Sandsear Storm|p2a: Hatterene
+|-damage|p2a: Hatterene|54/100
+|-status|p2a: Hatterene|brn
+|
+|-heal|p1a: Landorus|88/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|60/100 brn|[from] item: Leftovers
+|-damage|p2a: Hatterene|54/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1758985913
+|move|p1a: Landorus|Sandsear Storm|p2a: Hatterene
+|-damage|p2a: Hatterene|11/100 brn
+|move|p2a: Hatterene|Psychic Noise|p1a: Landorus
+|-damage|p1a: Landorus|43/100
+|-start|p1a: Landorus|move: Heal Block
+|
+|-heal|p2a: Hatterene|17/100 brn|[from] item: Leftovers
+|-damage|p2a: Hatterene|11/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1758985921
+|move|p1a: Landorus|Rock Slide|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-end|p1a: Landorus|move: Heal Block
+|upkeep
+|
+|t:|1758985927
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|turn|8
+|
+|t:|1758985931
+|move|p1a: Landorus|Sandsear Storm|p2a: Alomomola
+|-damage|p2a: Alomomola|45/100
+|move|p2a: Alomomola|Scald|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-end|p1a: Landorus|Substitute
+|
+|-heal|p1a: Landorus|48/100|[from] item: Leftovers
+|-heal|p2a: Alomomola|51/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+|
+|t:|1758985958
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|switch|p2a: Scizor|Scizor, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758985962
+|move|p1a: Pelipper|Weather Ball|p2a: Scizor
+|-damage|p2a: Scizor|21/100
+|move|p2a: Scizor|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|71/100
+|
+|t:|1758985965
+|switch|p2a: Kyurem|Kyurem|84/100|[from] U-turn
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758985969
+|move|p2a: Kyurem|Freeze-Dry|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758985972
+|switch|p1a: Iron Crown|Iron Crown|75/100
+|turn|12
+|
+|t:|1758986012
+|switch|p2a: Scizor|Scizor, M|21/100
+|move|p1a: Iron Crown|Volt Switch|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|t:|1758986017
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Pincurchin|Pincurchin, M, shiny|47/100|[from] Volt Switch
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758986035
+|switch|p2a: Kingambit|Kingambit, F|45/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|13
+|
+|t:|1758986038
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758986042
+|switch|p1a: Landorus|Landorus-Therian, M|48/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|turn|14
+|
+|t:|1758986078
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Alomomola|Alomomola, M|84/100
+|move|p1a: Landorus|Sandsear Storm|p2a: Alomomola
+|-damage|p2a: Alomomola|31/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|54/100|[from] item: Leftovers
+|-heal|p2a: Alomomola|37/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758986087
+|move|p1a: Landorus|Sandsear Storm|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758986089
+|switch|p2a: Kyurem|Kyurem|84/100
+|-ability|p2a: Kyurem|Pressure
+|turn|16
+|
+|t:|1758986094
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|move|p2a: Kyurem|Earth Power|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-weather|none
+|upkeep
+|
+|t:|1758986096
+|switch|p1a: Iron Crown|Iron Crown|75/100
+|-activate|p1a: Iron Crown|ability: Quark Drive
+|-start|p1a: Iron Crown|quarkdrivespa
+|turn|17
+|
+|t:|1758986101
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|-hitcount|p2: Kyurem|1
+|
+|upkeep
+|
+|t:|1758986103
+|switch|p2a: Kingambit|Kingambit, F|45/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|18
+|
+|t:|1758986109
+|-terastallize|p1a: Iron Crown|Steel
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|13/100
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|-hitcount|p2: Kingambit|2
+|
+|upkeep
+|-message|solascriptura1521 forfeited.
+|
+|win|KuroNoTamashi
+|raw|KuroNoTamashi's rating: 1560 &rarr; <strong>1583</strong><br />(+23 for winning)
+|raw|solascriptura1521's rating: 1617 &rarr; <strong>1594</strong><br />(-23 for losing)
+|l|‽solascriptura1521
+|player|p2|
+|l|☆KuroNoTamashi
+|player|p1|
+|j|☆KuroNoTamashi
+|player|p1|KuroNoTamashi|1|
+|l|☆KuroNoTamashi
+|player|p1|
+|j|☆KuroNoTamashi
+|player|p1|KuroNoTamashi|1|
+|l|☆KuroNoTamashi
+|player|p1|

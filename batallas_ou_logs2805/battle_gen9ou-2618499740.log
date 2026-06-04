@@ -1,0 +1,218 @@
+|j|☆Nateg23
+|j|☆herring surprise
+|t:|1779815260
+|gametype|singles
+|player|p1|Nateg23|1|1053
+|player|p2|herring surprise|n|1040
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Jugulis|
+|poke|p1|Dragonite, F|
+|poke|p1|Toxicroak, M|
+|poke|p1|Lucario, F|
+|poke|p1|Gyarados, M|
+|poke|p1|Talonflame, F|
+|poke|p2|Serperior, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Pecharunt|
+|poke|p2|Noivern, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Primarina, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by herring surprise)
+|
+|t:|1779815276
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Jugulis|Iron Jugulis|100/100
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-enditem|p1a: Iron Jugulis|Booster Energy
+|-activate|p1a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Jugulis|quarkdrivespe
+|turn|1
+|
+|t:|1779815286
+|move|p1a: Iron Jugulis|Work Up|p1a: Iron Jugulis
+|-boost|p1a: Iron Jugulis|atk|1
+|-boost|p1a: Iron Jugulis|spa|1
+|move|p2a: Pecharunt|Malignant Chain|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|42/100
+|-status|p1a: Iron Jugulis|tox
+|-start|p1a: Iron Jugulis|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-damage|p1a: Iron Jugulis|36/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1779815297
+|-activate|p1a: Iron Jugulis|confusion
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|-damage|p1a: Iron Jugulis|24/100 tox|[from] psn
+|upkeep
+|
+|t:|1779815307
+|switch|p2a: Noivern|Noivern, M|100/100
+|turn|3
+|
+|t:|1779815316
+|-end|p1a: Iron Jugulis|confusion
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Noivern
+|-damage|p2a: Noivern|24/100
+|move|p2a: Noivern|Boomburst|p1a: Iron Jugulis
+|-crit|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|0 fnt
+|faint|p1a: Iron Jugulis
+|-end|p1a: Iron Jugulis|Quark Drive|[silent]
+|-enditem|p2a: Noivern|Throat Spray
+|-boost|p2a: Noivern|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|
+|t:|1779815328
+|switch|p1a: Lucario|Lucario, F|100/100
+|turn|4
+|
+|t:|1779815336
+|move|p1a: Lucario|Extreme Speed|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|t:|1779815345
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|5
+|
+|t:|1779815351
+|move|p2a: Rotom|Overheat|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Lucario
+|-enditem|p2a: Rotom|White Herb
+|-clearnegativeboost|p2a: Rotom|[silent]
+|
+|upkeep
+|
+|t:|1779815369
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|turn|6
+|
+|t:|1779815380
+|-terastallize|p1a: Gyarados|Ground
+|move|p2a: Rotom|Discharge|p1a: Gyarados
+|-immune|p1a: Gyarados
+|move|p1a: Gyarados|Waterfall|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|upkeep
+|
+|t:|1779815391
+|switch|p2a: Serperior|Serperior, F|100/100
+|turn|7
+|
+|t:|1779815399
+|move|p2a: Serperior|Leaf Storm|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|36/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Gyarados|Earthquake|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|53/100
+|
+|-heal|p1a: Gyarados|42/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1779815411
+|move|p2a: Serperior|Leaf Storm|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|t:|1779815418
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|turn|9
+|
+|t:|1779815428
+|switch|p2a: transition goals|Primarina, F|100/100
+|move|p1a: Talonflame|Hurricane|p2a: transition goals
+|-damage|p2a: transition goals|66/100
+|
+|upkeep
+|turn|10
+|
+|t:|1779815442
+|move|p1a: Talonflame|Tailwind|p1a: Talonflame
+|-sidestart|p1: Nateg23|move: Tailwind
+|move|p2a: transition goals|Surf|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|upkeep
+|
+|t:|1779815449
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|turn|11
+|
+|t:|1779815454
+|move|p1a: Toxicroak|Gunk Shot|p2a: transition goals
+|-supereffective|p2a: transition goals
+|-damage|p2a: transition goals|0 fnt
+|faint|p2a: transition goals
+|
+|upkeep
+|
+|t:|1779815461
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|12
+|
+|t:|1779815469
+|move|p1a: Toxicroak|Cross Chop|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1779815476
+|switch|p2a: Serperior|Serperior, F|53/100
+|turn|13
+|
+|t:|1779815480
+|-terastallize|p2a: Serperior|Dragon
+|move|p1a: Toxicroak|Cross Chop|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|win|Nateg23
+|raw|Nateg23's rating: 1053 &rarr; <strong>1084</strong><br />(+31 for winning)
+|raw|herring surprise's rating: 1040 &rarr; <strong>1025</strong><br />(-15 for losing)
+|l|☆herring surprise
+|player|p2|

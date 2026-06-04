@@ -1,0 +1,285 @@
+|j|‽jonniie
+|j|☆hat40
+|t:|1779638954
+|gametype|singles
+|player|p1|jonniie|101|1480
+|player|p2|hat40|265|1499
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Volcanion|
+|poke|p1|Okidogi, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Manaphy|
+|poke|p2|Bruxish, F|
+|poke|p2|Overqwil, M|
+|poke|p2|Iron Treads|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1779638958
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Volcanion|Volcanion|100/100
+|switch|p2a: Bruxish|Bruxish, F|100/100
+|turn|1
+|
+|t:|1779638967
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779638975
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Ninetales
+|-immune|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779638982
+|move|p1a: Ninetales|Freeze-Dry|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|63/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|32/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779638990
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: jonniie|move: Aurora Veil
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779639003
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|5
+|
+|t:|1779639011
+|-terastallize|p1a: Indeedee|Psychic
+|move|p1a: Indeedee|Expanding Force|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779639017
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|6
+|
+|t:|1779639024
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: jonniie|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1779639031
+|move|p2a: Iron Treads|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|97/100
+|-enditem|p1a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Mandibuzz|Foul Play|p2a: Iron Treads
+|-damage|p2a: Iron Treads|74/100
+|
+|upkeep
+|turn|8
+|
+|t:|1779639052
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Mandibuzz|Defog|p2a: Pelipper
+|-unboost|p2a: Pelipper|evasion|1
+|-sideend|p1: jonniie|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|-fieldend|move: Psychic Terrain
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1779639069
+|move|p1a: Mandibuzz|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|96/100
+|
+|t:|1779639072
+|switch|p1a: Volcanion|Volcanion|100/100|[from] U-turn
+|move|p2a: Pelipper|U-turn|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|99/100
+|
+|t:|1779639083
+|switch|p2a: Iron Treads|Iron Treads|74/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1779639088
+|move|p2a: Iron Treads|Earthquake|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|64/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779639098
+|switch|p2a: Manaphy|Manaphy|100/100
+|turn|11
+|
+|t:|1779639124
+|switch|p1a: Okidogi|Okidogi, M|100/100
+|move|p2a: Manaphy|Energy Ball|p1a: Okidogi
+|-resisted|p1a: Okidogi
+|-damage|p1a: Okidogi|97/100
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: jonniie|move: Aurora Veil
+|upkeep
+|turn|12
+|
+|t:|1779639131
+|move|p2a: Manaphy|Tail Glow|p2a: Manaphy
+|-boost|p2a: Manaphy|spa|3
+|move|p1a: Okidogi|Gunk Shot|p2a: Manaphy
+|-damage|p2a: Manaphy|36/100
+|-status|p2a: Manaphy|tox|[from] ability: Toxic Chain|[of] p1a: Okidogi
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Manaphy|ability: Hydration
+|-curestatus|p2a: Manaphy|tox|[msg]
+|upkeep
+|turn|13
+|
+|t:|1779639146
+|move|p2a: Manaphy|Surf|p1a: Okidogi
+|-damage|p1a: Okidogi|0 fnt
+|faint|p1a: Okidogi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779639152
+|switch|p1a: Indeedee|Indeedee, M, tera:Psychic|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|14
+|
+|t:|1779639159
+|move|p1a: Indeedee|Expanding Force|p2a: Manaphy
+|-damage|p2a: Manaphy|0 fnt
+|faint|p2a: Manaphy
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779639162
+|switch|p2a: Overqwil|Overqwil, M|100/100
+|turn|15
+|
+|t:|1779639168
+|switch|p1a: Mandibuzz|Mandibuzz, F|97/100
+|move|p2a: Overqwil|Swords Dance|p2a: Overqwil
+|-boost|p2a: Overqwil|atk|2
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1779639187
+|move|p2a: Overqwil|Gunk Shot|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|13/100
+|-damage|p2a: Overqwil|91/100|[from] item: Life Orb
+|move|p1a: Mandibuzz|Foul Play|p2a: Overqwil
+|-resisted|p2a: Overqwil
+|-damage|p2a: Overqwil|42/100
+|
+|upkeep
+|turn|17
+|
+|t:|1779639196
+|move|p2a: Overqwil|Crunch|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|-damage|p2a: Overqwil|32/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779639208
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|18
+|
+|t:|1779639211
+|switch|p2a: Pelipper|Pelipper, F|96/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Thundurus|Thunderbolt|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1779639215
+|switch|p2a: Overqwil|Overqwil, M|32/100
+|turn|19
+|
+|t:|1779639223
+|move|p2a: Overqwil|Gunk Shot|p1a: Thundurus|[miss]
+|-miss|p2a: Overqwil|p1a: Thundurus
+|move|p1a: Thundurus|Thunderbolt|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|hat40 forfeited.
+|
+|win|jonniie
+|raw|jonniie's rating: 1480 &rarr; <strong>1501</strong><br />(+21 for winning)
+|raw|hat40's rating: 1499 &rarr; <strong>1478</strong><br />(-21 for losing)
+|l|☆hat40
+|player|p2|

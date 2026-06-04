@@ -1,0 +1,500 @@
+|j|☆spreadcrosser
+|j|☆jkuo9
+|t:|1757868100
+|gametype|singles
+|player|p1|spreadcrosser|101|1400
+|player|p2|jkuo9|102|1346
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Iron Hands|
+|poke|p1|Ceruledge, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Latias, F|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Gholdengo|
+|poke|p2|Scizor, M|
+|poke|p2|Great Tusk|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|
+|t:|1757868109
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1757868115
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: jkuo9|move: Aurora Veil
+|move|p1a: Iron Hands|Supercell Slam|p2a: Ninetales
+|-damage|p2a: Ninetales|71/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by spreadcrosser)
+|
+|t:|1757868166
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|-terastallize|p1a: Iron Hands|Flying
+|move|p1a: Iron Hands|Swords Dance|p1a: Iron Hands
+|-boost|p1a: Iron Hands|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757868178
+|move|p2a: Great Tusk|Ice Spinner|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|67/100
+|move|p1a: Iron Hands|Ice Punch|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|53/100
+|-status|p2a: Great Tusk|frz
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757868191
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Iron Hands|Swords Dance|p1a: Iron Hands
+|-boost|p1a: Iron Hands|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757868196
+|-terastallize|p2a: Scizor|Electric
+|move|p2a: Scizor|Tera Blast|p1a: Iron Hands|[anim] Tera Blast Electric
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|4/100
+|move|p1a: Iron Hands|Supercell Slam|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|31/100
+|
+|-weather|none
+|-heal|p2a: Scizor|37/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1757868202
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Scizor|Bullet Punch|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|78/100
+|
+|-heal|p2a: Scizor|43/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1757868216
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Excadrill|Rock Tomb|p2a: Ogerpon
+|-damage|p2a: Ogerpon|86/100
+|-unboost|p2a: Ogerpon|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1757868241
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Raging Bolt|[anim] Ivy Cudgel Water
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|74/100
+|
+|-heal|p1a: Raging Bolt|80/100|[from] item: Leftovers
+|-sideend|p2: jkuo9|move: Aurora Veil
+|upkeep
+|turn|9
+|
+|t:|1757868255
+|switch|p2a: Scizor|Scizor, M, tera:Electric|43/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-heal|p2a: Scizor|49/100|[from] item: Leftovers
+|-heal|p1a: Raging Bolt|86/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1757868264
+|move|p1a: Raging Bolt|Thunderclap|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|1/100
+|move|p2a: Scizor|Knock Off|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|57/100
+|-enditem|p1a: Raging Bolt|Leftovers|[from] move: Knock Off|[of] p2a: Scizor
+|
+|-heal|p2a: Scizor|7/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1757868283
+|move|p2a: Scizor|Bullet Punch|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|44/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1757868287
+|switch|p2a: Ninetales|Ninetales-Alola, F|71/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|12
+|
+|t:|1757868294
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: jkuo9|move: Aurora Veil
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Ninetales
+|-damage|p2a: Ninetales|33/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1757868299
+|switch|p2a: Great Tusk|Great Tusk|53/100 frz
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1757868309
+|-curestatus|p2a: Great Tusk|frz|[msg]
+|move|p2a: Great Tusk|Stealth Rock|p1a: Raging Bolt
+|-sidestart|p1: spreadcrosser|move: Stealth Rock
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1757868318
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Serperior|Serperior, F|100/100
+|-damage|p1a: Serperior|88/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Headlong Rush|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|56/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1757868322
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Latias|Latias, F, shiny|100/100
+|move|p1a: Serperior|Leaf Storm|p2a: Latias|[miss]
+|-miss|p1a: Serperior|p2a: Latias
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|t:|1757868328
+|move|p1a: Serperior|Glare|p2a: Latias
+|-status|p2a: Latias|par
+|move|p2a: Latias|Agility|p2a: Latias
+|-boost|p2a: Latias|spe|2
+|
+|upkeep
+|turn|18
+|
+|t:|1757868339
+|move|p1a: Serperior|Synthesis|p1a: Serperior
+|-heal|p1a: Serperior|100/100
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|upkeep
+|turn|19
+|
+|t:|1757868361
+|switch|p1a: Excadrill|Excadrill, F|78/100
+|-damage|p1a: Excadrill|75/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-sideend|p2: jkuo9|move: Aurora Veil
+|upkeep
+|turn|20
+|
+|t:|1757868371
+|move|p1a: Excadrill|Rapid Spin|p2a: Latias
+|-damage|p2a: Latias|85/100 par
+|-boost|p1a: Excadrill|spe|1
+|-sideend|p1: spreadcrosser|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Latias|Draining Kiss|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|60/100
+|-heal|p2a: Latias|96/100 par|[from] drain|[of] p1a: Excadrill
+|
+|upkeep
+|turn|21
+|
+|t:|1757868376
+|move|p1a: Excadrill|Rock Tomb|p2a: Latias
+|-damage|p2a: Latias|80/100 par
+|-unboost|p2a: Latias|spe|1
+|move|p2a: Latias|Stored Power|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|1/100
+|
+|upkeep
+|turn|22
+|
+|t:|1757868380
+|move|p1a: Excadrill|Stealth Rock|p2a: Latias
+|-sidestart|p2: jkuo9|move: Stealth Rock
+|cant|p2a: Latias|par
+|
+|upkeep
+|turn|23
+|
+|t:|1757868385
+|move|p1a: Excadrill|Earthquake|p2a: Latias
+|-damage|p2a: Latias|35/100 par
+|move|p2a: Latias|Stored Power|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|t:|1757868403
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-item|p1a: Kingambit|Air Balloon
+|turn|24
+|
+|t:|1757868429
+|cant|p2a: Latias|par
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+|
+|t:|1757868433
+|switch|p2a: Great Tusk|Great Tusk|53/100
+|-damage|p2a: Great Tusk|50/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1757868439
+|move|p2a: Great Tusk|Rapid Spin|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|96/100
+|-boost|p2a: Great Tusk|spe|1
+|-enditem|p1a: Kingambit|Air Balloon
+|-sideend|p2: jkuo9|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|26
+|
+|t:|1757868445
+|move|p1a: Kingambit|Sucker Punch|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|25/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|25/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|27
+|
+|t:|1757868455
+|move|p2a: Great Tusk|Stealth Rock|p1a: Kingambit
+|-sidestart|p1: spreadcrosser|move: Stealth Rock
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1757868459
+|switch|p2a: Ninetales|Ninetales-Alola, F|33/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|28
+|
+|t:|1757868464
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: jkuo9|move: Aurora Veil
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|15/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1757868468
+|move|p1a: Kingambit|Sucker Punch|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757868472
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|86/100
+|turn|30
+|
+|t:|1757868478
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Kingambit|[anim] Ivy Cudgel Water
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757868482
+|switch|p1a: Serperior|Serperior, F|100/100
+|-damage|p1a: Serperior|88/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1757868498
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Serperior|Glare|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1757868505
+|switch|p1a: Iron Hands|Iron Hands, tera:Flying|4/100
+|-damage|p1a: Iron Hands|0 fnt|[from] Stealth Rock
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-weather|none
+|upkeep
+|
+|t:|1757868514
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|-damage|p1a: Ceruledge|76/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1757868519
+|move|p1a: Ceruledge|Bitter Blade|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|47/100
+|-heal|p1a: Ceruledge|100/100|[from] drain|[of] p2a: Gholdengo
+|move|p2a: Gholdengo|Shadow Ball|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-enditem|p1a: Ceruledge|Focus Sash
+|-damage|p1a: Ceruledge|1/100
+|
+|upkeep
+|turn|34
+|
+|t:|1757868523
+|move|p1a: Ceruledge|Bitter Blade|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-heal|p1a: Ceruledge|26/100|[from] drain|[of] p2a: Gholdengo
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1757868526
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|86/100
+|turn|35
+|
+|t:|1757868531
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Ogerpon
+|-damage|p2a: Ogerpon|73/100
+|move|p2a: Ogerpon|Trailblaze|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|3/100
+|-boost|p2a: Ogerpon|spe|1
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|
+|-sideend|p2: jkuo9|move: Aurora Veil
+|upkeep
+|turn|36
+|
+|t:|1757868537
+|move|p1a: Ceruledge|Bitter Blade|p2a: Ogerpon
+|-damage|p2a: Ogerpon|18/100
+|-heal|p1a: Ceruledge|31/100|[from] drain|[of] p2a: Ogerpon
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Ceruledge|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|upkeep
+|
+|t:|1757868545
+|switch|p1a: Raging Bolt|Raging Bolt|44/100
+|-damage|p1a: Raging Bolt|32/100|[from] Stealth Rock
+|turn|37
+|
+|t:|1757868549
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p2a: Ogerpon|Substitute|p2a: Ogerpon
+|-fail|p2a: Ogerpon|move: Substitute|[weak]
+|
+|upkeep
+|turn|38
+|
+|t:|1757868556
+|move|p1a: Raging Bolt|Thunderclap|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|win|spreadcrosser
+|raw|spreadcrosser's rating: 1400 &rarr; <strong>1417</strong><br />(+17 for winning)
+|raw|jkuo9's rating: 1346 &rarr; <strong>1329</strong><br />(-17 for losing)

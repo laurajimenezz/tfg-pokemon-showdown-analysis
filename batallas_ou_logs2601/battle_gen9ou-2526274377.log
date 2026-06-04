@@ -1,0 +1,391 @@
+|j|☆Blazer52637
+|j|☆pobrelascado33
+|t:|1769390660
+|gametype|singles
+|player|p1|Blazer52637|juggler|1097
+|player|p2|pobrelascado33|266|1143
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Whimsicott, L1, F|
+|poke|p1|Reuniclus, M|
+|poke|p1|Ribombee, M|
+|poke|p1|Clawitzer, M|
+|poke|p1|Golem-Alola, M|
+|poke|p2|Vespiquen, F|
+|poke|p2|Combee, M|
+|poke|p2|Great Tusk|
+|poke|p2|Ceruledge, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pobrelascado33)
+|
+|t:|1769390672
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pocket Lint|Whimsicott, L1, F, shiny|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1769390684
+|move|p1a: Pocket Lint|Leech Seed|p2a: Great Tusk
+|-start|p2a: Great Tusk|move: Leech Seed
+|move|p2a: Great Tusk|Rapid Spin|p1a: Pocket Lint
+|-enditem|p1a: Pocket Lint|Focus Sash
+|-damage|p1a: Pocket Lint|8/100
+|-boost|p2a: Great Tusk|spe|1
+|-end|p2a: Great Tusk|Leech Seed|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|2
+|
+|t:|1769390695
+|move|p1a: Pocket Lint|Memento|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|atk|2
+|-unboost|p2a: Great Tusk|spa|2
+|faint|p1a: Pocket Lint
+|move|p2a: Great Tusk|Rapid Spin|p1: Pocket Lint|[notarget]
+|-fail|p2a: Great Tusk
+|
+|upkeep
+|
+|t:|1769390704
+|switch|p1a: Tea Tar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tea Tar
+|turn|3
+|
+|t:|1769390710
+|move|p2a: Great Tusk|Close Combat|p1a: Tea Tar
+|-supereffective|p1a: Tea Tar
+|-damage|p1a: Tea Tar|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Tea Tar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1769390718
+|switch|p1a: Pooky|Ribombee, M, shiny|100/100
+|turn|4
+|
+|t:|1769390730
+|move|p2a: Great Tusk|Ice Spinner|p1a: Pooky
+|-damage|p1a: Pooky|64/100
+|move|p1a: Pooky|Stun Spore|p2a: Great Tusk
+|-status|p2a: Great Tusk|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pooky|58/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1769390740
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|move|p1a: Pooky|Quiver Dance|p1a: Pooky
+|-boost|p1a: Pooky|spa|1
+|-boost|p1a: Pooky|spd|1
+|-boost|p1a: Pooky|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pooky|51/100|[from] Sandstorm
+|-damage|p2a: Ceruledge|94/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1769390750
+|move|p1a: Pooky|Stun Spore|p2a: Ceruledge
+|-status|p2a: Ceruledge|par
+|cant|p2a: Ceruledge|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pooky|45/100|[from] Sandstorm
+|-damage|p2a: Ceruledge|88/100 par|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1769390759
+|move|p1a: Pooky|Sticky Web|p2a: Ceruledge
+|-sidestart|p2: pobrelascado33|move: Sticky Web
+|move|p2a: Ceruledge|Bitter Blade|p1a: Pooky
+|-supereffective|p1a: Pooky
+|-crit|p1a: Pooky
+|-damage|p1a: Pooky|0 fnt
+|-heal|p2a: Ceruledge|100/100 par|[from] drain|[of] p1a: Pooky
+|faint|p1a: Pooky
+|
+|-weather|none
+|upkeep
+|
+|t:|1769390767
+|switch|p1a: Uday|Golem-Alola, M|100/100
+|-item|p1a: Uday|Air Balloon
+|turn|8
+|
+|t:|1769390774
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Uday
+|-damage|p1a: Uday|80/100
+|-enditem|p1a: Uday|Air Balloon
+|move|p1a: Uday|Rock Polish|p1a: Uday
+|-boost|p1a: Uday|spe|2
+|
+|upkeep
+|turn|9
+|
+|t:|1769390785
+|move|p1a: Uday|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|6/100 par
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|cant|p2a: Ceruledge|par
+|
+|upkeep
+|turn|10
+|
+|t:|1769390794
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Uday
+|-damage|p1a: Uday|61/100
+|move|p1a: Uday|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1769390805
+|switch|p2a: Combee|Combee, M|100/100
+|turn|11
+|
+|t:|1769390814
+|move|p1a: Uday|Stone Edge|p2a: Combee
+|-supereffective|p2a: Combee
+|-enditem|p2a: Combee|Focus Sash
+|-damage|p2a: Combee|1/100
+|move|p2a: Combee|Endeavor|p1a: Uday
+|-damage|p1a: Uday|1/100
+|
+|upkeep
+|turn|12
+|
+|t:|1769390826
+|move|p1a: Uday|Stone Edge|p2a: Combee|[miss]
+|-miss|p1a: Uday|p2a: Combee
+|move|p2a: Combee|Bug Buzz|p1a: Uday
+|-damage|p1a: Uday|0 fnt
+|faint|p1a: Uday
+|
+|upkeep
+|
+|t:|1769390838
+|switch|p1a: Panzer|Clawitzer, M|100/100
+|turn|13
+|
+|t:|1769390844
+|move|p2a: Combee|Endeavor|p1a: Panzer
+|-damage|p1a: Panzer|1/100
+|move|p1a: Panzer|Dragon Pulse|p2a: Combee
+|-damage|p2a: Combee|0 fnt
+|faint|p2a: Combee
+|
+|upkeep
+|
+|t:|1769390854
+|switch|p2a: Vespiquen|Vespiquen, F|100/100
+|-ability|p2a: Vespiquen|Pressure
+|turn|14
+|
+|t:|1769390860
+|move|p1a: Panzer|Water Pulse|p2a: Vespiquen
+|-crit|p2a: Vespiquen
+|-damage|p2a: Vespiquen|36/100
+|move|p2a: Vespiquen|Defend Order|p2a: Vespiquen
+|-boost|p2a: Vespiquen|def|1
+|-boost|p2a: Vespiquen|spd|1
+|
+|-heal|p2a: Vespiquen|42/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1769390869
+|move|p1a: Panzer|Water Pulse|p2a: Vespiquen
+|-damage|p2a: Vespiquen|16/100
+|move|p2a: Vespiquen|Roost|p2a: Vespiquen
+|-heal|p2a: Vespiquen|66/100
+|-singleturn|p2a: Vespiquen|move: Roost
+|
+|-heal|p2a: Vespiquen|72/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1769390881
+|switch|p1a: Atom|Reuniclus, M, shiny|100/100
+|move|p2a: Vespiquen|Defend Order|p2a: Vespiquen
+|-boost|p2a: Vespiquen|def|1
+|-boost|p2a: Vespiquen|spd|1
+|
+|-heal|p2a: Vespiquen|78/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1769390891
+|move|p2a: Vespiquen|Toxic|p1a: Atom
+|-status|p1a: Atom|tox
+|move|p1a: Atom|Calm Mind|p1a: Atom
+|-boost|p1a: Atom|spa|1
+|-boost|p1a: Atom|spd|1
+|
+|-heal|p2a: Vespiquen|84/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1769390901
+|move|p2a: Vespiquen|Defend Order|p2a: Vespiquen
+|-boost|p2a: Vespiquen|def|1
+|-boost|p2a: Vespiquen|spd|1
+|move|p1a: Atom|Calm Mind|p1a: Atom
+|-boost|p1a: Atom|spa|1
+|-boost|p1a: Atom|spd|1
+|
+|-heal|p2a: Vespiquen|90/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1769390910
+|move|p2a: Vespiquen|Defend Order|p2a: Vespiquen
+|-boost|p2a: Vespiquen|def|1
+|-boost|p2a: Vespiquen|spd|1
+|move|p1a: Atom|Calm Mind|p1a: Atom
+|-boost|p1a: Atom|spa|1
+|-boost|p1a: Atom|spd|1
+|
+|-heal|p2a: Vespiquen|96/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1769390919
+|move|p2a: Vespiquen|Attack Order|p1a: Atom
+|-supereffective|p1a: Atom
+|-damage|p1a: Atom|49/100 tox
+|move|p1a: Atom|Calm Mind|p1a: Atom
+|-boost|p1a: Atom|spa|1
+|-boost|p1a: Atom|spd|1
+|
+|-heal|p2a: Vespiquen|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1769390928
+|-terastallize|p1a: Atom|Fairy
+|move|p2a: Vespiquen|Attack Order|p1a: Atom
+|-resisted|p1a: Atom
+|-damage|p1a: Atom|35/100 tox
+|move|p1a: Atom|Recover|p1a: Atom
+|-heal|p1a: Atom|85/100 tox
+|
+|upkeep
+|turn|22
+|
+|t:|1769390940
+|-terastallize|p2a: Vespiquen|Steel
+|move|p2a: Vespiquen|Defend Order|p2a: Vespiquen
+|-boost|p2a: Vespiquen|def|1
+|-boost|p2a: Vespiquen|spd|1
+|move|p1a: Atom|Calm Mind|p1a: Atom
+|-boost|p1a: Atom|spa|1
+|-boost|p1a: Atom|spd|1
+|
+|upkeep
+|turn|23
+|
+|t:|1769390949
+|move|p2a: Vespiquen|Defend Order|p2a: Vespiquen
+|-boost|p2a: Vespiquen|def|1
+|-boost|p2a: Vespiquen|spd|1
+|move|p1a: Atom|Calm Mind|p1a: Atom
+|-boost|p1a: Atom|spa|1
+|-boost|p1a: Atom|spd|1
+|
+|upkeep
+|turn|24
+|
+|t:|1769390956
+|move|p2a: Vespiquen|Attack Order|p1a: Atom
+|-resisted|p1a: Atom
+|-damage|p1a: Atom|71/100 tox
+|move|p1a: Atom|Focus Blast|p2a: Vespiquen
+|-supereffective|p2a: Vespiquen
+|-damage|p2a: Vespiquen|2/100
+|-unboost|p2a: Vespiquen|spd|1
+|
+|-heal|p2a: Vespiquen|8/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1769390965
+|move|p2a: Vespiquen|Attack Order|p1a: Atom
+|-resisted|p1a: Atom
+|-damage|p1a: Atom|59/100 tox
+|move|p1a: Atom|Focus Blast|p2a: Vespiquen
+|-supereffective|p2a: Vespiquen
+|-damage|p2a: Vespiquen|0 fnt
+|faint|p2a: Vespiquen
+|
+|upkeep
+|
+|t:|1769390974
+|switch|p2a: Great Tusk|Great Tusk|100/100 par
+|-activate|p2a: Great Tusk|move: Sticky Web
+|-unboost|p2a: Great Tusk|spe|1
+|turn|26
+|
+|t:|1769390982
+|move|p2a: Great Tusk|Ice Spinner|p1a: Atom
+|-damage|p1a: Atom|31/100 tox
+|move|p1a: Atom|Psyshock|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769390984
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-activate|p2a: Ogerpon|move: Sticky Web
+|-unboost|p2a: Ogerpon|spe|1
+|turn|27
+|
+|t:|1769390992
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Atom|[anim] Ivy Cudgel Water
+|-damage|p1a: Atom|0 fnt
+|faint|p1a: Atom
+|
+|upkeep
+|-message|Blazer52637 forfeited.
+|
+|win|pobrelascado33
+|raw|Blazer52637's rating: 1097 &rarr; <strong>1076</strong><br />(-21 for losing)
+|raw|pobrelascado33's rating: 1143 &rarr; <strong>1165</strong><br />(+22 for winning)
+|l|☆Blazer52637
+|player|p1|
+|l|☆pobrelascado33
+|player|p2|

@@ -1,0 +1,450 @@
+|j|☆zdarkfirex
+|j|☆yigyif
+|t:|1779569572
+|gametype|singles
+|player|p1|zdarkfirex|170|1211
+|player|p2|yigyif|skyla|1209
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Pecharunt|
+|poke|p1|Rotom-Wash|
+|poke|p1|Dragonite, F|
+|poke|p1|Cinderace, F|
+|poke|p2|Toxtricity, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Scream Tail|
+|poke|p2|Regieleki|
+|poke|p2|Cinderace, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yigyif)
+|
+|t:|1779569587
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Scream Tail|Scream Tail|100/100
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspd
+|turn|1
+|
+|t:|1779569596
+|move|p1a: Cinderace|U-turn|p2a: Scream Tail
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Scream Tail|72/100
+|
+|t:|1779569606
+|switch|p1a: Pecharunt|Pecharunt|100/100|[from] U-turn
+|move|p2a: Scream Tail|Thunder Wave|p1a: Pecharunt
+|-status|p1a: Pecharunt|par
+|
+|upkeep
+|turn|2
+|
+|t:|1779569628
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|move|p1a: Pecharunt|Parting Shot|p2a: Toxtricity
+|-unboost|p2a: Toxtricity|atk|1
+|-unboost|p2a: Toxtricity|spa|1
+|
+|t:|1779569646
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|3
+|
+|t:|1779569651
+|move|p1a: Cinderace|Pyro Ball|p2a: Toxtricity
+|-damage|p2a: Toxtricity|2/100
+|move|p2a: Toxtricity|Volt Switch|p1a: Cinderace
+|-damage|p1a: Cinderace|51/100
+|
+|t:|1779569657
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|4
+|
+|t:|1779569663
+|move|p2a: Keldeo|Secret Sword|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1779569680
+|switch|p1a: Pecharunt|Pecharunt|100/100 par
+|turn|5
+|
+|t:|1779569692
+|switch|p2a: Scream Tail|Scream Tail|72/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Scream Tail
+|-supereffective|p2a: Scream Tail
+|-damage|p2a: Scream Tail|25/100
+|-status|p2a: Scream Tail|tox
+|-start|p2a: Scream Tail|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-damage|p2a: Scream Tail|19/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1779569713
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-activate|p2a: Scream Tail|confusion
+|move|p2a: Scream Tail|Stealth Rock|p1a: Rotom
+|-sidestart|p1: zdarkfirex|move: Stealth Rock
+|
+|-damage|p2a: Scream Tail|6/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1779569724
+|-end|p2a: Scream Tail|confusion
+|move|p2a: Scream Tail|Misty Explosion|p1a: Rotom
+|-damage|p1a: Rotom|72/100
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|move|p1a: Rotom|Volt Switch|p2: Scream Tail|[notarget]
+|-fail|p1a: Rotom
+|
+|-heal|p1a: Rotom|78/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779569741
+|switch|p2a: Toxtricity|Toxtricity, M|2/100
+|turn|8
+|
+|t:|1779569750
+|move|p2a: Toxtricity|Boomburst|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1779569762
+|switch|p1a: Pecharunt|Pecharunt|100/100 par
+|turn|9
+|
+|t:|1779569766
+|move|p2a: Toxtricity|Boomburst|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|move|p1a: Pecharunt|Malignant Chain|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|t:|1779569774
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|10
+|
+|t:|1779569778
+|move|p2a: Cinderace|Sucker Punch|p1a: Pecharunt
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|67/100 par
+|cant|p1a: Pecharunt|par
+|
+|upkeep
+|turn|11
+|
+|t:|1779569783
+|move|p2a: Cinderace|U-turn|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|64/100 par
+|
+|t:|1779569784
+|switch|p2a: Corviknight|Corviknight, F|100/100|[from] U-turn
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|100/100 par
+|
+|upkeep
+|turn|12
+|
+|t:|1779569789
+|move|p2a: Corviknight|Brave Bird|p1a: Pecharunt
+|-damage|p1a: Pecharunt|84/100 par
+|-damage|p2a: Corviknight|95/100|[from] Recoil
+|move|p1a: Pecharunt|Parting Shot|p2a: Corviknight
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Pecharunt|atk|1
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Pecharunt|spa|1
+|
+|t:|1779569800
+|switch|p1a: Dragonite|Dragonite, F|100/100|[from] Parting Shot
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1779569812
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Corviknight|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|67/100
+|
+|t:|1779569814
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100|[from] U-turn
+|
+|upkeep
+|turn|14
+|
+|t:|1779569821
+|move|p2a: Keldeo|Icy Wind|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1779569846
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|15
+|
+|t:|1779569852
+|switch|p2a: Corviknight|Corviknight, F|95/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|78/100
+|-enditem|p2a: Corviknight|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|upkeep
+|turn|16
+|
+|t:|1779569864
+|-terastallize|p1a: Iron Valiant|Steel
+|move|p1a: Iron Valiant|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|49/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|move|p2a: Corviknight|Brave Bird|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|58/100
+|-damage|p2a: Corviknight|40/100|[from] Recoil
+|
+|upkeep
+|turn|17
+|
+|t:|1779569872
+|move|p1a: Iron Valiant|Moonblast|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|19/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|69/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|18
+|
+|t:|1779569879
+|move|p1a: Iron Valiant|Moonblast|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|45/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|95/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|19
+|
+|t:|1779569884
+|move|p1a: Iron Valiant|Moonblast|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|71/100
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Iron Valiant|spa|1
+|move|p2a: Corviknight|Brave Bird|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|24/100
+|-damage|p2a: Corviknight|63/100|[from] Recoil
+|
+|upkeep
+|turn|20
+|
+|t:|1779569895
+|move|p1a: Iron Valiant|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|31/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|81/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|21
+|
+|t:|1779569903
+|move|p1a: Iron Valiant|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|49/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|move|p2a: Corviknight|Brave Bird|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-damage|p2a: Corviknight|43/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1779569908
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|22
+|
+|t:|1779569913
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779569918
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|turn|23
+|
+|t:|1779569923
+|-end|p1a: Kingambit|fallen4|[silent]
+|switch|p1a: Pecharunt|Pecharunt|84/100 par
+|move|p2a: Keldeo|Hydro Pump|p1a: Pecharunt
+|-damage|p1a: Pecharunt|24/100 par
+|
+|upkeep
+|turn|24
+|
+|t:|1779569929
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|move|p2a: Keldeo|Hydro Pump|p1a: Kingambit
+|-damage|p1a: Kingambit|31/100
+|
+|-heal|p1a: Kingambit|37/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1779569938
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-heal|p1a: Kingambit|43/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1779569943
+|-end|p1a: Kingambit|fallen4|[silent]
+|switch|p1a: Pecharunt|Pecharunt|24/100 par
+|move|p2a: Cinderace|High Jump Kick|p1a: Pecharunt
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-immune|p1a: Pecharunt
+|-damage|p2a: Cinderace|51/100|[from] highjumpkick
+|
+|upkeep
+|turn|27
+|
+|t:|1779569946
+|move|p2a: Cinderace|Pyro Ball|p1a: Pecharunt
+|-damage|p1a: Pecharunt|5/100 par
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|55/100 par
+|
+|upkeep
+|turn|28
+|
+|t:|1779569951
+|move|p2a: Cinderace|Pyro Ball|p1a: Pecharunt
+|-damage|p1a: Pecharunt|38/100 par
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|88/100 par
+|
+|upkeep
+|turn|29
+|
+|t:|1779569958
+|move|p2a: Cinderace|Pyro Ball|p1a: Pecharunt|[miss]
+|-miss|p2a: Cinderace|p1a: Pecharunt
+|move|p1a: Pecharunt|Malignant Chain|p2a: Cinderace
+|-damage|p2a: Cinderace|4/100
+|-status|p2a: Cinderace|tox
+|-start|p2a: Cinderace|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-damage|p2a: Cinderace|0 fnt|[from] psn
+|faint|p2a: Cinderace
+|upkeep
+|
+|t:|1779569961
+|switch|p2a: Regieleki|Regieleki|100/100
+|turn|30
+|
+|t:|1779569965
+|-terastallize|p2a: Regieleki|Electric
+|move|p2a: Regieleki|Thunderbolt|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|-damage|p2a: Regieleki|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779569969
+|switch|p1a: Kingambit|Kingambit, M|43/100
+|-damage|p1a: Kingambit|37/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|31
+|
+|t:|1779569973
+|move|p2a: Regieleki|Explosion|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|6/100
+|faint|p2a: Regieleki
+|move|p1a: Kingambit|Kowtow Cleave|p2: Regieleki|[notarget]
+|-fail|p1a: Kingambit
+|
+|-heal|p1a: Kingambit|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779569978
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|turn|32
+|
+|t:|1779569981
+|move|p2a: Keldeo|Vacuum Wave|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|yigyif
+|raw|zdarkfirex's rating: 1211 &rarr; <strong>1186</strong><br />(-25 for losing)
+|raw|yigyif's rating: 1209 &rarr; <strong>1234</strong><br />(+25 for winning)
+|l|☆zdarkfirex
+|player|p1|
+|l|☆yigyif
+|player|p2|

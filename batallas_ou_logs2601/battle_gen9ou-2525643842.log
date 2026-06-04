@@ -1,0 +1,411 @@
+|j|☆Truffle buddah
+|j|☆rblt ryo
+|t:|1769305287
+|gametype|singles
+|player|p1|Truffle buddah|li|1625
+|player|p2|rblt ryo|dawn|1664
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Bronzong|
+|poke|p1|Hydrapple, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Hippowdon, F|
+|poke|p1|Iron Moth|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Volcanion|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Corviknight, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Ting-Lu|
+|teampreview
+|j| stampete5
+|
+|t:|1769305319
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|1
+|
+|t:|1769305361
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1769305367
+|move|p1a: Mandibuzz|Foul Play|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|72/100
+|move|p2a: Slowking|Trick|p1a: Mandibuzz
+|-activate|p2a: Slowking|move: Trick|[of] p1a: Mandibuzz
+|-item|p1a: Mandibuzz|Black Sludge|[from] move: Trick
+|-item|p2a: Slowking|Heavy-Duty Boots|[from] move: Trick
+|
+|-damage|p1a: Mandibuzz|88/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1769305377
+|move|p1a: Mandibuzz|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|63/100
+|
+|t:|1769305383
+|switch|p1a: Iron Moth|Iron Moth|100/100|[from] U-turn
+|move|p2a: Slowking|Trick|p1a: Iron Moth
+|-activate|p2a: Slowking|move: Trick|[of] p1a: Iron Moth
+|-item|p1a: Iron Moth|Heavy-Duty Boots|[from] move: Trick
+|-item|p2a: Slowking|Heavy-Duty Boots|[from] move: Trick
+|
+|upkeep
+|turn|4
+|
+|t:|1769305397
+|move|p1a: Iron Moth|Overheat|p2a: Slowking
+|-damage|p2a: Slowking|6/100
+|-unboost|p1a: Iron Moth|spa|2
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1769305413
+|switch|p2a: Volcanion|Volcanion|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1769305423
+|move|p1a: Iron Moth|U-turn|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|95/100
+|
+|t:|1769305425
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100|[from] U-turn
+|move|p2a: Volcanion|Flamethrower|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|44/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Mandibuzz|32/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1769305441
+|move|p2a: Volcanion|Flamethrower|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1769305450
+|switch|p1a: Hydrapple|Hydrapple, F|100/100
+|turn|7
+|
+|t:|1769305464
+|move|p2a: Volcanion|Flamethrower|p1a: Hydrapple
+|-damage|p1a: Hydrapple|27/100
+|move|p1a: Hydrapple|Draco Meteor|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|-unboost|p1a: Hydrapple|spa|2
+|faint|p2a: Volcanion
+|-damage|p1a: Hydrapple|18/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1769305475
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|8
+|
+|t:|1769305484
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Zamazenta|Close Combat|p1a: Bronzong
+|-damage|p1a: Bronzong|15/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|
+|-weather|none
+|-heal|p1a: Bronzong|22/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1769305501
+|move|p2a: Zamazenta|Close Combat|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Bronzong
+|
+|upkeep
+|
+|t:|1769305503
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|turn|10
+|
+|t:|1769305508
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Iron Moth|Overheat|p2a: Ting-Lu|[miss]
+|-miss|p1a: Iron Moth|p2a: Ting-Lu
+|
+|upkeep
+|turn|11
+|
+|t:|1769305515
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|39/100
+|move|p1a: Iron Moth|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|31/100
+|
+|t:|1769305518
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Hippowdon|Hippowdon, F|100/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowking|25/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1769305529
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|95/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1769305534
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Iron Moth|Toxic Spikes|p2a: Ting-Lu
+|-sidestart|p2: rblt ryo|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|89/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1769305543
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|58/100
+|-sideend|p2: rblt ryo|move: Toxic Spikes|[of] p2a: Slowking
+|move|p1a: Iron Moth|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|49/100
+|
+|t:|1769305546
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Excadrill|Excadrill, M|100/100|[from] U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowking|43/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1769305551
+|switch|p1a: Hydrapple|Hydrapple, F|51/100
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1769305567
+|switch|p1a: Iron Moth|Iron Moth|89/100
+|move|p2a: Corviknight|Body Press|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|64/100
+|
+|upkeep
+|turn|17
+|
+|t:|1769305579
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|76/100
+|move|p1a: Iron Moth|Overheat|p2a: Slowking
+|-damage|p2a: Slowking|22/100
+|-unboost|p1a: Iron Moth|spa|2
+|
+|upkeep
+|turn|18
+|
+|t:|1769305587
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Iron Moth|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|99/100
+|-damage|p1a: Iron Moth|48/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|t:|1769305590
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Hydrapple|Hydrapple, F|84/100|[from] U-turn
+|
+|upkeep
+|turn|19
+|
+|t:|1769305611
+|move|p2a: Corviknight|Body Press|p1a: Hydrapple
+|-damage|p1a: Hydrapple|66/100
+|move|p1a: Hydrapple|Nasty Plot|p1a: Hydrapple
+|-boost|p1a: Hydrapple|spa|2
+|
+|upkeep
+|turn|20
+|
+|t:|1769305629
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Hydrapple|Draco Meteor|p2a: Hatterene
+|-immune|p2a: Hatterene
+|
+|upkeep
+|turn|21
+|
+|t:|1769305639
+|move|p1a: Hydrapple|Giga Drain|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-heal|p1a: Hydrapple|100/100|[from] drain|[of] p2a: Hatterene
+|faint|p2a: Hatterene
+|-damage|p1a: Hydrapple|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1769305660
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|turn|22
+|
+|t:|1769305673
+|move|p2a: Zamazenta|Close Combat|p1a: Hydrapple
+|-damage|p1a: Hydrapple|16/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|move|p1a: Hydrapple|Giga Drain|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-heal|p1a: Hydrapple|55/100|[from] drain|[of] p2a: Zamazenta
+|faint|p2a: Zamazenta
+|-damage|p1a: Hydrapple|45/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1769305681
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|23
+|
+|t:|1769305688
+|-terastallize|p2a: Ting-Lu|Poison
+|move|p2a: Ting-Lu|Payback|p1a: Hydrapple
+|-damage|p1a: Hydrapple|32/100
+|move|p1a: Hydrapple|Giga Drain|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|78/100
+|-heal|p1a: Hydrapple|46/100|[from] drain|[of] p2a: Ting-Lu
+|-damage|p1a: Hydrapple|36/100|[from] item: Life Orb
+|
+|-heal|p2a: Ting-Lu|84/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1769305715
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Ting-Lu|Earthquake|p1a: Hippowdon
+|-crit|p1a: Hippowdon
+|-damage|p1a: Hippowdon|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ting-Lu|78/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|78/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|84/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1769305720
+|switch|p1a: Iron Moth|Iron Moth|48/100
+|switch|p2a: Corviknight|Corviknight, F, shiny|99/100
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|42/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|t:|1769305725
+|switch|p2a: Ting-Lu|Ting-Lu, tera:Poison|84/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Iron Moth|Overheat|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|56/100
+|-unboost|p1a: Iron Moth|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|36/100|[from] Sandstorm
+|-damage|p2a: Ting-Lu|50/100|[from] Sandstorm
+|-heal|p2a: Ting-Lu|56/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1769305732
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|55/100
+|move|p1a: Iron Moth|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|47/100
+|
+|t:|1769305736
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Excadrill|Excadrill, M|100/100|[from] U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowking|41/100|[from] Sandstorm
+|upkeep
+|turn|28
+|
+|t:|1769305752
+|switch|p2a: Corviknight|Corviknight, F, shiny|99/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Excadrill|Rock Slide|p2a: Corviknight
+|-damage|p2a: Corviknight|81/100
+|
+|-weather|none
+|upkeep
+|turn|29
+|
+|t:|1769305761
+|switch|p1a: Iron Moth|Iron Moth|36/100
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|74/100
+|
+|upkeep
+|turn|30
+|
+|t:|1769305770
+|move|p1a: Iron Moth|Overheat|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-unboost|p1a: Iron Moth|spa|2
+|faint|p2a: Slowking
+|
+|upkeep
+|-message|rblt ryo forfeited.
+|
+|win|Truffle buddah
+|raw|Truffle buddah's rating: 1625 &rarr; <strong>1647</strong><br />(+22 for winning)
+|raw|rblt ryo's rating: 1664 &rarr; <strong>1642</strong><br />(-22 for losing)
+|l|☆Truffle buddah
+|player|p1|
+|l| stampete5

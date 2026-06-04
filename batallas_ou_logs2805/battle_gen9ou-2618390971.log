@@ -1,0 +1,288 @@
+|j|☆Mjolnir33
+|j|☆Uncle Dre
+|t:|1779805857
+|gametype|singles
+|player|p1|Mjolnir33|2|1288
+|player|p2|Uncle Dre|red|1303
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Magmar, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Clodsire, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Squawkabilly-Blue, M|
+|poke|p1|Slowking, F|
+|poke|p2|Great Tusk|
+|poke|p2|Ribombee, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Gholdengo|
+|poke|p2|Dragonite, F|
+|poke|p2|Darkrai|
+|teampreview
+|
+|t:|1779805862
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Clodsire|Clodsire, F, shiny|100/100
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Uncle Dre)
+|
+|t:|1779805873
+|move|p2a: Ribombee|Sticky Web|p1a: Clodsire
+|-sidestart|p1: Mjolnir33|move: Sticky Web
+|move|p1a: Clodsire|Stealth Rock|p2a: Ribombee
+|-sidestart|p2: Uncle Dre|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1779805881
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Clodsire|Toxic|p2a: Great Tusk
+|-status|p2a: Great Tusk|tox
+|
+|-damage|p2a: Great Tusk|91/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1779805893
+|switch|p1a: Squawkabilly|Squawkabilly-Blue, M, shiny|100/100
+|-ability|p1a: Squawkabilly|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Rapid Spin|p1a: Squawkabilly
+|-damage|p1a: Squawkabilly|75/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Uncle Dre|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-damage|p2a: Great Tusk|79/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1779805906
+|move|p2a: Great Tusk|Ice Spinner|p1a: Squawkabilly
+|-supereffective|p1a: Squawkabilly
+|-damage|p1a: Squawkabilly|3/100
+|move|p1a: Squawkabilly|Parting Shot|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|atk|1
+|-unboost|p2a: Great Tusk|spa|1
+|
+|t:|1779805923
+|switch|p1a: Slowking|Slowking, F, shiny|100/100|[from] Parting Shot
+|
+|-damage|p2a: Great Tusk|60/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1779805938
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Slowking|Future Sight|p2a: Gholdengo
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|6
+|
+|t:|1779805948
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779805954
+|switch|p1a: Magmar|Magmar, F, shiny|100/100|[from] Chilly Reception
+|-activate|p1a: Magmar|move: Sticky Web
+|-unboost|p1a: Magmar|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779805968
+|move|p2a: Gholdengo|Shadow Ball|p1a: Magmar
+|-damage|p1a: Magmar|40/100
+|-unboost|p1a: Magmar|spd|1
+|move|p1a: Magmar|Lava Plume|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|30/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Gholdengo|move: Future Sight
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|5/100
+|upkeep
+|turn|8
+|
+|t:|1779805984
+|switch|p1a: Clodsire|Clodsire, F, shiny|100/100
+|-activate|p1a: Clodsire|move: Sticky Web
+|-unboost|p1a: Clodsire|spe|1
+|move|p2a: Gholdengo|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|68/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Clodsire|74/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1779805997
+|move|p2a: Gholdengo|Make It Rain|p1a: Clodsire
+|-damage|p1a: Clodsire|29/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Clodsire|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Clodsire|36/100|[from] item: Black Sludge
+|upkeep
+|inactive|Uncle Dre has 120 seconds left.
+|
+|t:|1779806026
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|10
+|inactive|Uncle Dre has 120 seconds left.
+|
+|t:|1779806038
+|switch|p1a: Squawkabilly|Squawkabilly-Blue, M, shiny|3/100
+|-ability|p1a: Squawkabilly|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|move|p2a: Dragonite|Extreme Speed|p1a: Squawkabilly
+|-damage|p1a: Squawkabilly|0 fnt
+|faint|p1a: Squawkabilly
+|
+|-weather|none
+|upkeep
+|
+|t:|1779806047
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|-activate|p1a: Hatterene|move: Sticky Web
+|-unboost|p1a: Hatterene|spe|1
+|turn|11
+|
+|t:|1779806057
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|upkeep
+|turn|12
+|
+|t:|1779806075
+|move|p2a: Ribombee|Quiver Dance|p2a: Ribombee
+|-boost|p2a: Ribombee|spa|1
+|-boost|p2a: Ribombee|spd|1
+|-boost|p2a: Ribombee|spe|1
+|move|p1a: Hatterene|Draining Kiss|p2a: Ribombee
+|-damage|p2a: Ribombee|52/100
+|
+|upkeep
+|turn|13
+|
+|t:|1779806084
+|-terastallize|p1a: Hatterene|Fairy
+|move|p2a: Ribombee|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|62/100
+|-unboost|p1a: Hatterene|spa|1
+|move|p1a: Hatterene|Draining Kiss|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|-heal|p1a: Hatterene|94/100|[from] drain|[of] p2a: Ribombee
+|faint|p2a: Ribombee
+|
+|upkeep
+|inactive|Uncle Dre has 120 seconds left.
+|
+|t:|1779806108
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|14
+|
+|t:|1779806117
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1779806123
+|switch|p1a: Magmar|Magmar, F, shiny|40/100
+|-activate|p1a: Magmar|move: Sticky Web
+|-unboost|p1a: Magmar|spe|1
+|turn|15
+|
+|t:|1779806137
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|move|p1a: Magmar|Lava Plume|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|82/100
+|
+|upkeep
+|turn|16
+|
+|t:|1779806154
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Magmar|Rest|p1a: Magmar
+|-status|p1a: Magmar|slp|[from] move: Rest
+|-heal|p1a: Magmar|100/100 slp|[silent]
+|
+|upkeep
+|turn|17
+|
+|t:|1779806165
+|move|p2a: Ceruledge|Poltergeist|p1a: Magmar
+|-activate|p1a: Magmar|move: Poltergeist|Eviolite
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|-damage|p2a: Ceruledge|72/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779806171
+|switch|p1a: Clodsire|Clodsire, F, shiny|36/100
+|-activate|p1a: Clodsire|move: Sticky Web
+|-unboost|p1a: Clodsire|spe|1
+|turn|18
+|
+|t:|1779806180
+|move|p2a: Ceruledge|Bitter Blade|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|-heal|p2a: Ceruledge|99/100|[from] drain|[of] p1a: Clodsire
+|faint|p1a: Clodsire
+|-damage|p2a: Ceruledge|90/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779806185
+|switch|p1a: Slowking|Slowking, F, shiny|100/100
+|turn|19
+|-message|Mjolnir33 forfeited.
+|
+|win|Uncle Dre
+|raw|Mjolnir33's rating: 1288 &rarr; <strong>1264</strong><br />(-24 for losing)
+|raw|Uncle Dre's rating: 1303 &rarr; <strong>1322</strong><br />(+19 for winning)
+|l|☆Mjolnir33
+|player|p1|
+|l|☆Uncle Dre
+|player|p2|

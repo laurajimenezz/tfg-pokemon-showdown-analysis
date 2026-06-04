@@ -1,0 +1,187 @@
+|j|☆clock3
+|j|☆1818ccn
+|t:|1760321828
+|gametype|singles
+|player|p1|clock3|2|1145
+|player|p2|1818ccn|swimmerf-gen4|1182
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Alomomola, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Skeledirge, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Excadrill, F|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Glimmora, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Blissey, F|
+|poke|p2|Zapdos|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 1818ccn)
+|
+|t:|1760321836
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|turn|1
+|
+|t:|1760321856
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Landorus|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|92/100
+|-status|p1a: Landorus|par|[from] ability: Static|[of] p2a: Zapdos
+|
+|t:|1760321864
+|switch|p1a: Skeledirge|Skeledirge, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1760321869
+|move|p2a: Zapdos|Volt Switch|p1a: Skeledirge
+|-damage|p1a: Skeledirge|80/100
+|
+|t:|1760321875
+|switch|p2a: Glimmora|Glimmora, F|100/100|[from] Volt Switch
+|move|p1a: Skeledirge|Torch Song|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|81/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|-heal|p1a: Skeledirge|86/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1760321883
+|switch|p1a: Landorus|Landorus-Therian, M|100/100 par
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Glimmora|atk|1
+|move|p2a: Glimmora|Toxic||[still]
+|-fail|p2a: Glimmora
+|
+|upkeep
+|turn|4
+|
+|t:|1760321891
+|switch|p2a: Zapdos|Zapdos|92/100
+|move|p1a: Landorus|Taunt|p2a: Zapdos
+|-start|p2a: Zapdos|move: Taunt
+|
+|upkeep
+|turn|5
+|
+|t:|1760321900
+|move|p2a: Zapdos|Hurricane|p1a: Landorus|[miss]
+|-miss|p2a: Zapdos|p1a: Landorus
+|move|p1a: Landorus|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|83/100
+|
+|t:|1760321911
+|switch|p1a: Skeledirge|Skeledirge, M|86/100|[from] U-turn
+|
+|-heal|p1a: Skeledirge|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760321920
+|move|p2a: Zapdos|Volt Switch|p1a: Skeledirge
+|-damage|p1a: Skeledirge|72/100
+|
+|t:|1760321923
+|switch|p2a: Glimmora|Glimmora, F|81/100|[from] Volt Switch
+|move|p1a: Skeledirge|Roar|p2a: Glimmora
+|drag|p2a: Great Tusk|Great Tusk|100/100
+|
+|-heal|p1a: Skeledirge|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760321934
+|switch|p1a: Landorus|Landorus-Therian, M|100/100 par
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|72/100 par
+|-damage|p2a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|8
+|
+|t:|1760321944
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|83/100
+|move|p1a: Landorus|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: 1818ccn|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1760321954
+|move|p2a: Zapdos|Hurricane|p1a: Landorus
+|-damage|p1a: Landorus|14/100 par
+|move|p1a: Landorus|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|72/100
+|
+|t:|1760321962
+|switch|p1a: Excadrill|Excadrill, F|100/100|[from] U-turn
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|10
+|
+|t:|1760321970
+|move|p1a: Excadrill|Iron Head|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|51/100
+|-damage|p1a: Excadrill|91/100|[from] item: Life Orb
+|cant|p2a: Zapdos|flinch
+|
+|upkeep
+|turn|11
+|
+|t:|1760321982
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Zapdos|Heat Wave|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|84/100
+|
+|upkeep
+|turn|12
+|
+|t:|1760321989
+|switch|p1a: Excadrill|Excadrill, F|91/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|upkeep
+|turn|13
+|-message|clock3 forfeited.
+|
+|win|1818ccn
+|raw|clock3's rating: 1145 &rarr; <strong>1123</strong><br />(-22 for losing)
+|raw|1818ccn's rating: 1182 &rarr; <strong>1204</strong><br />(+22 for winning)
+|l|☆clock3
+|player|p1|

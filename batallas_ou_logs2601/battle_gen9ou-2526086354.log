@@ -1,0 +1,236 @@
+|j|☆Bug on my buzz
+|j|☆SuchA_Nerd
+|t:|1769370260
+|gametype|singles
+|player|p1|Bug on my buzz|kieran|1234
+|player|p2|SuchA_Nerd|2|1257
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Venomoth, M|
+|poke|p1|Araquanid, M|
+|poke|p1|Gholdengo|
+|poke|p1|Sinistcha|
+|poke|p1|Darkrai|
+|poke|p1|Iron Valiant|
+|poke|p2|Cryogonal|
+|poke|p2|Cobalion|
+|poke|p2|Indeedee, M|
+|poke|p2|Polteageist|
+|poke|p2|Hatterene, F|
+|poke|p2|Cinderace, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SuchA_Nerd)
+|
+|t:|1769370286
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Araquanid|Araquanid, M, shiny|100/100
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1769370296
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Araquanid|Liquidation|p2a: Hatterene
+|-damage|p2a: Hatterene|32/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1769370304
+|switch|p2a: Polteageist|Polteageist|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1769370309
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Araquanid|Sticky Web|p2a: Polteageist
+|-sidestart|p2: SuchA_Nerd|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|t:|1769370325
+|move|p2a: Polteageist|Stored Power|p1a: Araquanid
+|-enditem|p1a: Araquanid|Focus Sash
+|-damage|p1a: Araquanid|1/100
+|move|p1a: Araquanid|Liquidation|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|4
+|
+|t:|1769370336
+|move|p2a: Polteageist|Shadow Ball|p1a: Araquanid
+|-crit|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1769370355
+|switch|p1a: Darkrai|Darkrai, shiny|100/100
+|turn|5
+|
+|t:|1769370362
+|switch|p1a: Sinistcha|Sinistcha, shiny|100/100
+|-terastallize|p2a: Polteageist|Fighting
+|move|p2a: Polteageist|Tera Blast|p1a: Sinistcha|[anim] Tera Blast Fighting
+|-immune|p1a: Sinistcha
+|
+|upkeep
+|turn|6
+|
+|t:|1769370377
+|move|p2a: Polteageist|Shadow Ball|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|upkeep
+|
+|t:|1769370381
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|7
+|
+|t:|1769370387
+|move|p2a: Polteageist|Shadow Ball|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769370392
+|switch|p1a: Darkrai|Darkrai, shiny|100/100
+|turn|8
+|
+|t:|1769370401
+|-terastallize|p1a: Darkrai|Poison
+|move|p2a: Polteageist|Tera Blast|p1a: Darkrai|[anim] Tera Blast Fighting
+|-resisted|p1a: Darkrai
+|-damage|p1a: Darkrai|39/100
+|move|p1a: Darkrai|Dark Pulse|p2a: Polteageist
+|-resisted|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|-damage|p1a: Darkrai|29/100|[from] item: Life Orb
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1769370422
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|turn|9
+|
+|t:|1769370425
+|switch|p1a: Gholdengo|Gholdengo, shiny|100/100
+|move|p2a: Cryogonal|Rapid Spin|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|10
+|
+|t:|1769370432
+|switch|p2a: Hatterene|Hatterene, F|32/100
+|-activate|p2a: Hatterene|move: Sticky Web
+|-unboost|p2a: Hatterene|spe|1
+|move|p1a: Gholdengo|Thunder Wave|p2a: Hatterene
+|move|p2a: Hatterene|Thunder Wave|p1a: Gholdengo|[from] ability: Magic Bounce
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|
+|upkeep
+|turn|11
+|
+|t:|1769370444
+|move|p1a: Gholdengo|Hex|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1769370451
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|12
+|
+|t:|1769370455
+|move|p2a: Cinderace|Pyro Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|7/100
+|move|p1a: Gholdengo|Thunder Wave|p2a: Cinderace|[miss]
+|-miss|p1a: Gholdengo|p2a: Cinderace
+|
+|-heal|p1a: Gholdengo|13/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1769370465
+|move|p2a: Cinderace|Pyro Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1769370468
+|switch|p1a: Darkrai|Darkrai, shiny, tera:Poison|29/100
+|turn|14
+|
+|t:|1769370473
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|2
+|
+|upkeep
+|turn|15
+|
+|t:|1769370491
+|move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|2
+|move|p2a: Cinderace|Pyro Ball|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+|
+|t:|1769370493
+|switch|p1a: Venomoth|Venomoth, M, shiny|100/100
+|turn|16
+|
+|t:|1769370501
+|move|p2a: Cinderace|Pyro Ball|p1a: Venomoth
+|-supereffective|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|
+|win|SuchA_Nerd
+|raw|Bug on my buzz's rating: 1234 &rarr; <strong>1211</strong><br />(-23 for losing)
+|raw|SuchA_Nerd's rating: 1257 &rarr; <strong>1280</strong><br />(+23 for winning)
+|l|☆Bug on my buzz
+|player|p1|
+|l|☆SuchA_Nerd
+|player|p2|

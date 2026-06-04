@@ -1,0 +1,323 @@
+|j|☆Playersmistakes
+|j|☆Kis Vegallomas
+|t:|1760364445
+|gametype|singles
+|player|p1|Playersmistakes|lyra|1364
+|player|p2|Kis Vegallomas|170|1376
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Kyurem|
+|poke|p1|Gholdengo|
+|poke|p1|Heatran, M|
+|poke|p1|Zapdos|
+|poke|p1|Iron Valiant|
+|poke|p2|Garchomp, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Iron Crown|
+|poke|p2|Primeape, F|
+|teampreview
+|
+|t:|1760364452
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1760364455
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1760364461
+|move|p1a: Iron Valiant|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-enditem|p2a: Slowking|Choice Specs|[from] move: Knock Off|[of] p1a: Iron Valiant
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1760364464
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|3
+|
+|t:|1760364467
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Kis Vegallomas|Reflect
+|move|p1a: Iron Valiant|Spirit Break|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|12/100
+|-unboost|p2a: Grimmsnarl|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1760364473
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Iron Valiant
+|-unboost|p1a: Iron Valiant|atk|1
+|-unboost|p1a: Iron Valiant|spa|1
+|
+|t:|1760364476
+|switch|p2a: Primeape|Primeape, F|100/100|[from] Parting Shot
+|move|p1a: Iron Valiant|Spirit Break|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|36/100
+|-unboost|p2a: Primeape|spa|1
+|-ability|p2a: Primeape|Defiant|boost
+|-boost|p2a: Primeape|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1760364480
+|-terastallize|p2a: Primeape|Ghost
+|move|p1a: Iron Valiant|Spirit Break|p2a: Primeape
+|-damage|p2a: Primeape|8/100
+|-unboost|p2a: Primeape|spa|1
+|-ability|p2a: Primeape|Defiant|boost
+|-boost|p2a: Primeape|atk|2
+|move|p2a: Primeape|Rage Fist|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760364494
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|6
+|
+|t:|1760364496
+|move|p1a: Samurott|Sucker Punch|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|upkeep
+|
+|t:|1760364498
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|turn|7
+|
+|t:|1760364501
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Keldeo|Calm Mind|p2a: Keldeo
+|-boost|p2a: Keldeo|spa|1
+|-boost|p2a: Keldeo|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1760364504
+|move|p2a: Keldeo|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|34/100
+|move|p1a: Zapdos|Discharge|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|46/100
+|-status|p2a: Keldeo|par
+|
+|-heal|p2a: Keldeo|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760364508
+|move|p1a: Zapdos|Hurricane|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|upkeep
+|
+|t:|1760364510
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|turn|10
+|
+|t:|1760364514
+|move|p2a: Iron Crown|Agility|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spe|2
+|move|p1a: Zapdos|Discharge|p2a: Iron Crown
+|-damage|p2a: Iron Crown|71/100
+|
+|-sideend|p2: Kis Vegallomas|Reflect
+|upkeep
+|turn|11
+|
+|t:|1760364517
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|20/100
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|6/100
+|-hitcount|p1a: Zapdos|2
+|move|p1a: Zapdos|Discharge|p2a: Iron Crown
+|-damage|p2a: Iron Crown|39/100
+|
+|upkeep
+|turn|12
+|
+|t:|1760364520
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-hitcount|p1: Zapdos|1
+|
+|upkeep
+|
+|t:|1760364522
+|switch|p1a: Heatran|Heatran, M|100/100
+|turn|13
+|
+|t:|1760364524
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Heatran
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|91/100
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|85/100
+|-hitcount|p1a: Heatran|2
+|move|p1a: Heatran|Taunt|p2a: Iron Crown
+|-start|p2a: Iron Crown|move: Taunt
+|
+|-heal|p1a: Heatran|91/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1760364530
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|84/100
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|76/100
+|-hitcount|p1a: Heatran|2
+|move|p1a: Heatran|Magma Storm|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-heal|p1a: Heatran|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760364533
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|12/100
+|turn|15
+|
+|t:|1760364535
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Kis Vegallomas|move: Light Screen
+|move|p1a: Heatran|Stealth Rock|p2a: Grimmsnarl
+|-sidestart|p2: Kis Vegallomas|move: Stealth Rock
+|
+|-heal|p1a: Heatran|89/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1760364539
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Kis Vegallomas|Reflect
+|move|p1a: Heatran|Taunt|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|move: Taunt
+|
+|-heal|p1a: Heatran|95/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1760364544
+|move|p1a: Heatran|Taunt||[still]
+|-fail|p1a: Heatran
+|move|p2a: Grimmsnarl|Foul Play|p1a: Heatran
+|-damage|p1a: Heatran|69/100
+|
+|-heal|p1a: Heatran|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1760364546
+|move|p1a: Heatran|Taunt||[still]
+|-fail|p1a: Heatran
+|move|p2a: Grimmsnarl|Foul Play|p1a: Heatran
+|-damage|p1a: Heatran|50/100
+|
+|-heal|p1a: Heatran|56/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1760364548
+|move|p1a: Heatran|Taunt||[still]
+|-fail|p1a: Heatran
+|move|p2a: Grimmsnarl|Foul Play|p1a: Heatran
+|-damage|p1a: Heatran|29/100
+|
+|-heal|p1a: Heatran|35/100|[from] item: Leftovers
+|-end|p2a: Grimmsnarl|move: Taunt
+|upkeep
+|turn|20
+|
+|t:|1760364552
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|move|p1a: Heatran|Taunt|p2a: Garchomp
+|-start|p2a: Garchomp|move: Taunt
+|
+|-heal|p1a: Heatran|42/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1760364561
+|move|p1a: Heatran|Magma Storm|p2a: Garchomp|[miss]
+|-miss|p1a: Heatran|p2a: Garchomp
+|move|p2a: Garchomp|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1760364568
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|22
+|
+|t:|1760364575
+|-terastallize|p1a: Kyurem|Ground
+|move|p1a: Kyurem|Freeze-Dry|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|25/100
+|move|p2a: Garchomp|Scale Shot|p1a: Kyurem|[miss]
+|-miss|p2a: Garchomp|p1a: Kyurem
+|
+|-end|p2a: Garchomp|move: Taunt
+|-sideend|p2: Kis Vegallomas|move: Light Screen
+|upkeep
+|turn|23
+|-message|Kis Vegallomas forfeited.
+|
+|win|Playersmistakes
+|raw|Playersmistakes's rating: 1364 &rarr; <strong>1385</strong><br />(+21 for winning)
+|raw|Kis Vegallomas's rating: 1376 &rarr; <strong>1355</strong><br />(-21 for losing)
+|l|☆Kis Vegallomas
+|player|p2|
+|l|☆Playersmistakes
+|player|p1|

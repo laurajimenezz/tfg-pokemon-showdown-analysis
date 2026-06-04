@@ -1,0 +1,210 @@
+|j|☆Doxcy
+|j|☆jadhe
+|t:|1760879625
+|gametype|singles
+|player|p1|Doxcy|1|1300
+|player|p2|jadhe|102|1290
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Boulder|
+|poke|p1|Iron Treads|
+|poke|p1|Iron Moth|
+|poke|p2|Gliscor, M|
+|poke|p2|Tropius, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Iron Treads|
+|poke|p2|Heatran, M|
+|teampreview
+|
+|t:|1760879637
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|t:|1760879651
+|switch|p2a: Tropius|Tropius, F|100/100
+|move|p1a: Rotom|Electric Terrain|p1a: Rotom
+|-fieldstart|move: Electric Terrain
+|
+|upkeep
+|turn|2
+|
+|t:|1760879666
+|move|p1a: Rotom|Volt Switch|p2a: Tropius
+|-damage|p2a: Tropius|82/100
+|
+|t:|1760879682
+|switch|p1a: Iron Boulder|Iron Boulder|100/100|[from] Volt Switch
+|-activate|p1a: Iron Boulder|ability: Quark Drive
+|-start|p1a: Iron Boulder|quarkdrivespe
+|move|p2a: Tropius|Leech Seed|p1a: Iron Boulder
+|-start|p1a: Iron Boulder|move: Leech Seed
+|
+|-damage|p1a: Iron Boulder|88/100|[from] Leech Seed|[of] p2a: Tropius
+|-heal|p2a: Tropius|92/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1760879687
+|move|p2a: Tropius|Protect|p2a: Tropius
+|-singleturn|p2a: Tropius|Protect
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Tropius
+|-supereffective|p2a: Tropius
+|-damage|p2a: Tropius|0 fnt
+|faint|p2a: Tropius
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Doxcy)
+|
+|t:|1760879725
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|4
+|
+|t:|1760879743
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Gliscor
+|-damage|p2a: Gliscor|58/100
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|33/100
+|
+|-damage|p1a: Iron Boulder|76/100|[from] Leech Seed|[of] p2a: Gliscor
+|-heal|p2a: Gliscor|44/100|[silent]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|inactive|Doxcy has 120 seconds left.
+|
+|t:|1760879770
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-activate|p1a: Iron Treads|ability: Quark Drive
+|-start|p1a: Iron Treads|quarkdriveatk
+|-terastallize|p2a: Gliscor|Water
+|move|p2a: Gliscor|Toxic|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|-heal|p2a: Gliscor|57/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1760879776
+|move|p1a: Iron Treads|Earthquake|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|move|p2a: Gliscor|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|37/100
+|
+|-heal|p2a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1760879784
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Iron Treads|Supercell Slam|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|-damage|p1a: Iron Treads|0 fnt|[from] supercellslam
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p2a: Gliscor|82/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1760879787
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|8
+|
+|t:|1760879802
+|move|p1a: Iron Valiant|Thunderbolt|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|-damage|p1a: Iron Valiant|91/100|[from] item: Life Orb
+|
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Valiant|Quark Drive
+|upkeep
+|
+|t:|1760879824
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|9
+|
+|t:|1760879831
+|-terastallize|p1a: Iron Valiant|Dark
+|move|p2a: Indeedee|Psychic|p1a: Iron Valiant
+|-immune|p1a: Iron Valiant
+|move|p1a: Iron Valiant|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-enditem|p2a: Indeedee|Choice Scarf|[from] move: Knock Off|[of] p1a: Iron Valiant
+|faint|p2a: Indeedee
+|-damage|p1a: Iron Valiant|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760879836
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|10
+|
+|t:|1760879850
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Cinderace|U-turn|p1a: Rotom
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Rotom|65/100
+|-damage|p2a: Cinderace|91/100|[from] item: Life Orb
+|inactive|jadhe has 120 seconds left.
+|
+|t:|1760879875
+|switch|p2a: Heatran|Heatran, M|100/100|[from] U-turn
+|-item|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|11
+|
+|t:|1760879888
+|move|p1a: Rotom|Hydro Pump|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|38/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Flash Cannon|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|53/100
+|
+|upkeep
+|turn|12
+|inactive|jadhe has 120 seconds left.
+|inactive|jadhe has 90 seconds left.
+|inactive|jadhe has 60 seconds left.
+|inactive|jadhe has 30 seconds left.
+|inactive|jadhe has 20 seconds left.
+|inactive|jadhe has 15 seconds left.
+|inactive|jadhe has 10 seconds left.
+|inactive|jadhe has 5 seconds left.
+|-message|jadhe lost due to inactivity.
+|
+|win|Doxcy
+|raw|Doxcy's rating: 1300 &rarr; <strong>1324</strong><br />(+24 for winning)
+|raw|jadhe's rating: 1290 &rarr; <strong>1266</strong><br />(-24 for losing)
+|l|☆jadhe
+|player|p2|

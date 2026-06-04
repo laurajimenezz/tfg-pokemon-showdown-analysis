@@ -1,0 +1,329 @@
+|j|☆pokenoob123p
+|j|☆MarcElf22
+|t:|1779691595
+|gametype|singles
+|player|p1|pokenoob123p|2|
+|player|p2|MarcElf22|hilbert-wonderlauncher|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinccino, M|
+|poke|p1|Snorlax, M|
+|poke|p1|Ursaluna, F|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Iron Valiant|
+|poke|p1|Corviknight, F|
+|poke|p2|Arboliva, M|
+|poke|p2|Ninetales, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Dusclops, M|
+|poke|p2|Noivern, M|
+|poke|p2|Honchkrow, F|
+|teampreview
+|
+|t:|1779691626
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Sapling|Arboliva, M|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|t:|1779691647
+|switch|p2a: Deadbeat|Dusclops, M, shiny|100/100
+|-item|p1a: Deoxys|Leftovers|[from] ability: Frisk|[of] p2a: Deadbeat
+|move|p1a: Deoxys|Protect||[still]
+|-fail|p1a: Deoxys
+|
+|upkeep
+|turn|2
+|
+|t:|1779691667
+|move|p1a: Deoxys|Psycho Boost|p2a: Deadbeat|[miss]
+|-miss|p1a: Deoxys|p2a: Deadbeat
+|move|p2a: Deadbeat|Curse|p1a: Deoxys
+|-start|p1a: Deoxys|Curse|[of] p2a: Deadbeat
+|-damage|p2a: Deadbeat|51/100
+|
+|-damage|p1a: Deoxys|76/100|[from] Curse
+|upkeep
+|turn|3
+|
+|t:|1779691678
+|move|p1a: Deoxys|Psycho Boost|p2a: Deadbeat
+|-damage|p2a: Deadbeat|10/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Deadbeat|Pain Split|p1a: Deoxys
+|-sethp|p1a: Deoxys|42/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Deadbeat|46/100|[from] move: Pain Split
+|
+|-heal|p1a: Deoxys|48/100|[from] item: Leftovers
+|-damage|p1a: Deoxys|23/100|[from] Curse
+|upkeep
+|turn|4
+|
+|t:|1779691701
+|move|p2a: Deadbeat|Protect|p2a: Deadbeat
+|-singleturn|p2a: Deadbeat|Protect
+|move|p1a: Deoxys|Psycho Boost|p2a: Deadbeat
+|-activate|p2a: Deadbeat|move: Protect
+|
+|-heal|p1a: Deoxys|30/100|[from] item: Leftovers
+|-damage|p1a: Deoxys|5/100|[from] Curse
+|upkeep
+|turn|5
+|
+|t:|1779691712
+|switch|p2a: Jailbird|Honchkrow, F|100/100
+|move|p1a: Deoxys|Psycho Boost|p2a: Jailbird
+|-immune|p2a: Jailbird
+|
+|-heal|p1a: Deoxys|11/100|[from] item: Leftovers
+|-damage|p1a: Deoxys|0 fnt|[from] Curse
+|faint|p1a: Deoxys
+|upkeep
+|
+|t:|1779691721
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|turn|6
+|
+|t:|1779691747
+|move|p2a: Jailbird|Sky Attack||[still]
+|-prepare|p2a: Jailbird|Sky Attack
+|-enditem|p2a: Jailbird|Power Herb
+|-anim|p2a: Jailbird|Sky Attack|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|26/100
+|move|p1a: Ursaluna|Facade|p2a: Jailbird
+|-damage|p2a: Jailbird|49/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|t:|1779691775
+|move|p2a: Jailbird|Comeuppance||[still]
+|-fail|p2a: Jailbird
+|move|p1a: Ursaluna|Drain Punch|p2a: Jailbird
+|-damage|p2a: Jailbird|0 fnt
+|-heal|p1a: Ursaluna|45/100 brn|[from] drain|[of] p2a: Jailbird
+|faint|p2a: Jailbird
+|
+|-damage|p1a: Ursaluna|39/100 brn|[from] brn
+|upkeep
+|
+|t:|1779691785
+|switch|p2a: Honey-Bunny|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Honey-Bunny
+|turn|8
+|
+|t:|1779691793
+|move|p2a: Honey-Bunny|Solar Beam||[still]
+|-prepare|p2a: Honey-Bunny|Solar Beam
+|-anim|p2a: Honey-Bunny|Solar Beam|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779691801
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|9
+|
+|t:|1779691813
+|move|p1a: Iron Valiant|Vacuum Wave|p2a: Honey-Bunny
+|-damage|p2a: Honey-Bunny|78/100
+|move|p2a: Honey-Bunny|Confuse Ray|p1a: Iron Valiant
+|-start|p1a: Iron Valiant|confusion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1779691822
+|-activate|p1a: Iron Valiant|confusion
+|-damage|p1a: Iron Valiant|88/100|[from] confusion
+|move|p2a: Honey-Bunny|Weather Ball|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779691830
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|turn|11
+|
+|t:|1779691836
+|move|p2a: Honey-Bunny|Weather Ball|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779691844
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|turn|12
+|
+|t:|1779691850
+|move|p2a: Honey-Bunny|Weather Ball|p1a: Snorlax
+|-damage|p1a: Snorlax|67/100
+|move|p1a: Snorlax|Body Press|p2a: Honey-Bunny
+|-damage|p2a: Honey-Bunny|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1779691860
+|switch|p2a: Deadbeat|Dusclops, M, shiny|46/100
+|-item|p1a: Snorlax|Rocky Helmet|[from] ability: Frisk|[of] p2a: Deadbeat
+|move|p1a: Snorlax|Body Press|p2a: Deadbeat
+|-immune|p2a: Deadbeat
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1779691869
+|move|p1a: Snorlax|Shadow Ball|p2a: Deadbeat
+|-supereffective|p2a: Deadbeat
+|-damage|p2a: Deadbeat|28/100
+|move|p2a: Deadbeat|Pain Split|p1a: Snorlax
+|-sethp|p1a: Snorlax|39/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Deadbeat|92/100|[from] move: Pain Split
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1779691882
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|move|p2a: Deadbeat|Curse|p1a: Snorlax
+|-start|p1a: Snorlax|Curse|[of] p2a: Deadbeat
+|-damage|p2a: Deadbeat|43/100
+|
+|-weather|none
+|-damage|p1a: Snorlax|75/100 slp|[from] Curse
+|upkeep
+|turn|16
+|
+|t:|1779691894
+|cant|p1a: Snorlax|slp
+|move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+|move|p1a: Snorlax|Shadow Ball|p2a: Deadbeat|[from] move: Sleep Talk
+|-supereffective|p2a: Deadbeat
+|-damage|p2a: Deadbeat|24/100
+|move|p2a: Deadbeat|Pain Split|p1a: Snorlax
+|-sethp|p1a: Snorlax|43/100 slp|[from] move: Pain Split|[silent]
+|-sethp|p2a: Deadbeat|100/100|[from] move: Pain Split
+|
+|-damage|p1a: Snorlax|18/100 slp|[from] Curse
+|upkeep
+|turn|17
+|
+|t:|1779691916
+|switch|p2a: Honey-Bunny|Ninetales, F|46/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Honey-Bunny
+|cant|p1a: Snorlax|slp
+|move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+|move|p1a: Snorlax|Body Press|p2a: Honey-Bunny|[from] move: Sleep Talk
+|-damage|p2a: Honey-Bunny|17/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Snorlax|0 fnt|[from] Curse
+|faint|p1a: Snorlax
+|upkeep
+|
+|t:|1779691928
+|switch|p1a: Cinccino|Cinccino, M|100/100
+|turn|18
+|
+|t:|1779691937
+|-terastallize|p2a: Honey-Bunny|Fire
+|move|p1a: Cinccino|Rock Blast|p2a: Honey-Bunny
+|-supereffective|p2a: Honey-Bunny
+|-damage|p2a: Honey-Bunny|0 fnt
+|faint|p2a: Honey-Bunny
+|-hitcount|p2: Honey-Bunny|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779691946
+|switch|p2a: Sapling|Arboliva, M|100/100
+|turn|19
+|
+|t:|1779691957
+|move|p1a: Cinccino|Triple Axel|p2a: Sapling
+|-supereffective|p2a: Sapling
+|-damage|p2a: Sapling|86/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2a: Sapling
+|-enditem|p2a: Sapling|Grassy Seed
+|-boost|p2a: Sapling|def|1|[from] item: Grassy Seed
+|-supereffective|p2a: Sapling
+|-damage|p2a: Sapling|67/100
+|-supereffective|p2a: Sapling
+|-damage|p2a: Sapling|39/100
+|-hitcount|p2a: Sapling|3
+|move|p2a: Sapling|Strength Sap|p1a: Cinccino
+|-unboost|p1a: Cinccino|atk|1
+|-heal|p2a: Sapling|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1779691975
+|move|p1a: Cinccino|Triple Axel|p2a: Sapling
+|-supereffective|p2a: Sapling
+|-damage|p2a: Sapling|94/100
+|-supereffective|p2a: Sapling
+|-damage|p2a: Sapling|80/100
+|-supereffective|p2a: Sapling
+|-damage|p2a: Sapling|61/100
+|-hitcount|p2a: Sapling|3
+|move|p2a: Sapling|Terrain Pulse|p1a: Cinccino
+|-enditem|p1a: Cinccino|Focus Sash
+|-damage|p1a: Cinccino|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cinccino|7/100|[from] Grassy Terrain
+|-heal|p2a: Sapling|67/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|c|☆pokenoob123p|playing against you feels like i am playing against a way higher level being despite you have similar stats, pure unaldurated skill issues on my side
+|
+|t:|1779692068
+|move|p1a: Cinccino|Triple Axel|p2a: Sapling
+|-supereffective|p2a: Sapling
+|-damage|p2a: Sapling|60/100
+|-supereffective|p2a: Sapling
+|-damage|p2a: Sapling|47/100
+|-supereffective|p2a: Sapling
+|-damage|p2a: Sapling|29/100
+|-hitcount|p2a: Sapling|3
+|move|p2a: Sapling|Weather Ball|p1a: Cinccino
+|-damage|p1a: Cinccino|0 fnt
+|faint|p1a: Cinccino
+|
+|win|MarcElf22
+|c|☆MarcElf22|gg
+|l|☆pokenoob123p
+|player|p1|

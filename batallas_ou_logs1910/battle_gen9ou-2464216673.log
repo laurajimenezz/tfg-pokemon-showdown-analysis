@@ -1,0 +1,338 @@
+|j|☆undftd.one
+|j|☆reudige Gurke
+|t:|1760815389
+|gametype|singles
+|player|p1|undftd.one|102|1284
+|player|p2|reudige Gurke|265|1311
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Zapdos|
+|poke|p1|Zamazenta-*|
+|poke|p1|Walking Wake|
+|poke|p1|Iron Boulder|
+|poke|p2|Mew|
+|poke|p2|Alomomola, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Primarina, M|
+|poke|p2|Persian-Alola, F|
+|poke|p2|Kyurem|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by undftd.one)
+|
+|t:|1760815406
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Persian|Persian-Alola, F|100/100
+|turn|1
+|
+|t:|1760815422
+|move|p2a: Persian|Switcheroo|p1a: Zapdos
+|-activate|p2a: Persian|move: Trick|[of] p1a: Zapdos
+|-item|p1a: Zapdos|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Persian|Rocky Helmet|[from] move: Switcheroo
+|move|p1a: Zapdos|Sunny Day|p1a: Zapdos
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760815434
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|move|p2a: Persian|Parting Shot|p1a: Hatterene
+|move|p1a: Hatterene|Parting Shot|p2a: Persian|[from] ability: Magic Bounce
+|-unboost|p2a: Persian|atk|1
+|-unboost|p2a: Persian|spa|1
+|
+|t:|1760815458
+|switch|p1a: Walking Wake|Walking Wake|100/100|[from] Parting Shot
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760815462
+|switch|p2a: Primarina|Primarina, M|100/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|77/100
+|-damage|p1a: Walking Wake|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760815471
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|move|p2a: Primarina|Flip Turn|p1a: Hatterene
+|-damage|p1a: Hatterene|93/100
+|
+|t:|1760815480
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from] Flip Turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760815483
+|move|p2a: Cinderace|Pyro Ball|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|none
+|upkeep
+|
+|t:|1760815486
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdrivespe
+|turn|6
+|
+|t:|1760815506
+|switch|p2a: Persian|Persian-Alola, F|100/100
+|move|p1a: Iron Boulder|Swords Dance|p1a: Iron Boulder
+|-boost|p1a: Iron Boulder|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1760815512
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Persian
+|-damage|p2a: Persian|32/100
+|-damage|p1a: Iron Boulder|84/100|[from] item: Rocky Helmet|[of] p2a: Persian
+|move|p2a: Persian|Foul Play|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|0 fnt
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760815523
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|8
+|
+|t:|1760815528
+|move|p1a: Zapdos|Volt Switch|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|t:|1760815533
+|switch|p1a: Dragonite|Dragonite, M, shiny|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1760815548
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|9
+|
+|t:|1760815560
+|move|p2a: Kyurem|Icicle Spear|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|76/100
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|32/100
+|-hitcount|p1a: Dragonite|2
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1760815571
+|-terastallize|p2a: Kyurem|Steel
+|move|p1a: Dragonite|Extreme Speed|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|84/100
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|
+|-heal|p2a: Kyurem|90/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760815577
+|move|p2a: Kyurem|Icicle Spear|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|-hitcount|p1: Dragonite|1
+|
+|-heal|p2a: Kyurem|96/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760815581
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|12
+|
+|t:|1760815595
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Zamazenta|Close Combat|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|75/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|-damage|p1a: Zamazenta|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|
+|t:|1760815601
+|move|p1a: Zamazenta|Crunch|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|31/100
+|-enditem|p2a: Mew|Weakness Policy
+|-boost|p2a: Mew|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Mew|spa|2|[from] item: Weakness Policy
+|-damage|p1a: Zamazenta|81/100|[from] item: Life Orb
+|move|p2a: Mew|Agility|p2a: Mew
+|-boost|p2a: Mew|spe|2
+|
+|upkeep
+|turn|14
+|
+|t:|1760815609
+|move|p2a: Mew|Stored Power|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1760815614
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|15
+|
+|t:|1760815622
+|move|p1a: Zapdos|Volt Switch|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|t:|1760815625
+|switch|p1a: Walking Wake|Walking Wake|91/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1760815627
+|switch|p2a: Primarina|Primarina, M|77/100
+|turn|16
+|
+|t:|1760815631
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Primarina|Moonblast|p1a: Zapdos
+|-damage|p1a: Zapdos|34/100
+|-unboost|p1a: Zapdos|spa|1
+|
+|upkeep
+|turn|17
+|
+|t:|1760815633
+|switch|p2a: Kyurem|Kyurem, tera:Steel|96/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Zapdos|Volt Switch|p2a: Kyurem
+|-damage|p2a: Kyurem|76/100
+|
+|t:|1760815635
+|switch|p1a: Walking Wake|Walking Wake|91/100|[from] Volt Switch
+|
+|-heal|p2a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1760815639
+|move|p1a: Walking Wake|Sunny Day|p1a: Walking Wake
+|-weather|SunnyDay
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1760815642
+|move|p2a: Kyurem|Protect|p2a: Kyurem
+|-singleturn|p2a: Kyurem|Protect
+|move|p1a: Walking Wake|Flamethrower|p2a: Kyurem
+|-activate|p2a: Kyurem|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyurem|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1760815645
+|move|p1a: Walking Wake|Flamethrower|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|-damage|p1a: Walking Wake|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760815650
+|switch|p2a: Primarina|Primarina, M|77/100
+|turn|21
+|
+|t:|1760815653
+|move|p1a: Walking Wake|Hydro Steam|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|51/100
+|-damage|p1a: Walking Wake|71/100|[from] item: Life Orb
+|move|p2a: Primarina|Moonblast|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760815657
+|switch|p1a: Zapdos|Zapdos|34/100
+|turn|22
+|
+|t:|1760815661
+|move|p1a: Zapdos|Volt Switch|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|4/100
+|move|p2a: Primarina|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|win|reudige Gurke
+|raw|undftd.one's rating: 1284 &rarr; <strong>1261</strong><br />(-23 for losing)
+|raw|reudige Gurke's rating: 1311 &rarr; <strong>1329</strong><br />(+18 for winning)
+|l|☆undftd.one
+|player|p1|
+|c|☆reudige Gurke|gg
+|l|☆reudige Gurke
+|player|p2|

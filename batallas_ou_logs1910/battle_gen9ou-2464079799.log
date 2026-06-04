@@ -1,0 +1,305 @@
+|j|☆parkjm
+|j|☆InfinityPokeRang3r
+|t:|1760797566
+|gametype|singles
+|player|p1|parkjm|101|1190
+|player|p2|InfinityPokeRang3r|ingo|1213
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dondozo, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Scizor, M|
+|poke|p1|Snorlax, M|
+|poke|p1|Breloom, M|
+|poke|p1|Iron Moth|
+|poke|p2|Araquanid, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Great Tusk|
+|poke|p2|Skeledirge, F|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Iron Crown|
+|teampreview
+|
+|t:|1760797575
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|1
+|
+|t:|1760797595
+|-terastallize|p1a: Iron Moth|Flying
+|move|p1a: Iron Moth|Fiery Dance|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760797610
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|turn|2
+|
+|t:|1760797622
+|move|p1a: Iron Moth|Sludge Wave|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|78/100
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Iron Moth
+|-status|p1a: Iron Moth|brn
+|
+|-damage|p1a: Iron Moth|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1760797633
+|move|p1a: Iron Moth|Discharge|p2a: Skeledirge
+|-damage|p2a: Skeledirge|52/100
+|move|p2a: Skeledirge|Torch Song|p1a: Iron Moth
+|-damage|p1a: Iron Moth|64/100 brn
+|-boost|p2a: Skeledirge|spa|1
+|
+|-damage|p1a: Iron Moth|58/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1760797643
+|move|p1a: Iron Moth|Fiery Dance|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|31/100
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|81/100
+|
+|-damage|p1a: Iron Moth|52/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1760797661
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Breloom|Breloom, M|100/100
+|move|p2a: Skeledirge|Hex|p1a: Breloom
+|-damage|p1a: Breloom|24/100
+|
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1760797673
+|move|p1a: Breloom|Protect|p1a: Breloom
+|-singleturn|p1a: Breloom|Protect
+|move|p2a: Skeledirge|Hex|p1a: Breloom
+|-activate|p1a: Breloom|move: Protect
+|
+|-heal|p1a: Breloom|36/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1760797682
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|11/100 tox
+|move|p2a: Skeledirge|Torch Song|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Breloom
+|
+|upkeep
+|
+|t:|1760797694
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|turn|8
+|
+|t:|1760797702
+|move|p1a: Glimmora|Toxic|p2a: Skeledirge
+|-status|p2a: Skeledirge|tox
+|move|p2a: Skeledirge|Torch Song|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|71/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-damage|p2a: Skeledirge|75/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1760797717
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Skeledirge|Torch Song|p1a: Snorlax
+|-damage|p1a: Snorlax|81/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p1a: Snorlax|87/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|63/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1760797728
+|move|p1a: Snorlax|Protect|p1a: Snorlax
+|-singleturn|p1a: Snorlax|Protect
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Snorlax
+|-activate|p1a: Snorlax|move: Protect
+|
+|-heal|p1a: Snorlax|93/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|44/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1760797738
+|move|p2a: Skeledirge|Torch Song|p1a: Snorlax
+|-damage|p1a: Snorlax|70/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Snorlax|Earthquake|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|1/100 tox
+|
+|-heal|p1a: Snorlax|76/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|0 fnt|[from] psn
+|faint|p2a: Skeledirge
+|upkeep
+|
+|t:|1760797748
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|12
+|
+|t:|1760797758
+|move|p1a: Snorlax|Protect|p1a: Snorlax
+|-singleturn|p1a: Snorlax|Protect
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|-heal|p1a: Snorlax|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760797775
+|switch|p1a: Glimmora|Glimmora, M|71/100
+|move|p2a: Ogerpon|Knock Off|p1a: Glimmora
+|-damage|p1a: Glimmora|11/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: InfinityPokeRang3r|move: Toxic Spikes
+|-enditem|p1a: Glimmora|Focus Sash|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|upkeep
+|turn|14
+|
+|t:|1760797784
+|move|p2a: Ogerpon|Horn Leech|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: InfinityPokeRang3r|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1760797799
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|turn|15
+|
+|t:|1760797806
+|move|p2a: Ogerpon|Horn Leech|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|61/100
+|-damage|p2a: Ogerpon|84/100|[from] item: Rocky Helmet|[of] p1a: Dondozo
+|move|p1a: Dondozo|Wave Crash|p2a: Ogerpon
+|-damage|p2a: Ogerpon|33/100
+|-damage|p1a: Dondozo|51/100|[from] Recoil
+|
+|upkeep
+|turn|16
+|
+|t:|1760797833
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|-status|p2a: Araquanid|tox
+|switch|p1a: Scizor|Scizor, M|100/100
+|
+|-damage|p2a: Araquanid|94/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1760797846
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Araquanid|Sticky Web|p1a: Scizor
+|-sidestart|p1: parkjm|move: Sticky Web
+|
+|-damage|p2a: Araquanid|82/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1760797862
+|move|p1a: Scizor|Dual Wingbeat|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|-hitcount|p2: Araquanid|1
+|
+|upkeep
+|
+|t:|1760797873
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|19
+|
+|t:|1760797879
+|move|p1a: Scizor|Bullet Punch|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|-start|p1a: Scizor|Attract|[from] ability: Cute Charm|[of] p2a: Enamorus
+|faint|p2a: Enamorus
+|-end|p1a: Scizor|Attract|[silent]
+|
+|upkeep
+|
+|t:|1760797882
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-status|p2a: Great Tusk|tox
+|turn|20
+|
+|t:|1760797888
+|move|p2a: Great Tusk|Close Combat|p1a: Scizor
+|-damage|p1a: Scizor|33/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Scizor|Dual Wingbeat|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|13/100 tox
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p2: Great Tusk|2
+|
+|upkeep
+|
+|t:|1760797896
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|33/100
+|-status|p2a: Ogerpon|tox
+|turn|21
+|
+|t:|1760797903
+|move|p1a: Scizor|Bullet Punch|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|win|parkjm
+|raw|parkjm's rating: 1190 &rarr; <strong>1217</strong><br />(+27 for winning)
+|raw|InfinityPokeRang3r's rating: 1213 &rarr; <strong>1186</strong><br />(-27 for losing)
+|l|☆InfinityPokeRang3r
+|player|p2|
+|l|☆parkjm
+|player|p1|

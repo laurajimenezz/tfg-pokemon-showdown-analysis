@@ -1,0 +1,319 @@
+|j|☆DarkG99
+|j|☆cafepinguino
+|t:|1779585549
+|gametype|singles
+|player|p1|DarkG99|karen|1493
+|player|p2|cafepinguino|morty|1556
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kommo-o, M|
+|poke|p1|Sinistcha-Masterpiece|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Heatran, M|
+|poke|p1|Maushold-Four|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Darkrai|
+|poke|p2|Clefable, M|
+|poke|p2|Entei|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Azumarill, F|
+|teampreview
+|
+|t:|1779585562
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Maushold|Maushold-Four|100/100
+|switch|p2a: Entei|Entei|100/100
+|turn|1
+|
+|t:|1779585568
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Entei|Sacred Fire|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|2
+|
+|t:|1779585580
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Ursaluna
+|-damage|p2a: Ursaluna|41/100
+|-activate|p2a: Ursaluna|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Ursaluna|29/100|[from] move: Magma Storm|[partiallytrapped]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1779585588
+|-end|p1a: Heatran|ability: Flash Fire|[silent]
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|100/100
+|move|p2a: Ursaluna|Earthquake|p1a: Sinistcha
+|-resisted|p1a: Sinistcha
+|-damage|p1a: Sinistcha|68/100
+|
+|-damage|p2a: Ursaluna|22/100 brn|[from] brn
+|-end|p2a: Ursaluna|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|4
+|
+|t:|1779585603
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Ursaluna|Crunch|p1a: Heatran
+|-damage|p1a: Heatran|56/100
+|
+|-heal|p1a: Heatran|62/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|16/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1779585609
+|move|p1a: Heatran|Earth Power|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-heal|p1a: Heatran|69/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779585622
+|switch|p2a: Azumarill <3|Azumarill, F|100/100
+|turn|6
+|
+|t:|1779585626
+|move|p1a: Heatran|Will-O-Wisp|p2a: Azumarill <3
+|-status|p2a: Azumarill <3|brn
+|move|p2a: Azumarill <3|Belly Drum|p2a: Azumarill <3
+|-damage|p2a: Azumarill <3|50/100 brn
+|-setboost|p2a: Azumarill <3|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Azumarill <3|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill <3|75/100 brn|[from] item: Sitrus Berry
+|
+|-heal|p1a: Heatran|75/100|[from] item: Leftovers
+|-damage|p2a: Azumarill <3|69/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1779585639
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|68/100
+|move|p2a: Azumarill <3|Knock Off|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-crit|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|-damage|p2a: Azumarill <3|53/100 brn|[from] item: Rocky Helmet|[of] p1a: Sinistcha
+|-enditem|p1a: Sinistcha|Rocky Helmet|[from] move: Knock Off|[of] p2a: Azumarill <3
+|faint|p1a: Sinistcha
+|
+|-damage|p2a: Azumarill <3|47/100 brn|[from] brn
+|upkeep
+|
+|t:|1779585646
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|8
+|
+|t:|1779585660
+|-terastallize|p2a: Azumarill <3|Steel
+|move|p1a: Ogerpon|Trailblaze|p2a: Azumarill <3
+|-resisted|p2a: Azumarill <3
+|-damage|p2a: Azumarill <3|33/100 brn
+|-boost|p1a: Ogerpon|spe|1
+|move|p2a: Azumarill <3|Knock Off|p1a: Ogerpon
+|-damage|p1a: Ogerpon|26/100
+|
+|-damage|p2a: Azumarill <3|26/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1779585668
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Azumarill <3|[anim] Ivy Cudgel Water
+|-crit|p2a: Azumarill <3
+|-damage|p2a: Azumarill <3|0 fnt
+|faint|p2a: Azumarill <3
+|
+|upkeep
+|
+|t:|1779585675
+|switch|p2a: Entei|Entei|100/100
+|turn|10
+|
+|t:|1779585678
+|switch|p1a: Heatran|Heatran, M|75/100
+|move|p2a: Entei|Extreme Speed|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|64/100
+|
+|-heal|p1a: Heatran|70/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1779585688
+|move|p2a: Entei|Crunch|p1a: Heatran
+|-damage|p1a: Heatran|49/100
+|move|p1a: Heatran|Stealth Rock|p2a: Entei
+|-sidestart|p2: cafepinguino|move: Stealth Rock
+|
+|-heal|p1a: Heatran|55/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779585695
+|move|p2a: Entei|Crunch|p1a: Heatran
+|-damage|p1a: Heatran|34/100
+|move|p1a: Heatran|Earth Power|p2a: Entei
+|-supereffective|p2a: Entei
+|-damage|p2a: Entei|42/100
+|
+|-heal|p1a: Heatran|40/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1779585705
+|move|p2a: Entei|Crunch|p1a: Heatran
+|-damage|p1a: Heatran|19/100
+|move|p1a: Heatran|Earth Power|p2a: Entei
+|-supereffective|p2a: Entei
+|-damage|p2a: Entei|0 fnt
+|faint|p2a: Entei
+|
+|-heal|p1a: Heatran|25/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779585713
+|switch|p2a: Darkrai|Darkrai|100/100
+|-damage|p2a: Darkrai|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1779585717
+|move|p2a: Darkrai|Dark Pulse|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1779585721
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|15
+|
+|t:|1779585724
+|move|p2a: Darkrai|Sludge Bomb|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|5/100
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: DarkG99|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1779585731
+|move|p2a: Darkrai|Sludge Bomb|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779585740
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|turn|17
+|
+|t:|1779585743
+|move|p2a: Darkrai|Ice Beam|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|51/100
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|18/100
+|-enditem|p1a: Kommo-o|Sitrus Berry|[eat]
+|-heal|p1a: Kommo-o|43/100|[from] item: Sitrus Berry
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1779585750
+|move|p1a: Kommo-o|Drain Punch|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|-heal|p1a: Kommo-o|86/100|[from] drain|[of] p2a: Darkrai
+|faint|p2a: Darkrai
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779585757
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|19
+|
+|t:|1779585761
+|-terastallize|p1a: Kommo-o|Normal
+|move|p1a: Kommo-o|Boomburst|p2a: Clefable
+|-damage|p2a: Clefable|9/100
+|move|p2a: Clefable|Moonblast|p1a: Kommo-o
+|-damage|p1a: Kommo-o|70/100
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|t:|1779585768
+|move|p1a: Kommo-o|Drain Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-heal|p1a: Kommo-o|75/100|[from] drain|[of] p2a: Clefable
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|t:|1779585771
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|-damage|p2a: Goodra|94/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1779585776
+|move|p1a: Kommo-o|Drain Punch|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|40/100
+|-heal|p1a: Kommo-o|100/100|[from] drain|[of] p2a: Goodra
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Kommo-o|spe|1
+|move|p2a: Goodra|Body Press|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|85/100
+|
+|upkeep
+|turn|22
+|
+|t:|1779585783
+|move|p1a: Kommo-o|Drain Punch|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-heal|p1a: Kommo-o|100/100|[from] drain|[of] p2a: Goodra
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Kommo-o|spe|1
+|faint|p2a: Goodra
+|
+|win|DarkG99
+|raw|DarkG99's rating: 1493 &rarr; <strong>1517</strong><br />(+24 for winning)
+|raw|cafepinguino's rating: 1556 &rarr; <strong>1532</strong><br />(-24 for losing)
+|l|☆DarkG99
+|player|p1|
+|l|☆cafepinguino
+|player|p2|

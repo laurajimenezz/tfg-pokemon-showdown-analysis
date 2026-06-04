@@ -1,0 +1,230 @@
+|j|☆Ozygen
+|j|☆splishsplish12
+|t:|1760386460
+|gametype|singles
+|player|p1|Ozygen|flint|1085
+|player|p2|splishsplish12|steven|1111
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Scrafty, F|
+|poke|p1|Slowbro-Galar, M|
+|poke|p1|Trevenant, F|
+|poke|p1|Whimsicott, F|
+|poke|p1|Infernape, F|
+|poke|p1|Scream Tail|
+|poke|p2|Ting-Lu|
+|poke|p2|Pecharunt|
+|poke|p2|Dragapult, M|
+|poke|p2|Kubfu, M|
+|poke|p2|Snivy, M|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1760386473
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|switch|p2a: AstralSnivff|Snivy, M|100/100
+|-enditem|p1a: Scream Tail|Booster Energy
+|-activate|p1a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1a: Scream Tail|protosynthesisspd
+|turn|1
+|
+|t:|1760386483
+|move|p1a: Scream Tail|Stealth Rock|p2a: AstralSnivff
+|-sidestart|p2: splishsplish12|move: Stealth Rock
+|move|p2a: AstralSnivff|Taunt|p1a: Scream Tail
+|-start|p1a: Scream Tail|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1760386492
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Slowbro|Slowbro-Galar, M|100/100
+|move|p2a: AstralSnivff|Leech Seed|p1a: Slowbro
+|-start|p1a: Slowbro|move: Leech Seed
+|
+|-damage|p1a: Slowbro|88/100|[from] Leech Seed|[of] p2a: AstralSnivff
+|upkeep
+|turn|3
+|
+|t:|1760386500
+|move|p1a: Slowbro|Flamethrower|p2a: AstralSnivff
+|-supereffective|p2a: AstralSnivff
+|-damage|p2a: AstralSnivff|6/100
+|move|p2a: AstralSnivff|Mirror Coat|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|upkeep
+|
+|t:|1760386508
+|switch|p1a: Infernape|Infernape, F|100/100
+|turn|4
+|
+|t:|1760386511
+|move|p1a: Infernape|Mach Punch|p2a: AstralSnivff
+|-damage|p2a: AstralSnivff|0 fnt
+|faint|p2a: AstralSnivff
+|
+|upkeep
+|
+|t:|1760386516
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|97/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|5
+|
+|t:|1760386522
+|switch|p1a: Trevenant|Trevenant, F|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Trevenant
+|-immune|p1a: Trevenant
+|
+|upkeep
+|turn|6
+|
+|t:|1760386527
+|move|p2a: Great Tusk|Ice Spinner|p1a: Trevenant
+|-supereffective|p1a: Trevenant
+|-damage|p1a: Trevenant|56/100
+|move|p1a: Trevenant|Leech Seed|p2a: Great Tusk
+|-start|p2a: Great Tusk|move: Leech Seed
+|
+|-damage|p2a: Great Tusk|85/100|[from] Leech Seed|[of] p1a: Trevenant
+|-heal|p1a: Trevenant|73/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1760386542
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-damage|p2a: Pecharunt|88/100|[from] Stealth Rock
+|move|p1a: Trevenant|Curse|p2a: Pecharunt
+|-start|p2a: Pecharunt|Curse|[of] p1a: Trevenant
+|-damage|p1a: Trevenant|23/100
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|48/100|[from] item: Sitrus Berry
+|
+|-heal|p2a: Pecharunt|94/100|[from] item: Leftovers
+|-damage|p2a: Pecharunt|69/100|[from] Curse
+|upkeep
+|turn|8
+|
+|t:|1760386554
+|move|p2a: Pecharunt|Toxic|p1a: Trevenant
+|-status|p1a: Trevenant|tox
+|-start|p1a: Trevenant|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Trevenant|confusion
+|move|p1a: Trevenant|Leech Seed|p2a: Pecharunt
+|-start|p2a: Pecharunt|move: Leech Seed
+|
+|-heal|p2a: Pecharunt|75/100|[from] item: Leftovers
+|-damage|p2a: Pecharunt|63/100|[from] Leech Seed|[of] p1a: Trevenant
+|-heal|p1a: Trevenant|62/100 tox|[silent]
+|-damage|p1a: Trevenant|56/100 tox|[from] psn
+|-damage|p2a: Pecharunt|38/100|[from] Curse
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|9
+|
+|t:|1760386566
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-damage|p2a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|-activate|p1a: Trevenant|confusion
+|move|p1a: Trevenant|Protect||[still]
+|-fail|p1a: Trevenant
+|
+|-damage|p1a: Trevenant|44/100 tox|[from] psn
+|upkeep
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|69/100 tox|[from] item: Sitrus Berry
+|turn|10
+|
+|t:|1760386579
+|switch|p1a: Scrafty|Scrafty, F|100/100
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Scrafty
+|-sidestart|p1: Ozygen|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1760386583
+|move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|def|1
+|move|p2a: Ting-Lu|Spikes|p1a: Scrafty
+|-sidestart|p1: Ozygen|Spikes
+|
+|upkeep
+|turn|12
+|
+|t:|1760386591
+|move|p1a: Scrafty|Ice Punch|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|74/100
+|-damage|p1a: Scrafty|84/100|[from] item: Rocky Helmet|[of] p2a: Ting-Lu
+|move|p2a: Ting-Lu|Earthquake|p1a: Scrafty
+|-damage|p1a: Scrafty|68/100
+|
+|-heal|p1a: Scrafty|74/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760386599
+|move|p1a: Scrafty|Ice Punch|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|56/100
+|-damage|p1a: Scrafty|58/100|[from] item: Rocky Helmet|[of] p2a: Ting-Lu
+|move|p2a: Ting-Lu|Ruination|p1a: Scrafty
+|-damage|p1a: Scrafty|29/100
+|
+|-heal|p1a: Scrafty|35/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1760386610
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|-damage|p1a: Whimsicott|88/100|[from] Stealth Rock
+|-damage|p1a: Whimsicott|76/100|[from] Spikes
+|move|p2a: Ting-Lu|Ruination|p1a: Whimsicott
+|-damage|p1a: Whimsicott|38/100
+|
+|-damage|p1a: Whimsicott|26/100|[from] item: Sticky Barb
+|upkeep
+|turn|15
+|
+|t:|1760386619
+|move|p1a: Whimsicott|Switcheroo|p2a: Ting-Lu
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Ting-Lu
+|move|p2a: Ting-Lu|Earthquake|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|10/100
+|
+|-damage|p1a: Whimsicott|0 fnt|[from] item: Sticky Barb
+|faint|p1a: Whimsicott
+|upkeep
+|-message|Ozygen forfeited.
+|
+|win|splishsplish12
+|raw|Ozygen's rating: 1085 &rarr; <strong>1064</strong><br />(-21 for losing)
+|raw|splishsplish12's rating: 1111 &rarr; <strong>1134</strong><br />(+23 for winning)
+|l|☆Ozygen
+|player|p1|
+|l|☆splishsplish12
+|player|p2|

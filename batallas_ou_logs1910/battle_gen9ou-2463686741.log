@@ -1,0 +1,277 @@
+|j|☆Boasy
+|j|☆UncleQuack
+|t:|1760731397
+|gametype|singles
+|player|p1|Boasy|266|1371
+|player|p2|UncleQuack|harlequin|1403
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meowscarada, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Gholdengo|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Great Tusk|
+|poke|p1|Gastrodon, F|
+|poke|p2|Scovillain, F|
+|poke|p2|Walking Wake|
+|poke|p2|Torkoal, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Iron Moth|
+|poke|p2|Ditto|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by UncleQuack)
+|
+|t:|1760731406
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Wake & Bake|Walking Wake|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Wake & Bake|atk|1
+|turn|1
+|
+|t:|1760731416
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|move|p2a: Wake & Bake|Hydro Steam|p1a: Gastrodon
+|-ability|p1a: Gastrodon|Storm Drain|boost
+|-boost|p1a: Gastrodon|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1760731429
+|-end|p2a: Wake & Bake|Protosynthesis|[silent]
+|switch|p2a: Cigarette Grandpa|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Cigarette Grandpa
+|move|p1a: Gastrodon|Spikes|p2a: Cigarette Grandpa
+|-sidestart|p2: UncleQuack|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760731442
+|switch|p2a: Scovillain|Scovillain, F|100/100
+|-damage|p2a: Scovillain|88/100|[from] Spikes
+|move|p1a: Gastrodon|Earthquake|p2a: Scovillain
+|-damage|p2a: Scovillain|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760731464
+|-terastallize|p1a: Gastrodon|Ghost
+|move|p2a: Scovillain|Solar Beam||[still]
+|-prepare|p2a: Scovillain|Solar Beam
+|-anim|p2a: Scovillain|Solar Beam|p1a: Gastrodon
+|-damage|p1a: Gastrodon|29/100
+|-damage|p2a: Scovillain|29/100|[from] item: Life Orb
+|move|p1a: Gastrodon|Earthquake|p2a: Scovillain
+|-damage|p2a: Scovillain|0 fnt
+|faint|p2a: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gastrodon|35/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760731484
+|switch|p2a: Wake & Bake|Walking Wake|100/100
+|-damage|p2a: Wake & Bake|88/100|[from] Spikes
+|-activate|p2a: Wake & Bake|ability: Protosynthesis
+|-start|p2a: Wake & Bake|protosynthesisspe
+|turn|5
+|
+|t:|1760731496
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Wake & Bake|Flamethrower|p1a: Great Tusk
+|-damage|p1a: Great Tusk|12/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760731508
+|move|p2a: Wake & Bake|Flamethrower|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760731519
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|7
+|
+|t:|1760731527
+|move|p2a: Wake & Bake|Flamethrower|p1a: Zamazenta
+|-damage|p1a: Zamazenta|40/100
+|-status|p1a: Zamazenta|brn
+|move|p1a: Zamazenta|Play Rough|p2a: Wake & Bake
+|-supereffective|p2a: Wake & Bake
+|-damage|p2a: Wake & Bake|44/100
+|-damage|p1a: Zamazenta|30/100 brn|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Zamazenta|24/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1760731537
+|move|p2a: Wake & Bake|Flamethrower|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760731541
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Wake & Bake|atk|1
+|turn|9
+|
+|t:|1760731552
+|move|p2a: Wake & Bake|Flamethrower|p1a: Landorus
+|-damage|p1a: Landorus|21/100
+|move|p1a: Landorus|Earth Power|p2a: Wake & Bake
+|-damage|p2a: Wake & Bake|5/100
+|
+|-weather|none
+|-end|p2a: Wake & Bake|Protosynthesis
+|upkeep
+|turn|10
+|
+|t:|1760731564
+|move|p2a: Wake & Bake|Flamethrower|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1760731572
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|11
+|
+|t:|1760731578
+|move|p1a: Gholdengo|Shadow Ball|p2a: Wake & Bake
+|-damage|p2a: Wake & Bake|0 fnt
+|faint|p2a: Wake & Bake
+|-end|p2a: Wake & Bake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760731583
+|switch|p2a: Cigarette Grandpa|Torkoal, M|100/100
+|-damage|p2a: Cigarette Grandpa|88/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Cigarette Grandpa
+|turn|12
+|
+|t:|1760731587
+|switch|p1a: Gastrodon|Gastrodon, F, tera:Ghost|35/100
+|move|p2a: Cigarette Grandpa|Lava Plume|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760731593
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|13
+|
+|t:|1760731598
+|move|p1a: Gholdengo|Shadow Ball|p2a: Cigarette Grandpa
+|-damage|p2a: Cigarette Grandpa|36/100
+|-unboost|p2a: Cigarette Grandpa|spd|1
+|move|p2a: Cigarette Grandpa|Lava Plume|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|19/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1760731603
+|move|p1a: Gholdengo|Shadow Ball|p2a: Cigarette Grandpa
+|-damage|p2a: Cigarette Grandpa|0 fnt
+|faint|p2a: Cigarette Grandpa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760731608
+|switch|p2a: Johnny Storm|Ceruledge, M|100/100
+|-damage|p2a: Johnny Storm|88/100|[from] Spikes
+|turn|15
+|
+|t:|1760731609
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|move|p2a: Johnny Storm|Shadow Sneak|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|84/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1760731617
+|-terastallize|p2a: Johnny Storm|Grass
+|move|p1a: Meowscarada|Knock Off|p2a: Johnny Storm
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Johnny Storm|0 fnt
+|-enditem|p2a: Johnny Storm|Weakness Policy|[from] move: Knock Off|[of] p1a: Meowscarada
+|faint|p2a: Johnny Storm
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760731627
+|switch|p2a: Igris|Iron Moth|100/100
+|-damage|p2a: Igris|88/100|[from] Spikes
+|-enditem|p2a: Igris|Booster Energy
+|-activate|p2a: Igris|ability: Quark Drive|[fromitem]
+|-start|p2a: Igris|quarkdrivespe
+|turn|17
+|
+|t:|1760731633
+|move|p2a: Igris|Fiery Dance|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760731635
+|switch|p1a: Gholdengo|Gholdengo|19/100
+|turn|18
+|
+|t:|1760731638
+|move|p2a: Igris|Fiery Dance|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|win|UncleQuack
+|raw|Boasy's rating: 1371 &rarr; <strong>1353</strong><br />(-18 for losing)
+|raw|UncleQuack's rating: 1403 &rarr; <strong>1421</strong><br />(+18 for winning)
+|l|☆Boasy
+|player|p1|
+|l|☆UncleQuack
+|player|p2|

@@ -1,0 +1,233 @@
+|j|☆UltraAero
+|j|‽wwesucks
+|t:|1757918326
+|gametype|singles
+|player|p1|UltraAero|dawn-gen4pt|1291
+|player|p2|wwesucks|miku-ice|1325
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Raichu-Alola, M|
+|poke|p1|Vaporeon, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Gliscor, F|
+|poke|p1|Gogoat, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Great Tusk|
+|poke|p2|Ceruledge, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Hatterene, F|
+|poke|p2|Kyurem|
+|teampreview
+|
+|t:|1757918330
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wwesucks)
+|
+|t:|1757918340
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Cinderace|Iron Head|p2a: Hatterene
+|-start|p1a: Cinderace|typechange|Steel|[from] ability: Libero
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|26/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1757918355
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1757918365
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1757918370
+|move|p2a: Ceruledge|Poltergeist|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Poltergeist|Leftovers
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|upkeep
+|
+|t:|1757918376
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|4
+|
+|t:|1757918383
+|move|p1a: Iron Valiant|Electric Terrain|p1a: Iron Valiant
+|-fieldstart|move: Electric Terrain
+|move|p2a: Ceruledge|Bitter Blade|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757918388
+|switch|p1a: Raichu|Raichu-Alola, M|100/100
+|turn|5
+|
+|t:|1757918392
+|move|p1a: Raichu|Surf|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-crit|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-damage|p1a: Raichu|91/100|[from] item: Life Orb
+|move|p2a: Ceruledge|Bitter Blade|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|-heal|p2a: Ceruledge|41/100|[from] drain|[of] p1a: Raichu
+|faint|p1a: Raichu
+|
+|upkeep
+|
+|t:|1757918402
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|6
+|
+|t:|1757918406
+|move|p1a: Cinderace|Sucker Punch|p2a: Ceruledge
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1757918409
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|7
+|
+|t:|1757918416
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|
+|t:|1757918424
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Great Tusk|Ice Spinner|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+|
+|t:|1757918434
+|-terastallize|p1a: Gliscor|Ghost
+|move|p2a: Great Tusk|Ice Spinner|p1a: Gliscor
+|-damage|p1a: Gliscor|69/100 tox
+|move|p1a: Gliscor|Toxic Spikes|p2a: Great Tusk
+|-sidestart|p2: wwesucks|move: Toxic Spikes
+|
+|-heal|p1a: Gliscor|81/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1757918447
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|-heal|p1a: Gliscor|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1757918460
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Gliscor|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|89/100
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1757918468
+|switch|p1a: Gogoat|Gogoat, F|100/100
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|upkeep
+|turn|13
+|
+|t:|1757918474
+|-terastallize|p2a: Great Tusk|Ice
+|move|p2a: Great Tusk|Ice Spinner|p1a: Gogoat
+|-supereffective|p1a: Gogoat
+|-damage|p1a: Gogoat|0 fnt
+|faint|p1a: Gogoat
+|
+|upkeep
+|
+|t:|1757918480
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|14
+|inactive|wwesucks has 120 seconds left.
+|
+|t:|1757918518
+|move|p2a: Great Tusk|Headlong Rush|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1757918526
+|switch|p1a: Gliscor|Gliscor, F, tera:Ghost|100/100 tox
+|turn|15
+|inactive|wwesucks has 120 seconds left.
+|
+|t:|1757918539
+|move|p2a: Great Tusk|Headlong Rush|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Gliscor
+|
+|win|wwesucks
+|raw|UltraAero's rating: 1291 &rarr; <strong>1268</strong><br />(-23 for losing)
+|raw|wwesucks's rating: 1325 &rarr; <strong>1343</strong><br />(+18 for winning)
+|l|☆UltraAero
+|player|p1|
+|l|‽wwesucks
+|player|p2|

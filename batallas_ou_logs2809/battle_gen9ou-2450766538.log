@@ -1,0 +1,188 @@
+|j|☆jxrx
+|j|☆Loonney
+|t:|1759024086
+|gametype|singles
+|player|p1|jxrx|norman|1485
+|player|p2|Loonney|argenta|1535
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Vileplume, M|
+|poke|p1|Garganacl, F|
+|poke|p1|Scizor, M|
+|poke|p1|Houndoom, F|
+|poke|p1|Grumpig, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Zapdos|
+|poke|p2|Gholdengo|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Loonney)
+|
+|t:|1759024093
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Grumpig|Grumpig, F|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|1
+|
+|t:|1759024102
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: Ogerpon|Knock Off|p1a: Vileplume
+|-damage|p1a: Vileplume|72/100
+|-damage|p2a: Ogerpon|84/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|-enditem|p1a: Vileplume|Rocky Helmet|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|upkeep
+|turn|2
+|
+|t:|1759024110
+|move|p2a: Ogerpon|U-turn|p1a: Vileplume
+|-damage|p1a: Vileplume|50/100
+|
+|t:|1759024113
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Vileplume|Strength Sap|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|upkeep
+|turn|3
+|
+|t:|1759024118
+|switch|p1a: Houndoom|Houndoom, F|100/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Houndoom
+|-resisted|p1a: Houndoom
+|-damage|p1a: Houndoom|75/100
+|
+|upkeep
+|turn|4
+|
+|t:|1759024132
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|84/100
+|move|p1a: Houndoom|Flamethrower|p2a: Ogerpon
+|-damage|p2a: Ogerpon|37/100
+|
+|upkeep
+|turn|5
+|
+|t:|1759024143
+|move|p1a: Houndoom|Sucker Punch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|8/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Houndoom|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|faint|p1a: Houndoom
+|
+|upkeep
+|
+|t:|1759024151
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|6
+|
+|t:|1759024163
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Slowking
+|-damage|p2a: Slowking|77/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Slowking
+|-damage|p2a: Slowking|51/100
+|
+|upkeep
+|turn|7
+|
+|t:|1759024169
+|-terastallize|p2a: Slowking|Fairy
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Slowking|Thunder Wave||[still]
+|-fail|p2a: Slowking
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1759024176
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Slowking|Future Sight|p1a: Dragapult
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1759024182
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1759024188
+|switch|p2a: Zapdos|Zapdos|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1759024192
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|move|p2a: Zapdos|Discharge|p1a: Dragapult|[miss]|[miss]
+|-miss|p2a: Zapdos|p1a: Dragapult
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Dragapult|move: Future Sight
+|-miss|p2: Slowking|p1a: Dragapult
+|-heal|p1a: Dragapult|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1759024201
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Dragapult|Phantom Force|p2a: Great Tusk|[from] lockedmove
+|-damage|p2a: Great Tusk|50/100
+|-damage|p1a: Dragapult|83/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Dragapult|89/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1759024205
+|move|p1a: Dragapult|Dragon Darts|p2a: Great Tusk
+|-damage|p2a: Great Tusk|19/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Dragapult|95/100|[from] item: Leftovers
+|upkeep
+|-message|Loonney forfeited.
+|
+|win|jxrx
+|raw|jxrx's rating: 1485 &rarr; <strong>1508</strong><br />(+23 for winning)
+|raw|Loonney's rating: 1535 &rarr; <strong>1512</strong><br />(-23 for losing)
+|l|☆Loonney
+|player|p2|
+|l|☆jxrx
+|player|p1|

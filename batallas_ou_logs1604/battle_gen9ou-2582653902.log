@@ -1,0 +1,298 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆leontief47
+|j|☆brogre35
+|t:|1776105182
+|gametype|singles
+|player|p1|leontief47|clerk|1672
+|player|p2|brogre35|swimmer-gen4dp|1646
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Hawlucha, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Iron Treads|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Kyurem|
+|poke|p2|Ursaluna, F|
+|poke|p2|Farigiraf, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Cresselia, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by brogre35)
+|
+|t:|1776105189
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Pink Triangle|Hatterene, F|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1776105206
+|move|p1a: Iron Treads|Steel Beam|p2a: Pink Triangle
+|-supereffective|p2a: Pink Triangle
+|-enditem|p2a: Pink Triangle|Focus Sash
+|-damage|p2a: Pink Triangle|1/100
+|-damage|p1a: Iron Treads|50/100|[from] steelbeam
+|move|p2a: Pink Triangle|Trick Room|p2a: Pink Triangle
+|-fieldstart|move: Trick Room|[of] p2a: Pink Triangle
+|
+|upkeep
+|turn|2
+|
+|t:|1776105215
+|move|p2a: Pink Triangle|Psychic Noise|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|20/100
+|-start|p1a: Iron Treads|move: Heal Block
+|move|p1a: Iron Treads|Rapid Spin|p2a: Pink Triangle
+|-damage|p2a: Pink Triangle|0 fnt
+|-boost|p1a: Iron Treads|spe|1
+|faint|p2a: Pink Triangle
+|
+|upkeep
+|
+|t:|1776105218
+|switch|p2a: El Scorcho|Ursaluna, F|100/100
+|turn|3
+|
+|t:|1776105222
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: El Scorcho|Fire Punch|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|44/100
+|
+|-heal|p1a: Rillaboom|50/100|[from] Grassy Terrain
+|-status|p2a: El Scorcho|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1776105227
+|switch|p2a: Across The Sea|Farigiraf, M|100/100
+|move|p1a: Rillaboom|Grassy Glide||[still]
+|cant|p2a: Across The Sea|ability: Armor Tail|Grassy Glide|[of] p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|57/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1776105235
+|move|p2a: Across The Sea|Nasty Plot|p2a: Across The Sea
+|-boost|p2a: Across The Sea|spa|2
+|move|p1a: Rillaboom|Knock Off|p2a: Across The Sea
+|-supereffective|p2a: Across The Sea
+|-damage|p2a: Across The Sea|25/100
+|-enditem|p2a: Across The Sea|Leftovers|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-heal|p2a: Across The Sea|31/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|63/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1776105244
+|switch|p2a: The Good Life|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: The Good Life
+|move|p1a: Rillaboom|U-turn|p2a: The Good Life
+|-resisted|p2a: The Good Life
+|-damage|p2a: The Good Life|89/100
+|
+|t:|1776105255
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: The Good Life|95/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1776105260
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: The Good Life|[anim] Ivy Cudgel Rock
+|-supereffective|p2a: The Good Life
+|-damage|p2a: The Good Life|0 fnt
+|faint|p2a: The Good Life
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1776105265
+|switch|p2a: Butterfly|Cresselia, F|100/100
+|turn|8
+|
+|t:|1776105277
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Butterfly|Ice Beam|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|63/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ogerpon|69/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1776105280
+|move|p1a: Ogerpon|Power Whip|p2a: Butterfly
+|-damage|p2a: Butterfly|6/100
+|move|p2a: Butterfly|Trick Room|p2a: Butterfly
+|-fieldstart|move: Trick Room|[of] p2a: Butterfly
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ogerpon|75/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1776105287
+|move|p2a: Butterfly|Lunar Dance|p2a: Butterfly
+|faint|p2a: Butterfly
+|move|p1a: Ogerpon|Ivy Cudgel|p2: Butterfly|[notarget]
+|-fail|p1a: Ogerpon
+|
+|-weather|none
+|-heal|p1a: Ogerpon|81/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1776105289
+|switch|p2a: Across The Sea|Farigiraf, M|31/100
+|-heal|p2a: Across The Sea|100/100|[from] move: Lunar Dance
+|turn|11
+|
+|t:|1776105292
+|-terastallize|p2a: Across The Sea|Fighting
+|move|p2a: Across The Sea|Tera Blast|p1a: Ogerpon|[anim] Tera Blast Fighting
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1776105305
+|switch|p1a: Iron Treads|Iron Treads|20/100
+|turn|12
+|
+|t:|1776105309
+|move|p2a: Across The Sea|Nasty Plot|p2a: Across The Sea
+|-boost|p2a: Across The Sea|spa|2
+|move|p1a: Iron Treads|Stealth Rock|p2a: Across The Sea
+|-sidestart|p2: brogre35|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|j| gfitzy
+|
+|t:|1776105312
+|move|p2a: Across The Sea|Tera Blast|p1a: Iron Treads|[anim] Tera Blast Fighting
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1776105317
+|switch|p1a: Rillaboom|Rillaboom, F|63/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|14
+|
+|t:|1776105319
+|move|p1a: Rillaboom|Wood Hammer|p2a: Across The Sea
+|-damage|p2a: Across The Sea|15/100
+|-damage|p1a: Rillaboom|35/100|[from] Recoil
+|move|p2a: Across The Sea|Trick Room|p2a: Across The Sea
+|-fieldstart|move: Trick Room|[of] p2a: Across The Sea
+|
+|-heal|p2a: Across The Sea|21/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|41/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1776105324
+|move|p2a: Across The Sea|Shadow Ball|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Across The Sea|27/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1776105329
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Grassy Seed
+|-boost|p1a: Raging Bolt|def|1|[from] item: Grassy Seed
+|turn|16
+|
+|t:|1776105333
+|move|p2a: Across The Sea|Tera Blast|p1a: Raging Bolt|[anim] Tera Blast Fighting
+|-damage|p1a: Raging Bolt|27/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Across The Sea
+|-damage|p2a: Across The Sea|0 fnt
+|faint|p2a: Across The Sea
+|
+|-heal|p1a: Raging Bolt|34/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1776105337
+|switch|p2a: El Scorcho|Ursaluna, F|100/100 brn
+|-damage|p2a: El Scorcho|94/100 brn|[from] Stealth Rock
+|turn|17
+|
+|t:|1776105341
+|move|p2a: El Scorcho|Facade|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-heal|p2a: El Scorcho|100/100 brn|[from] Grassy Terrain
+|-damage|p2a: El Scorcho|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1776105344
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|18
+|
+|t:|1776105347
+|move|p2a: El Scorcho|Facade|p1a: Zamazenta
+|-damage|p1a: Zamazenta|19/100
+|move|p1a: Zamazenta|Close Combat|p2a: El Scorcho
+|-supereffective|p2a: El Scorcho
+|-damage|p2a: El Scorcho|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|faint|p2a: El Scorcho
+|-damage|p1a: Zamazenta|9/100|[from] item: Life Orb
+|
+|-heal|p1a: Zamazenta|15/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1776105351
+|switch|p2a: Getchoo|Kyurem|100/100
+|-damage|p2a: Getchoo|76/100|[from] Stealth Rock
+|-ability|p2a: Getchoo|Pressure
+|turn|19
+|-message|brogre35 forfeited.
+|
+|win|leontief47
+|raw|leontief47's rating: 1672 &rarr; <strong>1691</strong><br />(+19 for winning)
+|raw|brogre35's rating: 1646 &rarr; <strong>1627</strong><br />(-19 for losing)
+|l|☆brogre35
+|player|p2|

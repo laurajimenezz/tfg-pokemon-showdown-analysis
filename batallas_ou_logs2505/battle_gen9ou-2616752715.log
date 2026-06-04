@@ -1,0 +1,170 @@
+|j|☆foenembruzz
+|j|☆immaterial-light
+|t:|1779598980
+|gametype|singles
+|player|p1|foenembruzz|101|1375
+|player|p2|immaterial-light|170|1355
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Latios, M|
+|poke|p1|Politoed, F|
+|poke|p1|Zapdos|
+|poke|p1|Bronzong|
+|poke|p1|Gyarados, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Iron Hands|
+|poke|p2|Ursaluna, M|
+|poke|p2|Vikavolt, F|
+|poke|p2|Porygon2|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by foenembruzz)
+|
+|t:|1779599003
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Vikavolt|Vikavolt, F|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|1
+|
+|t:|1779599011
+|-terastallize|p2a: Vikavolt|Electric
+|move|p1a: Zapdos|U-turn|p2a: Vikavolt
+|-damage|p2a: Vikavolt|87/100
+|
+|t:|1779599018
+|switch|p1a: Latios|Latios, M, shiny|100/100|[from] U-turn
+|move|p2a: Vikavolt|Thunderbolt|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|44/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779599031
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|move|p1a: Latios|Flip Turn|p2a: Porygon2
+|-damage|p2a: Porygon2|94/100
+|
+|t:|1779599041
+|switch|p1a: Politoed|Politoed, F|100/100|[from] Flip Turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779599050
+|move|p1a: Politoed|Focus Blast|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|50/100
+|-unboost|p2a: Porygon2|spd|1
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|immaterial-light has 120 seconds left.
+|
+|t:|1779599087
+|switch|p2a: Vikavolt|Vikavolt, F, tera:Electric|87/100
+|move|p1a: Politoed|Hydro Pump|p2a: Vikavolt
+|-damage|p2a: Vikavolt|4/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|inactive|immaterial-light has 120 seconds left.
+|
+|t:|1779599097
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Vikavolt|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779599117
+|switch|p1a: Bronzong|Bronzong, shiny|100/100
+|turn|6
+|inactive|immaterial-light has 120 seconds left.
+|
+|t:|1779599129
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Bronzong|Flash Cannon|p2a: Cresselia
+|-damage|p2a: Cresselia|84/100
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1779599134
+|move|p1a: Bronzong|Rain Dance|p1a: Bronzong
+|-weather|RainDance
+|move|p2a: Cresselia|Ice Beam|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|94/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1779599143
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1779599149
+|move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
+|faint|p2a: Cresselia
+|move|p1a: Ogerpon|Knock Off|p2: Cresselia|[notarget]
+|-fail|p1a: Ogerpon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779599152
+|switch|p2a: Vikavolt|Vikavolt, F, tera:Electric|4/100
+|-heal|p2a: Vikavolt|100/100|[from] move: Lunar Dance
+|turn|10
+|
+|t:|1779599159
+|switch|p1a: Bronzong|Bronzong, shiny|94/100
+|move|p2a: Vikavolt|Thunderbolt|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|foenembruzz forfeited.
+|
+|win|immaterial-light
+|raw|foenembruzz's rating: 1375 &rarr; <strong>1354</strong><br />(-21 for losing)
+|raw|immaterial-light's rating: 1355 &rarr; <strong>1376</strong><br />(+21 for winning)
+|l|☆foenembruzz
+|player|p1|
+|l|☆immaterial-light
+|player|p2|

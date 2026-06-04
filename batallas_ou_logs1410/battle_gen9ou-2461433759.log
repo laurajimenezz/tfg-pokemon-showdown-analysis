@@ -1,0 +1,348 @@
+|j|☆marching_cubes
+|j|☆lulu2025008
+|t:|1760445175
+|gametype|singles
+|player|p1|marching_cubes|1|1494
+|player|p2|lulu2025008|fisherman-gen4|1402
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Wo-Chien|
+|poke|p1|Gholdengo|
+|poke|p1|Garchomp, F|
+|poke|p1|Iron Treads|
+|poke|p1|Dragapult, F|
+|poke|p1|Scizor, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Polteageist|
+|poke|p2|Hawlucha, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lulu2025008)
+|
+|t:|1760445184
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Scizor|Scizor, F|100/100
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1760445195
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Scizor|Knock Off|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|32/100
+|-enditem|p2a: Hatterene|Eject Button|[from] move: Knock Off|[of] p1a: Scizor
+|
+|upkeep
+|turn|2
+|
+|t:|1760445203
+|move|p1a: Scizor|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|4/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1760445214
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-item|p1a: Iron Treads|Air Balloon
+|turn|3
+|
+|t:|1760445219
+|move|p1a: Iron Treads|Rapid Spin|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-boost|p1a: Iron Treads|spe|1
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1760445230
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|4
+|
+|t:|1760445253
+|move|p1a: Iron Treads|Knock Off|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|5
+|
+|t:|1760445267
+|-terastallize|p2a: Polteageist|Fighting
+|move|p2a: Polteageist|Tera Blast|p1a: Iron Treads|[anim] Tera Blast Fighting
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-enditem|p1a: Iron Treads|Air Balloon
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760445279
+|switch|p1a: Wo-Chien|Wo-Chien|100/100
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|turn|6
+|
+|t:|1760445286
+|-terastallize|p1a: Wo-Chien|Poison
+|move|p2a: Polteageist|Tera Blast|p1a: Wo-Chien|[anim] Tera Blast Fighting
+|-resisted|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|68/100
+|move|p1a: Wo-Chien|Knock Off|p2a: Polteageist
+|-resisted|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|-heal|p1a: Wo-Chien|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760445299
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p2a: Hawlucha|Psychic Seed
+|-boost|p2a: Hawlucha|spd|1|[from] item: Psychic Seed
+|turn|7
+|
+|t:|1760445306
+|move|p2a: Hawlucha|Encore|p1a: Wo-Chien
+|-start|p1a: Wo-Chien|Encore
+|move|p1a: Wo-Chien|Knock Off|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-damage|p2a: Hawlucha|85/100
+|
+|-heal|p1a: Wo-Chien|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760445315
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Hawlucha|Bulk Up|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|1
+|-boost|p2a: Hawlucha|def|1
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1760445324
+|move|p2a: Hawlucha|Acrobatics|p1a: Garchomp
+|-damage|p1a: Garchomp|55/100
+|-damage|p2a: Hawlucha|73/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Hawlucha|56/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|move|p1a: Garchomp|Stealth Rock|p2a: Hawlucha
+|-sidestart|p2: lulu2025008|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1760445334
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Hawlucha|Bulk Up|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|1
+|-boost|p2a: Hawlucha|def|1
+|
+|upkeep
+|turn|11
+|
+|t:|1760445345
+|move|p2a: Hawlucha|Acrobatics|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|66/100
+|move|p1a: Gholdengo|Thunder Wave|p2a: Hawlucha
+|-status|p2a: Hawlucha|par
+|
+|upkeep
+|turn|12
+|
+|t:|1760445354
+|move|p2a: Hawlucha|Acrobatics|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|30/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Hawlucha
+|-damage|p2a: Hawlucha|26/100 par
+|
+|upkeep
+|turn|13
+|
+|t:|1760445361
+|switch|p1a: Garchomp|Garchomp, F|55/100
+|move|p2a: Hawlucha|Acrobatics|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Hawlucha|13/100 par|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Hawlucha|0 fnt|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|t:|1760445374
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1760445384
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Conkeldurr
+|-status|p2a: Conkeldurr|brn
+|move|p2a: Conkeldurr|Fire Punch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|78/100
+|
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1760445393
+|move|p1a: Dragapult|Hex|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|47/100 brn
+|-enditem|p2a: Conkeldurr|Red Card|[of] p1a: Dragapult
+|drag|p1a: Wo-Chien|Wo-Chien, tera:Poison|81/100
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|move|p2a: Conkeldurr|Fire Punch|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|63/100
+|
+|-heal|p1a: Wo-Chien|69/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|41/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1760445407
+|move|p1a: Wo-Chien|Leech Seed|p2a: Conkeldurr
+|-start|p2a: Conkeldurr|move: Leech Seed
+|move|p2a: Conkeldurr|Defog|p1a: Wo-Chien
+|-unboost|p1a: Wo-Chien|evasion|1
+|-sideend|p2: lulu2025008|Stealth Rock|[from] move: Defog|[of] p2a: Conkeldurr
+|
+|-heal|p1a: Wo-Chien|75/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|29/100 brn|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|89/100|[silent]
+|-damage|p2a: Conkeldurr|23/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1760445418
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Wo-Chien|Substitute|p1a: Wo-Chien
+|-start|p1a: Wo-Chien|Substitute
+|-damage|p1a: Wo-Chien|64/100
+|
+|-heal|p1a: Wo-Chien|70/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1760445431
+|move|p2a: Indeedee|Encore|p1a: Wo-Chien
+|-start|p1a: Wo-Chien|Encore
+|move|p1a: Wo-Chien|Substitute|p1a: Wo-Chien
+|-fail|p1a: Wo-Chien|move: Substitute
+|
+|-heal|p1a: Wo-Chien|76/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1760445442
+|switch|p1a: Gholdengo|Gholdengo|30/100
+|move|p2a: Indeedee|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1760445444
+|switch|p1a: Wo-Chien|Wo-Chien, tera:Poison|76/100
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|turn|20
+|
+|t:|1760445454
+|move|p2a: Indeedee|Expanding Force|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-crit|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|0 fnt
+|faint|p1a: Wo-Chien
+|
+|upkeep
+|
+|t:|1760445456
+|switch|p1a: Dragapult|Dragapult, F|78/100
+|turn|21
+|
+|t:|1760445462
+|move|p1a: Dragapult|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|19/100
+|move|p2a: Indeedee|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|4/100
+|
+|upkeep
+|turn|22
+|
+|t:|1760445474
+|move|p1a: Dragapult|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1760445480
+|switch|p2a: Conkeldurr|Conkeldurr, M|23/100 brn
+|turn|23
+|
+|t:|1760445486
+|move|p1a: Dragapult|Hex|p2a: Conkeldurr
+|-crit|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|t:|1760445491
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|24
+|
+|t:|1760445495
+|move|p1a: Dragapult|U-turn|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|63/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Dragapult|[anim] Ivy Cudgel Water
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|lulu2025008
+|raw|marching_cubes's rating: 1494 &rarr; <strong>1469</strong><br />(-25 for losing)
+|raw|lulu2025008's rating: 1402 &rarr; <strong>1427</strong><br />(+25 for winning)
+|l|☆marching_cubes
+|player|p1|
+|l|☆lulu2025008
+|player|p2|

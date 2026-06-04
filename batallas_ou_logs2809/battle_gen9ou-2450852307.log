@@ -1,0 +1,329 @@
+|j|☆Kidhub
+|j|☆yosho2.0
+|t:|1759037014
+|gametype|singles
+|player|p1|Kidhub|101|1377
+|player|p2|yosho2.0|dawn|1404
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Pecharunt|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Latios, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Iron Hands|
+|poke|p2|Indeedee, M|
+|teampreview
+|c|☆yosho2.0|Cheese time
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yosho2.0)
+|
+|t:|1759037053
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1759037069
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Hands|atk|1
+|move|p2a: Iron Hands|Close Combat|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|74/100
+|-unboost|p2a: Iron Hands|def|1
+|-unboost|p2a: Iron Hands|spd|1
+|-damage|p2a: Iron Hands|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|upkeep
+|turn|2
+|
+|t:|1759037080
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Landorus|Earthquake|p2a: Ursaluna
+|-damage|p2a: Ursaluna|65/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1759037088
+|move|p1a: Landorus|U-turn|p2a: Ursaluna
+|-damage|p2a: Ursaluna|50/100 brn
+|
+|t:|1759037090
+|switch|p1a: Pecharunt|Pecharunt|100/100|[from] U-turn
+|move|p2a: Ursaluna|Ice Punch|p1a: Pecharunt
+|-damage|p1a: Pecharunt|78/100
+|
+|-damage|p2a: Ursaluna|43/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1759037099
+|switch|p2a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Pecharunt|Parting Shot|p2a: Indeedee
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2a: Indeedee|spa|1
+|
+|t:|1759037122
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|5
+|
+|t:|1759037129
+|move|p1a: Ogerpon|Power Whip|p2a: Indeedee
+|-damage|p2a: Indeedee|17/100
+|move|p2a: Indeedee|Expanding Force|p1a: Ogerpon
+|-damage|p1a: Ogerpon|55/100
+|
+|upkeep
+|turn|6
+|
+|t:|1759037143
+|switch|p2a: Iron Hands|Iron Hands|84/100
+|move|p1a: Ogerpon|Knock Off|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|75/100
+|
+|upkeep
+|turn|7
+|
+|t:|1759037154
+|switch|p1a: Pecharunt|Pecharunt|78/100
+|move|p2a: Iron Hands|Ice Punch|p1a: Pecharunt
+|-damage|p1a: Pecharunt|62/100
+|
+|upkeep
+|turn|8
+|
+|t:|1759037164
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-enditem|p2a: Hoopa|Psychic Seed
+|-boost|p2a: Hoopa|spd|1|[from] item: Psychic Seed
+|move|p1a: Pecharunt|Parting Shot|p2a: Hoopa
+|-unboost|p2a: Hoopa|atk|1
+|-unboost|p2a: Hoopa|spa|1
+|
+|t:|1759037175
+|switch|p1a: Landorus|Landorus-Therian, M|74/100|[from] Parting Shot
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Hoopa|atk|1
+|
+|upkeep
+|turn|9
+|
+|t:|1759037181
+|move|p1a: Landorus|U-turn|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|8/100
+|
+|t:|1759037188
+|switch|p1a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|move|p2a: Hoopa|Trick Room|p2a: Hoopa
+|-fieldstart|move: Trick Room|[of] p2a: Hoopa
+|
+|upkeep
+|turn|10
+|
+|t:|1759037195
+|move|p2a: Hoopa|Focus Blast|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|-item|p2a: Hoopa|Leftovers|[from] ability: Magician|[of] p1: Kingambit
+|
+|-heal|p2a: Hoopa|14/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1759037208
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|11
+|
+|t:|1759037214
+|move|p1a: Hatterene|Draining Kiss|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1759037224
+|switch|p2a: Ursaluna|Ursaluna, F|43/100 brn
+|turn|12
+|
+|t:|1759037232
+|switch|p1a: Landorus|Landorus-Therian, M|74/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|move|p2a: Ursaluna|Facade|p1a: Landorus
+|-damage|p1a: Landorus|6/100
+|-damage|p2a: Ursaluna|27/100 brn|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|-damage|p2a: Ursaluna|21/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1759037243
+|move|p2a: Ursaluna|Ice Punch|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Ursaluna|4/100 brn|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|-damage|p2a: Ursaluna|0 fnt|[from] brn
+|faint|p2a: Ursaluna
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1759037254
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Indeedee|Indeedee, M, shiny|17/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|14
+|
+|t:|1759037261
+|move|p1a: Latios|Luster Purge|p2a: Indeedee
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1759037272
+|switch|p2a: Mimikyu|Mimikyu, M, shiny|100/100
+|turn|15
+|
+|t:|1759037275
+|move|p1a: Latios|Luster Purge|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M, shiny
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Mimikyu|Red Card|[of] p1a: Latios
+|drag|p1a: Pecharunt|Pecharunt|62/100
+|move|p2a: Mimikyu|Trick Room|p2a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p2a: Mimikyu
+|
+|upkeep
+|turn|16
+|
+|t:|1759037291
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100
+|-terastallize|p1a: Pecharunt|Fairy
+|move|p1a: Pecharunt|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|46/100
+|
+|upkeep
+|turn|17
+|
+|t:|1759037300
+|-terastallize|p2a: Hatterene|Stellar
+|move|p2a: Hatterene|Expanding Force|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|-damage|p2a: Hatterene|36/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1759037309
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|18
+|
+|t:|1759037320
+|move|p2a: Hatterene|Expanding Force|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|63/100
+|-damage|p2a: Hatterene|26/100|[from] item: Life Orb
+|move|p1a: Hatterene|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-heal|p1a: Hatterene|82/100|[from] drain|[of] p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1759037323
+|switch|p2a: Iron Hands|Iron Hands|75/100
+|turn|19
+|
+|t:|1759037331
+|move|p1a: Hatterene|Draining Kiss|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|32/100
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Iron Hands
+|move|p2a: Iron Hands|Heavy Slam|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1759037341
+|switch|p1a: Latios|Latios, M|100/100
+|turn|20
+|
+|t:|1759037344
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Mimikyu|Mimikyu-Busted, M, shiny|88/100
+|move|p1a: Latios|Luster Purge|p2a: Mimikyu
+|-damage|p2a: Mimikyu|33/100
+|
+|upkeep
+|turn|21
+|
+|t:|1759037350
+|move|p1a: Latios|Luster Purge|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1759037352
+|switch|p2a: Iron Hands|Iron Hands|32/100
+|turn|22
+|
+|t:|1759037358
+|move|p1a: Latios|Luster Purge|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|win|Kidhub
+|raw|Kidhub's rating: 1377 &rarr; <strong>1399</strong><br />(+22 for winning)
+|raw|yosho2.0's rating: 1404 &rarr; <strong>1382</strong><br />(-22 for losing)
+|c|☆yosho2.0|Gg
+|l|☆yosho2.0
+|player|p2|
+|c|☆Kidhub|Gg
+|l|☆Kidhub
+|player|p1|

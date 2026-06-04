@@ -1,0 +1,180 @@
+|j|☆Crooksinet
+|j|‽klefki_did_it
+|t:|1760721703
+|gametype|singles
+|player|p1|Crooksinet|265|1408
+|player|p2|klefki_did_it|pokemonbreeder-gen4|1419
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Dragonite, F|
+|poke|p1|Great Tusk|
+|poke|p1|Toxapex, F|
+|poke|p1|Blissey, F|
+|poke|p2|Staraptor, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Emboar, M|
+|poke|p2|Thundurus, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Gardevoir, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by klefki_did_it)
+|
+|t:|1760721714
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Staraptor|Staraptor, F|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|t:|1760721720
+|move|p2a: Staraptor|Brave Bird|p1a: Deoxys
+|-damage|p1a: Deoxys|15/100
+|-damage|p2a: Staraptor|82/100|[from] Recoil
+|move|p1a: Deoxys|Ice Beam|p2a: Staraptor
+|-supereffective|p2a: Staraptor
+|-damage|p2a: Staraptor|0 fnt
+|faint|p2a: Staraptor
+|
+|upkeep
+|
+|t:|1760721733
+|switch|p2a: Emboar|Emboar, M, shiny|100/100
+|turn|2
+|
+|t:|1760721744
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100
+|move|p2a: Emboar|Sucker Punch||[still]
+|-fail|p2a: Emboar
+|
+|upkeep
+|turn|3
+|
+|t:|1760721748
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Toxapex|Toxic|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|upkeep
+|turn|4
+|
+|t:|1760721753
+|move|p2a: Kingambit|Substitute|p2a: Kingambit
+|-start|p2a: Kingambit|Substitute
+|-damage|p2a: Kingambit|75/100
+|move|p1a: Toxapex|Chilling Water|p2a: Kingambit
+|-activate|p2a: Kingambit|move: Substitute|[damage]
+|
+|-heal|p2a: Kingambit|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760721760
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Kingambit|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760721767
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760721775
+|move|p1a: Great Tusk|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-end|p2a: Kingambit|Substitute
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Kingambit|Iron Head|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Kingambit|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760721784
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|8
+|
+|t:|1760721793
+|move|p1a: Dragonite|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|45/100
+|move|p2a: Kingambit|Iron Head|p1a: Dragonite
+|-damage|p1a: Dragonite|41/100
+|
+|-heal|p2a: Kingambit|51/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760721800
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|92/100
+|-singleturn|p1a: Dragonite|move: Roost
+|
+|-heal|p2a: Kingambit|58/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760721809
+|move|p2a: Kingambit|Sucker Punch|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Kingambit|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760721814
+|switch|p1a: Blissey|Blissey, F, shiny|100/100
+|turn|11
+|
+|t:|1760721817
+|move|p1a: Blissey|Thunder Wave|p2a: Kingambit|[miss]
+|-miss|p1a: Blissey|p2a: Kingambit
+|move|p2a: Kingambit|Iron Head|p1a: Blissey
+|-damage|p1a: Blissey|15/100
+|
+|-heal|p1a: Blissey|21/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|70/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|-message|Crooksinet forfeited.
+|
+|win|klefki_did_it
+|raw|Crooksinet's rating: 1408 &rarr; <strong>1389</strong><br />(-19 for losing)
+|raw|klefki_did_it's rating: 1419 &rarr; <strong>1438</strong><br />(+19 for winning)
+|l|☆Crooksinet
+|player|p1|
+|l|‽klefki_did_it
+|player|p2|

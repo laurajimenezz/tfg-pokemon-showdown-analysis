@@ -1,0 +1,318 @@
+|j|☆Moistham
+|j|☆imgodslayer
+|t:|1757863439
+|gametype|singles
+|player|p1|Moistham|102|1510
+|player|p2|imgodslayer|benga|1495
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blaziken, F|
+|poke|p1|Salamence, F|
+|poke|p1|Ambipom, F|
+|poke|p1|Houndstone, M|
+|poke|p1|Iron Hands|
+|poke|p1|Scizor, F|
+|poke|p2|Araquanid, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Great Tusk|
+|poke|p2|Poliwrath, F|
+|poke|p2|Goodra-Hisui, F|
+|teampreview
+|
+|t:|1757863470
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Salamence|Salamence, F|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1757863473
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Pelipper|U-turn|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|96/100
+|
+|t:|1757863477
+|switch|p2a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757863481
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p1a: Salamence|Earthquake|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|55/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757863486
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|3
+|
+|t:|1757863489
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by imgodslayer)
+|
+|t:|1757863493
+|move|p1a: Scizor|Bullet Punch|p2a: Great Tusk
+|-damage|p2a: Great Tusk|61/100
+|-damage|p1a: Scizor|84/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|move|p2a: Great Tusk|Roar|p1a: Scizor
+|drag|p1a: Blaziken|Blaziken, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757863505
+|switch|p1a: Houndstone|Houndstone, M|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Houndstone
+|-damage|p1a: Houndstone|67/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Houndstone|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1757863511
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|move|p1a: Houndstone|Poltergeist|p2a: Araquanid
+|-activate|p2a: Araquanid|move: Poltergeist|Choice Band
+|-damage|p2a: Araquanid|47/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Houndstone|79/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1757863513
+|move|p1a: Houndstone|Poltergeist|p2a: Araquanid
+|-activate|p2a: Araquanid|move: Poltergeist|Choice Band
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Houndstone|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757863521
+|switch|p2a: Great Tusk|Great Tusk|61/100
+|turn|8
+|
+|t:|1757863524
+|move|p2a: Great Tusk|Stealth Rock|p1a: Houndstone
+|-sidestart|p1: Moistham|move: Stealth Rock
+|move|p1a: Houndstone|Will-O-Wisp|p2a: Great Tusk
+|-status|p2a: Great Tusk|brn
+|
+|-weather|none
+|-heal|p1a: Houndstone|91/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|54/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1757863530
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Houndstone|Poltergeist|p2a: Pelipper
+|-activate|p2a: Pelipper|move: Poltergeist|Damp Rock
+|-damage|p2a: Pelipper|44/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Houndstone|97/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1757863534
+|switch|p2a: Great Tusk|Great Tusk|54/100 brn
+|move|p1a: Houndstone|Poltergeist|p2a: Great Tusk
+|-activate|p2a: Great Tusk|move: Poltergeist|Rocky Helmet
+|-damage|p2a: Great Tusk|26/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Houndstone|100/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|20/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1757863547
+|move|p2a: Great Tusk|Headlong Rush|p1a: Houndstone
+|-damage|p1a: Houndstone|86/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Houndstone|Poltergeist|p2a: Great Tusk
+|-activate|p2a: Great Tusk|move: Poltergeist|Rocky Helmet
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Houndstone|92/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757863550
+|switch|p2a: Raging Bolt|Raging Bolt, tera:Fairy|55/100
+|turn|12
+|
+|t:|1757863554
+|move|p2a: Raging Bolt|Thunder|p1a: Houndstone
+|-damage|p1a: Houndstone|24/100
+|move|p1a: Houndstone|Poltergeist||[still]
+|-fail|p1a: Houndstone
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Houndstone|30/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1757863560
+|move|p1a: Houndstone|Shadow Sneak|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|38/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Houndstone
+|-damage|p1a: Houndstone|0 fnt
+|faint|p1a: Houndstone
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757863567
+|switch|p1a: Scizor|Scizor, F|84/100
+|-damage|p1a: Scizor|72/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1757863570
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Poliwrath|Poliwrath, F|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|83/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1757863579
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Goodra
+|-resisted|p2a: Goodra
+|-crit|p2a: Goodra
+|-damage|p2a: Goodra|74/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1757863585
+|move|p1a: Scizor|Bullet Punch|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|52/100
+|move|p2a: Goodra|Thunderbolt|p1a: Scizor
+|-damage|p1a: Scizor|34/100
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|t:|1757863592
+|move|p1a: Scizor|Bullet Punch|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|27/100
+|move|p2a: Goodra|Draco Meteor|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1757863607
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-damage|p1a: Iron Hands|94/100|[from] Stealth Rock
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|18
+|
+|t:|1757863613
+|switch|p2a: Raging Bolt|Raging Bolt, tera:Fairy|38/100
+|move|p1a: Iron Hands|Thunder Punch|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1757863618
+|switch|p2a: Pelipper|Pelipper, M|44/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|19
+|
+|t:|1757863620
+|move|p2a: Pelipper|Hurricane|p1a: Iron Hands
+|-damage|p1a: Iron Hands|52/100
+|move|p1a: Iron Hands|Thunder Punch|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757863625
+|switch|p2a: Poliwrath|Poliwrath, F|83/100
+|turn|20
+|
+|t:|1757863628
+|-terastallize|p1a: Iron Hands|Grass
+|move|p2a: Poliwrath|Earthquake|p1a: Iron Hands
+|-resisted|p1a: Iron Hands
+|-damage|p1a: Iron Hands|43/100
+|move|p1a: Iron Hands|Thunder Punch|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|imgodslayer forfeited.
+|
+|win|Moistham
+|raw|Moistham's rating: 1510 &rarr; <strong>1529</strong><br />(+19 for winning)
+|raw|imgodslayer's rating: 1495 &rarr; <strong>1476</strong><br />(-19 for losing)
+|l|☆imgodslayer
+|player|p2|

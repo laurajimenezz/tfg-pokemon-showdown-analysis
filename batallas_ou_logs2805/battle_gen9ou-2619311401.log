@@ -1,0 +1,297 @@
+|j|☆MemesOnToast
+|j|☆iDreamx
+|t:|1779905730
+|gametype|singles
+|player|p1|MemesOnToast|clown|1314
+|player|p2|iDreamx|aaron|1358
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Moltres-Galar|
+|poke|p1|Comfey, M|
+|poke|p1|Pecharunt|
+|poke|p1|Gumshoos, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Treads|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Great Tusk|
+|poke|p2|Kyurem|
+|poke|p2|Kingambit, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Zapdos|
+|teampreview
+|
+|t:|1779905740
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1779905761
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Gumshoos|Gumshoos, F|100/100
+|move|p2a: Great Tusk|Close Combat|p1a: Gumshoos
+|-supereffective|p1a: Gumshoos
+|-damage|p1a: Gumshoos|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Gumshoos
+|
+|upkeep
+|
+|t:|1779905767
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|turn|2
+|
+|t:|1779905770
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Pecharunt|Toxic|p2a: Slowking
+|-immune|p2a: Slowking
+|
+|upkeep
+|turn|3
+|
+|t:|1779905785
+|move|p1a: Pecharunt|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|67/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1779905789
+|switch|p2a: Kyurem|Kyurem|100/100|[from] Chilly Reception
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779905801
+|move|p2a: Kyurem|Ice Beam|p1a: Pecharunt
+|-damage|p1a: Pecharunt|32/100
+|-status|p1a: Pecharunt|frz
+|cant|p1a: Pecharunt|frz
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Pecharunt|38/100 frz|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1779905812
+|switch|p1a: Comfey|Comfey, M|100/100
+|move|p2a: Kyurem|Ice Beam|p1a: Comfey
+|-damage|p1a: Comfey|33/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779905824
+|switch|p2a: Slowking|Slowking-Galar, M|99/100
+|move|p1a: Comfey|Draining Kiss|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|93/100
+|-heal|p1a: Comfey|41/100|[from] drain|[of] p2a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779905851
+|move|p1a: Comfey|Substitute|p1a: Comfey
+|-start|p1a: Comfey|Substitute
+|-damage|p1a: Comfey|16/100
+|move|p2a: Slowking|Future Sight|p1a: Comfey
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1779905855
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Comfey
+|-supereffective|p1a: Comfey
+|-end|p1a: Comfey|Substitute
+|
+|upkeep
+|turn|9
+|
+|t:|1779905861
+|move|p1a: Comfey|Draining Kiss|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|83/100
+|-heal|p1a: Comfey|29/100|[from] drain|[of] p2a: Slowking
+|move|p2a: Slowking|Sludge Bomb|p1a: Comfey
+|-supereffective|p1a: Comfey
+|-damage|p1a: Comfey|0 fnt
+|faint|p1a: Comfey
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1779905871
+|switch|p1a: Pecharunt|Pecharunt|38/100 frz
+|turn|10
+|
+|t:|1779905875
+|-curestatus|p1a: Pecharunt|frz|[msg]
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|88/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1779905882
+|switch|p2a: Kyurem|Kyurem|100/100|[from] Chilly Reception
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Pecharunt|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1779905907
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Kyurem|Earth Power|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779905927
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|turn|12
+|
+|t:|1779905933
+|switch|p2a: Zapdos|Zapdos, shiny|100/100
+|move|p1a: Moltres|Fiery Wrath|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|33/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1779905939
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|move|p1a: Moltres|Fiery Wrath|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|77/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Kingambit|83/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1779905948
+|move|p1a: Moltres|Hurricane|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|56/100
+|-start|p2a: Kingambit|confusion
+|-activate|p2a: Kingambit|confusion
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|none
+|-heal|p2a: Kingambit|62/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1779905958
+|move|p1a: Moltres|Fiery Wrath|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|41/100
+|-activate|p2a: Kingambit|confusion
+|move|p2a: Kingambit|Iron Head|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|-heal|p2a: Kingambit|47/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779905967
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|16
+|
+|t:|1779905971
+|move|p1a: Raging Bolt|Thunderclap|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|-damage|p1a: Raging Bolt|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779905974
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|17
+|
+|t:|1779905980
+|move|p2a: Great Tusk|Headlong Rush|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-crit|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779905986
+|switch|p1a: Pecharunt|Pecharunt|94/100
+|turn|18
+|
+|t:|1779905989
+|move|p2a: Great Tusk|Headlong Rush|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|32/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Pecharunt|Toxic|p2a: Great Tusk
+|-status|p2a: Great Tusk|tox
+|-start|p2a: Great Tusk|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-heal|p1a: Pecharunt|38/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|94/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1779905992
+|-activate|p2a: Great Tusk|confusion
+|move|p2a: Great Tusk|Headlong Rush|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Pecharunt
+|
+|win|iDreamx
+|raw|MemesOnToast's rating: 1314 &rarr; <strong>1297</strong><br />(-17 for losing)
+|raw|iDreamx's rating: 1358 &rarr; <strong>1375</strong><br />(+17 for winning)
+|l|☆MemesOnToast
+|player|p1|
+|l|☆iDreamx
+|player|p2|

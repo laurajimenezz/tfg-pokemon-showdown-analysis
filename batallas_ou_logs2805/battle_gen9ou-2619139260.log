@@ -1,0 +1,242 @@
+|j|☆Papiobag
+|j|☆BrokenSand
+|t:|1779890822
+|gametype|singles
+|player|p1|Papiobag|lucas|1101
+|player|p2|BrokenSand|102|1137
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Drifblim, M|
+|poke|p1|Crawdaunt, F|
+|poke|p1|Gumshoos, F|
+|poke|p1|Porygon2|
+|poke|p1|Mimikyu, F|
+|poke|p1|Vikavolt, F|
+|poke|p2|Seviper, M|
+|poke|p2|Arbok, M|
+|poke|p2|Serperior, F|
+|poke|p2|Sandaconda, M|
+|poke|p2|Milotic, F|
+|poke|p2|Eelektross, F|
+|teampreview
+|
+|t:|1779890840
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pinocchio|Porygon2, shiny|100/100
+|switch|p2a: Eelektross|Eelektross, F|100/100
+|-ability|p1a: Pinocchio|Download|boost
+|-boost|p1a: Pinocchio|spa|1
+|turn|1
+|
+|t:|1779890853
+|move|p2a: Eelektross|Knock Off|p1a: Pinocchio
+|-damage|p1a: Pinocchio|83/100
+|-enditem|p1a: Pinocchio|Eviolite|[from] move: Knock Off|[of] p2a: Eelektross
+|move|p1a: Pinocchio|Trick Room|p1a: Pinocchio
+|-fieldstart|move: Trick Room|[of] p1a: Pinocchio
+|
+|upkeep
+|turn|2
+|
+|t:|1779890864
+|move|p1a: Pinocchio|Ice Beam|p2a: Eelektross
+|-damage|p2a: Eelektross|69/100
+|move|p2a: Eelektross|Volt Switch|p1a: Pinocchio
+|-damage|p1a: Pinocchio|49/100
+|
+|t:|1779890872
+|switch|p2a: Milotic|Milotic, F|100/100|[from] Volt Switch
+|
+|-status|p2a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1779890878
+|move|p1a: Pinocchio|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|37/100 brn
+|move|p2a: Milotic|Haze|p2a: Milotic
+|-clearallboost
+|
+|-damage|p2a: Milotic|31/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1779890894
+|switch|p1a: Mr.Crabs|Crawdaunt, F|100/100
+|switch|p2a: Eelektross|Eelektross, F|69/100
+|
+|upkeep
+|turn|5
+|
+|t:|1779890903
+|-terastallize|p1a: Mr.Crabs|Water
+|move|p2a: Eelektross|Giga Drain|p1a: Mr.Crabs
+|-supereffective|p1a: Mr.Crabs
+|-damage|p1a: Mr.Crabs|12/100
+|-heal|p2a: Eelektross|100/100|[from] drain|[of] p1a: Mr.Crabs
+|move|p1a: Mr.Crabs|Crabhammer|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|-damage|p1a: Mr.Crabs|2/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1779890913
+|switch|p2a: Serperior|Serperior, F|100/100
+|turn|6
+|
+|t:|1779890922
+|move|p1a: Mr.Crabs|Aqua Jet|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|74/100
+|-damage|p1a: Mr.Crabs|0 fnt|[from] item: Life Orb
+|faint|p1a: Mr.Crabs
+|move|p2a: Serperior|Leaf Storm|p1: Mr.Crabs|[notarget]
+|-fail|p2a: Serperior
+|
+|-heal|p2a: Serperior|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779890933
+|switch|p1a: Bubble|Drifblim, M|100/100
+|turn|7
+|
+|t:|1779890944
+|switch|p2a: Milotic|Milotic, F|31/100 brn
+|move|p1a: Bubble|Trick Room|p1a: Bubble
+|-fieldstart|move: Trick Room|[of] p1a: Bubble
+|
+|-damage|p2a: Milotic|25/100 brn|[from] brn
+|-status|p1a: Bubble|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1779890955
+|move|p1a: Bubble|Shadow Ball|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|-damage|p1a: Bubble|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1779890967
+|switch|p2a: Arbok|Arbok, M|100/100
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Bubble|atk|1
+|turn|9
+|
+|t:|1779890979
+|move|p2a: Arbok|Sucker Punch|p1a: Bubble
+|-supereffective|p1a: Bubble
+|-damage|p1a: Bubble|39/100 brn
+|move|p1a: Bubble|Shadow Ball|p2a: Arbok
+|-damage|p2a: Arbok|18/100
+|-unboost|p2a: Arbok|spd|1
+|
+|-heal|p2a: Arbok|24/100|[from] item: Black Sludge
+|-damage|p1a: Bubble|33/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1779890999
+|switch|p1a: Fake Pikachu|Mimikyu, F|100/100
+|move|p2a: Arbok|Sucker Punch||[still]
+|-fail|p2a: Arbok
+|
+|-heal|p2a: Arbok|30/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1779891010
+|switch|p2a: Seviper|Seviper, M|100/100
+|move|p1a: Fake Pikachu|Shadow Claw|p2a: Seviper
+|-damage|p2a: Seviper|40/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|t:|1779891018
+|move|p2a: Seviper|Dark Pulse|p1a: Fake Pikachu
+|-activate|p1a: Fake Pikachu|ability: Disguise
+|-damage|p1a: Fake Pikachu|100/100
+|detailschange|p1a: Fake Pikachu|Mimikyu-Busted, F
+|-damage|p1a: Fake Pikachu|88/100|[from] pokemon: Mimikyu-Busted
+|cant|p1a: Fake Pikachu|flinch
+|
+|upkeep
+|turn|13
+|
+|t:|1779891026
+|move|p2a: Seviper|Dark Pulse|p1a: Fake Pikachu
+|-damage|p1a: Fake Pikachu|63/100
+|move|p1a: Fake Pikachu|Trick Room|p1a: Fake Pikachu
+|-fieldstart|move: Trick Room|[of] p1a: Fake Pikachu
+|
+|upkeep
+|turn|14
+|
+|t:|1779891032
+|move|p1a: Fake Pikachu|Shadow Claw|p2a: Seviper
+|-damage|p2a: Seviper|0 fnt
+|faint|p2a: Seviper
+|
+|upkeep
+|
+|t:|1779891037
+|switch|p2a: Arbok|Arbok, M|30/100
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Fake Pikachu|atk|1
+|turn|15
+|
+|t:|1779891041
+|move|p2a: Arbok|Sucker Punch|p1a: Fake Pikachu
+|-damage|p1a: Fake Pikachu|35/100
+|move|p1a: Fake Pikachu|Shadow Claw|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|upkeep
+|
+|t:|1779891049
+|switch|p2a: Sandaconda|Sandaconda, M|100/100
+|turn|16
+|
+|t:|1779891059
+|switch|p1a: Toothpaste|Gumshoos, F, shiny|100/100
+|move|p2a: Sandaconda|Stealth Rock|p1a: Toothpaste
+|-sidestart|p1: Papiobag|move: Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|t:|1779891068
+|switch|p2a: Serperior|Serperior, F|80/100
+|move|p1a: Toothpaste|Ice Fang|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|-fieldend|move: Trick Room
+|upkeep
+|-message|BrokenSand forfeited.
+|
+|win|Papiobag
+|raw|Papiobag's rating: 1101 &rarr; <strong>1129</strong><br />(+28 for winning)
+|raw|BrokenSand's rating: 1137 &rarr; <strong>1109</strong><br />(-28 for losing)
+|l|☆BrokenSand
+|player|p2|

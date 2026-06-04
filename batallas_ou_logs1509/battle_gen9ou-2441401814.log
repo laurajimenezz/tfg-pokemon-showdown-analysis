@@ -1,0 +1,334 @@
+|j|☆leo-oz
+|j|☆kinsword
+|t:|1757845917
+|gametype|singles
+|player|p1|leo-oz|red|1310
+|player|p2|kinsword|170|1271
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Deoxys-Speed|
+|poke|p1|Iron Moth|
+|poke|p1|Kingambit, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Great Tusk|
+|poke|p1|Zamazenta-*|
+|poke|p2|Tyranitar, M|
+|poke|p2|Samurott, F|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Excadrill, F|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Overqwil, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kinsword)
+|
+|t:|1757845929
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|t:|1757845937
+|move|p1a: Deoxys|Psycho Boost|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-unboost|p1a: Deoxys|spa|2
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1757845944
+|switch|p2a: Samurott|Samurott, F|100/100
+|turn|2
+|
+|t:|1757845952
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Samurott|Surf|p1a: Zamazenta
+|-damage|p1a: Zamazenta|62/100
+|
+|-heal|p1a: Zamazenta|68/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1757845966
+|move|p1a: Zamazenta|Body Press|p2a: Samurott
+|-damage|p2a: Samurott|52/100
+|move|p2a: Samurott|Surf|p1a: Zamazenta
+|-damage|p1a: Zamazenta|31/100
+|
+|-heal|p1a: Zamazenta|37/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757845974
+|move|p1a: Zamazenta|Body Press|p2a: Samurott
+|-damage|p2a: Samurott|5/100
+|move|p2a: Samurott|Surf|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1757845997
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|5
+|
+|t:|1757846003
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Iron Moth|Fiery Dance|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|83/100
+|-boost|p1a: Iron Moth|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|95/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1757846016
+|move|p1a: Iron Moth|Energy Ball|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|9/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1757846026
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|7
+|
+|t:|1757846036
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|81/100
+|-enditem|p2a: Enamorus|Assault Vest|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1757846049
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Enamorus|Mystical Fire|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|82/100
+|-unboost|p1a: Ting-Lu|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ting-Lu|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1757846060
+|move|p2a: Enamorus|Moonblast|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|18/100
+|-unboost|p1a: Ting-Lu|spa|1
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Enamorus
+|-sidestart|p2: kinsword|move: Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Ting-Lu|24/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1757846071
+|move|p2a: Enamorus|Moonblast|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1757846084
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|11
+|
+|t:|1757846089
+|switch|p2a: Overqwil|Overqwil, F|100/100
+|-damage|p2a: Overqwil|88/100|[from] Stealth Rock
+|-ability|p2a: Overqwil|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|move|p1a: Kingambit|Iron Head|p2a: Overqwil
+|-damage|p2a: Overqwil|50/100
+|
+|-heal|p2a: Overqwil|57/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1757846100
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Overqwil|Liquidation|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|61/100
+|
+|-heal|p2a: Overqwil|63/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1757846110
+|move|p1a: Great Tusk|Rapid Spin|p2a: Overqwil
+|-damage|p2a: Overqwil|46/100
+|-boost|p1a: Great Tusk|spe|1
+|move|p2a: Overqwil|Liquidation|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|18/100
+|-unboost|p1a: Great Tusk|def|1
+|
+|-heal|p2a: Overqwil|52/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1757846124
+|switch|p2a: Tyranitar|Tyranitar, M|9/100
+|-damage|p2a: Tyranitar|0 fnt|[from] Stealth Rock
+|faint|p2a: Tyranitar
+|move|p1a: Great Tusk|Headlong Rush|p2: Tyranitar|[notarget]
+|-fail|p1a: Great Tusk
+|
+|upkeep
+|
+|t:|1757846133
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|15
+|
+|t:|1757846140
+|-terastallize|p2a: Excadrill|Flying
+|move|p1a: Great Tusk|Headlong Rush|p2a: Excadrill
+|-immune|p2a: Excadrill
+|move|p2a: Excadrill|Rapid Spin|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-boost|p2a: Excadrill|spe|1
+|-sideend|p2: kinsword|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1757846151
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|16
+|
+|t:|1757846163
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2a: Excadrill|Earthquake|p1a: Kingambit
+|-damage|p1a: Kingambit|64/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|17
+|
+|t:|1757846173
+|move|p1a: Kingambit|Sucker Punch|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1757846178
+|switch|p2a: Overqwil|Overqwil, F|52/100
+|-ability|p2a: Overqwil|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|turn|18
+|
+|t:|1757846183
+|move|p1a: Kingambit|Sucker Punch|p2a: Overqwil
+|-resisted|p2a: Overqwil
+|-damage|p2a: Overqwil|15/100
+|move|p2a: Overqwil|Crunch|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|1/100
+|
+|-heal|p2a: Overqwil|21/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1757846193
+|move|p1a: Kingambit|Sucker Punch|p2a: Overqwil
+|-resisted|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|upkeep
+|
+|t:|1757846199
+|switch|p2a: Samurott|Samurott, F|5/100
+|turn|20
+|
+|t:|1757846202
+|move|p2a: Samurott|Aqua Jet|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1757846206
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|21
+|
+|t:|1757846233
+|move|p2a: Samurott|Aqua Jet|p1a: Deoxys
+|-damage|p1a: Deoxys|72/100
+|move|p1a: Deoxys|Tera Blast|p2a: Samurott
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1757846242
+|switch|p2a: Enamorus|Enamorus-Therian, F|81/100
+|turn|22
+|
+|t:|1757846245
+|move|p1a: Deoxys|Tera Blast|p2a: Enamorus
+|-damage|p2a: Enamorus|46/100
+|move|p2a: Enamorus|Moonblast|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|win|kinsword
+|raw|leo-oz's rating: 1310 &rarr; <strong>1288</strong><br />(-22 for losing)
+|raw|kinsword's rating: 1271 &rarr; <strong>1299</strong><br />(+28 for winning)
+|l|☆kinsword
+|player|p2|
+|l|☆leo-oz
+|player|p1|

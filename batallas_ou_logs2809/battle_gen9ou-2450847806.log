@@ -1,0 +1,160 @@
+|j|☆The Wonder of UU
+|j|☆Mr.Lamahr
+|t:|1759036204
+|gametype|singles
+|player|p1|The Wonder of UU|steven|1261
+|player|p2|Mr.Lamahr|169|1183
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Treads|
+|poke|p1|Toxicroak, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Zapdos|
+|poke|p2|Zapdos|
+|poke|p2|Rotom-Wash|
+|poke|p2|Pincurchin, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Sandy Shocks|
+|teampreview
+|
+|t:|1759036212
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Pincurchin|Pincurchin, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|t:|1759036222
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-activate|p1a: Iron Treads|ability: Quark Drive
+|-start|p1a: Iron Treads|quarkdrivedef
+|move|p2a: Pincurchin|Spikes|p1a: Iron Treads
+|-sidestart|p1: The Wonder of UU|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1759036236
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Thundurus
+|-sidestart|p2: Mr.Lamahr|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1759036246
+|move|p2a: Thundurus|Grass Knot|p1a: Iron Treads
+|-damage|p1a: Iron Treads|48/100
+|move|p1a: Iron Treads|Rapid Spin|p2a: Thundurus
+|-damage|p2a: Thundurus|82/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: The Wonder of UU|Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|54/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1759036262
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Thundurus|Grass Knot|p1a: Hatterene
+|-damage|p1a: Hatterene|87/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1759036268
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1759036275
+|move|p1a: Barraskewda|Flip Turn|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|t:|1759036285
+|switch|p1a: Zapdos|Zapdos|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759036319
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|6
+|
+|t:|1759036336
+|switch|p1a: Iron Treads|Iron Treads|54/100
+|-activate|p1a: Iron Treads|ability: Quark Drive
+|-start|p1a: Iron Treads|quarkdrivedef
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|60/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1759036344
+|move|p1a: Iron Treads|Earthquake|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|13/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|18/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|24/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1759036354
+|move|p1a: Iron Treads|Earthquake|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|none
+|-heal|p1a: Iron Treads|30/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Treads|Quark Drive
+|upkeep
+|
+|t:|1759036365
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|9
+|-message|Mr.Lamahr forfeited.
+|
+|win|The Wonder of UU
+|raw|The Wonder of UU's rating: 1261 &rarr; <strong>1280</strong><br />(+19 for winning)
+|raw|Mr.Lamahr's rating: 1183 &rarr; <strong>1164</strong><br />(-19 for losing)
+|l|☆Mr.Lamahr
+|player|p2|
+|l|☆The Wonder of UU
+|player|p1|

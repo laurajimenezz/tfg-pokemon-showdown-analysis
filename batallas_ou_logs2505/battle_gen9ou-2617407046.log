@@ -1,0 +1,332 @@
+|j|☆ChocoRune
+|j|☆claudechamp
+|t:|1779683864
+|gametype|singles
+|player|p1|ChocoRune|veteran|1153
+|player|p2|claudechamp|170|1222
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Iron Treads|
+|poke|p1|Comfey, F|
+|poke|p1|Chandelure, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Cinderace, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Ogerpon, F|
+|poke|p2|Walking Wake|
+|poke|p2|Blissey, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Pecharunt|
+|teampreview
+|c|☆claudechamp|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by claudechamp)
+|
+|t:|1779683870
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1779683878
+|move|p1a: Iron Treads|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: claudechamp|move: Stealth Rock
+|move|p2a: Gliscor|Spikes|p1a: Iron Treads
+|-sidestart|p1: ChocoRune|Spikes
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1779683884
+|move|p1a: Iron Treads|Rapid Spin|p2a: Gliscor
+|-damage|p2a: Gliscor|89/100 tox
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: ChocoRune|Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|move|p2a: Gliscor|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|44/100
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1779683894
+|move|p1a: Iron Treads|Ice Spinner|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1779683896
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|4
+|
+|t:|1779683904
+|move|p1a: Iron Treads|Earthquake|p2a: Walking Wake
+|-damage|p2a: Walking Wake|49/100
+|move|p2a: Walking Wake|Surf|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779683911
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|5
+|
+|t:|1779683915
+|move|p1a: Dragapult|Dragon Darts|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|6/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779683918
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|6
+|
+|t:|1779683931
+|-terastallize|p1a: Dragapult|Steel
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Pecharunt
+|-status|p2a: Pecharunt|brn
+|move|p2a: Pecharunt|Malignant Chain|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-damage|p2a: Pecharunt|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1779683940
+|move|p1a: Dragapult|Hex|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1779683943
+|switch|p2a: Blissey|Blissey, F|100/100
+|turn|8
+|
+|t:|1779683951
+|move|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|78/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|55/100
+|move|p2a: Blissey|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: ChocoRune|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1779683958
+|move|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|26/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|4/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|54/100
+|
+|upkeep
+|turn|10
+|
+|t:|1779683967
+|move|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|31/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|9/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|59/100
+|
+|upkeep
+|turn|11
+|
+|t:|1779683975
+|move|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|39/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|19/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|69/100
+|
+|upkeep
+|turn|12
+|
+|t:|1779683983
+|move|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|48/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|25/100
+|move|p2a: Blissey|Seismic Toss|p1a: Dragapult
+|-damage|p1a: Dragapult|69/100
+|
+|upkeep
+|turn|13
+|
+|t:|1779683993
+|move|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|4/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|upkeep
+|
+|t:|1779683996
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|14
+|
+|t:|1779684002
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Corviknight
+|-status|p2a: Corviknight|brn
+|move|p2a: Corviknight|Body Press|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|31/100
+|
+|-damage|p2a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1779684011
+|move|p1a: Dragapult|Hex|p2a: Corviknight
+|-damage|p2a: Corviknight|32/100 brn
+|move|p2a: Corviknight|Body Press|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Corviknight|26/100 brn|[from] brn
+|upkeep
+|
+|t:|1779684021
+|switch|p1a: Chandelure|Chandelure, M, shiny|100/100
+|-damage|p1a: Chandelure|76/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1779684026
+|move|p1a: Chandelure|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1779684034
+|switch|p2a: Ogerpon|Ogerpon, F|100/100
+|turn|17
+|
+|t:|1779684042
+|-terastallize|p2a: Ogerpon|Grass
+|detailschange|p2a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass
+|-ability|p2a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p2a: Ogerpon|spe|1
+|move|p2a: Ogerpon|Knock Off|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-crit|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|-enditem|p1a: Chandelure|Choice Scarf|[from] move: Knock Off|[of] p2a: Ogerpon
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|t:|1779684054
+|switch|p1a: Corviknight|Corviknight, M, shiny|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1779684064
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|78/100
+|move|p1a: Corviknight|Brave Bird|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|7/100
+|-damage|p1a: Corviknight|54/100|[from] Recoil
+|
+|upkeep
+|turn|19
+|
+|t:|1779684073
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|44/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|94/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|20
+|
+|t:|1779684084
+|move|p2a: Ogerpon|Encore|p1a: Corviknight
+|-start|p1a: Corviknight|Encore
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|21
+|
+|t:|1779684093
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|90/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|22
+|
+|t:|1779684101
+|move|p2a: Ogerpon|Encore||[still]
+|-fail|p2a: Ogerpon
+|move|p1a: Corviknight|Roost||[still]
+|-fail|p1a: Corviknight|heal
+|
+|-end|p1a: Corviknight|Encore
+|upkeep
+|turn|23
+|
+|t:|1779684111
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|90/100
+|move|p1a: Corviknight|U-turn|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon, F|[silent]
+|
+|win|ChocoRune
+|raw|ChocoRune's rating: 1153 &rarr; <strong>1183</strong><br />(+30 for winning)
+|raw|claudechamp's rating: 1222 &rarr; <strong>1192</strong><br />(-30 for losing)
+|c|☆claudechamp|gg
+|c|☆ChocoRune|gg

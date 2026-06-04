@@ -1,0 +1,307 @@
+|j|☆AnonymousJon
+|j|☆p$ychopath
+|t:|1779889171
+|gametype|singles
+|player|p1|AnonymousJon|workerice|1633
+|player|p2|p$ychopath|volo-ginkgo|1609
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Sandy Shocks|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Raging Bolt|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Jugulis|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AnonymousJon)
+|inactive|p$ychopath has 120 seconds left.
+|
+|t:|1779889207
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p2a: Sandy Shocks|Booster Energy
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1779889220
+|move|p1a: Rillaboom|Grassy Glide|p2a: Sandy Shocks
+|-supereffective|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779889225
+|switch|p2a: Iron Jugulius|Iron Jugulis|100/100
+|-enditem|p2a: Iron Jugulius|Booster Energy
+|-activate|p2a: Iron Jugulius|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulius|quarkdrivespe
+|turn|2
+|
+|t:|1779889229
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Iron Jugulius|Hydro Pump|p1a: Tyranitar|[miss]
+|-miss|p2a: Iron Jugulius|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Jugulius|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|j| samurajen
+|
+|t:|1779889235
+|move|p2a: Iron Jugulius|Taunt|p1a: Tyranitar
+|-start|p1a: Tyranitar|move: Taunt
+|cant|p1a: Tyranitar|move: Taunt|Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Jugulius|88/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1779889239
+|move|p2a: Iron Jugulius|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|71/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Iron Jugulius
+|-supereffective|p2a: Iron Jugulius
+|-crit|p2a: Iron Jugulius
+|-damage|p2a: Iron Jugulius|0 fnt
+|faint|p2a: Iron Jugulius
+|-end|p2a: Iron Jugulius|Quark Drive|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|77/100|[from] Grassy Terrain
+|-heal|p1a: Tyranitar|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779889246
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|5
+|
+|t:|1779889272
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|94/100|[from] Sandstorm
+|-heal|p2a: Iron Valiant|100/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1779889282
+|move|p2a: Iron Valiant|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|22/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|-damage|p2a: Iron Valiant|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|move|p1a: Corviknight|Brave Bird|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-damage|p1a: Corviknight|2/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|
+|t:|1779889291
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|7
+|
+|t:|1779889296
+|move|p2a: Iron Moth|Substitute|p2a: Iron Moth
+|-start|p2a: Iron Moth|Substitute
+|-damage|p2a: Iron Moth|76/100
+|move|p1a: Corviknight|Brave Bird|p2a: Iron Moth
+|-end|p2a: Iron Moth|Substitute
+|-damage|p1a: Corviknight|0 fnt|[from] Recoil|[of] p2a: Iron Moth
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1779889312
+|switch|p1a: Tyranitar|Tyranitar, F|83/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|8
+|
+|t:|1779889317
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|63/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Iron Moth
+|-sidestart|p2: p$ychopath|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|70/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|69/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1779889321
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|46/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|52/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779889324
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|10
+|
+|t:|1779889332
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Tyranitar|Roar|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|drag|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Raging Bolt|82/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|58/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1779889339
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Tyranitar|Roar|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|drag|p2a: Great Tusk|Great Tusk|98/100
+|-damage|p2a: Great Tusk|95/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|65/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779889342
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Tyranitar|Roar|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|drag|p2a: Raging Bolt|Raging Bolt|82/100
+|-damage|p2a: Raging Bolt|70/100|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Tyranitar|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1779889345
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Tyranitar|Roar|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|drag|p2a: Great Tusk|Great Tusk|95/100
+|-damage|p2a: Great Tusk|92/100|[from] Stealth Rock
+|
+|-heal|p1a: Tyranitar|77/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1779889348
+|move|p2a: Great Tusk|Headlong Rush|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Tyranitar
+|
+|upkeep
+|
+|t:|1779889352
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|15
+|
+|t:|1779889355
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|70/100
+|-damage|p2a: Raging Bolt|58/100|[from] Stealth Rock
+|move|p1a: Ogerpon|Horn Leech|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|37/100
+|
+|upkeep
+|turn|16
+|
+|t:|1779889367
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Raging Bolt|[anim] Ivy Cudgel Rock
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779889370
+|switch|p2a: Great Tusk|Great Tusk|92/100
+|-damage|p2a: Great Tusk|89/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1779889380
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|upkeep
+|turn|18
+|-message|p$ychopath forfeited.
+|
+|win|AnonymousJon
+|raw|AnonymousJon's rating: 1651 &rarr; <strong>1669</strong><br />(+18 for winning)
+|raw|p$ychopath's rating: 1609 &rarr; <strong>1591</strong><br />(-18 for losing)
+|l|☆p$ychopath
+|player|p2|
+|l|☆AnonymousJon
+|player|p1|

@@ -1,0 +1,348 @@
+|j|☆jamescordensucks
+|j|☆Christendom
+|t:|1760385224
+|gametype|singles
+|player|p1|jamescordensucks|harlequin|1607
+|player|p2|Christendom|yellow|1644
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Crown|
+|poke|p1|Dragapult, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Dragonite, F|
+|poke|p2|Great Tusk|
+|poke|p2|Glimmora, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1760385240
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Airbag|Samurott-Hisui, M|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1760385247
+|switch|p1a: Creep|Landorus-Therian, M|100/100
+|-ability|p1a: Creep|Intimidate|boost
+|-unboost|p2a: Iron Valiant|atk|1
+|move|p2a: Iron Valiant|Moonblast|p1a: Creep
+|-damage|p1a: Creep|49/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760385250
+|switch|p1a: My Iron Lung|Iron Crown|100/100
+|-enditem|p1a: My Iron Lung|Booster Energy
+|-activate|p1a: My Iron Lung|ability: Quark Drive|[fromitem]
+|-start|p1a: My Iron Lung|quarkdrivespe
+|move|p2a: Iron Valiant|Moonblast|p1a: My Iron Lung
+|-resisted|p1a: My Iron Lung
+|-damage|p1a: My Iron Lung|78/100
+|
+|upkeep
+|turn|3
+|
+|t:|1760385263
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: My Iron Lung|Calm Mind|p1a: My Iron Lung
+|-boost|p1a: My Iron Lung|spa|1
+|-boost|p1a: My Iron Lung|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1760385268
+|move|p2a: Deoxys|Taunt|p1a: My Iron Lung
+|-start|p1a: My Iron Lung|move: Taunt
+|move|p1a: My Iron Lung|Tachyon Cutter|p2a: Deoxys
+|-damage|p2a: Deoxys|56/100
+|-damage|p2a: Deoxys|10/100
+|-hitcount|p2a: Deoxys|2
+|
+|upkeep
+|turn|5
+|
+|t:|1760385272
+|move|p2a: Deoxys|Light Screen|p2a: Deoxys
+|-sidestart|p2: Christendom|move: Light Screen
+|move|p1a: My Iron Lung|Psychic Noise|p2a: Deoxys
+|-resisted|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|j| JustBlissful
+|
+|t:|1760385282
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|6
+|
+|t:|1760385288
+|move|p1a: My Iron Lung|Tachyon Cutter|p2a: Dragonite
+|-damage|p2a: Dragonite|91/100
+|-damage|p2a: Dragonite|73/100
+|-hitcount|p2a: Dragonite|2
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p2a: Dragonite|79/100|[from] item: Leftovers
+|-end|p1a: My Iron Lung|move: Taunt
+|upkeep
+|turn|7
+|
+|t:|1760385297
+|move|p1a: My Iron Lung|Tachyon Cutter|p2a: Dragonite
+|-damage|p2a: Dragonite|62/100
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|4/100
+|-hitcount|p2a: Dragonite|2
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p2a: Dragonite|10/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760385304
+|move|p2a: Dragonite|Earthquake|p1a: My Iron Lung
+|-supereffective|p1a: My Iron Lung
+|-damage|p1a: My Iron Lung|0 fnt
+|faint|p1a: My Iron Lung
+|-end|p1a: My Iron Lung|Quark Drive|[silent]
+|
+|-heal|p2a: Dragonite|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760385306
+|switch|p1a: Creep|Landorus-Therian, M|49/100
+|-ability|p1a: Creep|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|turn|9
+|
+|t:|1760385310
+|-terastallize|p2a: Dragonite|Flying
+|move|p2a: Dragonite|Tera Blast|p1a: Creep|[anim] Tera Blast Flying
+|-damage|p1a: Creep|0 fnt
+|faint|p1a: Creep
+|
+|-heal|p2a: Dragonite|22/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760385315
+|switch|p1a: Airbag|Samurott-Hisui, M|100/100
+|turn|10
+|
+|t:|1760385319
+|move|p1a: Airbag|Sucker Punch||[still]
+|-fail|p1a: Airbag
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p2a: Dragonite|29/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760385324
+|move|p2a: Dragonite|Substitute|p2a: Dragonite
+|-start|p2a: Dragonite|Substitute
+|-damage|p2a: Dragonite|4/100
+|move|p1a: Airbag|Encore|p2a: Dragonite
+|-start|p2a: Dragonite|Encore
+|
+|-heal|p2a: Dragonite|10/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1760385328
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|move|p1a: Airbag|Ceaseless Edge|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|85/100
+|-sidestart|p2: Christendom|Spikes
+|
+|-sideend|p2: Christendom|move: Light Screen
+|upkeep
+|turn|13
+|
+|t:|1760385333
+|move|p2a: Iron Valiant|Moonblast|p1a: Airbag
+|-supereffective|p1a: Airbag
+|-crit|p1a: Airbag
+|-enditem|p1a: Airbag|Focus Sash
+|-damage|p1a: Airbag|1/100
+|move|p1a: Airbag|Aqua Cutter|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|17/100
+|
+|upkeep
+|turn|14
+|
+|t:|1760385344
+|move|p1a: Airbag|Sucker Punch|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|5/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Airbag
+|-supereffective|p1a: Airbag
+|-damage|p1a: Airbag|0 fnt
+|faint|p1a: Airbag
+|
+|upkeep
+|
+|t:|1760385346
+|switch|p1a: Decks Dark|Kingambit, M|100/100
+|-activate|p1a: Decks Dark|ability: Supreme Overlord
+|-start|p1a: Decks Dark|fallen3|[silent]
+|turn|15
+|
+|t:|1760385352
+|move|p1a: Decks Dark|Sucker Punch|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760385364
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-damage|p2a: Glimmora|88/100|[from] Spikes
+|turn|16
+|
+|t:|1760385368
+|move|p2a: Glimmora|Earth Power|p1a: Decks Dark
+|-supereffective|p1a: Decks Dark
+|-damage|p1a: Decks Dark|23/100
+|move|p1a: Decks Dark|Iron Head|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: jamescordensucks|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1760385388
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|88/100|[from] Spikes
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|17
+|
+|t:|1760385398
+|move|p2a: Great Tusk|Headlong Rush|p1a: Decks Dark
+|-supereffective|p1a: Decks Dark
+|-damage|p1a: Decks Dark|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Decks Dark
+|-end|p1a: Decks Dark|fallen3|[silent]
+|
+|upkeep
+|
+|t:|1760385415
+|switch|p1a: SHS Alien|Dragapult, M|100/100
+|turn|18
+|
+|t:|1760385420
+|move|p2a: Great Tusk|Taunt|p1a: SHS Alien
+|-start|p1a: SHS Alien|move: Taunt
+|cant|p1a: SHS Alien|move: Taunt|Will-O-Wisp
+|
+|upkeep
+|turn|19
+|
+|t:|1760385426
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: SHS Alien|Hex|p2a: Great Tusk
+|-damage|p2a: Great Tusk|35/100
+|
+|upkeep
+|turn|20
+|
+|t:|1760385429
+|move|p2a: Great Tusk|Headlong Rush|p1a: SHS Alien
+|-damage|p1a: SHS Alien|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: SHS Alien
+|
+|upkeep
+|
+|t:|1760385432
+|switch|p1a: Idioteque|Iron Valiant|100/100
+|-status|p1a: Idioteque|psn
+|-enditem|p1a: Idioteque|Booster Energy
+|-activate|p1a: Idioteque|ability: Quark Drive|[fromitem]
+|-start|p1a: Idioteque|quarkdrivespe
+|turn|21
+|
+|t:|1760385435
+|move|p1a: Idioteque|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p1a: Idioteque|88/100 psn|[from] psn
+|upkeep
+|
+|t:|1760385440
+|switch|p2a: Dragonite|Dragonite, F, tera:Flying|10/100
+|turn|22
+|
+|t:|1760385442
+|move|p1a: Idioteque|Moonblast|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-damage|p1a: Idioteque|76/100 psn|[from] psn
+|upkeep
+|
+|t:|1760385445
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|88/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|23
+|
+|t:|1760385449
+|move|p1a: Idioteque|Moonblast|p2a: Kingambit
+|-damage|p2a: Kingambit|39/100
+|move|p2a: Kingambit|Iron Head|p1a: Idioteque
+|-supereffective|p1a: Idioteque
+|-damage|p1a: Idioteque|0 fnt
+|faint|p1a: Idioteque
+|-end|p1a: Idioteque|Quark Drive|[silent]
+|
+|win|Christendom
+|raw|jamescordensucks's rating: 1607 &rarr; <strong>1589</strong><br />(-18 for losing)
+|raw|Christendom's rating: 1644 &rarr; <strong>1662</strong><br />(+18 for winning)

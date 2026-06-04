@@ -1,0 +1,509 @@
+|j|☆schalo
+|j|☆thepoowizard_md
+|t:|1779817004
+|gametype|singles
+|player|p1|schalo|harlequin|1416
+|player|p2|thepoowizard_md|rood|1399
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Raging Bolt|
+|poke|p1|Forretress, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Barraskewda, F|
+|poke|p1|Toxicroak, F|
+|poke|p1|Ting-Lu|
+|poke|p2|Magnezone|
+|poke|p2|Cinderace, F|
+|poke|p2|Regieleki|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Kyurem|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by thepoowizard_md)
+|
+|t:|1779817027
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Forretress|Forretress, M|100/100
+|switch|p2a: Victor Krum|Kyurem|100/100
+|-ability|p2a: Victor Krum|Pressure
+|turn|1
+|
+|t:|1779817042
+|switch|p2a: Big Tuskackus|Great Tusk|100/100
+|-enditem|p2a: Big Tuskackus|Booster Energy
+|-activate|p2a: Big Tuskackus|ability: Protosynthesis|[fromitem]
+|-start|p2a: Big Tuskackus|protosynthesisspe
+|move|p1a: Forretress|Volt Switch|p2a: Big Tuskackus
+|-immune|p2a: Big Tuskackus
+|
+|upkeep
+|turn|2
+|
+|t:|1779817050
+|move|p2a: Big Tuskackus|Knock Off|p1a: Forretress
+|-damage|p1a: Forretress|82/100
+|-enditem|p1a: Forretress|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Big Tuskackus
+|move|p1a: Forretress|Giga Drain|p2a: Big Tuskackus
+|-supereffective|p2a: Big Tuskackus
+|-damage|p2a: Big Tuskackus|70/100
+|-heal|p1a: Forretress|99/100|[from] drain|[of] p2a: Big Tuskackus
+|
+|upkeep
+|turn|3
+|
+|t:|1779817058
+|move|p2a: Big Tuskackus|Headlong Rush|p1a: Forretress
+|-damage|p1a: Forretress|60/100
+|-unboost|p2a: Big Tuskackus|def|1
+|-unboost|p2a: Big Tuskackus|spd|1
+|move|p1a: Forretress|Giga Drain|p2a: Big Tuskackus
+|-supereffective|p2a: Big Tuskackus
+|-damage|p2a: Big Tuskackus|28/100
+|-heal|p1a: Forretress|86/100|[from] drain|[of] p2a: Big Tuskackus
+|
+|upkeep
+|turn|4
+|
+|t:|1779817068
+|-end|p2a: Big Tuskackus|Protosynthesis|[silent]
+|switch|p2a: Magnum Jones|Magnezone|100/100
+|move|p1a: Forretress|Giga Drain|p2a: Magnum Jones
+|-resisted|p2a: Magnum Jones
+|-damage|p2a: Magnum Jones|94/100
+|-heal|p1a: Forretress|90/100|[from] drain|[of] p2a: Magnum Jones
+|
+|upkeep
+|turn|5
+|
+|t:|1779817074
+|move|p2a: Magnum Jones|Flash Cannon|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|60/100
+|move|p1a: Forretress|Volt Switch|p2a: Magnum Jones
+|-resisted|p2a: Magnum Jones
+|-damage|p2a: Magnum Jones|88/100
+|
+|t:|1779817083
+|switch|p1a: Ting-Lu|Ting-Lu|100/100|[from] Volt Switch
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|upkeep
+|turn|6
+|
+|t:|1779817091
+|switch|p2a: Poo Chainz|Cinderace, F|100/100
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Poo Chainz
+|-sidestart|p2: thepoowizard_md|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1779817099
+|move|p2a: Poo Chainz|U-turn|p1a: Ting-Lu
+|-start|p2a: Poo Chainz|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|41/100
+|
+|t:|1779817103
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Ting-Lu|Earthquake|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-heal|p1a: Ting-Lu|47/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1779817118
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Ting-Lu|Stone Edge|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|83/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|-heal|p1a: Ting-Lu|53/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1779817140
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|move|p2a: Gholdengo|Dazzling Gleam|p1a: Toxicroak
+|-damage|p1a: Toxicroak|16/100
+|
+|upkeep
+|turn|10
+|
+|t:|1779817152
+|move|p1a: Toxicroak|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|51/100
+|move|p2a: Gholdengo|Dazzling Gleam|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|upkeep
+|inactive|schalo has 120 seconds left.
+|inactive|schalo has 90 seconds left.
+|
+|t:|1779817202
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|11
+|
+|t:|1779817226
+|move|p1a: Barraskewda|Liquidation|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1779817232
+|switch|p2a: Regieleki|Regieleki|100/100
+|-damage|p2a: Regieleki|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1779817236
+|switch|p1a: Ting-Lu|Ting-Lu|53/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Regieleki|Rapid Spin|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|46/100
+|-boost|p2a: Regieleki|spe|1
+|-sideend|p2: thepoowizard_md|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Regieleki
+|
+|-heal|p1a: Ting-Lu|52/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|schalo has 120 seconds left.
+|
+|t:|1779817254
+|switch|p2a: Victor Krum|Kyurem|100/100
+|-ability|p2a: Victor Krum|Pressure
+|move|p1a: Ting-Lu|Earthquake|p2a: Victor Krum
+|-damage|p2a: Victor Krum|62/100
+|
+|-heal|p1a: Ting-Lu|58/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|thepoowizard_md has 120 seconds left.
+|
+|t:|1779817304
+|switch|p1a: Forretress|Forretress, M|60/100
+|move|p2a: Victor Krum|Icicle Spear|p1a: Forretress
+|-resisted|p1a: Forretress
+|-crit|p1a: Forretress
+|-damage|p1a: Forretress|53/100
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|48/100
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|43/100
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|38/100
+|-hitcount|p1a: Forretress|4
+|
+|upkeep
+|turn|15
+|inactive|schalo has 120 seconds left.
+|
+|t:|1779817321
+|move|p2a: Victor Krum|Dragon Dance|p2a: Victor Krum
+|-boost|p2a: Victor Krum|atk|1
+|-boost|p2a: Victor Krum|spe|1
+|move|p1a: Forretress|Giga Drain|p2a: Victor Krum
+|-resisted|p2a: Victor Krum
+|-damage|p2a: Victor Krum|56/100
+|-heal|p1a: Forretress|41/100|[from] drain|[of] p2a: Victor Krum
+|
+|upkeep
+|turn|16
+|
+|t:|1779817328
+|move|p2a: Victor Krum|Icicle Spear|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|34/100
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|27/100
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|20/100
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|12/100
+|-hitcount|p1a: Forretress|4
+|move|p1a: Forretress|Gyro Ball|p2a: Victor Krum
+|-supereffective|p2a: Victor Krum
+|-damage|p2a: Victor Krum|0 fnt
+|faint|p2a: Victor Krum
+|
+|upkeep
+|
+|t:|1779817343
+|switch|p2a: Magnum Jones|Magnezone|88/100
+|turn|17
+|
+|t:|1779817350
+|move|p2a: Magnum Jones|Flash Cannon|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|upkeep
+|
+|t:|1779817356
+|switch|p1a: Ting-Lu|Ting-Lu|58/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|18
+|
+|t:|1779817360
+|-terastallize|p2a: Magnum Jones|Flying
+|move|p2a: Magnum Jones|Flash Cannon|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|32/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Magnum Jones
+|-immune|p2a: Magnum Jones
+|
+|-heal|p1a: Ting-Lu|38/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1779817367
+|move|p2a: Magnum Jones|Flash Cannon|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|10/100
+|move|p1a: Ting-Lu|Rest|p1a: Ting-Lu
+|-status|p1a: Ting-Lu|slp|[from] move: Rest
+|-heal|p1a: Ting-Lu|100/100 slp|[silent]
+|
+|upkeep
+|turn|20
+|
+|t:|1779817384
+|switch|p2a: Big Tuskackus|Great Tusk|28/100
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|
+|upkeep
+|turn|21
+|
+|t:|1779817391
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Big Tuskackus|Headlong Rush|p1a: Pelipper
+|-immune|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1779817407
+|move|p2a: Big Tuskackus|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: schalo|move: Stealth Rock
+|move|p1a: Pelipper|Weather Ball|p2a: Big Tuskackus
+|-supereffective|p2a: Big Tuskackus
+|-damage|p2a: Big Tuskackus|0 fnt
+|faint|p2a: Big Tuskackus
+|-end|p2a: Big Tuskackus|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779817412
+|switch|p2a: Magnum Jones|Magnezone, tera:Flying|88/100
+|turn|23
+|
+|t:|1779817417
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-damage|p1a: Raging Bolt|88/100|[from] Stealth Rock
+|move|p2a: Magnum Jones|Volt Switch|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|70/100
+|
+|t:|1779817421
+|switch|p2a: Poo Chainz|Cinderace, F|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1779817437
+|move|p2a: Poo Chainz|High Jump Kick|p1a: Raging Bolt
+|-start|p2a: Poo Chainz|typechange|Fighting|[from] ability: Libero
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779817445
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|-damage|p1a: Barraskewda|88/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1779817474
+|switch|p2a: Magnum Jones|Magnezone, tera:Flying|88/100
+|move|p1a: Barraskewda|Flip Turn|p2a: Magnum Jones
+|-damage|p2a: Magnum Jones|27/100
+|
+|t:|1779817481
+|switch|p1a: Ting-Lu|Ting-Lu|100/100 slp|[from] Flip Turn
+|-damage|p1a: Ting-Lu|94/100 slp|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|thepoowizard_md has 120 seconds left.
+|
+|t:|1779817513
+|switch|p2a: Poo Chainz|Cinderace, F|100/100
+|cant|p1a: Ting-Lu|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1779817522
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|move|p2a: Poo Chainz|High Jump Kick|p1a: Pelipper
+|-start|p2a: Poo Chainz|typechange|Fighting|[from] ability: Libero
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|42/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|inactive|thepoowizard_md has 120 seconds left.
+|
+|t:|1779817543
+|move|p2a: Poo Chainz|High Jump Kick|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|9/100
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|60/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|none
+|upkeep
+|turn|29
+|
+|t:|1779817560
+|move|p2a: Poo Chainz|High Jump Kick|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|27/100
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|77/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|upkeep
+|turn|30
+|
+|t:|1779817573
+|move|p2a: Poo Chainz|High Jump Kick|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|39/100
+|move|p1a: Pelipper|Knock Off|p2a: Poo Chainz
+|-resisted|p2a: Poo Chainz
+|-damage|p2a: Poo Chainz|91/100
+|-enditem|p2a: Poo Chainz|Choice Band|[from] move: Knock Off|[of] p1a: Pelipper
+|
+|upkeep
+|turn|31
+|inactive|thepoowizard_md has 120 seconds left.
+|
+|t:|1779817583
+|switch|p2a: Regieleki|Regieleki|88/100
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|89/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|upkeep
+|turn|32
+|inactive|thepoowizard_md has 120 seconds left.
+|
+|t:|1779817602
+|switch|p2a: Poo Chainz|Cinderace, F|91/100
+|switch|p1a: Ting-Lu|Ting-Lu|100/100 slp
+|-damage|p1a: Ting-Lu|94/100 slp|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p1a: Ting-Lu|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|thepoowizard_md has 120 seconds left.
+|
+|t:|1779817617
+|switch|p1a: Pelipper|Pelipper, M|89/100
+|-damage|p1a: Pelipper|64/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Poo Chainz|U-turn|p1a: Pelipper
+|-start|p2a: Poo Chainz|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|51/100
+|
+|t:|1779817620
+|switch|p2a: Magnum Jones|Magnezone, tera:Flying|27/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|34
+|inactive|thepoowizard_md has 120 seconds left.
+|
+|t:|1779817645
+|move|p2a: Magnum Jones|Steel Beam|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-damage|p2a: Magnum Jones|0 fnt|[from] steelbeam
+|faint|p2a: Magnum Jones
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|thepoowizard_md has 120 seconds left.
+|
+|t:|1779817651
+|switch|p2a: Poo Chainz|Cinderace, F|91/100
+|switch|p1a: Barraskewda|Barraskewda, F|88/100
+|-damage|p1a: Barraskewda|76/100|[from] Stealth Rock
+|turn|35
+|
+|t:|1779817660
+|move|p1a: Barraskewda|Aqua Jet|p2a: Poo Chainz
+|-supereffective|p2a: Poo Chainz
+|-crit|p2a: Poo Chainz
+|-damage|p2a: Poo Chainz|0 fnt
+|faint|p2a: Poo Chainz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779817663
+|switch|p2a: Regieleki|Regieleki|88/100
+|turn|36
+|
+|t:|1779817670
+|-terastallize|p1a: Barraskewda|Water
+|move|p2a: Regieleki|Extreme Speed|p1a: Barraskewda
+|-damage|p1a: Barraskewda|41/100
+|move|p1a: Barraskewda|Aqua Jet|p2a: Regieleki
+|-damage|p2a: Regieleki|0 fnt
+|faint|p2a: Regieleki
+|
+|win|schalo
+|raw|schalo's rating: 1416 &rarr; <strong>1435</strong><br />(+19 for winning)
+|raw|thepoowizard_md's rating: 1399 &rarr; <strong>1380</strong><br />(-19 for losing)
+|c|☆schalo|gg
+|l|☆thepoowizard_md
+|player|p2|
+|l|☆schalo
+|player|p1|

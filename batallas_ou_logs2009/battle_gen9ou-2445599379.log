@@ -1,0 +1,507 @@
+|j|☆ICElIED
+|j|☆Fyrb
+|t:|1758375090
+|gametype|singles
+|player|p1|ICElIED|steven|1380
+|player|p2|Fyrb|102|1388
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Jirachi|
+|poke|p1|Raikou|
+|poke|p1|Iron Moth|
+|poke|p1|Sinistcha-Masterpiece|
+|poke|p1|Kommo-o, M|
+|poke|p2|Scizor, M|
+|poke|p2|Primarina, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|t:|1758375113
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|switch|p2a: Scizor|Scizor, M, shiny|100/100
+|turn|1
+|
+|t:|1758375129
+|move|p1a: Kommo-o|Substitute|p1a: Kommo-o
+|-start|p1a: Kommo-o|Substitute
+|-damage|p1a: Kommo-o|75/100
+|move|p2a: Scizor|Knock Off|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-end|p1a: Kommo-o|Substitute
+|
+|upkeep
+|turn|2
+|
+|t:|1758375134
+|move|p1a: Kommo-o|Drain Punch|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|45/100
+|-heal|p1a: Kommo-o|100/100|[from] drain|[of] p2a: Scizor
+|move|p2a: Scizor|Knock Off|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|74/100
+|-enditem|p1a: Kommo-o|Salac Berry|[from] move: Knock Off|[of] p2a: Scizor
+|
+|upkeep
+|turn|3
+|
+|t:|1758375140
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kommo-o|atk|1
+|move|p1a: Kommo-o|Drain Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|87/100
+|-heal|p1a: Kommo-o|81/100|[from] drain|[of] p2a: Landorus
+|
+|upkeep
+|turn|4
+|
+|t:|1758375151
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|100/100
+|move|p2a: Landorus|Earthquake|p1a: Sinistcha
+|-resisted|p1a: Sinistcha
+|-damage|p1a: Sinistcha|81/100
+|
+|-heal|p1a: Sinistcha|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1758375156
+|move|p2a: Landorus|U-turn|p1a: Sinistcha
+|-damage|p1a: Sinistcha|68/100
+|
+|t:|1758375164
+|switch|p2a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Sinistcha|Strength Sap|p2a: Raging Bolt
+|-unboost|p2a: Raging Bolt|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1758375176
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|move|p2a: Raging Bolt|Volt Switch|p1a: Iron Moth
+|-damage|p1a: Iron Moth|49/100
+|
+|t:|1758375191
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Zamazenta|Zamazenta, shiny|100/100|[from] Volt Switch
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|
+|upkeep
+|turn|7
+|
+|t:|1758375197
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|51/100
+|move|p2a: Zamazenta|Stone Edge|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p2a: Zamazenta|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758375204
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|100/100
+|turn|8
+|
+|t:|1758375212
+|move|p2a: Zamazenta|Crunch|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|72/100
+|move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+|-boost|p1a: Sinistcha|spa|1
+|-boost|p1a: Sinistcha|spd|1
+|
+|-heal|p2a: Zamazenta|64/100|[from] item: Leftovers
+|-heal|p1a: Sinistcha|78/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758375216
+|move|p2a: Zamazenta|Crunch|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|48/100
+|move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+|-boost|p1a: Sinistcha|spa|1
+|-boost|p1a: Sinistcha|spd|1
+|
+|-heal|p2a: Zamazenta|70/100|[from] item: Leftovers
+|-heal|p1a: Sinistcha|54/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758375221
+|move|p2a: Zamazenta|Crunch|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|26/100
+|move|p1a: Sinistcha|Strength Sap|p2a: Zamazenta
+|-unboost|p2a: Zamazenta|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|-heal|p2a: Zamazenta|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758375233
+|switch|p2a: Scizor|Scizor, M, shiny|45/100
+|move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+|-boost|p1a: Sinistcha|spa|1
+|-boost|p1a: Sinistcha|spd|1
+|
+|upkeep
+|turn|12
+|
+|t:|1758375242
+|move|p1a: Sinistcha|Shadow Ball|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1758375249
+|switch|p2a: Kingambit|Kingambit, F, shiny|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|13
+|
+|t:|1758375255
+|-terastallize|p1a: Sinistcha|Poison
+|move|p1a: Sinistcha|Strength Sap|p2a: Kingambit
+|-unboost|p2a: Kingambit|atk|1
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|14
+|
+|t:|1758375263
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|58/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|64/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758375271
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|22/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Sinistcha
+|-damage|p1a: Sinistcha|1/100
+|
+|-heal|p1a: Sinistcha|7/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|28/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758375277
+|move|p1a: Sinistcha|Strength Sap|p2a: Kingambit
+|-unboost|p2a: Kingambit|atk|1
+|-heal|p1a: Sinistcha|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Sinistcha
+|-damage|p1a: Sinistcha|18/100
+|
+|-heal|p1a: Sinistcha|24/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|34/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758375280
+|move|p1a: Sinistcha|Strength Sap|p2a: Kingambit
+|-unboost|p2a: Kingambit|atk|1
+|-heal|p1a: Sinistcha|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Sinistcha
+|-damage|p1a: Sinistcha|38/100
+|
+|-heal|p1a: Sinistcha|44/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|41/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1758375283
+|move|p1a: Sinistcha|Strength Sap|p2a: Kingambit
+|-unboost|p2a: Kingambit|atk|1
+|-heal|p1a: Sinistcha|100/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|47/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1758375285
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|8/100
+|-status|p2a: Kingambit|brn
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Sinistcha
+|-damage|p1a: Sinistcha|64/100
+|
+|-heal|p1a: Sinistcha|70/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|14/100 brn|[from] item: Leftovers
+|-damage|p2a: Kingambit|8/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1758375294
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-heal|p1a: Sinistcha|74/100|[from] drain|[of] p2a: Kingambit
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|-heal|p1a: Sinistcha|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758375302
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|21
+|
+|t:|1758375306
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Sinistcha
+|-damage|p1a: Sinistcha|57/100
+|move|p1a: Sinistcha|Shadow Ball|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|29/100
+|
+|-heal|p1a: Sinistcha|64/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1758375309
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Sinistcha
+|-crit|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|upkeep
+|
+|t:|1758375319
+|switch|p1a: Kommo-o|Kommo-o, M|81/100
+|turn|23
+|
+|t:|1758375326
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|87/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kommo-o|atk|1
+|move|p1a: Kommo-o|Drain Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|72/100
+|-heal|p1a: Kommo-o|89/100|[from] drain|[of] p2a: Landorus
+|
+|upkeep
+|turn|24
+|
+|t:|1758375336
+|move|p2a: Landorus|Stealth Rock|p1a: Kommo-o
+|-sidestart|p1: ICElIED|move: Stealth Rock
+|move|p1a: Kommo-o|Substitute|p1a: Kommo-o
+|-start|p1a: Kommo-o|Substitute
+|-damage|p1a: Kommo-o|64/100
+|
+|upkeep
+|turn|25
+|
+|t:|1758375340
+|move|p2a: Landorus|Earthquake|p1a: Kommo-o
+|-end|p1a: Kommo-o|Substitute
+|move|p1a: Kommo-o|Belly Drum|p1a: Kommo-o
+|-damage|p1a: Kommo-o|14/100
+|-setboost|p1a: Kommo-o|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|26
+|
+|t:|1758375347
+|move|p2a: Landorus|Earthquake|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|t:|1758375356
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|27
+|
+|t:|1758375359
+|switch|p2a: Zamazenta|Zamazenta, shiny|76/100
+|move|p1a: Samurott|Aqua Cutter|p2a: Zamazenta
+|-damage|p2a: Zamazenta|33/100
+|
+|-heal|p2a: Zamazenta|40/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1758375378
+|move|p2a: Zamazenta|Body Press|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|10/100
+|move|p1a: Samurott|Aqua Cutter|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1758375383
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|72/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Samurott|atk|1
+|turn|29
+|
+|t:|1758375390
+|move|p1a: Samurott|Sucker Punch|p2a: Landorus
+|-damage|p2a: Landorus|46/100
+|move|p2a: Landorus|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1758375398
+|switch|p1a: Raikou|Raikou|100/100
+|-damage|p1a: Raikou|88/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|turn|30
+|
+|t:|1758375403
+|move|p1a: Raikou|Scald|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1758375406
+|switch|p2a: Raging Bolt|Raging Bolt|29/100
+|turn|31
+|
+|t:|1758375419
+|switch|p1a: Jirachi|Jirachi|100/100
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|69/100
+|
+|-heal|p1a: Jirachi|75/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1758375428
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Primarina|Primarina, F, shiny|100/100
+|move|p1a: Jirachi|Psychic Noise|p2a: Primarina
+|-damage|p2a: Primarina|85/100
+|-start|p2a: Primarina|move: Heal Block
+|
+|-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1758375437
+|move|p1a: Jirachi|Body Slam|p2a: Primarina
+|-damage|p2a: Primarina|53/100
+|-status|p2a: Primarina|par
+|move|p2a: Primarina|Psychic Noise|p1a: Jirachi
+|-damage|p1a: Jirachi|45/100
+|-start|p1a: Jirachi|move: Heal Block
+|
+|-end|p2a: Primarina|move: Heal Block
+|upkeep
+|turn|34
+|
+|t:|1758375442
+|move|p1a: Jirachi|Iron Head|p2a: Primarina
+|-damage|p2a: Primarina|8/100 par
+|cant|p2a: Primarina|par
+|
+|-end|p1a: Jirachi|move: Heal Block
+|upkeep
+|turn|35
+|
+|t:|1758375445
+|move|p1a: Jirachi|Iron Head|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-heal|p1a: Jirachi|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758375446
+|switch|p2a: Raging Bolt|Raging Bolt|29/100
+|turn|36
+|
+|t:|1758375449
+|move|p2a: Raging Bolt|Thunderclap|p1a: Jirachi
+|-damage|p1a: Jirachi|12/100
+|move|p1a: Jirachi|Psychic Noise|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|11/100
+|-start|p2a: Raging Bolt|move: Heal Block
+|
+|-heal|p1a: Jirachi|18/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1758375454
+|move|p2a: Raging Bolt|Thunderclap|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-end|p2a: Raging Bolt|move: Heal Block
+|upkeep
+|
+|t:|1758375455
+|switch|p1a: Raikou|Raikou|88/100
+|-damage|p1a: Raikou|76/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|turn|38
+|
+|t:|1758375460
+|move|p2a: Raging Bolt|Thunderclap|p1a: Raikou
+|-resisted|p1a: Raikou
+|-damage|p1a: Raikou|55/100
+|move|p1a: Raikou|Aura Sphere|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|ICElIED
+|raw|ICElIED's rating: 1380 &rarr; <strong>1400</strong><br />(+20 for winning)
+|raw|Fyrb's rating: 1388 &rarr; <strong>1368</strong><br />(-20 for losing)
+|l|☆ICElIED
+|player|p1|
+|l|☆Fyrb
+|player|p2|

@@ -1,0 +1,326 @@
+|j|☆henry151th
+|j|☆CyborgParrot127
+|t:|1760351994
+|gametype|singles
+|player|p1|henry151th|wallace|1713
+|player|p2|CyborgParrot127|101|1711
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zapdos|
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p1|Alomomola, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Cinderace, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Hydrapple, F|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Arcanine-Hisui, F|
+|teampreview
+|
+|t:|1760352012
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+|
+|t:|1760352025
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-item|p2a: Excadrill|Air Balloon
+|move|p1a: Zapdos|Volt Switch|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|upkeep
+|turn|2
+|
+|t:|1760352028
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Zapdos|Hurricane|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|97/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1760352031
+|move|p1a: Zapdos|Volt Switch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|85/100
+|
+|t:|1760352033
+|switch|p1a: Iron Valiant|Iron Valiant|100/100|[from] Volt Switch
+|move|p2a: Tyranitar|Ice Beam|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Valiant|61/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1760352043
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Iron Valiant|Close Combat|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|51/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|45/100|[from] Sandstorm
+|-damage|p1a: Iron Valiant|55/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1760352047
+|move|p2a: Tornadus|U-turn|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|48/100
+|
+|t:|1760352058
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Iron Valiant|Close Combat|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|36/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|30/100|[from] Sandstorm
+|-damage|p1a: Iron Valiant|42/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1760352064
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|81/100
+|-unboost|p1a: Slowking|spa|1
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1760352069
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760352071
+|switch|p1a: Iron Valiant|Iron Valiant|42/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760352087
+|-terastallize|p1a: Iron Valiant|Ghost
+|move|p2a: Arcanine|Extreme Speed|p1a: Iron Valiant
+|-immune|p1a: Iron Valiant
+|move|p1a: Iron Valiant|Close Combat|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Arcanine
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760352091
+|switch|p2a: Tornadus|Tornadus-Therian, M|78/100
+|turn|9
+|
+|t:|1760352094
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Zapdos|Zapdos|94/100
+|move|p2a: Tornadus|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|80/100
+|-damage|p2a: Tornadus|62/100|[from] item: Rocky Helmet|[of] p1a: Zapdos
+|-enditem|p1a: Zapdos|Rocky Helmet|[from] move: Knock Off|[of] p2a: Tornadus
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760352100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-item|p2a: Excadrill|Air Balloon
+|move|p1a: Zapdos|Hurricane|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|69/100
+|-enditem|p2a: Excadrill|Air Balloon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760352104
+|move|p2a: Excadrill|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|45/100
+|move|p1a: Zapdos|Volt Switch|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1760352116
+|switch|p2a: Tyranitar|Tyranitar, M|91/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Zapdos|Volt Switch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|80/100
+|
+|t:|1760352118
+|switch|p1a: Iron Valiant|Iron Valiant, tera:Ghost|42/100|[from] Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Valiant|36/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|86/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760352123
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|move|p1a: Iron Valiant|Close Combat|p2a: Hydrapple
+|-damage|p2a: Hydrapple|48/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Valiant|30/100|[from] Sandstorm
+|-damage|p2a: Hydrapple|42/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1760352132
+|switch|p2a: Iron Valiant|Iron Valiant|30/100
+|move|p1a: Iron Valiant|Close Combat|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Valiant|23/100|[from] Sandstorm
+|upkeep
+|
+|t:|1760352135
+|switch|p2a: Excadrill|Excadrill, F|69/100
+|turn|15
+|
+|t:|1760352139
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Excadrill|Rock Slide|p1a: Slowking
+|-damage|p1a: Slowking|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowking|76/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1760352143
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760352144
+|switch|p1a: Iron Valiant|Iron Valiant, tera:Ghost|23/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1760352152
+|switch|p2a: Tyranitar|Tyranitar, M|86/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Iron Valiant|Close Combat|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Valiant|17/100|[from] Sandstorm
+|upkeep
+|
+|t:|1760352155
+|switch|p2a: Tornadus|Tornadus-Therian, M|95/100
+|turn|18
+|
+|t:|1760352157
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|89/100|[from] Sandstorm
+|upkeep
+|
+|t:|1760352164
+|switch|p1a: Zapdos|Zapdos|45/100
+|turn|19
+|
+|t:|1760352171
+|move|p2a: Tornadus|Heat Wave|p1a: Zapdos
+|-damage|p1a: Zapdos|21/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|71/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|83/100|[from] Sandstorm
+|-damage|p1a: Zapdos|65/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|t:|1760352177
+|move|p2a: Tornadus|Heat Wave|p1a: Zapdos
+|-damage|p1a: Zapdos|42/100
+|move|p1a: Zapdos|Hurricane|p2a: Tornadus
+|-damage|p2a: Tornadus|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|44/100|[from] Sandstorm
+|-damage|p1a: Zapdos|36/100|[from] Sandstorm
+|upkeep
+|turn|21
+|-message|CyborgParrot127 forfeited.
+|
+|win|henry151th
+|raw|henry151th's rating: 1713 &rarr; <strong>1733</strong><br />(+20 for winning)
+|raw|CyborgParrot127's rating: 1711 &rarr; <strong>1691</strong><br />(-20 for losing)
+|l|☆CyborgParrot127
+|player|p2|

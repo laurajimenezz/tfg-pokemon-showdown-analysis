@@ -1,0 +1,538 @@
+|j|☆deibee
+|j|☆models&baddies
+|t:|1758360510
+|gametype|singles
+|player|p1|deibee|clown|1500
+|player|p2|models&baddies|benga|1524
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Moltres|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Treads|
+|poke|p2|Rillaboom, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Latias, F|
+|poke|p2|Espeon, F|
+|poke|p2|Milotic, M|
+|poke|p2|Hitmontop, M|
+|teampreview
+|
+|t:|1758360518
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Latias|Latias, F|100/100
+|turn|1
+|
+|t:|1758360523
+|move|p2a: Latias|Thunder Wave|p1a: Ogerpon
+|-status|p1a: Ogerpon|par
+|move|p1a: Ogerpon|U-turn|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|28/100
+|
+|t:|1758360527
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1758360539
+|move|p2a: Latias|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|move|p1a: Dragapult|U-turn|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|t:|1758360551
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1758360556
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|3
+|
+|t:|1758360567
+|move|p1a: Iron Treads|Stealth Rock|p2a: Rillaboom
+|-sidestart|p2: models&baddies|move: Stealth Rock
+|move|p2a: Rillaboom|U-turn|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|90/100
+|
+|t:|1758360582
+|switch|p2a: Hitmontop|Hitmontop, M|100/100|[from] U-turn
+|-damage|p2a: Hitmontop|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Iron Treads|96/100|[from] Grassy Terrain
+|-heal|p1a: Iron Treads|100/100|[from] item: Leftovers
+|-heal|p2a: Hitmontop|100/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1758360590
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Hitmontop|Triple Axel|p1a: Moltres
+|-damage|p1a: Moltres|93/100
+|-damage|p1a: Moltres|78/100
+|-damage|p1a: Moltres|54/100
+|-hitcount|p1a: Moltres|3
+|
+|upkeep
+|turn|5
+|
+|t:|1758360598
+|move|p1a: Moltres|Flamethrower|p2a: Hitmontop
+|-damage|p2a: Hitmontop|58/100
+|move|p2a: Hitmontop|Triple Axel|p1a: Moltres
+|-damage|p1a: Moltres|47/100
+|-hitcount|p1a: Moltres|1
+|
+|-heal|p2a: Hitmontop|64/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1758360607
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|97/100
+|-singleturn|p1a: Moltres|move: Roost
+|move|p2a: Hitmontop|Rapid Spin|p1a: Moltres
+|-damage|p1a: Moltres|78/100
+|-boost|p2a: Hitmontop|spe|1
+|-sideend|p2: models&baddies|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Hitmontop
+|
+|-heal|p2a: Hitmontop|71/100|[from] Grassy Terrain
+|-heal|p1a: Moltres|84/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1758360612
+|move|p2a: Hitmontop|Triple Axel|p1a: Moltres
+|-damage|p1a: Moltres|76/100
+|-damage|p1a: Moltres|61/100
+|-crit|p1a: Moltres
+|-damage|p1a: Moltres|26/100
+|-hitcount|p1a: Moltres|3
+|move|p1a: Moltres|Flamethrower|p2a: Hitmontop
+|-damage|p2a: Hitmontop|29/100
+|
+|-heal|p2a: Hitmontop|35/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1758360616
+|move|p2a: Hitmontop|Triple Axel|p1a: Moltres
+|-damage|p1a: Moltres|19/100
+|-damage|p1a: Moltres|4/100
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|-hitcount|p1: Moltres|3
+|
+|-heal|p2a: Hitmontop|41/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758360627
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100 par
+|turn|9
+|
+|t:|1758360632
+|move|p2a: Hitmontop|Triple Axel|p1a: Ogerpon
+|-damage|p1a: Ogerpon|87/100 par
+|-damage|p1a: Ogerpon|64/100 par
+|-damage|p1a: Ogerpon|30/100 par
+|-hitcount|p1a: Ogerpon|3
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Hitmontop|[anim] Ivy Cudgel Water
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|-heal|p1a: Ogerpon|36/100 par|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758360641
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|turn|10
+|
+|t:|1758360645
+|move|p2a: Rillaboom|U-turn|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|t:|1758360650
+|switch|p2a: Milotic|Milotic, M|100/100|[from] U-turn
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1758360655
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|turn|11
+|
+|t:|1758360665
+|move|p2a: Milotic|Scald|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|65/100
+|move|p1a: Garganacl|Salt Cure|p2a: Milotic
+|-damage|p2a: Milotic|87/100
+|-start|p2a: Milotic|Salt Cure
+|
+|-heal|p2a: Milotic|93/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|71/100|[from] item: Leftovers
+|-damage|p2a: Milotic|68/100|[from] Salt Cure
+|upkeep
+|turn|12
+|
+|t:|1758360674
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1758360677
+|move|p2a: Salazzle|Encore|p1a: Garganacl
+|-start|p1a: Garganacl|Encore
+|move|p1a: Garganacl|Recover||[still]
+|-fail|p1a: Garganacl|heal
+|
+|upkeep
+|turn|14
+|
+|t:|1758360684
+|switch|p1a: Dragapult|Dragapult, F|100/100 par
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|76/100
+|
+|-heal|p2a: Salazzle|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758360689
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Dragapult|Shadow Ball|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-heal|p2a: Salazzle|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758360695
+|switch|p2a: Milotic|Milotic, M|68/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Milotic
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|28/100
+|
+|-heal|p2a: Milotic|35/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758360704
+|move|p1a: Dragapult|Shadow Ball|p2a: Milotic
+|-damage|p2a: Milotic|8/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|58/100
+|
+|-heal|p2a: Milotic|64/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1758360712
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|upkeep
+|turn|19
+|
+|t:|1758360717
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Garganacl|Salt Cure|p2a: Rillaboom
+|-damage|p2a: Rillaboom|88/100
+|-start|p2a: Rillaboom|Salt Cure
+|
+|-heal|p2a: Rillaboom|94/100|[from] Grassy Terrain
+|-damage|p2a: Rillaboom|82/100|[from] Salt Cure
+|upkeep
+|turn|20
+|
+|t:|1758360724
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Rillaboom|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|92/100
+|
+|t:|1758360727
+|switch|p2a: Salazzle|Salazzle, F|88/100|[from] U-turn
+|
+|-heal|p1a: Zamazenta|98/100|[from] Grassy Terrain
+|-heal|p2a: Salazzle|94/100|[from] Grassy Terrain
+|-heal|p2a: Salazzle|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1758360735
+|move|p1a: Zamazenta|Stone Edge|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|7/100
+|move|p2a: Salazzle|Toxic|p1a: Zamazenta
+|-status|p1a: Zamazenta|tox
+|
+|-heal|p1a: Zamazenta|100/100 tox|[from] Grassy Terrain
+|-heal|p2a: Salazzle|13/100|[from] Grassy Terrain
+|-heal|p2a: Salazzle|20/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|94/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1758360742
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Salazzle|Protect||[still]
+|-fail|p2a: Salazzle
+|
+|-heal|p2a: Salazzle|26/100|[from] Grassy Terrain
+|-heal|p2a: Salazzle|32/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1758360748
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Garganacl|Salt Cure|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-heal|p2a: Salazzle|38/100|[from] Grassy Terrain
+|-heal|p2a: Salazzle|44/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1758360757
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Milotic
+|-damage|p2a: Milotic|86/100
+|-start|p2a: Milotic|Salt Cure
+|
+|-heal|p2a: Milotic|92/100|[from] Grassy Terrain
+|-heal|p2a: Milotic|98/100|[from] item: Leftovers
+|-damage|p2a: Milotic|73/100|[from] Salt Cure
+|upkeep
+|turn|25
+|
+|t:|1758360764
+|move|p2a: Milotic|Scald|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|66/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-heal|p2a: Milotic|79/100|[from] Grassy Terrain
+|-heal|p2a: Milotic|86/100|[from] item: Leftovers
+|-damage|p2a: Milotic|61/100|[from] Salt Cure
+|upkeep
+|turn|26
+|
+|t:|1758360770
+|move|p2a: Milotic|Scald|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|61/100
+|move|p1a: Garganacl|Salt Cure|p2a: Milotic
+|-damage|p2a: Milotic|46/100
+|
+|-heal|p2a: Milotic|52/100|[from] Grassy Terrain
+|-heal|p2a: Milotic|58/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|67/100|[from] Grassy Terrain
+|-heal|p1a: Garganacl|74/100|[from] item: Leftovers
+|-damage|p2a: Milotic|33/100|[from] Salt Cure
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|27
+|
+|t:|1758360772
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|83/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-heal|p2a: Milotic|89/100|[from] item: Leftovers
+|-damage|p2a: Milotic|64/100|[from] Salt Cure
+|upkeep
+|turn|28
+|
+|t:|1758360777
+|switch|p2a: Rillaboom|Rillaboom, F|82/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Garganacl|Salt Cure|p2a: Rillaboom
+|-damage|p2a: Rillaboom|68/100
+|-start|p2a: Rillaboom|Salt Cure
+|
+|-heal|p2a: Rillaboom|75/100|[from] Grassy Terrain
+|-damage|p2a: Rillaboom|62/100|[from] Salt Cure
+|upkeep
+|turn|29
+|
+|t:|1758360786
+|move|p2a: Rillaboom|U-turn|p1a: Garganacl
+|-damage|p1a: Garganacl|82/100
+|
+|t:|1758360793
+|switch|p2a: Espeon|Espeon, F|100/100|[from] U-turn
+|-enditem|p2a: Espeon|Grassy Seed
+|-boost|p2a: Espeon|def|1|[from] item: Grassy Seed
+|move|p1a: Garganacl|Iron Defense|p1a: Garganacl
+|-boost|p1a: Garganacl|def|2
+|
+|-heal|p1a: Garganacl|88/100|[from] Grassy Terrain
+|-heal|p1a: Garganacl|95/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1758360804
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|move|p1a: Garganacl|Salt Cure|p2a: Espeon
+|-damage|p2a: Espeon|91/100
+|-start|p2a: Espeon|Salt Cure
+|
+|-heal|p2a: Espeon|97/100|[from] Grassy Terrain
+|-heal|p1a: Garganacl|100/100|[from] Grassy Terrain
+|-damage|p2a: Espeon|85/100|[from] Salt Cure
+|upkeep
+|turn|31
+|
+|t:|1758360821
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|move|p1a: Garganacl|Iron Defense|p1a: Garganacl
+|-boost|p1a: Garganacl|def|2
+|
+|-heal|p2a: Espeon|91/100|[from] Grassy Terrain
+|-damage|p2a: Espeon|79/100|[from] Salt Cure
+|upkeep
+|turn|32
+|
+|t:|1758360827
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|move|p1a: Garganacl|Body Press|p2a: Espeon
+|-resisted|p2a: Espeon
+|-damage|p2a: Espeon|56/100
+|
+|-heal|p2a: Espeon|62/100|[from] Grassy Terrain
+|-damage|p2a: Espeon|50/100|[from] Salt Cure
+|upkeep
+|turn|33
+|
+|t:|1758360832
+|move|p2a: Espeon|Morning Sun|p2a: Espeon
+|-heal|p2a: Espeon|99/100
+|move|p1a: Garganacl|Recover||[still]
+|-fail|p1a: Garganacl|heal
+|
+|-heal|p2a: Espeon|100/100|[from] Grassy Terrain
+|-damage|p2a: Espeon|88/100|[from] Salt Cure
+|upkeep
+|turn|34
+|
+|t:|1758360840
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|
+|-heal|p2a: Espeon|94/100|[from] Grassy Terrain
+|-damage|p2a: Espeon|82/100|[from] Salt Cure
+|upkeep
+|turn|35
+|
+|t:|1758360860
+|move|p2a: Espeon|Stored Power|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|1/100
+|move|p1a: Iron Treads|Knock Off|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|59/100
+|
+|-heal|p2a: Espeon|65/100|[from] Grassy Terrain
+|-heal|p1a: Iron Treads|7/100|[from] Grassy Terrain
+|-heal|p1a: Iron Treads|13/100|[from] item: Leftovers
+|-damage|p2a: Espeon|52/100|[from] Salt Cure
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|36
+|
+|t:|1758360869
+|move|p1a: Iron Treads|Stealth Rock|p2a: Espeon
+|move|p2a: Espeon|Stealth Rock|p1a: Iron Treads|[from] ability: Magic Bounce
+|-sidestart|p1: deibee|move: Stealth Rock
+|move|p2a: Espeon|Draining Kiss|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-heal|p2a: Espeon|63/100|[from] drain|[of] p1a: Iron Treads
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-damage|p2a: Espeon|50/100|[from] Salt Cure
+|upkeep
+|
+|t:|1758360872
+|switch|p1a: Zamazenta|Zamazenta|94/100 tox
+|turn|37
+|
+|t:|1758360878
+|-terastallize|p2a: Espeon|Fairy
+|move|p1a: Zamazenta|Crunch|p2a: Espeon
+|-resisted|p2a: Espeon
+|-damage|p2a: Espeon|42/100
+|move|p2a: Espeon|Draining Kiss|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-heal|p2a: Espeon|100/100|[from] drain|[of] p1a: Zamazenta
+|faint|p1a: Zamazenta
+|
+|-damage|p2a: Espeon|88/100|[from] Salt Cure
+|upkeep
+|
+|t:|1758360883
+|switch|p1a: Dragapult|Dragapult, F|100/100 par
+|-damage|p1a: Dragapult|88/100 par|[from] Stealth Rock
+|turn|38
+|l|☆deibee
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by models&baddies)
+|inactive|deibee has 30 seconds to reconnect!
+|inactive|deibee has 20 seconds to reconnect!
+|inactive|deibee has 15 seconds to reconnect!
+|inactive|deibee has 10 seconds to reconnect!
+|inactive|deibee has 5 seconds to reconnect!
+|-message|deibee lost due to inactivity.
+|
+|win|models&baddies
+|raw|deibee's rating: 1500 &rarr; <strong>1481</strong><br />(-19 for losing)
+|raw|models&amp;baddies's rating: 1524 &rarr; <strong>1543</strong><br />(+19 for winning)
+|l|☆models&baddies
+|player|p2|

@@ -1,0 +1,181 @@
+|j|☆QWASXC
+|j|☆ILikeMudkips16
+|t:|1758266603
+|gametype|singles
+|player|p1|QWASXC|skyla|1188
+|player|p2|ILikeMudkips16|ninjaboy|1163
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Weavile, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Iron Treads|
+|poke|p2|Quaquaval, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Kyurem|
+|poke|p2|Oricorio-Sensu, M|
+|poke|p2|Meloetta|
+|poke|p2|Garganacl, M|
+|teampreview
+|
+|t:|1758266618
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Ragebait|Raging Bolt|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-enditem|p2a: Ragebait|Booster Energy
+|-activate|p2a: Ragebait|ability: Protosynthesis|[fromitem]
+|-start|p2a: Ragebait|protosynthesisspa
+|turn|1
+|
+|t:|1758266643
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Ragebait|Thunderclap||[still]
+|-fail|p2a: Ragebait
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758266671
+|-end|p2a: Ragebait|Protosynthesis|[silent]
+|switch|p2a: Bird Is The Word|Oricorio-Sensu, M|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Bird Is The Word
+|-sidestart|p2: ILikeMudkips16|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758266680
+|move|p1a: Iron Treads|Ice Spinner|p2a: Bird Is The Word
+|-supereffective|p2a: Bird Is The Word
+|-damage|p2a: Bird Is The Word|30/100
+|move|p2a: Bird Is The Word|Quiver Dance|p2a: Bird Is The Word
+|-boost|p2a: Bird Is The Word|spa|1
+|-boost|p2a: Bird Is The Word|spd|1
+|-boost|p2a: Bird Is The Word|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758266690
+|move|p1a: Iron Treads|Ice Spinner|p2a: Bird Is The Word
+|-supereffective|p2a: Bird Is The Word
+|-damage|p2a: Bird Is The Word|0 fnt
+|faint|p2a: Bird Is The Word
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758266696
+|switch|p2a: zirk|Garganacl, M|100/100
+|-damage|p2a: zirk|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1758266704
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|move|p2a: zirk|Salt Cure|p1a: Barraskewda
+|-damage|p1a: Barraskewda|74/100
+|-start|p1a: Barraskewda|Salt Cure
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: zirk|94/100|[from] item: Leftovers
+|-damage|p1a: Barraskewda|50/100|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1758266712
+|move|p2a: zirk|Protect|p2a: zirk
+|-singleturn|p2a: zirk|Protect
+|move|p1a: Barraskewda|Flip Turn|p2a: zirk
+|-activate|p2a: zirk|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: zirk|100/100|[from] item: Leftovers
+|-damage|p1a: Barraskewda|25/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1758266721
+|move|p1a: Barraskewda|Flip Turn|p2a: zirk
+|-supereffective|p2a: zirk
+|-damage|p2a: zirk|49/100
+|
+|t:|1758266727
+|switch|p1a: Araquanid|Araquanid, M, shiny|100/100|[from] Flip Turn
+|move|p2a: zirk|Recover|p2a: zirk
+|-heal|p2a: zirk|99/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: zirk|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758266735
+|-terastallize|p1a: Araquanid|Water
+|move|p2a: zirk|Protect|p2a: zirk
+|-singleturn|p2a: zirk|Protect
+|move|p1a: Araquanid|Liquidation|p2a: zirk
+|-activate|p2a: zirk|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1758266745
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|switch|p2a: McChicken|Quaquaval, M|100/100
+|-damage|p2a: McChicken|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758266754
+|move|p2a: McChicken|Rapid Spin|p1a: Pelipper
+|-damage|p1a: Pelipper|86/100
+|-boost|p2a: McChicken|spe|1
+|-sideend|p2: ILikeMudkips16|Stealth Rock|[from] move: Rapid Spin|[of] p2a: McChicken
+|move|p1a: Pelipper|Hurricane|p2a: McChicken
+|-supereffective|p2a: McChicken
+|-damage|p2a: McChicken|27/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|l|☆ILikeMudkips16
+|player|p2|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by QWASXC)
+|inactive|ILikeMudkips16 has 30 seconds to reconnect!
+|inactive|ILikeMudkips16 has 20 seconds to reconnect!
+|inactive|ILikeMudkips16 has 15 seconds to reconnect!
+|inactive|ILikeMudkips16 has 10 seconds to reconnect!
+|inactive|ILikeMudkips16 has 5 seconds to reconnect!
+|-message|ILikeMudkips16 lost due to inactivity.
+|
+|win|QWASXC
+|raw|QWASXC's rating: 1188 &rarr; <strong>1211</strong><br />(+23 for winning)
+|raw|ILikeMudkips16's rating: 1163 &rarr; <strong>1140</strong><br />(-23 for losing)
+|l|☆QWASXC
+|player|p1|

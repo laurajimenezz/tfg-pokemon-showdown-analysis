@@ -1,0 +1,176 @@
+|j|☆steezy1
+|j|☆Wyckah
+|t:|1760867882
+|gametype|singles
+|player|p1|steezy1|1|1294
+|player|p2|Wyckah|emmet|1284
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Quaquaval, F|
+|poke|p1|Rotom-Mow|
+|poke|p1|Excadrill, M|
+|poke|p1|Darkrai|
+|poke|p1|Kyurem|
+|poke|p1|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Walking Wake|
+|poke|p2|Ninetales, F|
+|poke|p2|Ceruledge, M|
+|teampreview
+|
+|t:|1760867891
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1760867911
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Ceruledge
+|-damage|p2a: Ceruledge|68/100
+|
+|t:|1760867921
+|switch|p1a: Darkrai|Darkrai|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760867946
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Darkrai|Dark Pulse|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|73/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760867964
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Great Tusk|Headlong Rush|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760867977
+|move|p2a: Great Tusk|Temper Flare|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-enditem|p1a: Gholdengo|Air Balloon
+|faint|p1a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760867986
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|5
+|
+|t:|1760867996
+|move|p1a: Rotom|Trick|p2a: Great Tusk
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Great Tusk
+|-item|p2a: Great Tusk|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Assault Vest|[from] move: Trick
+|move|p2a: Great Tusk|Temper Flare|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760868002
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|turn|6
+|
+|t:|1760868010
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Quaquaval|Aqua Step|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|93/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760868027
+|move|p1a: Quaquaval|Bulk Up|p1a: Quaquaval
+|-boost|p1a: Quaquaval|atk|1
+|-boost|p1a: Quaquaval|def|1
+|move|p2a: Raging Bolt|Solar Beam||[still]
+|-prepare|p2a: Raging Bolt|Solar Beam
+|-anim|p2a: Raging Bolt|Solar Beam|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|-damage|p2a: Raging Bolt|83/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760868036
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|8
+|
+|t:|1760868046
+|-terastallize|p2a: Raging Bolt|Flying
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|76/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|-damage|p2a: Raging Bolt|73/100|[from] item: Life Orb
+|
+|-weather|none
+|-end|p2a: Raging Bolt|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1760868056
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|-damage|p2a: Raging Bolt|63/100|[from] item: Life Orb
+|
+|upkeep
+|-message|steezy1 forfeited.
+|
+|win|Wyckah
+|raw|steezy1's rating: 1294 &rarr; <strong>1268</strong><br />(-26 for losing)
+|raw|Wyckah's rating: 1284 &rarr; <strong>1310</strong><br />(+26 for winning)
+|l|☆steezy1
+|player|p1|
+|l|☆Wyckah
+|player|p2|

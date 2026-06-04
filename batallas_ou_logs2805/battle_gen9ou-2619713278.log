@@ -1,0 +1,325 @@
+|j|☆yaoibro445
+|j|☆Volga123
+|t:|1779952921
+|gametype|singles
+|player|p1|yaoibro445|101|1411
+|player|p2|Volga123|cynthia|1379
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meloetta|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Kyurem|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Cinccino, M|
+|poke|p2|Milotic, F|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Houndstone, M|
+|poke|p2|Lurantis, F|
+|teampreview
+|j| testingrainteam1
+|
+|t:|1779952941
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Meloetta|Meloetta|100/100
+|switch|p2a: Cinccino|Cinccino, M|100/100
+|turn|1
+|
+|t:|1779952961
+|move|p2a: Cinccino|Tail Slap|p1a: Meloetta
+|-damage|p1a: Meloetta|81/100
+|-damage|p1a: Meloetta|62/100
+|-damage|p1a: Meloetta|42/100
+|-damage|p1a: Meloetta|22/100
+|-hitcount|p1a: Meloetta|4
+|move|p1a: Meloetta|Relic Song|p2a: Cinccino
+|-damage|p2a: Cinccino|35/100
+|-formechange|p1a: Meloetta|Meloetta-Pirouette|[msg]
+|
+|upkeep
+|turn|2
+|
+|t:|1779952978
+|switch|p2a: Houndstone|Houndstone, M|100/100
+|move|p1a: Meloetta|Close Combat|p2a: Houndstone
+|-immune|p2a: Houndstone
+|
+|upkeep
+|turn|3
+|
+|t:|1779952997
+|move|p1a: Meloetta|Thunder|p2a: Houndstone|[miss]
+|-miss|p1a: Meloetta|p2a: Houndstone
+|move|p2a: Houndstone|Body Press|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|upkeep
+|l| testingrainteam1
+|j| testingrainteam1
+|
+|t:|1779953012
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|4
+|
+|t:|1779953021
+|switch|p2a: Milotic|Milotic, F|100/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|5
+|
+|t:|1779953035
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Milotic|Flip Turn|p1a: Gholdengo
+|-damage|p1a: Gholdengo|86/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|t:|1779953038
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|6
+|
+|t:|1779953067
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-terastallize|p2a: Arcanine|Fire
+|move|p2a: Arcanine|Flare Blitz|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1779953090
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|7
+|
+|t:|1779953098
+|switch|p2a: Houndstone|Houndstone, M|100/100
+|move|p1a: Great Tusk|Earthquake|p2a: Houndstone
+|-damage|p2a: Houndstone|51/100
+|
+|upkeep
+|turn|8
+|
+|t:|1779953111
+|move|p1a: Great Tusk|Stealth Rock|p2a: Houndstone
+|-sidestart|p2: Volga123|move: Stealth Rock
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1779953120
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|switch|p2a: Lurantis|Lurantis, F, shiny|100/100
+|-damage|p2a: Lurantis|88/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Lurantis|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779953133
+|switch|p2a: Cinccino|Cinccino, M|35/100
+|-damage|p2a: Cinccino|22/100|[from] Stealth Rock
+|move|p1a: Ninetales|Blizzard|p2a: Cinccino
+|-damage|p2a: Cinccino|0 fnt
+|faint|p2a: Cinccino
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779953141
+|switch|p2a: Arcanine|Arcanine-Hisui, F, tera:Fire|100/100
+|-damage|p2a: Arcanine|76/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1779953147
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: yaoibro445|move: Aurora Veil
+|move|p2a: Arcanine|Flare Blitz|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|8/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1779953168
+|move|p1a: Ninetales|Moonblast|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|60/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779953176
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|13
+|
+|t:|1779953182
+|switch|p2a: Milotic|Milotic, F|100/100
+|-damage|p2a: Milotic|88/100|[from] Stealth Rock
+|move|p1a: Kyurem|Earth Power|p2a: Milotic
+|-damage|p2a: Milotic|73/100
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1779953198
+|move|p1a: Kyurem|Freeze-Dry|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|39/100
+|move|p2a: Milotic|Alluring Voice|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|78/100
+|
+|upkeep
+|turn|15
+|
+|t:|1779953205
+|move|p1a: Kyurem|Freeze-Dry|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|7/100
+|move|p2a: Milotic|Alluring Voice|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|54/100
+|
+|upkeep
+|turn|16
+|
+|t:|1779953218
+|move|p1a: Kyurem|Earth Power|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|upkeep
+|
+|t:|1779953232
+|switch|p2a: Houndstone|Houndstone, M|51/100
+|-damage|p2a: Houndstone|39/100|[from] Stealth Rock
+|turn|17
+|j| samurajen
+|
+|t:|1779953241
+|move|p2a: Houndstone|Shadow Sneak|p1a: Kyurem
+|-damage|p1a: Kyurem|47/100
+|move|p1a: Kyurem|Blizzard|p2a: Houndstone
+|-damage|p2a: Houndstone|0 fnt
+|faint|p2a: Houndstone
+|
+|upkeep
+|
+|t:|1779953247
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1779953259
+|move|p1a: Kyurem|Earth Power|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|51/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|-sideend|p1: yaoibro445|move: Aurora Veil
+|upkeep
+|turn|19
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Volga123)
+|
+|t:|1779953300
+|switch|p1a: Gholdengo|Gholdengo|86/100
+|move|p2a: Clodsire|Low Kick|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|20
+|
+|t:|1779953309
+|-terastallize|p1a: Gholdengo|Fairy
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Clodsire|Earthquake|p1a: Gholdengo
+|-damage|p1a: Gholdengo|40/100
+|
+|upkeep
+|turn|21
+|
+|t:|1779953316
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|90/100
+|move|p2a: Clodsire|Earthquake|p1a: Gholdengo
+|-damage|p1a: Gholdengo|44/100
+|
+|upkeep
+|turn|22
+|c|☆yaoibro445|what is going on with this clod
+|inactive|yaoibro445 has 120 seconds left.
+|
+|t:|1779953357
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|94/100
+|move|p2a: Clodsire|Gunk Shot|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1779953366
+|switch|p1a: Great Tusk|Great Tusk|94/100 brn
+|turn|23
+|
+|t:|1779953370
+|switch|p2a: Lurantis|Lurantis, F, shiny|94/100
+|-damage|p2a: Lurantis|82/100|[from] Stealth Rock
+|move|p1a: Great Tusk|Earthquake|p2a: Lurantis
+|-resisted|p2a: Lurantis
+|-damage|p2a: Lurantis|71/100
+|
+|-heal|p2a: Lurantis|77/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|88/100 brn|[from] brn
+|upkeep
+|turn|24
+|-message|yaoibro445 forfeited.
+|
+|win|Volga123
+|raw|yaoibro445's rating: 1411 &rarr; <strong>1389</strong><br />(-22 for losing)
+|raw|Volga123's rating: 1379 &rarr; <strong>1401</strong><br />(+22 for winning)
+|l|☆yaoibro445
+|player|p1|
+|l|☆Volga123
+|player|p2|
+|l| testingrainteam1

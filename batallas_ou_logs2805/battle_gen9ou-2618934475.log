@@ -1,0 +1,418 @@
+|j|☆pscplayer
+|j|☆pscopp
+|t:|1779864034
+|gametype|singles
+|player|p1|pscplayer|cynthia|
+|player|p2|pscopp|102|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, M|
+|poke|p1|Kommo-o, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Kyurem|
+|poke|p1|Iron Treads|
+|poke|p1|Iron Crown|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Treads|
+|poke|p2|Moltres|
+|poke|p2|Zamazenta-*|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Garganacl, F|
+|teampreview
+|
+|t:|1779864067
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|c|☆pscplayer|hf
+|
+|t:|1779864150
+|move|p1a: Iron Treads|Stealth Rock|p2a: Zamazenta
+|-sidestart|p2: pscopp|move: Stealth Rock
+|move|p2a: Zamazenta|Close Combat|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779864226
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|2
+|
+|t:|1779864303
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|75/100
+|-unboost|p2a: Moltres|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1779864444
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Moltres|U-turn|p1a: Kingambit
+|-damage|p1a: Kingambit|88/100
+|
+|t:|1779864447
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|-damage|p2a: Zamazenta|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Kingambit|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1779864541
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|move|p2a: Zamazenta|Close Combat|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|60/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1779864559
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|98/100|[from] Stealth Rock
+|move|p1a: Iron Valiant|Moonblast|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|71/100
+|
+|upkeep
+|turn|6
+|
+|t:|1779864658
+|move|p1a: Iron Valiant|Focus Blast|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779864660
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|-damage|p2a: Samurott|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1779864672
+|move|p2a: Samurott|Razor Shell|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779864775
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|turn|8
+|
+|t:|1779864793
+|move|p2a: Samurott|Razor Shell|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|79/100
+|-unboost|p1a: Kommo-o|def|1
+|move|p1a: Kommo-o|Substitute|p1a: Kommo-o
+|-start|p1a: Kommo-o|Substitute
+|-damage|p1a: Kommo-o|54/100
+|
+|-heal|p1a: Kommo-o|60/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1779864826
+|switch|p2a: Moltres|Moltres|75/100
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|27/100
+|
+|-heal|p1a: Kommo-o|33/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779864936
+|move|p1a: Kommo-o|Shadow Claw|p2a: Moltres
+|-damage|p2a: Moltres|57/100
+|move|p2a: Moltres|Roar|p1a: Kommo-o
+|-immune|p1a: Kommo-o|[from] ability: Soundproof
+|
+|-heal|p1a: Kommo-o|39/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1779864954
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|move|p1a: Kommo-o|Shadow Claw|p2a: Garganacl
+|-damage|p2a: Garganacl|79/100
+|
+|-heal|p1a: Kommo-o|46/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|85/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779864980
+|-terastallize|p2a: Garganacl|Water
+|move|p1a: Kommo-o|Drain Punch|p2a: Garganacl
+|-damage|p2a: Garganacl|56/100
+|-heal|p1a: Kommo-o|62/100|[from] drain|[of] p2a: Garganacl
+|move|p2a: Garganacl|Salt Cure|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-crit|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Substitute|[damage]
+|
+|-heal|p1a: Kommo-o|69/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|62/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1779865018
+|move|p1a: Kommo-o|Drain Punch|p2a: Garganacl
+|-damage|p2a: Garganacl|33/100
+|-heal|p1a: Kommo-o|85/100|[from] drain|[of] p2a: Garganacl
+|move|p2a: Garganacl|Salt Cure|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Substitute|[damage]
+|
+|-heal|p1a: Kommo-o|91/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|40/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1779865035
+|move|p1a: Kommo-o|Drain Punch|p2a: Garganacl
+|-damage|p2a: Garganacl|9/100
+|-heal|p1a: Kommo-o|100/100|[from] drain|[of] p2a: Garganacl
+|move|p2a: Garganacl|Salt Cure|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Substitute|[damage]
+|
+|-heal|p2a: Garganacl|15/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1779865045
+|switch|p2a: Moltres|Moltres|57/100
+|move|p1a: Kommo-o|Drain Punch|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|43/100
+|
+|upkeep
+|turn|16
+|
+|t:|1779865062
+|move|p1a: Kommo-o|Shadow Claw|p2a: Moltres
+|-damage|p2a: Moltres|25/100
+|move|p2a: Moltres|Flamethrower|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-end|p1a: Kommo-o|Substitute
+|
+|upkeep
+|turn|17
+|
+|t:|1779865075
+|move|p1a: Kommo-o|Shadow Claw|p2a: Moltres
+|-damage|p2a: Moltres|8/100
+|-status|p1a: Kommo-o|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|move|p2a: Moltres|Flamethrower|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|88/100 brn
+|
+|-heal|p1a: Kommo-o|95/100 brn|[from] item: Leftovers
+|-damage|p1a: Kommo-o|88/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1779865090
+|switch|p2a: Zamazenta|Zamazenta|94/100
+|-damage|p2a: Zamazenta|88/100|[from] Stealth Rock
+|move|p1a: Kommo-o|Drain Punch|p2a: Zamazenta
+|-damage|p2a: Zamazenta|67/100
+|-heal|p1a: Kommo-o|98/100 brn|[from] drain|[of] p2a: Zamazenta
+|
+|-heal|p1a: Kommo-o|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Kommo-o|94/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1779865119
+|move|p1a: Kommo-o|Drain Punch|p2a: Zamazenta
+|-damage|p2a: Zamazenta|47/100
+|-heal|p1a: Kommo-o|100/100 brn|[from] drain|[of] p2a: Zamazenta
+|move|p2a: Zamazenta|Ice Fang|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|57/100 brn
+|
+|-heal|p1a: Kommo-o|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Kommo-o|57/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1779865145
+|move|p1a: Kommo-o|Drain Punch|p2a: Zamazenta
+|-damage|p2a: Zamazenta|28/100
+|-heal|p1a: Kommo-o|66/100 brn|[from] drain|[of] p2a: Zamazenta
+|move|p2a: Zamazenta|Ice Fang|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|24/100 brn
+|
+|-heal|p1a: Kommo-o|30/100 brn|[from] item: Leftovers
+|-damage|p1a: Kommo-o|24/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1779865162
+|move|p1a: Kommo-o|Drain Punch|p2a: Zamazenta
+|-damage|p2a: Zamazenta|7/100
+|-heal|p1a: Kommo-o|33/100 brn|[from] drain|[of] p2a: Zamazenta
+|move|p2a: Zamazenta|Close Combat|p1a: Kommo-o
+|-crit|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|t:|1779865187
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespe
+|turn|22
+|
+|t:|1779865212
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-hitcount|p2: Zamazenta|1
+|
+|upkeep
+|
+|t:|1779865214
+|switch|p2a: Samurott|Samurott-Hisui, F|88/100
+|-damage|p2a: Samurott|76/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1779865233
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Iron Crown|Focus Blast|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|24
+|
+|t:|1779865272
+|move|p1a: Iron Crown|Psychic Noise|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|64/100
+|-start|p2a: Gholdengo|move: Heal Block
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Thunderbolt|p1a: Iron Crown
+|-damage|p1a: Iron Crown|67/100
+|
+|upkeep
+|turn|25
+|
+|t:|1779865294
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Kingambit|Kingambit, M|94/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|move|p2a: Gholdengo|Thunderbolt|p1a: Kingambit
+|-damage|p1a: Kingambit|56/100
+|
+|-heal|p1a: Kingambit|62/100|[from] item: Leftovers
+|-end|p2a: Gholdengo|move: Heal Block
+|upkeep
+|turn|26
+|
+|t:|1779865308
+|move|p1a: Kingambit|Sucker Punch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-heal|p1a: Kingambit|68/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779865310
+|switch|p2a: Moltres|Moltres|8/100
+|turn|27
+|
+|t:|1779865328
+|move|p1a: Kingambit|Sucker Punch|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|-heal|p1a: Kingambit|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779865331
+|switch|p2a: Garganacl|Garganacl, F, tera:Water|15/100
+|-damage|p2a: Garganacl|3/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1779865340
+|move|p1a: Kingambit|Iron Head|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-heal|p1a: Kingambit|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779865342
+|switch|p2a: Samurott|Samurott-Hisui, F|76/100
+|-damage|p2a: Samurott|63/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1779865367
+|move|p2a: Samurott|Ceaseless Edge|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|60/100
+|-sidestart|p1: pscplayer|Spikes
+|move|p1a: Kingambit|Low Kick|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|win|pscplayer
+|c|☆pscplayer|gg

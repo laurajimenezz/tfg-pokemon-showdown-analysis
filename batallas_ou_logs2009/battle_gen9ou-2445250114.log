@@ -1,0 +1,230 @@
+|j|☆vryfast
+|j|☆mastervelyk2
+|t:|1758319510
+|gametype|singles
+|player|p1|vryfast|169|1329
+|player|p2|mastervelyk2|iris|1361
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blastoise, F|
+|poke|p1|Donphan, M|
+|poke|p1|Masquerain, F|
+|poke|p1|Pelipper, M|
+|poke|p1|Floatzel, M|
+|poke|p1|Basculegion-F, F|
+|poke|p2|Polteageist|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Valiant|
+|poke|p2|Dragapult, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mastervelyk2)
+|
+|t:|1758319516
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Donphan|Donphan, M|100/100
+|switch|p2a: ICBM|Iron Treads, shiny|100/100
+|-enditem|p2a: ICBM|Booster Energy
+|-activate|p2a: ICBM|ability: Quark Drive|[fromitem]
+|-start|p2a: ICBM|quarkdrivespe
+|turn|1
+|
+|t:|1758319523
+|move|p2a: ICBM|Stealth Rock|p1a: Donphan
+|-sidestart|p1: vryfast|move: Stealth Rock
+|move|p1a: Donphan|Earthquake|p2a: ICBM
+|-supereffective|p2a: ICBM
+|-damage|p2a: ICBM|7/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758319535
+|move|p2a: ICBM|Steel Beam|p1a: Donphan
+|-damage|p1a: Donphan|37/100
+|-damage|p2a: ICBM|0 fnt|[from] steelbeam
+|faint|p2a: ICBM
+|-end|p2a: ICBM|Quark Drive|[silent]
+|move|p1a: Donphan|Rapid Spin|p2: ICBM|[notarget]
+|-fail|p1a: Donphan
+|
+|upkeep
+|
+|t:|1758319540
+|switch|p2a: HTTP 418|Polteageist, shiny|100/100
+|turn|3
+|
+|t:|1758319547
+|move|p2a: HTTP 418|Shell Smash|p2a: HTTP 418
+|-unboost|p2a: HTTP 418|def|1
+|-unboost|p2a: HTTP 418|spd|1
+|-boost|p2a: HTTP 418|atk|2
+|-boost|p2a: HTTP 418|spa|2
+|-boost|p2a: HTTP 418|spe|2
+|move|p1a: Donphan|Knock Off|p2a: HTTP 418
+|-supereffective|p2a: HTTP 418
+|-enditem|p2a: HTTP 418|Focus Sash
+|-damage|p2a: HTTP 418|1/100
+|-ability|p2a: HTTP 418|Weak Armor|boost
+|-unboost|p2a: HTTP 418|def|1
+|-boost|p2a: HTTP 418|spe|2
+|
+|upkeep
+|turn|4
+|
+|t:|1758319561
+|switch|p1a: Blastoise|Blastoise, F, shiny|100/100
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|move|p2a: HTTP 418|Stored Power|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+|
+|t:|1758319567
+|switch|p1a: Donphan|Donphan, M|37/100
+|-damage|p1a: Donphan|31/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1758319575
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-damage|p1a: Pelipper|75/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: HTTP 418|Stored Power|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758319586
+|switch|p1a: Donphan|Donphan, M|31/100
+|-damage|p1a: Donphan|25/100|[from] Stealth Rock
+|turn|6
+|-enditem|p1a: Donphan|Custap Berry|[eat]
+|-activate|p1a: Donphan|item: Custap Berry|[consumed]
+|
+|t:|1758319592
+|move|p1a: Donphan|Knock Off|p2a: HTTP 418
+|-supereffective|p2a: HTTP 418
+|-damage|p2a: HTTP 418|0 fnt
+|faint|p2a: HTTP 418
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758319602
+|switch|p2a: Canonical murderer|Ogerpon-Wellspring, F|100/100
+|turn|7
+|
+|t:|1758319608
+|switch|p1a: Masquerain|Masquerain, F, shiny|100/100
+|-damage|p1a: Masquerain|50/100|[from] Stealth Rock
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Canonical murderer|atk|1
+|-enditem|p1a: Masquerain|Sitrus Berry|[eat]
+|-heal|p1a: Masquerain|75/100|[from] item: Sitrus Berry
+|move|p2a: Canonical murderer|Swords Dance|p2a: Canonical murderer
+|-boost|p2a: Canonical murderer|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758319620
+|move|p2a: Canonical murderer|Ivy Cudgel|p1a: Masquerain|[anim] Ivy Cudgel Water
+|-damage|p1a: Masquerain|0 fnt
+|faint|p1a: Masquerain
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758319624
+|switch|p1a: Donphan|Donphan, M|25/100
+|-damage|p1a: Donphan|18/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1758319629
+|move|p2a: Canonical murderer|Swords Dance|p2a: Canonical murderer
+|-boost|p2a: Canonical murderer|atk|2
+|move|p1a: Donphan|Rapid Spin|p2a: Canonical murderer
+|-damage|p2a: Canonical murderer|77/100
+|-boost|p1a: Donphan|spe|1
+|-sideend|p1: vryfast|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Donphan
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758319633
+|move|p2a: Canonical murderer|Power Whip|p1a: Donphan|[miss]
+|-miss|p2a: Canonical murderer|p1a: Donphan
+|move|p1a: Donphan|Stealth Rock|p2a: Canonical murderer
+|-sidestart|p2: mastervelyk2|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758319641
+|move|p2a: Canonical murderer|Power Whip|p1a: Donphan|[miss]
+|-miss|p2a: Canonical murderer|p1a: Donphan
+|move|p1a: Donphan|Knock Off|p2a: Canonical murderer
+|-damage|p2a: Canonical murderer|48/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1758319647
+|move|p2a: Canonical murderer|Ivy Cudgel|p1a: Donphan|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Donphan
+|-crit|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-weather|none
+|upkeep
+|
+|t:|1758319653
+|switch|p1a: Basculegion|Basculegion-F, F, shiny|100/100
+|turn|13
+|
+|t:|1758319659
+|move|p2a: Canonical murderer|Power Whip|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|upkeep
+|
+|t:|1758319662
+|switch|p1a: Floatzel|Floatzel, M|100/100
+|turn|14
+|
+|t:|1758319665
+|move|p2a: Canonical murderer|Power Whip|p1a: Floatzel
+|-supereffective|p1a: Floatzel
+|-damage|p1a: Floatzel|0 fnt
+|faint|p1a: Floatzel
+|
+|win|mastervelyk2
+|raw|vryfast's rating: 1329 &rarr; <strong>1311</strong><br />(-18 for losing)
+|raw|mastervelyk2's rating: 1361 &rarr; <strong>1379</strong><br />(+18 for winning)
+|l|☆vryfast
+|player|p1|
+|l|☆mastervelyk2
+|player|p2|

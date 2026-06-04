@@ -1,0 +1,354 @@
+|j|☆tomatoparis
+|j|☆Gastrodon Jones
+|t:|1759043782
+|gametype|singles
+|player|p1|tomatoparis|170|1475
+|player|p2|Gastrodon Jones|101|1493
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Kingdra, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Dondozo, F|
+|poke|p1|Ludicolo, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Walking Wake|
+|poke|p2|Raging Bolt|
+|poke|p2|Great Tusk|
+|poke|p2|Alomomola, M|
+|poke|p2|Charizard, F|
+|teampreview
+|
+|t:|1759043817
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1759043826
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1759043836
+|move|p1a: Pelipper|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|95/100
+|
+|t:|1759043841
+|switch|p1a: Ludicolo|Ludicolo, F|100/100|[from] U-turn
+|move|p2a: Alomomola|Mirror Coat||[still]
+|-fail|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1759043849
+|move|p1a: Ludicolo|Giga Drain|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|56/100
+|move|p2a: Alomomola|Mirror Coat|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|faint|p1a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759043854
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|turn|4
+|
+|t:|1759043870
+|-terastallize|p2a: Alomomola|Fairy
+|move|p1a: Kingdra|Wave Crash|p2a: Alomomola
+|-damage|p2a: Alomomola|9/100
+|-damage|p1a: Kingdra|75/100|[from] Recoil
+|-damage|p1a: Kingdra|65/100|[from] item: Life Orb
+|move|p2a: Alomomola|Body Slam|p1a: Kingdra
+|-damage|p1a: Kingdra|47/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1759043884
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Kingdra|Surf|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|27/100
+|-damage|p1a: Kingdra|37/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1759043902
+|switch|p2a: Charizard|Charizard, F|100/100
+|move|p1a: Kingdra|Draco Meteor|p2a: Charizard
+|-damage|p2a: Charizard|1/100
+|-unboost|p1a: Kingdra|spa|2
+|-damage|p1a: Kingdra|27/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|0 fnt|[from] ability: Solar Power|[of] p2a: Charizard
+|faint|p2a: Charizard
+|upkeep
+|
+|t:|1759043918
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|7
+|
+|t:|1759043925
+|move|p2a: Walking Wake|Hydro Steam|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1759043931
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-end|p2a: Walking Wake|Protosynthesis
+|turn|8
+|
+|t:|1759043936
+|move|p2a: Walking Wake|Hydro Steam|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|41/100
+|move|p1a: Pelipper|U-turn|p2a: Walking Wake
+|-damage|p2a: Walking Wake|92/100
+|
+|t:|1759043943
+|switch|p1a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1759043951
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M|27/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Zamazenta|Psychic Fangs|p2a: Torkoal
+|-damage|p2a: Torkoal|4/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1759043964
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Zamazenta|Psychic Fangs|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1759043974
+|move|p1a: Zamazenta|Psychic Fangs|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1759043984
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|12
+|
+|t:|1759043991
+|move|p1a: Zamazenta|Psychic Fangs|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|64/100
+|move|p2a: Raging Bolt|Volt Switch|p1a: Zamazenta
+|-damage|p1a: Zamazenta|21/100
+|
+|t:|1759043999
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|92/100|[from] Volt Switch
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1759044014
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1759044023
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|64/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Dondozo|Wave Crash|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|53/100
+|-damage|p1a: Dondozo|52/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1759044040
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|-unboost|p2a: Raging Bolt|spa|2
+|faint|p1a: Dondozo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1759044044
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|16
+|
+|t:|1759044053
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Alomomola|Alomomola, M, tera:Fairy|42/100
+|-terastallize|p1a: Barraskewda|Ground
+|move|p1a: Barraskewda|Close Combat|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|21/100
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|t:|1759044077
+|move|p1a: Barraskewda|Close Combat|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1759044087
+|switch|p2a: Torkoal|Torkoal, M|4/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|18
+|
+|t:|1759044104
+|move|p1a: Barraskewda|Close Combat|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1759044112
+|switch|p2a: Walking Wake|Walking Wake|92/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|19
+|
+|t:|1759044118
+|switch|p1a: Pelipper|Pelipper, F|41/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-end|p2a: Walking Wake|Protosynthesis
+|move|p2a: Walking Wake|Hydro Steam|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759044120
+|switch|p1a: Zamazenta|Zamazenta|21/100
+|turn|20
+|
+|t:|1759044132
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|53/100
+|move|p1a: Zamazenta|Close Combat|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759044143
+|switch|p2a: Walking Wake|Walking Wake|92/100
+|turn|21
+|
+|t:|1759044148
+|move|p1a: Zamazenta|Close Combat|p2a: Walking Wake
+|-damage|p2a: Walking Wake|2/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Walking Wake|Hydro Steam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Gastrodon Jones|Gg
+|
+|t:|1759044155
+|switch|p1a: Barraskewda|Barraskewda, F, tera:Ground|100/100
+|turn|22
+|
+|t:|1759044162
+|move|p1a: Barraskewda|Close Combat|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|win|tomatoparis
+|raw|tomatoparis's rating: 1475 &rarr; <strong>1496</strong><br />(+21 for winning)
+|raw|Gastrodon Jones's rating: 1493 &rarr; <strong>1472</strong><br />(-21 for losing)
+|l|☆Gastrodon Jones
+|player|p2|
+|l|☆tomatoparis
+|player|p1|

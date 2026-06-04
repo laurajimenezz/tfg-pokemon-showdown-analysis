@@ -1,0 +1,507 @@
+|j|☆CaiusPupus
+|j|☆DonphanPPF
+|t:|1760338581
+|gametype|singles
+|player|p1|CaiusPupus|koga|1204
+|player|p2|DonphanPPF|265|1212
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Raikou|
+|poke|p1|Torkoal, M|
+|poke|p1|Primarina, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Great Tusk|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Skarmory, M|
+|poke|p2|Scizor, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Vaporeon, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CaiusPupus)
+|
+|t:|1760338590
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Raikou|Raikou|100/100
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1760338609
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: GetClapped|Raging Bolt|100/100
+|-enditem|p2a: GetClapped|Booster Energy
+|-activate|p2a: GetClapped|ability: Protosynthesis|[fromitem]
+|-start|p2a: GetClapped|protosynthesisspa
+|move|p1a: Raikou|Thunderbolt|p2a: GetClapped
+|-resisted|p2a: GetClapped
+|-damage|p2a: GetClapped|92/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760338623
+|switch|p1a: Primarina|Primarina, M|100/100
+|move|p2a: GetClapped|Draco Meteor|p1a: Primarina
+|-immune|p1a: Primarina
+|
+|upkeep
+|turn|3
+|
+|t:|1760338641
+|switch|p1a: dieu de l'OU|Great Tusk|100/100
+|move|p2a: GetClapped|Thunderbolt|p1a: dieu de l'OU
+|-immune|p1a: dieu de l'OU
+|
+|upkeep
+|turn|4
+|
+|t:|1760338652
+|-end|p2a: GetClapped|Protosynthesis|[silent]
+|switch|p2a: Skarmory|Skarmory, M, shiny|100/100
+|move|p1a: dieu de l'OU|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory
+|
+|upkeep
+|turn|5
+|
+|t:|1760338661
+|move|p1a: dieu de l'OU|Knock Off|p2a: Skarmory
+|-damage|p2a: Skarmory|79/100
+|-enditem|p2a: Skarmory|Leftovers|[from] move: Knock Off|[of] p1a: dieu de l'OU
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|
+|upkeep
+|turn|6
+|
+|t:|1760338669
+|-end|p1a: dieu de l'OU|Protosynthesis|[silent]
+|switch|p1a: tortue chaude|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: tortue chaude
+|move|p2a: Skarmory|Body Press|p1a: tortue chaude
+|-crit|p1a: tortue chaude
+|-damage|p1a: tortue chaude|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760338690
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: tortue chaude|Lava Plume|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|87/100
+|-status|p2a: Vaporeon|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|93/100 brn|[from] item: Leftovers
+|-damage|p2a: Vaporeon|87/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1760338700
+|switch|p1a: Suicune?|Walking Wake|100/100
+|-activate|p1a: Suicune?|ability: Protosynthesis
+|-start|p1a: Suicune?|protosynthesisspe
+|move|p2a: Vaporeon|Flip Turn|p1a: Suicune?
+|-resisted|p1a: Suicune?
+|-damage|p1a: Suicune?|99/100
+|
+|t:|1760338706
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|100/100|[from] Flip Turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-end|p1a: Suicune?|Protosynthesis
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune?|94/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1760338715
+|-end|p1a: Suicune?|Protosynthesis|[silent]
+|switch|p1a: Oiseau de Fer|Corviknight, M|100/100
+|move|p2a: Tyranitar|Knock Off|p1a: Oiseau de Fer
+|-damage|p1a: Oiseau de Fer|67/100
+|-damage|p2a: Tyranitar|84/100|[from] item: Rocky Helmet|[of] p1a: Oiseau de Fer
+|-enditem|p1a: Oiseau de Fer|Rocky Helmet|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760338724
+|move|p1a: Oiseau de Fer|Roost|p1a: Oiseau de Fer
+|-heal|p1a: Oiseau de Fer|100/100
+|-singleturn|p1a: Oiseau de Fer|move: Roost
+|move|p2a: Tyranitar|Stone Edge|p1a: Oiseau de Fer
+|-resisted|p1a: Oiseau de Fer
+|-damage|p1a: Oiseau de Fer|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760338734
+|move|p1a: Oiseau de Fer|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|60/100
+|
+|t:|1760338738
+|switch|p1a: dieu de l'OU|Great Tusk|100/100|[from] U-turn
+|move|p2a: Tyranitar|Stone Edge|p1a: dieu de l'OU
+|-resisted|p1a: dieu de l'OU
+|-damage|p1a: dieu de l'OU|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1760338747
+|switch|p2a: Skarmory|Skarmory, M, shiny|79/100
+|move|p1a: dieu de l'OU|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|74/100
+|-boost|p1a: dieu de l'OU|spe|1
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1760338755
+|move|p1a: dieu de l'OU|Body Press|p2a: Skarmory
+|-damage|p2a: Skarmory|36/100
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|
+|upkeep
+|turn|14
+|
+|t:|1760338768
+|-end|p1a: dieu de l'OU|Protosynthesis|[silent]
+|switch|p1a: Oiseau de Fer|Corviknight, M|82/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|86/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|upkeep
+|turn|15
+|
+|t:|1760338780
+|move|p2a: Skarmory|Body Press|p1a: Oiseau de Fer
+|-damage|p1a: Oiseau de Fer|54/100
+|move|p1a: Oiseau de Fer|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|85/100
+|
+|t:|1760338785
+|switch|p1a: Suicune?|Walking Wake|94/100|[from] U-turn
+|
+|upkeep
+|turn|16
+|
+|t:|1760338794
+|switch|p2a: Vaporeon|Vaporeon, F|87/100 brn
+|move|p1a: Suicune?|Flamethrower|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|69/100 brn
+|
+|-heal|p2a: Vaporeon|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Vaporeon|69/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1760338819
+|-end|p1a: Suicune?|Protosynthesis|[silent]
+|switch|p1a: Oiseau de Fer|Corviknight, M|54/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Vaporeon|69/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1760338826
+|move|p1a: Oiseau de Fer|Roost|p1a: Oiseau de Fer
+|-heal|p1a: Oiseau de Fer|100/100
+|-singleturn|p1a: Oiseau de Fer|move: Roost
+|move|p2a: Vaporeon|Flip Turn|p1a: Oiseau de Fer
+|-damage|p1a: Oiseau de Fer|96/100
+|
+|t:|1760338842
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|60/100|[from] Flip Turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|19
+|
+|t:|1760338850
+|switch|p2a: Skarmory|Skarmory, M, shiny|85/100
+|move|p1a: Oiseau de Fer|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|82/100
+|
+|t:|1760338854
+|switch|p1a: tortue chaude|Torkoal, M|61/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: tortue chaude
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1760338860
+|switch|p2a: Vaporeon|Vaporeon, F|69/100 brn
+|move|p1a: tortue chaude|Stealth Rock|p2a: Vaporeon
+|-sidestart|p2: DonphanPPF|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Vaporeon|69/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1760338868
+|switch|p1a: Suicune?|Walking Wake|94/100
+|-activate|p1a: Suicune?|ability: Protosynthesis
+|-start|p1a: Suicune?|protosynthesisspe
+|move|p2a: Vaporeon|Flip Turn|p1a: Suicune?
+|-resisted|p1a: Suicune?
+|-damage|p1a: Suicune?|93/100
+|
+|t:|1760338875
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|100/100|[from] Flip Turn
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-end|p1a: Suicune?|Protosynthesis
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Suicune?|87/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|t:|1760338885
+|-end|p1a: Suicune?|Protosynthesis|[silent]
+|switch|p1a: Oiseau de Fer|Corviknight, M|96/100
+|move|p2a: Tyranitar|Knock Off|p1a: Oiseau de Fer
+|-damage|p1a: Oiseau de Fer|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1760338896
+|move|p1a: Oiseau de Fer|Roost|p1a: Oiseau de Fer
+|-heal|p1a: Oiseau de Fer|100/100
+|-singleturn|p1a: Oiseau de Fer|move: Roost
+|move|p2a: Tyranitar|Stone Edge|p1a: Oiseau de Fer
+|-resisted|p1a: Oiseau de Fer
+|-damage|p1a: Oiseau de Fer|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1760338902
+|switch|p2a: Skarmory|Skarmory, M, shiny|82/100
+|-damage|p2a: Skarmory|70/100|[from] Stealth Rock
+|move|p1a: Oiseau de Fer|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|67/100
+|
+|t:|1760338905
+|switch|p1a: tortue chaude|Torkoal, M|61/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: tortue chaude
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1760338917
+|switch|p2a: Vaporeon|Vaporeon, F|69/100 brn
+|-damage|p2a: Vaporeon|56/100 brn|[from] Stealth Rock
+|move|p1a: tortue chaude|Body Press|p2a: Vaporeon
+|-damage|p2a: Vaporeon|35/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|41/100 brn|[from] item: Leftovers
+|-damage|p2a: Vaporeon|35/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1760338926
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: tortue chaude|Body Press|p2a: Vaporeon
+|-damage|p2a: Vaporeon|13/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|19/100 brn|[from] item: Leftovers
+|-damage|p2a: Vaporeon|13/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1760338943
+|switch|p1a: Oiseau de Fer|Corviknight, M|83/100
+|move|p2a: Vaporeon|Protect||[still]
+|-fail|p2a: Vaporeon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|63/100 brn|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vaporeon|69/100 brn|[from] item: Leftovers
+|-damage|p2a: Vaporeon|63/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1760338951
+|move|p1a: Oiseau de Fer|Brave Bird|p2a: Vaporeon
+|-damage|p2a: Vaporeon|37/100 brn
+|-damage|p1a: Oiseau de Fer|73/100|[from] Recoil
+|move|p2a: Vaporeon|Flip Turn|p1a: Oiseau de Fer
+|-damage|p1a: Oiseau de Fer|71/100
+|
+|t:|1760338959
+|switch|p2a: GetClapped|Raging Bolt|92/100|[from] Flip Turn
+|-damage|p2a: GetClapped|79/100|[from] Stealth Rock
+|-activate|p2a: GetClapped|ability: Protosynthesis
+|-start|p2a: GetClapped|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1760338973
+|move|p2a: GetClapped|Draco Meteor|p1a: Oiseau de Fer
+|-resisted|p1a: Oiseau de Fer
+|-damage|p1a: Oiseau de Fer|22/100
+|-unboost|p2a: GetClapped|spa|2
+|move|p1a: Oiseau de Fer|U-turn|p2a: GetClapped
+|-damage|p2a: GetClapped|67/100
+|
+|t:|1760338978
+|switch|p1a: Suicune?|Walking Wake|87/100|[from] U-turn
+|-activate|p1a: Suicune?|ability: Protosynthesis
+|-start|p1a: Suicune?|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|30
+|
+|t:|1760338995
+|-terastallize|p2a: GetClapped|Electric
+|move|p1a: Suicune?|Hydro Steam|p2a: GetClapped
+|-damage|p2a: GetClapped|0 fnt
+|faint|p2a: GetClapped
+|-end|p2a: GetClapped|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760339002
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|88/100
+|-damage|p2a: Tyranitar|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-end|p1a: Suicune?|Protosynthesis
+|turn|31
+|
+|t:|1760339012
+|-end|p1a: Suicune?|Protosynthesis|[silent]
+|switch|p1a: dieu de l'OU|Great Tusk|93/100
+|move|p2a: Tyranitar|Knock Off|p1a: dieu de l'OU
+|-resisted|p1a: dieu de l'OU
+|-damage|p1a: dieu de l'OU|77/100
+|-enditem|p1a: dieu de l'OU|Assault Vest|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1760339023
+|switch|p2a: Skarmory|Skarmory, M, shiny|67/100
+|-damage|p2a: Skarmory|54/100|[from] Stealth Rock
+|move|p1a: dieu de l'OU|Body Press|p2a: Skarmory
+|-damage|p2a: Skarmory|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|33
+|
+|t:|1760339032
+|move|p1a: dieu de l'OU|Body Press|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1760339037
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|34
+|
+|t:|1760339045
+|move|p1a: dieu de l'OU|Earthquake|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|29/100
+|move|p2a: Weezing|Strange Steam|p1a: dieu de l'OU
+|-supereffective|p1a: dieu de l'OU
+|-damage|p1a: dieu de l'OU|0 fnt
+|faint|p1a: dieu de l'OU
+|-end|p1a: dieu de l'OU|Protosynthesis|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weezing|23/100|[from] Sandstorm
+|upkeep
+|
+|t:|1760339054
+|switch|p1a: Raikou|Raikou|100/100
+|turn|35
+|
+|t:|1760339058
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|76/100
+|-damage|p2a: Tyranitar|63/100|[from] Stealth Rock
+|move|p1a: Raikou|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|46/100
+|-status|p2a: Tyranitar|par
+|
+|-weather|none
+|upkeep
+|turn|36
+|
+|t:|1760339070
+|move|p1a: Raikou|Aura Sphere|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|upkeep
+|l|☆DonphanPPF
+|inactive|DonphanPPF disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|DonphanPPF has 30 seconds to reconnect!
+|inactive|DonphanPPF has 20 seconds to reconnect!
+|inactive|DonphanPPF has 15 seconds to reconnect!
+|inactive|DonphanPPF has 10 seconds to reconnect!
+|inactive|DonphanPPF has 5 seconds to reconnect!
+|-message|DonphanPPF lost due to inactivity.
+|
+|win|CaiusPupus
+|raw|CaiusPupus's rating: 1204 &rarr; <strong>1230</strong><br />(+26 for winning)
+|raw|DonphanPPF's rating: 1212 &rarr; <strong>1186</strong><br />(-26 for losing)
+|l|☆CaiusPupus
+|player|p1|

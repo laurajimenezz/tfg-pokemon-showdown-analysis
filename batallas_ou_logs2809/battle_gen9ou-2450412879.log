@@ -1,0 +1,306 @@
+|j|☆dreballin3x
+|j|☆Hklschubbi
+|t:|1758980588
+|gametype|singles
+|player|p1|dreballin3x|marshal|1325
+|player|p2|Hklschubbi|clerk|1352
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Darkrai|
+|poke|p1|Enamorus, F|
+|poke|p1|Scizor, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Great Tusk|
+|poke|p2|Ninetales, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Venusaur, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Great Tusk|
+|poke|p2|Walking Wake|
+|teampreview
+|
+|t:|1758980598
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1758980609
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Enamorus|Earth Power|p2a: Hatterene
+|-damage|p2a: Hatterene|67/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1758980619
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758980623
+|-terastallize|p1a: Enamorus|Fire
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|move|p1a: Enamorus|Mystical Fire|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758980635
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|3
+|
+|t:|1758980643
+|-terastallize|p2a: Walking Wake|Water
+|move|p2a: Walking Wake|Hydro Steam|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758980646
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|4
+|
+|t:|1758980658
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|67/100
+|move|p1a: Raging Bolt|Volt Switch|p2a: Hatterene
+|-damage|p2a: Hatterene|14/100
+|
+|t:|1758980662
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Scizor|Scizor, F|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758980672
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|move|p1a: Scizor|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|81/100
+|-damage|p1a: Scizor|84/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|
+|t:|1758980682
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758980689
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|14/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758980694
+|switch|p2a: Walking Wake|Walking Wake, tera:Water|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|7
+|
+|t:|1758980714
+|move|p2a: Walking Wake|Hydro Steam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758980733
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|8
+|
+|t:|1758980740
+|move|p1a: Raging Bolt|Thunderclap|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|none
+|-end|p1a: Raging Bolt|Protosynthesis
+|upkeep
+|
+|t:|1758980743
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|9
+|
+|t:|1758980766
+|move|p2a: Ninetales|Encore|p1a: Raging Bolt
+|-start|p1a: Raging Bolt|Encore
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758980771
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Kongambit|Kingambit, M|100/100
+|-activate|p1a: Kongambit|ability: Supreme Overlord
+|-start|p1a: Kongambit|fallen2|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hklschubbi)
+|inactive|dreballin3x has 120 seconds left.
+|
+|t:|1758980847
+|move|p2a: Ceruledge|Bitter Blade|p1a: Kongambit
+|-supereffective|p1a: Kongambit
+|-crit|p1a: Kongambit
+|-damage|p1a: Kongambit|0 fnt
+|faint|p1a: Kongambit
+|-end|p1a: Kongambit|fallen2|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758980852
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|12
+|
+|t:|1758980859
+|move|p1a: Darkrai|Dark Pulse|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-damage|p1a: Darkrai|91/100|[from] item: Life Orb
+|move|p2a: Ceruledge|Bitter Blade|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|-heal|p2a: Ceruledge|44/100|[from] drain|[of] p1a: Darkrai
+|faint|p1a: Darkrai
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758980875
+|switch|p1a: Scizor|Scizor, F|84/100
+|turn|13
+|
+|t:|1758980878
+|move|p1a: Scizor|Bullet Punch|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|6/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|move|p2a: Ceruledge|Bitter Blade|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-heal|p2a: Ceruledge|55/100|[from] drain|[of] p1a: Scizor
+|faint|p1a: Scizor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758980900
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|14
+|
+|t:|1758980905
+|move|p2a: Ceruledge|Poltergeist|p1a: Raging Bolt
+|-activate|p1a: Raging Bolt|move: Poltergeist|Leftovers
+|-damage|p1a: Raging Bolt|57/100
+|move|p1a: Raging Bolt|Volt Switch|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Raging Bolt|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758980914
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|turn|15
+|inactive|dreballin3x has 120 seconds left.
+|
+|t:|1758980955
+|move|p2a: Ninetales|Encore|p1a: Raging Bolt
+|-start|p1a: Raging Bolt|Encore
+|move|p1a: Raging Bolt|Volt Switch|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Raging Bolt|69/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758980965
+|switch|p2a: Great Tusk|Great Tusk|81/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|move|p1a: Raging Bolt|Volt Switch|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|-weather|none
+|-end|p2a: Great Tusk|Protosynthesis
+|-end|p1a: Raging Bolt|Protosynthesis
+|-heal|p1a: Raging Bolt|75/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758980968
+|move|p2a: Great Tusk|Headlong Rush|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|Hklschubbi
+|raw|dreballin3x's rating: 1325 &rarr; <strong>1307</strong><br />(-18 for losing)
+|raw|Hklschubbi's rating: 1352 &rarr; <strong>1370</strong><br />(+18 for winning)
+|c|☆dreballin3x|Gg
+|c|☆Hklschubbi|Gg

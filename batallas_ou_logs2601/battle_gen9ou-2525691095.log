@@ -1,0 +1,236 @@
+|j|☆greatdisconnecter
+|j|☆spongenoodles
+|t:|1769311155
+|gametype|singles
+|player|p1|greatdisconnecter|juggler|1243
+|player|p2|spongenoodles|red|1233
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Snorlax, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Gholdengo|
+|poke|p1|Hitmontop, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Blastoise, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, F|
+|poke|p2|Basculegion-F, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by greatdisconnecter)
+|
+|t:|1769311163
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|turn|1
+|
+|t:|1769311169
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|-enditem|p2a: Blastoise|White Herb
+|-clearnegativeboost|p2a: Blastoise|[silent]
+|move|p1a: Snorlax|Belly Drum|p1a: Snorlax
+|-damage|p1a: Snorlax|50/100
+|-setboost|p1a: Snorlax|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|2
+|-enditem|p1a: Snorlax|Custap Berry|[eat]
+|-activate|p1a: Snorlax|item: Custap Berry|[consumed]
+|
+|t:|1769311181
+|move|p1a: Snorlax|Facade|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|upkeep
+|
+|t:|1769311189
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|turn|3
+|
+|t:|1769311194
+|move|p2a: Basculegion|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|24/100
+|move|p1a: Snorlax|Earthquake|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|upkeep
+|
+|t:|1769311202
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|4
+|
+|t:|1769311206
+|move|p2a: Great Tusk|Rapid Spin|p1a: Snorlax
+|-damage|p1a: Snorlax|8/100
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Snorlax|Ice Punch|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769311214
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|5
+|
+|t:|1769311218
+|move|p2a: Dragapult|Dragon Darts|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1769311226
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|6
+|
+|t:|1769311229
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Samurott
+|-status|p1a: Samurott|brn
+|move|p1a: Samurott|Ceaseless Edge|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|28/100
+|-sidestart|p2: spongenoodles|Spikes
+|
+|-damage|p1a: Samurott|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1769311239
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Spikes
+|move|p1a: Samurott|Ceaseless Edge|p2a: Hatterene|[miss]
+|-miss|p1a: Samurott|p2a: Hatterene
+|
+|-damage|p1a: Samurott|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1769311249
+|move|p1a: Samurott|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|64/100
+|-enditem|p2a: Hatterene|Assault Vest|[from] move: Knock Off|[of] p1a: Samurott
+|move|p2a: Hatterene|Mystical Fire|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|74/100 brn
+|-unboost|p1a: Samurott|spa|1
+|
+|-damage|p1a: Samurott|68/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1769311259
+|move|p1a: Samurott|Ceaseless Edge|p2a: Hatterene
+|-damage|p2a: Hatterene|38/100
+|-sidestart|p2: spongenoodles|Spikes
+|move|p2a: Hatterene|Draining Kiss|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|5/100 brn
+|-heal|p2a: Hatterene|85/100|[from] drain|[of] p1a: Samurott
+|
+|-damage|p1a: Samurott|0 fnt|[from] brn
+|faint|p1a: Samurott
+|upkeep
+|
+|t:|1769311265
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|10
+|
+|t:|1769311274
+|-terastallize|p2a: Hatterene|Fire
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Hatterene|Mystical Fire|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|3/100
+|-unboost|p1a: Gholdengo|spa|1
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|11
+|
+|t:|1769311286
+|move|p1a: Gholdengo|Shadow Ball|p2a: Hatterene
+|-damage|p2a: Hatterene|19/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-heal|p2a: Hatterene|22/100|[from] drain|[of] p1a: Gholdengo
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1769311291
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|turn|12
+|
+|t:|1769311297
+|move|p1a: Hitmontop|Fake Out|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1769311303
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|13
+|
+|t:|1769311313
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Pelipper|U-turn|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|93/100
+|
+|t:|1769311318
+|switch|p2a: Dragapult|Dragapult, F|28/100|[from] U-turn
+|-damage|p2a: Dragapult|12/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1769311325
+|-terastallize|p1a: Raging Bolt|Electric
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Raging Bolt|[miss]
+|-miss|p2a: Dragapult|p1a: Raging Bolt
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|spongenoodles forfeited.
+|
+|win|greatdisconnecter
+|raw|greatdisconnecter's rating: 1243 &rarr; <strong>1267</strong><br />(+24 for winning)
+|raw|spongenoodles's rating: 1233 &rarr; <strong>1209</strong><br />(-24 for losing)
+|l|☆spongenoodles
+|player|p2|

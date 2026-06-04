@@ -1,0 +1,216 @@
+|j|☆rawbraines
+|j|☆ssss umeno
+|t:|1758983006
+|gametype|singles
+|player|p1|rawbraines|smasher|1135
+|player|p2|ssss umeno|265|1182
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meowscarada, F|
+|poke|p1|Weezing, M|
+|poke|p1|Avalugg-Hisui, F|
+|poke|p1|Suicune|
+|poke|p1|Latias, F|
+|poke|p1|Ursaluna, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Greninja-*, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Zapdos|
+|poke|p2|Sandy Shocks|
+|poke|p2|Scizor, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ssss umeno)
+|
+|t:|1758983022
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Avalugg|Avalugg-Hisui, F|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-enditem|p2a: Sandy Shocks|Booster Energy
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1758983028
+|-terastallize|p1a: Avalugg|Fairy
+|move|p2a: Sandy Shocks|Stealth Rock|p1a: Avalugg
+|-sidestart|p1: rawbraines|move: Stealth Rock
+|move|p1a: Avalugg|Earthquake|p2a: Sandy Shocks
+|-supereffective|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|36/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758983037
+|move|p2a: Sandy Shocks|Earth Power|p1a: Avalugg
+|-damage|p1a: Avalugg|19/100
+|move|p1a: Avalugg|Stealth Rock|p2a: Sandy Shocks
+|-sidestart|p2: ssss umeno|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1758983047
+|switch|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|move|p2a: Sandy Shocks|Earth Power|p1a: Latias
+|-immune|p1a: Latias|[from] ability: Levitate
+|
+|upkeep
+|turn|4
+|
+|t:|1758983059
+|-terastallize|p2a: Sandy Shocks|Ice
+|move|p2a: Sandy Shocks|Tera Blast|p1a: Latias|[anim] Tera Blast Ice
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|14/100
+|move|p1a: Latias|Draco Meteor|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|-unboost|p1a: Latias|spa|2
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758983076
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|5
+|
+|t:|1758983083
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|64/100
+|move|p2a: Pelipper|Ice Beam|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|15/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758983092
+|switch|p1a: Suicune|Suicune|100/100
+|-damage|p1a: Suicune|88/100|[from] Stealth Rock
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Pelipper|Ice Beam|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|80/100
+|-status|p1a: Suicune|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Suicune|87/100 frz|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758983103
+|-curestatus|p1a: Suicune|frz|[from] move: Scald
+|move|p1a: Suicune|Scald|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|48/100
+|move|p2a: Pelipper|U-turn|p1a: Suicune
+|-damage|p1a: Suicune|80/100
+|
+|t:|1758983110
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Suicune|86/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758983119
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|move|p2a: Zapdos|Thunder|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1758983128
+|move|p2a: Zapdos|Hurricane|p1a: Ursaluna
+|-damage|p1a: Ursaluna|66/100
+|-start|p1a: Ursaluna|confusion
+|-activate|p1a: Ursaluna|confusion
+|move|p1a: Ursaluna|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|62/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758983145
+|move|p2a: Zapdos|U-turn|p1a: Ursaluna
+|-damage|p1a: Ursaluna|59/100
+|
+|t:|1758983148
+|switch|p2a: Greninja|Greninja, M|100/100|[from] U-turn
+|-damage|p2a: Greninja|88/100|[from] Stealth Rock
+|-end|p1a: Ursaluna|confusion
+|move|p1a: Ursaluna|Body Slam|p2a: Greninja
+|-damage|p2a: Greninja|25/100
+|-status|p2a: Greninja|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758983172
+|switch|p1a: Weezing|Weezing, M|100/100
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|move|p2a: Greninja|Surf|p1a: Weezing
+|-damage|p1a: Weezing|19/100
+|-damage|p2a: Greninja|15/100 par|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|inactive|rawbraines has 120 seconds left.
+|
+|t:|1758983195
+|switch|p1a: Suicune|Suicune|86/100
+|-damage|p1a: Suicune|74/100|[from] Stealth Rock
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Greninja|Surf|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|52/100
+|-damage|p2a: Greninja|5/100 par|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p1a: Suicune|58/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|rawbraines has 120 seconds left.
+|
+|t:|1758983214
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|cant|p2a: Greninja|par
+|
+|-heal|p1a: Suicune|65/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|-message|ssss umeno forfeited.
+|
+|win|rawbraines
+|raw|rawbraines's rating: 1135 &rarr; <strong>1163</strong><br />(+28 for winning)
+|raw|ssss umeno's rating: 1182 &rarr; <strong>1154</strong><br />(-28 for losing)
+|l|☆ssss umeno
+|player|p2|
+|l|☆rawbraines
+|player|p1|

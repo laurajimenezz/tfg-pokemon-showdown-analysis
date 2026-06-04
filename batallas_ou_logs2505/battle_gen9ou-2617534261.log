@@ -1,0 +1,164 @@
+|j|☆cancelacion
+|j|☆boltv10
+|t:|1779704537
+|gametype|singles
+|player|p1|cancelacion|scientist-gen4dp|1122
+|player|p2|boltv10|lucas|1169
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Abomasnow, F|
+|poke|p1|Mamoswine, M|
+|poke|p1|Sandslash-Alola, F|
+|poke|p1|Delibird, M|
+|poke|p1|Crabominable, F|
+|poke|p1|Glalie, M|
+|poke|p2|Zoroark, F|
+|poke|p2|Venusaur, M|
+|poke|p2|Talonflame, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Cloyster, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cancelacion)
+|
+|t:|1779704545
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Abomasnow|Abomasnow, F, shiny|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|
+|t:|1779704553
+|move|p2a: Conkeldurr|Flamethrower|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779704581
+|switch|p1a: Sandslash|Sandslash-Alola, F|100/100
+|turn|2
+|
+|t:|1779704585
+|move|p2a: Conkeldurr|Flamethrower|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779704596
+|switch|p1a: Crabominable|Crabominable, F|100/100
+|turn|3
+|
+|t:|1779704607
+|-terastallize|p1a: Crabominable|Water
+|move|p2a: Conkeldurr|Flamethrower|p1a: Crabominable
+|-resisted|p1a: Crabominable
+|-damage|p1a: Crabominable|83/100
+|move|p1a: Crabominable|Drain Punch|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-enditem|p2a: Conkeldurr|Focus Sash
+|-damage|p2a: Conkeldurr|1/100
+|-heal|p1a: Crabominable|100/100|[from] drain|[of] p2a: Conkeldurr
+|replace|p2a: Zoroark|Zoroark, F
+|-end|p2a: Zoroark|Illusion
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779704621
+|move|p2a: Zoroark|Knock Off|p1a: Crabominable
+|-damage|p1a: Crabominable|64/100
+|-enditem|p1a: Crabominable|Punching Glove|[from] move: Knock Off|[of] p2a: Zoroark
+|move|p1a: Crabominable|Drain Punch|p2a: Zoroark
+|-supereffective|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|-heal|p1a: Crabominable|64/100|[from] drain|[of] p2a: Zoroark
+|faint|p2a: Zoroark
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779704637
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|5
+|
+|t:|1779704647
+|move|p2a: Conkeldurr|Drain Punch|p1a: Crabominable
+|-damage|p1a: Crabominable|0 fnt
+|faint|p1a: Crabominable
+|-damage|p2a: Conkeldurr|91/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779704652
+|switch|p1a: Delibird|Delibird, M|100/100
+|turn|6
+|
+|t:|1779704676
+|move|p1a: Delibird|Brave Bird|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|-damage|p1a: Delibird|47/100|[from] Recoil
+|-damage|p1a: Delibird|37/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779704687
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|turn|7
+|
+|t:|1779704696
+|move|p1a: Delibird|Seed Bomb|p2a: Cloyster|[miss]
+|-miss|p1a: Delibird|p2a: Cloyster
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|-enditem|p2a: Cloyster|White Herb
+|-clearnegativeboost|p2a: Cloyster|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1779704708
+|move|p2a: Cloyster|Rock Blast|p1a: Delibird|[miss]
+|-miss|p2a: Cloyster|p1a: Delibird
+|move|p1a: Delibird|Seed Bomb|p2a: Cloyster|[miss]
+|-miss|p1a: Delibird|p2a: Cloyster
+|
+|-weather|none
+|upkeep
+|turn|9
+|-message|cancelacion forfeited.
+|
+|win|boltv10
+|raw|cancelacion's rating: 1122 &rarr; <strong>1100</strong><br />(-22 for losing)
+|raw|boltv10's rating: 1169 &rarr; <strong>1191</strong><br />(+22 for winning)
+|l|☆boltv10
+|player|p2|
+|l|☆cancelacion
+|player|p1|

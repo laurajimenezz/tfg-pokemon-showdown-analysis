@@ -1,0 +1,375 @@
+|j|☆stockroomsupply
+|j|☆yarrryyyy
+|t:|1758295674
+|gametype|singles
+|player|p1|stockroomsupply|1|1254
+|player|p2|yarrryyyy|norman|1232
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mudsdale, F|
+|poke|p1|Glimmora, F|
+|poke|p1|Dusclops, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Ditto|
+|poke|p1|Hitmontop, M|
+|poke|p2|Hydrapple, F|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Scizor, M|
+|poke|p2|Gliscor, M|
+|poke|p2|Milotic, F|
+|poke|p2|Blaziken, F|
+|teampreview
+|
+|t:|1758295699
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Mudsdale|Mudsdale, F|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|1
+|
+|t:|1758295705
+|move|p2a: Gliscor|Taunt|p1a: Mudsdale
+|-start|p1a: Mudsdale|move: Taunt
+|cant|p1a: Mudsdale|move: Taunt|Stealth Rock
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1758295718
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Gliscor|[from] ability: Imposter
+|move|p2a: Gliscor|Stealth Rock|p1a: Ditto
+|-sidestart|p1: stockroomsupply|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1758295726
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|-damage|p1a: Glimmora|88/100|[from] Stealth Rock
+|move|p2a: Gliscor|Knock Off|p1a: Glimmora
+|-crit|p1a: Glimmora
+|-damage|p1a: Glimmora|47/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: yarrryyyy|move: Toxic Spikes
+|-enditem|p1a: Glimmora|Choice Scarf|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|upkeep
+|turn|4
+|
+|t:|1758295736
+|move|p1a: Glimmora|Power Gem|p2a: Gliscor
+|-damage|p2a: Gliscor|52/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: yarrryyyy|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-heal|p2a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1758295744
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|5
+|
+|t:|1758295753
+|-terastallize|p1a: Tyranitar|Grass
+|move|p2a: Gliscor|Earthquake|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|75/100
+|move|p1a: Tyranitar|Ice Beam|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|69/100|[from] Sandstorm
+|upkeep
+|
+|t:|1758295765
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|6
+|
+|t:|1758295788
+|switch|p1a: Mudsdale|Mudsdale, F|100/100
+|-damage|p1a: Mudsdale|94/100|[from] Stealth Rock
+|move|p2a: Scizor|Defog|p1a: Mudsdale
+|-unboost|p1a: Mudsdale|evasion|1
+|-sideend|p1: stockroomsupply|Stealth Rock|[from] move: Defog|[of] p2a: Scizor
+|-sideend|p2: yarrryyyy|Toxic Spikes|[from] move: Defog|[of] p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Mudsdale|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758295799
+|switch|p2a: Milotic|Milotic, F|100/100
+|move|p1a: Mudsdale|Stealth Rock|p2a: Milotic
+|-sidestart|p2: yarrryyyy|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758295810
+|switch|p1a: Tyranitar|Tyranitar, M, tera:Grass|69/100
+|move|p2a: Milotic|Scald|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|58/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758295827
+|move|p2a: Milotic|Ice Beam|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|41/100
+|move|p1a: Tyranitar|Dragon Tail|p2a: Milotic
+|-damage|p2a: Milotic|84/100
+|drag|p2a: Blaziken|Blaziken, F|100/100
+|-damage|p2a: Blaziken|88/100|[from] Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1758295842
+|move|p2a: Blaziken|Flamethrower|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|5/100
+|move|p1a: Tyranitar|Power Gem|p2a: Blaziken
+|-damage|p2a: Blaziken|36/100
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|
+|upkeep
+|turn|11
+|
+|t:|1758295851
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|move|p2a: Zoroark|Flamethrower|p1a: Hitmontop
+|-damage|p1a: Hitmontop|78/100
+|
+|upkeep
+|turn|12
+|
+|t:|1758295863
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|move|p1a: Hitmontop|Bulldoze|p2a: Hydrapple
+|-resisted|p2a: Hydrapple
+|-damage|p2a: Hydrapple|95/100
+|-unboost|p2a: Hydrapple|spe|1
+|
+|upkeep
+|turn|13
+|
+|t:|1758295881
+|switch|p1a: Tyranitar|Tyranitar, M, tera:Grass|5/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Hydrapple|Fickle Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydrapple|89/100|[from] Sandstorm
+|upkeep
+|
+|t:|1758295907
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Hydrapple|[from] ability: Imposter
+|turn|14
+|
+|t:|1758295915
+|-terastallize|p2a: Hydrapple|Steel
+|move|p1a: Ditto|Fickle Beam|p2a: Hydrapple
+|-resisted|p2a: Hydrapple
+|-damage|p2a: Hydrapple|74/100
+|move|p2a: Hydrapple|Fickle Beam|p1a: Ditto|[anim] Fickle Beam All Out
+|-activate|p2a: Hydrapple|move: Fickle Beam
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1758295918
+|switch|p1a: Mudsdale|Mudsdale, F|100/100
+|turn|15
+|
+|t:|1758295929
+|move|p1a: Mudsdale|Earthquake|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|26/100
+|move|p2a: Hydrapple|Giga Drain|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|41/100
+|-heal|p2a: Hydrapple|55/100|[from] drain|[of] p1a: Mudsdale
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Mudsdale|47/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758295940
+|switch|p1a: Hitmontop|Hitmontop, M|78/100
+|move|p2a: Hydrapple|Giga Drain|p1a: Hitmontop
+|-damage|p1a: Hitmontop|63/100
+|-heal|p2a: Hydrapple|60/100|[from] drain|[of] p1a: Hitmontop
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hitmontop|56/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1758295953
+|switch|p2a: Blaziken|Blaziken, F|36/100
+|-damage|p2a: Blaziken|23/100|[from] Stealth Rock
+|move|p1a: Hitmontop|Bulldoze|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|
+|-weather|none
+|upkeep
+|
+|t:|1758295965
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1758296061
+|switch|p1a: Mudsdale|Mudsdale, F|47/100
+|move|p2a: Scizor|Bullet Punch|p1a: Mudsdale
+|-damage|p1a: Mudsdale|15/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|
+|-heal|p1a: Mudsdale|21/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1758296072
+|move|p2a: Scizor|Bullet Punch|p1a: Mudsdale
+|-damage|p1a: Mudsdale|1/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|move|p1a: Mudsdale|Stealth Rock||[still]
+|-fail|p1a: Mudsdale
+|
+|-heal|p1a: Mudsdale|8/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1758296081
+|move|p2a: Scizor|Bullet Punch|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|faint|p1a: Mudsdale
+|
+|upkeep
+|
+|t:|1758296084
+|switch|p1a: Dusclops|Dusclops, M|100/100
+|-item|p2a: Scizor|Choice Band|[from] ability: Frisk|[of] p1a: Dusclops
+|turn|21
+|
+|t:|1758296093
+|move|p2a: Scizor|Bullet Punch|p1a: Dusclops
+|-damage|p1a: Dusclops|75/100
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Scizor|[miss]
+|-miss|p1a: Dusclops|p2a: Scizor
+|
+|upkeep
+|turn|22
+|
+|t:|1758296106
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|-damage|p2a: Blaziken|88/100|[from] Stealth Rock
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Blaziken
+|-immune|p2a: Blaziken
+|
+|upkeep
+|turn|23
+|
+|t:|1758296115
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|move|p1a: Dusclops|Curse|p2a: Blaziken
+|-start|p2a: Blaziken|Curse|[of] p1a: Dusclops
+|-damage|p1a: Dusclops|25/100
+|
+|-damage|p2a: Blaziken|63/100|[from] Curse
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|24
+|
+|t:|1758296126
+|move|p2a: Blaziken|Flare Blitz|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|faint|p1a: Dusclops
+|-damage|p2a: Blaziken|56/100|[from] Recoil
+|-damage|p2a: Blaziken|46/100|[from] item: Life Orb
+|
+|-damage|p2a: Blaziken|21/100|[from] Curse
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1758296129
+|switch|p1a: Hitmontop|Hitmontop, M|56/100
+|turn|25
+|
+|t:|1758296139
+|move|p1a: Hitmontop|Fake Out|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|upkeep
+|
+|t:|1758296145
+|switch|p2a: Scizor|Scizor, M|88/100
+|-damage|p2a: Scizor|76/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1758296150
+|move|p1a: Hitmontop|Mach Punch|p2a: Scizor
+|-damage|p2a: Scizor|56/100
+|move|p2a: Scizor|Bullet Punch|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|
+|win|yarrryyyy
+|raw|stockroomsupply's rating: 1254 &rarr; <strong>1227</strong><br />(-27 for losing)
+|raw|yarrryyyy's rating: 1232 &rarr; <strong>1259</strong><br />(+27 for winning)
+|c|☆stockroomsupply|gg
+|l|☆yarrryyyy
+|player|p2|
+|l|☆stockroomsupply
+|player|p1|

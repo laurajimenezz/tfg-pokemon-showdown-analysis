@@ -1,0 +1,238 @@
+|j|☆levi afla
+|j|☆MyXoo
+|t:|1758316680
+|gametype|singles
+|player|p1|levi afla|jogger|1313
+|player|p2|MyXoo|bea|1262
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tyranitar, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Great Tusk|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Lokix, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Scizor, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1758316708
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Lokix|Lokix, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1758316721
+|move|p1a: Lokix|First Impression|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-enditem|p2a: Samurott|Focus Sash
+|-damage|p2a: Samurott|1/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Lokix
+|-resisted|p1a: Lokix
+|-damage|p1a: Lokix|68/100
+|-sidestart|p1: levi afla|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1758316734
+|move|p1a: Lokix|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|t:|1758316743
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|-damage|p1a: Ogerpon|88/100|[from] Spikes
+|
+|upkeep
+|
+|t:|1758316760
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|3
+|
+|t:|1758316772
+|move|p2a: Dragapult|Draco Meteor|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1758316781
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|88/100|[from] Spikes
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|4
+|
+|t:|1758316796
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Great Tusk|Rapid Spin|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|70/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: levi afla|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|5
+|
+|t:|1758316823
+|-terastallize|p1a: Great Tusk|Steel
+|move|p2a: Iron Valiant|Moonblast|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|53/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758316847
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|turn|6
+|
+|t:|1758316853
+|move|p2a: Landorus|Earthquake|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758316860
+|switch|p1a: Lokix|Lokix, M|68/100
+|turn|7
+|
+|t:|1758316882
+|move|p1a: Lokix|First Impression|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|50/100
+|move|p2a: Landorus|Earthquake|p1a: Lokix
+|-resisted|p1a: Lokix
+|-damage|p1a: Lokix|25/100
+|
+|upkeep
+|turn|8
+|
+|t:|1758316899
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Landorus|Earthquake|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|86/100
+|
+|-heal|p1a: Rillaboom|92/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1758316939
+|move|p2a: Landorus|Earthquake|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|78/100
+|move|p1a: Rillaboom|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|10/100
+|-enditem|p2a: Landorus|Choice Scarf|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|84/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1758316960
+|move|p2a: Landorus|U-turn|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|30/100
+|
+|t:|1758316979
+|switch|p2a: Scizor|Scizor, F|100/100|[from] U-turn
+|move|p1a: Rillaboom|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|59/100
+|-enditem|p2a: Scizor|Life Orb|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|36/100|[from] Grassy Terrain
+|-heal|p2a: Scizor|65/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1758317001
+|move|p2a: Scizor|Bullet Punch|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Scizor|72/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758317024
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|12
+|
+|t:|1758317042
+|-terastallize|p2a: Scizor|Steel
+|move|p2a: Scizor|Bullet Punch|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p2a: Scizor|78/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1758317048
+|switch|p1a: Lokix|Lokix, M|25/100
+|turn|13
+|
+|t:|1758317051
+|move|p1a: Lokix|First Impression|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|33/100
+|move|p2a: Scizor|Bullet Punch|p1a: Lokix
+|-damage|p1a: Lokix|0 fnt
+|faint|p1a: Lokix
+|
+|upkeep
+|
+|t:|1758317055
+|switch|p1a: Tyranitar|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|14
+|
+|t:|1758317062
+|move|p2a: Scizor|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Scizor|def|1
+|-unboost|p2a: Scizor|spd|1
+|faint|p1a: Tyranitar
+|
+|win|MyXoo
+|raw|levi afla's rating: 1313 &rarr; <strong>1290</strong><br />(-23 for losing)
+|raw|MyXoo's rating: 1262 &rarr; <strong>1291</strong><br />(+29 for winning)

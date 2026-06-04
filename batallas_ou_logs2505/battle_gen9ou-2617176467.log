@@ -1,0 +1,278 @@
+|j|☆chopinthe3rd
+|j|☆quest_v
+|t:|1779656007
+|gametype|singles
+|player|p1|chopinthe3rd|marshal|1051
+|player|p2|quest_v|giovanni|1085
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Falinks|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Metagross|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Infernape, F|
+|poke|p1|Venusaur, F|
+|poke|p2|Chimecho, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Dondozo, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Salazzle, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by quest_v)
+|
+|t:|1779656033
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-item|p2a: Salazzle|Air Balloon
+|turn|1
+|
+|t:|1779656052
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|move|p2a: Salazzle|Sludge Wave|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|43/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1779656061
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|-enditem|p2a: Salazzle|Air Balloon
+|faint|p2a: Salazzle
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779656064
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|3
+|
+|t:|1779656072
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|79/100
+|move|p2a: Meowscarada|Flower Trick|p1a: Crawdaunt
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-supereffective|p1a: Crawdaunt
+|-crit|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779656084
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|turn|4
+|
+|t:|1779656090
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Venusaur|Sludge Bomb|p2a: Goodra
+|-immune|p2a: Goodra
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779656101
+|switch|p1a: Infernape|Infernape, F|100/100
+|move|p2a: Goodra|Ice Beam|p1a: Infernape
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|77/100
+|-status|p1a: Infernape|frz
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1779656117
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|cant|p1a: Infernape|frz
+|
+|upkeep
+|turn|7
+|
+|t:|1779656126
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Venusaur
+|-damage|p1a: Venusaur|36/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1779656135
+|move|p1a: Venusaur|Giga Drain|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-heal|p1a: Venusaur|100/100|[from] drain|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779656149
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|turn|9
+|
+|t:|1779656156
+|switch|p1a: Infernape|Infernape, F|77/100 frz
+|move|p2a: Goodra|Ice Beam|p1a: Infernape
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|55/100 frz
+|
+|upkeep
+|turn|10
+|
+|t:|1779656169
+|cant|p1a: Infernape|frz
+|move|p2a: Goodra|Acid Spray|p1a: Infernape
+|-damage|p1a: Infernape|35/100 frz
+|-unboost|p1a: Infernape|spd|2
+|
+|upkeep
+|turn|11
+|
+|t:|1779656189
+|cant|p1a: Infernape|frz
+|move|p2a: Goodra|Ice Beam|p1a: Infernape
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|upkeep
+|
+|t:|1779656207
+|switch|p1a: Metagross|Metagross|100/100
+|turn|12
+|
+|t:|1779656226
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|move|p1a: Metagross|Earthquake|p2a: Dondozo
+|-damage|p2a: Dondozo|84/100
+|
+|-heal|p2a: Dondozo|90/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|quest_v has 120 seconds left.
+|
+|t:|1779656256
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|-terastallize|p2a: Dondozo|Ground
+|move|p2a: Dondozo|Earthquake|p1a: Venusaur
+|-damage|p1a: Venusaur|56/100
+|
+|-heal|p2a: Dondozo|96/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|quest_v has 120 seconds left.
+|
+|t:|1779656276
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Venusaur|Giga Drain|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|96/100
+|-heal|p1a: Venusaur|59/100|[from] drain|[of] p2a: Goodra
+|
+|upkeep
+|turn|15
+|inactive|quest_v has 120 seconds left.
+|
+|t:|1779656286
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Goodra|Ice Beam|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|86/100
+|
+|upkeep
+|turn|16
+|inactive|quest_v has 120 seconds left.
+|
+|t:|1779656294
+|switch|p2a: Chimecho|Chimecho, M|100/100
+|move|p1a: Metagross|Psychic Fangs|p2a: Chimecho
+|-resisted|p2a: Chimecho
+|-damage|p2a: Chimecho|72/100
+|
+|upkeep
+|turn|17
+|inactive|quest_v has 120 seconds left.
+|
+|t:|1779656319
+|move|p1a: Metagross|Iron Head|p2a: Chimecho
+|-damage|p2a: Chimecho|15/100
+|move|p2a: Chimecho|Future Sight|p1a: Metagross
+|-start|p2a: Chimecho|move: Future Sight
+|
+|upkeep
+|turn|18
+|
+|t:|1779656329
+|switch|p2a: Dondozo|Dondozo, M, tera:Ground|96/100
+|move|p1a: Metagross|Iron Head|p2a: Dondozo
+|-damage|p2a: Dondozo|74/100
+|
+|-heal|p2a: Dondozo|80/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1779656341
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Dondozo|Earthquake|p1a: Ninetales
+|-damage|p1a: Ninetales|67/100
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Ninetales|move: Future Sight
+|-damage|p1a: Ninetales|23/100
+|-heal|p2a: Dondozo|86/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|quest_v has 120 seconds left.
+|
+|t:|1779656360
+|switch|p2a: Goodra|Goodra-Hisui, M|96/100
+|move|p1a: Ninetales|Moonblast|p2a: Goodra
+|-damage|p2a: Goodra|79/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|inactive|quest_v has 120 seconds left.
+|
+|t:|1779656373
+|move|p1a: Ninetales|Moonblast|p2a: Goodra
+|-damage|p2a: Goodra|63/100
+|move|p2a: Goodra|Body Press|p1a: Ninetales
+|-damage|p1a: Ninetales|5/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|22
+|-message|quest_v forfeited.
+|
+|win|chopinthe3rd
+|raw|chopinthe3rd's rating: 1051 &rarr; <strong>1087</strong><br />(+36 for winning)
+|raw|quest_v's rating: 1085 &rarr; <strong>1060</strong><br />(-25 for losing)
+|l|☆quest_v
+|player|p2|
+|l|☆chopinthe3rd
+|player|p1|

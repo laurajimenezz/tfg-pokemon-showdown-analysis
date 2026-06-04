@@ -1,0 +1,372 @@
+|j|☆GreninjaGlazer53
+|j|☆smthrdm
+|t:|1759078213
+|gametype|singles
+|player|p1|GreninjaGlazer53|hooligans|1322
+|player|p2|smthrdm|169|1335
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Iron Treads|
+|poke|p1|Toxicroak, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Hitmontop, M|
+|poke|p2|Iron Crown|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Blissey, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Dragonite, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GreninjaGlazer53)
+|
+|t:|1759078226
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1759078231
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Iron Crown|Focus Blast|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|30/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1759078240
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Treads|atk|1
+|move|p1a: Iron Treads|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|85/100
+|-enditem|p2a: Landorus|Choice Scarf|[from] move: Knock Off|[of] p1a: Iron Treads
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1759078245
+|move|p1a: Iron Treads|Stealth Rock|p2a: Landorus
+|-sidestart|p2: smthrdm|move: Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759078259
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|4
+|
+|t:|1759078264
+|move|p1a: Barraskewda|Liquidation|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759078270
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-damage|p2a: Hitmontop|95/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1759078274
+|move|p2a: Hitmontop|Mach Punch|p1a: Barraskewda
+|-damage|p1a: Barraskewda|48/100
+|move|p1a: Barraskewda|Liquidation|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759078279
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|6
+|
+|t:|1759078285
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1759078296
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Toxicroak|Toxic|p2a: Cinderace
+|-status|p2a: Cinderace|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Cinderace|95/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1759078301
+|move|p2a: Cinderace|U-turn|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|96/100
+|
+|t:|1759078304
+|switch|p2a: Iron Crown|Iron Crown|100/100|[from] U-turn
+|move|p1a: Toxicroak|Drain Punch|p2a: Iron Crown
+|-damage|p2a: Iron Crown|73/100
+|-heal|p1a: Toxicroak|100/100|[from] drain|[of] p2a: Iron Crown
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1759078311
+|-terastallize|p1a: Toxicroak|Dark
+|move|p2a: Iron Crown|Future Sight|p1a: Toxicroak
+|-start|p2a: Iron Crown|move: Future Sight
+|move|p1a: Toxicroak|Knock Off|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|4/100
+|-enditem|p2a: Iron Crown|Assault Vest|[from] move: Knock Off|[of] p1a: Toxicroak
+|
+|upkeep
+|turn|10
+|
+|t:|1759078320
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|move|p2a: Iron Crown|Focus Blast|p1a: Hatterene|[miss]
+|-miss|p2a: Iron Crown|p1a: Hatterene
+|
+|upkeep
+|turn|11
+|
+|t:|1759078329
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|35/100
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|-hitcount|p1: Hatterene|2
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1759078341
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|12
+|l|☆smthrdm
+|inactive|smthrdm disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆smthrdm
+|inactive|smthrdm reconnected and has 145 seconds left.
+|player|p2|smthrdm|169|
+|
+|t:|1759078354
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Dragonite|[anim] Ivy Cudgel Water
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|84/100
+|
+|upkeep
+|turn|13
+|
+|t:|1759078361
+|move|p1a: Ogerpon|Play Rough|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|7/100
+|move|p2a: Dragonite|Scale Shot|p1a: Ogerpon
+|-damage|p1a: Ogerpon|68/100
+|-crit|p1a: Ogerpon
+|-damage|p1a: Ogerpon|39/100
+|-damage|p1a: Ogerpon|20/100
+|-damage|p1a: Ogerpon|1/100
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-hitcount|p1: Ogerpon|5
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1759078372
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-damage|p1a: Pelipper|75/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|14
+|
+|t:|1759078391
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Pelipper|Hurricane|p2a: Blissey
+|-damage|p2a: Blissey|91/100
+|-start|p2a: Blissey|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1759078397
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100
+|-singleturn|p1a: Pelipper|move: Roost
+|-activate|p2a: Blissey|confusion
+|move|p2a: Blissey|Healing Wish|p2a: Blissey
+|faint|p2a: Blissey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759078401
+|switch|p2a: Iron Crown|Iron Crown|4/100
+|-heal|p2a: Iron Crown|100/100|[from] move: Healing Wish
+|turn|16
+|
+|t:|1759078421
+|move|p2a: Iron Crown|Volt Switch|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|12/100
+|
+|t:|1759078442
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Dragonite|Dragonite, F|7/100|[from] Volt Switch
+|move|p1a: Pelipper|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|3/100
+|
+|t:|1759078451
+|switch|p1a: Toxicroak|Toxicroak, M, tera:Dark|100/100|[from] U-turn
+|-damage|p1a: Toxicroak|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxicroak|100/100|[from] ability: Dry Skin
+|upkeep
+|turn|17
+|
+|t:|1759078458
+|move|p2a: Dragonite|Encore||[still]
+|-fail|p2a: Dragonite
+|move|p1a: Toxicroak|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-enditem|p2a: Dragonite|Loaded Dice|[from] move: Knock Off|[of] p1a: Toxicroak
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759078462
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|turn|18
+|
+|t:|1759078468
+|-terastallize|p2a: Iron Crown|Fighting
+|move|p1a: Toxicroak|Protect|p1a: Toxicroak
+|-singleturn|p1a: Toxicroak|Protect
+|move|p2a: Iron Crown|Focus Blast|p1a: Toxicroak
+|-activate|p1a: Toxicroak|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1759078476
+|switch|p1a: Pelipper|Pelipper, M|12/100
+|-damage|p1a: Pelipper|0 fnt|[from] Stealth Rock
+|faint|p1a: Pelipper
+|move|p2a: Iron Crown|Focus Blast|p1: Pelipper|[notarget]
+|-fail|p2a: Iron Crown
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759078478
+|switch|p1a: Barraskewda|Barraskewda, F|48/100
+|-damage|p1a: Barraskewda|36/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1759078506
+|move|p1a: Barraskewda|Liquidation|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759078508
+|switch|p2a: Cinderace|Cinderace, M|95/100 tox
+|turn|21
+|c|☆smthrdm|absurd
+|
+|t:|1759078516
+|move|p2a: Cinderace|Sucker Punch|p1a: Barraskewda
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-weather|none
+|-damage|p2a: Cinderace|89/100 tox|[from] psn
+|upkeep
+|
+|t:|1759078518
+|switch|p1a: Toxicroak|Toxicroak, M, tera:Dark|100/100
+|-damage|p1a: Toxicroak|88/100|[from] Stealth Rock
+|turn|22
+|inactive|smthrdm has 120 seconds left.
+|
+|t:|1759078565
+|move|p2a: Cinderace|U-turn|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-damage|p1a: Toxicroak|46/100
+|move|p1a: Toxicroak|Drain Punch|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|10/100 tox
+|-heal|p1a: Toxicroak|78/100|[from] drain|[of] p2a: Cinderace
+|
+|-heal|p1a: Toxicroak|84/100|[from] item: Leftovers
+|-damage|p2a: Cinderace|0 fnt|[from] psn
+|faint|p2a: Cinderace
+|
+|win|GreninjaGlazer53
+|raw|GreninjaGlazer53's rating: 1322 &rarr; <strong>1343</strong><br />(+21 for winning)
+|raw|smthrdm's rating: 1335 &rarr; <strong>1314</strong><br />(-21 for losing)
+|c|☆smthrdm|gg
+|l|☆smthrdm
+|player|p2|
+|c|☆GreninjaGlazer53|Gg
+|l|☆GreninjaGlazer53
+|player|p1|
+|j|☆GreninjaGlazer53
+|player|p1|GreninjaGlazer53|hooligans|
+|l|☆GreninjaGlazer53
+|player|p1|

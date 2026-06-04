@@ -1,0 +1,378 @@
+|j|☆haxorus3
+|j|☆reudige Gurke
+|t:|1760834089
+|gametype|singles
+|player|p1|haxorus3|169|1449
+|player|p2|reudige Gurke|265|1430
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tyranitar, F|
+|poke|p1|Gholdengo|
+|poke|p1|Zamazenta-*|
+|poke|p1|Rillaboom, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Zapdos|
+|poke|p2|Mew|
+|poke|p2|Alomomola, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Primarina, F|
+|poke|p2|Persian-Alola, F|
+|poke|p2|Kyurem|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by reudige Gurke)
+|
+|t:|1760834119
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Persian|Persian-Alola, F|100/100
+|turn|1
+|
+|t:|1760834128
+|move|p2a: Persian|Switcheroo|p1a: Zapdos
+|-activate|p2a: Persian|move: Trick|[of] p1a: Zapdos
+|-item|p1a: Zapdos|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Persian|Heavy-Duty Boots|[from] move: Switcheroo
+|move|p1a: Zapdos|Volt Switch|p2a: Persian
+|-damage|p2a: Persian|50/100
+|
+|t:|1760834154
+|switch|p1a: Zamazenta|Zamazenta|100/100|[from] Volt Switch
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1760834159
+|move|p1a: Zamazenta|Heavy Slam|p2a: Persian
+|-damage|p2a: Persian|21/100
+|move|p2a: Persian|Thunder Wave|p1a: Zamazenta
+|-status|p1a: Zamazenta|par
+|
+|upkeep
+|turn|3
+|
+|t:|1760834165
+|move|p2a: Persian|Parting Shot|p1a: Zamazenta
+|-unboost|p1a: Zamazenta|atk|1
+|-unboost|p1a: Zamazenta|spa|1
+|
+|t:|1760834167
+|switch|p2a: Mew|Mew|100/100|[from] Parting Shot
+|move|p1a: Zamazenta|Heavy Slam|p2a: Mew
+|-damage|p2a: Mew|85/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760834176
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Mew|Calm Mind|p2a: Mew
+|-boost|p2a: Mew|spa|1
+|-boost|p2a: Mew|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|78/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1760834190
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Tyranitar|Knock Off|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|63/100
+|-enditem|p2a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alomomola|57/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1760834196
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Alomomola|Flip Turn|p1a: Garchomp
+|-damage|p1a: Garchomp|90/100
+|-damage|p2a: Alomomola|45/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Alomomola|28/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|
+|t:|1760834199
+|switch|p2a: Persian|Persian-Alola, F|21/100|[from] Flip Turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Persian|15/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1760834206
+|move|p2a: Persian|Parting Shot|p1a: Garchomp
+|-unboost|p1a: Garchomp|atk|1
+|-unboost|p1a: Garchomp|spa|1
+|
+|t:|1760834212
+|switch|p2a: Alomomola|Alomomola, F|61/100|[from] Parting Shot
+|move|p1a: Garchomp|Dragon Tail|p2a: Alomomola
+|-damage|p2a: Alomomola|52/100
+|drag|p2a: Mew|Mew|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|72/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1760834222
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|move|p2a: Mew|Draining Kiss|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|85/100
+|-heal|p2a: Mew|83/100|[from] drain|[of] p1a: Tyranitar
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1760834229
+|switch|p2a: Alomomola|Alomomola, F|86/100
+|move|p1a: Tyranitar|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|68/100
+|
+|upkeep
+|turn|10
+|
+|t:|1760834235
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|11
+|
+|t:|1760834248
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Zapdos|Hurricane|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|12
+|
+|t:|1760834257
+|move|p1a: Zapdos|Hurricane|p2a: Alomomola
+|-damage|p2a: Alomomola|42/100
+|-start|p2a: Alomomola|confusion
+|-activate|p2a: Alomomola|confusion
+|-damage|p2a: Alomomola|38/100|[from] confusion
+|
+|upkeep
+|turn|13
+|
+|t:|1760834266
+|switch|p2a: Primarina|Primarina, F|100/100
+|move|p1a: Zapdos|Hurricane|p2a: Primarina|[miss]
+|-miss|p1a: Zapdos|p2a: Primarina
+|
+|upkeep
+|turn|14
+|
+|t:|1760834274
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Primarina|Moonblast|p1a: Rillaboom
+|-damage|p1a: Rillaboom|24/100
+|-unboost|p1a: Rillaboom|spa|1
+|
+|-heal|p1a: Rillaboom|30/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1760834286
+|switch|p2a: Persian|Persian-Alola, F|15/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|-damage|p1a: Rillaboom|25/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|31/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760834294
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|16
+|
+|t:|1760834299
+|switch|p1a: Garchomp|Garchomp, M|90/100
+|move|p2a: Cinderace|U-turn|p1a: Garchomp
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Garchomp|70/100
+|-damage|p2a: Cinderace|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Cinderace|72/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|
+|t:|1760834306
+|switch|p2a: Mew|Mew|83/100|[from] U-turn
+|
+|-heal|p1a: Garchomp|76/100|[from] Grassy Terrain
+|-heal|p2a: Mew|89/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1760834313
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Mew|Calm Mind|p2a: Mew
+|-boost|p2a: Mew|spa|1
+|-boost|p2a: Mew|spd|1
+|
+|-heal|p2a: Mew|95/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1760834326
+|move|p2a: Mew|Calm Mind|p2a: Mew
+|-boost|p2a: Mew|spa|1
+|-boost|p2a: Mew|spd|1
+|move|p1a: Gholdengo|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: Gholdengo|par
+|
+|-heal|p2a: Mew|100/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1760834335
+|cant|p2a: Mew|par
+|cant|p1a: Gholdengo|par
+|
+|upkeep
+|turn|20
+|
+|t:|1760834339
+|move|p2a: Mew|Agility|p2a: Mew
+|-boost|p2a: Mew|spe|2
+|cant|p1a: Gholdengo|par
+|
+|upkeep
+|turn|21
+|
+|t:|1760834343
+|move|p2a: Mew|Agility|p2a: Mew
+|-boost|p2a: Mew|spe|2
+|move|p1a: Gholdengo|Hex|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|50/100 par
+|-enditem|p2a: Mew|Weakness Policy
+|-boost|p2a: Mew|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Mew|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|22
+|
+|t:|1760834350
+|cant|p2a: Mew|par
+|cant|p1a: Gholdengo|par
+|
+|upkeep
+|turn|23
+|
+|t:|1760834362
+|cant|p2a: Mew|par
+|move|p1a: Gholdengo|Hex|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|c|☆reudige Gurke|PLS
+|c|☆haxorus3|That is cheese
+|c|☆reudige Gurke|maana
+|c|☆haxorus3|Truly
+|inactive|reudige Gurke has 120 seconds left.
+|c|☆haxorus3|A moment
+|c|☆haxorus3|In history
+|c|☆reudige Gurke|truly on of the paras of all time
+|
+|t:|1760834411
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|24
+|
+|t:|1760834415
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|76/100
+|cant|p1a: Gholdengo|par
+|
+|-heal|p2a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1760834419
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|cant|p1a: Gholdengo|par
+|
+|-heal|p2a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1760834421
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|move|p1a: Gholdengo|Make It Rain|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Kyurem|94/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1760834428
+|switch|p1a: Zamazenta|Zamazenta|100/100 par
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|69/100
+|
+|-heal|p2a: Kyurem|75/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1760834433
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|move|p1a: Zamazenta|Roar|p2a: Kyurem
+|drag|p2a: Alomomola|Alomomola, F|71/100
+|
+|upkeep
+|turn|29
+|c|☆haxorus3|Phew
+|c|☆reudige Gurke|well
+|c|☆reudige Gurke|gg
+|c|☆reudige Gurke|:D
+|-message|reudige Gurke forfeited.
+|
+|win|haxorus3
+|raw|haxorus3's rating: 1449 &rarr; <strong>1468</strong><br />(+19 for winning)
+|raw|reudige Gurke's rating: 1430 &rarr; <strong>1411</strong><br />(-19 for losing)
+|l|☆reudige Gurke
+|player|p2|
+|c|☆haxorus3|Never give up
+|c|☆haxorus3|Nvm
+|l|☆haxorus3
+|player|p1|

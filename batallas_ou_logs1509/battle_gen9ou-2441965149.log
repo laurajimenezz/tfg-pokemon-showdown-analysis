@@ -1,0 +1,258 @@
+|j|☆ExcaliburTesting
+|j|☆Fachemaispasfacho
+|t:|1757931562
+|gametype|singles
+|player|p1|ExcaliburTesting|swimmerf|1320
+|player|p2|Fachemaispasfacho|backpacker|1284
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Iron Hands|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Mimikyu, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Kyurem|
+|poke|p2|Zapdos|
+|poke|p2|Pelipper, M|
+|poke|p2|Iron Treads|
+|poke|p2|Samurott-Hisui, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ExcaliburTesting)
+|
+|t:|1757931574
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|switch|p2a: Dauntless|Samurott-Hisui, M|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1757931582
+|move|p2a: Dauntless|Aqua Cutter|p1a: Iron Hands
+|-damage|p1a: Iron Hands|48/100
+|move|p1a: Iron Hands|Close Combat|p2a: Dauntless
+|-supereffective|p2a: Dauntless
+|-damage|p2a: Dauntless|0 fnt
+|-unboost|p1a: Iron Hands|def|1
+|-unboost|p1a: Iron Hands|spd|1
+|faint|p2a: Dauntless
+|
+|upkeep
+|
+|t:|1757931596
+|switch|p2a: Droideka|Iron Treads|100/100
+|turn|2
+|
+|t:|1757931604
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|move|p2a: Droideka|Earthquake|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p1a: Mimikyu|Red Card|[of] p2a: Droideka
+|-end|p2a: Droideka|Quark Drive|[silent]
+|drag|p2a: Shimo|Kyurem|100/100
+|-ability|p2a: Shimo|Pressure
+|
+|upkeep
+|turn|3
+|
+|t:|1757931611
+|move|p2a: Shimo|Icicle Spear|p1a: Mimikyu
+|-damage|p1a: Mimikyu|78/100
+|-damage|p1a: Mimikyu|67/100
+|-damage|p1a: Mimikyu|56/100
+|-damage|p1a: Mimikyu|45/100
+|-hitcount|p1a: Mimikyu|4
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|upkeep
+|turn|4
+|
+|t:|1757931620
+|switch|p2a: WingedRat|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: WingedRat
+|move|p1a: Mimikyu|Curse|p2a: WingedRat
+|-start|p2a: WingedRat|Curse|[of] p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: WingedRat|76/100|[from] Curse
+|upkeep
+|
+|t:|1757931623
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|5
+|
+|t:|1757931643
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: WingedRat|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|87/100
+|-enditem|p1a: Hatterene|Life Orb|[from] move: Knock Off|[of] p2a: WingedRat
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: WingedRat|51/100|[from] Curse
+|upkeep
+|turn|6
+|
+|t:|1757931655
+|switch|p2a: Droideka|Iron Treads|100/100
+|move|p1a: Hatterene|Expanding Force|p2a: Droideka
+|-resisted|p2a: Droideka
+|-damage|p2a: Droideka|64/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Droideka|70/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1757931671
+|switch|p1a: Iron Hands|Iron Hands|48/100
+|move|p2a: Droideka|Earthquake|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Droideka|77/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757931674
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|8
+|
+|t:|1757931680
+|move|p2a: Droideka|Stealth Rock|p1a: Ursaluna
+|-sidestart|p1: ExcaliburTesting|move: Stealth Rock
+|move|p1a: Ursaluna|Headlong Rush|p2a: Droideka
+|-supereffective|p2a: Droideka
+|-damage|p2a: Droideka|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Droideka
+|-end|p2a: Droideka|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757931696
+|switch|p2a: Scarface|Basculegion, M|100/100
+|turn|9
+|
+|t:|1757931703
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p1a: Hoopa|88/100|[from] Stealth Rock
+|-enditem|p1a: Hoopa|Psychic Seed
+|-boost|p1a: Hoopa|spd|1|[from] item: Psychic Seed
+|move|p2a: Scarface|Flip Turn|p1a: Hoopa
+|-damage|p1a: Hoopa|19/100
+|
+|t:|1757931709
+|switch|p2a: Shimo|Kyurem|100/100|[from] Flip Turn
+|-ability|p2a: Shimo|Pressure
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1757931714
+|move|p2a: Shimo|Icicle Spear|p1a: Hoopa
+|-damage|p1a: Hoopa|6/100
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|-hitcount|p1: Hoopa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757931719
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1757931725
+|move|p2a: Shimo|Icicle Spear|p1a: Indeedee
+|-damage|p1a: Indeedee|75/100
+|-damage|p1a: Indeedee|63/100
+|-damage|p1a: Indeedee|50/100
+|-damage|p1a: Indeedee|39/100
+|-hitcount|p1a: Indeedee|4
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1757931734
+|move|p1a: Indeedee|Expanding Force|p2a: Shimo
+|-damage|p2a: Shimo|40/100
+|move|p2a: Shimo|Icicle Spear|p1a: Indeedee
+|-damage|p1a: Indeedee|28/100
+|-damage|p1a: Indeedee|14/100
+|-damage|p1a: Indeedee|1/100
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-hitcount|p1: Indeedee|4
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1757931739
+|switch|p1a: Ursaluna|Ursaluna, M|100/100 brn
+|-damage|p1a: Ursaluna|94/100 brn|[from] Stealth Rock
+|turn|13
+|
+|t:|1757931744
+|switch|p2a: BigBird|Zapdos|100/100
+|move|p1a: Ursaluna|Ice Punch|p2a: BigBird
+|-supereffective|p2a: BigBird
+|-damage|p2a: BigBird|31/100
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1757931750
+|move|p1a: Ursaluna|Supercell Slam|p2a: BigBird|[miss]
+|-miss|p1a: Ursaluna|p2a: BigBird
+|-damage|p1a: Ursaluna|39/100 brn|[from] supercellslam
+|move|p2a: BigBird|Roost|p2a: BigBird
+|-heal|p2a: BigBird|81/100
+|-singleturn|p2a: BigBird|move: Roost
+|
+|-damage|p1a: Ursaluna|32/100 brn|[from] brn
+|upkeep
+|turn|15
+|-message|ExcaliburTesting forfeited.
+|
+|win|Fachemaispasfacho
+|raw|ExcaliburTesting's rating: 1320 &rarr; <strong>1298</strong><br />(-22 for losing)
+|raw|Fachemaispasfacho's rating: 1284 &rarr; <strong>1312</strong><br />(+28 for winning)
+|l|☆ExcaliburTesting
+|player|p1|
+|l|☆Fachemaispasfacho
+|player|p2|

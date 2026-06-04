@@ -1,0 +1,259 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1769373584
+|gametype|singles
+|player|p1|Peum|miku-grass|
+|player|p2|robjr|#splxviicryonicles|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pincurchin, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Leaves|
+|poke|p1|Iron Crown|
+|poke|p1|Hawlucha, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Gholdengo|
+|poke|p2|Cinderace, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Garganacl, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|c|☆Peum|hf
+|
+|t:|1769373611
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|turn|1
+|
+|t:|1769373617
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Iron Valiant|Knock Off|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1769373623
+|move|p1a: Iron Valiant|Moonblast|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|-damage|p1a: Iron Valiant|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1769373648
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|3
+|
+|t:|1769373662
+|move|p2a: Cinderace|Pyro Ball|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|30/100
+|move|p1a: Iron Valiant|Close Combat|p2a: Cinderace
+|-damage|p2a: Cinderace|24/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|-damage|p1a: Iron Valiant|21/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1769373676
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Cinderace|Pyro Ball|p1a: Pincurchin
+|-damage|p1a: Pincurchin|27/100
+|
+|upkeep
+|turn|5
+|inactive|robjr has 270 seconds left.
+|
+|t:|1769373734
+|switch|p1a: Iron Valiant|Iron Valiant|21/100
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Cinderace|Pyro Ball|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769373742
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-activate|p1a: Iron Crown|ability: Quark Drive
+|-start|p1a: Iron Crown|quarkdrivespa
+|turn|6
+|
+|t:|1769373749
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Iron Crown|Volt Switch|p2a: Kingambit
+|-damage|p2a: Kingambit|47/100
+|
+|t:|1769373764
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Hawlucha|Hawlucha, F|100/100|[from] Volt Switch
+|-enditem|p1a: Hawlucha|Electric Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Electric Seed
+|
+|-heal|p2a: Kingambit|53/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1769373768
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1769373772
+|move|p1a: Hawlucha|Acrobatics|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|52/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Shadow Ball|p1a: Hawlucha
+|-damage|p1a: Hawlucha|47/100
+|
+|upkeep
+|turn|9
+|
+|t:|1769373781
+|-terastallize|p1a: Hawlucha|Flying
+|move|p1a: Hawlucha|Acrobatics|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1769373796
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|turn|10
+|
+|t:|1769373807
+|-terastallize|p2a: Garganacl|Water
+|move|p1a: Hawlucha|Acrobatics|p2a: Garganacl
+|-damage|p2a: Garganacl|18/100
+|move|p2a: Garganacl|Salt Cure|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|25/100
+|-start|p1a: Hawlucha|Salt Cure
+|
+|-heal|p2a: Garganacl|25/100|[from] item: Leftovers
+|-damage|p1a: Hawlucha|13/100|[from] Salt Cure
+|upkeep
+|turn|11
+|
+|t:|1769373815
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-activate|p1a: Iron Crown|ability: Quark Drive
+|-start|p1a: Iron Crown|quarkdrivespa
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|75/100
+|
+|-heal|p2a: Garganacl|81/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Crown|Quark Drive
+|upkeep
+|turn|12
+|
+|t:|1769373820
+|move|p1a: Iron Crown|Volt Switch|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|50/100
+|
+|t:|1769373822
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Pincurchin|Pincurchin, F|27/100|[from] Volt Switch
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Garganacl|Salt Cure|p1a: Pincurchin
+|-damage|p1a: Pincurchin|14/100
+|-start|p1a: Pincurchin|Salt Cure
+|
+|-heal|p2a: Garganacl|56/100|[from] item: Leftovers
+|-damage|p1a: Pincurchin|2/100|[from] Salt Cure
+|upkeep
+|turn|13
+|
+|t:|1769373829
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|move|p1a: Pincurchin|Spikes|p2a: Garganacl
+|-sidestart|p2: robjr|Spikes
+|
+|-damage|p1a: Pincurchin|0 fnt|[from] Salt Cure
+|faint|p1a: Pincurchin
+|upkeep
+|
+|t:|1769373832
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|14
+|
+|t:|1769373838
+|switch|p2a: Cinderace|Cinderace, M|24/100
+|move|p1a: Raging Bolt|Rising Voltage|p2a: Cinderace
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1769373844
+|switch|p2a: Kingambit|Kingambit, F|53/100
+|-damage|p2a: Kingambit|41/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|15
+|
+|t:|1769373848
+|move|p1a: Raging Bolt|Thunderclap|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|upkeep
+|
+|t:|1769373850
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|88/100|[from] Spikes
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|16
+|
+|t:|1769373852
+|move|p2a: Zamazenta|Body Press|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|52/100
+|move|p1a: Raging Bolt|Rising Voltage|p2a: Zamazenta
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|-message|robjr forfeited.
+|
+|win|Peum
+|c|☆Peum|ggs

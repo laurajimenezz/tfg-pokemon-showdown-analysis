@@ -1,0 +1,264 @@
+|j|☆gummy worm ddd
+|j|☆TigerEyeHS
+|t:|1769328072
+|gametype|singles
+|player|p1|gummy worm ddd|red|1285
+|player|p2|TigerEyeHS|gambler|1258
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zapdos|
+|poke|p1|Politoed, F|
+|poke|p1|Overqwil, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Blastoise, M|
+|poke|p1|Garchomp, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Great Tusk|
+|poke|p2|Dragonite, F|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Glimmora, F|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1769328078
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Politoed|Politoed, F|100/100
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|t:|1769328090
+|move|p2a: Deoxys|Light Screen|p2a: Deoxys
+|-sidestart|p2: TigerEyeHS|move: Light Screen
+|move|p1a: Politoed|Whirlpool|p2a: Deoxys
+|-damage|p2a: Deoxys|90/100
+|-activate|p2a: Deoxys|move: Whirlpool|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Deoxys|78/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1769328096
+|move|p2a: Deoxys|Reflect|p2a: Deoxys
+|-sidestart|p2: TigerEyeHS|Reflect
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p2a: Deoxys|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Deoxys|66/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Deoxys|perish3
+|-start|p1a: Politoed|perish3
+|upkeep
+|turn|3
+|
+|t:|1769328105
+|move|p2a: Deoxys|Dark Pulse|p1a: Politoed
+|-damage|p1a: Politoed|82/100
+|cant|p1a: Politoed|flinch
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Deoxys|54/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Deoxys|perish2
+|-start|p1a: Politoed|perish2
+|upkeep
+|turn|4
+|
+|t:|1769328114
+|move|p2a: Deoxys|Dark Pulse|p1a: Politoed
+|-damage|p1a: Politoed|65/100
+|move|p1a: Politoed|Whirlpool|p2a: Deoxys|[miss]
+|-miss|p1a: Politoed|p2a: Deoxys
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Deoxys|41/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Deoxys|perish1
+|-start|p1a: Politoed|perish1
+|upkeep
+|turn|5
+|
+|t:|1769328124
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Deoxys|Psycho Boost|p1a: Rillaboom
+|-damage|p1a: Rillaboom|37/100
+|-unboost|p2a: Deoxys|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Deoxys|47/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|43/100|[from] Grassy Terrain
+|-end|p2a: Deoxys|Whirlpool|[partiallytrapped]
+|-start|p2a: Deoxys|perish0
+|faint|p2a: Deoxys
+|upkeep
+|
+|t:|1769328137
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|6
+|
+|t:|1769328142
+|move|p1a: Rillaboom|Grassy Glide|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|66/100
+|move|p2a: Iron Valiant|Knock Off|p1a: Rillaboom
+|-damage|p1a: Rillaboom|10/100
+|-enditem|p1a: Rillaboom|Choice Band|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Valiant|72/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|17/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1769328151
+|move|p1a: Rillaboom|Grassy Glide|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|49/100
+|move|p2a: Iron Valiant|Knock Off|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Valiant|55/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1769328157
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|8
+|
+|t:|1769328162
+|move|p2a: Iron Valiant|Moonblast|p1a: Zapdos
+|-damage|p1a: Zapdos|61/100
+|move|p1a: Zapdos|Hurricane|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|none
+|-sideend|p2: TigerEyeHS|move: Light Screen
+|upkeep
+|
+|t:|1769328170
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|9
+|
+|t:|1769328173
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Zapdos|Thunder Wave|p2a: Dragonite|[miss]
+|-miss|p1a: Zapdos|p2a: Dragonite
+|
+|-sideend|p2: TigerEyeHS|Reflect
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1769328182
+|move|p2a: Dragonite|Dragon Claw|p1a: Zapdos
+|-damage|p1a: Zapdos|13/100
+|-status|p2a: Dragonite|par|[from] ability: Static|[of] p1a: Zapdos
+|move|p1a: Zapdos|Thunder Wave|p2a: Dragonite
+|-fail|p2a: Dragonite|par
+|
+|upkeep
+|turn|11
+|
+|t:|1769328191
+|move|p1a: Zapdos|Volt Switch|p2a: Dragonite
+|-damage|p2a: Dragonite|84/100 par
+|
+|t:|1769328193
+|switch|p1a: Politoed|Politoed, F|65/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|cant|p2a: Dragonite|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1769328201
+|move|p1a: Politoed|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|10/100 par
+|move|p2a: Dragonite|Dragon Claw|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|16/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1769328208
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|turn|13
+|
+|t:|1769328212
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|-enditem|p1a: Blastoise|White Herb
+|-clearnegativeboost|p1a: Blastoise|[silent]
+|move|p2a: Dragonite|Dragon Claw|p1a: Blastoise
+|-damage|p1a: Blastoise|33/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragonite|22/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1769328224
+|move|p1a: Blastoise|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769328229
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|15
+|
+|t:|1769328238
+|-terastallize|p2a: Great Tusk|Steel
+|move|p1a: Blastoise|Surf|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|TigerEyeHS forfeited.
+|
+|win|gummy worm ddd
+|raw|gummy worm ddd's rating: 1285 &rarr; <strong>1308</strong><br />(+23 for winning)
+|raw|TigerEyeHS's rating: 1258 &rarr; <strong>1235</strong><br />(-23 for losing)
+|l|☆TigerEyeHS
+|player|p2|
+|l|☆gummy worm ddd
+|player|p1|

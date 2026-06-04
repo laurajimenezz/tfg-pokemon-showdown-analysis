@@ -1,0 +1,270 @@
+|j|☆c.empty
+|j|☆heal_fire
+|t:|1758355949
+|gametype|singles
+|player|p1|c.empty|2|1344
+|player|p2|heal_fire|ghetsis|1321
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Great Tusk|
+|poke|p1|Walking Wake|
+|poke|p1|Raging Bolt|
+|poke|p1|Ting-Lu|
+|poke|p1|Venusaur, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Iron Treads|
+|poke|p2|Ludicolo, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Overqwil, M|
+|teampreview
+|c|☆heal_fire|a meanie sun user!
+|
+|t:|1758355969
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|switch|p2a: Mad max|Iron Treads|100/100
+|-enditem|p2a: Mad max|Booster Energy
+|-activate|p2a: Mad max|ability: Quark Drive|[fromitem]
+|-start|p2a: Mad max|quarkdrivespe
+|turn|1
+|
+|t:|1758355977
+|move|p2a: Mad max|Earthquake|p1a: Venusaur
+|-damage|p1a: Venusaur|42/100
+|move|p1a: Venusaur|Giga Drain|p2a: Mad max
+|-damage|p2a: Mad max|41/100
+|-heal|p1a: Venusaur|74/100|[from] drain|[of] p2a: Mad max
+|-damage|p1a: Venusaur|64/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|t:|1758355991
+|move|p2a: Mad max|Volt Switch|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|57/100
+|
+|t:|1758355995
+|-end|p2a: Mad max|Quark Drive|[silent]
+|switch|p2a: Grosse mouette|Pelipper, F|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Grosse mouette
+|move|p1a: Venusaur|Giga Drain|p2a: Grosse mouette
+|-damage|p2a: Grosse mouette|35/100
+|-heal|p1a: Venusaur|92/100|[from] drain|[of] p2a: Grosse mouette
+|-damage|p1a: Venusaur|82/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758356006
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Fugu|Overqwil, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758356021
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Fugu|Gunk Shot|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|75/100
+|-damage|p2a: Fugu|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758356033
+|move|p2a: Fugu|Liquidation|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|3/100
+|-unboost|p1a: Great Tusk|def|1
+|-damage|p2a: Fugu|81/100|[from] item: Life Orb
+|move|p1a: Great Tusk|Headlong Rush|p2a: Fugu
+|-supereffective|p2a: Fugu
+|-crit|p2a: Fugu
+|-damage|p2a: Fugu|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Fugu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆heal_fire|NAH
+|c|☆heal_fire|no!
+|
+|t:|1758356044
+|switch|p2a: Ananas|Ludicolo, M|100/100
+|turn|6
+|
+|t:|1758356059
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Ananas|Giga Drain|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|79/100
+|-damage|p2a: Ananas|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758356092
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|switch|p2a: Mad max|Iron Treads|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758356102
+|move|p1a: Walking Wake|Hydro Steam|p2a: Mad max
+|-supereffective|p2a: Mad max
+|-damage|p2a: Mad max|0 fnt
+|faint|p2a: Mad max
+|-end|p2a: Mad max|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758356108
+|switch|p2a: Assault vest|Raging Bolt|100/100
+|-activate|p2a: Assault vest|ability: Protosynthesis
+|-start|p2a: Assault vest|protosynthesisspa
+|turn|9
+|
+|t:|1758356113
+|-terastallize|p1a: Walking Wake|Fairy
+|-terastallize|p2a: Assault vest|Electric
+|move|p1a: Walking Wake|Draco Meteor|p2a: Assault vest
+|-damage|p2a: Assault vest|46/100
+|-unboost|p1a: Walking Wake|spa|2
+|move|p2a: Assault vest|Draco Meteor|p1a: Walking Wake
+|-immune|p1a: Walking Wake
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|c|☆heal_fire|ah sad
+|
+|t:|1758356134
+|move|p1a: Walking Wake|Flip Turn|p2a: Assault vest
+|-damage|p2a: Assault vest|39/100
+|
+|t:|1758356141
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|3/100|[from] Flip Turn
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Assault vest|Draco Meteor|p1a: Great Tusk|[miss]
+|-miss|p2a: Assault vest|p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758356153
+|-end|p2a: Assault vest|Protosynthesis|[silent]
+|switch|p2a: Grosse mouette|Pelipper, F|35/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Grosse mouette
+|-end|p1a: Great Tusk|Protosynthesis
+|move|p1a: Great Tusk|Headlong Rush|p2a: Grosse mouette
+|-immune|p2a: Grosse mouette
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1758356168
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Walking Wake|Walking Wake, tera:Fairy|100/100
+|move|p2a: Grosse mouette|U-turn|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|96/100
+|
+|t:|1758356184
+|switch|p2a: Ananas|Ludicolo, M|91/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1758356194
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|79/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Ananas|Hydro Pump|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|19/100
+|-damage|p2a: Ananas|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1758356216
+|switch|p1a: Venusaur|Venusaur, F|82/100
+|move|p2a: Ananas|Giga Drain|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|70/100
+|-heal|p2a: Ananas|87/100|[from] drain|[of] p1a: Venusaur
+|-damage|p2a: Ananas|77/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1758356235
+|move|p1a: Venusaur|Sludge Bomb|p2a: Ananas
+|-supereffective|p2a: Ananas
+|-damage|p2a: Ananas|0 fnt
+|faint|p2a: Ananas
+|-damage|p1a: Venusaur|60/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758356238
+|switch|p2a: Grosse mouette|Pelipper, F|35/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Grosse mouette
+|turn|16
+|
+|t:|1758356258
+|move|p1a: Venusaur|Giga Drain|p2a: Grosse mouette
+|-damage|p2a: Grosse mouette|0 fnt
+|-heal|p1a: Venusaur|78/100|[from] drain|[of] p2a: Grosse mouette
+|faint|p2a: Grosse mouette
+|-damage|p1a: Venusaur|68/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆heal_fire|well… gg
+|-message|heal_fire forfeited.
+|
+|win|c.empty
+|raw|c.empty's rating: 1344 &rarr; <strong>1363</strong><br />(+19 for winning)
+|raw|heal_fire's rating: 1321 &rarr; <strong>1302</strong><br />(-19 for losing)
+|l|☆heal_fire
+|player|p2|
+|l|☆c.empty
+|player|p1|

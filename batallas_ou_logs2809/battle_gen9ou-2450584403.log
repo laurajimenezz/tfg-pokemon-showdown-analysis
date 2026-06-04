@@ -1,0 +1,244 @@
+|j|☆phixit
+|j|☆Yajityyy
+|t:|1759000844
+|gametype|singles
+|player|p1|phixit|1|1313
+|player|p2|Yajityyy|burglar|1348
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Garchomp, F|
+|poke|p1|Pecharunt|
+|poke|p1|Rotom-Wash|
+|poke|p2|Iron Valiant|
+|poke|p2|Great Tusk|
+|poke|p2|Dragonite, M|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Glimmora, F|
+|poke|p2|Kingambit, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by phixit)
+|
+|t:|1759000855
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|turn|1
+|
+|t:|1759000877
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Rotom|Will-O-Wisp|p2a: Deoxys
+|-status|p2a: Deoxys|brn
+|
+|-damage|p2a: Deoxys|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1759000888
+|move|p2a: Deoxys|Light Screen|p2a: Deoxys
+|-sidestart|p2: Yajityyy|move: Light Screen
+|move|p1a: Rotom|Volt Switch|p2a: Deoxys
+|-damage|p2a: Deoxys|79/100 brn
+|
+|t:|1759000893
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from] Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Deoxys|73/100 brn|[from] Sandstorm
+|-damage|p2a: Deoxys|67/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1759000899
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|move|p1a: Tyranitar|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1759000911
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-item|p1a: Pecharunt|Air Balloon
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pecharunt|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1759000919
+|move|p2a: Great Tusk|Head Smash|p1a: Pecharunt
+|-damage|p1a: Pecharunt|66/100
+|-enditem|p1a: Pecharunt|Air Balloon
+|-damage|p2a: Great Tusk|79/100|[from] Recoil
+|move|p1a: Pecharunt|Malignant Chain|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|69/100
+|-status|p2a: Great Tusk|tox
+|-start|p2a: Great Tusk|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pecharunt|60/100|[from] Sandstorm
+|-damage|p2a: Great Tusk|63/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1759000936
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-activate|p2a: Great Tusk|confusion
+|-damage|p2a: Great Tusk|56/100 tox|[from] confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|94/100|[from] Sandstorm
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|43/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1759000945
+|-end|p2a: Great Tusk|confusion
+|move|p2a: Great Tusk|Taunt|p1a: Rotom
+|-start|p1a: Rotom|move: Taunt
+|move|p1a: Rotom|Hydro Pump|p2a: Great Tusk|[miss]
+|-miss|p1a: Rotom|p2a: Great Tusk
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|94/100|[from] Sandstorm
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|24/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1759000954
+|move|p2a: Great Tusk|Head Smash|p1a: Rotom
+|-damage|p1a: Rotom|44/100
+|-damage|p2a: Great Tusk|5/100 tox|[from] Recoil
+|move|p1a: Rotom|Hydro Pump|p2a: Great Tusk|[miss]
+|-miss|p1a: Rotom|p2a: Great Tusk
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|38/100|[from] Sandstorm
+|-heal|p1a: Rotom|44/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|0 fnt|[from] psn
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1759000963
+|switch|p2a: Deoxys|Deoxys-Speed|67/100 brn
+|-ability|p2a: Deoxys|Pressure
+|turn|9
+|
+|t:|1759000968
+|move|p2a: Deoxys|Reflect|p2a: Deoxys
+|-sidestart|p2: Yajityyy|Reflect
+|move|p1a: Rotom|Volt Switch|p2a: Deoxys
+|-damage|p2a: Deoxys|53/100 brn
+|
+|t:|1759000994
+|switch|p1a: Excadrill|Excadrill, M|100/100|[from] Volt Switch
+|
+|-weather|none
+|-damage|p2a: Deoxys|47/100 brn|[from] brn
+|-sideend|p2: Yajityyy|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1759001000
+|switch|p1a: Pecharunt|Pecharunt|60/100
+|move|p2a: Deoxys|Taunt|p1a: Pecharunt
+|-start|p1a: Pecharunt|move: Taunt
+|
+|-damage|p2a: Deoxys|41/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1759001007
+|move|p2a: Deoxys|Psycho Boost|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|-unboost|p2a: Deoxys|spa|2
+|faint|p1a: Pecharunt
+|
+|-damage|p2a: Deoxys|35/100 brn|[from] brn
+|upkeep
+|
+|t:|1759001010
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|12
+|
+|t:|1759001022
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Tyranitar|Knock Off|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|96/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|89/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1759001033
+|switch|p1a: Rotom|Rotom-Wash|44/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|83/100|[from] Sandstorm
+|upkeep
+|
+|t:|1759001037
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|turn|14
+|
+|t:|1759001050
+|move|p1a: Excadrill|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|32/100
+|-damage|p1a: Excadrill|91/100|[from] item: Life Orb
+|move|p2a: Iron Valiant|Close Combat|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|26/100|[from] Sandstorm
+|upkeep
+|-message|phixit forfeited.
+|
+|win|Yajityyy
+|raw|phixit's rating: 1313 &rarr; <strong>1295</strong><br />(-18 for losing)
+|raw|Yajityyy's rating: 1348 &rarr; <strong>1366</strong><br />(+18 for winning)
+|l|☆phixit
+|player|p1|

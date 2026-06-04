@@ -1,0 +1,290 @@
+|j|☆Gibby the hut
+|j|☆pepelepiu
+|t:|1760725946
+|gametype|singles
+|player|p1|Gibby the hut|red|1250
+|player|p2|pepelepiu|waiter-gen4|1227
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mimikyu, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Ribombee, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Kingambit, M|
+|poke|p1|Pelipper, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1760725951
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: BeeBom|Ribombee, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: BeeBom|atk|1
+|turn|1
+|
+|t:|1760725956
+|move|p1a: BeeBom|Sticky Web|p2a: Landorus
+|-sidestart|p2: pepelepiu|move: Sticky Web
+|move|p2a: Landorus|Stealth Rock|p1a: BeeBom
+|-sidestart|p1: Gibby the hut|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1760725961
+|move|p1a: BeeBom|Quiver Dance|p1a: BeeBom
+|-boost|p1a: BeeBom|spa|1
+|-boost|p1a: BeeBom|spd|1
+|-boost|p1a: BeeBom|spe|1
+|move|p2a: Landorus|U-turn|p1a: BeeBom
+|-resisted|p1a: BeeBom
+|-crit|p1a: BeeBom
+|-damage|p1a: BeeBom|70/100
+|
+|t:|1760725964
+|switch|p2a: Glimmora|Glimmora, M|100/100|[from] U-turn
+|-activate|p2a: Glimmora|move: Sticky Web
+|-unboost|p2a: Glimmora|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1760725973
+|move|p1a: BeeBom|Bug Buzz|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|61/100
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|-enditem|p2a: Glimmora|Power Herb
+|-anim|p2a: Glimmora|Meteor Beam|p1a: BeeBom
+|-supereffective|p1a: BeeBom
+|-damage|p1a: BeeBom|0 fnt
+|faint|p1a: BeeBom
+|
+|upkeep
+|
+|t:|1760725984
+|switch|p1a: Pelicant|Pelipper, M, shiny|100/100
+|-damage|p1a: Pelicant|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelicant
+|turn|4
+|
+|t:|1760725991
+|move|p2a: Glimmora|Mortal Spin|p1a: Pelicant
+|-damage|p1a: Pelicant|70/100
+|-status|p1a: Pelicant|psn
+|-sideend|p2: pepelepiu|Sticky Web|[from] move: Mortal Spin|[of] p2a: Glimmora
+|move|p1a: Pelicant|Tailwind|p1a: Pelicant
+|-sidestart|p1: Gibby the hut|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelicant|58/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1760725997
+|move|p1a: Pelicant|Weather Ball|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelicant|45/100 psn|[from] psn
+|upkeep
+|
+|t:|1760726017
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|6
+|
+|t:|1760726023
+|move|p2a: Dragapult|Shadow Ball|p1a: Pelicant
+|-damage|p1a: Pelicant|0 fnt
+|faint|p1a: Pelicant
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760726038
+|switch|p1a: Oven|Rotom-Heat|100/100
+|-damage|p1a: Oven|76/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1760726043
+|move|p1a: Oven|Will-O-Wisp|p2a: Dragapult
+|-status|p2a: Dragapult|brn
+|move|p2a: Dragapult|Shadow Ball|p1a: Oven
+|-damage|p1a: Oven|10/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dragapult|95/100 brn|[from] brn
+|-sideend|p1: Gibby the hut|move: Tailwind
+|upkeep
+|turn|8
+|
+|t:|1760726050
+|move|p2a: Dragapult|Shadow Ball|p1a: Oven
+|-damage|p1a: Oven|0 fnt
+|faint|p1a: Oven
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dragapult|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1760726057
+|switch|p1a: Mimikins|Mimikyu, F, shiny|100/100
+|-damage|p1a: Mimikins|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1760726059
+|move|p2a: Dragapult|Shadow Ball|p1a: Mimikins
+|-activate|p1a: Mimikins|ability: Disguise
+|-damage|p1a: Mimikins|88/100
+|-unboost|p1a: Mimikins|spd|1
+|detailschange|p1a: Mimikins|Mimikyu-Busted, F, shiny
+|-damage|p1a: Mimikins|76/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p1a: Mimikins|Red Card|[of] p2a: Dragapult
+|drag|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Mimikins|Swords Dance|p1a: Mimikins
+|-boost|p1a: Mimikins|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760726070
+|move|p2a: Iron Valiant|Spirit Break|p1a: Mimikins
+|-damage|p1a: Mimikins|6/100
+|-unboost|p1a: Mimikins|spa|1
+|move|p1a: Mimikins|Play Rough|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760726077
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Mimikins|atk|1
+|turn|11
+|
+|t:|1760726085
+|move|p1a: Mimikins|Play Rough|p2a: Landorus|[miss]
+|-miss|p1a: Mimikins|p2a: Landorus
+|move|p2a: Landorus|U-turn|p1a: Mimikins
+|-resisted|p1a: Mimikins
+|-damage|p1a: Mimikins|0 fnt
+|faint|p1a: Mimikins
+|
+|t:|1760726090
+|switch|p2a: Dragapult|Dragapult, F|89/100 brn|[from] U-turn
+|
+|-weather|none
+|-damage|p2a: Dragapult|83/100 brn|[from] brn
+|upkeep
+|
+|t:|1760726097
+|switch|p1a: Ching Chong|Kingambit, M|100/100
+|-damage|p1a: Ching Chong|94/100|[from] Stealth Rock
+|-activate|p1a: Ching Chong|ability: Supreme Overlord
+|-start|p1a: Ching Chong|fallen4|[silent]
+|turn|12
+|
+|t:|1760726106
+|move|p2a: Dragapult|Flamethrower|p1a: Ching Chong
+|-supereffective|p1a: Ching Chong
+|-damage|p1a: Ching Chong|19/100
+|move|p1a: Ching Chong|Swords Dance|p1a: Ching Chong
+|-boost|p1a: Ching Chong|atk|2
+|
+|-damage|p2a: Dragapult|77/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1760726109
+|move|p1a: Ching Chong|Sucker Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1760726112
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ching Chong|atk|1
+|turn|14
+|
+|t:|1760726118
+|move|p2a: Landorus|Earthquake|p1a: Ching Chong
+|-supereffective|p1a: Ching Chong
+|-damage|p1a: Ching Chong|0 fnt
+|faint|p1a: Ching Chong
+|-end|p1a: Ching Chong|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1760726120
+|switch|p1a: Obama|Rillaboom, M|100/100
+|-damage|p1a: Obama|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Obama
+|-enditem|p1a: Obama|Grassy Seed
+|-boost|p1a: Obama|def|1|[from] item: Grassy Seed
+|turn|15
+|
+|t:|1760726125
+|move|p1a: Obama|Grassy Glide|p2a: Landorus
+|-damage|p2a: Landorus|64/100
+|-damage|p1a: Obama|72/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|move|p2a: Landorus|U-turn|p1a: Obama
+|-supereffective|p1a: Obama
+|-damage|p1a: Obama|38/100
+|
+|t:|1760726130
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|
+|-heal|p1a: Obama|44/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1760726166
+|-terastallize|p2a: Kingambit|Ghost
+|move|p1a: Obama|High Horsepower|p2a: Kingambit
+|-damage|p2a: Kingambit|76/100
+|move|p2a: Kingambit|Iron Head|p1a: Obama
+|-damage|p1a: Obama|0 fnt
+|faint|p1a: Obama
+|
+|win|pepelepiu
+|raw|Gibby the hut's rating: 1250 &rarr; <strong>1223</strong><br />(-27 for losing)
+|raw|pepelepiu's rating: 1227 &rarr; <strong>1254</strong><br />(+27 for winning)
+|l|☆Gibby the hut
+|player|p1|
+|l|☆pepelepiu
+|player|p2|

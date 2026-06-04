@@ -1,0 +1,175 @@
+|j|☆yousonofaBImin
+|j|☆ineverhaxed
+|t:|1760455495
+|gametype|singles
+|player|p1|yousonofaBImin|blue|1257
+|player|p2|ineverhaxed|102|1287
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Barraskewda, M|
+|poke|p1|Zapdos|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Drifblim, F|
+|poke|p2|Blissey, F|
+|poke|p2|Darkrai|
+|poke|p2|Cinderace, F|
+|poke|p2|Lokix, F|
+|teampreview
+|
+|t:|1760455510
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ineverhaxed)
+|
+|t:|1760455516
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Blissey|Alluring Voice|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|45/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760455530
+|switch|p2a: Drifblim|Drifblim, F|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|7/100
+|-enditem|p2a: Drifblim|Sitrus Berry|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|3
+|
+|t:|1760455537
+|move|p2a: Drifblim|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760455545
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|4
+|
+|t:|1760455551
+|move|p2a: Drifblim|Shadow Ball|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|43/100
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1760455563
+|move|p2a: Drifblim|Shadow Ball|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|3/100
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|upkeep
+|
+|t:|1760455570
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|turn|6
+|
+|t:|1760455574
+|move|p2a: Electrode|Volt Switch|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|t:|1760455578
+|switch|p2a: Blissey|Blissey, F|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1760455583
+|switch|p1a: Barraskewda|Barraskewda, M, shiny|100/100
+|turn|7
+|
+|t:|1760455586
+|move|p1a: Barraskewda|Close Combat|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|faint|p2a: Blissey
+|
+|upkeep
+|
+|t:|1760455594
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|8
+|
+|t:|1760455600
+|-terastallize|p2a: Darkrai|Dark
+|move|p2a: Darkrai|Dark Pulse|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|upkeep
+|
+|t:|1760455608
+|switch|p1a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|9
+|
+|t:|1760455612
+|move|p2a: Darkrai|Dark Pulse|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760455616
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|10
+|
+|t:|1760455621
+|-terastallize|p1a: Raging Bolt|Bug
+|move|p2a: Darkrai|Dark Pulse|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|37/100
+|move|p1a: Raging Bolt|Weather Ball|p2a: Darkrai
+|-damage|p2a: Darkrai|19/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|-message|yousonofaBImin forfeited.
+|
+|win|ineverhaxed
+|raw|yousonofaBImin's rating: 1257 &rarr; <strong>1234</strong><br />(-23 for losing)
+|raw|ineverhaxed's rating: 1287 &rarr; <strong>1310</strong><br />(+23 for winning)
+|l|☆yousonofaBImin
+|player|p1|

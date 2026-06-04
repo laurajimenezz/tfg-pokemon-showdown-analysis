@@ -1,0 +1,161 @@
+|j|☆MicrowaveHeart
+|j|☆TrentMercer
+|t:|1760808608
+|gametype|singles
+|player|p1|MicrowaveHeart|workerice|1630
+|player|p2|TrentMercer|n|1634
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Incineroar, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Treads|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Mamoswine, F|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Zapdos|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Chandelure, M|
+|poke|p2|Scizor, F|
+|teampreview
+|
+|t:|1760808627
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|1
+|
+|t:|1760808632
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Tornadus|Knock Off|p2a: Zapdos
+|-damage|p2a: Zapdos|86/100
+|-enditem|p2a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tornadus
+|
+|upkeep
+|turn|2
+|
+|t:|1760808640
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Iron Treads|[miss]
+|-miss|p2a: Zapdos|p1a: Iron Treads
+|
+|upkeep
+|turn|3
+|
+|t:|1760808647
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Iron Treads|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: TrentMercer|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1760808655
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Ice Spinner|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|83/100
+|
+|upkeep
+|turn|5
+|
+|t:|1760808665
+|move|p2a: Great Tusk|Stealth Rock|p1a: Incineroar
+|-sidestart|p1: MicrowaveHeart|move: Stealth Rock
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Great Tusk
+|-status|p2a: Great Tusk|brn
+|
+|-damage|p2a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1760808673
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Rapid Spin|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|-heal|p1a: Gholdengo|100/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1760808683
+|move|p2a: Great Tusk|Headlong Rush|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|62/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Gholdengo|Hex|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p1a: Gholdengo|68/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760808688
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|-damage|p2a: Crawdaunt|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1760808705
+|switch|p1a: Incineroar|Incineroar, M|83/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Crawdaunt|atk|1
+|move|p2a: Crawdaunt|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|57/100
+|-enditem|p1a: Incineroar|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Crawdaunt
+|
+|upkeep
+|turn|9
+|
+|t:|1760808716
+|switch|p2a: Zapdos|Zapdos|86/100
+|-damage|p2a: Zapdos|61/100|[from] Stealth Rock
+|move|p1a: Incineroar|Parting Shot|p2a: Zapdos
+|-unboost|p2a: Zapdos|atk|1
+|-unboost|p2a: Zapdos|spa|1
+|
+|t:|1760808724
+|switch|p1a: Mamoswine|Mamoswine, F, shiny|100/100|[from] Parting Shot
+|-damage|p1a: Mamoswine|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|10
+|l|☆TrentMercer
+|player|p2|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MicrowaveHeart)
+|inactive|TrentMercer has 30 seconds to reconnect!
+|inactive|TrentMercer has 20 seconds to reconnect!
+|inactive|TrentMercer has 15 seconds to reconnect!
+|inactive|TrentMercer has 10 seconds to reconnect!
+|inactive|TrentMercer has 5 seconds to reconnect!
+|-message|TrentMercer lost due to inactivity.
+|
+|win|MicrowaveHeart
+|raw|MicrowaveHeart's rating: 1630 &rarr; <strong>1650</strong><br />(+20 for winning)
+|raw|TrentMercer's rating: 1634 &rarr; <strong>1614</strong><br />(-20 for losing)
+|l|☆MicrowaveHeart
+|player|p1|

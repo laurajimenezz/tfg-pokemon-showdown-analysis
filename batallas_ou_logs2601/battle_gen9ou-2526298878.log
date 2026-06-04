@@ -1,0 +1,401 @@
+|j|☆scribeofrevocis
+|j|☆Fatty Mama
+|t:|1769393587
+|gametype|singles
+|player|p1|scribeofrevocis|gardenia|1719
+|player|p2|Fatty Mama|touristf2|1641
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Crown|
+|poke|p1|Cinderace, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Kingambit, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Iron Crown|
+|poke|p2|Iron Hands|
+|poke|p2|Primarina, F|
+|poke|p2|Mamoswine, M|
+|poke|p2|Iron Moth|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fatty Mama)
+|
+|t:|1769393604
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Plastic Trees|Iron Crown|100/100
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1769393616
+|move|p1a: Plastic Trees|Psychic Noise|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|32/100
+|-start|p2a: Iron Hands|move: Heal Block
+|move|p2a: Iron Hands|Close Combat|p1a: Plastic Trees
+|-damage|p1a: Plastic Trees|0 fnt
+|-unboost|p2a: Iron Hands|def|1
+|-unboost|p2a: Iron Hands|spd|1
+|faint|p1a: Plastic Trees
+|-end|p1a: Plastic Trees|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769393622
+|switch|p1a: Leaf|Ogerpon-Wellspring, F|100/100
+|turn|2
+|
+|t:|1769393630
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|move|p1a: Leaf|Ivy Cudgel|p2a: Meowscarada|[anim] Ivy Cudgel Water
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|57/100
+|
+|upkeep
+|turn|3
+|
+|t:|1769393638
+|switch|p1a: Triple T|Landorus-Therian, M|100/100
+|-ability|p1a: Triple T|Intimidate|boost
+|-unboost|p2a: Meowscarada|atk|1
+|move|p2a: Meowscarada|U-turn|p1a: Triple T
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Triple T
+|-damage|p1a: Triple T|90/100
+|-damage|p2a: Meowscarada|40/100|[from] item: Rocky Helmet|[of] p1a: Triple T
+|
+|t:|1769393646
+|switch|p2a: Iron Crown|Iron Crown|100/100|[from] U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1769393654
+|-terastallize|p2a: Iron Crown|Steel
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Triple T
+|-damage|p1a: Triple T|41/100
+|-damage|p1a: Triple T|0 fnt
+|faint|p1a: Triple T
+|-hitcount|p1: Triple T|2
+|
+|upkeep
+|
+|t:|1769393662
+|switch|p1a: El Gambito|Kingambit, M|100/100
+|-activate|p1a: El Gambito|ability: Supreme Overlord
+|-start|p1a: El Gambito|fallen2|[silent]
+|turn|5
+|
+|t:|1769393670
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: El Gambito
+|-resisted|p1a: El Gambito
+|-crit|p1a: El Gambito
+|-damage|p1a: El Gambito|62/100
+|-resisted|p1a: El Gambito
+|-damage|p1a: El Gambito|37/100
+|-hitcount|p1a: El Gambito|2
+|move|p1a: El Gambito|Kowtow Cleave|p2a: Iron Crown
+|-damage|p2a: Iron Crown|22/100
+|
+|upkeep
+|turn|6
+|
+|t:|1769393681
+|move|p1a: El Gambito|Sucker Punch|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769393690
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|7
+|
+|t:|1769393698
+|-end|p1a: El Gambito|fallen2|[silent]
+|switch|p1a: Triassic Triangle|Dragapult, F|100/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Triassic Triangle
+|-resisted|p1a: Triassic Triangle
+|-damage|p1a: Triassic Triangle|71/100
+|
+|upkeep
+|turn|8
+|
+|t:|1769393707
+|move|p2a: Iron Moth|Fiery Dance|p1a: Triassic Triangle
+|-resisted|p1a: Triassic Triangle
+|-damage|p1a: Triassic Triangle|39/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Triassic Triangle|Dragon Darts|p2a: Iron Moth
+|-damage|p2a: Iron Moth|72/100
+|-anim|p1a: Triassic Triangle|Dragon Darts|p2a: Iron Moth
+|-damage|p2a: Iron Moth|45/100
+|
+|upkeep
+|turn|9
+|
+|t:|1769393719
+|move|p2a: Iron Moth|Fiery Dance|p1a: Triassic Triangle
+|-resisted|p1a: Triassic Triangle
+|-damage|p1a: Triassic Triangle|0 fnt
+|faint|p1a: Triassic Triangle
+|
+|upkeep
+|
+|t:|1769393721
+|switch|p1a: El Gambito|Kingambit, M|37/100
+|-activate|p1a: El Gambito|ability: Supreme Overlord
+|-start|p1a: El Gambito|fallen3|[silent]
+|turn|10
+|
+|t:|1769393728
+|move|p1a: El Gambito|Sucker Punch||[still]
+|-fail|p1a: El Gambito
+|move|p2a: Iron Moth|Substitute|p2a: Iron Moth
+|-start|p2a: Iron Moth|Substitute
+|-damage|p2a: Iron Moth|20/100
+|
+|upkeep
+|turn|11
+|
+|t:|1769393742
+|move|p1a: El Gambito|Sucker Punch|p2a: Iron Moth
+|-crit|p2a: Iron Moth
+|-end|p2a: Iron Moth|Substitute
+|move|p2a: Iron Moth|Fiery Dance|p1a: El Gambito
+|-supereffective|p1a: El Gambito
+|-damage|p1a: El Gambito|0 fnt
+|faint|p1a: El Gambito
+|-end|p1a: El Gambito|fallen3|[silent]
+|
+|upkeep
+|
+|t:|1769393743
+|switch|p1a: Leaf|Ogerpon-Wellspring, F|100/100
+|turn|12
+|
+|t:|1769393754
+|-terastallize|p1a: Leaf|Water
+|detailschange|p1a: Leaf|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Leaf|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Leaf|spd|1
+|move|p2a: Iron Moth|Sludge Wave|p1a: Leaf
+|-damage|p1a: Leaf|41/100
+|move|p1a: Leaf|Knock Off|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769393762
+|switch|p2a: Meowscarada|Meowscarada, M|40/100
+|turn|13
+|
+|t:|1769393772
+|switch|p1a: Ace|Cinderace, M|100/100
+|move|p2a: Meowscarada|Knock Off|p1a: Ace
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Ace|45/100
+|-enditem|p1a: Ace|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Meowscarada
+|
+|upkeep
+|turn|14
+|
+|t:|1769393781
+|move|p2a: Meowscarada|Knock Off|p1a: Ace
+|-damage|p1a: Ace|11/100
+|move|p1a: Ace|U-turn|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|t:|1769393783
+|switch|p1a: Leaf|Ogerpon-Wellspring-Tera, F, tera:Water|41/100|[from] U-turn
+|-ability|p1a: Leaf|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Leaf|spd|1
+|
+|upkeep
+|
+|t:|1769393791
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|15
+|
+|t:|1769393798
+|move|p1a: Leaf|U-turn|p2a: Mamoswine
+|-damage|p2a: Mamoswine|71/100
+|
+|t:|1769393800
+|switch|p1a: Ace|Cinderace, M|11/100|[from] U-turn
+|move|p2a: Mamoswine|Earthquake|p1a: Ace
+|-supereffective|p1a: Ace
+|-damage|p1a: Ace|0 fnt
+|faint|p1a: Ace
+|
+|upkeep
+|
+|t:|1769393802
+|switch|p1a: Leaf|Ogerpon-Wellspring-Tera, F, tera:Water|41/100
+|-ability|p1a: Leaf|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Leaf|spd|1
+|turn|16
+|
+|t:|1769393810
+|move|p2a: Mamoswine|Ice Shard|p1a: Leaf
+|-resisted|p1a: Leaf
+|-damage|p1a: Leaf|27/100
+|move|p1a: Leaf|Ivy Cudgel|p2a: Mamoswine|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|t:|1769393817
+|switch|p2a: Primarina|Primarina, F|100/100
+|turn|17
+|
+|t:|1769393824
+|move|p1a: Leaf|Synthesis|p1a: Leaf
+|-heal|p1a: Leaf|77/100
+|move|p2a: Primarina|Draining Kiss|p1a: Leaf
+|-damage|p1a: Leaf|61/100
+|
+|upkeep
+|turn|18
+|
+|t:|1769393831
+|move|p1a: Leaf|Ivy Cudgel|p2a: Primarina|[anim] Ivy Cudgel Water
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|68/100
+|move|p2a: Primarina|Calm Mind|p2a: Primarina
+|-boost|p2a: Primarina|spa|1
+|-boost|p2a: Primarina|spd|1
+|
+|-heal|p2a: Primarina|74/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1769393838
+|move|p1a: Leaf|Knock Off|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|58/100
+|-enditem|p2a: Primarina|Leftovers|[from] move: Knock Off|[of] p1a: Leaf
+|move|p2a: Primarina|Psychic Noise|p1a: Leaf
+|-resisted|p1a: Leaf
+|-damage|p1a: Leaf|42/100
+|-start|p1a: Leaf|move: Heal Block
+|
+|upkeep
+|turn|20
+|
+|t:|1769393845
+|move|p1a: Leaf|Ivy Cudgel|p2a: Primarina|[anim] Ivy Cudgel Water
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|28/100
+|move|p2a: Primarina|Draining Kiss|p1a: Leaf
+|-damage|p1a: Leaf|16/100
+|-heal|p2a: Primarina|44/100|[from] drain|[of] p1a: Leaf
+|
+|-end|p1a: Leaf|move: Heal Block
+|upkeep
+|turn|21
+|
+|t:|1769393852
+|move|p1a: Leaf|Synthesis|p1a: Leaf
+|-heal|p1a: Leaf|66/100
+|move|p2a: Primarina|Draining Kiss|p1a: Leaf
+|-damage|p1a: Leaf|40/100
+|-heal|p2a: Primarina|60/100|[from] drain|[of] p1a: Leaf
+|
+|upkeep
+|turn|22
+|
+|t:|1769393859
+|move|p1a: Leaf|Synthesis|p1a: Leaf
+|-heal|p1a: Leaf|90/100
+|move|p2a: Primarina|Draining Kiss|p1a: Leaf
+|-damage|p1a: Leaf|67/100
+|-heal|p2a: Primarina|75/100|[from] drain|[of] p1a: Leaf
+|
+|upkeep
+|turn|23
+|
+|t:|1769393867
+|move|p1a: Leaf|Ivy Cudgel|p2a: Primarina|[anim] Ivy Cudgel Water
+|-resisted|p2a: Primarina
+|-crit|p2a: Primarina
+|-damage|p2a: Primarina|22/100
+|move|p2a: Primarina|Draining Kiss|p1a: Leaf
+|-damage|p1a: Leaf|41/100
+|-heal|p2a: Primarina|38/100|[from] drain|[of] p1a: Leaf
+|
+|upkeep
+|turn|24
+|j| XChaosblazer
+|
+|t:|1769393874
+|move|p1a: Leaf|Ivy Cudgel|p2a: Primarina|[anim] Ivy Cudgel Water
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|5/100
+|move|p2a: Primarina|Psychic Noise|p1a: Leaf
+|-resisted|p1a: Leaf
+|-damage|p1a: Leaf|21/100
+|-start|p1a: Leaf|move: Heal Block
+|
+|upkeep
+|turn|25
+|
+|t:|1769393880
+|switch|p2a: Iron Hands|Iron Hands|32/100
+|move|p1a: Leaf|Ivy Cudgel|p2a: Iron Hands|[anim] Ivy Cudgel Water
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|-end|p1a: Leaf|move: Heal Block
+|upkeep
+|
+|t:|1769393887
+|switch|p2a: Primarina|Primarina, F|5/100
+|turn|26
+|
+|t:|1769393891
+|move|p1a: Leaf|Ivy Cudgel|p2a: Primarina|[anim] Ivy Cudgel Water
+|-resisted|p2a: Primarina
+|-crit|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|win|scribeofrevocis
+|raw|scribeofrevocis's rating: 1719 &rarr; <strong>1735</strong><br />(+16 for winning)
+|raw|Fatty Mama's rating: 1641 &rarr; <strong>1625</strong><br />(-16 for losing)
+|l|☆Fatty Mama
+|player|p2|
+|l| XChaosblazer
+|l|☆scribeofrevocis
+|player|p1|
+|j|☆Fatty Mama
+|player|p2|Fatty Mama|touristf2|
+|l|☆Fatty Mama
+|player|p2|

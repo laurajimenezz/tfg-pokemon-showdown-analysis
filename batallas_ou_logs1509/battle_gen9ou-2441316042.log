@@ -1,0 +1,346 @@
+|j|☆elgaroton
+|j|☆WickedRest
+|t:|1757829032
+|gametype|singles
+|player|p1|elgaroton|101|1263
+|player|p2|WickedRest|blue|1248
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zapdos|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Clefable, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Serperior, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Primeape, F|
+|poke|p2|Ribombee, M|
+|poke|p2|Cinderace, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WickedRest)
+|
+|t:|1757829088
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|turn|1
+|
+|t:|1757829097
+|move|p2a: Ribombee|Sticky Web|p1a: Zapdos
+|-sidestart|p1: elgaroton|move: Sticky Web
+|move|p1a: Zapdos|Hurricane|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1757829109
+|move|p2a: Ribombee|Covet|p1a: Zapdos
+|-damage|p1a: Zapdos|95/100
+|-item|p2a: Ribombee|Heavy-Duty Boots|[from] move: Covet|[of] p1a: Zapdos
+|move|p1a: Zapdos|Volt Switch|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|t:|1757829131
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1757829135
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|3
+|
+|t:|1757829144
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|inactive|elgaroton has 120 seconds left.
+|
+|t:|1757829169
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|inactive|elgaroton has 120 seconds left.
+|
+|t:|1757829181
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|move|p1a: Great Tusk|Ice Spinner|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|92/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1757829195
+|switch|p2a: Primeape|Primeape, F|100/100
+|-activate|p2a: Primeape|move: Sticky Web
+|-unboost|p2a: Primeape|spe|1
+|-ability|p2a: Primeape|Defiant|boost
+|-boost|p2a: Primeape|atk|2
+|move|p1a: Great Tusk|Stealth Rock|p2a: Primeape
+|-sidestart|p2: WickedRest|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Great Tusk|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1757829205
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Zapdos|Zapdos|95/100
+|move|p2a: Primeape|Bulk Up|p2a: Primeape
+|-boost|p2a: Primeape|atk|1
+|-boost|p2a: Primeape|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1757829217
+|move|p1a: Zapdos|Hurricane|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|35/100
+|move|p2a: Primeape|Ice Punch|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|26/100
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1757829229
+|move|p1a: Zapdos|Hurricane|p2a: Primeape|[miss]
+|-miss|p1a: Zapdos|p2a: Primeape
+|move|p2a: Primeape|Ice Punch|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-status|p2a: Primeape|par|[from] ability: Static|[of] p1a: Zapdos
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1757829242
+|switch|p1a: Clefable|Clefable, F|100/100
+|turn|9
+|
+|t:|1757829252
+|move|p1a: Clefable|Moonblast|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|upkeep
+|
+|t:|1757829263
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-activate|p2a: Bisharp|move: Sticky Web
+|-unboost|p2a: Bisharp|spe|1
+|-ability|p2a: Bisharp|Defiant|boost
+|-boost|p2a: Bisharp|atk|2
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1757829285
+|switch|p1a: Great Tusk|Great Tusk, shiny|88/100 brn
+|move|p2a: Bisharp|Iron Head|p1a: Great Tusk
+|-damage|p1a: Great Tusk|24/100 brn
+|-damage|p2a: Bisharp|78/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|-damage|p1a: Great Tusk|18/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1757829297
+|move|p2a: Bisharp|Sucker Punch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-damage|p2a: Bisharp|62/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1757829301
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|turn|12
+|
+|t:|1757829319
+|switch|p2a: Cinderace|Cinderace, F|92/100
+|move|p1a: Samurott|Sacred Sword|p2a: Cinderace
+|-damage|p2a: Cinderace|40/100
+|
+|upkeep
+|turn|13
+|
+|t:|1757829325
+|move|p1a: Samurott|Sacred Sword|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1757829332
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|move: Sticky Web
+|-unboost|p2a: Kingambit|spe|1
+|-ability|p2a: Kingambit|Defiant|boost
+|-boost|p2a: Kingambit|atk|2
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1757829354
+|-terastallize|p2a: Kingambit|Ghost
+|move|p1a: Samurott|Sacred Sword|p2a: Kingambit
+|-immune|p2a: Kingambit
+|move|p2a: Kingambit|Brick Break|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|inactive|elgaroton has 120 seconds left.
+|
+|t:|1757829378
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|15
+|
+|t:|1757829386
+|move|p1a: Dragapult|Sucker Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|53/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|59/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|elgaroton has 120 seconds left.
+|
+|t:|1757829398
+|move|p1a: Dragapult|Sucker Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|10/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Kingambit|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757829421
+|switch|p1a: Clefable|Clefable, F|100/100
+|turn|17
+|
+|t:|1757829431
+|-terastallize|p1a: Clefable|Poison
+|move|p2a: Kingambit|Sucker Punch|p1a: Clefable
+|-damage|p1a: Clefable|67/100
+|move|p1a: Clefable|Moonblast|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|upkeep
+|
+|t:|1757829448
+|switch|p2a: Serperior|Serperior, M|100/100
+|-activate|p2a: Serperior|move: Sticky Web
+|-boost|p2a: Serperior|spe|1
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1757829458
+|move|p2a: Serperior|Leaf Storm|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|43/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Clefable|Ice Beam|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-crit|p2a: Serperior
+|-damage|p2a: Serperior|32/100
+|
+|upkeep
+|turn|19
+|inactive|elgaroton has 120 seconds left.
+|
+|t:|1757829467
+|move|p2a: Serperior|Leaf Storm|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|22/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|72/100
+|
+|upkeep
+|turn|20
+|
+|t:|1757829475
+|move|p2a: Serperior|Tera Blast|p1a: Clefable
+|-damage|p1a: Clefable|53/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|100/100
+|
+|upkeep
+|turn|21
+|
+|t:|1757829481
+|switch|p2a: Bisharp|Bisharp, M|62/100
+|-activate|p2a: Bisharp|move: Sticky Web
+|-unboost|p2a: Bisharp|spe|1
+|-ability|p2a: Bisharp|Defiant|boost
+|-boost|p2a: Bisharp|atk|2
+|-damage|p2a: Bisharp|56/100|[from] Stealth Rock
+|move|p1a: Clefable|Moonblast|p2a: Bisharp
+|-damage|p2a: Bisharp|25/100
+|
+|upkeep
+|turn|22
+|
+|t:|1757829494
+|move|p1a: Clefable|Moonblast|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|t:|1757829497
+|switch|p2a: Serperior|Serperior, M|32/100
+|-activate|p2a: Serperior|move: Sticky Web
+|-boost|p2a: Serperior|spe|1
+|-damage|p2a: Serperior|19/100|[from] Stealth Rock
+|turn|23
+|-message|WickedRest forfeited.
+|
+|win|elgaroton
+|raw|elgaroton's rating: 1263 &rarr; <strong>1287</strong><br />(+24 for winning)
+|raw|WickedRest's rating: 1248 &rarr; <strong>1224</strong><br />(-24 for losing)
+|l|☆WickedRest
+|player|p2|
+|l|☆elgaroton
+|player|p1|

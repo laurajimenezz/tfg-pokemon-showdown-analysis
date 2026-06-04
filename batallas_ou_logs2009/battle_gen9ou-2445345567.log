@@ -1,0 +1,393 @@
+|j|☆JedTheHumanoid
+|j|☆rulorules2
+|t:|1758331904
+|gametype|singles
+|player|p1|JedTheHumanoid|unknown|1409
+|player|p2|rulorules2|red|1450
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Raging Bolt|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Moth|
+|poke|p1|Darkrai|
+|poke|p2|Zamazenta-*|
+|poke|p2|Breloom, F|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, F|
+|poke|p2|Gholdengo|
+|poke|p2|Garganacl, M|
+|teampreview
+|
+|t:|1758331912
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F, shiny|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1758331921
+|move|p2a: Great Tusk|Stealth Rock|p1a: Samurott
+|-sidestart|p1: JedTheHumanoid|move: Stealth Rock
+|move|p1a: Samurott|Aqua Cutter|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|34/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758331929
+|move|p2a: Great Tusk|Close Combat|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Samurott|Ceaseless Edge|p2a: Great Tusk|[miss]
+|-miss|p1a: Samurott|p2a: Great Tusk
+|
+|upkeep
+|turn|3
+|
+|t:|1758331937
+|move|p1a: Samurott|Aqua Jet|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758331944
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|4
+|
+|t:|1758331951
+|move|p1a: Samurott|Ceaseless Edge|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|69/100
+|-sidestart|p2: rulorules2|Spikes
+|move|p2a: Breloom|Bullet Seed|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|-hitcount|p1: Samurott|1
+|
+|upkeep
+|
+|t:|1758331967
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|5
+|
+|t:|1758331972
+|move|p1a: Great Tusk|Ice Spinner|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|upkeep
+|
+|t:|1758331979
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|88/100|[from] Spikes
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|6
+|
+|t:|1758331990
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Great Tusk|Rapid Spin|p2a: Zamazenta
+|-damage|p2a: Zamazenta|82/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: JedTheHumanoid|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p2a: Zamazenta|89/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758331995
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Zamazenta|Body Press|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|-heal|p2a: Zamazenta|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758332014
+|move|p2a: Zamazenta|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|52/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Make It Rain|p2a: Zamazenta
+|-damage|p2a: Zamazenta|47/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Zamazenta|54/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758332033
+|move|p2a: Zamazenta|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|1/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Zamazenta
+|-damage|p2a: Zamazenta|23/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Zamazenta|29/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758332041
+|move|p2a: Zamazenta|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-heal|p2a: Zamazenta|35/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758332050
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|11
+|
+|t:|1758332059
+|move|p1a: Iron Moth|Sludge Wave|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1758332062
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-damage|p2a: Garganacl|88/100|[from] Spikes
+|turn|12
+|
+|t:|1758332075
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Great Tusk|Great Tusk|98/100
+|move|p2a: Garganacl|Salt Cure|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|95/100
+|-start|p1a: Great Tusk|Salt Cure
+|
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|82/100|[from] Salt Cure
+|upkeep
+|turn|13
+|
+|t:|1758332080
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Great Tusk|Headlong Rush|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|70/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1758332088
+|-terastallize|p2a: Garganacl|Water
+|move|p1a: Great Tusk|Headlong Rush|p2a: Garganacl
+|-damage|p2a: Garganacl|69/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Garganacl|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: JedTheHumanoid|move: Stealth Rock
+|
+|-heal|p2a: Garganacl|75/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|58/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1758332093
+|move|p1a: Great Tusk|Rapid Spin|p2a: Garganacl
+|-damage|p2a: Garganacl|66/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: JedTheHumanoid|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Garganacl|Salt Cure|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|54/100
+|
+|-heal|p2a: Garganacl|72/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|41/100|[from] Salt Cure
+|upkeep
+|turn|16
+|
+|t:|1758332106
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Great Tusk|Headlong Rush|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|78/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|29/100|[from] Salt Cure
+|upkeep
+|turn|17
+|
+|t:|1758332113
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|upkeep
+|turn|18
+|
+|t:|1758332120
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|88/100|[from] Spikes
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Gholdengo
+|-damage|p2a: Gholdengo|10/100
+|
+|upkeep
+|turn|19
+|
+|t:|1758332129
+|move|p2a: Gholdengo|Shadow Ball|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|58/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1758332136
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|88/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|20
+|
+|t:|1758332160
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Kingambit
+|-damage|p2a: Kingambit|25/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Raging Bolt
+|-crit|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758332177
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|turn|21
+|
+|t:|1758332185
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758332217
+|switch|p1a: Great Tusk|Great Tusk|29/100
+|turn|22
+|
+|t:|1758332226
+|move|p2a: Kingambit|Sucker Punch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|5/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1758332228
+|switch|p2a: Garganacl|Garganacl, M, tera:Water|100/100
+|-damage|p2a: Garganacl|88/100|[from] Spikes
+|turn|23
+|
+|t:|1758332232
+|move|p1a: Great Tusk|Headlong Rush|p2a: Garganacl
+|-damage|p2a: Garganacl|54/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Garganacl|Salt Cure|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Garganacl|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758332235
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|24
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JedTheHumanoid)
+|inactive|rulorules2 has 120 seconds left.
+|
+|t:|1758332347
+|move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|2
+|move|p2a: Garganacl|Salt Cure|p1a: Darkrai
+|-crit|p1a: Darkrai
+|-damage|p1a: Darkrai|72/100
+|-start|p1a: Darkrai|Salt Cure
+|
+|-heal|p1a: Darkrai|78/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|66/100|[from] item: Leftovers
+|-damage|p1a: Darkrai|66/100|[from] Salt Cure
+|upkeep
+|turn|25
+|
+|t:|1758332357
+|move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|2
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-heal|p1a: Darkrai|72/100|[from] item: Leftovers
+|-damage|p1a: Darkrai|60/100|[from] Salt Cure
+|upkeep
+|turn|26
+|
+|t:|1758332370
+|move|p1a: Darkrai|Dark Pulse|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|win|JedTheHumanoid
+|raw|JedTheHumanoid's rating: 1409 &rarr; <strong>1431</strong><br />(+22 for winning)
+|raw|rulorules2's rating: 1450 &rarr; <strong>1428</strong><br />(-22 for losing)
+|c|☆JedTheHumanoid|gg
+|l|☆JedTheHumanoid
+|player|p1|

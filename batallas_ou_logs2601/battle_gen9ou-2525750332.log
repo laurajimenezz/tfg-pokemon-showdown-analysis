@@ -1,0 +1,310 @@
+|j|☆AVRLIKESGIRLS
+|j|☆flagfrog
+|t:|1769319603
+|gametype|singles
+|player|p1|AVRLIKESGIRLS|dawn|1411
+|player|p2|flagfrog|falkner|1360
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Iron Boulder|
+|poke|p1|Raging Bolt|
+|poke|p1|Greninja-*, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Kingambit, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Gliscor, M|
+|poke|p2|Kyurem|
+|poke|p2|Sinistcha-Masterpiece|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by flagfrog)
+|
+|t:|1769319612
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Gliscor|Gliscor, M, shiny|100/100
+|turn|1
+|
+|t:|1769319622
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Dragonite|Shadow Ball|p2a: Zamazenta
+|-damage|p2a: Zamazenta|60/100
+|
+|upkeep
+|turn|2
+|
+|t:|1769319631
+|move|p2a: Zamazenta|Crunch|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|replace|p1a: Zoroark|Zoroark-Hisui, M
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|t:|1769319644
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|3
+|
+|t:|1769319651
+|switch|p2a: 寒言卜策|Slowking-Galar, F|100/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1769319661
+|move|p1a: Raging Bolt|Thunderbolt|p2a: 寒言卜策
+|-damage|p2a: 寒言卜策|43/100
+|-status|p2a: 寒言卜策|par
+|move|p2a: 寒言卜策|Future Sight|p1a: Raging Bolt
+|-start|p2a: 寒言卜策|move: Future Sight
+|
+|upkeep
+|turn|5
+|
+|t:|1769319672
+|switch|p2a: Gliscor|Gliscor, M, shiny|100/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1769319681
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Gliscor
+|-damage|p2a: Gliscor|21/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|36/100
+|
+|-end|p1a: Raging Bolt|move: Future Sight
+|-damage|p1a: Raging Bolt|4/100
+|-heal|p2a: Gliscor|33/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1769319697
+|-terastallize|p2a: Gliscor|Fairy
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Gliscor
+|-immune|p2a: Gliscor
+|move|p2a: Gliscor|Earthquake|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-crit|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-heal|p2a: Gliscor|46/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1769319713
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|8
+|
+|t:|1769319717
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Greninja|Hydro Pump|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|58/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1769319726
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Greninja|Hydro Pump|p2a: Samurott|[miss]
+|-miss|p1a: Greninja|p2a: Samurott
+|
+|upkeep
+|turn|10
+|
+|t:|1769319735
+|move|p1a: Greninja|Hydro Pump|p2a: Samurott|[miss]
+|-miss|p1a: Greninja|p2a: Samurott
+|move|p2a: Samurott|Ceaseless Edge|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|66/100
+|-sidestart|p1: AVRLIKESGIRLS|Spikes
+|
+|upkeep
+|turn|11
+|
+|t:|1769319746
+|move|p1a: Greninja|Hydro Pump|p2a: Samurott|[miss]
+|-miss|p1a: Greninja|p2a: Samurott
+|move|p2a: Samurott|Ceaseless Edge|p1a: Greninja|[miss]
+|-miss|p2a: Samurott|p1a: Greninja
+|
+|upkeep
+|turn|12
+|
+|t:|1769319753
+|move|p1a: Greninja|Hydro Pump|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|52/100
+|-damage|p1a: Greninja|56/100|[from] item: Life Orb
+|move|p2a: Samurott|Ceaseless Edge|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|22/100
+|-sidestart|p1: AVRLIKESGIRLS|Spikes
+|
+|upkeep
+|turn|13
+|
+|t:|1769319765
+|move|p1a: Greninja|Hydro Pump|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|7/100
+|-damage|p1a: Greninja|12/100|[from] item: Life Orb
+|move|p2a: Samurott|Ceaseless Edge|p1a: Greninja|[miss]
+|-miss|p2a: Samurott|p1a: Greninja
+|
+|upkeep
+|turn|14
+|
+|t:|1769319773
+|move|p1a: Greninja|Water Shuriken|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|-hitcount|p2: Samurott|1
+|-damage|p1a: Greninja|3/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1769319778
+|switch|p2a: 寒言卜策|Slowking-Galar, F|76/100 par
+|turn|15
+|
+|t:|1769319786
+|move|p1a: Greninja|Dark Pulse|p2a: 寒言卜策
+|-supereffective|p2a: 寒言卜策
+|-damage|p2a: 寒言卜策|0 fnt
+|faint|p2a: 寒言卜策
+|-damage|p1a: Greninja|0 fnt|[from] item: Life Orb
+|faint|p1a: Greninja
+|
+|upkeep
+|
+|t:|1769319798
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|16
+|
+|t:|1769319807
+|-terastallize|p1a: Dragonite|Normal
+|move|p2a: Kyurem|Icicle Spear|p1a: Dragonite
+|-damage|p1a: Dragonite|94/100
+|-damage|p1a: Dragonite|83/100
+|-damage|p1a: Dragonite|70/100
+|-damage|p1a: Dragonite|59/100
+|-damage|p1a: Dragonite|47/100
+|-hitcount|p1a: Dragonite|5
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|17
+|
+|t:|1769319821
+|move|p1a: Dragonite|Earthquake|p2a: Kyurem
+|-damage|p2a: Kyurem|49/100
+|move|p2a: Kyurem|Freeze-Dry|p1a: Dragonite
+|-damage|p1a: Dragonite|10/100
+|
+|upkeep
+|turn|18
+|
+|t:|1769319830
+|move|p1a: Dragonite|Earthquake|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1769319839
+|switch|p2a: Zamazenta|Zamazenta|60/100
+|turn|19
+|
+|t:|1769319843
+|move|p1a: Dragonite|Extreme Speed|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1769319847
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece|100/100
+|turn|20
+|
+|t:|1769319857
+|move|p1a: Dragonite|Ice Spinner|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|38/100
+|move|p2a: Sinistcha|Strength Sap|p1a: Dragonite
+|-unboost|p1a: Dragonite|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|upkeep
+|turn|21
+|
+|t:|1769319865
+|move|p1a: Dragonite|Ice Spinner|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-crit|p2a: Sinistcha
+|-damage|p2a: Sinistcha|40/100
+|move|p2a: Sinistcha|Nasty Plot|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|2
+|
+|upkeep
+|turn|22
+|
+|t:|1769319873
+|move|p1a: Dragonite|Ice Spinner|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|upkeep
+|-message|flagfrog forfeited.
+|
+|win|AVRLIKESGIRLS
+|raw|AVRLIKESGIRLS's rating: 1411 &rarr; <strong>1428</strong><br />(+17 for winning)
+|raw|flagfrog's rating: 1360 &rarr; <strong>1343</strong><br />(-17 for losing)
+|c|☆AVRLIKESGIRLS|Gg
+|l|☆flagfrog
+|player|p2|
+|l|☆AVRLIKESGIRLS
+|player|p1|

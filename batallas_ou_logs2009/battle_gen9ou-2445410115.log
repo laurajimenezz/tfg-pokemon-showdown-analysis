@@ -1,0 +1,320 @@
+|j|☆JPBuck
+|j|☆execfist2
+|t:|1758341024
+|gametype|singles
+|player|p1|JPBuck|cynthia-gen4|1328
+|player|p2|execfist2|2|1298
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, M|
+|poke|p1|Moltres-Galar|
+|poke|p1|Garganacl, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Iron Boulder|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Alomomola, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by execfist2)
+|
+|t:|1758341032
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|t:|1758341038
+|move|p1a: Garganacl|Substitute|p1a: Garganacl
+|-start|p1a: Garganacl|Substitute
+|-damage|p1a: Garganacl|75/100
+|move|p2a: Slowking|Surf|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-end|p1a: Garganacl|Substitute
+|
+|-heal|p1a: Garganacl|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1758341043
+|switch|p1a: Serperior|Serperior, M|100/100
+|move|p2a: Slowking|Psychic Noise|p1a: Serperior
+|-damage|p1a: Serperior|54/100
+|-start|p1a: Serperior|move: Heal Block
+|
+|upkeep
+|turn|3
+|
+|t:|1758341050
+|move|p1a: Serperior|Leech Seed|p2a: Slowking
+|-start|p2a: Slowking|move: Leech Seed
+|move|p2a: Slowking|Sludge Wave|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1758341053
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|turn|4
+|
+|t:|1758341056
+|move|p1a: Slowking|Future Sight|p2a: Slowking
+|-start|p1a: Slowking|move: Future Sight
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1758341064
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758341080
+|move|p2a: Iron Valiant|Destiny Bond|p2a: Iron Valiant
+|-singlemove|p2a: Iron Valiant|Destiny Bond
+|move|p1a: Slowking|Sludge Wave|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-activate|p2a: Iron Valiant|move: Destiny Bond
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|faint|p1a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758341094
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdrivespe
+|turn|6
+|
+|t:|1758341102
+|move|p1a: Iron Boulder|Zen Headbutt|p2a: Alomomola
+|-damage|p2a: Alomomola|79/100
+|-damage|p1a: Iron Boulder|84/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|move|p2a: Alomomola|Liquidation|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|25/100
+|-unboost|p1a: Iron Boulder|def|1
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Alomomola|move: Future Sight
+|-damage|p2a: Alomomola|23/100
+|upkeep
+|turn|7
+|
+|t:|1758341111
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Iron Boulder|Close Combat|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|90/100
+|-unboost|p1a: Iron Boulder|def|1
+|-unboost|p1a: Iron Boulder|spd|1
+|-damage|p1a: Iron Boulder|9/100|[from] item: Rocky Helmet|[of] p2a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758341125
+|move|p1a: Iron Boulder|Stone Edge|p2a: Slowking|[miss]
+|-miss|p1a: Iron Boulder|p2a: Slowking
+|move|p2a: Slowking|Surf|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|0 fnt
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1758341128
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|turn|9
+|
+|t:|1758341134
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Landorus|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|58/100
+|
+|upkeep
+|turn|10
+|
+|t:|1758341141
+|move|p1a: Landorus|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|48/100
+|
+|t:|1758341143
+|switch|p1a: Moltres|Moltres-Galar|100/100|[from] U-turn
+|move|p2a: Great Tusk|Ice Spinner|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|39/100
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|
+|-heal|p1a: Moltres|45/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758341150
+|move|p1a: Moltres|Air Slash|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p1a: Moltres|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758341155
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|12
+|
+|t:|1758341160
+|move|p1a: Moltres|Fiery Wrath|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|13/100
+|move|p2a: Slowking|Sludge Wave|p1a: Moltres
+|-damage|p1a: Moltres|12/100
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|
+|-heal|p1a: Moltres|18/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1758341164
+|switch|p2a: Alomomola|Alomomola, M|57/100
+|move|p1a: Moltres|Fiery Wrath|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|-heal|p1a: Moltres|24/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758341171
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|14
+|
+|t:|1758341178
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Moltres|Nasty Plot|p1a: Moltres
+|-boost|p1a: Moltres|spa|2
+|
+|-heal|p1a: Moltres|30/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758341193
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Slowking|Slowking-Galar, F|46/100
+|move|p1a: Moltres|Fiery Wrath|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-heal|p1a: Moltres|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758341198
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|16
+|
+|t:|1758341203
+|move|p1a: Moltres|Nasty Plot|p1a: Moltres
+|-boost|p1a: Moltres|spa|2
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1758341205
+|switch|p1a: Garganacl|Garganacl, F|82/100
+|turn|17
+|
+|t:|1758341221
+|move|p2a: Kingambit|Iron Head|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|12/100
+|cant|p1a: Garganacl|flinch
+|
+|-heal|p1a: Garganacl|18/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1758341225
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|move|p2a: Kingambit|Iron Head|p1a: Landorus
+|-damage|p1a: Landorus|49/100
+|-damage|p2a: Kingambit|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|upkeep
+|turn|19
+|
+|t:|1758341230
+|move|p2a: Kingambit|Sucker Punch|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Kingambit|67/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1758341232
+|switch|p1a: Garganacl|Garganacl, F|18/100
+|turn|20
+|
+|t:|1758341234
+|move|p2a: Kingambit|Iron Head|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|win|execfist2
+|raw|JPBuck's rating: 1328 &rarr; <strong>1306</strong><br />(-22 for losing)
+|raw|execfist2's rating: 1298 &rarr; <strong>1325</strong><br />(+27 for winning)
+|l|☆JPBuck
+|player|p1|
+|l|☆execfist2
+|player|p2|
+|j|☆execfist2
+|player|p2|execfist2|2|
+|l|☆execfist2
+|player|p2|
+|j|☆execfist2
+|player|p2|execfist2|2|
+|l|☆execfist2
+|player|p2|

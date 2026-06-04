@@ -1,0 +1,652 @@
+|j|☆Keptitcool
+|j|☆Tamihig
+|t:|1779858302
+|gametype|singles
+|player|p1|Keptitcool|170|1050
+|player|p2|Tamihig|265|1001
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Revavroom, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Quagsire, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Rotom-Mow|
+|poke|p2|Iron Moth|
+|poke|p2|Gliscor, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tamihig)
+|
+|t:|1779858309
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Revavroom|Revavroom, M|100/100
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|1
+|
+|t:|1779858319
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779858328
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|79/100
+|
+|-heal|p1a: Quagsire|85/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1779858335
+|move|p2a: Iron Moth|Toxic Spikes|p1a: Quagsire
+|-sidestart|p1: Keptitcool|move: Toxic Spikes
+|move|p1a: Quagsire|Earthquake|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p1a: Quagsire|91/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779858335
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|4
+|
+|t:|1779858357
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|65/100
+|
+|upkeep
+|turn|5
+|
+|t:|1779858363
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Corviknight|Steel Wing|p2a: Gliscor
+|-damage|p2a: Gliscor|83/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1779858371
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|7
+|
+|t:|1779858391
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Gliscor|Gliscor, M|83/100 tox
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|
+|-heal|p2a: Gliscor|95/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1779858397
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Rotom|Leaf Storm|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|72/100
+|-unboost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|9
+|
+|t:|1779858405
+|switch|p1a: Quagsire|Quagsire, M|91/100
+|-status|p1a: Quagsire|psn
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Gliscor|Gliscor, M|95/100 tox
+|
+|-heal|p1a: Quagsire|97/100 psn|[from] item: Leftovers
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Quagsire|85/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1779858411
+|move|p2a: Gliscor|Earthquake|p1a: Quagsire
+|-crit|p1a: Quagsire
+|-damage|p1a: Quagsire|25/100 psn
+|move|p1a: Quagsire|Avalanche|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|18/100 tox
+|
+|-heal|p1a: Quagsire|31/100 psn|[from] item: Leftovers
+|-heal|p2a: Gliscor|30/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Quagsire|19/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1779858418
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Gliscor|42/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1779858431
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|-status|p1a: Arcanine|psn
+|turn|12
+|
+|t:|1779858436
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Arcanine|Head Smash|p2a: Hatterene
+|-damage|p2a: Hatterene|48/100
+|
+|-heal|p2a: Hatterene|54/100|[from] item: Leftovers
+|-damage|p1a: Arcanine|88/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1779858446
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|60/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1779858453
+|switch|p2a: Gliscor|Gliscor, M|42/100 tox
+|move|p1a: Corviknight|Scary Face|p2a: Gliscor
+|-unboost|p2a: Gliscor|spe|2
+|
+|-heal|p2a: Gliscor|55/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1779858459
+|move|p1a: Corviknight|Screech|p2a: Gliscor|[miss]
+|-miss|p1a: Corviknight|p2a: Gliscor
+|move|p2a: Gliscor|Agility|p2a: Gliscor
+|-boost|p2a: Gliscor|spe|2
+|
+|-heal|p2a: Gliscor|67/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1779858463
+|switch|p2a: Raging Bolt|Raging Bolt|72/100
+|move|p1a: Corviknight|Screech|p2a: Raging Bolt
+|-unboost|p2a: Raging Bolt|def|2
+|
+|upkeep
+|turn|17
+|
+|t:|1779858471
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Rotom
+|-damage|p1a: Rotom|32/100
+|
+|upkeep
+|turn|18
+|
+|t:|1779858479
+|move|p1a: Rotom|Trick|p2a: Raging Bolt
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Raging Bolt
+|-item|p2a: Raging Bolt|Choice Scarf|[from] move: Trick
+|-enditem|p1a: Rotom|Choice Scarf|[silent]|[from] move: Trick
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1779858492
+|switch|p1a: Revavroom|Revavroom, M|100/100
+|-sideend|p1: Keptitcool|move: Toxic Spikes|[of] p1a: Revavroom
+|turn|19
+|
+|t:|1779858496
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Revavroom
+|-resisted|p1a: Revavroom
+|-damage|p1a: Revavroom|63/100
+|move|p1a: Revavroom|Parting Shot|p2a: Raging Bolt
+|-unboost|p2a: Raging Bolt|atk|1
+|-unboost|p2a: Raging Bolt|spa|1
+|
+|t:|1779858501
+|switch|p1a: Arcanine|Arcanine-Hisui, F|88/100 psn|[from] Parting Shot
+|
+|-damage|p1a: Arcanine|76/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1779858509
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Gliscor|Gliscor, M|67/100 tox
+|move|p1a: Arcanine|Head Smash|p2a: Gliscor|[miss]
+|-miss|p1a: Arcanine|p2a: Gliscor
+|
+|-damage|p1a: Arcanine|63/100 psn|[from] psn
+|-heal|p2a: Gliscor|79/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|t:|1779858520
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-heal|p2a: Gliscor|92/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|t:|1779858525
+|move|p2a: Gliscor|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Screech|p2a: Gliscor
+|-unboost|p2a: Gliscor|def|2
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|t:|1779858529
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Corviknight|Scary Face|p2a: Gliscor
+|-unboost|p2a: Gliscor|spe|2
+|
+|upkeep
+|turn|24
+|
+|t:|1779858532
+|move|p1a: Corviknight|Scary Face|p2a: Gliscor
+|-unboost|p2a: Gliscor|spe|2
+|move|p2a: Gliscor|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|upkeep
+|turn|25
+|
+|t:|1779858534
+|switch|p2a: Raging Bolt|Raging Bolt|72/100
+|move|p1a: Corviknight|Screech|p2a: Raging Bolt|[miss]
+|-miss|p1a: Corviknight|p2a: Raging Bolt
+|
+|upkeep
+|turn|26
+|
+|t:|1779858542
+|switch|p1a: Quagsire|Quagsire, M|19/100 psn
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-heal|p1a: Quagsire|25/100 psn|[from] item: Leftovers
+|-damage|p1a: Quagsire|13/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1779858545
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|63/100 psn
+|
+|-heal|p1a: Quagsire|69/100 psn|[from] item: Leftovers
+|-damage|p1a: Quagsire|56/100 psn|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1779858550
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Quagsire|Haze|p1a: Quagsire
+|-clearallboost
+|
+|-heal|p1a: Quagsire|62/100 psn|[from] item: Leftovers
+|-damage|p1a: Quagsire|50/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1779858553
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|99/100 psn
+|
+|-heal|p1a: Quagsire|100/100 psn|[from] item: Leftovers
+|-damage|p1a: Quagsire|88/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1779858555
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Quagsire|Avalanche|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|57/100 tox
+|
+|-heal|p1a: Quagsire|94/100 psn|[from] item: Leftovers
+|-heal|p2a: Gliscor|70/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Quagsire|82/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1779858561
+|switch|p2a: Raging Bolt|Raging Bolt|72/100
+|move|p1a: Quagsire|Avalanche|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|50/100
+|
+|-heal|p1a: Quagsire|88/100 psn|[from] item: Leftovers
+|-damage|p1a: Quagsire|75/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1779858566
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Quagsire|Avalanche|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|28/100
+|
+|-heal|p1a: Quagsire|82/100 psn|[from] item: Leftovers
+|-damage|p1a: Quagsire|69/100 psn|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1779858573
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Gliscor|Gliscor, M|70/100 tox
+|move|p1a: Quagsire|Avalanche|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|28/100 tox
+|
+|-heal|p1a: Quagsire|75/100 psn|[from] item: Leftovers
+|-heal|p2a: Gliscor|40/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Quagsire|63/100 psn|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1779858576
+|move|p2a: Gliscor|Earthquake|p1a: Quagsire
+|-damage|p1a: Quagsire|25/100 psn
+|move|p1a: Quagsire|Avalanche|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-heal|p1a: Quagsire|31/100 psn|[from] item: Leftovers
+|-damage|p1a: Quagsire|18/100 psn|[from] psn
+|upkeep
+|
+|t:|1779858576
+|switch|p2a: Raging Bolt|Raging Bolt|28/100
+|turn|35
+|
+|t:|1779858583
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|68/100 psn
+|
+|-heal|p1a: Quagsire|74/100 psn|[from] item: Leftovers
+|-damage|p1a: Quagsire|62/100 psn|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1779858585
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Quagsire|Avalanche|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|4/100
+|
+|-heal|p1a: Quagsire|68/100 psn|[from] item: Leftovers
+|-damage|p1a: Quagsire|56/100 psn|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1779858587
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|60/100
+|move|p1a: Quagsire|Avalanche|p2a: Hatterene
+|-damage|p2a: Hatterene|50/100
+|
+|-heal|p1a: Quagsire|62/100 psn|[from] item: Leftovers
+|-heal|p2a: Hatterene|56/100|[from] item: Leftovers
+|-damage|p1a: Quagsire|49/100 psn|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1779858603
+|switch|p1a: Revavroom|Revavroom, M|63/100
+|move|p2a: Hatterene|Stored Power|p1a: Revavroom
+|-damage|p1a: Revavroom|49/100
+|
+|-heal|p2a: Hatterene|62/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1779858606
+|move|p1a: Revavroom|Spin Out|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-unboost|p1a: Revavroom|spe|2
+|faint|p2a: Hatterene
+|-enditem|p1a: Revavroom|Eject Pack
+|
+|t:|1779858613
+|switch|p1a: Arcanine|Arcanine-Hisui, F|63/100 psn
+|
+|-damage|p1a: Arcanine|51/100 psn|[from] psn
+|upkeep
+|
+|t:|1779858614
+|switch|p2a: Raging Bolt|Raging Bolt|4/100
+|turn|40
+|
+|t:|1779858617
+|move|p1a: Arcanine|Extreme Speed|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-damage|p1a: Arcanine|39/100 psn|[from] psn
+|upkeep
+|
+|t:|1779858617
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|turn|41
+|
+|t:|1779858620
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Zamazenta|Ice Fang|p1a: Corviknight
+|-damage|p1a: Corviknight|89/100
+|
+|upkeep
+|turn|42
+|
+|t:|1779858625
+|move|p2a: Zamazenta|Light Screen|p2a: Zamazenta
+|-sidestart|p2: Tamihig|move: Light Screen
+|move|p1a: Corviknight|Scary Face|p2a: Zamazenta
+|-unboost|p2a: Zamazenta|spe|2
+|
+|upkeep
+|turn|43
+|
+|t:|1779858627
+|move|p2a: Zamazenta|Reflect|p2a: Zamazenta
+|-sidestart|p2: Tamihig|Reflect
+|move|p1a: Corviknight|Screech|p2a: Zamazenta
+|-unboost|p2a: Zamazenta|def|2
+|
+|upkeep
+|turn|44
+|
+|t:|1779858631
+|move|p2a: Zamazenta|Ice Fang|p1a: Corviknight
+|-damage|p1a: Corviknight|75/100
+|move|p1a: Corviknight|Scary Face|p2a: Zamazenta
+|-unboost|p2a: Zamazenta|spe|2
+|
+|upkeep
+|turn|45
+|
+|t:|1779858634
+|move|p1a: Corviknight|Screech|p2a: Zamazenta
+|-unboost|p2a: Zamazenta|def|2
+|move|p2a: Zamazenta|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|43/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|
+|upkeep
+|turn|46
+|
+|t:|1779858636
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|94/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Zamazenta|Ice Fang|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|87/100
+|
+|upkeep
+|turn|47
+|
+|t:|1779858640
+|move|p1a: Corviknight|Screech|p2a: Zamazenta|[miss]
+|-miss|p1a: Corviknight|p2a: Zamazenta
+|move|p2a: Zamazenta|Light Screen||[still]
+|-fail|p2a: Zamazenta
+|
+|upkeep
+|turn|48
+|
+|t:|1779858643
+|move|p1a: Corviknight|Scary Face|p2a: Zamazenta
+|-unboost|p2a: Zamazenta|spe|2
+|move|p2a: Zamazenta|Reflect||[still]
+|-fail|p2a: Zamazenta
+|
+|upkeep
+|turn|49
+|
+|t:|1779858646
+|move|p1a: Corviknight|Steel Wing|p2a: Zamazenta
+|-damage|p2a: Zamazenta|71/100
+|move|p2a: Zamazenta|Reflect||[still]
+|-fail|p2a: Zamazenta
+|
+|-sideend|p2: Tamihig|move: Light Screen
+|upkeep
+|turn|50
+|
+|t:|1779858650
+|move|p1a: Corviknight|Screech|p2a: Zamazenta|[miss]
+|-miss|p1a: Corviknight|p2a: Zamazenta
+|move|p2a: Zamazenta|Ice Fang|p1a: Corviknight
+|-damage|p1a: Corviknight|75/100
+|
+|-sideend|p2: Tamihig|Reflect
+|upkeep
+|turn|51
+|
+|t:|1779858652
+|move|p1a: Corviknight|Steel Wing|p2a: Zamazenta
+|-damage|p2a: Zamazenta|11/100
+|move|p2a: Zamazenta|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|39/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|
+|upkeep
+|turn|52
+|
+|t:|1779858655
+|move|p1a: Corviknight|Steel Wing|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1779858655
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|53
+|
+|t:|1779858657
+|move|p2a: Ogerpon|Encore|p1a: Corviknight
+|-start|p1a: Corviknight|Encore
+|move|p1a: Corviknight|Steel Wing|p2a: Ogerpon|[miss]
+|-miss|p1a: Corviknight|p2a: Ogerpon
+|
+|upkeep
+|turn|54
+|
+|t:|1779858659
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Corviknight|[anim] Ivy Cudgel Water
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1779858664
+|switch|p1a: Revavroom|Revavroom, M|49/100
+|turn|55
+|
+|t:|1779858673
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Revavroom|Poison Jab|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|win|Keptitcool
+|raw|Keptitcool's rating: 1050 &rarr; <strong>1078</strong><br />(+28 for winning)
+|raw|Tamihig's rating: 1001 &rarr; <strong>1000</strong><br />(-1 for losing)
+|l|☆Tamihig
+|player|p2|
+|c|☆Keptitcool|gg

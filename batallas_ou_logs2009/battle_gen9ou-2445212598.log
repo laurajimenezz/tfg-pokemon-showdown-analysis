@@ -1,0 +1,270 @@
+|j|☆One-Round
+|j|☆eye guy MD OD
+|t:|1758315330
+|gametype|singles
+|player|p1|One-Round|101|1086
+|player|p2|eye guy MD OD|265|1100
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mimikyu, M|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Ursaluna, F|
+|poke|p1|Meganium, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Charizard, F|
+|poke|p2|Galvantula, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Kingdra, M|
+|poke|p2|Empoleon, M|
+|teampreview
+|
+|t:|1758315334
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1758315346
+|move|p2a: Pelipper|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|74/100
+|
+|t:|1758315348
+|switch|p2a: Charizard|Charizard, F, shiny|100/100|[from] U-turn
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by eye guy MD OD)
+|
+|t:|1758315366
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Charizard|Hurricane|p1a: Hoopa
+|-damage|p1a: Hoopa|63/100
+|-start|p1a: Hoopa|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758315376
+|-activate|p1a: Hoopa|confusion
+|move|p1a: Hoopa|Expanding Force|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|-item|p1a: Hoopa|Heavy-Duty Boots|[from] ability: Magician|[of] p2: Charizard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758315392
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|turn|4
+|
+|t:|1758315400
+|move|p2a: Empoleon|Weather Ball|p1a: Hoopa
+|-damage|p1a: Hoopa|5/100
+|-activate|p1a: Hoopa|confusion
+|move|p1a: Hoopa|Focus Blast|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758315411
+|switch|p2a: Dragonite|Dragonite, M, shiny|100/100
+|turn|5
+|
+|t:|1758315419
+|move|p2a: Dragonite|Extreme Speed|p1a: Hoopa
+|-activate|p1a: Hoopa|move: Psychic Terrain
+|-activate|p1a: Hoopa|confusion
+|-damage|p1a: Hoopa|0 fnt|[from] confusion
+|faint|p1a: Hoopa
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758315430
+|switch|p1a: Meganium|Meganium, M|100/100
+|turn|6
+|
+|t:|1758315434
+|move|p2a: Dragonite|Scale Shot|p1a: Meganium
+|-damage|p1a: Meganium|91/100
+|-damage|p1a: Meganium|80/100
+|-damage|p1a: Meganium|71/100
+|-damage|p1a: Meganium|61/100
+|-hitcount|p1a: Meganium|4
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Meganium|Dragon Tail|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|45/100
+|drag|p2a: Galvantula|Galvantula, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Meganium|67/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758315455
+|switch|p1a: Indeedee|Indeedee, M|74/100
+|move|p2a: Galvantula|Bug Buzz|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|18/100
+|-unboost|p1a: Indeedee|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758315467
+|move|p2a: Galvantula|Thunder|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1758315476
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|turn|9
+|
+|t:|1758315484
+|move|p2a: Galvantula|Thunder|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p1a: Mimikyu|Red Card|[of] p2a: Galvantula
+|drag|p2a: Kingdra|Kingdra, M|100/100
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|upkeep
+|turn|10
+|
+|t:|1758315497
+|move|p1a: Mimikyu|Destiny Bond|p1a: Mimikyu
+|-singlemove|p1a: Mimikyu|Destiny Bond
+|move|p2a: Kingdra|Flip Turn|p1a: Mimikyu
+|-damage|p1a: Mimikyu|36/100
+|
+|t:|1758315503
+|switch|p2a: Pelipper|Pelipper, F|100/100|[from] Flip Turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758315510
+|move|p2a: Pelipper|Weather Ball|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|-activate|p1a: Mimikyu|move: Destiny Bond
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758315524
+|switch|p2a: Dragonite|Dragonite, M, shiny|45/100
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|turn|12
+|
+|t:|1758315530
+|move|p1a: Ursaluna|Supercell Slam|p2a: Dragonite|[miss]
+|-miss|p1a: Ursaluna|p2a: Dragonite
+|-damage|p1a: Ursaluna|51/100|[from] supercellslam
+|move|p2a: Dragonite|Scale Shot|p1a: Ursaluna|[miss]
+|-miss|p2a: Dragonite|p1a: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|
+|t:|1758315541
+|move|p2a: Dragonite|Extreme Speed|p1a: Ursaluna
+|-damage|p1a: Ursaluna|28/100 brn
+|move|p1a: Ursaluna|Supercell Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|22/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758315553
+|switch|p2a: Kingdra|Kingdra, M|100/100
+|turn|14
+|
+|t:|1758315563
+|move|p2a: Kingdra|Iron Head|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758315568
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|15
+|
+|t:|1758315572
+|move|p2a: Kingdra|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|14/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1758315582
+|move|p1a: Hatterene|Draining Kiss|p2a: Kingdra
+|-supereffective|p2a: Kingdra
+|-crit|p2a: Kingdra
+|-damage|p2a: Kingdra|0 fnt
+|-heal|p1a: Hatterene|82/100|[from] drain|[of] p2a: Kingdra
+|faint|p2a: Kingdra
+|-damage|p1a: Hatterene|73/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|eye guy MD OD forfeited.
+|
+|win|One-Round
+|raw|One-Round's rating: 1086 &rarr; <strong>1114</strong><br />(+28 for winning)
+|raw|eye guy MD OD's rating: 1100 &rarr; <strong>1074</strong><br />(-26 for losing)
+|l|☆eye guy MD OD
+|player|p2|
+|l|☆One-Round
+|player|p1|

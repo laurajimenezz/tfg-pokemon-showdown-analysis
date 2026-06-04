@@ -1,0 +1,344 @@
+|j|☆qaqkiller
+|j|☆dseokp
+|t:|1758979736
+|gametype|singles
+|player|p1|qaqkiller|maid|1621
+|player|p2|dseokp|unknown|1623
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Dragonite, M|
+|poke|p1|Zapdos|
+|poke|p1|Iron Valiant|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Great Tusk|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Azumarill, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Mimikyu, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dseokp)
+|
+|t:|1758979756
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|switch|p2a: Mimikyu|Mimikyu, F, shiny|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1758979766
+|move|p1a: Iron Valiant|Knock Off|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|-enditem|p2a: Mimikyu|Red Card|[from] move: Knock Off|[of] p1a: Iron Valiant
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F, shiny
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|move|p2a: Mimikyu|Play Rough|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|27/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758979791
+|move|p1a: Iron Valiant|Knock Off|p2a: Mimikyu
+|-damage|p2a: Mimikyu|67/100
+|move|p2a: Mimikyu|Trick Room|p2a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p2a: Mimikyu
+|
+|upkeep
+|turn|3
+|inactive|qaqkiller has 120 seconds left.
+|
+|t:|1758979819
+|-terastallize|p1a: Iron Valiant|Steel
+|move|p2a: Mimikyu|Curse|p1a: Iron Valiant
+|-start|p1a: Iron Valiant|Curse|[of] p2a: Mimikyu
+|-damage|p2a: Mimikyu|17/100
+|move|p1a: Iron Valiant|Encore|p2a: Mimikyu
+|-start|p2a: Mimikyu|Encore
+|
+|-damage|p1a: Iron Valiant|2/100|[from] Curse
+|upkeep
+|turn|4
+|
+|t:|1758979834
+|move|p2a: Mimikyu|Curse||[still]
+|-fail|p2a: Mimikyu
+|move|p1a: Iron Valiant|Knock Off|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-damage|p1a: Iron Valiant|0 fnt|[from] Curse
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|upkeep
+|inactive|dseokp has 120 seconds left.
+|
+|t:|1758979857
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|turn|5
+|inactive|dseokp has 120 seconds left.
+|
+|t:|1758979879
+|move|p2a: Hatterene|Expanding Force|p1a: Slowking
+|-damage|p1a: Slowking|74/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|32/100
+|-status|p2a: Hatterene|psn
+|
+|-heal|p2a: Hatterene|38/100 psn|[from] item: Leftovers
+|-damage|p2a: Hatterene|26/100 psn|[from] psn
+|upkeep
+|turn|6
+|inactive|qaqkiller has 120 seconds left.
+|
+|t:|1758979898
+|move|p2a: Hatterene|Expanding Force|p1a: Slowking
+|-damage|p1a: Slowking|47/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1758979903
+|switch|p1a: Kyurem|Kyurem, shiny|100/100|[from] Chilly Reception
+|-ability|p1a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Hatterene|32/100 psn|[from] item: Leftovers
+|-damage|p2a: Hatterene|20/100 psn|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1758979908
+|move|p1a: Kyurem|Blizzard|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758979919
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|turn|8
+|
+|t:|1758979924
+|switch|p1a: Zapdos|Zapdos, shiny|100/100
+|move|p2a: Azumarill|Play Rough|p1a: Zapdos
+|-damage|p1a: Zapdos|58/100
+|-status|p2a: Azumarill|par|[from] ability: Static|[of] p1a: Zapdos
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|inactive|dseokp has 120 seconds left.
+|
+|t:|1758979936
+|switch|p2a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758979945
+|move|p1a: Zapdos|Volt Switch|p2a: Indeedee
+|-damage|p2a: Indeedee|71/100
+|
+|t:|1758979948
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|81/100|[from] Volt Switch
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1758979963
+|switch|p2a: Azumarill|Azumarill, F|100/100 par
+|move|p1a: Slowking|Future Sight|p2a: Azumarill
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|12
+|
+|t:|1758979974
+|switch|p1a: Zapdos|Zapdos, shiny|100/100
+|move|p2a: Azumarill|Liquidation|p1a: Zapdos
+|-damage|p1a: Zapdos|63/100
+|
+|upkeep
+|turn|13
+|inactive|dseokp has 120 seconds left.
+|
+|t:|1758979997
+|-terastallize|p2a: Azumarill|Water
+|move|p2a: Azumarill|Liquidation|p1a: Zapdos
+|-damage|p1a: Zapdos|10/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|60/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-end|p2a: Azumarill|move: Future Sight
+|-damage|p2a: Azumarill|58/100 par
+|upkeep
+|turn|14
+|
+|t:|1758980004
+|move|p2a: Azumarill|Liquidation|p1a: Zapdos
+|-damage|p1a: Zapdos|12/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|62/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|t:|1758980014
+|move|p1a: Zapdos|Volt Switch|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|16/100 par
+|
+|t:|1758980022
+|switch|p1a: Dragonite|Dragonite, M, shiny|100/100|[from] Volt Switch
+|move|p2a: Azumarill|Liquidation|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|81/100
+|
+|upkeep
+|turn|16
+|inactive|dseokp has 120 seconds left.
+|
+|t:|1758980043
+|move|p1a: Dragonite|Outrage|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|inactive|dseokp has 120 seconds left.
+|
+|t:|1758980061
+|switch|p2a: Ursaluna|Ursaluna, F, shiny|100/100
+|turn|17
+|
+|t:|1758980063
+|move|p1a: Dragonite|Outrage|p2a: Ursaluna|[from] lockedmove
+|-damage|p2a: Ursaluna|21/100
+|move|p2a: Ursaluna|Ice Punch|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1758980072
+|switch|p1a: Kyurem|Kyurem, shiny|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|18
+|
+|t:|1758980077
+|switch|p2a: Indeedee|Indeedee, M, shiny|71/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Kyurem|Freeze-Dry|p2a: Indeedee
+|-damage|p2a: Indeedee|9/100
+|
+|upkeep
+|turn|19
+|
+|t:|1758980089
+|move|p1a: Kyurem|Freeze-Dry|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1758980091
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-enditem|p2a: Hoopa|Psychic Seed
+|-boost|p2a: Hoopa|spd|1|[from] item: Psychic Seed
+|turn|20
+|
+|t:|1758980101
+|switch|p1a: Zapdos|Zapdos, shiny|62/100
+|move|p2a: Hoopa|Expanding Force|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-item|p2a: Hoopa|Heavy-Duty Boots|[from] ability: Magician|[of] p1: Zapdos
+|
+|upkeep
+|
+|t:|1758980113
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|turn|21
+|
+|t:|1758980127
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-unboost|p2a: Hoopa|def|1
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1758980129
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|turn|22
+|
+|t:|1758980142
+|move|p1a: Great Tusk|Headlong Rush|p2a: Hoopa
+|-damage|p2a: Hoopa|11/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Hoopa|Expanding Force|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758980148
+|switch|p1a: Kyurem|Kyurem, shiny|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|23
+|
+|t:|1758980160
+|move|p1a: Kyurem|Freeze-Dry|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|-message|dseokp forfeited.
+|
+|win|qaqkiller
+|raw|qaqkiller's rating: 1621 &rarr; <strong>1641</strong><br />(+20 for winning)
+|raw|dseokp's rating: 1623 &rarr; <strong>1603</strong><br />(-20 for losing)
+|l|☆dseokp
+|player|p2|
+|l|☆qaqkiller
+|player|p1|

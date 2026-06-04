@@ -1,0 +1,711 @@
+|j|☆phap'a
+|j|☆mordomv
+|t:|1779649098
+|gametype|singles
+|player|p1|phap'a|dawn|1183
+|player|p2|mordomv|170|1170
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Iron Moth|
+|poke|p1|Kyurem|
+|poke|p1|Ting-Lu|
+|poke|p1|Deoxys-Speed|
+|poke|p2|Comfey, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Breloom, F|
+|poke|p2|Blaziken, M|
+|poke|p2|Clefable, F|
+|poke|p2|Dragapult, F|
+|teampreview
+|c|☆phap'a|GLHF
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by phap'a)
+|inactive|mordomv also wants the timer to be on.
+|
+|t:|1779649120
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|t:|1779649128
+|move|p2a: Grimmsnarl|Trick|p1a: Deoxys
+|-activate|p2a: Grimmsnarl|move: Trick|[of] p1a: Deoxys
+|-item|p1a: Deoxys|Choice Scarf|[from] move: Trick
+|-item|p2a: Grimmsnarl|Light Clay|[from] move: Trick
+|move|p1a: Deoxys|Thunder Wave|p2a: Grimmsnarl
+|-status|p2a: Grimmsnarl|par
+|
+|upkeep
+|turn|2
+|
+|t:|1779649143
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|cant|p2a: Grimmsnarl|par
+|
+|upkeep
+|turn|3
+|
+|t:|1779649153
+|cant|p2a: Grimmsnarl|par
+|move|p1a: Iron Treads|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|23/100 par
+|
+|upkeep
+|turn|4
+|
+|t:|1779649161
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Iron Treads
+|-unboost|p1a: Iron Treads|atk|1
+|-unboost|p1a: Iron Treads|spa|1
+|
+|t:|1779649165
+|switch|p2a: Breloom|Breloom, F|100/100|[from] Parting Shot
+|move|p1a: Iron Treads|Iron Head|p2a: Breloom
+|-damage|p2a: Breloom|68/100
+|
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1779649175
+|move|p1a: Iron Treads|Iron Head|p2a: Breloom
+|-damage|p2a: Breloom|41/100 tox
+|cant|p2a: Breloom|flinch
+|
+|-heal|p2a: Breloom|53/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1779649184
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Breloom|Leech Seed|p1a: Kyurem
+|-start|p1a: Kyurem|move: Leech Seed
+|
+|-damage|p1a: Kyurem|88/100|[from] Leech Seed|[of] p2a: Breloom
+|-heal|p2a: Breloom|71/100 tox|[silent]
+|-heal|p2a: Breloom|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1779649198
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Kyurem|Icicle Spear|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-damage|p1a: Kyurem|76/100|[from] Leech Seed|[of] p2a: Breloom
+|-heal|p2a: Breloom|100/100 tox|[silent]
+|upkeep
+|turn|8
+|
+|t:|1779649208
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|-terastallize|p2a: Breloom|Normal
+|move|p2a: Breloom|Drain Punch|p1a: Deoxys
+|-resisted|p1a: Deoxys
+|-damage|p1a: Deoxys|82/100
+|
+|upkeep
+|turn|9
+|
+|t:|1779649218
+|move|p1a: Deoxys|Reflect|p1a: Deoxys
+|-sidestart|p1: phap'a|Reflect
+|move|p2a: Breloom|Leech Seed|p1a: Deoxys
+|-start|p1a: Deoxys|move: Leech Seed
+|
+|-damage|p1a: Deoxys|70/100|[from] Leech Seed|[of] p2a: Breloom
+|upkeep
+|turn|10
+|
+|t:|1779649229
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: Breloom|Leech Seed|p1a: Samurott
+|-start|p1a: Samurott|move: Leech Seed
+|
+|-damage|p1a: Samurott|88/100|[from] Leech Seed|[of] p2a: Breloom
+|upkeep
+|turn|11
+|
+|t:|1779649237
+|move|p2a: Breloom|Protect|p2a: Breloom
+|-singleturn|p2a: Breloom|Protect
+|move|p1a: Samurott|Ceaseless Edge|p2a: Breloom
+|-activate|p2a: Breloom|move: Protect
+|
+|-damage|p1a: Samurott|76/100|[from] Leech Seed|[of] p2a: Breloom
+|upkeep
+|turn|12
+|
+|t:|1779649245
+|move|p1a: Samurott|Sacred Sword|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|-damage|p1a: Samurott|66/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779649261
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|13
+|
+|t:|1779649266
+|move|p1a: Samurott|Sucker Punch||[still]
+|-fail|p1a: Samurott
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|-damage|p1a: Samurott|53/100|[from] Leech Seed|[of] p2a: Dragapult
+|-sideend|p1: phap'a|Reflect
+|upkeep
+|turn|14
+|c|☆phap'a|dragon dance pult?
+|c|☆phap'a|that's afirst
+|
+|t:|1779649283
+|move|p1a: Samurott|Sucker Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-damage|p1a: Samurott|43/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779649301
+|switch|p2a: Comfey|Comfey, F|100/100
+|turn|15
+|
+|t:|1779649305
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|
+|upkeep
+|turn|16
+|
+|t:|1779649322
+|move|p1a: Iron Moth|Sludge Wave|p2a: Comfey
+|-supereffective|p2a: Comfey
+|-damage|p2a: Comfey|11/100
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1779649330
+|move|p2a: Comfey|Draining Kiss|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|94/100
+|-heal|p2a: Comfey|20/100|[from] drain|[of] p1a: Iron Moth
+|move|p1a: Iron Moth|Sludge Wave|p2a: Comfey
+|-supereffective|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|
+|upkeep
+|
+|t:|1779649339
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|23/100 par
+|turn|18
+|
+|t:|1779649342
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Iron Moth
+|-status|p1a: Iron Moth|par
+|move|p1a: Iron Moth|Sludge Wave|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1779649355
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|turn|19
+|
+|t:|1779649360
+|move|p2a: Blaziken|Focus Energy|p2a: Blaziken
+|-start|p2a: Blaziken|move: Focus Energy
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Blaziken
+|-damage|p2a: Blaziken|44/100
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|20
+|
+|t:|1779649370
+|move|p2a: Blaziken|Scorching Sands|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-crit|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1779649377
+|switch|p1a: Deoxys|Deoxys-Speed|70/100
+|-ability|p1a: Deoxys|Pressure
+|turn|21
+|
+|t:|1779649382
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Deoxys|Psycho Boost|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|22
+|
+|t:|1779649393
+|move|p1a: Deoxys|Psycho Boost|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|-unboost|p1a: Deoxys|spa|2
+|faint|p2a: Blaziken
+|
+|upkeep
+|
+|t:|1779649400
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|23
+|
+|t:|1779649411
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|
+|upkeep
+|turn|24
+|
+|t:|1779649420
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Ting-Lu|Ruination|p2a: Clefable
+|-damage|p2a: Clefable|50/100
+|
+|-heal|p2a: Clefable|57/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1779649429
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Ting-Lu|Ruination|p2a: Clefable
+|-damage|p2a: Clefable|29/100
+|
+|-heal|p2a: Clefable|35/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1779649438
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|85/100
+|move|p1a: Ting-Lu|Ruination|p2a: Clefable
+|-damage|p2a: Clefable|43/100
+|
+|-heal|p2a: Clefable|49/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1779649448
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Ting-Lu|Ruination|p2a: Clefable|[miss]
+|-miss|p1a: Ting-Lu|p2a: Clefable
+|
+|-heal|p2a: Clefable|55/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1779649457
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Ting-Lu|Ruination|p2a: Clefable
+|-damage|p2a: Clefable|28/100
+|
+|-heal|p2a: Clefable|34/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1779649466
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|84/100
+|move|p1a: Ting-Lu|Ruination|p2a: Clefable
+|-damage|p2a: Clefable|42/100
+|
+|-heal|p2a: Clefable|48/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1779649475
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Ting-Lu|Ruination|p2a: Clefable
+|-damage|p2a: Clefable|24/100
+|
+|-heal|p2a: Clefable|30/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1779649484
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|80/100
+|move|p1a: Ting-Lu|Ruination|p2a: Clefable
+|-damage|p2a: Clefable|41/100
+|
+|-heal|p2a: Clefable|47/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1779649493
+|move|p2a: Clefable|Night Shade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|81/100
+|move|p1a: Ting-Lu|Ruination|p2a: Clefable
+|-damage|p2a: Clefable|24/100
+|
+|-heal|p2a: Clefable|30/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1779649502
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|80/100
+|move|p1a: Ting-Lu|Ruination|p2a: Clefable
+|-damage|p2a: Clefable|40/100
+|
+|-heal|p2a: Clefable|46/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1779649511
+|move|p2a: Clefable|Night Shade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|62/100
+|move|p1a: Ting-Lu|Ruination|p2a: Clefable
+|-damage|p2a: Clefable|23/100
+|
+|-heal|p2a: Clefable|29/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1779649520
+|move|p2a: Clefable|Night Shade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|42/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|17/100
+|
+|-heal|p2a: Clefable|23/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1779649529
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|73/100
+|move|p1a: Ting-Lu|Ruination|p2a: Clefable
+|-damage|p2a: Clefable|37/100
+|
+|-heal|p2a: Clefable|43/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1779649539
+|move|p2a: Clefable|Night Shade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|23/100
+|move|p1a: Ting-Lu|Ruination|p2a: Clefable
+|-damage|p2a: Clefable|22/100
+|
+|-heal|p2a: Clefable|28/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1779649547
+|move|p2a: Clefable|Night Shade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|3/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|14/100
+|
+|-heal|p2a: Clefable|20/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1779649556
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|70/100
+|move|p1a: Ting-Lu|Ruination|p2a: Clefable|[miss]
+|-miss|p1a: Ting-Lu|p2a: Clefable
+|
+|-heal|p2a: Clefable|76/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1779649566
+|move|p2a: Clefable|Night Shade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-heal|p2a: Clefable|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779649571
+|switch|p1a: Deoxys|Deoxys-Speed|70/100
+|-ability|p1a: Deoxys|Pressure
+|turn|41
+|
+|t:|1779649577
+|move|p1a: Deoxys|Light Screen|p1a: Deoxys
+|-sidestart|p1: phap'a|move: Light Screen
+|move|p2a: Clefable|Stored Power|p1a: Deoxys
+|-resisted|p1a: Deoxys
+|-damage|p1a: Deoxys|54/100
+|
+|-heal|p2a: Clefable|88/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1779649585
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Clefable|Night Shade|p1a: Iron Treads
+|-damage|p1a: Iron Treads|69/100
+|
+|-heal|p2a: Clefable|94/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1779649594
+|move|p1a: Iron Treads|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|76/100
+|cant|p2a: Clefable|flinch
+|
+|-heal|p2a: Clefable|82/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1779649602
+|move|p1a: Iron Treads|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|64/100
+|cant|p2a: Clefable|flinch
+|
+|-heal|p2a: Clefable|70/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1779649609
+|move|p1a: Iron Treads|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|52/100
+|move|p2a: Clefable|Night Shade|p1a: Iron Treads
+|-damage|p1a: Iron Treads|38/100
+|
+|-heal|p2a: Clefable|58/100|[from] item: Leftovers
+|-sideend|p1: phap'a|move: Light Screen
+|upkeep
+|turn|46
+|
+|t:|1779649619
+|move|p1a: Iron Treads|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|38/100
+|move|p2a: Clefable|Stored Power|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p2a: Clefable|44/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779649627
+|switch|p1a: Deoxys|Deoxys-Speed|54/100
+|-ability|p1a: Deoxys|Pressure
+|turn|47
+|
+|t:|1779649636
+|move|p1a: Deoxys|Light Screen|p1a: Deoxys
+|-sidestart|p1: phap'a|move: Light Screen
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|94/100
+|
+|-heal|p2a: Clefable|99/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1779649643
+|switch|p1a: Kyurem|Kyurem|76/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Clefable|Night Shade|p1a: Kyurem
+|-damage|p1a: Kyurem|50/100
+|
+|-heal|p2a: Clefable|100/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1779649653
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Clefable|Night Shade|p1a: Kyurem
+|-damage|p1a: Kyurem|25/100
+|
+|upkeep
+|turn|50
+|
+|t:|1779649663
+|move|p1a: Kyurem|Icicle Spear|p2a: Clefable
+|-damage|p2a: Clefable|95/100
+|-damage|p2a: Clefable|89/100
+|-damage|p2a: Clefable|83/100
+|-damage|p2a: Clefable|78/100
+|-hitcount|p2a: Clefable|4
+|move|p2a: Clefable|Night Shade|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-heal|p2a: Clefable|84/100|[from] item: Leftovers
+|upkeep
+|c|☆mordomv|Gg Bro
+|c|☆phap'a|clefable stall grind is crazy
+|c|☆phap'a|mad comeback tho
+|c|☆phap'a|respect
+|inactive|phap'a has 120 seconds left.
+|
+|t:|1779649695
+|switch|p1a: Deoxys|Deoxys-Speed|54/100
+|-ability|p1a: Deoxys|Pressure
+|turn|51
+|c|☆mordomv|Clefable the goat xd
+|
+|t:|1779649712
+|move|p1a: Deoxys|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|move|p2a: Clefable|Night Shade|p1a: Deoxys
+|-damage|p1a: Deoxys|21/100
+|
+|-heal|p2a: Clefable|90/100 par|[from] item: Leftovers
+|-sideend|p1: phap'a|move: Light Screen
+|upkeep
+|turn|52
+|c|☆phap'a|i am not mad
+|c|☆phap'a|just impressed
+|inactive|phap'a has 120 seconds left.
+|c|☆phap'a|i got cocky, and you made me eat my words
+|
+|t:|1779649742
+|move|p1a: Deoxys|Thunder Wave|p2a: Clefable
+|-fail|p2a: Clefable|par
+|cant|p2a: Clefable|par
+|
+|-heal|p2a: Clefable|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1779649750
+|move|p1a: Deoxys|Thunder Wave|p2a: Clefable
+|-fail|p2a: Clefable|par
+|cant|p2a: Clefable|par
+|
+|-heal|p2a: Clefable|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|54
+|inactive|phap'a has 120 seconds left.
+|c|☆phap'a|ya know it is over
+|c|☆mordomv|You need just a critic
+|
+|t:|1779649772
+|move|p1a: Deoxys|Thunder Wave|p2a: Clefable
+|-fail|p2a: Clefable|par
+|move|p2a: Clefable|Night Shade|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|c|☆phap'a|what is samurott gonna do?
+|
+|t:|1779649782
+|switch|p1a: Samurott|Samurott-Hisui, M|43/100
+|turn|55
+|inactive|phap'a has 120 seconds left.
+|
+|t:|1779649787
+|move|p1a: Samurott|Razor Shell|p2a: Clefable|[miss]
+|-miss|p1a: Samurott|p2a: Clefable
+|move|p2a: Clefable|Night Shade|p1a: Samurott
+|-damage|p1a: Samurott|12/100
+|
+|upkeep
+|turn|56
+|c|☆mordomv|Xd
+|inactive|phap'a has 120 seconds left.
+|c|☆phap'a|TAKE CARE
+|c|☆phap'a|absolute legend
+|
+|t:|1779649808
+|move|p1a: Samurott|Razor Shell|p2a: Clefable
+|-damage|p2a: Clefable|83/100 par
+|-unboost|p2a: Clefable|def|1
+|-damage|p1a: Samurott|2/100|[from] item: Life Orb
+|cant|p2a: Clefable|par
+|
+|-heal|p2a: Clefable|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|inactive|phap'a has 120 seconds left.
+|
+|t:|1779649820
+|move|p1a: Samurott|Razor Shell|p2a: Clefable
+|-damage|p2a: Clefable|71/100 par
+|-unboost|p2a: Clefable|def|1
+|-damage|p1a: Samurott|0 fnt|[from] item: Life Orb
+|faint|p1a: Samurott
+|
+|win|mordomv
+|raw|phap&apos;a's rating: 1183 &rarr; <strong>1157</strong><br />(-26 for losing)
+|raw|mordomv's rating: 1170 &rarr; <strong>1196</strong><br />(+26 for winning)
+|c|☆phap'a|no seriously
+|c|☆phap'a|take care
+|c|☆mordomv|No critic
+|l|☆mordomv
+|player|p2|
+|c|☆phap'a|nah

@@ -1,0 +1,309 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆Draydin
+|j|☆karnz8
+|t:|1776251548
+|gametype|singles
+|player|p1|Draydin|dahlia|1093
+|player|p2|karnz8|169|1074
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Golurk|
+|poke|p1|Moltres-Galar|
+|poke|p1|Florges-White, F|
+|poke|p1|Galvantula, M|
+|poke|p1|Alomomola, F|
+|poke|p1|Mienshao, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Hands|
+|poke|p2|Manaphy|
+|poke|p2|Ceruledge, M|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1776251560
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Mienshao|Mienshao, M, shiny|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivedef
+|turn|1
+|
+|t:|1776251585
+|move|p1a: Mienshao|Fake Out|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|96/100
+|cant|p2a: Iron Treads|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1776251616
+|switch|p1a: Golurk|Golurk, shiny|100/100
+|move|p2a: Iron Treads|Rapid Spin|p1a: Golurk
+|-immune|p1a: Golurk
+|
+|upkeep
+|turn|3
+|
+|t:|1776251625
+|move|p2a: Iron Treads|Knock Off|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|32/100
+|-enditem|p1a: Golurk|Assault Vest|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Golurk|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|42/100
+|
+|upkeep
+|turn|4
+|
+|t:|1776251655
+|-terastallize|p1a: Golurk|Fighting
+|move|p2a: Iron Treads|Knock Off|p1a: Golurk
+|-resisted|p1a: Golurk
+|-damage|p1a: Golurk|20/100
+|move|p1a: Golurk|Drain Punch|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-heal|p1a: Golurk|38/100|[from] drain|[of] p2a: Iron Treads
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1776251660
+|switch|p2a: Kingambit|Kingambit, F, shiny|100/100
+|-ability|p2a: Kingambit|Pressure
+|turn|5
+|
+|t:|1776251675
+|move|p2a: Kingambit|Lash Out|p1a: Golurk
+|-resisted|p1a: Golurk
+|-damage|p1a: Golurk|12/100
+|move|p1a: Golurk|Drain Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-enditem|p2a: Kingambit|Focus Sash
+|-damage|p2a: Kingambit|1/100
+|-heal|p1a: Golurk|56/100|[from] drain|[of] p2a: Kingambit
+|
+|upkeep
+|turn|6
+|
+|t:|1776251698
+|move|p2a: Kingambit|Lash Out|p1a: Golurk
+|-resisted|p1a: Golurk
+|-damage|p1a: Golurk|32/100
+|move|p1a: Golurk|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|upkeep
+|
+|t:|1776251708
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|7
+|
+|t:|1776251735
+|-terastallize|p2a: Iron Hands|Fighting
+|move|p1a: Golurk|Earthquake|p2a: Iron Hands
+|-damage|p2a: Iron Hands|68/100
+|move|p2a: Iron Hands|Close Combat|p1a: Golurk
+|-crit|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|-unboost|p2a: Iron Hands|def|1
+|-unboost|p2a: Iron Hands|spd|1
+|faint|p1a: Golurk
+|
+|upkeep
+|
+|t:|1776251743
+|switch|p1a: Moltres|Moltres-Galar, shiny|100/100
+|turn|8
+|
+|t:|1776251748
+|move|p1a: Moltres|Air Slash|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1776251752
+|switch|p2a: Manaphy|Manaphy|100/100
+|turn|9
+|
+|t:|1776251765
+|move|p1a: Moltres|Air Slash|p2a: Manaphy
+|-damage|p2a: Manaphy|65/100
+|cant|p2a: Manaphy|flinch
+|
+|upkeep
+|turn|10
+|
+|t:|1776251772
+|move|p1a: Moltres|Air Slash|p2a: Manaphy
+|-damage|p2a: Manaphy|30/100
+|cant|p2a: Manaphy|flinch
+|
+|upkeep
+|turn|11
+|
+|t:|1776251775
+|move|p1a: Moltres|Air Slash|p2a: Manaphy
+|-damage|p2a: Manaphy|0 fnt
+|faint|p2a: Manaphy
+|
+|upkeep
+|
+|t:|1776251780
+|switch|p2a: Tinkaton|Tinkaton, F, shiny|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|turn|12
+|
+|t:|1776251793
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Tinkaton|Play Rough|p1a: Alomomola
+|-damage|p1a: Alomomola|83/100
+|-unboost|p1a: Alomomola|atk|1
+|
+|-heal|p1a: Alomomola|89/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1776251797
+|move|p2a: Tinkaton|Thunder Wave|p1a: Alomomola
+|-status|p1a: Alomomola|par
+|move|p1a: Alomomola|Whirlpool|p2a: Tinkaton|[miss]
+|-miss|p1a: Alomomola|p2a: Tinkaton
+|
+|-heal|p1a: Alomomola|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1776251801
+|move|p2a: Tinkaton|Swords Dance|p2a: Tinkaton
+|-boost|p2a: Tinkaton|atk|2
+|move|p1a: Alomomola|Whirlpool|p2a: Tinkaton
+|-damage|p2a: Tinkaton|94/100
+|-activate|p2a: Tinkaton|move: Whirlpool|[of] p1a: Alomomola
+|-enditem|p2a: Tinkaton|Air Balloon
+|
+|-heal|p1a: Alomomola|100/100 par|[from] item: Leftovers
+|-damage|p2a: Tinkaton|82/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1776251809
+|move|p2a: Tinkaton|Swords Dance|p2a: Tinkaton
+|-boost|p2a: Tinkaton|atk|2
+|cant|p1a: Alomomola|par
+|
+|-damage|p2a: Tinkaton|70/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1776251828
+|move|p2a: Tinkaton|Play Rough|p1a: Alomomola
+|-damage|p1a: Alomomola|47/100 par
+|move|p1a: Alomomola|Scald|p2a: Tinkaton
+|-damage|p2a: Tinkaton|55/100
+|
+|-heal|p1a: Alomomola|53/100 par|[from] item: Leftovers
+|-damage|p2a: Tinkaton|43/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|17
+|
+|t:|1776251870
+|switch|p1a: Galvantula|Galvantula, M, shiny|100/100
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Galvantula
+|-resisted|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|-end|p2a: Tinkaton|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1776251875
+|switch|p1a: Mienshao|Mienshao, M, shiny|100/100
+|turn|18
+|
+|t:|1776251880
+|move|p1a: Mienshao|Fake Out|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|34/100
+|cant|p2a: Tinkaton|flinch
+|
+|upkeep
+|turn|19
+|
+|t:|1776251889
+|move|p1a: Mienshao|High Jump Kick|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1776251892
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|20
+|
+|t:|1776251897
+|move|p1a: Mienshao|Knock Off|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|4/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|-enditem|p2a: Ceruledge|Expert Belt|[from] move: Knock Off|[of] p1a: Mienshao
+|move|p2a: Ceruledge|Psycho Cut|p1a: Mienshao
+|-supereffective|p1a: Mienshao
+|-damage|p1a: Mienshao|8/100
+|
+|upkeep
+|turn|21
+|
+|t:|1776251906
+|move|p2a: Ceruledge|Psycho Cut|p1a: Mienshao
+|-supereffective|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|
+|upkeep
+|
+|t:|1776251910
+|switch|p1a: Alomomola|Alomomola, F|87/100 par
+|turn|22
+|
+|t:|1776251918
+|move|p2a: Ceruledge|Psycho Cut|p1a: Alomomola
+|-damage|p1a: Alomomola|75/100 par
+|move|p1a: Alomomola|Scald|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|win|Draydin
+|raw|Draydin's rating: 1093 &rarr; <strong>1118</strong><br />(+25 for winning)
+|raw|karnz8's rating: 1074 &rarr; <strong>1054</strong><br />(-20 for losing)
+|l|☆karnz8
+|player|p2|

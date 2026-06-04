@@ -1,0 +1,308 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆TheRegisAreCool
+|j|☆akin572
+|t:|1776175205
+|gametype|singles
+|player|p1|TheRegisAreCool|fisherman-gen4|1171
+|player|p2|akin572|hilbert|1176
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Conkeldurr, M|
+|poke|p1|Iron Moth|
+|poke|p1|Glimmora, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Donphan, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Gliscor, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Glimmora, M|
+|poke|p2|Greninja-*, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by akin572)
+|
+|t:|1776175227
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1776175244
+|switch|p1a: Donphan|Donphan, F|100/100
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1776175254
+|move|p2a: Iron Valiant|Close Combat|p1a: Donphan
+|-ability|p1a: Donphan|Sturdy
+|-damage|p1a: Donphan|1/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|move|p1a: Donphan|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|13/100
+|
+|upkeep
+|turn|3
+|
+|t:|1776175265
+|move|p1a: Donphan|Ice Shard|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1776175271
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|4
+|
+|t:|1776175284
+|move|p1a: Donphan|Ice Shard|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|89/100
+|move|p2a: Greninja|Ice Beam|p1a: Donphan
+|-start|p2a: Greninja|typechange|Ice|[from] ability: Protean
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|-damage|p2a: Greninja|79/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1776175293
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|5
+|
+|t:|1776175298
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|-terastallize|p1a: Conkeldurr|Fighting
+|move|p1a: Conkeldurr|Mach Punch|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|87/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1776175309
+|move|p2a: Gliscor|Knock Off|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|91/100 brn
+|-enditem|p1a: Conkeldurr|Flame Orb|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Conkeldurr|Facade|p2a: Gliscor
+|-damage|p2a: Gliscor|22/100 tox
+|
+|-heal|p2a: Gliscor|34/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Conkeldurr|85/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1776175330
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Glimmora
+|-damage|p2a: Glimmora|46/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: TheRegisAreCool|move: Toxic Spikes
+|
+|-heal|p2a: Glimmora|52/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|79/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1776175342
+|-terastallize|p2a: Glimmora|Flying
+|move|p1a: Conkeldurr|Mach Punch|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|27/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: TheRegisAreCool|move: Toxic Spikes
+|move|p2a: Glimmora|Sludge Bomb|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|24/100 brn
+|
+|-damage|p2a: Glimmora|15/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|18/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1776175357
+|move|p1a: Conkeldurr|Mach Punch|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|-damage|p1a: Conkeldurr|12/100 brn|[from] brn
+|upkeep
+|
+|t:|1776175365
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|10
+|
+|t:|1776175373
+|move|p2a: Zamazenta|Reflect|p2a: Zamazenta
+|-sidestart|p2: akin572|Reflect
+|move|p1a: Conkeldurr|Close Combat|p2a: Zamazenta
+|-damage|p2a: Zamazenta|66/100
+|-unboost|p1a: Conkeldurr|def|1
+|-unboost|p1a: Conkeldurr|spd|1
+|
+|-heal|p2a: Zamazenta|72/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|6/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1776175378
+|move|p2a: Zamazenta|Light Screen|p2a: Zamazenta
+|-sidestart|p2: akin572|move: Light Screen
+|move|p1a: Conkeldurr|Close Combat|p2a: Zamazenta
+|-damage|p2a: Zamazenta|38/100
+|-unboost|p1a: Conkeldurr|def|1
+|-unboost|p1a: Conkeldurr|spd|1
+|
+|-heal|p2a: Zamazenta|44/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|0 fnt|[from] brn
+|faint|p1a: Conkeldurr
+|upkeep
+|
+|t:|1776175391
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-sideend|p1: TheRegisAreCool|move: Toxic Spikes|[of] p1a: Glimmora
+|turn|12
+|
+|t:|1776175398
+|move|p2a: Zamazenta|Body Press|p1a: Glimmora
+|-damage|p1a: Glimmora|30/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: akin572|move: Toxic Spikes
+|move|p1a: Glimmora|Sludge Bomb|p2a: Zamazenta
+|-damage|p2a: Zamazenta|27/100
+|
+|-heal|p2a: Zamazenta|33/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1776175407
+|move|p2a: Zamazenta|Body Press|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: akin572|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-heal|p2a: Zamazenta|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1776175416
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|turn|14
+|
+|t:|1776175420
+|move|p2a: Zamazenta|Body Press|p1a: Kommo-o
+|-damage|p1a: Kommo-o|48/100
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|15/100
+|
+|-heal|p1a: Kommo-o|21/100|[from] item: Leftovers
+|-heal|p2a: Zamazenta|46/100|[from] item: Leftovers
+|-sideend|p2: akin572|Reflect
+|upkeep
+|turn|15
+|
+|t:|1776175431
+|move|p1a: Kommo-o|Clanging Scales|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-unboost|p1a: Kommo-o|def|1
+|
+|-heal|p1a: Kommo-o|27/100|[from] item: Leftovers
+|-sideend|p2: akin572|move: Light Screen
+|upkeep
+|
+|t:|1776175435
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|16
+|
+|t:|1776175444
+|move|p2a: Cinderace|High Jump Kick|p1a: Kommo-o
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|t:|1776175450
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|17
+|
+|t:|1776175457
+|move|p1a: Iron Moth|Fiery Dance|p2a: Cinderace
+|-damage|p2a: Cinderace|39/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|18
+|
+|t:|1776175475
+|move|p1a: Iron Moth|Fiery Dance|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1776175482
+|switch|p2a: Gliscor|Gliscor, M|34/100 tox
+|turn|19
+|
+|t:|1776175486
+|move|p1a: Iron Moth|Fiery Dance|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1776175489
+|switch|p2a: Greninja|Greninja, M|79/100
+|turn|20
+|
+|t:|1776175495
+|move|p1a: Iron Moth|Energy Ball|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|win|TheRegisAreCool
+|raw|TheRegisAreCool's rating: 1171 &rarr; <strong>1196</strong><br />(+25 for winning)
+|raw|akin572's rating: 1176 &rarr; <strong>1151</strong><br />(-25 for losing)

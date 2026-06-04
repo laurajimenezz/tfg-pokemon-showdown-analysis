@@ -1,0 +1,386 @@
+|j|☆TreyB44
+|j|☆avenacaroni
+|t:|1760318122
+|gametype|singles
+|player|p1|TreyB44|265|1345
+|player|p2|avenacaroni|265|1311
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Gliscor, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Darkrai|
+|poke|p1|Heatran, F|
+|poke|p1|Kyurem|
+|poke|p2|Infernape, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Electivire, F|
+|poke|p2|Gyarados, M|
+|poke|p2|Scizor, F|
+|poke|p2|Gengar, M|
+|teampreview
+|
+|t:|1760318158
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Inferno|Infernape, M|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1760318184
+|move|p2a: Inferno|Nasty Plot|p2a: Inferno
+|-boost|p2a: Inferno|spa|2
+|move|p1a: Great Tusk|Rapid Spin|p2a: Inferno
+|-damage|p2a: Inferno|65/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1760318213
+|switch|p2a: Gyro|Gyarados, M|100/100
+|-ability|p2a: Gyro|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Earthquake|p2a: Gyro
+|-immune|p2a: Gyro
+|
+|upkeep
+|turn|3
+|
+|t:|1760318241
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Gyro|Dragon Dance|p2a: Gyro
+|-boost|p2a: Gyro|atk|1
+|-boost|p2a: Gyro|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1760318253
+|move|p2a: Gyro|Waterfall|p1a: Corviknight
+|-damage|p1a: Corviknight|51/100
+|-damage|p2a: Gyro|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|upkeep
+|turn|5
+|
+|t:|1760318263
+|switch|p2a: Clover|Gengar, M|100/100
+|-item|p2a: Clover|Air Balloon
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|6
+|
+|t:|1760318274
+|move|p2a: Clover|Thunder Wave|p1a: Corviknight
+|-status|p1a: Corviknight|par
+|cant|p1a: Corviknight|par
+|
+|upkeep
+|turn|7
+|
+|t:|1760318283
+|move|p2a: Clover|Hex|p1a: Corviknight
+|-damage|p1a: Corviknight|50/100 par
+|move|p1a: Corviknight|Brave Bird|p2a: Clover
+|-damage|p2a: Clover|25/100
+|-start|p1a: Corviknight|Disable|Brave Bird|[from] ability: Cursed Body|[of] p2a: Clover
+|-enditem|p2a: Clover|Air Balloon
+|-damage|p1a: Corviknight|34/100 par|[from] Recoil
+|
+|upkeep
+|turn|8
+|
+|t:|1760318300
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Clover|Hex|p1a: Heatran
+|-damage|p1a: Heatran|82/100
+|
+|upkeep
+|turn|9
+|
+|t:|1760318313
+|move|p2a: Clover|Focus Blast|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|43/100
+|move|p1a: Heatran|Flash Cannon|p2a: Clover
+|-damage|p2a: Clover|0 fnt
+|-start|p1a: Heatran|Disable|Flash Cannon|[from] ability: Cursed Body|[of] p2a: Clover
+|faint|p2a: Clover
+|
+|upkeep
+|
+|t:|1760318363
+|switch|p2a: Garrus|Garchomp, M|100/100
+|turn|10
+|
+|t:|1760318374
+|-terastallize|p1a: Heatran|Grass
+|move|p2a: Garrus|Earthquake|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|21/100
+|move|p1a: Heatran|Earth Power|p2a: Garrus
+|-damage|p2a: Garrus|69/100
+|
+|upkeep
+|turn|11
+|
+|t:|1760318384
+|move|p2a: Garrus|Scale Shot|p1a: Heatran
+|-damage|p1a: Heatran|10/100
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-hitcount|p1: Heatran|2
+|-unboost|p2a: Garrus|def|1
+|-boost|p2a: Garrus|spe|1
+|
+|upkeep
+|
+|t:|1760318395
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|12
+|
+|t:|1760318435
+|switch|p2a: Sasha|Scizor, F|100/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Sasha
+|-resisted|p2a: Sasha
+|-crit|p2a: Sasha
+|-damage|p2a: Sasha|79/100
+|
+|upkeep
+|turn|13
+|
+|t:|1760318443
+|move|p1a: Great Tusk|Knock Off|p2a: Sasha
+|-damage|p2a: Sasha|42/100
+|-enditem|p2a: Sasha|Choice Band|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Sasha|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|80/100
+|
+|t:|1760318450
+|switch|p2a: Gyro|Gyarados, M|84/100|[from] U-turn
+|-ability|p2a: Gyro|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|
+|upkeep
+|turn|14
+|
+|t:|1760318481
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|switch|p2a: Evie|Electivire, F|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1760318498
+|move|p2a: Evie|Knock Off|p1a: Kyurem
+|-damage|p1a: Kyurem|72/100
+|-enditem|p1a: Kyurem|Loaded Dice|[from] move: Knock Off|[of] p2a: Evie
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|47/100
+|
+|upkeep
+|turn|16
+|
+|t:|1760318507
+|move|p2a: Evie|Bulk Up|p2a: Evie
+|-boost|p2a: Evie|atk|1
+|-boost|p2a: Evie|def|1
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|turn|17
+|
+|t:|1760318518
+|move|p1a: Kyurem|Scale Shot|p2a: Evie
+|-damage|p2a: Evie|77/100
+|-crit|p2a: Evie
+|-damage|p2a: Evie|20/100
+|-damage|p2a: Evie|0 fnt
+|faint|p2a: Evie
+|-hitcount|p2: Evie|3
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|
+|t:|1760318532
+|switch|p2a: Garrus|Garchomp, M|69/100
+|turn|18
+|
+|t:|1760318540
+|-terastallize|p2a: Garrus|Steel
+|move|p1a: Kyurem|Icicle Spear|p2a: Garrus
+|-resisted|p2a: Garrus
+|-damage|p2a: Garrus|58/100
+|-resisted|p2a: Garrus
+|-damage|p2a: Garrus|48/100
+|-resisted|p2a: Garrus
+|-damage|p2a: Garrus|37/100
+|-hitcount|p2a: Garrus|3
+|move|p2a: Garrus|Scale Shot|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|10/100
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|-hitcount|p1: Kyurem|3
+|-unboost|p2a: Garrus|def|1
+|-boost|p2a: Garrus|spe|1
+|
+|upkeep
+|
+|t:|1760318561
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|19
+|
+|t:|1760318572
+|move|p2a: Garrus|Scale Shot|p1a: Darkrai|[miss]
+|-miss|p2a: Garrus|p1a: Darkrai
+|move|p1a: Darkrai|Dark Pulse|p2a: Garrus
+|-damage|p2a: Garrus|0 fnt
+|faint|p2a: Garrus
+|
+|upkeep
+|
+|t:|1760318591
+|switch|p2a: Inferno|Infernape, M|65/100
+|turn|20
+|
+|t:|1760318595
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Inferno|Aura Sphere|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|78/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|21
+|
+|t:|1760318605
+|switch|p2a: Gyro|Gyarados, M|84/100
+|-ability|p2a: Gyro|Intimidate|boost
+|-unboost|p1a: Gliscor|atk|1
+|move|p1a: Gliscor|Earthquake|p2a: Gyro
+|-immune|p2a: Gyro
+|
+|-heal|p1a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|t:|1760318651
+|switch|p1a: Corviknight|Corviknight, F|34/100 par
+|move|p2a: Gyro|Dragon Dance|p2a: Gyro
+|-boost|p2a: Gyro|atk|1
+|-boost|p2a: Gyro|spe|1
+|
+|upkeep
+|turn|23
+|
+|t:|1760318659
+|move|p2a: Gyro|Waterfall|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Gyro|67/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1760318672
+|switch|p1a: Great Tusk|Great Tusk|80/100
+|turn|24
+|
+|t:|1760318679
+|move|p2a: Gyro|Waterfall|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760318684
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|25
+|
+|t:|1760318688
+|move|p2a: Gyro|Waterfall|p1a: Darkrai
+|-damage|p1a: Darkrai|22/100
+|move|p1a: Darkrai|Will-O-Wisp|p2a: Gyro
+|-status|p2a: Gyro|brn
+|
+|-damage|p2a: Gyro|61/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1760318697
+|move|p2a: Gyro|Waterfall|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|-damage|p2a: Gyro|55/100 brn|[from] brn
+|upkeep
+|
+|t:|1760318703
+|switch|p1a: Gliscor|Gliscor, M|91/100 tox
+|turn|27
+|
+|t:|1760318709
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Gyro|Waterfall|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Gyro|49/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1760318747
+|move|p2a: Gyro|Waterfall|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|61/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: Gyro
+|-immune|p2a: Gyro
+|
+|-heal|p1a: Gliscor|74/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Gyro|43/100 brn|[from] brn
+|upkeep
+|turn|29
+|-message|TreyB44 forfeited.
+|
+|win|avenacaroni
+|raw|TreyB44's rating: 1345 &rarr; <strong>1323</strong><br />(-22 for losing)
+|raw|avenacaroni's rating: 1311 &rarr; <strong>1333</strong><br />(+22 for winning)
+|l|☆TreyB44
+|player|p1|
+|l|☆avenacaroni
+|player|p2|

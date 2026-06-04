@@ -1,0 +1,164 @@
+|j|☆nygacmnym
+|j|☆wizardrex
+|t:|1779578855
+|gametype|singles
+|player|p1|nygacmnym|266|1280
+|player|p2|wizardrex|265|1365
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Blaziken, F|
+|poke|p1|Sceptile, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Garganacl, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Clefable, M|
+|teampreview
+|
+|t:|1779578861
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Sceptile|Sceptile, M|100/100
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|turn|1
+|
+|t:|1779578870
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Sceptile|Roar|p2a: Slowking
+|-enditem|p1a: Sceptile|Throat Spray
+|-boost|p1a: Sceptile|spa|1|[from] item: Throat Spray
+|drag|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|2
+|
+|t:|1779578880
+|-terastallize|p1a: Sceptile|Grass
+|move|p1a: Sceptile|Energy Ball|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|78/100
+|-unboost|p2a: Corviknight|spd|1
+|move|p2a: Corviknight|Brave Bird|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|-damage|p2a: Corviknight|55/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1779578891
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|-item|p1a: Blaziken|Air Balloon
+|turn|3
+|
+|t:|1779578899
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|move|p2a: Corviknight|U-turn|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|95/100
+|-enditem|p1a: Blaziken|Air Balloon
+|
+|t:|1779578910
+|switch|p2a: Alomomola|Alomomola, F|100/100|[from] U-turn
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|4
+|
+|t:|1779578916
+|move|p1a: Blaziken|Thunder Punch|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|45/100
+|-status|p2a: Alomomola|par
+|move|p2a: Alomomola|Whirlpool|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|77/100
+|-activate|p1a: Blaziken|move: Whirlpool|[of] p2a: Alomomola
+|
+|-damage|p1a: Blaziken|65/100|[from] move: Whirlpool|[partiallytrapped]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|5
+|
+|t:|1779578929
+|-terastallize|p2a: Alomomola|Grass
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-damage|p1a: Blaziken|53/100|[from] move: Whirlpool|[partiallytrapped]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|6
+|
+|t:|1779578938
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Blaziken|Fire Punch|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|95/100 par|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Blaziken|40/100|[from] move: Whirlpool|[partiallytrapped]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|7
+|
+|t:|1779578948
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|move|p1a: Blaziken|Fire Punch|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|-end|p1a: Blaziken|Whirlpool|[partiallytrapped]|[silent]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1779578951
+|switch|p2a: Corviknight|Corviknight, F|55/100
+|-ability|p2a: Corviknight|Pressure
+|turn|8
+|
+|t:|1779578958
+|move|p1a: Blaziken|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Blaziken|24/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|-message|wizardrex forfeited.
+|
+|win|nygacmnym
+|raw|nygacmnym's rating: 1280 &rarr; <strong>1311</strong><br />(+31 for winning)
+|raw|wizardrex's rating: 1365 &rarr; <strong>1340</strong><br />(-25 for losing)
+|l|☆wizardrex
+|player|p2|
+|l|☆nygacmnym
+|player|p1|

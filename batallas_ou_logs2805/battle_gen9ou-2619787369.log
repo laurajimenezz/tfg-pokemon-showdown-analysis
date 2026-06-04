@@ -1,0 +1,321 @@
+|j|☆Goidel
+|j|☆sdgswgbwbweb
+|t:|1779964130
+|gametype|singles
+|player|p1|Goidel|steven|1118
+|player|p2|sdgswgbwbweb|169|1074
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gengar, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Blaziken, F|
+|poke|p1|Salamence, F|
+|poke|p1|Breloom, F|
+|poke|p1|Gyarados, F|
+|poke|p2|Gyarados, F|
+|poke|p2|Galvantula, F|
+|poke|p2|Great Tusk|
+|poke|p2|Mew|
+|poke|p2|Muk, M|
+|poke|p2|Regieleki|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sdgswgbwbweb)
+|
+|t:|1779964144
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Breloom|Breloom, F|100/100
+|switch|p2a: Regieleki|Regieleki|100/100
+|turn|1
+|
+|t:|1779964151
+|switch|p2a: Muk|Muk, M, shiny|100/100
+|move|p1a: Breloom|Protect||[still]
+|-fail|p1a: Breloom
+|
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1779964159
+|move|p1a: Breloom|Close Combat|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|71/100
+|-unboost|p1a: Breloom|def|1
+|-unboost|p1a: Breloom|spd|1
+|move|p2a: Muk|Poison Jab|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-heal|p2a: Muk|77/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1779964169
+|switch|p1a: Salamence|Salamence, F|100/100
+|turn|3
+|
+|t:|1779964173
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Muk|Toxic|p1a: Salamence
+|-status|p1a: Salamence|tox
+|
+|-heal|p2a: Muk|83/100|[from] item: Black Sludge
+|-damage|p1a: Salamence|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1779964182
+|move|p1a: Salamence|Earthquake|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|-heal|p1a: Salamence|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|88/100 tox|[from] psn
+|upkeep
+|
+|t:|1779964193
+|switch|p2a: Regieleki|Regieleki|100/100
+|turn|5
+|
+|t:|1779964201
+|-terastallize|p1a: Salamence|Fairy
+|move|p1a: Salamence|Earthquake|p2a: Regieleki
+|-supereffective|p2a: Regieleki
+|-enditem|p2a: Regieleki|Focus Sash
+|-damage|p2a: Regieleki|1/100
+|move|p2a: Regieleki|Rapid Spin|p1a: Salamence
+|-damage|p1a: Salamence|69/100 tox
+|-boost|p2a: Regieleki|spe|1
+|
+|-heal|p1a: Salamence|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Salamence|57/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1779964213
+|move|p2a: Regieleki|Thunderbolt|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1779964219
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|7
+|
+|t:|1779964225
+|move|p1a: Kingambit|Sucker Punch|p2a: Regieleki
+|-damage|p2a: Regieleki|0 fnt
+|faint|p2a: Regieleki
+|
+|upkeep
+|
+|t:|1779964227
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|8
+|
+|t:|1779964233
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: Great Tusk|Close Combat|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|50/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|9
+|
+|t:|1779964242
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Gyarados|Gyarados, F, shiny|100/100
+|move|p1a: Gyarados|Waterfall|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|73/100
+|
+|upkeep
+|turn|10
+|
+|t:|1779964248
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Gyarados|Scale Shot|p2a: Gyarados
+|-damage|p2a: Gyarados|61/100
+|-damage|p2a: Gyarados|49/100
+|-damage|p2a: Gyarados|37/100
+|-damage|p2a: Gyarados|26/100
+|-hitcount|p2a: Gyarados|4
+|-unboost|p1a: Gyarados|def|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1779964261
+|move|p2a: Gyarados|Waterfall|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|t:|1779964268
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|12
+|
+|t:|1779964272
+|move|p1a: Kingambit|Sucker Punch|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|t:|1779964277
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|turn|13
+|
+|t:|1779964288
+|move|p2a: Galvantula|Sticky Web|p1a: Kingambit
+|-sidestart|p1: Goidel|move: Sticky Web
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Galvantula
+|-enditem|p2a: Galvantula|Focus Sash
+|-damage|p2a: Galvantula|1/100
+|
+|upkeep
+|turn|14
+|
+|t:|1779964295
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Galvantula|Thunder Wave|p1a: Kingambit
+|-status|p1a: Kingambit|par
+|
+|upkeep
+|turn|15
+|
+|t:|1779964302
+|move|p2a: Galvantula|Bug Buzz|p1a: Kingambit
+|-damage|p1a: Kingambit|63/100 par
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|upkeep
+|
+|t:|1779964308
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|turn|16
+|
+|t:|1779964317
+|move|p2a: Great Tusk|Rapid Spin|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|57/100 par
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|79/100
+|
+|upkeep
+|turn|17
+|
+|t:|1779964326
+|move|p2a: Great Tusk|Close Combat|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|
+|upkeep
+|
+|t:|1779964332
+|switch|p1a: Gengar|Gengar, M|100/100
+|-activate|p1a: Gengar|move: Sticky Web
+|-unboost|p1a: Gengar|spe|1
+|turn|18
+|
+|t:|1779964337
+|move|p2a: Great Tusk|Knock Off|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-crit|p1a: Gengar
+|-enditem|p1a: Gengar|Colbur Berry|[eat]
+|-enditem|p1a: Gengar|Colbur Berry|[weaken]
+|-damage|p1a: Gengar|0 fnt
+|-start|p2a: Great Tusk|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Gengar
+|faint|p1a: Gengar
+|
+|upkeep
+|
+|t:|1779964344
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|-item|p1a: Blaziken|Air Balloon
+|turn|19
+|
+|t:|1779964351
+|move|p2a: Great Tusk|Rapid Spin|p1a: Blaziken
+|-damage|p1a: Blaziken|75/100
+|-boost|p2a: Great Tusk|spe|1
+|-enditem|p1a: Blaziken|Air Balloon
+|move|p1a: Blaziken|Close Combat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|12/100
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|20
+|
+|t:|1779964362
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Great Tusk|Close Combat|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|21
+|
+|t:|1779964371
+|move|p2a: Great Tusk|Close Combat|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Blaziken
+|
+|win|sdgswgbwbweb
+|raw|Goidel's rating: 1118 &rarr; <strong>1090</strong><br />(-28 for losing)
+|raw|sdgswgbwbweb's rating: 1074 &rarr; <strong>1107</strong><br />(+33 for winning)
+|l|☆Goidel
+|player|p1|
+|l|☆sdgswgbwbweb
+|player|p2|

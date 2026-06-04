@@ -1,0 +1,307 @@
+|j|☆aidan800
+|j|☆boyhood99
+|t:|1758259415
+|gametype|singles
+|player|p1|aidan800|101|1132
+|player|p2|boyhood99|cynthia|1130
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Boulder|
+|poke|p1|Raging Bolt|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Great Tusk|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Kingambit, M|
+|poke|p2|Malamar, M|
+|poke|p2|Primarina, M|
+|poke|p2|Milotic, M|
+|poke|p2|Tsareena, F|
+|poke|p2|Arboliva, M|
+|poke|p2|Frosmoth, M|
+|teampreview
+|
+|t:|1758259435
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|turn|1
+|
+|t:|1758259445
+|move|p2a: Tsareena|U-turn|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|65/100
+|
+|t:|1758259449
+|switch|p2a: Frosmoth|Frosmoth, M|100/100|[from] U-turn
+|move|p1a: Slowking|Sludge Bomb|p2a: Frosmoth
+|-damage|p2a: Frosmoth|79/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758259455
+|-terastallize|p2a: Frosmoth|Dragon
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Slowking|Toxic|p2a: Frosmoth
+|-status|p2a: Frosmoth|tox
+|
+|-damage|p2a: Frosmoth|73/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1758259464
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Slowking|Future Sight|p2a: Frosmoth
+|-start|p1a: Slowking|move: Future Sight
+|
+|-damage|p2a: Frosmoth|61/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1758259471
+|move|p2a: Frosmoth|Bug Buzz|p1a: Slowking
+|-damage|p1a: Slowking|3/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1758259491
+|switch|p1a: Kingambit|Kingambit, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Frosmoth|43/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1758259501
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Tsareena
+|-damage|p2a: Tsareena|42/100
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Tsareena|move: Future Sight
+|-damage|p2a: Tsareena|0 fnt
+|faint|p2a: Tsareena
+|upkeep
+|
+|t:|1758259508
+|switch|p2a: Malamar|Malamar, M|100/100
+|turn|6
+|
+|t:|1758259517
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Malamar|Superpower|p1a: Ogerpon
+|-damage|p1a: Ogerpon|51/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758259526
+|move|p1a: Ogerpon|Knock Off|p2a: Malamar
+|-damage|p2a: Malamar|76/100
+|-enditem|p2a: Malamar|Assault Vest|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Malamar|Superpower|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Ogerpon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758259536
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|8
+|
+|t:|1758259545
+|switch|p2a: Frosmoth|Frosmoth, M, tera:Dragon|43/100 tox
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2a: Frosmoth
+|
+|-weather|none
+|upkeep
+|
+|t:|1758259554
+|switch|p2a: Primarina|Primarina, M|100/100
+|turn|9
+|
+|t:|1758259564
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F|37/100
+|move|p2a: Primarina|Moonblast|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|21/100
+|-unboost|p1a: Slowking|spa|1
+|
+|upkeep
+|turn|10
+|
+|t:|1758259572
+|move|p2a: Primarina|Sparkling Aria|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1758259583
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|11
+|
+|t:|1758259611
+|move|p2a: Primarina|Moonblast|p1a: Kingambit
+|-damage|p1a: Kingambit|47/100
+|move|p1a: Kingambit|Iron Head|p2a: Primarina
+|-damage|p2a: Primarina|35/100
+|
+|upkeep
+|turn|12
+|
+|t:|1758259628
+|move|p1a: Kingambit|Sucker Punch|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|4/100
+|move|p2a: Primarina|Moonblast|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1758259635
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdrivespe
+|turn|13
+|
+|t:|1758259644
+|move|p2a: Primarina|Aqua Jet|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|72/100
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1758259652
+|switch|p2a: Malamar|Malamar, M|76/100
+|turn|14
+|
+|t:|1758259668
+|move|p1a: Iron Boulder|Swords Dance|p1a: Iron Boulder
+|-boost|p1a: Iron Boulder|atk|2
+|move|p2a: Malamar|Superpower|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|28/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|
+|upkeep
+|turn|15
+|
+|t:|1758259692
+|-terastallize|p1a: Iron Boulder|Fighting
+|move|p1a: Iron Boulder|Close Combat|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|-unboost|p1a: Iron Boulder|def|1
+|-unboost|p1a: Iron Boulder|spd|1
+|faint|p2a: Malamar
+|
+|upkeep
+|
+|t:|1758259703
+|switch|p2a: Arboliva|Arboliva, M|100/100
+|turn|16
+|
+|t:|1758259706
+|move|p1a: Iron Boulder|Close Combat|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-enditem|p2a: Arboliva|Focus Sash
+|-damage|p2a: Arboliva|1/100
+|-unboost|p1a: Iron Boulder|def|1
+|-unboost|p1a: Iron Boulder|spd|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2a: Arboliva
+|move|p2a: Arboliva|Alluring Voice|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|0 fnt
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|
+|-heal|p2a: Arboliva|7/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758259718
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|17
+|
+|t:|1758259728
+|move|p1a: Great Tusk|Rapid Spin|p2a: Arboliva
+|-damage|p2a: Arboliva|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|faint|p2a: Arboliva
+|
+|upkeep
+|
+|t:|1758259733
+|switch|p2a: Milotic|Milotic, M|100/100
+|turn|18
+|
+|t:|1758259737
+|move|p1a: Great Tusk|Headlong Rush|p2a: Milotic
+|-damage|p2a: Milotic|52/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Milotic|Scald|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Milotic|58/100|[from] Grassy Terrain
+|-heal|p2a: Milotic|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758259748
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|19
+|
+|t:|1758259752
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|win|aidan800
+|raw|aidan800's rating: 1132 &rarr; <strong>1157</strong><br />(+25 for winning)
+|raw|boyhood99's rating: 1130 &rarr; <strong>1105</strong><br />(-25 for losing)
+|l|☆aidan800
+|player|p1|
+|l|☆boyhood99
+|player|p2|

@@ -1,0 +1,396 @@
+|j|☆breizh-pao
+|j|☆pipipipichu
+|t:|1769330932
+|gametype|singles
+|player|p1|breizh-pao|hiker-gen4|1433
+|player|p2|pipipipichu|red|1379
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ribombee, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Serperior, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Bisharp, M|
+|poke|p1|Empoleon, F|
+|poke|p2|Hydrapple, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Moltres|
+|poke|p2|Zamazenta-*|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Excadrill, F|
+|teampreview
+|
+|t:|1769330949
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|1
+|
+|t:|1769330952
+|move|p1a: Ribombee|Sticky Web|p2a: Slowking
+|-sidestart|p2: pipipipichu|move: Sticky Web
+|move|p2a: Slowking|Sludge Bomb|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1769330959
+|move|p1a: Ribombee|Psychic Noise|p2a: Slowking
+|-damage|p2a: Slowking|88/100
+|-start|p2a: Slowking|move: Heal Block
+|move|p2a: Slowking|Flamethrower|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|t:|1769330965
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|3
+|
+|t:|1769330977
+|move|p1a: Cinderace|Pyro Ball|p2a: Slowking|[miss]
+|-miss|p1a: Cinderace|p2a: Slowking
+|move|p2a: Slowking|Sludge Bomb|p1a: Cinderace
+|-damage|p1a: Cinderace|50/100
+|
+|-end|p2a: Slowking|move: Heal Block
+|upkeep
+|turn|4
+|
+|t:|1769330983
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|5
+|
+|t:|1769330998
+|move|p1a: Cinderace|U-turn|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|97/100
+|
+|t:|1769331001
+|switch|p1a: Empoleon|Empoleon, F|100/100|[from] U-turn
+|-activate|p1a: Empoleon|move: Sticky Web
+|-unboost|p1a: Empoleon|spe|1
+|-ability|p1a: Empoleon|Competitive|boost
+|-boost|p1a: Empoleon|spa|2
+|move|p2a: Moltres|Roar|p1a: Empoleon
+|drag|p1a: Cinderace|Cinderace, M|50/100
+|
+|upkeep
+|turn|6
+|
+|t:|1769331011
+|move|p1a: Cinderace|U-turn|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|93/100
+|
+|t:|1769331013
+|switch|p1a: Empoleon|Empoleon, F|100/100|[from] U-turn
+|-activate|p1a: Empoleon|move: Sticky Web
+|-unboost|p1a: Empoleon|spe|1
+|-ability|p1a: Empoleon|Competitive|boost
+|-boost|p1a: Empoleon|spa|2
+|move|p2a: Moltres|U-turn|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|91/100
+|
+|t:|1769331039
+|switch|p2a: Hydrapple|Hydrapple, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1769331051
+|move|p1a: Empoleon|Ice Beam|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|upkeep
+|
+|t:|1769331063
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|8
+|
+|t:|1769331068
+|move|p1a: Empoleon|Hydro Pump|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|14/100
+|move|p2a: Tyranitar|Knock Off|p1a: Empoleon
+|-damage|p1a: Empoleon|35/100
+|-enditem|p1a: Empoleon|Shuca Berry|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1769331078
+|move|p1a: Empoleon|Ice Beam|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1769331083
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|10
+|
+|t:|1769331088
+|move|p2a: Zamazenta|Body Press|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|faint|p1a: Empoleon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zamazenta|94/100|[from] Sandstorm
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769331091
+|switch|p1a: Cinderace|Cinderace, M|50/100
+|turn|11
+|
+|t:|1769331100
+|move|p2a: Zamazenta|Body Press|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zamazenta|94/100|[from] Sandstorm
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769331103
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-activate|p1a: Dragapult|move: Sticky Web
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|turn|12
+|
+|t:|1769331120
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Dragapult|Hydro Pump|p2a: Slowking
+|-damage|p2a: Slowking|79/100
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|85/100|[from] Sandstorm
+|-damage|p2a: Slowking|73/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1769331132
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|-activate|p1a: Bisharp|move: Sticky Web
+|-unboost|p1a: Bisharp|spe|1
+|-ability|p1a: Bisharp|Defiant|boost
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Slowking|Psyshock|p1a: Bisharp
+|-immune|p1a: Bisharp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowking|66/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1769331136
+|move|p1a: Bisharp|Iron Head|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1769331145
+|switch|p2a: Moltres|Moltres|93/100
+|turn|15
+|
+|t:|1769331150
+|move|p2a: Moltres|Flamethrower|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|24/100
+|move|p1a: Bisharp|Iron Head|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|61/100
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1769331158
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|100/100
+|-singleturn|p2a: Moltres|move: Roost
+|
+|upkeep
+|turn|17
+|
+|t:|1769331162
+|move|p1a: Bisharp|Sucker Punch|p2a: Moltres
+|-damage|p2a: Moltres|45/100
+|-status|p1a: Bisharp|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|move|p2a: Moltres|Flamethrower|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|t:|1769331168
+|switch|p1a: Serperior|Serperior, F|100/100
+|-activate|p1a: Serperior|move: Sticky Web
+|-boost|p1a: Serperior|spe|1
+|turn|18
+|
+|t:|1769331176
+|-terastallize|p1a: Serperior|Fire
+|move|p1a: Serperior|Leaf Storm|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|32/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|82/100
+|-singleturn|p2a: Moltres|move: Roost
+|
+|upkeep
+|turn|19
+|
+|t:|1769331182
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|76/100
+|move|p2a: Moltres|Roar|p1a: Serperior
+|drag|p1a: Dragapult|Dragapult, F|85/100
+|-activate|p1a: Dragapult|move: Sticky Web
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|
+|upkeep
+|turn|20
+|
+|t:|1769331191
+|move|p1a: Dragapult|Hydro Pump|p2a: Moltres|[miss]
+|-miss|p1a: Dragapult|p2a: Moltres
+|move|p2a: Moltres|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|75/100
+|
+|t:|1769331214
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|
+|upkeep
+|turn|21
+|
+|t:|1769331219
+|move|p1a: Dragapult|Hydro Pump|p2a: Zamazenta
+|-damage|p2a: Zamazenta|64/100
+|-damage|p1a: Dragapult|65/100|[from] item: Life Orb
+|move|p2a: Zamazenta|Crunch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|8/100
+|
+|-heal|p2a: Zamazenta|71/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1769331233
+|move|p1a: Dragapult|Hydro Pump|p2a: Zamazenta
+|-damage|p2a: Zamazenta|34/100
+|-damage|p1a: Dragapult|0 fnt|[from] item: Life Orb
+|faint|p1a: Dragapult
+|move|p2a: Zamazenta|Crunch|p1: Dragapult|[notarget]
+|-fail|p2a: Zamazenta
+|
+|-heal|p2a: Zamazenta|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769331237
+|switch|p1a: Serperior|Serperior, F, tera:Fire|76/100
+|-activate|p1a: Serperior|move: Sticky Web
+|-boost|p1a: Serperior|spe|1
+|turn|23
+|
+|t:|1769331239
+|move|p1a: Serperior|Leaf Storm|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Zamazenta
+|
+|-heal|p1a: Serperior|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769331258
+|switch|p2a: Moltres|Moltres|82/100
+|turn|24
+|
+|t:|1769331277
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|57/100
+|move|p2a: Moltres|U-turn|p1a: Serperior
+|-resisted|p1a: Serperior
+|-activate|p1a: Serperior|move: Substitute|[damage]
+|
+|t:|1769331280
+|switch|p2a: Excadrill|Excadrill, F|100/100|[from] U-turn
+|-item|p2a: Excadrill|Air Balloon
+|
+|-heal|p1a: Serperior|63/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1769331288
+|-terastallize|p2a: Excadrill|Fire
+|move|p1a: Serperior|Tera Blast|p2a: Excadrill|[anim] Tera Blast Fire
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|64/100
+|-enditem|p2a: Excadrill|Air Balloon
+|move|p2a: Excadrill|Rapid Spin|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|-boost|p2a: Excadrill|spe|1
+|
+|-heal|p1a: Serperior|70/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1769331296
+|move|p1a: Serperior|Dragon Pulse|p2a: Excadrill
+|-damage|p2a: Excadrill|12/100
+|move|p2a: Excadrill|Earthquake|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|win|pipipipichu
+|raw|breizh-pao's rating: 1433 &rarr; <strong>1410</strong><br />(-23 for losing)
+|raw|pipipipichu's rating: 1379 &rarr; <strong>1402</strong><br />(+23 for winning)
+|c|☆pipipipichu|gg
+|c|☆breizh-pao|Gg
+|l|☆breizh-pao
+|player|p1|
+|c|☆pipipipichu|cool team

@@ -1,0 +1,240 @@
+|j|☆pokenoob123p
+|j|☆MarcElf22
+|t:|1779694865
+|gametype|singles
+|player|p1|pokenoob123p|2|
+|player|p2|MarcElf22|hilbert-wonderlauncher|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Porygon-Z|
+|poke|p1|Indeedee, M|
+|poke|p1|Ditto|
+|poke|p1|Dodrio, M|
+|poke|p1|Rufflet, M|
+|poke|p1|Staravia, M|
+|poke|p2|Ivysaur, M|
+|poke|p2|Torracat, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Rhydon, M|
+|poke|p2|Braixen, F|
+|poke|p2|Garchomp, M|
+|teampreview
+|
+|t:|1779694876
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Rhydon|Rhydon, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1779694893
+|move|p1a: Indeedee|Psychic Terrain||[still]
+|-fail|p1a: Indeedee
+|move|p2a: Rhydon|Rock Polish|p2a: Rhydon
+|-boost|p2a: Rhydon|spe|2
+|
+|upkeep
+|turn|2
+|
+|t:|1779694901
+|move|p2a: Rhydon|Double-Edge|p1a: Indeedee
+|-damage|p1a: Indeedee|19/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|3
+|
+|t:|1779694909
+|move|p1a: Indeedee|Expanding Force|p2a: Rhydon
+|-damage|p2a: Rhydon|31/100
+|move|p2a: Rhydon|Double-Edge|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1779694924
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Rhydon|[from] ability: Imposter
+|turn|4
+|
+|t:|1779694930
+|move|p2a: Rhydon|Body Press|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|60/100
+|move|p1a: Ditto|Endeavor|p2a: Rhydon
+|-immune|p2a: Rhydon
+|
+|upkeep
+|turn|5
+|
+|t:|1779694941
+|move|p2a: Rhydon|Body Press|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|16/100
+|move|p1a: Ditto|Body Press|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|7/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1779694958
+|move|p1a: Ditto|Body Press|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1779694965
+|switch|p2a: Torracat|Torracat, F|100/100
+|-ability|p2a: Torracat|Intimidate|boost
+|-unboost|p1a: Ditto|atk|1
+|turn|7
+|
+|t:|1779694989
+|move|p2a: Torracat|Fake Out|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|12/100
+|cant|p1a: Ditto|flinch
+|
+|upkeep
+|turn|8
+|
+|t:|1779694996
+|move|p2a: Torracat|Lick|p1a: Ditto
+|-damage|p1a: Ditto|5/100
+|move|p1a: Ditto|Body Press|p2a: Torracat
+|-damage|p2a: Torracat|61/100
+|
+|upkeep
+|turn|9
+|
+|t:|1779695008
+|move|p2a: Torracat|Lick|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|t:|1779695020
+|switch|p1a: Dodrio|Dodrio, M|100/100
+|turn|10
+|
+|t:|1779695029
+|move|p1a: Dodrio|Knock Off|p2a: Torracat
+|-damage|p2a: Torracat|20/100
+|-enditem|p2a: Torracat|Eviolite|[from] move: Knock Off|[of] p1a: Dodrio
+|move|p2a: Torracat|Parting Shot|p1a: Dodrio
+|-unboost|p1a: Dodrio|atk|1
+|-unboost|p1a: Dodrio|spa|1
+|
+|t:|1779695043
+|switch|p2a: Garchomp|Garchomp, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|11
+|
+|t:|1779695052
+|move|p1a: Dodrio|Knock Off|p2a: Garchomp
+|-damage|p2a: Garchomp|82/100
+|-damage|p1a: Dodrio|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Dodrio|72/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|-enditem|p2a: Garchomp|Rocky Helmet|[from] move: Knock Off|[of] p1a: Dodrio
+|move|p2a: Garchomp|Stealth Rock|p1a: Dodrio
+|-sidestart|p1: pokenoob123p|move: Stealth Rock
+|
+|-heal|p1a: Dodrio|78/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779695068
+|move|p1a: Dodrio|Rest|p1a: Dodrio
+|-status|p1a: Dodrio|slp|[from] move: Rest
+|-heal|p1a: Dodrio|100/100 slp|[silent]
+|move|p2a: Garchomp|Scale Shot|p1a: Dodrio
+|-damage|p1a: Dodrio|75/100 slp
+|-damage|p1a: Dodrio|51/100 slp
+|-hitcount|p1a: Dodrio|2
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|
+|-heal|p1a: Dodrio|57/100 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1779695081
+|move|p2a: Garchomp|Scale Shot|p1a: Dodrio
+|-damage|p1a: Dodrio|32/100 slp
+|-damage|p1a: Dodrio|4/100 slp
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|-hitcount|p1: Dodrio|3
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|
+|upkeep
+|
+|t:|1779695091
+|switch|p1a: Staravia|Staravia, M|100/100
+|-damage|p1a: Staravia|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1779695099
+|move|p2a: Garchomp|Scale Shot|p1a: Staravia
+|-damage|p1a: Staravia|43/100
+|-damage|p1a: Staravia|8/100
+|-hitcount|p1a: Staravia|2
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|move|p1a: Staravia|Brave Bird|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Staravia|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|faint|p1a: Staravia
+|
+|upkeep
+|
+|t:|1779695122
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|switch|p1a: Rufflet|Rufflet, M|100/100
+|-damage|p1a: Rufflet|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1779695134
+|move|p2a: Samurott|Sacred Sword|p1a: Rufflet
+|-damage|p1a: Rufflet|7/100
+|move|p1a: Rufflet|Double-Edge|p2a: Samurott
+|-damage|p2a: Samurott|30/100
+|-damage|p1a: Rufflet|0 fnt|[from] Recoil
+|faint|p1a: Rufflet
+|
+|upkeep
+|
+|t:|1779695142
+|switch|p1a: Porygon-Z|Porygon-Z|100/100
+|-damage|p1a: Porygon-Z|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1779695147
+|move|p2a: Samurott|Sacred Sword|p1a: Porygon-Z
+|-supereffective|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|faint|p1a: Porygon-Z
+|
+|win|MarcElf22

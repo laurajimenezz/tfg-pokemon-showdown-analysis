@@ -1,0 +1,330 @@
+|j|☆Galarapio
+|j|☆blzh
+|t:|1769406693
+|gametype|singles
+|player|p1|Galarapio|170|1058
+|player|p2|blzh|101|1084
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Serperior, M|
+|poke|p1|Gholdengo|
+|poke|p1|Enamorus, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Dusclops, F|
+|poke|p2|Sceptile, M|
+|poke|p2|Magnezone|
+|poke|p2|Pelipper, M|
+|poke|p2|Arcanine, F|
+|poke|p2|Weavile, M|
+|poke|p2|Dusknoir, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blzh)
+|
+|t:|1769406712
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|1
+|
+|t:|1769406716
+|move|p1a: Enamorus|Mystical Fire|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|46/100
+|-unboost|p2a: Magnezone|spa|1
+|move|p2a: Magnezone|Flash Cannon|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|34/100
+|
+|upkeep
+|turn|2
+|
+|t:|1769406722
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Enamorus|Mystical Fire|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|84/100
+|-unboost|p2a: Pelipper|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1769406733
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|move|p2a: Pelipper|U-turn|p1a: Araquanid
+|-damage|p1a: Araquanid|93/100
+|
+|t:|1769406739
+|switch|p2a: Magnezone|Magnezone|46/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Araquanid|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1769406747
+|switch|p1a: Dusclops|Dusclops, F|100/100
+|-item|p2a: Magnezone|Assault Vest|[from] ability: Frisk|[of] p1a: Dusclops
+|move|p2a: Magnezone|Volt Switch|p1a: Dusclops
+|-damage|p1a: Dusclops|82/100
+|
+|t:|1769406752
+|switch|p2a: Weavile|Weavile, M|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1769406754
+|move|p2a: Weavile|Knock Off|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|27/100
+|-enditem|p1a: Dusclops|Eviolite|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Weavile
+|-status|p2a: Weavile|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Weavile|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1769406764
+|move|p2a: Weavile|Knock Off|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|faint|p1a: Dusclops
+|
+|-weather|none
+|-damage|p2a: Weavile|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1769406771
+|switch|p1a: Araquanid|Araquanid, F|99/100
+|turn|7
+|
+|t:|1769406777
+|switch|p2a: Magnezone|Magnezone|46/100
+|move|p1a: Araquanid|Sticky Web|p2a: Magnezone
+|-sidestart|p2: blzh|move: Sticky Web
+|
+|-heal|p1a: Araquanid|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1769406786
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Magnezone|Volt Switch|p1a: Cinderace
+|-damage|p1a: Cinderace|55/100
+|
+|t:|1769406798
+|switch|p2a: Sceptile|Sceptile, M|100/100|[from] Volt Switch
+|-activate|p2a: Sceptile|move: Sticky Web
+|-unboost|p2a: Sceptile|spe|1
+|
+|upkeep
+|turn|9
+|
+|t:|1769406806
+|move|p2a: Sceptile|Endure|p2a: Sceptile
+|-singleturn|p2a: Sceptile|move: Endure
+|move|p1a: Cinderace|Pyro Ball|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-activate|p2a: Sceptile|move: Endure
+|-damage|p2a: Sceptile|1/100
+|-enditem|p2a: Sceptile|Weakness Policy
+|-boost|p2a: Sceptile|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Sceptile|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|10
+|
+|t:|1769406815
+|move|p1a: Cinderace|Sucker Punch|p2a: Sceptile
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|upkeep
+|
+|t:|1769406821
+|switch|p2a: Dusknoir|Dusknoir, M|100/100
+|-activate|p2a: Dusknoir|move: Sticky Web
+|-unboost|p2a: Dusknoir|spe|1
+|-item|p1a: Cinderace|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Dusknoir
+|turn|11
+|
+|t:|1769406830
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Dusknoir|Will-O-Wisp|p1a: Cinderace
+|-status|p1a: Cinderace|brn
+|
+|-damage|p1a: Cinderace|49/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1769406844
+|switch|p2a: Pelipper|Pelipper, M|84/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Cinderace|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|80/100
+|-damage|p1a: Cinderace|33/100 brn|[from] item: Rocky Helmet|[of] p2a: Pelipper
+|
+|t:|1769406853
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-item|p1a: Gholdengo|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1769406857
+|move|p1a: Gholdengo|Thunderbolt|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769406860
+|switch|p2a: Weavile|Weavile, M|88/100 brn
+|-activate|p2a: Weavile|move: Sticky Web
+|-unboost|p2a: Weavile|spe|1
+|turn|14
+|
+|t:|1769406870
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|move|p2a: Weavile|Knock Off|p1a: Araquanid
+|-damage|p1a: Araquanid|79/100
+|-enditem|p1a: Araquanid|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Weavile|82/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1769406877
+|move|p2a: Weavile|Poison Jab|p1a: Araquanid
+|-damage|p1a: Araquanid|69/100
+|-status|p1a: Araquanid|psn
+|move|p1a: Araquanid|Lunge|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|16/100 brn
+|-unboost|p2a: Weavile|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Araquanid|57/100 psn|[from] psn
+|-damage|p2a: Weavile|10/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1769406886
+|move|p2a: Weavile|Brick Break|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|54/100 psn
+|move|p1a: Araquanid|Leech Life|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-heal|p1a: Araquanid|58/100 psn|[from] drain|[of] p2a: Weavile
+|faint|p2a: Weavile
+|
+|-weather|none
+|-damage|p1a: Araquanid|45/100 psn|[from] psn
+|upkeep
+|
+|t:|1769406890
+|switch|p2a: Magnezone|Magnezone|46/100
+|-activate|p2a: Magnezone|move: Sticky Web
+|-unboost|p2a: Magnezone|spe|1
+|turn|17
+|
+|t:|1769406906
+|switch|p1a: Cinderace|Cinderace, F|33/100 brn
+|move|p2a: Magnezone|Volt Switch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|t:|1769406914
+|switch|p2a: Dusknoir|Dusknoir, M|100/100|[from] Volt Switch
+|-activate|p2a: Dusknoir|move: Sticky Web
+|-unboost|p2a: Dusknoir|spe|1
+|
+|upkeep
+|
+|t:|1769406920
+|switch|p1a: Serperior|Serperior, M|100/100
+|turn|18
+|
+|t:|1769406925
+|move|p1a: Serperior|Leaf Storm|p2a: Dusknoir
+|-damage|p2a: Dusknoir|60/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Dusknoir|Poltergeist|p1a: Serperior
+|-activate|p1a: Serperior|move: Poltergeist|Leftovers
+|-damage|p1a: Serperior|53/100
+|
+|-heal|p1a: Serperior|59/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1769406933
+|move|p1a: Serperior|Leaf Storm|p2a: Dusknoir
+|-damage|p2a: Dusknoir|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Dusknoir
+|
+|-heal|p1a: Serperior|65/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769406936
+|switch|p2a: Magnezone|Magnezone|46/100
+|-activate|p2a: Magnezone|move: Sticky Web
+|-unboost|p2a: Magnezone|spe|1
+|turn|20
+|
+|t:|1769406946
+|move|p1a: Serperior|Leaf Storm|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Magnezone
+|
+|-heal|p1a: Serperior|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769406948
+|switch|p2a: Arcanine|Arcanine, F|100/100
+|-activate|p2a: Arcanine|move: Sticky Web
+|-unboost|p2a: Arcanine|spe|1
+|-ability|p2a: Arcanine|Intimidate|boost
+|-boost|p1a: Serperior|atk|1
+|turn|21
+|
+|t:|1769406951
+|move|p1a: Serperior|Dragon Pulse|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|win|Galarapio
+|raw|Galarapio's rating: 1058 &rarr; <strong>1092</strong><br />(+34 for winning)
+|raw|blzh's rating: 1084 &rarr; <strong>1060</strong><br />(-24 for losing)
+|l|☆Galarapio
+|player|p1|
+|l|☆blzh
+|player|p2|

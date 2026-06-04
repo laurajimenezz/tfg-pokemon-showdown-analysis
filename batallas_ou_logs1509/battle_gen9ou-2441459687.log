@@ -1,0 +1,166 @@
+|j|☆Rine1604
+|j|☆Borean華金
+|t:|1757855769
+|gametype|singles
+|player|p1|Rine1604|101|1372
+|player|p2|Borean華金|169|1399
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Comfey, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Flareon, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Mimikyu, F|
+|poke|p2|Araquanid, M|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Enamorus, F|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|t:|1757855781
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|1
+|
+|t:|1757855795
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|upkeep
+|turn|2
+|
+|t:|1757855816
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Slowking|Hex|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|84/100
+|
+|upkeep
+|turn|3
+|
+|t:|1757855826
+|move|p1a: Slowking|Toxic|p2a: Raging Bolt
+|-status|p2a: Raging Bolt|tox
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-damage|p2a: Raging Bolt|78/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1757855835
+|move|p1a: Slowking|Hex|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|55/100 tox
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Slowking
+|-damage|p1a: Slowking|40/100
+|
+|-damage|p2a: Raging Bolt|43/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1757855865
+|switch|p1a: Comfey|Comfey, M|100/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Comfey
+|-damage|p1a: Comfey|0 fnt
+|faint|p1a: Comfey
+|
+|-damage|p2a: Raging Bolt|25/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757855879
+|switch|p1a: Slowking|Slowking-Galar, F|73/100
+|turn|6
+|
+|t:|1757855886
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Slowking
+|-damage|p1a: Slowking|13/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-damage|p2a: Raging Bolt|0 fnt|[from] psn
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1757855899
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|7
+|
+|t:|1757855908
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1757855917
+|move|p2a: Kingambit|Sucker Punch|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|upkeep
+|
+|t:|1757855930
+|switch|p1a: Flareon|Flareon, M|100/100
+|turn|9
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Borean華金)
+|
+|t:|1757855940
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Flareon|Substitute|p1a: Flareon
+|-start|p1a: Flareon|Substitute
+|-damage|p1a: Flareon|76/100
+|
+|upkeep
+|turn|10
+|
+|t:|1757855947
+|move|p2a: Kingambit|Sucker Punch|p1a: Flareon
+|-end|p1a: Flareon|Substitute
+|move|p1a: Flareon|Flare Blitz|p2a: Kingambit
+|-damage|p2a: Kingambit|47/100
+|-damage|p1a: Flareon|57/100|[from] Recoil
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|-message|Rine1604 forfeited.
+|
+|win|Borean華金
+|raw|Rine1604's rating: 1372 &rarr; <strong>1354</strong><br />(-18 for losing)
+|raw|Borean華金's rating: 1399 &rarr; <strong>1417</strong><br />(+18 for winning)
+|l|☆Rine1604
+|player|p1|
+|l|☆Borean華金
+|player|p2|

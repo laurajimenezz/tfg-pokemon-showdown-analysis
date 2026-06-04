@@ -1,0 +1,339 @@
+|j|☆jiffy678i
+|j|☆phanxflame
+|t:|1779628579
+|gametype|singles
+|player|p1|jiffy678i|101|1079
+|player|p2|phanxflame|169|1080
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Heatran, F|
+|poke|p1|Glimmora, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Darkrai|
+|poke|p2|Gengar, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Krookodile, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Rampardos, F|
+|teampreview
+|
+|t:|1779628604
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Krookodile|Krookodile, F|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Walking Wake|atk|1
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|1
+|
+|t:|1779628621
+|-terastallize|p2a: Krookodile|Grass
+|move|p1a: Walking Wake|Agility|p1a: Walking Wake
+|-boost|p1a: Walking Wake|spe|2
+|move|p2a: Krookodile|Earthquake|p1a: Walking Wake
+|-damage|p1a: Walking Wake|48/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779628630
+|move|p1a: Walking Wake|Flamethrower|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|26/100
+|move|p2a: Krookodile|Earthquake|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779628644
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|3
+|
+|t:|1779628650
+|move|p1a: Enamorus|Superpower|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|faint|p2a: Krookodile
+|
+|upkeep
+|
+|t:|1779628657
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|4
+|
+|t:|1779628670
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Gengar|Encore||[still]
+|-fail|p2a: Gengar
+|
+|upkeep
+|turn|5
+|
+|t:|1779628679
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Glimmora|Power Gem|p2a: Hatterene
+|-damage|p2a: Hatterene|66/100
+|
+|upkeep
+|turn|6
+|
+|t:|1779628692
+|move|p1a: Glimmora|Mortal Spin|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|50/100
+|-status|p2a: Hatterene|psn
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-damage|p2a: Hatterene|38/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1779628704
+|move|p1a: Glimmora|Spiky Shield|p1a: Glimmora
+|-singleturn|p1a: Glimmora|move: Protect
+|move|p2a: Hatterene|Future Sight|p1a: Glimmora
+|-start|p2a: Hatterene|move: Future Sight
+|
+|-damage|p2a: Hatterene|26/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1779628713
+|switch|p1a: Darkrai|Darkrai|100/100
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1779628729
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|9
+|
+|t:|1779628741
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Cinderace|U-turn|p1a: Glimmora
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|88/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: phanxflame|move: Toxic Spikes
+|
+|t:|1779628751
+|switch|p2a: Gengar|Gengar, M|100/100|[from] U-turn
+|-sideend|p2: phanxflame|move: Toxic Spikes|[of] p2a: Gengar
+|
+|-end|p1a: Glimmora|move: Future Sight
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|upkeep
+|
+|t:|1779628759
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|10
+|
+|t:|1779628777
+|switch|p2a: Rampardos|Rampardos, F|100/100
+|move|p1a: Darkrai|Substitute|p1a: Darkrai
+|-start|p1a: Darkrai|Substitute
+|-damage|p1a: Darkrai|76/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1779628787
+|move|p1a: Darkrai|Swords Dance|p1a: Darkrai
+|-boost|p1a: Darkrai|atk|2
+|move|p2a: Rampardos|Iron Head|p1a: Darkrai
+|-end|p1a: Darkrai|Substitute
+|
+|upkeep
+|turn|12
+|
+|t:|1779628793
+|move|p1a: Darkrai|Drain Punch|p2a: Rampardos
+|-supereffective|p2a: Rampardos
+|-damage|p2a: Rampardos|0 fnt
+|-heal|p1a: Darkrai|100/100|[from] drain|[of] p2a: Rampardos
+|faint|p2a: Rampardos
+|
+|upkeep
+|
+|t:|1779628799
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|13
+|
+|t:|1779628804
+|move|p2a: Gengar|Encore|p1a: Darkrai
+|-start|p1a: Darkrai|Encore
+|move|p1a: Darkrai|Drain Punch|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|upkeep
+|turn|14
+|
+|t:|1779628812
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|switch|p1a: Heatran|Heatran, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1779628825
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Pelipper|Weather Ball|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|34/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1779628842
+|move|p1a: Dragapult|Thunder Wave|p2a: Pelipper
+|-status|p2a: Pelipper|par
+|move|p2a: Pelipper|Weather Ball|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779628853
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|17
+|
+|t:|1779628880
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Enamorus|Springtide Storm|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|67/100
+|-start|p1a: Enamorus|Disable|Springtide Storm|[from] ability: Cursed Body|[of] p2a: Gengar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1779628897
+|switch|p1a: Heatran|Heatran, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Gengar|Encore||[still]
+|-fail|p2a: Gengar
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1779628907
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Heatran|Will-O-Wisp|p2a: Cinderace
+|-immune|p2a: Cinderace
+|
+|upkeep
+|turn|20
+|
+|t:|1779628914
+|move|p2a: Cinderace|High Jump Kick|p1a: Heatran
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-enditem|p1a: Heatran|Air Balloon
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1779628921
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|21
+|
+|t:|1779628925
+|switch|p2a: Gengar|Gengar, M|67/100
+|-heal|p2a: Gengar|100/100|[from] move: Healing Wish
+|move|p1a: Enamorus|Springtide Storm|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|66/100
+|-unboost|p2a: Gengar|atk|1
+|-start|p1a: Enamorus|Disable|Springtide Storm|[from] ability: Cursed Body|[of] p2a: Gengar
+|
+|upkeep
+|turn|22
+|
+|t:|1779628955
+|move|p2a: Gengar|Trick|p1a: Enamorus
+|-activate|p2a: Gengar|move: Trick|[of] p1a: Enamorus
+|-item|p1a: Enamorus|Choice Scarf|[from] move: Trick
+|-item|p2a: Gengar|Assault Vest|[from] move: Trick
+|move|p1a: Enamorus|Mystical Fire|p2a: Gengar
+|-damage|p2a: Gengar|40/100
+|-unboost|p2a: Gengar|spa|1
+|
+|upkeep
+|turn|23
+|
+|t:|1779628966
+|move|p1a: Enamorus|Mystical Fire|p2a: Gengar
+|-damage|p2a: Gengar|18/100
+|-unboost|p2a: Gengar|spa|1
+|move|p2a: Gengar|Shadow Ball|p1a: Enamorus
+|-damage|p1a: Enamorus|76/100
+|
+|upkeep
+|turn|24
+|
+|t:|1779628974
+|move|p1a: Enamorus|Mystical Fire|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-end|p1a: Enamorus|Disable
+|upkeep
+|
+|t:|1779628977
+|switch|p2a: Pelipper|Pelipper, M|100/100 par
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|25
+|
+|t:|1779628984
+|switch|p1a: Darkrai|Darkrai|100/100
+|move|p2a: Pelipper|Weather Ball|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by phanxflame)
+|-message|jiffy678i forfeited.
+|
+|win|phanxflame
+|raw|jiffy678i's rating: 1079 &rarr; <strong>1057</strong><br />(-22 for losing)
+|raw|phanxflame's rating: 1080 &rarr; <strong>1108</strong><br />(+28 for winning)
+|l|☆jiffy678i
+|player|p1|
+|l|☆phanxflame
+|player|p2|

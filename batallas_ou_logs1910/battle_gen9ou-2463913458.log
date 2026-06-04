@@ -1,0 +1,556 @@
+|j|☆kerbecs1
+|j|☆healboy009
+|t:|1760764729
+|gametype|singles
+|player|p1|kerbecs1|elesa|1478
+|player|p2|healboy009|backpacker|1516
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Alomomola, M|
+|poke|p1|Latios, M|
+|poke|p1|Gholdengo|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Dragonite, F|
+|poke|p1|Great Tusk|
+|poke|p2|Dondozo, M|
+|poke|p2|Blissey, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Amoonguss, M|
+|teampreview
+|
+|t:|1760764746
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1760764755
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Weezing|Will-O-Wisp|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1760764766
+|move|p2a: Gliscor|Knock Off|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|93/100
+|-enditem|p1a: Weezing|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Weezing|Pain Split|p2a: Gliscor
+|-sethp|p2a: Gliscor|94/100 tox|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|99/100|[from] move: Pain Split
+|
+|-damage|p2a: Gliscor|88/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1760764779
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Weezing|Pain Split|p2a: Slowking
+|-sethp|p2a: Slowking|92/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|100/100|[from] move: Pain Split
+|
+|upkeep
+|turn|4
+|
+|t:|1760764790
+|move|p1a: Weezing|Will-O-Wisp|p2a: Slowking
+|-status|p2a: Slowking|brn
+|move|p2a: Slowking|Psychic Noise|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|24/100
+|-start|p1a: Weezing|move: Heal Block
+|
+|-damage|p2a: Slowking|86/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1760764800
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Slowking|Psychic Noise|p1a: Alomomola
+|-damage|p1a: Alomomola|86/100
+|-start|p1a: Alomomola|move: Heal Block
+|
+|-damage|p2a: Slowking|80/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1760764807
+|move|p1a: Alomomola|Flip Turn|p2a: Slowking
+|-damage|p2a: Slowking|62/100 brn
+|
+|t:|1760764815
+|switch|p1a: Latios|Latios, M|100/100|[from] Flip Turn
+|move|p2a: Slowking|Eerie Spell|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|84/100
+|
+|-damage|p2a: Slowking|56/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1760764825
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Latios
+|-damage|p1a: Latios|60/100
+|
+|-damage|p2a: Slowking|50/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1760764831
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|100/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Latios
+|-damage|p1a: Latios|78/100
+|-status|p1a: Latios|psn
+|
+|-damage|p1a: Latios|66/100 psn|[from] psn
+|-damage|p2a: Slowking|44/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1760764835
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Latios|Psychic Noise|p2a: Blissey
+|-damage|p2a: Blissey|76/100
+|-start|p2a: Blissey|move: Heal Block
+|
+|-damage|p1a: Latios|54/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1760764842
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|100/100 psn
+|move|p2a: Blissey|Seismic Toss|p1a: Latios
+|-damage|p1a: Latios|67/100 psn
+|
+|-damage|p1a: Latios|55/100 psn|[from] psn
+|-end|p2a: Blissey|move: Heal Block
+|upkeep
+|turn|11
+|
+|t:|1760764848
+|switch|p1a: Weezing|Weezing-Galar, M|24/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Blissey|Seismic Toss|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1760764853
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|12
+|
+|t:|1760764857
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|move|p1a: Great Tusk|Stealth Rock|p2a: Dondozo
+|-sidestart|p2: healboy009|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1760764862
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Dondozo|Avalanche|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|96/100
+|
+|upkeep
+|turn|14
+|
+|t:|1760764869
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Alomomola|Body Slam|p2a: Amoonguss
+|-damage|p2a: Amoonguss|90/100
+|
+|upkeep
+|turn|15
+|
+|t:|1760764876
+|move|p1a: Alomomola|Flip Turn|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|83/100
+|
+|t:|1760764879
+|switch|p1a: Latios|Latios, M|55/100 psn|[from] Flip Turn
+|move|p2a: Amoonguss|Toxic||[still]
+|-fail|p2a: Amoonguss
+|
+|-damage|p1a: Latios|43/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1760764885
+|switch|p2a: Slowking|Slowking-Galar, F|77/100 brn
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|93/100 psn
+|
+|-damage|p1a: Latios|81/100 psn|[from] psn
+|-damage|p2a: Slowking|71/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1760764891
+|move|p1a: Latios|Psychic Noise|p2a: Slowking
+|-damage|p2a: Slowking|42/100 brn
+|-start|p2a: Slowking|move: Heal Block
+|move|p2a: Slowking|Sludge Bomb|p1a: Latios
+|-damage|p1a: Latios|44/100 psn
+|
+|-damage|p1a: Latios|32/100 psn|[from] psn
+|-damage|p2a: Slowking|36/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1760764901
+|switch|p2a: Blissey|Blissey, F|76/100
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|82/100 psn
+|
+|-damage|p1a: Latios|70/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1760764907
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Alomomola
+|-damage|p1a: Alomomola|82/100
+|
+|upkeep
+|turn|20
+|
+|t:|1760764914
+|switch|p2a: Slowking|Slowking-Galar, F|69/100 brn
+|move|p1a: Alomomola|Flip Turn|p2a: Slowking
+|-damage|p2a: Slowking|51/100 brn
+|
+|t:|1760764917
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] Flip Turn
+|
+|-damage|p2a: Slowking|45/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1760764923
+|switch|p2a: Blissey|Blissey, F|76/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Blissey
+|-immune|p2a: Blissey
+|
+|upkeep
+|turn|22
+|
+|t:|1760764928
+|switch|p1a: Latios|Latios, M|70/100 psn
+|move|p2a: Blissey|Seismic Toss|p1a: Latios
+|-damage|p1a: Latios|37/100 psn
+|
+|-damage|p1a: Latios|24/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1760764932
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|75/100 psn
+|move|p2a: Blissey|Seismic Toss|p1a: Latios
+|-damage|p1a: Latios|41/100 psn
+|
+|-damage|p1a: Latios|29/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1760764938
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|25
+|
+|t:|1760764944
+|switch|p2a: Slowking|Slowking-Galar, F|78/100 brn
+|move|p1a: Gholdengo|Trick|p2a: Slowking
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Slowking
+|-item|p2a: Slowking|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Heavy-Duty Boots|[from] move: Trick
+|
+|-damage|p2a: Slowking|72/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1760764954
+|switch|p2a: Blissey|Blissey, F|76/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Blissey
+|-immune|p2a: Blissey
+|
+|upkeep
+|turn|27
+|
+|t:|1760764963
+|switch|p1a: Latios|Latios, M|29/100 psn
+|move|p2a: Blissey|Shadow Ball|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+|
+|t:|1760764971
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|28
+|
+|t:|1760764977
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Dondozo
+|-damage|p2a: Dondozo|70/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|29
+|
+|t:|1760764982
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Dondozo|Avalanche|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|95/100
+|
+|upkeep
+|turn|30
+|
+|t:|1760764988
+|switch|p2a: Slowking|Slowking-Galar, F|100/100 brn
+|-damage|p2a: Slowking|88/100 brn|[from] Stealth Rock
+|move|p1a: Alomomola|Body Slam|p2a: Slowking
+|-damage|p2a: Slowking|72/100 brn
+|
+|-damage|p2a: Slowking|65/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1760764995
+|move|p2a: Slowking|Eerie Spell|p1a: Alomomola
+|-damage|p1a: Alomomola|81/100
+|-activate|p1a: Alomomola|move: Eerie Spell|Body Slam|3
+|move|p1a: Alomomola|Mirror Coat|p2a: Slowking
+|-damage|p2a: Slowking|27/100 brn
+|
+|-damage|p2a: Slowking|21/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1760765002
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Alomomola|Flip Turn|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|94/100
+|
+|t:|1760765007
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|33
+|
+|t:|1760765011
+|switch|p2a: Blissey|Blissey, F|76/100
+|-terastallize|p1a: Gholdengo|Steel
+|move|p1a: Gholdengo|Make It Rain|p2a: Blissey
+|-damage|p2a: Blissey|43/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|upkeep
+|turn|34
+|
+|t:|1760765019
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|93/100
+|
+|upkeep
+|turn|35
+|
+|t:|1760765022
+|switch|p2a: Dondozo|Dondozo, M|70/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Dondozo
+|-damage|p2a: Dondozo|41/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|36
+|
+|t:|1760765027
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|37
+|
+|t:|1760765034
+|move|p1a: Alomomola|Flip Turn|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|97/100 slp
+|
+|t:|1760765039
+|switch|p1a: Gholdengo|Gholdengo, tera:Steel|100/100|[from] Flip Turn
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Rest||[from] move: Sleep Talk|[still]
+|-fail|p2a: Dondozo
+|
+|upkeep
+|turn|38
+|
+|t:|1760765043
+|switch|p2a: Blissey|Blissey, F|93/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Blissey
+|-damage|p2a: Blissey|61/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|upkeep
+|turn|39
+|
+|t:|1760765052
+|move|p1a: Gholdengo|Make It Rain|p2a: Blissey
+|-damage|p2a: Blissey|41/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Blissey|Seismic Toss|p1a: Gholdengo
+|-damage|p1a: Gholdengo|69/100
+|
+|upkeep
+|turn|40
+|
+|t:|1760765058
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|100/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|91/100
+|
+|upkeep
+|turn|41
+|
+|t:|1760765061
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Alomomola
+|-damage|p1a: Alomomola|82/100
+|
+|upkeep
+|turn|42
+|
+|t:|1760765066
+|switch|p2a: Slowking|Slowking-Galar, F|54/100 brn
+|-damage|p2a: Slowking|42/100 brn|[from] Stealth Rock
+|move|p1a: Alomomola|Body Slam|p2a: Slowking
+|-damage|p2a: Slowking|26/100 brn
+|
+|-damage|p2a: Slowking|20/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|t:|1760765072
+|switch|p2a: Dondozo|Dondozo, M|97/100 slp
+|move|p1a: Alomomola|Body Slam|p2a: Dondozo
+|-damage|p2a: Dondozo|89/100 slp
+|
+|upkeep
+|turn|44
+|
+|t:|1760765077
+|move|p1a: Alomomola|Flip Turn|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|85/100 slp
+|
+|t:|1760765081
+|switch|p1a: Dragonite|Dragonite, F|100/100|[from] Flip Turn
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Avalanche|p1a: Dragonite|[from] move: Sleep Talk
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|73/100
+|
+|upkeep
+|turn|45
+|
+|t:|1760765088
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|100/100
+|-singleturn|p1a: Dragonite|move: Roost
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Avalanche|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|87/100
+|
+|upkeep
+|turn|46
+|
+|t:|1760765091
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|100/100
+|-singleturn|p1a: Dragonite|move: Roost
+|move|p2a: Dondozo|Avalanche|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|87/100
+|
+|upkeep
+|turn|47
+|
+|t:|1760765095
+|move|p2a: Dondozo|Avalanche|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|12/100
+|move|p1a: Dragonite|Dragon Tail|p2a: Dondozo
+|-damage|p2a: Dondozo|71/100
+|drag|p2a: Toxapex|Toxapex, M|100/100
+|
+|upkeep
+|turn|48
+|
+|t:|1760765103
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|62/100
+|-singleturn|p1a: Dragonite|move: Roost
+|move|p2a: Toxapex|Toxic|p1a: Dragonite
+|-status|p1a: Dragonite|tox
+|
+|-damage|p1a: Dragonite|56/100 tox|[from] psn
+|upkeep
+|turn|49
+|-message|kerbecs1 forfeited.
+|
+|win|healboy009
+|raw|kerbecs1's rating: 1478 &rarr; <strong>1460</strong><br />(-18 for losing)
+|raw|healboy009's rating: 1516 &rarr; <strong>1534</strong><br />(+18 for winning)
+|l|☆kerbecs1
+|player|p1|
+|l|☆healboy009
+|player|p2|

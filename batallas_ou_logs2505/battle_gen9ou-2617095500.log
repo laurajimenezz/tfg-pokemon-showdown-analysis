@@ -1,0 +1,338 @@
+|j|☆immaterial-light
+|j|☆thegreatestnone
+|t:|1779647447
+|gametype|singles
+|player|p1|immaterial-light|101|1375
+|player|p2|thegreatestnone|102|1405
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cresselia, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Hands|
+|poke|p1|Ursaluna, F|
+|poke|p1|Vikavolt, M|
+|poke|p1|Porygon2|
+|poke|p2|Incineroar, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Skeledirge, M|
+|poke|p2|Amoonguss, M|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Slowking, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by immaterial-light)
+|
+|t:|1779647451
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Porygon2|Porygon2|100/100
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Porygon2|atk|1
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|turn|1
+|
+|t:|1779647455
+|move|p2a: Incineroar|Knock Off|p1a: Porygon2
+|-damage|p1a: Porygon2|73/100
+|-enditem|p1a: Porygon2|Eviolite|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|upkeep
+|turn|2
+|
+|t:|1779647463
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Incineroar|Bulk Up|p2a: Incineroar
+|-boost|p2a: Incineroar|atk|1
+|-boost|p2a: Incineroar|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1779647473
+|switch|p1a: Vikavolt|Vikavolt, M|100/100
+|move|p2a: Incineroar|Knock Off|p1a: Vikavolt
+|-damage|p1a: Vikavolt|42/100
+|-enditem|p1a: Vikavolt|Choice Specs|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|4
+|
+|t:|1779647484
+|move|p1a: Vikavolt|Volt Switch|p2a: Incineroar
+|-damage|p2a: Incineroar|69/100
+|
+|t:|1779647489
+|switch|p1a: Iron Hands|Iron Hands|100/100|[from] Volt Switch
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2a: Incineroar|Flare Blitz|p1a: Iron Hands
+|-damage|p1a: Iron Hands|56/100
+|-damage|p2a: Incineroar|49/100|[from] Recoil
+|
+|upkeep
+|turn|5
+|
+|t:|1779647500
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1779647504
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|41/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|7
+|
+|t:|1779647513
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|move|p2a: Amoonguss|Sludge Bomb|p1: Hatterene|[notarget]
+|-fail|p2a: Amoonguss
+|
+|upkeep
+|
+|t:|1779647516
+|switch|p1a: Vikavolt|Vikavolt, M|42/100
+|-heal|p1a: Vikavolt|100/100|[from] move: Healing Wish
+|turn|8
+|
+|t:|1779647522
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Vikavolt|Volt Switch|p2a: Ting-Lu
+|-immune|p2a: Ting-Lu
+|
+|upkeep
+|turn|9
+|
+|t:|1779647529
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Ursaluna
+|-sidestart|p1: immaterial-light|move: Stealth Rock
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|t:|1779647534
+|switch|p2a: Incineroar|Incineroar, M|49/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-terastallize|p1a: Ursaluna|Normal
+|move|p1a: Ursaluna|Facade|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1779647547
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|turn|11
+|
+|t:|1779647552
+|switch|p1a: Porygon2|Porygon2|73/100
+|-damage|p1a: Porygon2|61/100|[from] Stealth Rock
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|move|p2a: Weezing|Sludge Bomb|p1a: Porygon2
+|-damage|p1a: Porygon2|33/100
+|
+|upkeep
+|turn|12
+|
+|t:|1779647557
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|upkeep
+|turn|13
+|
+|t:|1779647562
+|switch|p1a: Ursaluna|Ursaluna, F, tera:Normal|94/100 brn
+|-damage|p1a: Ursaluna|82/100 brn|[from] Stealth Rock
+|move|p2a: Ting-Lu|Spikes|p1a: Ursaluna
+|-sidestart|p1: immaterial-light|Spikes
+|
+|-damage|p1a: Ursaluna|76/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1779647568
+|move|p1a: Ursaluna|Facade|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|6/100
+|move|p2a: Ting-Lu|Spikes|p1a: Ursaluna
+|-sidestart|p1: immaterial-light|Spikes
+|
+|-heal|p2a: Ting-Lu|12/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|70/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1779647579
+|move|p1a: Ursaluna|Headlong Rush|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Ting-Lu
+|
+|-damage|p1a: Ursaluna|64/100 brn|[from] brn
+|upkeep
+|
+|t:|1779647584
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|turn|16
+|
+|t:|1779647595
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|-damage|p1a: Cresselia|88/100|[from] Stealth Rock
+|move|p2a: Weezing|Sludge Bomb|p1a: Cresselia
+|-damage|p1a: Cresselia|68/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|17
+|
+|t:|1779647606
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|18
+|
+|t:|1779647615
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Skeledirge|Torch Song|p1: Cresselia|[notarget]
+|-fail|p2a: Skeledirge
+|
+|upkeep
+|
+|t:|1779647620
+|switch|p1a: Porygon2|Porygon2|33/100
+|-heal|p1a: Porygon2|100/100|[from] move: Lunar Dance
+|-damage|p1a: Porygon2|88/100|[from] Stealth Rock
+|-damage|p1a: Porygon2|72/100|[from] Spikes
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|turn|19
+|
+|t:|1779647631
+|move|p1a: Porygon2|Shadow Ball|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|48/100
+|move|p2a: Skeledirge|Torch Song|p1a: Porygon2
+|-damage|p1a: Porygon2|45/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|upkeep
+|turn|20
+|
+|t:|1779647643
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Porygon2|Shadow Ball|p2a: Amoonguss
+|-damage|p2a: Amoonguss|73/100
+|
+|upkeep
+|turn|21
+|
+|t:|1779647648
+|move|p2a: Amoonguss|Clear Smog|p1a: Porygon2
+|-damage|p1a: Porygon2|31/100
+|-clearboost|p1a: Porygon2
+|move|p1a: Porygon2|Ice Beam|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|36/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|22
+|
+|t:|1779647652
+|move|p2a: Amoonguss|Toxic|p1a: Porygon2
+|-status|p1a: Porygon2|tox
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|-damage|p1a: Porygon2|25/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1779647658
+|switch|p2a: Slowking|Slowking, F|100/100
+|switch|p1a: Vikavolt|Vikavolt, M|100/100
+|-damage|p1a: Vikavolt|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|24
+|
+|t:|1779647678
+|-terastallize|p2a: Slowking|Fairy
+|move|p1a: Vikavolt|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|65/100
+|move|p2a: Slowking|Calm Mind|p2a: Slowking
+|-boost|p2a: Slowking|spa|1
+|-boost|p2a: Slowking|spd|1
+|
+|upkeep
+|turn|25
+|
+|t:|1779647683
+|move|p1a: Vikavolt|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|42/100
+|move|p2a: Slowking|Scald|p1a: Vikavolt
+|-damage|p1a: Vikavolt|28/100
+|
+|upkeep
+|turn|26
+|
+|t:|1779647688
+|move|p1a: Vikavolt|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|27/100
+|
+|t:|1779647691
+|switch|p1a: Porygon2|Porygon2|25/100 tox|[from] Volt Switch
+|-damage|p1a: Porygon2|13/100 tox|[from] Stealth Rock
+|-damage|p1a: Porygon2|0 fnt|[from] Spikes
+|faint|p1a: Porygon2
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|77/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|-message|immaterial-light forfeited.
+|
+|win|thegreatestnone
+|raw|immaterial-light's rating: 1375 &rarr; <strong>1357</strong><br />(-18 for losing)
+|raw|thegreatestnone's rating: 1405 &rarr; <strong>1423</strong><br />(+18 for winning)
+|l|☆immaterial-light
+|player|p1|
+|l|☆thegreatestnone
+|player|p2|

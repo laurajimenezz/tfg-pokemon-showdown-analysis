@@ -1,0 +1,381 @@
+|j|☆ts0x
+|j|☆Imptail
+|t:|1757944060
+|gametype|singles
+|player|p1|ts0x|266|1102
+|player|p2|Imptail|maid|1164
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Skeledirge, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Iron Leaves|
+|poke|p1|Cryogonal|
+|poke|p1|Great Tusk|
+|poke|p1|Muk-Alola, M|
+|poke|p2|Scizor, M|
+|poke|p2|Alomomola, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Zapdos|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Crown|
+|teampreview
+|
+|t:|1757944074
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisdef
+|turn|1
+|
+|t:|1757944091
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Great Tusk|Body Press|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|88/100
+|
+|upkeep
+|turn|2
+|
+|t:|1757944099
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Muk|Muk-Alola, M|100/100
+|-item|p1a: Muk|Air Balloon
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Muk
+|-damage|p1a: Muk|69/100
+|-enditem|p1a: Muk|Air Balloon
+|
+|upkeep
+|turn|3
+|
+|t:|1757944109
+|move|p1a: Muk|Dark Pulse|p2a: Hatterene
+|-damage|p2a: Hatterene|78/100
+|move|p2a: Hatterene|Nuzzle|p1a: Muk
+|-damage|p1a: Muk|64/100
+|-status|p1a: Muk|par
+|
+|upkeep
+|turn|4
+|
+|t:|1757944120
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Muk|Thunderbolt|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|upkeep
+|turn|5
+|
+|t:|1757944137
+|switch|p1a: Cryogonal|Cryogonal, shiny|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Cryogonal
+|-immune|p1a: Cryogonal|[from] ability: Levitate
+|
+|upkeep
+|turn|6
+|
+|t:|1757944150
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Cryogonal|Protect||[still]
+|-fail|p1a: Cryogonal
+|
+|upkeep
+|turn|7
+|
+|t:|1757944158
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|78/100
+|-damage|p2a: Scizor|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|t:|1757944171
+|move|p1a: Great Tusk|Stealth Rock|p2a: Scizor
+|-sidestart|p2: Imptail|move: Stealth Rock
+|move|p2a: Scizor|Dual Wingbeat|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|50/100
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|21/100
+|-hitcount|p1a: Great Tusk|2
+|-damage|p2a: Scizor|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1757944188
+|move|p1a: Great Tusk|Body Press|p2a: Scizor
+|-damage|p2a: Scizor|35/100
+|move|p2a: Scizor|Defog|p1a: Great Tusk
+|-unboost|p1a: Great Tusk|evasion|1
+|-sideend|p2: Imptail|Stealth Rock|[from] move: Defog|[of] p2a: Scizor
+|
+|upkeep
+|turn|10
+|
+|t:|1757944194
+|switch|p2a: Hatterene|Hatterene, F|78/100
+|move|p1a: Great Tusk|Body Press|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|64/100
+|
+|upkeep
+|turn|11
+|
+|t:|1757944201
+|move|p1a: Great Tusk|Earthquake|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1757944214
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|12
+|
+|t:|1757944224
+|move|p2a: Great Tusk|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1757944231
+|switch|p1a: Greninja|Greninja, M, shiny|100/100
+|turn|13
+|
+|t:|1757944236
+|move|p1a: Greninja|Water Shuriken|p2a: Great Tusk
+|-start|p1a: Greninja|typechange|Water|[from] ability: Protean
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|71/100
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|38/100
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|4/100
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p2: Great Tusk|4
+|
+|upkeep
+|
+|t:|1757944241
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|14
+|
+|t:|1757944258
+|switch|p1a: Muk|Muk-Alola, M|64/100 par
+|move|p2a: Zapdos|Volt Switch|p1a: Muk
+|-damage|p1a: Muk|35/100 par
+|
+|t:|1757944262
+|switch|p2a: Iron Crown|Iron Crown|100/100|[from] Volt Switch
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespe
+|
+|upkeep
+|turn|15
+|
+|t:|1757944280
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Muk
+|-damage|p1a: Muk|16/100 par
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|-hitcount|p1: Muk|2
+|
+|upkeep
+|
+|t:|1757944290
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|turn|16
+|
+|t:|1757944298
+|-terastallize|p2a: Iron Crown|Dark
+|move|p2a: Iron Crown|Tera Blast|p1a: Skeledirge|[anim] Tera Blast Dark
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|20/100
+|move|p1a: Skeledirge|Will-O-Wisp|p2a: Iron Crown
+|-status|p2a: Iron Crown|brn
+|
+|-heal|p1a: Skeledirge|26/100|[from] item: Leftovers
+|-damage|p2a: Iron Crown|94/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1757944314
+|-terastallize|p1a: Skeledirge|Fairy
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|move|p1a: Skeledirge|Torch Song|p2a: Iron Crown
+|-damage|p2a: Iron Crown|63/100 brn
+|-boost|p1a: Skeledirge|spa|1
+|
+|-heal|p1a: Skeledirge|33/100|[from] item: Leftovers
+|-damage|p2a: Iron Crown|57/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1757944325
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|-hitcount|p1: Skeledirge|1
+|
+|-damage|p2a: Iron Crown|51/100 brn|[from] brn
+|upkeep
+|
+|t:|1757944331
+|switch|p1a: Cryogonal|Cryogonal, shiny|100/100
+|turn|19
+|
+|t:|1757944335
+|move|p1a: Cryogonal|Protect|p1a: Cryogonal
+|-singleturn|p1a: Cryogonal|Protect
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Cryogonal
+|-activate|p1a: Cryogonal|move: Protect
+|
+|-damage|p2a: Iron Crown|44/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1757944342
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Cryogonal
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|47/100
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|0 fnt
+|faint|p1a: Cryogonal
+|-hitcount|p1: Cryogonal|2
+|
+|-damage|p2a: Iron Crown|38/100 brn|[from] brn
+|upkeep
+|
+|t:|1757944350
+|switch|p1a: Greninja|Greninja, M, shiny|100/100
+|turn|21
+|
+|t:|1757944356
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Scizor|Scizor, M|35/100
+|move|p1a: Greninja|U-turn|p2a: Scizor
+|-start|p1a: Greninja|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|26/100
+|
+|t:|1757944365
+|switch|p1a: Iron Leaves|Iron Leaves|100/100|[from] U-turn
+|
+|upkeep
+|turn|22
+|
+|t:|1757944372
+|move|p1a: Iron Leaves|Close Combat|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-unboost|p1a: Iron Leaves|def|1
+|-unboost|p1a: Iron Leaves|spd|1
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1757944377
+|switch|p2a: Iron Crown|Iron Crown, tera:Dark|38/100 brn
+|turn|23
+|
+|t:|1757944383
+|move|p1a: Iron Leaves|Close Combat|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-crit|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|-unboost|p1a: Iron Leaves|def|1
+|-unboost|p1a: Iron Leaves|spd|1
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757944395
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|turn|24
+|
+|t:|1757944399
+|move|p1a: Iron Leaves|Leaf Blade|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|46/100
+|-damage|p1a: Iron Leaves|84/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|move|p2a: Alomomola|Flip Turn|p1a: Iron Leaves
+|-resisted|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|66/100
+|
+|t:|1757944402
+|switch|p2a: Zapdos|Zapdos|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|25
+|
+|t:|1757944411
+|move|p1a: Iron Leaves|Psyblade|p2a: Zapdos
+|-damage|p2a: Zapdos|47/100
+|move|p2a: Zapdos|Volt Switch|p1a: Iron Leaves
+|-resisted|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|33/100
+|
+|t:|1757944414
+|switch|p2a: Alomomola|Alomomola, M|80/100|[from] Volt Switch
+|
+|upkeep
+|turn|26
+|
+|t:|1757944420
+|move|p1a: Iron Leaves|Leaf Blade|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|-damage|p1a: Iron Leaves|16/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1757944423
+|switch|p2a: Zapdos|Zapdos|47/100
+|turn|27
+|
+|t:|1757944428
+|move|p1a: Iron Leaves|Psyblade|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|ts0x
+|raw|ts0x's rating: 1102 &rarr; <strong>1131</strong><br />(+29 for winning)
+|raw|Imptail's rating: 1164 &rarr; <strong>1135</strong><br />(-29 for losing)
+|c|☆Imptail|Gg
+|c|☆ts0x|gg
+|l|☆Imptail
+|player|p2|
+|l|☆ts0x
+|player|p1|

@@ -1,0 +1,305 @@
+|j|☆RNG Savage
+|j|☆One-Round
+|t:|1758316089
+|gametype|singles
+|player|p1|RNG Savage|giovanni-gen3|1168
+|player|p2|One-Round|101|1121
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Skarmory, M|
+|poke|p1|Gyarados, M|
+|poke|p1|Weavile, M|
+|poke|p1|Magnezone|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Electivire, M|
+|poke|p2|Mimikyu, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Ursaluna, F|
+|poke|p2|Meganium, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1758316106
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Weavile|Weavile, M|100/100
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1758316118
+|move|p1a: Weavile|Hyper Voice|p2a: Indeedee
+|-damage|p2a: Indeedee|64/100
+|-enditem|p1a: Weavile|Throat Spray
+|-boost|p1a: Weavile|spa|1|[from] item: Throat Spray
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1758316131
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Weavile|Hyper Voice|p2a: Ursaluna
+|-damage|p2a: Ursaluna|42/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1758316139
+|move|p2a: Ursaluna|Headlong Rush|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|replace|p1a: Zoroark|Zoroark-Hisui, M
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|
+|-damage|p2a: Ursaluna|35/100 brn|[from] brn
+|upkeep
+|
+|t:|1758316148
+|switch|p1a: Skarmory|Skarmory, M, shiny|100/100
+|turn|4
+|
+|t:|1758316157
+|move|p2a: Ursaluna|Facade|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|43/100
+|-damage|p2a: Ursaluna|19/100 brn|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|move|p1a: Skarmory|Brave Bird|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|-damage|p1a: Skarmory|33/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1758316171
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|5
+|
+|t:|1758316174
+|move|p2a: Hatterene|Mystical Fire|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758316188
+|switch|p1a: Electivire|Electivire, M, shiny|100/100
+|turn|6
+|
+|t:|1758316194
+|move|p1a: Electivire|Bulk Up|p1a: Electivire
+|-boost|p1a: Electivire|atk|1
+|-boost|p1a: Electivire|def|1
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|7
+|
+|t:|1758316201
+|move|p2a: Hatterene|Expanding Force|p1a: Electivire
+|-damage|p1a: Electivire|0 fnt
+|faint|p1a: Electivire
+|-damage|p2a: Hatterene|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758316207
+|switch|p1a: Magnezone|Magnezone, shiny|100/100
+|turn|8
+|
+|t:|1758316211
+|move|p2a: Hatterene|Mystical Fire|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|22/100
+|-unboost|p1a: Magnezone|spa|1
+|-damage|p2a: Hatterene|71/100|[from] item: Life Orb
+|move|p1a: Magnezone|Flash Cannon|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|5/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1758316220
+|move|p2a: Hatterene|Mystical Fire|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|-damage|p2a: Hatterene|0 fnt|[from] item: Life Orb
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1758316228
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|switch|p1a: Gyarados|Gyarados, M, shiny|100/100
+|turn|10
+|
+|t:|1758316235
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Gyarados
+|-damage|p1a: Gyarados|46/100
+|-unboost|p2a: Hoopa|def|1
+|-item|p2a: Hoopa|Covert Cloak|[from] ability: Magician|[of] p1a: Gyarados
+|move|p1a: Gyarados|Thunder Wave|p2a: Hoopa
+|-status|p2a: Hoopa|par
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1758316244
+|move|p1a: Gyarados|Waterfall|p2a: Hoopa
+|-damage|p2a: Hoopa|27/100 par
+|cant|p2a: Hoopa|par
+|
+|upkeep
+|turn|12
+|
+|t:|1758316252
+|switch|p2a: Indeedee|Indeedee, M|64/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Gyarados|Waterfall|p2a: Indeedee
+|-damage|p2a: Indeedee|12/100
+|
+|upkeep
+|turn|13
+|
+|t:|1758316259
+|move|p1a: Gyarados|Waterfall|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|upkeep
+|
+|t:|1758316266
+|switch|p2a: Meganium|Meganium, F|100/100
+|turn|14
+|
+|t:|1758316270
+|move|p1a: Gyarados|Thunder Wave|p2a: Meganium
+|-status|p2a: Meganium|par
+|move|p2a: Meganium|Leech Seed|p1a: Gyarados
+|-start|p1a: Gyarados|move: Leech Seed
+|
+|-damage|p1a: Gyarados|33/100|[from] Leech Seed|[of] p2a: Meganium
+|upkeep
+|turn|15
+|
+|t:|1758316276
+|switch|p1a: Weavile|Weavile, M|100/100
+|cant|p2a: Meganium|par
+|
+|upkeep
+|turn|16
+|
+|t:|1758316282
+|move|p1a: Weavile|Triple Axel|p2a: Meganium
+|-supereffective|p2a: Meganium
+|-damage|p2a: Meganium|87/100 par
+|-supereffective|p2a: Meganium
+|-damage|p2a: Meganium|60/100 par
+|-hitcount|p2a: Meganium|2
+|cant|p2a: Meganium|par
+|
+|-heal|p2a: Meganium|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758316292
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|move|p1a: Weavile|Triple Axel|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-damage|p2a: Mimikyu|60/100
+|-damage|p2a: Mimikyu|21/100
+|-hitcount|p2a: Mimikyu|3
+|-enditem|p2a: Mimikyu|Red Card|[of] p1a: Weavile
+|drag|p1a: Gyarados|Gyarados, M, shiny|33/100
+|
+|upkeep
+|turn|18
+|
+|t:|1758316305
+|move|p1a: Gyarados|Waterfall|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|upkeep
+|
+|t:|1758316313
+|switch|p2a: Meganium|Meganium, F|66/100 par
+|turn|19
+|
+|t:|1758316318
+|move|p1a: Gyarados|Taunt|p2a: Meganium
+|-start|p2a: Meganium|move: Taunt
+|move|p2a: Meganium|Grass Knot|p1a: Gyarados
+|-damage|p1a: Gyarados|2/100
+|
+|-heal|p2a: Meganium|72/100 par|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|20
+|
+|t:|1758316327
+|move|p1a: Gyarados|Waterfall|p2a: Meganium
+|-resisted|p2a: Meganium
+|-damage|p2a: Meganium|55/100 par
+|move|p2a: Meganium|Grass Knot|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-heal|p2a: Meganium|61/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1758316329
+|switch|p1a: Weavile|Weavile, M|100/100
+|turn|21
+|
+|t:|1758316340
+|move|p1a: Weavile|Triple Axel|p2a: Meganium
+|-supereffective|p2a: Meganium
+|-damage|p2a: Meganium|48/100 par
+|-supereffective|p2a: Meganium
+|-crit|p2a: Meganium
+|-damage|p2a: Meganium|10/100 par
+|-hitcount|p2a: Meganium|2
+|move|p2a: Meganium|Body Press|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|win|One-Round
+|raw|RNG Savage's rating: 1168 &rarr; <strong>1140</strong><br />(-28 for losing)
+|raw|One-Round's rating: 1121 &rarr; <strong>1149</strong><br />(+28 for winning)
+|l|☆RNG Savage
+|player|p1|
+|l|☆One-Round
+|player|p2|

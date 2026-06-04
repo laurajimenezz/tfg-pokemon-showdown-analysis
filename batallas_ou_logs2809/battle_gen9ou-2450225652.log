@@ -1,0 +1,297 @@
+|j|☆ego_the_amigo
+|j|☆bellumacademy
+|t:|1758946393
+|gametype|singles
+|player|p1|ego_the_amigo|benga|1199
+|player|p2|bellumacademy|elesa|1259
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Skarmory, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Skeledirge, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Iron Treads|
+|poke|p2|Toxicroak, F|
+|poke|p2|Barraskewda, F|
+|poke|p2|Zapdos|
+|teampreview
+|
+|t:|1758946398
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1758946407
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Skeledirge|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|7/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1758946415
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758946422
+|move|p2a: Barraskewda|Flip Turn|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|t:|1758946433
+|switch|p2a: Zapdos|Zapdos|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758946440
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|turn|3
+|
+|t:|1758946445
+|move|p2a: Zapdos|Hurricane|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-crit|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758946451
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|4
+|
+|t:|1758946459
+|switch|p2a: Hatterene|Hatterene, F|7/100
+|move|p1a: Greninja|Ice Beam|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758946476
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|turn|5
+|
+|t:|1758946482
+|move|p2a: Barraskewda|Close Combat|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|faint|p1a: Greninja
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758946489
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|turn|6
+|
+|t:|1758946493
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Skarmory|Stealth Rock|p2a: Iron Treads
+|-sidestart|p2: bellumacademy|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758946502
+|move|p2a: Iron Treads|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: ego_the_amigo|move: Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: Iron Treads
+|-sidestart|p2: bellumacademy|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758946508
+|move|p2a: Iron Treads|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|97/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: bellumacademy|Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|-sideend|p2: bellumacademy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Skarmory|Whirlwind|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|drag|p2a: Zapdos|Zapdos|100/100
+|
+|-weather|none
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758946519
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Skarmory|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: bellumacademy|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758946527
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|98/100|[from] Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: Iron Treads
+|-sidestart|p2: bellumacademy|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758946535
+|move|p2a: Iron Treads|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|96/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: bellumacademy|Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|-sideend|p2: bellumacademy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Skarmory|Whirlwind|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|drag|p2a: Barraskewda|Barraskewda, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758946545
+|-terastallize|p2a: Barraskewda|Water
+|move|p2a: Barraskewda|Liquidation|p1a: Skarmory
+|-damage|p1a: Skarmory|9/100
+|move|p1a: Skarmory|Stealth Rock|p2a: Barraskewda
+|-sidestart|p2: bellumacademy|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Skarmory|15/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1758946555
+|move|p2a: Barraskewda|Liquidation|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758946561
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100
+|-damage|p1a: Braviary|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1758946566
+|move|p2a: Barraskewda|Liquidation|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758946571
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|15
+|
+|t:|1758946578
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|98/100|[from] Stealth Rock
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Iron Treads
+|-damage|p2a: Iron Treads|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|49/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758946589
+|-terastallize|p1a: Kingambit|Fighting
+|move|p2a: Iron Treads|Rapid Spin|p1a: Kingambit
+|-damage|p1a: Kingambit|86/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: bellumacademy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Kingambit|Low Sweep|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1758946599
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|17
+|
+|t:|1758946605
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Pelipper
+|-damage|p2a: Pelipper|26/100
+|move|p2a: Pelipper|Hurricane|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|37/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1758946613
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758946616
+|switch|p2a: Barraskewda|Barraskewda, F, tera:Water|100/100
+|turn|19
+|
+|t:|1758946621
+|move|p2a: Barraskewda|Aqua Jet|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|bellumacademy
+|raw|ego_the_amigo's rating: 1199 &rarr; <strong>1178</strong><br />(-21 for losing)
+|raw|bellumacademy's rating: 1259 &rarr; <strong>1280</strong><br />(+21 for winning)
+|l|☆ego_the_amigo
+|player|p1|
+|l|☆bellumacademy
+|player|p2|

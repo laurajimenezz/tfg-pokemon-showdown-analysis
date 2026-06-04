@@ -1,0 +1,394 @@
+|j|☆clorox man
+|j|☆healorant
+|t:|1760379693
+|gametype|singles
+|player|p1|clorox man|clown|1864
+|player|p2|healorant|alder|1855
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Moltres|
+|poke|p2|Araquanid, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, M|
+|poke|p2|Gholdengo|
+|poke|p2|Kyurem|
+|teampreview
+|j| St.Peewee
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by healorant)
+|
+|t:|1760379701
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|turn|1
+|
+|t:|1760379705
+|move|p1a: Ogerpon|Knock Off|p2a: Araquanid
+|-damage|p2a: Araquanid|65/100
+|-enditem|p2a: Araquanid|Custap Berry|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Araquanid|Sticky Web|p1a: Ogerpon
+|-sidestart|p1: clorox man|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1760379712
+|move|p1a: Ogerpon|Encore|p2a: Araquanid
+|-start|p2a: Araquanid|Encore
+|move|p2a: Araquanid|Sticky Web||[still]
+|-fail|p2a: Araquanid
+|
+|upkeep
+|turn|3
+|l| St.Peewee
+|
+|t:|1760379717
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Kyurem|[anim] Ivy Cudgel Water
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|68/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760379728
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|-activate|p1a: Garganacl|move: Sticky Web
+|-unboost|p1a: Garganacl|spe|1
+|move|p2a: Kyurem|Freeze-Dry|p1a: Garganacl
+|-damage|p1a: Garganacl|73/100
+|
+|-heal|p1a: Garganacl|80/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760379733
+|switch|p2a: Araquanid|Araquanid, M|65/100
+|move|p1a: Garganacl|Salt Cure|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|40/100
+|-start|p2a: Araquanid|Salt Cure
+|
+|-heal|p1a: Garganacl|86/100|[from] item: Leftovers
+|-damage|p2a: Araquanid|15/100|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1760379739
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-activate|p1a: Ogerpon|move: Sticky Web
+|-unboost|p1a: Ogerpon|spe|1
+|
+|upkeep
+|turn|7
+|inactive|clorox man has 120 seconds left.
+|
+|t:|1760379774
+|switch|p1a: Garganacl|Garganacl, F|86/100
+|-activate|p1a: Garganacl|move: Sticky Web
+|-unboost|p1a: Garganacl|spe|1
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|-enditem|p2a: Glimmora|Power Herb
+|-anim|p2a: Glimmora|Meteor Beam|p1a: Garganacl
+|-damage|p1a: Garganacl|17/100
+|
+|-heal|p1a: Garganacl|24/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760379785
+|move|p2a: Glimmora|Earth Power|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|upkeep
+|
+|t:|1760379788
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Glimmora|atk|1
+|turn|9
+|
+|t:|1760379799
+|move|p1a: Landorus|Earthquake|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: clorox man|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1760379802
+|switch|p2a: Kyurem|Kyurem|68/100
+|-ability|p2a: Kyurem|Pressure
+|turn|10
+|
+|t:|1760379815
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1760379821
+|move|p2a: Kyurem|Icicle Spear|p1a: Moltres
+|-damage|p1a: Moltres|85/100
+|-damage|p1a: Moltres|69/100
+|-damage|p1a: Moltres|54/100
+|-damage|p1a: Moltres|38/100
+|-hitcount|p1a: Moltres|4
+|move|p1a: Moltres|Roar|p2a: Kyurem
+|drag|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|turn|12
+|
+|t:|1760379831
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Kyurem|Kyurem|68/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|88/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|upkeep
+|turn|13
+|
+|t:|1760379834
+|move|p2a: Kyurem|Freeze-Dry|p1a: Moltres
+|-damage|p1a: Moltres|45/100
+|move|p1a: Moltres|Will-O-Wisp|p2a: Kyurem
+|-status|p2a: Kyurem|brn
+|
+|-damage|p2a: Kyurem|62/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1760379847
+|move|p2a: Kyurem|Freeze-Dry|p1a: Moltres
+|-damage|p1a: Moltres|4/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|55/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-damage|p2a: Kyurem|56/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1760379855
+|move|p2a: Kyurem|Freeze-Dry|p1a: Moltres
+|-damage|p1a: Moltres|15/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|66/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-damage|p2a: Kyurem|50/100 brn|[from] brn
+|upkeep
+|turn|16
+|j| perfect days
+|
+|t:|1760379869
+|move|p2a: Kyurem|Freeze-Dry|p1a: Moltres
+|-damage|p1a: Moltres|26/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|76/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-damage|p2a: Kyurem|43/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1760379874
+|move|p2a: Kyurem|Freeze-Dry|p1a: Moltres
+|-damage|p1a: Moltres|35/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|86/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-damage|p2a: Kyurem|37/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1760379881
+|move|p2a: Kyurem|Freeze-Dry|p1a: Moltres
+|-damage|p1a: Moltres|43/100
+|move|p1a: Moltres|Flamethrower|p2a: Kyurem
+|-damage|p2a: Kyurem|1/100 brn
+|
+|-damage|p2a: Kyurem|0 fnt|[from] brn
+|faint|p2a: Kyurem
+|upkeep
+|
+|t:|1760379885
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|19
+|
+|t:|1760379895
+|move|p2a: Gholdengo|Shadow Ball|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1760379915
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-activate|p1a: Ogerpon|move: Sticky Web
+|-unboost|p1a: Ogerpon|spe|1
+|-status|p1a: Ogerpon|psn
+|turn|20
+|
+|t:|1760379928
+|switch|p2a: Araquanid|Araquanid, M|15/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Araquanid|[anim] Ivy Cudgel Water
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|-damage|p1a: Ogerpon|88/100 psn|[from] psn
+|upkeep
+|
+|t:|1760379934
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|21
+|
+|t:|1760379943
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Kingambit|[anim] Ivy Cudgel Water
+|-damage|p2a: Kingambit|47/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Ogerpon
+|-damage|p1a: Ogerpon|4/100 psn
+|
+|-heal|p2a: Kingambit|54/100|[from] item: Leftovers
+|-damage|p1a: Ogerpon|0 fnt|[from] psn
+|faint|p1a: Ogerpon
+|upkeep
+|
+|t:|1760379948
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-sideend|p1: clorox man|move: Toxic Spikes|[of] p1a: Weezing
+|turn|22
+|
+|t:|1760379953
+|move|p2a: Kingambit|Iron Head|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|41/100
+|move|p1a: Weezing|Defog|p2a: Kingambit
+|-unboost|p2a: Kingambit|evasion|1
+|-sideend|p1: clorox man|Sticky Web|[from] move: Defog|[of] p1a: Weezing
+|
+|-heal|p2a: Kingambit|60/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1760379976
+|-terastallize|p1a: Weezing|Grass
+|move|p2a: Kingambit|Iron Head|p1a: Weezing
+|-damage|p1a: Weezing|10/100
+|cant|p1a: Weezing|flinch
+|
+|-heal|p2a: Kingambit|66/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1760379983
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|
+|-heal|p2a: Kingambit|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760379984
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|turn|25
+|
+|t:|1760379989
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Landorus|Earthquake|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|26
+|
+|t:|1760379995
+|move|p1a: Landorus|Smack Down|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|89/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Shadow Ball|p1a: Landorus
+|-damage|p1a: Landorus|43/100
+|
+|upkeep
+|turn|27
+|
+|t:|1760380001
+|move|p1a: Landorus|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1760380002
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdriveatk
+|turn|28
+|
+|t:|1760380009
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|move|p1a: Landorus|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|18/100
+|
+|upkeep
+|turn|29
+|-message|clorox man forfeited.
+|
+|win|healorant
+|raw|clorox man's rating: 1864 &rarr; <strong>1843</strong><br />(-21 for losing)
+|raw|healorant's rating: 1855 &rarr; <strong>1876</strong><br />(+21 for winning)
+|l|☆clorox man
+|player|p1|
+|l|☆healorant
+|player|p2|
+|l| perfect days

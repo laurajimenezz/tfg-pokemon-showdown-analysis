@@ -1,0 +1,312 @@
+|j|☆Anna Komnenos
+|j|☆FrontEndMgmt
+|t:|1760303806
+|gametype|singles
+|player|p1|Anna Komnenos|lady|1097
+|player|p2|FrontEndMgmt|erika|1066
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Mamoswine, F|
+|poke|p1|Lapras, F|
+|poke|p1|Froslass, F|
+|poke|p1|Weavile, F|
+|poke|p1|Dewgong, F|
+|poke|p2|Plusle, M|
+|poke|p2|Klefki, F|
+|poke|p2|Great Tusk|
+|poke|p2|Ceruledge, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Goodra-Hisui, F|
+|teampreview
+|
+|t:|1760303813
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|switch|p2a: Klefki|Klefki, F|100/100
+|turn|1
+|
+|t:|1760303819
+|move|p2a: Klefki|Switcheroo|p1a: Mamoswine
+|-activate|p2a: Klefki|move: Trick|[of] p1a: Mamoswine
+|-item|p1a: Mamoswine|Choice Band|[from] move: Switcheroo
+|-item|p2a: Klefki|Weakness Policy|[from] move: Switcheroo
+|move|p1a: Mamoswine|Trailblaze|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|90/100
+|-boost|p1a: Mamoswine|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1760303826
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Klefki|Substitute|p2a: Klefki
+|-start|p2a: Klefki|Substitute
+|-damage|p2a: Klefki|65/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760303828
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|move|p2a: Klefki|Thunder Wave|p1a: Mamoswine
+|-immune|p1a: Mamoswine
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760303832
+|move|p1a: Mamoswine|Earthquake|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-end|p2a: Klefki|Substitute
+|move|p2a: Klefki|Draining Kiss|p1a: Mamoswine
+|-damage|p1a: Mamoswine|81/100
+|-heal|p2a: Klefki|82/100|[from] drain|[of] p1a: Mamoswine
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760303836
+|move|p2a: Klefki|Switcheroo|p1a: Mamoswine
+|-activate|p2a: Klefki|move: Trick|[of] p1a: Mamoswine
+|-item|p1a: Mamoswine|Weakness Policy|[from] move: Switcheroo
+|-item|p2a: Klefki|Choice Band|[from] move: Switcheroo
+|move|p1a: Mamoswine|Earthquake|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760303846
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|6
+|
+|t:|1760303850
+|move|p2a: Samurott|Aqua Cutter|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-weather|none
+|upkeep
+|
+|t:|1760303854
+|switch|p1a: Lapras|Lapras, F|100/100
+|turn|7
+|
+|t:|1760303858
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|move|p1a: Lapras|Freeze-Dry|p2a: Goodra
+|-damage|p2a: Goodra|79/100
+|
+|-heal|p2a: Goodra|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760303864
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Goodra|Dragon Tail|p1a: Ninetales
+|-immune|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Goodra|91/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760303866
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Anna Komnenos|move: Aurora Veil
+|move|p2a: Goodra|Iron Head|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|22/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Goodra|97/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760303872
+|switch|p1a: Dewgong|Dewgong, F|100/100
+|move|p2a: Goodra|Acid Armor|p2a: Goodra
+|-boost|p2a: Goodra|def|2
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Goodra|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760303876
+|switch|p1a: Froslass|Froslass, F|100/100
+|move|p2a: Goodra|Acid Armor|p2a: Goodra
+|-boost|p2a: Goodra|def|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1760303879
+|move|p1a: Froslass|Thunder Wave|p2a: Goodra
+|-status|p2a: Goodra|par
+|move|p2a: Goodra|Iron Head|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|62/100
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1760303883
+|move|p1a: Froslass|Hex|p2a: Goodra
+|-damage|p2a: Goodra|67/100 par
+|move|p2a: Goodra|Dragon Tail|p1a: Froslass
+|-damage|p1a: Froslass|37/100
+|-start|p2a: Goodra|Disable|Dragon Tail|[from] ability: Cursed Body|[of] p1a: Froslass
+|drag|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|
+|-heal|p2a: Goodra|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1760303887
+|move|p1a: Weavile|Knock Off|p2a: Goodra
+|-damage|p2a: Goodra|57/100 par
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Weavile|spe|1
+|-enditem|p2a: Goodra|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Goodra|Body Press|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1760303890
+|switch|p1a: Froslass|Froslass, F|37/100
+|turn|15
+|
+|t:|1760303892
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|move|p2a: Goodra|Iron Head|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|-activate|p1a: Froslass|move: Destiny Bond
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|t:|1760303899
+|switch|p1a: Ninetales|Ninetales-Alola, F|22/100
+|switch|p2a: Plusle|Plusle, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|16
+|
+|t:|1760303904
+|move|p1a: Ninetales|Blizzard|p2a: Plusle
+|-damage|p2a: Plusle|32/100
+|move|p2a: Plusle|Nasty Plot|p2a: Plusle
+|-boost|p2a: Plusle|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p1: Anna Komnenos|move: Aurora Veil
+|upkeep
+|turn|17
+|
+|t:|1760303908
+|move|p2a: Plusle|Endure|p2a: Plusle
+|-singleturn|p2a: Plusle|move: Endure
+|move|p1a: Ninetales|Blizzard|p2a: Plusle
+|-activate|p2a: Plusle|move: Endure
+|-damage|p2a: Plusle|1/100
+|-enditem|p2a: Plusle|Salac Berry|[eat]
+|-boost|p2a: Plusle|spe|1|[from] item: Salac Berry
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1760303913
+|move|p2a: Plusle|Discharge|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760303915
+|switch|p1a: Dewgong|Dewgong, F|100/100
+|turn|19
+|
+|t:|1760303918
+|move|p1a: Dewgong|Aqua Jet|p2a: Plusle
+|-damage|p2a: Plusle|0 fnt
+|faint|p2a: Plusle
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760303922
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|20
+|
+|t:|1760303925
+|move|p2a: Samurott|Sacred Sword|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|9/100
+|move|p1a: Dewgong|Curse|p1a: Dewgong
+|-unboost|p1a: Dewgong|spe|1
+|-boost|p1a: Dewgong|atk|1
+|-boost|p1a: Dewgong|def|1
+|
+|-weather|none
+|-heal|p1a: Dewgong|15/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1760303930
+|move|p2a: Samurott|Sacred Sword|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|
+|upkeep
+|
+|t:|1760303932
+|switch|p1a: Lapras|Lapras, F|100/100
+|turn|22
+|
+|t:|1760303935
+|move|p2a: Samurott|Sacred Sword|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|win|FrontEndMgmt
+|raw|Anna Komnenos's rating: 1097 &rarr; <strong>1070</strong><br />(-27 for losing)
+|raw|FrontEndMgmt's rating: 1066 &rarr; <strong>1099</strong><br />(+33 for winning)
+|l|☆Anna Komnenos
+|player|p1|
+|l|☆FrontEndMgmt
+|player|p2|

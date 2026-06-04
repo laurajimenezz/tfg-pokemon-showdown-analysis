@@ -1,0 +1,241 @@
+|j|☆jamosb test
+|j|☆anamchara
+|t:|1760348642
+|gametype|singles
+|player|p1|jamosb test|2|1415
+|player|p2|anamchara|1|1443
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Okidogi, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Treads|
+|poke|p1|Clefable, F|
+|poke|p1|Walking Wake|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|t:|1760348669
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1760348681
+|switch|p1a: Okidogi|Okidogi, M|100/100
+|move|p2a: Meowscarada|U-turn|p1a: Okidogi
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Okidogi
+|-crit|p1a: Okidogi
+|-damage|p1a: Okidogi|91/100
+|
+|t:|1760348705
+|switch|p2a: Glimmora|Glimmora, F|100/100|[from] U-turn
+|
+|-heal|p1a: Okidogi|97/100|[from] Grassy Terrain
+|-heal|p1a: Okidogi|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1760348720
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Glimmora|Earth Power|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|16/100
+|-damage|p2a: Glimmora|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Iron Treads|22/100|[from] Grassy Terrain
+|-heal|p1a: Iron Treads|28/100|[from] item: Leftovers
+|-heal|p2a: Glimmora|97/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1760348733
+|-terastallize|p2a: Glimmora|Grass
+|move|p1a: Iron Treads|High Horsepower|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|74/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: jamosb test|move: Toxic Spikes
+|move|p2a: Glimmora|Energy Ball|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-damage|p2a: Glimmora|64/100|[from] item: Life Orb
+|
+|-heal|p2a: Glimmora|71/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760348739
+|switch|p1a: Okidogi|Okidogi, M|100/100
+|-sideend|p1: jamosb test|move: Toxic Spikes|[of] p1a: Okidogi
+|turn|4
+|
+|t:|1760348746
+|move|p2a: Glimmora|Earth Power|p1a: Okidogi
+|-supereffective|p1a: Okidogi
+|-damage|p1a: Okidogi|33/100
+|-damage|p2a: Glimmora|61/100|[from] item: Life Orb
+|move|p1a: Okidogi|Gunk Shot|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: jamosb test|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|-heal|p1a: Okidogi|39/100|[from] Grassy Terrain
+|-heal|p1a: Okidogi|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760348751
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|5
+|
+|t:|1760348758
+|move|p1a: Okidogi|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|43/100
+|-enditem|p2a: Slowking|Assault Vest|[from] move: Knock Off|[of] p1a: Okidogi
+|move|p2a: Slowking|Psychic Noise|p1a: Okidogi
+|-supereffective|p1a: Okidogi
+|-damage|p1a: Okidogi|0 fnt
+|faint|p1a: Okidogi
+|
+|-heal|p2a: Slowking|49/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760348780
+|switch|p1a: Clefable|Clefable, F|100/100
+|-status|p1a: Clefable|psn
+|turn|6
+|
+|t:|1760348791
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|47/100 psn
+|
+|-heal|p1a: Clefable|53/100 psn|[from] Grassy Terrain
+|-heal|p1a: Clefable|59/100 psn|[from] item: Leftovers
+|-heal|p2a: Slowking|55/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jamosb test)
+|
+|t:|1760348801
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|move|p2a: Slowking|Psychic Noise|p1a: Clefable
+|-damage|p1a: Clefable|43/100 psn
+|-start|p1a: Clefable|move: Heal Block
+|
+|-heal|p2a: Slowking|61/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1760348806
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Clefable|Moonblast|p2a: Ogerpon
+|-damage|p2a: Ogerpon|23/100
+|-unboost|p2a: Ogerpon|spa|1
+|
+|-heal|p2a: Ogerpon|29/100|[from] Grassy Terrain
+|-end|p1a: Clefable|move: Heal Block
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1760348815
+|-terastallize|p1a: Clefable|Water
+|move|p2a: Ogerpon|Horn Leech|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-heal|p2a: Ogerpon|58/100|[from] drain|[of] p1a: Clefable
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1760348833
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-status|p1a: Rillaboom|psn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|10
+|
+|t:|1760348835
+|switch|p2a: Slowking|Slowking-Galar, F|94/100
+|move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|
+|-heal|p2a: Slowking|99/100|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|88/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1760348840
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Rillaboom|Knock Off|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|85/100
+|
+|-heal|p2a: Iron Valiant|92/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|94/100 psn|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|82/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1760348843
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|62/100
+|
+|-heal|p1a: Rillaboom|88/100 psn|[from] Grassy Terrain
+|-heal|p2a: Slowking|68/100|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|75/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1760348846
+|move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|move|p2a: Slowking|Sludge Bomb|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Slowking|74/100|[from] Grassy Terrain
+|upkeep
+|-message|jamosb test forfeited.
+|
+|win|anamchara
+|raw|jamosb test's rating: 1415 &rarr; <strong>1396</strong><br />(-19 for losing)
+|raw|anamchara's rating: 1427 &rarr; <strong>1446</strong><br />(+19 for winning)
+|l|☆jamosb test
+|player|p1|
+|l|☆anamchara
+|player|p2|

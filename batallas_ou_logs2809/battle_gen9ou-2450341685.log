@@ -1,0 +1,146 @@
+|j|☆roryta
+|j|☆sorcier de pipi
+|t:|1758968907
+|gametype|singles
+|player|p1|roryta|hilbert|1073
+|player|p2|sorcier de pipi|roxie|1111
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Corviknight, M|
+|poke|p1|Iron Treads|
+|poke|p1|Primarina, F|
+|poke|p1|Whiscash, F|
+|poke|p1|Slither Wing|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Iron Moth|
+|poke|p2|Gholdengo|
+|poke|p2|Dragapult, F|
+|poke|p2|Corviknight, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by roryta)
+|
+|t:|1758968929
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Whiscash|Whiscash, F|100/100
+|switch|p2a: In Bloom|Deoxys-Speed|100/100
+|-ability|p2a: In Bloom|Pressure
+|turn|1
+|
+|t:|1758968937
+|move|p2a: In Bloom|Knock Off|p1a: Whiscash
+|-damage|p1a: Whiscash|75/100
+|-enditem|p1a: Whiscash|Leftovers|[from] move: Knock Off|[of] p2a: In Bloom
+|move|p1a: Whiscash|Curse|p1a: Whiscash
+|-unboost|p1a: Whiscash|spe|1
+|-boost|p1a: Whiscash|atk|1
+|-boost|p1a: Whiscash|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1758968943
+|move|p2a: In Bloom|Psycho Boost|p1a: Whiscash|[miss]
+|-miss|p2a: In Bloom|p1a: Whiscash
+|move|p1a: Whiscash|Curse|p1a: Whiscash
+|-unboost|p1a: Whiscash|spe|1
+|-boost|p1a: Whiscash|atk|1
+|-boost|p1a: Whiscash|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1758968946
+|move|p2a: In Bloom|Psycho Boost|p1a: Whiscash
+|-damage|p1a: Whiscash|34/100
+|-unboost|p2a: In Bloom|spa|2
+|-enditem|p2a: In Bloom|Eject Pack
+|
+|t:|1758968951
+|switch|p2a: Dead End Friends|Corviknight, M, shiny|100/100
+|move|p1a: Whiscash|Rest|p1a: Whiscash
+|-status|p1a: Whiscash|slp|[from] move: Rest
+|-heal|p1a: Whiscash|100/100 slp|[silent]
+|
+|upkeep
+|turn|4
+|
+|t:|1758968964
+|move|p2a: Dead End Friends|U-turn|p1a: Whiscash
+|-damage|p1a: Whiscash|93/100 slp
+|
+|t:|1758968968
+|switch|p2a: Voodoo Child|Iron Moth|100/100|[from] U-turn
+|-enditem|p2a: Voodoo Child|Booster Energy
+|-activate|p2a: Voodoo Child|ability: Quark Drive|[fromitem]
+|-start|p2a: Voodoo Child|quarkdrivespe
+|cant|p1a: Whiscash|slp
+|move|p1a: Whiscash|Sleep Talk|p1a: Whiscash
+|move|p1a: Whiscash|Liquidation|p2a: Voodoo Child|[from] move: Sleep Talk
+|-supereffective|p2a: Voodoo Child
+|-damage|p2a: Voodoo Child|0 fnt
+|faint|p2a: Voodoo Child
+|-end|p2a: Voodoo Child|Quark Drive|[silent]
+|
+|upkeep
+|inactive|sorcier de pipi has 120 seconds left.
+|
+|t:|1758969015
+|switch|p2a: Black Hole Sun|Landorus-Therian, M|100/100
+|-ability|p2a: Black Hole Sun|Intimidate|boost
+|-fail|p1a: Whiscash|unboost|Attack|[from] ability: Oblivious|[of] p1a: Whiscash
+|turn|5
+|
+|t:|1758969027
+|move|p2a: Black Hole Sun|U-turn|p1a: Whiscash
+|-damage|p1a: Whiscash|80/100 slp
+|
+|t:|1758969031
+|switch|p2a: Dead End Friends|Corviknight, M, shiny|100/100|[from] U-turn
+|cant|p1a: Whiscash|slp
+|move|p1a: Whiscash|Sleep Talk|p1a: Whiscash
+|move|p1a: Whiscash|Liquidation|p2a: Dead End Friends|[from] move: Sleep Talk
+|-damage|p2a: Dead End Friends|72/100
+|-damage|p1a: Whiscash|63/100 slp|[from] item: Rocky Helmet|[of] p2a: Dead End Friends
+|
+|upkeep
+|turn|6
+|
+|t:|1758969044
+|move|p2a: Dead End Friends|U-turn|p1a: Whiscash
+|-damage|p1a: Whiscash|55/100 slp
+|
+|t:|1758969047
+|switch|p2a: Black Hole Sun|Landorus-Therian, M|100/100|[from] U-turn
+|-ability|p2a: Black Hole Sun|Intimidate|boost
+|-fail|p1a: Whiscash|unboost|Attack|[from] ability: Oblivious|[of] p1a: Whiscash
+|-curestatus|p1a: Whiscash|slp|[msg]
+|move|p1a: Whiscash|Curse|p1a: Whiscash
+|-unboost|p1a: Whiscash|spe|1
+|-boost|p1a: Whiscash|atk|1
+|-boost|p1a: Whiscash|def|1
+|
+|upkeep
+|turn|7
+|-message|sorcier de pipi forfeited.
+|
+|win|roryta
+|raw|roryta's rating: 1073 &rarr; <strong>1105</strong><br />(+32 for winning)
+|raw|sorcier de pipi's rating: 1111 &rarr; <strong>1083</strong><br />(-28 for losing)
+|l|☆sorcier de pipi
+|player|p2|
+|l|☆roryta
+|player|p1|

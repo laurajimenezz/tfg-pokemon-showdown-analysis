@@ -1,0 +1,450 @@
+|j|☆Aidster
+|j|☆beccastane
+|t:|1758993088
+|gametype|singles
+|player|p1|Aidster|pokemaniac|1500
+|player|p2|beccastane|elesa|1503
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Kyurem|
+|poke|p1|Alomomola, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Vileplume, M|
+|poke|p2|Gholdengo|
+|poke|p2|Ceruledge, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Ribombee, M|
+|poke|p2|Quaquaval, F|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1758993115
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdriveatk
+|turn|1
+|
+|t:|1758993122
+|move|p1a: Cinderace|U-turn|p2a: Iron Treads
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|90/100
+|
+|t:|1758993126
+|switch|p1a: Alomomola|Alomomola, F|100/100|[from] U-turn
+|move|p2a: Iron Treads|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|66/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758993130
+|move|p2a: Iron Treads|Supercell Slam|p1a: Alomomola|[miss]
+|-miss|p2a: Iron Treads|p1a: Alomomola
+|-damage|p2a: Iron Treads|40/100|[from] supercellslam
+|move|p1a: Alomomola|Scald|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|9/100
+|-status|p2a: Iron Treads|brn
+|
+|-damage|p2a: Iron Treads|3/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1758993135
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Iron Treads|Earthquake|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-damage|p2a: Iron Treads|0 fnt|[from] brn
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|upkeep
+|
+|t:|1758993138
+|switch|p2a: Ribombee|Ribombee, M, shiny|100/100
+|turn|4
+|
+|t:|1758993150
+|move|p2a: Ribombee|Stun Spore|p1a: Alomomola|[miss]
+|-miss|p2a: Ribombee|p1a: Alomomola
+|move|p1a: Alomomola|Scald|p2a: Ribombee
+|-damage|p2a: Ribombee|75/100
+|
+|upkeep
+|turn|5
+|
+|t:|1758993154
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Ribombee|Stun Spore|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|upkeep
+|turn|6
+|
+|t:|1758993157
+|switch|p1a: Vileplume|Vileplume, M, shiny|100/100
+|move|p2a: Ribombee|Stun Spore|p1a: Vileplume
+|-immune|p1a: Vileplume
+|
+|upkeep
+|turn|7
+|
+|t:|1758993160
+|move|p2a: Ribombee|Sticky Web|p1a: Vileplume
+|-sidestart|p1: Aidster|move: Sticky Web
+|move|p1a: Vileplume|Toxic|p2a: Ribombee
+|-status|p2a: Ribombee|tox
+|
+|-damage|p2a: Ribombee|69/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1758993166
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-activate|p1a: Tyranitar|move: Sticky Web
+|-unboost|p1a: Tyranitar|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1758993171
+|move|p2a: Gholdengo|Make It Rain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|44/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Tyranitar|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|10/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|50/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758993187
+|move|p2a: Gholdengo|Make It Rain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|14/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Tyranitar|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|20/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758993190
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|11
+|
+|t:|1758993203
+|switch|p1a: Vileplume|Vileplume, M, shiny|100/100
+|-activate|p1a: Vileplume|move: Sticky Web
+|-unboost|p1a: Vileplume|spe|1
+|move|p2a: Enamorus|Superpower|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|87/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|-damage|p2a: Enamorus|84/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Enamorus|78/100|[from] Sandstorm
+|-damage|p1a: Vileplume|81/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1758993211
+|switch|p2a: Ribombee|Ribombee, M, shiny|69/100 tox
+|move|p1a: Vileplume|Toxic|p2a: Ribombee
+|-fail|p2a: Ribombee|tox
+|
+|-weather|none
+|-damage|p2a: Ribombee|63/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1758993222
+|switch|p1a: Alomomola|Alomomola, F|99/100
+|move|p2a: Ribombee|Moonblast|p1a: Alomomola
+|-damage|p1a: Alomomola|51/100
+|
+|-damage|p2a: Ribombee|50/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1758993232
+|switch|p2a: Enamorus|Enamorus, F|78/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|15
+|
+|t:|1758993241
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Enamorus|Moonblast|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|59/100
+|
+|-heal|p1a: Cinderace|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|16
+|
+|t:|1758993246
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Enamorus|Earth Power|p1a: Cinderace
+|-damage|p1a: Cinderace|57/100
+|
+|upkeep
+|turn|17
+|
+|t:|1758993253
+|move|p1a: Cinderace|U-turn|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|70/100
+|
+|t:|1758993259
+|switch|p1a: Alomomola|Alomomola, F|84/100|[from] U-turn
+|move|p2a: Enamorus|Superpower|p1a: Alomomola
+|-damage|p1a: Alomomola|68/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|
+|upkeep
+|turn|18
+|
+|t:|1758993262
+|move|p2a: Enamorus|Moonblast|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1758993267
+|switch|p1a: Tyranitar|Tyranitar, F|20/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|19
+|
+|t:|1758993274
+|switch|p1a: Vileplume|Vileplume, M, shiny|81/100
+|move|p2a: Enamorus|Superpower|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|62/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|-damage|p2a: Enamorus|54/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Enamorus|48/100|[from] Sandstorm
+|-damage|p1a: Vileplume|56/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|t:|1758993282
+|-terastallize|p2a: Enamorus|Stellar
+|move|p2a: Enamorus|Tera Blast|p1a: Vileplume|[anim] Tera Blast Stellar
+|-damage|p1a: Vileplume|4/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|move|p1a: Vileplume|Toxic|p2a: Enamorus
+|-status|p2a: Enamorus|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Enamorus|41/100 tox|[from] Sandstorm
+|-damage|p1a: Vileplume|0 fnt|[from] Sandstorm
+|faint|p1a: Vileplume
+|-damage|p2a: Enamorus|35/100 tox|[from] psn
+|upkeep
+|
+|t:|1758993294
+|switch|p1a: Excadrill|Excadrill, F, shiny|100/100
+|-item|p1a: Excadrill|Air Balloon
+|turn|21
+|
+|t:|1758993327
+|switch|p1a: Cinderace|Cinderace, F|57/100
+|move|p2a: Enamorus|Superpower|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|faint|p1a: Cinderace
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Enamorus|29/100 tox|[from] Sandstorm
+|-damage|p2a: Enamorus|16/100 tox|[from] psn
+|upkeep
+|
+|t:|1758993339
+|switch|p1a: Excadrill|Excadrill, F, shiny|100/100
+|-item|p1a: Excadrill|Air Balloon
+|turn|22
+|
+|t:|1758993342
+|move|p1a: Excadrill|Rapid Spin|p2a: Enamorus
+|-damage|p2a: Enamorus|4/100 tox
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Enamorus|Earth Power|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Enamorus|0 fnt|[from] Sandstorm
+|faint|p2a: Enamorus
+|upkeep
+|
+|t:|1758993348
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|-activate|p2a: Quaquaval|move: Sticky Web
+|-unboost|p2a: Quaquaval|spe|1
+|turn|23
+|
+|t:|1758993365
+|move|p1a: Excadrill|Earthquake|p2a: Quaquaval
+|-damage|p2a: Quaquaval|26/100
+|move|p2a: Quaquaval|Aqua Step|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-boost|p2a: Quaquaval|spe|1
+|-enditem|p1a: Excadrill|Air Balloon
+|faint|p1a: Excadrill
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|-weather|none
+|upkeep
+|
+|t:|1758993368
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|24
+|
+|t:|1758993378
+|move|p1a: Kyurem|Freeze-Dry|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|upkeep
+|
+|t:|1758993382
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|-activate|p2a: Ceruledge|move: Sticky Web
+|-unboost|p2a: Ceruledge|spe|1
+|turn|25
+|
+|t:|1758993387
+|switch|p1a: Tyranitar|Tyranitar, F|20/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ceruledge|Bitter Blade|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ceruledge|94/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|8/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1758993399
+|move|p2a: Ceruledge|Bitter Blade|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-heal|p2a: Ceruledge|99/100|[from] drain|[of] p1a: Tyranitar
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ceruledge|93/100|[from] Sandstorm
+|upkeep
+|
+|t:|1758993403
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|27
+|
+|t:|1758993419
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Kyurem
+|-damage|p1a: Kyurem|76/100
+|move|p1a: Kyurem|Earth Power|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|70/100|[from] Sandstorm
+|-damage|p2a: Ceruledge|20/100|[from] Sandstorm
+|upkeep
+|turn|28
+|
+|t:|1758993425
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Kyurem
+|-damage|p1a: Kyurem|47/100
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|41/100|[from] Sandstorm
+|-damage|p2a: Ceruledge|14/100|[from] Sandstorm
+|upkeep
+|turn|29
+|
+|t:|1758993430
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Kyurem
+|-damage|p1a: Kyurem|16/100
+|move|p1a: Kyurem|Earth Power|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-weather|none
+|upkeep
+|
+|t:|1758993431
+|switch|p2a: Ribombee|Ribombee, M, shiny|50/100 tox
+|-activate|p2a: Ribombee|move: Sticky Web
+|-unboost|p2a: Ribombee|spe|1
+|turn|30
+|
+|t:|1758993442
+|-terastallize|p1a: Kyurem|Ice
+|move|p1a: Kyurem|Icicle Spear|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|-hitcount|p2: Ribombee|1
+|
+|win|Aidster
+|raw|Aidster's rating: 1500 &rarr; <strong>1520</strong><br />(+20 for winning)
+|raw|beccastane's rating: 1503 &rarr; <strong>1483</strong><br />(-20 for losing)
+|c|☆Aidster|gg
+|l|☆beccastane
+|player|p2|
+|l|☆Aidster
+|player|p1|

@@ -1,0 +1,384 @@
+|j|☆Brromo
+|j|☆bjojbobojnpm
+|t:|1760366357
+|gametype|singles
+|player|p1|Brromo|linebacker|1256
+|player|p2|bjojbobojnpm|101|1276
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Iron Moth|
+|poke|p1|Sceptile, M|
+|poke|p1|Primarina, F|
+|poke|p1|Gholdengo|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Pecharunt|
+|poke|p2|Scizor, M|
+|poke|p2|Latios, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Brromo)
+|inactive|bjojbobojnpm also wants the timer to be on.
+|inactive|bjojbobojnpm has 120 seconds left.
+|inactive|bjojbobojnpm has 90 seconds left.
+|
+|t:|1760366421
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1760366438
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Pecharunt|Parting Shot|p1a: Iron Moth
+|-unboost|p1a: Iron Moth|atk|1
+|-unboost|p1a: Iron Moth|spa|1
+|
+|t:|1760366460
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Parting Shot
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Moth|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1760366473
+|move|p1a: Iron Moth|Fiery Dance|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|11/100
+|move|p2a: Landorus|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760366493
+|switch|p1a: Sceptile|Sceptile, M|100/100
+|-enditem|p1a: Sceptile|Grassy Seed
+|-boost|p1a: Sceptile|def|1|[from] item: Grassy Seed
+|turn|3
+|
+|t:|1760366502
+|move|p1a: Sceptile|Swords Dance|p1a: Sceptile
+|-boost|p1a: Sceptile|atk|2
+|move|p2a: Landorus|U-turn|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|51/100
+|
+|t:|1760366522
+|switch|p2a: Pecharunt|Pecharunt|100/100|[from] U-turn
+|
+|-heal|p1a: Sceptile|57/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1760366533
+|move|p1a: Sceptile|Acrobatics|p2a: Pecharunt
+|-damage|p2a: Pecharunt|64/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|-heal|p2a: Pecharunt|70/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760366551
+|switch|p1a: Primarina|Primarina, F|100/100
+|turn|5
+|
+|t:|1760366559
+|move|p2a: Pecharunt|Malignant Chain|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|52/100
+|move|p1a: Primarina|Psychic Noise|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|16/100
+|-start|p2a: Pecharunt|move: Heal Block
+|
+|-heal|p1a: Primarina|58/100|[from] Grassy Terrain
+|-heal|p1a: Primarina|64/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|bjojbobojnpm has 120 seconds left.
+|
+|t:|1760366600
+|move|p2a: Pecharunt|Malignant Chain|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|15/100
+|-status|p1a: Primarina|tox
+|-start|p1a: Primarina|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Primarina|confusion
+|move|p1a: Primarina|Psychic Noise|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|-heal|p1a: Primarina|21/100 tox|[from] Grassy Terrain
+|-heal|p1a: Primarina|27/100 tox|[from] item: Leftovers
+|-damage|p1a: Primarina|21/100 tox|[from] psn
+|upkeep
+|inactive|bjojbobojnpm has 90 seconds left.
+|
+|t:|1760366631
+|switch|p2a: Landorus|Landorus-Therian, M|11/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Primarina|atk|1
+|turn|7
+|
+|t:|1760366639
+|move|p2a: Landorus|U-turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|8/100 tox
+|
+|t:|1760366646
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100|[from] U-turn
+|-activate|p1a: Primarina|confusion
+|move|p1a: Primarina|Surf|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|65/100
+|
+|-heal|p2a: Samurott|72/100|[from] Grassy Terrain
+|-heal|p1a: Primarina|14/100 tox|[from] Grassy Terrain
+|-heal|p1a: Primarina|20/100 tox|[from] item: Leftovers
+|-damage|p1a: Primarina|8/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1760366655
+|move|p2a: Samurott|Ceaseless Edge|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|-sidestart|p1: Brromo|Spikes
+|faint|p1a: Primarina
+|
+|-heal|p2a: Samurott|78/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1760366661
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|9
+|inactive|bjojbobojnpm has 90 seconds left.
+|
+|t:|1760366690
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|89/100
+|
+|-heal|p1a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p2a: Scizor|95/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1760366707
+|move|p2a: Scizor|Bullet Punch|p1a: Rillaboom
+|-damage|p1a: Rillaboom|57/100
+|move|p1a: Rillaboom|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|82/100
+|inactive|Brromo has 120 seconds left.
+|
+|t:|1760366729
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-damage|p1a: Gholdengo|88/100|[from] Spikes
+|
+|-heal|p1a: Gholdengo|94/100|[from] Grassy Terrain
+|-heal|p2a: Scizor|88/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|inactive|bjojbobojnpm has 90 seconds left.
+|
+|t:|1760366756
+|move|p1a: Gholdengo|Shadow Ball|p2a: Scizor
+|-damage|p2a: Scizor|27/100
+|-unboost|p2a: Scizor|spd|1
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-heal|p1a: Gholdengo|99/100|[from] Grassy Terrain
+|-heal|p2a: Scizor|33/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1760366762
+|move|p2a: Scizor|Bullet Punch|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|59/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-heal|p1a: Gholdengo|65/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760366766
+|switch|p2a: Samurott|Samurott-Hisui, M|78/100
+|turn|13
+|
+|t:|1760366771
+|move|p1a: Gholdengo|Thunderbolt|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|12/100
+|-status|p2a: Samurott|par
+|cant|p2a: Samurott|par
+|
+|-heal|p1a: Gholdengo|71/100|[from] Grassy Terrain
+|-heal|p2a: Samurott|18/100 par|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1760366779
+|move|p1a: Gholdengo|Thunderbolt|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-heal|p1a: Gholdengo|77/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760366790
+|switch|p2a: Landorus|Landorus-Therian, M|11/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|turn|15
+|
+|t:|1760366808
+|move|p2a: Landorus|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|22/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-heal|p1a: Gholdengo|28/100|[from] Grassy Terrain
+|upkeep
+|inactive|bjojbobojnpm has 90 seconds left.
+|inactive|bjojbobojnpm has 60 seconds left.
+|
+|t:|1760366858
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|16
+|
+|t:|1760366868
+|move|p2a: Zamazenta|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1760366882
+|switch|p1a: Rillaboom|Rillaboom, M|57/100
+|-damage|p1a: Rillaboom|45/100|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|17
+|
+|t:|1760366899
+|-terastallize|p2a: Zamazenta|Fire
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Rillaboom|U-turn|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|97/100
+|
+|t:|1760366905
+|switch|p1a: Hawlucha|Hawlucha, M|100/100|[from] U-turn
+|-enditem|p1a: Hawlucha|Grassy Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Grassy Seed
+|
+|-heal|p2a: Zamazenta|100/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1760366925
+|move|p1a: Hawlucha|Encore|p2a: Zamazenta
+|-start|p2a: Zamazenta|Encore
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|upkeep
+|turn|19
+|
+|t:|1760366938
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|upkeep
+|turn|20
+|
+|t:|1760366947
+|move|p1a: Hawlucha|Acrobatics|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|
+|t:|1760366949
+|switch|p2a: Zamazenta|Zamazenta, tera:Fire|100/100
+|turn|21
+|
+|t:|1760366954
+|move|p1a: Hawlucha|Close Combat|p2a: Zamazenta
+|-damage|p2a: Zamazenta|26/100
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|move|p2a: Zamazenta|Roar|p1a: Hawlucha
+|drag|p1a: Rillaboom|Rillaboom, M|45/100
+|-damage|p1a: Rillaboom|32/100|[from] Spikes
+|
+|-heal|p2a: Zamazenta|32/100|[from] Grassy Terrain
+|-heal|p2a: Zamazenta|39/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|39/100|[from] Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1760366969
+|move|p2a: Zamazenta|Body Press|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Zamazenta|45/100|[from] Grassy Terrain
+|-heal|p2a: Zamazenta|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760366972
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|turn|23
+|-message|bjojbobojnpm forfeited.
+|
+|win|Brromo
+|raw|Brromo's rating: 1256 &rarr; <strong>1282</strong><br />(+26 for winning)
+|raw|bjojbobojnpm's rating: 1276 &rarr; <strong>1250</strong><br />(-26 for losing)
+|l|☆bjojbobojnpm
+|player|p2|
+|c|☆Brromo|gg wp
+|l|☆Brromo
+|player|p1|

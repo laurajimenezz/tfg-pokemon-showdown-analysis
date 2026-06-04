@@ -1,0 +1,149 @@
+|j|☆bevieiraa
+|j|☆jkage09
+|t:|1779564696
+|gametype|singles
+|player|p1|bevieiraa|169|1039
+|player|p2|jkage09|266|1011
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Crown|
+|poke|p1|Iron Hands|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Great Tusk|
+|poke|p1|Glimmora, M|
+|poke|p1|Dragonite, F|
+|poke|p2|Regirock|
+|poke|p2|Snorlax, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Metagross|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|t:|1779564708
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1779564719
+|move|p2a: Ceruledge|Substitute|p2a: Ceruledge
+|-start|p2a: Ceruledge|Substitute
+|-damage|p2a: Ceruledge|75/100
+|move|p1a: Iron Hands|Swords Dance|p1a: Iron Hands
+|-boost|p1a: Iron Hands|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1779564731
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Iron Hands|Ice Punch|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-end|p2a: Ceruledge|Substitute
+|
+|upkeep
+|turn|3
+|
+|t:|1779564745
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Iron Hands|Wild Charge|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|-damage|p1a: Iron Hands|89/100|[from] Recoil
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bevieiraa)
+|
+|t:|1779564755
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|4
+|
+|t:|1779564762
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Iron Hands|Ice Punch|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1779564771
+|switch|p2a: Regirock|Regirock|100/100
+|turn|5
+|
+|t:|1779564776
+|move|p1a: Iron Hands|Drain Punch|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|-heal|p1a: Iron Hands|100/100|[from] drain|[of] p2a: Regirock
+|faint|p2a: Regirock
+|
+|upkeep
+|
+|t:|1779564799
+|switch|p2a: Metagross|Metagross, shiny|100/100
+|turn|6
+|
+|t:|1779564807
+|move|p2a: Metagross|Earthquake|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|60/100
+|move|p1a: Iron Hands|Wild Charge|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|-damage|p1a: Iron Hands|43/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1779564820
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|turn|7
+|
+|t:|1779564829
+|move|p1a: Iron Hands|Drain Punch|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|-heal|p1a: Iron Hands|90/100|[from] drain|[of] p2a: Snorlax
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|t:|1779564838
+|switch|p2a: Kingambit|Kingambit, F, shiny|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|8
+|
+|t:|1779564850
+|move|p2a: Kingambit|Low Kick|p1a: Iron Hands
+|-damage|p1a: Iron Hands|59/100
+|move|p1a: Iron Hands|Drain Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-heal|p1a: Iron Hands|96/100|[from] drain|[of] p2a: Kingambit
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|bevieiraa
+|raw|bevieiraa's rating: 1039 &rarr; <strong>1070</strong><br />(+31 for winning)
+|raw|jkage09's rating: 1011 &rarr; <strong>1000</strong><br />(-11 for losing)

@@ -1,0 +1,469 @@
+|j|☆CopiumBathTub
+|j|☆choppedkins
+|t:|1757874622
+|gametype|singles
+|player|p1|CopiumBathTub|psychic-gen4|1601
+|player|p2|choppedkins|tate|1603
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meowscarada, M|
+|poke|p1|Gholdengo|
+|poke|p1|Scizor, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Kyurem|
+|poke|p1|Great Tusk|
+|poke|p2|Rillaboom, F|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Treads|
+|poke|p2|Hawlucha, M|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|t:|1757874648
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: Iron Treads|Iron Treads, shiny|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1757874664
+|move|p1a: Meowscarada|U-turn|p2a: Iron Treads
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|86/100
+|
+|t:|1757874665
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|move|p2a: Iron Treads|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: CopiumBathTub|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1757874670
+|move|p2a: Iron Treads|Earth Power|p1a: Great Tusk
+|-damage|p1a: Great Tusk|50/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Iron Treads
+|-damage|p2a: Iron Treads|60/100
+|
+|-heal|p1a: Great Tusk|56/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1757874678
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Great Tusk|Rapid Spin|p2a: Rillaboom
+|-damage|p2a: Rillaboom|83/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: CopiumBathTub|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|62/100|[from] Grassy Terrain
+|-heal|p1a: Great Tusk|69/100|[from] item: Leftovers
+|-heal|p2a: Rillaboom|89/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1757874685
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|move|p2a: Rillaboom|U-turn|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|t:|1757874695
+|switch|p2a: Iron Treads|Iron Treads, shiny|60/100|[from] U-turn
+|
+|-heal|p2a: Iron Treads|66/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757874705
+|switch|p1a: Great Tusk|Great Tusk|69/100
+|turn|5
+|
+|t:|1757874710
+|move|p2a: Iron Treads|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: CopiumBathTub|move: Stealth Rock
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p1a: Great Tusk|75/100|[from] Grassy Terrain
+|-heal|p1a: Great Tusk|81/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757874714
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p2a: Hawlucha|Grassy Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Grassy Seed
+|turn|6
+|
+|t:|1757874719
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Hawlucha|Acrobatics|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|78/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|-heal|p1a: Gholdengo|84/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1757874724
+|move|p2a: Hawlucha|Substitute|p2a: Hawlucha
+|-start|p2a: Hawlucha|Substitute
+|-damage|p2a: Hawlucha|76/100
+|move|p1a: Gholdengo|Thunder Wave||[still]
+|-fail|p1a: Gholdengo
+|
+|-heal|p1a: Gholdengo|90/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1757874734
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Gholdengo|Hex|p2a: Hawlucha
+|-end|p2a: Hawlucha|Substitute
+|
+|upkeep
+|turn|9
+|
+|t:|1757874737
+|move|p2a: Hawlucha|Acrobatics|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|57/100
+|move|p1a: Gholdengo|Hex|p2a: Hawlucha
+|-damage|p2a: Hawlucha|36/100
+|
+|upkeep
+|turn|10
+|
+|t:|1757874742
+|move|p2a: Hawlucha|Substitute|p2a: Hawlucha
+|-start|p2a: Hawlucha|Substitute
+|-damage|p2a: Hawlucha|11/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Hawlucha
+|-end|p2a: Hawlucha|Substitute
+|-unboost|p1a: Gholdengo|spa|1
+|
+|upkeep
+|turn|11
+|
+|t:|1757874745
+|move|p2a: Hawlucha|Acrobatics|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|19/100
+|move|p1a: Gholdengo|Hex|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|t:|1757874754
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|12
+|
+|t:|1757874755
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Gholdengo|[anim] Ivy Cudgel Rock
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1757874757
+|switch|p1a: Scizor|Scizor, F|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1757874760
+|switch|p2a: Iron Moth|Iron Moth, shiny|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Scizor|Bullet Punch|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|60/100
+|
+|upkeep
+|turn|14
+|
+|t:|1757874766
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Rillaboom|Rillaboom, F|89/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-terastallize|p1a: Scizor|Steel
+|move|p1a: Scizor|Bullet Punch|p2a: Rillaboom
+|-damage|p2a: Rillaboom|8/100
+|
+|-heal|p2a: Rillaboom|14/100|[from] Grassy Terrain
+|-heal|p1a: Scizor|94/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1757874775
+|move|p1a: Scizor|Bullet Punch|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Scizor|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757874777
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-enditem|p2a: Gholdengo|Grassy Seed
+|-boost|p2a: Gholdengo|def|1|[from] item: Grassy Seed
+|turn|16
+|
+|t:|1757874782
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-damage|p1a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-heal|p1a: Ting-Lu|100/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1757874786
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Ting-Lu|Ruination|p2a: Gholdengo|[miss]
+|-miss|p1a: Ting-Lu|p2a: Gholdengo
+|
+|upkeep
+|turn|18
+|
+|t:|1757874789
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Ting-Lu|Ruination|p2a: Gholdengo
+|-damage|p2a: Gholdengo|50/100
+|
+|-heal|p2a: Gholdengo|57/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1757874797
+|-terastallize|p2a: Gholdengo|Water
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|100/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Gholdengo
+|-damage|p2a: Gholdengo|78/100
+|
+|upkeep
+|turn|20
+|
+|t:|1757874800
+|move|p2a: Gholdengo|Make It Rain|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|8/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Ting-Lu|Ruination|p2a: Gholdengo
+|-damage|p2a: Gholdengo|39/100
+|
+|-heal|p1a: Ting-Lu|15/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1757874803
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|89/100
+|move|p1a: Ting-Lu|Spikes|p2a: Gholdengo
+|-sidestart|p2: choppedkins|Spikes
+|
+|-heal|p1a: Ting-Lu|21/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1757874808
+|move|p2a: Gholdengo|Make It Rain|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1757874809
+|switch|p1a: Kyurem|Kyurem|100/100
+|-damage|p1a: Kyurem|75/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|turn|23
+|
+|t:|1757874818
+|switch|p2a: Iron Moth|Iron Moth, shiny|60/100
+|-damage|p2a: Iron Moth|48/100|[from] Spikes
+|move|p1a: Kyurem|Protect||[still]
+|-fail|p1a: Kyurem
+|
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1757874832
+|move|p1a: Kyurem|Protect|p1a: Kyurem
+|-singleturn|p1a: Kyurem|Protect
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Protect
+|
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1757874836
+|switch|p1a: Great Tusk|Great Tusk|81/100
+|-damage|p1a: Great Tusk|78/100|[from] Stealth Rock
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1757874838
+|switch|p1a: Scizor|Scizor, F, tera:Steel|100/100
+|-damage|p1a: Scizor|94/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1757874862
+|move|p1a: Scizor|Bullet Punch|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757874863
+|switch|p2a: Gholdengo|Gholdengo, tera:Water|89/100
+|-damage|p2a: Gholdengo|77/100|[from] Spikes
+|turn|27
+|
+|t:|1757874867
+|move|p1a: Scizor|Bullet Punch|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|49/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|57/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|upkeep
+|turn|28
+|
+|t:|1757874870
+|move|p1a: Scizor|Bullet Punch|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|21/100
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|71/100
+|
+|upkeep
+|turn|29
+|
+|t:|1757874873
+|switch|p1a: Kyurem|Kyurem|88/100
+|-damage|p1a: Kyurem|63/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Gholdengo|Make It Rain|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1757874875
+|switch|p1a: Scizor|Scizor, F, tera:Steel|57/100
+|-damage|p1a: Scizor|51/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1757874880
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Spikes
+|move|p1a: Scizor|Bullet Punch|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1757874882
+|switch|p2a: Gholdengo|Gholdengo, tera:Water|71/100
+|-damage|p2a: Gholdengo|58/100|[from] Spikes
+|turn|31
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by choppedkins)
+|
+|t:|1757874891
+|move|p1a: Scizor|Bullet Punch|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|29/100
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|79/100
+|
+|upkeep
+|turn|32
+|
+|t:|1757874893
+|move|p1a: Scizor|Bullet Punch|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|49/100
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|99/100
+|
+|upkeep
+|turn|33
+|
+|t:|1757874896
+|move|p1a: Scizor|Bullet Punch|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|73/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|34
+|
+|t:|1757874898
+|move|p1a: Scizor|Bullet Punch|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|45/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|win|choppedkins
+|raw|CopiumBathTub's rating: 1601 &rarr; <strong>1581</strong><br />(-20 for losing)
+|raw|choppedkins's rating: 1603 &rarr; <strong>1623</strong><br />(+20 for winning)
+|l|☆CopiumBathTub
+|player|p1|
+|l|☆choppedkins
+|player|p2|

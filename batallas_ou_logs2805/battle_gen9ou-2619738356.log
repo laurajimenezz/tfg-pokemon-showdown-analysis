@@ -1,0 +1,387 @@
+|j|☆chico wilson
+|j|‽aaagislash
+|t:|1779956816
+|gametype|singles
+|player|p1|chico wilson|101|1387
+|player|p2|aaagislash|266|1357
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Heatran, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Alomomola, F|
+|poke|p1|Hawlucha, M|
+|poke|p1|Okidogi, M|
+|poke|p2|Yanmega, F|
+|poke|p2|Moltres|
+|poke|p2|Great Tusk|
+|poke|p2|Primarina, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Meowscarada, F|
+|teampreview
+|
+|t:|1779956843
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|turn|1
+|
+|t:|1779956857
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-ability|p1a: Hawlucha|Mold Breaker
+|move|p2a: Landorus|Taunt|p1a: Hawlucha
+|-start|p1a: Hawlucha|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1779956863
+|move|p2a: Landorus|Fling|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|97/100
+|-status|p1a: Hawlucha|par
+|-enditem|p2a: Landorus|Light Ball|[from] move: Fling
+|move|p1a: Hawlucha|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|92/100
+|
+|t:|1779956871
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1779956875
+|move|p1a: Dragapult|Draco Meteor|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1779956885
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|4
+|
+|t:|1779956893
+|switch|p1a: Hawlucha|Hawlucha, M|97/100 par
+|-ability|p1a: Hawlucha|Mold Breaker
+|move|p2a: Great Tusk|Rapid Spin|p1a: Hawlucha
+|-damage|p1a: Hawlucha|78/100 par
+|-boost|p2a: Great Tusk|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1779956900
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Hawlucha|Encore|p2a: Great Tusk
+|-start|p2a: Great Tusk|Encore
+|
+|upkeep
+|turn|6
+|
+|t:|1779956906
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|upkeep
+|turn|7
+|
+|t:|1779956911
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Primarina|Primarina, M|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Primarina
+|-immune|p2a: Primarina
+|
+|upkeep
+|turn|8
+|
+|t:|1779956921
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1779956934
+|switch|p1a: Hawlucha|Hawlucha, M|78/100 par
+|-ability|p1a: Hawlucha|Mold Breaker
+|move|p2a: Meowscarada|Spikes|p1a: Hawlucha
+|-start|p2a: Meowscarada|typechange|Ground|[from] ability: Protean
+|-sidestart|p1: chico wilson|Spikes
+|
+|upkeep
+|turn|10
+|
+|t:|1779956944
+|move|p2a: Meowscarada|Shadow Ball|p1a: Hawlucha
+|-damage|p1a: Hawlucha|49/100 par
+|move|p1a: Hawlucha|Defog|p2a: Meowscarada
+|-unboost|p2a: Meowscarada|evasion|1
+|-sideend|p1: chico wilson|Spikes|[from] move: Defog|[of] p1a: Hawlucha
+|
+|upkeep
+|turn|11
+|
+|t:|1779956950
+|move|p2a: Meowscarada|Spikes|p1a: Hawlucha
+|-sidestart|p1: chico wilson|Spikes
+|move|p1a: Hawlucha|Roost|p1a: Hawlucha
+|-heal|p1a: Hawlucha|99/100 par
+|-singleturn|p1a: Hawlucha|move: Roost
+|
+|upkeep
+|turn|12
+|
+|t:|1779956958
+|move|p2a: Meowscarada|Shadow Ball|p1a: Hawlucha
+|-damage|p1a: Hawlucha|69/100 par
+|move|p1a: Hawlucha|Defog|p2a: Meowscarada
+|-unboost|p2a: Meowscarada|evasion|1
+|-sideend|p1: chico wilson|Spikes|[from] move: Defog|[of] p1a: Hawlucha
+|
+|upkeep
+|turn|13
+|
+|t:|1779956964
+|switch|p1a: Okidogi|Okidogi, M|100/100
+|move|p2a: Meowscarada|Spikes|p1a: Okidogi
+|-sidestart|p1: chico wilson|Spikes
+|
+|upkeep
+|turn|14
+|
+|t:|1779956974
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Okidogi|Poison Jab|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|85/100
+|
+|upkeep
+|turn|15
+|
+|t:|1779956986
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Yanmega|Yanmega, F|100/100
+|move|p1a: Okidogi|Ice Punch|p2a: Yanmega
+|-supereffective|p2a: Yanmega
+|-damage|p2a: Yanmega|30/100
+|-status|p2a: Yanmega|tox|[from] ability: Toxic Chain|[of] p1a: Okidogi
+|
+|-damage|p2a: Yanmega|24/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1779956997
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-damage|p1a: Alomomola|88/100|[from] Spikes
+|move|p2a: Yanmega|Psychic Noise|p1a: Alomomola
+|-damage|p1a: Alomomola|75/100
+|-start|p1a: Alomomola|move: Heal Block
+|-enditem|p2a: Yanmega|Throat Spray
+|-boost|p2a: Yanmega|spa|1|[from] item: Throat Spray
+|
+|-damage|p2a: Yanmega|12/100 tox|[from] psn
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|turn|17
+|
+|t:|1779957006
+|move|p2a: Yanmega|Protect|p2a: Yanmega
+|-singleturn|p2a: Yanmega|Protect
+|move|p1a: Alomomola|Aqua Jet|p2a: Yanmega
+|-activate|p2a: Yanmega|move: Protect
+|
+|-damage|p2a: Yanmega|0 fnt|[from] psn
+|faint|p2a: Yanmega
+|-end|p1a: Alomomola|move: Heal Block
+|upkeep
+|
+|t:|1779957019
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|18
+|
+|t:|1779957025
+|switch|p1a: Hawlucha|Hawlucha, M|69/100 par
+|-ability|p1a: Hawlucha|Mold Breaker
+|move|p2a: Meowscarada|Shadow Ball|p1a: Hawlucha
+|-start|p2a: Meowscarada|typechange|Ghost|[from] ability: Protean
+|-damage|p1a: Hawlucha|28/100 par
+|-unboost|p1a: Hawlucha|spd|1
+|
+|upkeep
+|turn|19
+|
+|t:|1779957036
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Spikes
+|move|p2a: Meowscarada|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|64/100
+|-unboost|p1a: Heatran|spd|1
+|
+|-heal|p1a: Heatran|71/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1779957042
+|move|p2a: Meowscarada|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|31/100
+|-unboost|p1a: Heatran|spd|1
+|move|p1a: Heatran|Lava Plume|p2a: Meowscarada
+|-damage|p2a: Meowscarada|44/100
+|
+|-heal|p1a: Heatran|37/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1779957052
+|switch|p1a: Okidogi|Okidogi, M|100/100
+|-damage|p1a: Okidogi|88/100|[from] Spikes
+|move|p2a: Meowscarada|Shadow Ball|p1a: Okidogi
+|-damage|p1a: Okidogi|57/100
+|
+|upkeep
+|turn|22
+|
+|t:|1779957068
+|move|p2a: Meowscarada|Shadow Ball|p1a: Okidogi
+|-damage|p1a: Okidogi|22/100
+|-unboost|p1a: Okidogi|spd|1
+|move|p1a: Okidogi|Knock Off|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|-enditem|p2a: Meowscarada|Metronome|[from] move: Knock Off|[of] p1a: Okidogi
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1779957077
+|switch|p2a: Moltres|Moltres|100/100
+|turn|23
+|
+|t:|1779957091
+|move|p2a: Moltres|Flamethrower|p1a: Okidogi
+|-damage|p1a: Okidogi|0 fnt
+|faint|p1a: Okidogi
+|-damage|p2a: Moltres|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779957102
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Moltres|atk|1
+|turn|24
+|
+|t:|1779957107
+|move|p1a: Landorus|Rock Slide|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|upkeep
+|
+|t:|1779957111
+|switch|p2a: Great Tusk|Great Tusk|85/100
+|turn|25
+|
+|t:|1779957125
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-damage|p1a: Alomomola|88/100|[from] Spikes
+|move|p2a: Great Tusk|Rapid Spin|p1a: Alomomola
+|-damage|p1a: Alomomola|76/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|upkeep
+|turn|26
+|
+|t:|1779957147
+|move|p2a: Great Tusk|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|50/100
+|-enditem|p1a: Alomomola|Assault Vest|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Alomomola|Scald|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|41/100
+|-status|p2a: Great Tusk|brn
+|
+|-damage|p2a: Great Tusk|35/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1779957155
+|move|p2a: Great Tusk|Close Combat|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|12/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Alomomola|Scald|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779957159
+|switch|p2a: Primarina|Primarina, M|100/100
+|turn|28
+|
+|t:|1779957172
+|move|p2a: Primarina|Moonblast|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1779957180
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Primarina|atk|1
+|turn|29
+|
+|t:|1779957183
+|move|p1a: Landorus|Earthquake|p2a: Primarina
+|-damage|p2a: Primarina|30/100
+|move|p2a: Primarina|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|15/100
+|
+|upkeep
+|turn|30
+|
+|t:|1779957186
+|move|p1a: Landorus|Earthquake|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|win|chico wilson
+|raw|chico wilson's rating: 1387 &rarr; <strong>1405</strong><br />(+18 for winning)
+|raw|aaagislash's rating: 1357 &rarr; <strong>1339</strong><br />(-18 for losing)
+|l|‽aaagislash
+|player|p2|
+|l|☆chico wilson
+|player|p1|

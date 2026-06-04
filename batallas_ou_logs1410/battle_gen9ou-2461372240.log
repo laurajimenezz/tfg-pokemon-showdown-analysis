@@ -1,0 +1,415 @@
+|j|☆teamskullenoxa
+|j|‽solascriptura1521
+|t:|1760436000
+|gametype|singles
+|player|p1|teamskullenoxa|102|1709
+|player|p2|solascriptura1521|1|1740
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Lokix, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Weavile, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Cinderace, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Walking Wake|
+|poke|p2|Raging Bolt|
+|poke|p2|Kingambit, F|
+|poke|p2|Great Tusk|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1760436008
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1760436023
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Slowking|Future Sight|p2a: Walking Wake
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760436032
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Walking Wake|Flip Turn|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|97/100
+|
+|t:|1760436034
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Kingambit|Kingambit, F|100/100|[from] Flip Turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760436038
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|33/100
+|move|p1a: Alomomola|Flip Turn|p2a: Kingambit
+|-damage|p2a: Kingambit|95/100
+|
+|t:|1760436041
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] Flip Turn
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Kingambit|move: Future Sight
+|-immune|p2a: Kingambit
+|upkeep
+|turn|4
+|
+|t:|1760436045
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Cinderace|U-turn|p2a: Walking Wake
+|-damage|p2a: Walking Wake|77/100
+|
+|t:|1760436049
+|switch|p1a: Alomomola|Alomomola, M|66/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760436054
+|move|p2a: Walking Wake|Draco Meteor|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Alomomola
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760436064
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|6
+|
+|t:|1760436074
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Enamorus|Moonblast|p2a: Hatterene
+|-damage|p2a: Hatterene|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Hatterene|45/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760436083
+|move|p1a: Enamorus|Moonblast|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760436085
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|8
+|
+|t:|1760436094
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|-weather|none
+|-end|p2a: Raging Bolt|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1760436100
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760436122
+|switch|p1a: Enamorus|Enamorus, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760436127
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Enamorus|Moonblast|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|73/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760436162
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Torkoal|Lava Plume|p1a: Slowking
+|-damage|p1a: Slowking|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1760436171
+|switch|p2a: Kingambit|Kingambit, F|95/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760436189
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1760436205
+|move|p1a: Cinderace|Pyro Ball|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|16/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Cinderace
+|-damage|p1a: Cinderace|1/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1760436212
+|move|p2a: Kingambit|Sucker Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760436215
+|switch|p1a: Lokix|Lokix, M|100/100
+|turn|15
+|
+|t:|1760436227
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Torkoal|Torkoal, M|73/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Lokix|U-turn|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|44/100
+|
+|t:|1760436254
+|switch|p1a: Enamorus|Enamorus, F|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1760436258
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Torkoal|Lava Plume|p1a: Slowking
+|-damage|p1a: Slowking|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1760436264
+|switch|p2a: Kingambit|Kingambit, F|16/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Slowking|Sludge Bomb|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|j| Anxiety87
+|l| Anxiety87
+|
+|t:|1760436276
+|move|p2a: Kingambit|Iron Head|p1a: Slowking
+|-damage|p1a: Slowking|38/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760436283
+|switch|p1a: Lokix|Lokix, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1760436293
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Torkoal|Torkoal, M|44/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Lokix|First Impression|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|12/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1760436304
+|move|p1a: Lokix|U-turn|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|t:|1760436321
+|switch|p1a: Slowking|Slowking-Galar, M|72/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760436324
+|switch|p2a: Walking Wake|Walking Wake|77/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|21
+|
+|t:|1760436329
+|-terastallize|p2a: Walking Wake|Water
+|-terastallize|p1a: Slowking|Grass
+|move|p2a: Walking Wake|Hydro Steam|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|14/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|-end|p2a: Walking Wake|Protosynthesis
+|
+|t:|1760436353
+|switch|p1a: Enamorus|Enamorus, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1760436356
+|move|p1a: Enamorus|Moonblast|p2a: Walking Wake
+|-damage|p2a: Walking Wake|6/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760436362
+|switch|p1a: Lokix|Lokix, M|100/100
+|turn|23
+|
+|t:|1760436365
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Lokix|First Impression|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|61/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1760436374
+|move|p1a: Lokix|U-turn|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|28/100
+|
+|t:|1760436377
+|switch|p1a: Slowking|Slowking-Galar, M, tera:Grass|47/100|[from] U-turn
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-unboost|p2a: Raging Bolt|spa|2
+|faint|p1a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760436380
+|switch|p1a: Lokix|Lokix, M|100/100
+|turn|25
+|
+|t:|1760436384
+|move|p2a: Raging Bolt|Thunderclap|p1a: Lokix
+|-damage|p1a: Lokix|62/100
+|move|p1a: Lokix|U-turn|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|t:|1760436387
+|switch|p1a: Weavile|Weavile, F|100/100|[from] U-turn
+|-ability|p1a: Weavile|Pressure
+|
+|-weather|none
+|upkeep
+|
+|t:|1760436389
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|26
+|
+|t:|1760436392
+|move|p1a: Weavile|Triple Axel|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|77/100
+|-hitcount|p2a: Great Tusk|1
+|move|p2a: Great Tusk|Close Combat|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Weavile
+|
+|-heal|p2a: Great Tusk|84/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760436399
+|switch|p1a: Lokix|Lokix, M|62/100
+|turn|27
+|
+|t:|1760436401
+|move|p1a: Lokix|First Impression|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|24/100
+|move|p2a: Great Tusk|Close Combat|p1a: Lokix
+|-damage|p1a: Lokix|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Lokix
+|
+|win|solascriptura1521
+|raw|teamskullenoxa's rating: 1709 &rarr; <strong>1691</strong><br />(-18 for losing)
+|raw|solascriptura1521's rating: 1740 &rarr; <strong>1758</strong><br />(+18 for winning)
+|l|‽solascriptura1521
+|player|p2|
+|l|☆teamskullenoxa
+|player|p1|

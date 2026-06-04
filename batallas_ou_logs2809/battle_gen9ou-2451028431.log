@@ -1,0 +1,183 @@
+|j|☆123ebolaman
+|j|☆triplemence
+|t:|1759068992
+|gametype|singles
+|player|p1|123ebolaman|blackbelt-gen4dp|1494
+|player|p2|triplemence|265|1552
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ceruledge, F|
+|poke|p1|Araquanid, M|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p1|Enamorus, F|
+|poke|p1|Ursaluna, M|
+|poke|p2|Mienshao, M|
+|poke|p2|Hydrapple, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1759069013
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1759069040
+|move|p2a: Iron Treads|Stealth Rock|p1a: Araquanid
+|-sidestart|p1: 123ebolaman|move: Stealth Rock
+|move|p1a: Araquanid|Surf|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1759069063
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|turn|2
+|
+|t:|1759069081
+|move|p2a: Mienshao|Stone Edge|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|10/100
+|-damage|p2a: Mienshao|91/100|[from] item: Life Orb
+|move|p1a: Araquanid|Sticky Web|p2a: Mienshao
+|-sidestart|p2: triplemence|move: Sticky Web
+|
+|upkeep
+|turn|3
+|-enditem|p1a: Araquanid|Custap Berry|[eat]
+|-activate|p1a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1759069101
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-activate|p2a: Alomomola|move: Sticky Web
+|-unboost|p2a: Alomomola|spe|1
+|move|p1a: Araquanid|Endeavor|p2a: Alomomola
+|-damage|p2a: Alomomola|7/100
+|
+|upkeep
+|turn|4
+|
+|t:|1759069160
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Araquanid|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|66/100
+|
+|upkeep
+|turn|5
+|
+|t:|1759069175
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|move|p2a: Corviknight|Body Press|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|-heal|p1a: Gholdengo|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1759069191
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|-activate|p2a: Hydrapple|move: Sticky Web
+|-unboost|p2a: Hydrapple|spe|1
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|7
+|
+|t:|1759069245
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Hydrapple|Earth Power|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|8/100
+|-damage|p2a: Hydrapple|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Gholdengo|14/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1759069274
+|move|p1a: Gholdengo|Make It Rain|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Hydrapple
+|
+|-heal|p1a: Gholdengo|20/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1759069287
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|9
+|
+|t:|1759069297
+|-terastallize|p2a: Skeledirge|Fairy
+|move|p1a: Gholdengo|Shadow Ball|p2a: Skeledirge
+|-damage|p2a: Skeledirge|47/100
+|move|p2a: Skeledirge|Torch Song|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1759069308
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1759069332
+|switch|p2a: Corviknight|Corviknight, F|66/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ursaluna|Trailblaze|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|62/100
+|-boost|p1a: Ursaluna|spe|1
+|-damage|p1a: Ursaluna|78/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+|
+|t:|1759069393
+|move|p1a: Ursaluna|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Ursaluna|61/100 brn|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|-damage|p1a: Ursaluna|55/100 brn|[from] brn
+|upkeep
+|-message|triplemence forfeited.
+|
+|win|123ebolaman
+|raw|123ebolaman's rating: 1494 &rarr; <strong>1517</strong><br />(+23 for winning)
+|raw|triplemence's rating: 1552 &rarr; <strong>1529</strong><br />(-23 for losing)
+|l|☆triplemence
+|player|p2|
+|l|☆123ebolaman
+|player|p1|

@@ -1,0 +1,419 @@
+|j|☆infinub
+|j|☆Askedsomuch
+|t:|1760790341
+|gametype|singles
+|player|p1|infinub|170|1120
+|player|p2|Askedsomuch|102|1094
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ceruledge, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Alcremie, F|
+|poke|p1|Serperior, M|
+|poke|p1|Regigigas|
+|poke|p1|Trevenant, M|
+|poke|p2|Metagross|
+|poke|p2|Krookodile, M|
+|poke|p2|Armarouge, M|
+|poke|p2|Galvantula, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Mimikyu, M|
+|teampreview
+|
+|t:|1760790348
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|turn|1
+|
+|t:|1760790353
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: infinub|move: Light Screen
+|move|p2a: Galvantula|Sticky Web|p1a: Grimmsnarl
+|-sidestart|p1: infinub|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1760790358
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: infinub|Reflect
+|move|p2a: Galvantula|Volt Switch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|89/100
+|
+|t:|1760790378
+|switch|p2a: Krookodile|Krookodile, M|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|3
+|
+|t:|1760790384
+|move|p2a: Krookodile|Bulk Up|p2a: Krookodile
+|-boost|p2a: Krookodile|atk|1
+|-boost|p2a: Krookodile|def|1
+|move|p1a: Grimmsnarl|Chilling Water|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|69/100
+|-unboost|p2a: Krookodile|atk|1
+|
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by infinub)
+|
+|t:|1760790394
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Grimmsnarl|Chilling Water|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|97/100
+|-unboost|p2a: Toxapex|atk|1
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1760790406
+|switch|p1a: Alcremie|Alcremie, F|100/100
+|-activate|p1a: Alcremie|move: Sticky Web
+|-unboost|p1a: Alcremie|spe|1
+|move|p2a: Toxapex|Toxic|p1a: Alcremie
+|-status|p1a: Alcremie|tox
+|
+|-damage|p1a: Alcremie|95/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1760790416
+|move|p1a: Alcremie|Alluring Voice|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|92/100
+|move|p2a: Toxapex|Hydro Pump|p1a: Alcremie
+|-damage|p1a: Alcremie|86/100 tox
+|
+|-heal|p1a: Alcremie|92/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|98/100|[from] item: Black Sludge
+|-damage|p1a: Alcremie|80/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1760790427
+|switch|p1a: Regigigas|Regigigas|100/100
+|-activate|p1a: Regigigas|move: Sticky Web
+|-unboost|p1a: Regigigas|spe|1
+|-start|p1a: Regigigas|ability: Slow Start
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1760790431
+|move|p2a: Toxapex|Toxic|p1a: Regigigas
+|-status|p1a: Regigigas|tox
+|move|p1a: Regigigas|Substitute|p1a: Regigigas
+|-start|p1a: Regigigas|Substitute
+|-damage|p1a: Regigigas|76/100 tox
+|
+|-heal|p1a: Regigigas|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Regigigas|76/100 tox|[from] psn
+|-sideend|p1: infinub|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1760790441
+|move|p2a: Toxapex|Hydro Pump|p1a: Regigigas
+|-activate|p1a: Regigigas|move: Substitute|[damage]
+|move|p1a: Regigigas|Body Slam|p2a: Toxapex
+|-damage|p2a: Toxapex|83/100
+|
+|-heal|p2a: Toxapex|89/100|[from] item: Black Sludge
+|-heal|p1a: Regigigas|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Regigigas|70/100 tox|[from] psn
+|-sideend|p1: infinub|Reflect
+|upkeep
+|turn|10
+|
+|t:|1760790448
+|move|p2a: Toxapex|Hydro Pump|p1a: Regigigas
+|-end|p1a: Regigigas|Substitute
+|move|p1a: Regigigas|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|76/100
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Regigigas
+|
+|-heal|p1a: Regigigas|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Regigigas|57/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1760790460
+|switch|p1a: Alcremie|Alcremie, F|80/100 tox
+|-activate|p1a: Alcremie|move: Sticky Web
+|-unboost|p1a: Alcremie|spe|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-heal|p1a: Alcremie|86/100 tox|[from] item: Leftovers
+|-damage|p1a: Alcremie|80/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1760790471
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Alcremie|Alluring Voice|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Alcremie|86/100 tox|[from] item: Leftovers
+|-damage|p1a: Alcremie|74/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1760790486
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|move|p1a: Alcremie|Alluring Voice|p2a: Galvantula
+|-damage|p2a: Galvantula|41/100
+|
+|-heal|p1a: Alcremie|80/100 tox|[from] item: Leftovers
+|-damage|p1a: Alcremie|62/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1760790509
+|move|p2a: Galvantula|Thunder|p1a: Alcremie
+|-damage|p1a: Alcremie|33/100 tox
+|move|p1a: Alcremie|Alluring Voice|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|-heal|p1a: Alcremie|39/100 tox|[from] item: Leftovers
+|-damage|p1a: Alcremie|15/100 tox|[from] psn
+|upkeep
+|
+|t:|1760790521
+|switch|p2a: Armarouge|Armarouge, M|100/100
+|turn|15
+|
+|t:|1760790527
+|move|p2a: Armarouge|Meteor Beam||[still]
+|-prepare|p2a: Armarouge|Meteor Beam
+|-boost|p2a: Armarouge|spa|1
+|-enditem|p2a: Armarouge|Power Herb
+|-anim|p2a: Armarouge|Meteor Beam|p1a: Alcremie
+|-damage|p1a: Alcremie|0 fnt
+|faint|p1a: Alcremie
+|
+|upkeep
+|
+|t:|1760790534
+|switch|p1a: Regigigas|Regigigas|57/100 tox
+|-activate|p1a: Regigigas|move: Sticky Web
+|-unboost|p1a: Regigigas|spe|1
+|-start|p1a: Regigigas|ability: Slow Start
+|turn|16
+|
+|t:|1760790541
+|move|p2a: Armarouge|Armor Cannon|p1a: Regigigas
+|-damage|p1a: Regigigas|7/100 tox
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|move|p1a: Regigigas|Knock Off|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|59/100
+|
+|-heal|p1a: Regigigas|14/100 tox|[from] item: Leftovers
+|-damage|p1a: Regigigas|7/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1760790548
+|move|p2a: Armarouge|Psychic|p1a: Regigigas
+|-damage|p1a: Regigigas|0 fnt
+|faint|p1a: Regigigas
+|
+|upkeep
+|
+|t:|1760790553
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|89/100
+|-activate|p1a: Grimmsnarl|move: Sticky Web
+|-unboost|p1a: Grimmsnarl|spe|1
+|turn|18
+|
+|t:|1760790562
+|move|p2a: Armarouge|Armor Cannon|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|20/100
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Armarouge
+|-resisted|p2a: Armarouge
+|-damage|p2a: Armarouge|26/100
+|-unboost|p2a: Armarouge|spa|1
+|
+|upkeep
+|turn|19
+|
+|t:|1760790571
+|move|p2a: Armarouge|Armor Cannon|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1760790595
+|switch|p1a: Serperior|Serperior, M|100/100
+|-activate|p1a: Serperior|move: Sticky Web
+|-boost|p1a: Serperior|spe|1
+|turn|20
+|
+|t:|1760790610
+|-terastallize|p2a: Armarouge|Fire
+|move|p1a: Serperior|Leaf Storm|p2a: Armarouge
+|-resisted|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Armarouge
+|
+|upkeep
+|
+|t:|1760790617
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|turn|21
+|
+|t:|1760790621
+|move|p1a: Serperior|Leech Seed|p2a: Mimikyu
+|-start|p2a: Mimikyu|move: Leech Seed
+|move|p2a: Mimikyu|Curse|p1a: Serperior
+|-start|p1a: Serperior|Curse|[of] p2a: Mimikyu
+|-damage|p2a: Mimikyu|50/100
+|
+|-heal|p2a: Mimikyu|57/100|[from] item: Leftovers
+|-damage|p2a: Mimikyu|44/100|[from] Leech Seed|[of] p1a: Serperior
+|-damage|p1a: Serperior|76/100|[from] Curse
+|upkeep
+|turn|22
+|
+|t:|1760790645
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Serperior|Leaf Storm|p2a: Toxapex|[miss]
+|-miss|p1a: Serperior|p2a: Toxapex
+|
+|-damage|p1a: Serperior|51/100|[from] Curse
+|upkeep
+|turn|23
+|
+|t:|1760790657
+|switch|p2a: Mimikyu|Mimikyu, M|44/100
+|move|p1a: Serperior|Leaf Storm|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|44/100
+|-boost|p1a: Serperior|spa|2
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|32/100|[from] pokemon: Mimikyu-Busted
+|
+|-heal|p2a: Mimikyu|38/100|[from] item: Leftovers
+|-damage|p1a: Serperior|26/100|[from] Curse
+|upkeep
+|turn|24
+|
+|t:|1760790665
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Serperior
+|-damage|p1a: Serperior|13/100
+|move|p1a: Serperior|Giga Drain|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|-heal|p1a: Serperior|35/100|[from] drain|[of] p2a: Mimikyu
+|faint|p2a: Mimikyu
+|
+|-damage|p1a: Serperior|10/100|[from] Curse
+|upkeep
+|
+|t:|1760790676
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|25
+|
+|t:|1760790680
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Serperior|Giga Drain|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Serperior|0 fnt|[from] Curse
+|faint|p1a: Serperior
+|upkeep
+|
+|t:|1760790688
+|switch|p1a: Trevenant|Trevenant, M|100/100
+|-activate|p1a: Trevenant|move: Sticky Web
+|-unboost|p1a: Trevenant|spe|1
+|turn|26
+|
+|t:|1760790705
+|move|p2a: Toxapex|Toxic|p1a: Trevenant
+|-status|p1a: Trevenant|tox
+|move|p1a: Trevenant|Poltergeist||[still]
+|-fail|p1a: Trevenant
+|
+|-damage|p1a: Trevenant|94/100 tox|[from] psn
+|upkeep
+|turn|27
+|inactive|Askedsomuch has 120 seconds left.
+|l|☆Askedsomuch
+|inactive|Askedsomuch disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆Askedsomuch
+|inactive|Askedsomuch reconnected and has 105 seconds left.
+|player|p2|Askedsomuch|102|
+|inactive|Askedsomuch has 90 seconds left.
+|
+|t:|1760790779
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Trevenant|Horn Leech|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Trevenant|82/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1760790786
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Trevenant|Horn Leech|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|91/100
+|-heal|p1a: Trevenant|86/100 tox|[from] drain|[of] p2a: Metagross
+|
+|-damage|p1a: Trevenant|68/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1760790798
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Trevenant|Horn Leech|p2a: Toxapex
+|-damage|p2a: Toxapex|80/100
+|-heal|p1a: Trevenant|76/100 tox|[from] drain|[of] p2a: Toxapex
+|
+|-damage|p1a: Trevenant|52/100 tox|[from] psn
+|upkeep
+|turn|30
+|inactive|Askedsomuch has 90 seconds left.
+|-message|infinub forfeited.
+|
+|win|Askedsomuch
+|raw|infinub's rating: 1120 &rarr; <strong>1093</strong><br />(-27 for losing)
+|raw|Askedsomuch's rating: 1094 &rarr; <strong>1122</strong><br />(+28 for winning)
+|l|☆infinub
+|player|p1|
+|l|☆Askedsomuch
+|player|p2|

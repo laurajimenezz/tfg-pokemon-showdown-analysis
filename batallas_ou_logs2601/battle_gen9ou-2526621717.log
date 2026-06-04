@@ -1,0 +1,373 @@
+|j|‽Ledmein
+|j|☆coolcinnabuns
+|t:|1769441650
+|gametype|singles
+|player|p1|Ledmein|cilan|1232
+|player|p2|coolcinnabuns|102|1183
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Moth|
+|poke|p1|Great Tusk|
+|poke|p1|Zamazenta-*|
+|poke|p1|Cloyster, M|
+|poke|p2|Jolteon, M|
+|poke|p2|Clefable, M|
+|poke|p2|Sceptile, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Revavroom, M|
+|poke|p2|Gyarados, F|
+|teampreview
+|
+|t:|1769441666
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Sceptile|Sceptile, F|100/100
+|turn|1
+|
+|t:|1769441672
+|move|p2a: Sceptile|Substitute|p2a: Sceptile
+|-start|p2a: Sceptile|Substitute
+|-damage|p2a: Sceptile|76/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Sceptile
+|-end|p2a: Sceptile|Substitute
+|-sidestart|p2: coolcinnabuns|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1769441679
+|move|p2a: Sceptile|Leaf Blade|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-crit|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|move|p1a: Samurott|Knock Off|p2a: Sceptile
+|-crit|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|-enditem|p2a: Sceptile|Liechi Berry|[from] move: Knock Off|[of] p1a: Samurott
+|faint|p2a: Sceptile
+|
+|upkeep
+|
+|t:|1769441699
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|-damage|p2a: Jolteon|88/100|[from] Spikes
+|turn|3
+|
+|t:|1769441703
+|move|p1a: Samurott|Aqua Jet|p2a: Jolteon
+|-damage|p2a: Jolteon|56/100
+|move|p2a: Jolteon|Alluring Voice|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1769441726
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|4
+|
+|t:|1769441734
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Iron Moth|atk|1
+|move|p1a: Iron Moth|Sludge Wave|p2a: Gyarados
+|-damage|p2a: Gyarados|54/100
+|
+|-heal|p2a: Gyarados|60/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1769441746
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|move|p2a: Gyarados|Thunder Wave|p1a: Cloyster
+|-status|p1a: Cloyster|par
+|
+|-heal|p2a: Gyarados|67/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1769441761
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|88/100|[from] Spikes
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1769441774
+|move|p1a: Great Tusk|Headlong Rush|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|32/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Conkeldurr|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|81/100
+|-enditem|p1a: Great Tusk|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Conkeldurr
+|
+|upkeep
+|turn|8
+|
+|t:|1769441787
+|switch|p2a: Gyarados|Gyarados, F|67/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gyarados
+|-immune|p2a: Gyarados
+|
+|-heal|p2a: Gyarados|73/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1769441795
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Cloyster|Cloyster, M|100/100 par
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1769441800
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|cant|p1a: Cloyster|par
+|
+|-heal|p2a: Gyarados|85/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1769441808
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Cloyster|Icicle Spear|p2a: Gyarados
+|-damage|p2a: Gyarados|71/100
+|-damage|p2a: Gyarados|59/100
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|38/100
+|-damage|p2a: Gyarados|25/100
+|-damage|p2a: Gyarados|12/100
+|-hitcount|p2a: Gyarados|5
+|
+|-heal|p2a: Gyarados|19/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1769441812
+|move|p2a: Gyarados|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|32/100 par
+|cant|p1a: Cloyster|par
+|
+|-heal|p2a: Gyarados|25/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1769441818
+|move|p2a: Gyarados|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|-heal|p2a: Gyarados|31/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769441822
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|14
+|
+|t:|1769441830
+|move|p2a: Gyarados|Waterfall|p1a: Iron Valiant
+|-enditem|p1a: Iron Valiant|Focus Sash
+|-damage|p1a: Iron Valiant|1/100
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|
+|-heal|p2a: Gyarados|37/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1769441838
+|-terastallize|p1a: Iron Valiant|Ghost
+|move|p1a: Iron Valiant|Shadow Sneak|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|t:|1769441850
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|16
+|
+|t:|1769441861
+|move|p1a: Iron Valiant|Spirit Break|p2a: Clefable
+|-damage|p2a: Clefable|43/100
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Moonblast|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769441873
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|turn|17
+|
+|t:|1769441880
+|switch|p2a: Conkeldurr|Conkeldurr, M|32/100
+|-damage|p2a: Conkeldurr|20/100|[from] Spikes
+|move|p1a: Iron Moth|Substitute|p1a: Iron Moth
+|-start|p1a: Iron Moth|Substitute
+|-damage|p1a: Iron Moth|76/100
+|
+|upkeep
+|turn|18
+|
+|t:|1769441887
+|move|p2a: Conkeldurr|Mach Punch|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-activate|p1a: Iron Moth|move: Substitute|[damage]
+|move|p1a: Iron Moth|Fiery Dance|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|t:|1769441913
+|switch|p2a: Jolteon|Jolteon, M|56/100
+|-damage|p2a: Jolteon|44/100|[from] Spikes
+|turn|19
+|
+|t:|1769441920
+|-terastallize|p2a: Jolteon|Water
+|move|p2a: Jolteon|Tera Blast|p1a: Iron Moth|[anim] Tera Blast Water
+|-supereffective|p1a: Iron Moth
+|-end|p1a: Iron Moth|Substitute
+|move|p1a: Iron Moth|Fiery Dance|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|17/100
+|-boost|p1a: Iron Moth|spa|1
+|
+|upkeep
+|turn|20
+|
+|t:|1769441936
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Jolteon|Tera Blast|p1a: Zamazenta|[anim] Tera Blast Water
+|-damage|p1a: Zamazenta|49/100
+|
+|upkeep
+|turn|21
+|
+|t:|1769441943
+|move|p1a: Zamazenta|Heavy Slam|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|-damage|p1a: Zamazenta|39/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1769441951
+|switch|p2a: Clefable|Clefable, M|43/100
+|turn|22
+|
+|t:|1769441954
+|move|p1a: Zamazenta|Heavy Slam|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|-damage|p1a: Zamazenta|29/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1769441957
+|switch|p2a: Revavroom|Revavroom, M|100/100
+|-item|p2a: Revavroom|Air Balloon
+|turn|23
+|
+|t:|1769441962
+|move|p1a: Zamazenta|Close Combat|p2a: Revavroom
+|-damage|p2a: Revavroom|8/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|-enditem|p2a: Revavroom|Air Balloon
+|-damage|p1a: Zamazenta|19/100|[from] item: Life Orb
+|move|p2a: Revavroom|Shift Gear|p2a: Revavroom
+|-boost|p2a: Revavroom|spe|2
+|-boost|p2a: Revavroom|atk|1
+|
+|upkeep
+|turn|24
+|
+|t:|1769441978
+|move|p2a: Revavroom|Iron Head|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1769441981
+|switch|p1a: Great Tusk|Great Tusk|81/100
+|turn|25
+|
+|t:|1769441989
+|move|p2a: Revavroom|Iron Head|p1a: Great Tusk
+|-damage|p1a: Great Tusk|34/100
+|cant|p1a: Great Tusk|flinch
+|
+|upkeep
+|turn|26
+|
+|t:|1769442000
+|move|p2a: Revavroom|Iron Head|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769442002
+|switch|p1a: Iron Moth|Iron Moth|76/100
+|turn|27
+|
+|t:|1769442005
+|move|p2a: Revavroom|High Horsepower|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|win|coolcinnabuns
+|raw|Ledmein's rating: 1232 &rarr; <strong>1203</strong><br />(-29 for losing)
+|raw|coolcinnabuns's rating: 1183 &rarr; <strong>1212</strong><br />(+29 for winning)
+|c|☆coolcinnabuns|gg
+|l|‽Ledmein
+|player|p1|
+|l|☆coolcinnabuns
+|player|p2|

@@ -1,0 +1,232 @@
+|j|☆itssj7203
+|j|☆N1njabloodhound
+|t:|1769366585
+|gametype|singles
+|player|p1|itssj7203|swimmer|1056
+|player|p2|N1njabloodhound|169|1000
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Hippowdon, M|
+|poke|p1|Scizor, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Magnezone|
+|poke|p2|Typhlosion, M|
+|poke|p2|Leafeon, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Venusaur, F|
+|poke|p2|Trevenant, M|
+|poke|p2|Whimsicott, M|
+|teampreview
+|
+|t:|1769366596
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1769366618
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Venusaur|95/100|[from] Sandstorm
+|-heal|p2a: Venusaur|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1769366638
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam
+|move|p1a: Tyranitar|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|-enditem|p2a: Venusaur|Leftovers|[from] move: Knock Off|[of] p1a: Tyranitar
+|faint|p2a: Venusaur
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1769366647
+|switch|p2a: Trevenant|Trevenant, M|100/100
+|turn|3
+|
+|t:|1769366651
+|move|p1a: Tyranitar|Knock Off|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|0 fnt
+|-enditem|p2a: Trevenant|Sitrus Berry|[from] move: Knock Off|[of] p1a: Tyranitar
+|faint|p2a: Trevenant
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1769366669
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|turn|4
+|
+|t:|1769366673
+|move|p2a: Whimsicott|Stun Spore|p1a: Tyranitar
+|-status|p1a: Tyranitar|par
+|move|p1a: Tyranitar|Knock Off|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|46/100
+|-enditem|p2a: Whimsicott|Focus Sash|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Whimsicott|40/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1769366686
+|move|p2a: Whimsicott|Light Screen|p2a: Whimsicott
+|-sidestart|p2: N1njabloodhound|move: Light Screen
+|cant|p1a: Tyranitar|par
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1769366697
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Torkoal|94/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1769366716
+|switch|p2a: Leafeon|Leafeon, F|100/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Leafeon
+|-sidestart|p2: N1njabloodhound|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leafeon|95/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1769366727
+|move|p2a: Leafeon|Giga Drain|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|49/100
+|-heal|p2a: Leafeon|100/100|[from] drain|[of] p1a: Hippowdon
+|move|p1a: Hippowdon|Earthquake|p2a: Leafeon
+|-resisted|p2a: Leafeon
+|-damage|p2a: Leafeon|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leafeon|73/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1769366740
+|move|p2a: Leafeon|Leaf Blade|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leafeon|67/100|[from] Sandstorm
+|-sideend|p2: N1njabloodhound|move: Light Screen
+|upkeep
+|
+|t:|1769366759
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-item|p1a: Excadrill|Air Balloon
+|turn|10
+|
+|t:|1769366772
+|move|p1a: Excadrill|Earthquake|p2a: Leafeon
+|-resisted|p2a: Leafeon
+|-damage|p2a: Leafeon|36/100
+|move|p2a: Leafeon|Giga Drain|p1a: Excadrill
+|-damage|p1a: Excadrill|62/100
+|-heal|p2a: Leafeon|62/100|[from] drain|[of] p1a: Excadrill
+|-enditem|p1a: Excadrill|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leafeon|56/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1769366785
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Leafeon|Leaf Blade|p1a: Excadrill
+|-damage|p1a: Excadrill|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leafeon|50/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1769366798
+|move|p1a: Excadrill|Earthquake|p2a: Leafeon
+|-resisted|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1769366807
+|switch|p2a: Whimsicott|Whimsicott, M|40/100
+|-damage|p2a: Whimsicott|27/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1769366832
+|move|p1a: Excadrill|Rapid Spin|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|-boost|p1a: Excadrill|spe|1
+|faint|p2a: Whimsicott
+|
+|-weather|none
+|upkeep
+|
+|t:|1769366841
+|switch|p2a: Typhlosion|Typhlosion, M|100/100
+|-damage|p2a: Typhlosion|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1769366848
+|move|p1a: Excadrill|Earthquake|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|upkeep
+|
+|t:|1769366853
+|switch|p2a: Torkoal|Torkoal, F|94/100
+|-damage|p2a: Torkoal|70/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|15
+|
+|t:|1769366861
+|move|p1a: Excadrill|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|win|itssj7203
+|raw|itssj7203's rating: 1056 &rarr; <strong>1083</strong><br />(+27 for winning)
+|raw|N1njabloodhound's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

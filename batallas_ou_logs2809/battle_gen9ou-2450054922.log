@@ -1,0 +1,275 @@
+|j|☆Swagataka
+|j|☆Moreiny
+|t:|1758923295
+|gametype|singles
+|player|p1|Swagataka|byron|1662
+|player|p2|Moreiny|169|1738
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Quaquaval, M|
+|poke|p1|Pecharunt|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Crown|
+|poke|p1|Lokix, F|
+|poke|p1|Kingambit, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Crown|
+|poke|p2|Polteageist|
+|poke|p2|Hawlucha, F|
+|poke|p2|Deoxys-Speed|
+|teampreview
+|j| transit blues
+|
+|t:|1758923321
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Irönhead|Kingambit, F|100/100
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-item|p1a: Irönhead|Air Balloon
+|turn|1
+|
+|t:|1758923328
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Irönhead|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: Moreiny|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1758923337
+|switch|p1a: Apacherunt|Pecharunt|100/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Apacherunt
+|-sidestart|p1: Swagataka|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1758923349
+|move|p2a: Great Tusk|Knock Off|p1a: Apacherunt
+|-supereffective|p1a: Apacherunt
+|-damage|p1a: Apacherunt|76/100
+|-enditem|p1a: Apacherunt|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Apacherunt|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|68/100
+|
+|upkeep
+|turn|4
+|
+|t:|1758923361
+|move|p2a: Great Tusk|Rapid Spin|p1a: Apacherunt
+|-immune|p1a: Apacherunt
+|move|p1a: Apacherunt|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|38/100
+|
+|upkeep
+|turn|5
+|
+|t:|1758923373
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-damage|p2a: Iron Crown|94/100|[from] Stealth Rock
+|move|p1a: Apacherunt|Shadow Ball|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|42/100
+|
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Moreiny)
+|
+|t:|1758923387
+|switch|p1a: System Of A Crown|Iron Crown|100/100
+|-damage|p1a: System Of A Crown|94/100|[from] Stealth Rock
+|move|p2a: Iron Crown|Volt Switch|p1a: System Of A Crown
+|-damage|p1a: System Of A Crown|58/100
+|
+|t:|1758923399
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Hawlucha|Hawlucha, F|100/100|[from] Volt Switch
+|-damage|p2a: Hawlucha|88/100|[from] Stealth Rock
+|-enditem|p2a: Hawlucha|Psychic Seed
+|-boost|p2a: Hawlucha|spd|1|[from] item: Psychic Seed
+|
+|upkeep
+|turn|7
+|
+|t:|1758923404
+|move|p2a: Hawlucha|Close Combat|p1a: System Of A Crown
+|-damage|p1a: System Of A Crown|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|faint|p1a: System Of A Crown
+|-end|p1a: System Of A Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758923407
+|switch|p1a: Apacherunt|Pecharunt|76/100
+|-damage|p1a: Apacherunt|64/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1758923412
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Apacherunt|Shadow Ball|p2a: Hawlucha
+|-damage|p2a: Hawlucha|51/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1758923416
+|move|p2a: Hawlucha|Acrobatics|p1a: Apacherunt
+|-damage|p1a: Apacherunt|13/100
+|move|p1a: Apacherunt|Toxic|p2a: Hawlucha
+|-status|p2a: Hawlucha|tox
+|-start|p2a: Hawlucha|confusion|[from] ability: Poison Puppeteer|[of] p1a: Apacherunt
+|
+|-damage|p2a: Hawlucha|45/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1758923423
+|-activate|p2a: Hawlucha|confusion
+|move|p2a: Hawlucha|Acrobatics|p1a: Apacherunt
+|-damage|p1a: Apacherunt|0 fnt
+|faint|p1a: Apacherunt
+|
+|-damage|p2a: Hawlucha|33/100 tox|[from] psn
+|upkeep
+|
+|t:|1758923433
+|switch|p1a: Irönhead|Kingambit, F|100/100
+|-damage|p1a: Irönhead|94/100|[from] Stealth Rock
+|-item|p1a: Irönhead|Air Balloon
+|turn|11
+|
+|t:|1758923437
+|move|p1a: Irönhead|Sucker Punch||[still]
+|-fail|p1a: Irönhead
+|-activate|p2a: Hawlucha|confusion
+|-damage|p2a: Hawlucha|0 fnt|[from] confusion
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|t:|1758923446
+|switch|p2a: Great Tusk|Great Tusk|38/100
+|-damage|p2a: Great Tusk|35/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1758923449
+|-terastallize|p1a: Irönhead|Ghost
+|move|p2a: Great Tusk|Rapid Spin|p1a: Irönhead
+|-immune|p1a: Irönhead
+|move|p1a: Irönhead|Iron Head|p2a: Great Tusk
+|-damage|p2a: Great Tusk|13/100
+|-damage|p1a: Irönhead|78/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|13
+|
+|t:|1758923459
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-damage|p2a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Irönhead|Thief|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1758923468
+|switch|p2a: Great Tusk|Great Tusk|13/100
+|-damage|p2a: Great Tusk|10/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1758923472
+|move|p2a: Great Tusk|Knock Off|p1a: Irönhead
+|-supereffective|p1a: Irönhead
+|-damage|p1a: Irönhead|35/100
+|-enditem|p1a: Irönhead|Air Balloon
+|move|p1a: Irönhead|Thief|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|2/100
+|-damage|p1a: Irönhead|19/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|-enditem|p2a: Great Tusk|Rocky Helmet|[silent]|[from] move: Thief|[of] p1a: Irönhead
+|-item|p1a: Irönhead|Rocky Helmet|[from] move: Thief|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|15
+|
+|t:|1758923484
+|move|p2a: Great Tusk|Earthquake|p1a: Irönhead
+|-damage|p1a: Irönhead|0 fnt
+|faint|p1a: Irönhead
+|
+|upkeep
+|j| Nikator98
+|l| Nikator98
+|
+|t:|1758923509
+|switch|p1a: Steely Don|Great Tusk|100/100
+|turn|16
+|
+|t:|1758923515
+|move|p1a: Steely Don|Rapid Spin|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-boost|p1a: Steely Don|spe|1
+|-sideend|p1: Swagataka|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Steely Don
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758923518
+|switch|p2a: Polteageist|Polteageist|100/100
+|-damage|p2a: Polteageist|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1758923538
+|move|p1a: Steely Don|Knock Off|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|-enditem|p2a: Polteageist|Focus Sash|[from] move: Knock Off|[of] p1a: Steely Don
+|faint|p2a: Polteageist
+|
+|upkeep
+|
+|t:|1758923542
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-damage|p2a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p2a: Deoxys|Pressure
+|turn|18
+|
+|t:|1758923547
+|move|p1a: Steely Don|Headlong Rush|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|-unboost|p1a: Steely Don|def|1
+|-unboost|p1a: Steely Don|spd|1
+|faint|p2a: Deoxys
+|
+|upkeep
+|-message|Moreiny forfeited.
+|
+|win|Swagataka
+|raw|Swagataka's rating: 1662 &rarr; <strong>1686</strong><br />(+24 for winning)
+|raw|Moreiny's rating: 1738 &rarr; <strong>1714</strong><br />(-24 for losing)
+|l|☆Moreiny
+|player|p2|
+|l|☆Swagataka
+|player|p1|

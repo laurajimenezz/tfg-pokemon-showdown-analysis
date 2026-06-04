@@ -1,0 +1,198 @@
+|j|☆ChiefGreenLeaf3
+|j|☆overheat xyz
+|t:|1758991816
+|gametype|singles
+|player|p1|ChiefGreenLeaf3|giovanni-gen1|1662
+|player|p2|overheat xyz|101|1640
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Jugulis|
+|poke|p1|Zamazenta-*|
+|poke|p1|Comfey, F|
+|poke|p1|Cloyster, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Primarina, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Corviknight, F|
+|teampreview
+|
+|t:|1758991829
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1758991842
+|switch|p2a: Primarina|Primarina, F|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Primarina
+|-damage|p2a: Primarina|74/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758991866
+|move|p1a: Iron Valiant|Destiny Bond|p1a: Iron Valiant
+|-singlemove|p1a: Iron Valiant|Destiny Bond
+|move|p2a: Primarina|Moonblast|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-activate|p1a: Iron Valiant|move: Destiny Bond
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1758991879
+|switch|p1a: Iron Jugulis|Iron Jugulis, shiny|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-enditem|p1a: Iron Jugulis|Booster Energy
+|-activate|p1a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Jugulis|quarkdrivespe
+|turn|3
+|
+|t:|1758991889
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1758991892
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|turn|4
+|
+|t:|1758991896
+|move|p1a: Iron Jugulis|Earth Power|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|60/100
+|move|p2a: Garganacl|Stealth Rock|p1a: Iron Jugulis
+|-sidestart|p1: ChiefGreenLeaf3|move: Stealth Rock
+|
+|-heal|p2a: Garganacl|67/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1758991901
+|move|p1a: Iron Jugulis|Taunt|p2a: Garganacl
+|-start|p2a: Garganacl|move: Taunt
+|cant|p2a: Garganacl|move: Taunt|Recover
+|
+|-heal|p2a: Garganacl|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1758991904
+|move|p1a: Iron Jugulis|Earth Power|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|32/100
+|move|p2a: Garganacl|Salt Cure|p1a: Iron Jugulis
+|-supereffective|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|68/100
+|-start|p1a: Iron Jugulis|Salt Cure
+|
+|-heal|p2a: Garganacl|38/100|[from] item: Leftovers
+|-damage|p1a: Iron Jugulis|55/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1758991913
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-damage|p1a: Iron Jugulis|43/100|[from] Salt Cure
+|upkeep
+|
+|t:|1758991923
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|8
+|
+|t:|1758991927
+|move|p1a: Iron Jugulis|Earth Power|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|45/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-damage|p1a: Iron Jugulis|30/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1758991936
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Jugulis
+|-resisted|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|0 fnt
+|faint|p1a: Iron Jugulis
+|-end|p1a: Iron Jugulis|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758991950
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|10
+|
+|t:|1758991957
+|-terastallize|p2a: Kingambit|Flying
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p1a: Zamazenta|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758991961
+|move|p1a: Zamazenta|Body Press|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|8/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1758991964
+|move|p1a: Zamazenta|Body Press|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|upkeep
+|-message|overheat xyz forfeited.
+|
+|win|ChiefGreenLeaf3
+|raw|ChiefGreenLeaf3's rating: 1648 &rarr; <strong>1668</strong><br />(+20 for winning)
+|raw|overheat xyz's rating: 1640 &rarr; <strong>1620</strong><br />(-20 for losing)
+|l|☆overheat xyz
+|player|p2|
+|l|☆ChiefGreenLeaf3
+|player|p1|

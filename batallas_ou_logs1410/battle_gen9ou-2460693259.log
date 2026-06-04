@@ -1,0 +1,283 @@
+|j|☆sefrose
+|j|☆hussein119
+|t:|1760346601
+|gametype|singles
+|player|p1|sefrose|cynthia|1173
+|player|p2|hussein119|lyra|1145
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Crown|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Zapdos|
+|poke|p1|Dragapult, M|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Boulder|
+|poke|p2|Lokix, M|
+|poke|p2|Comfey, F|
+|poke|p2|Great Tusk|
+|poke|p2|Krookodile, M|
+|poke|p2|Revavroom, F|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|t:|1760346611
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Mindreader|Iron Crown|100/100
+|switch|p2a: Lokix|Lokix, M|100/100
+|turn|1
+|
+|t:|1760346622
+|move|p1a: Mindreader|Volt Switch|p2a: Lokix
+|-damage|p2a: Lokix|31/100
+|
+|t:|1760346627
+|-end|p1a: Mindreader|Quark Drive|[silent]
+|switch|p1a: Hurikan|Zapdos|100/100|[from] Volt Switch
+|move|p2a: Lokix|Knock Off|p1a: Hurikan
+|-damage|p1a: Hurikan|54/100
+|-enditem|p1a: Hurikan|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Lokix
+|
+|upkeep
+|turn|2
+|
+|t:|1760346636
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|move|p1a: Hurikan|Roost|p1a: Hurikan
+|-heal|p1a: Hurikan|100/100
+|-singleturn|p1a: Hurikan|move: Roost
+|
+|upkeep
+|turn|3
+|
+|t:|1760346644
+|move|p2a: Krookodile|Scale Shot|p1a: Hurikan|[miss]
+|-miss|p2a: Krookodile|p1a: Hurikan
+|move|p1a: Hurikan|Hurricane|p2a: Krookodile
+|-damage|p2a: Krookodile|35/100
+|-start|p2a: Krookodile|confusion
+|
+|upkeep
+|turn|4
+|
+|t:|1760346652
+|-activate|p2a: Krookodile|confusion
+|move|p2a: Krookodile|Scale Shot|p1a: Hurikan
+|-damage|p1a: Hurikan|93/100
+|-damage|p1a: Hurikan|85/100
+|-hitcount|p1a: Hurikan|2
+|-unboost|p2a: Krookodile|def|1
+|-boost|p2a: Krookodile|spe|1
+|-damage|p2a: Krookodile|25/100|[from] item: Life Orb
+|move|p1a: Hurikan|Hurricane|p2a: Krookodile|[miss]
+|-miss|p1a: Hurikan|p2a: Krookodile
+|
+|upkeep
+|turn|5
+|
+|t:|1760346664
+|-activate|p2a: Krookodile|confusion
+|move|p2a: Krookodile|Crunch|p1a: Hurikan
+|-damage|p1a: Hurikan|51/100
+|-status|p2a: Krookodile|par|[from] ability: Static|[of] p1a: Hurikan
+|-damage|p2a: Krookodile|15/100 par|[from] item: Life Orb
+|move|p1a: Hurikan|Hurricane|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|
+|upkeep
+|
+|t:|1760346672
+|switch|p2a: Lokix|Lokix, M|31/100
+|turn|6
+|
+|t:|1760346680
+|-terastallize|p2a: Lokix|Bug
+|move|p2a: Lokix|First Impression|p1a: Hurikan
+|-resisted|p1a: Hurikan
+|-damage|p1a: Hurikan|0 fnt
+|faint|p1a: Hurikan
+|
+|upkeep
+|
+|t:|1760346705
+|switch|p1a: Mindreader|Iron Crown|100/100
+|turn|7
+|
+|t:|1760346711
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Mindreader|Volt Switch|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|upkeep
+|turn|8
+|
+|t:|1760346726
+|-end|p1a: Mindreader|Quark Drive|[silent]
+|switch|p1a: Everytime We Touch|Samurott-Hisui, F|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Everytime We Touch
+|-damage|p1a: Everytime We Touch|74/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|upkeep
+|turn|9
+|
+|t:|1760346735
+|move|p2a: Great Tusk|Close Combat|p1a: Everytime We Touch
+|-supereffective|p1a: Everytime We Touch
+|-damage|p1a: Everytime We Touch|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Everytime We Touch
+|
+|upkeep
+|
+|t:|1760346746
+|switch|p1a: Revery|Iron Boulder|100/100
+|-enditem|p1a: Revery|Booster Energy
+|-activate|p1a: Revery|ability: Quark Drive|[fromitem]
+|-start|p1a: Revery|quarkdrivespe
+|turn|10
+|
+|t:|1760346754
+|move|p1a: Revery|Zen Headbutt|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|14/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Revery
+|-supereffective|p1a: Revery
+|-damage|p1a: Revery|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Revery
+|-end|p1a: Revery|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760346764
+|switch|p1a: Parasite|Dragapult, M|100/100
+|turn|11
+|
+|t:|1760346770
+|move|p1a: Parasite|Sucker Punch|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760346775
+|switch|p2a: Comfey|Comfey, F, shiny|100/100
+|turn|12
+|
+|t:|1760346780
+|switch|p1a: Mindreader|Iron Crown|100/100
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|
+|upkeep
+|turn|13
+|
+|t:|1760346796
+|move|p1a: Mindreader|Tachyon Cutter|p2a: Comfey
+|-supereffective|p2a: Comfey
+|-damage|p2a: Comfey|44/100
+|-supereffective|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|-hitcount|p2: Comfey|2
+|
+|upkeep
+|
+|t:|1760346801
+|switch|p2a: Revavroom|Revavroom, F|100/100
+|turn|14
+|
+|t:|1760346812
+|-end|p1a: Mindreader|Quark Drive|[silent]
+|switch|p1a: Pump It|Great Tusk|100/100
+|move|p2a: Revavroom|Shift Gear|p2a: Revavroom
+|-boost|p2a: Revavroom|spe|2
+|-boost|p2a: Revavroom|atk|1
+|
+|upkeep
+|turn|15
+|
+|t:|1760346825
+|move|p2a: Revavroom|Iron Head|p1a: Pump It
+|-damage|p1a: Pump It|56/100
+|cant|p1a: Pump It|flinch
+|
+|upkeep
+|turn|16
+|
+|t:|1760346832
+|move|p2a: Revavroom|Iron Head|p1a: Pump It
+|-damage|p1a: Pump It|12/100
+|cant|p1a: Pump It|flinch
+|
+|upkeep
+|turn|17
+|
+|t:|1760346840
+|move|p2a: Revavroom|Iron Head|p1a: Pump It
+|-damage|p1a: Pump It|0 fnt
+|faint|p1a: Pump It
+|-end|p1a: Pump It|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760346845
+|switch|p1a: Parasite|Dragapult, M|100/100
+|turn|18
+|
+|t:|1760346851
+|-terastallize|p1a: Parasite|Ghost
+|move|p2a: Revavroom|Iron Head|p1a: Parasite
+|-damage|p1a: Parasite|14/100
+|move|p1a: Parasite|Tera Blast|p2a: Revavroom|[anim] Tera Blast Ghost
+|-damage|p2a: Revavroom|1/100
+|
+|upkeep
+|turn|19
+|
+|t:|1760346861
+|move|p2a: Revavroom|Iron Head|p1a: Parasite
+|-damage|p1a: Parasite|0 fnt
+|faint|p1a: Parasite
+|
+|upkeep
+|
+|t:|1760346869
+|switch|p1a: Mindreader|Iron Crown|100/100
+|turn|20
+|
+|t:|1760346878
+|move|p2a: Revavroom|High Horsepower|p1a: Mindreader
+|-supereffective|p1a: Mindreader
+|-damage|p1a: Mindreader|0 fnt
+|faint|p1a: Mindreader
+|-end|p1a: Mindreader|Quark Drive|[silent]
+|
+|win|hussein119
+|raw|sefrose's rating: 1173 &rarr; <strong>1146</strong><br />(-27 for losing)
+|raw|hussein119's rating: 1145 &rarr; <strong>1172</strong><br />(+27 for winning)
+|l|☆hussein119
+|player|p2|
+|l|☆sefrose
+|player|p1|

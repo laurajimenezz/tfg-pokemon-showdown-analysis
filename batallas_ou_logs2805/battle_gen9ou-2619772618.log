@@ -1,0 +1,193 @@
+|j|☆NormalPokemons
+|j|☆Spit144
+|t:|1779961960
+|gametype|singles
+|player|p1|NormalPokemons|266|1346
+|player|p2|Spit144|102|1322
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Chansey, F|
+|poke|p1|Clefable, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Pecharunt|
+|poke|p2|Raging Bolt|
+|poke|p2|Pelipper, F|
+|poke|p2|Iron Treads|
+|poke|p2|Kingdra, M|
+|poke|p2|Poliwrath, M|
+|poke|p2|Toxicroak, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spit144)
+|
+|t:|1779961971
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1779961976
+|move|p1a: Mew|Trick|p2a: Pelipper
+|-activate|p1a: Mew|move: Trick|[of] p2a: Pelipper
+|-item|p2a: Pelipper|Choice Scarf|[from] move: Trick
+|-item|p1a: Mew|Damp Rock|[from] move: Trick
+|move|p2a: Pelipper|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|87/100
+|
+|t:|1779962003
+|switch|p2a: Poliwrath|Poliwrath, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1779962014
+|move|p2a: Poliwrath|Liquidation|p1a: Mew
+|-damage|p1a: Mew|14/100
+|move|p1a: Mew|Transform|p2a: Poliwrath
+|-transform|p1a: Mew|p2a: Poliwrath
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779962036
+|move|p2a: Poliwrath|Liquidation|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779962048
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|turn|4
+|
+|t:|1779962056
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Pecharunt|Mean Look|p2a: Iron Treads
+|-activate|p2a: Iron Treads|trapped
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779962071
+|move|p2a: Iron Treads|Stealth Rock|p1a: Pecharunt
+|-sidestart|p1: NormalPokemons|move: Stealth Rock
+|move|p1a: Pecharunt|Spite|p2a: Iron Treads
+|-activate|p2a: Iron Treads|move: Spite|Stealth Rock|4
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779962103
+|move|p2a: Iron Treads|Earth Power|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|52/100
+|move|p1a: Pecharunt|Mean Look||[still]
+|-fail|p1a: Pecharunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779962111
+|move|p2a: Iron Treads|Earth Power|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|6/100
+|move|p1a: Pecharunt|Rest|p1a: Pecharunt
+|-status|p1a: Pecharunt|slp|[from] move: Rest
+|-heal|p1a: Pecharunt|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1779962137
+|move|p2a: Iron Treads|Earth Power|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-crit|p1a: Pecharunt
+|-damage|p1a: Pecharunt|30/100 slp
+|cant|p1a: Pecharunt|slp
+|move|p1a: Pecharunt|Sleep Talk|p1a: Pecharunt
+|move|p1a: Pecharunt|Rest||[from] move: Sleep Talk|[still]
+|-fail|p1a: Pecharunt
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1779962143
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Iron Treads|Earth Power|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|upkeep
+|turn|10
+|
+|t:|1779962149
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Mandibuzz|Defog|p2a: Raging Bolt
+|-unboost|p2a: Raging Bolt|evasion|1
+|-sideend|p1: NormalPokemons|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|11
+|
+|t:|1779962159
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|switch|p1a: Chansey|Chansey, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1779962165
+|switch|p1a: Pecharunt|Pecharunt|30/100 slp
+|move|p2a: Pelipper|U-turn|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-crit|p1a: Pecharunt
+|-damage|p1a: Pecharunt|29/100 slp
+|
+|t:|1779962174
+|switch|p2a: Poliwrath|Poliwrath, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|-message|NormalPokemons forfeited.
+|
+|win|Spit144
+|raw|NormalPokemons's rating: 1346 &rarr; <strong>1325</strong><br />(-21 for losing)
+|raw|Spit144's rating: 1322 &rarr; <strong>1343</strong><br />(+21 for winning)
+|l|☆NormalPokemons
+|player|p1|
+|l|☆Spit144
+|player|p2|

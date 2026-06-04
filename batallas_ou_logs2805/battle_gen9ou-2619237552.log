@@ -1,0 +1,299 @@
+|j|☆ballred
+|j|☆somsleep
+|t:|1779899478
+|gametype|singles
+|player|p1|ballred|hoopster|1506
+|player|p2|somsleep|170|1454
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Metagross|
+|poke|p1|Cinderace, M|
+|poke|p1|Hydrapple, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Alomomola, M|
+|poke|p2|Abomasnow, M|
+|poke|p2|Cetitan, F|
+|poke|p2|Rotom|
+|poke|p2|Illumise, F|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Iron Treads|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by somsleep)
+|
+|t:|1779899498
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Chucharito|Cinderace, M, shiny|100/100
+|switch|p2a: Rotom|Rotom|100/100
+|turn|1
+|
+|t:|1779899504
+|switch|p1a: Applecrisp|Hydrapple, M|100/100
+|move|p2a: Rotom|Trick|p1a: Applecrisp
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Applecrisp
+|-item|p1a: Applecrisp|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Assault Vest|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|t:|1779899508
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Applecrisp|Fickle Beam|p2a: Iron Treads|[anim] Fickle Beam All Out
+|-activate|p1a: Applecrisp|move: Fickle Beam
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|40/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779899512
+|switch|p1a: Bubba|Alomomola, M|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Bubba
+|-sidestart|p1: ballred|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1779899522
+|move|p2a: Iron Treads|Earthquake|p1a: Bubba
+|-damage|p1a: Bubba|75/100
+|move|p1a: Bubba|Flip Turn|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|12/100
+|
+|t:|1779899528
+|switch|p1a: Feisimo|Landorus-Therian, M|100/100|[from] Flip Turn
+|-damage|p1a: Feisimo|88/100|[from] Stealth Rock
+|-ability|p1a: Feisimo|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|
+|-heal|p1a: Feisimo|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1779899530
+|move|p2a: Iron Treads|Iron Head|p1a: Feisimo
+|-damage|p1a: Feisimo|65/100
+|move|p1a: Feisimo|U-turn|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|1/100
+|
+|t:|1779899534
+|switch|p1a: Bubba|Alomomola, M|100/100|[from] U-turn
+|-damage|p1a: Bubba|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1779899537
+|move|p2a: Iron Treads|Earthquake|p1a: Bubba
+|-damage|p1a: Bubba|71/100
+|move|p1a: Bubba|Flip Turn|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|t:|1779899541
+|switch|p1a: Chucharito|Cinderace, M, shiny|100/100|[from] Flip Turn
+|
+|upkeep
+|
+|t:|1779899562
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|turn|7
+|
+|t:|1779899571
+|move|p1a: Chucharito|Court Change|p1a: Chucharito
+|-start|p1a: Chucharito|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Chucharito|move: Court Change
+|move|p2a: Keldeo|Secret Sword|p1a: Chucharito
+|-supereffective|p1a: Chucharito
+|-damage|p1a: Chucharito|0 fnt
+|faint|p1a: Chucharito
+|
+|upkeep
+|
+|t:|1779899576
+|switch|p1a: Chernobyl|Raging Bolt|100/100
+|turn|8
+|
+|t:|1779899583
+|switch|p2a: Abomasnow|Abomasnow, M, shiny|100/100
+|-damage|p2a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Chernobyl|Volt Switch|p2a: Abomasnow
+|-resisted|p2a: Abomasnow
+|-damage|p2a: Abomasnow|38/100
+|
+|t:|1779899596
+|-end|p1a: Chernobyl|Protosynthesis|[silent]
+|switch|p1a: Professor X|Metagross, shiny|100/100|[from] Volt Switch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1779899601
+|switch|p2a: Rotom|Rotom|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Professor X|Heavy Slam|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|41/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1779899606
+|switch|p1a: Chernobyl|Raging Bolt|100/100
+|move|p2a: Rotom|Hex|p1a: Chernobyl
+|-damage|p1a: Chernobyl|81/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779899609
+|move|p2a: Rotom|Hex|p1a: Chernobyl
+|-damage|p1a: Chernobyl|61/100
+|move|p1a: Chernobyl|Volt Switch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|13/100
+|
+|t:|1779899615
+|-end|p1a: Chernobyl|Protosynthesis|[silent]
+|switch|p1a: Professor X|Metagross, shiny|100/100|[from] Volt Switch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1779899619
+|move|p1a: Professor X|Bullet Punch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|none
+|upkeep
+|
+|t:|1779899621
+|switch|p2a: Abomasnow|Abomasnow, M, shiny|38/100
+|-damage|p2a: Abomasnow|13/100|[from] Stealth Rock
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|13
+|
+|t:|1779899632
+|move|p1a: Professor X|Bullet Punch|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779899636
+|switch|p2a: Cetitan|Cetitan, F|100/100
+|-damage|p2a: Cetitan|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1779899645
+|-terastallize|p2a: Cetitan|Water
+|move|p2a: Cetitan|Belly Drum|p2a: Cetitan
+|-damage|p2a: Cetitan|26/100
+|-setboost|p2a: Cetitan|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Cetitan|Sitrus Berry|[eat]
+|-heal|p2a: Cetitan|50/100|[from] item: Sitrus Berry
+|move|p1a: Professor X|Knock Off|p2a: Cetitan
+|-damage|p2a: Cetitan|27/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1779899656
+|switch|p1a: Bubba|Alomomola, M|100/100
+|move|p2a: Cetitan|Earthquake|p1a: Bubba
+|-damage|p1a: Bubba|32/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1779899665
+|move|p2a: Cetitan|Earthquake|p1a: Bubba
+|-damage|p1a: Bubba|0 fnt
+|faint|p1a: Bubba
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779899667
+|switch|p1a: Feisimo|Landorus-Therian, M|65/100
+|-ability|p1a: Feisimo|Intimidate|boost
+|-unboost|p2a: Cetitan|atk|1
+|turn|17
+|
+|t:|1779899671
+|move|p2a: Cetitan|Liquidation|p1a: Feisimo
+|-supereffective|p1a: Feisimo
+|-damage|p1a: Feisimo|0 fnt
+|faint|p1a: Feisimo
+|
+|-weather|none
+|upkeep
+|
+|t:|1779899676
+|switch|p1a: Applecrisp|Hydrapple, M|100/100
+|turn|18
+|
+|t:|1779899681
+|-terastallize|p1a: Applecrisp|Fire
+|move|p2a: Cetitan|Earthquake|p1a: Applecrisp
+|-supereffective|p1a: Applecrisp
+|-damage|p1a: Applecrisp|0 fnt
+|faint|p1a: Applecrisp
+|
+|upkeep
+|
+|t:|1779899686
+|switch|p1a: Professor X|Metagross, shiny|100/100
+|turn|19
+|
+|t:|1779899691
+|move|p1a: Professor X|Bullet Punch|p2a: Cetitan
+|-resisted|p2a: Cetitan
+|-damage|p2a: Cetitan|17/100
+|move|p2a: Cetitan|Earthquake|p1a: Professor X
+|-supereffective|p1a: Professor X
+|-damage|p1a: Professor X|0 fnt
+|faint|p1a: Professor X
+|
+|upkeep
+|-message|ballred forfeited.
+|
+|win|somsleep
+|raw|ballred's rating: 1506 &rarr; <strong>1483</strong><br />(-23 for losing)
+|raw|somsleep's rating: 1454 &rarr; <strong>1477</strong><br />(+23 for winning)
+|l|☆ballred
+|player|p1|
+|l|☆somsleep
+|player|p2|

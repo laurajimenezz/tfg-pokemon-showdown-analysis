@@ -1,0 +1,159 @@
+|j|☆mailmanmanman
+|j|☆bludsucca
+|t:|1758953150
+|gametype|singles
+|player|p1|mailmanmanman|169|1204
+|player|p2|bludsucca|schoolkidf-gen4|1175
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Alomomola, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Dragapult, M|
+|poke|p1|Great Tusk|
+|poke|p1|Cinderace, M|
+|poke|p1|Clefable, M|
+|poke|p2|Feraligatr, M|
+|poke|p2|Zapdos|
+|poke|p2|Raging Bolt|
+|poke|p2|Zamazenta-*|
+|poke|p2|Klefki, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mailmanmanman)
+|
+|t:|1758953158
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespa
+|turn|1
+|
+|t:|1758953165
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758953168
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|2
+|
+|t:|1758953175
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Klefki|Klefki, F|100/100
+|move|p1a: Clefable|Thunder Wave|p2a: Klefki
+|-status|p2a: Klefki|par
+|
+|upkeep
+|turn|3
+|
+|t:|1758953184
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: bludsucca|Reflect
+|move|p1a: Clefable|Knock Off|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|96/100 par
+|-enditem|p2a: Klefki|Light Clay|[from] move: Knock Off|[of] p1a: Clefable
+|
+|upkeep
+|turn|4
+|
+|t:|1758953191
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|cant|p2a: Klefki|par
+|
+|upkeep
+|turn|5
+|
+|t:|1758953197
+|move|p2a: Klefki|Rain Dance|p2a: Klefki
+|-weather|RainDance
+|move|p1a: Great Tusk|Stealth Rock|p2a: Klefki
+|-sidestart|p2: bludsucca|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758953204
+|switch|p2a: Zapdos|Zapdos, shiny|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758953214
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|41/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clefable|47/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758953224
+|move|p2a: Zapdos|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|23/100
+|
+|t:|1758953229
+|switch|p2a: Klefki|Klefki, F|96/100 par|[from] Volt Switch
+|-damage|p2a: Klefki|90/100 par|[from] Stealth Rock
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|47/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clefable|54/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758953247
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: bludsucca|move: Light Screen
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1758953254
+|move|p2a: Klefki|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|move|p1a: Dragapult|Hex|p2a: Klefki
+|-damage|p2a: Klefki|51/100 par
+|
+|-sideend|p2: bludsucca|Reflect
+|upkeep
+|turn|11
+|-message|mailmanmanman forfeited.
+|
+|win|bludsucca
+|raw|mailmanmanman's rating: 1204 &rarr; <strong>1177</strong><br />(-27 for losing)
+|raw|bludsucca's rating: 1175 &rarr; <strong>1202</strong><br />(+27 for winning)
+|l|☆mailmanmanman
+|player|p1|
+|l|☆bludsucca
+|player|p2|

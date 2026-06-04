@@ -1,0 +1,604 @@
+|j|☆meta fodder
+|j|☆kerom.pk
+|t:|1779698939
+|gametype|singles
+|player|p1|meta fodder|workerice|1540
+|player|p2|kerom.pk|265|1588
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Blaziken, F|
+|poke|p1|Glimmora, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Zamazenta-*|
+|poke|p1|Dragonite, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Hydrapple, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Primarina, F|
+|poke|p2|Weezing-Galar, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by meta fodder)
+|
+|t:|1779698944
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1779698972
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Meowscarada|U-turn|p1a: Glimmora
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|73/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: kerom.pk|move: Toxic Spikes
+|
+|t:|1779698979
+|switch|p2a: Clodsire|Clodsire, M|100/100|[from] U-turn
+|-sideend|p2: kerom.pk|move: Toxic Spikes|[of] p2a: Clodsire
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1779698983
+|move|p1a: Glimmora|Stealth Rock|p2a: Clodsire
+|-sidestart|p2: kerom.pk|move: Stealth Rock
+|move|p2a: Clodsire|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: kerom.pk|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779698988
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|turn|3
+|
+|t:|1779698991
+|move|p1a: Blaziken|Focus Energy|p1a: Blaziken
+|-start|p1a: Blaziken|move: Focus Energy
+|move|p2a: Clodsire|Curse|p2a: Clodsire
+|-unboost|p2a: Clodsire|spe|1
+|-boost|p2a: Clodsire|atk|1
+|-boost|p2a: Clodsire|def|1
+|
+|-weather|Snowscape|[upkeep]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|4
+|
+|t:|1779698994
+|move|p1a: Blaziken|Overheat|p2a: Clodsire
+|-crit|p2a: Clodsire
+|-damage|p2a: Clodsire|34/100
+|-unboost|p1a: Blaziken|spa|2
+|move|p2a: Clodsire|Earthquake|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Clodsire|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779699001
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|turn|5
+|
+|t:|1779699007
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|-sideend|p2: kerom.pk|move: Toxic Spikes|[of] p2a: Weezing
+|move|p1a: Ninetales|Freeze-Dry|p2a: Weezing
+|-damage|p2a: Weezing|56/100
+|
+|-weather|none
+|-heal|p2a: Weezing|62/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1779699021
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Weezing|Pain Split|p1a: Dragonite
+|-sethp|p1a: Dragonite|82/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|80/100|[from] move: Pain Split
+|
+|-heal|p2a: Weezing|86/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779699025
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Ninetales|[miss]
+|-miss|p2a: Weezing|p1a: Ninetales
+|
+|-heal|p2a: Weezing|92/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1779699036
+|move|p1a: Ninetales|Encore|p2a: Weezing
+|-start|p2a: Weezing|Encore
+|move|p2a: Weezing|Will-O-Wisp|p1a: Ninetales
+|-status|p1a: Ninetales|brn
+|
+|-heal|p2a: Weezing|98/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|95/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1779699042
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|move|p1a: Ninetales|Freeze-Dry|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|43/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ninetales|89/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1779699057
+|-terastallize|p2a: Alomomola|Steel
+|move|p1a: Ninetales|Freeze-Dry|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|31/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ninetales|83/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1779699063
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: meta fodder|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Alomomola|81/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Ninetales|77/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1779699068
+|move|p1a: Ninetales|Encore|p2a: Alomomola
+|-start|p2a: Alomomola|Encore
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ninetales|71/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1779699075
+|switch|p1a: Dragonite|Dragonite, F|82/100
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1779699079
+|switch|p2a: Weezing|Weezing-Galar, F|98/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-damage|p2a: Weezing|85/100|[from] Stealth Rock
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Weezing|91/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1779699081
+|-terastallize|p1a: Dragonite|Fire
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Weezing|Will-O-Wisp|p1a: Dragonite
+|-immune|p1a: Dragonite
+|
+|-heal|p2a: Weezing|97/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1779699092
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Alomomola|Alomomola, F, tera:Steel|100/100
+|-damage|p2a: Alomomola|94/100|[from] Stealth Rock
+|move|p1a: Dragonite|Fire Punch|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1779699102
+|switch|p2a: Primarina|Primarina, F|100/100
+|-damage|p2a: Primarina|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1779699106
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1a: Dragonite|Fire Punch|p2a: Primarina
+|-activate|p2a: Primarina|move: Protect
+|
+|-heal|p2a: Primarina|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1779699113
+|switch|p1a: Ninetales|Ninetales-Alola, F|71/100 brn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|switch|p2a: Clodsire|Clodsire, M|40/100
+|-damage|p2a: Clodsire|34/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Clodsire|40/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|65/100 brn|[from] brn
+|-sideend|p1: meta fodder|move: Aurora Veil
+|upkeep
+|turn|19
+|
+|t:|1779699117
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: meta fodder|move: Aurora Veil
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|90/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Clodsire|97/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|59/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1779699122
+|switch|p2a: Weezing|Weezing-Galar, F|97/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-damage|p2a: Weezing|85/100|[from] Stealth Rock
+|move|p1a: Ninetales|Freeze-Dry|p2a: Weezing
+|-damage|p2a: Weezing|55/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Weezing|61/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|53/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1779699131
+|move|p1a: Ninetales|Freeze-Dry|p2a: Weezing
+|-damage|p2a: Weezing|31/100
+|move|p2a: Weezing|Defog|p1a: Ninetales
+|-unboost|p1a: Ninetales|evasion|1
+|-sideend|p1: meta fodder|move: Aurora Veil
+|-sideend|p2: kerom.pk|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Weezing|37/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|47/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1779699137
+|switch|p1a: Dragonite|Dragonite, F, tera:Fire|82/100
+|move|p2a: Weezing|Pain Split|p1a: Dragonite
+|-sethp|p1a: Dragonite|60/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|58/100|[from] move: Pain Split
+|
+|-weather|none
+|-heal|p2a: Weezing|64/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1779699145
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Primarina|Primarina, F|94/100
+|move|p1a: Dragonite|Fire Punch|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|74/100
+|
+|-heal|p2a: Primarina|80/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1779699150
+|move|p1a: Dragonite|Fire Punch|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|60/100
+|move|p2a: Primarina|Whirlpool|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|29/100
+|-activate|p1a: Dragonite|move: Whirlpool|[of] p2a: Primarina
+|
+|-heal|p2a: Primarina|66/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|16/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|25
+|
+|t:|1779699161
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1a: Dragonite|Fire Punch|p2a: Primarina
+|-activate|p2a: Primarina|move: Protect
+|
+|-heal|p2a: Primarina|72/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|4/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|26
+|
+|t:|1779699166
+|move|p1a: Dragonite|Fire Punch|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|52/100
+|move|p2a: Primarina|Moonblast|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Primarina|58/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779699169
+|switch|p1a: Ninetales|Ninetales-Alola, F|47/100 brn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|27
+|
+|t:|1779699173
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: meta fodder|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Primarina|64/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|41/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1779699180
+|switch|p2a: Hydrapple|Hydrapple, M|100/100
+|move|p1a: Ninetales|Freeze-Dry|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|17/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ninetales|35/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1779699188
+|move|p1a: Ninetales|Freeze-Dry|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ninetales|29/100 brn|[from] brn
+|upkeep
+|
+|t:|1779699195
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|30
+|
+|t:|1779699200
+|move|p2a: Meowscarada|U-turn|p1a: Ninetales
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|18/100 brn
+|
+|t:|1779699207
+|switch|p2a: Weezing|Weezing-Galar, F|64/100|[from] U-turn
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Ninetales|Freeze-Dry|p2a: Weezing
+|-damage|p2a: Weezing|32/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Weezing|38/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|12/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1779699216
+|move|p1a: Ninetales|Freeze-Dry|p2a: Weezing
+|-damage|p2a: Weezing|9/100
+|move|p2a: Weezing|Strange Steam|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|none
+|-heal|p2a: Weezing|15/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779699221
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|turn|32
+|
+|t:|1779699224
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|75/100
+|move|p2a: Weezing|Will-O-Wisp||[still]
+|-fail|p2a: Weezing
+|
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|-heal|p2a: Weezing|21/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1779699231
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Weezing|Strange Steam|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|
+|-heal|p1a: Zamazenta|88/100|[from] item: Leftovers
+|-heal|p2a: Weezing|27/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1779699239
+|move|p1a: Zamazenta|Body Press|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|15/100
+|move|p2a: Weezing|Strange Steam|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|-heal|p1a: Zamazenta|94/100|[from] item: Leftovers
+|-heal|p2a: Weezing|21/100|[from] item: Leftovers
+|-sideend|p1: meta fodder|move: Aurora Veil
+|upkeep
+|turn|35
+|
+|t:|1779699244
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|69/100
+|move|p2a: Weezing|Strange Steam|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|-heal|p1a: Zamazenta|75/100|[from] item: Leftovers
+|-heal|p2a: Weezing|27/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1779699249
+|move|p1a: Zamazenta|Body Press|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|14/100
+|move|p2a: Weezing|Strange Steam|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|33/100
+|
+|-heal|p1a: Zamazenta|39/100|[from] item: Leftovers
+|-heal|p2a: Weezing|20/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1779699253
+|move|p1a: Zamazenta|Body Press|p2a: Weezing
+|-resisted|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|3/100
+|move|p2a: Weezing|Strange Steam|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Weezing|9/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779699256
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|38
+|
+|t:|1779699263
+|move|p1a: Iron Valiant|Moonblast|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|
+|upkeep
+|
+|t:|1779699268
+|switch|p2a: Primarina|Primarina, F|64/100
+|turn|39
+|
+|t:|1779699272
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Primarina|Perish Song|p2a: Primarina
+|-start|p1a: Iron Valiant|perish3|[silent]
+|-start|p2a: Primarina|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2a: Primarina|70/100|[from] item: Leftovers
+|-start|p1a: Iron Valiant|perish3
+|-start|p2a: Primarina|perish3
+|upkeep
+|turn|40
+|
+|t:|1779699279
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Primarina|Moonblast|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|32/100
+|-unboost|p1a: Iron Valiant|spa|1
+|
+|-heal|p2a: Primarina|76/100|[from] item: Leftovers
+|-start|p1a: Iron Valiant|perish2
+|-start|p2a: Primarina|perish2
+|upkeep
+|turn|41
+|
+|t:|1779699282
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1a: Iron Valiant|Moonblast|p2a: Primarina
+|-activate|p2a: Primarina|move: Protect
+|
+|-heal|p2a: Primarina|82/100|[from] item: Leftovers
+|-start|p1a: Iron Valiant|perish1
+|-start|p2a: Primarina|perish1
+|upkeep
+|turn|42
+|
+|t:|1779699285
+|switch|p2a: Clodsire|Clodsire, M|97/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|81/100
+|
+|-heal|p2a: Clodsire|88/100|[from] item: Leftovers
+|-start|p1a: Iron Valiant|perish0
+|upkeep
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|win|kerom.pk
+|raw|meta fodder's rating: 1540 &rarr; <strong>1523</strong><br />(-17 for losing)
+|raw|kerom.pk's rating: 1588 &rarr; <strong>1605</strong><br />(+17 for winning)
+|l|☆meta fodder
+|player|p1|
+|l|☆kerom.pk
+|player|p2|

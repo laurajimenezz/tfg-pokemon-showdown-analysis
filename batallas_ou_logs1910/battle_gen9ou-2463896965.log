@@ -1,0 +1,396 @@
+|j|☆haa111
+|j|☆Mario Bronx
+|t:|1760761646
+|gametype|singles
+|player|p1|haa111|pokemonranger-gen4|1084
+|player|p2|Mario Bronx|dancer|1124
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Iron Treads|
+|poke|p1|Armarouge, M|
+|poke|p1|Torterra, F|
+|poke|p2|Scream Tail|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Gholdengo|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Honchkrow, F|
+|poke|p2|Rabsca, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by haa111)
+|
+|t:|1760761667
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1760761675
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Mario Bronx|Reflect
+|move|p1a: Iron Treads|Steel Beam|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|42/100
+|-damage|p1a: Iron Treads|50/100|[from] steelbeam
+|
+|upkeep
+|turn|2
+|
+|t:|1760761683
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Mario Bronx|move: Light Screen
+|move|p1a: Iron Treads|Stealth Rock|p2a: Grimmsnarl
+|-sidestart|p2: Mario Bronx|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1760761689
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Iron Treads
+|-unboost|p1a: Iron Treads|atk|1
+|-unboost|p1a: Iron Treads|spa|1
+|
+|t:|1760761707
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] Parting Shot
+|-damage|p2a: Gholdengo|88/100|[from] Stealth Rock
+|move|p1a: Iron Treads|Steel Beam|p2a: Gholdengo
+|-damage|p2a: Gholdengo|63/100
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|-damage|p1a: Iron Treads|0 fnt|[from] steelbeam
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760761720
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|4
+|
+|t:|1760761728
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-ability|p1a: Hawlucha|Mold Breaker
+|-enditem|p1a: Hawlucha|Psychic Seed
+|-boost|p1a: Hawlucha|spd|1|[from] item: Psychic Seed
+|move|p2a: Zoroark|U-turn|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|94/100
+|
+|t:|1760761747
+|switch|p2a: Honchkrow|Honchkrow, F|100/100|[from] U-turn
+|-damage|p2a: Honchkrow|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1760761756
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Honchkrow|Brave Bird|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|-ability|p2a: Honchkrow|Moxie|boost
+|-boost|p2a: Honchkrow|atk|1
+|-damage|p2a: Honchkrow|53/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1760761767
+|switch|p1a: Armarouge|Armarouge, M|100/100
+|turn|6
+|
+|t:|1760761777
+|move|p1a: Armarouge|Expanding Force|p2a: Honchkrow
+|-immune|p2a: Honchkrow
+|move|p2a: Honchkrow|Foul Play|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|68/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|
+|upkeep
+|turn|7
+|
+|t:|1760761788
+|move|p1a: Armarouge|Armor Cannon|p2a: Honchkrow
+|-damage|p2a: Honchkrow|9/100
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|-enditem|p2a: Honchkrow|Sitrus Berry|[eat]
+|-heal|p2a: Honchkrow|34/100|[from] item: Sitrus Berry
+|move|p2a: Honchkrow|Thunder Wave|p1a: Armarouge
+|-status|p1a: Armarouge|par
+|
+|upkeep
+|turn|8
+|
+|t:|1760761801
+|move|p2a: Honchkrow|Sucker Punch|p1a: Armarouge
+|-activate|p1a: Armarouge|move: Psychic Terrain
+|move|p1a: Armarouge|Armor Cannon|p2a: Honchkrow
+|-damage|p2a: Honchkrow|0 fnt
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|faint|p2a: Honchkrow
+|
+|-sideend|p2: Mario Bronx|Reflect
+|-fieldend|move: Psychic Terrain
+|upkeep
+|inactive|Mario Bronx has 120 seconds left.
+|
+|t:|1760761831
+|switch|p2a: Gholdengo|Gholdengo|63/100
+|-damage|p2a: Gholdengo|51/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1760761839
+|move|p2a: Gholdengo|Shadow Ball|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|-sideend|p2: Mario Bronx|move: Light Screen
+|upkeep
+|
+|t:|1760761846
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|10
+|
+|t:|1760761853
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Gholdengo|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|89/100
+|
+|t:|1760761864
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|42/100|[from] U-turn
+|-damage|p2a: Grimmsnarl|30/100|[from] Stealth Rock
+|
+|-heal|p1a: Excadrill|95/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760761872
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Mario Bronx|Reflect
+|move|p1a: Excadrill|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|inactive|Mario Bronx has 120 seconds left.
+|inactive|Mario Bronx has 90 seconds left.
+|
+|t:|1760761928
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|turn|12
+|inactive|Mario Bronx has 90 seconds left.
+|
+|t:|1760761939
+|move|p1a: Excadrill|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|47/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Excadrill
+|-damage|p1a: Excadrill|44/100
+|
+|-heal|p1a: Excadrill|50/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Mario Bronx has 90 seconds left.
+|
+|t:|1760761951
+|move|p1a: Excadrill|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-heal|p1a: Excadrill|56/100|[from] item: Leftovers
+|upkeep
+|inactive|Mario Bronx has 90 seconds left.
+|
+|t:|1760761967
+|switch|p2a: Rabsca|Rabsca, F|51/100
+|-damage|p2a: Rabsca|39/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1760761978
+|move|p2a: Rabsca|Shadow Ball|p1a: Excadrill
+|-damage|p1a: Excadrill|3/100
+|move|p1a: Excadrill|Iron Head|p2a: Rabsca
+|-damage|p2a: Rabsca|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|
+|-heal|p1a: Excadrill|10/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1760761987
+|switch|p2a: Scream Tail|Scream Tail|100/100
+|-damage|p2a: Scream Tail|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1760761992
+|move|p2a: Scream Tail|Play Rough|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|t:|1760761998
+|switch|p1a: Torterra|Torterra, F|100/100
+|turn|16
+|
+|t:|1760762007
+|move|p1a: Torterra|Shell Smash|p1a: Torterra
+|-unboost|p1a: Torterra|def|1
+|-unboost|p1a: Torterra|spd|1
+|-boost|p1a: Torterra|atk|2
+|-boost|p1a: Torterra|spa|2
+|-boost|p1a: Torterra|spe|2
+|-enditem|p1a: Torterra|White Herb
+|-clearnegativeboost|p1a: Torterra|[silent]
+|move|p2a: Scream Tail|Roar|p1a: Torterra
+|drag|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|
+|upkeep
+|turn|17
+|
+|t:|1760762024
+|-terastallize|p1a: Indeedee|Psychic
+|move|p2a: Scream Tail|Play Rough|p1a: Indeedee
+|-damage|p1a: Indeedee|43/100
+|move|p1a: Indeedee|Expanding Force|p2a: Scream Tail
+|-resisted|p2a: Scream Tail
+|-damage|p2a: Scream Tail|56/100
+|
+|upkeep
+|turn|18
+|
+|t:|1760762040
+|move|p1a: Indeedee|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1a: Indeedee
+|move|p2a: Scream Tail|Rest|p2a: Scream Tail
+|-status|p2a: Scream Tail|slp|[from] move: Rest
+|-heal|p2a: Scream Tail|100/100 slp|[silent]
+|-enditem|p2a: Scream Tail|Chesto Berry|[eat]
+|-curestatus|p2a: Scream Tail|slp|[msg]
+|
+|-sideend|p2: Mario Bronx|Reflect
+|upkeep
+|turn|19
+|
+|t:|1760762051
+|move|p2a: Scream Tail|Play Rough|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1760762056
+|switch|p1a: Torterra|Torterra, F|100/100
+|turn|20
+|
+|t:|1760762066
+|move|p2a: Scream Tail|Play Rough|p1a: Torterra|[miss]
+|-miss|p2a: Scream Tail|p1a: Torterra
+|move|p1a: Torterra|Headlong Rush|p2a: Scream Tail
+|-damage|p2a: Scream Tail|57/100
+|-unboost|p1a: Torterra|def|1
+|-unboost|p1a: Torterra|spd|1
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|21
+|
+|t:|1760762085
+|-terastallize|p2a: Scream Tail|Fairy
+|move|p2a: Scream Tail|Rest|p2a: Scream Tail
+|-status|p2a: Scream Tail|slp|[from] move: Rest
+|-heal|p2a: Scream Tail|100/100 slp|[silent]
+|move|p1a: Torterra|Headlong Rush|p2a: Scream Tail
+|-damage|p2a: Scream Tail|58/100 slp
+|-unboost|p1a: Torterra|def|1
+|-unboost|p1a: Torterra|spd|1
+|
+|upkeep
+|turn|22
+|
+|t:|1760762095
+|cant|p2a: Scream Tail|slp
+|move|p2a: Scream Tail|Sleep Talk|p2a: Scream Tail
+|move|p2a: Scream Tail|Play Rough|p1a: Torterra|[from] move: Sleep Talk
+|-damage|p1a: Torterra|41/100
+|move|p1a: Torterra|Shell Smash|p1a: Torterra
+|-unboost|p1a: Torterra|def|1
+|-unboost|p1a: Torterra|spd|1
+|-boost|p1a: Torterra|atk|2
+|-boost|p1a: Torterra|spa|2
+|-boost|p1a: Torterra|spe|2
+|
+|upkeep
+|turn|23
+|
+|t:|1760762109
+|move|p1a: Torterra|Headlong Rush|p2a: Scream Tail
+|-damage|p2a: Scream Tail|0 fnt
+|-unboost|p1a: Torterra|def|1
+|-unboost|p1a: Torterra|spd|1
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760762114
+|switch|p2a: Rabsca|Rabsca, F|100/100
+|-damage|p2a: Rabsca|76/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1760762121
+|move|p1a: Torterra|Headlong Rush|p2a: Rabsca
+|-resisted|p2a: Rabsca
+|-damage|p2a: Rabsca|15/100
+|-unboost|p1a: Torterra|def|1
+|-unboost|p1a: Torterra|spd|1
+|move|p2a: Rabsca|Psyshock|p1a: Torterra
+|-damage|p1a: Torterra|0 fnt
+|faint|p1a: Torterra
+|
+|win|Mario Bronx
+|raw|haa111's rating: 1084 &rarr; <strong>1064</strong><br />(-20 for losing)
+|raw|Mario Bronx's rating: 1124 &rarr; <strong>1146</strong><br />(+22 for winning)
+|c|☆Mario Bronx|gg
+|l|☆haa111
+|player|p1|
+|l|☆Mario Bronx
+|player|p2|

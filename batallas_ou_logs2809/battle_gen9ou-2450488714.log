@@ -1,0 +1,459 @@
+|j|☆Yega1x
+|j|☆BARRYTO2
+|t:|1758989857
+|gametype|singles
+|player|p1|Yega1x|2|1110
+|player|p2|BARRYTO2|169|1060
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Malamar, M|
+|poke|p1|Meowscarada, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Blissey, F|
+|poke|p1|Heatran, M|
+|poke|p2|Azumarill, F|
+|poke|p2|Persian, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Araquanid, M|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Ampharos, F|
+|teampreview
+|
+|t:|1758989867
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Persian|Persian, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|
+|t:|1758989873
+|move|p2a: Persian|Fake Out|p1a: Heatran
+|-enditem|p2a: Persian|Normal Gem|[from] gem
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|88/100
+|-enditem|p1a: Heatran|Air Balloon
+|cant|p1a: Heatran|flinch
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BARRYTO2)
+|
+|t:|1758989885
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|move|p1a: Heatran|Will-O-Wisp|p2a: Azumarill
+|-status|p2a: Azumarill|brn
+|
+|-damage|p2a: Azumarill|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1758989903
+|move|p2a: Azumarill|Belly Drum|p2a: Azumarill
+|-damage|p2a: Azumarill|44/100 brn
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|69/100 brn|[from] item: Sitrus Berry
+|move|p1a: Heatran|Stealth Rock|p2a: Azumarill
+|-sidestart|p2: BARRYTO2|move: Stealth Rock
+|
+|-damage|p2a: Azumarill|63/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1758989912
+|move|p2a: Azumarill|Liquidation|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-damage|p2a: Azumarill|57/100 brn|[from] brn
+|upkeep
+|
+|t:|1758989918
+|switch|p1a: Malamar|Malamar, M|100/100
+|turn|5
+|
+|t:|1758989923
+|move|p1a: Malamar|Topsy-Turvy|p2a: Azumarill
+|-invertboost|p2a: Azumarill|[from] move: Topsy-Turvy
+|move|p2a: Azumarill|Liquidation|p1a: Malamar
+|-damage|p1a: Malamar|96/100
+|
+|-heal|p1a: Malamar|100/100|[from] item: Leftovers
+|-damage|p2a: Azumarill|51/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1758989938
+|move|p1a: Malamar|Superpower|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|35/100 brn
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|move|p2a: Azumarill|Belly Drum||[still]
+|-fail|p2a: Azumarill
+|
+|-damage|p2a: Azumarill|29/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1758989947
+|move|p2a: Azumarill|Aqua Jet|p1a: Malamar
+|-damage|p1a: Malamar|99/100
+|move|p1a: Malamar|Superpower|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|7/100 brn
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|
+|-heal|p1a: Malamar|100/100|[from] item: Leftovers
+|-damage|p2a: Azumarill|0 fnt|[from] brn
+|faint|p2a: Azumarill
+|upkeep
+|
+|t:|1758989956
+|switch|p2a: Ampharos|Ampharos, F|100/100
+|-damage|p2a: Ampharos|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1758989965
+|move|p1a: Malamar|Knock Off|p2a: Ampharos
+|-damage|p2a: Ampharos|5/100
+|-enditem|p2a: Ampharos|Choice Specs|[from] move: Knock Off|[of] p1a: Malamar
+|move|p2a: Ampharos|Thunderbolt|p1a: Malamar
+|-damage|p1a: Malamar|54/100
+|
+|-heal|p1a: Malamar|60/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758989973
+|move|p1a: Malamar|Superpower|p2a: Ampharos
+|-damage|p2a: Ampharos|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|-status|p1a: Malamar|par|[from] ability: Static|[of] p2a: Ampharos
+|faint|p2a: Ampharos
+|
+|-heal|p1a: Malamar|66/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1758989979
+|switch|p2a: Persian|Persian, F|100/100
+|-damage|p2a: Persian|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1758989996
+|move|p2a: Persian|Fake Out|p1a: Malamar
+|-damage|p1a: Malamar|57/100 par
+|cant|p1a: Malamar|flinch
+|
+|-heal|p1a: Malamar|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758990003
+|move|p2a: Persian|U-turn|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-crit|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|t:|1758990008
+|switch|p2a: Araquanid|Araquanid, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1758990015
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|12
+|
+|t:|1758990021
+|move|p1a: Gholdengo|Thunder Wave|p2a: Araquanid
+|-status|p2a: Araquanid|par
+|move|p2a: Araquanid|Sticky Web|p1a: Gholdengo
+|-sidestart|p1: Yega1x|move: Sticky Web
+|
+|upkeep
+|turn|13
+|
+|t:|1758990040
+|-terastallize|p1a: Gholdengo|Electric
+|move|p1a: Gholdengo|Thunderbolt|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|25/100 par
+|move|p2a: Araquanid|Liquidation|p1a: Gholdengo
+|-damage|p1a: Gholdengo|77/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|14
+|
+|t:|1758990049
+|move|p1a: Gholdengo|Thunderbolt|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1758990057
+|switch|p2a: Persian|Persian, F|88/100
+|-damage|p2a: Persian|75/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1758990065
+|move|p2a: Persian|Fake Out|p1a: Gholdengo
+|-damage|p1a: Gholdengo|53/100
+|cant|p1a: Gholdengo|flinch
+|
+|upkeep
+|turn|16
+|
+|t:|1758990083
+|move|p2a: Persian|Trailblaze|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|18/100
+|-boost|p2a: Persian|spe|1
+|move|p1a: Gholdengo|Thunder Wave|p2a: Persian
+|-status|p2a: Persian|par
+|
+|upkeep
+|turn|17
+|
+|t:|1758990093
+|move|p1a: Gholdengo|Thunderbolt|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|upkeep
+|
+|t:|1758990096
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1758990100
+|move|p2a: Conkeldurr|Mach Punch|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|inactive|Yega1x has 120 seconds left.
+|
+|t:|1758990132
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|turn|19
+|
+|t:|1758990137
+|move|p1a: Gliscor|Spikes|p2a: Conkeldurr
+|-sidestart|p2: BARRYTO2|Spikes
+|move|p2a: Conkeldurr|Facade|p1a: Gliscor
+|-damage|p1a: Gliscor|39/100
+|
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|20
+|
+|t:|1758990148
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Conkeldurr|Facade|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|51/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1758990159
+|move|p1a: Gliscor|U-turn|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|74/100 brn
+|
+|t:|1758990162
+|switch|p1a: Blissey|Blissey, F, shiny|100/100|[from] U-turn
+|-activate|p1a: Blissey|move: Sticky Web
+|-unboost|p1a: Blissey|spe|1
+|move|p2a: Conkeldurr|Facade|p1a: Blissey
+|-damage|p1a: Blissey|45/100
+|
+|-heal|p1a: Blissey|51/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|68/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1758990185
+|move|p2a: Conkeldurr|Facade|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|-damage|p2a: Conkeldurr|62/100 brn|[from] brn
+|upkeep
+|inactive|Yega1x has 120 seconds left.
+|
+|t:|1758990210
+|switch|p1a: Gliscor|Gliscor, M|51/100 tox
+|turn|23
+|
+|t:|1758990216
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Conkeldurr|Facade|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Conkeldurr|56/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|Yega1x has 120 seconds left.
+|
+|t:|1758990237
+|move|p1a: Gliscor|U-turn|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|48/100 brn
+|
+|t:|1758990242
+|switch|p1a: Meowscarada|Meowscarada, F|100/100|[from] U-turn
+|-activate|p1a: Meowscarada|move: Sticky Web
+|-unboost|p1a: Meowscarada|spe|1
+|move|p2a: Conkeldurr|Facade|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|-damage|p2a: Conkeldurr|42/100 brn|[from] brn
+|upkeep
+|
+|t:|1758990252
+|switch|p1a: Gliscor|Gliscor, M|64/100 tox
+|turn|25
+|inactive|Yega1x has 90 seconds left.
+|
+|t:|1758990292
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Conkeldurr|Facade|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Conkeldurr|36/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1758990300
+|move|p1a: Gliscor|Knock Off|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|24/100 brn
+|-enditem|p2a: Conkeldurr|Flame Orb|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Conkeldurr|Facade|p1a: Gliscor
+|-damage|p1a: Gliscor|18/100 tox
+|
+|-heal|p1a: Gliscor|30/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Conkeldurr|18/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1758990310
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Conkeldurr|Mach Punch|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Conkeldurr|12/100 brn|[from] brn
+|upkeep
+|turn|28
+|inactive|Yega1x has 90 seconds left.
+|
+|t:|1758990320
+|move|p2a: Conkeldurr|Mach Punch|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|30/100 tox
+|move|p1a: Gliscor|Knock Off|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|4/100 brn
+|
+|-heal|p1a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Conkeldurr|0 fnt|[from] brn
+|faint|p2a: Conkeldurr
+|upkeep
+|
+|t:|1758990325
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1758990336
+|-terastallize|p2a: Hydreigon|Steel
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|63/100
+|
+|-heal|p1a: Gliscor|55/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|t:|1758990349
+|move|p2a: Hydreigon|Focus Energy|p2a: Hydreigon
+|-start|p2a: Hydreigon|move: Focus Energy
+|move|p1a: Gliscor|Knock Off|p2a: Hydreigon
+|-crit|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|-heal|p1a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|31
+|
+|t:|1758990358
+|move|p2a: Hydreigon|Draco Meteor|p1a: Gliscor|[miss]
+|-miss|p2a: Hydreigon|p1a: Gliscor
+|move|p1a: Gliscor|Knock Off|p2a: Hydreigon
+|-damage|p2a: Hydreigon|38/100
+|-enditem|p2a: Hydreigon|Scope Lens|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-heal|p1a: Gliscor|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|32
+|
+|t:|1758990366
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Hydreigon|Draco Meteor|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|92/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|33
+|
+|t:|1758990373
+|move|p2a: Hydreigon|Draco Meteor|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Gliscor
+|
+|win|BARRYTO2
+|raw|Yega1x's rating: 1110 &rarr; <strong>1081</strong><br />(-29 for losing)
+|raw|BARRYTO2's rating: 1060 &rarr; <strong>1095</strong><br />(+35 for winning)
+|l|☆BARRYTO2
+|player|p2|
+|l|☆Yega1x
+|player|p1|

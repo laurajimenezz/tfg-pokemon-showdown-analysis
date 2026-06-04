@@ -1,0 +1,367 @@
+|j|☆dia90
+|j|☆srandomg
+|t:|1760743790
+|gametype|singles
+|player|p1|dia90|169|1615
+|player|p2|srandomg|burglar|1642
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Gholdengo|
+|poke|p1|Emboar, M|
+|poke|p1|Dondozo, M|
+|poke|p1|Iron Treads|
+|poke|p2|Pelipper, F|
+|poke|p2|Beartic, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Zapdos|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1760743798
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|t:|1760743812
+|move|p2a: Zapdos|Volt Switch|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|6/100
+|
+|t:|1760743821
+|switch|p2a: Barraskewda|Barraskewda, M|100/100|[from] Volt Switch
+|move|p1a: Samurott|Ceaseless Edge|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|-sidestart|p2: srandomg|Spikes
+|faint|p2a: Barraskewda
+|
+|upkeep
+|
+|t:|1760743826
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|2
+|
+|t:|1760743832
+|move|p1a: Samurott|Ceaseless Edge|p2a: Pelipper
+|-damage|p2a: Pelipper|46/100
+|-sidestart|p2: srandomg|Spikes
+|move|p2a: Pelipper|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|t:|1760743839
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760743853
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|turn|3
+|
+|t:|1760743856
+|move|p2a: Zapdos|Weather Ball|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|32/100
+|move|p1a: Iron Treads|Knock Off|p2a: Zapdos
+|-damage|p2a: Zapdos|68/100
+|-enditem|p2a: Zapdos|Assault Vest|[from] move: Knock Off|[of] p1a: Iron Treads
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760743869
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Dondozo
+|-damage|p1a: Dondozo|68/100
+|-start|p1a: Dondozo|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dondozo|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760743877
+|move|p2a: Zapdos|Thunder|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|3/100
+|-activate|p1a: Dondozo|confusion
+|-damage|p1a: Dondozo|0 fnt|[from] confusion
+|faint|p1a: Dondozo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760743890
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|6
+|
+|t:|1760743893
+|move|p2a: Zapdos|Thunder|p1a: Gholdengo
+|-damage|p1a: Gholdengo|50/100
+|-status|p1a: Gholdengo|par
+|cant|p1a: Gholdengo|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gholdengo|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760743901
+|move|p2a: Zapdos|Thunder|p1a: Gholdengo
+|-damage|p1a: Gholdengo|5/100 par
+|move|p1a: Gholdengo|Hex|p2a: Zapdos
+|-damage|p2a: Zapdos|38/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gholdengo|11/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760743909
+|move|p2a: Zapdos|Hurricane|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760743914
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|9
+|
+|t:|1760743919
+|move|p1a: Rillaboom|Grassy Glide|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|13/100
+|move|p2a: Zapdos|Hurricane|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-weather|none
+|upkeep
+|
+|t:|1760743927
+|switch|p1a: Emboar|Emboar, M|100/100
+|turn|10
+|
+|t:|1760743930
+|switch|p2a: Pelipper|Pelipper, F|46/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-terastallize|p1a: Emboar|Dark
+|move|p1a: Emboar|Bulk Up|p1a: Emboar
+|-boost|p1a: Emboar|atk|1
+|-boost|p1a: Emboar|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760743942
+|move|p1a: Emboar|Bulk Up|p1a: Emboar
+|-boost|p1a: Emboar|atk|1
+|-boost|p1a: Emboar|def|1
+|move|p2a: Pelipper|Surf|p1a: Emboar
+|-damage|p1a: Emboar|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Emboar|57/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1760743952
+|move|p1a: Emboar|Sucker Punch|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|-damage|p1a: Emboar|47/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Emboar|53/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760743957
+|switch|p2a: Zapdos|Zapdos|13/100
+|turn|13
+|
+|t:|1760743967
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|84/100|[from] Spikes
+|move|p1a: Emboar|Sucker Punch||[still]
+|-fail|p1a: Emboar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ogerpon|90/100|[from] Grassy Terrain
+|-heal|p1a: Emboar|60/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1760743975
+|move|p2a: Ogerpon|Encore|p1a: Emboar
+|-start|p1a: Emboar|Encore
+|move|p1a: Emboar|Sucker Punch||[still]
+|-fail|p1a: Emboar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ogerpon|96/100|[from] Grassy Terrain
+|-heal|p1a: Emboar|66/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1760743982
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Emboar|Sucker Punch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|-damage|p1a: Emboar|56/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Emboar|62/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760743989
+|switch|p2a: Beartic|Beartic, M|100/100
+|-damage|p2a: Beartic|84/100|[from] Spikes
+|turn|16
+|
+|t:|1760743994
+|move|p1a: Emboar|Sucker Punch||[still]
+|-fail|p1a: Emboar
+|move|p2a: Beartic|Substitute|p2a: Beartic
+|-start|p2a: Beartic|Substitute
+|-damage|p2a: Beartic|59/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Beartic|65/100|[from] Grassy Terrain
+|-heal|p1a: Emboar|68/100|[from] Grassy Terrain
+|-end|p1a: Emboar|Encore
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1760744003
+|move|p2a: Beartic|Close Combat|p1a: Emboar
+|-supereffective|p1a: Emboar
+|-damage|p1a: Emboar|14/100
+|-unboost|p2a: Beartic|def|1
+|-unboost|p2a: Beartic|spd|1
+|move|p1a: Emboar|Drain Punch|p2a: Beartic
+|-supereffective|p2a: Beartic
+|-end|p2a: Beartic|Substitute
+|-heal|p1a: Emboar|25/100|[from] drain|[of] p2a: Beartic
+|-damage|p1a: Emboar|15/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|t:|1760744017
+|move|p2a: Beartic|Substitute|p2a: Beartic
+|-start|p2a: Beartic|Substitute
+|-damage|p2a: Beartic|40/100
+|move|p1a: Emboar|Drain Punch|p2a: Beartic
+|-supereffective|p2a: Beartic
+|-end|p2a: Beartic|Substitute
+|-heal|p1a: Emboar|26/100|[from] drain|[of] p2a: Beartic
+|-damage|p1a: Emboar|16/100|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+|
+|t:|1760744026
+|move|p2a: Beartic|Substitute|p2a: Beartic
+|-start|p2a: Beartic|Substitute
+|-damage|p2a: Beartic|16/100
+|move|p1a: Emboar|Drain Punch|p2a: Beartic
+|-supereffective|p2a: Beartic
+|-end|p2a: Beartic|Substitute
+|-heal|p1a: Emboar|28/100|[from] drain|[of] p2a: Beartic
+|-damage|p1a: Emboar|18/100|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|
+|t:|1760744034
+|move|p1a: Emboar|Sucker Punch||[still]
+|-fail|p1a: Emboar
+|move|p2a: Beartic|Substitute|p2a: Beartic
+|-fail|p2a: Beartic|move: Substitute|[weak]
+|
+|upkeep
+|turn|21
+|
+|t:|1760744039
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|84/100|[from] Spikes
+|move|p1a: Emboar|Drain Punch|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|57/100
+|-heal|p1a: Emboar|27/100|[from] drain|[of] p2a: Hatterene
+|-enditem|p2a: Hatterene|Eject Button
+|-damage|p1a: Emboar|17/100|[from] item: Life Orb
+|
+|t:|1760744042
+|switch|p2a: Zapdos|Zapdos|13/100
+|
+|upkeep
+|turn|22
+|
+|t:|1760744053
+|switch|p2a: Hatterene|Hatterene, F|57/100
+|-damage|p2a: Hatterene|40/100|[from] Spikes
+|move|p1a: Emboar|Drain Punch|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|11/100
+|-heal|p1a: Emboar|28/100|[from] drain|[of] p2a: Hatterene
+|-damage|p1a: Emboar|18/100|[from] item: Life Orb
+|
+|upkeep
+|turn|23
+|l|☆srandomg
+|player|p2|
+|
+|t:|1760744063
+|move|p1a: Emboar|Drain Punch|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-heal|p1a: Emboar|22/100|[from] drain|[of] p2a: Hatterene
+|faint|p2a: Hatterene
+|-damage|p1a: Emboar|12/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dia90)
+|inactive|srandomg has 30 seconds to reconnect!
+|inactive|srandomg has 20 seconds to reconnect!
+|inactive|srandomg has 15 seconds to reconnect!
+|inactive|srandomg has 10 seconds to reconnect!
+|inactive|srandomg has 5 seconds to reconnect!
+|-message|srandomg lost due to inactivity.
+|
+|win|dia90
+|raw|dia90's rating: 1615 &rarr; <strong>1637</strong><br />(+22 for winning)
+|raw|srandomg's rating: 1642 &rarr; <strong>1620</strong><br />(-22 for losing)

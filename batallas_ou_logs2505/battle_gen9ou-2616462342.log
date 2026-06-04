@@ -1,0 +1,207 @@
+|j|☆elpets
+|j|☆TechBuster
+|t:|1779562910
+|gametype|singles
+|player|p1|elpets|infielder|1653
+|player|p2|TechBuster|101|1701
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Breloom, F|
+|poke|p1|Azumarill, F|
+|poke|p1|Great Tusk|
+|poke|p1|Skeledirge, F|
+|poke|p2|Regieleki|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Zapdos|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Garchomp, M|
+|teampreview
+|j| kirindoto
+|l| kirindoto
+|
+|t:|1779562938
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|t:|1779562972
+|move|p1a: Azumarill|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|10/100
+|-enditem|p2a: Slowking|Shuca Berry|[from] move: Knock Off|[of] p1a: Azumarill
+|move|p2a: Slowking|Future Sight|p1a: Azumarill
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|2
+|
+|t:|1779562989
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Azumarill|Play Rough|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|26/100
+|-damage|p1a: Azumarill|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Azumarill|72/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|
+|upkeep
+|turn|3
+|
+|t:|1779562999
+|move|p2a: Garchomp|Stealth Rock|p1a: Azumarill
+|-sidestart|p1: elpets|move: Stealth Rock
+|move|p1a: Azumarill|Knock Off|p2a: Garchomp
+|-damage|p2a: Garchomp|1/100
+|-damage|p1a: Azumarill|59/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Azumarill|43/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|-enditem|p2a: Garchomp|Rocky Helmet|[from] move: Knock Off|[of] p1a: Azumarill
+|
+|-end|p1a: Azumarill|move: Future Sight
+|-damage|p1a: Azumarill|10/100
+|upkeep
+|turn|4
+|
+|t:|1779563004
+|move|p1a: Azumarill|Aqua Jet|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Azumarill|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|faint|p1a: Azumarill
+|
+|upkeep
+|
+|t:|1779563012
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|5
+|
+|t:|1779563016
+|-terastallize|p1a: Great Tusk|Electric
+|move|p2a: Zapdos|Hurricane|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|59/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|75/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: elpets|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|6
+|
+|t:|1779563023
+|-terastallize|p2a: Zapdos|Fire
+|move|p1a: Great Tusk|Ice Spinner|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|53/100
+|move|p2a: Zapdos|Heat Wave|p1a: Great Tusk|[miss]
+|-miss|p2a: Zapdos|p1a: Great Tusk
+|
+|upkeep
+|turn|7
+|
+|t:|1779563034
+|move|p1a: Great Tusk|Headlong Rush|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Zapdos
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by elpets)
+|
+|t:|1779563038
+|switch|p2a: Electrode Sr.|Regieleki|100/100
+|turn|8
+|
+|t:|1779563042
+|move|p2a: Electrode Sr.|Thunderbolt|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|2/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Electrode Sr.
+|-supereffective|p2a: Electrode Sr.
+|-damage|p2a: Electrode Sr.|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Electrode Sr.
+|
+|upkeep
+|
+|t:|1779563047
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|9
+|
+|t:|1779563050
+|move|p1a: Great Tusk|Headlong Rush|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|upkeep
+|
+|t:|1779563052
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|10
+|
+|t:|1779563056
+|move|p1a: Great Tusk|Supercell Slam|p2a: Ogerpon
+|-damage|p2a: Ogerpon|3/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Great Tusk|[anim] Ivy Cudgel Water
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779563063
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|11
+|
+|t:|1779563064
+|move|p1a: Dragonite|Extreme Speed|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1779563066
+|switch|p2a: Slowking|Slowking-Galar, F|43/100
+|turn|12
+|
+|t:|1779563068
+|move|p1a: Dragonite|Outrage|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|win|elpets
+|raw|elpets's rating: 1653 &rarr; <strong>1676</strong><br />(+23 for winning)
+|raw|TechBuster's rating: 1701 &rarr; <strong>1678</strong><br />(-23 for losing)
+|c|☆TechBuster|gg
+|l|☆TechBuster
+|player|p2|
+|l|☆elpets
+|player|p1|

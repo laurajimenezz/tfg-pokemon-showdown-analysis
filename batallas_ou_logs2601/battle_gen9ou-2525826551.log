@@ -1,0 +1,206 @@
+|j|☆BOARRat
+|j|☆skibidi cupcake
+|t:|1769334707
+|gametype|singles
+|player|p1|BOARRat|hiker-gen4|1136
+|player|p2|skibidi cupcake|bruno|1099
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Alomomola, M|
+|poke|p1|Duraludon, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Torterra, M|
+|poke|p1|Heatran, M|
+|poke|p2|Arboliva, F|
+|poke|p2|Incineroar, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Gholdengo|
+|poke|p2|Gliscor, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by skibidi cupcake)
+|
+|t:|1769334715
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Torterra|Torterra, M|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|t:|1769334722
+|move|p1a: Torterra|Shell Smash|p1a: Torterra
+|-unboost|p1a: Torterra|def|1
+|-unboost|p1a: Torterra|spd|1
+|-boost|p1a: Torterra|atk|2
+|-boost|p1a: Torterra|spa|2
+|-boost|p1a: Torterra|spe|2
+|-enditem|p1a: Torterra|White Herb
+|-clearnegativeboost|p1a: Torterra|[silent]
+|move|p2a: Slowking|Ice Beam|p1a: Torterra
+|-supereffective|p1a: Torterra
+|-damage|p1a: Torterra|0 fnt
+|faint|p1a: Torterra
+|
+|upkeep
+|
+|t:|1769334741
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|2
+|
+|t:|1769334746
+|move|p1a: Heatran|Earth Power|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|51/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1769334765
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1769334790
+|move|p2a: Thundurus|Volt Switch|p1a: Heatran
+|-damage|p1a: Heatran|57/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|t:|1769334794
+|switch|p2a: Gliscor|Gliscor, F|100/100|[from] Volt Switch
+|move|p1a: Heatran|Lava Plume|p2a: Gliscor
+|-damage|p2a: Gliscor|51/100
+|
+|-weather|Snowscape|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1769334811
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|inactive|skibidi cupcake has 120 seconds left.
+|
+|t:|1769334849
+|-terastallize|p1a: Thundurus|Water
+|move|p1a: Thundurus|Tera Blast|p2a: Gliscor|[anim] Tera Blast Water
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1769334858
+|switch|p2a: Arboliva|Arboliva, F|100/100
+|turn|6
+|
+|t:|1769334864
+|switch|p1a: Duraludon|Duraludon, F|100/100
+|move|p2a: Arboliva|Strength Sap|p1a: Duraludon
+|-unboost|p1a: Duraludon|atk|1
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1769334874
+|move|p1a: Duraludon|Stealth Rock|p2a: Arboliva
+|-sidestart|p2: skibidi cupcake|move: Stealth Rock
+|move|p2a: Arboliva|Leech Seed|p1a: Duraludon
+|-start|p1a: Duraludon|move: Leech Seed
+|
+|-damage|p1a: Duraludon|88/100|[from] Leech Seed|[of] p2a: Arboliva
+|upkeep
+|turn|8
+|
+|t:|1769334881
+|move|p1a: Duraludon|Thunder Wave|p2a: Arboliva
+|-status|p2a: Arboliva|par
+|cant|p2a: Arboliva|par
+|
+|-damage|p1a: Duraludon|75/100|[from] Leech Seed|[of] p2a: Arboliva
+|upkeep
+|turn|9
+|
+|t:|1769334891
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|cant|p2a: Arboliva|par
+|
+|upkeep
+|turn|10
+|
+|t:|1769334897
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Arboliva|Leech Seed|p1a: Alomomola
+|-start|p1a: Alomomola|move: Leech Seed
+|
+|-damage|p1a: Alomomola|88/100|[from] Leech Seed|[of] p2a: Arboliva
+|upkeep
+|turn|11
+|inactive|skibidi cupcake has 120 seconds left.
+|inactive|skibidi cupcake has 90 seconds left.
+|
+|t:|1769334964
+|switch|p1a: Heatran|Heatran, M|57/100
+|cant|p2a: Arboliva|par
+|
+|-heal|p1a: Heatran|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|12
+|inactive|skibidi cupcake has 90 seconds left.
+|
+|t:|1769334983
+|move|p1a: Heatran|Lava Plume|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-damage|p2a: Arboliva|20/100 par
+|-enditem|p2a: Arboliva|Sitrus Berry|[eat]
+|-heal|p2a: Arboliva|45/100 par|[from] item: Sitrus Berry
+|cant|p2a: Arboliva|par
+|
+|upkeep
+|turn|13
+|c|☆skibidi cupcake|Nah
+|inactive|skibidi cupcake has 90 seconds left.
+|
+|t:|1769334998
+|-terastallize|p2a: Arboliva|Ghost
+|move|p1a: Heatran|Lava Plume|p2a: Arboliva
+|-damage|p2a: Arboliva|5/100 par
+|cant|p2a: Arboliva|par
+|
+|-item|p2a: Arboliva|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Arboliva|Sitrus Berry|[eat]
+|-heal|p2a: Arboliva|30/100 par|[from] item: Sitrus Berry
+|turn|14
+|inactive|skibidi cupcake has 90 seconds left.
+|-message|skibidi cupcake forfeited.
+|
+|win|BOARRat
+|raw|BOARRat's rating: 1136 &rarr; <strong>1158</strong><br />(+22 for winning)
+|raw|skibidi cupcake's rating: 1099 &rarr; <strong>1077</strong><br />(-22 for losing)
+|l|☆skibidi cupcake
+|player|p2|
+|l|☆BOARRat
+|player|p1|

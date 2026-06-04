@@ -1,0 +1,463 @@
+|j|☆soopamane
+|j|☆HaddyShowdwn
+|t:|1779858783
+|gametype|singles
+|player|p1|soopamane|2|1102
+|player|p2|HaddyShowdwn|265|1150
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Arboliva, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Scream Tail|
+|poke|p1|Gliscor, F|
+|poke|p1|Zapdos|
+|poke|p1|Dragonite, F|
+|poke|p2|Quaquaval, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Alomomola, F|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1779858797
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100
+|turn|1
+|
+|t:|1779858806
+|move|p1a: Scream Tail|Light Screen|p1a: Scream Tail
+|-sidestart|p1: soopamane|move: Light Screen
+|move|p2a: Hatterene|Nuzzle|p1a: Scream Tail
+|-damage|p1a: Scream Tail|97/100
+|-status|p1a: Scream Tail|par
+|
+|upkeep
+|turn|2
+|
+|t:|1779858824
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|100/100
+|move|p1a: Scream Tail|Reflect|p1a: Scream Tail
+|-sidestart|p1: soopamane|Reflect
+|
+|upkeep
+|turn|3
+|
+|t:|1779858830
+|move|p1a: Scream Tail|Thunder Wave|p2a: Slowking
+|-status|p2a: Slowking|par
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|upkeep
+|turn|4
+|
+|t:|1779858851
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Arboliva|Arboliva, F, shiny|100/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|cant|p2a: Slowking|par
+|
+|upkeep
+|turn|5
+|
+|t:|1779858869
+|move|p2a: Slowking|Sludge Wave|p1a: Arboliva
+|-supereffective|p1a: Arboliva
+|-damage|p1a: Arboliva|63/100
+|move|p1a: Arboliva|Substitute|p1a: Arboliva
+|-start|p1a: Arboliva|Substitute
+|-damage|p1a: Arboliva|39/100
+|-enditem|p1a: Arboliva|Sitrus Berry|[eat]
+|-heal|p1a: Arboliva|63/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|6
+|
+|t:|1779858882
+|move|p2a: Slowking|Sludge Wave|p1a: Arboliva
+|-supereffective|p1a: Arboliva
+|-end|p1a: Arboliva|Substitute
+|move|p1a: Arboliva|Leech Seed|p2a: Slowking
+|-start|p2a: Slowking|move: Leech Seed
+|
+|-damage|p2a: Slowking|88/100 par|[from] Leech Seed|[of] p1a: Arboliva
+|-heal|p1a: Arboliva|76/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1779858897
+|switch|p1a: Scream Tail|Scream Tail|97/100 par
+|move|p2a: Slowking|Future Sight|p1a: Scream Tail
+|-start|p2a: Slowking|move: Future Sight
+|
+|-damage|p2a: Slowking|76/100 par|[from] Leech Seed|[of] p1a: Scream Tail
+|-heal|p1a: Scream Tail|100/100 par|[silent]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1779858910
+|move|p1a: Scream Tail|Encore|p2a: Slowking
+|-start|p2a: Slowking|Encore
+|move|p2a: Slowking|Future Sight||[still]
+|-fail|p2a: Slowking
+|
+|-damage|p2a: Slowking|63/100 par|[from] Leech Seed|[of] p1a: Scream Tail
+|-sideend|p1: soopamane|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1779858947
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|switch|p2a: Ursaluna|Ursaluna, M, shiny|100/100
+|
+|-end|p1a: Dragonite|move: Future Sight
+|-damage|p1a: Dragonite|70/100
+|-sideend|p1: soopamane|Reflect
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|t:|1779858961
+|-terastallize|p1a: Dragonite|Steel
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Ursaluna|Facade|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|5/100
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1779858972
+|move|p1a: Dragonite|Iron Head|p2a: Ursaluna
+|-damage|p2a: Ursaluna|40/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-damage|p2a: Ursaluna|34/100 brn|[from] brn
+|upkeep
+|
+|t:|1779858984
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1a: Rillaboom|Grassy Seed
+|-boost|p1a: Rillaboom|def|1|[from] item: Grassy Seed
+|turn|12
+|
+|t:|1779858999
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|97/100 par
+|move|p1a: Rillaboom|Trailblaze|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|84/100 par
+|-boost|p1a: Rillaboom|spe|1
+|-damage|p1a: Rillaboom|84/100|[from] item: Rocky Helmet|[of] p2a: Slowking
+|
+|-heal|p1a: Rillaboom|90/100|[from] Grassy Terrain
+|-heal|p2a: Slowking|90/100 par|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1779859028
+|move|p1a: Rillaboom|Acrobatics|p2a: Slowking
+|-damage|p2a: Slowking|61/100 par
+|-damage|p1a: Rillaboom|74/100|[from] item: Rocky Helmet|[of] p2a: Slowking
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-heal|p2a: Slowking|67/100 par|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|80/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1779859038
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Slowking|Sludge Wave|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|71/100
+|
+|-heal|p2a: Slowking|73/100 par|[from] Grassy Terrain
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|15
+|
+|t:|1779859056
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1779859065
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100|[from] Chilly Reception
+|move|p1a: Gliscor|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|77/100
+|-enditem|p2a: Hatterene|Mirror Herb|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Hatterene|82/100|[from] Grassy Terrain
+|-heal|p1a: Gliscor|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1779859085
+|switch|p1a: Scream Tail|Scream Tail|100/100 par
+|move|p2a: Hatterene|Future Sight|p1a: Scream Tail
+|-start|p2a: Hatterene|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Hatterene|88/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1779859097
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Scream Tail
+|-damage|p1a: Scream Tail|74/100 par
+|move|p1a: Scream Tail|Light Screen|p1a: Scream Tail
+|-sidestart|p1: soopamane|move: Light Screen
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|18
+|
+|t:|1779859121
+|switch|p2a: Alomomola|Alomomola, F, shiny|100/100
+|move|p1a: Scream Tail|Reflect|p1a: Scream Tail
+|-sidestart|p1: soopamane|Reflect
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Scream Tail|move: Future Sight
+|-resisted|p1a: Scream Tail
+|-damage|p1a: Scream Tail|63/100 par
+|upkeep
+|turn|19
+|
+|t:|1779859131
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|cant|p1a: Scream Tail|par
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|t:|1779859144
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Rillaboom|Rillaboom, F|80/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Alomomola|Flip Turn|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|74/100
+|
+|t:|1779859152
+|switch|p2a: Ursaluna|Ursaluna, M, shiny|34/100 brn|[from] Flip Turn
+|
+|-heal|p2a: Ursaluna|100/100 brn|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Rillaboom|80/100|[from] Grassy Terrain
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1779859166
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|100/100 par
+|move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|
+|-heal|p1a: Rillaboom|86/100|[from] Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1779859181
+|move|p1a: Rillaboom|Acrobatics|p2a: Slowking
+|-damage|p2a: Slowking|37/100 par
+|-damage|p1a: Rillaboom|69/100|[from] item: Rocky Helmet|[of] p2a: Slowking
+|move|p2a: Slowking|Sludge Wave|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|22/100
+|
+|-heal|p1a: Rillaboom|28/100|[from] Grassy Terrain
+|-heal|p2a: Slowking|43/100 par|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|t:|1779859196
+|switch|p2a: Alomomola|Alomomola, F, shiny|100/100
+|move|p1a: Rillaboom|Acrobatics|p2a: Alomomola
+|-damage|p2a: Alomomola|50/100
+|-enditem|p2a: Alomomola|Eject Button
+|
+|t:|1779859226
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|
+|-heal|p1a: Rillaboom|34/100|[from] Grassy Terrain
+|upkeep
+|turn|24
+|
+|t:|1779859241
+|-terastallize|p2a: Quaquaval|Steel
+|move|p1a: Rillaboom|Drain Punch|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-enditem|p2a: Quaquaval|Focus Sash
+|-damage|p2a: Quaquaval|1/100
+|-heal|p1a: Rillaboom|75/100|[from] drain|[of] p2a: Quaquaval
+|move|p2a: Quaquaval|Swords Dance|p2a: Quaquaval
+|-boost|p2a: Quaquaval|atk|2
+|
+|-heal|p1a: Rillaboom|81/100|[from] Grassy Terrain
+|-heal|p2a: Quaquaval|7/100|[from] Grassy Terrain
+|-sideend|p1: soopamane|move: Light Screen
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|25
+|
+|t:|1779859256
+|move|p1a: Rillaboom|Trailblaze|p2a: Quaquaval
+|-resisted|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|-boost|p1a: Rillaboom|spe|1
+|faint|p2a: Quaquaval
+|
+|-sideend|p1: soopamane|Reflect
+|upkeep
+|
+|t:|1779859267
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|77/100 par
+|turn|26
+|
+|t:|1779859283
+|switch|p2a: Alomomola|Alomomola, F, shiny|83/100
+|move|p1a: Rillaboom|Acrobatics|p2a: Alomomola
+|-damage|p2a: Alomomola|37/100
+|
+|upkeep
+|turn|27
+|
+|t:|1779859306
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|
+|upkeep
+|turn|28
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by soopamane)
+|
+|t:|1779859317
+|move|p1a: Rillaboom|Drain Punch|p2a: Hoopa
+|-damage|p2a: Hoopa|25/100
+|-heal|p1a: Rillaboom|100/100|[from] drain|[of] p2a: Hoopa
+|move|p2a: Hoopa|Trick Room|p2a: Hoopa
+|-fieldstart|move: Trick Room|[of] p2a: Hoopa
+|
+|upkeep
+|turn|29
+|
+|t:|1779859329
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Rillaboom
+|-damage|p1a: Rillaboom|17/100
+|-unboost|p2a: Hoopa|def|1
+|-damage|p2a: Hoopa|15/100|[from] item: Life Orb
+|move|p1a: Rillaboom|Drain Punch|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|-heal|p1a: Rillaboom|23/100|[from] drain|[of] p2a: Hoopa
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1779859340
+|switch|p2a: Ursaluna|Ursaluna, M, shiny|94/100 brn
+|turn|30
+|
+|t:|1779859346
+|switch|p1a: Scream Tail|Scream Tail|63/100 par
+|move|p2a: Ursaluna|Facade|p1a: Scream Tail
+|-damage|p1a: Scream Tail|0 fnt
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1779859357
+|switch|p1a: Gliscor|Gliscor, F|84/100 tox
+|turn|31
+|
+|t:|1779859361
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-heal|p1a: Gliscor|96/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Ursaluna|82/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1779859374
+|move|p2a: Ursaluna|Facade|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-damage|p2a: Ursaluna|76/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1779859392
+|switch|p1a: Rillaboom|Rillaboom, F|23/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|33
+|
+|t:|1779859398
+|move|p1a: Rillaboom|Drain Punch|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|42/100 brn
+|-heal|p1a: Rillaboom|40/100|[from] drain|[of] p2a: Ursaluna
+|move|p2a: Ursaluna|Facade|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Ursaluna|48/100 brn|[from] Grassy Terrain
+|-damage|p2a: Ursaluna|42/100 brn|[from] brn
+|upkeep
+|
+|t:|1779859417
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|34
+|
+|t:|1779859427
+|move|p1a: Zapdos|Air Cutter|p2a: Ursaluna
+|-damage|p2a: Ursaluna|23/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-heal|p2a: Ursaluna|29/100 brn|[from] Grassy Terrain
+|-damage|p2a: Ursaluna|23/100 brn|[from] brn
+|upkeep
+|inactive|soopamane has 120 seconds left.
+|-message|soopamane forfeited.
+|
+|win|HaddyShowdwn
+|raw|soopamane's rating: 1102 &rarr; <strong>1080</strong><br />(-22 for losing)
+|raw|HaddyShowdwn's rating: 1150 &rarr; <strong>1172</strong><br />(+22 for winning)
+|l|☆soopamane
+|player|p1|
+|l|☆HaddyShowdwn
+|player|p2|

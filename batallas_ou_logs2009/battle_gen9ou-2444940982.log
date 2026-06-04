@@ -1,0 +1,292 @@
+|j|☆brlegjemsa
+|j|☆darkosblack
+|t:|1758289532
+|gametype|singles
+|player|p1|brlegjemsa|dawn|1281
+|player|p2|darkosblack|102|1262
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Quaquaval, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Necrozma|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kyurem|
+|poke|p2|Iron Valiant|
+|poke|p2|Cinderace, F|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1758289549
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|t:|1758289557
+|move|p1a: Cinderace|U-turn|p2a: Cinderace
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|78/100
+|
+|t:|1758289563
+|switch|p1a: Quaquaval|Quaquaval, M|100/100|[from] U-turn
+|move|p2a: Cinderace|U-turn|p1a: Quaquaval
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|82/100
+|
+|t:|1758289593
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1758289597
+|move|p1a: Quaquaval|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|46/100
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Quaquaval
+|move|p2a: Slowking|Psyshock|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|13/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758289611
+|switch|p1a: Necrozma|Necrozma|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Necrozma|atk|1
+|
+|upkeep
+|turn|4
+|
+|t:|1758289619
+|move|p2a: Landorus|Taunt|p1a: Necrozma
+|-start|p1a: Necrozma|move: Taunt
+|cant|p1a: Necrozma|move: Taunt|Calm Mind
+|
+|upkeep
+|turn|5
+|
+|t:|1758289628
+|move|p2a: Landorus|U-turn|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|76/100
+|
+|t:|1758289634
+|switch|p2a: Kingambit|Kingambit, F|100/100|[from] U-turn
+|move|p1a: Necrozma|Photon Geyser|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|-heal|p1a: Necrozma|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1758289649
+|-terastallize|p1a: Necrozma|Fighting
+|move|p1a: Necrozma|Earth Power|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|34/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|62/100
+|
+|-heal|p1a: Necrozma|68/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|40/100|[from] item: Leftovers
+|-end|p1a: Necrozma|move: Taunt
+|upkeep
+|turn|7
+|
+|t:|1758289668
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+|-heal|p1a: Necrozma|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1758289682
+|move|p2a: Iron Valiant|Encore|p1a: Necrozma
+|-start|p1a: Necrozma|Encore
+|move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+|-fail|p1a: Necrozma|heal
+|
+|upkeep
+|turn|9
+|
+|t:|1758289690
+|switch|p1a: Quaquaval|Quaquaval, M|13/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-crit|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|upkeep
+|
+|t:|1758289692
+|switch|p1a: Necrozma|Necrozma, tera:Fighting|100/100
+|turn|10
+|
+|t:|1758289715
+|-terastallize|p2a: Iron Valiant|Fairy
+|move|p2a: Iron Valiant|Moonblast|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|20/100
+|move|p1a: Necrozma|Photon Geyser|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Necrozma|26/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758289729
+|switch|p2a: Slowking|Slowking-Galar, F|79/100
+|turn|11
+|
+|t:|1758289732
+|move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+|-heal|p1a: Necrozma|76/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1758289738
+|switch|p2a: Kyurem|Kyurem|100/100|[from] Chilly Reception
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Necrozma|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758289744
+|move|p2a: Kyurem|Draco Meteor|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|-unboost|p2a: Kyurem|spa|2
+|faint|p1a: Necrozma
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758289747
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|13
+|
+|t:|1758289752
+|switch|p2a: Kingambit|Kingambit, F|40/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Dragapult|Dragon Darts|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|18/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|4/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Kingambit|10/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1758289763
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Cinderace
+|-damage|p1a: Cinderace|27/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Kingambit|16/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758289772
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Cinderace|atk|1
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1758289779
+|move|p1a: Cinderace|U-turn|p2a: Landorus
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|75/100
+|-damage|p1a: Cinderace|11/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|t:|1758289783
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|move|p2a: Landorus|Stealth Rock|p1a: Ogerpon
+|-sidestart|p1: brlegjemsa|move: Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|t:|1758289790
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Kyurem|[anim] Ivy Cudgel Water
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|74/100
+|
+|upkeep
+|turn|18
+|
+|t:|1758289798
+|move|p1a: Ogerpon|Superpower|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Ogerpon|atk|1
+|-unboost|p1a: Ogerpon|def|1
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1758289806
+|switch|p2a: Cinderace|Cinderace, F|78/100
+|turn|19
+|
+|t:|1758289814
+|switch|p1a: Cinderace|Cinderace, F|11/100
+|move|p2a: Cinderace|U-turn|p1a: Cinderace
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|-message|darkosblack forfeited.
+|
+|win|brlegjemsa
+|raw|brlegjemsa's rating: 1281 &rarr; <strong>1305</strong><br />(+24 for winning)
+|raw|darkosblack's rating: 1262 &rarr; <strong>1238</strong><br />(-24 for losing)
+|l|☆darkosblack
+|player|p2|

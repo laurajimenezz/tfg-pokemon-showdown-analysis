@@ -1,0 +1,262 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1769338664
+|gametype|singles
+|player|p1|GLOWKING AGENDA|lady-gen4|
+|player|p2|Diamondnt_|n-masters|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p1|Kingambit, F|
+|poke|p2|Scizor, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Moth|
+|poke|p2|Great Tusk|
+|poke|p2|Raging Bolt|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|t:|1769338687
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: QUIL|Araquanid, F|100/100
+|switch|p2a: Medium Dog|Great Tusk|100/100
+|turn|1
+|
+|t:|1769338695
+|-end|p2a: Medium Dog|Protosynthesis|[silent]
+|switch|p2a: Small Dog|Raging Bolt|100/100
+|move|p1a: QUIL|Sticky Web|p2a: Small Dog
+|-sidestart|p2: Diamondnt_|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1769338703
+|move|p2a: Small Dog|Thunderbolt|p1a: QUIL
+|-supereffective|p1a: QUIL
+|-damage|p1a: QUIL|30/100
+|move|p1a: QUIL|Endeavor|p2a: Small Dog
+|-damage|p2a: Small Dog|26/100
+|
+|upkeep
+|turn|3
+|
+|t:|1769338712
+|move|p2a: Small Dog|Volt Switch|p1a: QUIL
+|-supereffective|p1a: QUIL
+|-damage|p1a: QUIL|0 fnt
+|faint|p1a: QUIL
+|
+|t:|1769338728
+|-end|p2a: Small Dog|Protosynthesis|[silent]
+|switch|p2a: Big Dog|Zamazenta|100/100|[from] Volt Switch
+|-activate|p2a: Big Dog|move: Sticky Web
+|-unboost|p2a: Big Dog|spe|1
+|-ability|p2a: Big Dog|Dauntless Shield|boost
+|-boost|p2a: Big Dog|def|1
+|
+|upkeep
+|
+|t:|1769338739
+|switch|p1a: QUZZ|Iron Valiant|100/100
+|-enditem|p1a: QUZZ|Booster Energy
+|-activate|p1a: QUZZ|ability: Quark Drive|[fromitem]
+|-start|p1a: QUZZ|quarkdrivespa
+|turn|4
+|
+|t:|1769338757
+|switch|p2a: The Claw|Scizor, M|100/100
+|-activate|p2a: The Claw|move: Sticky Web
+|-unboost|p2a: The Claw|spe|1
+|move|p1a: QUZZ|Moonblast|p2a: The Claw
+|-resisted|p2a: The Claw
+|-damage|p2a: The Claw|55/100
+|
+|upkeep
+|turn|5
+|
+|t:|1769338776
+|-end|p1a: QUZZ|Quark Drive|[silent]
+|switch|p1a: CALA|Iron Moth|100/100
+|-enditem|p1a: CALA|Booster Energy
+|-activate|p1a: CALA|ability: Quark Drive|[fromitem]
+|-start|p1a: CALA|quarkdrivespa
+|move|p2a: The Claw|Dual Wingbeat|p1a: CALA
+|-damage|p1a: CALA|42/100
+|-damage|p1a: CALA|0 fnt
+|faint|p1a: CALA
+|-end|p1a: CALA|Quark Drive|[silent]
+|-hitcount|p1: CALA|2
+|
+|upkeep
+|
+|t:|1769338781
+|switch|p1a: DELI|Raging Bolt|100/100
+|-enditem|p1a: DELI|Booster Energy
+|-activate|p1a: DELI|ability: Protosynthesis|[fromitem]
+|-start|p1a: DELI|protosynthesisspa
+|turn|6
+|
+|t:|1769338793
+|switch|p2a: Medium Dog|Great Tusk|100/100
+|-activate|p2a: Medium Dog|move: Sticky Web
+|-unboost|p2a: Medium Dog|spe|1
+|move|p1a: DELI|Calm Mind|p1a: DELI
+|-boost|p1a: DELI|spa|1
+|-boost|p1a: DELI|spd|1
+|
+|upkeep
+|turn|7
+|inactive|GLOWKING AGENDA has 270 seconds left.
+|
+|t:|1769338829
+|move|p1a: DELI|Dragon Pulse|p2a: Medium Dog
+|-crit|p2a: Medium Dog
+|-damage|p2a: Medium Dog|0 fnt
+|faint|p2a: Medium Dog
+|-end|p2a: Medium Dog|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769338843
+|switch|p2a: Big Dog|Zamazenta|100/100
+|-activate|p2a: Big Dog|move: Sticky Web
+|-unboost|p2a: Big Dog|spe|1
+|turn|8
+|
+|t:|1769338849
+|move|p1a: DELI|Thunderbolt|p2a: Big Dog
+|-damage|p2a: Big Dog|14/100
+|move|p2a: Big Dog|Roar|p1a: DELI
+|-end|p1a: DELI|Protosynthesis|[silent]
+|drag|p1a: TREE?|Gholdengo|100/100
+|-item|p1a: TREE?|Air Balloon
+|
+|-heal|p2a: Big Dog|20/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1769338859
+|move|p1a: TREE?|Shadow Ball|p2a: Big Dog
+|-damage|p2a: Big Dog|0 fnt
+|faint|p2a: Big Dog
+|
+|upkeep
+|
+|t:|1769338865
+|switch|p2a: Miniscule Dog|Iron Moth|100/100
+|-activate|p2a: Miniscule Dog|move: Sticky Web
+|-unboost|p2a: Miniscule Dog|spe|1
+|-enditem|p2a: Miniscule Dog|Booster Energy
+|-activate|p2a: Miniscule Dog|ability: Quark Drive|[fromitem]
+|-start|p2a: Miniscule Dog|quarkdrivespa
+|turn|10
+|
+|t:|1769338877
+|move|p1a: TREE?|Psyshock|p2a: Miniscule Dog
+|-supereffective|p2a: Miniscule Dog
+|-damage|p2a: Miniscule Dog|24/100
+|move|p2a: Miniscule Dog|Substitute|p2a: Miniscule Dog
+|-fail|p2a: Miniscule Dog|move: Substitute|[weak]
+|
+|upkeep
+|turn|11
+|
+|t:|1769338884
+|move|p1a: TREE?|Psyshock|p2a: Miniscule Dog
+|-supereffective|p2a: Miniscule Dog
+|-damage|p2a: Miniscule Dog|0 fnt
+|faint|p2a: Miniscule Dog
+|-end|p2a: Miniscule Dog|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769338890
+|switch|p2a: The Claw|Scizor, M|55/100
+|-activate|p2a: The Claw|move: Sticky Web
+|-unboost|p2a: The Claw|spe|1
+|turn|12
+|
+|t:|1769338896
+|move|p1a: TREE?|Shadow Ball|p2a: The Claw
+|-damage|p2a: The Claw|0 fnt
+|faint|p2a: The Claw
+|
+|upkeep
+|
+|t:|1769338901
+|switch|p2a: The Pon|Ogerpon-Wellspring, F|100/100
+|-activate|p2a: The Pon|move: Sticky Web
+|-unboost|p2a: The Pon|spe|1
+|turn|13
+|
+|t:|1769338908
+|-terastallize|p2a: The Pon|Water
+|detailschange|p2a: The Pon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: The Pon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: The Pon|spd|1
+|move|p1a: TREE?|Psyshock|p2a: The Pon
+|-damage|p2a: The Pon|63/100
+|move|p2a: The Pon|Knock Off|p1a: TREE?
+|-supereffective|p1a: TREE?
+|-damage|p1a: TREE?|11/100
+|-enditem|p1a: TREE?|Air Balloon
+|
+|upkeep
+|turn|14
+|
+|t:|1769338918
+|move|p1a: TREE?|Psyshock|p2a: The Pon
+|-crit|p2a: The Pon
+|-damage|p2a: The Pon|11/100
+|move|p2a: The Pon|Power Whip|p1a: TREE?
+|-resisted|p1a: TREE?
+|-damage|p1a: TREE?|0 fnt
+|faint|p1a: TREE?
+|
+|upkeep
+|
+|t:|1769338921
+|switch|p1a: DELI|Raging Bolt|100/100
+|turn|15
+|
+|t:|1769338928
+|move|p1a: DELI|Thunderbolt|p2a: The Pon
+|-supereffective|p2a: The Pon
+|-damage|p2a: The Pon|0 fnt
+|faint|p2a: The Pon
+|detailschange|p2: The Pon|Ogerpon-Wellspring, F|[silent]
+|
+|upkeep
+|c|☆Diamondnt_|gg
+|
+|t:|1769338936
+|switch|p2a: Small Dog|Raging Bolt|26/100
+|turn|16
+|c|☆GLOWKING AGENDA|ggs
+|
+|t:|1769338941
+|move|p2a: Small Dog|Thunderclap|p1a: DELI
+|-resisted|p1a: DELI
+|-damage|p1a: DELI|91/100
+|move|p1a: DELI|Dragon Pulse|p2a: Small Dog
+|-supereffective|p2a: Small Dog
+|-damage|p2a: Small Dog|0 fnt
+|faint|p2a: Small Dog
+|-end|p2a: Small Dog|Protosynthesis|[silent]
+|
+|win|GLOWKING AGENDA

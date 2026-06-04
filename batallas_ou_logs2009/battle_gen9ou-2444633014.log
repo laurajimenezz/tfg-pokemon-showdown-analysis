@@ -1,0 +1,250 @@
+|j|☆Str8yorkinit
+|j|☆pvc31
+|t:|1758244362
+|gametype|singles
+|player|p1|Str8yorkinit|policeman|1218
+|player|p2|pvc31|n|1224
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glimmora, M|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p1|Dragonite, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Hands|
+|poke|p2|Heracross, M|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Gliscor, F|
+|teampreview
+|
+|t:|1758244389
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1758244398
+|move|p1a: Ogerpon|Horn Leech|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1758244406
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|turn|2
+|
+|t:|1758244415
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2a: Goodra|Dragon Tail|p1a: Iron Hands
+|-damage|p1a: Iron Hands|86/100
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|drag|p1a: Great Tusk|Great Tusk|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758244431
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Great Tusk|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: pvc31|move: Stealth Rock
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1758244439
+|move|p1a: Great Tusk|Ice Spinner|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|18/100 tox
+|move|p2a: Gliscor|Dual Wingbeat|p1a: Great Tusk|[miss]
+|-miss|p2a: Gliscor|p1a: Great Tusk
+|
+|-heal|p2a: Gliscor|30/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1758244452
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Great Tusk|Ice Spinner|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1758244472
+|switch|p2a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-damage|p2a: Typhlosion|76/100|[from] Stealth Rock
+|move|p1a: Great Tusk|Ice Spinner|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|56/100
+|
+|-heal|p2a: Typhlosion|62/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758244490
+|move|p2a: Typhlosion|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|move|p1a: Great Tusk|Headlong Rush|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Typhlosion
+|
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1758244511
+|switch|p2a: Heracross|Heracross, M|100/100
+|-damage|p2a: Heracross|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1758244518
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Heracross|Trailblaze|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|94/100
+|-boost|p2a: Heracross|spe|1
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|-status|p2a: Heracross|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|t:|1758244531
+|move|p2a: Heracross|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|48/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Heracross
+|-damage|p2a: Heracross|26/100 brn
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-damage|p2a: Heracross|20/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1758244544
+|move|p2a: Heracross|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|4/100
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|54/100
+|
+|-damage|p2a: Heracross|14/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1758244564
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|-damage|p2a: Glimmora|88/100|[from] Stealth Rock
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1758244573
+|move|p2a: Glimmora|Earth Power|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|35/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|29/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|upkeep
+|turn|13
+|
+|t:|1758244588
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Glimmora|Earth Power|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|84/100
+|
+|upkeep
+|turn|14
+|
+|t:|1758244597
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Glimmora|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Str8yorkinit|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1758244605
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|-damage|p2a: Goodra|94/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1758244613
+|switch|p1a: Iron Hands|Iron Hands|86/100
+|-status|p1a: Iron Hands|psn
+|move|p2a: Goodra|Dragon Tail|p1a: Iron Hands
+|-damage|p1a: Iron Hands|71/100 psn
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|drag|p1a: Dragonite|Dragonite, F|100/100
+|
+|upkeep
+|turn|16
+|
+|t:|1758244627
+|move|p1a: Dragonite|Earthquake|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|53/100
+|move|p2a: Goodra|Dragon Tail|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|83/100
+|drag|p1a: Iron Hands|Iron Hands|71/100 psn
+|
+|-damage|p1a: Iron Hands|58/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1758244638
+|move|p1a: Iron Hands|Drain Punch|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-heal|p1a: Iron Hands|80/100 psn|[from] drain|[of] p2a: Goodra
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Iron Hands|spe|1
+|faint|p2a: Goodra
+|
+|-damage|p1a: Iron Hands|67/100 psn|[from] psn
+|upkeep
+|-message|pvc31 forfeited.
+|
+|win|Str8yorkinit
+|raw|Str8yorkinit's rating: 1218 &rarr; <strong>1243</strong><br />(+25 for winning)
+|raw|pvc31's rating: 1224 &rarr; <strong>1199</strong><br />(-25 for losing)
+|l|☆pvc31
+|player|p2|
+|l|☆Str8yorkinit
+|player|p1|

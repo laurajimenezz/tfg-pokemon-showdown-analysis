@@ -1,0 +1,405 @@
+|j|☆BBT94
+|j|☆dxBasti
+|t:|1758327590
+|gametype|singles
+|player|p1|BBT94|102|1613
+|player|p2|dxBasti|harlequin|1518
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, M|
+|poke|p1|Alomomola, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Enamorus, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Iron Hands|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Mimikyu, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dxBasti)
+|
+|t:|1758327598
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1758327604
+|move|p1a: Dragapult|U-turn|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|88/100
+|
+|t:|1758327609
+|switch|p1a: Alomomola|Alomomola, M|100/100|[from] U-turn
+|move|p2a: Iron Hands|Ice Punch|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|90/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758327612
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Iron Hands|Supercell Slam|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|-damage|p2a: Iron Hands|38/100|[from] supercellslam
+|
+|upkeep
+|turn|3
+|
+|t:|1758327619
+|move|p1a: Alomomola|Flip Turn|p2a: Iron Hands
+|-damage|p2a: Iron Hands|26/100
+|
+|t:|1758327621
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Flip Turn
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Iron Hands|Ice Punch|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|49/100
+|
+|upkeep
+|turn|4
+|
+|t:|1758327625
+|-terastallize|p2a: Iron Hands|Flying
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Hands
+|-immune|p2a: Iron Hands
+|move|p2a: Iron Hands|Ice Punch|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|1/100
+|
+|upkeep
+|turn|5
+|
+|t:|1758327629
+|move|p1a: Great Tusk|Stealth Rock|p2a: Iron Hands
+|-sidestart|p2: dxBasti|move: Stealth Rock
+|move|p2a: Iron Hands|Ice Punch|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758327633
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|6
+|
+|t:|1758327636
+|move|p1a: Dragapult|Dragon Darts|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758327640
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-damage|p2a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|7
+|
+|t:|1758327642
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|move|p1a: Dragapult|Dragon Darts|p2a: Hatterene
+|-immune|p2a: Hatterene
+|
+|upkeep
+|turn|8
+|
+|t:|1758327650
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p2a: Hoopa|88/100|[from] Stealth Rock
+|-enditem|p2a: Hoopa|Psychic Seed
+|-boost|p2a: Hoopa|spd|1|[from] item: Psychic Seed
+|
+|upkeep
+|turn|9
+|
+|t:|1758327654
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Hoopa|Trick Room|p2a: Hoopa
+|-fieldstart|move: Trick Room|[of] p2a: Hoopa
+|
+|upkeep
+|turn|10
+|
+|t:|1758327660
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Hoopa|Focus Blast|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|upkeep
+|turn|11
+|
+|t:|1758327667
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Hoopa|Expanding Force|p1a: Kingambit
+|-immune|p1a: Kingambit
+|
+|upkeep
+|turn|12
+|
+|t:|1758327672
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Hoopa|Focus Blast|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|84/100
+|-item|p2a: Hoopa|Heavy-Duty Boots|[from] ability: Magician|[of] p1a: Enamorus
+|
+|upkeep
+|turn|13
+|
+|t:|1758327683
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Hoopa|Expanding Force|p1a: Kingambit
+|-immune|p1a: Kingambit
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|t:|1758327690
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|-damage|p2a: Ursaluna|94/100|[from] Stealth Rock
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Ursaluna
+|-damage|p2a: Ursaluna|57/100
+|
+|-fieldend|move: Psychic Terrain
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|15
+|
+|t:|1758327697
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|-damage|p2a: Mimikyu|88/100|[from] Stealth Rock
+|move|p1a: Kingambit|Low Kick|p2a: Mimikyu
+|-immune|p2a: Mimikyu
+|
+|upkeep
+|turn|16
+|
+|t:|1758327702
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Mimikyu|Trick Room|p2a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p2a: Mimikyu
+|
+|upkeep
+|turn|17
+|
+|t:|1758327706
+|switch|p2a: Indeedee|Indeedee, M|88/100
+|-damage|p2a: Indeedee|76/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Alomomola|Flip Turn|p2a: Indeedee
+|-damage|p2a: Indeedee|57/100
+|
+|t:|1758327710
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|18
+|
+|t:|1758327713
+|move|p1a: Slowking|Sludge Bomb|p2a: Indeedee
+|-damage|p2a: Indeedee|19/100
+|move|p2a: Indeedee|Expanding Force|p1a: Slowking
+|-damage|p1a: Slowking|67/100
+|
+|upkeep
+|turn|19
+|
+|t:|1758327718
+|switch|p2a: Hoopa|Hoopa-Unbound|88/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Hoopa
+|-damage|p2a: Hoopa|63/100
+|
+|upkeep
+|turn|20
+|
+|t:|1758327723
+|switch|p1a: Enamorus|Enamorus, F|84/100
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|41/100
+|-unboost|p2a: Hoopa|def|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|21
+|
+|t:|1758327726
+|move|p1a: Enamorus|Moonblast|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1758327731
+|switch|p2a: Hatterene|Hatterene, F|88/100
+|-damage|p2a: Hatterene|76/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1758327736
+|move|p1a: Enamorus|Healing Wish|p1a: Enamorus
+|faint|p1a: Enamorus
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|
+|t:|1758327737
+|switch|p1a: Slowking|Slowking-Galar, F|99/100
+|-heal|p1a: Slowking|100/100|[from] move: Healing Wish
+|turn|23
+|
+|t:|1758327746
+|move|p2a: Hatterene|Expanding Force|p1a: Slowking
+|-damage|p1a: Slowking|27/100
+|-damage|p2a: Hatterene|66/100|[from] item: Life Orb
+|move|p1a: Slowking|Sludge Bomb|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1758327749
+|switch|p2a: Ursaluna|Ursaluna, F|57/100 brn
+|-damage|p2a: Ursaluna|51/100 brn|[from] Stealth Rock
+|turn|24
+|
+|t:|1758327754
+|move|p1a: Slowking|Ice Beam|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|12/100 brn
+|move|p2a: Ursaluna|Headlong Rush|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Slowking
+|
+|-damage|p2a: Ursaluna|6/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1758327762
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|turn|25
+|
+|t:|1758327765
+|move|p2a: Ursaluna|Headlong Rush|p1a: Alomomola
+|-damage|p1a: Alomomola|45/100
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|move|p1a: Alomomola|Flip Turn|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|t:|1758327773
+|switch|p1a: Kingambit|Kingambit, M|100/100|[from] Flip Turn
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|
+|upkeep
+|
+|t:|1758327778
+|switch|p2a: Indeedee|Indeedee, M|19/100
+|-damage|p2a: Indeedee|7/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|26
+|
+|t:|1758327791
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758327793
+|switch|p2a: Mimikyu|Mimikyu, M|88/100
+|-damage|p2a: Mimikyu|76/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1758327798
+|move|p2a: Mimikyu|Play Rough|p1a: Kingambit
+|-damage|p1a: Kingambit|77/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|76/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|63/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Mimikyu|Red Card|[of] p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|drag|p1a: Alomomola|Alomomola, M|78/100
+|
+|upkeep
+|turn|28
+|
+|t:|1758327802
+|move|p2a: Mimikyu|Play Rough|p1a: Alomomola
+|-damage|p1a: Alomomola|63/100
+|move|p1a: Alomomola|Flip Turn|p2a: Mimikyu
+|-damage|p2a: Mimikyu|49/100
+|
+|t:|1758327806
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|29
+|
+|t:|1758327809
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Tera Blast|p2a: Mimikyu|[anim] Tera Blast Ghost
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|win|BBT94
+|raw|BBT94's rating: 1613 &rarr; <strong>1628</strong><br />(+15 for winning)
+|raw|dxBasti's rating: 1518 &rarr; <strong>1503</strong><br />(-15 for losing)
+|l|☆dxBasti
+|player|p2|
+|l|☆BBT94
+|player|p1|
+|j|☆BBT94
+|player|p1|BBT94|102|

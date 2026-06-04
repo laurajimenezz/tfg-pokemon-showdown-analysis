@@ -1,0 +1,303 @@
+|j|☆mr.pickup
+|j|☆ouku bakuza
+|t:|1758342840
+|gametype|singles
+|player|p1|mr.pickup|pokemaniac|1624
+|player|p2|ouku bakuza|169|1593
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Munkidori, M|
+|poke|p1|Tinkaton, F|
+|poke|p1|Darkrai|
+|poke|p1|Salamence, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragonite, M|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Treads|
+|poke|p2|Rotom-Wash|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mr.pickup)
+|
+|t:|1758342860
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|t:|1758342870
+|move|p2a: Rotom|Will-O-Wisp|p1a: Ogerpon|[miss]
+|-miss|p2a: Rotom|p1a: Ogerpon
+|move|p1a: Ogerpon|Power Whip|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|c|☆mr.pickup|mb
+|c|☆ouku bakuza|np
+|
+|t:|1758342889
+|switch|p2a: good horns|Great Tusk|100/100
+|-enditem|p2a: good horns|Booster Energy
+|-activate|p2a: good horns|ability: Protosynthesis|[fromitem]
+|-start|p2a: good horns|protosynthesisatk
+|turn|2
+|
+|t:|1758342897
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: good horns|[anim] Ivy Cudgel Water
+|-supereffective|p2a: good horns
+|-damage|p2a: good horns|10/100
+|move|p2a: good horns|Close Combat|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|-unboost|p2a: good horns|def|1
+|-unboost|p2a: good horns|spd|1
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1758342914
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|3
+|
+|t:|1758342919
+|move|p1a: Darkrai|Dark Pulse|p2a: good horns
+|-resisted|p2a: good horns
+|-damage|p2a: good horns|0 fnt
+|faint|p2a: good horns
+|-end|p2a: good horns|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758342928
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|4
+|
+|t:|1758342938
+|move|p2a: Iron Treads|Iron Head|p1a: Darkrai
+|-damage|p1a: Darkrai|53/100
+|move|p1a: Darkrai|Will-O-Wisp|p2a: Iron Treads
+|-status|p2a: Iron Treads|brn
+|
+|-damage|p2a: Iron Treads|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1758342947
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Iron Treads|Iron Head|p1a: Great Tusk
+|-damage|p1a: Great Tusk|89/100
+|
+|-damage|p2a: Iron Treads|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1758342959
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Great Tusk|Rapid Spin|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|81/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|upkeep
+|turn|7
+|
+|t:|1758342971
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Munkidori|Munkidori, M|100/100
+|move|p2a: Iron Valiant|Spirit Break|p1a: Munkidori
+|-resisted|p1a: Munkidori
+|-damage|p1a: Munkidori|72/100
+|-unboost|p1a: Munkidori|spa|1
+|
+|upkeep
+|turn|8
+|
+|t:|1758342980
+|move|p2a: Iron Valiant|Knock Off|p1a: Munkidori
+|-supereffective|p1a: Munkidori
+|-damage|p1a: Munkidori|0 fnt
+|-enditem|p1a: Munkidori|Choice Specs|[from] move: Knock Off|[of] p2a: Iron Valiant
+|faint|p1a: Munkidori
+|
+|upkeep
+|
+|t:|1758342983
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|turn|9
+|
+|t:|1758342992
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: van gho|Gholdengo|100/100
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: van gho
+|-resisted|p2a: van gho
+|-damage|p2a: van gho|86/100
+|
+|-heal|p2a: van gho|92/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758343004
+|move|p1a: Tinkaton|Stealth Rock|p2a: van gho
+|-sidestart|p2: ouku bakuza|move: Stealth Rock
+|move|p2a: van gho|Make It Rain|p1a: Tinkaton
+|-damage|p1a: Tinkaton|52/100
+|-unboost|p2a: van gho|spa|1
+|-enditem|p1a: Tinkaton|Air Balloon
+|
+|-heal|p2a: van gho|98/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758343009
+|move|p1a: Tinkaton|Knock Off|p2a: van gho
+|-supereffective|p2a: van gho
+|-damage|p2a: van gho|72/100
+|-enditem|p2a: van gho|Leftovers|[from] move: Knock Off|[of] p1a: Tinkaton
+|move|p2a: van gho|Nasty Plot|p2a: van gho
+|-boost|p2a: van gho|spa|2
+|
+|upkeep
+|turn|12
+|
+|t:|1758343025
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: van gho
+|-resisted|p2a: van gho
+|-damage|p2a: van gho|57/100
+|move|p2a: van gho|Make It Rain|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|-unboost|p2a: van gho|spa|1
+|faint|p1a: Tinkaton
+|
+|upkeep
+|
+|t:|1758343031
+|switch|p1a: Darkrai|Darkrai|53/100
+|turn|13
+|
+|t:|1758343036
+|move|p1a: Darkrai|Dark Pulse|p2a: van gho
+|-supereffective|p2a: van gho
+|-damage|p2a: van gho|0 fnt
+|faint|p2a: van gho
+|
+|upkeep
+|
+|t:|1758343038
+|switch|p2a: Iron Treads|Iron Treads|88/100 brn
+|-damage|p2a: Iron Treads|85/100 brn|[from] Stealth Rock
+|turn|14
+|
+|t:|1758343043
+|switch|p1a: Great Tusk|Great Tusk|89/100
+|move|p2a: Iron Treads|Rapid Spin|p1a: Great Tusk
+|-damage|p1a: Great Tusk|85/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: ouku bakuza|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|
+|-damage|p2a: Iron Treads|79/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1758343056
+|move|p2a: Iron Treads|Iron Head|p1a: Great Tusk
+|-damage|p1a: Great Tusk|74/100
+|cant|p1a: Great Tusk|flinch
+|
+|-damage|p2a: Iron Treads|72/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1758343062
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Iron Valiant|Iron Valiant|81/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|63/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|upkeep
+|turn|17
+|
+|t:|1758343069
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758343077
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|18
+|
+|t:|1758343087
+|move|p1a: Great Tusk|Ice Spinner|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|49/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p2a: Dragonite|55/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1758343093
+|-terastallize|p2a: Dragonite|Fire
+|move|p1a: Great Tusk|Headlong Rush|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1758343097
+|switch|p2a: Iron Treads|Iron Treads|72/100 brn
+|turn|20
+|
+|t:|1758343101
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|win|mr.pickup
+|raw|mr.pickup's rating: 1624 &rarr; <strong>1642</strong><br />(+18 for winning)
+|raw|ouku bakuza's rating: 1593 &rarr; <strong>1575</strong><br />(-18 for losing)
+|c|☆mr.pickup|gg
+|c|☆ouku bakuza|gg
+|l|☆mr.pickup
+|player|p1|
+|l|☆ouku bakuza
+|player|p2|

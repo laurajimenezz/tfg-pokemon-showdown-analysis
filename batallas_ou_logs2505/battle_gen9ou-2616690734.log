@@ -1,0 +1,174 @@
+|j|☆Big 3 Treelyfejay
+|j|☆immaterial-light
+|t:|1779590308
+|gametype|singles
+|player|p1|Big 3 Treelyfejay|170|1417
+|player|p2|immaterial-light|265|1406
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Armarouge, M|
+|poke|p1|Ogerpon, F|
+|poke|p1|Great Tusk|
+|poke|p1|Torkoal, F|
+|poke|p1|Primarina, M|
+|poke|p1|Iron Moth|
+|poke|p2|Cresselia, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Iron Hands|
+|poke|p2|Ursaluna, F|
+|poke|p2|Clawitzer, F|
+|poke|p2|Porygon2|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by immaterial-light)
+|
+|t:|1779590336
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|turn|1
+|
+|t:|1779590348
+|move|p1a: Ogerpon|Knock Off|p2a: Porygon2
+|-damage|p2a: Porygon2|70/100
+|-enditem|p2a: Porygon2|Eviolite|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|2
+|
+|t:|1779590361
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Porygon2|Ice Beam|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779590367
+|move|p1a: Torkoal|Stealth Rock|p2a: Porygon2
+|-sidestart|p2: immaterial-light|move: Stealth Rock
+|move|p2a: Porygon2|Hyper Beam|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-mustrecharge|p2a: Porygon2
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779590386
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|turn|4
+|
+|t:|1779590390
+|cant|p2a: Porygon2|recharge
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Porygon2
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779590401
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|-damage|p2a: Ursaluna|94/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1779590407
+|move|p2a: Ursaluna|Fire Punch|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1779590422
+|switch|p1a: Armarouge|Armarouge, M|100/100
+|turn|6
+|
+|t:|1779590431
+|move|p1a: Armarouge|Psychic Terrain|p1a: Armarouge
+|-fieldstart|move: Psychic Terrain
+|move|p2a: Ursaluna|Facade|p1a: Armarouge
+|-enditem|p1a: Armarouge|Focus Sash
+|-damage|p1a: Armarouge|1/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1779590452
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|-damage|p2a: Cresselia|88/100|[from] Stealth Rock
+|-terastallize|p1a: Armarouge|Psychic
+|move|p1a: Armarouge|Expanding Force|p2a: Cresselia
+|-resisted|p2a: Cresselia
+|-damage|p2a: Cresselia|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1779590472
+|move|p1a: Armarouge|Armor Cannon|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|faint|p2a: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779590476
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1779590479
+|move|p1a: Armarouge|Armor Cannon|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|faint|p2a: Hatterene
+|
+|-weather|none
+|upkeep
+|
+|t:|1779590490
+|switch|p2a: Clawitzer|Clawitzer, F|100/100
+|-damage|p2a: Clawitzer|88/100|[from] Stealth Rock
+|turn|10
+|-message|immaterial-light forfeited.
+|
+|win|Big 3 Treelyfejay
+|raw|Big 3 Treelyfejay's rating: 1417 &rarr; <strong>1436</strong><br />(+19 for winning)
+|raw|immaterial-light's rating: 1406 &rarr; <strong>1387</strong><br />(-19 for losing)
+|l|☆immaterial-light
+|player|p2|
+|l|☆Big 3 Treelyfejay
+|player|p1|

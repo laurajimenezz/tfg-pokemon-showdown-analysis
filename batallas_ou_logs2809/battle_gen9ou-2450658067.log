@@ -1,0 +1,159 @@
+|j|☆TesterAnonymatum
+|j|☆Derpintine
+|t:|1759009444
+|gametype|singles
+|player|p1|TesterAnonymatum|102|1389
+|player|p2|Derpintine|169|1403
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ursaluna, M|
+|poke|p1|Rabsca, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Iron Hands|
+|poke|p1|Torkoal, M|
+|poke|p1|Cresselia, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Darkrai|
+|poke|p2|Garganacl, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Alomomola, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|t:|1759009476
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rabsca|Rabsca, F|100/100
+|switch|p2a: Spookeez|Darkrai|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TesterAnonymatum)
+|
+|t:|1759009484
+|switch|p1a: Iron Hands|Iron Hands, shiny|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2a: Spookeez|Nasty Plot|p2a: Spookeez
+|-boost|p2a: Spookeez|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1759009493
+|-terastallize|p2a: Spookeez|Poison
+|move|p2a: Spookeez|Sludge Bomb|p1a: Iron Hands
+|-damage|p1a: Iron Hands|18/100
+|move|p1a: Iron Hands|Swords Dance|p1a: Iron Hands
+|-boost|p1a: Iron Hands|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1759009498
+|move|p2a: Spookeez|Sludge Bomb|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1759009511
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|4
+|
+|t:|1759009517
+|switch|p2a: Cancerus|Landorus-Therian, M|100/100
+|-ability|p2a: Cancerus|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|move|p1a: Ursaluna|Earthquake|p2a: Cancerus
+|-immune|p2a: Cancerus
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1759009529
+|move|p2a: Cancerus|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|64/100 brn
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|
+|-damage|p1a: Ursaluna|58/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1759009534
+|move|p2a: Cancerus|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|19/100 brn
+|move|p1a: Ursaluna|Facade|p2a: Cancerus
+|-damage|p2a: Cancerus|0 fnt
+|-damage|p1a: Ursaluna|2/100 brn|[from] item: Rocky Helmet|[of] p2a: Cancerus
+|faint|p2a: Cancerus
+|
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|upkeep
+|
+|t:|1759009544
+|switch|p2a: Morton|Garganacl, F|100/100
+|switch|p1a: Cresselia|Cresselia, F, shiny|100/100
+|turn|7
+|
+|t:|1759009547
+|move|p2a: Morton|Curse|p2a: Morton
+|-unboost|p2a: Morton|spe|1
+|-boost|p2a: Morton|atk|1
+|-boost|p2a: Morton|def|1
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|8
+|
+|t:|1759009556
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Morton|Curse|p2a: Morton
+|-unboost|p2a: Morton|spe|1
+|-boost|p2a: Morton|atk|1
+|-boost|p2a: Morton|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1759009563
+|-terastallize|p1a: Torkoal|Fire
+|move|p1a: Torkoal|Eruption|p2a: Morton
+|-resisted|p2a: Morton
+|-damage|p2a: Morton|42/100
+|move|p2a: Morton|Salt Cure|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|60/100
+|-start|p1a: Torkoal|Salt Cure
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Morton|48/100|[from] item: Leftovers
+|-damage|p1a: Torkoal|48/100|[from] Salt Cure
+|upkeep
+|turn|10
+|-message|TesterAnonymatum forfeited.
+|
+|win|Derpintine
+|raw|TesterAnonymatum's rating: 1389 &rarr; <strong>1370</strong><br />(-19 for losing)
+|raw|Derpintine's rating: 1403 &rarr; <strong>1422</strong><br />(+19 for winning)
+|l|☆TesterAnonymatum
+|player|p1|
+|l|☆Derpintine
+|player|p2|

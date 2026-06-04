@@ -1,0 +1,325 @@
+|j|☆Swankentora
+|j|☆quolius
+|t:|1760372193
+|gametype|singles
+|player|p1|Swankentora|n|1455
+|player|p2|quolius|265|1494
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Enamorus, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Glimmora, F|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, M|
+|poke|p2|Darkrai|
+|poke|p2|Dragapult, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Corviknight, M|
+|poke|p2|Primarina, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by quolius)
+|
+|t:|1760372201
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|1
+|
+|t:|1760372219
+|move|p2a: Darkrai|Dark Pulse|p1a: Ogerpon
+|-damage|p1a: Ogerpon|31/100
+|move|p1a: Ogerpon|U-turn|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|32/100
+|
+|t:|1760372224
+|switch|p1a: Enamorus|Enamorus, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1760372228
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Enamorus|Moonblast|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|86/100
+|
+|upkeep
+|turn|3
+|
+|t:|1760372252
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1760372257
+|switch|p2a: Darkrai|Darkrai|32/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760372260
+|move|p2a: Darkrai|Dark Pulse|p1a: Glimmora
+|-damage|p1a: Glimmora|23/100
+|-enditem|p1a: Glimmora|Red Card|[of] p2a: Darkrai
+|drag|p2a: Primarina|Primarina, F|100/100
+|cant|p1a: Glimmora|flinch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760372271
+|move|p1a: Glimmora|Stealth Rock|p2a: Primarina
+|-sidestart|p2: quolius|move: Stealth Rock
+|move|p2a: Primarina|Psychic Noise|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760372287
+|switch|p1a: Kingambit|Kingambit, M, shiny|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|6
+|
+|t:|1760372292
+|move|p1a: Kingambit|Iron Head|p2a: Primarina
+|-damage|p2a: Primarina|35/100
+|move|p2a: Primarina|Flip Turn|p1a: Kingambit
+|-damage|p1a: Kingambit|87/100
+|
+|t:|1760372296
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] Flip Turn
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Kingambit|93/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760372306
+|-terastallize|p1a: Kingambit|Ghost
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Corviknight|Defog|p1a: Kingambit
+|-unboost|p1a: Kingambit|evasion|1
+|-sideend|p2: quolius|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-weather|none
+|-heal|p1a: Kingambit|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760372311
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Corviknight|Brave Bird|p1a: Kingambit
+|-damage|p1a: Kingambit|70/100
+|-damage|p2a: Corviknight|80/100|[from] Recoil
+|
+|-heal|p1a: Kingambit|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760372316
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Kingambit|60/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Kingambit|66/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760372328
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|10
+|
+|t:|1760372340
+|move|p1a: Kingambit|Iron Head|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|42/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Kingambit
+|-damage|p1a: Kingambit|36/100
+|
+|-heal|p1a: Kingambit|42/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|48/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760372345
+|move|p1a: Kingambit|Iron Head|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|-heal|p1a: Kingambit|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760372347
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|12
+|
+|t:|1760372369
+|move|p2a: Dragapult|Sucker Punch|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1760372373
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|13
+|
+|t:|1760372377
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Enamorus|Moonblast|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|86/100
+|
+|upkeep
+|turn|14
+|
+|t:|1760372393
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|31/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1760372396
+|switch|p2a: Darkrai|Darkrai|32/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1760372400
+|move|p2a: Darkrai|Dark Pulse|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760372403
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|16
+|
+|t:|1760372407
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Enamorus|Earth Power|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|64/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1760372432
+|switch|p1a: Kyurem|Kyurem, shiny|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Slowking|Sludge Bomb|p1a: Kyurem
+|-damage|p1a: Kyurem|70/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1760372439
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Slowking|Future Sight|p1a: Kyurem
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1760372446
+|switch|p2a: Primarina|Primarina, F|35/100
+|move|p1a: Kyurem|Icicle Spear|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|23/100
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|13/100
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|2/100
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|-hitcount|p2: Primarina|4
+|
+|upkeep
+|
+|t:|1760372452
+|switch|p2a: Slowking|Slowking-Galar, M|98/100
+|turn|20
+|
+|t:|1760372458
+|move|p1a: Kyurem|Icicle Spear|p2a: Slowking
+|-damage|p2a: Slowking|79/100
+|-damage|p2a: Slowking|60/100
+|-damage|p2a: Slowking|42/100
+|-damage|p2a: Slowking|23/100
+|-hitcount|p2a: Slowking|4
+|move|p2a: Slowking|Sludge Bomb|p1a: Kyurem
+|-damage|p1a: Kyurem|42/100
+|
+|-end|p1a: Kyurem|move: Future Sight
+|-damage|p1a: Kyurem|2/100
+|upkeep
+|turn|21
+|
+|t:|1760372467
+|switch|p2a: Darkrai|Darkrai|32/100
+|move|p1a: Kyurem|Icicle Spear|p2a: Darkrai
+|-damage|p2a: Darkrai|8/100
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|-hitcount|p2: Darkrai|2
+|
+|upkeep
+|
+|t:|1760372469
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|22
+|
+|t:|1760372486
+|move|p1a: Kyurem|Icicle Spear|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|49/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-hitcount|p2: Dragapult|2
+|
+|upkeep
+|-message|quolius forfeited.
+|
+|win|Swankentora
+|raw|Swankentora's rating: 1455 &rarr; <strong>1477</strong><br />(+22 for winning)
+|raw|quolius's rating: 1494 &rarr; <strong>1472</strong><br />(-22 for losing)
+|l|☆quolius
+|player|p2|

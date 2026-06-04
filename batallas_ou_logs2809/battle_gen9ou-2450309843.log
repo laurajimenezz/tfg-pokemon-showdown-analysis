@@ -1,0 +1,204 @@
+|j|☆benjikong14
+|j|☆azraelyne
+|t:|1758962555
+|gametype|singles
+|player|p1|benjikong14|dancer|1155
+|player|p2|azraelyne|101|1141
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Chesnaught, F|
+|poke|p1|Dragalge, M|
+|poke|p1|Bisharp, F|
+|poke|p1|Slowking, M|
+|poke|p1|Donphan, M|
+|poke|p1|Talonflame, F|
+|poke|p2|Lurantis, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Araquanid, M|
+|poke|p2|Dondozo, M|
+|poke|p2|Hatterene, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by benjikong14)
+|
+|t:|1758962562
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Chesnaught|Chesnaught, F|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|t:|1758962581
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1758962589
+|move|p2a: Hatterene|Mystical Fire|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-crit|p1a: Bisharp
+|-damage|p1a: Bisharp|23/100
+|-unboost|p1a: Bisharp|spa|1
+|-ability|p1a: Bisharp|Defiant|boost
+|-boost|p1a: Bisharp|atk|2
+|move|p1a: Bisharp|Taunt|p2a: Hatterene
+|move|p2a: Hatterene|Taunt|p1a: Bisharp|[from] ability: Magic Bounce
+|-start|p1a: Bisharp|move: Taunt
+|
+|upkeep
+|turn|3
+|
+|t:|1758962604
+|move|p1a: Bisharp|Sucker Punch|p2a: Hatterene
+|-damage|p2a: Hatterene|25/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|t:|1758962628
+|switch|p1a: Slowking|Slowking, M|100/100
+|turn|4
+|
+|t:|1758962635
+|move|p2a: Hatterene|Misty Explosion|p1a: Slowking
+|-damage|p1a: Slowking|55/100
+|faint|p2a: Hatterene
+|move|p1a: Slowking|Scald|p2: Hatterene|[notarget]
+|-fail|p1a: Slowking
+|
+|upkeep
+|
+|t:|1758962649
+|switch|p2a: Lurantis|Lurantis, M|100/100
+|turn|5
+|
+|t:|1758962658
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|move|p2a: Lurantis|Leaf Storm|p1a: Talonflame|[miss]
+|-miss|p2a: Lurantis|p1a: Talonflame
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1758962670
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|move|p1a: Talonflame|Taunt|p2a: Araquanid
+|-start|p2a: Araquanid|move: Taunt
+|
+|upkeep
+|turn|7
+|
+|t:|1758962682
+|move|p1a: Talonflame|U-turn|p2a: Araquanid
+|-damage|p2a: Araquanid|86/100
+|
+|t:|1758962689
+|switch|p1a: Chesnaught|Chesnaught, F|100/100|[from] U-turn
+|move|p2a: Araquanid|Liquidation|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|67/100
+|
+|-heal|p1a: Chesnaught|73/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758962707
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Chesnaught|Leech Seed|p2a: Torkoal
+|-start|p2a: Torkoal|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Chesnaught|79/100|[from] item: Leftovers
+|-damage|p2a: Torkoal|88/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|90/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1758962724
+|switch|p1a: Dragalge|Dragalge, M|100/100
+|move|p2a: Torkoal|Rapid Spin|p1a: Dragalge
+|-damage|p1a: Dragalge|89/100
+|-boost|p2a: Torkoal|spe|1
+|-end|p2a: Torkoal|Leech Seed|[from] move: Rapid Spin|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758962740
+|-terastallize|p2a: Torkoal|Fire
+|move|p1a: Dragalge|Sludge Bomb|p2a: Torkoal
+|-damage|p2a: Torkoal|41/100
+|move|p2a: Torkoal|Eruption|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|73/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758962754
+|move|p1a: Dragalge|Sludge Bomb|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758962760
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|12
+|
+|t:|1758962767
+|move|p1a: Dragalge|Sludge Bomb|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1758962778
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|turn|13
+|
+|t:|1758962783
+|move|p1a: Dragalge|Draco Meteor|p2a: Dondozo
+|-damage|p2a: Dondozo|17/100
+|-unboost|p1a: Dragalge|spa|2
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|upkeep
+|turn|14
+|-message|azraelyne forfeited.
+|
+|win|benjikong14
+|raw|benjikong14's rating: 1155 &rarr; <strong>1179</strong><br />(+24 for winning)
+|raw|azraelyne's rating: 1141 &rarr; <strong>1117</strong><br />(-24 for losing)
+|l|☆azraelyne
+|player|p2|
+|l|☆benjikong14
+|player|p1|

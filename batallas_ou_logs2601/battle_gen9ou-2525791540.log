@@ -1,0 +1,361 @@
+|j|☆MrOrby
+|j|☆jonowono
+|t:|1769327144
+|gametype|singles
+|player|p1|MrOrby|169|1179
+|player|p2|jonowono|yellow|1198
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Latios, M|
+|poke|p1|Ceruledge, M|
+|poke|p1|Garchomp, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Iron Treads|
+|poke|p2|Ceruledge, F|
+|poke|p2|Heatran, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Pecharunt|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1769327154
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: wheel|Iron Treads|100/100
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|-enditem|p1a: wheel|Booster Energy
+|-activate|p1a: wheel|ability: Quark Drive|[fromitem]
+|-start|p1a: wheel|quarkdrivespe
+|turn|1
+|
+|t:|1769327165
+|move|p1a: wheel|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|90/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|t:|1769327171
+|-end|p1a: wheel|Quark Drive|[silent]
+|switch|p1a: hello|Grimmsnarl, M|100/100|[from] Volt Switch
+|move|p2a: Heatran|Magma Storm|p1a: hello
+|-damage|p1a: hello|43/100
+|-activate|p1a: hello|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: hello|30/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1769327180
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: hello|Parting Shot|p2a: Hatterene
+|move|p2a: Hatterene|Parting Shot|p1a: hello|[from] ability: Magic Bounce
+|-unboost|p1a: hello|atk|1
+|-unboost|p1a: hello|spa|1
+|c|☆MrOrby|wow
+|
+|t:|1769327193
+|switch|p2a: Raging Bolt|Raging Bolt|100/100|[from] Parting Shot
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|
+|-end|p1a: hello|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|3
+|
+|t:|1769327201
+|move|p1a: hello|Light Screen|p1a: hello
+|-sidestart|p1: MrOrby|move: Light Screen
+|move|p2a: Raging Bolt|Thunderbolt|p1a: hello
+|-damage|p1a: hello|0 fnt
+|faint|p1a: hello
+|
+|upkeep
+|
+|t:|1769327211
+|switch|p1a: tiny wings|Garchomp, F|100/100
+|turn|4
+|
+|t:|1769327221
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: tiny wings|Swords Dance|p1a: tiny wings
+|-boost|p1a: tiny wings|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1769327232
+|-terastallize|p1a: tiny wings|Water
+|move|p1a: tiny wings|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MrOrby)
+|
+|t:|1769327268
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|6
+|
+|t:|1769327275
+|-terastallize|p2a: Pecharunt|Fairy
+|move|p1a: tiny wings|Scale Shot|p2a: Pecharunt
+|-immune|p2a: Pecharunt
+|move|p2a: Pecharunt|Malignant Chain|p1a: tiny wings
+|-damage|p1a: tiny wings|82/100
+|
+|upkeep
+|turn|7
+|
+|t:|1769327289
+|move|p1a: tiny wings|Earthquake|p2a: Pecharunt
+|-damage|p2a: Pecharunt|51/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: tiny wings
+|-damage|p1a: tiny wings|60/100
+|
+|upkeep
+|turn|8
+|
+|t:|1769327297
+|move|p1a: tiny wings|Liquidation|p2a: Pecharunt
+|-damage|p2a: Pecharunt|7/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: tiny wings
+|-damage|p1a: tiny wings|40/100
+|-status|p1a: tiny wings|tox
+|-start|p1a: tiny wings|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-damage|p1a: tiny wings|34/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1769327312
+|-activate|p1a: tiny wings|confusion
+|move|p1a: tiny wings|Earthquake|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|-damage|p1a: tiny wings|21/100 tox|[from] psn
+|upkeep
+|
+|t:|1769327315
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|10
+|
+|t:|1769327323
+|switch|p1a: wheel|Iron Treads|100/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-sideend|p1: MrOrby|move: Light Screen
+|upkeep
+|turn|11
+|
+|t:|1769327331
+|move|p1a: wheel|Stealth Rock|p2a: Raging Bolt
+|-sidestart|p2: jonowono|move: Stealth Rock
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: wheel
+|-resisted|p1a: wheel
+|-damage|p1a: wheel|62/100
+|
+|upkeep
+|turn|12
+|
+|t:|1769327340
+|move|p1a: wheel|Earthquake|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|34/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: wheel
+|-resisted|p1a: wheel
+|-damage|p1a: wheel|22/100
+|
+|upkeep
+|turn|13
+|
+|t:|1769327348
+|move|p1a: wheel|Earthquake|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769327350
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1769327358
+|-end|p1a: wheel|Quark Drive|[silent]
+|switch|p1a: blue aeroplane|Latios, M|100/100
+|move|p2a: Ogerpon|Trailblaze|p1a: blue aeroplane
+|-resisted|p1a: blue aeroplane
+|-damage|p1a: blue aeroplane|77/100
+|-boost|p2a: Ogerpon|spe|1
+|
+|upkeep
+|turn|15
+|
+|t:|1769327371
+|move|p2a: Ogerpon|Knock Off|p1a: blue aeroplane
+|-supereffective|p1a: blue aeroplane
+|-damage|p1a: blue aeroplane|0 fnt
+|-enditem|p1a: blue aeroplane|Soul Dew|[from] move: Knock Off|[of] p2a: Ogerpon
+|faint|p1a: blue aeroplane
+|
+|upkeep
+|
+|t:|1769327382
+|switch|p1a: king poopy|Kingambit, F|100/100
+|-activate|p1a: king poopy|ability: Supreme Overlord
+|-start|p1a: king poopy|fallen2|[silent]
+|turn|16
+|
+|t:|1769327390
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: king poopy|Kowtow Cleave|p2a: Ogerpon
+|-damage|p2a: Ogerpon|8/100
+|
+|upkeep
+|turn|17
+|
+|t:|1769327396
+|move|p1a: king poopy|Sucker Punch||[still]
+|-fail|p1a: king poopy
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|upkeep
+|turn|18
+|
+|t:|1769327401
+|move|p1a: king poopy|Sucker Punch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1769327404
+|switch|p2a: Heatran|Heatran, F|90/100
+|-damage|p2a: Heatran|77/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1769327414
+|-end|p1a: king poopy|fallen2|[silent]
+|switch|p1a: zoro|Ceruledge, M|100/100
+|move|p2a: Heatran|Magma Storm|p1a: zoro
+|-resisted|p1a: zoro
+|-damage|p1a: zoro|62/100
+|-activate|p1a: zoro|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: zoro|50/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|20
+|
+|t:|1769327428
+|move|p1a: zoro|Shadow Sneak|p2a: Heatran
+|-damage|p2a: Heatran|54/100
+|move|p2a: Heatran|Stealth Rock|p1a: zoro
+|-sidestart|p1: MrOrby|move: Stealth Rock
+|
+|-damage|p1a: zoro|38/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|21
+|
+|t:|1769327434
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: zoro|Shadow Sneak|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-damage|p1a: zoro|25/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|22
+|
+|t:|1769327440
+|move|p1a: zoro|Shadow Sneak|p2a: Heatran
+|-damage|p2a: Heatran|31/100
+|move|p2a: Heatran|Earth Power|p1a: zoro
+|-supereffective|p1a: zoro
+|-damage|p1a: zoro|0 fnt
+|faint|p1a: zoro
+|
+|upkeep
+|
+|t:|1769327449
+|switch|p1a: wheel|Iron Treads|22/100
+|-damage|p1a: wheel|19/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1769327457
+|move|p1a: wheel|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1769327458
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|-damage|p2a: Ceruledge|76/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1769327467
+|move|p2a: Ceruledge|Shadow Sneak|p1a: wheel
+|-damage|p1a: wheel|0 fnt
+|faint|p1a: wheel
+|-end|p1a: wheel|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769327472
+|switch|p1a: tiny wings|Garchomp, F, tera:Water|21/100 tox
+|-damage|p1a: tiny wings|9/100 tox|[from] Stealth Rock
+|turn|25
+|
+|t:|1769327480
+|move|p2a: Ceruledge|Shadow Sneak|p1a: tiny wings
+|-damage|p1a: tiny wings|0 fnt
+|-damage|p2a: Ceruledge|63/100|[from] ability: Rough Skin|[of] p1a: tiny wings
+|faint|p1a: tiny wings
+|
+|upkeep
+|
+|t:|1769327484
+|switch|p1a: king poopy|Kingambit, F|100/100
+|-damage|p1a: king poopy|94/100|[from] Stealth Rock
+|-activate|p1a: king poopy|ability: Supreme Overlord
+|-start|p1a: king poopy|fallen5|[silent]
+|turn|26
+|
+|t:|1769327491
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: king poopy|Kowtow Cleave|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|win|MrOrby
+|raw|MrOrby's rating: 1179 &rarr; <strong>1203</strong><br />(+24 for winning)
+|raw|jonowono's rating: 1169 &rarr; <strong>1145</strong><br />(-24 for losing)
+|c|☆jonowono|ggwp
+|c|☆MrOrby|gg same to you
+|l|☆jonowono
+|player|p2|

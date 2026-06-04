@@ -1,0 +1,310 @@
+|j|☆luisovalle
+|j|☆nobita3
+|t:|1760766154
+|gametype|singles
+|player|p1|luisovalle|silver|1129
+|player|p2|nobita3|artist|1121
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Lokix, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Alomomola, F|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Darkrai|
+|poke|p1|Great Tusk|
+|poke|p2|Porygon-Z|
+|poke|p2|Dragapult, M|
+|poke|p2|Incineroar, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Quaquaval, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by luisovalle)
+|
+|t:|1760766165
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Darkrai|Darkrai|100/100
+|switch|p2a: Porygon-Z|Porygon-Z, shiny|100/100
+|turn|1
+|
+|t:|1760766171
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100
+|move|p1a: Darkrai|Trick|p2a: Hatterene
+|-activate|p1a: Darkrai|move: Trick|[of] p2a: Hatterene
+|-item|p2a: Hatterene|Choice Scarf|[from] move: Trick
+|-item|p1a: Darkrai|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|t:|1760766180
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|92/100
+|
+|-heal|p1a: Slowking|98/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1760766188
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760766198
+|switch|p1a: Lokix|Lokix, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760766205
+|move|p1a: Lokix|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|56/100
+|-damage|p1a: Lokix|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Lokix
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760766212
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760766220
+|move|p1a: Ogerpon|Encore|p2a: Corviknight
+|-start|p2a: Corviknight|Encore
+|move|p2a: Corviknight|Roost||[still]
+|-fail|p2a: Corviknight|heal
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760766229
+|switch|p2a: Incineroar|Incineroar, F, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|move|p1a: Ogerpon|Trailblaze|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|85/100
+|-boost|p1a: Ogerpon|spe|1
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1760766237
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Incineroar|Flame Charge|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|94/100
+|-boost|p2a: Incineroar|spe|1
+|-damage|p2a: Incineroar|69/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|-damage|p2a: Incineroar|59/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1760766247
+|-terastallize|p2a: Incineroar|Fighting
+|move|p2a: Incineroar|Bulk Up|p2a: Incineroar
+|-boost|p2a: Incineroar|atk|1
+|-boost|p2a: Incineroar|def|1
+|move|p1a: Alomomola|Flip Turn|p2a: Incineroar
+|-damage|p2a: Incineroar|51/100
+|
+|t:|1760766251
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|10
+|
+|t:|1760766259
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Incineroar|Drain Punch|p1a: Alomomola
+|-damage|p1a: Alomomola|67/100
+|-heal|p2a: Incineroar|73/100|[from] drain|[of] p1a: Alomomola
+|-damage|p2a: Incineroar|57/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|-damage|p2a: Incineroar|47/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|t:|1760766272
+|move|p2a: Incineroar|Bulk Up|p2a: Incineroar
+|-boost|p2a: Incineroar|atk|1
+|-boost|p2a: Incineroar|def|1
+|move|p1a: Alomomola|Scald|p2a: Incineroar
+|-damage|p2a: Incineroar|34/100
+|
+|upkeep
+|turn|12
+|inactive|nobita3 has 120 seconds left.
+|
+|t:|1760766309
+|move|p2a: Incineroar|Drain Punch|p1a: Alomomola
+|-damage|p1a: Alomomola|21/100
+|-heal|p2a: Incineroar|64/100|[from] drain|[of] p1a: Alomomola
+|-damage|p2a: Incineroar|48/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|-damage|p2a: Incineroar|38/100|[from] item: Life Orb
+|move|p1a: Alomomola|Scald|p2a: Incineroar
+|-damage|p2a: Incineroar|25/100
+|-status|p2a: Incineroar|brn
+|
+|-damage|p2a: Incineroar|19/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|nobita3 has 120 seconds left.
+|
+|t:|1760766326
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Incineroar|Drain Punch|p1a: Slowking
+|-resisted|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|86/100
+|-heal|p2a: Incineroar|27/100 brn|[from] drain|[of] p1a: Slowking
+|-damage|p2a: Incineroar|17/100 brn|[from] item: Life Orb
+|
+|-heal|p1a: Slowking|92/100|[from] item: Leftovers
+|-damage|p2a: Incineroar|11/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1760766333
+|switch|p1a: Alomomola|Alomomola, F|54/100
+|move|p2a: Incineroar|Drain Punch|p1a: Alomomola
+|-damage|p1a: Alomomola|33/100
+|-heal|p2a: Incineroar|25/100 brn|[from] drain|[of] p1a: Alomomola
+|-damage|p2a: Incineroar|8/100 brn|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|-damage|p2a: Incineroar|0 fnt|[from] item: Life Orb
+|faint|p2a: Incineroar
+|
+|upkeep
+|
+|t:|1760766336
+|switch|p2a: Porygon-Z|Porygon-Z, shiny|100/100
+|turn|15
+|
+|t:|1760766342
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Porygon-Z|Tri Attack|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|upkeep
+|turn|16
+|
+|t:|1760766348
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Porygon-Z|Tri Attack|p1a: Slowking
+|-damage|p1a: Slowking|62/100
+|-status|p1a: Slowking|par
+|
+|-heal|p1a: Slowking|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1760766365
+|move|p2a: Porygon-Z|Tri Attack|p1a: Slowking
+|-damage|p1a: Slowking|32/100 par
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760766375
+|switch|p1a: Lokix|Lokix, F|84/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1760766383
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|move|p1a: Lokix|First Impression|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|81/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1760766401
+|switch|p1a: Alomomola|Alomomola, F|67/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1760766408
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Alomomola|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|69/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1760766418
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Alomomola|Flip Turn|p2a: Corviknight
+|-damage|p2a: Corviknight|95/100
+|
+|t:|1760766420
+|switch|p1a: Darkrai|Darkrai|100/100|[from] Flip Turn
+|
+|-weather|none
+|upkeep
+|turn|22
+|
+|t:|1760766425
+|move|p1a: Darkrai|Will-O-Wisp|p2a: Corviknight|[miss]
+|-miss|p1a: Darkrai|p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Darkrai
+|-damage|p1a: Darkrai|3/100
+|-damage|p2a: Corviknight|73/100|[from] Recoil
+|
+|-heal|p1a: Darkrai|9/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|-message|luisovalle forfeited.
+|
+|win|nobita3
+|raw|luisovalle's rating: 1129 &rarr; <strong>1103</strong><br />(-26 for losing)
+|raw|nobita3's rating: 1121 &rarr; <strong>1147</strong><br />(+26 for winning)
+|l|☆luisovalle
+|player|p1|
+|l|☆nobita3
+|player|p2|

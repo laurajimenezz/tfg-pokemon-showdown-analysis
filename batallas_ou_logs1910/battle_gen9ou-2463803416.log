@@ -1,0 +1,305 @@
+|j|☆LordFueg
+|j|☆Papagayo33
+|t:|1760746862
+|gametype|singles
+|player|p1|LordFueg|1|1590
+|player|p2|Papagayo33|gentleman-gen4|1538
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cresselia, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Hands|
+|poke|p1|Ursaluna, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Scream Tail|
+|poke|p2|Dragapult, F|
+|poke|p2|Clefable, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Kommo-o, F|
+|poke|p2|Iron Treads|
+|poke|p2|Samurott-Hisui, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LordFueg)
+|
+|t:|1760746877
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Clefable|Clefable, F, shiny|100/100
+|turn|1
+|
+|t:|1760746883
+|move|p2a: Clefable|Trick|p1a: Hatterene
+|-activate|p2a: Clefable|move: Trick|[of] p1a: Hatterene
+|-item|p1a: Hatterene|Choice Specs|[from] move: Trick
+|-item|p2a: Clefable|Focus Sash|[from] move: Trick
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1760746904
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2a: Clefable|Moonblast|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|34/100
+|-unboost|p1a: Iron Hands|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1760746914
+|move|p1a: Iron Hands|Supercell Slam|p2a: Clefable
+|-damage|p2a: Clefable|9/100
+|move|p2a: Clefable|Moonblast|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760746923
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|4
+|
+|t:|1760746927
+|move|p1a: Ursaluna|Headlong Rush|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Clefable
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1760746932
+|switch|p2a: Kommo-o|Kommo-o, F, shiny|100/100
+|turn|5
+|
+|t:|1760746938
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|move|p2a: Kommo-o|Clanging Scales|p1a: Scream Tail
+|-immune|p1a: Scream Tail
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1760746944
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Scream Tail|Trick Room|p1a: Scream Tail
+|-fieldstart|move: Trick Room|[of] p1a: Scream Tail
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1760746953
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Ursaluna|Ursaluna, M|100/100 brn
+|move|p2a: Gliscor|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|78/100 brn
+|
+|-damage|p1a: Ursaluna|72/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1760746965
+|-terastallize|p2a: Gliscor|Ghost
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|move|p2a: Gliscor|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|47/100 brn
+|
+|-damage|p1a: Ursaluna|41/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1760746987
+|move|p1a: Ursaluna|Headlong Rush|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Gliscor
+|
+|-damage|p1a: Ursaluna|35/100 brn|[from] brn
+|upkeep
+|
+|t:|1760746991
+|switch|p2a: Dragapult|Dragapult, F, shiny|100/100
+|turn|10
+|
+|t:|1760747000
+|move|p2a: Dragapult|Sucker Punch|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760747006
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|turn|11
+|
+|t:|1760747012
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Scream Tail|Trick Room|p1a: Scream Tail
+|-fieldstart|move: Trick Room|[of] p1a: Scream Tail
+|
+|upkeep
+|turn|12
+|
+|t:|1760747020
+|move|p1a: Scream Tail|Misty Explosion|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|94/100
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|move|p2a: Iron Treads|Knock Off|p1: Scream Tail|[notarget]
+|-fail|p2a: Iron Treads
+|
+|upkeep
+|
+|t:|1760747027
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|13
+|
+|t:|1760747034
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Kommo-o|Kommo-o, F, shiny|100/100
+|-terastallize|p1a: Torkoal|Fire
+|move|p1a: Torkoal|Eruption|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|17/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1760747045
+|move|p1a: Torkoal|Eruption|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760747049
+|switch|p2a: Dragapult|Dragapult, F, shiny|100/100
+|turn|15
+|
+|t:|1760747054
+|move|p2a: Dragapult|Sucker Punch|p1a: Torkoal
+|-damage|p1a: Torkoal|72/100
+|move|p1a: Torkoal|Eruption|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760747058
+|switch|p2a: Samurott|Samurott-Hisui, M, shiny|100/100
+|turn|16
+|
+|t:|1760747063
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Hatterene
+|-damage|p1a: Hatterene|45/100
+|-sidestart|p1: LordFueg|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1760747071
+|move|p2a: Samurott|Ceaseless Edge|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-sidestart|p1: LordFueg|Spikes
+|faint|p1a: Hatterene
+|
+|-weather|none
+|upkeep
+|
+|t:|1760747074
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|18
+|
+|t:|1760747080
+|move|p2a: Samurott|Ceaseless Edge|p1a: Cresselia|[miss]
+|-miss|p2a: Samurott|p1a: Cresselia
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|19
+|
+|t:|1760747089
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Samurott|Ceaseless Edge|p1: Cresselia|[notarget]
+|-fail|p2a: Samurott
+|
+|upkeep
+|
+|t:|1760747093
+|switch|p1a: Torkoal|Torkoal, F, tera:Fire|72/100
+|-heal|p1a: Torkoal|100/100|[from] move: Lunar Dance
+|-damage|p1a: Torkoal|84/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|20
+|
+|t:|1760747101
+|move|p1a: Torkoal|Eruption|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|24/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Torkoal
+|-damage|p1a: Torkoal|47/100
+|-sidestart|p1: LordFueg|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1760747114
+|move|p2a: Samurott|Sucker Punch|p1a: Torkoal
+|-damage|p1a: Torkoal|19/100
+|move|p1a: Torkoal|Eruption|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|5/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1760747117
+|move|p2a: Samurott|Sucker Punch|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|win|Papagayo33
+|raw|LordFueg's rating: 1590 &rarr; <strong>1568</strong><br />(-22 for losing)
+|raw|Papagayo33's rating: 1556 &rarr; <strong>1578</strong><br />(+22 for winning)
+|l|☆LordFueg
+|player|p1|

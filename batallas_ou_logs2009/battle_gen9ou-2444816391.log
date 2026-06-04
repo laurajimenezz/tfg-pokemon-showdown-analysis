@@ -1,0 +1,303 @@
+|j|☆aidan800
+|j|☆SushiRolll
+|t:|1758272927
+|gametype|singles
+|player|p1|aidan800|170|1141
+|player|p2|SushiRolll|liko|1156
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Boulder|
+|poke|p1|Garchomp, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Gholdengo|
+|poke|p1|Darkrai|
+|poke|p1|Weavile, M|
+|poke|p2|Sylveon, F|
+|poke|p2|Great Tusk|
+|poke|p2|Heatran, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1758272950
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdrivespe
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1758272964
+|move|p1a: Iron Boulder|Psycho Cut|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|17/100
+|move|p2a: Iron Valiant|Knock Off|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|49/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758272978
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|85/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758272986
+|move|p1a: Iron Boulder|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Iron Boulder|def|1
+|-unboost|p1a: Iron Boulder|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|
+|upkeep
+|
+|t:|1758272995
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|4
+|
+|t:|1758273002
+|move|p1a: Iron Boulder|Psycho Cut|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|67/100
+|move|p2a: Great Tusk|Earthquake|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|0 fnt
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|
+|-heal|p2a: Great Tusk|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758273014
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|5
+|
+|t:|1758273024
+|move|p1a: Gholdengo|Hex|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|17/100
+|move|p2a: Great Tusk|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|57/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|-heal|p2a: Great Tusk|23/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1758273054
+|move|p1a: Gholdengo|Hex|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758273060
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|7
+|
+|t:|1758273066
+|move|p2a: Dragapult|Flamethrower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1758273075
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|turn|8
+|
+|t:|1758273081
+|switch|p2a: Heatran|Heatran, M, shiny|100/100
+|move|p1a: Slowking|Thunder Wave|p2a: Heatran
+|-status|p2a: Heatran|par
+|
+|upkeep
+|turn|9
+|
+|t:|1758273088
+|cant|p2a: Heatran|par
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1758273095
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758273106
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Garchomp|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|45/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758273112
+|move|p2a: Dragapult|Draco Meteor|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Garchomp
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758273119
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|turn|12
+|
+|t:|1758273126
+|switch|p2a: Heatran|Heatran, M, shiny|100/100 par
+|move|p1a: Slowking|Future Sight|p2a: Heatran
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1758273135
+|move|p2a: Heatran|Magma Storm|p1a: Slowking
+|-damage|p1a: Slowking|77/100
+|-activate|p1a: Slowking|move: Magma Storm|[of] p2a: Heatran
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|
+|t:|1758273142
+|switch|p1a: Darkrai|Darkrai|100/100|[from] Chilly Reception
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1758273148
+|move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|2
+|cant|p2a: Heatran|par
+|
+|-end|p2a: Heatran|move: Future Sight
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|88/100 par
+|-heal|p2a: Heatran|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758273161
+|move|p1a: Darkrai|Dark Pulse|p2a: Heatran
+|-damage|p2a: Heatran|26/100 par
+|-damage|p1a: Darkrai|91/100|[from] item: Life Orb
+|move|p2a: Heatran|Magma Storm|p1a: Darkrai
+|-damage|p1a: Darkrai|31/100
+|-activate|p1a: Darkrai|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|32/100 par|[from] item: Leftovers
+|-damage|p1a: Darkrai|19/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1758273177
+|move|p1a: Darkrai|Dark Pulse|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|-damage|p1a: Darkrai|9/100|[from] item: Life Orb
+|
+|-end|p1a: Darkrai|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1758273184
+|switch|p2a: Dragapult|Dragapult, F|45/100
+|turn|17
+|
+|t:|1758273188
+|move|p2a: Dragapult|Draco Meteor|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Darkrai
+|
+|upkeep
+|
+|t:|1758273194
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|18
+|
+|t:|1758273201
+|switch|p2a: Sylveon|Sylveon, F, shiny|100/100
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|
+|upkeep
+|turn|19
+|
+|t:|1758273214
+|-terastallize|p1a: Weavile|Ghost
+|move|p1a: Weavile|Triple Axel|p2a: Sylveon
+|-damage|p2a: Sylveon|78/100
+|-damage|p2a: Sylveon|26/100
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|-hitcount|p2: Sylveon|3
+|
+|upkeep
+|
+|t:|1758273238
+|switch|p2a: Dragapult|Dragapult, F|45/100
+|turn|20
+|
+|t:|1758273250
+|move|p1a: Weavile|Ice Shard|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1758273254
+|switch|p2a: Iron Valiant|Iron Valiant|17/100
+|turn|21
+|
+|t:|1758273258
+|move|p1a: Weavile|Ice Shard|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|win|aidan800
+|raw|aidan800's rating: 1141 &rarr; <strong>1167</strong><br />(+26 for winning)
+|raw|SushiRolll's rating: 1156 &rarr; <strong>1130</strong><br />(-26 for losing)
+|l|☆aidan800
+|player|p1|
+|l|☆SushiRolll
+|player|p2|

@@ -1,0 +1,157 @@
+|j|☆athrel
+|j|☆uncle brown
+|t:|1779683927
+|gametype|singles
+|player|p1|athrel|102|1442
+|player|p2|uncle brown|170|1510
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Araquanid, F|
+|poke|p1|Ceruledge, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Treads|
+|poke|p2|Ting-Lu|
+|poke|p2|Dragapult, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Clefable, M|
+|poke|p2|Cinderace, M|
+|teampreview
+|
+|t:|1779683938
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|t:|1779683955
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|move|p2a: Rotom|Hydro Pump|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|84/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779683962
+|move|p2a: Rotom|Volt Switch|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|45/100
+|
+|t:|1779683968
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] Volt Switch
+|move|p1a: Araquanid|Mirror Coat|p2a: Dragapult
+|-damage|p2a: Dragapult|17/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779683976
+|move|p2a: Dragapult|Dragon Darts|p1a: Araquanid
+|-damage|p1a: Araquanid|22/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1779683992
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|4
+|
+|t:|1779684000
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Gholdengo|Trick|p2a: Ting-Lu
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Ting-Lu
+|-item|p2a: Ting-Lu|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|5
+|
+|t:|1779684006
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Rillaboom
+|-sidestart|p1: athrel|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1779684011
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Rillaboom|U-turn|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|96/100
+|-damage|p1a: Rillaboom|84/100|[from] item: Rocky Helmet|[of] p2a: Weezing
+|
+|t:|1779684020
+|switch|p1a: Ceruledge|Ceruledge, F|100/100|[from] U-turn
+|-damage|p1a: Ceruledge|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Ceruledge|82/100|[from] Grassy Terrain
+|-heal|p2a: Weezing|100/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1779684035
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|
+|-heal|p1a: Ceruledge|88/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1779684042
+|-terastallize|p1a: Ceruledge|Grass
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|move|p2a: Rotom|Hydro Pump|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|63/100
+|
+|-heal|p1a: Ceruledge|70/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1779684055
+|move|p1a: Ceruledge|Bitter Blade|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|26/100
+|-heal|p1a: Ceruledge|100/100|[from] drain|[of] p2a: Rotom
+|-damage|p1a: Ceruledge|91/100|[from] item: Life Orb
+|move|p2a: Rotom|Will-O-Wisp|p1a: Ceruledge
+|-start|p1a: Ceruledge|ability: Flash Fire
+|
+|-heal|p1a: Ceruledge|97/100|[from] Grassy Terrain
+|-heal|p2a: Rotom|33/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|10
+|-message|uncle brown forfeited.
+|
+|win|athrel
+|raw|athrel's rating: 1442 &rarr; <strong>1467</strong><br />(+25 for winning)
+|raw|uncle brown's rating: 1534 &rarr; <strong>1509</strong><br />(-25 for losing)
+|l|☆uncle brown
+|player|p2|
+|l|☆athrel
+|player|p1|

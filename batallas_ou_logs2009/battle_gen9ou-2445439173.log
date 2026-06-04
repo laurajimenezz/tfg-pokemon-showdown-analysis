@@ -1,0 +1,284 @@
+|j|☆Charle_phate
+|j|☆Veronyl
+|t:|1758345877
+|gametype|singles
+|player|p1|Charle_phate|blue|1206
+|player|p2|Veronyl|candice|1201
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Zapdos|
+|poke|p1|Heatran, F|
+|poke|p1|Clefable, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Glaceon, F|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Magnezone|
+|poke|p2|Kingambit, M|
+|poke|p2|Great Tusk|
+|poke|p2|Garchomp, M|
+|teampreview
+|
+|t:|1758345892
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1758345912
+|move|p2a: Great Tusk|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Charle_phate|move: Stealth Rock
+|move|p1a: Rotom|Hydro Pump|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758345918
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|2
+|
+|t:|1758345947
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: Veronyl|move: Aurora Veil
+|move|p1a: Rotom|Thunder Wave|p2a: Ninetales
+|-status|p2a: Ninetales|par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758345955
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|switch|p2a: Magnezone|Magnezone|100/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1758345977
+|move|p1a: Heatran|Magma Storm|p2a: Magnezone|[miss]
+|-miss|p1a: Heatran|p2a: Magnezone
+|move|p2a: Magnezone|Zap Cannon|p1a: Heatran
+|-damage|p1a: Heatran|32/100
+|-status|p1a: Heatran|par
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Heatran|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1758345983
+|move|p2a: Magnezone|Zap Cannon|p1a: Heatran|[miss]
+|-miss|p2a: Magnezone|p1a: Heatran
+|move|p1a: Heatran|Magma Storm|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|57/100
+|-activate|p2a: Magnezone|move: Magma Storm|[of] p1a: Heatran
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Heatran|44/100 par|[from] item: Leftovers
+|-damage|p2a: Magnezone|45/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1758346001
+|move|p2a: Magnezone|Zap Cannon|p1a: Heatran|[miss]
+|-miss|p2a: Magnezone|p1a: Heatran
+|move|p1a: Heatran|Ancient Power|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|40/100
+|
+|-weather|none
+|-heal|p1a: Heatran|50/100 par|[from] item: Leftovers
+|-damage|p2a: Magnezone|28/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1758346006
+|move|p2a: Magnezone|Zap Cannon|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-end|p2a: Magnezone|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1758346021
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1758346028
+|move|p1a: Zapdos|Ancient Power|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|23/100
+|-boost|p1a: Zapdos|atk|1
+|-boost|p1a: Zapdos|def|1
+|-boost|p1a: Zapdos|spa|1
+|-boost|p1a: Zapdos|spd|1
+|-boost|p1a: Zapdos|spe|1
+|move|p2a: Magnezone|Zap Cannon|p1a: Zapdos|[miss]
+|-miss|p2a: Magnezone|p1a: Zapdos
+|
+|-heal|p1a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758346035
+|move|p1a: Zapdos|Ancient Power|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|15/100
+|move|p2a: Magnezone|Zap Cannon|p1a: Zapdos|[miss]
+|-miss|p2a: Magnezone|p1a: Zapdos
+|
+|-heal|p1a: Zapdos|88/100|[from] item: Leftovers
+|-sideend|p2: Veronyl|move: Aurora Veil
+|upkeep
+|turn|10
+|
+|t:|1758346055
+|move|p1a: Zapdos|Ancient Power|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|1/100
+|move|p2a: Magnezone|Zap Cannon|p1a: Zapdos|[miss]
+|-miss|p2a: Magnezone|p1a: Zapdos
+|
+|-heal|p1a: Zapdos|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758346061
+|move|p1a: Zapdos|Ancient Power|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-heal|p1a: Zapdos|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758346064
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100 par
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Veronyl)
+|
+|t:|1758346109
+|move|p1a: Zapdos|Ancient Power|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|47/100 par
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: Veronyl|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1758346119
+|switch|p2a: Glaceon|Glaceon, F|100/100
+|move|p1a: Zapdos|Ancient Power|p2a: Glaceon
+|-supereffective|p2a: Glaceon
+|-damage|p2a: Glaceon|69/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Glaceon|75/100|[from] ability: Ice Body
+|upkeep
+|turn|14
+|
+|t:|1758346139
+|move|p1a: Zapdos|Ancient Power|p2a: Glaceon
+|-supereffective|p2a: Glaceon
+|-crit|p2a: Glaceon
+|-damage|p2a: Glaceon|0 fnt
+|-boost|p1a: Zapdos|atk|1
+|-boost|p1a: Zapdos|def|1
+|-boost|p1a: Zapdos|spa|1
+|-boost|p1a: Zapdos|spd|1
+|-boost|p1a: Zapdos|spe|1
+|faint|p2a: Glaceon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758346145
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|15
+|
+|t:|1758346162
+|move|p1a: Zapdos|Heat Wave|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|86/100
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garchomp|92/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758346167
+|move|p1a: Zapdos|Heat Wave|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|75/100
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-weather|none
+|-heal|p2a: Garchomp|81/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758346172
+|move|p1a: Zapdos|Heat Wave|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|64/100
+|move|p2a: Garchomp|Dragon Claw|p1a: Zapdos
+|-damage|p1a: Zapdos|47/100
+|
+|-heal|p1a: Zapdos|53/100|[from] item: Leftovers
+|-heal|p2a: Garchomp|71/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1758346199
+|move|p1a: Zapdos|Heat Wave|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|55/100
+|-status|p2a: Garchomp|brn
+|move|p2a: Garchomp|Dragon Claw|p1a: Zapdos
+|-damage|p1a: Zapdos|25/100
+|
+|-heal|p1a: Zapdos|32/100|[from] item: Leftovers
+|-heal|p2a: Garchomp|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Garchomp|55/100 brn|[from] brn
+|upkeep
+|turn|19
+|-message|Veronyl forfeited.
+|
+|win|Charle_phate
+|raw|Charle_phate's rating: 1206 &rarr; <strong>1231</strong><br />(+25 for winning)
+|raw|Veronyl's rating: 1201 &rarr; <strong>1176</strong><br />(-25 for losing)
+|l|☆Veronyl
+|player|p2|
+|l|☆Charle_phate
+|player|p1|

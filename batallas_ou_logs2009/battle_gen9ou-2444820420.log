@@ -1,0 +1,260 @@
+|j|☆Thunder60076
+|j|☆Paradox Pro
+|t:|1758273577
+|gametype|singles
+|player|p1|Thunder60076|1|1096
+|player|p2|Paradox Pro|ethan|1135
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Illumise, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Walking Wake|
+|poke|p1|Maushold-Four|
+|poke|p1|Dragapult, M|
+|poke|p1|Serperior, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Dragapult, F|
+|poke|p2|Iron Treads|
+|poke|p2|Hatterene, F|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1758273604
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Serperior|Serperior, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1758273610
+|move|p1a: Serperior|Leaf Storm|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1758273617
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|2
+|
+|t:|1758273621
+|move|p2a: Dragapult|Flamethrower|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|1/100
+|move|p1a: Serperior|Glare|p2a: Dragapult
+|-status|p2a: Dragapult|par
+|
+|-heal|p1a: Serperior|7/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1758273630
+|move|p1a: Serperior|Dragon Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-start|p1a: Serperior|Disable|Dragon Pulse|[from] ability: Cursed Body|[of] p2a: Dragapult
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Serperior|13/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758273640
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|4
+|
+|t:|1758273646
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Serperior|Leech Seed|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|move: Leech Seed
+|
+|-heal|p1a: Serperior|19/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|88/100|[from] Leech Seed|[of] p1a: Serperior
+|-heal|p1a: Serperior|39/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1758273654
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Serperior|Glare|p2a: Raging Bolt
+|-immune|p2a: Raging Bolt
+|
+|-heal|p1a: Serperior|45/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|76/100|[from] Leech Seed|[of] p1a: Serperior
+|-heal|p1a: Serperior|64/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1758273665
+|-terastallize|p1a: Serperior|Dragon
+|move|p2a: Raging Bolt|Thunderclap|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|31/100
+|move|p1a: Serperior|Leaf Storm|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-crit|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|22/100
+|-boost|p1a: Serperior|spa|2
+|
+|-heal|p1a: Serperior|38/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|10/100|[from] Leech Seed|[of] p1a: Serperior
+|-heal|p1a: Serperior|57/100|[silent]
+|-end|p1a: Serperior|Disable
+|upkeep
+|turn|7
+|
+|t:|1758273678
+|move|p1a: Serperior|Glare|p2a: Raging Bolt
+|-immune|p2a: Raging Bolt
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Serperior|[miss]
+|-miss|p2a: Raging Bolt|p1a: Serperior
+|
+|-heal|p1a: Serperior|63/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|0 fnt|[from] Leech Seed|[of] p1a: Serperior
+|-heal|p1a: Serperior|77/100|[silent]
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1758273688
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdriveatk
+|turn|8
+|
+|t:|1758273694
+|move|p1a: Serperior|Leaf Storm|p2a: Iron Treads|[miss]
+|-miss|p1a: Serperior|p2a: Iron Treads
+|move|p2a: Iron Treads|Ice Spinner|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1758273705
+|switch|p1a: Illumise|Illumise, F, shiny|100/100
+|turn|9
+|
+|t:|1758273710
+|move|p1a: Illumise|Trick|p2a: Iron Treads
+|-activate|p1a: Illumise|move: Trick|[of] p2a: Iron Treads
+|-item|p2a: Iron Treads|Flame Orb|[from] move: Trick
+|-enditem|p1a: Illumise|Flame Orb|[silent]|[from] move: Trick
+|move|p2a: Iron Treads|Ice Spinner|p1a: Illumise
+|-damage|p1a: Illumise|53/100
+|
+|-status|p2a: Iron Treads|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|t:|1758273725
+|move|p1a: Illumise|Roost|p1a: Illumise
+|-heal|p1a: Illumise|100/100
+|-singleturn|p1a: Illumise|move: Roost
+|move|p2a: Iron Treads|Earthquake|p1a: Illumise
+|-resisted|p1a: Illumise
+|-damage|p1a: Illumise|80/100
+|
+|-damage|p2a: Iron Treads|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1758273743
+|move|p1a: Illumise|Encore|p2a: Iron Treads
+|-start|p2a: Iron Treads|Encore
+|move|p2a: Iron Treads|Earthquake|p1a: Illumise
+|-resisted|p1a: Illumise
+|-damage|p1a: Illumise|61/100
+|
+|-damage|p2a: Iron Treads|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1758273750
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|move|p2a: Iron Treads|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-damage|p2a: Iron Treads|82/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1758273758
+|move|p2a: Iron Treads|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|
+|-damage|p2a: Iron Treads|76/100 brn|[from] brn
+|-end|p2a: Iron Treads|Encore
+|upkeep
+|turn|14
+|
+|t:|1758273769
+|move|p2a: Iron Treads|Ice Spinner|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|43/100
+|move|p1a: Landorus|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p1a: Landorus|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758273777
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|15
+|
+|t:|1758273782
+|move|p1a: Landorus|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-heal|p1a: Landorus|55/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758273786
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|16
+|
+|t:|1758273791
+|move|p1a: Landorus|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|Thunder60076
+|raw|Thunder60076's rating: 1096 &rarr; <strong>1124</strong><br />(+28 for winning)
+|raw|Paradox Pro's rating: 1135 &rarr; <strong>1107</strong><br />(-28 for losing)
+|l|☆Paradox Pro
+|player|p2|
+|l|☆Thunder60076
+|player|p1|

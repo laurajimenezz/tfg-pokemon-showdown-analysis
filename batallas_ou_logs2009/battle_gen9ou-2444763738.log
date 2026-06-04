@@ -1,0 +1,299 @@
+|j|☆AI Builds
+|j|☆Mperlop
+|t:|1758263928
+|gametype|singles
+|player|p1|AI Builds|169|1503
+|player|p2|Mperlop|265|1455
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kommo-o, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Gholdengo|
+|poke|p2|Enamorus, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Crown|
+|poke|p2|Iron Hands|
+|poke|p2|Glimmora, M|
+|poke|p2|Ursaluna, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AI Builds)
+|
+|t:|1758263942
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|1
+|
+|t:|1758263951
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ogerpon|atk|1
+|move|p2a: Ogerpon|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|75/100
+|-damage|p2a: Ogerpon|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|upkeep
+|turn|2
+|
+|t:|1758263957
+|move|p2a: Ogerpon|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|66/100
+|
+|t:|1758263961
+|switch|p2a: Enamorus|Enamorus, F, shiny|100/100|[from] U-turn
+|move|p1a: Landorus|U-turn|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|93/100
+|
+|t:|1758263964
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1758263975
+|move|p2a: Enamorus|Mystical Fire|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|33/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p1a: Gholdengo|Make It Rain|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Enamorus
+|
+|upkeep
+|j| wgw2333
+|
+|t:|1758263990
+|switch|p2a: Iron Hands|Iron Hands, shiny|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|4
+|j| wen29
+|
+|t:|1758263996
+|switch|p1a: Landorus|Landorus-Therian, M|66/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Hands|atk|1
+|move|p2a: Iron Hands|Swords Dance|p2a: Iron Hands
+|-boost|p2a: Iron Hands|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1758264000
+|move|p1a: Landorus|Earth Power|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|42/100
+|move|p2a: Iron Hands|Ice Punch|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1758264004
+|switch|p1a: Gholdengo|Gholdengo|33/100
+|turn|6
+|
+|t:|1758264018
+|move|p1a: Gholdengo|Shadow Ball|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758264023
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|84/100
+|turn|7
+|
+|t:|1758264030
+|move|p1a: Gholdengo|Shadow Ball|p2a: Ogerpon
+|-damage|p2a: Ogerpon|34/100
+|move|p2a: Ogerpon|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-enditem|p1a: Gholdengo|Choice Scarf|[from] move: Knock Off|[of] p2a: Ogerpon
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1758264035
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|turn|8
+|
+|t:|1758264040
+|move|p2a: Ogerpon|Knock Off|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|82/100
+|-enditem|p1a: Kommo-o|Throat Spray|[from] move: Knock Off|[of] p2a: Ogerpon
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|49/100
+|
+|upkeep
+|turn|9
+|
+|t:|1758264047
+|move|p1a: Kommo-o|Drain Punch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-heal|p1a: Kommo-o|66/100|[from] drain|[of] p2a: Ogerpon
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1758264064
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|turn|10
+|
+|t:|1758264070
+|move|p1a: Kommo-o|Drain Punch|p2a: Iron Crown
+|-damage|p2a: Iron Crown|58/100
+|-heal|p1a: Kommo-o|90/100|[from] drain|[of] p2a: Iron Crown
+|move|p2a: Iron Crown|Psychic Noise|p1a: Kommo-o
+|-immune|p1a: Kommo-o|[from] ability: Soundproof
+|
+|upkeep
+|turn|11
+|
+|t:|1758264082
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Glimmora|Glimmora, M, shiny|100/100
+|move|p1a: Kommo-o|Drain Punch|p2a: Glimmora
+|-damage|p2a: Glimmora|61/100
+|-heal|p1a: Kommo-o|100/100|[from] drain|[of] p2a: Glimmora
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: AI Builds|move: Toxic Spikes
+|-enditem|p2a: Glimmora|Red Card|[of] p1a: Kommo-o
+|drag|p1a: Hatterene|Hatterene, F|100/100
+|-status|p1a: Hatterene|psn
+|
+|-damage|p1a: Hatterene|88/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1758264100
+|move|p2a: Glimmora|Earth Power|p1a: Hatterene
+|-damage|p1a: Hatterene|72/100 psn
+|move|p1a: Hatterene|Psyshock|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|-damage|p1a: Hatterene|60/100 psn|[from] psn
+|upkeep
+|
+|t:|1758264107
+|switch|p2a: Iron Crown|Iron Crown|58/100
+|turn|13
+|
+|t:|1758264113
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|13/100 psn
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|-hitcount|p1: Hatterene|2
+|
+|upkeep
+|
+|t:|1758264116
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-status|p1a: Ogerpon|psn
+|turn|14
+|
+|t:|1758264121
+|move|p1a: Ogerpon|Knock Off|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|-enditem|p2a: Iron Crown|Choice Specs|[from] move: Knock Off|[of] p1a: Ogerpon
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-damage|p1a: Ogerpon|88/100 psn|[from] psn
+|upkeep
+|
+|t:|1758264123
+|switch|p2a: Ursaluna|Ursaluna, M, shiny|100/100
+|turn|15
+|
+|t:|1758264127
+|-terastallize|p2a: Ursaluna|Fairy
+|move|p1a: Ogerpon|Knock Off|p2a: Ursaluna
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|87/100
+|-enditem|p2a: Ursaluna|Leftovers|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Ursaluna|Bulk Up|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|1
+|-boost|p2a: Ursaluna|def|1
+|
+|-damage|p1a: Ogerpon|76/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1758264138
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Ursaluna|[anim] Ivy Cudgel Water
+|-damage|p2a: Ursaluna|59/100
+|move|p2a: Ursaluna|Bulk Up|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|1
+|-boost|p2a: Ursaluna|def|1
+|
+|-damage|p1a: Ogerpon|64/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1758264142
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Ursaluna|[anim] Ivy Cudgel Water
+|-damage|p2a: Ursaluna|38/100
+|move|p2a: Ursaluna|Body Slam|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1758264146
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|18
+|
+|t:|1758264149
+|move|p1a: Kingambit|Iron Head|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|win|AI Builds
+|raw|AI Builds's rating: 1503 &rarr; <strong>1520</strong><br />(+17 for winning)
+|raw|Mperlop's rating: 1455 &rarr; <strong>1438</strong><br />(-17 for losing)
+|l|☆Mperlop
+|player|p2|
+|l|☆AI Builds
+|player|p1|
+|l| wen29
+|l| wgw2333

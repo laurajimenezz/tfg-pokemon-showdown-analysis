@@ -1,0 +1,355 @@
+|j|☆Wo chef is cooking
+|j|☆silverfalcom
+|t:|1759007989
+|gametype|singles
+|player|p1|Wo chef is cooking|266|1558
+|player|p2|silverfalcom|102|1584
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Slither Wing|
+|poke|p1|Walking Wake|
+|poke|p1|Raging Bolt|
+|poke|p1|Hatterene, F|
+|poke|p1|Brute Bonnet|
+|poke|p2|Iron Valiant|
+|poke|p2|Gliscor, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Blissey, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wo chef is cooking)
+|
+|t:|1759008020
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1759008024
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Hatterene
+|-damage|p1a: Hatterene|26/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1759008029
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1759008033
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Brute Bonnet|Brute Bonnet|100/100
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisatk
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1759008042
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|move|p1a: Brute Bonnet|Growth|p1a: Brute Bonnet
+|-boost|p1a: Brute Bonnet|atk|2
+|-boost|p1a: Brute Bonnet|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1759008047
+|move|p2a: Kingambit|Iron Head|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|65/100
+|cant|p1a: Brute Bonnet|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1759008052
+|move|p2a: Kingambit|Iron Head|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|27/100
+|move|p1a: Brute Bonnet|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Brute Bonnet|def|1
+|-unboost|p1a: Brute Bonnet|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1759008061
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|6
+|
+|t:|1759008064
+|move|p1a: Brute Bonnet|Sucker Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1759008070
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|7
+|
+|t:|1759008073
+|move|p2a: Ogerpon|Encore|p1a: Brute Bonnet
+|-start|p1a: Brute Bonnet|Encore
+|move|p1a: Brute Bonnet|Sucker Punch||[still]
+|-fail|p1a: Brute Bonnet
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1759008077
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|-weather|none
+|-end|p1a: Slither Wing|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1759008080
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Slither Wing|First Impression|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|upkeep
+|
+|t:|1759008091
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|10
+|
+|t:|1759008095
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Gliscor|Knock Off|p1a: Ninetales
+|-damage|p1a: Ninetales|75/100
+|-enditem|p1a: Ninetales|Heat Rock|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+|
+|t:|1759008102
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Gliscor|Earthquake|p1a: Walking Wake
+|-damage|p1a: Walking Wake|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1759008108
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Walking Wake|Hydro Steam|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1759008112
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Blissey
+|-damage|p2a: Blissey|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1759008119
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|move|p2a: Blissey|Seismic Toss|p1a: Slither Wing
+|-damage|p1a: Slither Wing|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1759008125
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Slither Wing|Flare Blitz|p2a: Gliscor
+|-damage|p2a: Gliscor|20/100 tox
+|-damage|p1a: Slither Wing|38/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|32/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1759008132
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Slither Wing|Flare Blitz|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|45/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|t:|1759008143
+|move|p1a: Slither Wing|Flare Blitz|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|-damage|p1a: Slither Wing|22/100|[from] Recoil
+|
+|-weather|none
+|-end|p1a: Slither Wing|Protosynthesis
+|upkeep
+|
+|t:|1759008147
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|18
+|
+|t:|1759008152
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|75/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Iron Valiant|Moonblast|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|53/100
+|-unboost|p1a: Ninetales|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1759008161
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Blissey|Blissey, F|70/100
+|switch|p1a: Hatterene|Hatterene, F|26/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1759008166
+|move|p2a: Blissey|Seismic Toss|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1759008172
+|switch|p1a: Brute Bonnet|Brute Bonnet|27/100
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisatk
+|turn|21
+|
+|t:|1759008177
+|move|p1a: Brute Bonnet|Bullet Seed|p2a: Blissey
+|-damage|p2a: Blissey|55/100
+|-damage|p2a: Blissey|39/100
+|-damage|p2a: Blissey|22/100
+|-damage|p2a: Blissey|7/100
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|-hitcount|p2: Blissey|5
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1759008184
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|22
+|
+|t:|1759008187
+|move|p2a: Iron Valiant|Vacuum Wave|p1a: Brute Bonnet
+|-supereffective|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|0 fnt
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1759008193
+|switch|p1a: Ninetales|Ninetales, F|53/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|23
+|
+|t:|1759008199
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Ninetales
+|-damage|p1a: Ninetales|26/100
+|-unboost|p1a: Ninetales|spd|1
+|move|p1a: Ninetales|Weather Ball|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|24/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1759008206
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1759008209
+|switch|p1a: Walking Wake|Walking Wake|63/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|25
+|
+|t:|1759008211
+|move|p2a: Iron Valiant|Vacuum Wave|p1a: Walking Wake
+|-damage|p1a: Walking Wake|41/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|win|Wo chef is cooking
+|raw|Wo chef is cooking's rating: 1558 &rarr; <strong>1579</strong><br />(+21 for winning)
+|raw|silverfalcom's rating: 1584 &rarr; <strong>1563</strong><br />(-21 for losing)
+|l|☆silverfalcom
+|player|p2|
+|l|☆Wo chef is cooking
+|player|p1|

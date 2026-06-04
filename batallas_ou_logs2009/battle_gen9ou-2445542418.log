@@ -1,0 +1,363 @@
+|j|☆RobustLoki
+|j|☆Thibault56
+|t:|1758366245
+|gametype|singles
+|player|p1|RobustLoki|scientist|1629
+|player|p2|Thibault56|acetrainer|1688
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Empoleon, M|
+|poke|p1|Serperior, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Ogerpon, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Barraskewda, F|
+|poke|p2|Zapdos|
+|poke|p2|Corviknight, F|
+|poke|p2|Incineroar, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thibault56)
+|
+|t:|1758366282
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1758366309
+|move|p1a: Ogerpon|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|88/100
+|
+|t:|1758366313
+|switch|p1a: Araquanid|Araquanid, M|100/100|[from] U-turn
+|move|p2a: Pelipper|Hurricane|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|45/100
+|-start|p1a: Araquanid|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758366322
+|-activate|p1a: Araquanid|confusion
+|move|p1a: Araquanid|Endure|p1a: Araquanid
+|-singleturn|p1a: Araquanid|move: Endure
+|move|p2a: Pelipper|Hurricane|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-activate|p1a: Araquanid|move: Endure
+|-damage|p1a: Araquanid|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|-enditem|p1a: Araquanid|Custap Berry|[eat]
+|-activate|p1a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1758366326
+|-end|p1a: Araquanid|confusion
+|move|p1a: Araquanid|Sticky Web|p2a: Pelipper
+|-sidestart|p2: Thibault56|move: Sticky Web
+|move|p2a: Pelipper|U-turn|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|t:|1758366333
+|switch|p2a: Corviknight|Corviknight, F|100/100|[from] U-turn
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758366357
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|turn|4
+|
+|t:|1758366364
+|move|p2a: Corviknight|Defog|p1a: Empoleon
+|-unboost|p1a: Empoleon|evasion|1
+|-ability|p1a: Empoleon|Competitive|boost
+|-boost|p1a: Empoleon|spa|2
+|-sideend|p2: Thibault56|Sticky Web|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Empoleon|Surf|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758366372
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|5
+|
+|t:|1758366376
+|-terastallize|p1a: Empoleon|Fighting
+|move|p2a: Zapdos|Volt Switch|p1a: Empoleon
+|-damage|p1a: Empoleon|71/100
+|
+|t:|1758366380
+|switch|p2a: Clodsire|Clodsire, F|100/100|[from] Volt Switch
+|move|p1a: Empoleon|Surf|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758366388
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|move|p2a: Clodsire|Toxic|p1a: Kingambit
+|-immune|p1a: Kingambit
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758366393
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|67/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758366402
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|move|p2a: Incineroar|Will-O-Wisp|p1a: Ogerpon
+|-status|p1a: Ogerpon|brn
+|
+|-weather|none
+|-damage|p1a: Ogerpon|95/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1758366415
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Ogerpon|Low Kick|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|93/100
+|
+|-damage|p1a: Ogerpon|89/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1758366422
+|switch|p1a: Empoleon|Empoleon, M, tera:Fighting|71/100
+|move|p2a: Zapdos|Hurricane|p1a: Empoleon|[miss]
+|-miss|p2a: Zapdos|p1a: Empoleon
+|
+|upkeep
+|turn|11
+|
+|t:|1758366427
+|move|p2a: Zapdos|Hurricane|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|faint|p1a: Empoleon
+|
+|upkeep
+|
+|t:|1758366432
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|12
+|
+|t:|1758366435
+|switch|p2a: Pelipper|Pelipper, M|88/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Cinderace|Pyro Ball|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|73/100
+|-status|p2a: Pelipper|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|67/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1758366444
+|move|p1a: Cinderace|U-turn|p2a: Pelipper
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|49/100 brn
+|
+|t:|1758366447
+|switch|p1a: Ogerpon|Ogerpon, F|89/100 brn|[from] U-turn
+|move|p2a: Pelipper|Hurricane|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|43/100 brn|[from] brn
+|upkeep
+|
+|t:|1758366451
+|switch|p1a: Serperior|Serperior, F|100/100
+|turn|14
+|
+|t:|1758366468
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Serperior|Leaf Storm|p2a: Clodsire
+|-crit|p2a: Clodsire
+|-damage|p2a: Clodsire|57/100
+|-boost|p1a: Serperior|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Clodsire|63/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758366482
+|move|p1a: Serperior|Leaf Storm|p2a: Clodsire
+|-damage|p2a: Clodsire|7/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Clodsire|Gunk Shot|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Serperior|32/100|[from] item: Leftovers
+|-heal|p2a: Clodsire|14/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758366490
+|move|p1a: Serperior|Leaf Storm|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Clodsire
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Serperior|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758366492
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|turn|17
+|
+|t:|1758366499
+|move|p2a: Barraskewda|Flip Turn|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|t:|1758366505
+|switch|p2a: Zapdos|Zapdos|93/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758366509
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|turn|18
+|
+|t:|1758366512
+|move|p2a: Zapdos|Thunder|p1a: Kingambit
+|-damage|p1a: Kingambit|43/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Zapdos
+|-damage|p2a: Zapdos|27/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1758366519
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|77/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|t:|1758366524
+|move|p2a: Zapdos|Volt Switch|p1a: Kingambit
+|-damage|p1a: Kingambit|7/100
+|
+|t:|1758366528
+|switch|p2a: Pelipper|Pelipper, M|43/100 brn|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758366530
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|turn|21
+|
+|t:|1758366533
+|-terastallize|p2a: Barraskewda|Water
+|move|p2a: Barraskewda|Aqua Jet|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758366536
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|22
+|
+|t:|1758366541
+|move|p2a: Barraskewda|Aqua Jet|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-enditem|p1a: Cinderace|Focus Sash
+|-damage|p1a: Cinderace|1/100
+|move|p1a: Cinderace|Reversal|p2a: Barraskewda
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758366550
+|switch|p2a: Zapdos|Zapdos|77/100
+|turn|23
+|
+|t:|1758366553
+|move|p1a: Cinderace|Reversal|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|16/100
+|move|p2a: Zapdos|Hurricane|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|win|Thibault56
+|raw|RobustLoki's rating: 1629 &rarr; <strong>1612</strong><br />(-17 for losing)
+|raw|Thibault56's rating: 1688 &rarr; <strong>1705</strong><br />(+17 for winning)
+|c|☆RobustLoki|gg
+|l|☆RobustLoki
+|player|p1|
+|l|☆Thibault56
+|player|p2|

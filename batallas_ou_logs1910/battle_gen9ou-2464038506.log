@@ -1,0 +1,355 @@
+|j|☆Beefybreath
+|j|☆Kopecora
+|t:|1760791101
+|gametype|singles
+|player|p1|Beefybreath|101|1215
+|player|p2|Kopecora|2|1188
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kommo-o, F|
+|poke|p1|Ninetales, F|
+|poke|p1|Venusaur, F|
+|poke|p1|Great Tusk|
+|poke|p1|Chansey, F|
+|poke|p1|Gliscor, F|
+|poke|p2|Iron Treads|
+|poke|p2|Milotic, M|
+|poke|p2|Metagross|
+|poke|p2|Reuniclus, M|
+|poke|p2|Gyarados, M|
+|poke|p2|Grimmsnarl, M|
+|teampreview
+|
+|t:|1760791110
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|t:|1760791129
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Ninetales
+|-unboost|p1a: Ninetales|atk|1
+|-unboost|p1a: Ninetales|spa|1
+|
+|t:|1760791136
+|switch|p2a: Milotic|Milotic, M|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1760791174
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|move|p2a: Milotic|Scald|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|94/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Milotic|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1760791182
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|move|p2a: Milotic|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Milotic|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1760791192
+|-terastallize|p1a: Venusaur|Fire
+|move|p1a: Venusaur|Giga Drain|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|-heal|p1a: Venusaur|100/100|[from] drain|[of] p2a: Milotic
+|faint|p2a: Milotic
+|-damage|p1a: Venusaur|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760791200
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|5
+|
+|t:|1760791209
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Kopecora|move: Light Screen
+|move|p1a: Venusaur|Sludge Bomb|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|28/100
+|-damage|p1a: Venusaur|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760791216
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Venusaur
+|-unboost|p1a: Venusaur|atk|1
+|-unboost|p1a: Venusaur|spa|1
+|
+|t:|1760791219
+|switch|p2a: Metagross|Metagross|100/100|[from] Parting Shot
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760791226
+|move|p1a: Venusaur|Weather Ball|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|-damage|p1a: Venusaur|71/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760791233
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|8
+|
+|t:|1760791241
+|move|p1a: Venusaur|Giga Drain|p2a: Iron Treads
+|-damage|p2a: Iron Treads|23/100
+|-heal|p1a: Venusaur|100/100|[from] drain|[of] p2a: Iron Treads
+|-damage|p1a: Venusaur|91/100|[from] item: Life Orb
+|move|p2a: Iron Treads|Earthquake|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-weather|none
+|upkeep
+|
+|t:|1760791277
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|turn|9
+|
+|t:|1760791285
+|move|p2a: Iron Treads|Ice Spinner|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|62/100
+|move|p1a: Kommo-o|Iron Defense|p1a: Kommo-o
+|-boost|p1a: Kommo-o|def|2
+|
+|-heal|p1a: Kommo-o|68/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760791294
+|move|p2a: Iron Treads|Knock Off|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|62/100
+|-enditem|p1a: Kommo-o|Leftovers|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Kommo-o|Body Press|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760791302
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|turn|11
+|
+|t:|1760791310
+|move|p1a: Kommo-o|Throat Chop|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|61/100
+|-start|p2a: Reuniclus|Throat Chop|[silent]
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|upkeep
+|turn|12
+|
+|t:|1760791320
+|move|p2a: Reuniclus|Psychic|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|-end|p2a: Reuniclus|Throat Chop|[silent]
+|-sideend|p2: Kopecora|move: Light Screen
+|upkeep
+|
+|t:|1760791325
+|switch|p1a: Chansey|Chansey, F|100/100
+|turn|13
+|
+|t:|1760791330
+|move|p2a: Reuniclus|Focus Blast|p1a: Chansey|[miss]
+|-miss|p2a: Reuniclus|p1a: Chansey
+|move|p1a: Chansey|Thunder Wave|p2a: Reuniclus
+|-status|p2a: Reuniclus|par
+|
+|upkeep
+|turn|14
+|
+|t:|1760791341
+|move|p2a: Reuniclus|Focus Blast|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|73/100
+|-unboost|p1a: Chansey|spd|1
+|move|p1a: Chansey|Seismic Toss|p2a: Reuniclus
+|-damage|p2a: Reuniclus|38/100 par
+|
+|upkeep
+|turn|15
+|
+|t:|1760791351
+|move|p2a: Reuniclus|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|50/100
+|move|p1a: Chansey|Seismic Toss|p2a: Reuniclus
+|-damage|p2a: Reuniclus|14/100 par
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|16
+|
+|t:|1760791358
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|99/100
+|cant|p2a: Reuniclus|par
+|
+|upkeep
+|turn|17
+|
+|t:|1760791363
+|move|p1a: Chansey|Seismic Toss|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|upkeep
+|
+|t:|1760791368
+|switch|p2a: Gyarados|Gyarados, M, shiny|100/100
+|turn|18
+|
+|t:|1760791372
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Chansey|Thunder Wave|p2a: Gyarados
+|-status|p2a: Gyarados|par
+|
+|upkeep
+|turn|19
+|
+|t:|1760791390
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Chansey|Seismic Toss|p2a: Gyarados
+|-damage|p2a: Gyarados|70/100 par
+|
+|upkeep
+|turn|20
+|
+|t:|1760791398
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Chansey|Seismic Toss|p2a: Gyarados
+|-damage|p2a: Gyarados|40/100 par
+|
+|upkeep
+|turn|21
+|
+|t:|1760791406
+|move|p2a: Gyarados|Waterfall|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|t:|1760791415
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|22
+|
+|t:|1760791431
+|move|p1a: Ninetales|Weather Ball|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|17/100 par
+|move|p2a: Gyarados|Waterfall|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760791438
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|23
+|
+|t:|1760791445
+|move|p2a: Gyarados|Waterfall|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760791449
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|turn|24
+|
+|t:|1760791465
+|move|p2a: Gyarados|Scale Shot|p1a: Gliscor
+|-damage|p1a: Gliscor|74/100
+|-damage|p1a: Gliscor|44/100
+|-damage|p1a: Gliscor|12/100
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-hitcount|p1: Gliscor|4
+|
+|win|Kopecora
+|raw|Beefybreath's rating: 1215 &rarr; <strong>1188</strong><br />(-27 for losing)
+|raw|Kopecora's rating: 1188 &rarr; <strong>1215</strong><br />(+27 for winning)
+|l|☆Beefybreath
+|player|p1|
+|l|☆Kopecora
+|player|p2|

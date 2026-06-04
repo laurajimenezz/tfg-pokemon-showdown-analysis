@@ -1,0 +1,330 @@
+|j|☆Spikenard
+|j|☆calondro
+|t:|1779560576
+|gametype|singles
+|player|p1|Spikenard|erika|1308
+|player|p2|calondro|266|1304
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ambipom, M|
+|poke|p1|Clefable, F|
+|poke|p1|Decidueye-Hisui, F|
+|poke|p1|Dusclops, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Glimmora, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kingambit, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Armarouge, F|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|t:|1779560582
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|t:|1779560591
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: calondro|move: Light Screen
+|move|p1a: Glimmora|Stealth Rock|p2a: Grimmsnarl
+|-sidestart|p2: calondro|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1779560597
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Glimmora
+|-unboost|p1a: Glimmora|atk|1
+|-unboost|p1a: Glimmora|spa|1
+|
+|t:|1779560601
+|switch|p2a: Armarouge|Armarouge, F|100/100|[from] Parting Shot
+|-damage|p2a: Armarouge|76/100|[from] Stealth Rock
+|move|p1a: Glimmora|Mortal Spin|p2a: Armarouge
+|-damage|p2a: Armarouge|72/100
+|-status|p2a: Armarouge|psn
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|
+|-damage|p2a: Armarouge|60/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1779560620
+|switch|p1a: Dusclops|Dusclops, M|100/100
+|-ability|p1a: Dusclops|Pressure
+|move|p2a: Armarouge|Calm Mind|p2a: Armarouge
+|-boost|p2a: Armarouge|spa|1
+|-boost|p2a: Armarouge|spd|1
+|
+|-damage|p2a: Armarouge|48/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1779560629
+|move|p2a: Armarouge|Stored Power|p1a: Dusclops
+|-damage|p1a: Dusclops|65/100
+|move|p1a: Dusclops|Trick Room|p1a: Dusclops
+|-fieldstart|move: Trick Room|[of] p1a: Dusclops
+|
+|-damage|p2a: Armarouge|35/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1779560637
+|move|p1a: Dusclops|Night Shade|p2a: Armarouge
+|-damage|p2a: Armarouge|9/100 psn
+|move|p2a: Armarouge|Stored Power|p1a: Dusclops
+|-damage|p1a: Dusclops|31/100
+|
+|-damage|p2a: Armarouge|0 fnt|[from] psn
+|faint|p2a: Armarouge
+|upkeep
+|
+|t:|1779560649
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|6
+|
+|t:|1779560656
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Kingambit
+|-status|p2a: Kingambit|brn
+|-enditem|p2a: Kingambit|Lum Berry|[eat]
+|-curestatus|p2a: Kingambit|brn|[msg]
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|faint|p1a: Dusclops
+|
+|upkeep
+|
+|t:|1779560667
+|switch|p1a: Decidueye|Decidueye-Hisui, F|100/100
+|turn|7
+|
+|t:|1779560675
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-damage|p2a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Decidueye|Knock Off|p2a: Rillaboom
+|-damage|p2a: Rillaboom|61/100
+|-enditem|p2a: Rillaboom|Terrain Extender|[from] move: Knock Off|[of] p1a: Decidueye
+|
+|-heal|p2a: Rillaboom|67/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1779560691
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|move|p2a: Rillaboom|Bulk Up|p2a: Rillaboom
+|-boost|p2a: Rillaboom|atk|1
+|-boost|p2a: Rillaboom|def|1
+|
+|-heal|p2a: Rillaboom|74/100|[from] Grassy Terrain
+|-sideend|p2: calondro|move: Light Screen
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|t:|1779560701
+|move|p1a: Glimmora|Power Gem|p2a: Rillaboom
+|-damage|p2a: Rillaboom|18/100
+|move|p2a: Rillaboom|Bulk Up|p2a: Rillaboom
+|-boost|p2a: Rillaboom|atk|1
+|-boost|p2a: Rillaboom|def|1
+|
+|-heal|p2a: Rillaboom|24/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1779560716
+|-terastallize|p2a: Rillaboom|Water
+|move|p2a: Rillaboom|Grassy Glide|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: calondro|move: Toxic Spikes
+|move|p1a: Glimmora|Power Gem|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Glimmora|7/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779560731
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|-status|p2a: Dragapult|psn
+|turn|11
+|
+|t:|1779560740
+|move|p2a: Dragapult|U-turn|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: calondro|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|t:|1779560747
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100|[from] U-turn
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|-status|p2a: Grimmsnarl|tox
+|
+|-heal|p2a: Grimmsnarl|94/100 tox|[from] Grassy Terrain
+|-damage|p2a: Grimmsnarl|88/100 tox|[from] psn
+|upkeep
+|
+|t:|1779560759
+|switch|p1a: Ambipom|Ambipom, M|100/100
+|turn|12
+|
+|t:|1779560762
+|move|p1a: Ambipom|Fake Out|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|53/100 tox
+|cant|p2a: Grimmsnarl|flinch
+|
+|-heal|p2a: Grimmsnarl|59/100 tox|[from] Grassy Terrain
+|-damage|p2a: Grimmsnarl|47/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1779560772
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: calondro|Reflect
+|move|p1a: Ambipom|Double Hit|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|32/100 tox
+|-damage|p2a: Grimmsnarl|18/100 tox
+|-hitcount|p2a: Grimmsnarl|2
+|
+|-heal|p2a: Grimmsnarl|24/100 tox|[from] Grassy Terrain
+|-damage|p2a: Grimmsnarl|6/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1779560782
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Ambipom
+|-unboost|p1a: Ambipom|atk|1
+|-unboost|p1a: Ambipom|spa|1
+|
+|t:|1779560789
+|switch|p2a: Dragapult|Dragapult, F|88/100 psn|[from] Parting Shot
+|-damage|p2a: Dragapult|76/100 psn|[from] Stealth Rock
+|move|p1a: Ambipom|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|71/100 psn
+|
+|t:|1779560799
+|switch|p1a: Clefable|Clefable, F|100/100|[from] U-turn
+|
+|-heal|p2a: Dragapult|77/100 psn|[from] Grassy Terrain
+|-damage|p2a: Dragapult|65/100 psn|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1779560807
+|move|p2a: Dragapult|Flamethrower|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|35/100
+|move|p1a: Clefable|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1779560816
+|switch|p2a: Kingambit|Kingambit, F|94/100
+|-damage|p2a: Kingambit|88/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|16
+|
+|t:|1779560823
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Clefable|Thunder Wave|p2a: Kingambit
+|-status|p2a: Kingambit|par
+|
+|upkeep
+|turn|17
+|
+|t:|1779560831
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|85/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|63/100
+|
+|upkeep
+|turn|18
+|
+|t:|1779560839
+|move|p1a: Clefable|Moonblast|p2a: Kingambit
+|-damage|p2a: Kingambit|54/100 par
+|move|p2a: Kingambit|Low Kick|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|52/100
+|
+|upkeep
+|turn|19
+|
+|t:|1779560846
+|move|p1a: Clefable|Moonblast|p2a: Kingambit
+|-damage|p2a: Kingambit|19/100 par
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|29/100
+|
+|upkeep
+|turn|20
+|
+|t:|1779560853
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|79/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Clefable
+|-resisted|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|47/100
+|
+|-sideend|p2: calondro|Reflect
+|upkeep
+|turn|21
+|
+|t:|1779560861
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|97/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|75/100
+|
+|upkeep
+|turn|22
+|-message|calondro forfeited.
+|
+|win|Spikenard
+|raw|Spikenard's rating: 1308 &rarr; <strong>1328</strong><br />(+20 for winning)
+|raw|calondro's rating: 1304 &rarr; <strong>1284</strong><br />(-20 for losing)
+|l|☆calondro
+|player|p2|
+|l|☆Spikenard
+|player|p1|

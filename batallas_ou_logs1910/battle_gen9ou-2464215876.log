@@ -1,0 +1,271 @@
+|j|☆Thenix12
+|j|☆salent
+|t:|1760815287
+|gametype|singles
+|player|p1|Thenix12|nurse|1079
+|player|p2|salent|roughneck-gen4|1126
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Emboar, M|
+|poke|p1|Morpeko, F|
+|poke|p1|Spidops, M|
+|poke|p1|Basculin, M|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Gloom, F|
+|poke|p2|Jolteon, M|
+|poke|p2|Golem-Alola, F|
+|poke|p2|Dedenne, F|
+|poke|p2|Vileplume, M|
+|poke|p2|Ninetales, M|
+|poke|p2|Dugtrio-Alola, F|
+|teampreview
+|j| usmoose
+|
+|t:|1760815314
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Emboar|Emboar, M|100/100
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|turn|1
+|
+|t:|1760815325
+|switch|p2a: Dugtrio|Dugtrio-Alola, F|100/100
+|move|p1a: Emboar|Nasty Plot|p1a: Emboar
+|-boost|p1a: Emboar|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1760815336
+|move|p2a: Dugtrio|Earthquake|p1a: Emboar
+|-enditem|p1a: Emboar|Focus Sash
+|-damage|p1a: Emboar|1/100
+|replace|p1a: Zoroark|Zoroark-Hisui, M
+|-end|p1a: Zoroark|Illusion
+|-damage|p2a: Dugtrio|91/100|[from] item: Life Orb
+|move|p1a: Zoroark|Focus Blast|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|t:|1760815350
+|switch|p2a: Dedenne|Dedenne, F|100/100
+|turn|3
+|
+|t:|1760815364
+|move|p1a: Zoroark|Shadow Ball|p2a: Dedenne
+|-damage|p2a: Dedenne|0 fnt
+|faint|p2a: Dedenne
+|
+|upkeep
+|
+|t:|1760815371
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|turn|4
+|
+|t:|1760815378
+|-terastallize|p2a: Vileplume|Water
+|move|p1a: Zoroark|Shadow Ball|p2a: Vileplume
+|-damage|p2a: Vileplume|16/100
+|-unboost|p2a: Vileplume|spd|1
+|move|p2a: Vileplume|Giga Drain|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|-heal|p2a: Vileplume|17/100|[from] drain|[of] p1a: Zoroark
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|t:|1760815421
+|switch|p1a: Morpeko|Morpeko, F|100/100
+|turn|5
+|
+|t:|1760815431
+|move|p1a: Morpeko|Aura Wheel|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|-boost|p1a: Morpeko|spe|1
+|faint|p2a: Vileplume
+|
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|
+|t:|1760815448
+|switch|p2a: Golem|Golem-Alola, F|100/100
+|turn|6
+|
+|t:|1760815456
+|move|p1a: Morpeko|Protect|p1a: Morpeko
+|-singleturn|p1a: Morpeko|Protect
+|move|p2a: Golem|Earthquake|p1a: Morpeko
+|-activate|p1a: Morpeko|move: Protect
+|
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|7
+|
+|t:|1760815465
+|switch|p1a: Spidops|Spidops, M|100/100
+|move|p2a: Golem|Earthquake|p1a: Spidops
+|-resisted|p1a: Spidops
+|-damage|p1a: Spidops|78/100
+|
+|upkeep
+|turn|8
+|
+|t:|1760815475
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Spidops|Sticky Web|p2a: Ninetales
+|-sidestart|p2: salent|move: Sticky Web
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1760815483
+|move|p1a: Spidops|Silk Trap|p1a: Spidops
+|-singleturn|p1a: Spidops|Protect
+|move|p2a: Ninetales|Weather Ball|p1a: Spidops
+|-activate|p1a: Spidops|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760815501
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Spidops
+|-status|p1a: Spidops|brn
+|move|p1a: Spidops|Toxic Spikes|p2a: Ninetales
+|-sidestart|p2: salent|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Spidops|72/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1760815510
+|move|p2a: Ninetales|Weather Ball|p1a: Spidops
+|-supereffective|p1a: Spidops
+|-damage|p1a: Spidops|0 fnt
+|faint|p1a: Spidops
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760815514
+|switch|p1a: Morpeko|Morpeko, F|100/100
+|turn|12
+|
+|t:|1760815521
+|move|p1a: Morpeko|Fake Out|p2a: Ninetales
+|-damage|p2a: Ninetales|87/100
+|cant|p2a: Ninetales|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|13
+|
+|t:|1760815530
+|move|p2a: Ninetales|Weather Ball|p1a: Morpeko
+|-damage|p1a: Morpeko|11/100
+|move|p1a: Morpeko|Aura Wheel|p2a: Ninetales
+|-damage|p2a: Ninetales|34/100
+|-boost|p1a: Morpeko|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|14
+|
+|t:|1760815541
+|move|p1a: Morpeko|Aura Wheel|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-boost|p1a: Morpeko|spe|1
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|
+|t:|1760815550
+|switch|p2a: Golem|Golem-Alola, F|100/100
+|-activate|p2a: Golem|move: Sticky Web
+|-unboost|p2a: Golem|spe|1
+|-status|p2a: Golem|psn
+|turn|15
+|
+|t:|1760815569
+|move|p1a: Morpeko|Aura Wheel|p2a: Golem
+|-damage|p2a: Golem|62/100 psn
+|-boost|p1a: Morpeko|spe|1
+|move|p2a: Golem|Earthquake|p1a: Morpeko
+|-supereffective|p1a: Morpeko
+|-damage|p1a: Morpeko|0 fnt
+|faint|p1a: Morpeko
+|
+|-weather|none
+|-damage|p2a: Golem|49/100 psn|[from] psn
+|upkeep
+|
+|t:|1760815575
+|switch|p1a: Emboar|Emboar, M|100/100
+|turn|16
+|
+|t:|1760815583
+|move|p1a: Emboar|Close Combat|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|-unboost|p1a: Emboar|def|1
+|-unboost|p1a: Emboar|spd|1
+|faint|p2a: Golem
+|
+|upkeep
+|
+|t:|1760815591
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|turn|17
+|
+|t:|1760815597
+|switch|p1a: Basculin|Basculin, M|100/100
+|move|p2a: Jolteon|Thunderbolt|p1a: Basculin
+|-supereffective|p1a: Basculin
+|-damage|p1a: Basculin|0 fnt
+|faint|p1a: Basculin
+|
+|upkeep
+|
+|t:|1760815601
+|switch|p1a: Emboar|Emboar, M|100/100
+|turn|18
+|
+|t:|1760815607
+|move|p2a: Jolteon|Thunderbolt|p1a: Emboar
+|-damage|p1a: Emboar|43/100
+|move|p1a: Emboar|Flare Blitz|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|-damage|p1a: Emboar|20/100|[from] Recoil
+|
+|win|Thenix12
+|raw|Thenix12's rating: 1079 &rarr; <strong>1111</strong><br />(+32 for winning)
+|raw|salent's rating: 1126 &rarr; <strong>1098</strong><br />(-28 for losing)
+|c|☆Thenix12|gg
+|l|☆Thenix12
+|player|p1|
+|l|☆salent
+|player|p2|
+|l| usmoose

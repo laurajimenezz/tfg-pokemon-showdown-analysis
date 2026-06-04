@@ -1,0 +1,181 @@
+|j|☆ToLLi
+|j|☆GummyDeino
+|t:|1758995417
+|gametype|singles
+|player|p1|ToLLi|170|1629
+|player|p2|GummyDeino|2|1633
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Moltres-Galar|
+|poke|p1|Kingambit, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Iron Hands|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Mimikyu, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GummyDeino)
+|
+|t:|1758995439
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Catch These Hands|Iron Hands, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Catch These Hands|atk|1
+|-enditem|p2a: Catch These Hands|Booster Energy
+|-activate|p2a: Catch These Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Catch These Hands|quarkdriveatk
+|turn|1
+|
+|t:|1758995449
+|move|p1a: Landorus|Earthquake|p2a: Catch These Hands
+|-supereffective|p2a: Catch These Hands
+|-damage|p2a: Catch These Hands|15/100
+|move|p2a: Catch These Hands|Ice Punch|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1758995460
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|2
+|
+|t:|1758995465
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Catch These Hands|[anim] Ivy Cudgel Water
+|-damage|p2a: Catch These Hands|0 fnt
+|faint|p2a: Catch These Hands
+|-end|p2a: Catch These Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758995470
+|switch|p2a: Ayo Doc Heal Me|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Ayo Doc Heal Me
+|turn|3
+|
+|t:|1758995485
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|move|p2a: Ayo Doc Heal Me|Trick Room|p2a: Ayo Doc Heal Me
+|-fieldstart|move: Trick Room|[of] p2a: Ayo Doc Heal Me
+|
+|upkeep
+|turn|4
+|
+|t:|1758995492
+|switch|p2a: 5 Nights In TR|Ursaluna, F, shiny|100/100
+|move|p1a: Moltres|Fiery Wrath|p2a: 5 Nights In TR
+|-damage|p2a: 5 Nights In TR|65/100
+|
+|-status|p2a: 5 Nights In TR|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1758995513
+|-terastallize|p1a: Moltres|Ghost
+|move|p2a: 5 Nights In TR|Supercell Slam|p1a: Moltres
+|-damage|p1a: Moltres|32/100
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|-enditem|p1a: Moltres|Sitrus Berry|[eat]
+|-heal|p1a: Moltres|57/100|[from] item: Sitrus Berry
+|move|p1a: Moltres|Hurricane|p2a: 5 Nights In TR
+|-damage|p2a: 5 Nights In TR|0 fnt
+|faint|p2a: 5 Nights In TR
+|
+|upkeep
+|
+|t:|1758995526
+|switch|p2a: Sukuna|Hoopa-Unbound|100/100
+|-enditem|p2a: Sukuna|Psychic Seed
+|-boost|p2a: Sukuna|spd|1|[from] item: Psychic Seed
+|turn|6
+|inactive|ToLLi has 120 seconds left.
+|
+|t:|1758995559
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|move|p2a: Sukuna|Focus Blast|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-item|p2a: Sukuna|Lum Berry|[from] ability: Magician|[of] p1: Kingambit
+|
+|upkeep
+|inactive|ToLLi has 90 seconds left.
+|
+|t:|1758995593
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|7
+|
+|t:|1758995600
+|move|p2a: Sukuna|Expanding Force|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758995605
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|8
+|
+|t:|1758995612
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Sukuna|Trick Room|p2a: Sukuna
+|-fieldstart|move: Trick Room|[of] p2a: Sukuna
+|
+|upkeep
+|turn|9
+|
+|t:|1758995620
+|-terastallize|p2a: Sukuna|Psychic
+|move|p2a: Sukuna|Expanding Force|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|19/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Sukuna
+|-damage|p2a: Sukuna|45/100
+|
+|upkeep
+|turn|10
+|
+|t:|1758995628
+|move|p1a: Raging Bolt|Thunderclap|p2a: Sukuna
+|-activate|p2a: Sukuna|move: Psychic Terrain
+|move|p2a: Sukuna|Expanding Force|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|-message|ToLLi forfeited.
+|
+|win|GummyDeino
+|raw|ToLLi's rating: 1629 &rarr; <strong>1609</strong><br />(-20 for losing)
+|raw|GummyDeino's rating: 1633 &rarr; <strong>1653</strong><br />(+20 for winning)
+|l|☆ToLLi
+|player|p1|
+|l|☆GummyDeino
+|player|p2|

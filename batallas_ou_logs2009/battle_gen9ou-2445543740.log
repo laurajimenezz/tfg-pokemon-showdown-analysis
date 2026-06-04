@@ -1,0 +1,312 @@
+|j|☆Dans un trou
+|j|☆IASFAATG
+|t:|1758366483
+|gametype|singles
+|player|p1|Dans un trou|lucas|1150
+|player|p2|IASFAATG|scientist-gen4dp|1200
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Deoxys-Speed|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Treads|
+|poke|p1|Dragonite, F|
+|poke|p1|Iron Moth|
+|poke|p1|Samurott-Hisui, F|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Gallade, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Alomomola, M|
+|poke|p2|Great Tusk|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|t:|1758366491
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1758366509
+|switch|p2a: Alomomola|Alomomola, M, shiny|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: IASFAATG|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1758366528
+|move|p1a: Iron Treads|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|87/100
+|-enditem|p2a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Iron Treads
+|move|p2a: Alomomola|Flip Turn|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|77/100
+|
+|t:|1758366552
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Flip Turn
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Treads|atk|1
+|
+|upkeep
+|turn|3
+|
+|t:|1758366559
+|move|p1a: Iron Treads|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|76/100
+|-damage|p1a: Iron Treads|60/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-enditem|p2a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p1a: Iron Treads
+|move|p2a: Landorus|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758366567
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|4
+|
+|t:|1758366571
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Landorus|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|95/100
+|
+|t:|1758366579
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|upkeep
+|turn|5
+|
+|t:|1758366594
+|move|p1a: Dragonite|Ice Spinner|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|39/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Dragonite
+|-damage|p1a: Dragonite|75/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: IASFAATG|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|6
+|
+|t:|1758366602
+|move|p2a: Great Tusk|Ice Spinner|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1758366607
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dans un trou)
+|
+|t:|1758366632
+|move|p1a: Deoxys|Ice Beam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Deoxys|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758366650
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|8
+|
+|t:|1758366657
+|move|p1a: Deoxys|Psycho Boost|p2a: Slowking|[miss]
+|-miss|p1a: Deoxys|p2a: Slowking
+|move|p2a: Slowking|Sludge Bomb|p1a: Deoxys
+|-damage|p1a: Deoxys|34/100
+|
+|upkeep
+|turn|9
+|
+|t:|1758366664
+|move|p1a: Deoxys|Psycho Boost|p2a: Slowking
+|-damage|p2a: Slowking|55/100
+|-unboost|p1a: Deoxys|spa|2
+|-damage|p1a: Deoxys|24/100|[from] item: Life Orb
+|move|p2a: Slowking|Sludge Bomb|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|
+|t:|1758366678
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|10
+|
+|t:|1758366693
+|switch|p2a: Landorus|Landorus-Therian, M|76/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Samurott|atk|1
+|move|p1a: Samurott|Ceaseless Edge|p2a: Landorus
+|-damage|p2a: Landorus|55/100
+|-sidestart|p2: IASFAATG|Spikes
+|
+|upkeep
+|turn|11
+|
+|t:|1758366713
+|move|p1a: Samurott|Ceaseless Edge|p2a: Landorus
+|-damage|p2a: Landorus|35/100
+|-sidestart|p2: IASFAATG|Spikes
+|move|p2a: Landorus|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|48/100
+|
+|t:|1758366720
+|switch|p2a: Alomomola|Alomomola, M, shiny|100/100|[from] U-turn
+|-damage|p2a: Alomomola|84/100|[from] Spikes
+|
+|upkeep
+|turn|12
+|
+|t:|1758366726
+|move|p1a: Samurott|Ceaseless Edge|p2a: Alomomola
+|-damage|p2a: Alomomola|69/100
+|-sidestart|p2: IASFAATG|Spikes
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|13
+|
+|t:|1758366734
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Alomomola|Flip Turn|p1a: Gholdengo
+|-damage|p1a: Gholdengo|89/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|t:|1758366742
+|switch|p2a: Landorus|Landorus-Therian, M|35/100|[from] Flip Turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|
+|-heal|p2a: Landorus|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|14
+|
+|t:|1758366752
+|switch|p1a: Samurott|Samurott-Hisui, F|48/100
+|move|p2a: Landorus|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1758366758
+|switch|p1a: Gholdengo|Gholdengo|89/100
+|turn|15
+|
+|t:|1758366776
+|-terastallize|p1a: Gholdengo|Flying
+|move|p2a: Landorus|Earthquake|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|16
+|
+|t:|1758366799
+|switch|p2a: Alomomola|Alomomola, M, shiny|100/100
+|-damage|p2a: Alomomola|76/100|[from] Spikes
+|move|p1a: Gholdengo|Shadow Ball|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|inactive|IASFAATG has 120 seconds left.
+|
+|t:|1758366813
+|switch|p2a: Electrode|Electrode-Hisui, shiny|100/100
+|-damage|p2a: Electrode|76/100|[from] Spikes
+|turn|17
+|inactive|IASFAATG has 120 seconds left.
+|
+|t:|1758366829
+|move|p2a: Electrode|Volt Switch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|7/100
+|
+|t:|1758366835
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|move|p1a: Gholdengo|Shadow Ball|p2a: Landorus
+|-damage|p2a: Landorus|18/100
+|
+|upkeep
+|turn|18
+|inactive|IASFAATG has 120 seconds left.
+|
+|t:|1758366845
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|move|p2a: Landorus|U-turn|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|93/100
+|inactive|IASFAATG has 120 seconds left.
+|
+|t:|1758366852
+|switch|p2a: Gallade|Gallade, M, shiny|100/100|[from] U-turn
+|-damage|p2a: Gallade|76/100|[from] Spikes
+|
+|upkeep
+|turn|19
+|
+|t:|1758366865
+|-terastallize|p2a: Gallade|Fairy
+|move|p1a: Iron Moth|Fiery Dance|p2a: Gallade
+|-damage|p2a: Gallade|32/100
+|move|p2a: Gallade|Psycho Cut|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758366873
+|switch|p1a: Gholdengo|Gholdengo, tera:Flying|7/100
+|turn|20
+|
+|t:|1758366880
+|move|p2a: Gallade|Psycho Cut|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|win|IASFAATG
+|raw|Dans un trou's rating: 1150 &rarr; <strong>1129</strong><br />(-21 for losing)
+|raw|IASFAATG's rating: 1200 &rarr; <strong>1221</strong><br />(+21 for winning)
+|l|☆Dans un trou
+|player|p1|

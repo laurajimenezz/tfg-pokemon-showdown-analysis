@@ -1,0 +1,260 @@
+|j|☆vallic
+|j|☆SpinAga1n
+|t:|1760452324
+|gametype|singles
+|player|p1|vallic|102|1261
+|player|p2|SpinAga1n|unknownf|1305
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Carbink, L1|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Ursaluna, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Hands|
+|poke|p1|Hatterene, F|
+|poke|p2|Raikou|
+|poke|p2|Scizor, F|
+|poke|p2|Quaquaval, F|
+|poke|p2|Iron Jugulis|
+|poke|p2|Dragonite, F|
+|poke|p2|Zoroark-Hisui, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SpinAga1n)
+|
+|t:|1760452346
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Carbink|Carbink, L1, shiny|100/100
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|1
+|
+|t:|1760452351
+|move|p2a: Scizor|Dual Wingbeat|p1a: Carbink
+|-resisted|p1a: Carbink
+|-ability|p1a: Carbink|Sturdy
+|-damage|p1a: Carbink|9/100
+|-resisted|p1a: Carbink
+|-damage|p1a: Carbink|0 fnt
+|faint|p1a: Carbink
+|-hitcount|p1: Carbink|2
+|
+|upkeep
+|
+|t:|1760452360
+|switch|p1a: Braviary|Braviary-Hisui, M, shiny|100/100
+|turn|2
+|
+|t:|1760452368
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Braviary|Heat Wave|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1760452377
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100
+|-enditem|p2a: Iron Jugulis|Booster Energy
+|-activate|p2a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|turn|3
+|
+|t:|1760452383
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2a: Iron Jugulis|Crunch|p1a: Iron Hands
+|-resisted|p1a: Iron Hands
+|-damage|p1a: Iron Hands|90/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760452393
+|move|p2a: Iron Jugulis|Earth Power|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|55/100
+|move|p1a: Iron Hands|Ice Punch|p2a: Iron Jugulis
+|-supereffective|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|9/100
+|
+|upkeep
+|turn|5
+|
+|t:|1760452418
+|move|p2a: Iron Jugulis|Earth Power|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|16/100
+|move|p1a: Iron Hands|Drain Punch|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|0 fnt
+|-heal|p1a: Iron Hands|19/100|[from] drain|[of] p2a: Iron Jugulis
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760452424
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|turn|6
+|
+|t:|1760452432
+|move|p2a: Quaquaval|Hyper Voice|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760452437
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|7
+|
+|t:|1760452441
+|move|p2a: Quaquaval|Focus Blast|p1a: Ursaluna|[miss]
+|-miss|p2a: Quaquaval|p1a: Ursaluna
+|move|p1a: Ursaluna|Crunch|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-enditem|p2a: Quaquaval|Focus Sash
+|-damage|p2a: Quaquaval|1/100
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1760452453
+|move|p2a: Zoroark|Focus Blast|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|28/100 brn
+|-unboost|p1a: Ursaluna|spd|1
+|move|p1a: Ursaluna|Crunch|p2a: Zoroark
+|-supereffective|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|-damage|p1a: Ursaluna|22/100 brn|[from] brn
+|upkeep
+|
+|t:|1760452461
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|turn|9
+|
+|t:|1760452464
+|move|p2a: Quaquaval|Aqua Step|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-boost|p2a: Quaquaval|spe|1
+|faint|p1a: Ursaluna
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1760452468
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|10
+|
+|t:|1760452476
+|move|p2a: Quaquaval|Aqua Step|p1a: Hatterene
+|-damage|p1a: Hatterene|25/100
+|-boost|p2a: Quaquaval|spe|1
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|11
+|
+|t:|1760452484
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|upkeep
+|
+|t:|1760452487
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|12
+|
+|t:|1760452491
+|move|p2a: Dragonite|Extreme Speed|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1760452497
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|13
+|
+|t:|1760452499
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Dragonite
+|-damage|p2a: Dragonite|55/100
+|move|p2a: Dragonite|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|48/100
+|
+|-heal|p2a: Dragonite|61/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1760452509
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760452511
+|switch|p2a: Raikou|Raikou|100/100
+|-ability|p2a: Raikou|Pressure
+|turn|15
+|
+|t:|1760452516
+|move|p1a: Kingambit|Sucker Punch|p2a: Raikou
+|-damage|p2a: Raikou|9/100
+|move|p2a: Raikou|Aura Sphere|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|-heal|p2a: Raikou|15/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760452521
+|switch|p1a: Braviary|Braviary-Hisui, M, shiny|100/100
+|turn|16
+|
+|t:|1760452528
+|-terastallize|p1a: Braviary|Fighting
+|move|p1a: Braviary|Vacuum Wave|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|-damage|p1a: Braviary|91/100|[from] item: Life Orb
+|
+|win|vallic
+|raw|vallic's rating: 1261 &rarr; <strong>1289</strong><br />(+28 for winning)
+|raw|SpinAga1n's rating: 1305 &rarr; <strong>1282</strong><br />(-23 for losing)
+|l|☆SpinAga1n
+|player|p2|
+|l|☆vallic
+|player|p1|

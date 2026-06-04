@@ -1,0 +1,273 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1779647887
+|gametype|singles
+|player|p1|Celeste|#celeste|
+|player|p2|Moon of Seoul|blue-gen1|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Dondozo, F|
+|poke|p1|Great Tusk|
+|poke|p1|Hydrapple, M|
+|poke|p1|Weavile, M|
+|poke|p2|Ninetales, F|
+|poke|p2|Leavanny, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Great Tusk|
+|poke|p2|Walking Wake|
+|poke|p2|Raging Bolt|
+|teampreview
+|c|☆Celeste|glhf
+|c|☆Moon of Seoul|GLHF
+|
+|t:|1779647910
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1779647923
+|move|p2a: Ninetales|Weather Ball|p1a: Hatterene
+|-damage|p1a: Hatterene|73/100
+|move|p1a: Hatterene|Future Sight|p2a: Ninetales
+|-start|p1a: Hatterene|move: Future Sight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1779647931
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|75/100
+|-heal|p1a: Hatterene|92/100|[from] drain|[of] p2a: Hatterene
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1779647945
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779647955
+|move|p2a: Great Tusk|Headlong Rush|p1a: Hatterene
+|-damage|p1a: Hatterene|5/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-enditem|p2a: Great Tusk|Eject Pack
+|
+|t:|1779647958
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|75/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|47/100
+|-heal|p1a: Hatterene|26/100|[from] drain|[of] p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Hatterene|move: Future Sight
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|17/100
+|upkeep
+|turn|4
+|
+|t:|1779647969
+|move|p1a: Hatterene|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-heal|p1a: Hatterene|38/100|[from] drain|[of] p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779647979
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|5
+|
+|t:|1779647983
+|move|p2a: Walking Wake|Hydro Steam|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779648007
+|switch|p1a: Hydrapple|Hydrapple, M|100/100
+|turn|6
+|
+|t:|1779648014
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779648017
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|7
+|
+|t:|1779648023
+|-terastallize|p1a: Weavile|Ice
+|move|p1a: Weavile|Triple Axel|p2a: Walking Wake
+|-damage|p2a: Walking Wake|79/100
+|-damage|p2a: Walking Wake|33/100
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|-hitcount|p2: Walking Wake|3
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779648029
+|switch|p2a: Leavanny|Leavanny, F|100/100
+|turn|8
+|
+|t:|1779648048
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Leavanny|Sticky Web|p1a: Great Tusk
+|-sidestart|p1: Celeste|move: Sticky Web
+|
+|-weather|none
+|-end|p1a: Great Tusk|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1779648055
+|-terastallize|p2a: Leavanny|Ghost
+|move|p1a: Great Tusk|Rapid Spin|p2a: Leavanny
+|-immune|p2a: Leavanny
+|move|p2a: Leavanny|Leaf Storm|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Leavanny|spa|2
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-enditem|p2a: Leavanny|Eject Pack
+|
+|t:|1779648061
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779648066
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|turn|10
+|
+|t:|1779648070
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|76/100
+|-unboost|p2a: Raging Bolt|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779648074
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|-activate|p1a: Dondozo|move: Sticky Web
+|-unboost|p1a: Dondozo|spe|1
+|move|p2a: Raging Bolt|Volt Switch|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|27/100
+|
+|t:|1779648082
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dondozo|34/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779648086
+|move|p2a: Great Tusk|Close Combat|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Dondozo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779648088
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|turn|13
+|
+|t:|1779648108
+|move|p1a: Tornadus|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|93/100
+|
+|t:|1779648110
+|switch|p1a: Weavile|Weavile, M, tera:Ice|100/100|[from] U-turn
+|-activate|p1a: Weavile|move: Sticky Web
+|-unboost|p1a: Weavile|spe|1
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Great Tusk|Rapid Spin|p1a: Weavile
+|-crit|p1a: Weavile
+|-damage|p1a: Weavile|44/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1779648118
+|move|p1a: Weavile|Ice Shard|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|10/100
+|move|p2a: Great Tusk|Close Combat|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Weavile
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779648121
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|turn|15
+|
+|t:|1779648123
+|move|p2a: Great Tusk|Ice Spinner|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|win|Moon of Seoul
+|player|p1|
+|c|☆Moon of Seoul|GG

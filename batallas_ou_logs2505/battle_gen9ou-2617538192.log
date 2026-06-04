@@ -1,0 +1,591 @@
+|j|☆qiojio
+|j|☆Ragged_Rag_King
+|t:|1779705142
+|gametype|singles
+|player|p1|qiojio|hilbert|1136
+|player|p2|Ragged_Rag_King|fisherman-gen4|1136
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meowscarada, F|
+|poke|p1|Skarmory, M|
+|poke|p1|Gardevoir, F|
+|poke|p1|Altaria, F|
+|poke|p1|Sableye, M|
+|poke|p1|Snorlax, F|
+|poke|p2|Orthworm, M|
+|poke|p2|Chandelure, M|
+|poke|p2|Zebstrika, M|
+|poke|p2|Gastrodon-East, M|
+|poke|p2|Pawmot, M|
+|poke|p2|Clodsire, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by qiojio)
+|
+|t:|1779705159
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|switch|p2a: Gastrodon|Gastrodon-East, M|100/100
+|turn|1
+|
+|t:|1779705171
+|switch|p2a: Zebstrika|Zebstrika, M|100/100
+|move|p1a: Meowscarada|Flower Trick|p2a: Zebstrika
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-ability|p2a: Zebstrika|Sap Sipper|boost
+|-boost|p2a: Zebstrika|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1779705186
+|switch|p1a: Sableye|Sableye, M|100/100
+|move|p2a: Zebstrika|Flame Charge|p1a: Sableye
+|-damage|p1a: Sableye|79/100
+|-boost|p2a: Zebstrika|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1779705205
+|move|p1a: Sableye|Encore|p2a: Zebstrika
+|-start|p2a: Zebstrika|Encore
+|move|p2a: Zebstrika|Flame Charge|p1a: Sableye
+|-damage|p1a: Sableye|57/100
+|-boost|p2a: Zebstrika|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1779705214
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100
+|move|p2a: Zebstrika|Flame Charge|p1a: Sableye
+|-damage|p1a: Sableye|81/100
+|-boost|p2a: Zebstrika|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1779705222
+|move|p1a: Sableye|Will-O-Wisp|p2a: Zebstrika
+|-status|p2a: Zebstrika|brn
+|move|p2a: Zebstrika|Flame Charge|p1a: Sableye
+|-damage|p1a: Sableye|71/100
+|-boost|p2a: Zebstrika|spe|1
+|
+|-damage|p2a: Zebstrika|94/100 brn|[from] brn
+|-end|p2a: Zebstrika|Encore
+|upkeep
+|turn|6
+|
+|t:|1779705242
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Sableye|Encore||[still]
+|-fail|p1a: Sableye
+|
+|upkeep
+|turn|7
+|
+|t:|1779705264
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100
+|move|p2a: Clodsire|Toxic Spikes|p1a: Sableye
+|-sidestart|p1: qiojio|move: Toxic Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1779705268
+|move|p1a: Sableye|Will-O-Wisp|p2a: Clodsire
+|-status|p2a: Clodsire|brn
+|move|p2a: Clodsire|Toxic Spikes|p1a: Sableye
+|-sidestart|p1: qiojio|move: Toxic Spikes
+|
+|-damage|p2a: Clodsire|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1779705275
+|switch|p1a: Altaria|Altaria, F, shiny|100/100
+|move|p2a: Clodsire|Earthquake|p1a: Altaria
+|-immune|p1a: Altaria
+|
+|-heal|p2a: Clodsire|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Clodsire|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1779705295
+|switch|p2a: Gastrodon|Gastrodon-East, M|100/100
+|move|p1a: Altaria|Defog|p2a: Gastrodon
+|-unboost|p2a: Gastrodon|evasion|1
+|-sideend|p1: qiojio|Toxic Spikes|[from] move: Defog|[of] p1a: Altaria
+|
+|upkeep
+|turn|11
+|
+|t:|1779705317
+|switch|p1a: Snorlax|Snorlax, F, shiny|100/100
+|move|p2a: Gastrodon|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|96/100
+|
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779705330
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|13
+|
+|t:|1779705338
+|move|p2a: Chandelure|Flamethrower|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|83/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p1a: Snorlax|89/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1779705346
+|move|p2a: Chandelure|Flamethrower|p1a: Snorlax
+|-damage|p1a: Snorlax|78/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p1a: Snorlax|84/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1779705355
+|move|p2a: Chandelure|Flamethrower|p1a: Snorlax
+|-damage|p1a: Snorlax|73/100
+|move|p1a: Snorlax|Earthquake|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|-heal|p1a: Snorlax|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779705367
+|switch|p2a: Pawmot|Pawmot, M|100/100
+|turn|16
+|
+|t:|1779705373
+|move|p2a: Pawmot|Knock Off|p1a: Snorlax
+|-damage|p1a: Snorlax|64/100
+|-enditem|p1a: Snorlax|Leftovers|[from] move: Knock Off|[of] p2a: Pawmot
+|-damage|p2a: Pawmot|91/100|[from] item: Life Orb
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|17
+|
+|t:|1779705383
+|move|p2a: Pawmot|Close Combat|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|20/100
+|-unboost|p2a: Pawmot|def|1
+|-unboost|p2a: Pawmot|spd|1
+|-damage|p2a: Pawmot|81/100|[from] item: Life Orb
+|move|p1a: Snorlax|Ice Punch|p2a: Pawmot
+|-damage|p2a: Pawmot|0 fnt
+|faint|p2a: Pawmot
+|
+|upkeep
+|
+|t:|1779705397
+|switch|p2a: Gastrodon|Gastrodon-East, M|100/100
+|turn|18
+|
+|t:|1779705405
+|move|p2a: Gastrodon|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|16/100
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|19
+|
+|t:|1779705417
+|switch|p2a: Orthworm|Orthworm, M|100/100
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|20
+|
+|t:|1779705422
+|move|p2a: Orthworm|Curse|p2a: Orthworm
+|-unboost|p2a: Orthworm|spe|1
+|-boost|p2a: Orthworm|atk|1
+|-boost|p2a: Orthworm|def|1
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|21
+|
+|t:|1779705427
+|move|p2a: Orthworm|Curse|p2a: Orthworm
+|-unboost|p2a: Orthworm|spe|1
+|-boost|p2a: Orthworm|atk|1
+|-boost|p2a: Orthworm|def|1
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Ice Punch|p2a: Orthworm
+|-resisted|p2a: Orthworm
+|-damage|p2a: Orthworm|92/100
+|
+|-heal|p2a: Orthworm|98/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1779705441
+|move|p2a: Orthworm|Curse|p2a: Orthworm
+|-unboost|p2a: Orthworm|spe|1
+|-boost|p2a: Orthworm|atk|1
+|-boost|p2a: Orthworm|def|1
+|move|p1a: Snorlax|Ice Punch|p2a: Orthworm
+|-resisted|p2a: Orthworm
+|-damage|p2a: Orthworm|93/100
+|
+|-heal|p2a: Orthworm|99/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1779705449
+|switch|p1a: Sableye|Sableye, M|100/100
+|move|p2a: Orthworm|Body Press|p1a: Sableye
+|-immune|p1a: Sableye
+|
+|-heal|p2a: Orthworm|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1779705465
+|switch|p2a: Clodsire|Clodsire, F|94/100 brn
+|move|p1a: Sableye|Will-O-Wisp|p2a: Clodsire|[miss]
+|-miss|p1a: Sableye|p2a: Clodsire
+|
+|-heal|p2a: Clodsire|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Clodsire|94/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1779705478
+|switch|p1a: Altaria|Altaria, F, shiny|100/100
+|move|p2a: Clodsire|Earthquake|p1a: Altaria
+|-immune|p1a: Altaria
+|
+|-heal|p2a: Clodsire|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Clodsire|94/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1779705487
+|move|p1a: Altaria|Dragon Dance|p1a: Altaria
+|-boost|p1a: Altaria|atk|1
+|-boost|p1a: Altaria|spe|1
+|move|p2a: Clodsire|Poison Jab|p1a: Altaria
+|-damage|p1a: Altaria|91/100
+|-status|p1a: Altaria|psn
+|
+|-heal|p2a: Clodsire|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Altaria|78/100 psn|[from] psn
+|-damage|p2a: Clodsire|94/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1779705500
+|switch|p2a: Zebstrika|Zebstrika, M|94/100 brn
+|move|p1a: Altaria|Dragon Dance|p1a: Altaria
+|-boost|p1a: Altaria|atk|1
+|-boost|p1a: Altaria|spe|1
+|-enditem|p2a: Zebstrika|Mirror Herb
+|-boost|p2a: Zebstrika|atk|1|[from] item: Mirror Herb
+|-boost|p2a: Zebstrika|spe|1|[from] item: Mirror Herb
+|
+|-damage|p1a: Altaria|66/100 psn|[from] psn
+|-damage|p2a: Zebstrika|88/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1779705523
+|-curestatus|p1a: Altaria|psn|[from] ability: Natural Cure|[silent]
+|switch|p1a: Sableye|Sableye, M|100/100
+|move|p2a: Zebstrika|Protect||[still]
+|-fail|p2a: Zebstrika
+|
+|-damage|p2a: Zebstrika|82/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1779705532
+|switch|p2a: Clodsire|Clodsire, F|94/100 brn
+|move|p1a: Sableye|Encore||[still]
+|-fail|p1a: Sableye
+|
+|-heal|p2a: Clodsire|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Clodsire|94/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1779705541
+|switch|p1a: Altaria|Altaria, F, shiny|66/100
+|move|p2a: Clodsire|Poison Jab|p1a: Altaria
+|-damage|p1a: Altaria|58/100
+|
+|-heal|p2a: Clodsire|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Clodsire|94/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1779705554
+|move|p1a: Altaria|Dragon Claw|p2a: Clodsire
+|-damage|p2a: Clodsire|81/100 brn
+|move|p2a: Clodsire|Poison Jab|p1a: Altaria
+|-damage|p1a: Altaria|49/100
+|-status|p1a: Altaria|psn
+|
+|-heal|p2a: Clodsire|87/100 brn|[from] item: Leftovers
+|-damage|p1a: Altaria|37/100 psn|[from] psn
+|-damage|p2a: Clodsire|81/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1779705566
+|switch|p2a: Orthworm|Orthworm, M|100/100
+|move|p1a: Altaria|Rest|p1a: Altaria
+|-status|p1a: Altaria|slp|[from] move: Rest
+|-heal|p1a: Altaria|100/100 slp|[silent]
+|
+|upkeep
+|turn|33
+|
+|t:|1779705573
+|-curestatus|p1a: Altaria|slp|[from] ability: Natural Cure|[silent]
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Orthworm|Curse|p2a: Orthworm
+|-unboost|p2a: Orthworm|spe|1
+|-boost|p2a: Orthworm|atk|1
+|-boost|p2a: Orthworm|def|1
+|
+|upkeep
+|turn|34
+|
+|t:|1779705582
+|move|p1a: Skarmory|Stealth Rock|p2a: Orthworm
+|-sidestart|p2: Ragged_Rag_King|move: Stealth Rock
+|move|p2a: Orthworm|Body Slam|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|93/100
+|-status|p1a: Skarmory|par
+|-damage|p2a: Orthworm|84/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|
+|-heal|p2a: Orthworm|90/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1779705590
+|move|p2a: Orthworm|Curse|p2a: Orthworm
+|-unboost|p2a: Orthworm|spe|1
+|-boost|p2a: Orthworm|atk|1
+|-boost|p2a: Orthworm|def|1
+|move|p1a: Skarmory|Whirlwind|p2a: Orthworm
+|drag|p2a: Clodsire|Clodsire, F|81/100 brn
+|-damage|p2a: Clodsire|75/100 brn|[from] Stealth Rock
+|
+|-heal|p2a: Clodsire|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Clodsire|75/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1779705602
+|move|p1a: Skarmory|Tailwind|p1a: Skarmory
+|-sidestart|p1: qiojio|move: Tailwind
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100 brn
+|
+|-damage|p2a: Clodsire|94/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1779705614
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-ability|p1a: Gardevoir|Water Absorb|Trace|[from] ability: Trace|[of] p2a: Clodsire
+|switch|p2a: Orthworm|Orthworm, M|90/100
+|-damage|p2a: Orthworm|84/100|[from] Stealth Rock
+|
+|-heal|p2a: Orthworm|90/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1779705636
+|move|p1a: Gardevoir|Aura Sphere|p2a: Orthworm
+|-supereffective|p2a: Orthworm
+|-damage|p2a: Orthworm|0 fnt
+|faint|p2a: Orthworm
+|
+|upkeep
+|
+|t:|1779705656
+|switch|p2a: Clodsire|Clodsire, F|94/100 brn
+|-damage|p2a: Clodsire|88/100 brn|[from] Stealth Rock
+|turn|39
+|
+|t:|1779705671
+|switch|p1a: Skarmory|Skarmory, M|93/100 par
+|move|p2a: Clodsire|Poison Jab|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-heal|p2a: Clodsire|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Clodsire|88/100 brn|[from] brn
+|-sideend|p1: qiojio|move: Tailwind
+|upkeep
+|turn|40
+|
+|t:|1779705682
+|switch|p2a: Zebstrika|Zebstrika, M|82/100 brn
+|-damage|p2a: Zebstrika|70/100 brn|[from] Stealth Rock
+|cant|p1a: Skarmory|par
+|
+|-damage|p2a: Zebstrika|63/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|t:|1779705693
+|switch|p1a: Snorlax|Snorlax, F, shiny|100/100
+|move|p2a: Zebstrika|Supercell Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|81/100
+|
+|-damage|p2a: Zebstrika|57/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1779705706
+|switch|p2a: Clodsire|Clodsire, F|88/100 brn
+|-damage|p2a: Clodsire|82/100 brn|[from] Stealth Rock
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: Clodsire|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Clodsire|82/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|t:|1779705718
+|move|p2a: Clodsire|Poison Jab|p1a: Snorlax
+|-damage|p1a: Snorlax|75/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: Clodsire|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Clodsire|82/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1779705726
+|move|p2a: Clodsire|Poison Jab|p1a: Snorlax
+|-damage|p1a: Snorlax|70/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: Clodsire|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Clodsire|82/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1779705735
+|move|p2a: Clodsire|Poison Jab|p1a: Snorlax
+|-damage|p1a: Snorlax|66/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: Clodsire|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Clodsire|82/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|t:|1779705744
+|move|p2a: Clodsire|Poison Jab|p1a: Snorlax
+|-damage|p1a: Snorlax|62/100
+|-status|p1a: Snorlax|psn
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: Clodsire|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|50/100 psn|[from] psn
+|-damage|p2a: Clodsire|82/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|t:|1779705755
+|move|p2a: Clodsire|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|47/100 psn
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: Clodsire|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|34/100 psn|[from] psn
+|-damage|p2a: Clodsire|82/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|t:|1779705766
+|move|p2a: Clodsire|Toxic Spikes|p1a: Snorlax
+|-sidestart|p1: qiojio|move: Toxic Spikes
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|
+|-heal|p2a: Clodsire|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Clodsire|82/100 brn|[from] brn
+|upkeep
+|turn|49
+|-message|Ragged_Rag_King forfeited.
+|
+|win|qiojio
+|raw|qiojio's rating: 1136 &rarr; <strong>1161</strong><br />(+25 for winning)
+|raw|Ragged_Rag_King's rating: 1136 &rarr; <strong>1111</strong><br />(-25 for losing)
+|l|☆Ragged_Rag_King
+|player|p2|
+|l|☆qiojio
+|player|p1|

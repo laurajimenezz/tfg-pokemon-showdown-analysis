@@ -1,0 +1,232 @@
+|j|☆Vuzi
+|j|☆Yigufeng
+|t:|1760777736
+|gametype|singles
+|player|p1|Vuzi|101|1000
+|player|p2|Yigufeng|cynthia|1030
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, M|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Valiant|
+|poke|p1|Kingambit, F|
+|poke|p1|Kyurem|
+|poke|p1|Raging Bolt|
+|poke|p2|Skarmory, F|
+|poke|p2|Eiscue, F|
+|poke|p2|Squawkabilly, M|
+|poke|p2|Porygon2|
+|poke|p2|Volbeat, M|
+|poke|p2|Hatterene, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Vuzi)
+|
+|t:|1760777747
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Kyurem|Kyurem|100/100
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p1a: Kyurem|Pressure
+|-ability|p2a: Porygon2|Pressure|Trace|[from] ability: Trace|[of] p1a: Kyurem
+|-ability|p2a: Porygon2|Pressure
+|turn|1
+|
+|t:|1760777755
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|2
+|
+|t:|1760777761
+|move|p2a: Porygon2|Thunder Wave|p1a: Kyurem
+|-status|p1a: Kyurem|par
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1760777774
+|move|p2a: Porygon2|Substitute|p2a: Porygon2
+|-start|p2a: Porygon2|Substitute
+|-damage|p2a: Porygon2|76/100
+|move|p1a: Kyurem|Icicle Spear|p2a: Porygon2
+|-activate|p2a: Porygon2|move: Substitute|[damage]
+|-end|p2a: Porygon2|Substitute
+|-damage|p2a: Porygon2|60/100
+|-damage|p2a: Porygon2|42/100
+|-hitcount|p2a: Porygon2|4
+|
+|upkeep
+|turn|4
+|
+|t:|1760777792
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|92/100
+|cant|p1a: Kyurem|par
+|
+|upkeep
+|turn|5
+|
+|t:|1760777798
+|move|p2a: Porygon2|Substitute|p2a: Porygon2
+|-start|p2a: Porygon2|Substitute
+|-damage|p2a: Porygon2|67/100
+|move|p1a: Kyurem|Icicle Spear|p2a: Porygon2
+|-activate|p2a: Porygon2|move: Substitute|[damage]
+|-end|p2a: Porygon2|Substitute
+|-damage|p2a: Porygon2|49/100
+|-damage|p2a: Porygon2|32/100
+|-hitcount|p2a: Porygon2|4
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1760777805
+|cant|p1a: Kyurem|par
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|7
+|
+|t:|1760777811
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Kyurem|Scale Shot|p2a: Hatterene
+|-immune|p2a: Hatterene
+|
+|upkeep
+|turn|8
+|
+|t:|1760777819
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760777825
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|9
+|
+|t:|1760777843
+|move|p2a: Hatterene|Thunder Wave|p1a: Kingambit
+|-status|p1a: Kingambit|par
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Hatterene
+|-damage|p2a: Hatterene|8/100
+|
+|upkeep
+|turn|10
+|
+|t:|1760777850
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Hatterene|Pain Split|p1a: Kingambit
+|-sethp|p1a: Kingambit|53/100 par|[from] move: Pain Split|[silent]
+|-sethp|p2a: Hatterene|84/100|[from] move: Pain Split
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1760777863
+|move|p2a: Hatterene|Draining Kiss|p1a: Kingambit
+|-damage|p1a: Kingambit|13/100 par
+|-heal|p2a: Hatterene|100/100|[from] drain|[of] p1a: Kingambit
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Hatterene
+|-damage|p2a: Hatterene|3/100
+|
+|upkeep
+|turn|12
+|
+|t:|1760777872
+|cant|p1a: Kingambit|par
+|move|p2a: Hatterene|Draining Kiss|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-heal|p2a: Hatterene|19/100|[from] drain|[of] p1a: Kingambit
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|-damage|p2a: Hatterene|9/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760777883
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|13
+|
+|t:|1760777891
+|move|p1a: Great Tusk|Rapid Spin|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1760777906
+|switch|p2a: Squawkabilly|Squawkabilly, M|100/100
+|turn|14
+|
+|t:|1760777911
+|move|p1a: Great Tusk|Ice Spinner|p2a: Squawkabilly
+|-supereffective|p2a: Squawkabilly
+|-damage|p2a: Squawkabilly|0 fnt
+|faint|p2a: Squawkabilly
+|
+|upkeep
+|
+|t:|1760777916
+|switch|p2a: Eiscue|Eiscue, F|100/100
+|turn|15
+|
+|t:|1760777926
+|move|p1a: Great Tusk|Knock Off|p2a: Eiscue
+|-activate|p2a: Eiscue|ability: Ice Face
+|-damage|p2a: Eiscue|100/100
+|-enditem|p2a: Eiscue|Loaded Dice|[from] move: Knock Off|[of] p1a: Great Tusk
+|detailschange|p2a: Eiscue|Eiscue-Noice, F
+|move|p2a: Eiscue|Belly Drum|p2a: Eiscue
+|-damage|p2a: Eiscue|50/100
+|-setboost|p2a: Eiscue|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|16
+|
+|t:|1760777952
+|-terastallize|p2a: Eiscue|Ghost
+|move|p1a: Great Tusk|Headlong Rush|p2a: Eiscue
+|-damage|p2a: Eiscue|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Eiscue
+|
+|upkeep
+|inactive|Yigufeng has 120 seconds left.
+|-message|Yigufeng forfeited.
+|
+|win|Vuzi
+|raw|Vuzi's rating: 1000 &rarr; <strong>1043</strong><br />(+43 for winning)
+|raw|Yigufeng's rating: 1030 &rarr; <strong>1014</strong><br />(-16 for losing)
+|l|☆Yigufeng
+|player|p2|

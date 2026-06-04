@@ -1,0 +1,258 @@
+|j|☆leontief47
+|j|☆zhuangmou
+|t:|1757955711
+|gametype|singles
+|player|p1|leontief47|clerk|1707
+|player|p2|zhuangmou|red|1730
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, F|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Zamazenta-*|
+|poke|p1|Hawlucha, F|
+|poke|p1|Iron Treads|
+|poke|p2|Darkrai|
+|poke|p2|Great Tusk|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Heatran, F|
+|poke|p2|Primarina, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zhuangmou)
+|
+|t:|1757955724
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1757955747
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: zhuangmou|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1757955752
+|move|p1a: Iron Treads|Earth Power|p2a: Great Tusk
+|-damage|p2a: Great Tusk|53/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|92/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: zhuangmou|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|3
+|
+|t:|1757955765
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Primarina|Primarina, F, shiny|100/100
+|move|p1a: Iron Treads|Steel Beam|p2a: Primarina|[miss]
+|-miss|p1a: Iron Treads|p2a: Primarina
+|-damage|p1a: Iron Treads|42/100|[from] steelbeam
+|
+|upkeep
+|turn|4
+|
+|t:|1757955778
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Heatran
+|-sidestart|p2: zhuangmou|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1757955798
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Treads|atk|1
+|move|p1a: Iron Treads|Earth Power|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|6
+|j| Le Bouquetin
+|
+|t:|1757955806
+|move|p1a: Iron Treads|Steel Beam|p2a: Landorus
+|-damage|p2a: Landorus|33/100
+|-damage|p1a: Iron Treads|0 fnt|[from] steelbeam
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|move|p2a: Landorus|Earthquake|p1: Iron Treads|[notarget]
+|-fail|p2a: Landorus
+|
+|upkeep
+|
+|t:|1757955811
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|7
+|
+|t:|1757955816
+|move|p1a: Zamazenta|Ice Fang|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|-damage|p1a: Zamazenta|74/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|zhuangmou has 120 seconds left.
+|inactive|zhuangmou has 90 seconds left.
+|
+|t:|1757955883
+|switch|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1757955888
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Zamazenta|Crunch|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1757955907
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-terastallize|p2a: Heatran|Grass
+|move|p2a: Heatran|Magma Storm|p1a: Rillaboom|[miss]
+|-miss|p2a: Heatran|p1a: Rillaboom
+|
+|-heal|p2a: Heatran|99/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|zhuangmou has 90 seconds left.
+|
+|t:|1757955928
+|move|p1a: Rillaboom|U-turn|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|57/100
+|
+|t:|1757955932
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|-enditem|p1a: Raging Bolt|Grassy Seed
+|-boost|p1a: Raging Bolt|def|1|[from] item: Grassy Seed
+|move|p2a: Heatran|Magma Storm|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|80/100
+|-activate|p1a: Raging Bolt|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: Raging Bolt|86/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|63/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|69/100|[from] item: Leftovers
+|-damage|p1a: Raging Bolt|74/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|11
+|inactive|zhuangmou has 90 seconds left.
+|
+|t:|1757955953
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Raging Bolt|80/100|[from] Grassy Terrain
+|-end|p1a: Raging Bolt|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1757955965
+|switch|p2a: Primarina|Primarina, F, shiny|100/100
+|-damage|p2a: Primarina|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1757955970
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|46/100
+|move|p2a: Primarina|Moonblast|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|8/100
+|-unboost|p1a: Raging Bolt|spa|1
+|
+|-heal|p1a: Raging Bolt|14/100|[from] Grassy Terrain
+|-heal|p2a: Primarina|52/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|inactive|zhuangmou has 90 seconds left.
+|
+|t:|1757955976
+|switch|p2a: Great Tusk|Great Tusk, shiny|53/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|60/100|[from] Grassy Terrain
+|-heal|p1a: Raging Bolt|20/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|inactive|zhuangmou has 90 seconds left.
+|
+|t:|1757955989
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p1a: Hawlucha|Grassy Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Grassy Seed
+|move|p2a: Great Tusk|Knock Off|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|91/100
+|
+|-heal|p2a: Great Tusk|66/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1757956006
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Great Tusk|Ice Spinner|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|43/100
+|-fieldend|move: Grassy Terrain
+|
+|upkeep
+|turn|16
+|
+|t:|1757956019
+|move|p1a: Hawlucha|Acrobatics|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|-message|zhuangmou forfeited.
+|
+|win|leontief47
+|raw|leontief47's rating: 1707 &rarr; <strong>1728</strong><br />(+21 for winning)
+|raw|zhuangmou's rating: 1730 &rarr; <strong>1709</strong><br />(-21 for losing)
+|l|☆zhuangmou
+|player|p2|
+|l|☆leontief47
+|player|p1|
+|l| Le Bouquetin

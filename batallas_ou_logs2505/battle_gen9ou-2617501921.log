@@ -1,0 +1,151 @@
+|j|☆brs171
+|j|☆jinmuyan000777
+|t:|1779699349
+|gametype|singles
+|player|p1|brs171|benga|1160
+|player|p2|jinmuyan000777|170|1191
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p2|Regieleki|
+|poke|p2|Rillaboom, F|
+|poke|p2|Pincurchin, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Treads|
+|poke|p2|Clefable, F|
+|teampreview
+|
+|t:|1779699360
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1779699378
+|move|p1a: Samurott|Ceaseless Edge|p2a: Rillaboom
+|-damage|p2a: Rillaboom|51/100
+|-sidestart|p2: jinmuyan000777|Spikes
+|move|p2a: Rillaboom|Wood Hammer|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|-damage|p2a: Rillaboom|20/100|[from] Recoil
+|
+|-heal|p1a: Samurott|7/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|27/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by brs171)
+|
+|t:|1779699398
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-damage|p2a: Pincurchin|88/100|[from] Spikes
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Samurott|Ceaseless Edge|p2a: Pincurchin
+|-damage|p2a: Pincurchin|33/100
+|-sidestart|p2: jinmuyan000777|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1779699410
+|move|p1a: Samurott|Ceaseless Edge|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|-sidestart|p2: jinmuyan000777|Spikes
+|faint|p2a: Pincurchin
+|
+|upkeep
+|
+|t:|1779699416
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|76/100|[from] Spikes
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdriveatk
+|turn|4
+|
+|t:|1779699429
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Iron Treads|Earthquake|p1a: Dragonite
+|-immune|p1a: Dragonite
+|
+|upkeep
+|turn|5
+|
+|t:|1779699439
+|move|p2a: Iron Treads|Rapid Spin|p1a: Dragonite
+|-damage|p1a: Dragonite|87/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: jinmuyan000777|Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Dragonite|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|8/100
+|
+|upkeep
+|turn|6
+|
+|t:|1779699448
+|move|p2a: Iron Treads|Ice Spinner|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Treads|Quark Drive
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1779699451
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|7
+|
+|t:|1779699460
+|move|p1a: Iron Valiant|Moonblast|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779699471
+|switch|p2a: Regieleki|Regieleki|100/100
+|turn|8
+|
+|t:|1779699482
+|-terastallize|p2a: Regieleki|Electric
+|move|p1a: Iron Valiant|Close Combat|p2a: Regieleki
+|-damage|p2a: Regieleki|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Regieleki
+|
+|upkeep
+|-message|jinmuyan000777 forfeited.
+|
+|win|brs171
+|raw|brs171's rating: 1160 &rarr; <strong>1187</strong><br />(+27 for winning)
+|raw|jinmuyan000777's rating: 1191 &rarr; <strong>1164</strong><br />(-27 for losing)
+|l|☆jinmuyan000777
+|player|p2|
+|l|☆brs171
+|player|p1|

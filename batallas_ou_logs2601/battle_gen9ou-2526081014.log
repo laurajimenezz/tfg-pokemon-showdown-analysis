@@ -1,0 +1,332 @@
+|j|☆potayo
+|j|☆Picosto
+|t:|1769369732
+|gametype|singles
+|player|p1|potayo|clerk|1628
+|player|p2|Picosto|1|1711
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Reuniclus, L50, M|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Hatterene, F|
+|poke|p1|Pecharunt|
+|poke|p1|Ursaluna, M|
+|poke|p1|Rabsca, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Gholdengo|
+|poke|p2|Hoopa-Unbound|
+|teampreview
+|
+|t:|1769369756
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|t:|1769369766
+|move|p2a: Cinderace|U-turn|p1a: Ursaluna
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Ursaluna|65/100
+|
+|t:|1769369769
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Ursaluna|Ice Punch|p2a: Zamazenta
+|-damage|p2a: Zamazenta|83/100
+|
+|-heal|p2a: Zamazenta|89/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1769369779
+|move|p2a: Zamazenta|Crunch|p1a: Ursaluna
+|-damage|p1a: Ursaluna|51/100
+|move|p1a: Ursaluna|Ice Punch|p2a: Zamazenta
+|-damage|p2a: Zamazenta|72/100
+|
+|-heal|p2a: Zamazenta|78/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1769369782
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|
+|-heal|p2a: Zamazenta|85/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1769369792
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Pecharunt|Foul Play|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|81/100
+|
+|upkeep
+|turn|5
+|
+|t:|1769369797
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Hoopa
+|-damage|p1a: Hoopa|47/100
+|-unboost|p2a: Gholdengo|spa|1
+|-enditem|p1a: Hoopa|Sitrus Berry|[eat]
+|-heal|p1a: Hoopa|72/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|6
+|
+|t:|1769369807
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Hoopa|atk|1
+|move|p1a: Hoopa|Trick Room|p1a: Hoopa
+|-fieldstart|move: Trick Room|[of] p1a: Hoopa
+|
+|upkeep
+|turn|7
+|
+|t:|1769369810
+|move|p1a: Hoopa|Gravity|p1a: Hoopa
+|-fieldstart|move: Gravity
+|move|p2a: Landorus|U-turn|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|t:|1769369816
+|switch|p2a: Zamazenta|Zamazenta|85/100|[from] U-turn
+|
+|-heal|p2a: Zamazenta|91/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769369818
+|switch|p1a: Ursaluna|Ursaluna, M|51/100
+|turn|8
+|
+|t:|1769369825
+|-terastallize|p1a: Ursaluna|Ground
+|move|p1a: Ursaluna|Headlong Rush|p2a: Zamazenta
+|-damage|p2a: Zamazenta|10/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p2a: Zamazenta|16/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1769369839
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|move|p1a: Ursaluna|Headlong Rush|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1769369844
+|switch|p2a: Zamazenta|Zamazenta|16/100
+|turn|10
+|
+|t:|1769369847
+|move|p1a: Ursaluna|Headlong Rush|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Zamazenta
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1769369852
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|11
+|
+|t:|1769369857
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Pecharunt
+|-damage|p1a: Pecharunt|56/100
+|
+|-fieldend|move: Gravity
+|upkeep
+|turn|12
+|
+|t:|1769369865
+|move|p2a: Cinderace|Pyro Ball|p1a: Pecharunt
+|-damage|p1a: Pecharunt|15/100
+|-status|p1a: Pecharunt|brn
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|65/100 brn
+|
+|-damage|p1a: Pecharunt|59/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Picosto)
+|
+|t:|1769369875
+|switch|p2a: Gholdengo|Gholdengo|81/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|100/100 brn
+|
+|-damage|p1a: Pecharunt|94/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1769369890
+|move|p2a: Gholdengo|Make It Rain|p1a: Pecharunt
+|-damage|p1a: Pecharunt|6/100 brn
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Pecharunt|Foul Play|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|71/100
+|
+|-damage|p1a: Pecharunt|0 fnt|[from] brn
+|faint|p1a: Pecharunt
+|upkeep
+|
+|t:|1769369910
+|switch|p1a: Rabsca|Rabsca, M|100/100
+|turn|15
+|
+|t:|1769369921
+|move|p2a: Gholdengo|Make It Rain|p1a: Rabsca
+|-damage|p1a: Rabsca|35/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Rabsca|Trick Room|p1a: Rabsca
+|-fieldstart|move: Trick Room|[of] p1a: Rabsca
+|
+|upkeep
+|turn|16
+|
+|t:|1769369926
+|move|p1a: Rabsca|Gravity|p1a: Rabsca
+|-fieldstart|move: Gravity
+|move|p2a: Gholdengo|Make It Rain|p1a: Rabsca
+|-damage|p1a: Rabsca|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Rabsca
+|
+|upkeep
+|
+|t:|1769369930
+|switch|p1a: Ursaluna|Ursaluna, M, tera:Ground|51/100
+|turn|17
+|
+|t:|1769369948
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|move|p1a: Ursaluna|Earthquake|p2a: Hoopa
+|-crit|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1769369953
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|18
+|
+|t:|1769369956
+|move|p1a: Ursaluna|Earthquake|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|upkeep
+|
+|t:|1769369958
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|19
+|
+|t:|1769369971
+|move|p1a: Ursaluna|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1769369973
+|switch|p2a: Gholdengo|Gholdengo|71/100
+|turn|20
+|
+|t:|1769369983
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-fieldend|move: Gravity
+|upkeep
+|inactive|potayo has 120 seconds left.
+|
+|t:|1769370019
+|switch|p1a: Reuniclus|Reuniclus, L50, M|100/100
+|turn|21
+|inactive|potayo has 120 seconds left.
+|
+|t:|1769370025
+|move|p2a: Gholdengo|Shadow Ball|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-enditem|p1a: Reuniclus|Focus Sash
+|-damage|p1a: Reuniclus|1/100
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|upkeep
+|turn|22
+|
+|t:|1769370030
+|move|p1a: Reuniclus|Gravity|p1a: Reuniclus
+|-fieldstart|move: Gravity
+|move|p2a: Gholdengo|Shadow Ball|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|upkeep
+|c|☆Picosto|gg
+|
+|t:|1769370037
+|switch|p1a: Ursaluna|Ursaluna, M, tera:Ground|51/100
+|turn|23
+|c|☆potayo|gg
+|
+|t:|1769370042
+|move|p1a: Ursaluna|Headlong Rush|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Gholdengo
+|
+|win|potayo
+|raw|potayo's rating: 1628 &rarr; <strong>1653</strong><br />(+25 for winning)
+|raw|Picosto's rating: 1711 &rarr; <strong>1686</strong><br />(-25 for losing)
+|l|☆potayo
+|player|p1|
+|l|☆Picosto
+|player|p2|

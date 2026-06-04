@@ -1,0 +1,287 @@
+|j|☆lorped
+|j|☆FreshSvilor
+|t:|1758293650
+|gametype|singles
+|player|p1|lorped|170|1151
+|player|p2|FreshSvilor|riley|1189
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Leavanny, M|
+|poke|p1|Ceruledge, F|
+|poke|p1|Iron Hands|
+|poke|p1|Sinistcha|
+|poke|p1|Altaria, M|
+|poke|p1|Mamoswine, M|
+|poke|p2|Iron Crown|
+|poke|p2|Meowscarada, M|
+|poke|p2|Great Tusk|
+|poke|p2|Pecharunt|
+|poke|p2|Ting-Lu|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1758293677
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1758293690
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|move|p2a: Iron Valiant|Knock Off|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|52/100
+|-enditem|p1a: Sinistcha|Sitrus Berry|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|upkeep
+|turn|2
+|
+|t:|1758293712
+|move|p2a: Iron Valiant|Moonblast|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FreshSvilor)
+|inactive|lorped has 120 seconds left.
+|inactive|lorped has 90 seconds left.
+|
+|t:|1758293793
+|switch|p1a: Altaria|Altaria, M|100/100
+|-ability|p1a: Altaria|Cloud Nine
+|turn|3
+|
+|t:|1758293808
+|-terastallize|p2a: Iron Valiant|Fairy
+|move|p2a: Iron Valiant|Moonblast|p1a: Altaria
+|-supereffective|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|faint|p1a: Altaria
+|
+|upkeep
+|
+|t:|1758293823
+|switch|p1a: Leavanny|Leavanny, M|100/100
+|turn|4
+|
+|t:|1758293833
+|move|p2a: Iron Valiant|Close Combat|p1a: Leavanny
+|-resisted|p1a: Leavanny
+|-damage|p1a: Leavanny|64/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|move|p1a: Leavanny|Switcheroo|p2a: Iron Valiant
+|-activate|p1a: Leavanny|move: Trick|[of] p2a: Iron Valiant
+|-item|p2a: Iron Valiant|Choice Scarf|[from] move: Switcheroo
+|-enditem|p1a: Leavanny|Choice Scarf|[silent]|[from] move: Switcheroo
+|
+|upkeep
+|turn|5
+|
+|t:|1758293844
+|move|p2a: Iron Valiant|Moonblast|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|faint|p1a: Leavanny
+|
+|upkeep
+|
+|t:|1758293865
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|-item|p1a: Ceruledge|Air Balloon
+|turn|6
+|
+|t:|1758293870
+|move|p2a: Iron Valiant|Moonblast|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|63/100
+|-enditem|p1a: Ceruledge|Air Balloon
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1758293883
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Pecharunt
+|-damage|p2a: Pecharunt|54/100
+|-heal|p1a: Ceruledge|93/100|[from] drain|[of] p2a: Pecharunt
+|
+|upkeep
+|turn|8
+|
+|t:|1758293903
+|move|p1a: Ceruledge|Bitter Blade|p2a: Pecharunt
+|-damage|p2a: Pecharunt|11/100
+|-heal|p1a: Ceruledge|100/100|[from] drain|[of] p2a: Pecharunt
+|move|p2a: Pecharunt|Malignant Chain|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|83/100
+|-status|p1a: Ceruledge|tox
+|-start|p1a: Ceruledge|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-damage|p1a: Ceruledge|77/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1758293923
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|61/100
+|
+|upkeep
+|turn|10
+|inactive|lorped has 120 seconds left.
+|
+|t:|1758293947
+|-terastallize|p1a: Mamoswine|Steel
+|move|p1a: Mamoswine|Trailblaze|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|57/100
+|-boost|p1a: Mamoswine|spe|1
+|move|p2a: Pecharunt|Parting Shot|p1a: Mamoswine
+|-unboost|p1a: Mamoswine|atk|1
+|-unboost|p1a: Mamoswine|spa|1
+|inactive|FreshSvilor has 120 seconds left.
+|
+|t:|1758293963
+|switch|p2a: Iron Valiant|Iron Valiant, tera:Fairy|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|11
+|inactive|FreshSvilor has 120 seconds left.
+|
+|t:|1758293977
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2a: Iron Valiant|Close Combat|p1a: Iron Hands
+|-damage|p1a: Iron Hands|71/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|12
+|inactive|FreshSvilor has 120 seconds left.
+|
+|t:|1758294001
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Pecharunt|Pecharunt|57/100
+|move|p1a: Iron Hands|Fake Out|p2a: Pecharunt
+|-immune|p2a: Pecharunt
+|
+|upkeep
+|turn|13
+|
+|t:|1758294010
+|move|p2a: Pecharunt|Malignant Chain|p1a: Iron Hands
+|-damage|p1a: Iron Hands|41/100
+|-status|p1a: Iron Hands|tox
+|-start|p1a: Iron Hands|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Iron Hands|confusion
+|move|p1a: Iron Hands|Supercell Slam|p2a: Pecharunt
+|-damage|p2a: Pecharunt|19/100
+|
+|-damage|p1a: Iron Hands|35/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1758294021
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|69/100
+|-activate|p1a: Iron Hands|confusion
+|move|p1a: Iron Hands|Supercell Slam|p2a: Pecharunt
+|-damage|p2a: Pecharunt|29/100
+|
+|-damage|p1a: Iron Hands|23/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1758294029
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|79/100
+|-end|p1a: Iron Hands|confusion
+|move|p1a: Iron Hands|Supercell Slam|p2a: Pecharunt
+|-damage|p2a: Pecharunt|41/100
+|
+|-damage|p1a: Iron Hands|5/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1758294039
+|move|p1a: Iron Hands|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1a: Iron Hands
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|91/100
+|
+|-damage|p1a: Iron Hands|0 fnt|[from] psn
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|upkeep
+|
+|t:|1758294049
+|switch|p1a: Mamoswine|Mamoswine, M, tera:Steel|100/100
+|turn|17
+|
+|t:|1758294056
+|move|p1a: Mamoswine|Earthquake|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|40/100
+|move|p2a: Pecharunt|Parting Shot|p1a: Mamoswine
+|-unboost|p1a: Mamoswine|atk|1
+|-unboost|p1a: Mamoswine|spa|1
+|
+|t:|1758294066
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|18
+|
+|t:|1758294072
+|switch|p1a: Ceruledge|Ceruledge, F|77/100 tox
+|move|p2a: Great Tusk|Headlong Rush|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Ceruledge
+|
+|upkeep
+|
+|t:|1758294081
+|switch|p1a: Mamoswine|Mamoswine, M, tera:Steel|100/100
+|turn|19
+|
+|t:|1758294089
+|move|p2a: Great Tusk|Headlong Rush|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Mamoswine
+|
+|win|FreshSvilor
+|raw|lorped's rating: 1151 &rarr; <strong>1129</strong><br />(-22 for losing)
+|raw|FreshSvilor's rating: 1189 &rarr; <strong>1211</strong><br />(+22 for winning)
+|l|☆FreshSvilor
+|player|p2|
+|l|☆lorped
+|player|p1|

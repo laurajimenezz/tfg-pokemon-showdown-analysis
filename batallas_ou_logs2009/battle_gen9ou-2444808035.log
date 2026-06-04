@@ -1,0 +1,458 @@
+|j|☆ilytrix
+|j|☆carloss prates
+|t:|1758271541
+|gametype|singles
+|player|p1|ilytrix|n-masters|1594
+|player|p2|carloss prates|bruno|1666
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ceruledge, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Latias, F|
+|poke|p1|Kyurem|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Iron Moth|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Dondozo, M|
+|poke|p2|Iron Treads|
+|poke|p2|Kyurem|
+|poke|p2|Comfey, M|
+|poke|p2|Polteageist|
+|teampreview
+|
+|t:|1758271549
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: bury the light|Ceruledge, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1758271553
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|move|p1a: bury the light|Swords Dance|p1a: bury the light
+|-boost|p1a: bury the light|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1758271557
+|move|p1a: bury the light|Poltergeist|p2a: Dondozo
+|-activate|p2a: Dondozo|move: Poltergeist|Leftovers
+|-crit|p2a: Dondozo
+|-damage|p2a: Dondozo|51/100
+|move|p2a: Dondozo|Avalanche|p1a: bury the light
+|-resisted|p1a: bury the light
+|-crit|p1a: bury the light
+|-damage|p1a: bury the light|73/100
+|-ability|p1a: bury the light|Weak Armor|boost
+|-unboost|p1a: bury the light|def|1
+|-boost|p1a: bury the light|spe|2
+|
+|-heal|p2a: Dondozo|57/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1758271565
+|move|p1a: bury the light|Poltergeist|p2a: Dondozo
+|-activate|p2a: Dondozo|move: Poltergeist|Leftovers
+|-damage|p2a: Dondozo|23/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|29/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1758271572
+|move|p1a: bury the light|Poltergeist|p2a: Dondozo
+|-activate|p2a: Dondozo|move: Poltergeist|Leftovers
+|-damage|p2a: Dondozo|5/100
+|move|p2a: Dondozo|Wave Crash|p1a: bury the light
+|-supereffective|p1a: bury the light
+|-damage|p1a: bury the light|0 fnt
+|faint|p1a: bury the light
+|-damage|p2a: Dondozo|0 fnt|[from] Recoil
+|faint|p2a: Dondozo
+|
+|upkeep
+|
+|t:|1758271578
+|switch|p1a: MoveMerchant|Iron Moth|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: MoveMerchant|Booster Energy
+|-activate|p1a: MoveMerchant|ability: Quark Drive|[fromitem]
+|-start|p1a: MoveMerchant|quarkdrivespe
+|turn|5
+|
+|t:|1758271594
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: MoveMerchant|Fiery Dance|p2a: Kyurem
+|-damage|p2a: Kyurem|61/100
+|
+|upkeep
+|turn|6
+|
+|t:|1758271598
+|move|p1a: MoveMerchant|Dazzling Gleam|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|7/100
+|move|p2a: Kyurem|Earth Power|p1a: MoveMerchant
+|-supereffective|p1a: MoveMerchant
+|-damage|p1a: MoveMerchant|0 fnt
+|faint|p1a: MoveMerchant
+|-end|p1a: MoveMerchant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758271603
+|switch|p1a: snow bunny|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: snow bunny
+|turn|7
+|
+|t:|1758271606
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: snow bunny|Aurora Veil|p1a: snow bunny
+|-sidestart|p1: ilytrix|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758271612
+|switch|p1a: rng my ahh|Kyurem|100/100
+|-ability|p1a: rng my ahh|Pressure
+|move|p2a: Iron Treads|Stealth Rock|p1a: rng my ahh
+|-sidestart|p1: ilytrix|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1758271615
+|move|p2a: Iron Treads|Rapid Spin|p1a: rng my ahh
+|-damage|p1a: rng my ahh|96/100
+|-boost|p2a: Iron Treads|spe|1
+|move|p1a: rng my ahh|Dragon Dance|p1a: rng my ahh
+|-boost|p1a: rng my ahh|atk|1
+|-boost|p1a: rng my ahh|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758271620
+|move|p2a: Iron Treads|Steel Beam|p1a: rng my ahh
+|-supereffective|p1a: rng my ahh
+|-damage|p1a: rng my ahh|49/100
+|-damage|p2a: Iron Treads|50/100|[from] steelbeam
+|move|p1a: rng my ahh|Icicle Spear|p2a: Iron Treads
+|-damage|p2a: Iron Treads|31/100
+|-damage|p2a: Iron Treads|12/100
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|-hitcount|p2: Iron Treads|3
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758271624
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|turn|11
+|
+|t:|1758271626
+|move|p1a: rng my ahh|Icicle Spear|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|92/100
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|84/100
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|76/100
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|66/100
+|-hitcount|p2a: Ninetales|4
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: carloss prates|move: Aurora Veil
+|
+|-weather|none
+|upkeep
+|turn|12
+|j| wgw2333
+|
+|t:|1758271631
+|switch|p2a: Kyurem|Kyurem|7/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: rng my ahh|Icicle Spear|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|-hitcount|p2: Kyurem|1
+|
+|upkeep
+|
+|t:|1758271633
+|switch|p2a: Comfey|Comfey, M|100/100
+|turn|13
+|
+|t:|1758271634
+|move|p1a: rng my ahh|Icicle Spear|p2a: Comfey
+|-damage|p2a: Comfey|87/100
+|-damage|p2a: Comfey|73/100
+|-crit|p2a: Comfey
+|-damage|p2a: Comfey|34/100
+|-crit|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|-hitcount|p2: Comfey|4
+|
+|upkeep
+|
+|t:|1758271638
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|14
+|
+|t:|1758271641
+|move|p1a: rng my ahh|Icicle Spear|p2a: Polteageist
+|-damage|p2a: Polteageist|88/100
+|-damage|p2a: Polteageist|76/100
+|-start|p1a: rng my ahh|Disable|Icicle Spear|[from] ability: Cursed Body|[of] p2a: Polteageist
+|-damage|p2a: Polteageist|63/100
+|-damage|p2a: Polteageist|51/100
+|-hitcount|p2a: Polteageist|4
+|move|p2a: Polteageist|Strength Sap|p1a: rng my ahh
+|-unboost|p1a: rng my ahh|atk|1
+|-heal|p2a: Polteageist|100/100
+|
+|-sideend|p1: ilytrix|move: Aurora Veil
+|upkeep
+|turn|15
+|
+|t:|1758271646
+|move|p1a: rng my ahh|Scale Shot|p2a: Polteageist
+|-damage|p2a: Polteageist|92/100
+|-damage|p2a: Polteageist|83/100
+|-damage|p2a: Polteageist|75/100
+|-damage|p2a: Polteageist|67/100
+|-damage|p2a: Polteageist|59/100
+|-hitcount|p2a: Polteageist|5
+|-unboost|p1a: rng my ahh|def|1
+|-boost|p1a: rng my ahh|spe|1
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|-enditem|p2a: Polteageist|White Herb
+|-clearnegativeboost|p2a: Polteageist|[silent]
+|
+|upkeep
+|turn|16
+|
+|t:|1758271649
+|move|p1a: rng my ahh|Scale Shot|p2a: Polteageist
+|-damage|p2a: Polteageist|51/100
+|-damage|p2a: Polteageist|43/100
+|-damage|p2a: Polteageist|36/100
+|-damage|p2a: Polteageist|28/100
+|-damage|p2a: Polteageist|20/100
+|-hitcount|p2a: Polteageist|5
+|-unboost|p1a: rng my ahh|def|1
+|-boost|p1a: rng my ahh|spe|1
+|move|p2a: Polteageist|Strength Sap|p1a: rng my ahh
+|-unboost|p1a: rng my ahh|atk|1
+|-heal|p2a: Polteageist|100/100
+|
+|upkeep
+|turn|17
+|
+|t:|1758271658
+|move|p1a: rng my ahh|Dragon Dance|p1a: rng my ahh
+|-boost|p1a: rng my ahh|atk|1
+|-boost|p1a: rng my ahh|spe|1
+|move|p2a: Polteageist|Shadow Ball|p1a: rng my ahh
+|-damage|p1a: rng my ahh|0 fnt
+|faint|p1a: rng my ahh
+|
+|upkeep
+|
+|t:|1758271660
+|switch|p1a: snow bunny|Ninetales-Alola, F|100/100
+|-damage|p1a: snow bunny|76/100|[from] Stealth Rock
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: snow bunny
+|turn|18
+|
+|t:|1758271670
+|move|p2a: Polteageist|Shadow Ball|p1a: snow bunny
+|-crit|p1a: snow bunny
+|-damage|p1a: snow bunny|0 fnt
+|faint|p1a: snow bunny
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: carloss prates|move: Aurora Veil
+|upkeep
+|
+|t:|1758271673
+|switch|p1a: 50/50|Raging Bolt|100/100
+|-damage|p1a: 50/50|88/100|[from] Stealth Rock
+|-enditem|p1a: 50/50|Booster Energy
+|-activate|p1a: 50/50|ability: Protosynthesis|[fromitem]
+|-start|p1a: 50/50|protosynthesisspa
+|turn|19
+|
+|t:|1758271679
+|move|p2a: Polteageist|Shadow Ball|p1a: 50/50
+|-damage|p1a: 50/50|27/100
+|move|p1a: 50/50|Thunderbolt|p2a: Polteageist
+|-damage|p2a: Polteageist|30/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1758271684
+|move|p1a: 50/50|Thunderclap||[still]
+|-fail|p1a: 50/50
+|move|p2a: Polteageist|Strength Sap|p1a: 50/50
+|-unboost|p1a: 50/50|atk|1
+|-heal|p2a: Polteageist|77/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1758271690
+|move|p1a: 50/50|Thunderclap|p2a: Polteageist
+|-damage|p2a: Polteageist|27/100
+|move|p2a: Polteageist|Shadow Ball|p1a: 50/50
+|-damage|p1a: 50/50|0 fnt
+|faint|p1a: 50/50
+|-end|p1a: 50/50|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758271692
+|switch|p1a: realpsyspam|Latias, F|100/100
+|-damage|p1a: realpsyspam|88/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1758271695
+|-terastallize|p1a: realpsyspam|Steel
+|move|p2a: Polteageist|Shadow Ball|p1a: realpsyspam
+|-damage|p1a: realpsyspam|27/100
+|move|p1a: realpsyspam|Agility|p1a: realpsyspam
+|-boost|p1a: realpsyspam|spe|2
+|
+|-weather|none
+|-heal|p1a: realpsyspam|33/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1758271703
+|move|p1a: realpsyspam|Stored Power|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|-heal|p1a: realpsyspam|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758271705
+|switch|p2a: Ninetales|Ninetales-Alola, M|66/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|24
+|
+|t:|1758271710
+|-terastallize|p2a: Ninetales|Water
+|move|p1a: realpsyspam|Calm Mind|p1a: realpsyspam
+|-boost|p1a: realpsyspam|spa|1
+|-boost|p1a: realpsyspam|spd|1
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: carloss prates|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: realpsyspam|45/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1758271714
+|move|p1a: realpsyspam|Calm Mind|p1a: realpsyspam
+|-boost|p1a: realpsyspam|spa|1
+|-boost|p1a: realpsyspam|spd|1
+|move|p2a: Ninetales|Encore|p1a: realpsyspam
+|-start|p1a: realpsyspam|Encore
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: realpsyspam|51/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1758271715
+|move|p1a: realpsyspam|Calm Mind|p1a: realpsyspam
+|-boost|p1a: realpsyspam|spa|1
+|-boost|p1a: realpsyspam|spd|1
+|move|p2a: Ninetales|Foul Play|p1a: realpsyspam
+|-damage|p1a: realpsyspam|33/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: realpsyspam|39/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1758271717
+|move|p1a: realpsyspam|Calm Mind|p1a: realpsyspam
+|-boost|p1a: realpsyspam|spa|1
+|-boost|p1a: realpsyspam|spd|1
+|move|p2a: Ninetales|Foul Play|p1a: realpsyspam
+|-damage|p1a: realpsyspam|21/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: realpsyspam|27/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1758271720
+|move|p1a: realpsyspam|Calm Mind|p1a: realpsyspam
+|-boost|p1a: realpsyspam|spa|1
+|-boost|p1a: realpsyspam|spd|1
+|move|p2a: Ninetales|Freeze-Dry|p1a: realpsyspam
+|-resisted|p1a: realpsyspam
+|-damage|p1a: realpsyspam|25/100
+|
+|-weather|none
+|-heal|p1a: realpsyspam|31/100|[from] item: Leftovers
+|-end|p1a: realpsyspam|Encore
+|upkeep
+|turn|29
+|
+|t:|1758271722
+|move|p1a: realpsyspam|Stored Power|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|win|ilytrix
+|raw|ilytrix's rating: 1594 &rarr; <strong>1618</strong><br />(+24 for winning)
+|raw|carloss prates's rating: 1666 &rarr; <strong>1642</strong><br />(-24 for losing)
+|l|☆carloss prates
+|player|p2|
+|l|☆ilytrix
+|player|p1|
+|l| wgw2333

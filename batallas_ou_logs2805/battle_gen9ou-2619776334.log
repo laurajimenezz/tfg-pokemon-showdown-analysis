@@ -1,0 +1,423 @@
+|j|☆RealProblemSleuth
+|j|☆MMk_zhaoyinjie
+|t:|1779962515
+|gametype|singles
+|player|p1|RealProblemSleuth|boarder|1162
+|player|p2|MMk_zhaoyinjie|102|1130
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Darkrai|
+|poke|p1|Heatran, M|
+|poke|p1|Clefable, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Rotom-Mow|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Alomomola, F|
+|teampreview
+|
+|t:|1779962527
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: John Support|Clefable, M, shiny|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|1
+|
+|t:|1779962536
+|move|p2a: Rotom|Trick|p1a: John Support
+|-activate|p2a: Rotom|move: Trick|[of] p1a: John Support
+|-item|p1a: John Support|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: John Support|Stealth Rock|p2a: Rotom
+|-sidestart|p2: MMk_zhaoyinjie|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1779962552
+|switch|p1a: John Wallbreaker|Heatran, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: John Wallbreaker
+|-damage|p1a: John Wallbreaker|82/100
+|
+|t:|1779962557
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: John Wallbreaker|atk|1
+|
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1779962575
+|switch|p1a: John Removal|Weezing-Galar, M|100/100
+|-ability|p1a: John Removal|Neutralizing Gas
+|-item|p1a: John Removal|Air Balloon
+|move|p2a: Landorus|Earthquake|p1a: John Removal
+|-immune|p1a: John Removal
+|
+|-heal|p2a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1779962585
+|move|p2a: Landorus|U-turn|p1a: John Removal
+|-resisted|p1a: John Removal
+|-damage|p1a: John Removal|96/100
+|-enditem|p1a: John Removal|Air Balloon
+|
+|t:|1779962602
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] U-turn
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: John Removal|Toxic|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1779962611
+|move|p2a: Corviknight|Defog|p1a: John Removal
+|-unboost|p1a: John Removal|evasion|1
+|-sideend|p2: MMk_zhaoyinjie|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: John Removal|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1779962627
+|-end|p1a: John Removal|ability: Neutralizing Gas
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: John Wallbreaker|Heatran, M|82/100
+|move|p2a: Corviknight|Brave Bird|p1a: John Wallbreaker
+|-resisted|p1a: John Wallbreaker
+|-damage|p1a: John Wallbreaker|67/100
+|-damage|p2a: Corviknight|96/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779962646
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-item|p2a: Slowking|Air Balloon
+|move|p1a: John Wallbreaker|Magma Storm|p2a: Slowking
+|-damage|p2a: Slowking|64/100
+|-activate|p2a: Slowking|move: Magma Storm|[of] p1a: John Wallbreaker
+|-enditem|p2a: Slowking|Air Balloon
+|
+|-damage|p2a: Slowking|52/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1779962660
+|move|p1a: John Wallbreaker|Earth Power|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|11/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1779962670
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Chilly Reception
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: John Wallbreaker|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1779962681
+|switch|p1a: John Manslaughter|Rillaboom, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: John Manslaughter
+|move|p2a: Landorus|Earthquake|p1a: John Manslaughter
+|-resisted|p1a: John Manslaughter
+|-damage|p1a: John Manslaughter|85/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: John Manslaughter|91/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1779962700
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: John Manslaughter|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|96/100
+|
+|t:|1779962711
+|switch|p1a: John Wallbreaker|Heatran, M|67/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: John Wallbreaker|73/100|[from] Grassy Terrain
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1779962727
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: John Wallbreaker|Magma Storm|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|73/100
+|-activate|p2a: Alomomola|move: Magma Storm|[of] p1a: John Wallbreaker
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: John Wallbreaker|79/100|[from] Grassy Terrain
+|-heal|p2a: Alomomola|79/100|[from] Grassy Terrain
+|-damage|p2a: Alomomola|67/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1779962757
+|move|p1a: John Wallbreaker|Earth Power|p2a: Alomomola
+|-damage|p2a: Alomomola|32/100
+|-unboost|p2a: Alomomola|spd|1
+|move|p2a: Alomomola|Mirror Coat|p1a: John Wallbreaker
+|-damage|p1a: John Wallbreaker|0 fnt
+|faint|p1a: John Wallbreaker
+|
+|-weather|none
+|-heal|p2a: Alomomola|38/100|[from] Grassy Terrain
+|-end|p2a: Alomomola|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1779962767
+|switch|p1a: John Coverage|Darkrai|100/100
+|turn|13
+|
+|t:|1779962784
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: John Coverage|Dark Pulse|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|77/100
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1779962802
+|-terastallize|p1a: John Coverage|Stellar
+|move|p2a: Hydreigon|U-turn|p1a: John Coverage
+|-supereffective|p1a: John Coverage
+|-damage|p1a: John Coverage|56/100
+|
+|t:|1779962842
+|switch|p2a: Alomomola|Alomomola, F|71/100|[from] U-turn
+|move|p1a: John Coverage|Ice Beam|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|51/100
+|
+|upkeep
+|turn|15
+|
+|t:|1779962854
+|move|p1a: John Coverage|Dark Pulse|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1779962864
+|switch|p2a: Hydreigon|Hydreigon, F|77/100
+|turn|16
+|
+|t:|1779962871
+|switch|p1a: John Removal|Weezing-Galar, M|96/100
+|-ability|p1a: John Removal|Neutralizing Gas
+|-terastallize|p2a: Hydreigon|Steel
+|move|p2a: Hydreigon|Dragon Pulse|p1a: John Removal
+|-immune|p1a: John Removal
+|
+|upkeep
+|turn|17
+|
+|t:|1779962883
+|switch|p2a: Slowking|Slowking-Galar, F|45/100
+|move|p1a: John Removal|Taunt|p2a: Slowking
+|-start|p2a: Slowking|move: Taunt
+|
+|upkeep
+|turn|18
+|
+|t:|1779962895
+|-end|p1a: John Removal|ability: Neutralizing Gas
+|switch|p1a: John Spikes|Samurott-Hisui, M, shiny|100/100
+|move|p2a: Slowking|Future Sight|p1a: John Spikes
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|19
+|
+|t:|1779962912
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: John Spikes|Swords Dance|p1a: John Spikes
+|-boost|p1a: John Spikes|atk|2
+|
+|upkeep
+|turn|20
+|
+|t:|1779962927
+|move|p1a: John Spikes|Ceaseless Edge|p2a: Corviknight
+|-damage|p2a: Corviknight|28/100
+|-sidestart|p2: MMk_zhaoyinjie|Spikes
+|-damage|p1a: John Spikes|91/100|[from] item: Life Orb
+|move|p2a: Corviknight|Brave Bird|p1a: John Spikes
+|-damage|p1a: John Spikes|44/100
+|-damage|p2a: Corviknight|16/100|[from] Recoil
+|
+|-end|p1a: John Spikes|move: Future Sight
+|-immune|p1a: John Spikes
+|-heal|p2a: Corviknight|22/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1779962948
+|move|p1a: John Spikes|Ceaseless Edge|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-sidestart|p2: MMk_zhaoyinjie|Spikes
+|faint|p2a: Corviknight
+|-damage|p1a: John Spikes|34/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779962958
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|22
+|
+|t:|1779962970
+|move|p2a: Rotom|Volt Switch|p1a: John Spikes
+|-supereffective|p1a: John Spikes
+|-damage|p1a: John Spikes|0 fnt
+|faint|p1a: John Spikes
+|
+|t:|1779962977
+|switch|p2a: Hydreigon|Hydreigon, F, tera:Steel|77/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1779962998
+|switch|p1a: John Manslaughter|Rillaboom, F, shiny|91/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: John Manslaughter
+|turn|23
+|
+|t:|1779963007
+|move|p2a: Hydreigon|Flamethrower|p1a: John Manslaughter
+|-supereffective|p1a: John Manslaughter
+|-damage|p1a: John Manslaughter|16/100
+|move|p1a: John Manslaughter|Drum Beating|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|39/100
+|-unboost|p2a: Hydreigon|spe|1
+|
+|-heal|p1a: John Manslaughter|22/100|[from] Grassy Terrain
+|upkeep
+|turn|24
+|
+|t:|1779963017
+|move|p2a: Hydreigon|Flamethrower|p1a: John Manslaughter
+|-supereffective|p1a: John Manslaughter
+|-damage|p1a: John Manslaughter|0 fnt
+|faint|p1a: John Manslaughter
+|
+|upkeep
+|
+|t:|1779963019
+|switch|p1a: John Coverage|Darkrai, tera:Stellar|56/100
+|turn|25
+|
+|t:|1779963028
+|switch|p2a: Slowking|Slowking-Galar, F|78/100
+|-damage|p2a: Slowking|61/100|[from] Spikes
+|move|p1a: John Coverage|Focus Blast|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|54/100
+|
+|-heal|p1a: John Coverage|62/100|[from] Grassy Terrain
+|-heal|p2a: Slowking|60/100|[from] Grassy Terrain
+|upkeep
+|turn|26
+|
+|t:|1779963041
+|switch|p2a: Hydreigon|Hydreigon, F, tera:Steel|39/100
+|move|p1a: John Coverage|Dark Pulse|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-heal|p1a: John Coverage|68/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779963054
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|27
+|
+|t:|1779963072
+|move|p1a: John Coverage|Sludge Bomb|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: John Coverage|75/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1779963076
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: John Coverage|atk|1
+|turn|28
+|
+|t:|1779963082
+|move|p1a: John Coverage|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1779963086
+|switch|p2a: Slowking|Slowking-Galar, F|93/100
+|-damage|p2a: Slowking|77/100|[from] Spikes
+|turn|29
+|
+|t:|1779963091
+|move|p1a: John Coverage|Dark Pulse|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|22/100
+|cant|p2a: Slowking|flinch
+|
+|upkeep
+|turn|30
+|
+|t:|1779963097
+|move|p1a: John Coverage|Dark Pulse|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|win|RealProblemSleuth
+|raw|RealProblemSleuth's rating: 1162 &rarr; <strong>1185</strong><br />(+23 for winning)
+|raw|MMk_zhaoyinjie's rating: 1130 &rarr; <strong>1107</strong><br />(-23 for losing)
+|l|☆MMk_zhaoyinjie
+|player|p2|
+|l|☆RealProblemSleuth
+|player|p1|

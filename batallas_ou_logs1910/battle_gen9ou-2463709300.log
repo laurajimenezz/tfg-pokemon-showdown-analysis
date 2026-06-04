@@ -1,0 +1,232 @@
+|j|☆chibb
+|j|☆Opistyl
+|t:|1760733976
+|gametype|singles
+|player|p1|chibb|doctor|1273
+|player|p2|Opistyl|n|1261
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Florges, F|
+|poke|p1|Slither Wing|
+|poke|p1|Walking Wake|
+|poke|p1|Rotom-Heat|
+|poke|p1|Typhlosion-Hisui, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Darkrai|
+|poke|p2|Great Tusk|
+|poke|p2|Hatterene, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Zapdos|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Opistyl)
+|
+|t:|1760734013
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1760734022
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Zapdos|Volt Switch|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|85/100
+|
+|t:|1760734029
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760734045
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Walking Wake|[anim] Ivy Cudgel Water
+|-resisted|p1a: Walking Wake
+|-crit|p1a: Walking Wake
+|-damage|p1a: Walking Wake|90/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760734057
+|move|p1a: Walking Wake|Flamethrower|p2a: Ogerpon
+|-damage|p2a: Ogerpon|18/100
+|move|p2a: Ogerpon|U-turn|p1a: Walking Wake
+|-damage|p1a: Walking Wake|60/100
+|
+|t:|1760734078
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760734099
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Florges|Florges, F|100/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Florges
+|-damage|p1a: Florges|82/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760734106
+|move|p1a: Florges|Wish|p1a: Florges
+|move|p2a: Hatterene|Nuzzle|p1a: Florges
+|-damage|p1a: Florges|78/100
+|-status|p1a: Florges|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760734114
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|move|p2a: Hatterene|Psyshock|p1a: Slither Wing
+|-supereffective|p1a: Slither Wing
+|-damage|p1a: Slither Wing|0 fnt
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760734126
+|switch|p1a: Typhlosion|Typhlosion-Hisui, F|100/100
+|-item|p2a: Hatterene|Assault Vest|[from] ability: Frisk|[of] p1a: Typhlosion
+|turn|7
+|
+|t:|1760734134
+|-terastallize|p1a: Typhlosion|Fire
+|move|p1a: Typhlosion|Eruption|p2a: Hatterene
+|-damage|p2a: Hatterene|12/100
+|move|p2a: Hatterene|Nuzzle|p1a: Typhlosion
+|-damage|p1a: Typhlosion|95/100
+|-status|p1a: Typhlosion|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760734145
+|move|p1a: Typhlosion|Eruption|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|none
+|upkeep
+|
+|t:|1760734153
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|18/100
+|turn|9
+|
+|t:|1760734171
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Typhlosion|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|upkeep
+|
+|t:|1760734173
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|10
+|
+|t:|1760734181
+|switch|p1a: Walking Wake|Walking Wake|60/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Walking Wake|[anim] Ivy Cudgel Water
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760734192
+|move|p1a: Walking Wake|Flamethrower|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760734200
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|12
+|
+|t:|1760734206
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Heat|85/100
+|-terastallize|p2a: Arcanine|Normal
+|move|p2a: Arcanine|Extreme Speed|p1a: Rotom
+|-damage|p1a: Rotom|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1760734216
+|move|p2a: Arcanine|Extreme Speed|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760734221
+|switch|p1a: Florges|Florges, F|78/100 par
+|turn|14
+|
+|t:|1760734225
+|move|p2a: Arcanine|Extreme Speed|p1a: Florges
+|-damage|p1a: Florges|22/100 par
+|move|p1a: Florges|Wish|p1a: Florges
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1760734237
+|switch|p1a: Walking Wake|Walking Wake|52/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Arcanine|Extreme Speed|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|chibb forfeited.
+|
+|win|Opistyl
+|raw|chibb's rating: 1273 &rarr; <strong>1247</strong><br />(-26 for losing)
+|raw|Opistyl's rating: 1261 &rarr; <strong>1287</strong><br />(+26 for winning)
+|l|☆chibb
+|player|p1|
+|l|☆Opistyl
+|player|p2|

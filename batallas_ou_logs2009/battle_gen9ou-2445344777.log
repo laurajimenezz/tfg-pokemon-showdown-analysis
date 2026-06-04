@@ -1,0 +1,342 @@
+|j|☆basic_name
+|j|☆Sauronikov
+|t:|1758331809
+|gametype|singles
+|player|p1|basic_name|collector|1378
+|player|p2|Sauronikov|1|1352
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Maushold|
+|poke|p1|Gastrodon, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Ting-Lu|
+|poke|p1|Serperior, F|
+|poke|p1|Weavile, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Rhyperior, M|
+|poke|p2|Revavroom, M|
+|poke|p2|Raikou|
+|poke|p2|Entei|
+|poke|p2|Iron Boulder|
+|teampreview
+|
+|t:|1758331829
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1758331834
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Sauronikov|Reflect
+|move|p1a: Ting-Lu|Ruination|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|50/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758331839
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|move|p1a: Ting-Lu|Spikes|p2a: Iron Boulder
+|-sidestart|p2: Sauronikov|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1758331853
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|move|p2a: Iron Boulder|Agility|p2a: Iron Boulder
+|-boost|p2a: Iron Boulder|spe|2
+|
+|upkeep
+|turn|4
+|
+|t:|1758331858
+|move|p2a: Iron Boulder|Zen Headbutt|p1a: Gastrodon
+|-damage|p1a: Gastrodon|66/100
+|-damage|p2a: Iron Boulder|84/100|[from] item: Rocky Helmet|[of] p1a: Gastrodon
+|move|p1a: Gastrodon|Stealth Rock|p2a: Iron Boulder
+|-sidestart|p2: Sauronikov|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1758331866
+|move|p2a: Iron Boulder|Close Combat|p1a: Gastrodon
+|-damage|p1a: Gastrodon|33/100
+|-unboost|p2a: Iron Boulder|def|1
+|-unboost|p2a: Iron Boulder|spd|1
+|-damage|p2a: Iron Boulder|67/100|[from] item: Rocky Helmet|[of] p1a: Gastrodon
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|83/100
+|
+|upkeep
+|turn|6
+|
+|t:|1758331871
+|move|p2a: Iron Boulder|Zen Headbutt|p1a: Gastrodon
+|-damage|p1a: Gastrodon|51/100
+|-damage|p2a: Iron Boulder|50/100|[from] item: Rocky Helmet|[of] p1a: Gastrodon
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1758331878
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|switch|p2a: Rhyperior|Rhyperior, M, shiny|100/100
+|-damage|p2a: Rhyperior|88/100|[from] Spikes
+|-damage|p2a: Rhyperior|82/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Spikes|p2a: Rhyperior
+|-sidestart|p2: Sauronikov|Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1758331887
+|switch|p1a: Serperior|Serperior, F|100/100
+|move|p2a: Rhyperior|Rock Polish|p2a: Rhyperior
+|-boost|p2a: Rhyperior|spe|2
+|
+|-sideend|p2: Sauronikov|Reflect
+|upkeep
+|turn|9
+|
+|t:|1758331894
+|-terastallize|p2a: Rhyperior|Grass
+|move|p2a: Rhyperior|Ice Punch|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|44/100
+|move|p1a: Serperior|Leech Seed|p2a: Rhyperior
+|-immune|p2a: Rhyperior
+|
+|-heal|p1a: Serperior|50/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758331916
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|move|p2a: Rhyperior|Ice Punch|p1a: Gastrodon
+|-damage|p1a: Gastrodon|81/100
+|-damage|p2a: Rhyperior|65/100|[from] item: Rocky Helmet|[of] p1a: Gastrodon
+|
+|upkeep
+|turn|11
+|
+|t:|1758331925
+|move|p2a: Rhyperior|Tera Blast|p1a: Gastrodon|[anim] Tera Blast Grass
+|-supereffective|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sauronikov)
+|
+|t:|1758331955
+|switch|p1a: Serperior|Serperior, F|50/100
+|turn|12
+|
+|t:|1758331959
+|move|p2a: Rhyperior|Ice Punch|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1758331973
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|13
+|
+|t:|1758331990
+|move|p2a: Rhyperior|Earthquake|p1a: Weavile
+|-damage|p1a: Weavile|13/100
+|move|p1a: Weavile|Icicle Crash|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|15/100
+|-enditem|p2a: Rhyperior|Weakness Policy
+|-boost|p2a: Rhyperior|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Rhyperior|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|14
+|
+|t:|1758331994
+|move|p1a: Weavile|Ice Shard|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|upkeep
+|
+|t:|1758331998
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|50/100
+|-damage|p2a: Grimmsnarl|34/100|[from] Spikes
+|-damage|p2a: Grimmsnarl|22/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1758332004
+|move|p1a: Weavile|Ice Shard|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1758332008
+|switch|p2a: Entei|Entei, shiny|100/100
+|-damage|p2a: Entei|84/100|[from] Spikes
+|-damage|p2a: Entei|59/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1758332013
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Entei|Sacred Fire|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|71/100
+|
+|-heal|p1a: Ting-Lu|77/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758332019
+|move|p2a: Entei|Sacred Fire|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|50/100
+|-status|p1a: Ting-Lu|brn
+|move|p1a: Ting-Lu|Earthquake|p2a: Entei
+|-supereffective|p2a: Entei
+|-damage|p2a: Entei|24/100
+|-enditem|p2a: Entei|Weakness Policy
+|-boost|p2a: Entei|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Entei|spa|2|[from] item: Weakness Policy
+|
+|-heal|p1a: Ting-Lu|56/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|50/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1758332045
+|move|p2a: Entei|Sacred Fire|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1758332047
+|switch|p1a: Weavile|Weavile, M|13/100
+|-ability|p1a: Weavile|Pressure
+|turn|19
+|
+|t:|1758332054
+|-terastallize|p1a: Weavile|Ghost
+|move|p1a: Weavile|Knock Off|p2a: Entei
+|-damage|p2a: Entei|0 fnt
+|faint|p2a: Entei
+|
+|upkeep
+|
+|t:|1758332060
+|switch|p2a: Revavroom|Revavroom, M|100/100
+|-damage|p2a: Revavroom|84/100|[from] Spikes
+|-damage|p2a: Revavroom|78/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1758332079
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Revavroom|High Horsepower|p1a: Zamazenta
+|-damage|p1a: Zamazenta|79/100
+|
+|upkeep
+|turn|21
+|
+|t:|1758332085
+|switch|p2a: Iron Boulder|Iron Boulder|50/100
+|-damage|p2a: Iron Boulder|34/100|[from] Spikes
+|-damage|p2a: Iron Boulder|21/100|[from] Stealth Rock
+|move|p1a: Zamazenta|Close Combat|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758332087
+|switch|p2a: Raikou|Raikou, shiny|100/100
+|-damage|p2a: Raikou|84/100|[from] Spikes
+|-damage|p2a: Raikou|71/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1758332093
+|move|p1a: Zamazenta|Close Combat|p2a: Raikou
+|-damage|p2a: Raikou|1/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Raikou|Agility|p2a: Raikou
+|-boost|p2a: Raikou|spe|2
+|
+|upkeep
+|turn|23
+|
+|t:|1758332099
+|move|p2a: Raikou|Thunderbolt|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1758332101
+|switch|p1a: Weavile|Weavile, M, tera:Ghost|13/100
+|-ability|p1a: Weavile|Pressure
+|turn|24
+|
+|t:|1758332103
+|move|p1a: Weavile|Ice Shard|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|
+|upkeep
+|
+|t:|1758332104
+|switch|p2a: Revavroom|Revavroom, M|78/100
+|-damage|p2a: Revavroom|61/100|[from] Spikes
+|-damage|p2a: Revavroom|55/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1758332107
+|move|p1a: Weavile|Knock Off|p2a: Revavroom
+|-damage|p2a: Revavroom|8/100
+|-enditem|p2a: Revavroom|Weakness Policy|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Revavroom|Gunk Shot|p1a: Weavile|[miss]
+|-miss|p2a: Revavroom|p1a: Weavile
+|
+|upkeep
+|turn|26
+|-message|Sauronikov forfeited.
+|
+|win|basic_name
+|raw|basic_name's rating: 1378 &rarr; <strong>1397</strong><br />(+19 for winning)
+|raw|Sauronikov's rating: 1352 &rarr; <strong>1333</strong><br />(-19 for losing)
+|l|☆Sauronikov
+|player|p2|
+|l|☆basic_name
+|player|p1|
+|j|☆basic_name
+|player|p1|basic_name|collector|

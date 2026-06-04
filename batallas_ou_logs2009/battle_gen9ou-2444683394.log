@@ -1,0 +1,213 @@
+|j|☆aguirre.facuu_
+|j|☆FallenOfR.L
+|t:|1758250708
+|gametype|singles
+|player|p1|aguirre.facuu_|red|1029
+|player|p2|FallenOfR.L|2|1000
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Gliscor, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Maushold-Four|
+|poke|p2|Porygon-Z|
+|poke|p2|Ditto|
+|poke|p2|Dragapult, F|
+|poke|p2|Serperior, M|
+|poke|p2|Manaphy|
+|teampreview
+|
+|t:|1758250716
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|turn|1
+|
+|t:|1758250726
+|move|p2a: Porygon-Z|Nasty Plot|p2a: Porygon-Z
+|-boost|p2a: Porygon-Z|spa|2
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1758250739
+|move|p2a: Porygon-Z|Hyper Beam|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|-mustrecharge|p2a: Porygon-Z
+|faint|p1a: Gliscor
+|-damage|p2a: Porygon-Z|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758250746
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1a: Rillaboom|Grassy Seed
+|-boost|p1a: Rillaboom|def|1|[from] item: Grassy Seed
+|turn|3
+|
+|t:|1758250761
+|cant|p2a: Porygon-Z|recharge
+|move|p1a: Rillaboom|Drain Punch|p2a: Porygon-Z
+|-supereffective|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|7/100
+|
+|-heal|p2a: Porygon-Z|13/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1758250775
+|-terastallize|p2a: Porygon-Z|Electric
+|move|p2a: Porygon-Z|Thunder|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-damage|p2a: Porygon-Z|3/100|[from] item: Life Orb
+|
+|-heal|p2a: Porygon-Z|9/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758250787
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|turn|5
+|
+|t:|1758250799
+|move|p2a: Porygon-Z|Thunder|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|-damage|p2a: Porygon-Z|0 fnt|[from] item: Life Orb
+|faint|p2a: Porygon-Z
+|
+|upkeep
+|
+|t:|1758250815
+|switch|p2a: Ditto|Ditto, shiny|100/100
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-transform|p2a: Ditto|p1a: Dragapult|[from] ability: Imposter
+|turn|6
+|
+|t:|1758250825
+|-terastallize|p1a: Dragapult|Steel
+|move|p1a: Dragapult|Dragon Darts|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|40/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|upkeep
+|
+|t:|1758250841
+|switch|p2a: Serperior|Serperior, M|100/100
+|turn|7
+|
+|t:|1758250847
+|move|p1a: Dragapult|Dragon Darts|p2a: Serperior
+|-damage|p2a: Serperior|76/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Serperior
+|-damage|p2a: Serperior|51/100
+|move|p2a: Serperior|Glare|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|
+|-heal|p2a: Serperior|57/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1758250860
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Serperior|Leech Seed|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|move: Leech Seed
+|
+|-damage|p1a: Grimmsnarl|88/100|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|74/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1758250870
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: aguirre.facuu_|move: Light Screen
+|move|p2a: Serperior|Glare|p1a: Grimmsnarl
+|-status|p1a: Grimmsnarl|par
+|
+|-damage|p1a: Grimmsnarl|75/100 par|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|91/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1758250881
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: aguirre.facuu_|Reflect
+|move|p2a: Serperior|Leaf Storm|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|47/100 par
+|-boost|p2a: Serperior|spa|2
+|
+|-damage|p1a: Grimmsnarl|35/100 par|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|100/100|[silent]
+|upkeep
+|turn|11
+|
+|t:|1758250891
+|move|p2a: Serperior|Leaf Storm|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1758250897
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|12
+|
+|t:|1758250901
+|move|p2a: Serperior|Leaf Storm|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1758250908
+|switch|p1a: Dragapult|Dragapult, M, tera:Steel|100/100 par
+|turn|13
+|
+|t:|1758250911
+|move|p2a: Serperior|Leaf Storm|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|19/100 par
+|cant|p1a: Dragapult|par
+|
+|upkeep
+|turn|14
+|
+|t:|1758250918
+|move|p2a: Serperior|Leaf Storm|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|FallenOfR.L
+|raw|aguirre.facuu_'s rating: 1029 &rarr; <strong>1013</strong><br />(-16 for losing)
+|raw|FallenOfR.L's rating: 1000 &rarr; <strong>1043</strong><br />(+43 for winning)
+|l|☆aguirre.facuu_
+|player|p1|

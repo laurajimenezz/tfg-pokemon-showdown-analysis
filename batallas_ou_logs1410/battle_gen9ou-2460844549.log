@@ -1,0 +1,313 @@
+|j|☆bill1218
+|j|☆dasraybzh
+|t:|1760367641
+|gametype|singles
+|player|p1|bill1218|2|1541
+|player|p2|dasraybzh|volkner|1539
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tinkaton, F|
+|poke|p1|Serperior, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Araquanid, M|
+|poke|p1|Great Tusk|
+|poke|p1|Hawlucha, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Zapdos|
+|poke|p2|Iron Treads|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|
+|t:|1760367653
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Araquanid|Araquanid, M, shiny|100/100
+|switch|p2a: Iron Treads|Iron Treads, shiny|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1760367661
+|move|p2a: Iron Treads|Stealth Rock|p1a: Araquanid
+|-sidestart|p1: bill1218|move: Stealth Rock
+|move|p1a: Araquanid|Liquidation|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760367675
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|2
+|
+|t:|1760367681
+|move|p2a: Pelipper|Hurricane|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|44/100
+|move|p1a: Araquanid|Sticky Web|p2a: Pelipper
+|-sidestart|p2: dasraybzh|move: Sticky Web
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760367687
+|switch|p1a: Tinkaton|Tinkaton, F, shiny|100/100
+|-damage|p1a: Tinkaton|94/100|[from] Stealth Rock
+|move|p2a: Pelipper|Hurricane|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|80/100
+|-start|p1a: Tinkaton|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tinkaton|86/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1760367697
+|-activate|p1a: Tinkaton|confusion
+|-damage|p1a: Tinkaton|80/100|[from] confusion
+|move|p2a: Pelipper|U-turn|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|78/100
+|
+|t:|1760367707
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|-activate|p2a: Ogerpon|move: Sticky Web
+|-unboost|p2a: Ogerpon|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tinkaton|84/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760367714
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Tinkaton|[anim] Ivy Cudgel Water
+|-damage|p1a: Tinkaton|15/100
+|-end|p1a: Tinkaton|confusion
+|move|p1a: Tinkaton|Thunder Wave|p2a: Ogerpon
+|-status|p2a: Ogerpon|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tinkaton|22/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760367722
+|move|p1a: Tinkaton|Stealth Rock|p2a: Ogerpon
+|-sidestart|p2: dasraybzh|move: Stealth Rock
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Tinkaton|[anim] Ivy Cudgel Water
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760367732
+|switch|p1a: Indeedee|Indeedee, M, shiny|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|7
+|
+|t:|1760367738
+|move|p1a: Indeedee|Expanding Force|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760367743
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|-activate|p2a: Goodra|move: Sticky Web
+|-unboost|p2a: Goodra|spe|1
+|-damage|p2a: Goodra|94/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1760367749
+|move|p1a: Indeedee|Expanding Force|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|70/100
+|move|p2a: Goodra|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-enditem|p1a: Indeedee|Choice Specs|[from] move: Knock Off|[of] p2a: Goodra
+|faint|p1a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760367753
+|switch|p1a: Hawlucha|Hawlucha, M, shiny|100/100
+|-damage|p1a: Hawlucha|88/100|[from] Stealth Rock
+|-enditem|p1a: Hawlucha|Psychic Seed
+|-boost|p1a: Hawlucha|spd|1|[from] item: Psychic Seed
+|turn|9
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bill1218)
+|
+|t:|1760367793
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Goodra|Draco Meteor|p1a: Hawlucha
+|-damage|p1a: Hawlucha|20/100
+|-unboost|p2a: Goodra|spa|2
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1760367803
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Hawlucha|Drain Punch|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|51/100
+|-heal|p1a: Hawlucha|34/100|[from] drain|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760367813
+|move|p1a: Hawlucha|Acrobatics|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1760367819
+|switch|p2a: Zapdos|Zapdos, shiny|100/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1760367825
+|move|p1a: Hawlucha|Acrobatics|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|16/100
+|move|p2a: Zapdos|Hurricane|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760367839
+|switch|p1a: Serperior|Serperior, M, shiny|100/100
+|-damage|p1a: Serperior|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1760367843
+|move|p2a: Zapdos|Hurricane|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760367850
+|switch|p1a: Araquanid|Araquanid, M, shiny|44/100
+|-damage|p1a: Araquanid|19/100|[from] Stealth Rock
+|turn|14
+|-enditem|p1a: Araquanid|Custap Berry|[eat]
+|-activate|p1a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1760367854
+|move|p1a: Araquanid|Liquidation|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-status|p1a: Araquanid|par|[from] ability: Static|[of] p2a: Zapdos
+|faint|p2a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760367865
+|switch|p2a: Goodra|Goodra-Hisui, M|70/100
+|-activate|p2a: Goodra|move: Sticky Web
+|-unboost|p2a: Goodra|spe|1
+|-damage|p2a: Goodra|64/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1760367872
+|move|p2a: Goodra|Knock Off|p1a: Araquanid
+|-damage|p1a: Araquanid|4/100 par
+|move|p1a: Araquanid|Liquidation|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|21/100
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Araquanid|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1760367881
+|move|p2a: Goodra|Ice Beam|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760367884
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|turn|17
+|
+|t:|1760367896
+|-terastallize|p1a: Great Tusk|Ghost
+|move|p1a: Great Tusk|Rapid Spin|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|13/100
+|-boost|p1a: Great Tusk|spe|1
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Great Tusk|spe|1
+|-sideend|p1: bill1218|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Goodra|Ice Beam|p1a: Great Tusk
+|-damage|p1a: Great Tusk|54/100
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|t:|1760367908
+|move|p1a: Great Tusk|Rapid Spin|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|3/100
+|-boost|p1a: Great Tusk|spe|1
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Great Tusk|spe|1
+|move|p2a: Goodra|Draco Meteor|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|dasraybzh
+|raw|bill1218's rating: 1541 &rarr; <strong>1521</strong><br />(-20 for losing)
+|raw|dasraybzh's rating: 1539 &rarr; <strong>1559</strong><br />(+20 for winning)
+|l|☆bill1218
+|player|p1|
+|l|☆dasraybzh
+|player|p2|

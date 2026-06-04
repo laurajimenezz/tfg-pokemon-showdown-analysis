@@ -1,0 +1,206 @@
+|j|‽aaagislash
+|j|‽DarkSoul8000
+|t:|1779956340
+|gametype|singles
+|player|p1|aaagislash|266|1357
+|player|p2|DarkSoul8000|101|1381
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cetitan, M|
+|poke|p1|Abomasnow, M|
+|poke|p1|Beartic, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Gengar, M|
+|poke|p1|Scizor, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Walking Wake|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1779956367
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cetitan|Cetitan, M|100/100
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|1
+|
+|t:|1779956378
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Cetitan|Belly Drum|p1a: Cetitan
+|-damage|p1a: Cetitan|51/100
+|-setboost|p1a: Cetitan|atk|6|[from] move: Belly Drum
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cetitan|57/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1779956390
+|-terastallize|p1a: Cetitan|Dark
+|move|p1a: Cetitan|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-enditem|p2a: Torkoal|Eject Button|[from] move: Knock Off|[of] p1a: Cetitan
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cetitan|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779956409
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|3
+|
+|t:|1779956413
+|move|p1a: Cetitan|Ice Shard|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cetitan|69/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779956419
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|4
+|
+|t:|1779956429
+|-terastallize|p2a: Walking Wake|Fairy
+|move|p1a: Cetitan|Ice Shard|p2a: Walking Wake
+|-damage|p2a: Walking Wake|10/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Cetitan
+|-damage|p1a: Cetitan|0 fnt
+|faint|p1a: Cetitan
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779956437
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|-end|p2a: Walking Wake|Protosynthesis
+|turn|5
+|
+|t:|1779956445
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|move|p1a: Abomasnow|Leaf Storm|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|67/100
+|-unboost|p1a: Abomasnow|spa|2
+|-enditem|p1a: Abomasnow|Eject Pack
+|
+|t:|1779956454
+|switch|p1a: Gengar|Gengar, M|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779956468
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Gengar|Toxic Spikes|p2a: Kingambit
+|-sidestart|p2: DarkSoul8000|move: Toxic Spikes
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779956478
+|switch|p1a: Beartic|Beartic, F|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Beartic
+|-damage|p1a: Beartic|43/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1779956503
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Beartic|Swords Dance|p1a: Beartic
+|-boost|p1a: Beartic|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1779956511
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-crit|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-weather|none
+|upkeep
+|
+|t:|1779956519
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|10
+|
+|t:|1779956524
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Weezing|Weezing-Galar, M|67/100
+|move|p1a: Abomasnow|Focus Blast|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|56/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779956535
+|move|p1a: Abomasnow|Blizzard|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779956546
+|switch|p2a: Walking Wake|Walking Wake, tera:Fairy|10/100
+|-status|p2a: Walking Wake|psn
+|turn|12
+|
+|t:|1779956561
+|switch|p1a: Beartic|Beartic, F|43/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|faint|p1a: Beartic
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Walking Wake|0 fnt|[from] psn
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|upkeep
+|-message|aaagislash forfeited.
+|
+|win|DarkSoul8000
+|raw|aaagislash's rating: 1357 &rarr; <strong>1338</strong><br />(-19 for losing)
+|raw|DarkSoul8000's rating: 1381 &rarr; <strong>1400</strong><br />(+19 for winning)
+|l|‽aaagislash
+|player|p1|
+|l|‽DarkSoul8000
+|player|p2|

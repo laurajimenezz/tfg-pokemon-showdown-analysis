@@ -1,0 +1,289 @@
+|j|☆HZBKAI7
+|j|☆boredbattle
+|t:|1760767107
+|gametype|singles
+|player|p1|HZBKAI7|2|1060
+|player|p2|boredbattle|170|1082
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Diancie|
+|poke|p1|Rillaboom, F|
+|poke|p1|Necrozma|
+|poke|p1|Corviknight, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Hands|
+|poke|p2|Cinccino, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Slaking, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Smeargle, F|
+|poke|p2|Cyclizar, M|
+|teampreview
+|
+|t:|1760767138
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Slaking|Slaking, M|100/100
+|turn|1
+|
+|t:|1760767147
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Slaking|[anim] Ivy Cudgel Water
+|-crit|p2a: Slaking
+|-damage|p2a: Slaking|27/100
+|move|p2a: Slaking|Knock Off|p1a: Ogerpon
+|-damage|p1a: Ogerpon|44/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760767156
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Slaking|[anim] Ivy Cudgel Water
+|-damage|p2a: Slaking|0 fnt
+|faint|p2a: Slaking
+|
+|upkeep
+|
+|t:|1760767159
+|switch|p2a: Cyclizar|Cyclizar, M|100/100
+|turn|3
+|
+|t:|1760767161
+|move|p2a: Cyclizar|U-turn|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|1/100
+|
+|t:|1760767167
+|switch|p2a: Cinccino|Cinccino, M|100/100|[from] U-turn
+|move|p1a: Ogerpon|Knock Off|p2a: Cinccino
+|-damage|p2a: Cinccino|37/100
+|-enditem|p2a: Cinccino|Loaded Dice|[from] move: Knock Off|[of] p1a: Ogerpon
+|
+|upkeep
+|turn|4
+|
+|t:|1760767174
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Cinccino|[anim] Ivy Cudgel Water
+|-damage|p2a: Cinccino|0 fnt
+|faint|p2a: Cinccino
+|
+|upkeep
+|
+|t:|1760767180
+|switch|p2a: Cyclizar|Cyclizar, M|100/100
+|turn|5
+|
+|t:|1760767184
+|move|p2a: Cyclizar|U-turn|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|t:|1760767187
+|switch|p2a: Smeargle|Smeargle, F|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1760767187
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|6
+|
+|t:|1760767194
+|move|p2a: Smeargle|Hyper Voice|p1a: Iron Hands
+|-damage|p1a: Iron Hands|45/100
+|move|p1a: Iron Hands|Drain Punch|p2a: Smeargle
+|-immune|p2a: Smeargle
+|
+|upkeep
+|turn|7
+|
+|t:|1760767199
+|move|p2a: Smeargle|Hyper Voice|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760767200
+|switch|p1a: Diancie|Diancie|100/100
+|turn|8
+|
+|t:|1760767204
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|move|p1a: Diancie|Ancient Power|p2a: Ursaluna
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|88/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|t:|1760767213
+|move|p1a: Diancie|Draining Kiss|p2a: Ursaluna
+|-damage|p2a: Ursaluna|67/100 brn
+|move|p2a: Ursaluna|Body Press|p1a: Diancie
+|-damage|p1a: Diancie|73/100
+|-damage|p2a: Ursaluna|50/100 brn|[from] item: Rocky Helmet|[of] p1a: Diancie
+|
+|-damage|p2a: Ursaluna|44/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1760767221
+|move|p1a: Diancie|Draining Kiss|p2a: Ursaluna
+|-damage|p2a: Ursaluna|22/100 brn
+|-heal|p1a: Diancie|100/100|[from] drain|[of] p2a: Ursaluna
+|move|p2a: Ursaluna|Earthquake|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|-damage|p2a: Ursaluna|16/100 brn|[from] brn
+|upkeep
+|
+|t:|1760767221
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|11
+|
+|t:|1760767226
+|move|p1a: Rillaboom|Grassy Glide|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1760767228
+|switch|p2a: Smeargle|Smeargle, F|100/100
+|turn|12
+|
+|t:|1760767231
+|move|p2a: Smeargle|Baneful Bunker|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Protect
+|move|p1a: Rillaboom|Grassy Glide|p2a: Smeargle
+|-activate|p2a: Smeargle|move: Protect
+|-status|p1a: Rillaboom|psn
+|
+|-damage|p1a: Rillaboom|88/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1760767243
+|move|p1a: Rillaboom|Grassy Glide|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|move|p2a: Smeargle|Sticky Web|p1a: Rillaboom
+|-sidestart|p1: HZBKAI7|move: Sticky Web
+|
+|-heal|p2a: Smeargle|7/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|94/100 psn|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|82/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1760767248
+|move|p2a: Smeargle|Toxic Spikes|p1a: Rillaboom
+|-sidestart|p1: HZBKAI7|move: Toxic Spikes
+|move|p1a: Rillaboom|U-turn|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|t:|1760767248
+|switch|p1a: Corviknight|Corviknight, M|100/100|[from] U-turn
+|-ability|p1a: Corviknight|Pressure
+|
+|upkeep
+|
+|t:|1760767259
+|switch|p2a: Cyclizar|Cyclizar, M|100/100
+|turn|15
+|
+|t:|1760767264
+|move|p2a: Cyclizar|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|9/100
+|move|p1a: Corviknight|Brave Bird|p2a: Cyclizar
+|-crit|p2a: Cyclizar
+|-damage|p2a: Cyclizar|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|-damage|p1a: Corviknight|0 fnt|[from] Recoil
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1760767270
+|switch|p2a: Cyclizar|Cyclizar, M|100/100
+|switch|p1a: Rillaboom|Rillaboom, F|82/100 psn
+|-activate|p1a: Rillaboom|move: Sticky Web
+|-unboost|p1a: Rillaboom|spe|1
+|turn|16
+|
+|t:|1760767274
+|move|p2a: Cyclizar|U-turn|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|50/100 psn
+|move|p1a: Rillaboom|U-turn|p2a: Cyclizar
+|-damage|p2a: Cyclizar|62/100
+|
+|t:|1760767274
+|switch|p1a: Necrozma|Necrozma|100/100|[from] U-turn
+|-activate|p1a: Necrozma|move: Sticky Web
+|-unboost|p1a: Necrozma|spe|1
+|-status|p1a: Necrozma|psn
+|
+|-heal|p2a: Cyclizar|68/100|[from] Grassy Terrain
+|-damage|p1a: Necrozma|88/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1760767279
+|move|p2a: Cyclizar|Knock Off|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|60/100 psn
+|-enditem|p1a: Necrozma|Leftovers|[from] move: Knock Off|[of] p2a: Cyclizar
+|move|p1a: Necrozma|Expanding Force|p2a: Cyclizar
+|-damage|p2a: Cyclizar|3/100
+|
+|-heal|p2a: Cyclizar|10/100|[from] Grassy Terrain
+|-heal|p1a: Necrozma|66/100 psn|[from] Grassy Terrain
+|-damage|p1a: Necrozma|54/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1760767283
+|move|p2a: Cyclizar|Draco Meteor|p1a: Necrozma
+|-damage|p1a: Necrozma|15/100 psn
+|-unboost|p2a: Cyclizar|spa|2
+|move|p1a: Necrozma|Expanding Force|p2a: Cyclizar
+|-damage|p2a: Cyclizar|0 fnt
+|faint|p2a: Cyclizar
+|
+|win|HZBKAI7
+|raw|HZBKAI7's rating: 1060 &rarr; <strong>1093</strong><br />(+33 for winning)
+|raw|boredbattle's rating: 1082 &rarr; <strong>1058</strong><br />(-24 for losing)
+|l|☆HZBKAI7
+|player|p1|
+|l|☆boredbattle
+|player|p2|

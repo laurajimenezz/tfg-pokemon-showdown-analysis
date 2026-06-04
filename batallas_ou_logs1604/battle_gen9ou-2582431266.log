@@ -1,0 +1,901 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆montedyne
+|j|☆Wooper19
+|t:|1776091245
+|gametype|singles
+|player|p1|montedyne|1|1051
+|player|p2|Wooper19|miku-ghost|1000
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ceruledge, F|
+|poke|p1|Zapdos|
+|poke|p1|Gliscor, F|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Darkrai|
+|poke|p1|Clefable, M|
+|poke|p2|Dondozo, F|
+|poke|p2|Blissey, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Gliscor, F|
+|poke|p2|Toxapex, F|
+|teampreview
+|j| ohko_smeargle
+|
+|t:|1776091264
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1776091301
+|switch|p1a: Zapdos|Zapdos, shiny|100/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Zapdos
+|-status|p1a: Zapdos|brn
+|
+|-damage|p1a: Zapdos|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1776091313
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Gliscor|Gliscor, F, shiny|100/100
+|move|p1a: Zapdos|Hurricane|p2a: Gliscor
+|-damage|p2a: Gliscor|64/100
+|
+|-damage|p1a: Zapdos|88/100 brn|[from] brn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1776091329
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1776091343
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Clefable|Stealth Rock|p2a: Blissey
+|-sidestart|p2: Wooper19|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1776091385
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Blissey|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: montedyne|move: Stealth Rock
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1776091394
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|-damage|p1a: Gliscor|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1776091418
+|-terastallize|p2a: Weezing|Ghost
+|move|p1a: Gliscor|Facade|p2a: Weezing
+|-immune|p2a: Weezing
+|move|p2a: Weezing|Defog|p1a: Gliscor
+|-unboost|p1a: Gliscor|evasion|1
+|-sideend|p1: montedyne|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|-sideend|p2: Wooper19|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|-damage|p1a: Gliscor|82/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1776091427
+|move|p1a: Gliscor|Knock Off|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|45/100
+|-enditem|p2a: Weezing|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Weezing|Toxic Spikes|p1a: Gliscor
+|-sidestart|p1: montedyne|move: Toxic Spikes
+|
+|-damage|p1a: Gliscor|63/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1776091493
+|switch|p1a: Darkrai|Darkrai, shiny|100/100
+|move|p2a: Weezing|Pain Split|p1a: Darkrai
+|-sethp|p1a: Darkrai|77/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|65/100|[from] move: Pain Split
+|
+|upkeep
+|turn|10
+|
+|t:|1776091512
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Darkrai|Will-O-Wisp|p2a: Blissey
+|-status|p2a: Blissey|brn
+|
+|-damage|p2a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1776091527
+|switch|p1a: Gliscor|Gliscor, F|63/100 tox
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|-heal|p2a: Blissey|100/100 brn|[from] item: Leftovers
+|-heal|p1a: Gliscor|75/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1776091544
+|move|p1a: Gliscor|Knock Off|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|61/100 brn
+|-enditem|p2a: Blissey|Leftovers|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Blissey|Seismic Toss|p1a: Gliscor
+|-damage|p1a: Gliscor|47/100 tox
+|
+|-heal|p1a: Gliscor|60/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Blissey|55/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1776091554
+|-curestatus|p2a: Blissey|brn|[from] ability: Natural Cure
+|switch|p2a: Weezing|Weezing-Galar, M, tera:Ghost|65/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|-damage|p1a: Gliscor|41/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1776091576
+|switch|p1a: Darkrai|Darkrai, shiny|77/100
+|move|p2a: Weezing|Toxic Spikes|p1a: Darkrai
+|-sidestart|p1: montedyne|move: Toxic Spikes
+|
+|upkeep
+|turn|15
+|
+|t:|1776091588
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|16
+|
+|t:|1776091600
+|move|p1a: Samurott|Razor Shell|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|-unboost|p2a: Corviknight|def|1
+|move|p2a: Corviknight|Body Press|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|58/100
+|
+|-heal|p2a: Corviknight|74/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1776091620
+|switch|p1a: Clefable|Clefable, M|100/100
+|-status|p1a: Clefable|tox
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-heal|p2a: Corviknight|80/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1776091638
+|switch|p2a: Dondozo|Dondozo, F, shiny|100/100
+|move|p1a: Clefable|Thunder Wave|p2a: Dondozo
+|-status|p2a: Dondozo|par
+|
+|upkeep
+|turn|19
+|
+|t:|1776091650
+|move|p1a: Clefable|Moonblast|p2a: Dondozo
+|-crit|p2a: Dondozo
+|-damage|p2a: Dondozo|58/100 par
+|cant|p2a: Dondozo|par
+|
+|-heal|p2a: Dondozo|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1776091656
+|move|p1a: Clefable|Moonblast|p2a: Dondozo
+|-damage|p2a: Dondozo|33/100 par
+|cant|p2a: Dondozo|par
+|
+|-heal|p2a: Dondozo|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1776091663
+|switch|p2a: Corviknight|Corviknight, F|80/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Clefable|Moonblast|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|65/100
+|-unboost|p2a: Corviknight|spa|1
+|
+|-heal|p2a: Corviknight|71/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1776091677
+|switch|p2a: Gliscor|Gliscor, F, shiny|76/100 tox
+|switch|p1a: Zapdos|Zapdos, shiny|88/100 brn
+|
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Zapdos|82/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1776091692
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100 brn
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Gliscor|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|85/100 brn
+|-enditem|p1a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Zapdos|79/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1776091705
+|move|p1a: Zapdos|Hurricane|p2a: Gliscor|[miss]
+|-miss|p1a: Zapdos|p2a: Gliscor
+|move|p2a: Gliscor|Spikes|p1a: Zapdos
+|-sidestart|p1: montedyne|Spikes
+|
+|-damage|p1a: Zapdos|73/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1776091711
+|move|p1a: Zapdos|Hurricane|p2a: Gliscor
+|-damage|p2a: Gliscor|62/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-heal|p2a: Gliscor|74/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Zapdos|67/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1776091719
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Zapdos|Hurricane|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|87/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Zapdos|61/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1776091729
+|move|p1a: Zapdos|Hurricane|p2a: Gliscor
+|-damage|p2a: Gliscor|47/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-heal|p2a: Gliscor|60/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Zapdos|55/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1776091738
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100 brn
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-heal|p2a: Gliscor|72/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Zapdos|94/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1776091747
+|move|p1a: Zapdos|Hurricane|p2a: Gliscor
+|-damage|p2a: Gliscor|37/100 tox
+|move|p2a: Gliscor|Spikes|p1a: Zapdos
+|-sidestart|p1: montedyne|Spikes
+|
+|-heal|p2a: Gliscor|49/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Zapdos|88/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1776091759
+|switch|p2a: Dondozo|Dondozo, F, shiny|39/100 par
+|move|p1a: Zapdos|Hurricane|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|-damage|p1a: Zapdos|82/100 brn|[from] brn
+|upkeep
+|
+|t:|1776091774
+|switch|p2a: Gliscor|Gliscor, F, shiny|49/100 tox
+|turn|31
+|
+|t:|1776091780
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Zapdos|Hurricane|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|62/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Zapdos|76/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1776091790
+|switch|p2a: Corviknight|Corviknight, F|71/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Zapdos|Hurricane|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|48/100
+|
+|-heal|p2a: Corviknight|55/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|70/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1776091803
+|move|p1a: Zapdos|Thunder Wave|p2a: Corviknight
+|-status|p2a: Corviknight|par
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100 par
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p1a: Zapdos|64/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1776091812
+|move|p1a: Zapdos|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|41/100 par
+|
+|t:|1776091833
+|switch|p1a: Gliscor|Gliscor, F|41/100 tox|[from] Volt Switch
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-heal|p2a: Corviknight|48/100 par|[from] item: Leftovers
+|-heal|p1a: Gliscor|53/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|35
+|
+|t:|1776091847
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|cant|p2a: Corviknight|par
+|
+|-heal|p2a: Corviknight|54/100 par|[from] item: Leftovers
+|-heal|p1a: Gliscor|66/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|36
+|
+|t:|1776091855
+|move|p1a: Gliscor|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|40/100 par
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Gliscor
+|cant|p2a: Corviknight|par
+|
+|-heal|p1a: Gliscor|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|37
+|
+|t:|1776091862
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Corviknight|Body Press|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|57/100 tox
+|
+|-heal|p1a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|38
+|
+|t:|1776091871
+|move|p1a: Gliscor|Facade|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|27/100 par
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|77/100 par
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p1a: Gliscor|82/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|39
+|
+|t:|1776091880
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|cant|p2a: Corviknight|par
+|
+|-heal|p1a: Gliscor|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|40
+|
+|t:|1776091886
+|move|p1a: Gliscor|Facade|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|60/100 par
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|41
+|
+|t:|1776091900
+|switch|p1a: Zapdos|Zapdos, shiny|64/100 brn
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-damage|p1a: Zapdos|58/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1776091909
+|switch|p2a: Gliscor|Gliscor, F, shiny|62/100 tox
+|move|p1a: Zapdos|Volt Switch|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|74/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Zapdos|52/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|t:|1776091926
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100 brn
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-heal|p2a: Gliscor|87/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Zapdos|94/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1776091939
+|switch|p2a: Weezing|Weezing-Galar, M, tera:Ghost|65/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Zapdos|Hurricane|p2a: Weezing|[miss]
+|-miss|p1a: Zapdos|p2a: Weezing
+|
+|-damage|p1a: Zapdos|88/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1776091947
+|move|p1a: Zapdos|Volt Switch|p2a: Weezing
+|-damage|p2a: Weezing|27/100
+|
+|t:|1776091959
+|switch|p1a: Darkrai|Darkrai, shiny|77/100|[from] Volt Switch
+|move|p2a: Weezing|Pain Split|p1a: Darkrai
+|-sethp|p1a: Darkrai|54/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|46/100|[from] move: Pain Split
+|
+|upkeep
+|turn|46
+|
+|t:|1776091976
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|move|p1a: Darkrai|Ice Beam|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|90/100
+|
+|-heal|p2a: Toxapex|97/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|t:|1776091984
+|move|p1a: Darkrai|Will-O-Wisp|p2a: Toxapex
+|-status|p2a: Toxapex|brn
+|move|p2a: Toxapex|Poison Jab|p1a: Darkrai
+|-damage|p1a: Darkrai|43/100
+|-status|p1a: Darkrai|psn
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Darkrai|31/100 psn|[from] psn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|t:|1776092006
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox
+|move|p2a: Toxapex|Poison Jab|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|97/100 tox
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Leftovers
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|t:|1776092016
+|move|p1a: Gliscor|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|78/100 brn
+|-enditem|p2a: Toxapex|Leftovers|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Toxapex|72/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|t:|1776092032
+|switch|p1a: Zapdos|Zapdos, shiny|88/100 brn
+|switch|p2a: Gliscor|Gliscor, F, shiny|87/100 tox
+|
+|-heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Zapdos|82/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|t:|1776092048
+|move|p1a: Zapdos|Hurricane|p2a: Gliscor
+|-damage|p2a: Gliscor|60/100 tox
+|move|p2a: Gliscor|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|71/100 brn
+|
+|-heal|p2a: Gliscor|73/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Zapdos|65/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|t:|1776092080
+|switch|p1a: Clefable|Clefable, M|100/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|75/100 tox
+|
+|-heal|p1a: Clefable|81/100 tox|[from] item: Leftovers
+|-heal|p2a: Gliscor|85/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|53
+|
+|t:|1776092099
+|move|p2a: Gliscor|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|74/100 tox
+|-enditem|p1a: Clefable|Leftovers|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Clefable|Moonblast|p2a: Gliscor
+|-damage|p2a: Gliscor|60/100 tox
+|-unboost|p2a: Gliscor|spa|1
+|
+|-heal|p2a: Gliscor|73/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|54
+|
+|t:|1776092109
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Clefable|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: Wooper19|move: Stealth Rock
+|
+|-heal|p2a: Gliscor|85/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|55
+|
+|t:|1776092116
+|switch|p2a: Weezing|Weezing-Galar, M, tera:Ghost|46/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-damage|p2a: Weezing|33/100|[from] Stealth Rock
+|move|p1a: Clefable|Moonblast|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1776092127
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100 brn
+|-damage|p2a: Toxapex|88/100 brn|[from] Stealth Rock
+|turn|56
+|
+|t:|1776092141
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox
+|move|p2a: Toxapex|Poison Jab|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|97/100 tox
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Toxapex|82/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|t:|1776092169
+|switch|p2a: Corviknight|Corviknight, F|60/100 par
+|-damage|p2a: Corviknight|47/100 par|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|upkeep
+|turn|58
+|
+|t:|1776092204
+|switch|p1a: Zapdos|Zapdos, shiny|65/100 brn
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-damage|p1a: Zapdos|59/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|t:|1776092213
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100 brn
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|97/100 par
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p1a: Zapdos|94/100 brn|[from] brn
+|upkeep
+|turn|60
+|
+|t:|1776092260
+|switch|p1a: Samurott|Samurott-Hisui, F|58/100
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|upkeep
+|turn|61
+|
+|t:|1776092272
+|move|p1a: Samurott|Encore|p2a: Corviknight
+|-start|p2a: Corviknight|Encore
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|upkeep
+|turn|62
+|
+|t:|1776092315
+|switch|p1a: Zapdos|Zapdos, shiny|94/100 brn
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|0
+|
+|-damage|p1a: Zapdos|88/100 brn|[from] brn
+|upkeep
+|turn|63
+|
+|t:|1776092322
+|move|p1a: Zapdos|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|42/100 par
+|
+|t:|1776092327
+|switch|p1a: Darkrai|Darkrai, shiny|31/100 psn|[from] Volt Switch
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|0
+|
+|-damage|p1a: Darkrai|18/100 psn|[from] psn
+|-end|p2a: Corviknight|Encore
+|upkeep
+|turn|64
+|
+|t:|1776092337
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100 brn
+|-damage|p2a: Toxapex|88/100 brn|[from] Stealth Rock
+|move|p1a: Darkrai|Ice Beam|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|78/100 brn
+|
+|-damage|p1a: Darkrai|6/100 psn|[from] psn
+|-damage|p2a: Toxapex|72/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|t:|1776092353
+|move|p1a: Darkrai|Dark Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|42/100 brn
+|cant|p2a: Toxapex|flinch
+|
+|-damage|p1a: Darkrai|0 fnt|[from] psn
+|faint|p1a: Darkrai
+|-damage|p2a: Toxapex|36/100 brn|[from] brn
+|upkeep
+|
+|t:|1776092380
+|switch|p1a: Zapdos|Zapdos, shiny|88/100 brn
+|turn|66
+|
+|t:|1776092387
+|switch|p2a: Blissey|Blissey, F|55/100
+|-damage|p2a: Blissey|42/100|[from] Stealth Rock
+|move|p1a: Zapdos|Hurricane|p2a: Blissey
+|-damage|p2a: Blissey|28/100
+|
+|-damage|p1a: Zapdos|82/100 brn|[from] brn
+|upkeep
+|turn|67
+|
+|t:|1776092397
+|move|p1a: Zapdos|Thunder Wave|p2a: Blissey
+|-status|p2a: Blissey|par
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|78/100 par
+|
+|-damage|p1a: Zapdos|76/100 brn|[from] brn
+|upkeep
+|turn|68
+|
+|t:|1776092406
+|switch|p1a: Samurott|Samurott-Hisui, F|58/100
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|upkeep
+|turn|69
+|
+|t:|1776092413
+|move|p1a: Samurott|Ceaseless Edge|p2a: Blissey
+|-damage|p2a: Blissey|31/100 par
+|-sidestart|p2: Wooper19|Spikes
+|move|p2a: Blissey|Seismic Toss|p1a: Samurott
+|-damage|p1a: Samurott|26/100
+|
+|upkeep
+|turn|70
+|
+|t:|1776092425
+|-curestatus|p2a: Blissey|par|[from] ability: Natural Cure
+|switch|p2a: Toxapex|Toxapex, F, shiny|69/100 brn
+|-damage|p2a: Toxapex|56/100 brn|[from] Stealth Rock
+|-damage|p2a: Toxapex|44/100 brn|[from] Spikes
+|move|p1a: Samurott|Ceaseless Edge|p2a: Toxapex
+|-damage|p2a: Toxapex|9/100 brn
+|-sidestart|p2: Wooper19|Spikes
+|
+|-damage|p2a: Toxapex|3/100 brn|[from] brn
+|upkeep
+|turn|71
+|
+|t:|1776092441
+|switch|p2a: Gliscor|Gliscor, F, shiny|85/100 tox
+|-damage|p2a: Gliscor|73/100 tox|[from] Stealth Rock
+|move|p1a: Samurott|Ceaseless Edge|p2a: Gliscor|[miss]
+|-miss|p1a: Samurott|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|85/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|72
+|
+|t:|1776092450
+|move|p1a: Samurott|Razor Shell|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|5/100 tox
+|move|p2a: Gliscor|Knock Off|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|12/100
+|-enditem|p1a: Samurott|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|18/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|73
+|
+|t:|1776092461
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Samurott|Razor Shell|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|30/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|74
+|
+|t:|1776092474
+|switch|p2a: Toxapex|Toxapex, F, shiny|36/100 brn
+|-damage|p2a: Toxapex|24/100 brn|[from] Stealth Rock
+|-damage|p2a: Toxapex|7/100 brn|[from] Spikes
+|move|p1a: Samurott|Ceaseless Edge|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|-sidestart|p2: Wooper19|Spikes
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|t:|1776092484
+|switch|p2a: Blissey|Blissey, F|31/100
+|-damage|p2a: Blissey|19/100|[from] Stealth Rock
+|-damage|p2a: Blissey|0 fnt|[from] Spikes
+|faint|p2a: Blissey
+|
+|t:|1776092490
+|switch|p2a: Gliscor|Gliscor, F, shiny|30/100 tox
+|-damage|p2a: Gliscor|18/100 tox|[from] Stealth Rock
+|turn|75
+|
+|t:|1776092494
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Samurott|Razor Shell|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|30/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|76
+|
+|t:|1776092502
+|switch|p2a: Corviknight|Corviknight, F|42/100 par
+|-damage|p2a: Corviknight|29/100 par|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Samurott|Razor Shell|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1776092511
+|switch|p2a: Gliscor|Gliscor, F, shiny|30/100 tox
+|-damage|p2a: Gliscor|18/100 tox|[from] Stealth Rock
+|turn|77
+|
+|t:|1776092515
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Samurott|Razor Shell|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|30/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|78
+|
+|t:|1776092522
+|move|p1a: Samurott|Razor Shell|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|win|montedyne
+|raw|montedyne's rating: 1051 &rarr; <strong>1079</strong><br />(+28 for winning)
+|raw|Wooper19's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|c|☆montedyne|ggs

@@ -1,0 +1,272 @@
+|j|☆zh199
+|j|☆Treadmill2000
+|t:|1760351348
+|gametype|singles
+|player|p1|zh199|101|1249
+|player|p2|Treadmill2000|101|1271
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torterra, F|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Ceruledge, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Gholdengo|
+|poke|p2|Kleavor, F|
+|poke|p2|Alomomola, F|
+|teampreview
+|
+|t:|1760351356
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Torterra|Torterra, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1760351366
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Rillaboom|Wood Hammer|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|64/100
+|-damage|p2a: Rillaboom|89/100|[from] Recoil
+|
+|-heal|p2a: Rillaboom|95/100|[from] Grassy Terrain
+|-heal|p1a: Weezing|70/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1760351377
+|move|p2a: Rillaboom|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|65/100
+|
+|t:|1760351387
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|move|p1a: Weezing|Defog|p2a: Gholdengo
+|-unboost|p2a: Gholdengo|evasion|1
+|-fieldend|move: Grassy Terrain
+|
+|upkeep
+|turn|3
+|
+|t:|1760351397
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-enditem|p1a: Ceruledge|Focus Sash
+|-damage|p1a: Ceruledge|1/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760351407
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Ceruledge|Poltergeist|p2a: Samurott|[miss]
+|-miss|p1a: Ceruledge|p2a: Samurott
+|
+|upkeep
+|turn|5
+|
+|t:|1760351415
+|move|p2a: Samurott|Aqua Jet|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|upkeep
+|
+|t:|1760351419
+|switch|p1a: Torterra|Torterra, F|100/100
+|turn|6
+|
+|t:|1760351426
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|move|p1a: Torterra|Bullet Seed|p2a: Kleavor
+|-damage|p2a: Kleavor|84/100
+|-damage|p2a: Kleavor|68/100
+|-damage|p2a: Kleavor|51/100
+|-damage|p2a: Kleavor|35/100
+|-damage|p2a: Kleavor|19/100
+|-hitcount|p2a: Kleavor|5
+|
+|upkeep
+|turn|7
+|
+|t:|1760351440
+|move|p2a: Kleavor|U-turn|p1a: Torterra
+|-supereffective|p1a: Torterra
+|-damage|p1a: Torterra|28/100
+|
+|t:|1760351447
+|switch|p2a: Rillaboom|Rillaboom, M|95/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Torterra|Shell Smash|p1a: Torterra
+|-unboost|p1a: Torterra|def|1
+|-unboost|p1a: Torterra|spd|1
+|-boost|p1a: Torterra|atk|2
+|-boost|p1a: Torterra|spa|2
+|-boost|p1a: Torterra|spe|2
+|
+|-heal|p1a: Torterra|34/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1760351459
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Rillaboom|Grassy Glide|p1a: Ninetales
+|-damage|p1a: Ninetales|63/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ninetales|68/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zh199)
+|
+|t:|1760351478
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: zh199|move: Aurora Veil
+|move|p2a: Rillaboom|U-turn|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|61/100
+|
+|t:|1760351482
+|switch|p2a: Alomomola|Alomomola, F|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ninetales|67/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1760351491
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760351503
+|move|p2a: Alomomola|Flip Turn|p1a: Hatterene
+|-damage|p1a: Hatterene|92/100
+|
+|t:|1760351508
+|switch|p2a: Kleavor|Kleavor, F|19/100|[from] Flip Turn
+|move|p1a: Hatterene|Psychic Noise|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Hatterene|98/100|[from] Grassy Terrain
+|-heal|p1a: Hatterene|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760351520
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|12
+|
+|t:|1760351524
+|move|p2a: Gholdengo|Make It Rain|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Hatterene
+|
+|-weather|none
+|upkeep
+|inactive|zh199 has 120 seconds left.
+|
+|t:|1760351554
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|13
+|
+|t:|1760351566
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|14
+|
+|t:|1760351574
+|-terastallize|p1a: Dragonite|Flying
+|move|p1a: Dragonite|Tera Blast|p2a: Samurott|[anim] Tera Blast Flying
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1760351584
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|15
+|
+|t:|1760351588
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|16
+|
+|t:|1760351594
+|move|p1a: Dragonite|Tera Blast|p2a: Alomomola|[anim] Tera Blast Flying
+|-damage|p2a: Alomomola|30/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-sideend|p1: zh199|move: Aurora Veil
+|upkeep
+|turn|17
+|
+|t:|1760351601
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|18
+|
+|t:|1760351608
+|move|p1a: Dragonite|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1760351615
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|19
+|-message|Treadmill2000 forfeited.
+|
+|win|zh199
+|raw|zh199's rating: 1249 &rarr; <strong>1276</strong><br />(+27 for winning)
+|raw|Treadmill2000's rating: 1271 &rarr; <strong>1244</strong><br />(-27 for losing)
+|l|☆Treadmill2000
+|player|p2|
+|l|☆zh199
+|player|p1|

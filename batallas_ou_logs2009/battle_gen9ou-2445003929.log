@@ -1,0 +1,354 @@
+|j|☆dicolibri
+|j|‽malk tyme
+|t:|1758295406
+|gametype|singles
+|player|p1|dicolibri|hiker|1540
+|player|p2|malk tyme|2|1595
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mesprit|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Hands|
+|poke|p1|Ursaluna, F|
+|poke|p1|Volcanion|
+|poke|p1|Hoopa-Unbound|
+|poke|p2|Golem, M|
+|poke|p2|Clawitzer, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Zapdos|
+|poke|p2|Clefable, M|
+|poke|p2|Tinkaton, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dicolibri)
+|
+|t:|1758295429
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1758295436
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Iron Hands|Swords Dance|p1a: Iron Hands
+|-boost|p1a: Iron Hands|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1758295445
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Iron Hands|Ice Punch|p2a: Clefable
+|-damage|p2a: Clefable|68/100
+|-status|p2a: Clefable|frz
+|
+|-heal|p2a: Clefable|74/100 frz|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1758295453
+|switch|p2a: Golem|Golem, M|100/100
+|move|p1a: Iron Hands|Thunder Punch|p2a: Golem
+|-immune|p2a: Golem
+|
+|upkeep
+|turn|4
+|
+|t:|1758295457
+|move|p2a: Golem|Earthquake|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758295462
+|switch|p1a: Mesprit|Mesprit|100/100
+|turn|5
+|
+|t:|1758295466
+|switch|p2a: Clefable|Clefable, M|74/100 frz
+|move|p1a: Mesprit|Stealth Rock|p2a: Clefable
+|-sidestart|p2: malk tyme|move: Stealth Rock
+|
+|-heal|p2a: Clefable|80/100 frz|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1758295470
+|cant|p2a: Clefable|frz
+|move|p1a: Mesprit|Trick Room|p1a: Mesprit
+|-fieldstart|move: Trick Room|[of] p1a: Mesprit
+|
+|-heal|p2a: Clefable|86/100 frz|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758295473
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|cant|p2a: Clefable|frz
+|
+|-heal|p2a: Clefable|92/100 frz|[from] item: Leftovers
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1758295481
+|move|p1a: Ursaluna|Facade|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1758295489
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|9
+|
+|t:|1758295494
+|move|p1a: Ursaluna|Headlong Rush|p2a: Zapdos
+|-immune|p2a: Zapdos
+|move|p2a: Zapdos|Roost||[still]
+|-fail|p2a: Zapdos|heal
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1758295504
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|move|p2a: Zapdos|Hurricane|p1a: Ursaluna
+|-damage|p1a: Ursaluna|45/100 brn
+|-start|p1a: Ursaluna|confusion
+|
+|-damage|p1a: Ursaluna|39/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1758295513
+|switch|p1a: Mesprit|Mesprit|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Mesprit
+|-damage|p1a: Mesprit|70/100
+|
+|upkeep
+|turn|12
+|
+|t:|1758295520
+|move|p2a: Zapdos|Discharge|p1a: Mesprit
+|-damage|p1a: Mesprit|48/100
+|move|p1a: Mesprit|Trick Room|p1a: Mesprit
+|-fieldstart|move: Trick Room|[of] p1a: Mesprit
+|
+|upkeep
+|turn|13
+|
+|t:|1758295529
+|move|p1a: Mesprit|Healing Wish|p1a: Mesprit
+|faint|p1a: Mesprit
+|move|p2a: Zapdos|Hurricane|p1: Mesprit|[notarget]
+|-fail|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1758295533
+|switch|p1a: Ursaluna|Ursaluna, F|39/100 brn
+|-heal|p1a: Ursaluna|100/100|[from] move: Healing Wish
+|turn|14
+|
+|t:|1758295538
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|move|p2a: Zapdos|Hurricane|p1a: Ursaluna
+|-damage|p1a: Ursaluna|62/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|15
+|
+|t:|1758295555
+|move|p1a: Ursaluna|Facade|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-damage|p1a: Ursaluna|56/100 brn|[from] brn
+|upkeep
+|
+|t:|1758295560
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|16
+|
+|t:|1758295574
+|move|p1a: Ursaluna|Headlong Rush|p2a: Tinkaton
+|-supereffective|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Tinkaton
+|
+|-damage|p1a: Ursaluna|50/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758295577
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|17
+|
+|t:|1758295584
+|move|p2a: Cinderace|Low Kick|p1a: Ursaluna
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1758295600
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|18
+|
+|t:|1758295603
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|19
+|
+|t:|1758295610
+|switch|p1a: Volcanion|Volcanion|100/100
+|-damage|p1a: Volcanion|76/100|[from] Stealth Rock
+|switch|p2a: Clawitzer|Clawitzer, M|100/100
+|
+|upkeep
+|turn|20
+|
+|t:|1758295623
+|move|p1a: Volcanion|Sludge Wave|p2a: Clawitzer
+|-damage|p2a: Clawitzer|72/100
+|move|p2a: Clawitzer|Dragon Pulse|p1a: Volcanion
+|-damage|p1a: Volcanion|30/100
+|
+|upkeep
+|turn|21
+|inactive|dicolibri has 120 seconds left.
+|
+|t:|1758295663
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p1a: Hoopa|88/100|[from] Stealth Rock
+|move|p2a: Clawitzer|Dark Pulse|p1a: Hoopa
+|-damage|p1a: Hoopa|54/100
+|
+|upkeep
+|turn|22
+|inactive|dicolibri has 120 seconds left.
+|
+|t:|1758295685
+|move|p1a: Hoopa|Drain Punch|p2a: Clawitzer
+|-damage|p2a: Clawitzer|21/100
+|-heal|p1a: Hoopa|78/100|[from] drain|[of] p2a: Clawitzer
+|-damage|p1a: Hoopa|68/100|[from] item: Life Orb
+|move|p2a: Clawitzer|Hydro Pump|p1a: Hoopa
+|-damage|p1a: Hoopa|26/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|23
+|
+|t:|1758295694
+|move|p2a: Clawitzer|Dragon Pulse|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|upkeep
+|
+|t:|1758295698
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|turn|24
+|inactive|dicolibri has 120 seconds left.
+|
+|t:|1758295709
+|move|p2a: Clawitzer|Dark Pulse|p1a: Hatterene
+|-damage|p1a: Hatterene|43/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|49/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1758295717
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|move|p2a: Clawitzer|Dark Pulse|p1: Hatterene|[notarget]
+|-fail|p2a: Clawitzer
+|
+|upkeep
+|
+|t:|1758295720
+|switch|p1a: Volcanion|Volcanion|30/100
+|-heal|p1a: Volcanion|100/100|[from] move: Healing Wish
+|-damage|p1a: Volcanion|76/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1758295725
+|move|p1a: Volcanion|Steam Eruption|p2a: Clawitzer
+|-resisted|p2a: Clawitzer
+|-damage|p2a: Clawitzer|0 fnt
+|faint|p2a: Clawitzer
+|
+|upkeep
+|
+|t:|1758295729
+|switch|p2a: Golem|Golem, M|100/100
+|turn|27
+|
+|t:|1758295747
+|-terastallize|p1a: Volcanion|Water
+|-terastallize|p2a: Golem|Fire
+|move|p1a: Volcanion|Will-O-Wisp|p2a: Golem|[miss]
+|-miss|p1a: Volcanion|p2a: Golem
+|move|p2a: Golem|Earthquake|p1a: Volcanion
+|-damage|p1a: Volcanion|9/100
+|
+|upkeep
+|turn|28
+|
+|t:|1758295756
+|move|p1a: Volcanion|Steam Eruption|p2a: Golem
+|-supereffective|p2a: Golem
+|-ability|p2a: Golem|Sturdy
+|-damage|p2a: Golem|1/100
+|move|p2a: Golem|Earthquake|p1a: Volcanion
+|-crit|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|win|malk tyme
+|raw|dicolibri's rating: 1540 &rarr; <strong>1523</strong><br />(-17 for losing)
+|raw|malk tyme's rating: 1595 &rarr; <strong>1612</strong><br />(+17 for winning)
+|l|☆dicolibri
+|player|p1|
+|l|‽malk tyme
+|player|p2|

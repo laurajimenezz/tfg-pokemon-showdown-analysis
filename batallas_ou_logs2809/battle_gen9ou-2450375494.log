@@ -1,0 +1,162 @@
+|j|☆KuroNoTamashi
+|j|☆dseokp
+|t:|1758975025
+|gametype|singles
+|player|p1|KuroNoTamashi|170|1604
+|player|p2|dseokp|unknown|1586
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Charizard, M|
+|poke|p1|Victreebel, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Scream Tail|
+|poke|p2|Glimmora, F|
+|poke|p2|Iron Treads|
+|poke|p2|Polteageist-Antique|
+|poke|p2|Raging Bolt|
+|poke|p2|Dragonite, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dseokp)
+|
+|t:|1758975038
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Polteageist|Polteageist-Antique|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1758975045
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Torkoal|Lava Plume|p2a: Polteageist
+|-damage|p2a: Polteageist|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758975056
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|-activate|p1a: Scream Tail|ability: Protosynthesis
+|-start|p1a: Scream Tail|protosynthesisspd
+|move|p2a: Polteageist|Stored Power|p1a: Scream Tail
+|-resisted|p1a: Scream Tail
+|-damage|p1a: Scream Tail|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758975069
+|move|p2a: Polteageist|Shadow Ball|p1a: Scream Tail
+|-supereffective|p1a: Scream Tail
+|-damage|p1a: Scream Tail|0 fnt
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758975072
+|switch|p1a: Victreebel|Victreebel, F, shiny|100/100
+|turn|4
+|
+|t:|1758975088
+|move|p1a: Victreebel|Sludge Wave|p2a: Polteageist
+|-resisted|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|-damage|p1a: Victreebel|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758975108
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|5
+|inactive|dseokp has 120 seconds left.
+|
+|t:|1758975127
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Glimmora|Sludge Wave|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|34/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758975132
+|move|p2a: Glimmora|Sludge Wave|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758975134
+|switch|p1a: Charizard|Charizard, M, shiny|100/100
+|turn|7
+|
+|t:|1758975144
+|move|p2a: Glimmora|Sludge Wave|p1a: Charizard
+|-damage|p1a: Charizard|31/100
+|move|p1a: Charizard|Overheat|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-unboost|p1a: Charizard|spa|2
+|faint|p2a: Glimmora
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|18/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|
+|t:|1758975153
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|8
+|
+|t:|1758975159
+|move|p2a: Iron Treads|Knock Off|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|-enditem|p1a: Charizard|Choice Specs|[from] move: Knock Off|[of] p2a: Iron Treads
+|faint|p1a: Charizard
+|
+|-weather|none
+|upkeep
+|
+|t:|1758975161
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|9
+|-message|KuroNoTamashi forfeited.
+|
+|win|dseokp
+|raw|KuroNoTamashi's rating: 1604 &rarr; <strong>1583</strong><br />(-21 for losing)
+|raw|dseokp's rating: 1586 &rarr; <strong>1607</strong><br />(+21 for winning)
+|l|☆KuroNoTamashi
+|player|p1|
+|l|☆dseokp
+|player|p2|

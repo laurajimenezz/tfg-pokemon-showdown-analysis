@@ -1,0 +1,154 @@
+|j|☆zlaoo
+|j|☆GrimmNastyy
+|t:|1758283565
+|gametype|singles
+|player|p1|zlaoo|101|1234
+|player|p2|GrimmNastyy|alder|1288
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Iron Boulder|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Ceruledge, M|
+|poke|p1|Okidogi, M|
+|poke|p1|Scizor, F|
+|poke|p2|Sceptile, F|
+|poke|p2|Pincurchin, F|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Valiant|
+|poke|p2|Moltres|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|t:|1758283572
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Pincurchin|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zlaoo)
+|
+|t:|1758283585
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Landorus|Taunt|p2a: Moltres
+|-start|p2a: Moltres|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1758283595
+|move|p1a: Landorus|Stealth Rock|p2a: Moltres
+|-sidestart|p2: GrimmNastyy|move: Stealth Rock
+|move|p2a: Moltres|Hurricane|p1a: Landorus
+|-damage|p1a: Landorus|52/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758283602
+|move|p1a: Landorus|U-turn|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|97/100
+|
+|t:|1758283606
+|switch|p1a: Iron Boulder|Iron Boulder|100/100|[from] U-turn
+|-activate|p1a: Iron Boulder|ability: Quark Drive
+|-start|p1a: Iron Boulder|quarkdriveatk
+|move|p2a: Moltres|Flamethrower|p1a: Iron Boulder
+|-resisted|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|85/100
+|-status|p1a: Iron Boulder|brn
+|
+|-damage|p1a: Iron Boulder|79/100 brn|[from] brn
+|-end|p2a: Moltres|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1758283619
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Iron Boulder|Agility|p1a: Iron Boulder
+|-boost|p1a: Iron Boulder|spe|2
+|
+|-damage|p1a: Iron Boulder|73/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1758283633
+|move|p1a: Iron Boulder|Sacred Sword|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|65/100
+|move|p2a: Iron Treads|Earthquake|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|0 fnt
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758283645
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|6
+|
+|t:|1758283652
+|-terastallize|p1a: Thundurus|Water
+|move|p2a: Iron Treads|Rapid Spin|p1a: Thundurus
+|-damage|p1a: Thundurus|77/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: GrimmNastyy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Thundurus|Tera Blast|p2a: Iron Treads|[anim] Tera Blast Water
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758283665
+|switch|p2a: Sceptile|Sceptile, F|100/100
+|-enditem|p2a: Sceptile|Electric Seed
+|-boost|p2a: Sceptile|def|1|[from] item: Electric Seed
+|turn|7
+|
+|t:|1758283676
+|switch|p1a: Okidogi|Okidogi, M|100/100
+|move|p2a: Sceptile|Swords Dance|p2a: Sceptile
+|-boost|p2a: Sceptile|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1758283688
+|-terastallize|p2a: Sceptile|Ground
+|move|p2a: Sceptile|Earthquake|p1a: Okidogi
+|-supereffective|p1a: Okidogi
+|-damage|p1a: Okidogi|0 fnt
+|faint|p1a: Okidogi
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|-message|zlaoo forfeited.
+|
+|win|GrimmNastyy
+|raw|zlaoo's rating: 1234 &rarr; <strong>1213</strong><br />(-21 for losing)
+|raw|GrimmNastyy's rating: 1288 &rarr; <strong>1309</strong><br />(+21 for winning)
+|l|☆zlaoo
+|player|p1|
+|c|☆GrimmNastyy|gg
+|l|☆GrimmNastyy
+|player|p2|

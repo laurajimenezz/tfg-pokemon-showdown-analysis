@@ -1,0 +1,257 @@
+|j|☆test89001234
+|j|☆nexronb
+|t:|1760439121
+|gametype|singles
+|player|p1|test89001234|nate|1342
+|player|p2|nexronb|falkner|1401
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Volcanion|
+|poke|p1|Ursaluna, M|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Meowscarada, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Darkrai|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Pecharunt|
+|poke|p2|Primarina, M|
+|teampreview
+|
+|t:|1760439136
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ninetales|atk|1
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1760439144
+|move|p2a: Landorus|U-turn|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|89/100
+|
+|t:|1760439153
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from] U-turn
+|move|p1a: Ninetales|Freeze-Dry|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|87/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760439160
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Ursaluna
+|-damage|p1a: Ursaluna|60/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ursaluna|66/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1760439168
+|move|p2a: Cinderace|Low Kick|p1a: Ursaluna
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760439176
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|4
+|
+|t:|1760439189
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|33/100
+|move|p2a: Cinderace|U-turn|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|93/100
+|
+|t:|1760439194
+|switch|p2a: Pecharunt|Pecharunt|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760439200
+|-terastallize|p1a: Iron Valiant|Ghost
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|19/100
+|-unboost|p2a: Pecharunt|spd|1
+|move|p2a: Pecharunt|Malignant Chain|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|65/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1760439223
+|switch|p2a: Darkrai|Darkrai|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1760439226
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Valiant|atk|1
+|turn|7
+|
+|t:|1760439233
+|move|p1a: Iron Valiant|Moonblast|p2a: Landorus
+|-damage|p2a: Landorus|44/100
+|move|p2a: Landorus|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760439241
+|switch|p1a: Ninetales|Ninetales-Alola, M|89/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|8
+|
+|t:|1760439246
+|switch|p2a: Cinderace|Cinderace, M|33/100
+|move|p1a: Ninetales|Moonblast|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|13/100
+|-unboost|p2a: Cinderace|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1760439255
+|switch|p1a: Volcanion|Volcanion|100/100
+|move|p2a: Cinderace|Gunk Shot|p1a: Volcanion
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-damage|p1a: Volcanion|52/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760439266
+|move|p2a: Cinderace|Gunk Shot|p1a: Volcanion
+|-damage|p1a: Volcanion|3/100
+|-status|p1a: Volcanion|psn
+|move|p1a: Volcanion|Flamethrower|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Volcanion|0 fnt|[from] psn
+|faint|p1a: Volcanion
+|upkeep
+|
+|t:|1760439277
+|switch|p2a: Landorus|Landorus-Therian, M|44/100
+|switch|p1a: Ninetales|Ninetales-Alola, M|89/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ninetales|atk|1
+|turn|11
+|
+|t:|1760439283
+|move|p2a: Landorus|Stone Edge|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|28/100
+|move|p1a: Ninetales|Freeze-Dry|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760439289
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|12
+|
+|t:|1760439295
+|move|p2a: Zamazenta|Heavy Slam|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|none
+|upkeep
+|
+|t:|1760439301
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|turn|13
+|
+|t:|1760439307
+|-terastallize|p2a: Zamazenta|Steel
+|move|p2a: Zamazenta|Stone Edge|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|45/100
+|move|p1a: Enamorus|Moonblast|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|75/100
+|-unboost|p2a: Zamazenta|spa|1
+|
+|upkeep
+|turn|14
+|
+|t:|1760439317
+|move|p2a: Zamazenta|Stone Edge|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|upkeep
+|
+|t:|1760439322
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|15
+|
+|t:|1760439326
+|move|p2a: Zamazenta|Close Combat|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Meowscarada
+|
+|win|nexronb
+|raw|test89001234's rating: 1342 &rarr; <strong>1325</strong><br />(-17 for losing)
+|raw|nexronb's rating: 1401 &rarr; <strong>1418</strong><br />(+17 for winning)
+|c|☆test89001234|gg
+|l|☆nexronb
+|player|p2|
+|l|☆test89001234
+|player|p1|

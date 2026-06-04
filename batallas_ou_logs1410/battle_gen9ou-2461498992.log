@@ -1,0 +1,261 @@
+|j|☆jan jakkusu
+|j|☆so far ahead
+|t:|1760452365
+|gametype|singles
+|player|p1|jan jakkusu|2|1349
+|player|p2|so far ahead|lucas|1380
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Kyurem|
+|poke|p1|Rillaboom, M|
+|poke|p1|Noivern, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Corviknight, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, F|
+|poke|p2|Pecharunt|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1760452371
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1760452377
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1760452382
+|move|p1a: Iron Valiant|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-crit|p2a: Pecharunt
+|-damage|p2a: Pecharunt|12/100
+|-enditem|p2a: Pecharunt|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Pecharunt|Malignant Chain|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760452391
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|3
+|
+|t:|1760452398
+|move|p1a: Kyurem|Earth Power|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1760452402
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|4
+|
+|t:|1760452409
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Iron Valiant|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|77/100
+|-unboost|p1a: Corviknight|spa|1
+|
+|-heal|p1a: Corviknight|83/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760452416
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Corviknight|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|89/100
+|
+|t:|1760452419
+|switch|p1a: Kyurem|Kyurem|100/100|[from] U-turn
+|-ability|p1a: Kyurem|Pressure
+|
+|upkeep
+|turn|6
+|
+|t:|1760452424
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|move|p1a: Kyurem|Ice Beam|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|78/100
+|
+|-heal|p2a: Kingambit|84/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760452428
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760452432
+|-terastallize|p2a: Kingambit|Ghost
+|move|p1a: Kommo-o|Body Press|p2a: Kingambit
+|-immune|p2a: Kingambit
+|move|p2a: Kingambit|Iron Head|p1a: Kommo-o
+|-damage|p1a: Kommo-o|40/100
+|
+|-heal|p1a: Kommo-o|47/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|97/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760452449
+|move|p1a: Kommo-o|Stealth Rock|p2a: Kingambit
+|-sidestart|p2: so far ahead|move: Stealth Rock
+|move|p2a: Kingambit|Iron Head|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760452453
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|10
+|
+|t:|1760452456
+|-terastallize|p1a: Rillaboom|Grass
+|move|p1a: Rillaboom|Wood Hammer|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-damage|p1a: Rillaboom|61/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|68/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760452460
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1760452476
+|switch|p1a: Noivern|Noivern, M|100/100
+|move|p2a: Tornadus|Hurricane|p1a: Noivern|[miss]
+|-miss|p2a: Tornadus|p1a: Noivern
+|
+|upkeep
+|turn|12
+|
+|t:|1760452486
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|move|p1a: Noivern|Boomburst|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|63/100
+|
+|-heal|p2a: Iron Treads|69/100|[from] Grassy Terrain
+|-heal|p2a: Iron Treads|75/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760452505
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Iron Treads|Iron Defense|p2a: Iron Treads
+|-boost|p2a: Iron Treads|def|2
+|
+|-heal|p2a: Iron Treads|81/100|[from] Grassy Terrain
+|-heal|p2a: Iron Treads|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1760452519
+|move|p1a: Kyurem|Earth Power|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|11/100
+|move|p2a: Iron Treads|Body Press|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|18/100
+|
+|-heal|p1a: Kyurem|24/100|[from] Grassy Terrain
+|-heal|p2a: Iron Treads|17/100|[from] Grassy Terrain
+|-heal|p2a: Iron Treads|24/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1760452530
+|switch|p1a: Noivern|Noivern, M|100/100
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|16
+|
+|t:|1760452543
+|move|p1a: Noivern|Boomburst|p2a: Gliscor
+|-damage|p2a: Gliscor|41/100 tox
+|move|p2a: Gliscor|U-turn|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|91/100
+|
+|t:|1760452547
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|t:|1760452580
+|move|p1a: Noivern|Boomburst|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jan jakkusu)
+|l|☆so far ahead
+|inactive|so far ahead disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|so far ahead has 30 seconds to reconnect!
+|inactive|so far ahead has 20 seconds to reconnect!
+|inactive|so far ahead has 15 seconds to reconnect!
+|inactive|so far ahead has 10 seconds to reconnect!
+|inactive|so far ahead has 5 seconds to reconnect!
+|-message|so far ahead lost due to inactivity.
+|
+|win|jan jakkusu
+|raw|jan jakkusu's rating: 1349 &rarr; <strong>1371</strong><br />(+22 for winning)
+|raw|so far ahead's rating: 1380 &rarr; <strong>1358</strong><br />(-22 for losing)

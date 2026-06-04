@@ -1,0 +1,227 @@
+|j|☆ShakWasTaken
+|j|☆aedesoelv4o3jv
+|t:|1779688679
+|gametype|singles
+|player|p1|ShakWasTaken|n|1095
+|player|p2|aedesoelv4o3jv|170|1051
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glaceon, F|
+|poke|p1|Greninja-*, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Gengar, M|
+|poke|p1|Incineroar, M|
+|poke|p2|Decidueye-Hisui, F|
+|poke|p2|Alomomola, M|
+|poke|p2|Grafaiai, F|
+|poke|p2|Scream Tail|
+|poke|p2|Flareon, M|
+|poke|p2|Wigglytuff, M|
+|teampreview
+|
+|t:|1779688688
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Fleur|Meowscarada, M|100/100
+|switch|p2a: Scream Tail|Scream Tail|100/100
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspd
+|turn|1
+|
+|t:|1779688718
+|move|p1a: Fleur|Knock Off|p2a: Scream Tail
+|-start|p1a: Fleur|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Scream Tail|76/100
+|move|p2a: Scream Tail|Play Rough|p1a: Fleur
+|-supereffective|p1a: Fleur
+|-damage|p1a: Fleur|0 fnt
+|faint|p1a: Fleur
+|
+|upkeep
+|
+|t:|1779688738
+|switch|p1a: Gengar|Gengar, M|100/100
+|turn|2
+|
+|t:|1779688751
+|move|p1a: Gengar|Sludge Wave|p2a: Scream Tail
+|-supereffective|p2a: Scream Tail
+|-damage|p2a: Scream Tail|23/100
+|move|p2a: Scream Tail|Psychic Fangs|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-start|p2a: Scream Tail|Disable|Psychic Fangs|[from] ability: Cursed Body|[of] p1a: Gengar
+|faint|p1a: Gengar
+|
+|upkeep
+|
+|t:|1779688765
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|3
+|
+|t:|1779688780
+|move|p1a: Garchomp|Iron Head|p2a: Scream Tail
+|-supereffective|p2a: Scream Tail
+|-damage|p2a: Scream Tail|0 fnt
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779688793
+|switch|p2a: Wigglytuff|Wigglytuff, M|100/100
+|-item|p1a: Garchomp|Loaded Dice|[from] ability: Frisk|[of] p2a: Wigglytuff
+|turn|4
+|
+|t:|1779688816
+|move|p1a: Garchomp|Iron Head|p2a: Wigglytuff
+|-supereffective|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|43/100
+|move|p2a: Wigglytuff|Ice Spinner|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|38/100
+|-damage|p2a: Wigglytuff|31/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|upkeep
+|turn|5
+|
+|t:|1779688826
+|move|p1a: Garchomp|Iron Head|p2a: Wigglytuff
+|-supereffective|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|upkeep
+|
+|t:|1779688838
+|switch|p2a: Grafaiai|Grafaiai, F|100/100
+|-item|p2a: Grafaiai|Air Balloon
+|turn|6
+|
+|t:|1779688855
+|move|p1a: Garchomp|Earthquake|p2a: Grafaiai
+|-immune|p2a: Grafaiai
+|move|p2a: Grafaiai|Foul Play|p1a: Garchomp
+|-damage|p1a: Garchomp|4/100
+|-damage|p2a: Grafaiai|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|upkeep
+|turn|7
+|
+|t:|1779688868
+|move|p1a: Garchomp|Iron Head|p2a: Grafaiai
+|-damage|p2a: Grafaiai|39/100
+|-enditem|p2a: Grafaiai|Air Balloon
+|move|p2a: Grafaiai|Parting Shot|p1a: Garchomp
+|-unboost|p1a: Garchomp|atk|1
+|-unboost|p1a: Garchomp|spa|1
+|
+|t:|1779688883
+|switch|p2a: Alomomola|Alomomola, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|8
+|
+|t:|1779688893
+|move|p2a: Alomomola|Aqua Jet|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Alomomola|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-heal|p2a: Alomomola|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779688902
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|9
+|
+|t:|1779688913
+|move|p1a: Greninja|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|85/100
+|
+|t:|1779688916
+|switch|p1a: Snowflake|Glaceon, F|100/100|[from] U-turn
+|move|p2a: Alomomola|Light Screen|p2a: Alomomola
+|-sidestart|p2: aedesoelv4o3jv|move: Light Screen
+|
+|-heal|p2a: Alomomola|91/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779688925
+|move|p1a: Snowflake|Freeze-Dry|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|30/100
+|move|p2a: Alomomola|Flip Turn|p1a: Snowflake
+|-damage|p1a: Snowflake|71/100
+|
+|t:|1779688949
+|switch|p2a: Decidueye|Decidueye-Hisui, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|11
+|
+|t:|1779688965
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Decidueye|unboost|Attack|[from] ability: Scrappy|[of] p2a: Decidueye
+|move|p2a: Decidueye|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2a: Decidueye|def|1
+|-unboost|p2a: Decidueye|spd|1
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|t:|1779688976
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|12
+|
+|t:|1779688990
+|-terastallize|p1a: Greninja|Water
+|move|p1a: Greninja|Ice Beam|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|54/100
+|move|p2a: Decidueye|Close Combat|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-unboost|p2a: Decidueye|def|1
+|-unboost|p2a: Decidueye|spd|1
+|faint|p1a: Greninja
+|
+|upkeep
+|
+|t:|1779689002
+|switch|p1a: Snowflake|Glaceon, F|71/100
+|turn|13
+|
+|t:|1779689011
+|move|p1a: Snowflake|Blizzard|p2a: Decidueye|[miss]
+|-miss|p1a: Snowflake|p2a: Decidueye
+|move|p2a: Decidueye|Close Combat|p1a: Snowflake
+|-supereffective|p1a: Snowflake
+|-damage|p1a: Snowflake|0 fnt
+|-unboost|p2a: Decidueye|def|1
+|-unboost|p2a: Decidueye|spd|1
+|faint|p1a: Snowflake
+|
+|win|aedesoelv4o3jv
+|raw|ShakWasTaken's rating: 1095 &rarr; <strong>1070</strong><br />(-25 for losing)
+|raw|aedesoelv4o3jv's rating: 1079 &rarr; <strong>1108</strong><br />(+29 for winning)
+|l|☆ShakWasTaken
+|player|p1|
+|l|☆aedesoelv4o3jv
+|player|p2|

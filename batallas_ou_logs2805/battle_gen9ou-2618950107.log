@@ -1,0 +1,578 @@
+|j|☆New2Weather
+|j|☆claudechamp
+|t:|1779866557
+|gametype|singles
+|player|p1|New2Weather|blue|1234
+|player|p2|claudechamp|169|1250
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hydrapple, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Valiant|
+|poke|p2|Gliscor, M|
+|poke|p2|Gholdengo|
+|poke|p2|Zamazenta-*|
+|poke|p2|Blissey, F|
+|poke|p2|Skarmory, M|
+|poke|p2|Pecharunt|
+|teampreview
+|c|☆claudechamp|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by claudechamp)
+|
+|t:|1779866582
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1779866602
+|move|p1a: Iron Valiant|Moonblast|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|69/100
+|-unboost|p2a: Skarmory|spa|1
+|move|p2a: Skarmory|Spikes|p1a: Iron Valiant
+|-sidestart|p1: New2Weather|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1779866611
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Iron Valiant|Encore||[still]
+|-fail|p1a: Iron Valiant
+|
+|upkeep
+|turn|3
+|
+|t:|1779866625
+|move|p1a: Iron Valiant|Knock Off|p2a: Blissey
+|-damage|p2a: Blissey|71/100
+|-enditem|p2a: Blissey|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Blissey|Stealth Rock|p1a: Iron Valiant
+|-sidestart|p1: New2Weather|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1779866633
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Cinderace|Cinderace, M, shiny|100/100
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1779866643
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Pecharunt|Parting Shot|p1a: Cinderace
+|-unboost|p1a: Cinderace|atk|1
+|-unboost|p1a: Cinderace|spa|1
+|
+|t:|1779866655
+|switch|p2a: Gliscor|Gliscor, M|100/100|[from] Parting Shot
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1779866665
+|move|p1a: Cinderace|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|82/100 tox
+|
+|t:|1779866671
+|switch|p1a: Gliscor|Gliscor, M, shiny|100/100|[from] U-turn
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-heal|p2a: Gliscor|94/100 tox|[from] ability: Poison Heal
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1779866675
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1779866682
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Gliscor|Knock Off|p1a: Gliscor
+|-damage|p1a: Gliscor|41/100 tox
+|-enditem|p1a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-heal|p1a: Gliscor|54/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1779866697
+|move|p1a: Gliscor|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|30/100 tox
+|-enditem|p2a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Gliscor|Knock Off|p1a: Gliscor
+|-damage|p1a: Gliscor|15/100 tox
+|
+|-heal|p1a: Gliscor|27/100 tox|[from] ability: Poison Heal
+|-heal|p2a: Gliscor|42/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1779866708
+|-terastallize|p2a: Gliscor|Dark
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Gliscor|Knock Off|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|39/100 tox|[from] ability: Poison Heal
+|-heal|p2a: Gliscor|55/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1779866717
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Gliscor|Knock Off|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|52/100 tox|[from] ability: Poison Heal
+|-heal|p2a: Gliscor|67/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1779866722
+|move|p1a: Gliscor|Earthquake|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-heal|p1a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1779866724
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|13
+|
+|t:|1779866729
+|move|p2a: Zamazenta|Ice Fang|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1779866732
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|turn|14
+|
+|t:|1779866737
+|move|p2a: Zamazenta|Heavy Slam|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|4/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|20/100
+|
+|upkeep
+|turn|15
+|
+|t:|1779866753
+|move|p2a: Zamazenta|Close Combat|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779866756
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|turn|16
+|
+|t:|1779866764
+|move|p2a: Zamazenta|Close Combat|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|90/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|move|p1a: Slowking|Psychic Noise|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1779866774
+|switch|p2a: Blissey|Blissey, F|71/100
+|-damage|p2a: Blissey|59/100|[from] Spikes
+|-damage|p2a: Blissey|46/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1779866777
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|96/100
+|move|p1a: Slowking|Psychic Noise|p2a: Blissey
+|-damage|p2a: Blissey|87/100
+|-start|p2a: Blissey|move: Heal Block
+|
+|upkeep
+|turn|18
+|
+|t:|1779866781
+|move|p2a: Blissey|Stealth Rock|p1a: Slowking
+|-sidestart|p1: New2Weather|move: Stealth Rock
+|move|p1a: Slowking|Sludge Bomb|p2a: Blissey
+|-damage|p2a: Blissey|77/100
+|
+|-end|p2a: Blissey|move: Heal Block
+|upkeep
+|turn|19
+|
+|t:|1779866786
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|move|p1a: Slowking|Psychic Noise|p2a: Blissey
+|-damage|p2a: Blissey|71/100
+|-start|p2a: Blissey|move: Heal Block
+|
+|upkeep
+|turn|20
+|
+|t:|1779866789
+|move|p2a: Blissey|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|66/100
+|move|p1a: Slowking|Whirlpool|p2a: Blissey
+|-damage|p2a: Blissey|69/100
+|-activate|p2a: Blissey|move: Whirlpool|[of] p1a: Slowking
+|
+|-damage|p2a: Blissey|57/100|[from] move: Whirlpool|[partiallytrapped]
+|-end|p2a: Blissey|move: Heal Block
+|upkeep
+|turn|21
+|
+|t:|1779866797
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|move|p1a: Slowking|Psychic Noise|p2a: Blissey
+|-damage|p2a: Blissey|94/100
+|-start|p2a: Blissey|move: Heal Block
+|
+|-damage|p2a: Blissey|82/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|22
+|
+|t:|1779866801
+|move|p2a: Blissey|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|44/100
+|move|p1a: Slowking|Psychic Noise|p2a: Blissey
+|-damage|p2a: Blissey|76/100
+|
+|-damage|p2a: Blissey|64/100|[from] move: Whirlpool|[partiallytrapped]
+|-end|p2a: Blissey|move: Heal Block
+|upkeep
+|turn|23
+|
+|t:|1779866808
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|move|p1a: Slowking|Psychic Noise|p2a: Blissey
+|-damage|p2a: Blissey|95/100
+|-start|p2a: Blissey|move: Heal Block
+|
+|-damage|p2a: Blissey|83/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|24
+|
+|t:|1779866814
+|switch|p1a: Cinderace|Cinderace, M, shiny|100/100
+|move|p2a: Blissey|Shadow Ball|p1a: Cinderace
+|-damage|p1a: Cinderace|68/100
+|
+|-end|p2a: Blissey|Whirlpool|[partiallytrapped]
+|-end|p2a: Blissey|move: Heal Block
+|upkeep
+|turn|25
+|
+|t:|1779866819
+|move|p1a: Cinderace|Pyro Ball|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|upkeep
+|
+|t:|1779866829
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|26
+|
+|t:|1779866839
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|77/100
+|-damage|p1a: Slowking|64/100|[from] Stealth Rock
+|move|p2a: Pecharunt|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|37/100
+|
+|upkeep
+|turn|27
+|
+|t:|1779866844
+|move|p2a: Pecharunt|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|12/100
+|-unboost|p1a: Slowking|spd|1
+|move|p1a: Slowking|Psychic Noise|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|45/100
+|-start|p2a: Pecharunt|move: Heal Block
+|
+|upkeep
+|turn|28
+|
+|t:|1779866852
+|move|p2a: Pecharunt|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-end|p2a: Pecharunt|move: Heal Block
+|upkeep
+|
+|t:|1779866862
+|switch|p1a: Cinderace|Cinderace, M, shiny|68/100
+|turn|29
+|
+|t:|1779866870
+|-terastallize|p1a: Cinderace|Fire
+|move|p1a: Cinderace|Pyro Ball|p2a: Pecharunt
+|-damage|p2a: Pecharunt|5/100
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|55/100
+|
+|upkeep
+|turn|30
+|
+|t:|1779866878
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Pecharunt|Parting Shot|p1a: Cinderace
+|-unboost|p1a: Cinderace|atk|1
+|-unboost|p1a: Cinderace|spa|1
+|
+|t:|1779866884
+|switch|p2a: Skarmory|Skarmory, M|69/100|[from] Parting Shot
+|
+|upkeep
+|turn|31
+|
+|t:|1779866890
+|move|p1a: Cinderace|Pyro Ball|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|5/100
+|move|p2a: Skarmory|Body Press|p1a: Cinderace
+|-damage|p1a: Cinderace|23/100
+|
+|upkeep
+|turn|32
+|
+|t:|1779866899
+|switch|p2a: Pecharunt|Pecharunt|55/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Pecharunt
+|-damage|p2a: Pecharunt|29/100
+|
+|upkeep
+|turn|33
+|
+|t:|1779866906
+|move|p1a: Cinderace|U-turn|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|27/100
+|
+|t:|1779866909
+|switch|p1a: Hydrapple|Hydrapple, M, shiny|100/100|[from] U-turn
+|-damage|p1a: Hydrapple|88/100|[from] Stealth Rock
+|move|p2a: Pecharunt|Shadow Ball|p1a: Hydrapple
+|-damage|p1a: Hydrapple|61/100
+|
+|upkeep
+|turn|34
+|
+|t:|1779866918
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|77/100
+|move|p1a: Hydrapple|Earth Power|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|-damage|p1a: Hydrapple|52/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779866925
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|88/100|[from] Spikes
+|-damage|p2a: Gholdengo|82/100|[from] Stealth Rock
+|turn|35
+|
+|t:|1779866932
+|move|p2a: Gholdengo|Thunder Wave|p1a: Hydrapple
+|-status|p1a: Hydrapple|par
+|move|p1a: Hydrapple|Earth Power|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1a: Hydrapple|42/100 par|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779866939
+|switch|p2a: Skarmory|Skarmory, M|5/100
+|turn|36
+|
+|t:|1779866952
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|55/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Hydrapple|Draco Meteor|p2a: Skarmory|[miss]
+|-miss|p1a: Hydrapple|p2a: Skarmory
+|
+|upkeep
+|turn|37
+|
+|t:|1779866959
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Hydrapple|Nasty Plot|p1a: Hydrapple
+|-boost|p1a: Hydrapple|spa|2
+|
+|upkeep
+|turn|38
+|
+|t:|1779866968
+|move|p1a: Hydrapple|Draco Meteor|p2a: Skarmory|[miss]
+|-miss|p1a: Hydrapple|p2a: Skarmory
+|move|p2a: Skarmory|Whirlwind|p1a: Hydrapple
+|drag|p1a: Cinderace|Cinderace, M, shiny, tera:Fire|23/100
+|
+|upkeep
+|turn|39
+|
+|t:|1779866976
+|move|p1a: Cinderace|Pyro Ball|p2a: Skarmory|[miss]
+|-miss|p1a: Cinderace|p2a: Skarmory
+|move|p2a: Skarmory|Body Press|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|c|☆New2Weather|omfg
+|c|☆New2Weather|i got haxxed
+|
+|t:|1779866984
+|switch|p1a: Hydrapple|Hydrapple, M, shiny|75/100 par
+|-damage|p1a: Hydrapple|63/100 par|[from] Stealth Rock
+|turn|40
+|
+|t:|1779866992
+|move|p1a: Hydrapple|Draco Meteor|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|36/100
+|-unboost|p1a: Hydrapple|spa|2
+|-damage|p1a: Hydrapple|53/100 par|[from] item: Life Orb
+|move|p2a: Skarmory|Whirlwind|p1a: Hydrapple
+|drag|p1a: Kingambit|Kingambit, M, shiny|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|-item|p1a: Kingambit|Air Balloon
+|
+|upkeep
+|turn|41
+|
+|t:|1779867008
+|move|p1a: Kingambit|Low Kick|p2a: Skarmory
+|-damage|p2a: Skarmory|10/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|60/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|upkeep
+|turn|42
+|
+|t:|1779867018
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Skarmory|Body Press|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-enditem|p1a: Kingambit|Air Balloon
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1779867021
+|switch|p1a: Hydrapple|Hydrapple, M, shiny|86/100 par
+|-damage|p1a: Hydrapple|74/100 par|[from] Stealth Rock
+|turn|43
+|
+|t:|1779867031
+|move|p1a: Hydrapple|Nasty Plot|p1a: Hydrapple
+|-boost|p1a: Hydrapple|spa|2
+|move|p2a: Skarmory|Whirlwind||[still]
+|-fail|p2a: Skarmory
+|
+|upkeep
+|turn|44
+|
+|t:|1779867043
+|move|p2a: Skarmory|Body Press|p1a: Hydrapple
+|-damage|p1a: Hydrapple|49/100 par
+|move|p1a: Hydrapple|Draco Meteor|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-unboost|p1a: Hydrapple|spa|2
+|faint|p2a: Skarmory
+|-damage|p1a: Hydrapple|40/100 par|[from] item: Life Orb
+|
+|win|New2Weather
+|raw|New2Weather's rating: 1234 &rarr; <strong>1256</strong><br />(+22 for winning)
+|raw|claudechamp's rating: 1198 &rarr; <strong>1176</strong><br />(-22 for losing)
+|c|☆claudechamp|gg
+|c|☆New2Weather|almost lost to hax
+|l|☆New2Weather
+|player|p1|

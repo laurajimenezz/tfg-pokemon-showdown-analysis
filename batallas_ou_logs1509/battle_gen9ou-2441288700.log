@@ -1,0 +1,362 @@
+|j|☆lpclpc6600
+|j|☆dobeatfries
+|t:|1757824371
+|gametype|singles
+|player|p1|lpclpc6600|red|1420
+|player|p2|dobeatfries|drayden|1370
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Moltres|
+|poke|p1|Iron Treads|
+|poke|p1|Iron Valiant|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Kyurem|
+|poke|p2|Cetitan, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Iron Treads|
+|poke|p2|Ninetales-Alola, M|
+|teampreview
+|
+|t:|1757824385
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|1
+|
+|t:|1757824395
+|move|p1a: Ogerpon|U-turn|p2a: Kyurem
+|-damage|p2a: Kyurem|72/100
+|
+|t:|1757824400
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|move|p2a: Kyurem|Freeze-Dry|p1a: Iron Treads
+|-damage|p1a: Iron Treads|65/100
+|
+|upkeep
+|turn|2
+|
+|t:|1757824409
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Iron Treads|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|79/100
+|-enditem|p2a: Hatterene|Covert Cloak|[from] move: Knock Off|[of] p1a: Iron Treads
+|
+|upkeep
+|turn|3
+|
+|t:|1757824421
+|move|p1a: Iron Treads|Volt Switch|p2a: Hatterene
+|-damage|p2a: Hatterene|66/100
+|
+|t:|1757824423
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Pelipper|Pelipper, F|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Hatterene|Mystical Fire|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|93/100
+|-unboost|p1a: Pelipper|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757824429
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Pelipper|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|92/100
+|
+|t:|1757824439
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757824447
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|-terastallize|p2a: Slowking|Water
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Slowking|[anim] Ivy Cudgel Water
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|33/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1757824461
+|switch|p2a: Kyurem|Kyurem|72/100|[from] Chilly Reception
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1757824497
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Kyurem|[anim] Ivy Cudgel Water
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|49/100
+|move|p2a: Kyurem|Blizzard|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|67/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1757824518
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|move|p1a: Ogerpon|U-turn|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|88/100
+|
+|t:|1757824524
+|switch|p1a: Pelipper|Pelipper, F|93/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1757824530
+|switch|p2a: Slowking|Slowking-Galar, M, tera:Water|66/100
+|switch|p1a: Iron Treads|Iron Treads|65/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1757824539
+|move|p1a: Iron Treads|Knock Off|p2a: Slowking
+|-damage|p2a: Slowking|41/100
+|-enditem|p2a: Slowking|Icy Rock|[from] move: Knock Off|[of] p1a: Iron Treads
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1757824547
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1757824554
+|move|p2a: Iron Treads|Stealth Rock|p1a: Iron Treads
+|-sidestart|p1: lpclpc6600|move: Stealth Rock
+|move|p1a: Iron Treads|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|28/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Iron Treads|34/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1757824560
+|move|p2a: Iron Treads|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Iron Treads|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757824568
+|switch|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|67/100
+|-damage|p1a: Ogerpon|54/100|[from] Stealth Rock
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|turn|12
+|
+|t:|1757824575
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Hatterene|Hatterene, F|66/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Hatterene|[anim] Ivy Cudgel Water
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757824583
+|switch|p2a: Cetitan|Cetitan, F|100/100
+|turn|13
+|
+|t:|1757824602
+|move|p2a: Cetitan|Earthquake|p1a: Ogerpon
+|-damage|p1a: Ogerpon|16/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Cetitan|[anim] Ivy Cudgel Water
+|-damage|p2a: Cetitan|45/100
+|-enditem|p2a: Cetitan|Sitrus Berry|[eat]
+|-heal|p2a: Cetitan|70/100|[from] item: Sitrus Berry
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1757824629
+|move|p2a: Cetitan|Ice Shard|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|4/100
+|move|p1a: Ogerpon|U-turn|p2a: Cetitan
+|-damage|p2a: Cetitan|44/100
+|
+|t:|1757824654
+|switch|p1a: Pelipper|Pelipper, F|93/100|[from] U-turn
+|-damage|p1a: Pelipper|69/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1757824661
+|switch|p2a: Slowking|Slowking-Galar, M, tera:Water|74/100
+|move|p1a: Pelipper|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|65/100
+|
+|t:|1757824666
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1757824674
+|move|p1a: Raging Bolt|Thunder|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757824680
+|switch|p2a: Ninetales|Ninetales-Alola, M|88/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|17
+|
+|t:|1757824684
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, F|69/100
+|-damage|p1a: Pelipper|44/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Ninetales|Freeze-Dry|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757824696
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|18
+|
+|t:|1757824706
+|switch|p2a: Cetitan|Cetitan, F|44/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Cetitan
+|-damage|p2a: Cetitan|0 fnt
+|faint|p2a: Cetitan
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757824714
+|switch|p2a: Iron Treads|Iron Treads|40/100
+|turn|19
+|
+|t:|1757824719
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Iron Treads|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|46/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1757824724
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Ninetales|Ninetales-Alola, M|88/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Moltres|Flamethrower|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|21/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1757824734
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: dobeatfries|move: Aurora Veil
+|move|p1a: Moltres|Flamethrower|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757824737
+|switch|p2a: Kyurem|Kyurem|49/100
+|-ability|p2a: Kyurem|Pressure
+|turn|22
+|
+|t:|1757824740
+|move|p2a: Kyurem|Blizzard|p1a: Moltres
+|-damage|p1a: Moltres|13/100
+|move|p1a: Moltres|Roar|p2a: Kyurem
+|drag|p2a: Iron Treads|Iron Treads|46/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Iron Treads|53/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1757824750
+|move|p2a: Iron Treads|Rapid Spin|p1a: Moltres
+|-damage|p1a: Moltres|3/100
+|-boost|p2a: Iron Treads|spe|1
+|-status|p2a: Iron Treads|brn|[from] ability: Flame Body|[of] p1a: Moltres
+|move|p1a: Moltres|Flamethrower|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|-message|dobeatfries forfeited.
+|
+|win|lpclpc6600
+|raw|lpclpc6600's rating: 1420 &rarr; <strong>1437</strong><br />(+17 for winning)
+|raw|dobeatfries's rating: 1370 &rarr; <strong>1353</strong><br />(-17 for losing)
+|l|☆dobeatfries
+|player|p2|
+|l|☆lpclpc6600
+|player|p1|

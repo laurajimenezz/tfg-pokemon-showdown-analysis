@@ -1,0 +1,455 @@
+|j|☆zelda003
+|j|‽RadiantSol
+|t:|1757916980
+|gametype|singles
+|player|p1|zelda003|nate|1300
+|player|p2|RadiantSol|flint|1247
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dedenne, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Maushold-Four|
+|poke|p1|Hawlucha, M|
+|poke|p1|Garganacl, M|
+|poke|p2|Espeon, F|
+|poke|p2|Incineroar, F|
+|poke|p2|Leafeon, F|
+|poke|p2|Ninetales, F|
+|poke|p2|Sandy Shocks|
+|poke|p2|Oricorio-Sensu, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zelda003)
+|
+|t:|1757916997
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1757917014
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757917020
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Sandy Shocks|Scorching Sands|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rillaboom|89/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1757917031
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Incineroar|Incineroar, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|move|p1a: Rillaboom|High Horsepower|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rillaboom|96/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|75/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|81/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757917044
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Incineroar|Fake Out|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-crit|p1a: Garganacl
+|-damage|p1a: Garganacl|96/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Incineroar|87/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|93/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|100/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1757917051
+|move|p2a: Incineroar|Knock Off|p1a: Garganacl
+|-damage|p1a: Garganacl|76/100
+|-enditem|p1a: Garganacl|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Garganacl|Salt Cure|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|75/100
+|-start|p2a: Incineroar|Salt Cure
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Incineroar|81/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|87/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|82/100|[from] Grassy Terrain
+|-damage|p2a: Incineroar|74/100|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1757917059
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Incineroar|Drain Punch|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Incineroar|80/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|87/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|88/100|[from] Grassy Terrain
+|-damage|p2a: Incineroar|74/100|[from] Salt Cure
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1757917064
+|move|p2a: Incineroar|Drain Punch|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|63/100
+|-heal|p2a: Incineroar|85/100|[from] drain|[of] p1a: Garganacl
+|move|p1a: Garganacl|Earthquake|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Incineroar|60/100|[from] item: Leftovers
+|-damage|p2a: Incineroar|47/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1757917072
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-weather|none
+|-end|p2a: Sandy Shocks|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1757917081
+|move|p2a: Sandy Shocks|Thunder Wave|p1a: Garganacl
+|-immune|p1a: Garganacl|[from] ability: Purifying Salt
+|move|p1a: Garganacl|Salt Cure|p2a: Sandy Shocks
+|-resisted|p2a: Sandy Shocks
+|-crit|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|90/100
+|-start|p2a: Sandy Shocks|Salt Cure
+|
+|-damage|p2a: Sandy Shocks|77/100|[from] Salt Cure
+|upkeep
+|turn|10
+|
+|t:|1757917087
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1757917093
+|move|p2a: Ninetales|Encore|p1a: Garganacl
+|-start|p1a: Garganacl|Encore
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1757917098
+|switch|p2a: Incineroar|Incineroar, F|47/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Garganacl|atk|1
+|switch|p1a: Dedenne|Dedenne, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Incineroar|53/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1757917105
+|move|p1a: Dedenne|Thunderbolt|p2a: Incineroar
+|-damage|p2a: Incineroar|20/100
+|move|p2a: Incineroar|Knock Off|p1a: Dedenne
+|-resisted|p1a: Dedenne
+|-damage|p1a: Dedenne|66/100
+|-enditem|p1a: Dedenne|Sitrus Berry|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Incineroar|26/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1757917110
+|move|p1a: Dedenne|Thunderbolt|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757917114
+|switch|p2a: Leafeon|Leafeon, F|100/100
+|turn|15
+|
+|t:|1757917119
+|-terastallize|p2a: Leafeon|Ground
+|move|p2a: Leafeon|Tera Blast|p1a: Dedenne|[anim] Tera Blast Ground
+|-supereffective|p1a: Dedenne
+|-damage|p1a: Dedenne|0 fnt
+|faint|p1a: Dedenne
+|-damage|p2a: Leafeon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757917124
+|switch|p1a: Rillaboom|Rillaboom, M|96/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|16
+|
+|t:|1757917128
+|move|p1a: Rillaboom|Grassy Glide|p2a: Leafeon
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|8/100
+|move|p2a: Leafeon|Knock Off|p1a: Rillaboom
+|-damage|p1a: Rillaboom|49/100
+|-enditem|p1a: Rillaboom|Assault Vest|[from] move: Knock Off|[of] p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt|[from] item: Life Orb
+|faint|p2a: Leafeon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rillaboom|55/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757917139
+|switch|p2a: Espeon|Espeon, F|100/100
+|turn|17
+|
+|t:|1757917142
+|move|p2a: Espeon|Weather Ball|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-weather|none
+|upkeep
+|
+|t:|1757917148
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p1a: Hawlucha|Grassy Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Grassy Seed
+|turn|18
+|
+|t:|1757917161
+|-terastallize|p1a: Hawlucha|Steel
+|move|p1a: Hawlucha|Acrobatics|p2a: Espeon
+|-damage|p2a: Espeon|7/100
+|move|p2a: Espeon|Psychic|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-crit|p1a: Hawlucha
+|-damage|p1a: Hawlucha|37/100
+|
+|-heal|p1a: Hawlucha|43/100|[from] Grassy Terrain
+|-heal|p2a: Espeon|13/100|[from] Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1757917178
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Hawlucha|Acrobatics|p2a: Ninetales
+|-damage|p2a: Ninetales|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Hawlucha|49/100|[from] Grassy Terrain
+|-heal|p2a: Ninetales|42/100|[from] Grassy Terrain
+|upkeep
+|turn|20
+|
+|t:|1757917197
+|move|p1a: Hawlucha|Acrobatics|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Hawlucha|55/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1757917199
+|switch|p2a: Sandy Shocks|Sandy Shocks|77/100
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|turn|21
+|
+|t:|1757917215
+|move|p1a: Hawlucha|Close Combat|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|21/100
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|move|p2a: Sandy Shocks|Scorching Sands|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757917229
+|switch|p1a: Maushold|Maushold-Four|100/100
+|turn|22
+|
+|t:|1757917239
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Oricorio|Oricorio-Sensu, F|100/100
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1757917245
+|move|p2a: Oricorio|Air Slash|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|91/100
+|cant|p1a: Garganacl|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1757917250
+|move|p2a: Oricorio|Air Slash|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|80/100
+|move|p1a: Garganacl|Salt Cure|p2a: Oricorio
+|-supereffective|p2a: Oricorio
+|-damage|p2a: Oricorio|61/100
+|-start|p2a: Oricorio|Salt Cure
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Oricorio|49/100|[from] Salt Cure
+|upkeep
+|turn|25
+|
+|t:|1757917257
+|move|p2a: Oricorio|U-turn|p1a: Garganacl
+|-damage|p1a: Garganacl|73/100
+|
+|t:|1757917259
+|switch|p2a: Sandy Shocks|Sandy Shocks|21/100|[from] U-turn
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|move|p1a: Garganacl|Salt Cure|p2a: Sandy Shocks
+|-resisted|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|14/100
+|-start|p2a: Sandy Shocks|Salt Cure
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Sandy Shocks|2/100|[from] Salt Cure
+|upkeep
+|turn|26
+|
+|t:|1757917270
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Espeon|Espeon, F|13/100
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|-weather|none
+|upkeep
+|turn|27
+|
+|t:|1757917273
+|move|p2a: Espeon|Psychic|p1a: Garganacl
+|-damage|p1a: Garganacl|30/100
+|move|p1a: Garganacl|Salt Cure|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|upkeep
+|
+|t:|1757917276
+|switch|p2a: Sandy Shocks|Sandy Shocks|2/100
+|turn|28
+|
+|t:|1757917280
+|move|p2a: Sandy Shocks|Scorching Sands|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|upkeep
+|
+|t:|1757917283
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|29
+|
+|t:|1757917286
+|move|p1a: Dragapult|Dragon Darts|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757917288
+|switch|p2a: Oricorio|Oricorio-Sensu, F|49/100
+|turn|30
+|
+|t:|1757917292
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|move|p2a: Oricorio|Air Slash|p1a: Dragapult|[miss]
+|-miss|p2a: Oricorio|p1a: Dragapult
+|
+|upkeep
+|turn|31
+|
+|t:|1757917295
+|move|p1a: Dragapult|Phantom Force|p2a: Oricorio|[from] lockedmove
+|-supereffective|p2a: Oricorio
+|-damage|p2a: Oricorio|0 fnt
+|faint|p2a: Oricorio
+|-damage|p1a: Dragapult|81/100|[from] item: Life Orb
+|
+|win|zelda003
+|raw|zelda003's rating: 1300 &rarr; <strong>1321</strong><br />(+21 for winning)
+|raw|RadiantSol's rating: 1247 &rarr; <strong>1226</strong><br />(-21 for losing)
+|l|‽RadiantSol
+|player|p2|
+|l|☆zelda003
+|player|p1|

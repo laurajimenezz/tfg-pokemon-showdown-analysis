@@ -1,0 +1,302 @@
+|j|☆polgo
+|j|☆Odkll
+|t:|1769360528
+|gametype|singles
+|player|p1|polgo|swimmer-gen4|1154
+|player|p2|Odkll|hilbert-wonderlauncher|1101
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Hands|
+|poke|p1|Bastiodon, F|
+|poke|p1|Altaria, F|
+|poke|p1|Slowking, F|
+|poke|p1|Spiritomb, F|
+|poke|p1|Camerupt, F|
+|poke|p2|Zoroark, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, F|
+|poke|p2|Latias, F|
+|teampreview
+|
+|t:|1769360540
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Hands|Iron Hands, shiny|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|t:|1769360549
+|move|p2a: Dragapult|Trick|p1a: Iron Hands
+|-activate|p2a: Dragapult|move: Trick|[of] p1a: Iron Hands
+|-item|p1a: Iron Hands|Choice Specs|[from] move: Trick
+|-item|p2a: Dragapult|Assault Vest|[from] move: Trick
+|move|p1a: Iron Hands|Ice Punch|p2a: Dragapult
+|-damage|p2a: Dragapult|53/100
+|replace|p2a: Zoroark|Zoroark, M
+|-end|p2a: Zoroark|Illusion
+|
+|upkeep
+|turn|2
+|
+|t:|1769360573
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Spiritomb|Spiritomb, F, shiny|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1769360591
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Spiritomb|Poltergeist|p2a: Samurott
+|-activate|p2a: Samurott|move: Poltergeist|Assault Vest
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|82/100
+|
+|upkeep
+|turn|4
+|
+|t:|1769360598
+|move|p2a: Samurott|Ceaseless Edge|p1a: Spiritomb
+|-damage|p1a: Spiritomb|63/100
+|-damage|p2a: Samurott|66/100|[from] item: Rocky Helmet|[of] p1a: Spiritomb
+|-sidestart|p1: polgo|Spikes
+|move|p1a: Spiritomb|Will-O-Wisp|p2a: Samurott
+|-status|p2a: Samurott|brn
+|
+|-damage|p2a: Samurott|60/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1769360607
+|move|p2a: Samurott|Ceaseless Edge|p1a: Spiritomb
+|-damage|p1a: Spiritomb|46/100
+|-damage|p2a: Samurott|43/100 brn|[from] item: Rocky Helmet|[of] p1a: Spiritomb
+|-sidestart|p1: polgo|Spikes
+|move|p1a: Spiritomb|Trick Room|p1a: Spiritomb
+|-fieldstart|move: Trick Room|[of] p1a: Spiritomb
+|
+|-damage|p2a: Samurott|37/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1769360614
+|move|p1a: Spiritomb|Poltergeist|p2a: Samurott
+|-activate|p2a: Samurott|move: Poltergeist|Assault Vest
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|18/100 brn
+|move|p2a: Samurott|Ceaseless Edge|p1a: Spiritomb
+|-damage|p1a: Spiritomb|28/100
+|-damage|p2a: Samurott|1/100 brn|[from] item: Rocky Helmet|[of] p1a: Spiritomb
+|-sidestart|p1: polgo|Spikes
+|
+|-damage|p2a: Samurott|0 fnt|[from] brn
+|faint|p2a: Samurott
+|upkeep
+|
+|t:|1769360646
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|7
+|
+|t:|1769360653
+|move|p1a: Spiritomb|Will-O-Wisp|p2a: Great Tusk|[miss]
+|-miss|p1a: Spiritomb|p2a: Great Tusk
+|move|p2a: Great Tusk|Ice Spinner|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|-damage|p2a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p1a: Spiritomb
+|faint|p1a: Spiritomb
+|
+|upkeep
+|
+|t:|1769360663
+|switch|p1a: Slowking|Slowking, F, shiny|100/100
+|-damage|p1a: Slowking|76/100|[from] Spikes
+|turn|8
+|
+|t:|1769360673
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Slowking|Scald|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|90/100
+|-status|p2a: Latias|brn
+|
+|-damage|p2a: Latias|84/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1769360685
+|move|p1a: Slowking|Future Sight|p2a: Latias
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-damage|p2a: Latias|78/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+|
+|t:|1769360691
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-damage|p2a: Latias|72/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1769360697
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1769360699
+|switch|p1a: Iron Hands|Iron Hands, shiny|100/100|[from] Chilly Reception
+|-damage|p1a: Iron Hands|75/100|[from] Spikes
+|move|p2a: Latias|Recover|p2a: Latias
+|-heal|p2a: Latias|100/100 brn
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Latias|move: Future Sight
+|-resisted|p2a: Latias
+|-crit|p2a: Latias
+|-damage|p2a: Latias|76/100 brn
+|-damage|p2a: Latias|70/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1769360710
+|move|p1a: Iron Hands|Ice Punch|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|15/100 brn
+|-enditem|p2a: Latias|Weakness Policy
+|-boost|p2a: Latias|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Latias|spa|2|[from] item: Weakness Policy
+|move|p2a: Latias|Stored Power|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Latias|8/100 brn|[from] brn
+|upkeep
+|
+|t:|1769360727
+|switch|p1a: Bastiodon|Bastiodon, F, shiny|100/100
+|-damage|p1a: Bastiodon|75/100|[from] Spikes
+|turn|13
+|
+|t:|1769360731
+|move|p1a: Bastiodon|Body Press|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1769360741
+|switch|p2a: Great Tusk|Great Tusk|84/100
+|turn|14
+|
+|t:|1769360745
+|move|p1a: Bastiodon|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: Odkll|move: Stealth Rock
+|move|p2a: Great Tusk|Close Combat|p1a: Bastiodon
+|-supereffective|p1a: Bastiodon
+|-damage|p1a: Bastiodon|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Bastiodon
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1769360754
+|switch|p1a: Slowking|Slowking, F, shiny|100/100
+|-damage|p1a: Slowking|76/100|[from] Spikes
+|turn|15
+|
+|t:|1769360766
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1769360775
+|move|p1a: Slowking|Scald|p2a: Gholdengo
+|-damage|p2a: Gholdengo|60/100
+|-status|p2a: Gholdengo|brn
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-damage|p2a: Gholdengo|54/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1769360783
+|move|p1a: Slowking|Scald|p2a: Gholdengo
+|-damage|p2a: Gholdengo|22/100 brn
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|72/100 brn
+|
+|-damage|p2a: Gholdengo|66/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1769360792
+|switch|p1a: Altaria|Altaria, F, shiny|100/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Altaria
+|-damage|p1a: Altaria|33/100
+|
+|-damage|p2a: Gholdengo|60/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1769360801
+|move|p1a: Altaria|Perish Song|p1a: Altaria
+|-start|p1a: Altaria|perish3|[silent]
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|-fieldactivate|move: Perish Song
+|move|p2a: Gholdengo|Shadow Ball|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|faint|p1a: Altaria
+|
+|-damage|p2a: Gholdengo|54/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|-message|polgo forfeited.
+|
+|win|Odkll
+|raw|polgo's rating: 1154 &rarr; <strong>1125</strong><br />(-29 for losing)
+|raw|Odkll's rating: 1101 &rarr; <strong>1130</strong><br />(+29 for winning)
+|l|☆polgo
+|player|p1|
+|l|☆Odkll
+|player|p2|

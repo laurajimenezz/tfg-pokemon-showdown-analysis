@@ -1,0 +1,332 @@
+|j|‽JP-espinosa
+|j|☆bjordl
+|t:|1779845995
+|gametype|singles
+|player|p1|JP-espinosa|hoopster|1205
+|player|p2|bjordl|2|1294
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Barraskewda, F|
+|poke|p1|Carbink, L1|
+|poke|p1|Pelipper, F|
+|poke|p1|Meowscarada, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Skeledirge, M|
+|poke|p2|Heatran, F|
+|poke|p2|Pecharunt|
+|poke|p2|Raging Bolt|
+|poke|p2|Zarude|
+|poke|p2|Quaquaval, M|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1779846003
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Carbink|Carbink, L1|100/100
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|1
+|
+|t:|1779846012
+|move|p1a: Carbink|Protect|p1a: Carbink
+|-singleturn|p1a: Carbink|Protect
+|move|p2a: Pecharunt|Parting Shot|p1a: Carbink
+|-activate|p1a: Carbink|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1779846017
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Pecharunt|Parting Shot|p1a: Hatterene
+|move|p1a: Hatterene|Parting Shot|p2a: Pecharunt|[from] ability: Magic Bounce
+|-unboost|p2a: Pecharunt|atk|1
+|-unboost|p2a: Pecharunt|spa|1
+|
+|t:|1779846033
+|switch|p1a: Meowscarada|Meowscarada, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|3
+|
+|t:|1779846053
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Meowscarada|Knock Off|p2a: Heatran
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Heatran|54/100
+|-enditem|p2a: Heatran|Leftovers|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|upkeep
+|turn|4
+|
+|t:|1779846065
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Heatran|Magma Storm|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|90/100
+|-activate|p1a: Pelipper|move: Magma Storm|[of] p2a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|78/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1779846075
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Pelipper|Weather Ball|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|72/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Pelipper|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|6
+|
+|t:|1779846079
+|move|p2a: Raging Bolt|Thunderclap|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779846084
+|switch|p1a: Carbink|Carbink, L1|100/100
+|turn|7
+|
+|t:|1779846089
+|move|p2a: Raging Bolt|Thunderclap|p1a: Carbink
+|-ability|p1a: Carbink|Sturdy
+|-damage|p1a: Carbink|9/100
+|move|p1a: Carbink|Endeavor|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|1/100
+|-heal|p1a: Carbink|100/100|[from] item: Shell Bell|[of] p2a: Raging Bolt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1779846107
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1779846120
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Meowscarada|U-turn|p2a: Hatterene
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|62/100
+|
+|t:|1779846129
+|switch|p1a: Barraskewda|Barraskewda, F|100/100|[from] U-turn
+|
+|-heal|p2a: Hatterene|68/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779846133
+|move|p1a: Barraskewda|Crunch|p2a: Hatterene
+|-damage|p2a: Hatterene|34/100
+|-damage|p1a: Barraskewda|91/100|[from] item: Life Orb
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|40/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1779846145
+|move|p1a: Barraskewda|Crunch|p2a: Hatterene
+|-damage|p2a: Hatterene|9/100
+|-damage|p1a: Barraskewda|81/100|[from] item: Life Orb
+|move|p2a: Hatterene|Draining Kiss|p1a: Barraskewda
+|-damage|p1a: Barraskewda|10/100
+|-heal|p2a: Hatterene|53/100|[from] drain|[of] p1a: Barraskewda
+|
+|-heal|p2a: Hatterene|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779846150
+|move|p1a: Barraskewda|Liquidation|p2a: Hatterene
+|-damage|p2a: Hatterene|10/100
+|-unboost|p2a: Hatterene|def|1
+|-damage|p1a: Barraskewda|0 fnt|[from] item: Life Orb
+|faint|p1a: Barraskewda
+|move|p2a: Hatterene|Draining Kiss|p1: Barraskewda|[notarget]
+|-fail|p2a: Hatterene
+|
+|-heal|p2a: Hatterene|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779846154
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|13
+|
+|t:|1779846171
+|move|p1a: Meowscarada|Petal Blizzard|p2a: Hatterene
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1779846175
+|switch|p2a: Heatran|Heatran, F|54/100
+|turn|14
+|
+|t:|1779846181
+|move|p1a: Meowscarada|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|49/100
+|
+|t:|1779846184
+|switch|p1a: Skeledirge|Skeledirge, M|100/100|[from] U-turn
+|move|p2a: Heatran|Stealth Rock|p1a: Skeledirge
+|-sidestart|p1: JP-espinosa|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|l|‽JP-espinosa
+|player|p1|
+|j|‽JP-espinosa
+|player|p1|JP-espinosa|hoopster|
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|n|‽JP-espinosa|jpespinosa
+|
+|t:|1779846204
+|move|p2a: Heatran|Earth Power|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|46/100
+|move|p1a: Skeledirge|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-heal|p1a: Skeledirge|52/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779846215
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|turn|16
+|
+|t:|1779846232
+|move|p2a: Quaquaval|Knock Off|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|-enditem|p1a: Skeledirge|Leftovers|[from] move: Knock Off|[of] p2a: Quaquaval
+|faint|p1a: Skeledirge
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1779846241
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|-damage|p1a: Meowscarada|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1779846244
+|-terastallize|p2a: Quaquaval|Steel
+|move|p1a: Meowscarada|Petal Blizzard|p2a: Quaquaval
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-resisted|p2a: Quaquaval
+|-damage|p2a: Quaquaval|72/100
+|move|p2a: Quaquaval|Close Combat|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|faint|p1a: Meowscarada
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1779846248
+|switch|p1a: Carbink|Carbink, L1|100/100
+|-damage|p1a: Carbink|92/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1779846253
+|move|p2a: Quaquaval|Aqua Step|p1a: Carbink
+|-supereffective|p1a: Carbink
+|-damage|p1a: Carbink|0 fnt
+|-boost|p2a: Quaquaval|spe|1
+|faint|p1a: Carbink
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1779846255
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1779846260
+|-terastallize|p1a: Hatterene|Fire
+|move|p2a: Quaquaval|Aqua Step|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-boost|p2a: Quaquaval|spe|1
+|faint|p1a: Hatterene
+|
+|win|bjordl
+|raw|JP-espinosa's rating: 1205 &rarr; <strong>1186</strong><br />(-19 for losing)
+|raw|bjordl's rating: 1294 &rarr; <strong>1313</strong><br />(+19 for winning)
+|l|‽JP-espinosa
+|player|p1|
+|c|☆bjordl|gg'
+|l|☆bjordl
+|player|p2|

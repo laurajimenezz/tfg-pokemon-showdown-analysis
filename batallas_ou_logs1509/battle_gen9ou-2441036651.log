@@ -1,0 +1,302 @@
+|j|☆capitolg
+|j|☆Scayle
+|t:|1757789800
+|gametype|singles
+|player|p1|capitolg|bellelba|1137
+|player|p2|Scayle|266|1168
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Vikavolt, F|
+|poke|p1|Articuno-Galar|
+|poke|p1|Smeargle, F|
+|poke|p1|Empoleon, M|
+|poke|p1|Passimian, F|
+|poke|p1|Dusknoir, F|
+|poke|p2|Typhlosion, F|
+|poke|p2|Sudowoodo, M|
+|poke|p2|Gyarados, M|
+|poke|p2|Ampharos, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Scizor, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Scayle)
+|
+|t:|1757789811
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Vikavolt|Vikavolt, F|100/100
+|switch|p2a: Ampharos|Ampharos, F|100/100
+|turn|1
+|
+|t:|1757789814
+|move|p2a: Ampharos|Meteor Beam||[still]
+|-prepare|p2a: Ampharos|Meteor Beam
+|-boost|p2a: Ampharos|spa|1
+|-enditem|p2a: Ampharos|Power Herb
+|-anim|p2a: Ampharos|Meteor Beam|p1a: Vikavolt
+|-supereffective|p1a: Vikavolt
+|-enditem|p1a: Vikavolt|Focus Sash
+|-damage|p1a: Vikavolt|1/100
+|move|p1a: Vikavolt|Sticky Web|p2a: Ampharos
+|-sidestart|p2: Scayle|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1757789828
+|move|p2a: Ampharos|Thunderbolt|p1a: Vikavolt
+|-resisted|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|
+|upkeep
+|
+|t:|1757789829
+|switch|p1a: Smeargle|Smeargle, F|100/100
+|turn|3
+|
+|t:|1757789837
+|move|p1a: Smeargle|Court Change|p1a: Smeargle
+|-swapsideconditions
+|-activate|p1a: Smeargle|move: Court Change
+|move|p2a: Ampharos|Focus Blast|p1a: Smeargle|[miss]
+|-miss|p2a: Ampharos|p1a: Smeargle
+|
+|upkeep
+|turn|4
+|
+|t:|1757789846
+|switch|p1a: Dusknoir|Dusknoir, F|100/100
+|-activate|p1a: Dusknoir|move: Sticky Web
+|-unboost|p1a: Dusknoir|spe|1
+|move|p2a: Ampharos|Focus Blast|p1a: Dusknoir
+|-immune|p1a: Dusknoir
+|
+|upkeep
+|turn|5
+|
+|t:|1757789850
+|move|p2a: Ampharos|Thunderbolt|p1a: Dusknoir
+|-damage|p1a: Dusknoir|24/100
+|move|p1a: Dusknoir|Trick Room|p1a: Dusknoir
+|-fieldstart|move: Trick Room|[of] p1a: Dusknoir
+|
+|upkeep
+|turn|6
+|
+|t:|1757789857
+|move|p1a: Dusknoir|Earthquake|p2a: Ampharos
+|-supereffective|p2a: Ampharos
+|-damage|p2a: Ampharos|45/100
+|move|p2a: Ampharos|Thunderbolt|p1a: Dusknoir
+|-damage|p1a: Dusknoir|0 fnt
+|faint|p1a: Dusknoir
+|
+|upkeep
+|
+|t:|1757789859
+|switch|p1a: Passimian|Passimian, F|100/100
+|-activate|p1a: Passimian|move: Sticky Web
+|-unboost|p1a: Passimian|spe|1
+|-ability|p1a: Passimian|Defiant|boost
+|-boost|p1a: Passimian|atk|2
+|turn|7
+|
+|t:|1757789863
+|move|p1a: Passimian|Earthquake|p2a: Ampharos
+|-supereffective|p2a: Ampharos
+|-damage|p2a: Ampharos|0 fnt
+|faint|p2a: Ampharos
+|
+|upkeep
+|
+|t:|1757789885
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Passimian|atk|1
+|-ability|p1a: Passimian|Defiant|boost
+|-boost|p1a: Passimian|atk|2
+|turn|8
+|
+|t:|1757789891
+|move|p1a: Passimian|Facade|p2a: Gyarados
+|-damage|p2a: Gyarados|30/100
+|move|p2a: Gyarados|Waterfall|p1a: Passimian
+|-damage|p1a: Passimian|57/100
+|
+|upkeep
+|turn|9
+|
+|t:|1757789897
+|move|p1a: Passimian|Facade|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757789903
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|10
+|
+|t:|1757789908
+|move|p2a: Dragonite|Earthquake|p1a: Passimian
+|-damage|p1a: Passimian|18/100
+|-enditem|p1a: Passimian|Sitrus Berry|[eat]
+|-heal|p1a: Passimian|43/100|[from] item: Sitrus Berry
+|move|p1a: Passimian|Facade|p2a: Dragonite
+|-damage|p2a: Dragonite|69/100
+|
+|upkeep
+|turn|11
+|
+|t:|1757789914
+|move|p2a: Dragonite|Earthquake|p1a: Passimian
+|-damage|p1a: Passimian|6/100
+|move|p1a: Passimian|Facade|p2a: Dragonite
+|-damage|p2a: Dragonite|5/100
+|
+|upkeep
+|turn|12
+|
+|t:|1757789920
+|move|p2a: Dragonite|Extreme Speed|p1a: Passimian
+|-damage|p1a: Passimian|0 fnt
+|faint|p1a: Passimian
+|
+|upkeep
+|
+|t:|1757789922
+|switch|p1a: Smeargle|Smeargle, F|100/100
+|-activate|p1a: Smeargle|move: Sticky Web
+|-unboost|p1a: Smeargle|spe|1
+|turn|13
+|
+|t:|1757789927
+|move|p2a: Dragonite|Earthquake|p1a: Smeargle
+|-damage|p1a: Smeargle|8/100
+|move|p1a: Smeargle|Trick Room|p1a: Smeargle
+|-fieldstart|move: Trick Room|[of] p1a: Smeargle
+|
+|upkeep
+|turn|14
+|
+|t:|1757789937
+|move|p1a: Smeargle|Burning Bulwark|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Protect
+|move|p2a: Dragonite|Extreme Speed|p1a: Smeargle
+|-activate|p1a: Smeargle|move: Protect
+|-status|p2a: Dragonite|brn
+|
+|-damage|p2a: Dragonite|0 fnt|[from] brn
+|faint|p2a: Dragonite
+|upkeep
+|
+|t:|1757789946
+|switch|p2a: Sudowoodo|Sudowoodo, M|100/100
+|turn|15
+|
+|t:|1757789950
+|move|p2a: Sudowoodo|Earthquake|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|
+|upkeep
+|
+|t:|1757789953
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|-activate|p1a: Empoleon|move: Sticky Web
+|-unboost|p1a: Empoleon|spe|1
+|-ability|p1a: Empoleon|Competitive|boost
+|-boost|p1a: Empoleon|spa|2
+|turn|16
+|
+|t:|1757789963
+|move|p2a: Sudowoodo|Body Press|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|55/100
+|move|p1a: Empoleon|Surf|p2a: Sudowoodo
+|-supereffective|p2a: Sudowoodo
+|-ability|p2a: Sudowoodo|Sturdy
+|-damage|p2a: Sudowoodo|1/100
+|
+|upkeep
+|turn|17
+|
+|t:|1757789969
+|move|p1a: Empoleon|Vacuum Wave|p2a: Sudowoodo
+|-supereffective|p2a: Sudowoodo
+|-damage|p2a: Sudowoodo|0 fnt
+|faint|p2a: Sudowoodo
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757789974
+|switch|p2a: Typhlosion|Typhlosion, F|100/100
+|turn|18
+|
+|t:|1757789980
+|move|p2a: Typhlosion|Eruption|p1a: Empoleon
+|-damage|p1a: Empoleon|16/100
+|move|p1a: Empoleon|Surf|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|upkeep
+|
+|t:|1757789985
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|19
+|
+|t:|1757789997
+|-terastallize|p2a: Scizor|Water
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Empoleon|Surf|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|41/100
+|
+|upkeep
+|turn|20
+|
+|t:|1757790019
+|move|p2a: Scizor|Bullet Punch|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|faint|p1a: Empoleon
+|
+|upkeep
+|
+|t:|1757790020
+|switch|p1a: Articuno|Articuno-Galar|100/100
+|-activate|p1a: Articuno|move: Sticky Web
+|-unboost|p1a: Articuno|spe|1
+|-ability|p1a: Articuno|Competitive|boost
+|-boost|p1a: Articuno|spa|2
+|turn|21
+|
+|t:|1757790032
+|move|p2a: Scizor|Bullet Punch|p1a: Articuno
+|-damage|p1a: Articuno|28/100
+|move|p1a: Articuno|Shadow Ball|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|win|capitolg
+|raw|capitolg's rating: 1137 &rarr; <strong>1164</strong><br />(+27 for winning)
+|raw|Scayle's rating: 1168 &rarr; <strong>1141</strong><br />(-27 for losing)
+|l|☆Scayle
+|player|p2|

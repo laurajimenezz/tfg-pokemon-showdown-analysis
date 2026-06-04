@@ -1,0 +1,259 @@
+|j|☆Scalyfall
+|j|☆keep your life
+|t:|1779875988
+|gametype|singles
+|player|p1|Scalyfall|leaf-masters|1223
+|player|p2|keep your life|266|1261
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Walking Wake|
+|poke|p1|Venusaur, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Azumarill, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Heatran, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1779875998
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Valiant|atk|1
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1779876007
+|move|p2a: Iron Valiant|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|37/100
+|move|p1a: Landorus|Sludge Wave|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779876023
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|2
+|
+|t:|1779876026
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Alomomola|Flip Turn|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|75/100
+|
+|t:|1779876034
+|switch|p2a: Heatran|Heatran, F|100/100|[from] Flip Turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779876041
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Heatran|Will-O-Wisp|p1a: Walking Wake
+|-status|p1a: Walking Wake|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Walking Wake|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1779876048
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Clodsire
+|-damage|p2a: Clodsire|34/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clodsire|41/100|[from] item: Leftovers
+|-damage|p1a: Walking Wake|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1779876053
+|move|p1a: Walking Wake|Draco Meteor|p2a: Clodsire
+|-damage|p2a: Clodsire|5/100
+|-unboost|p1a: Walking Wake|spa|2
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clodsire|61/100|[from] item: Leftovers
+|-damage|p1a: Walking Wake|82/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1779876060
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779876069
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1779876081
+|-terastallize|p2a: Heatran|Ghost
+|move|p1a: Venusaur|Earth Power|p2a: Heatran
+|-damage|p2a: Heatran|39/100
+|-damage|p1a: Venusaur|91/100|[from] item: Life Orb
+|move|p2a: Heatran|Flamethrower|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779876090
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|9
+|
+|t:|1779876097
+|move|p2a: Heatran|Flamethrower|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|-weather|none
+|-heal|p2a: Heatran|52/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779876103
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|turn|10
+|
+|t:|1779876108
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Azumarill|Knock Off|p2a: Clodsire
+|-crit|p2a: Clodsire
+|-damage|p2a: Clodsire|36/100
+|-enditem|p2a: Clodsire|Leftovers|[from] move: Knock Off|[of] p1a: Azumarill
+|
+|upkeep
+|turn|11
+|
+|t:|1779876115
+|move|p1a: Azumarill|Ice Punch|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|upkeep
+|
+|t:|1779876118
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|12
+|
+|t:|1779876123
+|move|p2a: Alomomola|Flip Turn|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|93/100
+|
+|t:|1779876127
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] Flip Turn
+|move|p1a: Azumarill|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|76/100
+|-damage|p1a: Azumarill|76/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Azumarill
+|
+|upkeep
+|turn|13
+|
+|t:|1779876135
+|switch|p1a: Ninetales|Ninetales, F|75/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Corviknight|Brave Bird|p1a: Ninetales
+|-damage|p1a: Ninetales|22/100
+|-damage|p2a: Corviknight|64/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1779876140
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Ninetales|Solar Beam||[still]
+|-prepare|p1a: Ninetales|Solar Beam
+|-anim|p1a: Ninetales|Solar Beam|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|92/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowking|98/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1779876147
+|move|p1a: Ninetales|Healing Wish|p1a: Ninetales
+|faint|p1a: Ninetales
+|move|p2a: Slowking|Eerie Spell|p1: Ninetales|[notarget]
+|-fail|p2a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowking|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779876153
+|switch|p1a: Landorus|Landorus-Therian, M|37/100
+|-heal|p1a: Landorus|100/100|[from] move: Healing Wish
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|turn|16
+|
+|t:|1779876162
+|switch|p2a: Corviknight|Corviknight, M|64/100
+|move|p1a: Landorus|Weather Ball|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|keep your life forfeited.
+|
+|win|Scalyfall
+|raw|Scalyfall's rating: 1223 &rarr; <strong>1251</strong><br />(+28 for winning)
+|raw|keep your life's rating: 1261 &rarr; <strong>1233</strong><br />(-28 for losing)
+|l|☆keep your life
+|player|p2|
+|l|☆Scalyfall
+|player|p1|

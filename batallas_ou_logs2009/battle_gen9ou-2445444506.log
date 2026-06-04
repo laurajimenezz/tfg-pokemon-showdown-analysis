@@ -1,0 +1,284 @@
+|j|☆CuentaTemporal00
+|j|☆TheSuperM101
+|t:|1758346860
+|gametype|singles
+|player|p1|CuentaTemporal00|li|1157
+|player|p2|TheSuperM101|hilda-wonderlauncher|1106
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Staraptor, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Iron Hands|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Araquanid, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Iron Treads|
+|poke|p2|Zweilous, F|
+|teampreview
+|
+|t:|1758346874
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Staraptor|Staraptor, F|100/100
+|switch|p2a: benjamin|Thundurus-Therian, M, shiny|100/100
+|turn|1
+|
+|t:|1758346898
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: benjamin|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|43/100
+|
+|t:|1758346919
+|switch|p2a: King Jelly III|Deoxys-Speed, shiny|100/100|[from] Volt Switch
+|-ability|p2a: King Jelly III|Pressure
+|
+|upkeep
+|turn|2
+|
+|t:|1758346930
+|move|p2a: King Jelly III|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|13/100
+|-enditem|p1a: Rotom|Assault Vest|[from] move: Knock Off|[of] p2a: King Jelly III
+|move|p1a: Rotom|Shadow Ball|p2a: King Jelly III
+|-supereffective|p2a: King Jelly III
+|-damage|p2a: King Jelly III|40/100
+|-enditem|p2a: King Jelly III|Sitrus Berry|[eat]
+|-heal|p2a: King Jelly III|65/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|3
+|
+|t:|1758346942
+|move|p2a: King Jelly III|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1758346944
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|4
+|
+|t:|1758346956
+|move|p1a: Iron Hands|Fake Out|p2a: King Jelly III
+|-damage|p2a: King Jelly III|48/100
+|cant|p2a: King Jelly III|flinch
+|
+|upkeep
+|turn|5
+|
+|t:|1758346969
+|move|p2a: King Jelly III|Spikes|p1a: Iron Hands
+|-sidestart|p1: CuentaTemporal00|Spikes
+|move|p1a: Iron Hands|Earthquake|p2a: King Jelly III
+|-damage|p2a: King Jelly III|0 fnt
+|faint|p2a: King Jelly III
+|
+|upkeep
+|
+|t:|1758346983
+|switch|p2a: MechaOrville|Iron Treads, shiny|100/100
+|turn|6
+|
+|t:|1758346987
+|move|p2a: MechaOrville|Earthquake|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|37/100
+|move|p1a: Iron Hands|Earthquake|p2a: MechaOrville
+|-supereffective|p2a: MechaOrville
+|-damage|p2a: MechaOrville|1/100
+|
+|upkeep
+|turn|7
+|
+|t:|1758346996
+|move|p2a: MechaOrville|Earthquake|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758347005
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p1a: Conkeldurr|88/100|[from] Spikes
+|turn|8
+|
+|t:|1758347017
+|-end|p2a: MechaOrville|Quark Drive|[silent]
+|switch|p2a: benjamin|Thundurus-Therian, M, shiny|100/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: benjamin
+|-resisted|p2a: benjamin
+|-damage|p2a: benjamin|82/100
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|t:|1758347029
+|move|p2a: benjamin|Volt Switch|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|19/100 brn
+|
+|t:|1758347033
+|switch|p2a: Miles|Araquanid, M, shiny|100/100|[from] Volt Switch
+|move|p1a: Conkeldurr|Ice Punch|p2a: Miles
+|-resisted|p2a: Miles
+|-damage|p2a: Miles|76/100
+|
+|-damage|p1a: Conkeldurr|13/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1758347043
+|move|p1a: Conkeldurr|Knock Off|p2a: Miles
+|-damage|p2a: Miles|13/100
+|-enditem|p2a: Miles|Iapapa Berry|[from] move: Knock Off|[of] p1a: Conkeldurr
+|move|p2a: Miles|Sticky Web|p1a: Conkeldurr
+|-sidestart|p1: CuentaTemporal00|move: Sticky Web
+|
+|-damage|p1a: Conkeldurr|7/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1758347060
+|switch|p2a: benjamin|Thundurus-Therian, M, shiny|82/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: benjamin
+|-resisted|p2a: benjamin
+|-damage|p2a: benjamin|55/100
+|
+|-damage|p1a: Conkeldurr|0 fnt|[from] brn
+|faint|p1a: Conkeldurr
+|upkeep
+|
+|t:|1758347066
+|switch|p1a: Staraptor|Staraptor, F|100/100
+|turn|12
+|
+|t:|1758347072
+|move|p2a: benjamin|Volt Switch|p1a: Staraptor
+|-supereffective|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|faint|p1a: Staraptor
+|
+|t:|1758347076
+|switch|p2a: fiona-ogre|Zweilous, F, shiny|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1758347086
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Spikes
+|-activate|p1a: Dragapult|move: Sticky Web
+|-unboost|p1a: Dragapult|spe|1
+|turn|13
+|
+|t:|1758347106
+|-terastallize|p1a: Dragapult|Dragon
+|move|p1a: Dragapult|Dragon Darts|p2a: fiona-ogre
+|-supereffective|p2a: fiona-ogre
+|-damage|p2a: fiona-ogre|0 fnt
+|faint|p2a: fiona-ogre
+|-damage|p1a: Dragapult|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758347120
+|switch|p2a: MechaOrville|Iron Treads, shiny|1/100
+|turn|14
+|
+|t:|1758347135
+|-terastallize|p2a: MechaOrville|Fairy
+|move|p1a: Dragapult|Sucker Punch|p2a: MechaOrville
+|-resisted|p2a: MechaOrville
+|-damage|p2a: MechaOrville|0 fnt
+|faint|p2a: MechaOrville
+|-end|p2a: MechaOrville|Quark Drive|[silent]
+|-damage|p1a: Dragapult|69/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758347147
+|switch|p2a: Monty|Excadrill, M, shiny|100/100
+|-ability|p2a: Monty|Mold Breaker
+|-item|p2a: Monty|Air Balloon
+|turn|15
+|
+|t:|1758347181
+|move|p2a: Monty|Swords Dance|p2a: Monty
+|-boost|p2a: Monty|atk|2
+|move|p1a: Dragapult|Outrage|p2a: Monty
+|-resisted|p2a: Monty
+|-damage|p2a: Monty|41/100
+|-enditem|p2a: Monty|Air Balloon
+|-damage|p1a: Dragapult|59/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|
+|t:|1758347192
+|move|p2a: Monty|Shadow Claw|p1a: Dragapult
+|-damage|p1a: Dragapult|4/100
+|move|p1a: Dragapult|Outrage|p2a: Monty|[from] lockedmove
+|-resisted|p2a: Monty
+|-damage|p2a: Monty|0 fnt
+|faint|p2a: Monty
+|-damage|p1a: Dragapult|0 fnt|[from] item: Life Orb
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1758347214
+|switch|p1a: Weavile|Weavile, M|100/100
+|switch|p2a: benjamin|Thundurus-Therian, M, shiny|55/100
+|-damage|p1a: Weavile|88/100|[from] Spikes
+|-activate|p1a: Weavile|move: Sticky Web
+|-unboost|p1a: Weavile|spe|1
+|turn|17
+|
+|t:|1758347231
+|move|p1a: Weavile|Ice Shard|p2a: benjamin
+|-supereffective|p2a: benjamin
+|-damage|p2a: benjamin|0 fnt
+|faint|p2a: benjamin
+|-damage|p1a: Weavile|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758347234
+|switch|p2a: Miles|Araquanid, M, shiny|13/100
+|turn|18
+|
+|t:|1758347240
+|move|p1a: Weavile|Ice Spinner|p2a: Miles
+|-resisted|p2a: Miles
+|-damage|p2a: Miles|0 fnt
+|faint|p2a: Miles
+|-damage|p1a: Weavile|68/100|[from] item: Life Orb
+|
+|win|CuentaTemporal00
+|raw|CuentaTemporal00's rating: 1157 &rarr; <strong>1178</strong><br />(+21 for winning)
+|raw|TheSuperM101's rating: 1106 &rarr; <strong>1085</strong><br />(-21 for losing)
+|c|☆TheSuperM101|gg
+|l|☆TheSuperM101
+|player|p2|
+|l|☆CuentaTemporal00
+|player|p1|

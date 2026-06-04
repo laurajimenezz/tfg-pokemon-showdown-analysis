@@ -1,0 +1,225 @@
+|j|☆Ho-oHTheUnfallen
+|j|☆reiiji
+|t:|1758928706
+|gametype|singles
+|player|p1|Ho-oHTheUnfallen|hilda|1081
+|player|p2|reiiji|170|1103
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dodrio, F|
+|poke|p1|Granbull, M|
+|poke|p1|Articuno|
+|poke|p1|Farigiraf, M|
+|poke|p1|Lilligant, F|
+|poke|p1|Misdreavus, M|
+|poke|p2|Torterra, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Thorns|
+|teampreview
+|
+|t:|1758928714
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Lilligant|Lilligant, F|100/100
+|switch|p2a: Iron Thorns|Iron Thorns|100/100
+|-enditem|p2a: Iron Thorns|Booster Energy
+|-activate|p2a: Iron Thorns|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Thorns|quarkdriveatk
+|turn|1
+|
+|t:|1758928771
+|move|p2a: Iron Thorns|Dragon Dance|p2a: Iron Thorns
+|-boost|p2a: Iron Thorns|atk|1
+|-boost|p2a: Iron Thorns|spe|1
+|move|p1a: Lilligant|Quiver Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|spa|1
+|-boost|p1a: Lilligant|spd|1
+|-boost|p1a: Lilligant|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1758928801
+|-terastallize|p2a: Iron Thorns|Flying
+|move|p2a: Iron Thorns|Tera Blast|p1a: Lilligant|[anim] Tera Blast Flying
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|upkeep
+|
+|t:|1758928807
+|switch|p1a: Granbull|Granbull, M|100/100
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Iron Thorns|atk|1
+|turn|3
+|
+|t:|1758928822
+|move|p2a: Iron Thorns|Rock Slide|p1a: Granbull
+|-damage|p1a: Granbull|47/100
+|cant|p1a: Granbull|flinch
+|
+|upkeep
+|turn|4
+|
+|t:|1758928828
+|move|p2a: Iron Thorns|Rock Slide|p1a: Granbull
+|-damage|p1a: Granbull|0 fnt
+|faint|p1a: Granbull
+|
+|upkeep
+|
+|t:|1758928834
+|switch|p1a: Misdreavus|Misdreavus, M|100/100
+|turn|5
+|
+|t:|1758928843
+|move|p2a: Iron Thorns|Tera Blast|p1a: Misdreavus|[anim] Tera Blast Flying
+|-damage|p1a: Misdreavus|48/100
+|move|p1a: Misdreavus|Destiny Bond|p1a: Misdreavus
+|-singlemove|p1a: Misdreavus|Destiny Bond
+|
+|upkeep
+|turn|6
+|
+|t:|1758928852
+|-end|p2a: Iron Thorns|Quark Drive|[silent]
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Misdreavus|Perish Song|p1a: Misdreavus
+|-start|p1a: Misdreavus|perish3|[silent]
+|-start|p2a: Dragapult|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p2a: Dragapult|perish3
+|-start|p1a: Misdreavus|perish3
+|upkeep
+|turn|7
+|
+|t:|1758928868
+|move|p2a: Dragapult|Dragon Pulse|p1a: Misdreavus
+|-crit|p1a: Misdreavus
+|-damage|p1a: Misdreavus|4/100
+|move|p1a: Misdreavus|Spite|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Spite|Dragon Pulse|4
+|
+|-start|p2a: Dragapult|perish2
+|-start|p1a: Misdreavus|perish2
+|upkeep
+|turn|8
+|
+|t:|1758928885
+|move|p2a: Dragapult|Dragon Pulse|p1a: Misdreavus
+|-damage|p1a: Misdreavus|0 fnt
+|faint|p1a: Misdreavus
+|
+|-start|p2a: Dragapult|perish1
+|upkeep
+|
+|t:|1758928893
+|switch|p1a: Articuno|Articuno|100/100
+|-ability|p1a: Articuno|Pressure
+|turn|9
+|
+|t:|1758928923
+|move|p2a: Dragapult|Dragon Pulse|p1a: Articuno
+|-damage|p1a: Articuno|55/100
+|move|p1a: Articuno|Ancient Power|p2a: Dragapult
+|-damage|p2a: Dragapult|70/100
+|-damage|p1a: Articuno|45/100|[from] item: Life Orb
+|
+|-start|p2a: Dragapult|perish0
+|upkeep
+|faint|p2a: Dragapult
+|
+|t:|1758928926
+|switch|p2a: Iron Thorns|Iron Thorns, tera:Flying|100/100
+|turn|10
+|
+|t:|1758928938
+|-terastallize|p1a: Articuno|Rock
+|move|p1a: Articuno|Roost|p1a: Articuno
+|-heal|p1a: Articuno|95/100
+|move|p2a: Iron Thorns|Dragon Dance|p2a: Iron Thorns
+|-boost|p2a: Iron Thorns|atk|1
+|-boost|p2a: Iron Thorns|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1758928947
+|move|p2a: Iron Thorns|Rock Slide|p1a: Articuno
+|-damage|p1a: Articuno|32/100
+|move|p1a: Articuno|Ancient Power|p2a: Iron Thorns
+|-supereffective|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|28/100
+|-damage|p1a: Articuno|22/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|t:|1758928957
+|move|p2a: Iron Thorns|Rock Slide|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|upkeep
+|
+|t:|1758928967
+|switch|p1a: Dodrio|Dodrio, F|100/100
+|turn|13
+|
+|t:|1758929014
+|move|p2a: Iron Thorns|Rock Slide|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|upkeep
+|
+|t:|1758929019
+|switch|p1a: Farigiraf|Farigiraf, M|100/100
+|turn|14
+|
+|t:|1758929031
+|move|p2a: Iron Thorns|Thunder Punch|p1a: Farigiraf
+|-damage|p1a: Farigiraf|44/100
+|move|p1a: Farigiraf|Shadow Ball|p2a: Iron Thorns
+|-crit|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|0 fnt
+|faint|p2a: Iron Thorns
+|-end|p2a: Iron Thorns|Quark Drive|[silent]
+|
+|-heal|p1a: Farigiraf|50/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758929058
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|15
+|
+|t:|1758929071
+|move|p2a: Iron Moth|Sludge Wave|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|
+|win|reiiji
+|raw|Ho-oHTheUnfallen's rating: 1081 &rarr; <strong>1060</strong><br />(-21 for losing)
+|raw|reiiji's rating: 1103 &rarr; <strong>1126</strong><br />(+23 for winning)
+|l|☆Ho-oHTheUnfallen
+|player|p1|

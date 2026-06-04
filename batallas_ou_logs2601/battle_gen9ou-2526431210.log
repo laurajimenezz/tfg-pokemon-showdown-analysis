@@ -1,0 +1,233 @@
+|j|☆zxcvbh
+|j|☆151htyrneh
+|t:|1769413602
+|gametype|singles
+|player|p1|zxcvbh|elesa|1600
+|player|p2|151htyrneh|wallace|1663
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sandy Shocks|
+|poke|p1|Scizor, F|
+|poke|p1|Latios, M|
+|poke|p1|Ogerpon, F|
+|poke|p1|Iron Jugulis|
+|poke|p1|Primarina, F|
+|poke|p2|Glimmora, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kyurem|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1769413612
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Sandy Shocks|atk|1
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1769413628
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Sandy Shocks|Stealth Rock|p2a: Kyurem
+|-sidestart|p2: 151htyrneh|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1769413636
+|move|p1a: Sandy Shocks|Earth Power|p2a: Kyurem
+|-damage|p2a: Kyurem|77/100
+|move|p2a: Kyurem|Focus Blast|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|44/100
+|
+|upkeep
+|turn|3
+|
+|t:|1769413649
+|move|p1a: Sandy Shocks|Spikes|p2a: Kyurem
+|-sidestart|p2: 151htyrneh|Spikes
+|move|p2a: Kyurem|Earth Power|p1a: Sandy Shocks
+|-supereffective|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769413656
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|4
+|
+|t:|1769413663
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1769413684
+|move|p2a: Landorus|Earth Power|p1a: Scizor
+|-damage|p1a: Scizor|60/100
+|-unboost|p1a: Scizor|spd|1
+|move|p1a: Scizor|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|37/100
+|-damage|p1a: Scizor|43/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-enditem|p2a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p1a: Scizor
+|-enditem|p1a: Scizor|Sitrus Berry|[eat]
+|-heal|p1a: Scizor|68/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|6
+|
+|t:|1769413709
+|move|p1a: Scizor|Bullet Punch|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1769413717
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-damage|p2a: Kingambit|82/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|7
+|
+|t:|1769413721
+|move|p2a: Kingambit|Sucker Punch|p1a: Scizor
+|-damage|p1a: Scizor|16/100
+|move|p1a: Scizor|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1769413726
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|-damage|p2a: Hatterene|76/100|[from] Spikes
+|turn|8
+|
+|t:|1769413733
+|move|p1a: Scizor|Bullet Punch|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-damage|p1a: Scizor|0 fnt|[from] item: Rocky Helmet|[of] p2a: Hatterene
+|faint|p2a: Hatterene
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1769413742
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|-damage|p2a: Glimmora|88/100|[from] Stealth Rock
+|-damage|p2a: Glimmora|76/100|[from] Spikes
+|turn|9
+|
+|t:|1769413752
+|move|p2a: Glimmora|Sludge Wave|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1769413759
+|switch|p1a: Latios|Latios, M|100/100
+|turn|10
+|
+|t:|1769413763
+|switch|p2a: Kyurem|Kyurem|77/100
+|-damage|p2a: Kyurem|52/100|[from] Stealth Rock
+|-damage|p2a: Kyurem|39/100|[from] Spikes
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Latios|Agility|p1a: Latios
+|-boost|p1a: Latios|spe|2
+|
+|upkeep
+|turn|11
+|
+|t:|1769413791
+|-terastallize|p1a: Latios|Fighting
+|-terastallize|p2a: Kyurem|Ground
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|move|p2a: Kyurem|Ice Beam|p1a: Latios
+|-damage|p1a: Latios|72/100
+|
+|upkeep
+|turn|12
+|
+|t:|1769413810
+|move|p1a: Latios|Stored Power|p2a: Kyurem
+|-damage|p2a: Kyurem|2/100
+|move|p2a: Kyurem|Ice Beam|p1a: Latios
+|-damage|p1a: Latios|42/100
+|
+|upkeep
+|turn|13
+|
+|t:|1769413818
+|move|p1a: Latios|Stored Power|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1769413819
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-damage|p2a: Iron Valiant|82/100|[from] Spikes
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|14
+|
+|t:|1769413822
+|move|p1a: Latios|Stored Power|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|-message|151htyrneh forfeited.
+|
+|win|zxcvbh
+|raw|zxcvbh's rating: 1600 &rarr; <strong>1624</strong><br />(+24 for winning)
+|raw|151htyrneh's rating: 1663 &rarr; <strong>1639</strong><br />(-24 for losing)
+|l|☆zxcvbh
+|player|p1|
+|j|☆zxcvbh
+|player|p1|zxcvbh|elesa|
+|l|☆zxcvbh
+|player|p1|

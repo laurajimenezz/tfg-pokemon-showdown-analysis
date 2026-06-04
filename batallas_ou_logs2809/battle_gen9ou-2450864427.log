@@ -1,0 +1,394 @@
+|j|‽RadiantSol
+|j|☆K1D_CYB3RPUNK
+|t:|1759039350
+|gametype|singles
+|player|p1|RadiantSol|flint|1150
+|player|p2|K1D_CYB3RPUNK|101|1117
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Espeon, F|
+|poke|p1|Ninetales, F|
+|poke|p1|Leafeon, F|
+|poke|p1|Great Tusk|
+|poke|p1|Quagsire, M|
+|poke|p1|Salamence, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Lucario, M|
+|poke|p2|Gardevoir, F|
+|poke|p2|Tinkaton, F|
+|poke|p2|Snorlax, M|
+|poke|p2|Magnezone|
+|teampreview
+|
+|t:|1759039369
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|1
+|
+|t:|1759039399
+|-terastallize|p2a: Tinkaton|Fairy
+|move|p1a: Ninetales|Weather Ball|p2a: Tinkaton
+|-damage|p2a: Tinkaton|71/100
+|move|p2a: Tinkaton|Knock Off|p1a: Ninetales
+|-damage|p1a: Ninetales|64/100
+|-enditem|p1a: Ninetales|Leftovers|[from] move: Knock Off|[of] p2a: Tinkaton
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1759039410
+|move|p1a: Ninetales|Encore|p2a: Tinkaton
+|-start|p2a: Tinkaton|Encore
+|move|p2a: Tinkaton|Knock Off|p1a: Ninetales
+|-damage|p1a: Ninetales|38/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1759039417
+|move|p1a: Ninetales|Disable|p2a: Tinkaton
+|-start|p2a: Tinkaton|Disable|Knock Off
+|cant|p2a: Tinkaton|Disable|Knock Off
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1759039427
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Ninetales|Pain Split|p2a: Garchomp
+|-sethp|p2a: Garchomp|63/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Ninetales|92/100|[from] move: Pain Split
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1759039437
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Quagsire
+|-damage|p1a: Quagsire|62/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1759039452
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1759039460
+|move|p1a: Quagsire|Toxic|p2a: Snorlax|[miss]
+|-miss|p1a: Quagsire|p2a: Snorlax
+|move|p2a: Snorlax|Body Slam|p1a: Quagsire
+|-damage|p1a: Quagsire|78/100
+|-damage|p2a: Snorlax|84/100|[from] item: Rocky Helmet|[of] p1a: Quagsire
+|
+|-heal|p2a: Snorlax|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1759039470
+|move|p1a: Quagsire|Toxic|p2a: Snorlax
+|-status|p2a: Snorlax|tox
+|move|p2a: Snorlax|Crunch|p1a: Quagsire
+|-damage|p1a: Quagsire|63/100
+|-damage|p2a: Snorlax|74/100 tox|[from] item: Rocky Helmet|[of] p1a: Quagsire
+|
+|-heal|p2a: Snorlax|80/100 tox|[from] item: Leftovers
+|-damage|p2a: Snorlax|74/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1759039481
+|move|p1a: Quagsire|Stealth Rock|p2a: Snorlax
+|-sidestart|p2: K1D_CYB3RPUNK|move: Stealth Rock
+|move|p2a: Snorlax|Counter||[still]
+|-fail|p2a: Snorlax
+|
+|-heal|p2a: Snorlax|80/100 tox|[from] item: Leftovers
+|-damage|p2a: Snorlax|67/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1759039489
+|move|p2a: Snorlax|Protect|p2a: Snorlax
+|-singleturn|p2a: Snorlax|Protect
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|100/100
+|
+|-heal|p2a: Snorlax|74/100 tox|[from] item: Leftovers
+|-damage|p2a: Snorlax|55/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1759039498
+|switch|p1a: Ninetales|Ninetales, F|92/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Snorlax|Crunch|p1a: Ninetales
+|-damage|p1a: Ninetales|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Snorlax|61/100 tox|[from] item: Leftovers
+|-damage|p2a: Snorlax|36/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1759039509
+|move|p1a: Ninetales|Encore|p2a: Snorlax
+|-start|p2a: Snorlax|Encore
+|move|p2a: Snorlax|Crunch|p1a: Ninetales
+|-damage|p1a: Ninetales|36/100
+|-unboost|p1a: Ninetales|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Snorlax|43/100 tox|[from] item: Leftovers
+|-damage|p2a: Snorlax|11/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1759039519
+|move|p1a: Ninetales|Weather Ball|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1759039545
+|switch|p2a: Lucario|Lucario, M|100/100
+|-damage|p2a: Lucario|98/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1759039566
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|move|p2a: Lucario|Bone Rush|p1a: Quagsire
+|-damage|p1a: Quagsire|95/100
+|-damage|p1a: Quagsire|89/100
+|-hitcount|p1a: Quagsire|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1759039581
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Quagsire|Liquidation|p2a: Magnezone
+|-damage|p2a: Magnezone|83/100
+|-enditem|p2a: Magnezone|Air Balloon
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1759039600
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Magnezone|Flash Cannon|p1a: Great Tusk
+|-damage|p1a: Great Tusk|39/100
+|
+|upkeep
+|turn|17
+|
+|t:|1759039614
+|switch|p2a: Tinkaton|Tinkaton, F, tera:Fairy|71/100
+|-damage|p2a: Tinkaton|58/100|[from] Stealth Rock
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Great Tusk|Body Press|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|34/100
+|
+|upkeep
+|turn|18
+|
+|t:|1759039630
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Quagsire|Quagsire, M|89/100
+|move|p2a: Tinkaton|Draining Kiss|p1a: Quagsire
+|-damage|p1a: Quagsire|65/100
+|-heal|p2a: Tinkaton|56/100|[from] drain|[of] p1a: Quagsire
+|-damage|p2a: Tinkaton|40/100|[from] item: Rocky Helmet|[of] p1a: Quagsire
+|
+|upkeep
+|turn|19
+|
+|t:|1759039649
+|move|p2a: Tinkaton|Knock Off|p1a: Quagsire
+|-damage|p1a: Quagsire|47/100
+|-damage|p2a: Tinkaton|24/100|[from] item: Rocky Helmet|[of] p1a: Quagsire
+|-enditem|p1a: Quagsire|Rocky Helmet|[from] move: Knock Off|[of] p2a: Tinkaton
+|move|p1a: Quagsire|Toxic|p2a: Tinkaton
+|-status|p2a: Tinkaton|tox
+|
+|-damage|p2a: Tinkaton|18/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1759039659
+|move|p2a: Tinkaton|Draining Kiss|p1a: Quagsire
+|-damage|p1a: Quagsire|23/100
+|-heal|p2a: Tinkaton|40/100 tox|[from] drain|[of] p1a: Quagsire
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|73/100
+|
+|-damage|p2a: Tinkaton|28/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1759039669
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|52/100
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|100/100
+|
+|-damage|p2a: Tinkaton|10/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1759039685
+|move|p2a: Tinkaton|Draining Kiss|p1a: Quagsire
+|-damage|p1a: Quagsire|76/100
+|-heal|p2a: Tinkaton|33/100 tox|[from] drain|[of] p1a: Quagsire
+|move|p1a: Quagsire|Liquidation|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1759039700
+|switch|p2a: Magnezone|Magnezone|83/100
+|-damage|p2a: Magnezone|77/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1759039711
+|switch|p1a: Great Tusk|Great Tusk|39/100
+|move|p2a: Magnezone|Flash Cannon|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1759039716
+|switch|p1a: Ninetales|Ninetales, F|36/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|24
+|
+|t:|1759039724
+|move|p1a: Ninetales|Weather Ball|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1759039736
+|switch|p2a: Garchomp|Garchomp, M|63/100
+|-damage|p2a: Garchomp|57/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1759039744
+|switch|p1a: Leafeon|Leafeon, F|100/100
+|move|p2a: Garchomp|Dragon Claw|p1a: Leafeon
+|-damage|p1a: Leafeon|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1759039756
+|switch|p2a: Lucario|Lucario, M|98/100
+|-damage|p2a: Lucario|95/100|[from] Stealth Rock
+|move|p1a: Leafeon|Solar Blade||[still]
+|-prepare|p1a: Leafeon|Solar Blade
+|-anim|p1a: Leafeon|Solar Blade|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|32/100
+|-damage|p1a: Leafeon|42/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1759039800
+|move|p1a: Leafeon|Solar Blade||[still]
+|-prepare|p1a: Leafeon|Solar Blade
+|-anim|p1a: Leafeon|Solar Blade|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|-damage|p1a: Leafeon|32/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1759039809
+|switch|p2a: Gardevoir|Gardevoir, F, shiny|100/100
+|-damage|p2a: Gardevoir|88/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1759039813
+|move|p1a: Leafeon|Knock Off|p2a: Gardevoir
+|-damage|p2a: Gardevoir|25/100
+|-enditem|p2a: Gardevoir|Wise Glasses|[from] move: Knock Off|[of] p1a: Leafeon
+|-damage|p1a: Leafeon|22/100|[from] item: Life Orb
+|move|p2a: Gardevoir|Psychic|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|
+|-weather|none
+|upkeep
+|
+|t:|1759039819
+|switch|p1a: Espeon|Espeon, F|100/100
+|turn|29
+|
+|t:|1759039826
+|move|p1a: Espeon|Psychic|p2a: Gardevoir
+|-resisted|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+|
+|t:|1759039831
+|switch|p2a: Garchomp|Garchomp, M|57/100
+|-damage|p2a: Garchomp|51/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1759039835
+|move|p1a: Espeon|Psychic|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|win|RadiantSol
+|raw|RadiantSol's rating: 1150 &rarr; <strong>1173</strong><br />(+23 for winning)
+|raw|K1D_CYB3RPUNK's rating: 1117 &rarr; <strong>1094</strong><br />(-23 for losing)
+|l|‽RadiantSol
+|player|p1|
+|l|☆K1D_CYB3RPUNK
+|player|p2|

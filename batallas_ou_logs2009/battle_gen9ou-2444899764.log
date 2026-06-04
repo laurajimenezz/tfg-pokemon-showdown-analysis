@@ -1,0 +1,286 @@
+|j|☆waha8
+|j|☆wsnid
+|t:|1758285036
+|gametype|singles
+|player|p1|waha8|170|1318
+|player|p2|wsnid|volkner|1360
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blaziken, F|
+|poke|p1|Ninetales, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Slowbro-Galar, F|
+|poke|p1|Cinderace, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Greninja-*, M|
+|poke|p2|Iron Treads|
+|poke|p2|Azumarill, M|
+|poke|p2|Zapdos|
+|poke|p2|Barraskewda, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wsnid)
+|
+|t:|1758285050
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Mavis|Hatterene, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1758285056
+|move|p2a: Iron Treads|Iron Head|p1a: Mavis
+|-supereffective|p1a: Mavis
+|-damage|p1a: Mavis|21/100
+|move|p1a: Mavis|Trick Room|p1a: Mavis
+|-fieldstart|move: Trick Room|[of] p1a: Mavis
+|
+|upkeep
+|turn|2
+|
+|t:|1758285063
+|move|p1a: Mavis|Mystical Fire|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|-damage|p1a: Mavis|11/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758285069
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|3
+|
+|t:|1758285074
+|switch|p1a: DeeDee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: DeeDee
+|move|p2a: Greninja|Water Shuriken|p1a: DeeDee
+|-activate|p1a: DeeDee|move: Psychic Terrain
+|
+|upkeep
+|turn|4
+|
+|t:|1758285087
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: DeeDee|Energy Ball|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|86/100
+|
+|upkeep
+|turn|5
+|
+|t:|1758285098
+|switch|p1a: Mavis|Hatterene, F|11/100
+|move|p2a: Zapdos|U-turn|p1a: Mavis
+|-damage|p1a: Mavis|0 fnt
+|faint|p1a: Mavis
+|
+|t:|1758285108
+|switch|p2a: Pelipper|Pelipper, F|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758285119
+|switch|p1a: Kurama|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Kurama
+|turn|6
+|
+|t:|1758285123
+|move|p1a: Kurama|Will-O-Wisp|p2a: Pelipper
+|-status|p2a: Pelipper|brn
+|move|p2a: Pelipper|U-turn|p1a: Kurama
+|-resisted|p1a: Kurama
+|-damage|p1a: Kurama|97/100
+|
+|t:|1758285130
+|switch|p2a: Zapdos|Zapdos|86/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758285135
+|move|p1a: Kurama|Weather Ball|p2a: Zapdos
+|-damage|p2a: Zapdos|20/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Kurama
+|-damage|p1a: Kurama|41/100
+|-status|p1a: Kurama|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758285145
+|switch|p1a: ReverseUNO|Cinderace, M|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: ReverseUNO
+|-damage|p1a: ReverseUNO|38/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1758285151
+|move|p1a: ReverseUNO|Gunk Shot|p2a: Zapdos
+|-start|p1a: ReverseUNO|typechange|Poison|[from] ability: Libero
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758285155
+|switch|p2a: Pelipper|Pelipper, F|100/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|10
+|
+|t:|1758285160
+|move|p1a: ReverseUNO|Gunk Shot|p2a: Pelipper
+|-damage|p2a: Pelipper|45/100 brn
+|move|p2a: Pelipper|Surf|p1a: ReverseUNO
+|-damage|p1a: ReverseUNO|0 fnt
+|faint|p1a: ReverseUNO
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|39/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1758285171
+|switch|p1a: Kurama|Ninetales, M|41/100 par
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Kurama
+|turn|11
+|
+|t:|1758285176
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|move|p1a: Kurama|Solar Beam||[still]
+|-prepare|p1a: Kurama|Solar Beam
+|-anim|p1a: Kurama|Solar Beam|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-crit|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758285200
+|switch|p2a: Pelipper|Pelipper, F|39/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|12
+|
+|t:|1758285209
+|switch|p1a: CaptFalcon|Blaziken, F|100/100
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|89/100 brn
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|83/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1758285217
+|move|p1a: CaptFalcon|Rock Slide|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|34/100 brn
+|cant|p2a: Pelipper|flinch
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|28/100 brn|[from] brn
+|-ability|p1a: CaptFalcon|Speed Boost|boost
+|-boost|p1a: CaptFalcon|spe|1
+|upkeep
+|turn|14
+|
+|t:|1758285227
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|move|p1a: CaptFalcon|Rock Slide|p2a: Barraskewda
+|-damage|p2a: Barraskewda|52/100
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1a: CaptFalcon|Speed Boost|boost
+|-boost|p1a: CaptFalcon|spe|1
+|upkeep
+|turn|15
+|
+|t:|1758285237
+|switch|p1a: Kurama|Ninetales, M|41/100 par
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Kurama
+|move|p2a: Barraskewda|Flip Turn|p1a: Kurama
+|-supereffective|p1a: Kurama
+|-damage|p1a: Kurama|0 fnt
+|faint|p1a: Kurama
+|
+|t:|1758285241
+|switch|p2a: Pelipper|Pelipper, F|28/100 brn|[from] Flip Turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|22/100 brn|[from] brn
+|upkeep
+|
+|t:|1758285249
+|switch|p1a: DeeDee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: DeeDee
+|turn|16
+|
+|t:|1758285257
+|move|p1a: DeeDee|Energy Ball|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758285261
+|switch|p2a: Barraskewda|Barraskewda, F|52/100
+|turn|17
+|
+|t:|1758285268
+|-terastallize|p2a: Barraskewda|Water
+|move|p2a: Barraskewda|Liquidation|p1a: DeeDee
+|-damage|p1a: DeeDee|0 fnt
+|faint|p1a: DeeDee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758285274
+|switch|p1a: WildWest|Slowbro-Galar, F|100/100
+|turn|18
+|
+|t:|1758285276
+|move|p2a: Barraskewda|Liquidation|p1a: WildWest
+|-damage|p1a: WildWest|0 fnt
+|faint|p1a: WildWest
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆waha8|gg
+|-message|waha8 forfeited.
+|
+|win|wsnid
+|raw|waha8's rating: 1318 &rarr; <strong>1300</strong><br />(-18 for losing)
+|raw|wsnid's rating: 1360 &rarr; <strong>1378</strong><br />(+18 for winning)
+|l|☆waha8
+|player|p1|
+|l|☆wsnid
+|player|p2|

@@ -1,0 +1,326 @@
+|j|☆ttttttrtrrr
+|j|☆Wairchair
+|t:|1760802843
+|gametype|singles
+|player|p1|ttttttrtrrr|koga|1125
+|player|p2|Wairchair|cynthia-gen4|1093
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glimmora, M|
+|poke|p1|Revavroom, F|
+|poke|p1|Salazzle, F|
+|poke|p1|Grafaiai, F|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Muk-Alola, F|
+|poke|p2|Pecharunt|
+|poke|p2|Garganacl, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Azumarill, F|
+|poke|p2|Iron Moth|
+|poke|p2|Meowscarada, F|
+|teampreview
+|
+|t:|1760802858
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Grafaiai|Grafaiai, F|100/100
+|switch|p2a: Jotaro|Azumarill, F|100/100
+|turn|1
+|
+|t:|1760802865
+|move|p1a: Grafaiai|Toxic|p2a: Jotaro
+|-status|p2a: Jotaro|tox
+|move|p2a: Jotaro|Belly Drum|p2a: Jotaro
+|-damage|p2a: Jotaro|50/100 tox
+|-setboost|p2a: Jotaro|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Jotaro|Sitrus Berry|[eat]
+|-heal|p2a: Jotaro|75/100 tox|[from] item: Sitrus Berry
+|
+|-damage|p2a: Jotaro|69/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1760802877
+|move|p1a: Grafaiai|Encore|p2a: Jotaro
+|-start|p2a: Jotaro|Encore
+|move|p2a: Jotaro|Belly Drum||[still]
+|-fail|p2a: Jotaro
+|
+|-damage|p2a: Jotaro|57/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1760802888
+|switch|p2a: Salt Block|Garganacl, M|100/100
+|move|p1a: Grafaiai|Knock Off|p2a: Salt Block
+|-damage|p2a: Salt Block|79/100
+|-enditem|p2a: Salt Block|Leftovers|[from] move: Knock Off|[of] p1a: Grafaiai
+|
+|upkeep
+|turn|4
+|
+|t:|1760802897
+|move|p1a: Grafaiai|Toxic|p2a: Salt Block
+|-immune|p2a: Salt Block|[from] ability: Purifying Salt
+|move|p2a: Salt Block|Salt Cure|p1a: Grafaiai
+|-damage|p1a: Grafaiai|75/100
+|-start|p1a: Grafaiai|Salt Cure
+|
+|-heal|p1a: Grafaiai|81/100|[from] item: Black Sludge
+|-damage|p1a: Grafaiai|68/100|[from] Salt Cure
+|upkeep
+|turn|5
+|
+|t:|1760802908
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-item|p1a: Glimmora|Air Balloon
+|move|p2a: Salt Block|Recover|p2a: Salt Block
+|-heal|p2a: Salt Block|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1760802919
+|switch|p2a: PhysicalAttack|Iron Moth|100/100
+|-enditem|p2a: PhysicalAttack|Booster Energy
+|-activate|p2a: PhysicalAttack|ability: Quark Drive|[fromitem]
+|-start|p2a: PhysicalAttack|quarkdrivespa
+|move|p1a: Glimmora|Mortal Spin|p2a: PhysicalAttack
+|-resisted|p2a: PhysicalAttack
+|-damage|p2a: PhysicalAttack|95/100
+|
+|upkeep
+|turn|7
+|
+|t:|1760802929
+|move|p2a: PhysicalAttack|Fiery Dance|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|72/100
+|-boost|p2a: PhysicalAttack|spa|1
+|-enditem|p1a: Glimmora|Air Balloon
+|move|p1a: Glimmora|Earth Power|p2a: PhysicalAttack
+|-supereffective|p2a: PhysicalAttack
+|-damage|p2a: PhysicalAttack|0 fnt
+|faint|p2a: PhysicalAttack
+|-end|p2a: PhysicalAttack|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760802941
+|switch|p2a: Jotaro|Azumarill, F|57/100 tox
+|turn|8
+|
+|t:|1760802948
+|move|p2a: Jotaro|Aqua Jet|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|27/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Wairchair|move: Toxic Spikes
+|move|p1a: Glimmora|Earth Power|p2a: Jotaro
+|-damage|p2a: Jotaro|27/100 tox
+|
+|-damage|p2a: Jotaro|21/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1760802959
+|move|p2a: Jotaro|Aqua Jet|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Wairchair|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-damage|p2a: Jotaro|8/100 tox|[from] psn
+|upkeep
+|
+|t:|1760802971
+|switch|p1a: Muk|Muk-Alola, F|100/100
+|turn|10
+|
+|t:|1760802975
+|move|p1a: Muk|Protect|p1a: Muk
+|-singleturn|p1a: Muk|Protect
+|move|p2a: Jotaro|Aqua Jet|p1a: Muk
+|-activate|p1a: Muk|move: Protect
+|
+|-damage|p2a: Jotaro|0 fnt|[from] psn
+|faint|p2a: Jotaro
+|upkeep
+|
+|t:|1760802984
+|switch|p2a: Peanut|Pecharunt|100/100
+|-sideend|p2: Wairchair|move: Toxic Spikes|[of] p2a: Peanut
+|turn|11
+|
+|t:|1760802992
+|move|p2a: Peanut|Parting Shot|p1a: Muk
+|-unboost|p1a: Muk|atk|1
+|-unboost|p1a: Muk|spa|1
+|
+|t:|1760802999
+|switch|p2a: Salt Block|Garganacl, M|100/100|[from] Parting Shot
+|move|p1a: Muk|Knock Off|p2a: Salt Block
+|-damage|p2a: Salt Block|91/100
+|
+|upkeep
+|turn|12
+|
+|t:|1760803011
+|switch|p1a: Grafaiai|Grafaiai, F|68/100
+|move|p2a: Salt Block|Salt Cure|p1a: Grafaiai
+|-damage|p1a: Grafaiai|45/100
+|-start|p1a: Grafaiai|Salt Cure
+|
+|-heal|p1a: Grafaiai|50/100|[from] item: Black Sludge
+|-damage|p1a: Grafaiai|38/100|[from] Salt Cure
+|upkeep
+|turn|13
+|
+|t:|1760803021
+|move|p2a: Salt Block|Protect|p2a: Salt Block
+|-singleturn|p2a: Salt Block|Protect
+|move|p1a: Grafaiai|Switcheroo|p2a: Salt Block
+|-activate|p2a: Salt Block|move: Protect
+|
+|-heal|p1a: Grafaiai|44/100|[from] item: Black Sludge
+|-damage|p1a: Grafaiai|32/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1760803032
+|move|p1a: Grafaiai|Switcheroo|p2a: Salt Block
+|-activate|p1a: Grafaiai|move: Trick|[of] p2a: Salt Block
+|-item|p2a: Salt Block|Black Sludge|[from] move: Switcheroo
+|-enditem|p1a: Grafaiai|Black Sludge|[silent]|[from] move: Switcheroo
+|move|p2a: Salt Block|Body Press|p1a: Grafaiai
+|-crit|p1a: Grafaiai
+|-damage|p1a: Grafaiai|0 fnt
+|faint|p1a: Grafaiai
+|
+|-damage|p2a: Salt Block|78/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1760803052
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|turn|15
+|
+|t:|1760803056
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|76/100
+|move|p2a: Salt Block|Salt Cure|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|82/100|[from] item: Black Sludge
+|-damage|p2a: Salt Block|66/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|t:|1760803066
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|57/100
+|move|p2a: Salt Block|Salt Cure|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|63/100|[from] item: Black Sludge
+|-damage|p2a: Salt Block|54/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1760803076
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Salt Block|Recover|p2a: Salt Block
+|-heal|p2a: Salt Block|100/100
+|
+|-heal|p1a: Salazzle|69/100|[from] item: Black Sludge
+|-damage|p2a: Salt Block|88/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1760803086
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|44/100
+|move|p2a: Salt Block|Salt Cure|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-crit|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|50/100|[from] item: Black Sludge
+|-damage|p2a: Salt Block|76/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1760803101
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Salt Block|Salt Cure|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-heal|p1a: Salazzle|56/100|[from] item: Black Sludge
+|-damage|p2a: Salt Block|64/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1760803111
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|32/100
+|move|p2a: Salt Block|Salt Cure|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|38/100|[from] item: Black Sludge
+|-damage|p2a: Salt Block|51/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|t:|1760803121
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Salt Block|Recover|p2a: Salt Block
+|-heal|p2a: Salt Block|100/100
+|
+|-heal|p1a: Salazzle|44/100|[from] item: Black Sludge
+|-damage|p2a: Salt Block|88/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|t:|1760803131
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|19/100
+|move|p2a: Salt Block|Salt Cure|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|25/100|[from] item: Black Sludge
+|-damage|p2a: Salt Block|76/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|c|☆ttttttrtrrr|So much fun waiting and doing nothing
+|c|☆ttttttrtrrr|Disgusting play style
+|c|☆ttttttrtrrr|Be ashamed of yourselve
+|-message|ttttttrtrrr forfeited.
+|
+|win|Wairchair
+|raw|ttttttrtrrr's rating: 1125 &rarr; <strong>1098</strong><br />(-27 for losing)
+|raw|Wairchair's rating: 1093 &rarr; <strong>1121</strong><br />(+28 for winning)
+|l|☆ttttttrtrrr
+|player|p1|

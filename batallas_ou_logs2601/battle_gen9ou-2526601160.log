@@ -1,0 +1,379 @@
+|j|☆JustANoobie
+|j|☆petit_kiwi_aigris
+|t:|1769439446
+|gametype|singles
+|player|p1|JustANoobie|gambler|1327
+|player|p2|petit_kiwi_aigris|alec-anime|1360
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Iron Treads|
+|poke|p1|Kilowattrel, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Chesnaught, F|
+|poke|p1|Gholdengo|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Iron Treads|
+|poke|p2|Zamazenta-*|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Hydrapple, F|
+|teampreview
+|
+|t:|1769439466
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1769439478
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: petit_kiwi_aigris|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1769439484
+|move|p1a: Iron Treads|Volt Switch|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|80/100
+|
+|t:|1769439489
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Chesnaught|Chesnaught, F|100/100|[from] Volt Switch
+|move|p2a: Alomomola|Flip Turn|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|96/100
+|
+|t:|1769439498
+|switch|p2a: Slowking|Slowking-Galar, M|100/100|[from] Flip Turn
+|
+|-heal|p1a: Chesnaught|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1769439505
+|move|p1a: Chesnaught|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|49/100
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Chesnaught
+|move|p2a: Slowking|Psychic Noise|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|32/100
+|-start|p1a: Chesnaught|move: Heal Block
+|
+|upkeep
+|turn|4
+|
+|t:|1769439520
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Slowking|Psychic Noise|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|82/100
+|-start|p1a: Iron Treads|move: Heal Block
+|
+|upkeep
+|turn|5
+|
+|t:|1769439535
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Iron Treads|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|74/100
+|
+|-end|p1a: Iron Treads|move: Heal Block
+|upkeep
+|turn|6
+|
+|t:|1769439540
+|move|p1a: Iron Treads|Volt Switch|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|54/100
+|
+|t:|1769439544
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Pelipper|Pelipper, F|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Alomomola|Flip Turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|90/100
+|
+|t:|1769439552
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100|[from] Flip Turn
+|-damage|p2a: Hoopa|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1769439562
+|switch|p1a: Chesnaught|Chesnaught, F|32/100
+|move|p2a: Hoopa|Thunderbolt|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|10/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Chesnaught|16/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1769439570
+|move|p2a: Hoopa|Psychic Noise|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|0 fnt
+|faint|p1a: Chesnaught
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769439573
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|turn|9
+|
+|t:|1769439582
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|move|p1a: Basculegion|Flip Turn|p2a: Hydrapple
+|-resisted|p2a: Hydrapple
+|-damage|p2a: Hydrapple|92/100
+|
+|t:|1769439586
+|switch|p1a: Kilowattrel|Kilowattrel, F|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1769439592
+|switch|p2a: Slowking|Slowking-Galar, M|82/100
+|-damage|p2a: Slowking|70/100|[from] Stealth Rock
+|move|p1a: Kilowattrel|Hurricane|p2a: Slowking
+|-damage|p2a: Slowking|31/100
+|-damage|p1a: Kilowattrel|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1769439612
+|move|p1a: Kilowattrel|Thunder|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-damage|p1a: Kilowattrel|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769439627
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|12
+|
+|t:|1769439633
+|move|p2a: Zamazenta|Stone Edge|p1a: Kilowattrel
+|-supereffective|p1a: Kilowattrel
+|-damage|p1a: Kilowattrel|0 fnt
+|faint|p1a: Kilowattrel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769439637
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|13
+|
+|t:|1769439643
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|move|p1a: Gholdengo|Shadow Ball|p2a: Iron Treads
+|-damage|p2a: Iron Treads|64/100
+|
+|-weather|none
+|-heal|p2a: Iron Treads|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by petit_kiwi_aigris)
+|
+|t:|1769439663
+|switch|p1a: Pelipper|Pelipper, F|90/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Iron Treads|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: JustANoobie|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1769439674
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Alomomola|Alomomola, F|87/100
+|move|p1a: Pelipper|Surf|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|67/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1769439682
+|move|p1a: Pelipper|Hurricane|p2a: Alomomola
+|-damage|p2a: Alomomola|35/100
+|-start|p2a: Alomomola|confusion
+|-activate|p2a: Alomomola|confusion
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1769439691
+|switch|p1a: Iron Treads|Iron Treads|82/100
+|-damage|p1a: Iron Treads|78/100|[from] Stealth Rock
+|switch|p2a: Hoopa|Hoopa-Unbound|88/100
+|-damage|p2a: Hoopa|76/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hoopa|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|18
+|
+|t:|1769439701
+|move|p1a: Iron Treads|Rapid Spin|p2a: Hoopa
+|-damage|p2a: Hoopa|76/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: JustANoobie|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|move|p2a: Hoopa|Drain Punch|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|37/100
+|-heal|p2a: Hoopa|97/100|[from] drain|[of] p1a: Iron Treads
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1769439709
+|move|p1a: Iron Treads|Volt Switch|p2a: Hoopa
+|-damage|p2a: Hoopa|91/100
+|
+|t:|1769439715
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] Volt Switch
+|move|p2a: Hoopa|Thunderbolt|p1a: Gholdengo
+|-damage|p1a: Gholdengo|58/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1769439737
+|move|p1a: Gholdengo|Shadow Ball|p2a: Hoopa
+|-damage|p2a: Hoopa|70/100
+|move|p2a: Hoopa|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-enditem|p1a: Gholdengo|Choice Scarf|[from] move: Knock Off|[of] p2a: Hoopa
+|faint|p1a: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769439743
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|turn|21
+|
+|t:|1769439753
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|move|p1a: Basculegion|Flip Turn|p2a: Hydrapple
+|-resisted|p2a: Hydrapple
+|-damage|p2a: Hydrapple|91/100
+|
+|t:|1769439758
+|switch|p1a: Iron Treads|Iron Treads|37/100|[from] Flip Turn
+|
+|-weather|none
+|upkeep
+|turn|22
+|
+|t:|1769439768
+|move|p1a: Iron Treads|Volt Switch|p2a: Hydrapple
+|-resisted|p2a: Hydrapple
+|-damage|p2a: Hydrapple|88/100
+|
+|t:|1769439772
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Pelipper|Pelipper, F|90/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Hydrapple|Giga Drain|p1a: Pelipper
+|-damage|p1a: Pelipper|49/100
+|-heal|p2a: Hydrapple|100/100|[from] drain|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1769439786
+|switch|p2a: Alomomola|Alomomola, F|69/100
+|move|p1a: Pelipper|Hurricane|p2a: Alomomola
+|-damage|p2a: Alomomola|37/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1769439793
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|99/100
+|-singleturn|p1a: Pelipper|move: Roost
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1769439799
+|move|p1a: Pelipper|Hurricane|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769439804
+|switch|p2a: Hoopa|Hoopa-Unbound|70/100
+|-damage|p2a: Hoopa|58/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1769439811
+|move|p2a: Hoopa|Thunderbolt|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|JustANoobie forfeited.
+|
+|win|petit_kiwi_aigris
+|raw|JustANoobie's rating: 1327 &rarr; <strong>1309</strong><br />(-18 for losing)
+|raw|petit_kiwi_aigris's rating: 1360 &rarr; <strong>1378</strong><br />(+18 for winning)
+|l|☆JustANoobie
+|player|p1|
+|l|☆petit_kiwi_aigris
+|player|p2|

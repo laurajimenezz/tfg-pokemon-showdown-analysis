@@ -1,0 +1,297 @@
+|j|☆Menapai
+|j|☆shierr
+|t:|1760347280
+|gametype|singles
+|player|p1|Menapai|lyra|1730
+|player|p2|shierr|170|1715
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Crown|
+|poke|p1|Primarina, F|
+|poke|p1|Breloom, F|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Gholdengo|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Raging Bolt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Menapai)
+|
+|t:|1760347285
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespe
+|turn|1
+|
+|t:|1760347288
+|move|p1a: Iron Crown|Focus Blast|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1760347296
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|2
+|
+|t:|1760347299
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|move|p2a: Gholdengo|Focus Blast|p1a: Iron Crown
+|-damage|p1a: Iron Crown|74/100
+|
+|upkeep
+|turn|3
+|
+|t:|1760347305
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1760347314
+|move|p1a: Iron Crown|Psyshock|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|61/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|-heal|p2a: Gholdengo|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760347324
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|5
+|
+|t:|1760347331
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|76/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760347335
+|move|p2a: Ninetales|Encore|p1a: Kyurem
+|-start|p1a: Kyurem|Encore
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-fail|p1a: Kyurem|move: Substitute
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760347340
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: shierr|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760347345
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Primarina|Primarina, F|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1760347349
+|move|p2a: Great Tusk|Headlong Rush|p1a: Primarina
+|-damage|p1a: Primarina|30/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Primarina|Psychic Noise|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|-heal|p1a: Primarina|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760347356
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|10
+|
+|t:|1760347359
+|move|p2a: Ceruledge|Poltergeist|p1a: Primarina
+|-activate|p1a: Primarina|move: Poltergeist|Leftovers
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|j| deadbyflinch
+|
+|t:|1760347367
+|switch|p1a: Kyurem|Kyurem|88/100
+|-ability|p1a: Kyurem|Pressure
+|turn|11
+|
+|t:|1760347369
+|move|p1a: Kyurem|Earth Power|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|73/100
+|-enditem|p2a: Ceruledge|Weakness Policy
+|-boost|p2a: Ceruledge|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Ceruledge|spa|2|[from] item: Weakness Policy
+|move|p2a: Ceruledge|Bitter Blade|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-heal|p2a: Ceruledge|100/100|[from] drain|[of] p1a: Kyurem
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1760347375
+|switch|p1a: Breloom|Breloom, F|100/100
+|turn|12
+|
+|t:|1760347377
+|move|p1a: Breloom|Bullet Seed|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|92/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|80/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|64/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|-hitcount|p2a: Ceruledge|3
+|move|p2a: Ceruledge|Bitter Blade|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-heal|p2a: Ceruledge|100/100|[from] drain|[of] p1a: Breloom
+|faint|p1a: Breloom
+|
+|upkeep
+|
+|t:|1760347395
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|13
+|
+|t:|1760347398
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1760347402
+|-end|p1a: Kingambit|fallen4|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Ninetales|Encore|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: shierr|move: Aurora Veil
+|upkeep
+|turn|15
+|
+|t:|1760347411
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1760347416
+|move|p1a: Gholdengo|Thunderbolt|p2a: Ceruledge
+|-damage|p2a: Ceruledge|38/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-heal|p2a: Ceruledge|83/100|[from] drain|[of] p1a: Gholdengo
+|faint|p1a: Gholdengo
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760347421
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|17
+|
+|t:|1760347424
+|move|p2a: Ceruledge|Bitter Blade|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|15/100
+|-heal|p2a: Ceruledge|100/100|[from] drain|[of] p1a: Kingambit
+|move|p1a: Kingambit|Iron Head|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|56/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|-weather|none
+|upkeep
+|turn|18
+|-message|Menapai forfeited.
+|
+|win|shierr
+|raw|Menapai's rating: 1730 &rarr; <strong>1709</strong><br />(-21 for losing)
+|raw|shierr's rating: 1715 &rarr; <strong>1736</strong><br />(+21 for winning)
+|l|☆Menapai
+|player|p1|
+|l|☆shierr
+|player|p2|
+|l| deadbyflinch

@@ -1,0 +1,543 @@
+|j|☆marching_cubes
+|j|☆M8420
+|t:|1760444276
+|gametype|singles
+|player|p1|marching_cubes|1|1494
+|player|p2|M8420|170|1579
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Wo-Chien|
+|poke|p1|Gholdengo|
+|poke|p1|Garchomp, F|
+|poke|p1|Iron Treads|
+|poke|p1|Dragapult, M|
+|poke|p1|Scizor, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Scovillain, F|
+|poke|p2|Great Tusk|
+|poke|p2|Hatterene, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Alomomola, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by marching_cubes)
+|
+|t:|1760444290
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Scizor|Scizor, F|100/100
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|turn|1
+|
+|t:|1760444301
+|move|p1a: Scizor|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|64/100
+|
+|t:|1760444305
+|switch|p1a: Garchomp|Garchomp, F|100/100|[from] U-turn
+|move|p2a: Alomomola|Flip Turn|p1a: Garchomp
+|-damage|p1a: Garchomp|90/100
+|-damage|p2a: Alomomola|52/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Alomomola|35/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|
+|t:|1760444315
+|switch|p2a: Torkoal|Torkoal, F|100/100|[from] Flip Turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760444323
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Garchomp|Earthquake|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|48/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1760444352
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760444365
+|switch|p1a: Wo-Chien|Wo-Chien|100/100
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|move|p2a: Great Tusk|Ice Spinner|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Wo-Chien|64/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1760444383
+|move|p2a: Great Tusk|Headlong Rush|p1a: Wo-Chien
+|-resisted|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|43/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-enditem|p2a: Great Tusk|Eject Pack
+|
+|t:|1760444388
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|48/100
+|move|p1a: Wo-Chien|Leech Seed|p2a: Hatterene
+|move|p2a: Hatterene|Leech Seed|p1a: Wo-Chien|[from] ability: Magic Bounce
+|-immune|p1a: Wo-Chien
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Wo-Chien|50/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760444400
+|move|p1a: Wo-Chien|Substitute|p1a: Wo-Chien
+|-start|p1a: Wo-Chien|Substitute
+|-damage|p1a: Wo-Chien|25/100
+|move|p2a: Hatterene|Nuzzle|p1a: Wo-Chien
+|-resisted|p1a: Wo-Chien
+|-activate|p1a: Wo-Chien|move: Substitute|[damage]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Wo-Chien|31/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760444404
+|move|p1a: Wo-Chien|Protect|p1a: Wo-Chien
+|-singleturn|p1a: Wo-Chien|Protect
+|move|p2a: Hatterene|Draining Kiss|p1a: Wo-Chien
+|-activate|p1a: Wo-Chien|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Wo-Chien|37/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760444407
+|move|p1a: Wo-Chien|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|33/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-end|p1a: Wo-Chien|Substitute
+|-heal|p2a: Hatterene|54/100|[from] drain|[of] p1a: Wo-Chien
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Wo-Chien|43/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760444416
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|85/100
+|-heal|p2a: Hatterene|65/100|[from] drain|[of] p1a: Scizor
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1760444431
+|switch|p2a: Alomomola|Alomomola, M|68/100
+|move|p1a: Scizor|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|27/100
+|
+|t:|1760444437
+|switch|p1a: Garchomp|Garchomp, F|90/100|[from] U-turn
+|
+|upkeep
+|turn|10
+|inactive|M8420 has 120 seconds left.
+|
+|t:|1760444471
+|move|p1a: Garchomp|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|1/100
+|move|p2a: Alomomola|Play Rough|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|69/100
+|-damage|p2a: Alomomola|0 fnt|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p2a: Alomomola
+|
+|upkeep
+|inactive|M8420 has 120 seconds left.
+|
+|t:|1760444486
+|switch|p2a: Hatterene|Hatterene, F|65/100
+|turn|11
+|inactive|M8420 has 120 seconds left.
+|
+|t:|1760444503
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|90/100
+|-heal|p2a: Hatterene|74/100|[from] drain|[of] p1a: Gholdengo
+|
+|upkeep
+|turn|12
+|inactive|M8420 has 120 seconds left.
+|
+|t:|1760444511
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|76/100
+|-unboost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|13
+|inactive|M8420 has 120 seconds left.
+|
+|t:|1760444525
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-item|p1a: Iron Treads|Air Balloon
+|move|p2a: Raging Bolt|Volt Switch|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|upkeep
+|turn|14
+|
+|t:|1760444531
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Iron Treads|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|68/100
+|
+|upkeep
+|turn|15
+|
+|t:|1760444540
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Wo-Chien|Wo-Chien|43/100
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|move|p2a: Great Tusk|Rapid Spin|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|33/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-heal|p1a: Wo-Chien|39/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1760444549
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|74/100
+|move|p1a: Wo-Chien|Protect||[still]
+|-fail|p1a: Wo-Chien
+|
+|-heal|p1a: Wo-Chien|46/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1760444564
+|switch|p1a: Gholdengo|Gholdengo|90/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1760444577
+|switch|p1a: Garchomp|Garchomp, F|69/100
+|switch|p2a: Raging Bolt|Raging Bolt|76/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1760444595
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|68/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1760444624
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|76/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Dragapult|Hex|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|inactive|M8420 has 120 seconds left.
+|
+|t:|1760444641
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|74/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Hatterene
+|-immune|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|inactive|M8420 has 120 seconds left.
+|
+|t:|1760444658
+|move|p1a: Dragapult|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|57/100
+|
+|t:|1760444661
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|-item|p1a: Iron Treads|Air Balloon
+|move|p2a: Hatterene|Draining Kiss|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|85/100
+|-heal|p2a: Hatterene|69/100|[from] drain|[of] p1a: Iron Treads
+|-enditem|p1a: Iron Treads|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|inactive|M8420 has 120 seconds left.
+|
+|t:|1760444685
+|switch|p2a: Raging Bolt|Raging Bolt|58/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Iron Treads|Earthquake|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760444702
+|switch|p2a: Scovillain|Scovillain, F|100/100
+|turn|24
+|
+|t:|1760444708
+|move|p2a: Scovillain|Flamethrower|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-damage|p2a: Scovillain|91/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1760444713
+|switch|p1a: Garchomp|Garchomp, F|69/100
+|turn|25
+|inactive|M8420 has 120 seconds left.
+|
+|t:|1760444720
+|move|p2a: Scovillain|Will-O-Wisp|p1a: Garchomp
+|-status|p1a: Garchomp|brn
+|move|p1a: Garchomp|Earthquake|p2a: Scovillain
+|-damage|p2a: Scovillain|45/100
+|
+|-damage|p1a: Garchomp|63/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1760444728
+|switch|p2a: Hatterene|Hatterene, F|69/100
+|move|p1a: Garchomp|Earthquake|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|40/100
+|
+|-damage|p1a: Garchomp|57/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1760444742
+|switch|p1a: Gholdengo|Gholdengo|90/100
+|move|p2a: Hatterene|Nuzzle|p1a: Gholdengo
+|-damage|p1a: Gholdengo|88/100
+|
+|upkeep
+|turn|28
+|inactive|M8420 has 120 seconds left.
+|inactive|M8420 has 90 seconds left.
+|
+|t:|1760444792
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Gholdengo|Shadow Ball|p2a: Torkoal
+|-damage|p2a: Torkoal|53/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|29
+|inactive|M8420 has 90 seconds left.
+|
+|t:|1760444810
+|switch|p1a: Wo-Chien|Wo-Chien|46/100
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|move|p2a: Torkoal|Lava Plume|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|0 fnt
+|faint|p1a: Wo-Chien
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760444822
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|30
+|inactive|M8420 has 90 seconds left.
+|inactive|M8420 has 60 seconds left.
+|inactive|M8420 has 30 seconds left.
+|inactive|M8420 has 20 seconds left.
+|
+|t:|1760444898
+|move|p1a: Dragapult|Hex|p2a: Torkoal
+|-damage|p2a: Torkoal|16/100
+|move|p2a: Torkoal|Lava Plume|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|72/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|31
+|inactive|M8420 has 30 seconds left this turn.
+|inactive|M8420 has 20 seconds left.
+|
+|t:|1760444913
+|switch|p2a: Great Tusk|Great Tusk|68/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Dragapult|Hex|p2a: Great Tusk
+|-damage|p2a: Great Tusk|23/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|32
+|inactive|M8420 has 30 seconds left this turn.
+|
+|t:|1760444921
+|move|p1a: Dragapult|Hex|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|M8420 has 30 seconds left this turn.
+|
+|t:|1760444924
+|switch|p2a: Scovillain|Scovillain, F|45/100
+|turn|33
+|
+|t:|1760444929
+|-terastallize|p2a: Scovillain|Fire
+|move|p2a: Scovillain|Flamethrower|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-damage|p2a: Scovillain|35/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760444935
+|switch|p1a: Garchomp|Garchomp, F|57/100 brn
+|turn|34
+|
+|t:|1760444955
+|switch|p2a: Hatterene|Hatterene, F|40/100
+|move|p1a: Garchomp|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|22/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Garchomp|51/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1760444967
+|switch|p1a: Gholdengo|Gholdengo|88/100
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|-weather|none
+|upkeep
+|
+|t:|1760444975
+|switch|p2a: Scovillain|Scovillain, F, tera:Fire|35/100
+|-heal|p2a: Scovillain|100/100|[from] move: Healing Wish
+|turn|36
+|
+|t:|1760444985
+|switch|p2a: Torkoal|Torkoal, F|16/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|switch|p1a: Garchomp|Garchomp, F|51/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Garchomp|44/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1760445001
+|switch|p2a: Scovillain|Scovillain, F, tera:Fire|100/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Scovillain
+|-sidestart|p2: M8420|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Garchomp|38/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1760445016
+|move|p2a: Scovillain|Flamethrower|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|-damage|p2a: Scovillain|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760445040
+|switch|p1a: Gholdengo|Gholdengo|88/100
+|turn|39
+|
+|t:|1760445053
+|-terastallize|p1a: Gholdengo|Fairy
+|move|p2a: Scovillain|Flamethrower|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-damage|p2a: Scovillain|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆M8420|gg
+|-message|marching_cubes forfeited.
+|
+|win|M8420
+|raw|marching_cubes's rating: 1494 &rarr; <strong>1479</strong><br />(-15 for losing)
+|raw|M8420's rating: 1579 &rarr; <strong>1594</strong><br />(+15 for winning)
+|l|☆marching_cubes
+|player|p1|
+|l|☆M8420
+|player|p2|
+|j|☆M8420
+|player|p2|M8420|170|

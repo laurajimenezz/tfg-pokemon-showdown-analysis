@@ -1,0 +1,313 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆blooaxolotl
+|j|☆LiamUtp
+|t:|1776190477
+|gametype|singles
+|player|p1|blooaxolotl|gambler|
+|player|p2|LiamUtp|lucas|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Articuno-Galar|
+|poke|p1|Blastoise, F|
+|poke|p1|Garchomp, M|
+|poke|p1|Infernape, F|
+|poke|p1|Exeggutor-Alola, F|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Eelektross, M|
+|poke|p2|Slowbro-Galar, M|
+|poke|p2|Yanmega, F|
+|poke|p2|Houndoom, M|
+|poke|p2|Glimmora, F|
+|teampreview
+|
+|t:|1776190484
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|turn|1
+|
+|t:|1776190503
+|move|p2a: Eelektross|Volt Switch|p1a: Hatterene
+|-damage|p1a: Hatterene|75/100
+|
+|t:|1776190507
+|switch|p2a: Slowbro|Slowbro-Galar, M|100/100|[from] Volt Switch
+|move|p1a: Hatterene|Psychic Noise|p2a: Slowbro
+|-damage|p2a: Slowbro|50/100
+|-start|p2a: Slowbro|move: Heal Block
+|
+|upkeep
+|turn|2
+|
+|t:|1776190515
+|move|p2a: Slowbro|Shell Side Arm|p1a: Hatterene|[anim] Shell Side Arm Special
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-hint|Special Shell Side Arm
+|faint|p1a: Hatterene
+|
+|-end|p2a: Slowbro|move: Heal Block
+|upkeep
+|
+|t:|1776190523
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|3
+|
+|t:|1776190527
+|move|p1a: Garchomp|Earthquake|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|upkeep
+|
+|t:|1776190534
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|-ability|p2a: Houndoom|Unnerve
+|turn|4
+|
+|t:|1776190541
+|-terastallize|p1a: Garchomp|Ghost
+|move|p1a: Garchomp|Earthquake|p2a: Houndoom
+|-supereffective|p2a: Houndoom
+|-enditem|p2a: Houndoom|Focus Sash
+|-damage|p2a: Houndoom|1/100
+|move|p2a: Houndoom|Crunch|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|41/100
+|-unboost|p1a: Garchomp|def|1
+|-damage|p2a: Houndoom|0 fnt|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p2a: Houndoom
+|
+|upkeep
+|
+|t:|1776190558
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|turn|5
+|
+|t:|1776190569
+|-terastallize|p2a: Keldeo|Ghost
+|move|p2a: Keldeo|Tera Blast|p1a: Garchomp|[anim] Tera Blast Ghost
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1776190579
+|switch|p1a: Exeggutor|Exeggutor-Alola, F|100/100
+|turn|6
+|
+|t:|1776190583
+|move|p2a: Keldeo|Tera Blast|p1a: Exeggutor|[anim] Tera Blast Ghost
+|-damage|p1a: Exeggutor|53/100
+|move|p1a: Exeggutor|Sunny Day|p1a: Exeggutor
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1776190590
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|move|p1a: Exeggutor|Giga Drain|p2a: Glimmora
+|-damage|p2a: Glimmora|53/100
+|-heal|p1a: Exeggutor|75/100|[from] drain|[of] p2a: Glimmora
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Glimmora|60/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1776190599
+|move|p2a: Glimmora|Spiky Shield|p2a: Glimmora
+|-singleturn|p2a: Glimmora|move: Protect
+|move|p1a: Exeggutor|Trick Room|p1a: Exeggutor
+|-fieldstart|move: Trick Room|[of] p1a: Exeggutor
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Glimmora|66/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1776190606
+|move|p1a: Exeggutor|Giga Drain|p2a: Glimmora
+|-damage|p2a: Glimmora|22/100
+|-heal|p1a: Exeggutor|95/100|[from] drain|[of] p2a: Glimmora
+|move|p2a: Glimmora|Toxic|p1a: Exeggutor
+|-status|p1a: Exeggutor|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Glimmora|28/100|[from] item: Leftovers
+|-damage|p1a: Exeggutor|89/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1776190615
+|move|p2a: Glimmora|Spiky Shield|p2a: Glimmora
+|-singleturn|p2a: Glimmora|move: Protect
+|move|p1a: Exeggutor|Giga Drain|p2a: Glimmora
+|-activate|p2a: Glimmora|move: Protect
+|
+|-weather|none
+|-heal|p2a: Glimmora|34/100|[from] item: Leftovers
+|-damage|p1a: Exeggutor|77/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1776190625
+|move|p2a: Glimmora|Spiky Shield||[still]
+|-fail|p2a: Glimmora
+|move|p1a: Exeggutor|Sunny Day|p1a: Exeggutor
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Glimmora|40/100|[from] item: Leftovers
+|-damage|p1a: Exeggutor|59/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1776190632
+|move|p2a: Glimmora|Spiky Shield|p2a: Glimmora
+|-singleturn|p2a: Glimmora|move: Protect
+|move|p1a: Exeggutor|Giga Drain|p2a: Glimmora
+|-activate|p2a: Glimmora|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Glimmora|47/100|[from] item: Leftovers
+|-damage|p1a: Exeggutor|35/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|
+|t:|1776190639
+|move|p2a: Glimmora|Substitute|p2a: Glimmora
+|-start|p2a: Glimmora|Substitute
+|-damage|p2a: Glimmora|22/100
+|move|p1a: Exeggutor|Giga Drain|p2a: Glimmora
+|-end|p2a: Glimmora|Substitute
+|-heal|p1a: Exeggutor|46/100 tox|[from] drain|[of] p2a: Glimmora
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Glimmora|28/100|[from] item: Leftovers
+|-damage|p1a: Exeggutor|16/100 tox|[from] psn
+|upkeep
+|-enditem|p1a: Exeggutor|Figy Berry|[eat]
+|-heal|p1a: Exeggutor|49/100 tox|[from] item: Figy Berry
+|turn|14
+|
+|t:|1776190651
+|move|p2a: Glimmora|Power Gem|p1a: Exeggutor
+|-damage|p1a: Exeggutor|11/100 tox
+|move|p1a: Exeggutor|Giga Drain|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-heal|p1a: Exeggutor|24/100 tox|[from] drain|[of] p2a: Glimmora
+|faint|p2a: Glimmora
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Exeggutor|0 fnt|[from] psn
+|faint|p1a: Exeggutor
+|upkeep
+|
+|t:|1776190662
+|switch|p2a: Yanmega|Yanmega, F|100/100
+|switch|p1a: Infernape|Infernape, F|100/100
+|turn|15
+|
+|t:|1776190668
+|move|p2a: Yanmega|Detect|p2a: Yanmega
+|-singleturn|p2a: Yanmega|Protect
+|move|p1a: Infernape|Fire Punch|p2a: Yanmega
+|-activate|p2a: Yanmega|move: Protect
+|
+|-weather|none
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|turn|16
+|
+|t:|1776190675
+|move|p2a: Yanmega|Air Slash|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|
+|t:|1776190679
+|switch|p1a: Blastoise|Blastoise, F|100/100
+|turn|17
+|
+|t:|1776190685
+|move|p2a: Yanmega|Bug Buzz|p1a: Blastoise
+|-damage|p1a: Blastoise|51/100
+|-unboost|p1a: Blastoise|spd|1
+|move|p1a: Blastoise|Surf|p2a: Yanmega
+|-damage|p2a: Yanmega|32/100
+|-heal|p1a: Blastoise|60/100|[from] item: Shell Bell|[of] p2a: Yanmega
+|
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|turn|18
+|
+|t:|1776190695
+|move|p2a: Yanmega|Bug Buzz|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|
+|t:|1776190700
+|switch|p1a: Articuno|Articuno-Galar|100/100
+|turn|19
+|
+|t:|1776190703
+|move|p2a: Yanmega|Detect|p2a: Yanmega
+|-singleturn|p2a: Yanmega|Protect
+|move|p1a: Articuno|Brave Bird|p2a: Yanmega
+|-activate|p2a: Yanmega|move: Protect
+|
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|turn|20
+|
+|t:|1776190712
+|move|p2a: Yanmega|Bug Buzz|p1a: Articuno
+|-damage|p1a: Articuno|49/100
+|move|p1a: Articuno|Brave Bird|p2a: Yanmega
+|-supereffective|p2a: Yanmega
+|-damage|p2a: Yanmega|0 fnt
+|faint|p2a: Yanmega
+|-damage|p1a: Articuno|39/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1776190720
+|switch|p2a: Keldeo|Keldeo-Resolute, tera:Ghost|100/100
+|turn|21
+|
+|t:|1776190729
+|move|p2a: Keldeo|Tera Blast|p1a: Articuno|[anim] Tera Blast Ghost
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|win|LiamUtp

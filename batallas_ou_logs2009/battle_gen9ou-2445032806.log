@@ -1,0 +1,215 @@
+|j|☆FriedAstronauts
+|j|☆RiaSingh2121
+|t:|1758298020
+|gametype|singles
+|player|p1|FriedAstronauts|marlon|1205
+|player|p2|RiaSingh2121|101|1208
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Blissey, F|
+|poke|p1|Porygon2|
+|poke|p1|Slaking, F|
+|poke|p1|Staraptor, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Hattrem, F|
+|poke|p2|Iron Hands|
+|teampreview
+|
+|t:|1758298025
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Hattrem|Hattrem, F|100/100
+|turn|1
+|
+|t:|1758298031
+|move|p1a: Blissey|Nasty Plot|p1a: Blissey
+|-boost|p1a: Blissey|spa|2
+|move|p2a: Hattrem|Trick Room|p2a: Hattrem
+|-fieldstart|move: Trick Room|[of] p2a: Hattrem
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FriedAstronauts)
+|
+|t:|1758298056
+|move|p2a: Hattrem|Healing Wish|p2a: Hattrem
+|faint|p2a: Hattrem
+|move|p1a: Blissey|Shadow Ball|p2: Hattrem|[notarget]
+|-fail|p1a: Blissey
+|
+|upkeep
+|
+|t:|1758298063
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|turn|3
+|
+|t:|1758298072
+|move|p2a: Ursaluna|Earthquake|p1a: Blissey
+|-enditem|p1a: Blissey|Focus Sash
+|-damage|p1a: Blissey|1/100
+|replace|p1a: Zoroark|Zoroark-Hisui, F
+|-end|p1a: Zoroark|Illusion
+|move|p1a: Zoroark|Hyper Voice|p2a: Ursaluna
+|-damage|p2a: Ursaluna|23/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1758298083
+|move|p2a: Ursaluna|Earthquake|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|-damage|p2a: Ursaluna|17/100 brn|[from] brn
+|upkeep
+|
+|t:|1758298086
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|5
+|
+|t:|1758298095
+|move|p2a: Ursaluna|Drain Punch|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|33/100
+|-heal|p2a: Ursaluna|51/100 brn|[from] drain|[of] p1a: Ursaluna
+|move|p1a: Ursaluna|Drain Punch|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|10/100 brn
+|-heal|p1a: Ursaluna|53/100|[from] drain|[of] p2a: Ursaluna
+|
+|-damage|p2a: Ursaluna|4/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1758298103
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Ursaluna|Drain Punch|p2a: Corviknight
+|-damage|p2a: Corviknight|72/100
+|-heal|p1a: Ursaluna|66/100 brn|[from] drain|[of] p2a: Corviknight
+|-damage|p1a: Ursaluna|49/100 brn|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-damage|p1a: Ursaluna|43/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1758298113
+|switch|p1a: Porygon2|Porygon2|100/100
+|move|p2a: Corviknight|Brave Bird|p1a: Porygon2
+|-damage|p1a: Porygon2|82/100
+|-damage|p2a: Corviknight|66/100|[from] Recoil
+|
+|upkeep
+|turn|8
+|
+|t:|1758298123
+|move|p2a: Corviknight|U-turn|p1a: Porygon2
+|-damage|p1a: Porygon2|75/100
+|
+|t:|1758298131
+|switch|p2a: Ursaluna|Ursaluna, M|4/100 brn|[from] U-turn
+|-heal|p2a: Ursaluna|100/100|[from] move: Healing Wish
+|move|p1a: Porygon2|Charge Beam|p2a: Ursaluna
+|-immune|p2a: Ursaluna
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|t:|1758298144
+|move|p1a: Porygon2|Ice Beam|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|60/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Porygon2
+|-damage|p1a: Porygon2|11/100
+|
+|-damage|p2a: Ursaluna|54/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1758298153
+|move|p1a: Porygon2|Ice Beam|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|17/100 brn
+|move|p2a: Ursaluna|Drain Punch|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|-heal|p2a: Ursaluna|21/100 brn|[from] drain|[of] p1a: Porygon2
+|faint|p1a: Porygon2
+|
+|-damage|p2a: Ursaluna|15/100 brn|[from] brn
+|upkeep
+|
+|t:|1758298157
+|switch|p1a: Staraptor|Staraptor, F|100/100
+|-ability|p1a: Staraptor|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|turn|11
+|
+|t:|1758298169
+|switch|p2a: Corviknight|Corviknight, M|66/100
+|move|p1a: Staraptor|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|62/100
+|-damage|p1a: Staraptor|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|t:|1758298176
+|switch|p1a: Ursaluna|Ursaluna, M|43/100 brn|[from] U-turn
+|
+|-damage|p1a: Ursaluna|37/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1758298184
+|move|p2a: Corviknight|Brave Bird|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|-damage|p2a: Corviknight|49/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1758298188
+|switch|p1a: Slaking|Slaking, F|100/100
+|turn|13
+|
+|t:|1758298193
+|move|p1a: Slaking|Double-Edge|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|16/100
+|-damage|p1a: Slaking|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Slaking|74/100|[from] Recoil
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|66/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|14
+|-message|FriedAstronauts forfeited.
+|
+|win|RiaSingh2121
+|raw|FriedAstronauts's rating: 1205 &rarr; <strong>1180</strong><br />(-25 for losing)
+|raw|RiaSingh2121's rating: 1208 &rarr; <strong>1233</strong><br />(+25 for winning)
+|l|☆FriedAstronauts
+|player|p1|
+|l|☆RiaSingh2121
+|player|p2|

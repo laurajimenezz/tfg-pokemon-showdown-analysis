@@ -1,0 +1,197 @@
+|j|☆jamosb test
+|j|☆BobbyAxe1
+|t:|1760354328
+|gametype|singles
+|player|p1|jamosb test|2|1437
+|player|p2|BobbyAxe1|gambler|1409
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Okidogi, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Treads|
+|poke|p1|Clefable, F|
+|poke|p1|Walking Wake|
+|poke|p2|Vileplume, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Reuniclus, F|
+|poke|p2|Spiritomb, M|
+|poke|p2|Heracross, F|
+|poke|p2|Zoroark-Hisui, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jamosb test)
+|
+|t:|1760354363
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Heracross|Heracross, F|100/100
+|turn|1
+|
+|t:|1760354376
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Heracross|Close Combat|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|42/100
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|
+|-heal|p1a: Zamazenta|48/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1760354390
+|move|p1a: Zamazenta|Body Press|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|64/100
+|move|p2a: Heracross|Knock Off|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|41/100
+|-enditem|p1a: Zamazenta|Leftovers|[from] move: Knock Off|[of] p2a: Heracross
+|
+|-heal|p2a: Heracross|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1760354401
+|move|p1a: Zamazenta|Stone Edge|p2a: Heracross
+|-damage|p2a: Heracross|30/100
+|move|p2a: Heracross|Spikes|p1a: Zamazenta
+|-sidestart|p1: jamosb test|Spikes
+|
+|-heal|p2a: Heracross|36/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1760354421
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|move|p1a: Zamazenta|Body Press|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|72/100
+|-status|p1a: Zamazenta|par|[from] ability: Effect Spore|[of] p2a: Vileplume
+|
+|-heal|p2a: Vileplume|78/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1760354431
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-damage|p1a: Iron Treads|88/100|[from] Spikes
+|move|p2a: Vileplume|Leech Seed|p1a: Iron Treads|[miss]
+|-miss|p2a: Vileplume|p1a: Iron Treads
+|
+|-heal|p1a: Iron Treads|94/100|[from] item: Leftovers
+|-heal|p2a: Vileplume|84/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1760354446
+|switch|p2a: Spiritomb|Spiritomb, M|100/100
+|-ability|p2a: Spiritomb|Pressure
+|move|p1a: Iron Treads|Stealth Rock|p2a: Spiritomb
+|-sidestart|p2: BobbyAxe1|move: Stealth Rock
+|
+|-heal|p1a: Iron Treads|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760354454
+|move|p1a: Iron Treads|Knock Off|p2a: Spiritomb
+|-damage|p2a: Spiritomb|79/100
+|-enditem|p2a: Spiritomb|Leftovers|[from] move: Knock Off|[of] p1a: Iron Treads
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Iron Treads
+|-status|p1a: Iron Treads|brn
+|
+|-heal|p1a: Iron Treads|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Iron Treads|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1760354467
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Spiritomb|Pain Split|p1a: Clefable
+|-sethp|p1a: Clefable|81/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+|
+|-heal|p1a: Clefable|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760354495
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|move|p1a: Clefable|Thunder Wave|p2a: Reuniclus
+|-status|p2a: Reuniclus|par
+|
+|-heal|p1a: Clefable|93/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760354510
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-heal|p1a: Clefable|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760354519
+|move|p1a: Clefable|Moonblast|p2a: Reuniclus
+|-damage|p2a: Reuniclus|74/100 par
+|-unboost|p2a: Reuniclus|spa|1
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-heal|p1a: Clefable|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1760354530
+|move|p1a: Clefable|Moonblast|p2a: Reuniclus
+|-damage|p2a: Reuniclus|54/100 par
+|move|p2a: Reuniclus|Psychic Noise|p1a: Clefable
+|-damage|p1a: Clefable|60/100
+|-start|p1a: Clefable|move: Heal Block
+|
+|upkeep
+|turn|13
+|
+|t:|1760354543
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Reuniclus|Psychic Noise|p1a: Rillaboom
+|-crit|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Reuniclus|60/100 par|[from] Grassy Terrain
+|upkeep
+|-message|jamosb test forfeited.
+|
+|win|BobbyAxe1
+|raw|jamosb test's rating: 1437 &rarr; <strong>1415</strong><br />(-22 for losing)
+|raw|BobbyAxe1's rating: 1409 &rarr; <strong>1431</strong><br />(+22 for winning)
+|l|☆jamosb test
+|player|p1|
+|l|☆BobbyAxe1
+|player|p2|

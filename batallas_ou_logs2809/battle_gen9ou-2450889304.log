@@ -1,0 +1,427 @@
+|j|☆RAGGNNAR
+|j|☆Shubway
+|t:|1759044323
+|gametype|singles
+|player|p1|RAGGNNAR|ruinmaniac|1215
+|player|p2|Shubway|265|1266
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Goodra, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Weezing, M|
+|poke|p1|Muk-Alola, M|
+|poke|p1|Great Tusk|
+|poke|p1|Clefable, F|
+|poke|p2|Ceruledge, F|
+|poke|p2|Araquanid, M|
+|poke|p2|Serperior, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Shubway)
+|
+|t:|1759044331
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Muk|Muk-Alola, M, shiny|100/100
+|switch|p2a: Araquanid|Araquanid, M, shiny|100/100
+|turn|1
+|
+|t:|1759044340
+|move|p1a: Muk|Knock Off|p2a: Araquanid
+|-damage|p2a: Araquanid|46/100
+|-enditem|p2a: Araquanid|Leftovers|[from] move: Knock Off|[of] p1a: Muk
+|move|p2a: Araquanid|Infestation|p1a: Muk
+|-damage|p1a: Muk|98/100
+|-activate|p1a: Muk|move: Infestation|[of] p2a: Araquanid
+|
+|-damage|p1a: Muk|85/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1759044349
+|move|p1a: Muk|Poison Jab|p2a: Araquanid
+|-damage|p2a: Araquanid|7/100
+|-status|p2a: Araquanid|psn|[from] ability: Poison Touch|[of] p1a: Muk
+|move|p2a: Araquanid|Sticky Web|p1a: Muk
+|-sidestart|p1: RAGGNNAR|move: Sticky Web
+|
+|-damage|p2a: Araquanid|0 fnt|[from] psn
+|faint|p2a: Araquanid
+|-end|p1a: Muk|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1759044361
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|turn|3
+|
+|t:|1759044372
+|switch|p1a: Weezing|Weezing, M, shiny|100/100
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Weezing
+|-damage|p1a: Weezing|62/100
+|
+|upkeep
+|turn|4
+|
+|t:|1759044380
+|move|p2a: Tinkaton|Stealth Rock|p1a: Weezing
+|-sidestart|p1: RAGGNNAR|move: Stealth Rock
+|move|p1a: Weezing|Will-O-Wisp|p2a: Tinkaton
+|-status|p2a: Tinkaton|brn
+|
+|-damage|p2a: Tinkaton|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1759044390
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|move|p2a: Tinkaton|Encore||[still]
+|-fail|p2a: Tinkaton
+|
+|-damage|p2a: Tinkaton|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1759044396
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Ceruledge
+|-immune|p2a: Ceruledge
+|
+|upkeep
+|turn|7
+|
+|t:|1759044407
+|switch|p2a: Serperior|Serperior, M|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|64/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-heal|p2a: Serperior|71/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1759044426
+|move|p2a: Serperior|Glare|p1a: Great Tusk
+|-status|p1a: Great Tusk|par
+|move|p1a: Great Tusk|Rapid Spin|p2a: Serperior
+|-damage|p2a: Serperior|48/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: RAGGNNAR|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: RAGGNNAR|Sticky Web|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p2a: Serperior|54/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1759044437
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Serperior|Leaf Storm|p1a: Ogerpon
+|-damage|p1a: Ogerpon|71/100
+|-boost|p2a: Serperior|spa|2
+|
+|-heal|p2a: Serperior|60/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1759044444
+|move|p2a: Serperior|Leaf Storm|p1a: Ogerpon
+|-damage|p1a: Ogerpon|1/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Ogerpon|U-turn|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|t:|1759044461
+|switch|p1a: Goodra|Goodra, F, shiny|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1759044469
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|turn|11
+|
+|t:|1759044476
+|move|p2a: Ceruledge|Bulk Up|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|1
+|-boost|p2a: Ceruledge|def|1
+|move|p1a: Goodra|Surf|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|21/100
+|
+|-heal|p2a: Ceruledge|28/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1759044488
+|-terastallize|p2a: Ceruledge|Bug
+|move|p2a: Ceruledge|Phantom Force||[still]
+|-prepare|p2a: Ceruledge|Phantom Force
+|move|p1a: Goodra|Surf|p2a: Ceruledge|[miss]
+|-miss|p1a: Goodra|p2a: Ceruledge
+|
+|-heal|p2a: Ceruledge|34/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1759044494
+|switch|p1a: Weezing|Weezing, M, shiny|62/100
+|move|p2a: Ceruledge|Phantom Force|p1a: Weezing|[from] lockedmove
+|-damage|p1a: Weezing|26/100
+|-damage|p2a: Ceruledge|17/100|[from] item: Rocky Helmet|[of] p1a: Weezing
+|
+|-heal|p2a: Ceruledge|24/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1759044506
+|move|p2a: Ceruledge|Bulk Up|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|1
+|-boost|p2a: Ceruledge|def|1
+|move|p1a: Weezing|Sludge Bomb|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1759044513
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|15
+|
+|t:|1759044518
+|move|p2a: Iron Valiant|Psyshock|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|t:|1759044531
+|switch|p1a: Muk|Muk-Alola, M, shiny|85/100
+|turn|16
+|
+|t:|1759044543
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Tinkaton|Tinkaton, F|88/100 brn
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|move|p1a: Muk|Knock Off|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|58/100 brn
+|-enditem|p2a: Tinkaton|Air Balloon
+|
+|-damage|p2a: Tinkaton|52/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1759044557
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100 par
+|move|p2a: Tinkaton|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|96/100 par
+|-enditem|p1a: Great Tusk|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Tinkaton
+|
+|-damage|p2a: Tinkaton|46/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1759044568
+|move|p2a: Tinkaton|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: RAGGNNAR|move: Stealth Rock
+|cant|p1a: Great Tusk|par
+|
+|-damage|p2a: Tinkaton|40/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1759044579
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|76/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: RAGGNNAR|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|20
+|
+|t:|1759044598
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Muk|Muk-Alola, M, shiny|85/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Muk
+|-damage|p1a: Muk|57/100
+|
+|upkeep
+|turn|21
+|
+|t:|1759044606
+|move|p2a: Iron Valiant|Moonblast|p1a: Muk
+|-damage|p1a: Muk|26/100
+|move|p1a: Muk|Drain Punch|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|60/100
+|-heal|p1a: Muk|33/100|[from] drain|[of] p2a: Iron Valiant
+|
+|upkeep
+|turn|22
+|
+|t:|1759044615
+|move|p2a: Iron Valiant|Moonblast|p1a: Muk
+|-crit|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|upkeep
+|
+|t:|1759044620
+|switch|p1a: Clefable|Clefable, F, shiny|100/100
+|turn|23
+|
+|t:|1759044623
+|move|p2a: Iron Valiant|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|45/100
+|move|p1a: Clefable|Flamethrower|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|5/100
+|
+|upkeep
+|turn|24
+|
+|t:|1759044634
+|move|p2a: Iron Valiant|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1759044637
+|switch|p1a: Goodra|Goodra, F, shiny|100/100
+|turn|25
+|inactive|Shubway has 120 seconds left.
+|inactive|Shubway has 90 seconds left.
+|inactive|Shubway has 60 seconds left.
+|
+|t:|1759044753
+|-terastallize|p1a: Goodra|Fairy
+|move|p2a: Iron Valiant|Moonblast|p1a: Goodra
+|-damage|p1a: Goodra|67/100
+|move|p1a: Goodra|Flamethrower|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1759044758
+|switch|p2a: Tinkaton|Tinkaton, F|40/100 brn
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|26
+|
+|t:|1759044766
+|move|p2a: Tinkaton|Encore|p1a: Goodra
+|-start|p1a: Goodra|Encore
+|move|p1a: Goodra|Flamethrower|p2a: Tinkaton
+|-supereffective|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1759044773
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|27
+|
+|t:|1759044777
+|switch|p1a: Great Tusk|Great Tusk, shiny|96/100 par
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|28
+|inactive|Shubway has 60 seconds left.
+|
+|t:|1759044790
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Great Tusk
+|-damage|p1a: Great Tusk|2/100 par
+|move|p1a: Great Tusk|Headlong Rush|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|29/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-heal|p2a: Raging Bolt|35/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1759044799
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Raging Bolt|41/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1759044807
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|1/100
+|turn|30
+|inactive|Shubway has 60 seconds left.
+|
+|t:|1759044848
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Ogerpon|Synthesis|p1a: Ogerpon
+|-heal|p1a: Ogerpon|51/100
+|
+|-heal|p2a: Raging Bolt|47/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1759044854
+|move|p1a: Ogerpon|U-turn|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|33/100
+|
+|t:|1759044857
+|switch|p1a: Goodra|Goodra, F, shiny, tera:Fairy|67/100|[from] U-turn
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-heal|p2a: Raging Bolt|39/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1759044863
+|move|p1a: Goodra|Draco Meteor|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|-unboost|p1a: Goodra|spa|2
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|RAGGNNAR
+|raw|RAGGNNAR's rating: 1215 &rarr; <strong>1244</strong><br />(+29 for winning)
+|raw|Shubway's rating: 1266 &rarr; <strong>1237</strong><br />(-29 for losing)
+|l|☆Shubway
+|player|p2|
+|l|☆RAGGNNAR
+|player|p1|

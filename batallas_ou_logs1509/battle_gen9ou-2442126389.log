@@ -1,0 +1,288 @@
+|j|☆Cool Kid JJ
+|j|☆Husk1903
+|t:|1757950325
+|gametype|singles
+|player|p1|Cool Kid JJ|1|1300
+|player|p2|Husk1903|ingo|1223
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Pecharunt|
+|poke|p1|Empoleon, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Latios, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Haxorus, M|
+|poke|p2|Iron Hands|
+|poke|p2|Blaziken, F|
+|poke|p2|Polteageist|
+|poke|p2|Toxapex, F|
+|poke|p2|Cottonee, L1, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Husk1903)
+|
+|t:|1757950340
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Empoleon|Empoleon, F, shiny|100/100
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|1
+|
+|t:|1757950352
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Empoleon|Flip Turn|p2a: Polteageist
+|-damage|p2a: Polteageist|46/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|
+|t:|1757950365
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|2
+|
+|t:|1757950369
+|move|p1a: Samurott|Sucker Punch|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|-damage|p1a: Samurott|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757950386
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|3
+|
+|t:|1757950394
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Iron Hands|Drain Punch|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|
+|upkeep
+|turn|4
+|
+|t:|1757950402
+|move|p1a: Pecharunt|Toxic|p2a: Iron Hands
+|-status|p2a: Iron Hands|tox
+|-start|p2a: Iron Hands|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|-activate|p2a: Iron Hands|confusion
+|-damage|p2a: Iron Hands|91/100 tox|[from] confusion
+|
+|-damage|p2a: Iron Hands|85/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1757950410
+|move|p1a: Pecharunt|Malignant Chain|p2a: Iron Hands
+|-damage|p2a: Iron Hands|55/100 tox
+|-end|p2a: Iron Hands|confusion
+|move|p2a: Iron Hands|Earthquake|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|47/100
+|
+|-heal|p1a: Pecharunt|53/100|[from] item: Leftovers
+|-damage|p2a: Iron Hands|43/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1757950423
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|100/100
+|move|p2a: Iron Hands|Earthquake|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|50/100
+|
+|-heal|p1a: Pecharunt|57/100|[from] item: Leftovers
+|-damage|p2a: Iron Hands|25/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1757950437
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Cottonee|Cottonee, L1, M|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1757950442
+|move|p2a: Cottonee|Leech Seed|p1a: Latios
+|-start|p1a: Latios|move: Leech Seed
+|move|p1a: Latios|Flip Turn|p2a: Cottonee
+|-resisted|p2a: Cottonee
+|-enditem|p2a: Cottonee|Focus Sash
+|-damage|p2a: Cottonee|10/100
+|
+|t:|1757950447
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100|[from] Flip Turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Cottonee|atk|1
+|
+|upkeep
+|turn|9
+|
+|t:|1757950453
+|move|p2a: Cottonee|Leech Seed|p1a: Landorus
+|-start|p1a: Landorus|move: Leech Seed
+|move|p1a: Landorus|U-turn|p2a: Cottonee
+|-damage|p2a: Cottonee|0 fnt
+|faint|p2a: Cottonee
+|
+|t:|1757950469
+|switch|p1a: Latios|Latios, M, shiny|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1757950475
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|10
+|
+|t:|1757950479
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Haxorus|atk|1
+|-terastallize|p2a: Haxorus|Steel
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1757950495
+|move|p1a: Landorus|Earthquake|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|
+|t:|1757950506
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|12
+|
+|t:|1757950513
+|-terastallize|p1a: Landorus|Ground
+|move|p1a: Landorus|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|t:|1757950518
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|turn|13
+|
+|t:|1757950525
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Landorus|Earthquake|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|14
+|
+|t:|1757950534
+|move|p1a: Landorus|Earthquake|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-enditem|p2a: Blaziken|Focus Sash
+|-damage|p2a: Blaziken|1/100
+|move|p2a: Blaziken|Close Combat|p1a: Landorus
+|-damage|p1a: Landorus|22/100
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|15
+|
+|t:|1757950547
+|move|p2a: Blaziken|Close Combat|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|faint|p1a: Landorus
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1757950551
+|switch|p1a: Pecharunt|Pecharunt|57/100
+|turn|16
+|
+|t:|1757950557
+|move|p2a: Blaziken|Fire Punch|p1a: Pecharunt
+|-damage|p1a: Pecharunt|37/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|87/100
+|
+|-heal|p1a: Pecharunt|93/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|17
+|
+|t:|1757950566
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Pecharunt|Malignant Chain|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-heal|p1a: Pecharunt|99/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|18
+|
+|t:|1757950574
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|move|p1a: Pecharunt|Malignant Chain|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|-heal|p1a: Pecharunt|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757950583
+|switch|p2a: Iron Hands|Iron Hands|25/100 tox
+|turn|19
+|
+|t:|1757950587
+|move|p1a: Pecharunt|Malignant Chain|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|win|Cool Kid JJ
+|raw|Cool Kid JJ's rating: 1300 &rarr; <strong>1320</strong><br />(+20 for winning)
+|raw|Husk1903's rating: 1223 &rarr; <strong>1203</strong><br />(-20 for losing)
+|l|☆Husk1903
+|player|p2|

@@ -1,0 +1,275 @@
+|j|☆bertoskyT
+|j|☆Snowstorm brute
+|t:|1758976093
+|gametype|singles
+|player|p1|bertoskyT|ethan|1657
+|player|p2|Snowstorm brute|veteran|1703
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Greninja-*, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Forretress, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Great Tusk|
+|poke|p2|Dragonite, F|
+|poke|p2|Moltres|
+|poke|p2|Darkrai|
+|teampreview
+|
+|t:|1758976099
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Darkrai|atk|1
+|turn|1
+|
+|t:|1758976105
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Darkrai|Ice Beam|p1a: Slowking
+|-damage|p1a: Slowking|82/100
+|-status|p1a: Slowking|frz
+|
+|upkeep
+|turn|2
+|
+|t:|1758976113
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|cant|p1a: Slowking|frz
+|
+|upkeep
+|turn|3
+|
+|t:|1758976117
+|move|p2a: Garganacl|Stealth Rock|p1a: Slowking
+|-sidestart|p1: bertoskyT|move: Stealth Rock
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|-curestatus|p1a: Slowking|frz|[msg]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1758976124
+|switch|p1a: Forretress|Forretress, F|100/100|[from] Chilly Reception
+|-damage|p1a: Forretress|88/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758976127
+|move|p2a: Garganacl|Salt Cure|p1a: Forretress
+|-damage|p1a: Forretress|79/100
+|-start|p1a: Forretress|Salt Cure
+|move|p1a: Forretress|Spikes|p2a: Garganacl
+|-sidestart|p2: Snowstorm brute|Spikes
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Forretress|54/100|[from] Salt Cure
+|upkeep
+|turn|5
+|
+|t:|1758976143
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Garganacl|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|87/100
+|-start|p1a: Slowking|Salt Cure
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Slowking|74/100|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1758976146
+|move|p2a: Garganacl|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|60/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|
+|t:|1758976154
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] Chilly Reception
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garganacl|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758976159
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Landorus|Earth Power|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1758976162
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Landorus|Earth Power|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|upkeep
+|turn|9
+|
+|t:|1758976166
+|move|p2a: Dragonite|Ice Spinner|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Dragonite|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1758976173
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1758976178
+|move|p1a: Dragapult|Dragon Darts|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|4/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1758976183
+|switch|p2a: Darkrai|Darkrai|100/100
+|-damage|p2a: Darkrai|88/100|[from] Spikes
+|turn|11
+|
+|t:|1758976187
+|switch|p1a: Slowking|Slowking-Galar, M|93/100
+|move|p2a: Darkrai|Dark Pulse|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|39/100
+|
+|upkeep
+|turn|12
+|
+|t:|1758976190
+|move|p2a: Darkrai|Dark Pulse|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1758976195
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1758976204
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p2a: Darkrai|Dark Pulse|p1a: Ogerpon
+|-damage|p1a: Ogerpon|53/100
+|move|p1a: Ogerpon|Horn Leech|p2a: Darkrai
+|-crit|p2a: Darkrai
+|-damage|p2a: Darkrai|5/100
+|-heal|p1a: Ogerpon|92/100|[from] drain|[of] p2a: Darkrai
+|
+|upkeep
+|turn|14
+|
+|t:|1758976213
+|move|p2a: Darkrai|Dark Pulse|p1a: Ogerpon
+|-damage|p1a: Ogerpon|60/100
+|move|p1a: Ogerpon|Horn Leech|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|-heal|p1a: Ogerpon|62/100|[from] drain|[of] p2a: Darkrai
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1758976216
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-damage|p2a: Garganacl|88/100|[from] Spikes
+|turn|15
+|
+|t:|1758976225
+|-terastallize|p2a: Garganacl|Fairy
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Garganacl|[anim] Ivy Cudgel Water
+|-damage|p2a: Garganacl|34/100
+|move|p2a: Garganacl|Salt Cure|p1a: Ogerpon
+|-damage|p1a: Ogerpon|45/100
+|-start|p1a: Ogerpon|Salt Cure
+|
+|-heal|p2a: Garganacl|40/100|[from] item: Leftovers
+|-damage|p1a: Ogerpon|20/100|[from] Salt Cure
+|upkeep
+|turn|16
+|
+|t:|1758976235
+|switch|p1a: Greninja|Greninja, M|100/100
+|-damage|p1a: Greninja|88/100|[from] Stealth Rock
+|move|p2a: Garganacl|Protect||[still]
+|-fail|p2a: Garganacl
+|
+|-heal|p2a: Garganacl|47/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758976238
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Spikes
+|move|p1a: Greninja|Sludge Wave|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|-damage|p1a: Greninja|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758976242
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|18
+|
+|t:|1758976245
+|move|p1a: Greninja|Surf|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Greninja|69/100|[from] item: Life Orb
+|
+|upkeep
+|-message|Snowstorm brute forfeited.
+|
+|win|bertoskyT
+|raw|bertoskyT's rating: 1657 &rarr; <strong>1680</strong><br />(+23 for winning)
+|raw|Snowstorm brute's rating: 1703 &rarr; <strong>1680</strong><br />(-23 for losing)
+|l|☆Snowstorm brute
+|player|p2|
+|l|☆bertoskyT
+|player|p1|

@@ -1,0 +1,245 @@
+|j|☆GummyDeino
+|j|☆lolcano46
+|t:|1758321898
+|gametype|singles
+|player|p1|GummyDeino|265|1530
+|player|p2|lolcano46|fisherman-gen4|1470
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Iron Hands|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Mimikyu, F|
+|poke|p2|Azelf|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Scizor, M|
+|poke|p2|Gengar, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Cinderace, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lolcano46)
+|inactive|GummyDeino also wants the timer to be on.
+|
+|t:|1758321925
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Machine|Iron Hands, shiny|100/100
+|switch|p2a: Gengar|Gengar, M|100/100
+|-enditem|p1a: Machine|Booster Energy
+|-activate|p1a: Machine|ability: Quark Drive|[fromitem]
+|-start|p1a: Machine|quarkdriveatk
+|turn|1
+|
+|t:|1758321933
+|move|p2a: Gengar|Trick|p1a: Machine
+|-activate|p2a: Gengar|move: Trick|[of] p1a: Machine
+|-item|p1a: Machine|Choice Scarf|[from] move: Trick
+|-enditem|p2a: Gengar|Choice Scarf|[silent]|[from] move: Trick
+|move|p1a: Machine|Supercell Slam|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|t:|1758321939
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|2
+|
+|t:|1758321946
+|-end|p1a: Machine|Quark Drive|[silent]
+|switch|p1a: Mimi|Mimikyu, F, shiny|100/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1758321953
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Mimi
+|-activate|p1a: Mimi|ability: Disguise
+|-damage|p1a: Mimi|100/100
+|detailschange|p1a: Mimi|Mimikyu-Busted, F, shiny
+|-damage|p1a: Mimi|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p1a: Mimi|Red Card|[of] p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|drag|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Mimi|Trick Room|p1a: Mimi
+|-fieldstart|move: Trick Room|[of] p1a: Mimi
+|
+|upkeep
+|turn|4
+|
+|t:|1758321963
+|move|p1a: Mimi|Curse|p2a: Ogerpon
+|-start|p2a: Ogerpon|Curse|[of] p1a: Mimi
+|-damage|p1a: Mimi|38/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Mimi|[anim] Ivy Cudgel Water
+|-damage|p1a: Mimi|0 fnt
+|faint|p1a: Mimi
+|
+|-damage|p2a: Ogerpon|76/100|[from] Curse
+|upkeep
+|
+|t:|1758321973
+|switch|p1a: Stampede|Ursaluna, F, shiny|100/100
+|turn|5
+|
+|t:|1758321979
+|switch|p2a: Scizor|Scizor, M|100/100
+|-terastallize|p1a: Stampede|Normal
+|move|p1a: Stampede|Facade|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|70/100
+|
+|-status|p1a: Stampede|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1758321990
+|move|p2a: Scizor|Bullet Punch|p1a: Stampede
+|-damage|p1a: Stampede|74/100 brn
+|move|p1a: Stampede|Facade|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-damage|p1a: Stampede|68/100 brn|[from] brn
+|upkeep
+|
+|t:|1758321996
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|7
+|
+|t:|1758322001
+|move|p2a: Cinderace|Sucker Punch|p1a: Stampede
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p1a: Stampede|44/100 brn
+|move|p1a: Stampede|Facade|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-damage|p1a: Stampede|38/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758322005
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|76/100
+|turn|8
+|
+|t:|1758322015
+|switch|p1a: Witch|Hatterene, F, shiny|100/100
+|move|p2a: Ogerpon|Horn Leech|p1a: Witch
+|-damage|p1a: Witch|54/100
+|-heal|p2a: Ogerpon|99/100|[from] drain|[of] p1a: Witch
+|
+|upkeep
+|turn|9
+|
+|t:|1758322023
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Witch|[anim] Ivy Cudgel Water
+|-damage|p1a: Witch|0 fnt
+|faint|p1a: Witch
+|
+|upkeep
+|
+|t:|1758322028
+|switch|p1a: Scientist|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Scientist
+|turn|10
+|
+|t:|1758322033
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Scientist|[anim] Ivy Cudgel Water
+|-damage|p1a: Scientist|21/100
+|move|p1a: Scientist|Trick Room|p1a: Scientist
+|-fieldstart|move: Trick Room|[of] p1a: Scientist
+|
+|upkeep
+|turn|11
+|
+|t:|1758322042
+|move|p1a: Scientist|Healing Wish|p1a: Scientist
+|faint|p1a: Scientist
+|move|p2a: Ogerpon|Horn Leech|p1: Scientist|[notarget]
+|-fail|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1758322049
+|switch|p1a: Stampede|Ursaluna, F, shiny, tera:Normal|38/100 brn
+|-heal|p1a: Stampede|100/100|[from] move: Healing Wish
+|turn|12
+|
+|t:|1758322054
+|move|p1a: Stampede|Facade|p2a: Ogerpon
+|-damage|p2a: Ogerpon|30/100
+|move|p2a: Ogerpon|Horn Leech|p1a: Stampede
+|-damage|p1a: Stampede|71/100
+|-heal|p2a: Ogerpon|52/100|[from] drain|[of] p1a: Stampede
+|
+|-status|p1a: Stampede|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|
+|t:|1758322064
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Stampede|Facade|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-damage|p1a: Stampede|65/100 brn|[from] brn
+|upkeep
+|
+|t:|1758322071
+|switch|p2a: Azelf|Azelf|100/100
+|turn|14
+|
+|t:|1758322076
+|move|p1a: Stampede|Facade|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|-damage|p1a: Stampede|59/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758322078
+|switch|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|52/100
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|turn|15
+|
+|t:|1758322086
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Stampede|[anim] Ivy Cudgel Water
+|-damage|p1a: Stampede|7/100 brn
+|move|p1a: Stampede|Facade|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|win|GummyDeino
+|raw|GummyDeino's rating: 1530 &rarr; <strong>1547</strong><br />(+17 for winning)
+|raw|lolcano46's rating: 1470 &rarr; <strong>1453</strong><br />(-17 for losing)
+|l|☆lolcano46
+|player|p2|

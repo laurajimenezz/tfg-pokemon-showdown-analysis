@@ -1,0 +1,215 @@
+|j|☆Toxicognath
+|j|☆absiiwhoha
+|t:|1757814978
+|gametype|singles
+|player|p1|Toxicognath|2|1390
+|player|p2|absiiwhoha|170|1395
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Diancie|
+|poke|p1|Kyurem|
+|poke|p1|Necrozma|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Hands|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Araquanid, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Gholdengo|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Toxicognath)
+|
+|t:|1757814987
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Necrozma|Necrozma|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|turn|1
+|
+|t:|1757814991
+|move|p1a: Necrozma|Meteor Beam||[still]
+|-prepare|p1a: Necrozma|Meteor Beam
+|-boost|p1a: Necrozma|spa|1
+|-enditem|p1a: Necrozma|Power Herb
+|-anim|p1a: Necrozma|Meteor Beam|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1757815012
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespa
+|turn|2
+|
+|t:|1757815017
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|51/100
+|move|p1a: Necrozma|Trick Room|p1a: Necrozma
+|-fieldstart|move: Trick Room|[of] p1a: Necrozma
+|
+|upkeep
+|turn|3
+|
+|t:|1757815022
+|move|p1a: Necrozma|Photon Geyser|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757815028
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|4
+|
+|t:|1757815033
+|move|p1a: Necrozma|Heat Wave|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1757815038
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|5
+|
+|t:|1757815049
+|move|p1a: Necrozma|Photon Geyser|p2a: Dragonite
+|-damage|p2a: Dragonite|13/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|6
+|
+|t:|1757815055
+|move|p1a: Necrozma|Photon Geyser|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757815057
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|7
+|
+|t:|1757815065
+|move|p2a: Gholdengo|Shadow Ball|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|upkeep
+|
+|t:|1757815073
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|8
+|
+|t:|1757815081
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Iron Hands|Supercell Slam|p2a: Gholdengo
+|-damage|p2a: Gholdengo|6/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|9
+|
+|t:|1757815094
+|move|p2a: Gholdengo|Shadow Ball|p1a: Iron Hands
+|-damage|p1a: Iron Hands|21/100
+|-unboost|p1a: Iron Hands|spd|1
+|move|p1a: Iron Hands|Ice Punch|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1757815097
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|10
+|
+|t:|1757815102
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Iron Hands|[anim] Ivy Cudgel Water
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757815109
+|switch|p1a: Diancie|Diancie|100/100
+|turn|11
+|
+|t:|1757815115
+|-terastallize|p1a: Diancie|Grass
+|move|p2a: Ogerpon|Power Whip|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|73/100
+|move|p1a: Diancie|Trick Room|p1a: Diancie
+|-fieldstart|move: Trick Room|[of] p1a: Diancie
+|
+|upkeep
+|turn|12
+|
+|t:|1757815127
+|move|p1a: Diancie|Moonblast|p2a: Ogerpon
+|-damage|p2a: Ogerpon|49/100
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|upkeep
+|turn|13
+|
+|t:|1757815133
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Diancie|Meteor Beam||[still]
+|-prepare|p1a: Diancie|Meteor Beam
+|-boost|p1a: Diancie|spa|1
+|-enditem|p1a: Diancie|Power Herb
+|-anim|p1a: Diancie|Meteor Beam|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|win|Toxicognath
+|raw|Toxicognath's rating: 1390 &rarr; <strong>1410</strong><br />(+20 for winning)
+|raw|absiiwhoha's rating: 1395 &rarr; <strong>1375</strong><br />(-20 for losing)
+|l|☆absiiwhoha
+|player|p2|
+|l|☆Toxicognath
+|player|p1|

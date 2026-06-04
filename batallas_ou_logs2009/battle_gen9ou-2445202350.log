@@ -1,0 +1,402 @@
+|j|☆Yothas
+|j|☆marisa_fumo_gaming
+|t:|1758314230
+|gametype|singles
+|player|p1|Yothas|2|1285
+|player|p2|marisa_fumo_gaming|1|1290
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Chesnaught, F|
+|poke|p1|Heatran, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Hatterene, F|
+|poke|p2|Electivire, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Scizor, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Cinderace, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yothas)
+|
+|t:|1758314253
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Electivire|Electivire, F|100/100
+|turn|1
+|
+|t:|1758314257
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Yothas|Reflect
+|move|p2a: Electivire|Supercell Slam|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|67/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758314264
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Yothas|move: Light Screen
+|move|p2a: Electivire|Supercell Slam|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|39/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758314270
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Electivire
+|-unboost|p2a: Electivire|atk|1
+|-unboost|p2a: Electivire|spa|1
+|
+|t:|1758314279
+|switch|p1a: Rillaboom|Rillaboom, M|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Electivire|Volt Switch|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|96/100
+|
+|t:|1758314282
+|switch|p2a: Scizor|Scizor, M|100/100|[from] Volt Switch
+|
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1758314294
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Scizor|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|93/100
+|
+|t:|1758314302
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] U-turn
+|
+|-heal|p1a: Zamazenta|99/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1758314317
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Heatran|[miss]
+|-miss|p2a: Dragapult|p1a: Heatran
+|
+|upkeep
+|turn|6
+|
+|t:|1758314325
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|69/100
+|-activate|p2a: Cinderace|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Cinderace|75/100|[from] Grassy Terrain
+|-damage|p2a: Cinderace|62/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1758314328
+|move|p2a: Cinderace|U-turn|p1a: Heatran
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|97/100
+|
+|t:|1758314329
+|switch|p2a: Enamorus|Enamorus, F|100/100|[from] U-turn
+|move|p1a: Heatran|Earth Power|p2a: Enamorus
+|-immune|p2a: Enamorus
+|
+|-heal|p1a: Heatran|100/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1758314345
+|switch|p1a: Chesnaught|Chesnaught, F|100/100
+|move|p2a: Enamorus|Earth Power|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|90/100
+|
+|-heal|p1a: Chesnaught|96/100|[from] Grassy Terrain
+|-sideend|p1: Yothas|Reflect
+|upkeep
+|turn|9
+|
+|t:|1758314355
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Chesnaught|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|69/100
+|-enditem|p2a: Scizor|Choice Band|[from] move: Knock Off|[of] p1a: Chesnaught
+|
+|-heal|p1a: Chesnaught|100/100|[from] Grassy Terrain
+|-heal|p2a: Scizor|75/100|[from] Grassy Terrain
+|-sideend|p1: Yothas|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1758314362
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|move|p2a: Scizor|Dual Wingbeat|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|64/100
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|30/100
+|-hitcount|p1a: Zamazenta|2
+|
+|-heal|p1a: Zamazenta|36/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|42/100|[from] item: Leftovers
+|-heal|p2a: Scizor|81/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1758314371
+|move|p1a: Zamazenta|Body Press|p2a: Scizor
+|-damage|p2a: Scizor|45/100
+|move|p2a: Scizor|Dual Wingbeat|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|7/100
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-hitcount|p1: Zamazenta|2
+|
+|upkeep
+|
+|t:|1758314378
+|switch|p1a: Heatran|Heatran, M|100/100
+|turn|12
+|
+|t:|1758314386
+|switch|p2a: Cinderace|Cinderace, M|62/100
+|move|p1a: Heatran|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: marisa_fumo_gaming|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1758314392
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Heatran|Magma Storm|p2a: Cinderace|[miss]
+|-miss|p1a: Heatran|p2a: Cinderace
+|
+|upkeep
+|turn|14
+|
+|t:|1758314398
+|move|p2a: Cinderace|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|96/100
+|
+|t:|1758314400
+|switch|p2a: Enamorus|Enamorus, F|100/100|[from] U-turn
+|move|p1a: Heatran|Magma Storm|p2a: Enamorus
+|-damage|p2a: Enamorus|38/100
+|-activate|p2a: Enamorus|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|-damage|p2a: Enamorus|26/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1758314407
+|move|p2a: Enamorus|Earth Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|18/100
+|move|p1a: Heatran|Magma Storm|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-heal|p1a: Heatran|24/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758314410
+|switch|p2a: Electivire|Electivire, F|100/100
+|turn|16
+|
+|t:|1758314421
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Electivire|Supercell Slam|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|61/100
+|
+|-heal|p1a: Rillaboom|68/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1758314433
+|move|p2a: Electivire|Ice Punch|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-crit|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|t:|1758314438
+|switch|p1a: Chesnaught|Chesnaught, F|100/100
+|-damage|p1a: Chesnaught|94/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1758314441
+|move|p2a: Electivire|Ice Punch|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|53/100
+|move|p1a: Chesnaught|Belly Drum|p1a: Chesnaught
+|-damage|p1a: Chesnaught|3/100
+|-setboost|p1a: Chesnaught|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Chesnaught|Sitrus Berry|[eat]
+|-heal|p1a: Chesnaught|28/100|[from] item: Sitrus Berry
+|
+|-heal|p1a: Chesnaught|34/100|[from] Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1758314451
+|move|p1a: Chesnaught|Grassy Glide|p2a: Electivire
+|-damage|p2a: Electivire|0 fnt
+|faint|p2a: Electivire
+|
+|-heal|p1a: Chesnaught|40/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758314457
+|switch|p2a: Scizor|Scizor, M|45/100
+|turn|20
+|
+|t:|1758314460
+|-terastallize|p2a: Scizor|Steel
+|move|p2a: Scizor|Bullet Punch|p1a: Chesnaught
+|-damage|p1a: Chesnaught|4/100
+|move|p1a: Chesnaught|Drain Punch|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-heal|p1a: Chesnaught|22/100|[from] drain|[of] p2a: Scizor
+|faint|p2a: Scizor
+|
+|-heal|p1a: Chesnaught|29/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758314468
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|21
+|
+|t:|1758314473
+|-terastallize|p1a: Chesnaught|Steel
+|move|p2a: Dragapult|Draco Meteor|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Chesnaught
+|
+|upkeep
+|
+|t:|1758314480
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|-enditem|p1a: Hatterene|Grassy Seed
+|-boost|p1a: Hatterene|def|1|[from] item: Grassy Seed
+|turn|22
+|
+|t:|1758314492
+|switch|p2a: Cinderace|Cinderace, M|62/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|37/100
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Cinderace
+|
+|-heal|p2a: Cinderace|43/100|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|t:|1758314498
+|move|p2a: Cinderace|Pyro Ball|p1a: Hatterene
+|-damage|p1a: Hatterene|66/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p2a: Cinderace|49/100|[from] Grassy Terrain
+|-heal|p1a: Hatterene|72/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|24
+|
+|t:|1758314504
+|move|p2a: Cinderace|Pyro Ball|p1a: Hatterene
+|-damage|p1a: Hatterene|42/100
+|-status|p1a: Hatterene|brn
+|move|p1a: Hatterene|Stored Power|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-damage|p1a: Hatterene|36/100 brn|[from] brn
+|upkeep
+|
+|t:|1758314506
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|25
+|
+|t:|1758314509
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Hatterene|[anim] Ivy Cudgel Water
+|-damage|p1a: Hatterene|1/100 brn
+|move|p1a: Hatterene|Draining Kiss|p2a: Ogerpon
+|-damage|p2a: Ogerpon|64/100
+|-heal|p1a: Hatterene|27/100 brn|[from] drain|[of] p2a: Ogerpon
+|
+|-damage|p1a: Hatterene|21/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1758314516
+|move|p2a: Ogerpon|Horn Leech|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-heal|p2a: Ogerpon|75/100|[from] drain|[of] p1a: Hatterene
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1758314518
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|39/100
+|-damage|p1a: Grimmsnarl|27/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1758314521
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Yothas|Reflect
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Grimmsnarl|[anim] Ivy Cudgel Water
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|-message|Yothas forfeited.
+|
+|win|marisa_fumo_gaming
+|raw|Yothas's rating: 1285 &rarr; <strong>1260</strong><br />(-25 for losing)
+|raw|marisa_fumo_gaming's rating: 1290 &rarr; <strong>1315</strong><br />(+25 for winning)
+|l|☆Yothas
+|player|p1|
+|l|☆marisa_fumo_gaming
+|player|p2|

@@ -1,0 +1,170 @@
+|j|☆JustANoobie
+|j|☆SoMuchDavid
+|t:|1769342151
+|gametype|singles
+|player|p1|JustANoobie|gambler|1291
+|player|p2|SoMuchDavid|2|1350
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Iron Treads|
+|poke|p1|Kilowattrel, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Chesnaught, F|
+|poke|p1|Gholdengo|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Latias, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Tornadus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JustANoobie)
+|
+|t:|1769342178
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1769342184
+|move|p1a: Iron Treads|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: SoMuchDavid|move: Stealth Rock
+|move|p2a: Tornadus|Heat Wave|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769342193
+|switch|p1a: Kilowattrel|Kilowattrel, F|100/100
+|turn|2
+|
+|t:|1769342201
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Kilowattrel|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|71/100
+|-damage|p1a: Kilowattrel|91/100|[from] item: Life Orb
+|
+|t:|1769342212
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|3
+|
+|t:|1769342216
+|move|p1a: Gholdengo|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|39/100
+|move|p2a: Slowking|Flamethrower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|46/100
+|
+|upkeep
+|turn|4
+|
+|t:|1769342226
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pelipper|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1769342235
+|switch|p1a: Chesnaught|Chesnaught, F|100/100
+|move|p2a: Tyranitar|Knock Off|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-crit|p1a: Chesnaught
+|-damage|p1a: Chesnaught|74/100
+|-enditem|p1a: Chesnaught|Leftovers|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chesnaught|68/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1769342250
+|-terastallize|p2a: Tyranitar|Flying
+|move|p2a: Tyranitar|Stealth Rock|p1a: Chesnaught
+|-sidestart|p1: JustANoobie|move: Stealth Rock
+|move|p1a: Chesnaught|Knock Off|p2a: Tyranitar
+|-damage|p2a: Tyranitar|62/100
+|-enditem|p2a: Tyranitar|Smooth Rock|[from] move: Knock Off|[of] p1a: Chesnaught
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|56/100|[from] Sandstorm
+|-damage|p1a: Chesnaught|62/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1769342256
+|move|p2a: Tyranitar|Ice Punch|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|28/100
+|move|p1a: Chesnaught|Swords Dance|p1a: Chesnaught
+|-boost|p1a: Chesnaught|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|50/100|[from] Sandstorm
+|-damage|p1a: Chesnaught|22/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1769342263
+|move|p2a: Tyranitar|Ice Punch|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|0 fnt
+|faint|p1a: Chesnaught
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|44/100|[from] Sandstorm
+|upkeep
+|
+|t:|1769342273
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1769342281
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|move|p1a: Basculegion|Flip Turn|p2a: Ogerpon
+|-heal|p2a: Ogerpon|100/100|[from] ability: Water Absorb|[of] p1a: Basculegion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ogerpon|95/100|[from] Sandstorm
+|-damage|p1a: Basculegion|82/100|[from] Sandstorm
+|upkeep
+|turn|10
+|-message|JustANoobie forfeited.
+|
+|win|SoMuchDavid
+|raw|JustANoobie's rating: 1291 &rarr; <strong>1270</strong><br />(-21 for losing)
+|raw|SoMuchDavid's rating: 1350 &rarr; <strong>1367</strong><br />(+17 for winning)
+|l|☆JustANoobie
+|player|p1|
+|l|☆SoMuchDavid
+|player|p2|

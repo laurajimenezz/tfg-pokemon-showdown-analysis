@@ -1,0 +1,488 @@
+|j|☆bill1218
+|j|☆AI Builds
+|t:|1758261264
+|gametype|singles
+|player|p1|bill1218|265|1502
+|player|p2|AI Builds|169|1524
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tinkaton, F|
+|poke|p1|Skeledirge, M|
+|poke|p1|Serperior, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Araquanid, M|
+|poke|p1|Great Tusk|
+|poke|p2|Enamorus, F|
+|poke|p2|Kyurem|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Glimmora, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AI Builds)
+|
+|t:|1758261276
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Indeedee|Indeedee, M, shiny|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1758261280
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|move|p2a: Ogerpon|Knock Off|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|86/100
+|-enditem|p1a: Tinkaton|Leftovers|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|upkeep
+|turn|2
+|
+|t:|1758261290
+|move|p2a: Ogerpon|Taunt|p1a: Tinkaton
+|-start|p1a: Tinkaton|move: Taunt
+|cant|p1a: Tinkaton|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1758261300
+|move|p2a: Ogerpon|Knock Off|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|75/100
+|move|p1a: Tinkaton|Knock Off|p2a: Ogerpon
+|-damage|p2a: Ogerpon|86/100
+|
+|upkeep
+|turn|4
+|
+|t:|1758261308
+|move|p2a: Ogerpon|Knock Off|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|65/100
+|move|p1a: Tinkaton|Knock Off|p2a: Ogerpon
+|-damage|p2a: Ogerpon|71/100
+|
+|-end|p1a: Tinkaton|move: Taunt
+|upkeep
+|turn|5
+|
+|t:|1758261314
+|move|p2a: Ogerpon|Taunt|p1a: Tinkaton
+|-start|p1a: Tinkaton|move: Taunt
+|move|p1a: Tinkaton|Knock Off|p2a: Ogerpon
+|-damage|p2a: Ogerpon|54/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1758261317
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Tinkaton|[anim] Ivy Cudgel Water
+|-damage|p1a: Tinkaton|18/100
+|move|p1a: Tinkaton|Knock Off|p2a: Ogerpon
+|-damage|p2a: Ogerpon|39/100
+|
+|upkeep
+|turn|7
+|
+|t:|1758261326
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Tinkaton|[anim] Ivy Cudgel Water
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|upkeep
+|
+|t:|1758261332
+|switch|p1a: Serperior|Serperior, M|100/100
+|turn|8
+|
+|t:|1758261336
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Serperior|Glare|p2a: Kyurem
+|-status|p2a: Kyurem|par
+|
+|upkeep
+|turn|9
+|
+|t:|1758261340
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|76/100
+|move|p2a: Kyurem|Ice Beam|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|
+|-heal|p1a: Serperior|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758261344
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|57/100
+|move|p2a: Kyurem|Ice Beam|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|
+|-heal|p1a: Serperior|63/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758261347
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|39/100
+|move|p2a: Kyurem|Ice Beam|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|
+|-heal|p1a: Serperior|45/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758261349
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|20/100
+|move|p2a: Kyurem|Ice Beam|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|
+|-heal|p1a: Serperior|26/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1758261352
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|2/100
+|move|p2a: Kyurem|Ice Beam|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|
+|-heal|p1a: Serperior|8/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1758261355
+|move|p1a: Serperior|Leech Seed|p2a: Kyurem
+|-start|p2a: Kyurem|move: Leech Seed
+|move|p2a: Kyurem|Ice Beam|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1758261366
+|switch|p1a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|15
+|
+|t:|1758261368
+|move|p1a: Indeedee|Expanding Force|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1758261372
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|39/100
+|turn|16
+|
+|t:|1758261381
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|move|p2a: Ogerpon|Knock Off|p1a: Araquanid
+|-damage|p1a: Araquanid|61/100
+|-enditem|p1a: Araquanid|Custap Berry|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|upkeep
+|turn|17
+|
+|t:|1758261385
+|move|p2a: Ogerpon|Taunt|p1a: Araquanid
+|-start|p1a: Araquanid|move: Taunt
+|cant|p1a: Araquanid|move: Taunt|Sticky Web
+|
+|upkeep
+|turn|18
+|
+|t:|1758261390
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Araquanid|[anim] Ivy Cudgel Water
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|31/100
+|move|p1a: Araquanid|Lunge|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1758261394
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|19
+|
+|t:|1758261399
+|move|p2a: Glimmora|Power Gem|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1758261409
+|switch|p1a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|20
+|
+|t:|1758261413
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|move|p1a: Indeedee|Expanding Force|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1758261417
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|21
+|
+|t:|1758261421
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Kingambit|Iron Head|p1a: Great Tusk
+|-damage|p1a: Great Tusk|59/100
+|
+|upkeep
+|turn|22
+|
+|t:|1758261431
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|94/100
+|-boost|p1a: Great Tusk|spe|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: bill1218|move: Toxic Spikes
+|-sideend|p1: bill1218|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-enditem|p2a: Glimmora|Red Card|[of] p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|drag|p1a: Indeedee|Indeedee, M, shiny|100/100
+|
+|upkeep
+|turn|23
+|
+|t:|1758261437
+|move|p1a: Indeedee|Tera Blast|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-crit|p2a: Glimmora
+|-damage|p2a: Glimmora|51/100
+|move|p2a: Glimmora|Mortal Spin|p1a: Indeedee
+|-damage|p1a: Indeedee|88/100
+|-status|p1a: Indeedee|psn
+|
+|-damage|p1a: Indeedee|76/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1758261445
+|switch|p1a: Great Tusk|Great Tusk|59/100
+|move|p2a: Glimmora|Spikes|p1a: Great Tusk
+|-sidestart|p1: bill1218|Spikes
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|25
+|
+|t:|1758261454
+|-terastallize|p2a: Glimmora|Ghost
+|move|p1a: Great Tusk|Rapid Spin|p2a: Glimmora
+|-immune|p2a: Glimmora
+|move|p2a: Glimmora|Mortal Spin|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|57/100
+|-status|p1a: Great Tusk|psn
+|
+|-damage|p1a: Great Tusk|44/100 psn|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1758261459
+|move|p1a: Great Tusk|Headlong Rush|p2a: Glimmora
+|-damage|p2a: Glimmora|5/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: bill1218|move: Toxic Spikes
+|move|p2a: Glimmora|Spikes|p1a: Great Tusk
+|-sidestart|p1: bill1218|Spikes
+|
+|-damage|p1a: Great Tusk|32/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1758261463
+|move|p1a: Great Tusk|Ice Spinner|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: bill1218|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|-damage|p1a: Great Tusk|20/100 psn|[from] psn
+|upkeep
+|
+|t:|1758261466
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|28
+|
+|t:|1758261480
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|move|p2a: Enamorus|Moonblast|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|84/100
+|
+|upkeep
+|turn|29
+|
+|t:|1758261487
+|move|p2a: Enamorus|Earth Power|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|41/100
+|move|p1a: Skeledirge|Torch Song|p2a: Enamorus
+|-damage|p2a: Enamorus|56/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|upkeep
+|turn|30
+|
+|t:|1758261500
+|-terastallize|p1a: Skeledirge|Normal
+|move|p2a: Enamorus|Earth Power|p1a: Skeledirge
+|-damage|p1a: Skeledirge|17/100
+|move|p1a: Skeledirge|Torch Song|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|-boost|p1a: Skeledirge|spa|1
+|faint|p2a: Enamorus
+|
+|upkeep
+|
+|t:|1758261502
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|31
+|
+|t:|1758261506
+|move|p2a: Kingambit|Low Kick|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|upkeep
+|
+|t:|1758261514
+|switch|p1a: Indeedee|Indeedee, M, shiny|76/100 psn
+|-damage|p1a: Indeedee|59/100 psn|[from] Spikes
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|32
+|
+|t:|1758261517
+|move|p1a: Indeedee|Trick|p2a: Kingambit
+|-activate|p1a: Indeedee|move: Trick|[of] p2a: Kingambit
+|-item|p2a: Kingambit|Choice Specs|[from] move: Trick
+|-item|p1a: Indeedee|Air Balloon
+|-item|p1a: Indeedee|Air Balloon|[from] move: Trick
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-damage|p1a: Indeedee|47/100 psn|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1758261521
+|move|p1a: Indeedee|Tera Blast|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|79/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-damage|p1a: Indeedee|35/100 psn|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1758261524
+|move|p1a: Indeedee|Tera Blast|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|58/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-damage|p1a: Indeedee|22/100 psn|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1758261527
+|move|p1a: Indeedee|Tera Blast|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|38/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|0
+|
+|-damage|p1a: Indeedee|10/100 psn|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1758261530
+|move|p1a: Indeedee|Tera Blast|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|16/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|0
+|
+|-damage|p1a: Indeedee|0 fnt|[from] psn
+|faint|p1a: Indeedee
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1758261531
+|switch|p1a: Great Tusk|Great Tusk|20/100 psn
+|turn|37
+|
+|t:|1758261534
+|move|p1a: Great Tusk|Headlong Rush|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|bill1218
+|raw|bill1218's rating: 1502 &rarr; <strong>1523</strong><br />(+21 for winning)
+|raw|AI Builds's rating: 1524 &rarr; <strong>1503</strong><br />(-21 for losing)
+|l|☆AI Builds
+|player|p2|
+|l|☆bill1218
+|player|p1|

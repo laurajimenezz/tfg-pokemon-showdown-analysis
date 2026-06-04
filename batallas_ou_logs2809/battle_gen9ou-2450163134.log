@@ -1,0 +1,436 @@
+|j|☆sir_miestro
+|j|☆god of joe
+|t:|1758937499
+|gametype|singles
+|player|p1|sir_miestro|blackbelt-gen4dp|1420
+|player|p2|god of joe|psychic-gen4|1456
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Clefable, M|
+|poke|p1|Ambipom, F|
+|poke|p1|Dachsbun, M|
+|poke|p1|Houndstone, M|
+|poke|p1|Cinderace, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Treads|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Zamazenta-*|
+|poke|p2|Tornadus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sir_miestro)
+|
+|t:|1758937518
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ambipom|Ambipom, F|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1758937527
+|move|p1a: Ambipom|Switcheroo|p2a: Raging Bolt
+|-activate|p1a: Ambipom|move: Trick|[of] p2a: Raging Bolt
+|-item|p2a: Raging Bolt|Choice Scarf|[from] move: Switcheroo
+|-enditem|p1a: Ambipom|Choice Scarf|[silent]|[from] move: Switcheroo
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Ambipom
+|-damage|p1a: Ambipom|0 fnt
+|faint|p1a: Ambipom
+|
+|upkeep
+|
+|t:|1758937539
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|2
+|
+|t:|1758937546
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|38/100
+|move|p1a: Clefable|Moonblast|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|21/100
+|-unboost|p2a: Raging Bolt|spa|1
+|
+|-status|p1a: Clefable|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1758937551
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1758937557
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|4
+|
+|t:|1758937560
+|move|p1a: Cinderace|U-turn|p2a: Raging Bolt
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-crit|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|t:|1758937563
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1758937573
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|5
+|
+|t:|1758937578
+|-terastallize|p2a: Zamazenta|Fire
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Rotom|Will-O-Wisp|p2a: Zamazenta|[miss]
+|-miss|p1a: Rotom|p2a: Zamazenta
+|
+|upkeep
+|turn|6
+|
+|t:|1758937584
+|switch|p1a: Houndstone|Houndstone, M|100/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|upkeep
+|turn|7
+|
+|t:|1758937590
+|move|p1a: Houndstone|Poltergeist|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Poltergeist|Leftovers
+|-damage|p2a: Zamazenta|92/100
+|move|p2a: Zamazenta|Roar|p1a: Houndstone
+|drag|p1a: Dachsbun|Dachsbun, M|100/100
+|
+|-heal|p2a: Zamazenta|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758937596
+|switch|p1a: Houndstone|Houndstone, M|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Houndstone
+|-immune|p1a: Houndstone
+|
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758937600
+|move|p2a: Zamazenta|Crunch|p1a: Houndstone
+|-supereffective|p1a: Houndstone
+|-damage|p1a: Houndstone|79/100
+|-unboost|p1a: Houndstone|def|1
+|-damage|p2a: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p1a: Houndstone
+|move|p1a: Houndstone|Psychic Fangs|p2a: Zamazenta
+|-damage|p2a: Zamazenta|79/100
+|
+|-heal|p2a: Zamazenta|85/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758937603
+|switch|p1a: Dachsbun|Dachsbun, M|100/100
+|move|p2a: Zamazenta|Crunch|p1a: Dachsbun
+|-resisted|p1a: Dachsbun
+|-damage|p1a: Dachsbun|93/100
+|
+|-heal|p2a: Zamazenta|92/100|[from] item: Leftovers
+|-heal|p1a: Dachsbun|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758937606
+|switch|p1a: Houndstone|Houndstone, M|79/100
+|move|p2a: Zamazenta|Body Press|p1a: Houndstone
+|-immune|p1a: Houndstone
+|
+|-heal|p2a: Zamazenta|98/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758937610
+|move|p2a: Zamazenta|Crunch|p1a: Houndstone
+|-supereffective|p1a: Houndstone
+|-damage|p1a: Houndstone|59/100
+|-damage|p2a: Zamazenta|81/100|[from] item: Rocky Helmet|[of] p1a: Houndstone
+|move|p1a: Houndstone|Pain Split|p2a: Zamazenta
+|-sethp|p2a: Zamazenta|72/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Houndstone|67/100|[from] move: Pain Split
+|
+|-heal|p2a: Zamazenta|78/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1758937615
+|move|p2a: Zamazenta|Crunch|p1a: Houndstone
+|-supereffective|p1a: Houndstone
+|-damage|p1a: Houndstone|46/100
+|-damage|p2a: Zamazenta|61/100|[from] item: Rocky Helmet|[of] p1a: Houndstone
+|move|p1a: Houndstone|Pain Split|p2a: Zamazenta
+|-sethp|p2a: Zamazenta|56/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Houndstone|52/100|[from] move: Pain Split
+|
+|-heal|p2a: Zamazenta|62/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1758937619
+|move|p2a: Zamazenta|Crunch|p1a: Houndstone
+|-supereffective|p1a: Houndstone
+|-damage|p1a: Houndstone|30/100
+|-damage|p2a: Zamazenta|45/100|[from] item: Rocky Helmet|[of] p1a: Houndstone
+|move|p1a: Houndstone|Pain Split|p2a: Zamazenta
+|-sethp|p2a: Zamazenta|39/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Houndstone|36/100|[from] move: Pain Split
+|
+|-heal|p2a: Zamazenta|45/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758937622
+|switch|p1a: Dachsbun|Dachsbun, M|99/100
+|move|p2a: Zamazenta|Crunch|p1a: Dachsbun
+|-resisted|p1a: Dachsbun
+|-damage|p1a: Dachsbun|92/100
+|
+|-heal|p2a: Zamazenta|51/100|[from] item: Leftovers
+|-heal|p1a: Dachsbun|98/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758937625
+|move|p1a: Dachsbun|Protect|p1a: Dachsbun
+|-singleturn|p1a: Dachsbun|Protect
+|move|p2a: Zamazenta|Crunch|p1a: Dachsbun
+|-activate|p1a: Dachsbun|move: Protect
+|
+|-heal|p2a: Zamazenta|57/100|[from] item: Leftovers
+|-heal|p1a: Dachsbun|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758937633
+|switch|p1a: Houndstone|Houndstone, M|36/100
+|move|p2a: Zamazenta|Body Press|p1a: Houndstone
+|-immune|p1a: Houndstone
+|
+|-heal|p2a: Zamazenta|63/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1758937636
+|switch|p1a: Dachsbun|Dachsbun, M|100/100
+|move|p2a: Zamazenta|Crunch|p1a: Dachsbun
+|-resisted|p1a: Dachsbun
+|-damage|p1a: Dachsbun|93/100
+|
+|-heal|p2a: Zamazenta|69/100|[from] item: Leftovers
+|-heal|p1a: Dachsbun|99/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1758937639
+|move|p2a: Zamazenta|Body Press|p1a: Dachsbun
+|-resisted|p1a: Dachsbun
+|-damage|p1a: Dachsbun|50/100
+|move|p1a: Dachsbun|Wish|p1a: Dachsbun
+|
+|-heal|p2a: Zamazenta|76/100|[from] item: Leftovers
+|-heal|p1a: Dachsbun|56/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1758937647
+|switch|p1a: Houndstone|Houndstone, M|36/100
+|move|p2a: Zamazenta|Roar|p1a: Houndstone
+|drag|p1a: Dachsbun|Dachsbun, M|56/100
+|
+|-heal|p1a: Dachsbun|100/100|[from] move: Wish|[wisher] Dachsbun
+|-heal|p2a: Zamazenta|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1758937650
+|move|p2a: Zamazenta|Body Press|p1a: Dachsbun
+|-resisted|p1a: Dachsbun
+|-damage|p1a: Dachsbun|52/100
+|move|p1a: Dachsbun|Wish|p1a: Dachsbun
+|
+|-heal|p2a: Zamazenta|88/100|[from] item: Leftovers
+|-heal|p1a: Dachsbun|58/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1758937658
+|switch|p1a: Houndstone|Houndstone, M|36/100
+|move|p2a: Zamazenta|Roar|p1a: Houndstone
+|drag|p1a: Dachsbun|Dachsbun, M|58/100
+|
+|-heal|p1a: Dachsbun|100/100|[from] move: Wish|[wisher] Dachsbun
+|-heal|p2a: Zamazenta|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1758937663
+|move|p2a: Zamazenta|Body Press|p1a: Dachsbun
+|-resisted|p1a: Dachsbun
+|-damage|p1a: Dachsbun|51/100
+|move|p1a: Dachsbun|Wish|p1a: Dachsbun
+|
+|-heal|p2a: Zamazenta|99/100|[from] item: Leftovers
+|-heal|p1a: Dachsbun|57/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1758937666
+|switch|p1a: Houndstone|Houndstone, M|36/100
+|move|p2a: Zamazenta|Roar|p1a: Houndstone
+|drag|p1a: Cinderace|Cinderace, M|100/100
+|
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1758937673
+|switch|p1a: Dachsbun|Dachsbun, M|57/100
+|move|p2a: Zamazenta|Body Press|p1a: Dachsbun
+|-resisted|p1a: Dachsbun
+|-damage|p1a: Dachsbun|11/100
+|
+|-heal|p1a: Dachsbun|17/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1758937676
+|move|p1a: Dachsbun|Protect|p1a: Dachsbun
+|-singleturn|p1a: Dachsbun|Protect
+|move|p2a: Zamazenta|Body Press|p1a: Dachsbun
+|-activate|p1a: Dachsbun|move: Protect
+|
+|-heal|p1a: Dachsbun|23/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1758937683
+|switch|p1a: Houndstone|Houndstone, M|36/100
+|move|p2a: Zamazenta|Crunch|p1a: Houndstone
+|-supereffective|p1a: Houndstone
+|-damage|p1a: Houndstone|15/100
+|-unboost|p1a: Houndstone|def|1
+|-damage|p2a: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p1a: Houndstone
+|
+|-heal|p2a: Zamazenta|90/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1758937688
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Zamazenta|Crunch|p1a: Rotom
+|-damage|p1a: Rotom|72/100
+|
+|-heal|p2a: Zamazenta|96/100|[from] item: Leftovers
+|-heal|p1a: Rotom|78/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1758937692
+|switch|p1a: Houndstone|Houndstone, M|15/100
+|move|p2a: Zamazenta|Body Press|p1a: Houndstone
+|-immune|p1a: Houndstone
+|
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1758937710
+|move|p2a: Zamazenta|Crunch|p1a: Houndstone
+|-supereffective|p1a: Houndstone
+|-damage|p1a: Houndstone|0 fnt
+|-damage|p2a: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p1a: Houndstone
+|faint|p1a: Houndstone
+|
+|-heal|p2a: Zamazenta|90/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758937713
+|switch|p1a: Dachsbun|Dachsbun, M|23/100
+|turn|31
+|
+|t:|1758937718
+|move|p1a: Dachsbun|Protect|p1a: Dachsbun
+|-singleturn|p1a: Dachsbun|Protect
+|move|p2a: Zamazenta|Roar|p1a: Dachsbun
+|drag|p1a: Cinderace|Cinderace, M|100/100
+|
+|-heal|p2a: Zamazenta|96/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1758937727
+|move|p2a: Zamazenta|Body Press|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758937730
+|switch|p1a: Rotom|Rotom-Wash|78/100
+|turn|33
+|
+|t:|1758937732
+|move|p2a: Zamazenta|Body Press|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1758937734
+|switch|p1a: Dachsbun|Dachsbun, M|23/100
+|turn|34
+|
+|t:|1758937736
+|move|p1a: Dachsbun|Protect|p1a: Dachsbun
+|-singleturn|p1a: Dachsbun|Protect
+|move|p2a: Zamazenta|Body Press|p1a: Dachsbun
+|-activate|p1a: Dachsbun|move: Protect
+|
+|-heal|p1a: Dachsbun|29/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1758937739
+|move|p2a: Zamazenta|Body Press|p1a: Dachsbun
+|-resisted|p1a: Dachsbun
+|-damage|p1a: Dachsbun|0 fnt
+|faint|p1a: Dachsbun
+|
+|win|god of joe
+|raw|sir_miestro's rating: 1420 &rarr; <strong>1402</strong><br />(-18 for losing)
+|raw|god of joe's rating: 1456 &rarr; <strong>1474</strong><br />(+18 for winning)
+|l|☆god of joe
+|player|p2|
+|l|☆sir_miestro
+|player|p1|

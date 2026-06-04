@@ -1,0 +1,321 @@
+|j|☆PirateKingJoyBoy
+|j|☆Trevoro
+|t:|1758341870
+|gametype|singles
+|player|p1|PirateKingJoyBoy|170|1601
+|player|p2|Trevoro|iono|1632
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Gholdengo|
+|poke|p1|Clefable, F|
+|poke|p1|Mimikyu, F|
+|poke|p1|Toxapex, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Heatran, F|
+|poke|p2|Hydrapple, F|
+|teampreview
+|
+|t:|1758341898
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+|
+|t:|1758341919
+|move|p2a: Tornadus|Taunt|p1a: Toxapex
+|-start|p1a: Toxapex|move: Taunt
+|cant|p1a: Toxapex|move: Taunt|Toxic
+|
+|upkeep
+|turn|2
+|
+|t:|1758341923
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Tornadus|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|96/100
+|
+|t:|1758341925
+|switch|p2a: Heatran|Heatran, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1758341933
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Magma Storm|p1a: Landorus
+|-damage|p1a: Landorus|55/100
+|-activate|p1a: Landorus|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: Landorus|61/100|[from] item: Leftovers
+|-damage|p1a: Landorus|49/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1758341946
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Hydrapple
+|-sidestart|p2: Trevoro|move: Stealth Rock
+|
+|-heal|p1a: Landorus|55/100|[from] item: Leftovers
+|-end|p1a: Landorus|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|5
+|
+|t:|1758341962
+|move|p1a: Landorus|U-turn|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|75/100
+|-damage|p1a: Landorus|38/100|[from] item: Rocky Helmet|[of] p2a: Hydrapple
+|
+|t:|1758341968
+|switch|p1a: Toxapex|Toxapex, F|100/100|[from] U-turn
+|move|p2a: Hydrapple|Fickle Beam|p1a: Toxapex
+|-damage|p1a: Toxapex|80/100
+|
+|-heal|p1a: Toxapex|87/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1758341977
+|switch|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Toxapex|Toxic|p2a: Heatran
+|-immune|p2a: Heatran
+|
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|93/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758341985
+|move|p2a: Heatran|Magma Storm|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|78/100
+|-activate|p1a: Toxapex|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Toxapex|Surf|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|69/100
+|
+|-heal|p2a: Heatran|76/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|85/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|72/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1758341994
+|move|p2a: Heatran|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|37/100
+|move|p1a: Toxapex|Surf|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|51/100
+|
+|-heal|p2a: Heatran|57/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|44/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|31/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1758342005
+|move|p2a: Heatran|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-heal|p2a: Heatran|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758342014
+|switch|p1a: Landorus|Landorus-Therian, M|38/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|turn|10
+|
+|t:|1758342019
+|move|p1a: Landorus|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|59/100
+|
+|t:|1758342029
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] U-turn
+|move|p2a: Heatran|Stealth Rock|p1a: Cinderace
+|-sidestart|p1: PirateKingJoyBoy|move: Stealth Rock
+|
+|-heal|p2a: Heatran|65/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758342037
+|switch|p1a: Landorus|Landorus-Therian, M|38/100
+|-damage|p1a: Landorus|26/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|
+|-heal|p1a: Landorus|32/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758342047
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1758342051
+|switch|p1a: Clefable|Clefable, F|100/100
+|turn|13
+|
+|t:|1758342055
+|move|p2a: Tornadus|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|move|p1a: Clefable|Thunderbolt|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|26/100
+|
+|upkeep
+|turn|14
+|
+|t:|1758342063
+|move|p2a: Tornadus|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|93/100
+|
+|t:|1758342076
+|switch|p2a: Heatran|Heatran, F|65/100|[from] U-turn
+|-damage|p2a: Heatran|52/100|[from] Stealth Rock
+|move|p1a: Clefable|Ice Beam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|47/100
+|
+|-heal|p2a: Heatran|53/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758342084
+|move|p2a: Heatran|Magma Storm|p1a: Clefable
+|-damage|p1a: Clefable|52/100
+|-activate|p1a: Clefable|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Clefable|Thunderbolt|p2a: Heatran
+|-damage|p2a: Heatran|29/100
+|
+|-heal|p2a: Heatran|35/100|[from] item: Leftovers
+|-end|p1a: Clefable|move: Taunt
+|upkeep
+|turn|16
+|
+|t:|1758342108
+|move|p2a: Heatran|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|move|p1a: Clefable|Thunderbolt|p2a: Heatran
+|-damage|p2a: Heatran|14/100
+|
+|-heal|p2a: Heatran|21/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758342115
+|move|p2a: Heatran|Earth Power|p1a: Clefable
+|-damage|p1a: Clefable|27/100
+|-unboost|p1a: Clefable|spd|1
+|move|p1a: Clefable|Thunderbolt|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-end|p1a: Clefable|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1758342121
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p2a: Keldeo|94/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1758342125
+|move|p2a: Keldeo|Surf|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1758342130
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1758342137
+|move|p2a: Keldeo|Surf|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|88/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|76/100|[from] pokemon: Mimikyu-Busted
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|upkeep
+|turn|20
+|
+|t:|1758342145
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|-damage|p2a: Hydrapple|88/100|[from] Stealth Rock
+|move|p1a: Mimikyu|Play Rough|p2a: Hydrapple|[miss]
+|-miss|p1a: Mimikyu|p2a: Hydrapple
+|
+|upkeep
+|turn|21
+|
+|t:|1758342152
+|move|p1a: Mimikyu|Play Rough|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|-damage|p1a: Mimikyu|59/100|[from] item: Rocky Helmet|[of] p2a: Hydrapple
+|faint|p2a: Hydrapple
+|-damage|p1a: Mimikyu|50/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758342156
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|22
+|
+|t:|1758342163
+|move|p1a: Mimikyu|Play Rough|p2a: Tyranitar|[miss]
+|-miss|p1a: Mimikyu|p2a: Tyranitar
+|move|p2a: Tyranitar|Knock Off|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|-enditem|p1a: Mimikyu|Life Orb|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1a: Mimikyu
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|-message|PirateKingJoyBoy forfeited.
+|
+|win|Trevoro
+|raw|PirateKingJoyBoy's rating: 1601 &rarr; <strong>1583</strong><br />(-18 for losing)
+|raw|Trevoro's rating: 1632 &rarr; <strong>1650</strong><br />(+18 for winning)
+|l|☆PirateKingJoyBoy
+|player|p1|
+|l|☆Trevoro
+|player|p2|

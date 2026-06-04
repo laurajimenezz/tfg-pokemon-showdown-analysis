@@ -1,0 +1,274 @@
+|j|☆mistawite
+|j|☆xyphose
+|t:|1760373168
+|gametype|singles
+|player|p1|mistawite|ethan|1076
+|player|p2|xyphose|sabrina|1060
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Typhlosion, M|
+|poke|p1|Serperior, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Galvantula, M|
+|poke|p1|Metagross|
+|poke|p2|Jumpluff, M|
+|poke|p2|Ditto|
+|poke|p2|Scizor, F|
+|poke|p2|Quagsire, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Arbok, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xyphose)
+|
+|t:|1760373182
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|switch|p2a: Arbok|Arbok, F|100/100
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Iron Valiant|atk|1
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1760373191
+|move|p1a: Iron Valiant|Trick|p2a: Arbok
+|-activate|p1a: Iron Valiant|move: Trick|[of] p2a: Arbok
+|-enditem|p2a: Arbok|Loaded Dice|[silent]|[from] move: Trick
+|-item|p1a: Iron Valiant|Loaded Dice|[from] move: Trick
+|move|p2a: Arbok|Coil|p2a: Arbok
+|-boost|p2a: Arbok|atk|1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|accuracy|1
+|
+|upkeep
+|turn|2
+|
+|t:|1760373204
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Arbok|Gunk Shot|p1a: Metagross
+|-immune|p1a: Metagross
+|
+|upkeep
+|turn|3
+|
+|t:|1760373211
+|move|p2a: Arbok|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-crit|p1a: Metagross
+|-damage|p1a: Metagross|17/100
+|move|p1a: Metagross|Psychic Fangs|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|-heal|p1a: Metagross|23/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760373217
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Metagross|[from] ability: Imposter
+|turn|4
+|
+|t:|1760373225
+|move|p2a: Ditto|Meteor Mash|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|3/100
+|move|p1a: Metagross|Iron Defense|p1a: Metagross
+|-boost|p1a: Metagross|def|2
+|
+|-heal|p1a: Metagross|9/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760373232
+|move|p2a: Ditto|Meteor Mash|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|upkeep
+|
+|t:|1760373257
+|switch|p1a: Hydreigon|Hydreigon, M, shiny|100/100
+|turn|6
+|
+|t:|1760373267
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Quagsire
+|-damage|p2a: Quagsire|59/100
+|
+|upkeep
+|turn|7
+|
+|t:|1760373276
+|move|p1a: Hydreigon|Draco Meteor|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Quagsire
+|-enditem|p1a: Hydreigon|White Herb
+|-clearnegativeboost|p1a: Hydreigon|[silent]
+|
+|upkeep
+|
+|t:|1760373285
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Hydreigon|[from] ability: Imposter
+|turn|8
+|
+|t:|1760373292
+|move|p2a: Ditto|Flash Cannon|p1a: Hydreigon
+|-damage|p1a: Hydreigon|69/100
+|-unboost|p1a: Hydreigon|spd|1
+|move|p1a: Hydreigon|Focus Blast|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|upkeep
+|
+|t:|1760373302
+|switch|p2a: Jumpluff|Jumpluff, M|100/100
+|turn|9
+|
+|t:|1760373309
+|move|p2a: Jumpluff|Swords Dance|p2a: Jumpluff
+|-boost|p2a: Jumpluff|atk|2
+|move|p1a: Hydreigon|Dark Pulse|p2a: Jumpluff
+|-damage|p2a: Jumpluff|52/100
+|
+|upkeep
+|turn|10
+|
+|t:|1760373324
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|move|p2a: Jumpluff|Strength Sap|p1a: Galvantula
+|-unboost|p1a: Galvantula|atk|1
+|-heal|p2a: Jumpluff|100/100
+|
+|upkeep
+|turn|11
+|
+|t:|1760373332
+|move|p2a: Jumpluff|Acrobatics|p1a: Galvantula
+|-damage|p1a: Galvantula|43/100
+|move|p1a: Galvantula|Thunder|p2a: Jumpluff
+|-damage|p2a: Jumpluff|30/100
+|-enditem|p2a: Jumpluff|Sitrus Berry|[eat]
+|-heal|p2a: Jumpluff|55/100|[from] item: Sitrus Berry
+|-damage|p1a: Galvantula|33/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|t:|1760373342
+|move|p2a: Jumpluff|Acrobatics|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|t:|1760373356
+|switch|p1a: Hydreigon|Hydreigon, M, shiny|69/100
+|turn|13
+|
+|t:|1760373365
+|move|p2a: Jumpluff|Acrobatics|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|t:|1760373370
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|turn|14
+|
+|t:|1760373376
+|move|p1a: Iron Valiant|Destiny Bond|p1a: Iron Valiant
+|-singlemove|p1a: Iron Valiant|Destiny Bond
+|move|p2a: Jumpluff|Acrobatics|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-activate|p1a: Iron Valiant|move: Destiny Bond
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|faint|p2a: Jumpluff
+|
+|upkeep
+|
+|t:|1760373384
+|switch|p1a: Typhlosion|Typhlosion, M, shiny|100/100
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|15
+|
+|t:|1760373391
+|-terastallize|p1a: Typhlosion|Fire
+|move|p1a: Typhlosion|Eruption|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|31/100
+|move|p2a: Dragonite|Earthquake|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|-damage|p2a: Dragonite|21/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760373400
+|switch|p1a: Serperior|Serperior, M|100/100
+|turn|16
+|
+|t:|1760373404
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1a: Serperior
+|-damage|p1a: Serperior|41/100
+|-damage|p2a: Dragonite|12/100|[from] item: Life Orb
+|move|p1a: Serperior|Leech Seed|p2a: Dragonite
+|-start|p2a: Dragonite|move: Leech Seed
+|
+|-damage|p2a: Dragonite|0 fnt|[from] Leech Seed|[of] p1a: Serperior
+|-heal|p1a: Serperior|54/100|[silent]
+|faint|p2a: Dragonite
+|upkeep
+|
+|t:|1760373413
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|17
+|
+|t:|1760373417
+|move|p1a: Serperior|Leech Seed|p2a: Scizor
+|-start|p2a: Scizor|move: Leech Seed
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-damage|p2a: Scizor|88/100|[from] Leech Seed|[of] p1a: Serperior
+|-heal|p1a: Serperior|70/100|[silent]
+|upkeep
+|turn|18
+|
+|t:|1760373424
+|move|p2a: Scizor|Bullet Punch|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|win|xyphose
+|raw|mistawite's rating: 1076 &rarr; <strong>1054</strong><br />(-22 for losing)
+|raw|xyphose's rating: 1060 &rarr; <strong>1092</strong><br />(+32 for winning)
+|l|☆mistawite
+|player|p1|
+|l|☆xyphose
+|player|p2|

@@ -1,0 +1,326 @@
+|j|☆Letsgoiono
+|j|☆the.ramen.gang
+|t:|1769308293
+|gametype|singles
+|player|p1|Letsgoiono|266|1183
+|player|p2|the.ramen.gang|265|1237
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Alomomola, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Great Tusk|
+|poke|p2|Bellibolt, F|
+|poke|p2|Lanturn, F|
+|poke|p2|Morpeko, F|
+|poke|p2|Wigglytuff, M|
+|poke|p2|Kommo-o, F|
+|poke|p2|Arbok, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Letsgoiono)
+|
+|t:|1769308313
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Arbok|Arbok, M|100/100
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Iron Moth|atk|1
+|-item|p2a: Arbok|Air Balloon
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|1
+|
+|t:|1769308325
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Arbok|Glare|p1a: Enamorus
+|-status|p1a: Enamorus|par
+|
+|upkeep
+|turn|2
+|
+|t:|1769308333
+|move|p2a: Arbok|Coil|p2a: Arbok
+|-boost|p2a: Arbok|atk|1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|accuracy|1
+|move|p1a: Enamorus|Mystical Fire|p2a: Arbok
+|-damage|p2a: Arbok|56/100
+|-unboost|p2a: Arbok|spa|1
+|-enditem|p2a: Arbok|Air Balloon
+|
+|upkeep
+|turn|3
+|
+|t:|1769308338
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|move|p2a: Arbok|Gunk Shot|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|41/100
+|
+|upkeep
+|turn|4
+|
+|t:|1769308345
+|-terastallize|p1a: Iron Moth|Ground
+|move|p1a: Iron Moth|Tera Blast|p2a: Arbok|[anim] Tera Blast Ground
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|upkeep
+|
+|t:|1769308351
+|switch|p2a: Lanturn|Lanturn, F|100/100
+|-item|p2a: Lanturn|Air Balloon
+|turn|5
+|
+|t:|1769308366
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Alomomola|Alomomola, M, shiny|100/100
+|move|p2a: Lanturn|Scald|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|89/100
+|
+|upkeep
+|turn|6
+|
+|t:|1769308372
+|move|p2a: Lanturn|Discharge|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|60/100
+|-status|p1a: Alomomola|par
+|move|p1a: Alomomola|Flip Turn|p2a: Lanturn
+|-resisted|p2a: Lanturn
+|-damage|p2a: Lanturn|91/100
+|-enditem|p2a: Lanturn|Air Balloon
+|
+|t:|1769308384
+|switch|p1a: Gliscor|Gliscor, M, shiny|100/100|[from] Flip Turn
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1769308389
+|move|p1a: Gliscor|Earthquake|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|12/100
+|move|p2a: Lanturn|Scald|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|22/100 tox
+|
+|-heal|p1a: Gliscor|34/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1769308393
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Lanturn|Scald|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|47/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1769308396
+|move|p1a: Gliscor|Earthquake|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|0 fnt
+|faint|p2a: Lanturn
+|
+|-heal|p1a: Gliscor|59/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1769308399
+|switch|p2a: Bellibolt|Bellibolt, F|100/100
+|turn|10
+|
+|t:|1769308404
+|move|p1a: Gliscor|Toxic|p2a: Bellibolt
+|-status|p2a: Bellibolt|tox
+|move|p2a: Bellibolt|Muddy Water|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|11/100 tox
+|-unboost|p1a: Gliscor|accuracy|1
+|
+|-heal|p1a: Gliscor|24/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Bellibolt|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1769308410
+|switch|p1a: Alomomola|Alomomola, M, shiny|93/100 par
+|move|p2a: Bellibolt|Muddy Water|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|89/100 par
+|
+|-damage|p2a: Bellibolt|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1769308416
+|move|p2a: Bellibolt|Parabolic Charge|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|67/100 par
+|-heal|p2a: Bellibolt|96/100 tox|[from] drain|[of] p1a: Alomomola
+|cant|p1a: Alomomola|par
+|
+|-damage|p2a: Bellibolt|77/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1769308420
+|move|p2a: Bellibolt|Charge Beam|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|48/100 par
+|-boost|p2a: Bellibolt|spa|1
+|move|p1a: Alomomola|Flip Turn|p2a: Bellibolt
+|-damage|p2a: Bellibolt|68/100 tox
+|-start|p2a: Bellibolt|Charge|Flip Turn|[from] ability: Electromorphosis
+|
+|t:|1769308442
+|switch|p1a: Iron Moth|Iron Moth, tera:Ground|41/100|[from] Flip Turn
+|
+|-damage|p2a: Bellibolt|43/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1769308449
+|move|p1a: Iron Moth|Tera Blast|p2a: Bellibolt|[anim] Tera Blast Ground
+|-supereffective|p2a: Bellibolt
+|-damage|p2a: Bellibolt|0 fnt
+|faint|p2a: Bellibolt
+|
+|upkeep
+|
+|t:|1769308455
+|switch|p2a: Wigglytuff|Wigglytuff, M|100/100
+|turn|15
+|
+|t:|1769308457
+|move|p1a: Iron Moth|Sludge Wave|p2a: Wigglytuff
+|-supereffective|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|28/100
+|-status|p2a: Wigglytuff|psn
+|move|p2a: Wigglytuff|Wish|p2a: Wigglytuff
+|
+|-heal|p2a: Wigglytuff|34/100 psn|[from] item: Leftovers
+|-damage|p2a: Wigglytuff|22/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1769308463
+|move|p1a: Iron Moth|Tera Blast|p2a: Wigglytuff|[anim] Tera Blast Ground
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|upkeep
+|
+|t:|1769308467
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|turn|17
+|
+|t:|1769308470
+|move|p1a: Iron Moth|Tera Blast|p2a: Morpeko|[anim] Tera Blast Ground
+|-supereffective|p2a: Morpeko
+|-enditem|p2a: Morpeko|Focus Sash
+|-damage|p2a: Morpeko|1/100
+|move|p2a: Morpeko|Knock Off|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|
+|t:|1769308477
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|turn|18
+|
+|t:|1769308483
+|move|p2a: Morpeko|Aura Wheel|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|82/100
+|-boost|p2a: Morpeko|spe|1
+|move|p1a: Great Tusk|Rapid Spin|p2a: Morpeko
+|-damage|p2a: Morpeko|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|faint|p2a: Morpeko
+|
+|upkeep
+|
+|t:|1769308485
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|turn|19
+|
+|t:|1769308490
+|move|p1a: Great Tusk|Knock Off|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|83/100
+|-enditem|p2a: Kommo-o|Focus Sash|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Kommo-o|Dragon Dance|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|spe|1
+|
+|upkeep
+|turn|20
+|
+|t:|1769308495
+|move|p2a: Kommo-o|Dragon Dance|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|spe|1
+|move|p1a: Great Tusk|Headlong Rush|p2a: Kommo-o
+|-damage|p2a: Kommo-o|19/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|21
+|
+|t:|1769308501
+|move|p2a: Kommo-o|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Kommo-o|def|1
+|-unboost|p2a: Kommo-o|spd|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769308505
+|switch|p1a: Kingambit|Kingambit, M, shiny|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|22
+|
+|t:|1769308511
+|-terastallize|p2a: Kommo-o|Steel
+|move|p1a: Kingambit|Sucker Punch|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|win|Letsgoiono
+|raw|Letsgoiono's rating: 1183 &rarr; <strong>1212</strong><br />(+29 for winning)
+|raw|the.ramen.gang's rating: 1237 &rarr; <strong>1208</strong><br />(-29 for losing)
+|l|☆Letsgoiono
+|player|p1|
+|l|☆the.ramen.gang
+|player|p2|

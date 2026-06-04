@@ -1,0 +1,274 @@
+|j|☆Jontz2004
+|j|☆Doomingo
+|t:|1760387613
+|gametype|singles
+|player|p1|Jontz2004|1|1303
+|player|p2|Doomingo|1|1346
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Iron Treads|
+|poke|p1|Moltres|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Sinistcha|
+|poke|p1|Ting-Lu|
+|poke|p2|Tyranitar, M|
+|poke|p2|Sinistcha|
+|poke|p2|Comfey, M|
+|poke|p2|Bellibolt, M|
+|poke|p2|Mamoswine, M|
+|poke|p2|Scizor, F|
+|teampreview
+|
+|t:|1760387628
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Glut|Bellibolt, M|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1760387636
+|move|p2a: Glut|Soak|p1a: Ting-Lu
+|-start|p1a: Ting-Lu|typechange|Water
+|move|p1a: Ting-Lu|Ruination|p2a: Glut
+|-damage|p2a: Glut|50/100
+|-start|p2a: Glut|Charge|Ruination|[from] ability: Electromorphosis
+|
+|upkeep
+|turn|2
+|
+|t:|1760387650
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Glut|Soak|p1a: Iron Treads
+|-start|p1a: Iron Treads|typechange|Water
+|
+|upkeep
+|turn|3
+|
+|t:|1760387657
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Glut|Parabolic Charge|p1a: Ting-Lu
+|-immune|p1a: Ting-Lu
+|-end|p2a: Glut|Charge|[silent]
+|
+|upkeep
+|turn|4
+|
+|t:|1760387667
+|move|p2a: Glut|Toxic|p1a: Ting-Lu
+|-status|p1a: Ting-Lu|tox
+|move|p1a: Ting-Lu|Earthquake|p2a: Glut
+|-supereffective|p2a: Glut
+|-enditem|p2a: Glut|Shuca Berry|[eat]
+|-enditem|p2a: Glut|Shuca Berry|[weaken]
+|-damage|p2a: Glut|15/100
+|-start|p2a: Glut|Charge|Earthquake|[from] ability: Electromorphosis
+|
+|-damage|p1a: Ting-Lu|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1760387675
+|switch|p2a: Charla|Sinistcha|100/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Charla
+|-resisted|p2a: Charla
+|-damage|p2a: Charla|83/100
+|
+|-heal|p1a: Ting-Lu|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|88/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1760387687
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Charla|Calm Mind|p2a: Charla
+|-boost|p2a: Charla|spa|1
+|-boost|p2a: Charla|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1760387696
+|move|p1a: Moltres|Flamethrower|p2a: Charla
+|-supereffective|p2a: Charla
+|-damage|p2a: Charla|55/100
+|-status|p2a: Charla|brn
+|move|p2a: Charla|Calm Mind|p2a: Charla
+|-boost|p2a: Charla|spa|1
+|-boost|p2a: Charla|spd|1
+|
+|-damage|p2a: Charla|53/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1760387704
+|move|p1a: Moltres|U-turn|p2a: Charla
+|-damage|p2a: Charla|39/100 brn
+|
+|t:|1760387719
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100|[from] U-turn
+|move|p2a: Charla|Strength Sap|p1a: Samurott
+|-unboost|p1a: Samurott|atk|1
+|-heal|p2a: Charla|100/100 brn
+|
+|-damage|p2a: Charla|98/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1760387732
+|move|p1a: Samurott|Knock Off|p2a: Charla
+|-supereffective|p2a: Charla
+|-damage|p2a: Charla|47/100 brn
+|-enditem|p2a: Charla|Big Root|[from] move: Knock Off|[of] p1a: Samurott
+|move|p2a: Charla|Matcha Gotcha|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-heal|p2a: Charla|93/100 brn|[from] drain|[of] p1a: Samurott
+|faint|p1a: Samurott
+|
+|-damage|p2a: Charla|90/100 brn|[from] brn
+|upkeep
+|
+|t:|1760387742
+|switch|p1a: Ting-Lu|Ting-Lu|88/100 tox
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|10
+|
+|t:|1760387747
+|move|p2a: Charla|Matcha Gotcha|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|19/100 tox
+|-heal|p2a: Charla|100/100 brn|[from] drain|[of] p1a: Ting-Lu
+|move|p1a: Ting-Lu|Whirlwind|p2a: Charla
+|drag|p2a: Mastodown!|Mamoswine, M, shiny|100/100
+|
+|-heal|p1a: Ting-Lu|25/100 tox|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|19/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1760387755
+|move|p2a: Mastodown!|Trailblaze|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-boost|p2a: Mastodown!|spe|1
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1760387760
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|12
+|
+|t:|1760387769
+|switch|p2a: Buzz|Scizor, F|100/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Buzz
+|-resisted|p2a: Buzz
+|-damage|p2a: Buzz|65/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Buzz|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760387774
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Buzz|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|92/100
+|
+|t:|1760387786
+|switch|p2a: Mr. Big|Tyranitar, M|100/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Mr. Big
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1760387797
+|-terastallize|p1a: Gholdengo|Fairy
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Mr. Big|Knock Off|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|69/100
+|-enditem|p1a: Gholdengo|Metal Coat|[from] move: Knock Off|[of] p2a: Mr. Big
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gholdengo|63/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1760387811
+|switch|p2a: Glut|Bellibolt, M|15/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Glut
+|-resisted|p2a: Glut
+|-damage|p2a: Glut|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Glut
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gholdengo|57/100|[from] Sandstorm
+|upkeep
+|
+|t:|1760387817
+|switch|p2a: Buzz|Scizor, F|71/100
+|turn|16
+|
+|t:|1760387824
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|100/100
+|move|p2a: Buzz|Tailwind|p2a: Buzz
+|-sidestart|p2: Doomingo|move: Tailwind
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gholdengo|94/100|[from] Sandstorm
+|-heal|p2a: Buzz|77/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1760387832
+|move|p2a: Buzz|Bullet Punch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|39/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-weather|none
+|-heal|p2a: Buzz|83/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1760387837
+|move|p2a: Buzz|Bullet Punch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-heal|p2a: Buzz|89/100|[from] item: Leftovers
+|upkeep
+|-message|Jontz2004 forfeited.
+|
+|win|Doomingo
+|raw|Jontz2004's rating: 1303 &rarr; <strong>1285</strong><br />(-18 for losing)
+|raw|Doomingo's rating: 1346 &rarr; <strong>1364</strong><br />(+18 for winning)
+|l|☆Jontz2004
+|player|p1|
+|l|☆Doomingo
+|player|p2|

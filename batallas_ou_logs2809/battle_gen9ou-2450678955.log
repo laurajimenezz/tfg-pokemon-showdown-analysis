@@ -1,0 +1,620 @@
+|j|☆eugenenol
+|j|☆EmperadorSRN
+|t:|1759012121
+|gametype|singles
+|player|p1|eugenenol|wattson|1373
+|player|p2|EmperadorSRN|gambler|1359
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, M|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Samurott-Hisui, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Araquanid, F|
+|poke|p2|Houndstone, M|
+|poke|p2|Serperior, F|
+|poke|p2|Glimmora, F|
+|teampreview
+|
+|t:|1759012134
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|turn|1
+|
+|t:|1759012147
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Araquanid|Leech Life|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|96/100
+|-damage|p2a: Araquanid|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|upkeep
+|turn|2
+|
+|t:|1759012154
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|move|p1a: Corviknight|Brave Bird|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|88/100
+|-damage|p1a: Corviknight|92/100|[from] Recoil
+|
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1759012164
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Garganacl|Salt Cure|p1a: Garganacl
+|-damage|p1a: Garganacl|92/100
+|-start|p1a: Garganacl|Salt Cure
+|
+|-heal|p1a: Garganacl|98/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|99/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|85/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1759012169
+|move|p1a: Garganacl|Stealth Rock|p2a: Garganacl
+|-sidestart|p2: EmperadorSRN|move: Stealth Rock
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-heal|p1a: Garganacl|92/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|79/100|[from] Salt Cure
+|upkeep
+|turn|5
+|
+|t:|1759012185
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|upkeep
+|turn|6
+|
+|t:|1759012195
+|switch|p2a: Houndstone|Houndstone, M|100/100
+|-damage|p2a: Houndstone|88/100|[from] Stealth Rock
+|move|p1a: Weezing|Will-O-Wisp|p2a: Houndstone|[miss]
+|-miss|p1a: Weezing|p2a: Houndstone
+|
+|-heal|p2a: Houndstone|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1759012202
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Weezing
+|-status|p1a: Weezing|brn
+|move|p1a: Weezing|Will-O-Wisp|p2a: Houndstone
+|-status|p2a: Houndstone|brn
+|
+|-heal|p2a: Houndstone|99/100 brn|[from] item: Leftovers
+|-damage|p2a: Houndstone|94/100 brn|[from] brn
+|-damage|p1a: Weezing|95/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1759012213
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Houndstone|Night Shade|p1a: Samurott
+|-damage|p1a: Samurott|69/100
+|
+|-heal|p2a: Houndstone|99/100 brn|[from] item: Leftovers
+|-damage|p2a: Houndstone|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1759012218
+|move|p1a: Samurott|Ceaseless Edge|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|61/100 brn
+|-sidestart|p2: EmperadorSRN|Spikes
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Samurott
+|-status|p1a: Samurott|brn
+|
+|-heal|p2a: Houndstone|67/100 brn|[from] item: Leftovers
+|-damage|p1a: Samurott|63/100 brn|[from] brn
+|-damage|p2a: Houndstone|61/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1759012223
+|move|p1a: Samurott|Ceaseless Edge|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|45/100 brn
+|-sidestart|p2: EmperadorSRN|Spikes
+|move|p2a: Houndstone|Body Press|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|29/100 brn
+|
+|-heal|p2a: Houndstone|51/100 brn|[from] item: Leftovers
+|-damage|p1a: Samurott|23/100 brn|[from] brn
+|-damage|p2a: Houndstone|45/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1759012228
+|move|p1a: Samurott|Ceaseless Edge|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|30/100 brn
+|-sidestart|p2: EmperadorSRN|Spikes
+|move|p2a: Houndstone|Body Press|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-heal|p2a: Houndstone|36/100 brn|[from] item: Leftovers
+|-damage|p2a: Houndstone|30/100 brn|[from] brn
+|upkeep
+|
+|t:|1759012240
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|12
+|
+|t:|1759012243
+|move|p1a: Dragapult|Hex|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|0 fnt
+|faint|p2a: Houndstone
+|
+|upkeep
+|
+|t:|1759012249
+|switch|p2a: Araquanid|Araquanid, F|84/100
+|turn|13
+|
+|t:|1759012269
+|move|p1a: Dragapult|Dragon Darts|p2a: Araquanid
+|-damage|p2a: Araquanid|55/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Araquanid
+|-damage|p2a: Araquanid|29/100
+|move|p2a: Araquanid|Sticky Web|p1a: Dragapult
+|-sidestart|p1: eugenenol|move: Sticky Web
+|
+|upkeep
+|turn|14
+|
+|t:|1759012273
+|move|p1a: Dragapult|Dragon Darts|p2a: Araquanid
+|-damage|p2a: Araquanid|1/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1759012276
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|-damage|p2a: Garganacl|63/100|[from] Spikes
+|turn|15
+|
+|t:|1759012282
+|switch|p1a: Garganacl|Garganacl, M|79/100
+|-activate|p1a: Garganacl|move: Sticky Web
+|-unboost|p1a: Garganacl|spe|1
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-heal|p1a: Garganacl|85/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1759012287
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|move|p1a: Garganacl|Salt Cure|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|86/100
+|-start|p2a: Garganacl|Salt Cure
+|
+|-heal|p2a: Garganacl|93/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|92/100|[from] item: Leftovers
+|-damage|p2a: Garganacl|80/100|[from] Salt Cure
+|upkeep
+|turn|17
+|
+|t:|1759012326
+|switch|p1a: Weezing|Weezing-Galar, F|95/100 brn
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Garganacl|Salt Cure|p1a: Weezing
+|-damage|p1a: Weezing|84/100 brn
+|-start|p1a: Weezing|Salt Cure
+|
+|-heal|p2a: Garganacl|86/100|[from] item: Leftovers
+|-damage|p1a: Weezing|78/100 brn|[from] brn
+|-damage|p1a: Weezing|66/100 brn|[from] Salt Cure
+|-damage|p2a: Garganacl|74/100|[from] Salt Cure
+|upkeep
+|turn|18
+|
+|t:|1759012331
+|move|p1a: Weezing|Will-O-Wisp|p2a: Garganacl|[miss]
+|-miss|p1a: Weezing|p2a: Garganacl
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-heal|p2a: Garganacl|80/100|[from] item: Leftovers
+|-damage|p1a: Weezing|60/100 brn|[from] brn
+|-damage|p1a: Weezing|48/100 brn|[from] Salt Cure
+|-damage|p2a: Garganacl|68/100|[from] Salt Cure
+|upkeep
+|turn|19
+|
+|t:|1759012337
+|move|p1a: Weezing|Will-O-Wisp|p2a: Garganacl
+|-status|p2a: Garganacl|brn
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-heal|p2a: Garganacl|74/100 brn|[from] item: Leftovers
+|-damage|p1a: Weezing|42/100 brn|[from] brn
+|-damage|p2a: Garganacl|68/100 brn|[from] brn
+|-damage|p1a: Weezing|30/100 brn|[from] Salt Cure
+|-damage|p2a: Garganacl|55/100 brn|[from] Salt Cure
+|upkeep
+|turn|20
+|
+|t:|1759012352
+|move|p1a: Weezing|Pain Split|p2a: Garganacl
+|-sethp|p2a: Garganacl|40/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|48/100 brn|[from] move: Pain Split
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|90/100 brn
+|
+|-heal|p2a: Garganacl|96/100 brn|[from] item: Leftovers
+|-damage|p1a: Weezing|42/100 brn|[from] brn
+|-damage|p2a: Garganacl|90/100 brn|[from] brn
+|-damage|p1a: Weezing|30/100 brn|[from] Salt Cure
+|-damage|p2a: Garganacl|77/100 brn|[from] Salt Cure
+|upkeep
+|turn|21
+|
+|t:|1759012356
+|move|p1a: Weezing|Pain Split|p2a: Garganacl
+|-sethp|p2a: Garganacl|51/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|62/100 brn|[from] move: Pain Split
+|move|p2a: Garganacl|Body Press|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|54/100 brn
+|
+|-heal|p2a: Garganacl|57/100 brn|[from] item: Leftovers
+|-damage|p1a: Weezing|48/100 brn|[from] brn
+|-damage|p2a: Garganacl|51/100 brn|[from] brn
+|-damage|p1a: Weezing|36/100 brn|[from] Salt Cure
+|-damage|p2a: Garganacl|39/100 brn|[from] Salt Cure
+|upkeep
+|turn|22
+|
+|t:|1759012363
+|move|p1a: Weezing|Pain Split|p2a: Garganacl
+|-sethp|p2a: Garganacl|34/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|41/100 brn|[from] move: Pain Split
+|move|p2a: Garganacl|Salt Cure|p1a: Weezing
+|-damage|p1a: Weezing|37/100 brn
+|
+|-heal|p2a: Garganacl|40/100 brn|[from] item: Leftovers
+|-damage|p1a: Weezing|31/100 brn|[from] brn
+|-damage|p2a: Garganacl|34/100 brn|[from] brn
+|-damage|p1a: Weezing|18/100 brn|[from] Salt Cure
+|-damage|p2a: Garganacl|22/100 brn|[from] Salt Cure
+|upkeep
+|turn|23
+|
+|t:|1759012366
+|move|p1a: Weezing|Strange Steam|p2a: Garganacl
+|-damage|p2a: Garganacl|4/100 brn
+|-start|p2a: Garganacl|confusion
+|-activate|p2a: Garganacl|confusion
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|54/100 brn
+|
+|-heal|p2a: Garganacl|61/100 brn|[from] item: Leftovers
+|-damage|p1a: Weezing|12/100 brn|[from] brn
+|-damage|p2a: Garganacl|54/100 brn|[from] brn
+|-damage|p1a: Weezing|0 fnt|[from] Salt Cure
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-damage|p2a: Garganacl|42/100 brn|[from] Salt Cure
+|upkeep
+|
+|t:|1759012376
+|switch|p1a: Corviknight|Corviknight, M|92/100
+|-ability|p1a: Corviknight|Pressure
+|turn|24
+|
+|t:|1759012381
+|move|p1a: Corviknight|Body Press|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|33/100 brn
+|-activate|p2a: Garganacl|confusion
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|83/100 brn
+|
+|-heal|p2a: Garganacl|89/100 brn|[from] item: Leftovers
+|-damage|p2a: Garganacl|83/100 brn|[from] brn
+|-damage|p2a: Garganacl|70/100 brn|[from] Salt Cure
+|upkeep
+|turn|25
+|
+|t:|1759012384
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|-end|p2a: Garganacl|confusion
+|move|p2a: Garganacl|Salt Cure|p1a: Corviknight
+|-damage|p1a: Corviknight|90/100
+|-start|p1a: Corviknight|Salt Cure
+|
+|-heal|p2a: Garganacl|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Garganacl|70/100 brn|[from] brn
+|-damage|p1a: Corviknight|65/100|[from] Salt Cure
+|-damage|p2a: Garganacl|58/100 brn|[from] Salt Cure
+|upkeep
+|turn|26
+|
+|t:|1759012387
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100 brn
+|
+|-damage|p2a: Garganacl|94/100 brn|[from] brn
+|-damage|p1a: Corviknight|40/100|[from] Salt Cure
+|-damage|p2a: Garganacl|82/100 brn|[from] Salt Cure
+|upkeep
+|turn|27
+|
+|t:|1759012397
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|90/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Garganacl|Body Press|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|71/100
+|-damage|p2a: Garganacl|65/100 brn|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|-heal|p2a: Garganacl|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Garganacl|65/100 brn|[from] brn
+|-damage|p1a: Corviknight|46/100|[from] Salt Cure
+|-damage|p2a: Garganacl|53/100 brn|[from] Salt Cure
+|upkeep
+|turn|28
+|
+|t:|1759012402
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|96/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100 brn
+|
+|-damage|p2a: Garganacl|94/100 brn|[from] brn
+|-damage|p1a: Corviknight|71/100|[from] Salt Cure
+|-damage|p2a: Garganacl|82/100 brn|[from] Salt Cure
+|upkeep
+|turn|29
+|
+|t:|1759012411
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-activate|p1a: Slowking|move: Sticky Web
+|-unboost|p1a: Slowking|spe|1
+|-terastallize|p2a: Garganacl|Ghost
+|move|p2a: Garganacl|Salt Cure|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|90/100
+|-start|p1a: Slowking|Salt Cure
+|
+|-heal|p2a: Garganacl|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Garganacl|82/100 brn|[from] brn
+|-damage|p2a: Garganacl|70/100 brn|[from] Salt Cure
+|-damage|p1a: Slowking|77/100|[from] Salt Cure
+|upkeep
+|turn|30
+|
+|t:|1759012422
+|move|p2a: Garganacl|Body Press|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|65/100
+|move|p1a: Slowking|Psychic Noise|p2a: Garganacl
+|-damage|p2a: Garganacl|48/100 brn
+|-start|p2a: Garganacl|move: Heal Block
+|
+|-damage|p2a: Garganacl|42/100 brn|[from] brn
+|-damage|p2a: Garganacl|29/100 brn|[from] Salt Cure
+|-damage|p1a: Slowking|52/100|[from] Salt Cure
+|upkeep
+|turn|31
+|
+|t:|1759012430
+|move|p2a: Garganacl|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|45/100
+|move|p1a: Slowking|Psychic Noise|p2a: Garganacl
+|-damage|p2a: Garganacl|9/100 brn
+|
+|-damage|p2a: Garganacl|2/100 brn|[from] brn
+|-damage|p2a: Garganacl|0 fnt|[from] Salt Cure
+|faint|p2a: Garganacl
+|-damage|p1a: Slowking|33/100|[from] Salt Cure
+|upkeep
+|
+|t:|1759012437
+|switch|p2a: Serperior|Serperior, F|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|-damage|p2a: Serperior|63/100|[from] Spikes
+|turn|32
+|
+|t:|1759012441
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|38/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|44/100|[from] item: Leftovers
+|-damage|p1a: Slowking|20/100|[from] Salt Cure
+|upkeep
+|turn|33
+|
+|t:|1759012445
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|19/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|25/100|[from] item: Leftovers
+|-damage|p1a: Slowking|8/100|[from] Salt Cure
+|upkeep
+|turn|34
+|
+|t:|1759012450
+|move|p2a: Serperior|Leaf Storm|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Slowking
+|
+|-heal|p2a: Serperior|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1759012454
+|switch|p1a: Corviknight|Corviknight, M|71/100
+|-ability|p1a: Corviknight|Pressure
+|turn|35
+|
+|t:|1759012461
+|move|p2a: Serperior|Leech Seed|p1a: Corviknight
+|-start|p1a: Corviknight|move: Leech Seed
+|move|p1a: Corviknight|Brave Bird|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|-damage|p1a: Corviknight|64/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1759012463
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|-damage|p2a: Arcanine|76/100|[from] Stealth Rock
+|-damage|p2a: Arcanine|51/100|[from] Spikes
+|turn|36
+|
+|t:|1759012473
+|switch|p1a: Garganacl|Garganacl, M|92/100
+|-activate|p1a: Garganacl|move: Sticky Web
+|-unboost|p1a: Garganacl|spe|1
+|move|p2a: Arcanine|Flare Blitz|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|65/100
+|
+|-heal|p1a: Garganacl|71/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1759012482
+|move|p2a: Arcanine|Flare Blitz|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|41/100
+|move|p1a: Garganacl|Salt Cure|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|13/100
+|-start|p2a: Arcanine|Salt Cure
+|
+|-heal|p1a: Garganacl|48/100|[from] item: Leftovers
+|-damage|p2a: Arcanine|0 fnt|[from] Salt Cure
+|faint|p2a: Arcanine
+|upkeep
+|
+|t:|1759012485
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-damage|p2a: Glimmora|88/100|[from] Stealth Rock
+|-damage|p2a: Glimmora|63/100|[from] Spikes
+|turn|38
+|
+|t:|1759012491
+|move|p2a: Glimmora|Power Gem|p1a: Garganacl
+|-damage|p1a: Garganacl|22/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|72/100
+|
+|-heal|p1a: Garganacl|78/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1759012494
+|move|p2a: Glimmora|Mortal Spin|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|76/100
+|-sideend|p2: EmperadorSRN|Spikes|[from] move: Mortal Spin|[of] p2a: Glimmora
+|-sideend|p2: EmperadorSRN|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Glimmora
+|move|p1a: Garganacl|Salt Cure|p2a: Glimmora
+|-damage|p2a: Glimmora|48/100
+|-start|p2a: Glimmora|Salt Cure
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: eugenenol|move: Toxic Spikes
+|
+|-heal|p1a: Garganacl|82/100|[from] item: Leftovers
+|-damage|p2a: Glimmora|36/100|[from] Salt Cure
+|upkeep
+|turn|40
+|
+|t:|1759012496
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Glimmora|Power Gem|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|88/100|[from] item: Leftovers
+|-damage|p2a: Glimmora|23/100|[from] Salt Cure
+|upkeep
+|turn|41
+|
+|t:|1759012499
+|move|p2a: Glimmora|Power Gem|p1a: Garganacl
+|-damage|p1a: Garganacl|66/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-damage|p2a: Glimmora|11/100|[from] Salt Cure
+|upkeep
+|turn|42
+|
+|t:|1759012501
+|move|p2a: Glimmora|Power Gem|p1a: Garganacl
+|-damage|p1a: Garganacl|78/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-damage|p2a: Glimmora|0 fnt|[from] Salt Cure
+|faint|p2a: Glimmora
+|
+|win|eugenenol
+|raw|eugenenol's rating: 1373 &rarr; <strong>1392</strong><br />(+19 for winning)
+|raw|EmperadorSRN's rating: 1359 &rarr; <strong>1340</strong><br />(-19 for losing)
+|l|☆EmperadorSRN
+|player|p2|
+|l|☆eugenenol
+|player|p1|

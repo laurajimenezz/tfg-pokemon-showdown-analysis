@@ -1,0 +1,172 @@
+|badge|p1|bronze|gen9ou|100-6
+|html|<div class="broadcast-red"><strong>This battle is required to be public due to one or more player having a season medal.</strong><br />During the public phase, you can discuss the state of the ladder <a href="/seasondiscussion">in a special chatroom.</a></div>
+|uhtml|medal-msg|<div class="broadcast-blue">Curious what those medals under the avatar are? PS now has Ladder Seasons! For more information, check out the <a href="https://www.smogon.com/forums/threads/3740067/">thread on Smogon.</a></div>
+|badge|p2|bronze|gen9ou|100-6
+|uhtml|medal-msg|<div class="broadcast-blue">Curious what those medals under the avatar are? PS now has Ladder Seasons! For more information, check out the <a href="https://www.smogon.com/forums/threads/3740067/">thread on Smogon.</a></div>
+|raw|<div class="broadcast-blue"><strong>This battle is required to be public due to a player having a name starting with 'medal'.</div>
+|j|☆snuggypooh
+|j|☆samohi0
+|t:|1759019827
+|gametype|singles
+|player|p1|snuggypooh|2|1841
+|player|p2|samohi0|hoopster|1819
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Mimikyu, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Lokix, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Great Tusk|
+|poke|p2|Enamorus, F|
+|poke|p2|Iron Crown|
+|teampreview
+|
+|t:|1759019837
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1759019851
+|move|p2a: Iron Crown|Volt Switch|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|93/100
+|
+|t:|1759019853
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Alomomola|Alomomola, F|100/100|[from] Volt Switch
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1759019873
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1759019876
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|3
+|
+|t:|1759019884
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Cresselia
+|-sidestart|p1: snuggypooh|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1759019890
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Lokix|Lokix, M|100/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|5
+|
+|t:|1759019906
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|move|p2a: Lokix|U-turn|p1a: Ursaluna
+|-damage|p1a: Ursaluna|60/100
+|
+|t:|1759019928
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1759019934
+|move|p1a: Ursaluna|Facade|p2a: Great Tusk
+|-damage|p2a: Great Tusk|16/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Ursaluna
+|-damage|p1a: Ursaluna|16/100 brn
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-damage|p1a: Ursaluna|9/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1759019947
+|move|p1a: Ursaluna|Fire Punch|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p1a: Ursaluna|3/100 brn|[from] brn
+|upkeep
+|
+|t:|1759019950
+|switch|p2a: Lokix|Lokix, M|100/100
+|turn|8
+|
+|t:|1759019970
+|move|p2a: Lokix|First Impression|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1759019987
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|9
+|
+|t:|1759019993
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|10
+|
+|t:|1759020000
+|-terastallize|p2a: Iron Crown|Steel
+|move|p1a: Kingambit|Sucker Punch|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|-message|samohi0 forfeited.
+|
+|win|snuggypooh
+|raw|snuggypooh's rating: 1841 &rarr; <strong>1860</strong><br />(+19 for winning)
+|raw|samohi0's rating: 1819 &rarr; <strong>1800</strong><br />(-19 for losing)
+|l|☆samohi0
+|player|p2|
+|l|☆snuggypooh
+|player|p1|

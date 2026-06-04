@@ -1,0 +1,176 @@
+|j|‽glipo
+|j|☆ballyhoogreen
+|t:|1760366980
+|gametype|singles
+|player|p1|glipo|benga|1179
+|player|p2|ballyhoogreen|maid|1141
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Spidops, M|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Primarina, F|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Valiant|
+|poke|p2|Dragapult, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Darkrai|
+|poke|p2|Enamorus, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Manaphy|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ballyhoogreen)
+|
+|t:|1760366999
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Spidops|Spidops, M, shiny|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|t:|1760367003
+|move|p2a: Dragapult|U-turn|p1a: Spidops
+|-damage|p1a: Spidops|87/100
+|
+|t:|1760367006
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from] U-turn
+|move|p1a: Spidops|Sticky Web|p2a: Cinderace
+|-sidestart|p2: ballyhoogreen|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1760367022
+|switch|p1a: Primarina|Primarina, F|100/100
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|3
+|
+|t:|1760367029
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1760367039
+|-terastallize|p2a: Enamorus|Poison
+|move|p2a: Enamorus|Sludge Bomb|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|49/100
+|-status|p1a: Primarina|psn
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|-heal|p1a: Primarina|55/100 psn|[from] item: Leftovers
+|-damage|p1a: Primarina|42/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1760367044
+|move|p2a: Enamorus|Sludge Bomb|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|3/100 psn
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-fail|p1a: Primarina|move: Substitute|[weak]
+|
+|-heal|p1a: Primarina|9/100 psn|[from] item: Leftovers
+|-damage|p1a: Primarina|0 fnt|[from] psn
+|faint|p1a: Primarina
+|upkeep
+|
+|t:|1760367050
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|move: Sticky Web
+|-unboost|p1a: Great Tusk|spe|1
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|6
+|
+|t:|1760367054
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-item|p2a: Excadrill|Air Balloon
+|move|p1a: Great Tusk|Rapid Spin|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|82/100
+|-boost|p1a: Great Tusk|spe|1
+|-enditem|p2a: Excadrill|Air Balloon
+|-sideend|p1: glipo|Sticky Web|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|7
+|
+|t:|1760367065
+|move|p2a: Excadrill|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|68/100
+|move|p1a: Great Tusk|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1760367068
+|switch|p2a: Enamorus|Enamorus, F, tera:Poison|100/100
+|turn|8
+|
+|t:|1760367071
+|move|p2a: Enamorus|Moonblast|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760367085
+|switch|p1a: Kingambit|Kingambit, M, shiny|100/100
+|turn|9
+|
+|t:|1760367088
+|move|p2a: Enamorus|Moonblast|p1a: Kingambit
+|-enditem|p1a: Kingambit|Focus Sash
+|-damage|p1a: Kingambit|1/100
+|replace|p1a: Zoroark|Zoroark-Hisui, F, shiny
+|-end|p1a: Zoroark|Illusion
+|move|p1a: Zoroark|Nasty Plot|p1a: Zoroark
+|-boost|p1a: Zoroark|spa|2
+|
+|upkeep
+|turn|10
+|
+|t:|1760367092
+|move|p2a: Enamorus|Moonblast|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|upkeep
+|-message|glipo forfeited.
+|
+|win|ballyhoogreen
+|raw|glipo's rating: 1179 &rarr; <strong>1151</strong><br />(-28 for losing)
+|raw|ballyhoogreen's rating: 1141 &rarr; <strong>1169</strong><br />(+28 for winning)
+|l|‽glipo
+|player|p1|
+|l|☆ballyhoogreen
+|player|p2|

@@ -1,0 +1,274 @@
+|j|☆lil_looma
+|j|☆Fiinyx
+|t:|1758943528
+|gametype|singles
+|player|p1|lil_looma|101|1262
+|player|p2|Fiinyx|266|1260
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Leafeon, F|
+|poke|p1|Umbreon, F|
+|poke|p1|Vaporeon, M|
+|poke|p1|Sylveon, F|
+|poke|p1|Espeon, M|
+|poke|p1|Flareon, F|
+|poke|p2|Kyurem|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Gliscor, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Corviknight, F|
+|poke|p2|Gholdengo|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fiinyx)
+|
+|t:|1758943555
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|1
+|
+|t:|1758943563
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Vaporeon|Scald|p2a: Slowking
+|-damage|p2a: Slowking|75/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758943567
+|move|p1a: Vaporeon|Flip Turn|p2a: Slowking
+|-damage|p2a: Slowking|61/100
+|
+|t:|1758943590
+|switch|p1a: Espeon|Espeon, M|100/100|[from] Flip Turn
+|move|p2a: Slowking|Future Sight|p1a: Espeon
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|3
+|
+|t:|1758943604
+|move|p1a: Espeon|Psychic|p2a: Slowking
+|-damage|p2a: Slowking|20/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1758943609
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758943622
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Umbreon
+|-resisted|p1a: Umbreon
+|-crit|p1a: Umbreon
+|-damage|p1a: Umbreon|85/100
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Umbreon|move: Future Sight
+|-immune|p1a: Umbreon
+|-heal|p1a: Umbreon|91/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1758943633
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Umbreon|Foul Play|p2a: Gliscor
+|-damage|p2a: Gliscor|81/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Umbreon|97/100|[from] item: Leftovers
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1758943641
+|switch|p1a: Leafeon|Leafeon, F|100/100
+|move|p2a: Gliscor|Knock Off|p1a: Leafeon
+|-damage|p1a: Leafeon|88/100
+|-damage|p2a: Gliscor|64/100 tox|[from] item: Rocky Helmet|[of] p1a: Leafeon
+|-enditem|p1a: Leafeon|Rocky Helmet|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|77/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1758943652
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Leafeon|Curse|p1a: Leafeon
+|-unboost|p1a: Leafeon|spe|1
+|-boost|p1a: Leafeon|atk|1
+|-boost|p1a: Leafeon|def|1
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1758943665
+|move|p2a: Corviknight|U-turn|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-damage|p1a: Leafeon|76/100
+|
+|t:|1758943673
+|switch|p2a: Kyurem|Kyurem|100/100|[from] U-turn
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Leafeon|Knock Off|p2a: Kyurem
+|-damage|p2a: Kyurem|69/100
+|-enditem|p2a: Kyurem|Choice Specs|[from] move: Knock Off|[of] p1a: Leafeon
+|
+|upkeep
+|turn|9
+|
+|t:|1758943684
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|move|p2a: Kyurem|Freeze-Dry|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|62/100
+|
+|upkeep
+|turn|10
+|
+|t:|1758943698
+|switch|p2a: Slowking|Slowking-Galar, M|53/100
+|switch|p1a: Umbreon|Umbreon, F|97/100
+|
+|-heal|p1a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758943702
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1758943716
+|switch|p2a: Gliscor|Gliscor, M|77/100 tox|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|inactive|lil_looma has 120 seconds left.
+|
+|t:|1758943756
+|switch|p1a: Leafeon|Leafeon, F|76/100
+|move|p2a: Gliscor|Knock Off|p1a: Leafeon
+|-damage|p1a: Leafeon|67/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Leafeon|100/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|inactive|lil_looma has 120 seconds left.
+|
+|t:|1758943763
+|move|p1a: Leafeon|Curse|p1a: Leafeon
+|-unboost|p1a: Leafeon|spe|1
+|-boost|p1a: Leafeon|atk|1
+|-boost|p1a: Leafeon|def|1
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1758943766
+|move|p2a: Gliscor|Facade|p1a: Leafeon
+|-damage|p1a: Leafeon|75/100
+|move|p1a: Leafeon|Curse|p1a: Leafeon
+|-unboost|p1a: Leafeon|spe|1
+|-boost|p1a: Leafeon|atk|1
+|-boost|p1a: Leafeon|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1758943778
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Leafeon|Curse|p1a: Leafeon
+|-unboost|p1a: Leafeon|spe|1
+|-boost|p1a: Leafeon|atk|1
+|-boost|p1a: Leafeon|def|1
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1758943786
+|move|p2a: Corviknight|U-turn|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-damage|p1a: Leafeon|68/100
+|
+|t:|1758943789
+|switch|p2a: Kyurem|Kyurem|69/100|[from] U-turn
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Leafeon|Knock Off|p2a: Kyurem
+|-damage|p2a: Kyurem|29/100
+|
+|upkeep
+|turn|17
+|
+|t:|1758943798
+|switch|p1a: Flareon|Flareon, F|100/100
+|move|p2a: Kyurem|Freeze-Dry|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|76/100
+|
+|-status|p1a: Flareon|tox|[from] item: Toxic Orb
+|upkeep
+|turn|18
+|
+|t:|1758943812
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Flareon|Trailblaze|p2a: Gliscor
+|-damage|p2a: Gliscor|85/100 tox
+|-boost|p1a: Flareon|spe|1
+|
+|-damage|p1a: Flareon|70/100 tox|[from] psn
+|-heal|p2a: Gliscor|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|
+|t:|1758943821
+|move|p1a: Flareon|Flare Blitz|p2a: Gliscor
+|-damage|p2a: Gliscor|34/100 tox
+|-damage|p1a: Flareon|43/100 tox|[from] Recoil
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-damage|p1a: Flareon|31/100 tox|[from] psn
+|-heal|p2a: Gliscor|46/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|-message|Fiinyx forfeited.
+|
+|win|lil_looma
+|raw|lil_looma's rating: 1262 &rarr; <strong>1287</strong><br />(+25 for winning)
+|raw|Fiinyx's rating: 1260 &rarr; <strong>1235</strong><br />(-25 for losing)
+|l|☆Fiinyx
+|player|p2|
+|l|☆lil_looma
+|player|p1|

@@ -1,0 +1,321 @@
+|j|☆smarkon shawl
+|j|☆PulsatingBulge
+|t:|1758998305
+|gametype|singles
+|player|p1|smarkon shawl|darach-caitlin|1192
+|player|p2|PulsatingBulge|169|1203
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Infernape, M|
+|poke|p1|Luxray, M|
+|poke|p1|Tauros, M|
+|poke|p1|Dugtrio, M|
+|poke|p1|Floatzel, F|
+|poke|p1|Phione|
+|poke|p2|Torkoal, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Slither Wing|
+|poke|p2|Venusaur, M|
+|poke|p2|Walking Wake|
+|teampreview
+|
+|t:|1758998332
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ray|Luxray, M|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-ability|p1a: Ray|Intimidate|boost
+|-unboost|p2a: Hatterene|atk|1
+|-item|p2a: Hatterene|Air Balloon
+|turn|1
+|c|☆smarkon shawl|Have you the ref ?
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PulsatingBulge)
+|
+|t:|1758998358
+|move|p1a: Ray|Supercell Slam|p2a: Hatterene
+|-damage|p2a: Hatterene|55/100
+|-enditem|p2a: Hatterene|Air Balloon
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1758998374
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Ray
+|-damage|p1a: Ray|74/100
+|move|p1a: Ray|Volt Switch|p2a: Hatterene
+|-damage|p2a: Hatterene|32/100
+|
+|t:|1758998393
+|switch|p1a: Phione|Phione|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|3
+|
+|t:|1758998404
+|move|p2a: Hatterene|Psychic Noise|p1a: Phione
+|-damage|p1a: Phione|50/100
+|-start|p1a: Phione|move: Heal Block
+|move|p1a: Phione|Take Heart|p1a: Phione
+|-boost|p1a: Phione|spa|1
+|-boost|p1a: Phione|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1758998418
+|move|p2a: Hatterene|Psychic Noise|p1a: Phione
+|-damage|p1a: Phione|17/100
+|move|p1a: Phione|Scald|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-end|p1a: Phione|move: Heal Block
+|upkeep
+|
+|t:|1758998424
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|5
+|
+|t:|1758998443
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Phione|Rest|p1a: Phione
+|-status|p1a: Phione|slp|[from] move: Rest
+|-heal|p1a: Phione|100/100 slp|[silent]
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1758998458
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|cant|p1a: Phione|slp
+|move|p1a: Phione|Sleep Talk|p1a: Phione
+|move|p1a: Phione|Scald|p2a: Torkoal|[from] move: Sleep Talk
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|37/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|inactive|PulsatingBulge has 120 seconds left.
+|inactive|PulsatingBulge has 90 seconds left.
+|
+|t:|1758998530
+|cant|p1a: Phione|slp
+|move|p1a: Phione|Sleep Talk|p1a: Phione
+|move|p1a: Phione|Scald|p2a: Torkoal|[from] move: Sleep Talk
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758998538
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|turn|8
+|
+|t:|1758998563
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|-curestatus|p1a: Phione|slp|[msg]
+|move|p1a: Phione|Scald|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|86/100
+|-status|p2a: Venusaur|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Venusaur|80/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|smarkon shawl has 120 seconds left.
+|
+|t:|1758998582
+|move|p2a: Venusaur|Giga Drain|p1a: Phione
+|-supereffective|p1a: Phione
+|-damage|p1a: Phione|0 fnt
+|-heal|p2a: Venusaur|100/100 brn|[from] drain|[of] p1a: Phione
+|faint|p1a: Phione
+|-damage|p2a: Venusaur|91/100 brn|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Venusaur|85/100 brn|[from] brn
+|upkeep
+|inactive|smarkon shawl has 120 seconds left.
+|
+|t:|1758998615
+|switch|p1a: Coeur|Dugtrio, M|100/100
+|turn|10
+|
+|t:|1758998623
+|move|p1a: Coeur|Sucker Punch|p2a: Venusaur
+|-damage|p2a: Venusaur|46/100 brn
+|-damage|p1a: Coeur|91/100|[from] item: Life Orb
+|move|p2a: Venusaur|Giga Drain|p1a: Coeur
+|-supereffective|p1a: Coeur
+|-damage|p1a: Coeur|0 fnt
+|-heal|p2a: Venusaur|78/100 brn|[from] drain|[of] p1a: Coeur
+|faint|p1a: Coeur
+|-damage|p2a: Venusaur|68/100 brn|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Venusaur|62/100 brn|[from] brn
+|upkeep
+|inactive|smarkon shawl has 90 seconds left.
+|
+|t:|1758998647
+|switch|p1a: Kramer|Infernape, M|100/100
+|turn|11
+|inactive|smarkon shawl has 90 seconds left.
+|inactive|PulsatingBulge has 90 seconds left.
+|
+|t:|1758998701
+|-terastallize|p2a: Venusaur|Fire
+|move|p2a: Venusaur|Earthquake|p1a: Kramer
+|-supereffective|p1a: Kramer
+|-damage|p1a: Kramer|9/100
+|-damage|p2a: Venusaur|52/100 brn|[from] item: Life Orb
+|move|p1a: Kramer|Overheat|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|-unboost|p1a: Kramer|spa|2
+|faint|p2a: Venusaur
+|-damage|p1a: Kramer|0 fnt|[from] item: Life Orb
+|faint|p1a: Kramer
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|smarkon shawl has 90 seconds left.
+|inactive|PulsatingBulge has 60 seconds left.
+|
+|t:|1758998730
+|switch|p1a: Ross|Tauros, M|100/100
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|-activate|p2a: Slither Wing|ability: Protosynthesis
+|-start|p2a: Slither Wing|protosynthesisatk
+|turn|12
+|inactive|PulsatingBulge has 60 seconds left.
+|inactive|smarkon shawl has 60 seconds left.
+|
+|t:|1758998751
+|move|p2a: Slither Wing|First Impression|p1a: Ross
+|-damage|p1a: Ross|17/100
+|move|p1a: Ross|Zen Headbutt|p2a: Slither Wing
+|-supereffective|p2a: Slither Wing
+|-damage|p2a: Slither Wing|0 fnt
+|faint|p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|PulsatingBulge has 60 seconds left.
+|
+|t:|1758998758
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|13
+|inactive|smarkon shawl has 60 seconds left.
+|
+|t:|1758998777
+|move|p2a: Raging Bolt|Thunderclap|p1a: Ross
+|-damage|p1a: Ross|0 fnt
+|faint|p1a: Ross
+|-damage|p2a: Raging Bolt|91/100|[from] item: Life Orb
+|
+|-weather|none
+|-end|p2a: Raging Bolt|Protosynthesis
+|upkeep
+|inactive|smarkon shawl has 60 seconds left.
+|
+|t:|1758998785
+|switch|p1a: Ray|Luxray, M|74/100
+|-ability|p1a: Ray|Intimidate|boost
+|-unboost|p2a: Raging Bolt|atk|1
+|turn|14
+|inactive|PulsatingBulge has 60 seconds left.
+|inactive|PulsatingBulge has 30 seconds left.
+|
+|t:|1758998837
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Ray
+|-damage|p1a: Ray|24/100
+|-damage|p2a: Raging Bolt|81/100|[from] item: Life Orb
+|move|p1a: Ray|Play Rough|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-crit|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758998840
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|15
+|inactive|smarkon shawl has 60 seconds left.
+|
+|t:|1758998866
+|move|p2a: Walking Wake|Hydro Steam|p1a: Ray
+|-damage|p1a: Ray|0 fnt
+|faint|p1a: Ray
+|
+|upkeep
+|
+|t:|1758998869
+|switch|p1a: Moustène|Floatzel, F|100/100
+|turn|16
+|
+|t:|1758998879
+|move|p1a: Moustène|Ice Spinner|p2a: Walking Wake
+|-damage|p2a: Walking Wake|73/100
+|move|p2a: Walking Wake|Weather Ball|p1a: Moustène
+|-damage|p1a: Moustène|65/100
+|
+|upkeep
+|turn|17
+|
+|t:|1758998888
+|move|p1a: Moustène|Ice Spinner|p2a: Walking Wake
+|-damage|p2a: Walking Wake|46/100
+|move|p2a: Walking Wake|Weather Ball|p1a: Moustène
+|-damage|p1a: Moustène|28/100
+|
+|upkeep
+|turn|18
+|
+|t:|1758998894
+|move|p1a: Moustène|Ice Spinner|p2a: Walking Wake
+|-damage|p2a: Walking Wake|17/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Moustène
+|-damage|p1a: Moustène|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Moustène
+|
+|win|PulsatingBulge
+|raw|smarkon shawl's rating: 1192 &rarr; <strong>1168</strong><br />(-24 for losing)
+|raw|PulsatingBulge's rating: 1203 &rarr; <strong>1227</strong><br />(+24 for winning)
+|c|☆smarkon shawl|GG
+|l|☆PulsatingBulge
+|player|p2|
+|c|☆smarkon shawl|Have you the ref?
+|l|☆smarkon shawl
+|player|p1|

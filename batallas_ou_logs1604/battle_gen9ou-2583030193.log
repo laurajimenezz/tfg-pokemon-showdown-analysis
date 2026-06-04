@@ -1,0 +1,160 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆AmygdalanResponse
+|j|☆rydenzhou
+|t:|1776134873
+|gametype|singles
+|player|p1|AmygdalanResponse|marshal|1530
+|player|p2|rydenzhou|169|1488
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Overqwil, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Iron Treads|
+|poke|p1|Kingambit, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Gholdengo|
+|poke|p2|Gliscor, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Blaziken, F|
+|poke|p2|Incineroar, F|
+|teampreview
+|
+|t:|1776134890
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Glimmora|Glimmora, M, shiny|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1776134898
+|move|p1a: Iron Treads|Earth Power|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|move|p2a: Glimmora|Stealth Rock|p1a: Iron Treads
+|-sidestart|p1: AmygdalanResponse|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1776134905
+|switch|p2a: Gholdengo|Gholdengo, shiny|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Iron Treads|Stealth Rock|p2a: Gholdengo
+|-sidestart|p2: rydenzhou|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1776134912
+|move|p1a: Iron Treads|Steel Beam|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|76/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|-damage|p1a: Iron Treads|50/100|[from] steelbeam
+|move|p2a: Gholdengo|Shadow Ball|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1776134920
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|4
+|
+|t:|1776134927
+|switch|p2a: Incineroar|Incineroar, F, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1776134939
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Pelipper|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|84/100
+|
+|t:|1776134943
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|-damage|p1a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|91/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1776134956
+|switch|p2a: Glimmora|Glimmora, M, shiny|1/100
+|-damage|p2a: Glimmora|0 fnt|[from] Stealth Rock
+|faint|p2a: Glimmora
+|move|p1a: Raging Bolt|Weather Ball|p2: Glimmora|[notarget]
+|-fail|p1a: Raging Bolt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1776134968
+|switch|p2a: Gliscor|Gliscor, M, shiny|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1776134973
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Raging Bolt|Weather Ball|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|
+|t:|1776134984
+|move|p2a: Gliscor|Toxic|p1a: Raging Bolt
+|-status|p1a: Raging Bolt|tox
+|move|p1a: Raging Bolt|Weather Ball|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Raging Bolt|82/100 tox|[from] psn
+|upkeep
+|-message|rydenzhou forfeited.
+|
+|win|AmygdalanResponse
+|raw|AmygdalanResponse's rating: 1530 &rarr; <strong>1548</strong><br />(+18 for winning)
+|raw|rydenzhou's rating: 1488 &rarr; <strong>1470</strong><br />(-18 for losing)
+|l|☆rydenzhou
+|player|p2|

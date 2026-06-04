@@ -1,0 +1,359 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆TheRegisAreCool
+|j|☆force1220
+|t:|1776259149
+|gametype|singles
+|player|p1|TheRegisAreCool|fisherman-gen4|1260
+|player|p2|force1220|dawn-gen4pt|1320
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Conkeldurr, F|
+|poke|p1|Iron Moth|
+|poke|p1|Glimmora, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Donphan, F|
+|poke|p2|Iron Crown|
+|poke|p2|Cinderace, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Alomomola, F|
+|teampreview
+|
+|t:|1776259170
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespa
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheRegisAreCool)
+|
+|t:|1776259181
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Samurott|Sucker Punch||[still]
+|-fail|p1a: Samurott
+|
+|upkeep
+|turn|2
+|
+|t:|1776259186
+|move|p1a: Samurott|Ceaseless Edge|p2a: Toxapex
+|-damage|p2a: Toxapex|65/100
+|-damage|p1a: Samurott|84/100|[from] item: Rocky Helmet|[of] p2a: Toxapex
+|-sidestart|p2: force1220|Spikes
+|move|p2a: Toxapex|Toxic|p1a: Samurott
+|-status|p1a: Samurott|tox
+|
+|-damage|p1a: Samurott|78/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1776259197
+|switch|p1a: Donphan|Donphan, F|100/100
+|move|p2a: Toxapex|Chilling Water|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-crit|p1a: Donphan
+|-damage|p1a: Donphan|56/100
+|-unboost|p1a: Donphan|atk|1
+|
+|upkeep
+|turn|4
+|
+|t:|1776259205
+|move|p1a: Donphan|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|20/100
+|move|p2a: Toxapex|Chilling Water|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|26/100
+|-unboost|p1a: Donphan|atk|1
+|
+|upkeep
+|turn|5
+|
+|t:|1776259214
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-damage|p2a: Alomomola|88/100|[from] Spikes
+|move|p1a: Donphan|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|73/100
+|
+|-heal|p2a: Alomomola|80/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1776259224
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|86/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1776259229
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|68/100
+|move|p2a: Alomomola|Flip Turn|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|63/100
+|
+|t:|1776259237
+|switch|p2a: Toxapex|Toxapex, F|53/100|[from] Flip Turn
+|-damage|p2a: Toxapex|40/100|[from] Spikes
+|
+|-heal|p2a: Toxapex|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Kommo-o|69/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1776259245
+|-terastallize|p1a: Kommo-o|Dragon
+|move|p1a: Kommo-o|Clanging Scales|p2a: Toxapex
+|-damage|p2a: Toxapex|29/100
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Kommo-o|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1776259256
+|move|p1a: Kommo-o|Boomburst|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-heal|p1a: Kommo-o|81/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1776259263
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|-damage|p2a: Ribombee|88/100|[from] Spikes
+|turn|10
+|
+|t:|1776259270
+|switch|p1a: Samurott|Samurott-Hisui, M|78/100 tox
+|move|p2a: Ribombee|Moonblast|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|13/100 tox
+|
+|-damage|p1a: Samurott|6/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1776259278
+|move|p1a: Samurott|Sucker Punch|p2a: Ribombee
+|-resisted|p2a: Ribombee
+|-damage|p2a: Ribombee|54/100
+|move|p2a: Ribombee|Moonblast|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1776259286
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|turn|12
+|
+|t:|1776259309
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-damage|p2a: Alomomola|88/100|[from] Spikes
+|move|p1a: Glimmora|Power Gem|p2a: Alomomola
+|-damage|p2a: Alomomola|39/100
+|
+|-heal|p2a: Alomomola|45/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1776259318
+|move|p2a: Alomomola|Aqua Jet|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|73/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: force1220|move: Toxic Spikes
+|move|p1a: Glimmora|Power Gem|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1776259329
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-damage|p2a: Iron Crown|88/100|[from] Spikes
+|turn|14
+|
+|t:|1776259350
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|move|p1a: Glimmora|Earth Power|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|44/100
+|
+|upkeep
+|turn|15
+|
+|t:|1776259358
+|move|p2a: Iron Crown|Stored Power|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1776259368
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|16
+|
+|t:|1776259377
+|move|p1a: Iron Moth|Fiery Dance|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1776259399
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|17
+|
+|t:|1776259403
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Donphan|Donphan, F|26/100
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|18
+|
+|t:|1776259412
+|move|p2a: Cinderace|Trailblaze|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|-boost|p2a: Cinderace|spe|1
+|faint|p1a: Donphan
+|
+|upkeep
+|
+|t:|1776259417
+|switch|p1a: Kommo-o|Kommo-o, M, tera:Dragon|81/100
+|-damage|p1a: Kommo-o|68/100|[from] Spikes
+|-status|p1a: Kommo-o|psn
+|turn|19
+|
+|t:|1776259430
+|move|p2a: Cinderace|Pyro Ball|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-crit|p1a: Kommo-o
+|-damage|p1a: Kommo-o|46/100 psn
+|move|p1a: Kommo-o|Aura Sphere|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-heal|p1a: Kommo-o|52/100 psn|[from] item: Leftovers
+|-damage|p1a: Kommo-o|39/100 psn|[from] psn
+|upkeep
+|
+|t:|1776259439
+|switch|p2a: Ribombee|Ribombee, F|54/100
+|turn|20
+|
+|t:|1776259443
+|move|p2a: Ribombee|Moonblast|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|t:|1776259449
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-damage|p1a: Iron Moth|88/100|[from] Spikes
+|-sideend|p1: TheRegisAreCool|move: Toxic Spikes|[of] p1a: Iron Moth
+|turn|21
+|
+|t:|1776259456
+|move|p2a: Ribombee|Sticky Web|p1a: Iron Moth
+|-sidestart|p1: TheRegisAreCool|move: Sticky Web
+|move|p1a: Iron Moth|Fiery Dance|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1776259463
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|22
+|
+|t:|1776259469
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1776259472
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p1a: Conkeldurr|88/100|[from] Spikes
+|-activate|p1a: Conkeldurr|move: Sticky Web
+|-unboost|p1a: Conkeldurr|spe|1
+|turn|23
+|
+|t:|1776259481
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|37/100
+|move|p1a: Conkeldurr|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|1/100
+|-unboost|p1a: Conkeldurr|def|1
+|-unboost|p1a: Conkeldurr|spd|1
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|24
+|
+|t:|1776259495
+|move|p1a: Conkeldurr|Mach Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|TheRegisAreCool
+|raw|TheRegisAreCool's rating: 1260 &rarr; <strong>1289</strong><br />(+29 for winning)
+|raw|force1220's rating: 1320 &rarr; <strong>1297</strong><br />(-23 for losing)

@@ -1,0 +1,369 @@
+|j|☆phanxflame
+|j|☆ju2508
+|t:|1779918987
+|gametype|singles
+|player|p1|phanxflame|2|1147
+|player|p2|ju2508|266|1132
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gengar, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Krookodile, F|
+|poke|p1|Pelipper, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Rampardos, F|
+|poke|p2|Mamoswine, M|
+|poke|p2|Ludicolo, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Flamigo, F|
+|poke|p2|Morpeko, F|
+|poke|p2|Chandelure, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ju2508)
+|
+|t:|1779918995
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1779919004
+|switch|p1a: Krookodile|Krookodile, F|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Morpeko|atk|1
+|move|p2a: Morpeko|Knock Off|p1a: Krookodile
+|-resisted|p1a: Krookodile
+|-damage|p1a: Krookodile|88/100
+|-enditem|p1a: Krookodile|Assault Vest|[from] move: Knock Off|[of] p2a: Morpeko
+|
+|-weather|RainDance|[upkeep]
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|2
+|
+|t:|1779919017
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Krookodile|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|64/100
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Krookodile
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779919029
+|move|p1a: Krookodile|Stone Edge|p2a: Rotom|[miss]
+|-miss|p1a: Krookodile|p2a: Rotom
+|move|p2a: Rotom|Will-O-Wisp|p1a: Krookodile
+|-status|p1a: Krookodile|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Krookodile|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1779919043
+|move|p1a: Krookodile|Stone Edge|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|40/100
+|move|p2a: Rotom|Pain Split|p1a: Krookodile
+|-sethp|p1a: Krookodile|59/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|65/100|[from] move: Pain Split
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Krookodile|53/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1779919059
+|switch|p2a: Ludicolo|Ludicolo, M|100/100
+|move|p1a: Krookodile|Stone Edge|p2a: Ludicolo
+|-damage|p2a: Ludicolo|77/100
+|
+|-weather|none
+|-heal|p2a: Ludicolo|83/100|[from] item: Leftovers
+|-damage|p1a: Krookodile|47/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1779919072
+|move|p1a: Krookodile|Knock Off|p2a: Ludicolo
+|-damage|p2a: Ludicolo|47/100
+|-enditem|p2a: Ludicolo|Leftovers|[from] move: Knock Off|[of] p1a: Krookodile
+|move|p2a: Ludicolo|Giga Drain|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|-heal|p2a: Ludicolo|69/100|[from] drain|[of] p1a: Krookodile
+|faint|p1a: Krookodile
+|
+|upkeep
+|
+|t:|1779919082
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|7
+|
+|t:|1779919088
+|-terastallize|p2a: Ludicolo|Water
+|move|p2a: Ludicolo|Leech Seed|p1a: Pelipper
+|-start|p1a: Pelipper|move: Leech Seed
+|move|p1a: Pelipper|Hurricane|p2a: Ludicolo
+|-damage|p2a: Ludicolo|13/100
+|-start|p2a: Ludicolo|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ludicolo|19/100|[from] ability: Rain Dish
+|-damage|p1a: Pelipper|88/100|[from] Leech Seed|[of] p2a: Ludicolo
+|-heal|p2a: Ludicolo|30/100|[silent]
+|upkeep
+|turn|8
+|inactive|phanxflame has 120 seconds left.
+|
+|t:|1779919120
+|-activate|p2a: Ludicolo|confusion
+|move|p2a: Ludicolo|Giga Drain|p1a: Pelipper
+|-damage|p1a: Pelipper|55/100
+|-heal|p2a: Ludicolo|46/100|[from] drain|[of] p1a: Pelipper
+|move|p1a: Pelipper|Hurricane|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779919134
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|turn|9
+|inactive|phanxflame has 120 seconds left.
+|
+|t:|1779919155
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Chandelure|Shadow Ball|p1a: Cinderace
+|-damage|p1a: Cinderace|16/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|inactive|phanxflame has 120 seconds left.
+|
+|t:|1779919168
+|move|p1a: Cinderace|Court Change||[still]
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-fail|p1a: Cinderace
+|move|p2a: Chandelure|Shadow Ball|p1a: Cinderace
+|-immune|p1a: Cinderace
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|inactive|phanxflame has 120 seconds left.
+|
+|t:|1779919187
+|switch|p2a: Rotom|Rotom-Heat|65/100
+|move|p1a: Cinderace|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|56/100
+|inactive|phanxflame has 90 seconds left.
+|inactive|phanxflame has 60 seconds left.
+|
+|t:|1779919254
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1779919266
+|move|p2a: Rotom|Volt Switch|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|64/100
+|
+|t:|1779919273
+|switch|p2a: Morpeko|Morpeko, F|100/100|[from] Volt Switch
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|13
+|inactive|phanxflame has 60 seconds left.
+|
+|t:|1779919288
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|move|p2a: Morpeko|Knock Off|p1: Hatterene|[notarget]
+|-fail|p2a: Morpeko
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|inactive|phanxflame has 60 seconds left.
+|
+|t:|1779919300
+|switch|p1a: Rampardos|Rampardos, F|100/100
+|turn|14
+|
+|t:|1779919307
+|switch|p2a: Rotom|Rotom-Heat|56/100
+|move|p1a: Rampardos|Stone Edge|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1779919318
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|15
+|
+|t:|1779919323
+|move|p1a: Rampardos|Iron Head|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|t:|1779919328
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|turn|16
+|inactive|phanxflame has 90 seconds left.
+|
+|t:|1779919339
+|move|p1a: Rampardos|Stone Edge|p2a: Morpeko|[miss]
+|-miss|p1a: Rampardos|p2a: Morpeko
+|move|p2a: Morpeko|Knock Off|p1a: Rampardos
+|-damage|p1a: Rampardos|61/100
+|-enditem|p1a: Rampardos|Expert Belt|[from] move: Knock Off|[of] p2a: Morpeko
+|
+|-fieldend|move: Trick Room
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|17
+|
+|t:|1779919352
+|move|p2a: Morpeko|Volt Switch|p1a: Rampardos
+|-damage|p1a: Rampardos|37/100
+|
+|t:|1779919356
+|switch|p2a: Flamigo|Flamigo, F|100/100|[from] Volt Switch
+|move|p1a: Rampardos|Iron Head|p2a: Flamigo
+|-damage|p2a: Flamigo|37/100
+|
+|upkeep
+|turn|18
+|
+|t:|1779919379
+|move|p2a: Flamigo|Liquidation|p1a: Rampardos
+|-supereffective|p1a: Rampardos
+|-damage|p1a: Rampardos|0 fnt
+|faint|p1a: Rampardos
+|
+|upkeep
+|inactive|phanxflame has 90 seconds left.
+|
+|t:|1779919395
+|switch|p1a: Gengar|Gengar, M|100/100
+|turn|19
+|
+|t:|1779919399
+|move|p1a: Gengar|Shadow Ball|p2a: Flamigo
+|-damage|p2a: Flamigo|0 fnt
+|faint|p2a: Flamigo
+|
+|upkeep
+|
+|t:|1779919405
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|turn|20
+|
+|t:|1779919419
+|move|p1a: Gengar|Shadow Ball|p2a: Morpeko
+|-resisted|p2a: Morpeko
+|-damage|p2a: Morpeko|74/100
+|move|p2a: Morpeko|Knock Off|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-enditem|p1a: Gengar|Choice Scarf|[from] move: Knock Off|[of] p2a: Morpeko
+|faint|p1a: Gengar
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|
+|t:|1779919432
+|switch|p1a: Cinderace|Cinderace, F|16/100
+|-heal|p1a: Cinderace|100/100|[from] move: Healing Wish
+|turn|21
+|
+|t:|1779919447
+|move|p1a: Cinderace|U-turn|p2a: Morpeko
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p2a: Morpeko
+|-damage|p2a: Morpeko|0 fnt
+|faint|p2a: Morpeko
+|
+|t:|1779919450
+|switch|p1a: Pelipper|Pelipper, M|55/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779919458
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|turn|22
+|
+|t:|1779919464
+|move|p2a: Chandelure|Shadow Ball|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779919466
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|23
+|
+|t:|1779919472
+|move|p1a: Cinderace|Court Change||[still]
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-fail|p1a: Cinderace
+|move|p2a: Chandelure|Shadow Ball|p1a: Cinderace
+|-immune|p1a: Cinderace
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1779919481
+|move|p1a: Cinderace|U-turn|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|94/100
+|move|p2a: Chandelure|Shadow Ball|p1a: Cinderace
+|-immune|p1a: Cinderace
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|-message|ju2508 forfeited.
+|
+|win|phanxflame
+|raw|phanxflame's rating: 1147 &rarr; <strong>1171</strong><br />(+24 for winning)
+|raw|ju2508's rating: 1132 &rarr; <strong>1108</strong><br />(-24 for losing)
+|l|☆ju2508
+|player|p2|
+|l|☆phanxflame
+|player|p1|

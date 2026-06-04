@@ -1,0 +1,320 @@
+|j|‽megaplots
+|j|‽secondstory
+|t:|1757839847
+|gametype|singles
+|player|p1|megaplots|1|1534
+|player|p2|secondstory|bruno|1550
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Iron Valiant|
+|poke|p2|Weavile, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Great Tusk|
+|poke|p2|Corviknight, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Snorlax, F|
+|teampreview
+|
+|t:|1757839862
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|t:|1757839868
+|move|p2a: Dragapult|Shadow Ball|p1a: Glimmora
+|-damage|p1a: Glimmora|24/100
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|-enditem|p1a: Glimmora|Power Herb
+|-anim|p1a: Glimmora|Meteor Beam|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by megaplots)
+|
+|t:|1757839879
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|2
+|
+|t:|1757839882
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-boost|p2a: Enamorus|atk|1
+|move|p2a: Enamorus|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|45/100
+|-unboost|p1a: Landorus|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1757839898
+|switch|p1a: Glimmora|Glimmora, M|24/100
+|move|p2a: Enamorus|Moonblast|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1757839901
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|4
+|
+|t:|1757839911
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|-terastallize|p1a: Iron Valiant|Steel
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1757839921
+|-terastallize|p2a: Snorlax|Ghost
+|move|p1a: Iron Valiant|Knock Off|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|-enditem|p2a: Snorlax|Assault Vest|[from] move: Knock Off|[of] p1a: Iron Valiant
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|t:|1757839928
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|6
+|
+|t:|1757839932
+|move|p1a: Iron Valiant|Knock Off|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|44/100
+|-damage|p1a: Iron Valiant|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Corviknight|Body Press|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|20/100
+|
+|upkeep
+|turn|7
+|
+|t:|1757839942
+|move|p1a: Iron Valiant|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|18/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|68/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|8
+|
+|t:|1757839946
+|move|p1a: Iron Valiant|Encore|p2a: Corviknight
+|-start|p2a: Corviknight|Encore
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|9
+|
+|t:|1757839951
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|
+|upkeep
+|turn|10
+|
+|t:|1757839963
+|move|p1a: Iron Valiant|Spirit Break|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-enditem|p2a: Weavile|Focus Sash
+|-damage|p2a: Weavile|1/100
+|-unboost|p2a: Weavile|spa|1
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|
+|upkeep
+|turn|11
+|
+|t:|1757839972
+|move|p2a: Weavile|Ice Shard|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757839984
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|12
+|
+|t:|1757839989
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Corviknight
+|-damage|p2a: Corviknight|66/100
+|
+|upkeep
+|turn|13
+|
+|t:|1757839996
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Corviknight|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|91/100
+|
+|t:|1757840001
+|switch|p2a: Enamorus|Enamorus, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|14
+|
+|t:|1757840005
+|switch|p1a: Landorus|Landorus-Therian, M|45/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-boost|p2a: Enamorus|atk|1
+|move|p2a: Enamorus|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|j| vfdsfddfddfew
+|
+|t:|1757840013
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|15
+|
+|t:|1757840017
+|move|p2a: Enamorus|Moonblast|p1a: Ogerpon
+|-damage|p1a: Ogerpon|44/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Enamorus|[anim] Ivy Cudgel Water
+|-damage|p2a: Enamorus|8/100
+|
+|upkeep
+|turn|16
+|
+|t:|1757840025
+|move|p2a: Enamorus|Moonblast|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1757840027
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|17
+|
+|t:|1757840030
+|move|p2a: Enamorus|Moonblast|p1a: Kingambit
+|-damage|p1a: Kingambit|49/100
+|-unboost|p1a: Kingambit|spa|1
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-crit|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-heal|p1a: Kingambit|55/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757840034
+|switch|p2a: Corviknight|Corviknight, F, shiny|66/100
+|-ability|p2a: Corviknight|Pressure
+|turn|18
+|
+|t:|1757840041
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Corviknight
+|-damage|p2a: Corviknight|60/100
+|
+|-heal|p1a: Kingambit|61/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1757840046
+|move|p2a: Corviknight|Body Press|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1757840048
+|switch|p1a: Dragapult|Dragapult, F|91/100
+|turn|20
+|
+|t:|1757840051
+|move|p1a: Dragapult|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|12/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|62/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|21
+|
+|t:|1757840057
+|move|p1a: Dragapult|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|15/100
+|move|p2a: Corviknight|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|82/100
+|
+|t:|1757840066
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|upkeep
+|turn|22
+|
+|t:|1757840070
+|move|p1a: Dragapult|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|21/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Dragapult
+|
+|win|secondstory
+|raw|megaplots's rating: 1534 &rarr; <strong>1515</strong><br />(-19 for losing)
+|raw|secondstory's rating: 1550 &rarr; <strong>1569</strong><br />(+19 for winning)
+|l|‽secondstory
+|player|p2|
+|l|‽megaplots
+|player|p1|
+|l| vfdsfddfddfew

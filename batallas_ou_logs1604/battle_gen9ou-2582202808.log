@@ -1,0 +1,279 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆viutil
+|j|☆holo-lyte
+|t:|1776070795
+|gametype|singles
+|player|p1|viutil|102|1404
+|player|p2|holo-lyte|clerk|1484
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, M|
+|poke|p1|Primarina, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Zapdos|
+|poke|p2|Morpeko, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Iron Boulder|
+|poke|p2|Iron Jugulis|
+|poke|p2|Glastrier|
+|teampreview
+|j| ohko_smeargle
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by viutil)
+|inactive|holo-lyte also wants the timer to be on.
+|
+|t:|1776070811
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Kalosian Articuno|Zapdos-Galar|100/100
+|turn|1
+|
+|t:|1776070829
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kalosian Articuno|atk|1
+|-ability|p2a: Kalosian Articuno|Defiant|boost
+|-boost|p2a: Kalosian Articuno|atk|2
+|-enditem|p2a: Kalosian Articuno|Adrenaline Orb
+|-boost|p2a: Kalosian Articuno|spe|1|[from] item: Adrenaline Orb
+|move|p2a: Kalosian Articuno|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|38/100
+|-damage|p2a: Kalosian Articuno|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Kalosian Articuno
+|
+|upkeep
+|turn|2
+|
+|t:|1776070845
+|move|p2a: Kalosian Articuno|Brave Bird|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-damage|p2a: Kalosian Articuno|72/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1776070861
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|3
+|
+|t:|1776070865
+|move|p2a: Kalosian Articuno|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|50/100
+|-enditem|p1a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Kalosian Articuno
+|move|p1a: Zapdos|Volt Switch|p2a: Kalosian Articuno
+|-supereffective|p2a: Kalosian Articuno
+|-damage|p2a: Kalosian Articuno|0 fnt
+|faint|p2a: Kalosian Articuno
+|
+|t:|1776070870
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1776070874
+|switch|p2a: lead gullet|Iron Jugulis|100/100
+|turn|4
+|
+|t:|1776070882
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: lead gullet|Dark Pulse|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: lead gullet|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1776070889
+|move|p2a: lead gullet|Earth Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|51/100
+|-unboost|p1a: Tyranitar|spd|1
+|move|p1a: Tyranitar|Stone Edge|p2a: lead gullet|[miss]
+|-miss|p1a: Tyranitar|p2a: lead gullet
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: lead gullet|88/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1776070900
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: lead gullet|Earth Power|p1a: Dragapult
+|-damage|p1a: Dragapult|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|51/100|[from] Sandstorm
+|-damage|p2a: lead gullet|82/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1776070904
+|move|p1a: Dragapult|Draco Meteor|p2a: lead gullet
+|-damage|p2a: lead gullet|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: lead gullet
+|-end|p2a: lead gullet|Quark Drive|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|45/100|[from] Sandstorm
+|upkeep
+|
+|t:|1776070916
+|switch|p2a: cinderace testing|Cinderace, M|100/100
+|turn|8
+|
+|t:|1776070922
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: cinderace testing|Sucker Punch||[still]
+|-fail|p2a: cinderace testing
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1776070934
+|move|p2a: cinderace testing|U-turn|p1a: Great Tusk
+|-start|p2a: cinderace testing|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|83/100
+|-damage|p2a: cinderace testing|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|-damage|p2a: cinderace testing|74/100|[from] item: Life Orb
+|
+|t:|1776070938
+|switch|p2a: testing morpeko|Morpeko, F, shiny|100/100|[from] U-turn
+|move|p1a: Great Tusk|Headlong Rush|p2a: testing morpeko
+|-supereffective|p2a: testing morpeko
+|-enditem|p2a: testing morpeko|Focus Sash
+|-damage|p2a: testing morpeko|1/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-formechange|p2a: testing morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|10
+|
+|t:|1776070946
+|move|p1a: Great Tusk|Rapid Spin|p2a: testing morpeko
+|-damage|p2a: testing morpeko|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|faint|p2a: testing morpeko
+|
+|upkeep
+|
+|t:|1776070956
+|switch|p2a: zinc stone|Iron Boulder|100/100
+|-enditem|p2a: zinc stone|Booster Energy
+|-activate|p2a: zinc stone|ability: Quark Drive|[fromitem]
+|-start|p2a: zinc stone|quarkdrivespe
+|turn|11
+|
+|t:|1776070965
+|-terastallize|p2a: zinc stone|Dragon
+|move|p2a: zinc stone|Swords Dance|p2a: zinc stone
+|-boost|p2a: zinc stone|atk|2
+|move|p1a: Great Tusk|Headlong Rush|p2a: zinc stone
+|-damage|p2a: zinc stone|24/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|12
+|
+|t:|1776070977
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Zapdos|Zapdos|50/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: zinc stone|Psycho Cut|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1776070987
+|switch|p1a: Great Tusk|Great Tusk|83/100
+|turn|13
+|
+|t:|1776070991
+|-terastallize|p1a: Great Tusk|Fire
+|move|p2a: zinc stone|Psycho Cut|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|3/100
+|move|p1a: Great Tusk|Knock Off|p2a: zinc stone
+|-damage|p2a: zinc stone|0 fnt
+|faint|p2a: zinc stone
+|-end|p2a: zinc stone|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1776070994
+|switch|p2a: cinderace testing|Cinderace, M|74/100
+|turn|14
+|inactive|viutil has 120 seconds left.
+|inactive|viutil has 90 seconds left.
+|
+|t:|1776071066
+|move|p2a: cinderace testing|U-turn|p1a: Great Tusk
+|-start|p2a: cinderace testing|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-damage|p2a: cinderace testing|57/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: cinderace testing|48/100|[from] item: Life Orb
+|
+|t:|1776071069
+|switch|p2a: glass testing|Glastrier|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1776071073
+|switch|p1a: Tyranitar|Tyranitar, M|51/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|15
+|
+|t:|1776071077
+|move|p1a: Tyranitar|Stone Edge|p2a: glass testing
+|-supereffective|p2a: glass testing
+|-damage|p2a: glass testing|0 fnt
+|faint|p2a: glass testing
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1776071081
+|switch|p2a: cinderace testing|Cinderace, M|48/100
+|turn|16
+|
+|t:|1776071082
+|move|p2a: cinderace testing|High Jump Kick|p1a: Tyranitar|[miss]
+|-start|p2a: cinderace testing|typechange|Fighting|[from] ability: Libero
+|-miss|p2a: cinderace testing|p1a: Tyranitar
+|-damage|p2a: cinderace testing|0 fnt|[from] highjumpkick
+|faint|p2a: cinderace testing
+|
+|win|viutil
+|raw|viutil's rating: 1404 &rarr; <strong>1429</strong><br />(+25 for winning)
+|raw|holo-lyte's rating: 1484 &rarr; <strong>1459</strong><br />(-25 for losing)
+|l| ohko_smeargle
+|l|☆holo-lyte
+|player|p2|
+|l|☆viutil
+|player|p1|

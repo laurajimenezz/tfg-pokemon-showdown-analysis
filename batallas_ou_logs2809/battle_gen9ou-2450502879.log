@@ -1,0 +1,414 @@
+|raw|<div class="broadcast-blue"><strong>This battle is required to be public due to a player having a name starting with 'lt2'.</div>
+|j|☆lerendezvous
+|j|☆LT2 lulu
+|t:|1758991486
+|gametype|singles
+|player|p1|lerendezvous|101|1710
+|player|p2|LT2 lulu|102|1572
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Great Tusk|
+|poke|p1|Moltres|
+|poke|p1|Dragapult, F|
+|poke|p1|Kingambit, F|
+|poke|p2|Primarina, M|
+|poke|p2|Iron Treads|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Darkrai|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Dragonite, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lerendezvous)
+|
+|t:|1758991498
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Iron Treads|Iron Treads, shiny|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1758991505
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Slowking
+|-sidestart|p1: lerendezvous|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1758991512
+|move|p2a: Iron Treads|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|14/100
+|move|p1a: Slowking|Flamethrower|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-crit|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758991525
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|3
+|
+|t:|1758991531
+|move|p2a: Ogerpon|Horn Leech|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1758991536
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1758991543
+|move|p2a: Ogerpon|Horn Leech|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|37/100
+|-damage|p2a: Ogerpon|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Rapid Spin|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|73/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: lerendezvous|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|5
+|
+|t:|1758991553
+|move|p1a: Great Tusk|Headlong Rush|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1758991560
+|switch|p2a: Deoxys|Deoxys-Speed, shiny|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|6
+|
+|t:|1758991564
+|move|p2a: Deoxys|Focus Blast|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758991570
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|7
+|
+|t:|1758991579
+|-terastallize|p2a: Deoxys|Steel
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2a: Deoxys|Focus Blast|p1a: Kingambit
+|-immune|p1a: Kingambit
+|move|p1a: Kingambit|Iron Head|p2a: Deoxys
+|-resisted|p2a: Deoxys
+|-damage|p2a: Deoxys|61/100
+|
+|-heal|p2a: Deoxys|68/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758991588
+|switch|p2a: Darkrai|Darkrai, shiny|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|9
+|
+|t:|1758991595
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Darkrai|Dark Pulse|p1a: Moltres
+|-damage|p1a: Moltres|57/100
+|
+|upkeep
+|turn|10
+|
+|t:|1758991602
+|move|p2a: Darkrai|Dark Pulse|p1a: Moltres
+|-damage|p1a: Moltres|11/100
+|move|p1a: Moltres|U-turn|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|64/100
+|
+|t:|1758991608
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|11
+|
+|t:|1758991613
+|move|p2a: Darkrai|Dark Pulse|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1758991618
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|12
+|
+|t:|1758991623
+|switch|p2a: Dragonite|Dragonite, M, shiny|100/100
+|move|p1a: Ogerpon|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|95/100
+|
+|t:|1758991630
+|switch|p1a: Kingambit|Kingambit, F, tera:Ghost|100/100|[from] U-turn
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|
+|upkeep
+|turn|13
+|
+|t:|1758991637
+|switch|p2a: Primarina|Primarina, M, shiny|100/100
+|move|p1a: Kingambit|Iron Head|p2a: Primarina
+|-damage|p2a: Primarina|19/100
+|
+|-heal|p2a: Primarina|25/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1758991645
+|move|p1a: Kingambit|Sucker Punch|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1758991649
+|switch|p2a: Darkrai|Darkrai, shiny|64/100
+|turn|15
+|
+|t:|1758991653
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Moltres|Moltres|11/100
+|move|p2a: Darkrai|Dark Pulse|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1758991658
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|16
+|
+|t:|1758991663
+|switch|p2a: Deoxys|Deoxys-Speed, shiny, tera:Steel|68/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Ogerpon|U-turn|p2a: Deoxys
+|-resisted|p2a: Deoxys
+|-damage|p2a: Deoxys|47/100
+|
+|t:|1758991669
+|switch|p1a: Kingambit|Kingambit, F, tera:Ghost|100/100|[from] U-turn
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|
+|-heal|p2a: Deoxys|53/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758991673
+|move|p2a: Deoxys|Psycho Boost|p1a: Kingambit
+|-damage|p1a: Kingambit|38/100
+|-unboost|p2a: Deoxys|spa|2
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2a: Deoxys|59/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|44/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1758991679
+|move|p2a: Deoxys|Substitute|p2a: Deoxys
+|-start|p2a: Deoxys|Substitute
+|-damage|p2a: Deoxys|34/100
+|move|p1a: Kingambit|Iron Head|p2a: Deoxys
+|-resisted|p2a: Deoxys
+|-end|p2a: Deoxys|Substitute
+|
+|-heal|p2a: Deoxys|40/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|51/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1758991683
+|move|p2a: Deoxys|Psycho Boost|p1a: Kingambit
+|-damage|p1a: Kingambit|19/100
+|-unboost|p2a: Deoxys|spa|2
+|move|p1a: Kingambit|Iron Head|p2a: Deoxys
+|-resisted|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|-heal|p1a: Kingambit|25/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758991688
+|switch|p2a: Darkrai|Darkrai, shiny|64/100
+|turn|20
+|
+|t:|1758991697
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Darkrai|Trick|p1a: Kingambit
+|-activate|p2a: Darkrai|move: Trick|[of] p1a: Kingambit
+|-item|p1a: Kingambit|Choice Scarf|[from] move: Trick
+|-item|p2a: Darkrai|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Darkrai|70/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1758991702
+|move|p1a: Kingambit|Sucker Punch|p2a: Darkrai
+|-resisted|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1758991705
+|switch|p2a: Dragonite|Dragonite, M, shiny|95/100
+|turn|22
+|
+|t:|1758991710
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|upkeep
+|turn|23
+|
+|t:|1758991717
+|move|p2a: Dragonite|Extreme Speed|p1a: Kingambit
+|-immune|p1a: Kingambit
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|24
+|
+|t:|1758991722
+|move|p2a: Dragonite|Extreme Speed|p1a: Kingambit
+|-immune|p1a: Kingambit
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|25
+|
+|t:|1758991728
+|move|p2a: Dragonite|Extreme Speed|p1a: Kingambit
+|-immune|p1a: Kingambit
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|26
+|
+|t:|1758991732
+|-activate|p1a: Kingambit|move: Struggle
+|move|p1a: Kingambit|Struggle|p2a: Dragonite
+|-damage|p2a: Dragonite|76/100
+|-damage|p1a: Kingambit|0 fnt|[from] recoil
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|move|p2a: Dragonite|Earthquake|p1: Kingambit|[notarget]
+|-fail|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1758991737
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|27
+|
+|t:|1758991741
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Dragonite|[anim] Ivy Cudgel Water
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|48/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|98/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|upkeep
+|turn|28
+|
+|t:|1758991746
+|move|p1a: Ogerpon|Power Whip|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|83/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|upkeep
+|turn|29
+|
+|t:|1758991751
+|move|p1a: Ogerpon|Power Whip|p2a: Dragonite|[miss]
+|-miss|p1a: Ogerpon|p2a: Dragonite
+|move|p2a: Dragonite|Hurricane|p1a: Ogerpon|[miss]
+|-miss|p2a: Dragonite|p1a: Ogerpon
+|
+|upkeep
+|turn|30
+|
+|t:|1758991758
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Dragonite|[anim] Ivy Cudgel Water
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|87/100
+|move|p2a: Dragonite|Hurricane|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|5/100
+|
+|upkeep
+|turn|31
+|
+|t:|1758991765
+|move|p2a: Dragonite|Extreme Speed|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|win|LT2 lulu
+|raw|lerendezvous's rating: 1710 &rarr; <strong>1682</strong><br />(-28 for losing)
+|raw|LT2 lulu's rating: 1572 &rarr; <strong>1600</strong><br />(+28 for winning)
+|l|☆lerendezvous
+|player|p1|

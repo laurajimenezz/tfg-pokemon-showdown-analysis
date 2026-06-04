@@ -1,0 +1,359 @@
+|j|‽universe mon
+|j|☆Moreiny
+|t:|1760377132
+|gametype|singles
+|player|p1|universe mon|li|1787
+|player|p2|Moreiny|102|1799
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Klefki, F|
+|poke|p1|Latias, F|
+|poke|p1|Maushold-Four|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Necrozma|
+|poke|p2|Indeedee, M|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Crown|
+|poke|p2|Polteageist|
+|poke|p2|Hawlucha, M|
+|poke|p2|Deoxys-Speed|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by universe mon)
+|
+|t:|1760377139
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Klefki|Klefki, F|100/100
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|
+|t:|1760377142
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Klefki|Thunder Wave|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Psychic Terrain
+|
+|upkeep
+|turn|2
+|
+|t:|1760377145
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: universe mon|move: Light Screen
+|move|p2a: Indeedee|Encore|p1a: Klefki
+|-start|p1a: Klefki|Encore
+|
+|upkeep
+|turn|3
+|
+|t:|1760377157
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|switch|p1a: Necrozma|Necrozma|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760377162
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Necrozma
+|-damage|p1a: Necrozma|79/100
+|-damage|p1a: Necrozma|57/100
+|-hitcount|p1a: Necrozma|2
+|move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|1
+|-boost|p1a: Necrozma|spe|1
+|
+|-heal|p1a: Necrozma|63/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760377169
+|move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+|-boost|p1a: Necrozma|atk|1
+|-boost|p1a: Necrozma|spe|1
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Necrozma
+|-damage|p1a: Necrozma|43/100
+|-damage|p1a: Necrozma|20/100
+|-hitcount|p1a: Necrozma|2
+|
+|-heal|p1a: Necrozma|26/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760377174
+|move|p1a: Necrozma|Knock Off|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|-enditem|p2a: Iron Crown|Choice Specs|[from] move: Knock Off|[of] p1a: Necrozma
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-heal|p1a: Necrozma|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760377180
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p2a: Hawlucha|Psychic Seed
+|-boost|p2a: Hawlucha|spd|1|[from] item: Psychic Seed
+|turn|7
+|
+|t:|1760377186
+|switch|p1a: Klefki|Klefki, F|100/100
+|move|p2a: Hawlucha|Acrobatics|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|74/100
+|
+|upkeep
+|turn|8
+|
+|t:|1760377190
+|move|p1a: Klefki|Thunder Wave|p2a: Hawlucha
+|-status|p2a: Hawlucha|par
+|move|p2a: Hawlucha|Encore|p1a: Klefki
+|-start|p1a: Klefki|Encore
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1760377195
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p1: universe mon|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1760377197
+|move|p1a: Ninetales|Freeze-Dry|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|44/100
+|move|p2a: Great Tusk|Knock Off|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|90/100
+|-enditem|p1a: Ninetales|Light Clay|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760377204
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Ninetales|Freeze-Dry|p2a: Indeedee
+|-damage|p2a: Indeedee|71/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1760377208
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: universe mon|move: Aurora Veil
+|move|p2a: Indeedee|Expanding Force|p1a: Ninetales
+|-damage|p1a: Ninetales|48/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1760377214
+|move|p1a: Ninetales|Freeze-Dry|p2a: Indeedee
+|-damage|p2a: Indeedee|42/100
+|move|p2a: Indeedee|Expanding Force|p1a: Ninetales
+|-damage|p1a: Ninetales|10/100
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1760377221
+|move|p1a: Ninetales|Freeze-Dry|p2a: Indeedee
+|-damage|p2a: Indeedee|14/100
+|-status|p2a: Indeedee|frz
+|-curestatus|p2a: Indeedee|frz|[msg]
+|move|p2a: Indeedee|Expanding Force|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|upkeep
+|
+|t:|1760377231
+|switch|p1a: Maushold|Maushold-Four|100/100
+|turn|15
+|
+|t:|1760377235
+|switch|p2a: Great Tusk|Great Tusk|44/100
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|upkeep
+|turn|16
+|
+|t:|1760377241
+|move|p1a: Maushold|Population Bomb|p2a: Great Tusk
+|-damage|p2a: Great Tusk|35/100
+|-damage|p1a: Maushold|84/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|-damage|p2a: Great Tusk|26/100
+|-damage|p1a: Maushold|67/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|-damage|p2a: Great Tusk|18/100
+|-damage|p1a: Maushold|51/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|-damage|p2a: Great Tusk|9/100
+|-damage|p1a: Maushold|34/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-damage|p1a: Maushold|17/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p2: Great Tusk|5
+|
+|-sideend|p1: universe mon|move: Aurora Veil
+|upkeep
+|
+|t:|1760377256
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|17
+|
+|t:|1760377261
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|18
+|
+|t:|1760377265
+|move|p1a: Maushold|Encore|p2a: Polteageist
+|-start|p2a: Polteageist|Encore
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|19
+|
+|t:|1760377268
+|switch|p2a: Indeedee|Indeedee, M|14/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Maushold|Bite|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1760377271
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|20
+|
+|t:|1760377276
+|move|p1a: Maushold|Bite|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|21
+|
+|t:|1760377282
+|move|p2a: Polteageist|Stored Power|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|upkeep
+|
+|t:|1760377283
+|switch|p1a: Klefki|Klefki, F|74/100
+|turn|22
+|
+|t:|1760377290
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: universe mon|move: Light Screen
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|23
+|j| Flanagan7
+|
+|t:|1760377294
+|switch|p1a: Necrozma|Necrozma|32/100
+|move|p2a: Polteageist|Shadow Ball|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|upkeep
+|
+|t:|1760377301
+|switch|p1a: Latias|Latias, F|100/100
+|turn|24
+|
+|t:|1760377308
+|-terastallize|p2a: Polteageist|Fighting
+|-terastallize|p1a: Latias|Steel
+|move|p2a: Polteageist|Tera Blast|p1a: Latias|[anim] Tera Blast Fighting
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|upkeep
+|
+|t:|1760377315
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|25
+|
+|t:|1760377318
+|move|p2a: Polteageist|Stored Power|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|-message|universe mon forfeited.
+|
+|win|Moreiny
+|raw|universe mon's rating: 1787 &rarr; <strong>1768</strong><br />(-19 for losing)
+|raw|Moreiny's rating: 1799 &rarr; <strong>1818</strong><br />(+19 for winning)
+|l|‽universe mon
+|player|p1|
+|l|☆Moreiny
+|player|p2|
+|l| Flanagan7

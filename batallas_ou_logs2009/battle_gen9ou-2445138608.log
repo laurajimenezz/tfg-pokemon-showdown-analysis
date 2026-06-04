@@ -1,0 +1,350 @@
+|j|☆capitolg
+|j|☆hiatus1213
+|t:|1758307796
+|gametype|singles
+|player|p1|capitolg|bellelba|1243
+|player|p2|hiatus1213|burglar|1291
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Masquerain, F|
+|poke|p1|Articuno-Galar|
+|poke|p1|Smeargle, M|
+|poke|p1|Empoleon, F|
+|poke|p1|Passimian, F|
+|poke|p1|Chandelure, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hiatus1213)
+|
+|t:|1758307806
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Masquerain|Masquerain, F|100/100
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Thundurus|atk|1
+|turn|1
+|
+|t:|1758307810
+|move|p2a: Thundurus|Volt Switch|p1a: Masquerain
+|-supereffective|p1a: Masquerain
+|-enditem|p1a: Masquerain|Focus Sash
+|-damage|p1a: Masquerain|1/100
+|
+|t:|1758307817
+|switch|p2a: Alomomola|Alomomola, F|100/100|[from] Volt Switch
+|move|p1a: Masquerain|Ice Beam|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|88/100
+|-status|p2a: Alomomola|frz
+|
+|upkeep
+|turn|2
+|
+|t:|1758307821
+|move|p1a: Masquerain|Sticky Web|p2a: Alomomola
+|-sidestart|p2: hiatus1213|move: Sticky Web
+|cant|p2a: Alomomola|frz
+|
+|upkeep
+|turn|3
+|
+|t:|1758307825
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|cant|p2a: Alomomola|frz
+|
+|upkeep
+|turn|4
+|
+|t:|1758307828
+|move|p1a: Smeargle|Court Change|p1a: Smeargle
+|-swapsideconditions
+|-activate|p1a: Smeargle|move: Court Change
+|cant|p2a: Alomomola|frz
+|
+|upkeep
+|turn|5
+|
+|t:|1758307832
+|cant|p2a: Alomomola|frz
+|move|p1a: Smeargle|Trick Room|p1a: Smeargle
+|-fieldstart|move: Trick Room|[of] p1a: Smeargle
+|
+|upkeep
+|turn|6
+|
+|t:|1758307837
+|switch|p1a: Articuno|Articuno-Galar|100/100
+|-activate|p1a: Articuno|move: Sticky Web
+|-unboost|p1a: Articuno|spe|1
+|-ability|p1a: Articuno|Competitive|boost
+|-boost|p1a: Articuno|spa|2
+|cant|p2a: Alomomola|frz
+|
+|upkeep
+|turn|7
+|
+|t:|1758307845
+|cant|p2a: Alomomola|frz
+|move|p1a: Articuno|Freezing Glare|p2a: Alomomola
+|-damage|p2a: Alomomola|11/100 frz
+|
+|upkeep
+|turn|8
+|
+|t:|1758307848
+|cant|p2a: Alomomola|frz
+|move|p1a: Articuno|Freezing Glare|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1758307852
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|9
+|
+|t:|1758307858
+|switch|p1a: Empoleon|Empoleon, F|100/100
+|-activate|p1a: Empoleon|move: Sticky Web
+|-unboost|p1a: Empoleon|spe|1
+|-ability|p1a: Empoleon|Competitive|boost
+|-boost|p1a: Empoleon|spa|2
+|move|p2a: Slowking|Future Sight|p1a: Empoleon
+|-start|p2a: Slowking|move: Future Sight
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+|
+|t:|1758307867
+|move|p1a: Empoleon|Surf|p2a: Slowking
+|-damage|p2a: Slowking|50/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1758307874
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758307878
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|-activate|p1a: Chandelure|move: Sticky Web
+|-unboost|p1a: Chandelure|spe|1
+|move|p2a: Thundurus|Volt Switch|p1a: Chandelure
+|-crit|p1a: Chandelure
+|-enditem|p1a: Chandelure|Focus Sash
+|-damage|p1a: Chandelure|1/100
+|
+|t:|1758307889
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from] Volt Switch
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Chandelure|move: Future Sight
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|upkeep
+|
+|t:|1758307896
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|-activate|p1a: Smeargle|move: Sticky Web
+|-unboost|p1a: Smeargle|spe|1
+|turn|12
+|
+|t:|1758307902
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Smeargle|Trick Room|p1a: Smeargle
+|-fieldstart|move: Trick Room|[of] p1a: Smeargle
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1758307910
+|move|p1a: Smeargle|Burning Bulwark|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Protect
+|move|p2a: Cinderace|U-turn|p1a: Smeargle
+|-activate|p1a: Smeargle|move: Protect
+|-status|p2a: Cinderace|brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Cinderace|95/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1758307914
+|move|p1a: Smeargle|Taunt|p2a: Cinderace
+|-start|p2a: Cinderace|move: Taunt
+|move|p2a: Cinderace|U-turn|p1a: Smeargle
+|-damage|p1a: Smeargle|72/100
+|
+|t:|1758307919
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-activate|p2a: Iron Valiant|move: Sticky Web
+|-unboost|p2a: Iron Valiant|spe|1
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdriveatk
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|t:|1758307926
+|move|p1a: Smeargle|Court Change|p1a: Smeargle
+|-swapsideconditions
+|-activate|p1a: Smeargle|move: Court Change
+|move|p2a: Iron Valiant|Close Combat|p1a: Smeargle
+|-supereffective|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Smeargle
+|
+|upkeep
+|
+|t:|1758307931
+|switch|p1a: Articuno|Articuno-Galar|100/100
+|-activate|p1a: Articuno|move: Sticky Web
+|-unboost|p1a: Articuno|spe|1
+|-ability|p1a: Articuno|Competitive|boost
+|-boost|p1a: Articuno|spa|2
+|turn|16
+|
+|t:|1758307934
+|move|p1a: Articuno|Freezing Glare|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758307943
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|17
+|
+|t:|1758307947
+|-terastallize|p1a: Articuno|Fighting
+|move|p2a: Thundurus|Volt Switch|p1a: Articuno
+|-damage|p1a: Articuno|41/100
+|
+|t:|1758307956
+|switch|p2a: Slowking|Slowking-Galar, F|83/100|[from] Volt Switch
+|move|p1a: Articuno|Trick Room|p1a: Articuno
+|-fieldstart|move: Trick Room|[of] p1a: Articuno
+|
+|-heal|p2a: Slowking|89/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1758307958
+|move|p1a: Articuno|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|21/100
+|-unboost|p2a: Slowking|spd|1
+|move|p2a: Slowking|Future Sight|p1a: Articuno
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p2a: Slowking|27/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1758307966
+|move|p1a: Articuno|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1758307968
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|20
+|
+|t:|1758307971
+|move|p2a: Kingambit|Sucker Punch|p1a: Articuno
+|-resisted|p1a: Articuno
+|-damage|p1a: Articuno|13/100
+|move|p1a: Articuno|Tera Blast|p2a: Kingambit|[anim] Tera Blast Fighting
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-enditem|p2a: Kingambit|Air Balloon
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|-end|p1a: Articuno|move: Future Sight
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|upkeep
+|
+|t:|1758307979
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p1a: Empoleon|Empoleon, F|100/100
+|-activate|p1a: Empoleon|move: Sticky Web
+|-unboost|p1a: Empoleon|spe|1
+|-ability|p1a: Empoleon|Competitive|boost
+|-boost|p1a: Empoleon|spa|2
+|turn|21
+|
+|t:|1758307996
+|switch|p2a: Cinderace|Cinderace, M|95/100 brn
+|move|p1a: Empoleon|Ice Beam|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|49/100 brn
+|
+|-damage|p2a: Cinderace|43/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|22
+|
+|t:|1758308001
+|move|p2a: Cinderace|U-turn|p1a: Empoleon
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|91/100
+|
+|t:|1758308003
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100|[from] U-turn
+|move|p1a: Empoleon|Surf|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+|-message|hiatus1213 forfeited.
+|
+|win|capitolg
+|raw|capitolg's rating: 1243 &rarr; <strong>1271</strong><br />(+28 for winning)
+|raw|hiatus1213's rating: 1291 &rarr; <strong>1263</strong><br />(-28 for losing)
+|l|☆hiatus1213
+|player|p2|
+|l|☆capitolg
+|player|p1|

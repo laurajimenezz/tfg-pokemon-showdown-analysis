@@ -1,0 +1,356 @@
+|j|☆huang_zong
+|j|☆saap9a4fut16
+|t:|1758983887
+|gametype|singles
+|player|p1|huang_zong|101|1212
+|player|p2|saap9a4fut16|101|1174
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Brute Bonnet|
+|poke|p1|Scizor, F|
+|poke|p1|Corviknight, M|
+|poke|p2|Gallade, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Iron Crown|
+|poke|p2|Glimmora, M|
+|poke|p2|Alomomola, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by saap9a4fut16)
+|
+|t:|1758983897
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|1
+|
+|t:|1758983904
+|move|p2a: Glimmora|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: huang_zong|move: Stealth Rock
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1758983914
+|move|p2a: Glimmora|Earth Power|p1a: Great Tusk
+|-damage|p1a: Great Tusk|51/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|82/100
+|-boost|p1a: Great Tusk|spe|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: huang_zong|move: Toxic Spikes
+|-sideend|p1: huang_zong|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: huang_zong|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|57/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1758983920
+|move|p1a: Great Tusk|Headlong Rush|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: huang_zong|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|-heal|p1a: Great Tusk|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758983936
+|switch|p2a: Gallade|Gallade, M|100/100
+|turn|4
+|
+|t:|1758983956
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Gallade
+|
+|-heal|p1a: Great Tusk|70/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758983974
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespe
+|turn|5
+|
+|t:|1758983983
+|move|p2a: Iron Crown|Psychic|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758983987
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-status|p1a: Torkoal|psn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|6
+|
+|t:|1758983999
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Torkoal|Lava Plume|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|82/100
+|-status|p2a: Alomomola|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Alomomola|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Torkoal|88/100 psn|[from] psn
+|-damage|p2a: Alomomola|82/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1758984006
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Torkoal|Rapid Spin|p2a: Alomomola
+|-damage|p2a: Alomomola|76/100 brn
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: huang_zong|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Alomomola|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Torkoal|76/100 psn|[from] psn
+|-damage|p2a: Alomomola|76/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1758984021
+|switch|p1a: Brute Bonnet|Brute Bonnet|100/100
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisatk
+|move|p2a: Alomomola|Scald|p1a: Brute Bonnet
+|-resisted|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|98/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Alomomola|100/100 brn|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Brute Bonnet|100/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1758984036
+|move|p2a: Alomomola|Flip Turn|p1a: Brute Bonnet
+|-resisted|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|99/100
+|
+|t:|1758984044
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100|[from] Flip Turn
+|move|p1a: Brute Bonnet|Seed Bomb|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Brute Bonnet|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758984052
+|-terastallize|p1a: Brute Bonnet|Electric
+|move|p2a: Mandibuzz|Tailwind|p2a: Mandibuzz
+|-sidestart|p2: saap9a4fut16|move: Tailwind
+|move|p1a: Brute Bonnet|Tera Blast|p2a: Mandibuzz|[anim] Tera Blast Electric
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|12/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758984062
+|move|p2a: Mandibuzz|Foul Play|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|55/100
+|move|p1a: Brute Bonnet|Seed Bomb|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Brute Bonnet|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758984070
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|turn|12
+|
+|t:|1758984077
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|move|p1a: Brute Bonnet|Crunch|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Brute Bonnet|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758984083
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|turn|13
+|
+|t:|1758984097
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|move|p1a: Brute Bonnet|Crunch|p2a: Goodra
+|-damage|p2a: Goodra|65/100
+|
+|-weather|none
+|-end|p1a: Brute Bonnet|Protosynthesis
+|-heal|p2a: Goodra|71/100|[from] item: Leftovers
+|-heal|p1a: Brute Bonnet|73/100|[from] item: Leftovers
+|-sideend|p2: saap9a4fut16|move: Tailwind
+|upkeep
+|turn|14
+|
+|t:|1758984111
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, M|76/100 psn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Goodra|77/100|[from] item: Leftovers
+|-damage|p1a: Torkoal|64/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1758984120
+|move|p2a: Goodra|Body Press|p1a: Torkoal
+|-damage|p1a: Torkoal|42/100 psn
+|move|p1a: Torkoal|Body Press|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|47/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Goodra|54/100|[from] item: Leftovers
+|-damage|p1a: Torkoal|30/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1758984126
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Goodra|Body Press|p1a: Walking Wake
+|-damage|p1a: Walking Wake|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Goodra|60/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758984133
+|move|p1a: Walking Wake|Draco Meteor|p2a: Goodra
+|-damage|p2a: Goodra|6/100
+|-unboost|p1a: Walking Wake|spa|2
+|move|p2a: Goodra|Draco Meteor|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Goodra|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758984144
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|18
+|
+|t:|1758984148
+|switch|p2a: Alomomola|Alomomola, F|100/100 brn
+|move|p1a: Scizor|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|78/100 brn
+|-enditem|p2a: Alomomola|Leftovers|[from] move: Knock Off|[of] p1a: Scizor
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Alomomola|72/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1758984158
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Alomomola|65/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1758984164
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Alomomola|Flip Turn|p1a: Scizor
+|-damage|p1a: Scizor|97/100
+|
+|t:|1758984166
+|switch|p2a: Goodra|Goodra-Hisui, F|12/100|[from] Flip Turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Goodra|93/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Scizor|100/100|[from] item: Leftovers
+|-heal|p2a: Goodra|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1758984178
+|move|p1a: Scizor|Knock Off|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-enditem|p2a: Goodra|Leftovers|[from] move: Knock Off|[of] p1a: Scizor
+|faint|p2a: Goodra
+|
+|-weather|none
+|upkeep
+|
+|t:|1758984185
+|switch|p2a: Alomomola|Alomomola, F|99/100 brn
+|turn|22
+|-message|saap9a4fut16 forfeited.
+|
+|win|huang_zong
+|raw|huang_zong's rating: 1212 &rarr; <strong>1234</strong><br />(+22 for winning)
+|raw|saap9a4fut16's rating: 1174 &rarr; <strong>1152</strong><br />(-22 for losing)
+|l|☆saap9a4fut16
+|player|p2|
+|l|☆huang_zong
+|player|p1|

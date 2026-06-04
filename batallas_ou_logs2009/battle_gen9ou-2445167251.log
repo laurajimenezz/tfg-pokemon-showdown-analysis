@@ -1,0 +1,405 @@
+|j|☆zokua
+|j|☆Lkapkd
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1758310607
+|gametype|singles
+|player|p1|zokua|lance|
+|player|p2|Lkapkd|#bltixsnorlaxes|
+|gen|9
+|tier|[Gen 9] OU
+|rated|Tournament battle
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slither Wing|
+|poke|p1|Garganacl, M|
+|poke|p1|Alomomola, M|
+|poke|p1|Gholdengo|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Gliscor, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Treads|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Zamazenta-*|
+|poke|p2|Tornadus-Therian, M|
+|teampreview
+|j|*Lady Monita ☀
+|inactive|zokua also wants the timer to be on.
+|
+|t:|1758310619
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Butterfly Effect|Slither Wing|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1758310625
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Butterfly Effect|Will-O-Wisp|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|upkeep
+|turn|2
+|
+|t:|1758310633
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Butterfly Effect|U-turn|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|93/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|t:|1758310640
+|-end|p1a: Butterfly Effect|Protosynthesis|[silent]
+|switch|p1a: Sicko Mode|Gliscor, F|100/100|[from] U-turn
+|
+|-status|p1a: Sicko Mode|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1758310646
+|move|p2a: Gholdengo|Make It Rain|p1a: Sicko Mode
+|-damage|p1a: Sicko Mode|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Sicko Mode
+|
+|upkeep
+|
+|t:|1758310651
+|switch|p1a: Blue Magic|Ogerpon-Wellspring, F|100/100
+|turn|4
+|
+|t:|1758310660
+|-terastallize|p1a: Blue Magic|Water
+|detailschange|p1a: Blue Magic|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Blue Magic|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Blue Magic|spd|1
+|move|p1a: Blue Magic|Ivy Cudgel|p2a: Gholdengo|[anim] Ivy Cudgel Water
+|-damage|p2a: Gholdengo|20/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Blue Magic
+|-damage|p1a: Blue Magic|50/100
+|-unboost|p1a: Blue Magic|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1758310668
+|move|p1a: Blue Magic|Ivy Cudgel|p2a: Gholdengo|[anim] Ivy Cudgel Water
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1758310674
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|6
+|
+|t:|1758310678
+|switch|p1a: Butterfly Effect|Slither Wing|100/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|upkeep
+|turn|7
+|
+|t:|1758310682
+|-terastallize|p2a: Zamazenta|Fire
+|move|p2a: Zamazenta|Body Press|p1a: Butterfly Effect
+|-resisted|p1a: Butterfly Effect
+|-damage|p1a: Butterfly Effect|63/100
+|move|p1a: Butterfly Effect|Will-O-Wisp|p2a: Zamazenta
+|-immune|p2a: Zamazenta
+|
+|upkeep
+|turn|8
+|
+|t:|1758310686
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Butterfly Effect|U-turn|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|97/100
+|
+|t:|1758310688
+|-end|p1a: Butterfly Effect|Protosynthesis|[silent]
+|switch|p1a: Dior on my body|Gholdengo|100/100|[from] U-turn
+|
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758310691
+|move|p2a: Zamazenta|Crunch|p1a: Dior on my body
+|-supereffective|p1a: Dior on my body
+|-damage|p1a: Dior on my body|55/100
+|move|p1a: Dior on my body|Shadow Ball|p2a: Zamazenta
+|-damage|p2a: Zamazenta|35/100
+|
+|-heal|p2a: Zamazenta|41/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758310696
+|move|p2a: Zamazenta|Crunch|p1a: Dior on my body
+|-supereffective|p1a: Dior on my body
+|-damage|p1a: Dior on my body|9/100
+|move|p1a: Dior on my body|Shadow Ball|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1758310702
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|11
+|
+|t:|1758310710
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Iron Treads|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|77/100
+|
+|upkeep
+|turn|12
+|
+|t:|1758310717
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|13
+|
+|t:|1758310722
+|move|p2a: Tornadus|Nasty Plot|p2a: Tornadus
+|-boost|p2a: Tornadus|spa|2
+|move|p1a: Alomomola|Flip Turn|p2a: Tornadus
+|-damage|p2a: Tornadus|78/100
+|
+|t:|1758310726
+|switch|p1a: Blue Magic|Ogerpon-Wellspring-Tera, F, tera:Water|50/100|[from] Flip Turn
+|-ability|p1a: Blue Magic|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Blue Magic|spd|1
+|
+|-heal|p1a: Blue Magic|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|14
+|
+|t:|1758310732
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Blue Magic|[miss]
+|-miss|p2a: Tornadus|p1a: Blue Magic
+|move|p1a: Blue Magic|Ivy Cudgel|p2a: Tornadus|[anim] Ivy Cudgel Water
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|j| Albrtix
+|
+|t:|1758310735
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|15
+|
+|t:|1758310748
+|move|p1a: Blue Magic|U-turn|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|78/100
+|
+|t:|1758310755
+|switch|p1a: Butterfly Effect|Slither Wing|63/100|[from] U-turn
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|16
+|
+|t:|1758310762
+|move|p1a: Butterfly Effect|First Impression|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|44/100
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|upkeep
+|turn|17
+|
+|t:|1758310767
+|move|p1a: Butterfly Effect|Will-O-Wisp|p2a: Raging Bolt
+|-status|p2a: Raging Bolt|brn
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Butterfly Effect
+|-damage|p1a: Butterfly Effect|0 fnt
+|faint|p1a: Butterfly Effect
+|-end|p1a: Butterfly Effect|Protosynthesis|[silent]
+|
+|-damage|p2a: Raging Bolt|38/100 brn|[from] brn
+|upkeep
+|
+|t:|1758310771
+|switch|p1a: Rock Nation|Garganacl, M|100/100
+|turn|18
+|
+|t:|1758310777
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Rock Nation
+|-damage|p1a: Rock Nation|26/100
+|move|p1a: Rock Nation|Salt Cure|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|27/100 brn
+|-start|p2a: Raging Bolt|Salt Cure
+|
+|-heal|p1a: Rock Nation|32/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|21/100 brn|[from] brn
+|-damage|p2a: Raging Bolt|8/100 brn|[from] Salt Cure
+|upkeep
+|turn|19
+|
+|t:|1758310783
+|move|p1a: Rock Nation|Protect|p1a: Rock Nation
+|-singleturn|p1a: Rock Nation|Protect
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Rock Nation
+|-activate|p1a: Rock Nation|move: Protect
+|
+|-heal|p1a: Rock Nation|38/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|2/100 brn|[from] brn
+|-damage|p2a: Raging Bolt|0 fnt|[from] Salt Cure
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1758310789
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|20
+|
+|t:|1758310797
+|switch|p1a: Blue Magic|Ogerpon-Wellspring-Tera, F, tera:Water|100/100
+|-ability|p1a: Blue Magic|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Blue Magic|spd|1
+|move|p2a: Ting-Lu|Earthquake|p1a: Blue Magic
+|-damage|p1a: Blue Magic|36/100
+|
+|upkeep
+|turn|21
+|
+|t:|1758310803
+|move|p1a: Blue Magic|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|70/100
+|-enditem|p2a: Ting-Lu|Weakness Policy
+|-boost|p2a: Ting-Lu|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Ting-Lu|spa|2|[from] item: Weakness Policy
+|
+|t:|1758310805
+|switch|p1a: Alomomola|Alomomola, M|100/100|[from] U-turn
+|move|p2a: Ting-Lu|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|55/100
+|
+|upkeep
+|turn|22
+|
+|t:|1758310812
+|move|p2a: Ting-Lu|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|6/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|23
+|
+|t:|1758310818
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Ting-Lu|Earthquake|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|56/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|24
+|
+|t:|1758310824
+|move|p2a: Ting-Lu|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|3/100
+|move|p1a: Alomomola|Scald|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|55/100
+|-status|p2a: Ting-Lu|brn
+|
+|-damage|p2a: Ting-Lu|49/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1758310829
+|move|p2a: Ting-Lu|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|-damage|p2a: Ting-Lu|42/100 brn|[from] brn
+|upkeep
+|
+|t:|1758310831
+|switch|p1a: Blue Magic|Ogerpon-Wellspring-Tera, F, tera:Water|36/100
+|-ability|p1a: Blue Magic|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Blue Magic|spd|1
+|turn|26
+|
+|t:|1758310833
+|move|p1a: Blue Magic|Ivy Cudgel|p2a: Ting-Lu|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1758310835
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|27
+|
+|t:|1758310839
+|move|p1a: Blue Magic|U-turn|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|88/100
+|
+|t:|1758310841
+|switch|p1a: Dior on my body|Gholdengo|9/100|[from] U-turn
+|move|p2a: Iron Treads|Earthquake|p1a: Dior on my body
+|-supereffective|p1a: Dior on my body
+|-damage|p1a: Dior on my body|0 fnt
+|faint|p1a: Dior on my body
+|
+|upkeep
+|
+|t:|1758310845
+|switch|p1a: Blue Magic|Ogerpon-Wellspring-Tera, F, tera:Water|36/100
+|-ability|p1a: Blue Magic|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Blue Magic|spd|1
+|turn|28
+|
+|t:|1758310849
+|move|p1a: Blue Magic|Ivy Cudgel|p2a: Iron Treads|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|win|zokua
+|n|☆zokua|zokua
+|n|☆Lkapkd|lkapkd
+|n|*Lady Monita ☀|ladymonita
+|n| Albrtix|albrtix
+|l|*Lady Monita ☀
+|l|☆Lkapkd
+|player|p2|
+|l|☆zokua
+|player|p1|

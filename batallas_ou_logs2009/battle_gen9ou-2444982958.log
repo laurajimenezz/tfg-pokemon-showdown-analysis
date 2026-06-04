@@ -1,0 +1,237 @@
+|j|☆mr.diversity
+|j|☆anamchara
+|t:|1758293483
+|gametype|singles
+|player|p1|mr.diversity|266|1779
+|player|p2|anamchara|170|1785
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Great Tusk|
+|poke|p1|Heatran, M|
+|poke|p1|Clodsire, M|
+|poke|p1|Armarouge, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Glimmora, M|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|t:|1758293489
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mr.diversity)
+|
+|t:|1758293520
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|move|p1a: Cinderace|High Jump Kick|p2a: Glimmora
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: mr.diversity|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1758293541
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|2
+|
+|t:|1758293543
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|-sideend|p1: mr.diversity|move: Toxic Spikes|[of] p1a: Clodsire
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1758293548
+|move|p2a: Iron Valiant|Knock Off|p1a: Clodsire
+|-damage|p1a: Clodsire|22/100
+|-enditem|p1a: Clodsire|Leftovers|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Clodsire|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|66/100
+|
+|upkeep
+|turn|4
+|
+|t:|1758293562
+|move|p2a: Iron Valiant|Knock Off|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|upkeep
+|
+|t:|1758293570
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Valiant|atk|1
+|turn|5
+|
+|t:|1758293583
+|-terastallize|p2a: Iron Valiant|Dark
+|move|p2a: Iron Valiant|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|22/100
+|-enditem|p1a: Landorus|Choice Band|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Landorus|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758293587
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|6
+|
+|t:|1758293589
+|move|p2a: Ogerpon|Trailblaze|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-boost|p2a: Ogerpon|spe|1
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1758293594
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|7
+|
+|t:|1758293606
+|-terastallize|p1a: Great Tusk|Ice
+|move|p2a: Ogerpon|Horn Leech|p1a: Great Tusk
+|-damage|p1a: Great Tusk|66/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Ogerpon
+|-damage|p2a: Ogerpon|68/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1758293610
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Great Tusk|[anim] Ivy Cudgel Water
+|-damage|p1a: Great Tusk|19/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Ogerpon
+|-damage|p2a: Ogerpon|35/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|upkeep
+|turn|9
+|
+|t:|1758293621
+|move|p1a: Great Tusk|Close Combat|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1758293624
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|10
+|
+|t:|1758293627
+|move|p2a: Samurott|Sucker Punch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758293628
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|11
+|
+|t:|1758293648
+|move|p1a: Cinderace|U-turn|p2a: Samurott
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p2a: Samurott
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|t:|1758293652
+|switch|p1a: Armarouge|Armarouge, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1758293673
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|12
+|
+|t:|1758293676
+|move|p1a: Armarouge|Endure|p1a: Armarouge
+|-singleturn|p1a: Armarouge|move: Endure
+|move|p2a: Meowscarada|Triple Axel|p1a: Armarouge|[miss]
+|-start|p2a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-miss|p2a: Meowscarada|p1a: Armarouge
+|
+|upkeep
+|turn|13
+|j| king of spycrabs
+|
+|t:|1758293688
+|move|p2a: Meowscarada|Triple Axel|p1a: Armarouge
+|-resisted|p1a: Armarouge
+|-damage|p1a: Armarouge|95/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|-resisted|p1a: Armarouge
+|-damage|p1a: Armarouge|79/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|-resisted|p1a: Armarouge
+|-crit|p1a: Armarouge
+|-damage|p1a: Armarouge|29/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|-hitcount|p1a: Armarouge|3
+|move|p1a: Armarouge|Armor Cannon|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1758293701
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|14
+|-message|anamchara forfeited.
+|
+|win|mr.diversity
+|raw|mr.diversity's rating: 1779 &rarr; <strong>1798</strong><br />(+19 for winning)
+|raw|anamchara's rating: 1760 &rarr; <strong>1741</strong><br />(-19 for losing)
+|l|☆anamchara
+|player|p2|
+|l|☆mr.diversity
+|player|p1|
+|l| king of spycrabs

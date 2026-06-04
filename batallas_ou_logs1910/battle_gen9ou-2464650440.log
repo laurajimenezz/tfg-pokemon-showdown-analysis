@@ -1,0 +1,256 @@
+|j|☆random05
+|j|☆complexities
+|t:|1760887344
+|gametype|singles
+|player|p1|random05|preschooler|1155
+|player|p2|complexities|101|1157
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Granbull, M|
+|poke|p1|Lucario, F|
+|poke|p1|Arcanine, M|
+|poke|p1|Volcanion|
+|poke|p1|Toedscruel, F|
+|poke|p1|Indeedee, M|
+|poke|p2|Ninetales, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Cinderace, M|
+|poke|p2|Walking Wake|
+|poke|p2|Slither Wing|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1760887356
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Granbull|Granbull, M|100/100
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Ninetales|atk|1
+|turn|1
+|
+|t:|1760887363
+|move|p2a: Ninetales|Weather Ball|p1a: Granbull
+|-damage|p1a: Granbull|39/100
+|move|p1a: Granbull|Super Fang|p2a: Ninetales
+|-damage|p2a: Ninetales|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760887371
+|switch|p1a: Volcanion|Volcanion|100/100
+|move|p2a: Ninetales|Weather Ball|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|88/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760887383
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Volcanion|Earth Power|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|64/100
+|-damage|p1a: Volcanion|78/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760887392
+|switch|p1a: Toedscruel|Toedscruel, F|100/100
+|move|p2a: Raging Bolt|Solar Beam||[still]
+|-prepare|p2a: Raging Bolt|Solar Beam
+|-anim|p2a: Raging Bolt|Solar Beam|p1a: Toedscruel
+|-damage|p1a: Toedscruel|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760887408
+|-terastallize|p1a: Toedscruel|Ground
+|move|p1a: Toedscruel|Earth Power|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|25/100
+|move|p2a: Raging Bolt|Weather Ball|p1a: Toedscruel
+|-damage|p1a: Toedscruel|0 fnt
+|faint|p1a: Toedscruel
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760887419
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|6
+|
+|t:|1760887426
+|move|p1a: Indeedee|Expanding Force|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760887431
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|7
+|
+|t:|1760887436
+|move|p2a: Cinderace|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|1/100
+|
+|t:|1760887441
+|switch|p2a: Slither Wing|Slither Wing|100/100|[from] U-turn
+|-activate|p2a: Slither Wing|ability: Protosynthesis
+|-start|p2a: Slither Wing|protosynthesisatk
+|move|p1a: Indeedee|Expanding Force|p2a: Slither Wing
+|-supereffective|p2a: Slither Wing
+|-damage|p2a: Slither Wing|0 fnt
+|faint|p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760887443
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|8
+|
+|t:|1760887451
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|move|p2a: Cinderace|U-turn|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|92/100
+|
+|t:|1760887460
+|switch|p2a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1760887466
+|move|p2a: Walking Wake|Draco Meteor|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|t:|1760887490
+|switch|p1a: Lucario|Lucario, F|100/100
+|turn|10
+|
+|t:|1760887496
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Ninetales|Ninetales, F|51/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Lucario|Dragon Pulse|p2a: Ninetales
+|-damage|p2a: Ninetales|23/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|11
+|
+|t:|1760887507
+|move|p1a: Lucario|Extreme Speed|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760887509
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|12
+|
+|t:|1760887519
+|switch|p1a: Granbull|Granbull, M|39/100
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Zamazenta|atk|1
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1760887523
+|move|p2a: Zamazenta|Body Press|p1a: Granbull
+|-resisted|p1a: Granbull
+|-damage|p1a: Granbull|0 fnt
+|faint|p1a: Granbull
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760887526
+|switch|p1a: Indeedee|Indeedee, M|1/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|14
+|
+|t:|1760887531
+|move|p2a: Zamazenta|Crunch|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760887536
+|switch|p1a: Volcanion|Volcanion|78/100
+|turn|15
+|
+|t:|1760887539
+|move|p2a: Zamazenta|Body Press|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760887543
+|switch|p1a: Lucario|Lucario, F|100/100
+|turn|16
+|
+|t:|1760887547
+|move|p2a: Zamazenta|Body Press|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|win|complexities
+|raw|random05's rating: 1155 &rarr; <strong>1130</strong><br />(-25 for losing)
+|raw|complexities's rating: 1157 &rarr; <strong>1182</strong><br />(+25 for winning)
+|l|☆complexities
+|player|p2|

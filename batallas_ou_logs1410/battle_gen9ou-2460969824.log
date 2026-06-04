@@ -1,0 +1,253 @@
+|j|☆bananana324
+|j|☆witdflow
+|t:|1760380264
+|gametype|singles
+|player|p1|bananana324|102|1166
+|player|p2|witdflow|norman|1213
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Munkidori, M|
+|poke|p1|Garganacl, F|
+|poke|p1|Moltres|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Dondozo, F|
+|poke|p1|Glimmora, M|
+|poke|p2|Clefable, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Alomomola, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Ditto|
+|poke|p2|Grimmsnarl, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bananana324)
+|
+|t:|1760380275
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Munkidori|Munkidori, M|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Munkidori|[from] ability: Imposter
+|turn|1
+|
+|t:|1760380283
+|move|p1a: Munkidori|Fake Out|p2a: Ditto
+|-damage|p2a: Ditto|83/100
+|cant|p2a: Ditto|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1760380289
+|move|p2a: Ditto|Future Sight|p1a: Munkidori
+|-start|p2a: Ditto|move: Future Sight
+|move|p1a: Munkidori|Future Sight|p2a: Ditto
+|-start|p1a: Munkidori|move: Future Sight
+|
+|upkeep
+|turn|3
+|
+|t:|1760380300
+|move|p1a: Munkidori|Parting Shot|p2a: Ditto
+|-unboost|p2a: Ditto|atk|1
+|-unboost|p2a: Ditto|spa|1
+|
+|t:|1760380304
+|switch|p1a: Glimmora|Glimmora, M|100/100|[from] Parting Shot
+|move|p2a: Ditto|U-turn|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|94/100
+|
+|t:|1760380314
+|switch|p2a: Ting-Lu|Ting-Lu, shiny|100/100|[from] U-turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|upkeep
+|turn|4
+|
+|t:|1760380320
+|move|p1a: Glimmora|Mortal Spin|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|99/100
+|-status|p2a: Ting-Lu|psn
+|move|p2a: Ting-Lu|Sand Tomb|p1a: Glimmora|[miss]
+|-miss|p2a: Ting-Lu|p1a: Glimmora
+|
+|-end|p1a: Glimmora|move: Future Sight
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|72/100
+|-end|p2a: Ting-Lu|move: Future Sight
+|-immune|p2a: Ting-Lu
+|-heal|p2a: Ting-Lu|100/100 psn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|88/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1760380334
+|move|p1a: Glimmora|Stealth Rock|p2a: Ting-Lu
+|-sidestart|p2: witdflow|move: Stealth Rock
+|move|p2a: Ting-Lu|Sand Tomb|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|16/100
+|-activate|p1a: Glimmora|move: Sand Tomb|[of] p2a: Ting-Lu
+|
+|-heal|p2a: Ting-Lu|94/100 psn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|82/100 psn|[from] psn
+|-damage|p1a: Glimmora|3/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1760380344
+|move|p1a: Glimmora|Memento|p2a: Ting-Lu
+|-unboost|p2a: Ting-Lu|atk|2
+|-unboost|p2a: Ting-Lu|spa|2
+|faint|p1a: Glimmora
+|move|p2a: Ting-Lu|Sand Tomb|p1: Glimmora|[notarget]
+|-fail|p2a: Ting-Lu
+|
+|-heal|p2a: Ting-Lu|88/100 psn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|76/100 psn|[from] psn
+|upkeep
+|
+|t:|1760380355
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|turn|7
+|
+|t:|1760380361
+|move|p2a: Ting-Lu|Sand Tomb|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|93/100
+|-activate|p1a: Garganacl|move: Sand Tomb|[of] p2a: Ting-Lu
+|move|p1a: Garganacl|Salt Cure|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|72/100 psn
+|-start|p2a: Ting-Lu|Salt Cure
+|
+|-heal|p2a: Ting-Lu|78/100 psn|[from] item: Leftovers
+|-heal|p1a: Garganacl|99/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|65/100 psn|[from] psn
+|-damage|p2a: Ting-Lu|53/100 psn|[from] Salt Cure
+|-damage|p1a: Garganacl|87/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1760380373
+|move|p2a: Ting-Lu|Ruination|p1a: Garganacl
+|-damage|p1a: Garganacl|44/100
+|move|p1a: Garganacl|Salt Cure|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|49/100 psn
+|
+|-heal|p2a: Ting-Lu|56/100 psn|[from] item: Leftovers
+|-heal|p1a: Garganacl|50/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|43/100 psn|[from] psn
+|-damage|p2a: Ting-Lu|31/100 psn|[from] Salt Cure
+|-damage|p1a: Garganacl|38/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1760380384
+|move|p2a: Ting-Lu|Rest|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|slp|[from] move: Rest
+|-heal|p2a: Ting-Lu|100/100 slp|[silent]
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|88/100
+|
+|-heal|p1a: Garganacl|94/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|88/100 slp|[from] Salt Cure
+|-damage|p1a: Garganacl|81/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1760380400
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|move|p1a: Garganacl|Salt Cure|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|77/100
+|-start|p2a: Grimmsnarl|Salt Cure
+|
+|-heal|p1a: Garganacl|88/100|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|65/100|[from] Salt Cure
+|-end|p1a: Garganacl|Sand Tomb|[partiallytrapped]|[silent]
+|upkeep
+|turn|11
+|
+|t:|1760380410
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: witdflow|Reflect
+|move|p1a: Garganacl|Substitute|p1a: Garganacl
+|-start|p1a: Garganacl|Substitute
+|-damage|p1a: Garganacl|63/100
+|
+|-heal|p1a: Garganacl|69/100|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|52/100|[from] Salt Cure
+|upkeep
+|turn|12
+|
+|t:|1760380419
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: witdflow|move: Light Screen
+|move|p1a: Garganacl|Salt Cure|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|47/100
+|
+|-heal|p1a: Garganacl|75/100|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|34/100|[from] Salt Cure
+|upkeep
+|turn|13
+|
+|t:|1760380428
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|81/100|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|22/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1760380436
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Garganacl
+|-unboost|p1a: Garganacl|atk|1
+|-unboost|p1a: Garganacl|spa|1
+|
+|t:|1760380463
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|100/100|[from] Parting Shot
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Garganacl|Salt Cure|p2a: Slowking
+|-damage|p2a: Slowking|83/100
+|-start|p2a: Slowking|Salt Cure
+|
+|-heal|p1a: Garganacl|87/100|[from] item: Leftovers
+|-damage|p2a: Slowking|71/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1760380472
+|move|p1a: Garganacl|Salt Cure|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|48/100
+|move|p2a: Slowking|Psychic Noise|p1a: Garganacl
+|-damage|p1a: Garganacl|63/100
+|-start|p1a: Garganacl|move: Heal Block
+|
+|-damage|p2a: Slowking|36/100|[from] Salt Cure
+|upkeep
+|turn|16
+|-message|witdflow forfeited.
+|
+|win|bananana324
+|raw|bananana324's rating: 1166 &rarr; <strong>1194</strong><br />(+28 for winning)
+|raw|witdflow's rating: 1213 &rarr; <strong>1185</strong><br />(-28 for losing)
+|l|☆witdflow
+|player|p2|

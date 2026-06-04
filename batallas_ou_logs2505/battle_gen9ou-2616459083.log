@@ -1,0 +1,484 @@
+|j|☆gyhe
+|j|☆bug fan5762
+|t:|1779562559
+|gametype|singles
+|player|p1|gyhe|266|1635
+|player|p2|bug fan5762|byron|1659
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Lokix, F|
+|poke|p1|Pecharunt|
+|poke|p1|Zamazenta-*|
+|poke|p1|Ting-Lu|
+|poke|p1|Latios, M|
+|poke|p1|Gliscor, F|
+|poke|p2|Yanmega, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Alomomola, M|
+|poke|p2|Regieleki|
+|poke|p2|Hatterene, F|
+|teampreview
+|j| Kyurem
+|
+|t:|1779562612
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Yanmega|Yanmega, F, shiny|100/100
+|turn|1
+|
+|t:|1779562625
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1779562630
+|move|p1a: Gliscor|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|83/100
+|-enditem|p2a: Hatterene|Leftovers|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Hatterene|Psychic Noise|p1a: Gliscor
+|-damage|p1a: Gliscor|74/100 tox
+|-start|p1a: Gliscor|move: Heal Block
+|
+|upkeep
+|turn|3
+|
+|t:|1779562639
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Hatterene|Draining Kiss|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-end|p1a: Gliscor|move: Heal Block
+|upkeep
+|turn|4
+|
+|t:|1779562642
+|move|p1a: Gliscor|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|69/100
+|
+|t:|1779562663
+|switch|p1a: Pecharunt|Pecharunt|100/100|[from] U-turn
+|move|p2a: Hatterene|Psychic Noise|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|35/100
+|-start|p1a: Pecharunt|move: Heal Block
+|
+|upkeep
+|turn|5
+|
+|t:|1779562672
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|91/100
+|-status|p2a: Garchomp|tox
+|-start|p2a: Garchomp|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-damage|p2a: Garchomp|85/100 tox|[from] psn
+|-end|p1a: Pecharunt|move: Heal Block
+|upkeep
+|turn|6
+|
+|t:|1779562679
+|switch|p1a: Latios|Latios, M|100/100
+|-activate|p2a: Garchomp|confusion
+|move|p2a: Garchomp|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[from] ability: Levitate
+|
+|-damage|p2a: Garchomp|72/100 tox|[from] psn
+|upkeep
+|turn|7
+|j| Jokaida
+|
+|t:|1779562690
+|switch|p2a: Hatterene|Hatterene, F|69/100
+|move|p1a: Latios|Draco Meteor|p2a: Hatterene
+|-immune|p2a: Hatterene
+|
+|upkeep
+|turn|8
+|
+|t:|1779562695
+|move|p1a: Latios|Psychic Noise|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|45/100
+|-start|p2a: Hatterene|move: Heal Block
+|cant|p2a: Hatterene|move: Heal Block|Draining Kiss
+|
+|upkeep
+|turn|9
+|
+|t:|1779562704
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Latios|Psychic Noise|p2a: Ogerpon
+|-damage|p2a: Ogerpon|49/100
+|-start|p2a: Ogerpon|move: Heal Block
+|
+|upkeep
+|turn|10
+|
+|t:|1779562708
+|move|p2a: Ogerpon|U-turn|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|31/100
+|
+|t:|1779562710
+|switch|p2a: Hatterene|Hatterene, F|45/100|[from] U-turn
+|move|p1a: Latios|Psychic Noise|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|22/100
+|-start|p2a: Hatterene|move: Heal Block
+|
+|upkeep
+|turn|11
+|
+|t:|1779562714
+|move|p1a: Latios|Recover|p1a: Latios
+|-heal|p1a: Latios|81/100
+|move|p2a: Hatterene|Nuzzle|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|78/100
+|-status|p1a: Latios|par
+|
+|-end|p2a: Hatterene|move: Heal Block
+|upkeep
+|turn|12
+|
+|t:|1779562722
+|switch|p2a: Garchomp|Garchomp, F|72/100 tox
+|move|p1a: Latios|Psychic Noise|p2a: Garchomp
+|-damage|p2a: Garchomp|39/100 tox
+|-start|p2a: Garchomp|move: Heal Block
+|
+|-damage|p2a: Garchomp|33/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1779562729
+|switch|p1a: Gliscor|Gliscor, F|74/100 tox
+|move|p2a: Garchomp|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: gyhe|move: Stealth Rock
+|
+|-damage|p2a: Garchomp|21/100 tox|[from] psn
+|-heal|p1a: Gliscor|86/100 tox|[from] ability: Poison Heal
+|-end|p2a: Garchomp|move: Heal Block
+|upkeep
+|turn|14
+|
+|t:|1779562739
+|move|p2a: Garchomp|Spikes|p1a: Gliscor
+|-sidestart|p1: gyhe|Spikes
+|move|p1a: Gliscor|Knock Off|p2a: Garchomp
+|-damage|p2a: Garchomp|1/100 tox
+|-damage|p1a: Gliscor|74/100 tox|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Gliscor|57/100 tox|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|-enditem|p2a: Garchomp|Rocky Helmet|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-damage|p2a: Garchomp|0 fnt|[from] psn
+|faint|p2a: Garchomp
+|-heal|p1a: Gliscor|70/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1779562745
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|49/100
+|turn|15
+|
+|t:|1779562749
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Gliscor|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1779562754
+|switch|p1a: Lokix|Lokix, F|100/100
+|turn|16
+|
+|t:|1779562761
+|switch|p2a: Hatterene|Hatterene, F|22/100
+|move|p1a: Lokix|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1779562764
+|switch|p2a: Yanmega|Yanmega, F, shiny|100/100
+|turn|17
+|
+|t:|1779562781
+|switch|p1a: Pecharunt|Pecharunt|35/100
+|move|p2a: Yanmega|Bug Buzz|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|2/100
+|
+|upkeep
+|turn|18
+|
+|t:|1779562785
+|move|p2a: Yanmega|Bug Buzz|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1779562796
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-damage|p1a: Ting-Lu|94/100|[from] Stealth Rock
+|-damage|p1a: Ting-Lu|82/100|[from] Spikes
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|19
+|
+|t:|1779562803
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: bug fan5762|move: Stealth Rock
+|
+|-heal|p1a: Ting-Lu|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1779562812
+|move|p1a: Ting-Lu|Ruination|p2a: Alomomola|[miss]
+|-miss|p1a: Ting-Lu|p2a: Alomomola
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Ting-Lu|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1779562816
+|move|p2a: Alomomola|Flip Turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|77/100
+|
+|t:|1779562820
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|49/100|[from] Flip Turn
+|-damage|p2a: Ogerpon|37/100|[from] Stealth Rock
+|move|p1a: Ting-Lu|Whirlwind|p2a: Ogerpon
+|drag|p2a: Yanmega|Yanmega, F, shiny|100/100
+|-damage|p2a: Yanmega|50/100|[from] Stealth Rock
+|
+|-heal|p2a: Yanmega|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Ting-Lu|83/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1779562827
+|move|p2a: Yanmega|Bug Buzz|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|32/100
+|move|p1a: Ting-Lu|Ruination|p2a: Yanmega
+|-damage|p2a: Yanmega|50/100
+|
+|-heal|p1a: Ting-Lu|39/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1779562837
+|switch|p1a: Latios|Latios, M|78/100 par
+|-damage|p1a: Latios|66/100 par|[from] Stealth Rock
+|move|p2a: Yanmega|Bug Buzz|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+|
+|t:|1779562839
+|switch|p1a: Lokix|Lokix, F|100/100
+|turn|24
+|
+|t:|1779562844
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Lokix|First Impression|p2a: Alomomola
+|-damage|p2a: Alomomola|79/100
+|
+|upkeep
+|turn|25
+|
+|t:|1779562848
+|move|p1a: Lokix|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|54/100
+|-enditem|p2a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Lokix
+|move|p2a: Alomomola|Flip Turn|p1a: Lokix
+|-damage|p1a: Lokix|75/100
+|
+|t:|1779562851
+|switch|p2a: Regieleki|Regieleki|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|26
+|
+|t:|1779562857
+|move|p2a: Regieleki|Substitute|p2a: Regieleki
+|-start|p2a: Regieleki|Substitute
+|-damage|p2a: Regieleki|76/100
+|move|p1a: Lokix|Knock Off|p2a: Regieleki
+|-end|p2a: Regieleki|Substitute
+|
+|upkeep
+|turn|27
+|
+|t:|1779562862
+|move|p2a: Regieleki|Substitute|p2a: Regieleki
+|-start|p2a: Regieleki|Substitute
+|-damage|p2a: Regieleki|51/100
+|move|p1a: Lokix|Knock Off|p2a: Regieleki
+|-end|p2a: Regieleki|Substitute
+|
+|upkeep
+|turn|28
+|
+|t:|1779562866
+|move|p2a: Regieleki|Substitute|p2a: Regieleki
+|-start|p2a: Regieleki|Substitute
+|-damage|p2a: Regieleki|26/100
+|move|p1a: Lokix|Knock Off|p2a: Regieleki
+|-end|p2a: Regieleki|Substitute
+|
+|upkeep
+|turn|29
+|
+|t:|1779562869
+|switch|p2a: Alomomola|Alomomola, M|88/100
+|-damage|p2a: Alomomola|75/100|[from] Stealth Rock
+|move|p1a: Lokix|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|58/100
+|
+|upkeep
+|turn|30
+|
+|t:|1779562877
+|move|p1a: Lokix|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|42/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|31
+|
+|t:|1779562884
+|move|p1a: Lokix|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|27/100
+|move|p2a: Alomomola|Flip Turn|p1a: Lokix
+|-damage|p1a: Lokix|49/100
+|
+|t:|1779562886
+|switch|p2a: Regieleki|Regieleki|26/100|[from] Flip Turn
+|
+|-heal|p2a: Regieleki|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|32
+|
+|t:|1779562890
+|move|p2a: Regieleki|Thunderbolt|p1a: Lokix
+|-damage|p1a: Lokix|0 fnt
+|faint|p1a: Lokix
+|
+|upkeep
+|
+|t:|1779562896
+|switch|p1a: Ting-Lu|Ting-Lu|39/100
+|-damage|p1a: Ting-Lu|32/100|[from] Stealth Rock
+|-damage|p1a: Ting-Lu|20/100|[from] Spikes
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|33
+|
+|t:|1779562903
+|switch|p2a: Alomomola|Alomomola, M|60/100
+|-damage|p2a: Alomomola|48/100|[from] Stealth Rock
+|move|p1a: Ting-Lu|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|27/100
+|
+|-heal|p1a: Ting-Lu|26/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1779562907
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Ting-Lu|Whirlwind|p2a: Alomomola
+|drag|p2a: Ogerpon|Ogerpon-Wellspring, F|37/100
+|-damage|p2a: Ogerpon|25/100|[from] Stealth Rock
+|
+|-heal|p1a: Ting-Lu|32/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1779562912
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Ting-Lu|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-heal|p2a: Ogerpon|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|
+|t:|1779562914
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|36
+|
+|t:|1779562919
+|move|p1a: Zamazenta|Crunch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|67/100
+|move|p2a: Ogerpon|Encore|p1a: Zamazenta
+|-start|p1a: Zamazenta|Encore
+|
+|upkeep
+|turn|37
+|
+|t:|1779562925
+|move|p1a: Zamazenta|Crunch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|35/100
+|move|p2a: Ogerpon|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|91/100
+|j| kirindoto
+|
+|t:|1779562926
+|switch|p2a: Regieleki|Regieleki|100/100|[from] U-turn
+|
+|upkeep
+|turn|38
+|
+|t:|1779562929
+|-terastallize|p2a: Regieleki|Electric
+|move|p2a: Regieleki|Thunderbolt|p1a: Zamazenta
+|-damage|p1a: Zamazenta|24/100
+|move|p1a: Zamazenta|Crunch|p2a: Regieleki
+|-damage|p2a: Regieleki|46/100
+|
+|upkeep
+|turn|39
+|l| kirindoto
+|
+|t:|1779562932
+|move|p2a: Regieleki|Thunderbolt|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|win|bug fan5762
+|raw|gyhe's rating: 1635 &rarr; <strong>1616</strong><br />(-19 for losing)
+|raw|bug fan5762's rating: 1659 &rarr; <strong>1678</strong><br />(+19 for winning)
+|l|☆bug fan5762
+|player|p2|
+|l| Jokaida

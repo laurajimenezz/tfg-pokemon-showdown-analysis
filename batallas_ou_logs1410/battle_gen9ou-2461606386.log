@@ -1,0 +1,241 @@
+|j|☆Korkie
+|j|☆liouts
+|t:|1760462532
+|gametype|singles
+|player|p1|Korkie|backersf|1200
+|player|p2|liouts|fisherman-gen4|1234
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Overqwil, M|
+|poke|p1|Ursaluna, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Scizor, M|
+|poke|p1|Hitmontop, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Barraskewda, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Cramorant, F|
+|poke|p2|Dondozo, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Korkie)
+|
+|t:|1760462549
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1760462576
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|move|p1a: Ogerpon|Play Rough|p2a: Dondozo
+|-damage|p2a: Dondozo|84/100
+|
+|-heal|p2a: Dondozo|91/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1760462585
+|move|p1a: Ogerpon|Power Whip|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|28/100
+|move|p2a: Dondozo|Liquidation|p1a: Ogerpon
+|-damage|p1a: Ogerpon|63/100
+|
+|-heal|p2a: Dondozo|34/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1760462594
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Ogerpon|Power Whip|p2a: Pelipper
+|-damage|p2a: Pelipper|46/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760462615
+|switch|p2a: Cramorant|Cramorant, F|100/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Cramorant|[anim] Ivy Cudgel Rock
+|-supereffective|p2a: Cramorant
+|-damage|p2a: Cramorant|0 fnt
+|faint|p2a: Cramorant
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760462620
+|switch|p2a: Barraskewda|Barraskewda, F, shiny|100/100
+|turn|5
+|
+|t:|1760462625
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|move|p2a: Barraskewda|Liquidation|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|-damage|p2a: Barraskewda|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760462631
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|turn|6
+|
+|t:|1760462644
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Pelipper|Hurricane|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|85/100
+|-start|p2a: Raging Bolt|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760462657
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|-activate|p2a: Raging Bolt|confusion
+|-damage|p2a: Raging Bolt|80/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1760462664
+|move|p1a: Ursaluna|Facade|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1760462668
+|switch|p2a: Barraskewda|Barraskewda, F, shiny|91/100
+|turn|9
+|
+|t:|1760462670
+|-terastallize|p1a: Ursaluna|Ghost
+|move|p2a: Barraskewda|Liquidation|p1a: Ursaluna
+|-damage|p1a: Ursaluna|23/100 brn
+|-damage|p2a: Barraskewda|81/100|[from] item: Life Orb
+|move|p1a: Ursaluna|Facade|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|17/100 brn|[from] brn
+|upkeep
+|
+|t:|1760462679
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|10
+|
+|t:|1760462682
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Ursaluna|[anim] Ivy Cudgel Water
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-weather|none
+|upkeep
+|
+|t:|1760462685
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|11
+|
+|t:|1760462694
+|switch|p2a: Pelipper|Pelipper, M|46/100
+|move|p1a: Pelipper|Hurricane|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760462700
+|switch|p2a: Dondozo|Dondozo, F|34/100
+|turn|12
+|
+|t:|1760462703
+|move|p1a: Pelipper|Hurricane|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760462706
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|13
+|
+|t:|1760462712
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Pelipper|[anim] Ivy Cudgel Water
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|39/100
+|move|p1a: Pelipper|Hurricane|p2a: Ogerpon
+|-damage|p2a: Ogerpon|70/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1760462722
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Scizor|[anim] Ivy Cudgel Water
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760462724
+|switch|p1a: Overqwil|Overqwil, M|100/100
+|turn|15
+|
+|t:|1760462736
+|move|p1a: Overqwil|Poison Jab|p2a: Ogerpon
+|-damage|p2a: Ogerpon|12/100
+|-status|p2a: Ogerpon|psn
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Overqwil|[anim] Ivy Cudgel Water
+|-damage|p1a: Overqwil|0 fnt
+|faint|p1a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ogerpon|0 fnt|[from] psn
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|win|Korkie
+|raw|Korkie's rating: 1200 &rarr; <strong>1227</strong><br />(+27 for winning)
+|raw|liouts's rating: 1234 &rarr; <strong>1207</strong><br />(-27 for losing)
+|l|☆Korkie
+|player|p1|
+|l|☆liouts
+|player|p2|

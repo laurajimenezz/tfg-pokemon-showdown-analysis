@@ -1,0 +1,602 @@
+|j|☆ezequiel_frn
+|j|☆glimpseman
+|t:|1779560394
+|gametype|singles
+|player|p1|ezequiel_frn|101|1294
+|player|p2|glimpseman|#wcor2025canada|1266
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Comfey, F|
+|poke|p1|Quaquaval, M|
+|poke|p1|Iron Moth|
+|poke|p1|Hatterene, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Snorlax, M|
+|poke|p2|Toxtricity, F|
+|poke|p2|Iron Treads|
+|poke|p2|Pecharunt|
+|poke|p2|Clefable, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Darkrai|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by glimpseman)
+|
+|t:|1779560409
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|1
+|
+|t:|1779560423
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Snorlax|Gunk Shot|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1779560435
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|2
+|
+|t:|1779560439
+|move|p2a: Pecharunt|Toxic|p1a: Snorlax
+|-status|p1a: Snorlax|tox
+|-start|p1a: Snorlax|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Snorlax|confusion
+|move|p1a: Snorlax|Earthquake|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|69/100
+|
+|-damage|p1a: Snorlax|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1779560452
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|move|p2a: Pecharunt|Parting Shot|p1a: Iron Moth
+|-unboost|p1a: Iron Moth|atk|1
+|-unboost|p1a: Iron Moth|spa|1
+|
+|t:|1779560459
+|switch|p2a: Darkrai|Darkrai|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|4
+|
+|t:|1779560465
+|move|p2a: Darkrai|Dark Pulse|p1a: Iron Moth
+|-damage|p1a: Iron Moth|57/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Darkrai
+|-damage|p2a: Darkrai|66/100
+|
+|upkeep
+|turn|5
+|
+|t:|1779560472
+|move|p2a: Darkrai|Dark Pulse|p1a: Iron Moth
+|-damage|p1a: Iron Moth|12/100
+|move|p1a: Iron Moth|Discharge|p2a: Darkrai
+|-damage|p2a: Darkrai|43/100
+|-status|p2a: Darkrai|par
+|
+|upkeep
+|turn|6
+|
+|t:|1779560479
+|move|p1a: Iron Moth|Fiery Dance|p2a: Darkrai
+|-damage|p2a: Darkrai|9/100 par
+|move|p2a: Darkrai|Dark Pulse|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779560488
+|switch|p1a: Quaquaval|Quaquaval, M|100/100
+|turn|7
+|
+|t:|1779560493
+|switch|p2a: Pecharunt|Pecharunt|69/100
+|move|p1a: Quaquaval|Aqua Step|p2a: Pecharunt
+|-damage|p2a: Pecharunt|51/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1779560501
+|move|p1a: Quaquaval|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|13/100
+|-enditem|p2a: Pecharunt|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Quaquaval
+|move|p2a: Pecharunt|Toxic|p1a: Quaquaval
+|-status|p1a: Quaquaval|tox
+|-start|p1a: Quaquaval|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-damage|p1a: Quaquaval|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1779560511
+|-activate|p1a: Quaquaval|confusion
+|-damage|p1a: Quaquaval|77/100 tox|[from] confusion
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|63/100
+|
+|-damage|p1a: Quaquaval|65/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1779560518
+|-activate|p1a: Quaquaval|confusion
+|-damage|p1a: Quaquaval|45/100 tox|[from] confusion
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|100/100
+|
+|-damage|p1a: Quaquaval|27/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1779560525
+|-activate|p1a: Quaquaval|confusion
+|move|p1a: Quaquaval|Aqua Step|p2a: Pecharunt
+|-damage|p2a: Pecharunt|81/100
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Pecharunt|Shadow Ball|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|upkeep
+|
+|t:|1779560536
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|12
+|
+|t:|1779560542
+|move|p2a: Pecharunt|Parting Shot|p1a: Hatterene
+|move|p1a: Hatterene|Parting Shot|p2a: Pecharunt|[from] ability: Magic Bounce
+|-unboost|p2a: Pecharunt|atk|1
+|-unboost|p2a: Pecharunt|spa|1
+|
+|t:|1779560550
+|switch|p1a: Enamorus|Enamorus, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|13
+|
+|t:|1779560554
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Pecharunt|Toxic|p1a: Hatterene
+|move|p1a: Hatterene|Toxic|p2a: Pecharunt|[from] ability: Magic Bounce
+|-immune|p2a: Pecharunt
+|
+|upkeep
+|turn|14
+|
+|t:|1779560561
+|move|p2a: Pecharunt|Parting Shot|p1a: Hatterene
+|move|p1a: Hatterene|Parting Shot|p2a: Pecharunt|[from] ability: Magic Bounce
+|-unboost|p2a: Pecharunt|atk|1
+|-unboost|p2a: Pecharunt|spa|1
+|
+|t:|1779560567
+|switch|p1a: Enamorus|Enamorus, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|15
+|
+|t:|1779560572
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Pecharunt|Toxic|p1a: Hatterene
+|move|p1a: Hatterene|Toxic|p2a: Pecharunt|[from] ability: Magic Bounce
+|-immune|p2a: Pecharunt
+|
+|upkeep
+|turn|16
+|
+|t:|1779560582
+|move|p2a: Pecharunt|Parting Shot|p1a: Hatterene
+|move|p1a: Hatterene|Parting Shot|p2a: Pecharunt|[from] ability: Magic Bounce
+|-unboost|p2a: Pecharunt|atk|1
+|-unboost|p2a: Pecharunt|spa|1
+|
+|t:|1779560587
+|switch|p1a: Enamorus|Enamorus, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|17
+|
+|t:|1779560591
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Darkrai|Darkrai|9/100 par
+|
+|upkeep
+|turn|18
+|
+|t:|1779560597
+|cant|p2a: Darkrai|par
+|move|p1a: Hatterene|Future Sight|p2a: Darkrai
+|-start|p1a: Hatterene|move: Future Sight
+|
+|upkeep
+|turn|19
+|
+|t:|1779560603
+|move|p2a: Darkrai|Trick|p1a: Hatterene
+|-activate|p2a: Darkrai|move: Trick|[of] p1a: Hatterene
+|-item|p1a: Hatterene|Choice Scarf|[from] move: Trick
+|-item|p2a: Darkrai|Assault Vest|[from] move: Trick
+|move|p1a: Hatterene|Draining Kiss|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1779560607
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|20
+|
+|t:|1779560613
+|switch|p1a: Snorlax|Snorlax, M|94/100 tox
+|move|p2a: Iron Treads|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|51/100 tox
+|
+|-end|p2a: Iron Treads|move: Future Sight
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|47/100
+|-damage|p1a: Snorlax|45/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1779560623
+|move|p2a: Iron Treads|Stealth Rock|p1a: Snorlax
+|-sidestart|p1: ezequiel_frn|move: Stealth Rock
+|move|p1a: Snorlax|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-enditem|p2a: Iron Treads|Shuca Berry|[eat]
+|-enditem|p2a: Iron Treads|Shuca Berry|[weaken]
+|-damage|p2a: Iron Treads|16/100
+|
+|-damage|p1a: Snorlax|33/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1779560631
+|move|p2a: Iron Treads|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|upkeep
+|
+|t:|1779560637
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1779560643
+|move|p2a: Iron Treads|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|35/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779560653
+|switch|p2a: Pecharunt|Pecharunt|81/100
+|turn|24
+|
+|t:|1779560656
+|move|p2a: Pecharunt|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1779560662
+|switch|p1a: Comfey|Comfey, F|100/100
+|-damage|p1a: Comfey|88/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1779560667
+|-terastallize|p1a: Comfey|Steel
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|move|p2a: Pecharunt|Toxic|p1a: Comfey
+|-immune|p1a: Comfey
+|
+|-heal|p1a: Comfey|94/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1779560676
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|move|p2a: Pecharunt|Parting Shot|p1a: Comfey
+|-unboost|p1a: Comfey|atk|1
+|-unboost|p1a: Comfey|spa|1
+|
+|t:|1779560681
+|switch|p2a: Clefable|Clefable, F|100/100|[from] Parting Shot
+|
+|-heal|p1a: Comfey|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1779560687
+|-terastallize|p2a: Clefable|Steel
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|upkeep
+|turn|28
+|
+|t:|1779560695
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|upkeep
+|turn|29
+|
+|t:|1779560701
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|upkeep
+|turn|30
+|
+|t:|1779560706
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|move|p2a: Clefable|Moonblast|p1a: Comfey
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|88/100
+|
+|-heal|p1a: Comfey|94/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1779560716
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|0
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p1a: Comfey|99/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1779560724
+|move|p1a: Comfey|Stored Power|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|71/100
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|
+|-heal|p1a: Comfey|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1779560733
+|move|p1a: Comfey|Stored Power|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|68/100
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|upkeep
+|turn|34
+|
+|t:|1779560740
+|move|p1a: Comfey|Stored Power|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|39/100
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|upkeep
+|turn|35
+|
+|t:|1779560756
+|move|p1a: Comfey|Stored Power|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|15/100
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|65/100
+|
+|upkeep
+|turn|36
+|
+|t:|1779560767
+|move|p1a: Comfey|Giga Drain|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|59/100
+|move|p2a: Clefable|Moonblast|p1a: Comfey
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|80/100
+|-unboost|p1a: Comfey|spa|1
+|
+|-heal|p1a: Comfey|86/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1779560777
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|0
+|move|p2a: Clefable|Moonblast|p1a: Comfey
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|64/100
+|-unboost|p1a: Comfey|spa|1
+|
+|-heal|p1a: Comfey|70/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1779560786
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|0
+|move|p2a: Clefable|Moonblast|p1a: Comfey
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|49/100
+|
+|-heal|p1a: Comfey|55/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1779560795
+|move|p1a: Comfey|Giga Drain|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|52/100
+|-heal|p1a: Comfey|59/100|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Comfey
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|38/100
+|-unboost|p1a: Comfey|spa|1
+|
+|-heal|p1a: Comfey|44/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1779560808
+|move|p1a: Comfey|Stored Power|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|34/100
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|84/100
+|
+|-heal|p1a: Comfey|50/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1779560817
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|0
+|move|p2a: Clefable|Moonblast|p1a: Comfey
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|28/100
+|
+|-heal|p1a: Comfey|34/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1779560825
+|move|p1a: Comfey|Stored Power|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|60/100
+|move|p2a: Clefable|Moonblast|p1a: Comfey
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|11/100
+|
+|-heal|p1a: Comfey|17/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1779560832
+|move|p1a: Comfey|Stored Power|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|36/100
+|move|p2a: Clefable|Moonblast|p1a: Comfey
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|0 fnt
+|faint|p1a: Comfey
+|
+|upkeep
+|
+|t:|1779560840
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|-damage|p1a: Enamorus|75/100|[from] Stealth Rock
+|turn|44
+|
+|t:|1779560847
+|move|p1a: Enamorus|Superpower|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|t:|1779560852
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|turn|45
+|
+|t:|1779560856
+|move|p2a: Toxtricity|Boomburst|p1a: Enamorus
+|-damage|p1a: Enamorus|27/100
+|-enditem|p2a: Toxtricity|Throat Spray
+|-boost|p2a: Toxtricity|spa|1|[from] item: Throat Spray
+|move|p1a: Enamorus|Earth Power|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|t:|1779560859
+|switch|p2a: Pecharunt|Pecharunt|81/100
+|turn|46
+|
+|t:|1779560867
+|move|p1a: Enamorus|Earth Power|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|5/100
+|move|p2a: Pecharunt|Shadow Ball|p1a: Enamorus
+|-damage|p1a: Enamorus|9/100
+|
+|upkeep
+|turn|47
+|-message|glimpseman forfeited.
+|
+|win|ezequiel_frn
+|raw|ezequiel_frn's rating: 1294 &rarr; <strong>1317</strong><br />(+23 for winning)
+|raw|glimpseman's rating: 1266 &rarr; <strong>1243</strong><br />(-23 for losing)
+|l|☆ezequiel_frn
+|player|p1|
+|l|☆glimpseman
+|player|p2|

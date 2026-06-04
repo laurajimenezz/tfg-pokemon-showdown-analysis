@@ -1,0 +1,340 @@
+|j|☆skinnypetepokemon
+|j|☆miffyc
+|t:|1760760339
+|gametype|singles
+|player|p1|skinnypetepokemon|gambler|1270
+|player|p2|miffyc|preschooler|1303
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Skarmory, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Snorlax, F|
+|poke|p1|Suicune|
+|poke|p1|Metagross|
+|poke|p1|Charizard, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Volcanion|
+|poke|p2|Hydrapple, M|
+|poke|p2|Gholdengo|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by miffyc)
+|
+|t:|1760760369
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Charizard|Charizard, M, shiny|100/100
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|1
+|
+|t:|1760760383
+|switch|p1a: Snorlax|Snorlax, F, shiny|100/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Snorlax
+|-damage|p1a: Snorlax|73/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760760394
+|move|p2a: Volcanion|Will-O-Wisp|p1a: Snorlax
+|-status|p1a: Snorlax|brn
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-damage|p1a: Snorlax|67/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1760760397
+|move|p2a: Volcanion|Steam Eruption|p1a: Snorlax
+|-damage|p1a: Snorlax|42/100 brn
+|move|p1a: Snorlax|Body Slam|p2a: Volcanion
+|-damage|p2a: Volcanion|80/100
+|-status|p2a: Volcanion|par
+|
+|-damage|p1a: Snorlax|36/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1760760402
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|-enditem|p1a: Snorlax|Chesto Berry|[eat]
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|5
+|
+|t:|1760760410
+|switch|p1a: Tyranitar|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760760415
+|move|p2a: Gholdengo|Make It Rain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1760760423
+|switch|p1a: Charizard|Charizard, M, shiny|100/100
+|turn|7
+|
+|t:|1760760428
+|switch|p2a: Volcanion|Volcanion|80/100 par
+|move|p1a: Charizard|Fire Blast|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|68/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|94/100|[from] Sandstorm
+|-damage|p2a: Volcanion|62/100 par|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1760760434
+|move|p1a: Charizard|Substitute|p1a: Charizard
+|-start|p1a: Charizard|Substitute
+|-damage|p1a: Charizard|69/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-end|p1a: Charizard|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|63/100|[from] Sandstorm
+|-damage|p2a: Volcanion|56/100 par|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1760760440
+|move|p1a: Charizard|Substitute|p1a: Charizard
+|-start|p1a: Charizard|Substitute
+|-damage|p1a: Charizard|38/100
+|cant|p2a: Volcanion|par
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1760760447
+|move|p1a: Charizard|Scorching Sands|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|13/100 par
+|cant|p2a: Volcanion|par
+|
+|upkeep
+|turn|11
+|
+|t:|1760760453
+|move|p1a: Charizard|Scorching Sands|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|upkeep
+|
+|t:|1760760455
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|12
+|
+|t:|1760760462
+|move|p1a: Charizard|Substitute|p1a: Charizard
+|-fail|p1a: Charizard|move: Substitute
+|move|p2a: Samurott|Ceaseless Edge|p1a: Charizard
+|-end|p1a: Charizard|Substitute
+|-sidestart|p1: skinnypetepokemon|Spikes
+|
+|upkeep
+|turn|13
+|
+|t:|1760760468
+|move|p1a: Charizard|Substitute|p1a: Charizard
+|-start|p1a: Charizard|Substitute
+|-damage|p1a: Charizard|13/100
+|-enditem|p1a: Charizard|Petaya Berry|[eat]
+|-boost|p1a: Charizard|spa|1|[from] item: Petaya Berry
+|move|p2a: Samurott|Ceaseless Edge|p1a: Charizard
+|-end|p1a: Charizard|Substitute
+|-sidestart|p1: skinnypetepokemon|Spikes
+|
+|upkeep
+|turn|14
+|
+|t:|1760760473
+|move|p2a: Samurott|Sucker Punch|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1760760478
+|switch|p1a: Skarmory|Skarmory, M, shiny|100/100
+|turn|15
+|
+|t:|1760760482
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Skarmory|Swords Dance|p1a: Skarmory
+|-boost|p1a: Skarmory|atk|2
+|
+|upkeep
+|turn|16
+|
+|t:|1760760487
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Skarmory|Iron Head|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|71/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|17
+|
+|t:|1760760490
+|move|p2a: Gholdengo|Shadow Ball|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|t:|1760760496
+|switch|p1a: Metagross|Metagross, shiny|100/100
+|-damage|p1a: Metagross|84/100|[from] Spikes
+|turn|18
+|
+|t:|1760760500
+|move|p1a: Metagross|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|24/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|upkeep
+|
+|t:|1760760505
+|switch|p1a: Snorlax|Snorlax, F, shiny|100/100
+|-damage|p1a: Snorlax|84/100|[from] Spikes
+|turn|19
+|
+|t:|1760760509
+|move|p2a: Gholdengo|Make It Rain|p1a: Snorlax
+|-damage|p1a: Snorlax|21/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|20
+|
+|t:|1760760512
+|move|p2a: Gholdengo|Make It Rain|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Snorlax
+|
+|upkeep
+|
+|t:|1760760515
+|switch|p1a: Suicune|Suicune, shiny|100/100
+|-damage|p1a: Suicune|84/100|[from] Spikes
+|-ability|p1a: Suicune|Pressure
+|turn|21
+|
+|t:|1760760518
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p1a: Suicune|90/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1760760521
+|move|p2a: Gholdengo|Shadow Ball|p1a: Suicune
+|-damage|p1a: Suicune|46/100
+|move|p1a: Suicune|Scald|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-heal|p1a: Suicune|52/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760760528
+|switch|p2a: Hydrapple|Hydrapple, M|100/100
+|turn|23
+|
+|t:|1760760532
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp|[from] move: Rest
+|-heal|p1a: Suicune|100/100 slp|[silent]
+|move|p2a: Hydrapple|Nasty Plot|p2a: Hydrapple
+|-boost|p2a: Hydrapple|spa|2
+|
+|upkeep
+|turn|24
+|
+|t:|1760760535
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Rest||[from] move: Sleep Talk|[still]
+|-fail|p1a: Suicune
+|move|p2a: Hydrapple|Giga Drain|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|43/100 slp
+|
+|-heal|p1a: Suicune|49/100 slp|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1760760541
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Scald|p2a: Hydrapple|[from] move: Sleep Talk
+|-resisted|p2a: Hydrapple
+|-damage|p2a: Hydrapple|91/100
+|move|p2a: Hydrapple|Giga Drain|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|-heal|p2a: Hydrapple|100/100|[from] drain|[of] p1a: Suicune
+|faint|p1a: Suicune
+|
+|win|miffyc
+|raw|skinnypetepokemon's rating: 1270 &rarr; <strong>1247</strong><br />(-23 for losing)
+|raw|miffyc's rating: 1303 &rarr; <strong>1321</strong><br />(+18 for winning)
+|l|☆skinnypetepokemon
+|player|p1|
+|l|☆miffyc
+|player|p2|

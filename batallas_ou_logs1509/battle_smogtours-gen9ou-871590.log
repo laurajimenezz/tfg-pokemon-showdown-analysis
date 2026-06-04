@@ -1,0 +1,407 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1757888518
+|gametype|singles
+|player|p1|foolycl|#scl5foxes2|
+|player|p2|heileone2|pokemonbreederf-gen4|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Glimmora, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Kyurem|
+|poke|p1|Moltres|
+|poke|p2|Ceruledge, F|
+|poke|p2|Great Tusk|
+|poke|p2|Raging Bolt|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Moth|
+|poke|p2|Araquanid, F|
+|teampreview
+|c|☆heileone2|hf
+|c|☆foolycl|hf
+|inactive|foolycl has 270 seconds left.
+|inactive|heileone2 has 270 seconds left.
+|inactive|foolycl has 240 seconds left.
+|inactive|heileone2 has 240 seconds left.
+|rated|Smogon Champions League
+|inactive|foolycl has 210 seconds left.
+|inactive|foolycl has 180 seconds left.
+|
+|t:|1757888641
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Kyurem|Kyurem|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-ability|p1a: Kyurem|Pressure
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|inactive|foolycl has 240 seconds left.
+|inactive|heileone2 has 270 seconds left.
+|inactive|heileone2 has 240 seconds left.
+|
+|t:|1757888710
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|76/100
+|
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1757888720
+|move|p2a: Iron Moth|Fiery Dance|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|move|p1a: Kyurem|Earth Power|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757888727
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|3
+|inactive|foolycl has 240 seconds left.
+|
+|t:|1757888751
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1757888765
+|move|p1a: Glimmora|Power Gem|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|50/100
+|move|p2a: Araquanid|Sticky Web|p1a: Glimmora
+|-sidestart|p1: foolycl|move: Sticky Web
+|
+|upkeep
+|turn|5
+|inactive|foolycl has 210 seconds left.
+|
+|t:|1757888796
+|move|p1a: Glimmora|Power Gem|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|6/100
+|move|p2a: Araquanid|Sticky Web||[still]
+|-fail|p2a: Araquanid
+|
+|upkeep
+|turn|6
+|inactive|foolycl has 210 seconds left.
+|inactive|foolycl has 180 seconds left.
+|
+|t:|1757888839
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-activate|p1a: Dragapult|move: Sticky Web
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|
+|upkeep
+|turn|7
+|inactive|foolycl has 180 seconds left.
+|
+|t:|1757888850
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Araquanid|Araquanid, F|6/100
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Araquanid
+|-immune|p2a: Araquanid|[from] ability: Water Bubble
+|
+|upkeep
+|turn|8
+|inactive|foolycl has 180 seconds left.
+|
+|t:|1757888857
+|move|p1a: Dragapult|Dragon Darts|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757888873
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|9
+|inactive|foolycl has 180 seconds left.
+|
+|t:|1757888895
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Moltres
+|-damage|p1a: Moltres|44/100
+|
+|upkeep
+|turn|10
+|inactive|foolycl has 180 seconds left.
+|
+|t:|1757888928
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|move|p1a: Moltres|Flamethrower|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|79/100
+|
+|upkeep
+|turn|11
+|inactive|foolycl has 150 seconds left.
+|inactive|heileone2 has 210 seconds left.
+|
+|t:|1757888970
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Moltres|Roar|p2a: Ceruledge
+|drag|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|
+|upkeep
+|turn|12
+|
+|t:|1757888977
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Ceruledge|Ceruledge, F|79/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|94/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|upkeep
+|turn|13
+|inactive|heileone2 has 210 seconds left.
+|
+|t:|1757888985
+|move|p2a: Ceruledge|Poltergeist|p1a: Moltres
+|-activate|p1a: Moltres|move: Poltergeist|Heavy-Duty Boots
+|-damage|p1a: Moltres|30/100
+|move|p1a: Moltres|Roar|p2a: Ceruledge
+|drag|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|
+|upkeep
+|turn|14
+|
+|t:|1757888998
+|move|p1a: Moltres|Brave Bird|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-crit|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|73/100
+|-damage|p1a: Moltres|19/100|[from] Recoil
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|inactive|foolycl has 120 seconds left.
+|
+|t:|1757889052
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|-activate|p1a: Glimmora|move: Sticky Web
+|-unboost|p1a: Glimmora|spe|1
+|turn|15
+|
+|t:|1757889057
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|move|p1a: Glimmora|Mortal Spin|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|upkeep
+|turn|16
+|
+|t:|1757889067
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Glimmora|Power Gem|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|80/100
+|-enditem|p2a: Kingambit|Air Balloon
+|
+|upkeep
+|turn|17
+|
+|t:|1757889081
+|move|p2a: Kingambit|Iron Head|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: heileone2|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|inactive|foolycl has 90 seconds left.
+|inactive|foolycl has 60 seconds left.
+|
+|t:|1757889133
+|switch|p1a: Kyurem|Kyurem|88/100
+|-activate|p1a: Kyurem|move: Sticky Web
+|-unboost|p1a: Kyurem|spe|1
+|-ability|p1a: Kyurem|Pressure
+|turn|18
+|inactive|foolycl has 60 seconds left.
+|
+|t:|1757889148
+|-terastallize|p2a: Kingambit|Flying
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|63/100
+|move|p2a: Kingambit|Iron Head|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-heal|p1a: Kyurem|69/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|foolycl has 60 seconds left.
+|
+|t:|1757889162
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|44/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-heal|p1a: Kyurem|51/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1757889166
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|26/100
+|
+|-heal|p1a: Kyurem|32/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1757889171
+|move|p1a: Kyurem|Protect|p1a: Kyurem
+|-singleturn|p1a: Kyurem|Protect
+|move|p2a: Kingambit|Iron Head|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Protect
+|
+|-heal|p1a: Kyurem|38/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1757889173
+|move|p1a: Kyurem|Freeze-Dry|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|-heal|p1a: Kyurem|44/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757889180
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-status|p2a: Great Tusk|psn
+|turn|23
+|
+|t:|1757889186
+|move|p2a: Great Tusk|Rapid Spin|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Substitute|[damage]
+|-sideend|p2: heileone2|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Kyurem|Freeze-Dry|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p1a: Kyurem|50/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757889187
+|switch|p2a: Raging Bolt|Raging Bolt|73/100
+|turn|24
+|
+|t:|1757889200
+|move|p1a: Kyurem|Freeze-Dry|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|7/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|
+|-heal|p1a: Kyurem|57/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1757889204
+|move|p1a: Kyurem|Freeze-Dry|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-heal|p1a: Kyurem|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757889205
+|switch|p2a: Ceruledge|Ceruledge, F|79/100
+|turn|26
+|inactive|foolycl has 120 seconds left.
+|
+|t:|1757889212
+|move|p2a: Ceruledge|Poltergeist|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Poltergeist|Leftovers
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1757889215
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ceruledge|atk|1
+|turn|27
+|
+|t:|1757889217
+|move|p1a: Landorus|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|win|foolycl
+|c|☆heileone2|gg
+|c|☆foolycl|gg
+|player|p2|

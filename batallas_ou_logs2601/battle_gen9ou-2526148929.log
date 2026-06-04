@@ -1,0 +1,311 @@
+|j|☆Ketro
+|j|☆thanous123
+|t:|1769376547
+|gametype|singles
+|player|p1|Ketro|gambler|1323
+|player|p2|thanous123|brycen|1350
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hippopotas, L1, F|
+|poke|p1|Volbeat, L1, M|
+|poke|p1|Pineco, L1, F|
+|poke|p1|Nosepass, L1, F|
+|poke|p1|Flamigo, L1, F|
+|poke|p1|Sudowoodo, L1, F|
+|poke|p2|Primarina, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Moth|
+|poke|p2|Kingambit, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|t:|1769376557
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Volbeat|Volbeat, L1, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Volbeat|atk|1
+|turn|1
+|
+|t:|1769376563
+|move|p1a: Volbeat|Taunt|p2a: Landorus
+|-start|p2a: Landorus|move: Taunt
+|cant|p2a: Landorus|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1769376568
+|move|p2a: Landorus|U-turn|p1a: Volbeat
+|-crit|p1a: Volbeat
+|-enditem|p1a: Volbeat|Focus Sash
+|-damage|p1a: Volbeat|9/100
+|
+|t:|1769376575
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] U-turn
+|move|p1a: Volbeat|Endeavor|p2a: Corviknight
+|-damage|p2a: Corviknight|1/100
+|
+|upkeep
+|turn|3
+|
+|t:|1769376581
+|move|p1a: Volbeat|Quick Attack|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1769376591
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|4
+|
+|t:|1769376595
+|move|p2a: Ogerpon|U-turn|p1a: Volbeat
+|-damage|p1a: Volbeat|0 fnt
+|faint|p1a: Volbeat
+|
+|t:|1769376597
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1769376616
+|switch|p1a: Pineco|Pineco, L1, F|100/100
+|turn|5
+|
+|t:|1769376622
+|move|p2a: Landorus|U-turn|p1a: Pineco
+|-ability|p1a: Pineco|Sturdy
+|-damage|p1a: Pineco|9/100
+|-enditem|p1a: Pineco|Oran Berry|[eat]
+|-heal|p1a: Pineco|92/100|[from] item: Oran Berry
+|
+|t:|1769376634
+|switch|p2a: Primarina|Primarina, M|100/100|[from] U-turn
+|move|p1a: Pineco|Toxic Spikes|p2a: Primarina
+|-sidestart|p2: thanous123|move: Toxic Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1769376641
+|move|p2a: Primarina|Flip Turn|p1a: Pineco
+|-damage|p1a: Pineco|0 fnt
+|faint|p1a: Pineco
+|
+|t:|1769376643
+|switch|p2a: Iron Moth|Iron Moth|100/100|[from] Flip Turn
+|-sideend|p2: thanous123|move: Toxic Spikes|[of] p2a: Iron Moth
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|
+|upkeep
+|
+|t:|1769376649
+|switch|p1a: Hippopotas|Hippopotas, L1, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippopotas
+|turn|7
+|
+|t:|1769376654
+|move|p2a: Iron Moth|Fiery Dance|p1a: Hippopotas
+|-damage|p1a: Hippopotas|0 fnt
+|faint|p1a: Hippopotas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1769376660
+|switch|p1a: Nosepass|Nosepass, L1, F|100/100
+|turn|8
+|
+|t:|1769376666
+|move|p2a: Iron Moth|Fiery Dance|p1a: Nosepass
+|-resisted|p1a: Nosepass
+|-ability|p1a: Nosepass|Sturdy
+|-damage|p1a: Nosepass|10/100
+|-enditem|p1a: Nosepass|Oran Berry|[eat]
+|-heal|p1a: Nosepass|100/100|[from] item: Oran Berry
+|move|p1a: Nosepass|Pain Split|p2a: Iron Moth
+|-sethp|p2a: Iron Moth|49/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Nosepass|100/100|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|43/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1769376677
+|move|p2a: Iron Moth|Fiery Dance|p1a: Nosepass
+|-resisted|p1a: Nosepass
+|-ability|p1a: Nosepass|Sturdy
+|-damage|p1a: Nosepass|10/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Nosepass|Pain Split|p2a: Iron Moth
+|-sethp|p2a: Iron Moth|22/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Nosepass|100/100|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|16/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1769376688
+|move|p2a: Iron Moth|Fiery Dance|p1a: Nosepass
+|-resisted|p1a: Nosepass
+|-ability|p1a: Nosepass|Sturdy
+|-damage|p1a: Nosepass|10/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Nosepass|Pain Split|p2a: Iron Moth
+|-sethp|p2a: Iron Moth|8/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Nosepass|100/100|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|2/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1769376693
+|move|p2a: Iron Moth|Fiery Dance|p1a: Nosepass
+|-resisted|p1a: Nosepass
+|-ability|p1a: Nosepass|Sturdy
+|-damage|p1a: Nosepass|10/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Nosepass|Pain Split|p2a: Iron Moth
+|-sethp|p2a: Iron Moth|1/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Nosepass|28/100|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|0 fnt|[from] Sandstorm
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|upkeep
+|
+|t:|1769376701
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Nosepass|atk|1
+|turn|12
+|
+|t:|1769376706
+|move|p2a: Landorus|U-turn|p1a: Nosepass
+|-damage|p1a: Nosepass|0 fnt
+|faint|p1a: Nosepass
+|
+|t:|1769376711
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1769376716
+|switch|p1a: Sudowoodo|Sudowoodo, L1, F|100/100
+|turn|13
+|
+|t:|1769376727
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Sudowoodo|Endeavor|p2a: Ogerpon
+|-damage|p2a: Ogerpon|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ogerpon|0 fnt|[from] Sandstorm
+|faint|p2a: Ogerpon
+|upkeep
+|
+|t:|1769376734
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Sudowoodo|atk|1
+|turn|14
+|
+|t:|1769376738
+|move|p2a: Landorus|Stealth Rock|p1a: Sudowoodo
+|-sidestart|p1: Ketro|move: Stealth Rock
+|move|p1a: Sudowoodo|Endeavor|p2a: Landorus
+|-damage|p2a: Landorus|4/100
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|t:|1769376744
+|switch|p2a: Primarina|Primarina, M|100/100
+|move|p1a: Sudowoodo|Sucker Punch||[still]
+|-fail|p1a: Sudowoodo
+|
+|upkeep
+|turn|16
+|
+|t:|1769376751
+|move|p2a: Primarina|Flip Turn|p1a: Sudowoodo
+|-supereffective|p1a: Sudowoodo
+|-ability|p1a: Sudowoodo|Sturdy
+|-damage|p1a: Sudowoodo|9/100
+|
+|t:|1769376754
+|switch|p2a: Landorus|Landorus-Therian, M|4/100|[from] Flip Turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Sudowoodo|atk|1
+|move|p1a: Sudowoodo|Endeavor|p2a: Landorus
+|-damage|p2a: Landorus|1/100
+|-heal|p1a: Sudowoodo|17/100|[from] item: Shell Bell|[of] p2a: Landorus
+|
+|upkeep
+|turn|17
+|
+|t:|1769376766
+|move|p1a: Sudowoodo|Sucker Punch|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-heal|p1a: Sudowoodo|25/100|[from] item: Shell Bell|[of] p2: Landorus
+|
+|upkeep
+|
+|t:|1769376768
+|switch|p2a: Primarina|Primarina, M|100/100
+|turn|18
+|
+|t:|1769376773
+|move|p2a: Primarina|Aqua Jet|p1a: Sudowoodo
+|-supereffective|p1a: Sudowoodo
+|-damage|p1a: Sudowoodo|0 fnt
+|faint|p1a: Sudowoodo
+|
+|upkeep
+|
+|t:|1769376775
+|switch|p1a: Flamigo|Flamigo, L1, F|100/100
+|-damage|p1a: Flamigo|92/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1769376780
+|move|p2a: Primarina|Aqua Jet|p1a: Flamigo
+|-damage|p1a: Flamigo|0 fnt
+|faint|p1a: Flamigo
+|
+|win|thanous123
+|raw|Ketro's rating: 1323 &rarr; <strong>1305</strong><br />(-18 for losing)
+|raw|thanous123's rating: 1350 &rarr; <strong>1368</strong><br />(+18 for winning)
+|l|☆Ketro
+|player|p1|
+|l|☆thanous123
+|player|p2|

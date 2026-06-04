@@ -1,0 +1,946 @@
+|j|☆Kanto's Finest
+|j|☆bifrost tester
+|t:|1758333068
+|gametype|singles
+|player|p1|Kanto's Finest|archer|1070
+|player|p2|bifrost tester|red|1000
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Vileplume, M|
+|poke|p1|Primeape, F|
+|poke|p1|Electrode|
+|poke|p1|Dragonite, M|
+|poke|p1|Hitmonlee, M|
+|poke|p1|Vaporeon, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Kyurem|
+|poke|p2|Corviknight, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Dondozo, M|
+|teampreview
+|
+|t:|1758333096
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Electrode|Electrode, shiny|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|t:|1758333103
+|move|p1a: Electrode|Charge Beam|p2a: Cinderace
+|-damage|p2a: Cinderace|78/100
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Electrode
+|-status|p1a: Electrode|brn
+|
+|-damage|p1a: Electrode|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1758333111
+|move|p1a: Electrode|Charge Beam|p2a: Cinderace|[miss]
+|-miss|p1a: Electrode|p2a: Cinderace
+|move|p2a: Cinderace|Pyro Ball|p1a: Electrode|[miss]
+|-miss|p2a: Cinderace|p1a: Electrode
+|
+|-damage|p1a: Electrode|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1758333116
+|move|p1a: Electrode|Volt Switch|p2a: Cinderace
+|-damage|p2a: Cinderace|45/100
+|
+|t:|1758333118
+|switch|p1a: Vaporeon|Vaporeon, M|100/100|[from] Volt Switch
+|move|p2a: Cinderace|Pyro Ball|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|84/100
+|
+|upkeep
+|turn|4
+|
+|t:|1758333126
+|move|p2a: Cinderace|U-turn|p1a: Vaporeon
+|-damage|p1a: Vaporeon|70/100
+|
+|t:|1758333132
+|switch|p2a: Freeze Corleone|Kyurem|100/100|[from] U-turn
+|-ability|p2a: Freeze Corleone|Pressure
+|move|p1a: Vaporeon|Copycat|p1a: Vaporeon
+|move|p1a: Vaporeon|U-turn|p2a: Freeze Corleone|[from] move: Copycat
+|-damage|p2a: Freeze Corleone|91/100
+|
+|t:|1758333141
+|switch|p1a: Primeape|Primeape, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|5
+|
+|t:|1758333148
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Primeape|Drain Punch|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|96/100
+|
+|upkeep
+|turn|6
+|
+|t:|1758333165
+|switch|p1a: Vaporeon|Vaporeon, M|70/100
+|move|p2a: Slowking|Future Sight|p1a: Vaporeon
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|7
+|
+|t:|1758333170
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1758333173
+|switch|p2a: Freeze Corleone|Kyurem|91/100|[from] Chilly Reception
+|-ability|p2a: Freeze Corleone|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758333184
+|-terastallize|p2a: Freeze Corleone|Ice
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Freeze Corleone|Blizzard|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Vaporeon|move: Future Sight
+|-damage|p1a: Vaporeon|34/100
+|-heal|p1a: Vaporeon|84/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|9
+|
+|t:|1758333193
+|move|p2a: Freeze Corleone|Blizzard|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|38/100
+|move|p1a: Vaporeon|Whirlpool|p2a: Freeze Corleone|[miss]
+|-miss|p1a: Vaporeon|p2a: Freeze Corleone
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758333214
+|move|p2a: Freeze Corleone|Blizzard|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758333223
+|switch|p1a: Primeape|Primeape, F|100/100
+|turn|11
+|
+|t:|1758333227
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Primeape|Drain Punch|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|95/100
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1758333254
+|switch|p1a: Electrode|Electrode, shiny|88/100 brn
+|move|p2a: Slowking|Future Sight|p1a: Electrode
+|-start|p2a: Slowking|move: Future Sight
+|
+|-damage|p1a: Electrode|82/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1758333272
+|move|p1a: Electrode|Charge Beam|p2a: Slowking
+|-damage|p2a: Slowking|81/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Electrode
+|-damage|p1a: Electrode|25/100 brn
+|
+|-damage|p1a: Electrode|19/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1758333293
+|move|p1a: Electrode|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|60/100
+|n|☆bifrost tester|bifrosttester
+|c|☆bifrost tester|Hmm, i think this concept has potential
+|
+|t:|1758333322
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100|[from] Volt Switch
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|c|☆bifrost tester|but it depends hard on what your dragonite set is
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kanto's Finest)
+|
+|t:|1758333337
+|switch|p2a: Cinderace|Cinderace, F|45/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Hitmonlee|move: Future Sight
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|9/100
+|upkeep
+|turn|15
+|
+|t:|1758333347
+|switch|p1a: Electrode|Electrode, shiny|19/100 brn
+|move|p2a: Cinderace|U-turn|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|-damage|p2a: Cinderace|20/100|[from] ability: Aftermath|[of] p1a: Electrode
+|faint|p1a: Electrode
+|
+|t:|1758333361
+|switch|p2a: Slowking|Slowking-Galar, F|93/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758333372
+|switch|p1a: Hitmonlee|Hitmonlee, M|9/100
+|turn|16
+|
+|t:|1758333377
+|move|p1a: Hitmonlee|Fake Out|p2a: Slowking
+|-enditem|p1a: Hitmonlee|Normal Gem|[from] gem
+|-damage|p2a: Slowking|80/100
+|cant|p2a: Slowking|flinch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1758333380
+|move|p1a: Hitmonlee|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|29/100
+|-enditem|p2a: Slowking|Shuca Berry|[from] move: Knock Off|[of] p1a: Hitmonlee
+|move|p2a: Slowking|Ice Beam|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758333388
+|switch|p1a: Primeape|Primeape, F|100/100
+|turn|18
+|
+|t:|1758333398
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Primeape|Bulk Up|p1a: Primeape
+|-boost|p1a: Primeape|atk|1
+|-boost|p1a: Primeape|def|1
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1758333412
+|move|p1a: Primeape|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|cant|p2a: Corviknight|move: Taunt|Iron Defense
+|
+|upkeep
+|turn|20
+|
+|t:|1758333427
+|switch|p2a: Slowking|Slowking-Galar, F|62/100
+|move|p1a: Primeape|Bulk Up|p1a: Primeape
+|-boost|p1a: Primeape|atk|1
+|-boost|p1a: Primeape|def|1
+|
+|upkeep
+|turn|21
+|
+|t:|1758333432
+|move|p1a: Primeape|Rage Fist|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|28/100
+|move|p2a: Slowking|Future Sight|p1a: Primeape
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|22
+|c|☆bifrost tester|holy hit that move isnt banned?
+|c|☆bifrost tester|your concept has some big potential
+|inactive|bifrost tester has 120 seconds left.
+|inactive|bifrost tester has 90 seconds left.
+|
+|t:|1758333520
+|switch|p2a: Cinderace|Cinderace, F|20/100
+|move|p1a: Primeape|Rage Fist|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1758333529
+|switch|p2a: Freeze Corleone|Kyurem, tera:Ice|91/100
+|-ability|p2a: Freeze Corleone|Pressure
+|turn|23
+|c|☆Kanto's Finest|Oh ya man it’s primeapes gen
+|inactive|Kanto's Finest has 120 seconds left.
+|c|☆Kanto's Finest|he was missing in 8 but is back better then ever
+|
+|t:|1758333568
+|move|p2a: Freeze Corleone|Ice Beam|p1a: Primeape
+|-damage|p1a: Primeape|39/100
+|move|p1a: Primeape|Drain Punch|p2a: Freeze Corleone
+|-supereffective|p2a: Freeze Corleone
+|-damage|p2a: Freeze Corleone|0 fnt
+|-heal|p1a: Primeape|92/100|[from] drain|[of] p2a: Freeze Corleone
+|faint|p2a: Freeze Corleone
+|
+|-end|p1a: Primeape|move: Future Sight
+|-supereffective|p1a: Primeape
+|-damage|p1a: Primeape|29/100
+|upkeep
+|inactive|bifrost tester has 60 seconds left.
+|
+|t:|1758333589
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|turn|24
+|inactive|Kanto's Finest has 120 seconds left.
+|
+|t:|1758333600
+|move|p1a: Primeape|Rage Fist|p2a: Dondozo
+|-damage|p2a: Dondozo|79/100
+|move|p2a: Dondozo|Liquidation|p1a: Primeape
+|-damage|p1a: Primeape|1/100
+|-unboost|p1a: Primeape|def|1
+|-ability|p1a: Primeape|Defiant|boost
+|-boost|p1a: Primeape|atk|2
+|
+|-heal|p2a: Dondozo|85/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|Kanto's Finest has 120 seconds left.
+|
+|t:|1758333613
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: Dondozo|Liquidation|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|89/100
+|-damage|p2a: Dondozo|69/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|
+|-heal|p2a: Dondozo|75/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1758333620
+|switch|p2a: Slowking|Slowking-Galar, F|61/100
+|move|p1a: Vileplume|Leech Seed|p2a: Slowking
+|-start|p2a: Slowking|move: Leech Seed
+|
+|-damage|p2a: Slowking|48/100|[from] Leech Seed|[of] p1a: Vileplume
+|-heal|p1a: Vileplume|100/100|[silent]
+|upkeep
+|turn|27
+|
+|t:|1758333629
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|upkeep
+|turn|28
+|
+|t:|1758333638
+|switch|p2a: Slowking|Slowking-Galar, F|82/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|29
+|
+|t:|1758333641
+|move|p1a: Dragonite|Scale Shot|p2a: Slowking
+|-damage|p2a: Slowking|66/100
+|-damage|p2a: Slowking|49/100
+|-damage|p2a: Slowking|33/100
+|-damage|p2a: Slowking|16/100
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-hitcount|p2: Slowking|5
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1758333645
+|switch|p2a: Dondozo|Dondozo, M|75/100
+|turn|30
+|
+|t:|1758333655
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|81/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1758333666
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Vileplume|Giga Drain|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|94/100
+|
+|upkeep
+|turn|32
+|
+|t:|1758333674
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Vileplume|Leech Seed|p2a: Ting-Lu
+|-start|p2a: Ting-Lu|move: Leech Seed
+|
+|-damage|p2a: Ting-Lu|88/100|[from] Leech Seed|[of] p1a: Vileplume
+|upkeep
+|turn|33
+|
+|t:|1758333680
+|switch|p1a: Primeape|Primeape, F|1/100
+|switch|p2a: Corviknight|Corviknight, F, shiny|94/100
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|34
+|
+|t:|1758333690
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: Corviknight|Body Press|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|90/100
+|-damage|p2a: Corviknight|77/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|
+|upkeep
+|turn|35
+|
+|t:|1758333697
+|switch|p2a: Dondozo|Dondozo, M|81/100
+|move|p1a: Vileplume|Leech Seed|p2a: Dondozo
+|-start|p2a: Dondozo|move: Leech Seed
+|
+|-heal|p2a: Dondozo|87/100|[from] item: Leftovers
+|-damage|p2a: Dondozo|75/100|[from] Leech Seed|[of] p1a: Vileplume
+|-heal|p1a: Vileplume|100/100|[silent]
+|upkeep
+|turn|36
+|
+|t:|1758333702
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|88/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p2a: Ting-Lu|94/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1758333708
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Ting-Lu|Payback|p1a: Dragonite
+|-damage|p1a: Dragonite|80/100
+|
+|-heal|p2a: Ting-Lu|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1758333721
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|switch|p2a: Corviknight|Corviknight, F, shiny|77/100
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|39
+|
+|t:|1758333730
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Vileplume|Leech Seed|p2a: Ting-Lu
+|-start|p2a: Ting-Lu|move: Leech Seed
+|
+|-damage|p2a: Ting-Lu|88/100|[from] Leech Seed|[of] p1a: Vileplume
+|upkeep
+|turn|40
+|
+|t:|1758333737
+|switch|p1a: Dragonite|Dragonite, M|80/100
+|switch|p2a: Corviknight|Corviknight, F, shiny|77/100
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|41
+|
+|t:|1758333742
+|move|p1a: Dragonite|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|38/100
+|-damage|p1a: Dragonite|64/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|upkeep
+|turn|42
+|
+|t:|1758333748
+|move|p1a: Dragonite|Encore|p2a: Corviknight
+|-start|p2a: Corviknight|Encore
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|upkeep
+|turn|43
+|
+|t:|1758333752
+|switch|p1a: Primeape|Primeape, F|1/100
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|upkeep
+|turn|44
+|
+|t:|1758333758
+|move|p1a: Primeape|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|cant|p2a: Corviknight|move: Taunt|Iron Defense
+|
+|-end|p2a: Corviknight|Encore
+|upkeep
+|turn|45
+|
+|t:|1758333766
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: Corviknight|Body Press|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|61/100
+|-damage|p2a: Corviknight|21/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|-status|p2a: Corviknight|slp|[from] ability: Effect Spore|[of] p1a: Vileplume
+|
+|upkeep
+|turn|46
+|
+|t:|1758333785
+|cant|p2a: Corviknight|slp
+|move|p1a: Vileplume|Strength Sap|p2a: Corviknight
+|-unboost|p2a: Corviknight|atk|1
+|-heal|p1a: Vileplume|100/100
+|
+|-end|p2a: Corviknight|move: Taunt
+|upkeep
+|turn|47
+|
+|t:|1758333797
+|cant|p2a: Corviknight|slp
+|move|p1a: Vileplume|Leech Seed|p2a: Corviknight
+|-start|p2a: Corviknight|move: Leech Seed
+|
+|-damage|p2a: Corviknight|9/100 slp|[from] Leech Seed|[of] p1a: Vileplume
+|upkeep
+|turn|48
+|
+|t:|1758333804
+|switch|p1a: Dragonite|Dragonite, M|64/100
+|cant|p2a: Corviknight|slp
+|
+|-damage|p2a: Corviknight|0 fnt|[from] Leech Seed|[of] p1a: Dragonite
+|-heal|p1a: Dragonite|74/100|[silent]
+|faint|p2a: Corviknight
+|upkeep
+|
+|t:|1758333820
+|switch|p2a: Dondozo|Dondozo, M|75/100
+|turn|49
+|
+|t:|1758333826
+|switch|p2a: Ting-Lu|Ting-Lu|88/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Ting-Lu|94/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1758333833
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|73/100
+|
+|-heal|p2a: Ting-Lu|100/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|t:|1758333842
+|switch|p2a: Dondozo|Dondozo, M|75/100
+|move|p1a: Vileplume|Leech Seed|p2a: Dondozo
+|-start|p2a: Dondozo|move: Leech Seed
+|
+|-heal|p2a: Dondozo|81/100|[from] item: Leftovers
+|-damage|p2a: Dondozo|68/100|[from] Leech Seed|[of] p1a: Vileplume
+|-heal|p1a: Vileplume|90/100|[silent]
+|upkeep
+|turn|52
+|
+|t:|1758333846
+|switch|p1a: Primeape|Primeape, F|1/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|upkeep
+|turn|53
+|
+|t:|1758333851
+|move|p1a: Primeape|Drain Punch|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|72/100
+|-heal|p1a: Primeape|23/100|[from] drain|[of] p2a: Ting-Lu
+|move|p2a: Ting-Lu|Payback|p1a: Primeape
+|-resisted|p1a: Primeape
+|-damage|p1a: Primeape|2/100
+|
+|-heal|p2a: Ting-Lu|78/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1758333860
+|switch|p1a: Vileplume|Vileplume, M|90/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|62/100
+|
+|-heal|p2a: Ting-Lu|85/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|t:|1758333867
+|move|p1a: Vileplume|Giga Drain|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|63/100
+|-heal|p1a: Vileplume|77/100|[from] drain|[of] p2a: Ting-Lu
+|move|p2a: Ting-Lu|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|50/100
+|
+|-heal|p2a: Ting-Lu|69/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|t:|1758333873
+|switch|p2a: Dondozo|Dondozo, M|68/100
+|move|p1a: Vileplume|Strength Sap|p2a: Dondozo
+|-unboost|p2a: Dondozo|atk|1
+|-heal|p1a: Vileplume|100/100
+|
+|-heal|p2a: Dondozo|75/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1758333876
+|switch|p2a: Ting-Lu|Ting-Lu|69/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Vileplume|Leech Seed|p2a: Ting-Lu
+|-start|p2a: Ting-Lu|move: Leech Seed
+|
+|-heal|p2a: Ting-Lu|76/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|63/100|[from] Leech Seed|[of] p1a: Vileplume
+|upkeep
+|turn|58
+|
+|t:|1758333882
+|switch|p2a: Dondozo|Dondozo, M|75/100
+|move|p1a: Vileplume|Giga Drain|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|40/100
+|
+|-heal|p2a: Dondozo|46/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1758333887
+|move|p1a: Vileplume|Giga Drain|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|9/100
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|60
+|
+|t:|1758333893
+|switch|p2a: Ting-Lu|Ting-Lu|63/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Vileplume|Leech Seed|p2a: Ting-Lu
+|-start|p2a: Ting-Lu|move: Leech Seed
+|
+|-heal|p2a: Ting-Lu|69/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|57/100|[from] Leech Seed|[of] p1a: Vileplume
+|upkeep
+|turn|61
+|
+|t:|1758333896
+|switch|p2a: Dondozo|Dondozo, M|100/100 slp
+|move|p1a: Vileplume|Giga Drain|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-crit|p2a: Dondozo
+|-damage|p2a: Dondozo|48/100 slp
+|
+|-heal|p2a: Dondozo|54/100 slp|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|t:|1758333899
+|switch|p2a: Ting-Lu|Ting-Lu|57/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Vileplume|Giga Drain|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|31/100
+|
+|-heal|p2a: Ting-Lu|37/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|t:|1758333902
+|move|p1a: Vileplume|Giga Drain|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|16/100
+|move|p2a: Ting-Lu|Rest|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|slp|[from] move: Rest
+|-heal|p2a: Ting-Lu|100/100 slp|[silent]
+|
+|upkeep
+|turn|64
+|
+|t:|1758333905
+|move|p1a: Vileplume|Leech Seed|p2a: Ting-Lu
+|-start|p2a: Ting-Lu|move: Leech Seed
+|cant|p2a: Ting-Lu|slp
+|move|p2a: Ting-Lu|Sleep Talk|p2a: Ting-Lu
+|move|p2a: Ting-Lu|Rest||[from] move: Sleep Talk|[still]
+|-fail|p2a: Ting-Lu
+|
+|-damage|p2a: Ting-Lu|88/100 slp|[from] Leech Seed|[of] p1a: Vileplume
+|upkeep
+|turn|65
+|
+|t:|1758333908
+|switch|p1a: Primeape|Primeape, F|2/100
+|cant|p2a: Ting-Lu|slp
+|move|p2a: Ting-Lu|Sleep Talk|p2a: Ting-Lu
+|move|p2a: Ting-Lu|Rest||[from] move: Sleep Talk|[still]
+|-fail|p2a: Ting-Lu
+|
+|-heal|p2a: Ting-Lu|94/100 slp|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|82/100 slp|[from] Leech Seed|[of] p1a: Primeape
+|-heal|p1a: Primeape|21/100|[silent]
+|upkeep
+|turn|66
+|
+|t:|1758333914
+|move|p1a: Primeape|Drain Punch|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|53/100 slp
+|-heal|p1a: Primeape|43/100|[from] drain|[of] p2a: Ting-Lu
+|-curestatus|p2a: Ting-Lu|slp|[msg]
+|move|p2a: Ting-Lu|Earthquake|p1a: Primeape
+|-damage|p1a: Primeape|4/100
+|
+|-heal|p2a: Ting-Lu|60/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|47/100|[from] Leech Seed|[of] p1a: Primeape
+|-heal|p1a: Primeape|23/100|[silent]
+|upkeep
+|turn|67
+|
+|t:|1758333928
+|switch|p1a: Dragonite|Dragonite, M|74/100
+|switch|p2a: Dondozo|Dondozo, M|54/100 slp
+|
+|-heal|p2a: Dondozo|60/100 slp|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1758333933
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Curse|p2a: Dondozo|[from] move: Sleep Talk
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|66/100 slp|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|t:|1758333935
+|move|p1a: Dragonite|Encore||[still]
+|-fail|p1a: Dragonite
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Liquidation|p1a: Dragonite|[from] move: Sleep Talk
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|50/100
+|
+|-heal|p2a: Dondozo|72/100 slp|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|t:|1758333947
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|47/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p2a: Ting-Lu|53/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|t:|1758333952
+|move|p1a: Vileplume|Leech Seed|p2a: Ting-Lu
+|-start|p2a: Ting-Lu|move: Leech Seed
+|move|p2a: Ting-Lu|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|70/100
+|
+|-heal|p2a: Ting-Lu|60/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|47/100|[from] Leech Seed|[of] p1a: Vileplume
+|-heal|p1a: Vileplume|88/100|[silent]
+|upkeep
+|turn|72
+|
+|t:|1758333957
+|switch|p1a: Dragonite|Dragonite, M|50/100
+|move|p2a: Ting-Lu|Rest|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|slp|[from] move: Rest
+|-heal|p2a: Ting-Lu|100/100 slp|[silent]
+|
+|-damage|p2a: Ting-Lu|88/100 slp|[from] Leech Seed|[of] p1a: Dragonite
+|-heal|p1a: Dragonite|70/100|[silent]
+|upkeep
+|turn|73
+|
+|t:|1758333963
+|switch|p2a: Dondozo|Dondozo, M|72/100 slp
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Dondozo|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|t:|1758333973
+|switch|p2a: Ting-Lu|Ting-Lu|88/100 slp
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Dragonite|Scale Shot|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|75/100 slp
+|-damage|p2a: Ting-Lu|63/100 slp
+|-damage|p2a: Ting-Lu|52/100 slp
+|-damage|p2a: Ting-Lu|40/100 slp
+|-damage|p2a: Ting-Lu|28/100 slp
+|-hitcount|p2a: Ting-Lu|5
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Ting-Lu|34/100 slp|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|t:|1758333984
+|switch|p2a: Dondozo|Dondozo, M|78/100 slp
+|move|p1a: Dragonite|Scale Shot|p2a: Dondozo
+|-damage|p2a: Dondozo|69/100 slp
+|-damage|p2a: Dondozo|60/100 slp
+|-damage|p2a: Dondozo|52/100 slp
+|-damage|p2a: Dondozo|43/100 slp
+|-damage|p2a: Dondozo|34/100 slp
+|-hitcount|p2a: Dondozo|5
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Dondozo|40/100 slp|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|t:|1758333992
+|move|p1a: Dragonite|Scale Shot|p2a: Dondozo
+|-damage|p2a: Dondozo|31/100 slp
+|-damage|p2a: Dondozo|22/100 slp
+|-damage|p2a: Dondozo|13/100 slp
+|-damage|p2a: Dondozo|4/100 slp
+|-hitcount|p2a: Dondozo|4
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|11/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|t:|1758334000
+|move|p1a: Dragonite|Scale Shot|p2a: Dondozo
+|-damage|p2a: Dondozo|5/100
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|-hitcount|p2: Dondozo|2
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|c|☆bifrost tester|gg
+|
+|t:|1758334005
+|switch|p2a: Ting-Lu|Ting-Lu|34/100 slp
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|78
+|
+|t:|1758334009
+|move|p1a: Dragonite|Scale Shot|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|23/100 slp
+|-damage|p2a: Ting-Lu|11/100 slp
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|-hitcount|p2: Ting-Lu|3
+|
+|win|Kanto's Finest
+|raw|Kanto&apos;s Finest's rating: 1070 &rarr; <strong>1094</strong><br />(+24 for winning)
+|raw|bifrost tester's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

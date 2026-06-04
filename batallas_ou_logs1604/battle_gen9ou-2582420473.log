@@ -1,0 +1,252 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆Colin Prime
+|j|☆iamgbs
+|t:|1776090537
+|gametype|singles
+|player|p1|Colin Prime|iris-gen5bw2|1502
+|player|p2|iamgbs|benga|1586
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Raging Bolt|
+|poke|p1|Raichu-Alola, M|
+|poke|p1|Pincurchin, F|
+|poke|p1|Iron Boulder|
+|poke|p1|Hatterene, F|
+|poke|p1|Kyurem|
+|poke|p2|Araquanid, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Iron Treads|
+|poke|p2|Kingambit, F|
+|poke|p2|Pecharunt|
+|teampreview
+|j| ohko_smeargle
+|
+|t:|1776090547
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1776090550
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Iron Treads|Earth Power|p1a: Hatterene
+|-damage|p1a: Hatterene|65/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1776090558
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|
+|upkeep
+|turn|2
+|
+|t:|1776090561
+|move|p2a: Iron Treads|Steel Beam|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|6/100
+|-damage|p2a: Iron Treads|50/100|[from] steelbeam
+|move|p1a: Kyurem|Earth Power|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1776090569
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|turn|3
+|
+|t:|1776090576
+|move|p1a: Kyurem|Freeze-Dry|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|37/100
+|move|p2a: Araquanid|Surf|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1776090596
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|4
+|
+|t:|1776090620
+|move|p2a: Araquanid|Endure|p2a: Araquanid
+|-singleturn|p2a: Araquanid|move: Endure
+|move|p1a: Raging Bolt|Volt Switch|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-activate|p2a: Araquanid|move: Endure
+|-damage|p2a: Araquanid|1/100
+|-damage|p1a: Raging Bolt|91/100|[from] item: Life Orb
+|
+|t:|1776090629
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Pincurchin|Pincurchin, F|100/100|[from] Volt Switch
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|
+|upkeep
+|turn|5
+|-enditem|p2a: Araquanid|Custap Berry|[eat]
+|-activate|p2a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1776090648
+|switch|p1a: Hatterene|Hatterene, F|65/100
+|move|p2a: Araquanid|Sticky Web|p1a: Hatterene
+|move|p1a: Hatterene|Sticky Web|p2a: Araquanid|[from] ability: Magic Bounce
+|-sidestart|p2: iamgbs|move: Sticky Web
+|
+|upkeep
+|turn|6
+|
+|t:|1776090670
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1776090698
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|-activate|p2a: Ceruledge|move: Sticky Web
+|-unboost|p2a: Ceruledge|spe|1
+|turn|7
+|
+|t:|1776090709
+|move|p2a: Ceruledge|Poltergeist||[still]
+|-fail|p2a: Ceruledge
+|move|p1a: Hatterene|Nuzzle|p2a: Ceruledge
+|-damage|p2a: Ceruledge|94/100
+|-status|p2a: Ceruledge|par
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|upkeep
+|turn|8
+|
+|t:|1776090718
+|move|p2a: Ceruledge|Bitter Blade|p1a: Hatterene
+|-damage|p1a: Hatterene|6/100
+|-heal|p2a: Ceruledge|100/100 par|[from] drain|[of] p1a: Hatterene
+|-damage|p2a: Ceruledge|91/100 par|[from] item: Life Orb
+|move|p1a: Hatterene|Psychic|p2a: Ceruledge
+|-damage|p2a: Ceruledge|51/100 par
+|
+|upkeep
+|turn|9
+|
+|t:|1776090740
+|cant|p2a: Ceruledge|par
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1776090754
+|switch|p1a: Raging Bolt|Raging Bolt|91/100
+|-heal|p1a: Raging Bolt|100/100|[from] move: Healing Wish
+|turn|10
+|
+|t:|1776090760
+|move|p1a: Raging Bolt|Rising Voltage|p2a: Ceruledge
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|-damage|p1a: Raging Bolt|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1776090766
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|move: Sticky Web
+|-unboost|p2a: Kingambit|spe|1
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|11
+|
+|t:|1776090770
+|move|p1a: Raging Bolt|Rising Voltage|p2a: Kingambit
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|-damage|p1a: Raging Bolt|81/100|[from] item: Life Orb
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1776090777
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-item|p2a: Pecharunt|Air Balloon
+|turn|12
+|
+|t:|1776090782
+|move|p2a: Pecharunt|Malignant Chain|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|39/100
+|move|p1a: Raging Bolt|Volt Switch|p2a: Pecharunt
+|-damage|p2a: Pecharunt|36/100
+|-enditem|p2a: Pecharunt|Air Balloon
+|-damage|p1a: Raging Bolt|29/100|[from] item: Life Orb
+|
+|t:|1776090791
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Raichu|Raichu-Alola, M|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|13
+|
+|t:|1776090796
+|move|p1a: Raichu|Thunderbolt|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1776090797
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|14
+|
+|t:|1776090804
+|-terastallize|p2a: Enamorus|Fairy
+|move|p1a: Raichu|Thunderbolt|p2a: Enamorus
+|-damage|p2a: Enamorus|51/100
+|move|p2a: Enamorus|Moonblast|p1a: Raichu
+|-enditem|p1a: Raichu|Focus Sash
+|-damage|p1a: Raichu|1/100
+|
+|upkeep
+|turn|15
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Colin Prime)
+|
+|t:|1776090854
+|-terastallize|p1a: Raichu|Electric
+|move|p1a: Raichu|Thunderbolt|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|win|Colin Prime
+|raw|Colin Prime's rating: 1502 &rarr; <strong>1527</strong><br />(+25 for winning)
+|raw|iamgbs's rating: 1586 &rarr; <strong>1561</strong><br />(-25 for losing)
+|l| ohko_smeargle
+|l|☆iamgbs
+|player|p2|

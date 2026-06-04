@@ -1,0 +1,373 @@
+|j|☆thedivineplayer
+|j|☆lider roca
+|t:|1779945177
+|gametype|singles
+|player|p1|thedivineplayer|102|1070
+|player|p2|lider roca|102|1113
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Toxapex, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Chandelure, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Farigiraf, M|
+|poke|p1|Iron Hands|
+|poke|p2|Flygon, F|
+|poke|p2|Staraptor, M|
+|poke|p2|Jolteon, F|
+|poke|p2|Tentacruel, M|
+|poke|p2|Amoonguss, M|
+|poke|p2|Rotom-Heat|
+|teampreview
+|
+|t:|1779945195
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|t:|1779945221
+|move|p2a: Rotom|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|50/100
+|
+|t:|1779945229
+|switch|p2a: Tentacruel|Tentacruel, M|100/100|[from] Volt Switch
+|move|p1a: Toxapex|Toxic Spikes|p2a: Tentacruel
+|-sidestart|p2: lider roca|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|57/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1779945241
+|move|p2a: Tentacruel|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|52/100
+|-boost|p2a: Tentacruel|spe|1
+|-sideend|p2: lider roca|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779945255
+|switch|p1a: Farigiraf|Farigiraf, M|100/100
+|move|p2a: Tentacruel|Giga Drain|p1a: Farigiraf
+|-damage|p1a: Farigiraf|87/100
+|
+|upkeep
+|turn|4
+|
+|t:|1779945266
+|-terastallize|p2a: Tentacruel|Water
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Farigiraf
+|-damage|p1a: Farigiraf|61/100
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|5
+|
+|t:|1779945283
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|move|p2a: Tentacruel|Sludge Bomb|p1a: Iron Hands
+|-damage|p1a: Iron Hands|73/100
+|-status|p1a: Iron Hands|psn
+|
+|-heal|p1a: Iron Hands|79/100 psn|[from] item: Leftovers
+|-damage|p1a: Iron Hands|67/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1779945295
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Iron Hands|Wild Charge|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|83/100
+|-damage|p1a: Iron Hands|50/100 psn|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|-damage|p1a: Iron Hands|46/100 psn|[from] Recoil
+|
+|-heal|p1a: Iron Hands|52/100 psn|[from] item: Leftovers
+|-damage|p1a: Iron Hands|40/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1779945313
+|move|p2a: Amoonguss|Synthesis|p2a: Amoonguss
+|-heal|p2a: Amoonguss|100/100
+|move|p1a: Iron Hands|Ice Punch|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|62/100
+|-damage|p1a: Iron Hands|23/100 psn|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|-heal|p1a: Iron Hands|29/100 psn|[from] item: Leftovers
+|-damage|p1a: Iron Hands|17/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1779945336
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Chandelure|Chandelure, F|100/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|87/100
+|-heal|p2a: Amoonguss|67/100|[from] drain|[of] p1a: Chandelure
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|t:|1779945348
+|switch|p2a: Tentacruel|Tentacruel, M, tera:Water|100/100
+|move|p1a: Chandelure|Heat Wave|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|85/100
+|
+|-heal|p2a: Tentacruel|91/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779945363
+|switch|p2a: Flygon|Flygon, F|100/100
+|move|p1a: Chandelure|Calm Mind|p1a: Chandelure
+|-boost|p1a: Chandelure|spa|1
+|-boost|p1a: Chandelure|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1779945393
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Flygon|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|45/100
+|
+|-heal|p1a: Toxapex|51/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1779945408
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|-item|p2a: Jolteon|Air Balloon
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1779945424
+|move|p2a: Jolteon|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|45/100
+|
+|t:|1779945437
+|switch|p2a: Rotom|Rotom-Heat|100/100|[from] Volt Switch
+|move|p1a: Toxapex|Toxic Spikes|p2a: Rotom
+|-sidestart|p2: lider roca|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|51/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1779945470
+|switch|p1a: Chandelure|Chandelure, F|87/100
+|move|p2a: Rotom|Volt Switch|p1a: Chandelure
+|-damage|p1a: Chandelure|50/100
+|
+|t:|1779945479
+|switch|p2a: Flygon|Flygon, F|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|15
+|
+|t:|1779945487
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Flygon|Earthquake|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|34/100
+|
+|-heal|p1a: Grimmsnarl|40/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1779945501
+|move|p1a: Grimmsnarl|Rest|p1a: Grimmsnarl
+|-status|p1a: Grimmsnarl|slp|[from] move: Rest
+|-heal|p1a: Grimmsnarl|100/100 slp|[silent]
+|move|p2a: Flygon|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|61/100 slp
+|
+|-heal|p1a: Grimmsnarl|67/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1779945513
+|cant|p1a: Grimmsnarl|slp
+|move|p1a: Grimmsnarl|Sleep Talk|p1a: Grimmsnarl
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl|[from] move: Sleep Talk
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Flygon|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|36/100 slp
+|
+|-heal|p1a: Grimmsnarl|42/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1779945529
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-sideend|p2: lider roca|move: Toxic Spikes|[of] p2a: Amoonguss
+|cant|p1a: Grimmsnarl|slp
+|move|p1a: Grimmsnarl|Sleep Talk|p1a: Grimmsnarl
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Amoonguss|[from] move: Sleep Talk
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|82/100
+|-unboost|p2a: Amoonguss|spa|1
+|-damage|p1a: Grimmsnarl|26/100 slp|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|-heal|p1a: Grimmsnarl|32/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1779945557
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Amoonguss|Clear Smog|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|74/100
+|-clearboost|p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|80/100|[from] Grassy Terrain
+|-heal|p2a: Amoonguss|88/100|[from] Grassy Terrain
+|upkeep
+|turn|20
+|
+|t:|1779945580
+|move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|move|p2a: Amoonguss|Toxic|p1a: Rillaboom
+|-status|p1a: Rillaboom|tox
+|
+|-heal|p1a: Rillaboom|86/100 tox|[from] Grassy Terrain
+|-heal|p2a: Amoonguss|94/100|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|80/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1779945595
+|move|p1a: Rillaboom|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|47/100
+|-damage|p1a: Rillaboom|63/100 tox|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|-damage|p1a: Rillaboom|53/100 tox|[from] item: Life Orb
+|
+|t:|1779945602
+|switch|p1a: Toxapex|Toxapex, M|84/100|[from] U-turn
+|move|p2a: Amoonguss|Clear Smog|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|80/100
+|-clearboost|p1a: Toxapex
+|
+|-heal|p1a: Toxapex|86/100|[from] Grassy Terrain
+|-heal|p1a: Toxapex|93/100|[from] item: Black Sludge
+|-heal|p2a: Amoonguss|53/100|[from] Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1779945623
+|move|p1a: Toxapex|Poison Jab|p2a: Amoonguss
+|-damage|p2a: Amoonguss|41/100
+|-damage|p1a: Toxapex|76/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|move|p2a: Amoonguss|Giga Drain|p1a: Toxapex
+|-damage|p1a: Toxapex|60/100
+|-heal|p2a: Amoonguss|47/100|[from] drain|[of] p1a: Toxapex
+|
+|-heal|p1a: Toxapex|66/100|[from] Grassy Terrain
+|-heal|p1a: Toxapex|73/100|[from] item: Black Sludge
+|-heal|p2a: Amoonguss|53/100|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|t:|1779945637
+|switch|p1a: Rillaboom|Rillaboom, F|53/100 tox
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|-item|p2a: Jolteon|Air Balloon
+|
+|-heal|p1a: Rillaboom|59/100 tox|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|53/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|24
+|
+|t:|1779945653
+|move|p2a: Jolteon|Protect|p2a: Jolteon
+|-singleturn|p2a: Jolteon|Protect
+|move|p1a: Rillaboom|Knock Off|p2a: Jolteon
+|-activate|p2a: Jolteon|move: Protect
+|
+|-damage|p1a: Rillaboom|41/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1779945662
+|move|p2a: Jolteon|Shadow Ball|p1a: Rillaboom
+|-damage|p1a: Rillaboom|3/100 tox
+|move|p1a: Rillaboom|U-turn|p2a: Jolteon
+|-damage|p2a: Jolteon|46/100
+|-enditem|p2a: Jolteon|Air Balloon
+|-damage|p1a: Rillaboom|0 fnt|[from] item: Life Orb
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|t:|1779945679
+|switch|p1a: Farigiraf|Farigiraf, M|61/100
+|turn|26
+|
+|t:|1779945694
+|move|p1a: Farigiraf|Protect|p1a: Farigiraf
+|-singleturn|p1a: Farigiraf|Protect
+|move|p2a: Jolteon|Thunderbolt|p1a: Farigiraf
+|-activate|p1a: Farigiraf|move: Protect
+|
+|upkeep
+|turn|27
+|
+|t:|1779945707
+|move|p2a: Jolteon|Thunderbolt|p1a: Farigiraf
+|-damage|p1a: Farigiraf|18/100
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|28
+|
+|t:|1779945715
+|switch|p2a: Tentacruel|Tentacruel, M, tera:Water|91/100
+|move|p1a: Farigiraf|Psychic|p2a: Tentacruel
+|-damage|p2a: Tentacruel|62/100
+|
+|-heal|p2a: Tentacruel|68/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|-message|lider roca forfeited.
+|
+|win|thedivineplayer
+|raw|thedivineplayer's rating: 1070 &rarr; <strong>1103</strong><br />(+33 for winning)
+|raw|lider roca's rating: 1113 &rarr; <strong>1085</strong><br />(-28 for losing)
+|l|☆lider roca
+|player|p2|
+|l|☆thedivineplayer
+|player|p1|

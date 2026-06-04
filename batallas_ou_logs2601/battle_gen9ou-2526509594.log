@@ -1,0 +1,254 @@
+|j|☆Maroco_God
+|j|☆allen.xu
+|t:|1769427241
+|gametype|singles
+|player|p1|Maroco_God|red|1173
+|player|p2|allen.xu|biker-gen4|1197
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, F|
+|poke|p1|Mamoswine, M|
+|poke|p1|Slowbro, F|
+|poke|p1|Gengar, F|
+|poke|p1|Scizor, M|
+|poke|p1|Dragonite, F|
+|poke|p2|Sandy Shocks|
+|poke|p2|Scizor, F|
+|poke|p2|Manaphy|
+|poke|p2|Latios, M|
+|poke|p2|Ogerpon, F|
+|poke|p2|Iron Jugulis|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by allen.xu)
+|
+|t:|1769427263
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowbro|Slowbro, F, shiny|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-enditem|p2a: Sandy Shocks|Booster Energy
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1769427276
+|move|p2a: Sandy Shocks|Discharge|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|18/100
+|-status|p1a: Slowbro|par
+|cant|p1a: Slowbro|par
+|
+|-heal|p1a: Slowbro|24/100 par|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1769427286
+|move|p2a: Sandy Shocks|Earth Power|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|upkeep
+|
+|t:|1769427291
+|switch|p1a: Rillaboom|Rillaboom, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|3
+|
+|t:|1769427296
+|move|p1a: Rillaboom|Fake Out|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|85/100
+|cant|p2a: Sandy Shocks|flinch
+|
+|-heal|p2a: Sandy Shocks|91/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1769427302
+|move|p1a: Rillaboom|Grassy Glide|p2a: Sandy Shocks
+|-supereffective|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769427313
+|switch|p2a: Latios|Latios, M|100/100
+|turn|5
+|
+|t:|1769427319
+|-terastallize|p1a: Rillaboom|Dark
+|move|p2a: Latios|Agility|p2a: Latios
+|-boost|p2a: Latios|spe|2
+|move|p1a: Rillaboom|Knock Off|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-enditem|p2a: Latios|Weakness Policy|[from] move: Knock Off|[of] p1a: Rillaboom
+|faint|p2a: Latios
+|
+|upkeep
+|
+|t:|1769427328
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|6
+|
+|t:|1769427340
+|switch|p1a: Mamoswine|Mamoswine, M, shiny|100/100
+|move|p2a: Scizor|Close Combat|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|-unboost|p2a: Scizor|def|1
+|-unboost|p2a: Scizor|spd|1
+|faint|p1a: Mamoswine
+|
+|upkeep
+|
+|t:|1769427348
+|switch|p1a: Dragonite|Dragonite, F, shiny|100/100
+|turn|7
+|
+|t:|1769427356
+|switch|p2a: Manaphy|Manaphy|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1769427365
+|move|p1a: Dragonite|Iron Head|p2a: Manaphy
+|-resisted|p2a: Manaphy
+|-damage|p2a: Manaphy|77/100
+|move|p2a: Manaphy|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|41/100
+|
+|upkeep
+|turn|9
+|
+|t:|1769427372
+|move|p1a: Dragonite|Extreme Speed|p2a: Manaphy
+|-damage|p2a: Manaphy|28/100
+|-enditem|p2a: Manaphy|Sitrus Berry|[eat]
+|-heal|p2a: Manaphy|53/100|[from] item: Sitrus Berry
+|move|p2a: Manaphy|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1769427383
+|switch|p1a: Rillaboom|Rillaboom, F, shiny, tera:Dark|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|10
+|
+|t:|1769427390
+|-terastallize|p2a: Manaphy|Grass
+|move|p1a: Rillaboom|Fake Out|p2a: Manaphy
+|-damage|p2a: Manaphy|39/100
+|cant|p2a: Manaphy|flinch
+|
+|-heal|p2a: Manaphy|45/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1769427397
+|move|p2a: Manaphy|Surf|p1a: Rillaboom
+|-damage|p1a: Rillaboom|58/100
+|move|p1a: Rillaboom|Knock Off|p2a: Manaphy
+|-damage|p2a: Manaphy|10/100
+|
+|-heal|p2a: Manaphy|16/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|64/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1769427405
+|switch|p1a: Scizor|Scizor, M, shiny|100/100
+|move|p2a: Manaphy|Surf|p1a: Scizor
+|-damage|p1a: Scizor|57/100
+|
+|-heal|p2a: Manaphy|22/100|[from] Grassy Terrain
+|-heal|p1a: Scizor|63/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1769427413
+|move|p1a: Scizor|Bullet Punch|p2a: Manaphy
+|-damage|p2a: Manaphy|0 fnt
+|faint|p2a: Manaphy
+|-damage|p1a: Scizor|53/100|[from] item: Life Orb
+|
+|-heal|p1a: Scizor|59/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1769427426
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100
+|-enditem|p2a: Iron Jugulis|Booster Energy
+|-activate|p2a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|turn|14
+|
+|t:|1769427433
+|move|p2a: Iron Jugulis|Hurricane|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1769427441
+|switch|p1a: Gengar|Gengar, F, shiny|100/100
+|turn|15
+|
+|t:|1769427447
+|move|p2a: Iron Jugulis|Dark Pulse|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|upkeep
+|
+|t:|1769427451
+|switch|p1a: Rillaboom|Rillaboom, F, shiny, tera:Dark|64/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|16
+|
+|t:|1769427456
+|move|p2a: Iron Jugulis|Hurricane|p1a: Rillaboom|[miss]
+|-miss|p2a: Iron Jugulis|p1a: Rillaboom
+|move|p1a: Rillaboom|Wood Hammer|p2a: Iron Jugulis
+|-resisted|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|52/100
+|-damage|p1a: Rillaboom|51/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|57/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1769427465
+|move|p2a: Iron Jugulis|Hurricane|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|win|allen.xu
+|raw|Maroco_God's rating: 1173 &rarr; <strong>1150</strong><br />(-23 for losing)
+|raw|allen.xu's rating: 1197 &rarr; <strong>1220</strong><br />(+23 for winning)
+|l|☆Maroco_God
+|player|p1|
+|l|☆allen.xu
+|player|p2|

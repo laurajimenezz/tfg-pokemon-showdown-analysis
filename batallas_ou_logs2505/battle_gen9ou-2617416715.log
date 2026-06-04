@@ -1,0 +1,361 @@
+|j|☆storklo
+|j|☆monday2026
+|t:|1779685338
+|gametype|singles
+|player|p1|storklo|102|1556
+|player|p2|monday2026|2|1608
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Crown|
+|poke|p1|Ting-Lu|
+|poke|p1|Kingambit, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Regidrago|
+|poke|p2|Ditto|
+|poke|p2|Dondozo, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Iron Hands|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by storklo)
+|
+|t:|1779685346
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|1
+|
+|t:|1779685352
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|-terastallize|p2a: Hoopa|Fighting
+|move|p2a: Hoopa|Knock Off|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|86/100
+|-damage|p2a: Hoopa|84/100|[from] item: Rocky Helmet|[of] p1a: Ting-Lu
+|-enditem|p1a: Ting-Lu|Rocky Helmet|[from] move: Knock Off|[of] p2a: Hoopa
+|
+|upkeep
+|turn|2
+|
+|t:|1779685367
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Hoopa|Focus Blast|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|69/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1779685374
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|move|p1a: Gliscor|Protect||[still]
+|-fail|p1a: Gliscor
+|
+|-heal|p1a: Gliscor|82/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1779685379
+|move|p1a: Gliscor|Toxic|p2a: Dondozo
+|-status|p2a: Dondozo|tox
+|move|p2a: Dondozo|Avalanche|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-damage|p2a: Dondozo|94/100 tox|[from] psn
+|upkeep
+|
+|t:|1779685389
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|5
+|j| Concept Everything
+|
+|t:|1779685394
+|move|p1a: Dragapult|U-turn|p2a: Dondozo
+|-damage|p2a: Dondozo|83/100 tox
+|
+|t:|1779685404
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|move|p2a: Dondozo|Avalanche|p1a: Ogerpon
+|-damage|p1a: Ogerpon|66/100
+|
+|-damage|p2a: Dondozo|71/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1779685425
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|move|p1a: Ogerpon|U-turn|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|93/100
+|
+|t:|1779685434
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1779685444
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Iron Hands
+|-status|p2a: Iron Hands|brn
+|move|p2a: Iron Hands|Heavy Slam|p1a: Dragapult
+|-damage|p1a: Dragapult|54/100
+|
+|-damage|p2a: Iron Hands|87/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1779685468
+|move|p1a: Dragapult|Hex|p2a: Iron Hands
+|-damage|p2a: Iron Hands|24/100 brn
+|move|p2a: Iron Hands|Heavy Slam|p1a: Dragapult
+|-damage|p1a: Dragapult|9/100
+|
+|-damage|p2a: Iron Hands|18/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1779685478
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragapult|Dragon Darts|p2a: Tyranitar
+|-damage|p2a: Tyranitar|82/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Tyranitar
+|-damage|p2a: Tyranitar|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|3/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1779685484
+|switch|p2a: Iron Hands|Iron Hands|18/100 brn
+|move|p1a: Dragapult|U-turn|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|13/100 brn
+|
+|t:|1779685486
+|switch|p1a: Ting-Lu|Ting-Lu|86/100|[from] U-turn
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Hands|6/100 brn|[from] Sandstorm
+|-damage|p2a: Iron Hands|0 fnt|[from] brn
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|upkeep
+|
+|t:|1779685497
+|switch|p2a: Dondozo|Dondozo, M|71/100 tox
+|turn|11
+|
+|t:|1779685504
+|move|p1a: Ting-Lu|Taunt|p2a: Dondozo
+|-start|p2a: Dondozo|move: Taunt
+|move|p2a: Dondozo|Avalanche|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dondozo|65/100 tox|[from] Sandstorm
+|-damage|p2a: Dondozo|58/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1779685515
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Dondozo
+|-sidestart|p2: monday2026|move: Stealth Rock
+|move|p2a: Dondozo|Avalanche|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dondozo|52/100 tox|[from] Sandstorm
+|-damage|p2a: Dondozo|40/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1779685525
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Dondozo|Avalanche|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|90/100
+|
+|-weather|none
+|-heal|p1a: Kingambit|96/100|[from] item: Leftovers
+|-damage|p2a: Dondozo|21/100 tox|[from] psn
+|-end|p2a: Dondozo|move: Taunt
+|upkeep
+|turn|14
+|
+|t:|1779685532
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Dondozo
+|-crit|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|-heal|p1a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779685538
+|switch|p2a: Hoopa|Hoopa-Unbound, tera:Fighting|84/100
+|-damage|p2a: Hoopa|78/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1779685543
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Dragapult|Dragapult, F|3/100
+|move|p2a: Hoopa|Focus Blast|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|upkeep
+|turn|16
+|
+|t:|1779685548
+|move|p1a: Dragapult|Dragon Darts|p2a: Hoopa
+|-damage|p2a: Hoopa|45/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Hoopa
+|-damage|p2a: Hoopa|9/100
+|move|p2a: Hoopa|Psychic|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1779685554
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|66/100
+|turn|17
+|
+|t:|1779685559
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Hoopa|[anim] Ivy Cudgel Water
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1779685571
+|switch|p2a: Regidrago|Regidrago, shiny|100/100
+|-damage|p2a: Regidrago|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1779685577
+|move|p2a: Regidrago|Dragon Energy|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1779685583
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|19
+|
+|t:|1779685595
+|switch|p2a: Tyranitar|Tyranitar, F|61/100
+|-damage|p2a: Tyranitar|49/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Kingambit|Low Kick|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|monday2026 has 120 seconds left.
+|inactive|monday2026 has 90 seconds left.
+|
+|t:|1779685657
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Kingambit|[from] ability: Imposter
+|-activate|p2a: Ditto|ability: Supreme Overlord
+|-start|p2a: Ditto|fallen4|[silent]
+|turn|20
+|inactive|monday2026 has 90 seconds left.
+|
+|t:|1779685670
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|15/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Ditto|Low Kick|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1779685677
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespe
+|turn|21
+|
+|t:|1779685691
+|move|p1a: Iron Crown|Focus Blast|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|-end|p2a: Ditto|fallen4|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1779685694
+|switch|p2a: Regidrago|Regidrago, shiny|88/100
+|-damage|p2a: Regidrago|76/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1779685697
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Regidrago
+|-damage|p2a: Regidrago|52/100
+|-damage|p2a: Regidrago|25/100
+|-hitcount|p2a: Regidrago|2
+|move|p2a: Regidrago|Earth Power|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Regidrago|19/100|[from] Sandstorm
+|upkeep
+|turn|23
+|inactive|monday2026 has 120 seconds left.
+|
+|t:|1779685706
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Regidrago
+|-damage|p2a: Regidrago|0 fnt
+|faint|p2a: Regidrago
+|-hitcount|p2: Regidrago|1
+|
+|win|storklo
+|raw|storklo's rating: 1556 &rarr; <strong>1579</strong><br />(+23 for winning)
+|raw|monday2026's rating: 1608 &rarr; <strong>1585</strong><br />(-23 for losing)
+|l|☆monday2026
+|player|p2|
+|l|☆storklo
+|player|p1|

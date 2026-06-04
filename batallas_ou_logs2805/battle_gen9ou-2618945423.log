@@ -1,0 +1,204 @@
+|j|☆gabboh
+|j|☆dsekop
+|t:|1779865817
+|gametype|singles
+|player|p1|gabboh|102|1518
+|player|p2|dsekop|unknown|1540
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Smeargle, M|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Moltres-Galar|
+|poke|p1|Gholdengo|
+|poke|p2|Glimmora, F|
+|poke|p2|Iron Treads|
+|poke|p2|Polteageist-Antique|
+|poke|p2|Raging Bolt|
+|poke|p2|Dragonite, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dsekop)
+|
+|t:|1779865826
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1779865835
+|move|p2a: Iron Treads|Stealth Rock|p1a: Samurott
+|-sidestart|p1: gabboh|move: Stealth Rock
+|move|p1a: Samurott|Razor Shell|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|20/100
+|-unboost|p2a: Iron Treads|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1779865842
+|move|p1a: Samurott|Aqua Jet|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779865850
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|3
+|
+|t:|1779865855
+|move|p1a: Samurott|Ceaseless Edge|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|62/100
+|-sidestart|p2: dsekop|Spikes
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|-status|p1a: Samurott|par
+|
+|upkeep
+|turn|4
+|
+|t:|1779865864
+|move|p2a: Raging Bolt|Thunderclap|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1779865875
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-damage|p1a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p1a: Deoxys|Pressure
+|turn|5
+|
+|t:|1779865880
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Deoxys|Light Screen|p1a: Deoxys
+|-sidestart|p1: gabboh|move: Light Screen
+|
+|upkeep
+|turn|6
+|
+|t:|1779865892
+|move|p1a: Deoxys|Reflect|p1a: Deoxys
+|-sidestart|p1: gabboh|Reflect
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1779865896
+|move|p1a: Deoxys|Taunt|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|move: Taunt
+|cant|p2a: Raging Bolt|move: Taunt|Calm Mind
+|
+|upkeep
+|turn|8
+|
+|t:|1779865909
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Gholdengo
+|-damage|p1a: Gholdengo|35/100
+|
+|upkeep
+|turn|9
+|
+|t:|1779865917
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Gholdengo|Trick|p2a: Raging Bolt
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Raging Bolt
+|-item|p2a: Raging Bolt|Choice Scarf|[from] move: Trick
+|-enditem|p1a: Gholdengo|Choice Scarf|[silent]|[from] move: Trick
+|
+|-end|p2a: Raging Bolt|move: Taunt
+|upkeep
+|turn|10
+|
+|t:|1779865927
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1779865937
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|-damage|p1a: Smeargle|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1779865946
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Smeargle
+|-crit|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|
+|upkeep
+|
+|t:|1779865953
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|12
+|
+|t:|1779865960
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Zamazenta
+|-damage|p1a: Zamazenta|43/100
+|
+|-heal|p1a: Zamazenta|49/100|[from] item: Leftovers
+|-sideend|p1: gabboh|move: Light Screen
+|upkeep
+|turn|13
+|
+|t:|1779865967
+|-terastallize|p2a: Raging Bolt|Bug
+|move|p1a: Zamazenta|Body Press|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|15/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-sideend|p1: gabboh|Reflect
+|upkeep
+|-message|gabboh forfeited.
+|
+|win|dsekop
+|raw|gabboh's rating: 1518 &rarr; <strong>1499</strong><br />(-19 for losing)
+|raw|dsekop's rating: 1540 &rarr; <strong>1559</strong><br />(+19 for winning)
+|l|☆gabboh
+|player|p1|
+|l|☆dsekop
+|player|p2|

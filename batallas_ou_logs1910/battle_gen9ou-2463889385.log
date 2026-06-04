@@ -1,0 +1,275 @@
+|j|☆adestructive
+|j|☆lxyz098
+|t:|1760760296
+|gametype|singles
+|player|p1|adestructive|1|1316
+|player|p2|lxyz098|cynthia|1245
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Primarina, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Gliscor, F|
+|poke|p1|Kyurem|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Great Tusk|
+|poke|p2|Primarina, M|
+|poke|p2|Garchomp, F|
+|poke|p2|Gardevoir, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Gastrodon, M|
+|teampreview
+|
+|t:|1760760332
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Kyurem|Kyurem, shiny|100/100
+|switch|p2a: Gardevoir|Gardevoir, M, shiny|100/100
+|-ability|p1a: Kyurem|Pressure
+|-ability|p2a: Gardevoir|Pressure|Trace|[from] ability: Trace|[of] p1a: Kyurem
+|-ability|p2a: Gardevoir|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by adestructive)
+|
+|t:|1760760343
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Gardevoir|Moonblast|p1a: Gliscor
+|-damage|p1a: Gliscor|43/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1760760358
+|switch|p2a: Primarina|Primarina, M, shiny|100/100
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1760760364
+|move|p2a: Primarina|Flip Turn|p1a: Slowking
+|-damage|p1a: Slowking|85/100
+|
+|t:|1760760372
+|switch|p2a: Garchomp|Garchomp, F, shiny|100/100|[from] Flip Turn
+|move|p1a: Slowking|Ice Beam|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1760760384
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|turn|4
+|
+|t:|1760760387
+|move|p1a: Slowking|Psyshock|p2a: Gastrodon
+|-damage|p2a: Gastrodon|60/100
+|move|p2a: Gastrodon|Ice Beam|p1a: Slowking
+|-damage|p1a: Slowking|72/100
+|-status|p1a: Slowking|frz
+|
+|-heal|p2a: Gastrodon|66/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760760396
+|cant|p1a: Slowking|frz
+|move|p2a: Gastrodon|Surf|p1a: Slowking
+|-damage|p1a: Slowking|52/100 frz
+|
+|-heal|p2a: Gastrodon|72/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760760404
+|cant|p1a: Slowking|frz
+|move|p2a: Gastrodon|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|13/100 frz
+|
+|-heal|p2a: Gastrodon|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760760413
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Gastrodon|Earth Power|p1a: Great Tusk
+|-damage|p1a: Great Tusk|34/100
+|
+|-heal|p2a: Gastrodon|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760760425
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Great Tusk|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: lxyz098|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1760760432
+|move|p1a: Great Tusk|Stone Edge|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|51/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1760760442
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gliscor|Gliscor, F|43/100 tox
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1760760450
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|11
+|
+|t:|1760760456
+|move|p1a: Dragapult|Dragon Darts|p2a: Dragonite
+|-damage|p2a: Dragonite|7/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1760760463
+|switch|p2a: Gardevoir|Gardevoir, M, shiny|100/100
+|-damage|p2a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p2a: Gardevoir|Clear Body|Trace|[from] ability: Trace|[of] p1a: Dragapult
+|turn|12
+|
+|t:|1760760470
+|switch|p1a: Primarina|Primarina, F|100/100
+|move|p2a: Gardevoir|Psyshock|p1a: Primarina
+|-damage|p1a: Primarina|41/100
+|
+|upkeep
+|turn|13
+|
+|t:|1760760476
+|move|p2a: Gardevoir|Psyshock|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1760760479
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|47/100 frz
+|turn|14
+|
+|t:|1760760488
+|switch|p1a: Great Tusk|Great Tusk|34/100
+|move|p2a: Gardevoir|Psyshock|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760760489
+|switch|p1a: Kyurem|Kyurem, shiny|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|15
+|
+|t:|1760760498
+|move|p1a: Kyurem|Freeze-Dry|p2a: Gardevoir
+|-damage|p2a: Gardevoir|45/100
+|move|p2a: Gardevoir|Psyshock|p1a: Kyurem
+|-damage|p1a: Kyurem|56/100
+|
+|upkeep
+|turn|16
+|
+|t:|1760760508
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|-terastallize|p1a: Kyurem|Ice
+|move|p1a: Kyurem|Freeze-Dry|p2a: Corviknight
+|-damage|p2a: Corviknight|33/100
+|
+|upkeep
+|turn|17
+|
+|t:|1760760519
+|move|p1a: Kyurem|Freeze-Dry|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1760760523
+|switch|p2a: Primarina|Primarina, M, shiny|100/100
+|-damage|p2a: Primarina|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1760760532
+|move|p1a: Kyurem|Freeze-Dry|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|32/100
+|move|p2a: Primarina|Draining Kiss|p1a: Kyurem
+|-damage|p1a: Kyurem|31/100
+|-heal|p2a: Primarina|54/100|[from] drain|[of] p1a: Kyurem
+|
+|upkeep
+|turn|19
+|
+|t:|1760760539
+|move|p1a: Kyurem|Freeze-Dry|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1760760544
+|switch|p2a: Gardevoir|Gardevoir, M, shiny|45/100
+|-damage|p2a: Gardevoir|33/100|[from] Stealth Rock
+|-ability|p2a: Gardevoir|Pressure|Trace|[from] ability: Trace|[of] p1a: Kyurem
+|-ability|p2a: Gardevoir|Pressure
+|turn|20
+|inactive|adestructive has 120 seconds left.
+|
+|t:|1760760576
+|move|p1a: Kyurem|Freeze-Dry|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+|-message|lxyz098 forfeited.
+|
+|win|adestructive
+|raw|adestructive's rating: 1336 &rarr; <strong>1351</strong><br />(+15 for winning)
+|raw|lxyz098's rating: 1245 &rarr; <strong>1226</strong><br />(-19 for losing)
+|l|☆lxyz098
+|player|p2|
+|l|☆adestructive
+|player|p1|

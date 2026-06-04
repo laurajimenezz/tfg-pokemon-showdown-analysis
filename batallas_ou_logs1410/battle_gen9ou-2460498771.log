@@ -1,0 +1,205 @@
+|j|☆witdflow
+|j|☆AEFAA2
+|t:|1760314610
+|gametype|singles
+|player|p1|witdflow|norman|1174
+|player|p2|AEFAA2|scientist-gen4dp|1245
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Hydrapple, M|
+|poke|p1|Clefable, F|
+|poke|p1|Ditto|
+|poke|p1|Alomomola, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Scovillain, M|
+|poke|p2|Ninetales, F|
+|poke|p2|Walking Wake|
+|teampreview
+|
+|t:|1760314624
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ditto|Ditto|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-transform|p1a: Ditto|p2a: Torkoal|[from] ability: Imposter
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ditto
+|turn|1
+|
+|t:|1760314642
+|move|p2a: Torkoal|Rapid Spin|p1a: Ditto
+|-damage|p1a: Ditto|94/100
+|-boost|p2a: Torkoal|spe|1
+|move|p1a: Ditto|Body Press|p2a: Torkoal
+|-damage|p2a: Torkoal|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760314652
+|switch|p2a: Scovillain|Scovillain, M|100/100
+|move|p1a: Ditto|Overheat|p2a: Scovillain
+|-damage|p2a: Scovillain|1/100
+|-unboost|p1a: Ditto|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760314663
+|-terastallize|p2a: Scovillain|Fire
+|move|p2a: Scovillain|Overheat|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-unboost|p2a: Scovillain|spa|2
+|faint|p1a: Ditto
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760314675
+|switch|p1a: Hydrapple|Hydrapple, M|100/100
+|turn|4
+|
+|t:|1760314686
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Hydrapple|Body Press|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|48/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760314695
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|move|p1a: Hydrapple|Substitute|p1a: Hydrapple
+|-start|p1a: Hydrapple|Substitute
+|-damage|p1a: Hydrapple|75/100
+|
+|-weather|none
+|-heal|p1a: Hydrapple|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760314710
+|move|p2a: Ninetales|Healing Wish|p2a: Ninetales
+|faint|p2a: Ninetales
+|move|p1a: Hydrapple|Body Press|p2: Ninetales|[notarget]
+|-fail|p1a: Hydrapple
+|
+|-heal|p1a: Hydrapple|88/100|[from] item: Leftovers
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by witdflow)
+|
+|t:|1760314717
+|switch|p2a: Scovillain|Scovillain, M, tera:Fire|1/100
+|-heal|p2a: Scovillain|100/100|[from] move: Healing Wish
+|turn|7
+|
+|t:|1760314725
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Hydrapple|Body Press|p2a: Great Tusk
+|-damage|p2a: Great Tusk|81/100
+|
+|-heal|p1a: Hydrapple|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760314735
+|move|p2a: Great Tusk|Ice Spinner|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-crit|p1a: Hydrapple
+|-end|p1a: Hydrapple|Substitute
+|move|p1a: Hydrapple|Infestation|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|77/100
+|-activate|p2a: Great Tusk|move: Infestation|[of] p1a: Hydrapple
+|
+|-heal|p1a: Hydrapple|100/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|64/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1760314745
+|move|p2a: Great Tusk|Ice Spinner|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|13/100
+|move|p1a: Hydrapple|Substitute|p1a: Hydrapple
+|-fail|p1a: Hydrapple|move: Substitute|[weak]
+|
+|-heal|p1a: Hydrapple|19/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|52/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1760314754
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|89/100
+|-damage|p2a: Great Tusk|35/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|-end|p2a: Great Tusk|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|11
+|
+|t:|1760314765
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|83/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1760314779
+|move|p1a: Alomomola|Flip Turn|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|74/100
+|
+|t:|1760314783
+|switch|p1a: Ting-Lu|Ting-Lu, shiny|100/100|[from] Flip Turn
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Torkoal|Overheat|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|75/100
+|-unboost|p2a: Torkoal|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ting-Lu|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|13
+|
+|t:|1760314797
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p1a: Ting-Lu|Ruination|p2a: Walking Wake
+|-damage|p2a: Walking Wake|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|-message|witdflow forfeited.
+|
+|win|AEFAA2
+|raw|witdflow's rating: 1174 &rarr; <strong>1154</strong><br />(-20 for losing)
+|raw|AEFAA2's rating: 1245 &rarr; <strong>1265</strong><br />(+20 for winning)
+|l|☆witdflow
+|player|p1|

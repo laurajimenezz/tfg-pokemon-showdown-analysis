@@ -1,0 +1,396 @@
+|j|☆bandoozi
+|j|☆deepfried_kiwis
+|t:|1760805939
+|gametype|singles
+|player|p1|bandoozi|170|1060
+|player|p2|deepfried_kiwis|ingo|1093
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mamoswine, M|
+|poke|p1|Greninja-*, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Weezing, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Thundurus, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Moltres|
+|poke|p2|Zamazenta-*|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1760805950
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Greninja|Greninja, F, shiny|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|1
+|
+|t:|1760805961
+|move|p1a: Greninja|Low Kick|p2a: Iron Treads
+|-start|p1a: Greninja|typechange|Fighting|[from] ability: Protean
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bandoozi)
+|
+|t:|1760805984
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|2
+|
+|t:|1760805994
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Mandibuzz|[miss]
+|-miss|p2a: Dragapult|p1a: Mandibuzz
+|
+|upkeep
+|turn|3
+|
+|t:|1760806000
+|move|p2a: Dragapult|Draco Meteor|p1a: Mandibuzz|[miss]
+|-miss|p2a: Dragapult|p1a: Mandibuzz
+|move|p1a: Mandibuzz|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|41/100
+|-enditem|p2a: Dragapult|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|4
+|
+|t:|1760806006
+|move|p2a: Dragapult|Draco Meteor|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|50/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Mandibuzz|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|1/100
+|
+|-heal|p1a: Mandibuzz|56/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760806010
+|move|p2a: Dragapult|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|45/100
+|
+|t:|1760806015
+|switch|p2a: Garganacl|Garganacl, F|100/100|[from] U-turn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|95/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Mandibuzz|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760806021
+|move|p1a: Mandibuzz|Knock Off|p2a: Garganacl
+|-damage|p2a: Garganacl|83/100
+|-enditem|p2a: Garganacl|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Garganacl|Salt Cure|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|80/100
+|-start|p1a: Mandibuzz|Salt Cure
+|
+|-heal|p1a: Mandibuzz|86/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|74/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1760806029
+|switch|p1a: Weezing|Weezing, M|100/100
+|move|p2a: Garganacl|Salt Cure|p1a: Weezing
+|-damage|p1a: Weezing|91/100
+|-start|p1a: Weezing|Salt Cure
+|
+|-damage|p1a: Weezing|78/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1760806036
+|move|p1a: Weezing|Toxic|p2a: Garganacl
+|-immune|p2a: Garganacl|[from] ability: Purifying Salt
+|move|p2a: Garganacl|Salt Cure|p1a: Weezing
+|-damage|p1a: Weezing|68/100
+|
+|-damage|p1a: Weezing|56/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1760806045
+|move|p1a: Weezing|Pain Split|p2a: Garganacl
+|-sethp|p2a: Garganacl|65/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|78/100|[from] move: Pain Split
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-damage|p1a: Weezing|66/100|[from] Salt Cure
+|upkeep
+|turn|10
+|
+|t:|1760806066
+|move|p1a: Weezing|Toxic|p2a: Garganacl
+|-immune|p2a: Garganacl|[from] ability: Purifying Salt
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-damage|p1a: Weezing|54/100|[from] Salt Cure
+|upkeep
+|turn|11
+|
+|t:|1760806075
+|move|p1a: Weezing|Pain Split|p2a: Garganacl
+|-sethp|p2a: Garganacl|55/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|66/100|[from] move: Pain Split
+|move|p2a: Garganacl|Body Press|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|42/100
+|-damage|p2a: Garganacl|38/100|[from] item: Rocky Helmet|[of] p1a: Weezing
+|
+|-damage|p1a: Weezing|30/100|[from] Salt Cure
+|upkeep
+|turn|12
+|
+|t:|1760806084
+|move|p1a: Weezing|Pain Split|p2a: Garganacl
+|-sethp|p2a: Garganacl|31/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|38/100|[from] move: Pain Split
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|81/100
+|
+|-damage|p1a: Weezing|25/100|[from] Salt Cure
+|upkeep
+|turn|13
+|
+|t:|1760806091
+|move|p1a: Weezing|Pain Split|p2a: Garganacl
+|-sethp|p2a: Garganacl|51/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|62/100|[from] move: Pain Split
+|move|p2a: Garganacl|Body Press|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|39/100
+|-damage|p2a: Garganacl|34/100|[from] item: Rocky Helmet|[of] p1a: Weezing
+|
+|-damage|p1a: Weezing|26/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1760806103
+|switch|p1a: Greninja|Greninja, F, shiny|100/100
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|upkeep
+|turn|15
+|
+|t:|1760806107
+|move|p1a: Greninja|Low Kick|p2a: Garganacl
+|-start|p1a: Greninja|typechange|Fighting|[from] ability: Protean
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|4/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|54/100
+|
+|upkeep
+|turn|16
+|
+|t:|1760806113
+|move|p1a: Greninja|Low Kick|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|27/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|77/100
+|
+|upkeep
+|turn|17
+|
+|t:|1760806122
+|move|p1a: Greninja|Low Kick|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|49/100
+|move|p2a: Garganacl|Salt Cure|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|90/100
+|-start|p1a: Greninja|Salt Cure
+|
+|-damage|p1a: Greninja|77/100|[from] Salt Cure
+|upkeep
+|turn|18
+|
+|t:|1760806135
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|99/100
+|
+|upkeep
+|turn|19
+|
+|t:|1760806140
+|move|p2a: Garganacl|Salt Cure|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|78/100
+|-start|p1a: Hatterene|Salt Cure
+|move|p1a: Hatterene|Nuzzle|p2a: Garganacl
+|-damage|p2a: Garganacl|98/100
+|
+|-damage|p1a: Hatterene|66/100|[from] Salt Cure
+|upkeep
+|turn|20
+|
+|t:|1760806154
+|move|p2a: Garganacl|Salt Cure|p1a: Hatterene
+|-damage|p1a: Hatterene|51/100
+|move|p1a: Hatterene|Future Sight|p2a: Garganacl
+|-start|p1a: Hatterene|move: Future Sight
+|
+|-damage|p1a: Hatterene|39/100|[from] Salt Cure
+|upkeep
+|turn|21
+|
+|t:|1760806165
+|move|p2a: Garganacl|Body Press|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|15/100
+|move|p1a: Hatterene|Nuzzle|p2a: Garganacl
+|-damage|p2a: Garganacl|98/100
+|
+|-damage|p1a: Hatterene|3/100|[from] Salt Cure
+|upkeep
+|turn|22
+|
+|t:|1760806176
+|move|p2a: Garganacl|Body Press|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-end|p2a: Garganacl|move: Future Sight
+|-damage|p2a: Garganacl|57/100
+|upkeep
+|
+|t:|1760806180
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|turn|23
+|
+|t:|1760806186
+|move|p1a: Thundurus|Taunt|p2a: Garganacl
+|-start|p2a: Garganacl|move: Taunt
+|move|p2a: Garganacl|Salt Cure|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|75/100
+|-start|p1a: Thundurus|Salt Cure
+|
+|-heal|p1a: Thundurus|81/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|69/100|[from] Salt Cure
+|upkeep
+|turn|24
+|
+|t:|1760806195
+|switch|p1a: Greninja|Greninja, F, shiny|77/100
+|move|p2a: Garganacl|Salt Cure|p1a: Greninja
+|-damage|p1a: Greninja|54/100
+|-start|p1a: Greninja|Salt Cure
+|
+|-damage|p1a: Greninja|29/100|[from] Salt Cure
+|upkeep
+|turn|25
+|
+|t:|1760806206
+|move|p1a: Greninja|Low Kick|p2a: Garganacl
+|-start|p1a: Greninja|typechange|Fighting|[from] ability: Protean
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|28/100
+|move|p2a: Garganacl|Salt Cure|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|18/100
+|
+|-damage|p1a: Greninja|6/100|[from] Salt Cure
+|-end|p2a: Garganacl|move: Taunt
+|upkeep
+|turn|26
+|
+|t:|1760806216
+|move|p1a: Greninja|Low Kick|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-damage|p1a: Greninja|0 fnt|[from] Salt Cure
+|faint|p1a: Greninja
+|upkeep
+|
+|t:|1760806226
+|switch|p1a: Mandibuzz|Mandibuzz, F|74/100
+|switch|p2a: Dragapult|Dragapult, F|1/100
+|turn|27
+|
+|t:|1760806231
+|move|p2a: Dragapult|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|62/100
+|
+|t:|1760806237
+|switch|p2a: Moltres|Moltres|100/100|[from] U-turn
+|move|p1a: Mandibuzz|Knock Off|p2a: Moltres
+|-damage|p2a: Moltres|81/100
+|-enditem|p2a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|-heal|p1a: Mandibuzz|68/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1760806248
+|switch|p1a: Thundurus|Thundurus, M|69/100
+|move|p2a: Moltres|Flamethrower|p1a: Thundurus
+|-damage|p1a: Thundurus|30/100
+|-status|p1a: Thundurus|brn
+|
+|-heal|p1a: Thundurus|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Thundurus|30/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1760806262
+|move|p1a: Thundurus|Thunder Wave|p2a: Moltres
+|-status|p2a: Moltres|par
+|move|p2a: Moltres|Flamethrower|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1760806267
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|turn|30
+|
+|t:|1760806274
+|cant|p2a: Moltres|par
+|move|p1a: Mamoswine|Avalanche|p2a: Moltres
+|-damage|p2a: Moltres|53/100 par
+|-status|p1a: Mamoswine|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|
+|-damage|p1a: Mamoswine|94/100 brn|[from] brn
+|upkeep
+|turn|31
+|-message|bandoozi forfeited.
+|
+|win|deepfried_kiwis
+|raw|bandoozi's rating: 1060 &rarr; <strong>1043</strong><br />(-17 for losing)
+|raw|deepfried_kiwis's rating: 1093 &rarr; <strong>1117</strong><br />(+24 for winning)
+|l|☆bandoozi
+|player|p1|

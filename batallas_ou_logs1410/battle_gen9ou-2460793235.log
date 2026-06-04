@@ -1,0 +1,203 @@
+|j|☆everrave
+|j|☆huey888
+|t:|1760361949
+|gametype|singles
+|player|p1|everrave|policeman-gen4|1358
+|player|p2|huey888|bugcatcher-gen4dp|1431
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Incineroar, F|
+|poke|p1|Comfey, M|
+|poke|p1|Great Tusk|
+|poke|p1|Gengar, M|
+|poke|p2|Darkrai|
+|poke|p2|Ceruledge, M|
+|poke|p2|Sableye, M|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Moth|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1760361955
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Sableye|Sableye, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1760361963
+|switch|p1a: Incineroar|Incineroar, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sableye|atk|1
+|move|p2a: Sableye|Will-O-Wisp|p1a: Incineroar
+|-immune|p1a: Incineroar
+|
+|upkeep
+|turn|2
+|
+|t:|1760361972
+|move|p1a: Incineroar|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|58/100
+|-enditem|p2a: Sableye|Leftovers|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2a: Sableye|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|92/100
+|-enditem|p1a: Incineroar|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Sableye
+|
+|-heal|p1a: Incineroar|98/100|[from] Grassy Terrain
+|-heal|p2a: Sableye|65/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1760361984
+|move|p2a: Sableye|Encore|p1a: Incineroar
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Incineroar
+|move|p1a: Incineroar|Parting Shot|p2a: Sableye
+|-unboost|p2a: Sableye|atk|1
+|-unboost|p2a: Sableye|spa|1
+|
+|t:|1760361993
+|switch|p1a: Comfey|Comfey, M|100/100|[from] Parting Shot
+|
+|-heal|p2a: Sableye|71/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1760362000
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1760362007
+|-terastallize|p1a: Comfey|Ground
+|move|p2a: Iron Moth|Fiery Dance|p1a: Comfey
+|-damage|p1a: Comfey|73/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Comfey|Tera Blast|p2a: Iron Moth|[anim] Tera Blast Ground
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|-damage|p1a: Comfey|63/100|[from] item: Life Orb
+|
+|-heal|p1a: Comfey|69/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760362020
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|6
+|
+|t:|1760362023
+|move|p1a: Comfey|Draining Kiss|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|-heal|p1a: Comfey|100/100|[from] drain|[of] p2a: Darkrai
+|faint|p2a: Darkrai
+|-damage|p1a: Comfey|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Comfey|97/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760362042
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|7
+|
+|t:|1760362046
+|move|p2a: Ceruledge|Bitter Blade|p1a: Comfey
+|-damage|p1a: Comfey|31/100
+|move|p1a: Comfey|Tera Blast|p2a: Ceruledge|[anim] Tera Blast Ground
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-damage|p1a: Comfey|21/100|[from] item: Life Orb
+|
+|-heal|p2a: Ceruledge|7/100|[from] Grassy Terrain
+|-heal|p1a: Comfey|27/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1760362058
+|move|p1a: Comfey|Draining Kiss|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|-heal|p1a: Comfey|32/100|[from] drain|[of] p2a: Ceruledge
+|faint|p2a: Ceruledge
+|-damage|p1a: Comfey|22/100|[from] item: Life Orb
+|
+|-heal|p1a: Comfey|28/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1760362072
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|9
+|
+|t:|1760362076
+|move|p1a: Comfey|Draining Kiss|p2a: Kingambit
+|-damage|p2a: Kingambit|67/100
+|-heal|p1a: Comfey|62/100|[from] drain|[of] p2a: Kingambit
+|-damage|p1a: Comfey|52/100|[from] item: Life Orb
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|73/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760362086
+|-terastallize|p2a: Kingambit|Dark
+|move|p1a: Comfey|Tera Blast|p2a: Kingambit|[anim] Tera Blast Ground
+|-damage|p2a: Kingambit|16/100
+|-damage|p1a: Comfey|42/100|[from] item: Life Orb
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Comfey
+|-damage|p1a: Comfey|0 fnt
+|faint|p1a: Comfey
+|
+|-heal|p2a: Kingambit|22/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760362102
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|11
+|
+|t:|1760362107
+|move|p1a: Rillaboom|Grassy Glide|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|upkeep
+|-message|huey888 forfeited.
+|
+|win|everrave
+|raw|everrave's rating: 1358 &rarr; <strong>1382</strong><br />(+24 for winning)
+|raw|huey888's rating: 1431 &rarr; <strong>1407</strong><br />(-24 for losing)
+|l|☆huey888
+|player|p2|
+|l|☆everrave
+|player|p1|

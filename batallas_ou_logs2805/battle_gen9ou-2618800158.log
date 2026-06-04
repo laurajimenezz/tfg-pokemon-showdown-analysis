@@ -1,0 +1,218 @@
+|j|☆ivoryP
+|j|☆yzmqwert
+|t:|1779845320
+|gametype|singles
+|player|p1|ivoryP|bugcatcher-gen4dp|1285
+|player|p2|yzmqwert|n|1308
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Leavanny, M|
+|poke|p1|Ninetales, M|
+|poke|p1|Moltres|
+|poke|p1|Shiftry, M|
+|poke|p1|Forretress, F|
+|poke|p1|Walking Wake|
+|poke|p2|Pelipper, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Overqwil, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Iron Treads|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1779845352
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspa
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1779845359
+|move|p2a: Iron Treads|Stealth Rock|p1a: Walking Wake
+|-sidestart|p1: ivoryP|move: Stealth Rock
+|move|p1a: Walking Wake|Hydro Steam|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779845366
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|2
+|
+|t:|1779845375
+|move|p1a: Walking Wake|Draco Meteor|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779845389
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|3
+|
+|t:|1779845404
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p1a: Walking Wake|Flip Turn|p2a: Raging Bolt
+|-crit|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|66/100
+|
+|t:|1779845408
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Forretress|Forretress, F|100/100|[from] Flip Turn
+|move|p2a: Raging Bolt|Thunder|p1a: Forretress
+|-damage|p1a: Forretress|6/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779845425
+|move|p2a: Raging Bolt|Weather Ball|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779845429
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-damage|p1a: Ninetales|75/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|5
+|
+|t:|1779845445
+|move|p1a: Ninetales|Memento|p2a: Raging Bolt
+|-unboost|p2a: Raging Bolt|atk|2
+|-unboost|p2a: Raging Bolt|spa|2
+|faint|p1a: Ninetales
+|move|p2a: Raging Bolt|Draco Meteor|p1: Ninetales|[notarget]
+|-fail|p2a: Raging Bolt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779845455
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|-damage|p1a: Shiftry|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1779845463
+|move|p1a: Shiftry|Tailwind|p1a: Shiftry
+|-sidestart|p1: ivoryP|move: Tailwind
+|-ability|p1a: Shiftry|Wind Rider|boost
+|-boost|p1a: Shiftry|atk|1
+|move|p2a: Raging Bolt|Weather Ball|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|faint|p1a: Shiftry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779845472
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-damage|p1a: Walking Wake|88/100|[from] Stealth Rock
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|7
+|
+|t:|1779845483
+|move|p2a: Raging Bolt|Thunderclap|p1a: Walking Wake
+|-damage|p1a: Walking Wake|57/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779845498
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|turn|8
+|
+|t:|1779845501
+|-terastallize|p1a: Walking Wake|Water
+|move|p1a: Walking Wake|Hydro Steam|p2a: Barraskewda
+|-resisted|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779845510
+|switch|p2a: Overqwil|Overqwil, M|100/100
+|turn|9
+|
+|t:|1779845521
+|move|p1a: Walking Wake|Hydro Steam|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: ivoryP|move: Tailwind
+|upkeep
+|
+|t:|1779845525
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|10
+|
+|t:|1779845529
+|move|p2a: Kingambit|Sucker Punch|p1a: Walking Wake
+|-crit|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779845542
+|switch|p1a: Moltres|Moltres|100/100
+|-ability|p1a: Moltres|Pressure
+|turn|11
+|
+|t:|1779845548
+|move|p1a: Moltres|Flamethrower|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|ivoryP
+|raw|ivoryP's rating: 1285 &rarr; <strong>1312</strong><br />(+27 for winning)
+|raw|yzmqwert's rating: 1308 &rarr; <strong>1287</strong><br />(-21 for losing)
+|l|☆ivoryP
+|player|p1|
+|l|☆yzmqwert
+|player|p2|

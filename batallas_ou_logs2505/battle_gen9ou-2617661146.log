@@ -1,0 +1,333 @@
+|j|☆purpashroom
+|j|☆pavelight
+|t:|1779720490
+|gametype|singles
+|player|p1|purpashroom|richboy-gen4|1210
+|player|p2|pavelight|steven|1212
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Reuniclus, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Torkoal, M|
+|poke|p1|Farigiraf, M|
+|poke|p2|Pincurchin, F|
+|poke|p2|Iron Jugulis|
+|poke|p2|Hawlucha, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Raichu-Alola, M|
+|poke|p2|Iron Treads|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by purpashroom)
+|
+|t:|1779720496
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|t:|1779720505
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-item|p2a: Iron Treads|Air Balloon
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdrivedef
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1779720519
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Iron Treads|Knock Off|p1a: Ursaluna
+|-damage|p1a: Ursaluna|79/100
+|-enditem|p1a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|3
+|
+|t:|1779720532
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Electric Seed
+|move|p1a: Ursaluna|Close Combat|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-damage|p2a: Hawlucha|77/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1779720547
+|move|p1a: Ursaluna|Facade|p2a: Hawlucha
+|-damage|p2a: Hawlucha|36/100
+|move|p2a: Hawlucha|Acrobatics|p1a: Ursaluna
+|-damage|p1a: Ursaluna|31/100
+|
+|upkeep
+|turn|5
+|
+|t:|1779720558
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-item|p2a: Iron Treads|Air Balloon
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdrivedef
+|move|p1a: Ursaluna|Facade|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|89/100
+|-enditem|p2a: Iron Treads|Air Balloon
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1779720581
+|move|p2a: Iron Treads|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|upkeep
+|inactive|purpashroom has 120 seconds left.
+|
+|t:|1779720599
+|switch|p1a: Farigiraf|Farigiraf, M|100/100
+|turn|7
+|
+|t:|1779720605
+|move|p2a: Iron Treads|Knock Off|p1a: Farigiraf
+|-supereffective|p1a: Farigiraf
+|-damage|p1a: Farigiraf|38/100
+|-enditem|p1a: Farigiraf|Throat Spray|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|8
+|
+|t:|1779720618
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Iron Treads|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|78/100
+|-enditem|p1a: Torkoal|Charcoal|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Treads|Quark Drive
+|upkeep
+|turn|9
+|
+|t:|1779720629
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Torkoal|Flamethrower|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1779720643
+|move|p1a: Torkoal|Stealth Rock|p2a: Raging Bolt
+|-sidestart|p2: pavelight|move: Stealth Rock
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779720651
+|switch|p1a: Kingambit|Kingambit, M, shiny|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|11
+|
+|t:|1779720663
+|-terastallize|p1a: Kingambit|Dark
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1779720670
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-damage|p2a: Pincurchin|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|12
+|inactive|purpashroom has 120 seconds left.
+|
+|t:|1779720692
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Pincurchin|Supercell Slam|p1a: Kingambit
+|-damage|p1a: Kingambit|67/100
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1779720700
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Pincurchin|Thunder Wave|p1a: Kingambit
+|-status|p1a: Kingambit|par
+|
+|upkeep
+|turn|14
+|
+|t:|1779720708
+|move|p2a: Pincurchin|Memento|p1a: Kingambit
+|-unboost|p1a: Kingambit|atk|2
+|-unboost|p1a: Kingambit|spa|2
+|faint|p2a: Pincurchin
+|move|p1a: Kingambit|Kowtow Cleave|p2: Pincurchin|[notarget]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|
+|t:|1779720725
+|switch|p2a: Hawlucha|Hawlucha, M|36/100
+|-damage|p2a: Hawlucha|24/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1779720731
+|move|p1a: Kingambit|Sucker Punch|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|t:|1779720736
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100
+|-damage|p2a: Iron Jugulis|76/100|[from] Stealth Rock
+|-activate|p2a: Iron Jugulis|ability: Quark Drive
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|turn|16
+|
+|t:|1779720749
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Farigiraf|Farigiraf, M|38/100
+|move|p2a: Iron Jugulis|Air Slash|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|-damage|p2a: Iron Jugulis|66/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779720756
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|17
+|
+|t:|1779720765
+|-terastallize|p2a: Iron Jugulis|Dark
+|move|p2a: Iron Jugulis|Dark Pulse|p1a: Hatterene
+|-damage|p1a: Hatterene|28/100
+|-damage|p2a: Iron Jugulis|56/100|[from] item: Life Orb
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1779720773
+|switch|p1a: Kingambit|Kingambit, M, shiny, tera:Dark|67/100 par
+|-heal|p1a: Kingambit|100/100|[from] move: Healing Wish
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|18
+|
+|t:|1779720800
+|move|p2a: Iron Jugulis|Fire Blast|p1a: Kingambit
+|-damage|p1a: Kingambit|58/100
+|-damage|p2a: Iron Jugulis|46/100|[from] item: Life Orb
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|19
+|
+|t:|1779720809
+|move|p1a: Kingambit|Sucker Punch|p2a: Iron Jugulis
+|-resisted|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|0 fnt
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1779720819
+|switch|p2a: Raichu|Raichu-Alola, M|100/100
+|-damage|p2a: Raichu|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1779720824
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Raichu|Calm Mind|p2a: Raichu
+|-boost|p2a: Raichu|spa|1
+|-boost|p2a: Raichu|spd|1
+|
+|upkeep
+|turn|21
+|
+|t:|1779720835
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Raichu|Calm Mind|p2a: Raichu
+|-boost|p2a: Raichu|spa|1
+|-boost|p2a: Raichu|spd|1
+|
+|upkeep
+|turn|22
+|
+|t:|1779720842
+|move|p1a: Kingambit|Sucker Punch|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|upkeep
+|
+|t:|1779720847
+|switch|p2a: Iron Treads|Iron Treads|89/100
+|-damage|p2a: Iron Treads|86/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1779720854
+|move|p1a: Kingambit|Sucker Punch|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|win|purpashroom
+|raw|purpashroom's rating: 1210 &rarr; <strong>1235</strong><br />(+25 for winning)
+|raw|pavelight's rating: 1212 &rarr; <strong>1187</strong><br />(-25 for losing)
+|l|☆pavelight
+|player|p2|
+|l|☆purpashroom
+|player|p1|

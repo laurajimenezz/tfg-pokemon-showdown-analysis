@@ -1,0 +1,231 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆lemeu
+|j|☆redsnow0
+|t:|1776071387
+|gametype|singles
+|player|p1|lemeu|102|1448
+|player|p2|redsnow0|169|1412
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Kingambit, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p2|Corviknight, M|
+|poke|p2|Swampert, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, F|
+|poke|p2|Keldeo|
+|teampreview
+|
+|t:|1776071426
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|t:|1776071433
+|move|p2a: Dragapult|Draco Meteor|p1a: Ogerpon
+|-ability|p1a: Ogerpon|Sturdy
+|-damage|p1a: Ogerpon|1/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Ogerpon|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p1a: Ogerpon
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1776071446
+|switch|p2a: Keldeo|Keldeo|100/100
+|turn|2
+|
+|t:|1776071451
+|move|p2a: Keldeo|Vacuum Wave|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1776071454
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|3
+|
+|t:|1776071460
+|switch|p2a: Swampert|Swampert, F|100/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1776071466
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Swampert
+|-damage|p2a: Swampert|37/100
+|move|p2a: Swampert|Earthquake|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|31/100
+|
+|-heal|p2a: Swampert|43/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1776071482
+|-terastallize|p2a: Swampert|Steel
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|10/100
+|move|p2a: Swampert|Earthquake|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-crit|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-heal|p2a: Swampert|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1776071492
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|6
+|
+|t:|1776071497
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Swampert|Flip Turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|91/100
+|
+|t:|1776071504
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Flip Turn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|upkeep
+|turn|7
+|
+|t:|1776071517
+|-terastallize|p1a: Dragonite|Flying
+|move|p2a: Iron Valiant|Spirit Break|p1a: Dragonite
+|-damage|p1a: Dragonite|46/100
+|-unboost|p1a: Dragonite|spa|1
+|move|p1a: Dragonite|Tera Blast|p2a: Iron Valiant|[anim] Tera Blast Flying
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1776071541
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|8
+|
+|t:|1776071546
+|move|p1a: Dragonite|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|1/100
+|move|p2a: Kingambit|Iron Head|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1776071556
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|9
+|
+|t:|1776071563
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|84/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-enditem|p2a: Kingambit|Lum Berry|[from] move: Knock Off|[of] p1a: Iron Valiant
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1776071570
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|10
+|
+|t:|1776071575
+|move|p1a: Iron Valiant|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|80/100
+|-damage|p1a: Iron Valiant|67/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Corviknight|Brave Bird|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-damage|p2a: Corviknight|64/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1776071584
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|11
+|
+|t:|1776071606
+|switch|p2a: Keldeo|Keldeo|100/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|77/100
+|-boost|p1a: Iron Moth|spa|1
+|
+|-heal|p2a: Keldeo|83/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1776071628
+|move|p1a: Iron Moth|Energy Ball|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|upkeep
+|-message|redsnow0 forfeited.
+|
+|win|lemeu
+|raw|lemeu's rating: 1448 &rarr; <strong>1466</strong><br />(+18 for winning)
+|raw|redsnow0's rating: 1412 &rarr; <strong>1394</strong><br />(-18 for losing)
+|l|☆redsnow0
+|player|p2|
+|l|☆lemeu
+|player|p1|

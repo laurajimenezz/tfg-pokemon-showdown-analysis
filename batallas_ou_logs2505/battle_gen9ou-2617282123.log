@@ -1,0 +1,171 @@
+|j|☆barrman1313
+|j|☆Spongenoodles
+|t:|1779668165
+|gametype|singles
+|player|p1|barrman1313|janitor|1385
+|player|p2|Spongenoodles|red|1369
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Pelipper, M|
+|poke|p1|Hariyama, M|
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Porygon2|
+|poke|p2|Alomomola, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Walking Wake|
+|poke|p2|Corviknight, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Pecharunt|
+|teampreview
+|
+|t:|1779668179
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|1
+|
+|t:|1779668186
+|move|p2a: Pecharunt|Malignant Chain|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|38/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1779668207
+|switch|p1a: Hariyama|Hariyama, M|100/100
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779668213
+|move|p1a: Hariyama|Belly Drum|p1a: Hariyama
+|-damage|p1a: Hariyama|50/100
+|-setboost|p1a: Hariyama|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Hariyama|Sitrus Berry|[eat]
+|-heal|p1a: Hariyama|75/100|[from] item: Sitrus Berry
+|move|p2a: Alomomola|Flip Turn|p1a: Hariyama
+|-damage|p1a: Hariyama|59/100
+|
+|t:|1779668216
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|4
+|
+|t:|1779668228
+|move|p1a: Hariyama|Bullet Punch|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1779668233
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|5
+|
+|t:|1779668249
+|move|p1a: Hariyama|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|-enditem|p2a: Pecharunt|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Hariyama
+|faint|p2a: Pecharunt
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1779668252
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|6
+|
+|t:|1779668262
+|move|p1a: Hariyama|Drain Punch|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-heal|p1a: Hariyama|99/100|[from] drain|[of] p2a: Torkoal
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779668266
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|7
+|
+|t:|1779668275
+|-terastallize|p2a: Walking Wake|Water
+|move|p1a: Hariyama|Bullet Punch|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|70/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Hariyama
+|-crit|p1a: Hariyama
+|-damage|p1a: Hariyama|0 fnt
+|faint|p1a: Hariyama
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779668308
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|turn|8
+|
+|t:|1779668314
+|move|p2a: Walking Wake|Hydro Steam|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779668318
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-end|p2a: Walking Wake|Protosynthesis
+|turn|9
+|
+|t:|1779668330
+|move|p2a: Walking Wake|Hydro Steam|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|16/100
+|move|p1a: Pelipper|Hurricane|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779668337
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|10
+|-message|Spongenoodles forfeited.
+|
+|win|barrman1313
+|raw|barrman1313's rating: 1385 &rarr; <strong>1404</strong><br />(+19 for winning)
+|raw|Spongenoodles's rating: 1369 &rarr; <strong>1350</strong><br />(-19 for losing)
+|l|☆Spongenoodles
+|player|p2|
+|l|☆barrman1313
+|player|p1|

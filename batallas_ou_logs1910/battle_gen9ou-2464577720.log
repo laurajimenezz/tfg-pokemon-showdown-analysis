@@ -1,0 +1,507 @@
+|j|☆orbabsorber
+|j|☆yobluntsoskimpy
+|t:|1760876161
+|gametype|singles
+|player|p1|orbabsorber|cyrus|1222
+|player|p2|yobluntsoskimpy|rancher|1208
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Maushold|
+|poke|p1|Gholdengo|
+|poke|p1|Gliscor, M|
+|poke|p1|Primarina, M|
+|poke|p1|Garganacl, M|
+|poke|p2|Empoleon, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Vikavolt, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Sinistcha|
+|poke|p2|Hoopa-Unbound|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yobluntsoskimpy)
+|
+|t:|1760876170
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1760876180
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Cinderace
+|-damage|p2a: Cinderace|65/100
+|-unboost|p2a: Cinderace|spd|1
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Iron Valiant|[miss]
+|-miss|p2a: Cinderace|p1a: Iron Valiant
+|
+|upkeep
+|turn|2
+|
+|t:|1760876187
+|switch|p2a: Vikavolt|Vikavolt, F|100/100
+|move|p1a: Iron Valiant|Close Combat|p2a: Vikavolt
+|-resisted|p2a: Vikavolt
+|-damage|p2a: Vikavolt|79/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|
+|-heal|p2a: Vikavolt|85/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1760876196
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Vikavolt|Sticky Web|p1a: Iron Valiant
+|-sidestart|p1: orbabsorber|move: Sticky Web
+|
+|-heal|p2a: Vikavolt|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1760876203
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Vikavolt|Volt Switch|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|54/100
+|
+|t:|1760876213
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|5
+|
+|t:|1760876217
+|-terastallize|p1a: Iron Valiant|Ghost
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-enditem|p2a: Hatterene|Focus Sash
+|-damage|p2a: Hatterene|1/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|6
+|
+|t:|1760876226
+|move|p2a: Hatterene|Misty Explosion|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p2a: Hatterene
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760876236
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|-activate|p1a: Garganacl|move: Sticky Web
+|-unboost|p1a: Garganacl|spe|1
+|turn|7
+|
+|t:|1760876245
+|move|p1a: Garganacl|Salt Cure|p2a: Hoopa
+|-damage|p2a: Hoopa|80/100
+|-start|p2a: Hoopa|Salt Cure
+|move|p2a: Hoopa|Drain Punch|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|51/100
+|-heal|p2a: Hoopa|100/100|[from] drain|[of] p1a: Garganacl
+|
+|-heal|p1a: Garganacl|58/100|[from] item: Leftovers
+|-damage|p2a: Hoopa|88/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1760876255
+|move|p1a: Garganacl|Iron Defense|p1a: Garganacl
+|-boost|p1a: Garganacl|def|2
+|move|p2a: Hoopa|Psychic Noise|p1a: Garganacl
+|-damage|p1a: Garganacl|29/100
+|-start|p1a: Garganacl|move: Heal Block
+|
+|-damage|p2a: Hoopa|76/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1760876264
+|switch|p2a: Cinderace|Cinderace, F|65/100
+|move|p1a: Garganacl|Body Press|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-end|p1a: Garganacl|move: Heal Block
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760876271
+|switch|p2a: Vikavolt|Vikavolt, F|91/100
+|turn|10
+|
+|t:|1760876276
+|move|p2a: Vikavolt|Energy Ball|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-crit|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-heal|p2a: Vikavolt|97/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760876281
+|switch|p1a: Maushold|Maushold|100/100
+|-activate|p1a: Maushold|move: Sticky Web
+|-unboost|p1a: Maushold|spe|1
+|turn|11
+|
+|t:|1760876286
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-sideend|p1: orbabsorber|Sticky Web
+|-activate|p1a: Maushold|move: Tidy Up
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|move|p2a: Vikavolt|Volt Switch|p1a: Maushold
+|-damage|p1a: Maushold|43/100
+|
+|t:|1760876289
+|switch|p2a: Sinistcha|Sinistcha|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|12
+|
+|t:|1760876297
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|upkeep
+|turn|13
+|
+|t:|1760876304
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|upkeep
+|
+|t:|1760876311
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|turn|14
+|
+|t:|1760876317
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|15
+|
+|t:|1760876328
+|move|p2a: Sinistcha|Shadow Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|62/100 tox
+|move|p1a: Gliscor|Toxic|p2a: Sinistcha
+|-status|p2a: Sinistcha|tox
+|
+|-damage|p2a: Sinistcha|94/100 tox|[from] psn
+|-heal|p1a: Gliscor|74/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1760876337
+|move|p2a: Sinistcha|Shadow Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|29/100 tox
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|4/100 tox
+|
+|-heal|p2a: Sinistcha|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Sinistcha|88/100 tox|[from] psn
+|-heal|p1a: Gliscor|17/100 tox|[from] ability: Poison Heal
+|-fieldend|move: Trick Room
+|upkeep
+|turn|17
+|
+|t:|1760876347
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-heal|p2a: Sinistcha|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Sinistcha|76/100 tox|[from] psn
+|-heal|p1a: Gliscor|29/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|
+|t:|1760876359
+|switch|p2a: Hoopa|Hoopa-Unbound|76/100
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-fail|p1a: Gliscor|move: Substitute
+|
+|-heal|p1a: Gliscor|41/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|
+|t:|1760876366
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Hoopa|Psychic Noise|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|54/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|t:|1760876375
+|switch|p1a: Primarina|Primarina, M|100/100
+|move|p2a: Hoopa|Psychic Noise|p1a: Primarina
+|-damage|p1a: Primarina|77/100
+|-start|p1a: Primarina|move: Heal Block
+|
+|upkeep
+|turn|21
+|
+|t:|1760876386
+|switch|p2a: Sinistcha|Sinistcha|76/100 tox
+|move|p1a: Primarina|Surf|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|46/100 tox
+|
+|-heal|p2a: Sinistcha|52/100 tox|[from] item: Leftovers
+|-damage|p2a: Sinistcha|46/100 tox|[from] psn
+|-end|p1a: Primarina|move: Heal Block
+|-fieldend|move: Trick Room
+|upkeep
+|turn|22
+|
+|t:|1760876399
+|move|p1a: Primarina|Flip Turn|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|40/100 tox
+|
+|t:|1760876403
+|switch|p1a: Gliscor|Gliscor, M|54/100 tox|[from] Flip Turn
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-heal|p2a: Sinistcha|46/100 tox|[from] item: Leftovers
+|-damage|p2a: Sinistcha|34/100 tox|[from] psn
+|-heal|p1a: Gliscor|66/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|t:|1760876414
+|switch|p2a: Empoleon|Empoleon, F, shiny|100/100
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|41/100 tox
+|
+|-heal|p1a: Gliscor|54/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|t:|1760876422
+|move|p2a: Empoleon|Surf|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|move|p1a: Gliscor|Earthquake|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|30/100
+|
+|-heal|p1a: Gliscor|66/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|t:|1760876430
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Empoleon|Ice Beam|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|79/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|
+|t:|1760876437
+|switch|p1a: Primarina|Primarina, M|77/100
+|move|p2a: Empoleon|Flip Turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|67/100
+|
+|t:|1760876439
+|switch|p2a: Vikavolt|Vikavolt, F|97/100|[from] Flip Turn
+|
+|-heal|p2a: Vikavolt|100/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|27
+|
+|t:|1760876450
+|move|p1a: Primarina|Flip Turn|p2a: Vikavolt
+|-damage|p2a: Vikavolt|88/100
+|
+|t:|1760876453
+|switch|p1a: Gliscor|Gliscor, M|79/100 tox|[from] Flip Turn
+|move|p2a: Vikavolt|Volt Switch|p1a: Gliscor
+|-immune|p1a: Gliscor
+|
+|-heal|p2a: Vikavolt|95/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|t:|1760876465
+|switch|p2a: Sinistcha|Sinistcha|34/100 tox
+|move|p1a: Gliscor|Toxic|p2a: Sinistcha
+|-fail|p2a: Sinistcha|tox
+|
+|-heal|p2a: Sinistcha|40/100 tox|[from] item: Leftovers
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Sinistcha|34/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1760876475
+|move|p1a: Gliscor|Earthquake|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|22/100 tox
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-heal|p2a: Sinistcha|28/100 tox|[from] item: Leftovers
+|-damage|p2a: Sinistcha|16/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1760876483
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Sinistcha|Shadow Ball|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p2a: Sinistcha|22/100 tox|[from] item: Leftovers
+|-damage|p2a: Sinistcha|4/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1760876491
+|move|p2a: Sinistcha|Shadow Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|60/100 tox
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|35/100 tox
+|
+|-heal|p2a: Sinistcha|10/100 tox|[from] item: Leftovers
+|-damage|p2a: Sinistcha|0 fnt|[from] psn
+|faint|p2a: Sinistcha
+|-heal|p1a: Gliscor|47/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1760876495
+|switch|p2a: Hoopa|Hoopa-Unbound|76/100
+|turn|32
+|
+|t:|1760876503
+|switch|p1a: Primarina|Primarina, M|67/100
+|move|p2a: Hoopa|Psychic Noise|p1a: Primarina
+|-damage|p1a: Primarina|44/100
+|-start|p1a: Primarina|move: Heal Block
+|
+|upkeep
+|turn|33
+|
+|t:|1760876516
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|-unboost|p2a: Hoopa|def|1
+|faint|p1a: Primarina
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760876522
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|34
+|
+|t:|1760876537
+|switch|p2a: Empoleon|Empoleon, F, shiny|30/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|17/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|upkeep
+|turn|35
+|
+|t:|1760876545
+|switch|p1a: Gliscor|Gliscor, M|47/100 tox
+|move|p2a: Empoleon|Flip Turn|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|23/100 tox
+|
+|t:|1760876548
+|switch|p2a: Hoopa|Hoopa-Unbound|76/100|[from] Flip Turn
+|
+|-heal|p1a: Gliscor|35/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|36
+|
+|t:|1760876556
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Hoopa|Trick Room|p2a: Hoopa
+|-fieldstart|move: Trick Room|[of] p2a: Hoopa
+|
+|-heal|p1a: Gliscor|48/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|37
+|c|☆yobluntsoskimpy|Gg
+|
+|t:|1760876564
+|move|p2a: Hoopa|Psychic Noise|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|c|☆orbabsorber|gg
+|
+|t:|1760876568
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|38
+|
+|t:|1760876575
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-unboost|p2a: Hoopa|def|1
+|faint|p1a: Gholdengo
+|
+|win|yobluntsoskimpy
+|raw|orbabsorber's rating: 1222 &rarr; <strong>1196</strong><br />(-26 for losing)
+|raw|yobluntsoskimpy's rating: 1208 &rarr; <strong>1234</strong><br />(+26 for winning)
+|l|☆yobluntsoskimpy
+|player|p2|
+|l|☆orbabsorber
+|player|p1|

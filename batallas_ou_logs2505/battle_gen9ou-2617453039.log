@@ -1,0 +1,168 @@
+|j|☆chuchu77
+|j|☆greatteams123
+|t:|1779691269
+|gametype|singles
+|player|p1|chuchu77|backersf|1358
+|player|p2|greatteams123|lucas|1295
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Kyurem|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Cinderace, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Blissey, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Amoonguss, M|
+|poke|p2|Orthworm, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by chuchu77)
+|
+|t:|1779691280
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|turn|1
+|
+|t:|1779691282
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1779691292
+|move|p1a: Cinderace|Pyro Ball|p2a: Gliscor
+|-damage|p2a: Gliscor|63/100 tox
+|move|p2a: Gliscor|Toxic|p1a: Cinderace
+|-status|p1a: Cinderace|tox
+|
+|-damage|p1a: Cinderace|94/100 tox|[from] psn
+|-heal|p2a: Gliscor|75/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1779691298
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1779691302
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779691304
+|switch|p1a: Kyurem|Kyurem, shiny|100/100|[from] Chilly Reception
+|-ability|p1a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1779691313
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|75/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Kyurem|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1779691318
+|move|p1a: Kyurem|Freeze-Dry|p2a: Blissey
+|-damage|p2a: Blissey|89/100
+|-status|p2a: Blissey|frz
+|cant|p2a: Blissey|frz
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779691322
+|-curestatus|p2a: Blissey|frz|[from] ability: Natural Cure|[silent]
+|switch|p2a: Orthworm|Orthworm, F|100/100
+|move|p1a: Kyurem|Freeze-Dry|p2a: Orthworm
+|-resisted|p2a: Orthworm
+|-damage|p2a: Orthworm|82/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Kyurem|94/100|[from] item: Leftovers
+|-heal|p2a: Orthworm|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1779691330
+|move|p1a: Kyurem|Earth Power|p2a: Orthworm
+|-heal|p2a: Orthworm|100/100|[from] ability: Earth Eater|[of] p1a: Kyurem
+|move|p2a: Orthworm|Rest|p2a: Orthworm
+|-fail|p2a: Orthworm|heal
+|
+|-weather|none
+|-heal|p1a: Kyurem|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1779691339
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Orthworm|atk|1
+|move|p2a: Orthworm|Body Press|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|86/100
+|-damage|p2a: Orthworm|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|-heal|p2a: Orthworm|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779691343
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|move|p1a: Landorus|Earthquake|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|upkeep
+|turn|11
+|l|☆chuchu77
+|inactive|chuchu77 disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|chuchu77 has 30 seconds to reconnect!
+|inactive|chuchu77 has 20 seconds to reconnect!
+|inactive|chuchu77 has 15 seconds to reconnect!
+|inactive|chuchu77 has 10 seconds to reconnect!
+|inactive|chuchu77 has 5 seconds to reconnect!
+|-message|chuchu77 lost due to inactivity.
+|
+|win|greatteams123
+|raw|chuchu77's rating: 1358 &rarr; <strong>1334</strong><br />(-24 for losing)
+|raw|greatteams123's rating: 1295 &rarr; <strong>1324</strong><br />(+29 for winning)
+|l|☆greatteams123
+|player|p2|

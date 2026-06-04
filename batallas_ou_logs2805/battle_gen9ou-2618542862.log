@@ -1,0 +1,256 @@
+|j|☆knrdle
+|j|☆claudechamp
+|t:|1779818862
+|gametype|singles
+|player|p1|knrdle|1|1200
+|player|p2|claudechamp|265|1164
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mimikyu, M|
+|poke|p1|Serperior, M|
+|poke|p1|Milotic, M|
+|poke|p1|Iron Moth|
+|poke|p1|Tyranitar, M|
+|poke|p1|Iron Hands|
+|poke|p2|Gliscor, M|
+|poke|p2|Ogerpon, F|
+|poke|p2|Walking Wake|
+|poke|p2|Blissey, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Pecharunt|
+|teampreview
+|c|☆claudechamp|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by claudechamp)
+|c|☆knrdle|what does "hf" mean?
+|
+|t:|1779818881
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|1
+|
+|t:|1779818885
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Milotic|Milotic, M, shiny|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Milotic
+|-damage|p1a: Milotic|60/100
+|
+|-heal|p1a: Milotic|67/100|[from] item: Leftovers
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1779818890
+|-terastallize|p2a: Gliscor|Ghost
+|move|p1a: Milotic|Ice Beam|p2a: Gliscor
+|-damage|p2a: Gliscor|81/100 tox
+|move|p2a: Gliscor|Spikes|p1a: Milotic
+|-sidestart|p1: knrdle|Spikes
+|
+|-heal|p1a: Milotic|73/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|93/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1779818895
+|move|p1a: Milotic|Hydro Pump|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|35/100 tox
+|move|p2a: Gliscor|Spikes|p1a: Milotic
+|-sidestart|p1: knrdle|Spikes
+|
+|-heal|p1a: Milotic|79/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|47/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1779818902
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Milotic|Hydro Pump|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p1a: Milotic|85/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|60/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1779818907
+|move|p1a: Milotic|Hydro Pump|p2a: Gliscor
+|-damage|p2a: Gliscor|19/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Milotic
+|-damage|p1a: Milotic|44/100
+|
+|-heal|p1a: Milotic|50/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|31/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1779818910
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Milotic|Hydro Pump|p2a: Blissey
+|-damage|p2a: Blissey|86/100
+|
+|-heal|p1a: Milotic|57/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779818914
+|move|p1a: Milotic|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|79/100
+|-status|p2a: Blissey|frz
+|cant|p2a: Blissey|frz
+|
+|-heal|p1a: Milotic|63/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1779818916
+|move|p1a: Milotic|Hydro Pump|p2a: Blissey|[miss]
+|-miss|p1a: Milotic|p2a: Blissey
+|-curestatus|p2a: Blissey|frz|[msg]
+|move|p2a: Blissey|Stealth Rock|p1a: Milotic
+|-sidestart|p1: knrdle|move: Stealth Rock
+|
+|-heal|p1a: Milotic|69/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1779818920
+|move|p1a: Milotic|Ice Beam|p2a: Blissey
+|-damage|p2a: Blissey|72/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-heal|p1a: Milotic|75/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779818926
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-damage|p1a: Iron Hands|84/100|[from] Spikes
+|-damage|p1a: Iron Hands|78/100|[from] Stealth Rock
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2a: Blissey|Seismic Toss|p1a: Iron Hands
+|-damage|p1a: Iron Hands|56/100
+|
+|upkeep
+|turn|11
+|
+|t:|1779818929
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Iron Hands|Fake Out|p2a: Pecharunt
+|-immune|p2a: Pecharunt
+|
+|upkeep
+|turn|12
+|
+|t:|1779818935
+|move|p2a: Pecharunt|Malignant Chain|p1a: Iron Hands
+|-damage|p1a: Iron Hands|25/100
+|-status|p1a: Iron Hands|tox
+|-start|p1a: Iron Hands|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Iron Hands|confusion
+|move|p1a: Iron Hands|Earthquake|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|55/100
+|
+|-damage|p1a: Iron Hands|19/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1779818939
+|move|p2a: Pecharunt|Malignant Chain|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779818946
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-item|p1a: Tyranitar|Air Balloon
+|turn|14
+|
+|t:|1779818950
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pecharunt|94/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1779818955
+|move|p1a: Tyranitar|Crunch|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|31/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|78/100
+|-status|p1a: Tyranitar|tox
+|-start|p1a: Tyranitar|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-enditem|p1a: Tyranitar|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pecharunt|25/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|72/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1779818965
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|-activate|p1a: Tyranitar|confusion
+|-damage|p1a: Tyranitar|51/100 tox|[from] confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|38/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1779818971
+|-activate|p1a: Tyranitar|confusion
+|-damage|p1a: Tyranitar|19/100 tox|[from] confusion
+|move|p2a: Corviknight|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|t:|1779818976
+|switch|p2a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Walking Wake|94/100|[from] Sandstorm
+|upkeep
+|c|☆knrdle|come on bruhj
+|-message|knrdle forfeited.
+|
+|win|claudechamp
+|raw|knrdle's rating: 1200 &rarr; <strong>1174</strong><br />(-26 for losing)
+|raw|claudechamp's rating: 1192 &rarr; <strong>1218</strong><br />(+26 for winning)
+|c|☆claudechamp|gg
+|l|☆knrdle
+|player|p1|

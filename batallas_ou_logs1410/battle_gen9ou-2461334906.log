@@ -1,0 +1,243 @@
+|j|☆ooo01w
+|j|☆King_Jamy
+|t:|1760429532
+|gametype|singles
+|player|p1|ooo01w|101|1537
+|player|p2|King_Jamy|169|1500
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Moth|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, F|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Moltres|
+|poke|p2|Great Tusk|
+|poke|p2|Raging Bolt|
+|poke|p2|Rillaboom, F|
+|teampreview
+|
+|t:|1760429538
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|1
+|
+|t:|1760429544
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1760429549
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|2
+|
+|t:|1760429554
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Moltres
+|-damage|p2a: Moltres|85/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1760429560
+|move|p1a: Great Tusk|Head Smash|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|-status|p1a: Great Tusk|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|faint|p2a: Moltres
+|-damage|p1a: Great Tusk|57/100 brn|[from] Recoil
+|
+|-damage|p1a: Great Tusk|51/100 brn|[from] brn
+|upkeep
+|
+|t:|1760429563
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|4
+|
+|t:|1760429572
+|move|p1a: Great Tusk|Headlong Rush|p2a: Alomomola
+|-damage|p2a: Alomomola|78/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Alomomola|Flip Turn|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|17/100 brn
+|
+|t:|1760429576
+|switch|p2a: Rillaboom|Rillaboom, F|100/100|[from] Flip Turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|
+|-heal|p1a: Great Tusk|23/100 brn|[from] Grassy Terrain
+|-damage|p1a: Great Tusk|17/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1760429585
+|move|p2a: Rillaboom|Grassy Glide|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760429597
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|6
+|
+|t:|1760429604
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Goodra
+|-damage|p2a: Goodra|75/100
+|
+|-heal|p2a: Goodra|81/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1760429612
+|move|p1a: Iron Moth|Fiery Dance|p2a: Goodra
+|-damage|p2a: Goodra|55/100
+|move|p2a: Goodra|Dragon Tail|p1a: Iron Moth
+|-damage|p1a: Iron Moth|62/100
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|drag|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|
+|-heal|p2a: Goodra|61/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1760429622
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|58/100
+|
+|-heal|p2a: Raging Bolt|64/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1760429643
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Raging Bolt|Volt Switch|p1a: Gholdengo
+|-damage|p1a: Gholdengo|29/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|t:|1760429646
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|10
+|
+|t:|1760429652
+|move|p2a: Great Tusk|Headlong Rush|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1760429662
+|switch|p1a: Iron Moth|Iron Moth|62/100
+|turn|11
+|
+|t:|1760429671
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Goodra|Goodra-Hisui, M|61/100
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Goodra
+|-damage|p2a: Goodra|47/100
+|
+|upkeep
+|turn|12
+|
+|t:|1760429677
+|move|p1a: Iron Moth|Fiery Dance|p2a: Goodra
+|-damage|p2a: Goodra|26/100
+|move|p2a: Goodra|Dragon Tail|p1a: Iron Moth
+|-damage|p1a: Iron Moth|24/100
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|drag|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|
+|upkeep
+|turn|13
+|
+|t:|1760429695
+|-terastallize|p1a: Raging Bolt|Bug
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|t:|1760429702
+|switch|p2a: Raging Bolt|Raging Bolt|64/100
+|turn|14
+|
+|t:|1760429704
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|-unboost|p2a: Raging Bolt|spa|2
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760429714
+|switch|p1a: Iron Moth|Iron Moth|24/100
+|turn|15
+|
+|t:|1760429720
+|move|p1a: Iron Moth|Fiery Dance|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-crit|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|30/100
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|-unboost|p2a: Raging Bolt|spa|2
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|-message|ooo01w forfeited.
+|
+|win|King_Jamy
+|raw|ooo01w's rating: 1537 &rarr; <strong>1515</strong><br />(-22 for losing)
+|raw|King_Jamy's rating: 1500 &rarr; <strong>1522</strong><br />(+22 for winning)
+|l|☆ooo01w
+|player|p1|
+|l|☆King_Jamy
+|player|p2|

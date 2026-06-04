@@ -1,0 +1,218 @@
+|j|☆GRexMain
+|j|☆punhos64
+|t:|1757900378
+|gametype|singles
+|player|p1|GRexMain|cyclist-gen4|1096
+|player|p2|punhos64|smasher|1076
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Persian-Alola, F|
+|poke|p1|Brambleghast, M|
+|poke|p1|Kilowattrel, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Sandslash-Alola, M|
+|poke|p1|Gastrodon, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Cloyster, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Whimsicott, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Blastoise, F|
+|teampreview
+|
+|t:|1757900395
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Persian|Persian-Alola, F|100/100
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|turn|1
+|
+|t:|1757900401
+|move|p1a: Persian|Taunt|p2a: Cloyster
+|-start|p2a: Cloyster|move: Taunt
+|cant|p2a: Cloyster|move: Taunt|Shell Smash
+|
+|upkeep
+|turn|2
+|
+|t:|1757900432
+|move|p1a: Persian|Thunder Wave|p2a: Cloyster
+|-status|p2a: Cloyster|par
+|move|p2a: Cloyster|Icicle Spear|p1a: Persian
+|-damage|p1a: Persian|92/100
+|-damage|p1a: Persian|84/100
+|-damage|p1a: Persian|75/100
+|-damage|p1a: Persian|67/100
+|-damage|p1a: Persian|60/100
+|-hitcount|p1a: Persian|5
+|
+|upkeep
+|turn|3
+|
+|t:|1757900448
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Persian|Foul Play|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|85/100
+|
+|upkeep
+|turn|4
+|
+|t:|1757900457
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Iron Valiant|Drain Punch|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|94/100
+|-heal|p2a: Iron Valiant|89/100|[from] drain|[of] p1a: Slowking
+|
+|upkeep
+|turn|5
+|
+|t:|1757900482
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Gliscor|Gliscor, M, shiny|100/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|76/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1757900490
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1757900496
+|switch|p1a: Sandslash|Sandslash-Alola, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1757900516
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Sandslash|Triple Axel|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|76/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|23/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-hitcount|p2: Dragapult|3
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757900529
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|turn|8
+|
+|t:|1757900548
+|switch|p1a: Kilowattrel|Kilowattrel, F|100/100
+|move|p2a: Blastoise|Earthquake|p1a: Kilowattrel
+|-immune|p1a: Kilowattrel
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1757900563
+|move|p1a: Kilowattrel|Tailwind|p1a: Kilowattrel
+|-sidestart|p1: GRexMain|move: Tailwind
+|-start|p1a: Kilowattrel|Charge|Tailwind|[from] ability: Wind Power
+|move|p2a: Blastoise|Rock Slide|p1a: Kilowattrel
+|-supereffective|p1a: Kilowattrel
+|-damage|p1a: Kilowattrel|17/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1757900573
+|move|p2a: Blastoise|Aqua Jet|p1a: Kilowattrel
+|-damage|p1a: Kilowattrel|0 fnt
+|faint|p1a: Kilowattrel
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757900578
+|switch|p1a: Brambleghast|Brambleghast, M|100/100
+|-ability|p1a: Brambleghast|Wind Rider|boost
+|-boost|p1a: Brambleghast|atk|1
+|turn|11
+|
+|t:|1757900597
+|switch|p2a: Iron Valiant|Iron Valiant|89/100
+|move|p1a: Brambleghast|Power Whip|p2a: Iron Valiant|[miss]
+|-miss|p1a: Brambleghast|p2a: Iron Valiant
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1757900619
+|move|p1a: Brambleghast|Power Whip|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p1: GRexMain|move: Tailwind
+|upkeep
+|
+|t:|1757900646
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|turn|13
+|
+|t:|1757900651
+|move|p2a: Whimsicott|Substitute|p2a: Whimsicott
+|-start|p2a: Whimsicott|Substitute
+|-damage|p2a: Whimsicott|76/100
+|move|p1a: Brambleghast|Poltergeist|p2a: Whimsicott
+|-activate|p2a: Whimsicott|move: Poltergeist|Leftovers
+|-end|p2a: Whimsicott|Substitute
+|
+|-weather|none
+|-heal|p2a: Whimsicott|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1757900661
+|move|p2a: Whimsicott|Leech Seed|p1a: Brambleghast
+|-immune|p1a: Brambleghast
+|move|p1a: Brambleghast|Poltergeist|p2a: Whimsicott
+|-activate|p2a: Whimsicott|move: Poltergeist|Leftovers
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|upkeep
+|-message|punhos64 forfeited.
+|
+|win|GRexMain
+|raw|GRexMain's rating: 1096 &rarr; <strong>1120</strong><br />(+24 for winning)
+|raw|punhos64's rating: 1076 &rarr; <strong>1056</strong><br />(-20 for losing)
+|l|☆punhos64
+|player|p2|
+|l|☆GRexMain
+|player|p1|

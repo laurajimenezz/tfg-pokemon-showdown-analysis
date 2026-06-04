@@ -1,0 +1,150 @@
+|j|☆sdgswgbwbweb
+|j|☆110i119p
+|t:|1779963328
+|gametype|singles
+|player|p1|sdgswgbwbweb|169|1058
+|player|p2|110i119p|169|1073
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gyarados, F|
+|poke|p1|Galvantula, F|
+|poke|p1|Great Tusk|
+|poke|p1|Mew|
+|poke|p1|Muk, F|
+|poke|p1|Regieleki|
+|poke|p2|Iron Valiant|
+|poke|p2|Rillaboom, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, F|
+|teampreview
+|
+|t:|1779963338
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Regieleki|Regieleki|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1779963347
+|move|p2a: Iron Valiant|Focus Blast|p1a: Regieleki|[miss]
+|-miss|p2a: Iron Valiant|p1a: Regieleki
+|move|p1a: Regieleki|Thunderbolt|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|6/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779963353
+|move|p2a: Iron Valiant|Focus Blast|p1a: Regieleki
+|-enditem|p1a: Regieleki|Focus Sash
+|-damage|p1a: Regieleki|1/100
+|move|p1a: Regieleki|Rapid Spin|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-boost|p1a: Regieleki|spe|1
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779963362
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|3
+|
+|t:|1779963366
+|move|p1a: Regieleki|Explosion|p2a: Rillaboom
+|-damage|p2a: Rillaboom|21/100
+|faint|p1a: Regieleki
+|move|p2a: Rillaboom|U-turn|p1: Regieleki|[notarget]
+|-fail|p2a: Rillaboom
+|
+|-heal|p2a: Rillaboom|27/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779963374
+|switch|p1a: Gyarados|Gyarados, F, shiny|100/100
+|turn|4
+|
+|t:|1779963377
+|move|p2a: Rillaboom|U-turn|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|77/100
+|
+|t:|1779963380
+|switch|p2a: Hawlucha|Hawlucha, F|100/100|[from] U-turn
+|-enditem|p2a: Hawlucha|Grassy Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Grassy Seed
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1779963393
+|move|p2a: Hawlucha|Acrobatics|p1a: Gyarados
+|-damage|p1a: Gyarados|15/100
+|move|p1a: Gyarados|Ice Fang|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|36/100
+|
+|upkeep
+|turn|6
+|
+|t:|1779963399
+|move|p2a: Hawlucha|Acrobatics|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|t:|1779963404
+|switch|p1a: Muk|Muk, F, shiny|100/100
+|turn|7
+|
+|t:|1779963408
+|-terastallize|p2a: Hawlucha|Poison
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Muk|Toxic|p2a: Hawlucha
+|-immune|p2a: Hawlucha
+|
+|-heal|p2a: Hawlucha|42/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1779963414
+|move|p2a: Hawlucha|Acrobatics|p1a: Muk
+|-damage|p1a: Muk|3/100
+|move|p1a: Muk|Knock Off|p2a: Hawlucha
+|-damage|p2a: Hawlucha|23/100
+|
+|-heal|p1a: Muk|9/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|-message|sdgswgbwbweb forfeited.
+|
+|win|110i119p
+|raw|sdgswgbwbweb's rating: 1058 &rarr; <strong>1040</strong><br />(-18 for losing)
+|raw|110i119p's rating: 1073 &rarr; <strong>1101</strong><br />(+28 for winning)
+|l|☆sdgswgbwbweb
+|player|p1|
+|l|☆110i119p
+|player|p2|

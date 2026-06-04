@@ -1,0 +1,183 @@
+|j|☆capitolg
+|j|☆daffoself
+|t:|1760739208
+|gametype|singles
+|player|p1|capitolg|bellelba|1107
+|player|p2|daffoself|n|1164
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Vikavolt, M|
+|poke|p1|Gothitelle, M|
+|poke|p1|Smeargle, F|
+|poke|p1|Empoleon, M|
+|poke|p1|Passimian, M|
+|poke|p1|Dusknoir, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Avalugg, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Coalossal, F|
+|teampreview
+|
+|t:|1760739220
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Vikavolt|Vikavolt, M|100/100
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|1
+|
+|t:|1760739225
+|move|p1a: Vikavolt|Sticky Web|p2a: Slowking
+|-sidestart|p2: daffoself|move: Sticky Web
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1760739229
+|switch|p2a: Avalugg|Avalugg, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760739233
+|switch|p1a: Dusknoir|Dusknoir, M|100/100
+|-ability|p1a: Dusknoir|Pressure
+|move|p2a: Avalugg|Aurora Veil|p2a: Avalugg
+|-sidestart|p2: daffoself|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760739243
+|switch|p1a: Smeargle|Smeargle, F|100/100
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-activate|p2a: Garganacl|move: Sticky Web
+|-unboost|p2a: Garganacl|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760739251
+|move|p1a: Smeargle|Court Change|p1a: Smeargle
+|-swapsideconditions
+|-activate|p1a: Smeargle|move: Court Change
+|move|p2a: Garganacl|Salt Cure|p1a: Smeargle
+|-damage|p1a: Smeargle|83/100
+|-start|p1a: Smeargle|Salt Cure
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Smeargle|71/100|[from] Salt Cure
+|upkeep
+|turn|5
+|
+|t:|1760739264
+|move|p1a: Smeargle|Taunt|p2a: Garganacl
+|-start|p2a: Garganacl|move: Taunt
+|move|p2a: Garganacl|Salt Cure|p1a: Smeargle
+|-damage|p1a: Smeargle|54/100
+|
+|-weather|none
+|-damage|p1a: Smeargle|41/100|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1760739273
+|move|p2a: Garganacl|Salt Cure|p1a: Smeargle
+|-damage|p1a: Smeargle|25/100
+|move|p1a: Smeargle|Trick Room|p1a: Smeargle
+|-fieldstart|move: Trick Room|[of] p1a: Smeargle
+|
+|-damage|p1a: Smeargle|12/100|[from] Salt Cure
+|-sideend|p1: capitolg|move: Aurora Veil
+|upkeep
+|turn|7
+|
+|t:|1760739281
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Smeargle|Taunt|p2a: Hatterene
+|move|p2a: Hatterene|Taunt|p1a: Smeargle|[from] ability: Magic Bounce
+|-start|p1a: Smeargle|move: Taunt
+|
+|-damage|p1a: Smeargle|0 fnt|[from] Salt Cure
+|faint|p1a: Smeargle
+|upkeep
+|
+|t:|1760739284
+|switch|p1a: Dusknoir|Dusknoir, M|100/100
+|-activate|p1a: Dusknoir|move: Sticky Web
+|-unboost|p1a: Dusknoir|spe|1
+|-ability|p1a: Dusknoir|Pressure
+|turn|8
+|
+|t:|1760739296
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|move|p1a: Dusknoir|Poltergeist|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Poltergeist|Leftovers
+|-damage|p2a: Garganacl|83/100
+|
+|-heal|p2a: Garganacl|89/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760739305
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|-activate|p1a: Empoleon|move: Sticky Web
+|-unboost|p1a: Empoleon|spe|1
+|-ability|p1a: Empoleon|Competitive|boost
+|-boost|p1a: Empoleon|spa|2
+|move|p2a: Garganacl|Salt Cure|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|92/100
+|-start|p1a: Empoleon|Salt Cure
+|
+|-heal|p2a: Garganacl|95/100|[from] item: Leftovers
+|-damage|p1a: Empoleon|68/100|[from] Salt Cure
+|upkeep
+|turn|10
+|
+|t:|1760739318
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Empoleon|Surf|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Empoleon|43/100|[from] Salt Cure
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1760739329
+|move|p2a: Garganacl|Recover||[still]
+|-fail|p2a: Garganacl|heal
+|move|p1a: Empoleon|Ice Beam|p2a: Garganacl
+|-damage|p2a: Garganacl|61/100
+|
+|-heal|p2a: Garganacl|67/100|[from] item: Leftovers
+|-damage|p1a: Empoleon|18/100|[from] Salt Cure
+|upkeep
+|turn|12
+|-message|capitolg forfeited.
+|
+|win|daffoself
+|raw|capitolg's rating: 1107 &rarr; <strong>1086</strong><br />(-21 for losing)
+|raw|daffoself's rating: 1164 &rarr; <strong>1185</strong><br />(+21 for winning)
+|l|☆capitolg
+|player|p1|
+|l|☆daffoself
+|player|p2|

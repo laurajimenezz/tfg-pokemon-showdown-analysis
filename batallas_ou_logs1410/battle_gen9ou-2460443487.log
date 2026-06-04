@@ -1,0 +1,265 @@
+|j|☆TesteamsVF
+|j|☆Itsuzen
+|t:|1760307176
+|gametype|singles
+|player|p1|TesteamsVF|n|1255
+|player|p2|Itsuzen|170|1281
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Moth|
+|poke|p1|Zapdos|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Dragonite, F|
+|poke|p2|Hawlucha, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Treads|
+|poke|p2|Ceruledge, M|
+|teampreview
+|j| iguana_droga
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TesteamsVF)
+|
+|t:|1760307185
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1760307194
+|move|p2a: Iron Treads|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: TesteamsVF|move: Stealth Rock
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Iron Treads
+|-status|p2a: Iron Treads|brn
+|
+|-damage|p2a: Iron Treads|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|l| iguana_droga
+|
+|t:|1760307213
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Dragapult|Hex|p2a: Rillaboom
+|-damage|p2a: Rillaboom|66/100
+|
+|-heal|p2a: Rillaboom|72/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1760307223
+|move|p1a: Dragapult|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|41/100
+|
+|t:|1760307228
+|switch|p1a: Iron Moth|Iron Moth|100/100|[from] U-turn
+|move|p2a: Rillaboom|Knock Off|p1a: Iron Moth
+|-damage|p1a: Iron Moth|37/100
+|-enditem|p1a: Iron Moth|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|-heal|p1a: Iron Moth|43/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|47/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1760307243
+|move|p1a: Iron Moth|Fiery Dance|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-crit|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Iron Moth|49/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760307260
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|5
+|
+|t:|1760307267
+|move|p1a: Iron Moth|Fiery Dance|p2a: Ogerpon
+|-damage|p2a: Ogerpon|49/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Iron Moth|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p2a: Ogerpon|55/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760307278
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|6
+|
+|t:|1760307293
+|switch|p2a: Iron Treads|Iron Treads|94/100 brn
+|move|p1a: Zapdos|Hurricane|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|65/100 brn
+|
+|-heal|p2a: Iron Treads|71/100 brn|[from] Grassy Terrain
+|-damage|p2a: Iron Treads|65/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1760307303
+|move|p2a: Iron Treads|Iron Head|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|94/100
+|move|p1a: Zapdos|Hurricane|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|31/100 brn
+|-start|p2a: Iron Treads|confusion
+|
+|-heal|p2a: Iron Treads|37/100 brn|[from] Grassy Terrain
+|-damage|p2a: Iron Treads|31/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1760307320
+|-activate|p2a: Iron Treads|confusion
+|move|p2a: Iron Treads|Iron Head|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|87/100
+|move|p1a: Zapdos|Hurricane|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|inactive|Itsuzen has 120 seconds left.
+|
+|t:|1760307349
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p2a: Hawlucha|Grassy Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Grassy Seed
+|turn|9
+|inactive|Itsuzen has 120 seconds left.
+|
+|t:|1760307356
+|-terastallize|p2a: Hawlucha|Ground
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Zapdos|Discharge|p2a: Hawlucha
+|-immune|p2a: Hawlucha
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1760307363
+|move|p2a: Hawlucha|Encore|p1a: Zapdos
+|-start|p1a: Zapdos|Encore
+|move|p1a: Zapdos|Discharge|p2a: Hawlucha
+|-immune|p2a: Hawlucha
+|
+|upkeep
+|turn|11
+|
+|t:|1760307373
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1760307382
+|move|p2a: Hawlucha|Acrobatics|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-damage|p2a: Hawlucha|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760307396
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|13
+|inactive|Itsuzen has 120 seconds left.
+|
+|t:|1760307435
+|move|p2a: Hawlucha|Acrobatics|p1a: Dragonite
+|-damage|p1a: Dragonite|19/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|14
+|inactive|Itsuzen has 120 seconds left.
+|
+|t:|1760307443
+|move|p2a: Hawlucha|Acrobatics|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1760307460
+|switch|p1a: Zapdos|Zapdos|87/100
+|turn|15
+|inactive|Itsuzen has 120 seconds left.
+|inactive|Itsuzen has 90 seconds left.
+|
+|t:|1760307528
+|move|p2a: Hawlucha|Acrobatics|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|31/100
+|move|p1a: Zapdos|Hurricane|p2a: Hawlucha|[miss]
+|-miss|p1a: Zapdos|p2a: Hawlucha
+|
+|upkeep
+|turn|16
+|inactive|TesteamsVF has 120 seconds left.
+|inactive|TesteamsVF has 90 seconds left.
+|
+|t:|1760307614
+|move|p2a: Hawlucha|Acrobatics|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1760307621
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100
+|turn|17
+|
+|t:|1760307625
+|move|p2a: Hawlucha|Acrobatics|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|c|☆Itsuzen|c fini
+|-message|TesteamsVF forfeited.
+|
+|win|Itsuzen
+|raw|TesteamsVF's rating: 1255 &rarr; <strong>1232</strong><br />(-23 for losing)
+|raw|Itsuzen's rating: 1281 &rarr; <strong>1304</strong><br />(+23 for winning)
+|l|☆TesteamsVF
+|player|p1|

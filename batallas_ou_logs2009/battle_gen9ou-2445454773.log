@@ -1,0 +1,398 @@
+|j|☆frznb
+|j|☆Pastor2x
+|t:|1758348848
+|gametype|singles
+|player|p1|frznb|102|1000
+|player|p2|Pastor2x|tuber|1000
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Gholdengo|
+|poke|p1|Dragapult, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Glimmora, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Vulpix, L1, M|
+|poke|p2|Shiftry, F|
+|poke|p2|Walking Wake|
+|poke|p2|Great Tusk|
+|poke|p2|Hawlucha, M|
+|teampreview
+|
+|t:|1758348853
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pelipper|Pelipper, M, shiny|100/100
+|switch|p2a: Vulpix|Vulpix, L1, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Vulpix
+|turn|1
+|
+|t:|1758348875
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Pelipper|Surf|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|91/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rillaboom|97/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1758348888
+|move|p2a: Rillaboom|Substitute|p2a: Rillaboom
+|-start|p2a: Rillaboom|Substitute
+|-damage|p2a: Rillaboom|76/100
+|move|p1a: Pelipper|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-activate|p2a: Rillaboom|move: Substitute|[damage]
+|
+|t:|1758348906
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rillaboom|82/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1758348917
+|move|p1a: Dragapult|Flamethrower|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-end|p2a: Rillaboom|Substitute
+|move|p2a: Rillaboom|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|8/100
+|-enditem|p1a: Dragapult|Focus Sash|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dragapult|14/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1758348941
+|move|p2a: Rillaboom|Grassy Glide|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758348951
+|switch|p1a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|5
+|
+|t:|1758348966
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Pelipper|Surf|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|87/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Walking Wake|93/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1758348982
+|move|p2a: Walking Wake|Agility|p2a: Walking Wake
+|-boost|p2a: Walking Wake|spe|2
+|move|p1a: Pelipper|U-turn|p2a: Walking Wake
+|-damage|p2a: Walking Wake|86/100
+|
+|t:|1758348988
+|switch|p1a: Dragonite|Dragonite, M, shiny|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758348996
+|-terastallize|p2a: Walking Wake|Stellar
+|move|p2a: Walking Wake|Draco Meteor|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|10/100
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Dragonite|Thunder|p2a: Walking Wake
+|-damage|p2a: Walking Wake|55/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|16/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758349017
+|-terastallize|p1a: Dragonite|Dragon
+|move|p1a: Dragonite|Extreme Speed|p2a: Walking Wake
+|-damage|p2a: Walking Wake|19/100
+|move|p2a: Walking Wake|Weather Ball|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758349030
+|switch|p1a: Gholdengo|Gholdengo, shiny|100/100
+|turn|9
+|
+|t:|1758349036
+|move|p2a: Walking Wake|Weather Ball|p1a: Gholdengo
+|-damage|p1a: Gholdengo|49/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gholdengo|55/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758349049
+|move|p2a: Walking Wake|Weather Ball|p1a: Gholdengo
+|-damage|p1a: Gholdengo|8/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gholdengo|14/100|[from] item: Leftovers
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by frznb)
+|
+|t:|1758349073
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|11
+|
+|t:|1758349101
+|move|p2a: Rillaboom|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-enditem|p1a: Gholdengo|Leftovers|[from] move: Knock Off|[of] p2a: Rillaboom
+|faint|p1a: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758349120
+|switch|p1a: Zamazenta|Zamazenta, shiny|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|12
+|inactive|Pastor2x has 120 seconds left.
+|
+|t:|1758349142
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p2a: Hawlucha|Grassy Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Grassy Seed
+|move|p1a: Zamazenta|Body Press|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-damage|p2a: Hawlucha|73/100
+|
+|-weather|none
+|upkeep
+|turn|13
+|inactive|Pastor2x has 120 seconds left.
+|
+|t:|1758349162
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Zamazenta|Psychic Fangs|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|27/100
+|
+|upkeep
+|turn|14
+|inactive|frznb has 120 seconds left.
+|
+|t:|1758349194
+|move|p2a: Hawlucha|Acrobatics|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|4/100
+|move|p1a: Zamazenta|Psychic Fangs|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-heal|p1a: Zamazenta|10/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|16/100|[from] item: Leftovers
+|upkeep
+|inactive|Pastor2x has 120 seconds left.
+|
+|t:|1758349208
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|turn|15
+|
+|t:|1758349215
+|move|p2a: Rillaboom|Grassy Glide|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1758349220
+|switch|p1a: Glimmora|Glimmora, M, shiny|100/100
+|turn|16
+|inactive|frznb has 120 seconds left.
+|
+|t:|1758349241
+|move|p1a: Glimmora|Toxic|p2a: Rillaboom
+|-status|p2a: Rillaboom|tox
+|move|p2a: Rillaboom|Substitute|p2a: Rillaboom
+|-start|p2a: Rillaboom|Substitute
+|-damage|p2a: Rillaboom|76/100 tox
+|
+|-heal|p2a: Rillaboom|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Rillaboom|76/100 tox|[from] psn
+|upkeep
+|turn|17
+|inactive|frznb has 120 seconds left.
+|
+|t:|1758349255
+|-singleturn|p2a: Rillaboom|move: Focus Punch
+|move|p1a: Glimmora|Substitute|p1a: Glimmora
+|-start|p1a: Glimmora|Substitute
+|-damage|p1a: Glimmora|76/100
+|move|p2a: Rillaboom|Focus Punch|p1a: Glimmora
+|-end|p1a: Glimmora|Substitute
+|
+|-heal|p2a: Rillaboom|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Rillaboom|69/100 tox|[from] psn
+|upkeep
+|turn|18
+|inactive|frznb has 120 seconds left.
+|
+|t:|1758349268
+|-singleturn|p2a: Rillaboom|move: Focus Punch
+|move|p1a: Glimmora|Earth Power|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-activate|p2a: Rillaboom|move: Substitute|[damage]
+|move|p2a: Rillaboom|Focus Punch|p1a: Glimmora
+|-damage|p1a: Glimmora|25/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Pastor2x|move: Toxic Spikes
+|
+|-heal|p2a: Rillaboom|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Rillaboom|57/100 tox|[from] psn
+|upkeep
+|turn|19
+|inactive|frznb has 120 seconds left.
+|
+|t:|1758349281
+|move|p1a: Glimmora|Protect|p1a: Glimmora
+|-singleturn|p1a: Glimmora|Protect
+|move|p2a: Rillaboom|Grassy Glide|p1a: Glimmora
+|-activate|p1a: Glimmora|move: Protect
+|
+|-heal|p2a: Rillaboom|63/100 tox|[from] item: Leftovers
+|-damage|p2a: Rillaboom|39/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|frznb has 120 seconds left.
+|
+|t:|1758349290
+|move|p1a: Glimmora|Substitute|p1a: Glimmora
+|-fail|p1a: Glimmora|move: Substitute|[weak]
+|move|p2a: Rillaboom|Knock Off|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Pastor2x|move: Toxic Spikes
+|-enditem|p1a: Glimmora|Focus Sash|[from] move: Knock Off|[of] p2a: Rillaboom
+|faint|p1a: Glimmora
+|
+|-heal|p2a: Rillaboom|45/100 tox|[from] item: Leftovers
+|-damage|p2a: Rillaboom|14/100 tox|[from] psn
+|upkeep
+|inactive|frznb has 120 seconds left.
+|
+|t:|1758349302
+|switch|p1a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|21
+|inactive|frznb has 120 seconds left.
+|
+|t:|1758349313
+|move|p2a: Rillaboom|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|73/100
+|-enditem|p1a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p2a: Rillaboom
+|move|p1a: Pelipper|Hurricane|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-end|p2a: Rillaboom|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|20/100 tox|[from] item: Leftovers
+|-damage|p2a: Rillaboom|0 fnt|[from] psn
+|faint|p2a: Rillaboom
+|upkeep
+|
+|t:|1758349327
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|22
+|inactive|frznb has 120 seconds left.
+|
+|t:|1758349349
+|move|p2a: Great Tusk|Rapid Spin|p1a: Pelipper
+|-damage|p1a: Pelipper|62/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Pastor2x|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Pelipper|Hurricane|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|12/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1758349357
+|move|p2a: Great Tusk|Smack Down|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|40/100
+|-start|p1a: Pelipper|Smack Down
+|move|p1a: Pelipper|Hurricane|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758349369
+|switch|p2a: Shiftry|Shiftry, F|100/100
+|turn|24
+|
+|t:|1758349373
+|move|p2a: Shiftry|Explosion|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p2a: Shiftry
+|faint|p1a: Pelipper
+|
+|win|Pastor2x
+|raw|frznb's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|Pastor2x's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|l|☆frznb
+|player|p1|

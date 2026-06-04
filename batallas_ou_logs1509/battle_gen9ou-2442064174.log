@@ -1,0 +1,253 @@
+|j|☆upuntil
+|j|☆rolenbogat
+|t:|1757944439
+|gametype|singles
+|player|p1|upuntil|waitress|1499
+|player|p2|rolenbogat|dawn|1490
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, M|
+|poke|p1|Glimmora, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Moth|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Necrozma|
+|poke|p2|Raging Bolt|
+|poke|p2|Dragapult, M|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Quaquaval, M|
+|poke|p2|Iron Treads|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by upuntil)
+|
+|t:|1757944461
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|1
+|
+|t:|1757944465
+|move|p1a: Ogerpon|Knock Off|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|66/100
+|-enditem|p2a: Raging Bolt|Zap Plate|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Ogerpon
+|-damage|p1a: Ogerpon|42/100
+|
+|upkeep
+|turn|2
+|
+|t:|1757944486
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Raging Bolt|[anim] Ivy Cudgel Water
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|38/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1757944492
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|turn|3
+|
+|t:|1757944496
+|move|p1a: Glimmora|Earth Power|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1757944504
+|switch|p2a: Necrozma|Necrozma|100/100
+|turn|4
+|
+|t:|1757944509
+|move|p1a: Glimmora|Mortal Spin|p2a: Necrozma
+|-damage|p2a: Necrozma|95/100
+|-status|p2a: Necrozma|psn
+|move|p2a: Necrozma|Calm Mind|p2a: Necrozma
+|-boost|p2a: Necrozma|spa|1
+|-boost|p2a: Necrozma|spd|1
+|
+|-heal|p2a: Necrozma|100/100 psn|[from] item: Leftovers
+|-damage|p2a: Necrozma|88/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1757944514
+|move|p1a: Glimmora|Stealth Rock|p2a: Necrozma
+|-sidestart|p2: rolenbogat|move: Stealth Rock
+|move|p2a: Necrozma|Photon Geyser|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|
+|-heal|p2a: Necrozma|94/100 psn|[from] item: Leftovers
+|-damage|p2a: Necrozma|82/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1757944520
+|switch|p1a: Kingambit|Kingambit, M, shiny|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Necrozma|Earth Power|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|-heal|p2a: Necrozma|88/100 psn|[from] item: Leftovers
+|-damage|p2a: Necrozma|76/100 psn|[from] psn
+|upkeep
+|
+|t:|1757944537
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|7
+|
+|t:|1757944540
+|move|p1a: Iron Valiant|Destiny Bond|p1a: Iron Valiant
+|-singlemove|p1a: Iron Valiant|Destiny Bond
+|move|p2a: Necrozma|Photon Geyser|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-crit|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-activate|p1a: Iron Valiant|move: Destiny Bond
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|faint|p2a: Necrozma
+|
+|upkeep
+|
+|t:|1757944554
+|switch|p1a: Zamazenta|Zamazenta, shiny|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdriveatk
+|turn|8
+|
+|t:|1757944564
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Iron Treads|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|77/100
+|
+|-heal|p1a: Zamazenta|84/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1757944571
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|59/100
+|move|p2a: Iron Treads|Earthquake|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|
+|-heal|p1a: Zamazenta|65/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1757944574
+|move|p1a: Zamazenta|Body Press|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p1a: Zamazenta|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757944582
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1757944588
+|move|p2a: Dragapult|Dragon Darts|p1a: Zamazenta
+|-damage|p1a: Zamazenta|56/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Zamazenta
+|-damage|p1a: Zamazenta|43/100
+|move|p1a: Zamazenta|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|19/100
+|
+|-heal|p1a: Zamazenta|49/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1757944595
+|move|p2a: Dragapult|Dragon Darts|p1a: Zamazenta
+|-damage|p1a: Zamazenta|36/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Zamazenta
+|-damage|p1a: Zamazenta|21/100
+|move|p1a: Zamazenta|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Zamazenta|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757944597
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|-damage|p2a: Quaquaval|94/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1757944601
+|move|p1a: Zamazenta|Body Press|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|-heal|p1a: Zamazenta|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757944603
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-damage|p2a: Ninetales|76/100|[from] Stealth Rock
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|14
+|
+|t:|1757944606
+|move|p1a: Zamazenta|Body Press|p2a: Ninetales
+|-damage|p2a: Ninetales|5/100
+|move|p2a: Ninetales|Moonblast|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Zamazenta|40/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1757944610
+|move|p1a: Zamazenta|Body Press|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|win|upuntil
+|raw|upuntil's rating: 1499 &rarr; <strong>1518</strong><br />(+19 for winning)
+|raw|rolenbogat's rating: 1490 &rarr; <strong>1471</strong><br />(-19 for losing)
+|l|☆upuntil
+|player|p1|

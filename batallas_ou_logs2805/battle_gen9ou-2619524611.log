@@ -1,0 +1,187 @@
+|j|☆poopy soup
+|j|☆sicns
+|t:|1779927118
+|gametype|singles
+|player|p1|poopy soup|1|1308
+|player|p2|sicns|cynthia-gen4|1308
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Articuno|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Iron Hands|
+|poke|p1|Rhyperior, F|
+|poke|p1|Iron Treads|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Iron Moth|
+|poke|p2|Gliscor, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|t:|1779927123
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|1
+|
+|t:|1779927132
+|move|p2a: Iron Moth|Toxic Spikes|p1a: Slowking
+|-sidestart|p1: poopy soup|move: Toxic Spikes
+|move|p1a: Slowking|Psyshock|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|7/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779927141
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Slowking|Psyshock|p2a: Gliscor
+|-damage|p2a: Gliscor|76/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1779927148
+|move|p2a: Gliscor|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|35/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779927152
+|switch|p1a: Articuno|Articuno|100/100|[from] Chilly Reception
+|-ability|p1a: Articuno|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1779927160
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Articuno|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|90/100
+|
+|t:|1779927163
+|switch|p1a: Slowking|Slowking-Galar, M|68/100|[from] U-turn
+|-sideend|p1: poopy soup|move: Toxic Spikes|[of] p1a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Hatterene|96/100|[from] item: Leftovers
+|-heal|p1a: Slowking|74/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1779927177
+|switch|p2a: Gliscor|Gliscor, M|89/100 tox
+|move|p1a: Slowking|Sludge Bomb|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|66/100 tox
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Slowking|80/100|[from] item: Black Sludge
+|-heal|p2a: Gliscor|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1779927191
+|switch|p1a: Articuno|Articuno|100/100
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1779927211
+|-terastallize|p2a: Gliscor|Normal
+|move|p2a: Gliscor|Facade|p1a: Articuno
+|-damage|p1a: Articuno|26/100
+|move|p1a: Articuno|Freeze-Dry|p2a: Gliscor
+|-damage|p2a: Gliscor|62/100 tox
+|
+|-weather|none
+|-heal|p2a: Gliscor|75/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1779927224
+|switch|p1a: Rhyperior|Rhyperior, F|100/100
+|move|p2a: Gliscor|Agility|p2a: Gliscor
+|-boost|p2a: Gliscor|spe|2
+|
+|-heal|p2a: Gliscor|87/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1779927233
+|move|p2a: Gliscor|Earthquake|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1779927241
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-item|p1a: Iron Treads|Air Balloon
+|turn|10
+|
+|t:|1779927245
+|move|p2a: Gliscor|Facade|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|59/100
+|-enditem|p1a: Iron Treads|Air Balloon
+|move|p1a: Iron Treads|Earthquake|p2a: Gliscor
+|-damage|p2a: Gliscor|68/100 tox
+|
+|-heal|p2a: Gliscor|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1779927259
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Iron Treads|Volt Switch|p2a: Gliscor
+|-damage|p2a: Gliscor|66/100 tox
+|
+|t:|1779927264
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Iron Hands|Iron Hands|100/100|[from] Volt Switch
+|
+|-heal|p2a: Gliscor|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|-message|poopy soup forfeited.
+|
+|win|sicns
+|raw|poopy soup's rating: 1308 &rarr; <strong>1288</strong><br />(-20 for losing)
+|raw|sicns's rating: 1308 &rarr; <strong>1328</strong><br />(+20 for winning)
+|l|☆poopy soup
+|player|p1|
+|l|☆sicns
+|player|p2|

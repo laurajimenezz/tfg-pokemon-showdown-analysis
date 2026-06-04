@@ -1,0 +1,310 @@
+|j|☆sminey
+|j|☆dafrogger
+|t:|1757795129
+|gametype|singles
+|player|p1|sminey|102|1631
+|player|p2|dafrogger|bugcatcher-gen4dp|1653
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Latios, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Weavile, F|
+|poke|p1|Zapdos|
+|poke|p1|Clefable, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Ninetales, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Walking Wake|
+|poke|p2|Slither Wing|
+|poke|p2|Garchomp, M|
+|teampreview
+|
+|t:|1757795153
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Weavile|Weavile, F|100/100
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sminey)
+|
+|t:|1757795161
+|switch|p1a: Zapdos|Zapdos|100/100
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757795169
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Zapdos|Volt Switch|p2a: Garchomp
+|-immune|p2a: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757795178
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Garchomp|Stone Edge|p1a: Clefable
+|-damage|p1a: Clefable|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757795187
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Clefable|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|80/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Clefable
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757795204
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1757795211
+|move|p1a: Cinderace|Sucker Punch|p2a: Cinderace
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p2a: Cinderace|30/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757795222
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|7
+|
+|t:|1757795234
+|move|p1a: Weavile|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757795236
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|-activate|p2a: Slither Wing|ability: Protosynthesis
+|-start|p2a: Slither Wing|protosynthesisatk
+|turn|8
+|
+|t:|1757795240
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Slither Wing|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|69/100
+|
+|t:|1757795244
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Ribombee|Ribombee, F|100/100|[from] U-turn
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1757795253
+|move|p2a: Ribombee|Sticky Web|p1a: Zapdos
+|-sidestart|p1: sminey|move: Sticky Web
+|move|p1a: Zapdos|Thunder Wave|p2a: Ribombee
+|-status|p2a: Ribombee|par
+|
+|upkeep
+|turn|10
+|
+|t:|1757795257
+|move|p1a: Zapdos|Hurricane|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100 par
+|move|p2a: Ribombee|Psychic Noise|p1a: Zapdos
+|-damage|p1a: Zapdos|48/100
+|-start|p1a: Zapdos|move: Heal Block
+|
+|upkeep
+|turn|11
+|
+|t:|1757795264
+|move|p1a: Zapdos|Thunder Wave|p2a: Ribombee
+|-fail|p2a: Ribombee|par
+|move|p2a: Ribombee|Moonblast|p1a: Zapdos
+|-damage|p1a: Zapdos|11/100
+|
+|-end|p1a: Zapdos|move: Heal Block
+|upkeep
+|turn|12
+|
+|t:|1757795269
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|cant|p2a: Ribombee|par
+|
+|upkeep
+|turn|13
+|
+|t:|1757795291
+|move|p1a: Weavile|Ice Shard|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1757795297
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|14
+|
+|t:|1757795307
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|-activate|p1a: Slowking|move: Sticky Web
+|-unboost|p1a: Slowking|spe|1
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|-activate|p2a: Slither Wing|ability: Protosynthesis
+|-start|p2a: Slither Wing|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1757795316
+|move|p2a: Slither Wing|Flare Blitz|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|-damage|p2a: Slither Wing|59/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757795320
+|switch|p1a: Latios|Latios, M|100/100
+|turn|16
+|
+|t:|1757795323
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Latios|Luster Purge|p2a: Garchomp
+|-damage|p2a: Garchomp|44/100
+|-unboost|p2a: Garchomp|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1757795330
+|move|p1a: Latios|Luster Purge|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757795337
+|switch|p2a: Slither Wing|Slither Wing|59/100
+|-activate|p2a: Slither Wing|ability: Protosynthesis
+|-start|p2a: Slither Wing|protosynthesisatk
+|turn|18
+|
+|t:|1757795342
+|-terastallize|p1a: Latios|Steel
+|move|p1a: Latios|Luster Purge|p2a: Slither Wing
+|-supereffective|p2a: Slither Wing
+|-damage|p2a: Slither Wing|0 fnt
+|faint|p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757795344
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|19
+|
+|t:|1757795361
+|switch|p1a: Zapdos|Zapdos|11/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757795364
+|switch|p1a: Latios|Latios, M, tera:Steel|100/100
+|turn|20
+|
+|t:|1757795369
+|-terastallize|p2a: Walking Wake|Water
+|move|p1a: Latios|Draco Meteor|p2a: Walking Wake
+|-damage|p2a: Walking Wake|26/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Walking Wake|Hydro Steam|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757795380
+|switch|p1a: Clefable|Clefable, M|75/100
+|turn|21
+|
+|t:|1757795385
+|move|p2a: Walking Wake|Hydro Steam|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1757795388
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|22
+|
+|t:|1757795392
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|move|p2a: Walking Wake|Hydro Steam|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|win|dafrogger
+|raw|sminey's rating: 1631 &rarr; <strong>1612</strong><br />(-19 for losing)
+|raw|dafrogger's rating: 1653 &rarr; <strong>1672</strong><br />(+19 for winning)
+|l|☆dafrogger
+|player|p2|
+|l|☆sminey
+|player|p1|

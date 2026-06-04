@@ -1,0 +1,259 @@
+|j|☆crownwrld
+|j|☆ProMaffew
+|t:|1760766757
+|gametype|singles
+|player|p1|crownwrld|101|1124
+|player|p2|ProMaffew|102|1135
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sinistcha|
+|poke|p1|Garganacl, M|
+|poke|p1|Typhlosion, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Bombirdier, M|
+|poke|p1|Tentacruel, F|
+|poke|p2|Braviary, M|
+|poke|p2|Luxray, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Great Tusk|
+|poke|p2|Heatran, M|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1760766762
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Bombirdier|Bombirdier, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|t:|1760766773
+|move|p2a: Rotom|Hydro Pump|p1a: Bombirdier
+|-damage|p1a: Bombirdier|0 fnt
+|faint|p1a: Bombirdier
+|
+|upkeep
+|
+|t:|1760766779
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|turn|2
+|
+|t:|1760766787
+|switch|p2a: Braviary|Braviary, M|100/100
+|move|p1a: Sinistcha|Scald|p2a: Braviary
+|-damage|p2a: Braviary|62/100
+|
+|upkeep
+|turn|3
+|
+|t:|1760766795
+|move|p2a: Braviary|U-turn|p1a: Sinistcha
+|-damage|p1a: Sinistcha|74/100
+|
+|t:|1760766806
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|move|p1a: Sinistcha|Scald|p2a: Hatterene
+|-damage|p2a: Hatterene|70/100
+|-status|p2a: Hatterene|brn
+|
+|-heal|p2a: Hatterene|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Hatterene|70/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1760766826
+|move|p1a: Sinistcha|Hex|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1760766831
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|5
+|
+|t:|1760766841
+|move|p2a: Heatran|Magma Storm|p1a: Sinistcha|[miss]
+|-miss|p2a: Heatran|p1a: Sinistcha
+|move|p1a: Sinistcha|Scald|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|51/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|6
+|
+|t:|1760766852
+|switch|p1a: Typhlosion|Typhlosion, M|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Typhlosion
+|-start|p1a: Typhlosion|ability: Flash Fire
+|
+|upkeep
+|turn|7
+|
+|t:|1760766866
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Typhlosion|Sunny Day|p1a: Typhlosion
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760766875
+|-terastallize|p1a: Typhlosion|Grass
+|move|p1a: Typhlosion|Solar Beam||[still]
+|-prepare|p1a: Typhlosion|Solar Beam
+|-anim|p1a: Typhlosion|Solar Beam|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760766885
+|switch|p2a: Heatran|Heatran, M|51/100
+|turn|9
+|
+|t:|1760766890
+|move|p1a: Typhlosion|Solar Beam||[still]
+|-prepare|p1a: Typhlosion|Solar Beam
+|-anim|p1a: Typhlosion|Solar Beam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|39/100
+|move|p2a: Heatran|Flash Cannon|p1a: Typhlosion
+|-damage|p1a: Typhlosion|45/100
+|-unboost|p1a: Typhlosion|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760766901
+|move|p1a: Typhlosion|Extrasensory|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|29/100
+|move|p2a: Heatran|Flash Cannon|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760766913
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|turn|11
+|
+|t:|1760766921
+|move|p1a: Excadrill|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|none
+|upkeep
+|
+|t:|1760766939
+|switch|p2a: Braviary|Braviary, M|62/100
+|turn|12
+|
+|t:|1760766947
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Braviary|U-turn|p1a: Garganacl
+|-damage|p1a: Garganacl|88/100
+|
+|t:|1760766952
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|upkeep
+|turn|13
+|
+|t:|1760766963
+|move|p2a: Great Tusk|Headlong Rush|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|22/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-enditem|p1a: Garganacl|Aguav Berry|[eat]
+|-heal|p1a: Garganacl|55/100|[from] item: Aguav Berry
+|move|p1a: Garganacl|Salt Cure|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|97/100
+|-start|p2a: Great Tusk|Salt Cure
+|
+|-damage|p2a: Great Tusk|85/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1760766981
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Braviary|Braviary, M|62/100
+|move|p1a: Garganacl|Body Press|p2a: Braviary
+|-crit|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|upkeep
+|
+|t:|1760766988
+|switch|p2a: Luxray|Luxray, M|100/100
+|turn|15
+|
+|t:|1760766994
+|move|p2a: Luxray|Trailblaze|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|37/100
+|-boost|p2a: Luxray|spe|1
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|87/100
+|
+|-status|p2a: Luxray|brn|[from] item: Flame Orb
+|upkeep
+|turn|16
+|
+|t:|1760767009
+|move|p2a: Luxray|Supercell Slam|p1a: Garganacl
+|-damage|p1a: Garganacl|50/100
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-damage|p2a: Luxray|95/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1760767020
+|-terastallize|p2a: Luxray|Normal
+|move|p2a: Luxray|Facade|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|32/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|82/100
+|
+|-damage|p2a: Luxray|89/100 brn|[from] brn
+|upkeep
+|turn|18
+|-message|ProMaffew forfeited.
+|
+|win|crownwrld
+|raw|crownwrld's rating: 1124 &rarr; <strong>1150</strong><br />(+26 for winning)
+|raw|ProMaffew's rating: 1135 &rarr; <strong>1109</strong><br />(-26 for losing)
+|l|☆ProMaffew
+|player|p2|
+|l|☆crownwrld
+|player|p1|

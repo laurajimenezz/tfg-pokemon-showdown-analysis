@@ -1,0 +1,291 @@
+|j|☆Tokiwakano
+|j|☆Fuwa the Cute
+|t:|1769366063
+|gametype|singles
+|player|p1|Tokiwakano|acetrainerf|1812
+|player|p2|Fuwa the Cute|pokekid|1806
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Cinderace, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Porygon2|
+|poke|p2|Cresselia, F|
+|poke|p2|Iron Hands|
+|poke|p2|Volcanion|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tokiwakano)
+|
+|t:|1769366075
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Saturn|Volcanion|100/100
+|turn|1
+|
+|t:|1769366080
+|move|p1a: Cinderace|U-turn|p2a: Saturn
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Saturn
+|-damage|p2a: Saturn|87/100
+|
+|t:|1769366082
+|switch|p1a: Kyurem|Kyurem|100/100|[from] U-turn
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Saturn|Flamethrower|p1a: Kyurem
+|-damage|p1a: Kyurem|22/100
+|
+|upkeep
+|turn|2
+|
+|t:|1769366092
+|move|p1a: Kyurem|Draco Meteor|p2a: Saturn
+|-damage|p2a: Saturn|0 fnt
+|-unboost|p1a: Kyurem|spa|2
+|faint|p2a: Saturn
+|
+|upkeep
+|
+|t:|1769366109
+|switch|p2a: TARS|Porygon2|100/100
+|-ability|p2a: TARS|Download|boost
+|-boost|p2a: TARS|atk|1
+|turn|3
+|
+|t:|1769366115
+|move|p1a: Kyurem|Draco Meteor|p2a: TARS
+|-damage|p2a: TARS|68/100
+|-unboost|p1a: Kyurem|spa|2
+|move|p2a: TARS|Tera Blast|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1769366126
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|turn|4
+|
+|t:|1769366130
+|move|p1a: Tornadus|Knock Off|p2a: TARS
+|-damage|p2a: TARS|56/100
+|-enditem|p2a: TARS|Eviolite|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: TARS|Trick Room|p2a: TARS
+|-fieldstart|move: Trick Room|[of] p2a: TARS
+|
+|upkeep
+|turn|5
+|
+|t:|1769366138
+|switch|p2a: Mann|Ursaluna, M|100/100
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Mann
+|-crit|p2a: Mann
+|-damage|p2a: Mann|48/100
+|
+|-status|p2a: Mann|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1769366150
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|-terastallize|p2a: Mann|Normal
+|move|p2a: Mann|Facade|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|8/100
+|
+|-heal|p1a: Kingambit|15/100|[from] item: Leftovers
+|-damage|p2a: Mann|42/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1769366159
+|switch|p2a: CASE|Iron Hands|100/100
+|-enditem|p2a: CASE|Booster Energy
+|-activate|p2a: CASE|ability: Quark Drive|[fromitem]
+|-start|p2a: CASE|quarkdriveatk
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-heal|p1a: Kingambit|21/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1769366172
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: CASE|Drain Punch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|63/100
+|-damage|p2a: CASE|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|t:|1769366181
+|move|p1a: Great Tusk|Headlong Rush|p2a: CASE
+|-supereffective|p2a: CASE
+|-damage|p2a: CASE|15/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: CASE|Ice Punch|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-damage|p2a: CASE|0 fnt|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|faint|p2a: CASE
+|-end|p2a: CASE|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769366202
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Miller|Cresselia, F, shiny|100/100
+|turn|10
+|
+|t:|1769366207
+|move|p1a: Cinderace|Pyro Ball|p2a: Miller
+|-damage|p2a: Miller|72/100
+|-status|p2a: Miller|brn
+|move|p2a: Miller|Trick Room|p2a: Miller
+|-fieldstart|move: Trick Room|[of] p2a: Miller
+|
+|-damage|p2a: Miller|66/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1769366212
+|move|p2a: Miller|Lunar Dance|p2a: Miller
+|faint|p2a: Miller
+|move|p1a: Cinderace|U-turn|p2: Miller|[notarget]
+|-fail|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1769366217
+|switch|p2a: Mann|Ursaluna, M, tera:Normal|42/100 brn
+|-heal|p2a: Mann|100/100|[from] move: Lunar Dance
+|turn|12
+|
+|t:|1769366227
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Mann|Headlong Rush|p1a: Tornadus
+|-immune|p1a: Tornadus
+|
+|-status|p2a: Mann|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|j| ebizi
+|j| blackddarkness
+|
+|t:|1769366247
+|switch|p1a: Kingambit|Kingambit, F|21/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Mann|Facade|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|-damage|p2a: Mann|94/100 brn|[from] brn
+|upkeep
+|inactive|Tokiwakano has 120 seconds left.
+|
+|t:|1769366264
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|turn|14
+|
+|t:|1769366268
+|move|p2a: Mann|Facade|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-damage|p2a: Mann|88/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1769366272
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|15
+|
+|t:|1769366275
+|move|p2a: Mann|Facade|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-damage|p2a: Mann|82/100 brn|[from] brn
+|upkeep
+|
+|t:|1769366277
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|16
+|
+|t:|1769366279
+|switch|p2a: TARS|Porygon2|56/100
+|-ability|p2a: TARS|Download|boost
+|-boost|p2a: TARS|atk|1
+|-terastallize|p1a: Cinderace|Fire
+|move|p1a: Cinderace|Pyro Ball|p2a: TARS|[miss]
+|-miss|p1a: Cinderace|p2a: TARS
+|
+|upkeep
+|turn|17
+|
+|t:|1769366286
+|move|p1a: Cinderace|Pyro Ball|p2a: TARS
+|-damage|p2a: TARS|0 fnt
+|faint|p2a: TARS
+|
+|upkeep
+|
+|t:|1769366288
+|switch|p2a: Brand|Hatterene, F, shiny|100/100
+|turn|18
+|j| mimiquiu01
+|
+|t:|1769366290
+|move|p1a: Cinderace|Pyro Ball|p2a: Brand
+|-damage|p2a: Brand|10/100
+|move|p2a: Brand|Trick Room|p2a: Brand
+|-fieldstart|move: Trick Room|[of] p2a: Brand
+|
+|upkeep
+|turn|19
+|
+|t:|1769366296
+|move|p2a: Brand|Psychic Noise|p1a: Cinderace
+|-damage|p1a: Cinderace|42/100
+|-start|p1a: Cinderace|move: Heal Block
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Brand
+|move|p2a: Brand|Will-O-Wisp|p1a: Cinderace|[from] ability: Magic Bounce
+|-immune|p1a: Cinderace
+|
+|upkeep
+|turn|20
+|-message|Tokiwakano forfeited.
+|
+|win|Fuwa the Cute
+|raw|Tokiwakano's rating: 1812 &rarr; <strong>1792</strong><br />(-20 for losing)
+|raw|Fuwa the Cute's rating: 1806 &rarr; <strong>1826</strong><br />(+20 for winning)
+|l|☆Tokiwakano
+|player|p1|

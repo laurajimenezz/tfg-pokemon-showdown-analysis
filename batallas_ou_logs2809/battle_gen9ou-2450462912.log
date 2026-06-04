@@ -1,0 +1,197 @@
+|j|☆gigapoophater
+|j|☆whynotbtt
+|t:|1758986842
+|gametype|singles
+|player|p1|gigapoophater|swimmer|1234
+|player|p2|whynotbtt|artist|1230
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Boulder|
+|poke|p1|Skeledirge, F|
+|poke|p1|Orthworm, F|
+|poke|p1|Breloom, M|
+|poke|p1|Milotic, M|
+|poke|p1|Zebstrika, F|
+|poke|p2|Pincurchin, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Hawlucha, F|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Leaves|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|t:|1758986857
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zebstrika|Zebstrika, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdriveatk
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gigapoophater)
+|
+|t:|1758986870
+|move|p1a: Zebstrika|High Horsepower|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-crit|p2a: Iron Treads
+|-damage|p2a: Iron Treads|6/100
+|-damage|p1a: Zebstrika|91/100|[from] item: Life Orb
+|move|p2a: Iron Treads|Earthquake|p1a: Zebstrika
+|-supereffective|p1a: Zebstrika
+|-damage|p1a: Zebstrika|0 fnt
+|faint|p1a: Zebstrika
+|
+|upkeep
+|
+|t:|1758986882
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|turn|2
+|
+|t:|1758986888
+|move|p1a: Skeledirge|Torch Song|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-boost|p1a: Skeledirge|spa|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758986891
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|3
+|
+|t:|1758986903
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Electric Seed
+|move|p1a: Skeledirge|Torch Song|p2a: Hawlucha
+|-damage|p2a: Hawlucha|9/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1758986917
+|move|p2a: Hawlucha|Acrobatics|p1a: Skeledirge
+|-damage|p1a: Skeledirge|49/100
+|move|p1a: Skeledirge|Torch Song|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|-boost|p1a: Skeledirge|spa|1
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|t:|1758986924
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-activate|p2a: Iron Valiant|ability: Quark Drive
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|5
+|
+|t:|1758986930
+|-terastallize|p2a: Iron Valiant|Electric
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|upkeep
+|
+|t:|1758986947
+|switch|p1a: Breloom|Breloom, M|100/100
+|turn|6
+|
+|t:|1758986959
+|switch|p1a: Orthworm|Orthworm, F|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Orthworm
+|-resisted|p1a: Orthworm
+|-damage|p1a: Orthworm|61/100
+|
+|upkeep
+|turn|7
+|
+|t:|1758986966
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Orthworm
+|-damage|p1a: Orthworm|0 fnt
+|faint|p1a: Orthworm
+|
+|upkeep
+|
+|t:|1758986972
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|-activate|p1a: Iron Boulder|ability: Quark Drive
+|-start|p1a: Iron Boulder|quarkdrivespe
+|turn|8
+|
+|t:|1758986978
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|43/100
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|9
+|
+|t:|1758986992
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Iron Leaves|Iron Leaves|100/100
+|-activate|p2a: Iron Leaves|ability: Quark Drive
+|-start|p2a: Iron Leaves|quarkdrivespe
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|45/100
+|
+|upkeep
+|turn|10
+|
+|t:|1758987007
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|0 fnt
+|faint|p2a: Iron Leaves
+|-end|p2a: Iron Leaves|Quark Drive|[silent]
+|
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Boulder|Quark Drive
+|upkeep
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdrivespe
+|
+|t:|1758987015
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|11
+|
+|t:|1758987020
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|upkeep
+|l|☆whynotbtt
+|inactive|whynotbtt disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|whynotbtt has 30 seconds to reconnect!
+|inactive|whynotbtt has 20 seconds to reconnect!
+|inactive|whynotbtt has 15 seconds to reconnect!
+|inactive|whynotbtt has 10 seconds to reconnect!
+|inactive|whynotbtt has 5 seconds to reconnect!
+|-message|whynotbtt lost due to inactivity.
+|
+|win|gigapoophater
+|raw|gigapoophater's rating: 1234 &rarr; <strong>1259</strong><br />(+25 for winning)
+|raw|whynotbtt's rating: 1230 &rarr; <strong>1205</strong><br />(-25 for losing)
+|l|☆gigapoophater
+|player|p1|

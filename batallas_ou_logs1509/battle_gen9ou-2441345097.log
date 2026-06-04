@@ -1,0 +1,271 @@
+|j|☆tj03
+|j|☆20120414x
+|t:|1757834674
+|gametype|singles
+|player|p1|tj03|1|1099
+|player|p2|20120414x|winona|1123
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Darkrai|
+|poke|p1|Iron Moth|
+|poke|p1|Blaziken, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Walking Wake|
+|poke|p2|Houndstone, M|
+|poke|p2|Oricorio-Sensu, F|
+|poke|p2|Polteageist|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Ceruledge, M|
+|poke|p2|Typhlosion-Hisui, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tj03)
+|
+|t:|1757834682
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Oricorio|Oricorio-Sensu, F|100/100
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|1
+|
+|t:|1757834694
+|move|p1a: Walking Wake|Hydro Steam|p2a: Oricorio
+|-damage|p2a: Oricorio|22/100
+|move|p2a: Oricorio|Quiver Dance|p2a: Oricorio
+|-boost|p2a: Oricorio|spa|1
+|-boost|p2a: Oricorio|spd|1
+|-boost|p2a: Oricorio|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1757834703
+|move|p2a: Oricorio|Alluring Voice|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|5/100
+|-enditem|p2a: Oricorio|Throat Spray
+|-boost|p2a: Oricorio|spa|1|[from] item: Throat Spray
+|move|p1a: Walking Wake|Hydro Steam|p2a: Oricorio
+|-damage|p2a: Oricorio|0 fnt
+|faint|p2a: Oricorio
+|
+|upkeep
+|
+|t:|1757834713
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|3
+|
+|t:|1757834717
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1757834719
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|4
+|
+|t:|1757834733
+|move|p2a: Ceruledge|Bitter Blade|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|79/100
+|move|p1a: Torkoal|Clear Smog|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|96/100
+|-clearboost|p2a: Ceruledge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757834746
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Ceruledge|Bitter Blade|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|52/100
+|-heal|p2a: Ceruledge|100/100|[from] drain|[of] p1a: Iron Moth
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1757834757
+|move|p1a: Iron Moth|Discharge|p2a: Ceruledge
+|-damage|p2a: Ceruledge|78/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|-heal|p2a: Ceruledge|99/100|[from] drain|[of] p1a: Iron Moth
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757834763
+|switch|p1a: Darkrai|Darkrai, shiny|100/100
+|turn|7
+|
+|t:|1757834770
+|move|p1a: Darkrai|Dark Pulse|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|32/100
+|-damage|p1a: Darkrai|91/100|[from] item: Life Orb
+|cant|p2a: Ceruledge|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1757834783
+|move|p1a: Darkrai|Dark Pulse|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|-damage|p1a: Darkrai|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757834791
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|9
+|
+|t:|1757834800
+|move|p1a: Darkrai|Dark Pulse|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-damage|p1a: Darkrai|71/100|[from] item: Life Orb
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1757834814
+|-terastallize|p2a: Polteageist|Fighting
+|move|p2a: Polteageist|Tera Blast|p1a: Darkrai|[anim] Tera Blast Fighting
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757834825
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|turn|11
+|
+|t:|1757834830
+|move|p2a: Polteageist|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|3/100
+|move|p1a: Corviknight|Brave Bird|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|-damage|p1a: Corviknight|3/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|
+|t:|1757834840
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|turn|12
+|
+|t:|1757834844
+|move|p2a: Basculegion|Flip Turn|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Basculegion|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|t:|1757834850
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F|100/100|[from] Flip Turn
+|
+|upkeep
+|
+|t:|1757834853
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|turn|13
+|
+|t:|1757834861
+|move|p1a: Blaziken|Detect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Typhlosion|Calm Mind|p2a: Typhlosion
+|-boost|p2a: Typhlosion|spa|1
+|-boost|p2a: Typhlosion|spd|1
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|14
+|
+|t:|1757834873
+|move|p1a: Blaziken|Blaze Kick|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|69/100
+|move|p2a: Typhlosion|Focus Blast|p1a: Blaziken|[miss]
+|-miss|p2a: Typhlosion|p1a: Blaziken
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|15
+|
+|t:|1757834884
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|move|p2a: Typhlosion|Focus Blast|p1a: Blaziken
+|-damage|p1a: Blaziken|6/100
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|16
+|
+|t:|1757834895
+|move|p1a: Blaziken|Blaze Kick|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|2/100
+|-enditem|p2a: Typhlosion|Salac Berry|[eat]
+|-boost|p2a: Typhlosion|spe|1|[from] item: Salac Berry
+|move|p2a: Typhlosion|Flamethrower|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+|-message|tj03 forfeited.
+|
+|win|20120414x
+|raw|tj03's rating: 1122 &rarr; <strong>1097</strong><br />(-25 for losing)
+|raw|20120414x's rating: 1123 &rarr; <strong>1148</strong><br />(+25 for winning)
+|l|☆tj03
+|player|p1|
+|l|☆20120414x
+|player|p2|

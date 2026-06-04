@@ -1,0 +1,301 @@
+|j|☆GROGOLIOS TV
+|j|☆zxcj1221
+|t:|1758975518
+|gametype|singles
+|player|p1|GROGOLIOS TV|roxie|1528
+|player|p2|zxcj1221|169|1656
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Hydrapple, F|
+|poke|p1|Scizor, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Forretress, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Greninja-*, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Sandy Shocks|
+|poke|p2|Manaphy|
+|poke|p2|Araquanid, F|
+|teampreview
+|
+|t:|1758975534
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-enditem|p2a: Sandy Shocks|Booster Energy
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1758975539
+|move|p2a: Sandy Shocks|Stealth Rock|p1a: Slowking
+|-sidestart|p1: GROGOLIOS TV|move: Stealth Rock
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1758975548
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100|[from] Chilly Reception
+|-damage|p1a: Hoopa|88/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758975553
+|move|p2a: Sandy Shocks|Earth Power|p1a: Hoopa
+|-damage|p1a: Hoopa|49/100
+|move|p1a: Hoopa|Dark Pulse|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|13/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758975558
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|move|p1a: Hoopa|Dark Pulse|p2a: Araquanid
+|-damage|p2a: Araquanid|56/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758975564
+|switch|p1a: Forretress|Forretress, M|100/100
+|-damage|p1a: Forretress|88/100|[from] Stealth Rock
+|move|p2a: Araquanid|Liquidation|p1a: Forretress
+|-damage|p1a: Forretress|62/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Forretress|68/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1758975570
+|move|p2a: Araquanid|Liquidation|p1a: Forretress
+|-damage|p1a: Forretress|43/100
+|move|p1a: Forretress|Stealth Rock|p2a: Araquanid
+|-sidestart|p2: zxcj1221|move: Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Forretress|49/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1758975573
+|move|p2a: Araquanid|Liquidation|p1a: Forretress
+|-damage|p1a: Forretress|26/100
+|move|p1a: Forretress|Rapid Spin|p2a: Araquanid
+|-damage|p2a: Araquanid|45/100
+|-boost|p1a: Forretress|spe|1
+|-sideend|p1: GROGOLIOS TV|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-heal|p1a: Forretress|32/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758975577
+|move|p1a: Forretress|Volt Switch|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|33/100
+|
+|t:|1758975580
+|switch|p1a: Alomomola|Alomomola, M|100/100|[from] Volt Switch
+|move|p2a: Araquanid|Liquidation|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|89/100
+|
+|-heal|p1a: Alomomola|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758975584
+|move|p1a: Alomomola|Flip Turn|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|24/100
+|
+|t:|1758975595
+|switch|p1a: Hydrapple|Hydrapple, F|100/100|[from] Flip Turn
+|move|p2a: Araquanid|Sticky Web|p1a: Hydrapple
+|-sidestart|p1: GROGOLIOS TV|move: Sticky Web
+|
+|upkeep
+|turn|9
+|-enditem|p2a: Araquanid|Custap Berry|[eat]
+|-activate|p2a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1758975601
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-activate|p1a: Alomomola|move: Sticky Web
+|-unboost|p1a: Alomomola|spe|1
+|move|p2a: Araquanid|Endeavor|p1a: Alomomola
+|-damage|p1a: Alomomola|15/100
+|
+|-heal|p1a: Alomomola|22/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758975607
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Araquanid|Endeavor|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|28/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758975612
+|move|p2a: Araquanid|Liquidation|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|15/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|22/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758975618
+|switch|p2a: Sandy Shocks|Sandy Shocks|13/100
+|-damage|p2a: Sandy Shocks|7/100|[from] Stealth Rock
+|move|p1a: Alomomola|Flip Turn|p2a: Sandy Shocks
+|-supereffective|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|
+|t:|1758975629
+|switch|p1a: Forretress|Forretress, M|32/100|[from] Flip Turn
+|-activate|p1a: Forretress|move: Sticky Web
+|-unboost|p1a: Forretress|spe|1
+|
+|-heal|p1a: Forretress|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|
+|t:|1758975632
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|13
+|
+|t:|1758975636
+|move|p2a: Pelipper|U-turn|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|98/100
+|
+|t:|1758975639
+|switch|p2a: Manaphy|Manaphy|100/100|[from] U-turn
+|move|p1a: Forretress|Volt Switch|p2a: Manaphy
+|-supereffective|p2a: Manaphy
+|-damage|p2a: Manaphy|83/100
+|
+|t:|1758975644
+|switch|p1a: Hydrapple|Hydrapple, F|100/100|[from] Volt Switch
+|-activate|p1a: Hydrapple|move: Sticky Web
+|-unboost|p1a: Hydrapple|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1758975649
+|-terastallize|p2a: Manaphy|Grass
+|move|p2a: Manaphy|Tail Glow|p2a: Manaphy
+|-boost|p2a: Manaphy|spa|3
+|move|p1a: Hydrapple|Giga Drain|p2a: Manaphy
+|-resisted|p2a: Manaphy
+|-damage|p2a: Manaphy|70/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1758975654
+|move|p2a: Manaphy|Tail Glow|p2a: Manaphy
+|-boost|p2a: Manaphy|spa|3
+|move|p1a: Hydrapple|Fickle Beam|p2a: Manaphy
+|-damage|p2a: Manaphy|41/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1758975662
+|move|p2a: Manaphy|Rest|p2a: Manaphy
+|-status|p2a: Manaphy|slp|[from] move: Rest
+|-heal|p2a: Manaphy|100/100 slp|[silent]
+|move|p1a: Hydrapple|Fickle Beam|p2a: Manaphy|[anim] Fickle Beam All Out
+|-activate|p1a: Hydrapple|move: Fickle Beam
+|-damage|p2a: Manaphy|45/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Manaphy|ability: Hydration
+|-curestatus|p2a: Manaphy|slp|[msg]
+|upkeep
+|turn|17
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zxcj1221)
+|
+|t:|1758975669
+|move|p2a: Manaphy|Rest|p2a: Manaphy
+|-status|p2a: Manaphy|slp|[from] move: Rest
+|-heal|p2a: Manaphy|100/100 slp|[silent]
+|move|p1a: Hydrapple|Fickle Beam|p2a: Manaphy
+|-damage|p2a: Manaphy|75/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Manaphy|ability: Hydration
+|-curestatus|p2a: Manaphy|slp|[msg]
+|upkeep
+|turn|18
+|
+|t:|1758975677
+|move|p2a: Manaphy|Ice Beam|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758975684
+|switch|p1a: Scizor|Scizor, M|100/100
+|-activate|p1a: Scizor|move: Sticky Web
+|-unboost|p1a: Scizor|spe|1
+|turn|19
+|
+|t:|1758975687
+|-terastallize|p1a: Scizor|Steel
+|move|p1a: Scizor|Bullet Punch|p2a: Manaphy
+|-damage|p2a: Manaphy|22/100
+|move|p2a: Manaphy|Surf|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|GROGOLIOS TV forfeited.
+|
+|win|zxcj1221
+|raw|GROGOLIOS TV's rating: 1528 &rarr; <strong>1515</strong><br />(-13 for losing)
+|raw|zxcj1221's rating: 1656 &rarr; <strong>1669</strong><br />(+13 for winning)
+|l|☆GROGOLIOS TV
+|player|p1|
+|l|☆zxcj1221
+|player|p2|

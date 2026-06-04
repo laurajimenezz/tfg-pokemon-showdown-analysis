@@ -1,0 +1,290 @@
+|j|☆AltLocke
+|j|☆overheat xyz
+|t:|1757788481
+|gametype|singles
+|player|p1|AltLocke|170|1573
+|player|p2|overheat xyz|266|1622
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Walking Wake|
+|poke|p1|Typhlosion-Hisui, F|
+|poke|p1|Great Tusk|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Corviknight, F|
+|teampreview
+|
+|t:|1757788497
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1757788511
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757788515
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|2
+|
+|t:|1757788541
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Hatterene
+|-damage|p2a: Hatterene|15/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757788550
+|move|p1a: Great Tusk|Headlong Rush|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757788570
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|4
+|
+|t:|1757788580
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757788590
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: overheat xyz|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1757788608
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Lilligant
+|-damage|p1a: Lilligant|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lilligant|24/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1757788618
+|switch|p1a: Typhlosion|Typhlosion-Hisui, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757788623
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|8
+|
+|t:|1757788641
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|-enditem|p2a: Kingambit|Grassy Seed
+|-boost|p2a: Kingambit|def|1|[from] item: Grassy Seed
+|move|p1a: Walking Wake|Draco Meteor|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|60/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|-heal|p2a: Kingambit|66/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1757788655
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1757788659
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Torkoal
+|-damage|p1a: Torkoal|39/100
+|move|p1a: Torkoal|Lava Plume|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757788668
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1757788671
+|move|p2a: Dragapult|Shadow Ball|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757788679
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|12
+|
+|t:|1757788704
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Walking Wake|Draco Meteor|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|56/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1757788715
+|move|p1a: Walking Wake|Weather Ball|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757788725
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-damage|p2a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|14
+|
+|t:|1757788733
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Lilligant|Lilligant-Hisui, F|24/100
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lilligant|30/100|[from] Grassy Terrain
+|-heal|p2a: Garganacl|94/100|[from] Grassy Terrain
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1757788745
+|move|p1a: Lilligant|Solar Blade||[still]
+|-prepare|p1a: Lilligant|Solar Blade
+|-anim|p1a: Lilligant|Solar Blade|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|-damage|p1a: Lilligant|20/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lilligant|26/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757788751
+|switch|p2a: Rillaboom|Rillaboom, F|88/100
+|-damage|p2a: Rillaboom|76/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1757788758
+|move|p2a: Rillaboom|Grassy Glide|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|-weather|none
+|-heal|p2a: Rillaboom|82/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757788760
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|17
+|
+|t:|1757788786
+|-terastallize|p1a: Great Tusk|Fire
+|-terastallize|p2a: Rillaboom|Grass
+|move|p2a: Rillaboom|Grassy Glide|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|70/100
+|move|p1a: Great Tusk|Temper Flare|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Great Tusk|77/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757788788
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|-damage|p2a: Dragapult|76/100|[from] Stealth Rock
+|turn|18
+|-message|overheat xyz forfeited.
+|
+|win|AltLocke
+|raw|AltLocke's rating: 1573 &rarr; <strong>1596</strong><br />(+23 for winning)
+|raw|overheat xyz's rating: 1622 &rarr; <strong>1599</strong><br />(-23 for losing)
+|l|☆overheat xyz
+|player|p2|
+|l|☆AltLocke
+|player|p1|

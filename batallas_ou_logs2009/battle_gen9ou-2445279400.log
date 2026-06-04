@@ -1,0 +1,287 @@
+|j|☆rifoun
+|j|☆AntiPiretico
+|t:|1758323095
+|gametype|singles
+|player|p1|rifoun|bugcatcher-gen4dp|1085
+|player|p2|AntiPiretico|guitarist-gen4|1104
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sceptile, M|
+|poke|p1|Komala, F|
+|poke|p1|Bronzong|
+|poke|p1|Dudunsparce-*, M|
+|poke|p1|Bellibolt, M|
+|poke|p1|Raboot, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Kommo-o, M|
+|poke|p2|Chandelure, F|
+|poke|p2|Espeon, M|
+|poke|p2|Toxicroak, M|
+|teampreview
+|
+|t:|1758323100
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Bronzong|Bronzong|100/100
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|turn|1
+|
+|t:|1758323106
+|move|p2a: Toxicroak|Fake Out|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|95/100
+|cant|p1a: Bronzong|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1758323109
+|move|p2a: Toxicroak|Taunt|p1a: Bronzong
+|-start|p1a: Bronzong|move: Taunt
+|move|p1a: Bronzong|Psychic Noise|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|-enditem|p1a: Bronzong|Throat Spray
+|-boost|p1a: Bronzong|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|
+|t:|1758323118
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|3
+|
+|t:|1758323124
+|move|p2a: Rotom|Trick|p1a: Bronzong
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Bronzong
+|-item|p1a: Bronzong|Choice Specs|[from] move: Trick
+|-enditem|p2a: Rotom|Choice Specs|[silent]|[from] move: Trick
+|move|p1a: Bronzong|Psychic Noise|p2a: Rotom
+|-damage|p2a: Rotom|28/100
+|-start|p2a: Rotom|move: Heal Block
+|
+|upkeep
+|turn|4
+|
+|t:|1758323133
+|move|p2a: Rotom|Hydro Pump|p1a: Bronzong|[miss]
+|-miss|p2a: Rotom|p1a: Bronzong
+|move|p1a: Bronzong|Psychic Noise|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-end|p1a: Bronzong|move: Taunt
+|upkeep
+|
+|t:|1758323145
+|switch|p2a: Espeon|Espeon, M|100/100
+|turn|5
+|
+|t:|1758323164
+|switch|p1a: Bellibolt|Bellibolt, M|100/100
+|move|p2a: Espeon|Shadow Ball|p1a: Bellibolt
+|-damage|p1a: Bellibolt|74/100
+|-start|p1a: Bellibolt|Charge|Shadow Ball|[from] ability: Electromorphosis
+|
+|upkeep
+|turn|6
+|
+|t:|1758323181
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|move|p1a: Bellibolt|Thunderbolt|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|68/100
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|upkeep
+|turn|7
+|
+|t:|1758323206
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|35/100
+|-enditem|p2a: Kommo-o|Sitrus Berry|[eat]
+|-heal|p2a: Kommo-o|60/100|[from] item: Sitrus Berry
+|move|p1a: Bellibolt|Thunderbolt|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|47/100
+|
+|upkeep
+|turn|8
+|
+|t:|1758323212
+|move|p2a: Kommo-o|Drain Punch|p1a: Bellibolt
+|-damage|p1a: Bellibolt|39/100
+|-heal|p2a: Kommo-o|73/100|[from] drain|[of] p1a: Bellibolt
+|-start|p1a: Bellibolt|Charge|Drain Punch|[from] ability: Electromorphosis
+|-damage|p2a: Kommo-o|56/100|[from] item: Rocky Helmet|[of] p1a: Bellibolt
+|move|p1a: Bellibolt|Toxic|p2a: Kommo-o
+|-status|p2a: Kommo-o|tox
+|
+|-damage|p2a: Kommo-o|50/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1758323228
+|move|p2a: Kommo-o|Drain Punch|p1a: Bellibolt
+|-damage|p1a: Bellibolt|5/100
+|-heal|p2a: Kommo-o|74/100 tox|[from] drain|[of] p1a: Bellibolt
+|-start|p1a: Bellibolt|Charge|Drain Punch|[from] ability: Electromorphosis
+|-damage|p2a: Kommo-o|58/100 tox|[from] item: Rocky Helmet|[of] p1a: Bellibolt
+|move|p1a: Bellibolt|Thunderbolt|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|33/100 tox
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-damage|p2a: Kommo-o|21/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1758323233
+|move|p2a: Kommo-o|Drain Punch|p1a: Bellibolt
+|-damage|p1a: Bellibolt|0 fnt
+|-heal|p2a: Kommo-o|25/100 tox|[from] drain|[of] p1a: Bellibolt
+|-damage|p2a: Kommo-o|8/100 tox|[from] item: Rocky Helmet|[of] p1a: Bellibolt
+|faint|p1a: Bellibolt
+|
+|-damage|p2a: Kommo-o|0 fnt|[from] psn
+|faint|p2a: Kommo-o
+|upkeep
+|
+|t:|1758323244
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|switch|p1a: Sceptile|Sceptile, M, shiny|100/100
+|turn|11
+|
+|t:|1758323252
+|move|p2a: Chandelure|Flamethrower|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|upkeep
+|
+|t:|1758323261
+|switch|p1a: Komala|Komala, F|100/100
+|-ability|p1a: Komala|Comatose
+|turn|12
+|
+|t:|1758323270
+|move|p2a: Chandelure|Flamethrower|p1a: Komala
+|-crit|p1a: Komala
+|-damage|p1a: Komala|44/100
+|move|p1a: Komala|Knock Off|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|12/100
+|-enditem|p2a: Chandelure|Choice Scarf|[from] move: Knock Off|[of] p1a: Komala
+|
+|upkeep
+|turn|13
+|
+|t:|1758323278
+|move|p1a: Komala|Sucker Punch|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|t:|1758323281
+|switch|p2a: Torkoal|Torkoal, F, shiny|100/100
+|turn|14
+|
+|t:|1758323298
+|switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, M, shiny|100/100
+|move|p2a: Torkoal|Rapid Spin|p1a: Dudunsparce
+|-crit|p1a: Dudunsparce
+|-damage|p1a: Dudunsparce|84/100
+|-boost|p2a: Torkoal|spe|1
+|
+|upkeep
+|turn|15
+|
+|t:|1758323308
+|-terastallize|p1a: Dudunsparce|Normal
+|move|p1a: Dudunsparce|Boomburst|p2a: Torkoal
+|-damage|p2a: Torkoal|32/100
+|-enditem|p1a: Dudunsparce|Throat Spray
+|-boost|p1a: Dudunsparce|spa|1|[from] item: Throat Spray
+|move|p2a: Torkoal|Body Press|p1a: Dudunsparce
+|-supereffective|p1a: Dudunsparce
+|-damage|p1a: Dudunsparce|15/100
+|
+|upkeep
+|turn|16
+|
+|t:|1758323322
+|move|p1a: Dudunsparce|Ancient Power|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|upkeep
+|
+|t:|1758323324
+|switch|p2a: Espeon|Espeon, M|100/100
+|turn|17
+|
+|t:|1758323335
+|-terastallize|p2a: Espeon|Psychic
+|move|p2a: Espeon|Psychic|p1a: Dudunsparce
+|-damage|p1a: Dudunsparce|0 fnt
+|faint|p1a: Dudunsparce
+|
+|upkeep
+|
+|t:|1758323340
+|switch|p1a: Komala|Komala, F|44/100
+|-ability|p1a: Komala|Comatose
+|turn|18
+|
+|t:|1758323344
+|move|p1a: Komala|Sucker Punch|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|16/100
+|move|p2a: Espeon|Psychic|p1a: Komala
+|-damage|p1a: Komala|0 fnt
+|faint|p1a: Komala
+|
+|upkeep
+|
+|t:|1758323349
+|switch|p1a: Raboot|Raboot, F, shiny|100/100
+|turn|19
+|
+|t:|1758323353
+|move|p2a: Espeon|Psychic|p1a: Raboot
+|-enditem|p1a: Raboot|Focus Sash
+|-damage|p1a: Raboot|1/100
+|move|p1a: Raboot|Flare Blitz|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|-damage|p1a: Raboot|0 fnt|[from] Recoil
+|faint|p1a: Raboot
+|
+|win|rifoun
+|raw|rifoun's rating: 1085 &rarr; <strong>1114</strong><br />(+29 for winning)
+|raw|AntiPiretico's rating: 1104 &rarr; <strong>1078</strong><br />(-26 for losing)
+|l|☆AntiPiretico
+|player|p2|
+|l|☆rifoun
+|player|p1|

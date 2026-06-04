@@ -1,0 +1,298 @@
+|j|☆sudks
+|j|☆apotato135
+|t:|1759008865
+|gametype|singles
+|player|p1|sudks|1|1622
+|player|p2|apotato135|swimmer-gen4dp|1599
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p1|Toxapex, M|
+|poke|p1|Zapdos|
+|poke|p1|Kingambit, M|
+|poke|p1|Kyurem|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Kyurem|
+|poke|p2|Primeape, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Moltres-Galar|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1759008877
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1759008884
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Iron Treads|Earth Power|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by apotato135)
+|
+|t:|1759008890
+|move|p2a: Iron Treads|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: sudks|move: Stealth Rock
+|move|p1a: Zapdos|Heat Wave|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|8/100
+|
+|upkeep
+|turn|3
+|
+|t:|1759008910
+|move|p2a: Iron Treads|Steel Beam|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|72/100
+|-damage|p2a: Iron Treads|0 fnt|[from] steelbeam
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|move|p1a: Zapdos|Heat Wave|p2: Iron Treads|[notarget]
+|-fail|p1a: Zapdos
+|
+|-heal|p1a: Zapdos|78/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1759008917
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|4
+|
+|t:|1759008929
+|move|p2a: Ninetales|Freeze-Dry|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|30/100
+|move|p1a: Zapdos|Volt Switch|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|40/100
+|
+|t:|1759008941
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1759008949
+|move|p2a: Ninetales|Moonblast|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|46/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Ninetales
+|-damage|p2a: Ninetales|24/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: sudks|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1759008971
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|72/100
+|-enditem|p2a: Enamorus|Choice Scarf|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1759008985
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Enamorus|Moonblast|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|70/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Gholdengo|76/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1759008998
+|-terastallize|p2a: Enamorus|Ground
+|move|p2a: Enamorus|Earth Power|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|none
+|upkeep
+|
+|t:|1759009005
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|9
+|
+|t:|1759009009
+|move|p1a: Kyurem|Freeze-Dry|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|upkeep
+|
+|t:|1759009018
+|switch|p2a: Ninetales|Ninetales-Alola, F|24/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|10
+|
+|t:|1759009023
+|move|p1a: Kyurem|Freeze-Dry|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|3/100
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: apotato135|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1759009029
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Kyurem|Freeze-Dry|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-damage|p2a: Kyurem|48/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1759009041
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Kyurem|Scale Shot|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|95/100
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|90/100
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|85/100
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|81/100
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|75/100
+|-hitcount|p1a: Kingambit|5
+|-unboost|p2a: Kyurem|def|1
+|-boost|p2a: Kyurem|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1759009058
+|move|p1a: Kingambit|Sucker Punch|p2a: Kyurem
+|-damage|p2a: Kyurem|24/100
+|move|p2a: Kyurem|Icicle Spear|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|71/100
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|65/100
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|60/100
+|-resisted|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|52/100
+|-hitcount|p1a: Kingambit|4
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1759009075
+|switch|p2a: Ninetales|Ninetales-Alola, F|3/100
+|move|p1a: Kingambit|Iron Head|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|none
+|upkeep
+|
+|t:|1759009079
+|switch|p2a: Moltres|Moltres-Galar|100/100
+|turn|15
+|
+|t:|1759009093
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Moltres|Agility|p2a: Moltres
+|-boost|p2a: Moltres|spe|2
+|
+|upkeep
+|turn|16
+|
+|t:|1759009100
+|switch|p2a: Kyurem|Kyurem|24/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Toxapex|Toxic Spikes|p2a: Kyurem
+|-sidestart|p2: apotato135|move: Toxic Spikes
+|
+|upkeep
+|turn|17
+|
+|t:|1759009110
+|switch|p2a: Primeape|Primeape, M|100/100
+|-status|p2a: Primeape|psn
+|move|p1a: Toxapex|Toxic Spikes|p2a: Primeape
+|-sidestart|p2: apotato135|move: Toxic Spikes
+|
+|-damage|p2a: Primeape|88/100 psn|[from] psn
+|-sideend|p2: apotato135|move: Aurora Veil
+|upkeep
+|turn|18
+|
+|t:|1759009118
+|move|p2a: Primeape|Bulk Up|p2a: Primeape
+|-boost|p2a: Primeape|atk|1
+|-boost|p2a: Primeape|def|1
+|move|p1a: Toxapex|Surf|p2a: Primeape
+|-damage|p2a: Primeape|76/100 psn
+|
+|-damage|p2a: Primeape|64/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1759009126
+|move|p2a: Primeape|Bulk Up|p2a: Primeape
+|-boost|p2a: Primeape|atk|1
+|-boost|p2a: Primeape|def|1
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Primeape|52/100 psn|[from] psn
+|upkeep
+|turn|20
+|-message|apotato135 forfeited.
+|
+|win|sudks
+|raw|sudks's rating: 1622 &rarr; <strong>1641</strong><br />(+19 for winning)
+|raw|apotato135's rating: 1599 &rarr; <strong>1580</strong><br />(-19 for losing)
+|l|☆apotato135
+|player|p2|
+|l|☆sudks
+|player|p1|

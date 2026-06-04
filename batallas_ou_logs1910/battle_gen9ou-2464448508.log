@@ -1,0 +1,368 @@
+|j|☆wangischangis
+|j|☆fgnhfgthr
+|t:|1760849204
+|gametype|singles
+|player|p1|wangischangis|170|1229
+|player|p2|fgnhfgthr|169|1189
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Alomomola, F|
+|poke|p1|Scizor, M|
+|poke|p1|Incineroar, F|
+|poke|p1|Porygon2|
+|poke|p1|Glimmora, M|
+|poke|p1|Gliscor, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Great Tusk|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Vikavolt, F|
+|poke|p2|Iron Leaves|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fgnhfgthr)
+|
+|t:|1760849231
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|switch|p2a: Kraven|Great Tusk|100/100
+|-enditem|p2a: Kraven|Booster Energy
+|-activate|p2a: Kraven|ability: Protosynthesis|[fromitem]
+|-start|p2a: Kraven|protosynthesisatk
+|turn|1
+|
+|t:|1760849237
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Kraven|Ice Spinner|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1760849251
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Kraven|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|39/100
+|-unboost|p2a: Kraven|def|1
+|-unboost|p2a: Kraven|spd|1
+|-enditem|p1a: Alomomola|Eject Button
+|
+|t:|1760849255
+|switch|p1a: Scizor|Scizor, M|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1760849259
+|-end|p2a: Kraven|Protosynthesis|[silent]
+|switch|p2a: Vulture|Cinderace, M|100/100
+|move|p1a: Scizor|Trailblaze|p2a: Vulture
+|-resisted|p2a: Vulture
+|-crit|p2a: Vulture
+|-damage|p2a: Vulture|73/100
+|-boost|p1a: Scizor|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1760849265
+|switch|p1a: Incineroar|Incineroar, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Vulture|atk|1
+|move|p2a: Vulture|Pyro Ball|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|83/100
+|
+|-heal|p1a: Incineroar|90/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760849268
+|move|p1a: Incineroar|Fake Out|p2a: Vulture
+|-damage|p2a: Vulture|50/100
+|cant|p2a: Vulture|flinch
+|
+|-heal|p1a: Incineroar|96/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760849277
+|move|p2a: Vulture|U-turn|p1a: Incineroar
+|-start|p2a: Vulture|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Incineroar|76/100
+|
+|t:|1760849286
+|switch|p2a: Kraven|Great Tusk|100/100|[from] U-turn
+|move|p1a: Incineroar|Knock Off|p2a: Kraven
+|-resisted|p2a: Kraven
+|-damage|p2a: Kraven|89/100
+|
+|-heal|p1a: Incineroar|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760849295
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox
+|move|p2a: Kraven|Close Combat|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|74/100 tox
+|-unboost|p2a: Kraven|def|1
+|-unboost|p2a: Kraven|spd|1
+|
+|-heal|p1a: Gliscor|87/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1760849306
+|-end|p2a: Kraven|Protosynthesis|[silent]
+|switch|p2a: Sandman|Garganacl, F|100/100
+|switch|p1a: Scizor|Scizor, M|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1760849311
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Sandman|Salt Cure|p1a: Glimmora
+|-damage|p1a: Glimmora|87/100
+|-start|p1a: Glimmora|Salt Cure
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: fgnhfgthr|move: Toxic Spikes
+|
+|-damage|p1a: Glimmora|75/100|[from] Salt Cure
+|upkeep
+|turn|10
+|
+|t:|1760849324
+|switch|p2a: Kraven|Great Tusk|89/100
+|-status|p2a: Kraven|psn
+|move|p1a: Glimmora|Earth Power|p2a: Kraven
+|-damage|p2a: Kraven|44/100 psn
+|-unboost|p2a: Kraven|spd|1
+|
+|-damage|p2a: Kraven|31/100 psn|[from] psn
+|-damage|p1a: Glimmora|63/100|[from] Salt Cure
+|upkeep
+|turn|11
+|
+|t:|1760849332
+|switch|p1a: Gliscor|Gliscor, F|87/100 tox
+|move|p2a: Kraven|Rapid Spin|p1a: Gliscor
+|-damage|p1a: Gliscor|72/100 tox
+|-boost|p2a: Kraven|spe|1
+|-sideend|p2: fgnhfgthr|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Kraven
+|
+|-damage|p2a: Kraven|19/100 psn|[from] psn
+|-heal|p1a: Gliscor|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1760849337
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Kraven|Ice Spinner|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-damage|p2a: Kraven|7/100 psn|[from] psn
+|-heal|p1a: Gliscor|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1760849346
+|switch|p1a: Incineroar|Incineroar, F|82/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Kraven|atk|1
+|move|p2a: Kraven|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|1/100
+|-unboost|p2a: Kraven|def|1
+|-unboost|p2a: Kraven|spd|1
+|
+|-heal|p1a: Incineroar|7/100|[from] item: Leftovers
+|-damage|p2a: Kraven|0 fnt|[from] psn
+|faint|p2a: Kraven
+|-end|p2a: Kraven|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1760849354
+|switch|p2a: Sandman|Garganacl, F|100/100
+|turn|14
+|
+|t:|1760849357
+|move|p1a: Incineroar|Fake Out|p2a: Sandman
+|-resisted|p2a: Sandman
+|-damage|p2a: Sandman|97/100
+|cant|p2a: Sandman|flinch
+|
+|-heal|p1a: Incineroar|13/100|[from] item: Leftovers
+|-heal|p2a: Sandman|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1760849360
+|switch|p1a: Glimmora|Glimmora, M|63/100
+|move|p2a: Sandman|Salt Cure|p1a: Glimmora
+|-damage|p1a: Glimmora|49/100
+|-start|p1a: Glimmora|Salt Cure
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: fgnhfgthr|move: Toxic Spikes
+|
+|-damage|p1a: Glimmora|37/100|[from] Salt Cure
+|upkeep
+|turn|16
+|
+|t:|1760849379
+|switch|p2a: Mysterio|Iron Leaves|100/100
+|-status|p2a: Mysterio|psn
+|move|p1a: Glimmora|Earth Power|p2a: Mysterio
+|-resisted|p2a: Mysterio
+|-damage|p2a: Mysterio|86/100 psn
+|-unboost|p2a: Mysterio|spd|1
+|
+|-damage|p2a: Mysterio|73/100 psn|[from] psn
+|-damage|p1a: Glimmora|24/100|[from] Salt Cure
+|upkeep
+|turn|17
+|
+|t:|1760849384
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Mysterio|Leaf Blade|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|86/100
+|-damage|p2a: Mysterio|63/100 psn|[from] item: Life Orb
+|
+|-damage|p2a: Mysterio|51/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1760849394
+|-end|p2a: Mysterio|Quark Drive|[silent]
+|switch|p2a: Electro|Vikavolt, F|100/100
+|move|p1a: Scizor|Bug Bite|p2a: Electro
+|-damage|p2a: Electro|50/100
+|
+|upkeep
+|turn|19
+|
+|t:|1760849403
+|move|p1a: Scizor|Bullet Punch|p2a: Electro
+|-resisted|p2a: Electro
+|-damage|p2a: Electro|33/100
+|move|p2a: Electro|Energy Ball|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|78/100
+|
+|upkeep
+|turn|20
+|
+|t:|1760849416
+|move|p1a: Scizor|Dual Wingbeat|p2a: Electro
+|-damage|p2a: Electro|7/100
+|-damage|p2a: Electro|0 fnt
+|faint|p2a: Electro
+|-hitcount|p2: Electro|2
+|
+|upkeep
+|
+|t:|1760849419
+|switch|p2a: Vulture|Cinderace, M|50/100
+|turn|21
+|inactive|wangischangis has 120 seconds left.
+|
+|t:|1760849470
+|switch|p1a: Gliscor|Gliscor, F|97/100 tox
+|move|p2a: Vulture|High Jump Kick|p1a: Gliscor
+|-start|p2a: Vulture|typechange|Fighting|[from] ability: Libero
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|71/100 tox
+|
+|-heal|p1a: Gliscor|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|inactive|wangischangis has 90 seconds left.
+|inactive|wangischangis has 60 seconds left.
+|
+|t:|1760849547
+|move|p2a: Vulture|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|76/100 tox
+|
+|t:|1760849551
+|switch|p2a: Mysterio|Iron Leaves|51/100 psn|[from] U-turn
+|move|p1a: Gliscor|Earthquake|p2a: Mysterio
+|-resisted|p2a: Mysterio
+|-damage|p2a: Mysterio|28/100 psn
+|
+|-damage|p2a: Mysterio|15/100 psn|[from] psn
+|-heal|p1a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|t:|1760849559
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Mysterio|Leaf Blade|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-damage|p2a: Mysterio|3/100 psn|[from] psn
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|t:|1760849580
+|switch|p1a: Scizor|Scizor, M|78/100
+|move|p2a: Mysterio|Leaf Blade|p1a: Scizor
+|-resisted|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|54/100
+|-damage|p2a: Mysterio|0 fnt|[from] item: Life Orb
+|faint|p2a: Mysterio
+|-end|p2a: Mysterio|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760849592
+|switch|p2a: Sandman|Garganacl, F|100/100
+|turn|25
+|
+|t:|1760849595
+|-terastallize|p2a: Sandman|Ghost
+|move|p1a: Scizor|Trailblaze|p2a: Sandman
+|-damage|p2a: Sandman|85/100
+|-boost|p1a: Scizor|spe|1
+|move|p2a: Sandman|Salt Cure|p1a: Scizor
+|-damage|p1a: Scizor|40/100
+|-start|p1a: Scizor|Salt Cure
+|
+|-heal|p2a: Sandman|92/100|[from] item: Leftovers
+|-damage|p1a: Scizor|15/100|[from] Salt Cure
+|upkeep
+|turn|26
+|inactive|wangischangis has 30 seconds left.
+|inactive|wangischangis has 20 seconds left.
+|inactive|wangischangis has 15 seconds left.
+|inactive|wangischangis has 10 seconds left.
+|l|☆wangischangis
+|inactive|wangischangis disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|wangischangis has 5 seconds left.
+|-message|wangischangis lost due to inactivity.
+|
+|win|fgnhfgthr
+|raw|wangischangis's rating: 1229 &rarr; <strong>1201</strong><br />(-28 for losing)
+|raw|fgnhfgthr's rating: 1189 &rarr; <strong>1217</strong><br />(+28 for winning)
+|l|☆fgnhfgthr
+|player|p2|

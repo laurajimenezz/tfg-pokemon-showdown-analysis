@@ -1,0 +1,215 @@
+|j|☆hungrymane
+|j|☆anamchara
+|t:|1757852588
+|gametype|singles
+|player|p1|hungrymane|101|1630
+|player|p2|anamchara|2|1640
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Regidrago|
+|poke|p1|Drifblim, M|
+|poke|p1|Azelf|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Kingambit, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|t:|1757852597
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|1
+|
+|t:|1757852629
+|switch|p1a: Drifblim|Drifblim, M|100/100
+|move|p2a: Meowscarada|U-turn|p1a: Drifblim
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Drifblim
+|-damage|p1a: Drifblim|92/100
+|-enditem|p1a: Drifblim|Red Card|[of] p2a: Meowscarada
+|drag|p2a: Slowking|Slowking-Galar, F|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1757852635
+|move|p1a: Drifblim|Acrobatics|p2a: Slowking
+|-damage|p2a: Slowking|61/100
+|move|p2a: Slowking|Ice Beam|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|21/100
+|-status|p1a: Drifblim|frz
+|
+|upkeep
+|turn|3
+|
+|t:|1757852639
+|cant|p1a: Drifblim|frz
+|move|p2a: Slowking|Fire Blast|p1a: Drifblim|[miss]
+|-miss|p2a: Slowking|p1a: Drifblim
+|
+|upkeep
+|turn|4
+|
+|t:|1757852642
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: Slowking|Fire Blast|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|74/100
+|-status|p1a: Samurott|brn
+|
+|-damage|p1a: Samurott|68/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1757852649
+|move|p1a: Samurott|Ceaseless Edge|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-sidestart|p2: anamchara|Spikes
+|faint|p2a: Slowking
+|
+|-damage|p1a: Samurott|62/100 brn|[from] brn
+|upkeep
+|
+|t:|1757852652
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Spikes
+|turn|6
+|
+|t:|1757852660
+|move|p2a: Ogerpon|Trailblaze|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-boost|p2a: Ogerpon|spe|1
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1757852665
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|turn|7
+|
+|t:|1757852697
+|move|p2a: Ogerpon|Horn Leech|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p1a: Mimikyu|Red Card|[of] p2a: Ogerpon
+|drag|p2a: Glimmora|Glimmora, F|100/100
+|-damage|p2a: Glimmora|88/100|[from] Spikes
+|move|p1a: Mimikyu|Will-O-Wisp|p2a: Glimmora
+|-status|p2a: Glimmora|brn
+|
+|-damage|p2a: Glimmora|82/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1757852715
+|switch|p1a: Regidrago|Regidrago|100/100
+|move|p2a: Glimmora|Stealth Rock|p1a: Regidrago
+|-sidestart|p1: hungrymane|move: Stealth Rock
+|
+|-damage|p2a: Glimmora|76/100 brn|[from] brn
+|upkeep
+|turn|9
+|j| wyjmjl
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hungrymane)
+|
+|t:|1757852750
+|move|p2a: Glimmora|Stealth Rock||[still]
+|-fail|p2a: Glimmora
+|move|p1a: Regidrago|Dragon Dance|p1a: Regidrago
+|-boost|p1a: Regidrago|atk|1
+|-boost|p1a: Regidrago|spe|1
+|
+|-damage|p2a: Glimmora|70/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1757852753
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|88/100|[from] Spikes
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Regidrago|Scale Shot|p2a: Iron Valiant
+|-immune|p2a: Iron Valiant
+|
+|upkeep
+|turn|11
+|
+|t:|1757852763
+|switch|p1a: Mimikyu|Mimikyu-Busted, M|88/100
+|-damage|p1a: Mimikyu|76/100|[from] Stealth Rock
+|move|p2a: Iron Valiant|Spirit Break|p1a: Mimikyu
+|-damage|p1a: Mimikyu|38/100
+|-unboost|p1a: Mimikyu|spa|1
+|
+|upkeep
+|turn|12
+|
+|t:|1757852780
+|move|p2a: Iron Valiant|Spirit Break|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|upkeep
+|j| wgw2333
+|
+|t:|1757852783
+|switch|p1a: Azelf|Azelf|100/100
+|-damage|p1a: Azelf|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1757852789
+|move|p2a: Iron Valiant|Knock Off|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|-enditem|p1a: Azelf|Choice Scarf|[from] move: Knock Off|[of] p2a: Iron Valiant
+|faint|p1a: Azelf
+|
+|upkeep
+|
+|t:|1757852791
+|switch|p1a: Regidrago|Regidrago|100/100
+|-damage|p1a: Regidrago|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1757852795
+|move|p2a: Iron Valiant|Spirit Break|p1a: Regidrago
+|-supereffective|p1a: Regidrago
+|-damage|p1a: Regidrago|0 fnt
+|faint|p1a: Regidrago
+|
+|upkeep
+|-message|hungrymane forfeited.
+|
+|win|anamchara
+|raw|hungrymane's rating: 1630 &rarr; <strong>1611</strong><br />(-19 for losing)
+|raw|anamchara's rating: 1640 &rarr; <strong>1659</strong><br />(+19 for winning)
+|l|☆hungrymane
+|player|p1|
+|l|☆anamchara
+|player|p2|
+|l| wgw2333
+|l| wyjmjl

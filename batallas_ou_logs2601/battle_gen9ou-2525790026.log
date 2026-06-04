@@ -1,0 +1,361 @@
+|j|☆getreyal
+|j|☆spunder_policy
+|t:|1769326827
+|gametype|singles
+|player|p1|getreyal|pokemonbreeder-gen4|1714
+|player|p2|spunder_policy|169|1795
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Raging Bolt|
+|poke|p1|Cinderace, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Whimsicott, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Great Tusk|
+|poke|p2|Walking Wake|
+|poke|p2|Cinderace, F|
+|poke|p2|Moltres|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by spunder_policy)
+|
+|t:|1769326835
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|turn|1
+|
+|t:|1769326838
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|89/100
+|
+|upkeep
+|turn|2
+|
+|t:|1769326843
+|move|p1a: Cinderace|U-turn|p2a: Walking Wake
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Walking Wake|56/100
+|-damage|p1a: Cinderace|84/100|[from] item: Rocky Helmet|[of] p2a: Walking Wake
+|
+|t:|1769326848
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|move|p2a: Walking Wake|Flip Turn|p1a: Hatterene
+|-damage|p1a: Hatterene|82/100
+|
+|t:|1769326859
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|100/100|[from] Flip Turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1769326861
+|move|p1a: Hatterene|Psychic Noise|p2a: Torkoal
+|-damage|p2a: Torkoal|54/100
+|-start|p2a: Torkoal|move: Heal Block
+|move|p2a: Torkoal|Lava Plume|p1a: Hatterene
+|-damage|p1a: Hatterene|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1769326865
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|73/100
+|-unboost|p2a: Cinderace|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1769326877
+|switch|p1a: Cinderace|Cinderace, F|84/100
+|move|p2a: Cinderace|Swords Dance|p2a: Cinderace
+|-boost|p2a: Cinderace|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1769326888
+|move|p1a: Cinderace|Pyro Ball|p2a: Cinderace|[miss]
+|-miss|p1a: Cinderace|p2a: Cinderace
+|move|p2a: Cinderace|Pyro Ball|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769326890
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|7
+|
+|t:|1769326894
+|-terastallize|p2a: Cinderace|Fire
+|move|p2a: Cinderace|Pyro Ball|p1a: Samurott
+|-resisted|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Cinderace
+|-damage|p2a: Cinderace|3/100
+|-sidestart|p2: spunder_policy|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1769326901
+|move|p1a: Samurott|Sucker Punch||[still]
+|-fail|p1a: Samurott
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1769326903
+|switch|p2a: Walking Wake|Walking Wake|56/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Samurott|Sucker Punch||[still]
+|-fail|p1a: Samurott
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|turn|10
+|
+|t:|1769326906
+|move|p1a: Samurott|Sucker Punch|p2a: Walking Wake
+|-damage|p2a: Walking Wake|22/100
+|-damage|p1a: Samurott|0 fnt|[from] item: Rocky Helmet|[of] p2a: Walking Wake
+|faint|p1a: Samurott
+|move|p2a: Walking Wake|Flip Turn|p1: Samurott|[notarget]
+|-fail|p2a: Walking Wake
+|
+|upkeep
+|
+|t:|1769326911
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|88/100|[from] Spikes
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|11
+|
+|t:|1769326915
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Zamazenta|Body Press|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|73/100
+|
+|-heal|p1a: Zamazenta|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1769326918
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Moltres|atk|1
+|move|p2a: Moltres|Flamethrower|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|3/100
+|
+|upkeep
+|turn|13
+|
+|t:|1769326922
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: spunder_policy|move: Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|t:|1769326926
+|move|p1a: Landorus|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|91/100
+|
+|t:|1769326928
+|switch|p1a: Zamazenta|Zamazenta|94/100|[from] U-turn
+|-damage|p1a: Zamazenta|82/100|[from] Spikes
+|move|p2a: Great Tusk|Rapid Spin|p1a: Zamazenta
+|-damage|p1a: Zamazenta|71/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: spunder_policy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p1a: Zamazenta|77/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1769326931
+|move|p2a: Great Tusk|Knock Off|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|66/100
+|-enditem|p1a: Zamazenta|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|upkeep
+|turn|16
+|
+|t:|1769326933
+|move|p2a: Great Tusk|Headlong Rush|p1a: Zamazenta
+|-damage|p1a: Zamazenta|48/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|upkeep
+|turn|17
+|
+|t:|1769326938
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|22/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|upkeep
+|turn|18
+|j| AmberArm
+|
+|t:|1769326946
+|-terastallize|p1a: Zamazenta|Fire
+|move|p1a: Zamazenta|Body Press|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|-damage|p1a: Zamazenta|31/100|[from] item: Rocky Helmet|[of] p2a: Walking Wake
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769326953
+|switch|p2a: Torkoal|Torkoal, F|54/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|19
+|
+|t:|1769326957
+|switch|p2a: Cinderace|Cinderace, F, tera:Fire|3/100
+|move|p1a: Zamazenta|Body Press|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769326963
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|turn|20
+|
+|t:|1769326989
+|move|p2a: Whimsicott|Solar Beam||[still]
+|-prepare|p2a: Whimsicott|Solar Beam
+|-anim|p2a: Whimsicott|Solar Beam|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|3/100
+|move|p1a: Zamazenta|Body Press|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|3/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1769326994
+|move|p2a: Whimsicott|Solar Beam||[still]
+|-prepare|p2a: Whimsicott|Solar Beam
+|-anim|p2a: Whimsicott|Solar Beam|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769326999
+|switch|p1a: Hatterene|Hatterene, F|57/100
+|-damage|p1a: Hatterene|45/100|[from] Spikes
+|turn|22
+|
+|t:|1769327001
+|move|p2a: Whimsicott|Solar Beam||[still]
+|-prepare|p2a: Whimsicott|Solar Beam
+|-anim|p2a: Whimsicott|Solar Beam|p1a: Hatterene
+|-damage|p1a: Hatterene|1/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|-heal|p1a: Hatterene|3/100|[from] drain|[of] p2a: Whimsicott
+|faint|p2a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769327004
+|switch|p2a: Moltres|Moltres|73/100
+|turn|23
+|
+|t:|1769327008
+|move|p2a: Moltres|Flamethrower|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769327009
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-damage|p1a: Raging Bolt|88/100|[from] Spikes
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|24
+|
+|t:|1769327011
+|move|p2a: Moltres|Scorching Sands|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|42/100
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Moltres|[miss]
+|-miss|p1a: Raging Bolt|p2a: Moltres
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|-message|getreyal forfeited.
+|
+|win|spunder_policy
+|raw|getreyal's rating: 1727 &rarr; <strong>1711</strong><br />(-16 for losing)
+|raw|spunder_policy's rating: 1795 &rarr; <strong>1811</strong><br />(+16 for winning)
+|l|☆getreyal
+|player|p1|
+|j|☆getreyal
+|player|p1|getreyal|pokemonbreeder-gen4|
+|l|☆getreyal
+|player|p1|
+|l| AmberArm

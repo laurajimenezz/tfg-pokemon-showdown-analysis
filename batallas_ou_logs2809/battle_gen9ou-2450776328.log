@@ -1,0 +1,164 @@
+|badge|p2|silver|gen9ou|30-6
+|html|<div class="broadcast-red"><strong>This battle is required to be public due to one or more player having a season medal.</strong><br />During the public phase, you can discuss the state of the ladder <a href="/seasondiscussion">in a special chatroom.</a></div>
+|uhtml|medal-msg|<div class="broadcast-blue">Curious what those medals under the avatar are? PS now has Ladder Seasons! For more information, check out the <a href="https://www.smogon.com/forums/threads/3740067/">thread on Smogon.</a></div>
+|j|☆knock the pex
+|j|‽JackRG1
+|t:|1759025401
+|gametype|singles
+|player|p1|knock the pex|swimmer|1718
+|player|p2|JackRG1|dawn-gen4pt|1909
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Dondozo, F|
+|poke|p1|Iron Treads|
+|poke|p1|Kyurem|
+|poke|p1|Comfey, F|
+|poke|p1|Polteageist|
+|poke|p2|Tyranitar, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Hydrapple, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Corviknight, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JackRG1)
+|
+|t:|1759025415
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1759025438
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Iron Treads|Earth Power|p2a: Tornadus
+|-immune|p2a: Tornadus
+|
+|upkeep
+|turn|2
+|
+|t:|1759025444
+|move|p1a: Iron Treads|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: JackRG1|move: Stealth Rock
+|move|p2a: Tornadus|Heat Wave|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1759025449
+|switch|p1a: Comfey|Comfey, F|100/100
+|turn|3
+|
+|t:|1759025457
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1759025470
+|switch|p1a: Polteageist|Polteageist|100/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Polteageist
+|-immune|p1a: Polteageist
+|
+|upkeep
+|turn|5
+|
+|t:|1759025476
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|-enditem|p1a: Polteageist|White Herb
+|-clearnegativeboost|p1a: Polteageist|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Polteageist|94/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1759025486
+|-terastallize|p1a: Polteageist|Fighting
+|move|p1a: Polteageist|Tera Blast|p2a: Tyranitar|[anim] Tera Blast Fighting
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Polteageist|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1759025489
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1759025496
+|-terastallize|p2a: Excadrill|Ground
+|move|p2a: Excadrill|Earthquake|p1a: Polteageist
+|-damage|p1a: Polteageist|8/100
+|move|p1a: Polteageist|Strength Sap|p2a: Excadrill
+|-unboost|p2a: Excadrill|atk|1
+|-heal|p1a: Polteageist|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Polteageist|94/100|[from] Sandstorm
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1759025503
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p2a: Tornadus|76/100|[from] Stealth Rock
+|move|p1a: Polteageist|Strength Sap|p2a: Tornadus
+|-unboost|p2a: Tornadus|atk|1
+|-heal|p1a: Polteageist|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Polteageist|94/100|[from] Sandstorm
+|-damage|p2a: Tornadus|70/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1759025508
+|move|p1a: Polteageist|Shadow Ball|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|none
+|upkeep
+|-message|JackRG1 forfeited.
+|
+|win|knock the pex
+|raw|knock the pex's rating: 1718 &rarr; <strong>1748</strong><br />(+30 for winning)
+|raw|JackRG1's rating: 1909 &rarr; <strong>1879</strong><br />(-30 for losing)
+|l|‽JackRG1
+|player|p2|

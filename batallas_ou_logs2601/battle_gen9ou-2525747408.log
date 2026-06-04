@@ -1,0 +1,338 @@
+|j|☆caosheA
+|j|☆Metal belico
+|t:|1769319143
+|gametype|singles
+|player|p1|caosheA|n|1321
+|player|p2|Metal belico|volkner|1290
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Iron Treads|
+|poke|p1|Dragapult, F|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Raging Bolt|
+|poke|p2|Jolteon, F|
+|poke|p2|Ninetales, M|
+|poke|p2|Haxorus, F|
+|poke|p2|Cobalion|
+|poke|p2|Cinderace, F|
+|poke|p2|Azumarill, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by caosheA)
+|
+|t:|1769319151
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: 泥头车|Iron Treads|100/100
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|1
+|
+|t:|1769319165
+|-end|p1a: 泥头车|Quark Drive|[silent]
+|switch|p1a: 梦之泪伤|Raging Bolt|100/100
+|-enditem|p1a: 梦之泪伤|Booster Energy
+|-activate|p1a: 梦之泪伤|ability: Protosynthesis|[fromitem]
+|-start|p1a: 梦之泪伤|protosynthesisspa
+|move|p2a: Azumarill|Belly Drum|p2a: Azumarill
+|-damage|p2a: Azumarill|50/100
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|75/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|2
+|
+|t:|1769319176
+|-terastallize|p2a: Azumarill|Ground
+|move|p1a: 梦之泪伤|Thunderclap|p2a: Azumarill
+|-immune|p2a: Azumarill
+|move|p2a: Azumarill|Ice Punch|p1a: 梦之泪伤
+|-supereffective|p1a: 梦之泪伤
+|-damage|p1a: 梦之泪伤|0 fnt
+|faint|p1a: 梦之泪伤
+|-end|p1a: 梦之泪伤|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769319185
+|switch|p1a: 赛马娘|Keldeo-Resolute|100/100
+|turn|3
+|
+|t:|1769319189
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: 赛马娘|Surf|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1769319199
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|move|p1a: 赛马娘|Surf|p2a: Jolteon
+|-damage|p2a: Jolteon|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Jolteon|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1769319208
+|switch|p1a: 泥头车|Iron Treads|100/100
+|move|p2a: Jolteon|Thunderbolt|p1a: 泥头车
+|-immune|p1a: 泥头车
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Jolteon|49/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1769319213
+|move|p2a: Jolteon|Weather Ball|p1a: 泥头车
+|-supereffective|p1a: 泥头车
+|-damage|p1a: 泥头车|22/100
+|move|p1a: 泥头车|Stealth Rock|p2a: Jolteon
+|-sidestart|p2: Metal belico|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: 泥头车|28/100|[from] item: Leftovers
+|-damage|p2a: Jolteon|43/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1769319219
+|-end|p1a: 泥头车|Quark Drive|[silent]
+|switch|p1a: 盖鸥卡|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: 盖鸥卡
+|move|p2a: Jolteon|Weather Ball|p1a: 盖鸥卡
+|-resisted|p1a: 盖鸥卡
+|-damage|p1a: 盖鸥卡|68/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Jolteon|37/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1769319235
+|-terastallize|p1a: 盖鸥卡|Ground
+|move|p2a: Jolteon|Thunderbolt|p1a: 盖鸥卡
+|-immune|p1a: 盖鸥卡
+|move|p1a: 盖鸥卡|U-turn|p2a: Jolteon
+|-damage|p2a: Jolteon|19/100 brn
+|
+|t:|1769319247
+|switch|p1a: 赛马娘|Keldeo-Resolute|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Jolteon|13/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1769319250
+|move|p1a: 赛马娘|Vacuum Wave|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769319256
+|switch|p2a: Azumarill|Azumarill, M, tera:Ground|75/100
+|-damage|p2a: Azumarill|69/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1769319262
+|switch|p2a: Ninetales|Ninetales, M|25/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: 赛马娘|Vacuum Wave|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769319266
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|11
+|
+|t:|1769319273
+|switch|p1a: 盖鸥卡|Pelipper, F, tera:Ground|68/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: 盖鸥卡
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1769319280
+|switch|p2a: Azumarill|Azumarill, M, tera:Ground|69/100
+|move|p1a: 盖鸥卡|U-turn|p2a: Azumarill
+|-damage|p2a: Azumarill|60/100
+|
+|t:|1769319287
+|switch|p1a: 赛马娘|Keldeo-Resolute|100/100|[from] U-turn
+|-damage|p1a: 赛马娘|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1769319290
+|move|p1a: 赛马娘|Surf|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769319295
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|14
+|
+|t:|1769319303
+|move|p1a: 赛马娘|Surf|p2a: Haxorus
+|-resisted|p2a: Haxorus
+|-damage|p2a: Haxorus|19/100
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1769319307
+|move|p2a: Haxorus|Outrage|p1a: 赛马娘
+|-damage|p1a: 赛马娘|0 fnt
+|faint|p1a: 赛马娘
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769319315
+|switch|p1a: 紫尾|Tornadus-Therian, M|100/100
+|-damage|p1a: 紫尾|76/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1769319323
+|move|p1a: 紫尾|Weather Ball|p2a: Haxorus
+|-resisted|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769319331
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|17
+|
+|t:|1769319333
+|move|p2a: Cinderace|Sucker Punch|p1a: 紫尾
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p1a: 紫尾|31/100
+|move|p1a: 紫尾|Weather Ball|p2a: Cinderace
+|-damage|p2a: Cinderace|34/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1769319346
+|switch|p1a: 泥头车|Iron Treads|28/100
+|-damage|p1a: 泥头车|25/100|[from] Stealth Rock
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|
+|-weather|none
+|-heal|p1a: 泥头车|31/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1769319354
+|move|p2a: Cinderace|Pyro Ball|p1a: 泥头车
+|-supereffective|p1a: 泥头车
+|-damage|p1a: 泥头车|0 fnt
+|faint|p1a: 泥头车
+|-end|p1a: 泥头车|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1769319368
+|switch|p1a: 盖鸥卡|Pelipper, F, tera:Ground|68/100
+|-damage|p1a: 盖鸥卡|61/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: 盖鸥卡
+|turn|20
+|
+|t:|1769319375
+|move|p2a: Cinderace|Sucker Punch|p1a: 盖鸥卡
+|-damage|p1a: 盖鸥卡|34/100
+|move|p1a: 盖鸥卡|Surf|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769319377
+|switch|p2a: Cobalion|Cobalion|100/100
+|turn|21
+|
+|t:|1769319389
+|move|p2a: Cobalion|Body Press|p1a: 盖鸥卡
+|-damage|p1a: 盖鸥卡|9/100
+|move|p1a: 盖鸥卡|Surf|p2a: Cobalion
+|-damage|p2a: Cobalion|47/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Cobalion|53/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1769319396
+|move|p2a: Cobalion|Body Press|p1a: 盖鸥卡
+|-damage|p1a: 盖鸥卡|0 fnt
+|faint|p1a: 盖鸥卡
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Cobalion|59/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769319401
+|switch|p1a: 紫尾|Tornadus-Therian, M|64/100
+|-damage|p1a: 紫尾|39/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1769319404
+|move|p1a: 紫尾|Focus Blast|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|0 fnt
+|faint|p2a: Cobalion
+|
+|win|caosheA
+|raw|caosheA's rating: 1321 &rarr; <strong>1339</strong><br />(+18 for winning)
+|raw|Metal belico's rating: 1290 &rarr; <strong>1267</strong><br />(-23 for losing)
+|l|☆Metal belico
+|player|p2|
+|l|☆caosheA
+|player|p1|

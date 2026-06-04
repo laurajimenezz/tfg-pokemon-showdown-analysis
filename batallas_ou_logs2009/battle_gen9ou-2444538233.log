@@ -1,0 +1,291 @@
+|j|☆TheTired
+|j|☆River Rocket
+|t:|1758232869
+|gametype|singles
+|player|p1|TheTired|clerk|1548
+|player|p2|River Rocket|pokemaniac|1566
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Iron Hands|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Mimikyu, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Comfey, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Blaziken, M|
+|teampreview
+|
+|t:|1758232879
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Indeedee|Indeedee, M, shiny|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1758232886
+|move|p2a: Ogerpon|Taunt|p1a: Indeedee
+|-start|p1a: Indeedee|move: Taunt
+|cant|p1a: Indeedee|move: Taunt|Trick Room
+|
+|upkeep
+|turn|2
+|
+|t:|1758232896
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Iron Hands|[anim] Ivy Cudgel Water
+|-damage|p1a: Iron Hands|58/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758232905
+|move|p2a: Ogerpon|U-turn|p1a: Iron Hands
+|-resisted|p1a: Iron Hands
+|-damage|p1a: Iron Hands|49/100
+|
+|t:|1758232907
+|switch|p2a: Glimmora|Glimmora, M, shiny|100/100|[from] U-turn
+|move|p1a: Iron Hands|Supercell Slam|p2a: Glimmora
+|-damage|p2a: Glimmora|44/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: TheTired|move: Toxic Spikes
+|-enditem|p2a: Glimmora|Red Card|[of] p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|drag|p1a: Indeedee|Indeedee, M, shiny|100/100
+|-status|p1a: Indeedee|psn
+|
+|-damage|p1a: Indeedee|88/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1758232916
+|move|p2a: Glimmora|Stealth Rock|p1a: Indeedee
+|-sidestart|p1: TheTired|move: Stealth Rock
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-damage|p1a: Indeedee|76/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1758232924
+|move|p2a: Glimmora|Power Gem|p1a: Indeedee
+|-damage|p1a: Indeedee|38/100 psn
+|move|p1a: Indeedee|Expanding Force|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|-damage|p1a: Indeedee|26/100 psn|[from] psn
+|upkeep
+|
+|t:|1758232931
+|switch|p2a: Blaziken|Blaziken, M, shiny|100/100
+|turn|6
+|
+|t:|1758232934
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Indeedee|Expanding Force|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-damage|p1a: Indeedee|14/100 psn|[from] psn
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|7
+|
+|t:|1758232941
+|switch|p2a: Kingambit|Kingambit, M, shiny|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Indeedee|Expanding Force|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|-damage|p1a: Indeedee|1/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1758232947
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Indeedee|Healing Wish|p1a: Indeedee
+|faint|p1a: Indeedee
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1758232949
+|switch|p1a: Iron Hands|Iron Hands|49/100
+|-heal|p1a: Iron Hands|100/100|[from] move: Healing Wish
+|-status|p1a: Iron Hands|psn
+|-damage|p1a: Iron Hands|94/100 psn|[from] Stealth Rock
+|turn|9
+|
+|t:|1758232957
+|-terastallize|p2a: Kingambit|Ghost
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Iron Hands|Supercell Slam|p2a: Kingambit
+|-damage|p2a: Kingambit|58/100
+|
+|-heal|p2a: Kingambit|64/100|[from] item: Leftovers
+|-damage|p1a: Iron Hands|82/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1758232968
+|move|p1a: Iron Hands|Supercell Slam|p2a: Kingambit
+|-damage|p2a: Kingambit|23/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Iron Hands
+|-resisted|p1a: Iron Hands
+|-damage|p1a: Iron Hands|25/100 psn
+|
+|-heal|p2a: Kingambit|29/100|[from] item: Leftovers
+|-damage|p1a: Iron Hands|13/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1758232974
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Hands
+|-resisted|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|-heal|p2a: Kingambit|35/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758232977
+|switch|p1a: Mimikyu|Mimikyu, F, shiny|100/100
+|-status|p1a: Mimikyu|psn
+|-damage|p1a: Mimikyu|88/100 psn|[from] Stealth Rock
+|turn|12
+|
+|t:|1758232981
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|88/100 psn
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F, shiny
+|-damage|p1a: Mimikyu|76/100 psn|[from] pokemon: Mimikyu-Busted
+|-enditem|p1a: Mimikyu|Red Card|[of] p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|drag|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|-damage|p1a: Mimikyu|63/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1758232994
+|move|p1a: Mimikyu|Curse|p2a: Ogerpon
+|-start|p2a: Ogerpon|Curse|[of] p1a: Mimikyu
+|-damage|p1a: Mimikyu|13/100 psn
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Mimikyu|[anim] Ivy Cudgel Water
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-damage|p2a: Ogerpon|76/100|[from] Curse
+|upkeep
+|
+|t:|1758233018
+|switch|p1a: Ursaluna|Ursaluna, F, shiny|100/100
+|-status|p1a: Ursaluna|psn
+|-damage|p1a: Ursaluna|94/100 psn|[from] Stealth Rock
+|turn|14
+|
+|t:|1758233026
+|switch|p2a: Kingambit|Kingambit, M, shiny, tera:Ghost|35/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Ursaluna|Facade|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|41/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|82/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1758233031
+|move|p2a: Kingambit|Sucker Punch|p1a: Ursaluna
+|-damage|p1a: Ursaluna|50/100 psn
+|move|p1a: Ursaluna|Supercell Slam|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|-damage|p1a: Ursaluna|38/100 psn|[from] psn
+|upkeep
+|
+|t:|1758233038
+|switch|p2a: Blaziken|Blaziken, M, shiny|100/100
+|turn|16
+|
+|t:|1758233042
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|-status|p1a: Hatterene|psn
+|-damage|p1a: Hatterene|88/100 psn|[from] Stealth Rock
+|move|p2a: Blaziken|Protect||[still]
+|-fail|p2a: Blaziken
+|
+|-damage|p1a: Hatterene|76/100 psn|[from] psn
+|-fieldend|move: Trick Room
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|17
+|
+|t:|1758233047
+|move|p2a: Blaziken|Flare Blitz|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|-damage|p2a: Blaziken|74/100|[from] Recoil
+|-damage|p2a: Blaziken|64/100|[from] item: Life Orb
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1758233050
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|-status|p1a: Hoopa|psn
+|-damage|p1a: Hoopa|88/100 psn|[from] Stealth Rock
+|turn|18
+|
+|t:|1758233054
+|move|p2a: Blaziken|Flare Blitz|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|-damage|p2a: Blaziken|29/100|[from] Recoil
+|-damage|p2a: Blaziken|19/100|[from] item: Life Orb
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|-message|TheTired forfeited.
+|
+|win|River Rocket
+|raw|TheTired's rating: 1548 &rarr; <strong>1529</strong><br />(-19 for losing)
+|raw|River Rocket's rating: 1566 &rarr; <strong>1585</strong><br />(+19 for winning)

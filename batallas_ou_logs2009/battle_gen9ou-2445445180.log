@@ -1,0 +1,372 @@
+|j|☆basic_name
+|j|☆mailman2
+|t:|1758346990
+|gametype|singles
+|player|p1|basic_name|collector|1401
+|player|p2|mailman2|170|1410
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Maushold|
+|poke|p1|Gastrodon, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Ting-Lu|
+|poke|p1|Serperior, M|
+|poke|p1|Weavile, F|
+|poke|p2|Kyurem|
+|poke|p2|Great Tusk|
+|poke|p2|Ceruledge, M|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Manaphy|
+|teampreview
+|
+|t:|1758347010
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Maushold|Maushold|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1758347014
+|move|p1a: Maushold|Population Bomb|p2a: Ninetales
+|-damage|p2a: Ninetales|91/100
+|-damage|p2a: Ninetales|82/100
+|-damage|p2a: Ninetales|72/100
+|-damage|p2a: Ninetales|63/100
+|-damage|p2a: Ninetales|54/100
+|-damage|p2a: Ninetales|44/100
+|-damage|p2a: Ninetales|36/100
+|-damage|p2a: Ninetales|26/100
+|-damage|p2a: Ninetales|17/100
+|-damage|p2a: Ninetales|8/100
+|-hitcount|p2a: Ninetales|10
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: mailman2|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758347026
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758347033
+|move|p1a: Maushold|Bite|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|54/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758347086
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|62/100
+|-heal|p2a: Ceruledge|83/100|[from] drain|[of] p1a: Gastrodon
+|-damage|p2a: Ceruledge|66/100|[from] item: Rocky Helmet|[of] p1a: Gastrodon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758347096
+|move|p2a: Ceruledge|Poltergeist|p1a: Gastrodon
+|-activate|p1a: Gastrodon|move: Poltergeist|Rocky Helmet
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|-weather|none
+|upkeep
+|
+|t:|1758347105
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|6
+|
+|t:|1758347110
+|move|p2a: Ceruledge|Bitter Blade|p1a: Zamazenta
+|-damage|p1a: Zamazenta|42/100
+|-heal|p2a: Ceruledge|99/100|[from] drain|[of] p1a: Zamazenta
+|move|p1a: Zamazenta|Stone Edge|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-crit|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1758347123
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|7
+|
+|t:|1758347129
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Dragapult|Shadow Ball|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|91/100
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Ting-Lu|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758347140
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Ting-Lu
+|-status|p1a: Ting-Lu|brn
+|move|p1a: Ting-Lu|Ruination|p2a: Dragapult
+|-damage|p2a: Dragapult|46/100
+|
+|-heal|p1a: Ting-Lu|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|94/100 brn|[from] brn
+|-sideend|p2: mailman2|move: Aurora Veil
+|upkeep
+|turn|9
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by basic_name)
+|
+|t:|1758347151
+|switch|p2a: Ninetales|Ninetales-Alola, M|8/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Ting-Lu|Earthquake|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ting-Lu|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1758347179
+|switch|p2a: Dragapult|Dragapult, M|46/100
+|turn|10
+|
+|t:|1758347183
+|move|p2a: Dragapult|Dragon Darts|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|81/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|66/100 brn
+|-damage|p2a: Dragapult|36/100|[from] item: Life Orb
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: mailman2|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ting-Lu|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|66/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1758347200
+|move|p2a: Dragapult|Dragon Darts|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|51/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|36/100 brn
+|-damage|p2a: Dragapult|26/100|[from] item: Life Orb
+|move|p1a: Ting-Lu|Spikes|p2a: Dragapult
+|-sidestart|p2: mailman2|Spikes
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ting-Lu|43/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|36/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1758347219
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-damage|p2a: Great Tusk|85/100|[from] Spikes
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|switch|p1a: Zamazenta|Zamazenta|42/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1758347231
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Zamazenta|Close Combat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|61/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1758347240
+|move|p2a: Great Tusk|Rapid Spin|p1a: Zamazenta
+|-damage|p1a: Zamazenta|11/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: mailman2|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: mailman2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Zamazenta|Roar|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|drag|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|
+|upkeep
+|turn|15
+|
+|t:|1758347256
+|switch|p2a: Dragapult|Dragapult, M|26/100
+|move|p1a: Zamazenta|Stone Edge|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1758347261
+|switch|p2a: Great Tusk|Great Tusk|61/100
+|turn|16
+|
+|t:|1758347265
+|move|p1a: Zamazenta|Close Combat|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|9/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Great Tusk|Rapid Spin|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1758347268
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|17
+|
+|t:|1758347273
+|move|p1a: Weavile|Ice Shard|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758347282
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|18
+|
+|t:|1758347293
+|-terastallize|p2a: Kyurem|Fire
+|move|p1a: Weavile|Low Kick|p2a: Kyurem
+|-damage|p2a: Kyurem|64/100
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|
+|upkeep
+|turn|19
+|
+|t:|1758347309
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|39/100
+|move|p1a: Weavile|Knock Off|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|
+|upkeep
+|turn|20
+|
+|t:|1758347316
+|move|p2a: Kyurem|Tera Blast|p1a: Weavile|[anim] Tera Blast Fire
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1758347334
+|switch|p1a: Serperior|Serperior, M|100/100
+|turn|21
+|
+|t:|1758347340
+|-terastallize|p1a: Serperior|Steel
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|14/100
+|move|p1a: Serperior|Glare||[still]
+|-fail|p1a: Serperior
+|
+|upkeep
+|turn|22
+|
+|t:|1758347347
+|move|p2a: Kyurem|Tera Blast|p1a: Serperior|[anim] Tera Blast Fire
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1758347351
+|switch|p1a: Ting-Lu|Ting-Lu|36/100 brn
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|23
+|
+|t:|1758347357
+|move|p2a: Kyurem|Icicle Spear|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|13/100 brn
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|-hitcount|p1: Ting-Lu|2
+|
+|upkeep
+|
+|t:|1758347360
+|switch|p1a: Maushold|Maushold|100/100
+|turn|24
+|
+|t:|1758347365
+|move|p2a: Kyurem|Icicle Spear|p1a: Maushold
+|-damage|p1a: Maushold|69/100
+|-damage|p1a: Maushold|40/100
+|-damage|p1a: Maushold|9/100
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|-hitcount|p1: Maushold|4
+|
+|win|mailman2
+|raw|basic_name's rating: 1401 &rarr; <strong>1382</strong><br />(-19 for losing)
+|raw|mailman2's rating: 1410 &rarr; <strong>1429</strong><br />(+19 for winning)
+|l|☆basic_name
+|player|p1|
+|l|☆mailman2
+|player|p2|

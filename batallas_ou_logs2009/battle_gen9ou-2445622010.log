@@ -1,0 +1,440 @@
+|j|☆CaptainFreeze1
+|j|☆jlce
+|t:|1758377975
+|gametype|singles
+|player|p1|CaptainFreeze1|scientist|1395
+|player|p2|jlce|169|1386
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Crown|
+|poke|p1|Meowscarada, M|
+|poke|p1|Great Tusk|
+|poke|p1|Pecharunt|
+|poke|p1|Ting-Lu|
+|poke|p1|Iron Valiant|
+|poke|p2|Dragapult, F|
+|poke|p2|Weavile, M|
+|poke|p2|Tentacruel, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Sinistcha|
+|poke|p2|Arcanine-Hisui, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CaptainFreeze1)
+|
+|t:|1758377987
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Weavile|Weavile, M|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1758377993
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|79/100
+|-unboost|p2a: Tentacruel|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1758377998
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Tentacruel|Sludge Wave|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|97/100
+|
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1758378001
+|move|p2a: Tentacruel|Flip Turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|85/100
+|
+|t:|1758378006
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100|[from] Flip Turn
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Samurott
+|-sidestart|p2: jlce|move: Stealth Rock
+|
+|-heal|p1a: Ting-Lu|92/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1758378013
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|move|p2a: Samurott|Razor Shell|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|61/100
+|-unboost|p1a: Meowscarada|def|1
+|
+|upkeep
+|turn|5
+|
+|t:|1758378018
+|move|p1a: Meowscarada|U-turn|p2a: Samurott
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-supereffective|p2a: Samurott
+|-crit|p2a: Samurott
+|-enditem|p2a: Samurott|Focus Sash
+|-damage|p2a: Samurott|1/100
+|
+|t:|1758378026
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|move|p2a: Samurott|Ceaseless Edge|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|87/100
+|-sidestart|p1: CaptainFreeze1|Spikes
+|
+|-heal|p1a: Great Tusk|93/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1758378031
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|-damage|p2a: Sinistcha|88/100|[from] Stealth Rock
+|move|p1a: Great Tusk|Rapid Spin|p2a: Sinistcha
+|-immune|p2a: Sinistcha
+|
+|-heal|p1a: Great Tusk|99/100|[from] item: Leftovers
+|-heal|p2a: Sinistcha|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758378036
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Sinistcha|Stun Spore|p1a: Pecharunt|[miss]
+|-miss|p2a: Sinistcha|p1a: Pecharunt
+|
+|-heal|p2a: Sinistcha|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758378040
+|move|p1a: Pecharunt|Malignant Chain|p2a: Sinistcha
+|-damage|p2a: Sinistcha|63/100
+|move|p2a: Sinistcha|Stun Spore|p1a: Pecharunt|[miss]
+|-miss|p2a: Sinistcha|p1a: Pecharunt
+|
+|-heal|p2a: Sinistcha|69/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758378049
+|switch|p2a: Samurott|Samurott-Hisui, F|1/100
+|-damage|p2a: Samurott|0 fnt|[from] Stealth Rock
+|faint|p2a: Samurott
+|move|p1a: Pecharunt|Malignant Chain|p2: Samurott|[notarget]
+|-fail|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1758378051
+|switch|p2a: Weavile|Weavile, M|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1758378063
+|switch|p1a: Ting-Lu|Ting-Lu|92/100
+|-damage|p1a: Ting-Lu|79/100|[from] Spikes
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Weavile|Knock Off|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|61/100
+|-enditem|p1a: Ting-Lu|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|t:|1758378069
+|switch|p2a: Sinistcha|Sinistcha|69/100
+|-damage|p2a: Sinistcha|56/100|[from] Stealth Rock
+|move|p1a: Ting-Lu|Earthquake|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|44/100
+|
+|-heal|p2a: Sinistcha|50/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758378075
+|move|p2a: Sinistcha|Strength Sap|p1a: Ting-Lu
+|-unboost|p1a: Ting-Lu|atk|1
+|-heal|p2a: Sinistcha|100/100
+|move|p1a: Ting-Lu|Ruination|p2a: Sinistcha
+|-damage|p2a: Sinistcha|50/100
+|
+|-heal|p2a: Sinistcha|57/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1758378081
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|36/100
+|-heal|p2a: Sinistcha|75/100|[from] drain|[of] p1a: Ting-Lu
+|-status|p1a: Ting-Lu|brn
+|move|p1a: Ting-Lu|Ruination|p2a: Sinistcha
+|-damage|p2a: Sinistcha|38/100
+|
+|-heal|p2a: Sinistcha|44/100|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|30/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1758378087
+|move|p2a: Sinistcha|Strength Sap|p1a: Ting-Lu
+|-unboost|p1a: Ting-Lu|atk|1
+|-heal|p2a: Sinistcha|93/100
+|move|p1a: Ting-Lu|Ruination|p2a: Sinistcha
+|-damage|p2a: Sinistcha|47/100
+|
+|-heal|p2a: Sinistcha|53/100|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|23/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1758378091
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-heal|p2a: Sinistcha|70/100|[from] drain|[of] p1a: Ting-Lu
+|faint|p1a: Ting-Lu
+|
+|-heal|p2a: Sinistcha|76/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758378096
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|turn|16
+|
+|t:|1758378103
+|switch|p2a: Tentacruel|Tentacruel, M|79/100
+|move|p1a: Pecharunt|Parting Shot|p2a: Tentacruel
+|-unboost|p2a: Tentacruel|atk|1
+|-unboost|p2a: Tentacruel|spa|1
+|
+|t:|1758378121
+|switch|p1a: Iron Crown|Iron Crown|100/100|[from] Parting Shot
+|-damage|p1a: Iron Crown|88/100|[from] Spikes
+|
+|upkeep
+|turn|17
+|
+|t:|1758378125
+|switch|p2a: Weavile|Weavile, M|66/100
+|-damage|p2a: Weavile|41/100|[from] Stealth Rock
+|move|p1a: Iron Crown|Psychic Noise|p2a: Weavile
+|-immune|p2a: Weavile
+|
+|upkeep
+|turn|18
+|
+|t:|1758378138
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|88/100|[from] Spikes
+|move|p2a: Weavile|Knock Off|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|76/100
+|-damage|p2a: Weavile|31/100|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+|
+|t:|1758378146
+|move|p2a: Weavile|Triple Axel|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|58/100
+|-damage|p1a: Iron Valiant|24/100
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-hitcount|p1: Iron Valiant|3
+|-damage|p2a: Weavile|21/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758378159
+|switch|p1a: Great Tusk|Great Tusk|99/100
+|-damage|p1a: Great Tusk|87/100|[from] Spikes
+|turn|20
+|
+|t:|1758378164
+|switch|p2a: Sinistcha|Sinistcha|76/100
+|-damage|p2a: Sinistcha|64/100|[from] Stealth Rock
+|-terastallize|p1a: Great Tusk|Fire
+|move|p1a: Great Tusk|Rapid Spin|p2a: Sinistcha
+|-immune|p2a: Sinistcha
+|
+|-heal|p1a: Great Tusk|93/100|[from] item: Leftovers
+|-heal|p2a: Sinistcha|70/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1758378169
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Sinistcha|Strength Sap|p1a: Pecharunt
+|-unboost|p1a: Pecharunt|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|upkeep
+|turn|22
+|
+|t:|1758378171
+|move|p1a: Pecharunt|Malignant Chain|p2a: Sinistcha
+|-damage|p2a: Sinistcha|61/100
+|move|p2a: Sinistcha|Stun Spore|p1a: Pecharunt
+|-status|p1a: Pecharunt|par
+|
+|-heal|p2a: Sinistcha|67/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1758378176
+|move|p2a: Sinistcha|Hex|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|-heal|p2a: Sinistcha|73/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758378180
+|switch|p1a: Iron Crown|Iron Crown|88/100
+|-damage|p1a: Iron Crown|76/100|[from] Spikes
+|turn|24
+|
+|t:|1758378188
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Sinistcha
+|-damage|p2a: Sinistcha|31/100
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|-hitcount|p2: Sinistcha|2
+|
+|upkeep
+|
+|t:|1758378193
+|switch|p2a: Tentacruel|Tentacruel, M|79/100
+|turn|25
+|
+|t:|1758378198
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Meowscarada|Meowscarada, M|61/100
+|-damage|p1a: Meowscarada|49/100|[from] Spikes
+|move|p2a: Tentacruel|Rapid Spin|p1a: Meowscarada
+|-damage|p1a: Meowscarada|37/100
+|-boost|p2a: Tentacruel|spe|1
+|-sideend|p2: jlce|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|upkeep
+|turn|26
+|
+|t:|1758378206
+|move|p1a: Meowscarada|Flower Trick|p2a: Tentacruel
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+|
+|t:|1758378214
+|switch|p2a: Weavile|Weavile, M|21/100
+|turn|27
+|
+|t:|1758378224
+|move|p2a: Weavile|Ice Shard|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|-damage|p2a: Weavile|11/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758378226
+|switch|p1a: Great Tusk|Great Tusk, tera:Fire|93/100
+|-damage|p1a: Great Tusk|81/100|[from] Spikes
+|turn|28
+|
+|t:|1758378236
+|move|p2a: Weavile|Knock Off|p1a: Great Tusk
+|-damage|p1a: Great Tusk|45/100
+|-enditem|p1a: Great Tusk|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|1/100|[from] item: Life Orb
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|upkeep
+|turn|29
+|
+|t:|1758378247
+|move|p2a: Weavile|Knock Off|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|2/100
+|-damage|p2a: Weavile|0 fnt|[from] item: Life Orb
+|faint|p2a: Weavile
+|move|p1a: Great Tusk|Rapid Spin|p2: Weavile|[notarget]
+|-fail|p1a: Great Tusk
+|
+|upkeep
+|
+|t:|1758378251
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|30
+|
+|t:|1758378260
+|move|p2a: Arcanine|Extreme Speed|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758378262
+|switch|p1a: Iron Crown|Iron Crown|76/100
+|-damage|p1a: Iron Crown|63/100|[from] Spikes
+|turn|31
+|
+|t:|1758378268
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Arcanine
+|-damage|p2a: Arcanine|57/100
+|-damage|p2a: Arcanine|10/100
+|-hitcount|p2a: Arcanine|2
+|move|p2a: Arcanine|Flame Charge|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|5/100
+|-boost|p2a: Arcanine|spe|1
+|
+|upkeep
+|turn|32
+|-message|CaptainFreeze1 forfeited.
+|
+|win|jlce
+|raw|CaptainFreeze1's rating: 1395 &rarr; <strong>1374</strong><br />(-21 for losing)
+|raw|jlce's rating: 1386 &rarr; <strong>1407</strong><br />(+21 for winning)
+|l|☆CaptainFreeze1
+|player|p1|
+|l|☆jlce
+|player|p2|

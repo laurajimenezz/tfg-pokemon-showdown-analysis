@@ -1,0 +1,377 @@
+|j|☆garudo
+|j|☆GabUno
+|t:|1758289375
+|gametype|singles
+|player|p1|garudo|101|1278
+|player|p2|GabUno|marlon|1331
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tsareena, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Kleavor, F|
+|poke|p1|Incineroar, F|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Zapdos|
+|poke|p2|Araquanid, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Moth|
+|poke|p2|Kommo-o, F|
+|poke|p2|Ogerpon-Cornerstone, F|
+|teampreview
+|
+|t:|1758289400
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GabUno)
+|
+|t:|1758289425
+|move|p2a: Ogerpon|Trailblaze|p1a: Kleavor
+|-damage|p1a: Kleavor|63/100
+|-boost|p2a: Ogerpon|spe|1
+|move|p1a: Kleavor|U-turn|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|9/100
+|
+|t:|1758289437
+|switch|p1a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1758289443
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|move|p1a: Basculegion|Flip Turn|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|77/100
+|
+|t:|1758289450
+|switch|p1a: Kleavor|Kleavor, F|63/100|[from] Flip Turn
+|
+|upkeep
+|turn|3
+|
+|t:|1758289461
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|9/100
+|move|p1a: Kleavor|Stone Axe|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-sidestart|p2: GabUno|move: Stealth Rock
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1758289464
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|4
+|
+|t:|1758289480
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|move|p2a: Iron Treads|Knock Off|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|27/100
+|-enditem|p1a: Basculegion|Choice Scarf|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|5
+|
+|t:|1758289492
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Iron Treads|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|73/100
+|-enditem|p1a: Zapdos|Assault Vest|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|6
+|
+|t:|1758289501
+|move|p2a: Iron Treads|Rapid Spin|p1a: Zapdos
+|-damage|p1a: Zapdos|58/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: GabUno|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Zapdos|Heat Wave|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|11/100
+|
+|upkeep
+|turn|7
+|
+|t:|1758289514
+|move|p2a: Iron Treads|Ice Spinner|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|10/100
+|move|p1a: Zapdos|Heat Wave|p2a: Iron Treads|[miss]
+|-miss|p1a: Zapdos|p2a: Iron Treads
+|
+|upkeep
+|turn|8
+|
+|t:|1758289527
+|switch|p1a: Incineroar|Incineroar, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|move|p2a: Iron Treads|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|90/100
+|-enditem|p1a: Incineroar|Life Orb|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|9
+|
+|t:|1758289537
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Araquanid|Araquanid, M|77/100
+|move|p1a: Incineroar|Fake Out|p2a: Araquanid
+|-damage|p2a: Araquanid|58/100
+|
+|upkeep
+|turn|10
+|
+|t:|1758289557
+|switch|p1a: Kleavor|Kleavor, F|63/100
+|move|p2a: Araquanid|Sticky Web|p1a: Kleavor
+|-sidestart|p1: garudo|move: Sticky Web
+|
+|upkeep
+|turn|11
+|
+|t:|1758289566
+|move|p1a: Kleavor|Stone Axe|p2a: Araquanid|[miss]
+|-miss|p1a: Kleavor|p2a: Araquanid
+|move|p2a: Araquanid|Liquidation|p1a: Kleavor
+|-supereffective|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|upkeep
+|
+|t:|1758289580
+|switch|p1a: Zapdos|Zapdos|10/100
+|turn|12
+|
+|t:|1758289589
+|move|p1a: Zapdos|Hurricane|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1758289598
+|switch|p2a: Iron Treads|Iron Treads|11/100
+|turn|13
+|
+|t:|1758289608
+|move|p2a: Iron Treads|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-status|p2a: Iron Treads|par|[from] ability: Static|[of] p1a: Zapdos
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1758289617
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|-activate|p1a: Tsareena|move: Sticky Web
+|-unboost|p1a: Tsareena|spe|1
+|turn|14
+|
+|t:|1758289636
+|move|p1a: Tsareena|Rapid Spin|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|5/100 par
+|-boost|p1a: Tsareena|spe|1
+|-sideend|p1: garudo|Sticky Web|[from] move: Rapid Spin|[of] p1a: Tsareena
+|cant|p2a: Iron Treads|par
+|
+|upkeep
+|turn|15
+|
+|t:|1758289648
+|move|p1a: Tsareena|Rapid Spin|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-boost|p1a: Tsareena|spe|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|inactive|GabUno has 120 seconds left.
+|
+|t:|1758289673
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|16
+|
+|t:|1758289683
+|move|p1a: Tsareena|Power Whip|p2a: Hatterene
+|-damage|p2a: Hatterene|45/100
+|move|p2a: Hatterene|Nuzzle|p1a: Tsareena
+|-resisted|p1a: Tsareena
+|-damage|p1a: Tsareena|98/100
+|-status|p1a: Tsareena|par
+|
+|upkeep
+|turn|17
+|
+|t:|1758289692
+|move|p1a: Tsareena|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|24/100
+|
+|t:|1758289699
+|switch|p1a: Incineroar|Incineroar, F|90/100|[from] U-turn
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Hatterene|atk|1
+|move|p2a: Hatterene|Draining Kiss|p1a: Incineroar
+|-damage|p1a: Incineroar|62/100
+|-heal|p2a: Hatterene|50/100|[from] drain|[of] p1a: Incineroar
+|
+|upkeep
+|turn|18
+|
+|t:|1758289709
+|move|p1a: Incineroar|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-enditem|p2a: Hatterene|Assault Vest|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1758289726
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|19
+|inactive|garudo has 120 seconds left.
+|
+|t:|1758289762
+|move|p2a: Iron Moth|Fiery Dance|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|44/100
+|move|p1a: Incineroar|U-turn|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|91/100
+|
+|t:|1758289775
+|switch|p1a: Basculegion|Basculegion, M|27/100|[from] U-turn
+|
+|upkeep
+|turn|20
+|
+|t:|1758289785
+|move|p2a: Iron Moth|Substitute|p2a: Iron Moth
+|-start|p2a: Iron Moth|Substitute
+|-damage|p2a: Iron Moth|66/100
+|move|p1a: Basculegion|Flip Turn|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-end|p2a: Iron Moth|Substitute
+|
+|t:|1758289802
+|switch|p1a: Incineroar|Incineroar, F|44/100|[from] Flip Turn
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Iron Moth|atk|1
+|
+|upkeep
+|turn|21
+|
+|t:|1758289815
+|move|p1a: Incineroar|Fake Out|p2a: Iron Moth
+|-damage|p2a: Iron Moth|45/100
+|cant|p2a: Iron Moth|flinch
+|
+|upkeep
+|turn|22
+|
+|t:|1758289827
+|move|p2a: Iron Moth|Sludge Wave|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|t:|1758289835
+|switch|p1a: Basculegion|Basculegion, M|27/100
+|turn|23
+|
+|t:|1758289840
+|move|p2a: Iron Moth|Sludge Wave|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|upkeep
+|
+|t:|1758289849
+|switch|p1a: Weezing|Weezing-Galar, M, shiny|100/100
+|turn|24
+|inactive|garudo has 120 seconds left.
+|
+|t:|1758289859
+|move|p2a: Iron Moth|Substitute|p2a: Iron Moth
+|-start|p2a: Iron Moth|Substitute
+|-damage|p2a: Iron Moth|20/100
+|move|p1a: Weezing|Strange Steam|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-activate|p2a: Iron Moth|move: Substitute|[damage]
+|
+|upkeep
+|turn|25
+|inactive|garudo has 120 seconds left.
+|
+|t:|1758289872
+|move|p2a: Iron Moth|Fiery Dance|p1a: Weezing
+|-damage|p1a: Weezing|43/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Weezing|Strange Steam|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-activate|p2a: Iron Moth|move: Substitute|[damage]
+|
+|-heal|p1a: Weezing|49/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|garudo has 120 seconds left.
+|
+|t:|1758289887
+|move|p2a: Iron Moth|Fiery Dance|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: Weezing
+|
+|upkeep
+|inactive|garudo has 120 seconds left.
+|
+|t:|1758289893
+|switch|p1a: Tsareena|Tsareena, F|98/100 par
+|turn|27
+|
+|t:|1758289903
+|move|p2a: Iron Moth|Fiery Dance|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: Tsareena
+|
+|win|GabUno
+|raw|garudo's rating: 1278 &rarr; <strong>1257</strong><br />(-21 for losing)
+|raw|GabUno's rating: 1331 &rarr; <strong>1348</strong><br />(+17 for winning)
+|c|☆GabUno|gg
+|l|☆garudo
+|player|p1|
+|l|☆GabUno
+|player|p2|

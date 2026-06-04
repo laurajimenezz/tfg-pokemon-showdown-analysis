@@ -1,0 +1,206 @@
+|j|☆CCL0611
+|j|☆boots26
+|t:|1760803132
+|gametype|singles
+|player|p1|CCL0611|169|1219
+|player|p2|boots26|2|1131
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Scizor, F|
+|poke|p1|Iron Moth|
+|poke|p1|Hatterene, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Darkrai|
+|poke|p2|Dragonite, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Gholdengo|
+|poke|p2|Darkrai|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1760803140
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|turn|1
+|
+|t:|1760803154
+|move|p2a: Landorus|Stealth Rock|p1a: Rotom
+|-sidestart|p1: CCL0611|move: Stealth Rock
+|move|p1a: Rotom|Light Screen|p1a: Rotom
+|-sidestart|p1: CCL0611|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|t:|1760803161
+|move|p2a: Landorus|Taunt|p1a: Rotom
+|-start|p1a: Rotom|move: Taunt
+|cant|p1a: Rotom|move: Taunt|Reflect
+|
+|upkeep
+|turn|3
+|
+|t:|1760803168
+|move|p2a: Landorus|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|move|p1a: Rotom|Hydro Pump|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|34/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760803186
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Gholdengo|[miss]
+|-miss|p1a: Rotom|p2a: Gholdengo
+|
+|-end|p1a: Rotom|move: Taunt
+|upkeep
+|turn|5
+|
+|t:|1760803196
+|move|p2a: Gholdengo|Thunderbolt|p1a: Rotom
+|-damage|p1a: Rotom|84/100
+|move|p1a: Rotom|Volt Switch|p2a: Gholdengo
+|-damage|p2a: Gholdengo|74/100
+|
+|t:|1760803206
+|switch|p1a: Iron Moth|Iron Moth|100/100|[from] Volt Switch
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|
+|upkeep
+|turn|6
+|
+|t:|1760803221
+|switch|p2a: Landorus|Landorus-Therian, M|34/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Moth|atk|1
+|move|p1a: Iron Moth|Substitute|p1a: Iron Moth
+|-start|p1a: Iron Moth|Substitute
+|-damage|p1a: Iron Moth|51/100
+|
+|upkeep
+|turn|7
+|
+|t:|1760803228
+|move|p1a: Iron Moth|Fiery Dance|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1760803237
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|8
+|
+|t:|1760803246
+|move|p1a: Iron Moth|Sludge Wave|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|44/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-activate|p1a: Iron Moth|move: Substitute|[damage]
+|
+|-sideend|p1: CCL0611|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1760803263
+|switch|p2a: Darkrai|Darkrai|100/100
+|move|p1a: Iron Moth|Sludge Wave|p2a: Darkrai
+|-damage|p2a: Darkrai|41/100
+|
+|upkeep
+|turn|10
+|
+|t:|1760803270
+|move|p1a: Iron Moth|Fiery Dance|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1760803276
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|11
+|
+|t:|1760803281
+|-terastallize|p1a: Iron Moth|Fairy
+|move|p2a: Dragonite|Extreme Speed|p1a: Iron Moth
+|-end|p1a: Iron Moth|Substitute
+|move|p1a: Iron Moth|Tera Blast|p2a: Dragonite|[anim] Tera Blast Fairy
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|35/100
+|
+|upkeep
+|turn|12
+|
+|t:|1760803293
+|move|p1a: Iron Moth|Tera Blast|p2a: Dragonite|[anim] Tera Blast Fairy
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1760803302
+|switch|p2a: Gholdengo|Gholdengo|74/100
+|turn|13
+|
+|t:|1760803309
+|move|p1a: Iron Moth|Fiery Dance|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1760803313
+|switch|p2a: Hatterene|Hatterene, F|44/100
+|turn|14
+|
+|t:|1760803317
+|move|p1a: Iron Moth|Sludge Wave|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1760803321
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|15
+|
+|t:|1760803326
+|move|p1a: Iron Moth|Tera Blast|p2a: Zamazenta|[anim] Tera Blast Fairy
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|win|CCL0611
+|raw|CCL0611's rating: 1219 &rarr; <strong>1238</strong><br />(+19 for winning)
+|raw|boots26's rating: 1131 &rarr; <strong>1112</strong><br />(-19 for losing)

@@ -1,0 +1,272 @@
+|j|☆SuperMowgli
+|j|☆Chillface_noob
+|t:|1769344496
+|gametype|singles
+|player|p1|SuperMowgli|169|1319
+|player|p2|Chillface_noob|101|1372
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Great Tusk|
+|poke|p1|Alomomola, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Kingambit, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Gholdengo|
+|poke|p2|Pecharunt|
+|poke|p2|Ceruledge, M|
+|poke|p2|Sableye, M|
+|poke|p2|Gengar, M|
+|teampreview
+|
+|t:|1769344504
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Sableye|Sableye, M|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|1
+|
+|t:|1769344510
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|move|p2a: Sableye|Taunt|p1a: Kingambit
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Kingambit
+|
+|upkeep
+|turn|2
+|
+|t:|1769344518
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Sableye|Foul Play|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|52/100
+|
+|-heal|p1a: Kingambit|58/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1769344523
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|-heal|p1a: Kingambit|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769344535
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|4
+|
+|t:|1769344539
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Gengar|Will-O-Wisp|p1a: Kingambit
+|-status|p1a: Kingambit|brn
+|
+|-heal|p1a: Kingambit|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingambit|64/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1769344542
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-heal|p1a: Kingambit|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingambit|64/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1769344549
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Pecharunt|Parting Shot|p1a: Great Tusk
+|-unboost|p1a: Great Tusk|atk|1
+|-unboost|p1a: Great Tusk|spa|1
+|
+|t:|1769344551
+|switch|p2a: Gengar|Gengar, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|7
+|
+|t:|1769344554
+|move|p2a: Gengar|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|move|p1a: Great Tusk|Stealth Rock|p2a: Gengar
+|-sidestart|p2: Chillface_noob|move: Stealth Rock
+|
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1769344556
+|move|p2a: Gengar|Hex|p1a: Great Tusk
+|-damage|p1a: Great Tusk|1/100 brn
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|38/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-damage|p1a: Great Tusk|0 fnt|[from] brn
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1769344559
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|9
+|
+|t:|1769344561
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|move|p1a: Dragapult|Dragon Darts|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|73/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|53/100
+|
+|upkeep
+|turn|10
+|
+|t:|1769344568
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Enamorus
+|-damage|p1a: Enamorus|37/100
+|-boost|p1a: Enamorus|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1769344572
+|move|p2a: Gholdengo|Shadow Ball|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|upkeep
+|
+|t:|1769344576
+|switch|p1a: Kingambit|Kingambit, M|64/100 brn
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|12
+|
+|t:|1769344580
+|move|p2a: Gholdengo|Shadow Ball|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|38/100 brn
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p1a: Kingambit|44/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingambit|38/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SuperMowgli)
+|
+|t:|1769344583
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-damage|p2a: Pecharunt|88/100|[from] Stealth Rock
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|35/100
+|-damage|p1a: Kingambit|22/100 brn|[from] item: Rocky Helmet|[of] p2a: Pecharunt
+|
+|-heal|p1a: Kingambit|28/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingambit|22/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1769344586
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|85/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|25/100
+|-damage|p1a: Kingambit|5/100 brn|[from] item: Rocky Helmet|[of] p2a: Pecharunt
+|
+|-heal|p1a: Kingambit|11/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingambit|5/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1769344594
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|75/100
+|
+|upkeep
+|turn|16
+|
+|t:|1769344598
+|move|p2a: Pecharunt|Malignant Chain|p1a: Alomomola
+|-damage|p1a: Alomomola|65/100
+|-status|p1a: Alomomola|tox
+|-start|p1a: Alomomola|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Alomomola|confusion
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p1a: Alomomola|59/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1769344602
+|switch|p1a: Kingambit|Kingambit, M|5/100 brn
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Pecharunt|Shadow Ball|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1769344604
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|18
+|
+|t:|1769344616
+|-terastallize|p1a: Dragapult|Ghost
+|-terastallize|p2a: Pecharunt|Fairy
+|move|p1a: Dragapult|Tera Blast|p2a: Pecharunt|[anim] Tera Blast Ghost
+|-damage|p2a: Pecharunt|41/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|78/100
+|-status|p1a: Dragapult|tox
+|-start|p1a: Dragapult|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-damage|p1a: Dragapult|72/100 tox|[from] psn
+|upkeep
+|turn|19
+|-message|SuperMowgli forfeited.
+|
+|win|Chillface_noob
+|raw|SuperMowgli's rating: 1319 &rarr; <strong>1302</strong><br />(-17 for losing)
+|raw|Chillface_noob's rating: 1372 &rarr; <strong>1389</strong><br />(+17 for winning)
+|l|☆SuperMowgli
+|player|p1|
+|l|☆Chillface_noob
+|player|p2|

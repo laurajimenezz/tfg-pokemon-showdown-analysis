@@ -1,0 +1,192 @@
+|j|☆KevinSPG5
+|j|☆hat_fm
+|t:|1779815653
+|gametype|singles
+|player|p1|KevinSPG5|gambler|1212
+|player|p2|hat_fm|pilot|1175
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kricketune, F|
+|poke|p1|Polteageist|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, M|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Valiant|
+|poke|p2|Zamazenta-*|
+|poke|p2|Ceruledge, M|
+|poke|p2|Scizor, F|
+|poke|p2|Donphan, F|
+|poke|p2|Lycanroc-Dusk, F|
+|poke|p2|Florges, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KevinSPG5)
+|
+|t:|1779815679
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Kricketune|Kricketune, F|100/100
+|switch|p2a: Donphan|Donphan, F|100/100
+|turn|1
+|
+|t:|1779815687
+|move|p1a: Kricketune|Sticky Web|p2a: Donphan
+|-sidestart|p2: hat_fm|move: Sticky Web
+|move|p2a: Donphan|Stealth Rock|p1a: Kricketune
+|-sidestart|p1: KevinSPG5|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1779815693
+|move|p1a: Kricketune|Perish Song|p1a: Kricketune
+|-start|p1a: Kricketune|perish3|[silent]
+|-start|p2a: Donphan|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Donphan|Knock Off|p1a: Kricketune
+|-damage|p1a: Kricketune|59/100
+|-enditem|p1a: Kricketune|Focus Sash|[from] move: Knock Off|[of] p2a: Donphan
+|
+|-start|p1a: Kricketune|perish3
+|-start|p2a: Donphan|perish3
+|upkeep
+|turn|3
+|
+|t:|1779815704
+|move|p1a: Kricketune|Perish Song||[still]
+|-fail|p1a: Kricketune
+|move|p2a: Donphan|Knock Off|p1a: Kricketune
+|-damage|p1a: Kricketune|29/100
+|
+|-start|p1a: Kricketune|perish2
+|-start|p2a: Donphan|perish2
+|upkeep
+|turn|4
+|
+|t:|1779815712
+|move|p1a: Kricketune|Perish Song||[still]
+|-fail|p1a: Kricketune
+|move|p2a: Donphan|Knock Off|p1a: Kricketune
+|-damage|p1a: Kricketune|0 fnt
+|faint|p1a: Kricketune
+|
+|-start|p2a: Donphan|perish1
+|upkeep
+|
+|t:|1779815715
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|5
+|
+|t:|1779815731
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-activate|p2a: Zamazenta|move: Sticky Web
+|-unboost|p2a: Zamazenta|spe|1
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Great Tusk|Rapid Spin|p2a: Zamazenta
+|-damage|p2a: Zamazenta|92/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: KevinSPG5|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p2a: Zamazenta|98/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1779815753
+|move|p1a: Great Tusk|Headlong Rush|p2a: Zamazenta
+|-damage|p2a: Zamazenta|70/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Zamazenta|Crunch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|90/100
+|-unboost|p1a: Great Tusk|def|1
+|
+|-heal|p2a: Zamazenta|76/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779815761
+|move|p1a: Great Tusk|Ice Spinner|p2a: Zamazenta
+|-damage|p2a: Zamazenta|64/100
+|move|p2a: Zamazenta|Body Press|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Zamazenta|70/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779815764
+|switch|p1a: Polteageist|Polteageist|100/100
+|turn|8
+|
+|t:|1779815772
+|-terastallize|p2a: Zamazenta|Dark
+|move|p2a: Zamazenta|Crunch|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-crit|p1a: Polteageist
+|-enditem|p1a: Polteageist|Focus Sash
+|-damage|p1a: Polteageist|1/100
+|-unboost|p1a: Polteageist|def|1
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|-heal|p2a: Zamazenta|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1779815786
+|move|p1a: Polteageist|Giga Drain|p2a: Zamazenta
+|-damage|p2a: Zamazenta|30/100
+|-heal|p1a: Polteageist|32/100|[from] drain|[of] p2a: Zamazenta
+|move|p2a: Zamazenta|Crunch|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|-heal|p2a: Zamazenta|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779815791
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|10
+|
+|t:|1779815797
+|move|p2a: Zamazenta|Body Press|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|
+|-heal|p2a: Zamazenta|43/100|[from] item: Leftovers
+|upkeep
+|-message|KevinSPG5 forfeited.
+|
+|win|hat_fm
+|raw|KevinSPG5's rating: 1212 &rarr; <strong>1184</strong><br />(-28 for losing)
+|raw|hat_fm's rating: 1175 &rarr; <strong>1203</strong><br />(+28 for winning)
+|l|☆KevinSPG5
+|player|p1|
+|l|☆hat_fm
+|player|p2|

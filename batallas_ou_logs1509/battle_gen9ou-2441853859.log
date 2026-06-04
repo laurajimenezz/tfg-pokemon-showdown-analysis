@@ -1,0 +1,295 @@
+|j|☆SittinGamer
+|j|☆isaac_gam3r
+|t:|1757911270
+|gametype|singles
+|player|p1|SittinGamer|dawn-gen4pt|1475
+|player|p2|isaac_gam3r|acetrainer-gen4dp|1465
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Infernape, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Gholdengo|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Zamazenta-*|
+|poke|p2|Garchomp, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Primarina, M|
+|poke|p2|Heatran, F|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Weavile, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by isaac_gam3r)
+|j| Sunrose
+|l| Sunrose
+|
+|t:|1757911292
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1757911297
+|switch|p2a: Weezing|Weezing-Galar, M, shiny|100/100
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1757911301
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Hatterene|Psychic Noise|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|90/100
+|-start|p2a: Heatran|move: Heal Block
+|
+|upkeep
+|turn|3
+|
+|t:|1757911304
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Heatran|Flash Cannon|p1a: Samurott
+|-resisted|p1a: Samurott
+|-crit|p1a: Samurott
+|-damage|p1a: Samurott|73/100
+|
+|-end|p2a: Heatran|move: Heal Block
+|upkeep
+|turn|4
+|
+|t:|1757911310
+|switch|p2a: Primarina|Primarina, M|100/100
+|move|p1a: Samurott|Razor Shell|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|70/100
+|-unboost|p2a: Primarina|def|1
+|
+|-heal|p2a: Primarina|76/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1757911313
+|move|p1a: Samurott|Ceaseless Edge|p2a: Primarina
+|-resisted|p2a: Primarina
+|-crit|p2a: Primarina
+|-damage|p2a: Primarina|23/100
+|-sidestart|p2: isaac_gam3r|Spikes
+|move|p2a: Primarina|Draining Kiss|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|30/100
+|-heal|p2a: Primarina|57/100|[from] drain|[of] p1a: Samurott
+|
+|-heal|p2a: Primarina|63/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1757911319
+|move|p1a: Samurott|Ceaseless Edge|p2a: Primarina
+|-resisted|p2a: Primarina
+|-crit|p2a: Primarina
+|-damage|p2a: Primarina|2/100
+|-sidestart|p2: isaac_gam3r|Spikes
+|move|p2a: Primarina|Draining Kiss|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-heal|p2a: Primarina|25/100|[from] drain|[of] p1a: Samurott
+|faint|p1a: Samurott
+|
+|-heal|p2a: Primarina|31/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757911325
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|7
+|
+|t:|1757911328
+|switch|p2a: Weezing|Weezing-Galar, M, shiny|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Weezing
+|-immune|p2a: Weezing|[from] ability: Levitate
+|
+|upkeep
+|turn|8
+|
+|t:|1757911333
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Weezing|Defog|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|
+|upkeep
+|turn|9
+|
+|t:|1757911339
+|switch|p2a: Heatran|Heatran, F|90/100
+|-damage|p2a: Heatran|73/100|[from] Spikes
+|move|p1a: Gholdengo|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|49/100
+|
+|upkeep
+|turn|10
+|
+|t:|1757911343
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Heatran|Lava Plume|p1a: Hatterene
+|-damage|p1a: Hatterene|70/100
+|
+|upkeep
+|turn|11
+|
+|t:|1757911349
+|move|p2a: Heatran|Flash Cannon|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|12/100
+|move|p1a: Hatterene|Psychic Noise|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|38/100
+|-start|p2a: Heatran|move: Heal Block
+|
+|upkeep
+|turn|12
+|
+|t:|1757911354
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Heatran|Lava Plume|p1a: Great Tusk
+|-damage|p1a: Great Tusk|32/100
+|
+|-end|p2a: Heatran|move: Heal Block
+|upkeep
+|turn|13
+|
+|t:|1757911359
+|switch|p2a: Weezing|Weezing-Galar, M, shiny|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|89/100
+|-enditem|p2a: Weezing|Black Sludge|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|14
+|
+|t:|1757911362
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Infernape|Infernape, M|100/100
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-damage|p2a: Garchomp|84/100|[from] Spikes
+|
+|upkeep
+|turn|15
+|
+|t:|1757911366
+|move|p2a: Garchomp|Earthquake|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-enditem|p1a: Infernape|Focus Sash
+|-damage|p1a: Infernape|1/100
+|move|p1a: Infernape|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: isaac_gam3r|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|t:|1757911369
+|move|p1a: Infernape|Vacuum Wave|p2a: Garchomp
+|-damage|p2a: Garchomp|64/100
+|move|p2a: Garchomp|Earthquake|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|upkeep
+|
+|t:|1757911374
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|17
+|
+|t:|1757911385
+|-terastallize|p1a: Gholdengo|Fighting
+|move|p2a: Garchomp|Earthquake|p1a: Gholdengo
+|-damage|p1a: Gholdengo|38/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Garchomp
+|-damage|p2a: Garchomp|21/100
+|
+|upkeep
+|turn|18
+|
+|t:|1757911391
+|move|p2a: Garchomp|Earthquake|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1757911395
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|19
+|
+|t:|1757911399
+|switch|p2a: Weezing|Weezing-Galar, M, shiny|89/100
+|-damage|p2a: Weezing|77/100|[from] Stealth Rock
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|upkeep
+|turn|20
+|
+|t:|1757911408
+|move|p2a: Weezing|Will-O-Wisp|p1a: Zamazenta
+|-status|p1a: Zamazenta|brn
+|move|p1a: Zamazenta|Roar|p2a: Weezing
+|drag|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|84/100|[from] Spikes
+|-damage|p2a: Raging Bolt|72/100|[from] Stealth Rock
+|
+|-heal|p2a: Raging Bolt|78/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|94/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1757911412
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Weezing|Weezing-Galar, M, shiny|77/100
+|-damage|p2a: Weezing|65/100|[from] Stealth Rock
+|move|p1a: Zamazenta|Body Press|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|58/100
+|
+|-heal|p1a: Zamazenta|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Zamazenta|94/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1757911416
+|switch|p1a: Great Tusk|Great Tusk|32/100
+|move|p2a: Weezing|Defog|p1a: Great Tusk
+|-unboost|p1a: Great Tusk|evasion|1
+|-sideend|p2: isaac_gam3r|Spikes|[from] move: Defog|[of] p2a: Weezing
+|-sideend|p2: isaac_gam3r|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|upkeep
+|turn|23
+|-message|SittinGamer forfeited.
+|
+|win|isaac_gam3r
+|raw|SittinGamer's rating: 1475 &rarr; <strong>1454</strong><br />(-21 for losing)
+|raw|isaac_gam3r's rating: 1465 &rarr; <strong>1486</strong><br />(+21 for winning)
+|l|☆SittinGamer
+|player|p1|
+|l|☆isaac_gam3r
+|player|p2|

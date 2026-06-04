@@ -1,0 +1,336 @@
+|j|☆zxa123456
+|j|☆LikeEmerald
+|t:|1757832772
+|gametype|singles
+|player|p1|zxa123456|swimmerf-gen4|1141
+|player|p2|LikeEmerald|102|1123
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Iron Moth|
+|poke|p1|Excadrill, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Kingambit, F|
+|poke|p2|Iron Crown|
+|poke|p2|Dugtrio-Alola, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Houndstone, M|
+|poke|p2|Clefable, F|
+|poke|p2|Hydrapple, M|
+|teampreview
+|
+|t:|1757832789
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|1
+|
+|t:|1757832801
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Tyranitar|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Iron Moth|Fire Blast|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1757832814
+|-terastallize|p1a: Iron Moth|Grass
+|move|p1a: Iron Moth|Energy Ball|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|34/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Iron Moth
+|-sidestart|p1: zxa123456|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|89/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1757832854
+|switch|p2a: Hydrapple|Hydrapple, M, shiny|100/100
+|move|p1a: Iron Moth|Sludge Wave|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|83/100|[from] Sandstorm
+|-damage|p2a: Hydrapple|16/100|[from] Sandstorm
+|-heal|p2a: Hydrapple|23/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757832866
+|move|p2a: Hydrapple|Protect|p2a: Hydrapple
+|-singleturn|p2a: Hydrapple|Protect
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Hydrapple
+|-activate|p2a: Hydrapple|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|77/100|[from] Sandstorm
+|-damage|p2a: Hydrapple|16/100|[from] Sandstorm
+|-heal|p2a: Hydrapple|23/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1757832877
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|71/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757832883
+|switch|p2a: Houndstone|Houndstone, M, shiny|100/100
+|turn|6
+|
+|t:|1757832893
+|move|p1a: Iron Moth|Fire Blast|p2a: Houndstone
+|-damage|p2a: Houndstone|29/100
+|-status|p2a: Houndstone|brn
+|move|p2a: Houndstone|Poltergeist||[still]
+|-fail|p2a: Houndstone
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|65/100|[from] Sandstorm
+|-damage|p2a: Houndstone|23/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1757832904
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Houndstone
+|-damage|p2a: Houndstone|0 fnt
+|faint|p2a: Houndstone
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|59/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757832915
+|switch|p2a: Clefable|Clefable, F, shiny|100/100
+|turn|8
+|
+|t:|1757832921
+|-terastallize|p2a: Clefable|Dragon
+|move|p1a: Iron Moth|Sludge Wave|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|41/100
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-weather|none
+|-heal|p2a: Clefable|47/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1757832932
+|move|p1a: Iron Moth|Sludge Wave|p2a: Clefable
+|-damage|p2a: Clefable|20/100
+|move|p2a: Clefable|Draining Kiss|p1a: Iron Moth
+|-damage|p1a: Iron Moth|33/100
+|-heal|p2a: Clefable|35/100|[from] drain|[of] p1a: Iron Moth
+|
+|-heal|p2a: Clefable|41/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1757832946
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|move|p2a: Clefable|Flamethrower|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|30/100
+|
+|-heal|p2a: Clefable|47/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|36/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1757832965
+|move|p2a: Clefable|Flamethrower|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|
+|-heal|p2a: Clefable|54/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757832973
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|12
+|
+|t:|1757832988
+|switch|p2a: Tyranitar|Tyranitar, F, shiny|34/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Excadrill|Iron Head|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1757832992
+|switch|p2a: Dugtrio|Dugtrio-Alola, M, shiny|100/100
+|turn|13
+|
+|t:|1757833017
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Dugtrio|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|82/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1757833027
+|move|p2a: Dugtrio|Rock Blast|p1a: Rotom
+|-damage|p1a: Rotom|72/100
+|-damage|p1a: Rotom|62/100
+|-damage|p1a: Rotom|50/100
+|-damage|p1a: Rotom|41/100
+|-hitcount|p1a: Rotom|4
+|move|p1a: Rotom|Hydro Pump|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|35/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757833047
+|switch|p2a: Clefable|Clefable, F, shiny, tera:Dragon|54/100
+|turn|15
+|
+|t:|1757833055
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|82/100|[from] Sandstorm
+|-heal|p2a: Clefable|60/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1757833071
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Toxapex|Toxic|p2a: Clefable
+|-status|p2a: Clefable|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|82/100|[from] Sandstorm
+|-heal|p2a: Clefable|66/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1757833084
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|94/100|[from] Sandstorm
+|-heal|p2a: Clefable|72/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1757833099
+|move|p2a: Clefable|Stored Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Clefable|78/100 tox|[from] item: Leftovers
+|upkeep
+|
+|t:|1757833108
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1757833119
+|move|p1a: Dragapult|Dragon Darts|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|3/100 tox
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|-damage|p1a: Dragapult|78/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1757833122
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|turn|20
+|
+|t:|1757833136
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Dragapult
+|-damage|p1a: Dragapult|45/100
+|-damage|p1a: Dragapult|13/100
+|-hitcount|p1a: Dragapult|2
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|
+|upkeep
+|turn|21
+|
+|t:|1757833143
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Dragapult|[miss]
+|-miss|p2a: Iron Crown|p1a: Dragapult
+|move|p1a: Dragapult|Phantom Force|p2a: Iron Crown|[from] lockedmove
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|-damage|p1a: Dragapult|3/100|[from] item: Life Orb
+|
+|win|zxa123456
+|raw|zxa123456's rating: 1141 &rarr; <strong>1165</strong><br />(+24 for winning)
+|raw|LikeEmerald's rating: 1123 &rarr; <strong>1099</strong><br />(-24 for losing)
+|l|☆LikeEmerald
+|player|p2|
+|l|☆zxa123456
+|player|p1|

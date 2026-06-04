@@ -1,0 +1,616 @@
+|j|☆TackyZack
+|j|☆Ao_Blue_Poison
+|t:|1760368940
+|gametype|singles
+|player|p1|TackyZack|169|1471
+|player|p2|Ao_Blue_Poison|iono|1456
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, M|
+|poke|p1|Hippowdon, M|
+|poke|p1|Hydrapple, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Excadrill, M|
+|poke|p2|Quaquaval, F|
+|poke|p2|Blaziken, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Iron Crown|
+|poke|p2|Rillaboom, M|
+|poke|p2|Garganacl, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ao_Blue_Poison)
+|
+|t:|1760368957
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hippowdon|Hippowdon, M, shiny|100/100
+|switch|p2a: Percussion|Rillaboom, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Percussion
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|t:|1760368960
+|move|p2a: Percussion|Drum Beating|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|50/100
+|-unboost|p1a: Hippowdon|spe|1
+|move|p1a: Hippowdon|Scorching Sands|p2a: Percussion
+|-resisted|p2a: Percussion
+|-damage|p2a: Percussion|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Percussion|87/100|[from] Sandstorm
+|-heal|p2a: Percussion|93/100|[from] Grassy Terrain
+|-heal|p1a: Hippowdon|56/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1760368967
+|switch|p1a: Hydrapple|Hydrapple, M, shiny|100/100
+|move|p2a: Percussion|Drum Beating|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|91/100
+|-unboost|p1a: Hydrapple|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Percussion|87/100|[from] Sandstorm
+|-damage|p1a: Hydrapple|85/100|[from] Sandstorm
+|-heal|p2a: Percussion|93/100|[from] Grassy Terrain
+|-heal|p1a: Hydrapple|91/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1760368972
+|move|p2a: Percussion|Knock Off|p1a: Hydrapple
+|-damage|p1a: Hydrapple|66/100
+|-enditem|p1a: Hydrapple|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Percussion
+|move|p1a: Hydrapple|Fickle Beam|p2a: Percussion
+|-damage|p2a: Percussion|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Percussion|47/100|[from] Sandstorm
+|-damage|p1a: Hydrapple|60/100|[from] Sandstorm
+|-heal|p2a: Percussion|53/100|[from] Grassy Terrain
+|-heal|p1a: Hydrapple|66/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1760368979
+|move|p2a: Percussion|U-turn|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-crit|p1a: Hydrapple
+|-damage|p1a: Hydrapple|9/100
+|
+|t:|1760368983
+|switch|p2a: Tachyon|Iron Crown|100/100|[from] U-turn
+|-enditem|p2a: Tachyon|Booster Energy
+|-activate|p2a: Tachyon|ability: Quark Drive|[fromitem]
+|-start|p2a: Tachyon|quarkdrivespa
+|move|p1a: Hydrapple|Giga Drain|p2a: Tachyon
+|-resisted|p2a: Tachyon
+|-damage|p2a: Tachyon|72/100
+|-heal|p1a: Hydrapple|20/100|[from] drain|[of] p2a: Tachyon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydrapple|14/100|[from] Sandstorm
+|-heal|p2a: Tachyon|79/100|[from] Grassy Terrain
+|-heal|p1a: Hydrapple|20/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1760368991
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|move|p2a: Tachyon|Tachyon Cutter|p1a: Slowking
+|-damage|p1a: Slowking|82/100
+|-damage|p1a: Slowking|66/100
+|-hitcount|p1a: Slowking|2
+|
+|-weather|none
+|-heal|p2a: Tachyon|85/100|[from] Grassy Terrain
+|-heal|p1a: Slowking|72/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1760368996
+|move|p2a: Tachyon|Psychic Noise|p1a: Slowking
+|-damage|p1a: Slowking|47/100
+|-start|p1a: Slowking|move: Heal Block
+|move|p1a: Slowking|Flamethrower|p2a: Tachyon
+|-supereffective|p2a: Tachyon
+|-damage|p2a: Tachyon|41/100
+|
+|upkeep
+|turn|7
+|
+|t:|1760369004
+|move|p2a: Tachyon|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|31/100
+|
+|t:|1760369006
+|-end|p2a: Tachyon|Quark Drive|[silent]
+|switch|p2a: Temple|Garganacl, M, shiny|100/100|[from] Volt Switch
+|move|p1a: Slowking|Flamethrower|p2a: Temple
+|-resisted|p2a: Temple
+|-damage|p2a: Temple|93/100
+|
+|-heal|p2a: Temple|99/100|[from] item: Leftovers
+|-end|p1a: Slowking|move: Heal Block
+|upkeep
+|turn|8
+|
+|t:|1760369011
+|switch|p1a: Hippowdon|Hippowdon, M, shiny|56/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Temple|Salt Cure|p1a: Hippowdon
+|-resisted|p1a: Hippowdon
+|-damage|p1a: Hippowdon|53/100
+|-start|p1a: Hippowdon|Salt Cure
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Temple|100/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|40/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1760369020
+|switch|p2a: Percussion|Rillaboom, M, shiny|53/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Percussion
+|switch|p1a: Hydrapple|Hydrapple, M, shiny|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Percussion|47/100|[from] Sandstorm
+|-damage|p1a: Hydrapple|47/100|[from] Sandstorm
+|-heal|p2a: Percussion|53/100|[from] Grassy Terrain
+|-heal|p1a: Hydrapple|54/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1760369024
+|move|p2a: Percussion|U-turn|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|16/100
+|
+|t:|1760369030
+|switch|p2a: Sir Aaron|Corviknight, F, shiny|100/100|[from] U-turn
+|-ability|p2a: Sir Aaron|Pressure
+|move|p1a: Hydrapple|Giga Drain|p2a: Sir Aaron
+|-resisted|p2a: Sir Aaron
+|-damage|p2a: Sir Aaron|90/100
+|-heal|p1a: Hydrapple|21/100|[from] drain|[of] p2a: Sir Aaron
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydrapple|15/100|[from] Sandstorm
+|-heal|p2a: Sir Aaron|97/100|[from] item: Leftovers
+|-heal|p1a: Hydrapple|21/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|l|☆TackyZack
+|inactive|TackyZack disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆TackyZack
+|inactive|TackyZack reconnected and has 135 seconds left.
+|player|p1|TackyZack|169|
+|
+|t:|1760369048
+|switch|p1a: Garganacl|Garganacl, M, shiny|100/100
+|move|p2a: Sir Aaron|Iron Head|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Sir Aaron|100/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|76/100|[from] Grassy Terrain
+|-heal|p1a: Garganacl|83/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|l|☆TackyZack
+|inactive|TackyZack disconnected and has a minute to reconnect!
+|player|p1|
+|
+|t:|1760369060
+|move|p2a: Sir Aaron|Bulk Up|p2a: Sir Aaron
+|-boost|p2a: Sir Aaron|atk|1
+|-boost|p2a: Sir Aaron|def|1
+|move|p1a: Garganacl|Salt Cure|p2a: Sir Aaron
+|-damage|p2a: Sir Aaron|94/100
+|-start|p2a: Sir Aaron|Salt Cure
+|
+|-weather|none
+|-heal|p2a: Sir Aaron|100/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|89/100|[from] Grassy Terrain
+|-heal|p1a: Garganacl|95/100|[from] item: Leftovers
+|-damage|p2a: Sir Aaron|75/100|[from] Salt Cure
+|upkeep
+|turn|13
+|j|☆TackyZack
+|inactive|TackyZack reconnected and has 145 seconds left.
+|player|p1|TackyZack|169|
+|c|☆TackyZack|Man
+|
+|t:|1760369080
+|switch|p1a: Hippowdon|Hippowdon, M, shiny|40/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Sir Aaron|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|21/100
+|-damage|p2a: Sir Aaron|59/100|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Sir Aaron|65/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|27/100|[from] Grassy Terrain
+|-damage|p2a: Sir Aaron|40/100|[from] Salt Cure
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1760369088
+|move|p2a: Sir Aaron|Roost|p2a: Sir Aaron
+|-heal|p2a: Sir Aaron|90/100
+|-singleturn|p2a: Sir Aaron|move: Roost
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Sir Aaron|96/100|[from] item: Leftovers
+|-damage|p2a: Sir Aaron|71/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1760369092
+|move|p2a: Sir Aaron|Bulk Up|p2a: Sir Aaron
+|-boost|p2a: Sir Aaron|atk|1
+|-boost|p2a: Sir Aaron|def|1
+|move|p1a: Hippowdon|Stealth Rock|p2a: Sir Aaron
+|-sidestart|p2: Ao_Blue_Poison|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Sir Aaron|78/100|[from] item: Leftovers
+|-damage|p2a: Sir Aaron|53/100|[from] Salt Cure
+|upkeep
+|turn|16
+|
+|t:|1760369096
+|move|p2a: Sir Aaron|Defog|p1a: Hippowdon
+|-unboost|p1a: Hippowdon|evasion|1
+|-sideend|p2: Ao_Blue_Poison|Stealth Rock|[from] move: Defog|[of] p2a: Sir Aaron
+|move|p1a: Hippowdon|Body Press|p2a: Sir Aaron
+|-damage|p2a: Sir Aaron|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Sir Aaron|48/100|[from] item: Leftovers
+|-damage|p2a: Sir Aaron|23/100|[from] Salt Cure
+|upkeep
+|turn|17
+|
+|t:|1760369099
+|move|p2a: Sir Aaron|Roost|p2a: Sir Aaron
+|-heal|p2a: Sir Aaron|73/100
+|-singleturn|p2a: Sir Aaron|move: Roost
+|move|p1a: Hippowdon|Body Press|p2a: Sir Aaron
+|-supereffective|p2a: Sir Aaron
+|-damage|p2a: Sir Aaron|53/100
+|
+|-weather|none
+|-heal|p2a: Sir Aaron|60/100|[from] item: Leftovers
+|-damage|p2a: Sir Aaron|35/100|[from] Salt Cure
+|upkeep
+|turn|18
+|
+|t:|1760369105
+|move|p2a: Sir Aaron|Roost|p2a: Sir Aaron
+|-heal|p2a: Sir Aaron|85/100
+|-singleturn|p2a: Sir Aaron|move: Roost
+|move|p1a: Hippowdon|Scorching Sands|p2a: Sir Aaron
+|-supereffective|p2a: Sir Aaron
+|-damage|p2a: Sir Aaron|58/100
+|-status|p2a: Sir Aaron|brn
+|
+|-heal|p2a: Sir Aaron|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Sir Aaron|58/100 brn|[from] brn
+|-damage|p2a: Sir Aaron|33/100 brn|[from] Salt Cure
+|upkeep
+|turn|19
+|
+|t:|1760369108
+|move|p2a: Sir Aaron|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|63/100
+|-damage|p2a: Sir Aaron|16/100 brn|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+|cant|p1a: Hippowdon|flinch
+|
+|-heal|p2a: Sir Aaron|22/100 brn|[from] item: Leftovers
+|-damage|p2a: Sir Aaron|16/100 brn|[from] brn
+|-damage|p2a: Sir Aaron|0 fnt|[from] Salt Cure
+|faint|p2a: Sir Aaron
+|upkeep
+|
+|t:|1760369111
+|switch|p2a: Percussion|Rillaboom, M, shiny|53/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Percussion
+|turn|20
+|
+|t:|1760369116
+|switch|p1a: Hydrapple|Hydrapple, M, shiny|54/100
+|move|p2a: Percussion|Drum Beating|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|45/100
+|-unboost|p1a: Hydrapple|spe|1
+|
+|-heal|p2a: Percussion|59/100|[from] Grassy Terrain
+|-heal|p1a: Hydrapple|51/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1760369125
+|move|p2a: Percussion|Knock Off|p1a: Hydrapple
+|-damage|p1a: Hydrapple|33/100
+|move|p1a: Hydrapple|Earth Power|p2a: Percussion
+|-resisted|p2a: Percussion
+|-damage|p2a: Percussion|44/100
+|-unboost|p2a: Percussion|spd|1
+|
+|-heal|p2a: Percussion|50/100|[from] Grassy Terrain
+|-heal|p1a: Hydrapple|39/100|[from] Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1760369132
+|move|p2a: Percussion|U-turn|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|6/100
+|
+|t:|1760369134
+|switch|p2a: Harlequin|Quaquaval, F, shiny|100/100|[from] U-turn
+|move|p1a: Hydrapple|Earth Power|p2a: Harlequin
+|-damage|p2a: Harlequin|58/100
+|
+|-heal|p2a: Harlequin|64/100|[from] Grassy Terrain
+|-heal|p2a: Harlequin|70/100|[from] item: Leftovers
+|-heal|p1a: Hydrapple|12/100|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|t:|1760369142
+|switch|p1a: Hippowdon|Hippowdon, M, shiny|63/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Harlequin|Brave Bird|p1a: Hippowdon
+|-crit|p1a: Hippowdon
+|-damage|p1a: Hippowdon|34/100
+|-damage|p2a: Harlequin|54/100|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+|-damage|p2a: Harlequin|41/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Harlequin|35/100|[from] Sandstorm
+|-heal|p2a: Harlequin|41/100|[from] Grassy Terrain
+|-heal|p2a: Harlequin|47/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|40/100|[from] Grassy Terrain
+|upkeep
+|turn|24
+|
+|t:|1760369145
+|switch|p1a: Hydrapple|Hydrapple, M, shiny|45/100
+|-terastallize|p2a: Harlequin|Steel
+|move|p2a: Harlequin|Aqua Step|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|38/100
+|-boost|p2a: Harlequin|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydrapple|32/100|[from] Sandstorm
+|-heal|p2a: Harlequin|53/100|[from] Grassy Terrain
+|-heal|p2a: Harlequin|59/100|[from] item: Leftovers
+|-heal|p1a: Hydrapple|38/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|25
+|
+|t:|1760369158
+|-terastallize|p1a: Hydrapple|Fairy
+|move|p2a: Harlequin|Brave Bird|p1a: Hydrapple
+|-damage|p1a: Hydrapple|7/100
+|-damage|p2a: Harlequin|45/100|[from] Recoil
+|move|p1a: Hydrapple|Earth Power|p2a: Harlequin
+|-supereffective|p2a: Harlequin
+|-damage|p2a: Harlequin|0 fnt
+|faint|p2a: Harlequin
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydrapple|0 fnt|[from] Sandstorm
+|faint|p1a: Hydrapple
+|upkeep
+|
+|t:|1760369168
+|switch|p2a: Temple|Garganacl, M, shiny|100/100
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|64/100
+|turn|26
+|
+|t:|1760369176
+|move|p1a: Slowking|Whirlpool|p2a: Temple
+|-supereffective|p2a: Temple
+|-damage|p2a: Temple|93/100
+|-activate|p2a: Temple|move: Whirlpool|[of] p1a: Slowking
+|move|p2a: Temple|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|54/100
+|-start|p1a: Slowking|Salt Cure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowking|48/100|[from] Sandstorm
+|-heal|p2a: Temple|99/100|[from] item: Leftovers
+|-damage|p1a: Slowking|35/100|[from] Salt Cure
+|-damage|p2a: Temple|86/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|27
+|
+|t:|1760369182
+|move|p1a: Slowking|Psychic Noise|p2a: Temple
+|-damage|p2a: Temple|73/100
+|-start|p2a: Temple|move: Heal Block
+|move|p2a: Temple|Curse|p2a: Temple
+|-unboost|p2a: Temple|spe|1
+|-boost|p2a: Temple|atk|1
+|-boost|p2a: Temple|def|1
+|
+|-weather|none
+|-damage|p1a: Slowking|23/100|[from] Salt Cure
+|-damage|p2a: Temple|60/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|28
+|
+|t:|1760369191
+|switch|p1a: Hippowdon|Hippowdon, M, shiny|40/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Temple|Salt Cure|p1a: Hippowdon
+|-resisted|p1a: Hippowdon
+|-damage|p1a: Hippowdon|34/100
+|-start|p1a: Hippowdon|Salt Cure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hippowdon|22/100|[from] Salt Cure
+|-end|p2a: Temple|Whirlpool|[partiallytrapped]|[silent]
+|-end|p2a: Temple|move: Heal Block
+|upkeep
+|turn|29
+|
+|t:|1760369194
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|move|p2a: Temple|Curse|p2a: Temple
+|-unboost|p2a: Temple|spe|1
+|-boost|p2a: Temple|atk|1
+|-boost|p2a: Temple|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Temple|67/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1760369197
+|move|p1a: Excadrill|Earthquake|p2a: Temple
+|-supereffective|p2a: Temple
+|-damage|p2a: Temple|26/100
+|move|p2a: Temple|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Temple|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760369222
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|56/100
+|turn|31
+|inactive|Ao_Blue_Poison has 120 seconds left.
+|
+|t:|1760369257
+|move|p1a: Slowking|Psychic Noise|p2a: Temple
+|-damage|p2a: Temple|19/100
+|-start|p2a: Temple|move: Heal Block
+|move|p2a: Temple|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1760369273
+|switch|p1a: Hippowdon|Hippowdon, M, shiny|22/100
+|turn|32
+|
+|t:|1760369278
+|move|p1a: Hippowdon|Scorching Sands|p2a: Temple
+|-supereffective|p2a: Temple
+|-damage|p2a: Temple|2/100
+|move|p2a: Temple|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|none
+|-end|p2a: Temple|move: Heal Block
+|upkeep
+|
+|t:|1760369282
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|turn|33
+|
+|t:|1760369285
+|move|p1a: Samurott|Ceaseless Edge|p2a: Temple|[miss]
+|-miss|p1a: Samurott|p2a: Temple
+|move|p2a: Temple|Salt Cure|p1a: Samurott
+|-damage|p1a: Samurott|67/100
+|-start|p1a: Samurott|Salt Cure
+|
+|-heal|p2a: Temple|9/100|[from] item: Leftovers
+|-damage|p1a: Samurott|42/100|[from] Salt Cure
+|upkeep
+|turn|34
+|c|☆TackyZack|Bri
+|
+|t:|1760369293
+|move|p1a: Samurott|Flip Turn|p2a: Temple
+|-supereffective|p2a: Temple
+|-damage|p2a: Temple|0 fnt
+|faint|p2a: Temple
+|
+|t:|1760369295
+|switch|p1a: Garganacl|Garganacl, M, shiny|95/100|[from] Flip Turn
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760369297
+|switch|p2a: Tachyon|Iron Crown|41/100
+|turn|35
+|
+|t:|1760369299
+|move|p2a: Tachyon|Tachyon Cutter|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|63/100
+|-supereffective|p1a: Garganacl
+|-crit|p1a: Garganacl
+|-damage|p1a: Garganacl|11/100
+|-hitcount|p1a: Garganacl|2
+|move|p1a: Garganacl|Salt Cure|p2a: Tachyon
+|-resisted|p2a: Tachyon
+|-damage|p2a: Tachyon|34/100
+|-start|p2a: Tachyon|Salt Cure
+|
+|-heal|p1a: Garganacl|17/100|[from] item: Leftovers
+|-damage|p2a: Tachyon|10/100|[from] Salt Cure
+|upkeep
+|turn|36
+|
+|t:|1760369305
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|42/100
+|move|p2a: Tachyon|Volt Switch|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|t:|1760369308
+|-end|p2a: Tachyon|Quark Drive|[silent]
+|switch|p2a: Percussion|Rillaboom, M, shiny|50/100|[from] Volt Switch
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Percussion
+|
+|-heal|p2a: Percussion|56/100|[from] Grassy Terrain
+|upkeep
+|-message|TackyZack forfeited.
+|
+|win|Ao_Blue_Poison
+|raw|TackyZack's rating: 1471 &rarr; <strong>1450</strong><br />(-21 for losing)
+|raw|Ao_Blue_Poison's rating: 1456 &rarr; <strong>1477</strong><br />(+21 for winning)
+|l|☆TackyZack
+|player|p1|
+|l|☆Ao_Blue_Poison
+|player|p2|

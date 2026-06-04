@@ -1,0 +1,328 @@
+|j|☆kopv18
+|j|☆AsierX
+|t:|1779905141
+|gametype|singles
+|player|p1|kopv18|bugcatcher-gen4dp|1488
+|player|p2|AsierX|skierf|1464
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rabsca, F|
+|poke|p1|Walking Wake|
+|poke|p1|Torkoal, F|
+|poke|p1|Great Tusk|
+|poke|p1|Cresselia, F|
+|poke|p1|Zarude|
+|poke|p2|Moltres-Galar|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Boulder|
+|poke|p2|Sandy Shocks|
+|poke|p2|Cinderace, F|
+|teampreview
+|
+|t:|1779905145
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Sandman|Sandy Shocks|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Sandman|ability: Protosynthesis
+|-start|p2a: Sandman|protosynthesisspa
+|turn|1
+|
+|t:|1779905151
+|move|p2a: Sandman|Scorching Sands|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779905160
+|switch|p1a: Zarude|Zarude|100/100
+|turn|2
+|
+|t:|1779905167
+|-end|p2a: Sandman|Protosynthesis|[silent]
+|switch|p2a: Birdbrain|Zapdos-Galar|100/100
+|move|p1a: Zarude|Power Whip|p2a: Birdbrain
+|-resisted|p2a: Birdbrain
+|-damage|p2a: Birdbrain|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779905172
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Birdbrain|U-turn|p1a: Walking Wake
+|-damage|p1a: Walking Wake|74/100
+|
+|t:|1779905178
+|switch|p2a: Battering Ram|Iron Boulder|100/100|[from] U-turn
+|-enditem|p2a: Battering Ram|Booster Energy
+|-activate|p2a: Battering Ram|ability: Quark Drive|[fromitem]
+|-start|p2a: Battering Ram|quarkdrivespe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779905183
+|move|p2a: Battering Ram|Mighty Cleave|p1a: Walking Wake
+|-damage|p1a: Walking Wake|20/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Battering Ram
+|-crit|p2a: Battering Ram
+|-damage|p2a: Battering Ram|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Battering Ram
+|-end|p2a: Battering Ram|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779905191
+|switch|p2a: Sandman|Sandy Shocks|100/100
+|-activate|p2a: Sandman|ability: Protosynthesis
+|-start|p2a: Sandman|protosynthesisspa
+|turn|5
+|
+|t:|1779905196
+|move|p1a: Walking Wake|Draco Meteor|p2a: Sandman
+|-damage|p2a: Sandman|40/100
+|-unboost|p1a: Walking Wake|spa|2
+|move|p2a: Sandman|Thunderbolt|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Sandman|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779905210
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|6
+|
+|t:|1779905213
+|-end|p2a: Sandman|Protosynthesis|[silent]
+|switch|p2a: Big Bonk|Ogerpon-Wellspring, F|100/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779905224
+|switch|p1a: Rabsca|Rabsca, F|100/100
+|move|p2a: Big Bonk|Encore||[still]
+|-fail|p2a: Big Bonk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1779905235
+|move|p1a: Rabsca|Bug Buzz|p2a: Big Bonk
+|-supereffective|p2a: Big Bonk
+|-damage|p2a: Big Bonk|0 fnt
+|faint|p2a: Big Bonk
+|-enditem|p1a: Rabsca|Throat Spray
+|-boost|p1a: Rabsca|spa|1|[from] item: Throat Spray
+|
+|-weather|none
+|upkeep
+|
+|t:|1779905241
+|switch|p2a: Here's the kicker|Cinderace, F|100/100
+|turn|9
+|
+|t:|1779905244
+|move|p1a: Rabsca|Revival Blessing|p1a: Rabsca
+|
+|t:|1779905248
+|-heal|p1: Torkoal|50/100|[from] move: Revival Blessing
+|move|p2a: Here's the kicker|Pyro Ball|p1a: Rabsca
+|-supereffective|p1a: Rabsca
+|-damage|p1a: Rabsca|0 fnt
+|faint|p1a: Rabsca
+|
+|upkeep
+|
+|t:|1779905258
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|10
+|
+|t:|1779905265
+|move|p1a: Cresselia|Moonblast|p2a: Here's the kicker
+|-resisted|p2a: Here's the kicker
+|-damage|p2a: Here's the kicker|89/100
+|-unboost|p2a: Here's the kicker|spa|1
+|move|p2a: Here's the kicker|U-turn|p1a: Cresselia
+|-start|p2a: Here's the kicker|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|51/100
+|
+|t:|1779905268
+|switch|p2a: Sandman|Sandy Shocks|46/100|[from] U-turn
+|
+|-heal|p1a: Cresselia|57/100|[from] item: Leftovers
+|-heal|p2a: Sandman|52/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1779905282
+|move|p2a: Sandman|Thunderbolt|p1a: Cresselia
+|-damage|p1a: Cresselia|37/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-heal|p1a: Cresselia|43/100|[from] item: Leftovers
+|-heal|p2a: Sandman|58/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779905313
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Sandman|Thunderbolt|p1: Cresselia|[notarget]
+|-fail|p2a: Sandman
+|
+|-heal|p2a: Sandman|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779905317
+|switch|p1a: Torkoal|Torkoal, F|50/100
+|-heal|p1a: Torkoal|100/100|[from] move: Lunar Dance
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Sandman|ability: Protosynthesis
+|-start|p2a: Sandman|protosynthesisspa
+|turn|13
+|
+|t:|1779905320
+|move|p1a: Torkoal|Eruption|p2a: Sandman
+|-damage|p2a: Sandman|0 fnt
+|faint|p2a: Sandman
+|-end|p2a: Sandman|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779905323
+|switch|p2a: Here's the kicker|Cinderace, F|89/100
+|turn|14
+|
+|t:|1779905327
+|move|p1a: Torkoal|Earthquake|p2a: Here's the kicker
+|-supereffective|p2a: Here's the kicker
+|-damage|p2a: Here's the kicker|27/100
+|move|p2a: Here's the kicker|High Jump Kick|p1a: Torkoal
+|-start|p2a: Here's the kicker|typechange|Fighting|[from] ability: Libero
+|-damage|p1a: Torkoal|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1779905334
+|move|p1a: Torkoal|Eruption|p2a: Here's the kicker
+|-damage|p2a: Here's the kicker|0 fnt
+|faint|p2a: Here's the kicker
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1779905338
+|switch|p2a: 🔥I'm EVIL‼🔥|Moltres-Galar|100/100
+|turn|16
+|
+|t:|1779905343
+|move|p2a: 🔥I'm EVIL‼🔥|Agility|p2a: 🔥I'm EVIL‼🔥
+|-boost|p2a: 🔥I'm EVIL‼🔥|spe|2
+|move|p1a: Torkoal|Eruption|p2a: 🔥I'm EVIL‼🔥
+|-damage|p2a: 🔥I'm EVIL‼🔥|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1779905347
+|move|p2a: 🔥I'm EVIL‼🔥|Fiery Wrath|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779905353
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|18
+|
+|t:|1779905365
+|move|p2a: 🔥I'm EVIL‼🔥|Air Slash|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|5/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: 🔥I'm EVIL‼🔥
+|-supereffective|p2a: 🔥I'm EVIL‼🔥
+|-damage|p2a: 🔥I'm EVIL‼🔥|0 fnt
+|faint|p2a: 🔥I'm EVIL‼🔥
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|11/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779905367
+|switch|p2a: Birdbrain|Zapdos-Galar|67/100
+|turn|19
+|
+|t:|1779905374
+|-terastallize|p2a: Birdbrain|Steel
+|move|p1a: Great Tusk|Ice Spinner|p2a: Birdbrain
+|-resisted|p2a: Birdbrain
+|-damage|p2a: Birdbrain|54/100
+|move|p2a: Birdbrain|Thunderous Kick|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779905381
+|switch|p1a: Zarude|Zarude|100/100
+|turn|20
+|
+|t:|1779905385
+|-terastallize|p1a: Zarude|Poison
+|move|p2a: Birdbrain|Brave Bird|p1a: Zarude
+|-damage|p1a: Zarude|50/100
+|-damage|p2a: Birdbrain|35/100|[from] Recoil
+|move|p1a: Zarude|Knock Off|p2a: Birdbrain
+|-damage|p2a: Birdbrain|0 fnt
+|-enditem|p2a: Birdbrain|Assault Vest|[from] move: Knock Off|[of] p1a: Zarude
+|faint|p2a: Birdbrain
+|
+|win|kopv18
+|raw|kopv18's rating: 1488 &rarr; <strong>1507</strong><br />(+19 for winning)
+|raw|AsierX's rating: 1464 &rarr; <strong>1445</strong><br />(-19 for losing)
+|l|☆AsierX
+|player|p2|

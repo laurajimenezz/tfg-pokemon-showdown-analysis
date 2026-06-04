@@ -1,0 +1,291 @@
+|j|☆Joshmosh
+|j|☆American Noodle
+|t:|1769309742
+|gametype|singles
+|player|p1|Joshmosh|janitor|1314
+|player|p2|American Noodle|hugh|1360
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Toxapex, F|
+|poke|p1|Greninja-*, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Iron Treads|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Goodra-Hisui, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Rampardos, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1769309795
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Instagram Reels|Greninja, M|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|1
+|
+|t:|1769309807
+|switch|p1a: Dumbo 2|Iron Treads|100/100
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|
+|upkeep
+|turn|2
+|
+|t:|1769309818
+|move|p1a: Dumbo 2|Steel Beam|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-damage|p1a: Dumbo 2|50/100|[from] steelbeam
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769309825
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|3
+|
+|t:|1769309831
+|-end|p1a: Dumbo 2|Quark Drive|[silent]
+|switch|p1a: Slopnado|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Slopnado
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Slopnado|[anim] Ivy Cudgel Water
+|-resisted|p1a: Slopnado
+|-damage|p1a: Slopnado|64/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1769309841
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Slopnado|[anim] Ivy Cudgel Water
+|-resisted|p1a: Slopnado
+|-damage|p1a: Slopnado|11/100
+|move|p1a: Slopnado|U-turn|p2a: Ogerpon
+|-damage|p2a: Ogerpon|87/100
+|
+|t:|1769309855
+|switch|p1a: Instagram Reels|Greninja, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1769309907
+|move|p1a: Instagram Reels|Toxic Spikes|p2a: Ogerpon
+|-start|p1a: Instagram Reels|typechange|Poison|[from] ability: Protean
+|-sidestart|p2: American Noodle|move: Toxic Spikes
+|move|p2a: Ogerpon|Power Whip|p1a: Instagram Reels
+|-resisted|p1a: Instagram Reels
+|-damage|p1a: Instagram Reels|46/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1769309916
+|move|p1a: Instagram Reels|Toxic Spikes|p2a: Ogerpon
+|-sidestart|p2: American Noodle|move: Toxic Spikes
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Instagram Reels|[anim] Ivy Cudgel Water
+|-damage|p1a: Instagram Reels|0 fnt
+|faint|p1a: Instagram Reels
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769309921
+|switch|p1a: Toxapecks|Toxapex, F|100/100
+|turn|7
+|
+|t:|1769309928
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Toxapecks|[anim] Ivy Cudgel Water
+|-resisted|p1a: Toxapecks
+|-damage|p1a: Toxapecks|51/100
+|move|p1a: Toxapecks|Gunk Shot|p2a: Ogerpon|[miss]
+|-miss|p1a: Toxapecks|p2a: Ogerpon
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1769309933
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Toxapecks|Gunk Shot|p2a: Ogerpon
+|-damage|p2a: Ogerpon|9/100
+|-status|p2a: Ogerpon|psn
+|
+|-damage|p2a: Ogerpon|0 fnt|[from] psn
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|upkeep
+|
+|t:|1769309942
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|-status|p2a: Ribombee|tox
+|turn|9
+|
+|t:|1769309946
+|move|p2a: Ribombee|Sticky Web|p1a: Toxapecks
+|-sidestart|p1: Joshmosh|move: Sticky Web
+|move|p1a: Toxapecks|Gunk Shot|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-crit|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100 tox
+|
+|-damage|p2a: Ribombee|0 fnt|[from] psn
+|faint|p2a: Ribombee
+|upkeep
+|
+|t:|1769309954
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|10
+|
+|t:|1769309961
+|switch|p1a: Slopnado|Pelipper, F|11/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Slopnado
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1769309967
+|move|p2a: Gholdengo|Shadow Ball|p1a: Slopnado
+|-damage|p1a: Slopnado|0 fnt
+|faint|p1a: Slopnado
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769309979
+|switch|p1a: Ghislane Maxwell|Hoopa-Unbound|100/100
+|-activate|p1a: Ghislane Maxwell|move: Sticky Web
+|-unboost|p1a: Ghislane Maxwell|spe|1
+|turn|12
+|
+|t:|1769310027
+|move|p2a: Gholdengo|Make It Rain|p1a: Ghislane Maxwell
+|-damage|p1a: Ghislane Maxwell|31/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Ghislane Maxwell|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2a: Gholdengo|Air Balloon
+|faint|p2a: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1769310034
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-status|p2a: Raging Bolt|tox
+|turn|13
+|
+|t:|1769310041
+|move|p2a: Raging Bolt|Volt Switch|p1a: Ghislane Maxwell
+|-damage|p1a: Ghislane Maxwell|0 fnt
+|faint|p1a: Ghislane Maxwell
+|
+|t:|1769310044
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Rampardos|Rampardos, M|100/100|[from] Volt Switch
+|-status|p2a: Rampardos|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Rampardos|95/100 tox|[from] psn
+|upkeep
+|
+|t:|1769310052
+|switch|p1a: Dumbo 2|Iron Treads|50/100
+|-activate|p1a: Dumbo 2|move: Sticky Web
+|-unboost|p1a: Dumbo 2|spe|1
+|turn|14
+|
+|t:|1769310059
+|move|p2a: Rampardos|Fire Punch|p1a: Dumbo 2
+|-supereffective|p1a: Dumbo 2
+|-damage|p1a: Dumbo 2|0 fnt
+|faint|p1a: Dumbo 2
+|-end|p1a: Dumbo 2|Quark Drive|[silent]
+|
+|-weather|none
+|-damage|p2a: Rampardos|83/100 tox|[from] psn
+|upkeep
+|
+|t:|1769310063
+|switch|p1a: Toxapecks|Toxapex, F|51/100
+|-activate|p1a: Toxapecks|move: Sticky Web
+|-unboost|p1a: Toxapecks|spe|1
+|turn|15
+|
+|t:|1769310071
+|move|p2a: Rampardos|Thunder Punch|p1a: Toxapecks
+|-supereffective|p1a: Toxapecks
+|-damage|p1a: Toxapecks|0 fnt
+|faint|p1a: Toxapecks
+|
+|-damage|p2a: Rampardos|65/100 tox|[from] psn
+|upkeep
+|
+|t:|1769310073
+|switch|p1a: Julian|Goodra-Hisui, F|100/100
+|-activate|p1a: Julian|move: Sticky Web
+|-unboost|p1a: Julian|spe|1
+|turn|16
+|
+|t:|1769310086
+|-terastallize|p1a: Julian|Stellar
+|move|p2a: Rampardos|Fire Punch|p1a: Julian
+|-damage|p1a: Julian|46/100
+|-ability|p1a: Julian|Gooey
+|-unboost|p2a: Rampardos|spe|1
+|move|p1a: Julian|Ice Beam|p2a: Rampardos
+|-damage|p2a: Rampardos|5/100 tox
+|
+|-damage|p2a: Rampardos|0 fnt|[from] psn
+|faint|p2a: Rampardos
+|upkeep
+|
+|t:|1769310091
+|switch|p2a: Raging Bolt|Raging Bolt|100/100 tox
+|turn|17
+|
+|t:|1769310136
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Julian
+|-damage|p1a: Julian|0 fnt
+|-unboost|p2a: Raging Bolt|spa|2
+|faint|p1a: Julian
+|
+|win|American Noodle
+|raw|Joshmosh's rating: 1314 &rarr; <strong>1297</strong><br />(-17 for losing)
+|raw|American Noodle's rating: 1360 &rarr; <strong>1377</strong><br />(+17 for winning)
+|c|☆American Noodle|gg
+|l|☆Joshmosh
+|player|p1|
+|l|☆American Noodle
+|player|p2|

@@ -1,0 +1,161 @@
+|j|☆cocamatt
+|j|‽blueisnoob
+|t:|1760354874
+|gametype|singles
+|player|p1|cocamatt|2|1594
+|player|p2|blueisnoob|170|1590
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Corviknight, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, M|
+|poke|p2|Zapdos|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cocamatt)
+|
+|t:|1760354907
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1760354910
+|move|p2a: Zapdos|Thunder Wave|p1a: Rillaboom
+|-status|p1a: Rillaboom|par
+|cant|p1a: Rillaboom|par
+|
+|upkeep
+|turn|2
+|
+|t:|1760354914
+|move|p2a: Zapdos|Hurricane|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|t:|1760354919
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|3
+|
+|t:|1760354921
+|move|p1a: Dragapult|Dragon Darts|p2a: Zapdos
+|-damage|p2a: Zapdos|84/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Zapdos
+|-damage|p2a: Zapdos|67/100
+|move|p2a: Zapdos|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|
+|upkeep
+|turn|4
+|
+|t:|1760354925
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Dragapult|U-turn|p2a: Zapdos
+|-damage|p2a: Zapdos|86/100
+|
+|t:|1760354929
+|switch|p1a: Hawlucha|Hawlucha, F|100/100|[from] U-turn
+|-enditem|p1a: Hawlucha|Grassy Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Grassy Seed
+|
+|-heal|p2a: Zapdos|92/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1760354932
+|-terastallize|p1a: Hawlucha|Electric
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Zapdos|Thunder Wave|p1a: Hawlucha
+|-immune|p1a: Hawlucha
+|
+|upkeep
+|turn|6
+|
+|t:|1760354935
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Zapdos|Hurricane|p1a: Hawlucha|[miss]
+|-miss|p2a: Zapdos|p1a: Hawlucha
+|
+|upkeep
+|turn|7
+|
+|t:|1760354941
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Zapdos|Hurricane|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|68/100
+|-start|p1a: Hawlucha|confusion
+|
+|-heal|p1a: Hawlucha|74/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1760354948
+|-activate|p1a: Hawlucha|confusion
+|move|p1a: Hawlucha|Tera Blast|p2a: Zapdos|[anim] Tera Blast Electric
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-heal|p1a: Hawlucha|80/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1760354951
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|9
+|
+|t:|1760354956
+|move|p2a: Kingambit|Sucker Punch|p1a: Hawlucha
+|-damage|p1a: Hawlucha|42/100
+|-end|p1a: Hawlucha|confusion
+|move|p1a: Hawlucha|Tera Blast|p2a: Kingambit|[anim] Tera Blast Electric
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1760354967
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|10
+|-message|blueisnoob forfeited.
+|
+|win|cocamatt
+|raw|cocamatt's rating: 1594 &rarr; <strong>1614</strong><br />(+20 for winning)
+|raw|blueisnoob's rating: 1590 &rarr; <strong>1570</strong><br />(-20 for losing)
+|l|‽blueisnoob
+|player|p2|
+|l|☆cocamatt
+|player|p1|

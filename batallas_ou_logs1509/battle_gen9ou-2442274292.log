@@ -1,0 +1,147 @@
+|j|☆LandenGamerMan
+|j|☆LovingsBoringPupil
+|t:|1757963720
+|gametype|singles
+|player|p1|LandenGamerMan|169|1214
+|player|p2|LovingsBoringPupil|170|1173
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Dondozo, F|
+|poke|p1|Gholdengo|
+|poke|p1|Cinderace, F|
+|poke|p1|Raging Bolt|
+|poke|p2|Dondozo, M|
+|poke|p2|Blissey, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Toxapex, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LovingsBoringPupil)
+|inactive|LandenGamerMan has 120 seconds left.
+|
+|t:|1757963758
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1757963767
+|move|p1a: Landorus|Taunt|p2a: Weezing
+|-start|p2a: Weezing|move: Taunt
+|cant|p2a: Weezing|move: Taunt|Will-O-Wisp
+|
+|upkeep
+|turn|2
+|
+|t:|1757963777
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Weezing|atk|1
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|Earth Power|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|3
+|
+|t:|1757963788
+|move|p1a: Landorus|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|97/100
+|
+|t:|1757963791
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Corviknight|Body Press|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|76/100
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757963803
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Blissey
+|-damage|p2a: Blissey|81/100
+|
+|-heal|p2a: Blissey|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1757963829
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Blissey|Stealth Rock|p1a: Dragonite
+|-sidestart|p1: LandenGamerMan|move: Stealth Rock
+|
+|-heal|p2a: Blissey|93/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1757963839
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|7
+|
+|t:|1757963848
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Weezing
+|-damage|p2a: Weezing|51/100
+|move|p2a: Weezing|Strange Steam|p1a: Dragonite
+|-damage|p1a: Dragonite|71/100
+|
+|upkeep
+|turn|8
+|
+|t:|1757963859
+|-terastallize|p2a: Weezing|Ghost
+|move|p1a: Dragonite|Extreme Speed|p2a: Weezing
+|-immune|p2a: Weezing
+|move|p2a: Weezing|Will-O-Wisp|p1a: Dragonite
+|-status|p1a: Dragonite|brn
+|
+|-damage|p1a: Dragonite|65/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1757963870
+|move|p1a: Dragonite|Earthquake|p2a: Weezing
+|-damage|p2a: Weezing|32/100
+|move|p2a: Weezing|Pain Split|p1a: Dragonite
+|-sethp|p1a: Dragonite|49/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|47/100|[from] move: Pain Split
+|
+|-damage|p1a: Dragonite|43/100 brn|[from] brn
+|upkeep
+|turn|10
+|-message|LandenGamerMan forfeited.
+|
+|win|LovingsBoringPupil
+|raw|LandenGamerMan's rating: 1214 &rarr; <strong>1186</strong><br />(-28 for losing)
+|raw|LovingsBoringPupil's rating: 1173 &rarr; <strong>1201</strong><br />(+28 for winning)
+|l|☆LandenGamerMan
+|player|p1|

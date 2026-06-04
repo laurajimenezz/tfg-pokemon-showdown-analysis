@@ -1,0 +1,159 @@
+|j|☆wolwing
+|j|☆adrian098
+|t:|1758965167
+|gametype|singles
+|player|p1|wolwing|101|1303
+|player|p2|adrian098|lucas|1367
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Iron Treads|
+|poke|p1|Ninetales, M|
+|poke|p1|Scovillain, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Polteageist-Antique|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Gholdengo|
+|poke|p2|Ribombee, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by adrian098)
+|
+|t:|1758965173
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|1
+|
+|t:|1758965181
+|move|p1a: Grimmsnarl|Taunt|p2a: Ribombee
+|-start|p2a: Ribombee|move: Taunt
+|cant|p2a: Ribombee|move: Taunt|Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1758965186
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Ribombee
+|-status|p2a: Ribombee|par
+|move|p2a: Ribombee|Moonblast|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1758965203
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|3
+|
+|t:|1758965208
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Indeedee|Healing Wish|p1a: Indeedee
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1758965214
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|4
+|
+|t:|1758965225
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Samurott
+|-sidestart|p2: adrian098|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1758965232
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Samurott|Aqua Cutter|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|47/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|53/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1758965239
+|move|p1a: Ninetales|Memento|p2a: Samurott
+|-unboost|p2a: Samurott|atk|2
+|-unboost|p2a: Samurott|spa|2
+|faint|p1a: Ninetales
+|move|p2a: Samurott|Ceaseless Edge|p1: Ninetales|[notarget]
+|-fail|p2a: Samurott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758965242
+|switch|p1a: Scovillain|Scovillain, F|100/100
+|turn|7
+|
+|t:|1758965250
+|switch|p2a: Ribombee|Ribombee, F|100/100 par
+|-damage|p2a: Ribombee|76/100 par|[from] Stealth Rock
+|move|p1a: Scovillain|Growth|p1a: Scovillain
+|-boost|p1a: Scovillain|atk|2
+|-boost|p1a: Scovillain|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ribombee|82/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1758965255
+|move|p1a: Scovillain|Flamethrower|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758965267
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1758965274
+|move|p1a: Scovillain|Flamethrower|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|adrian098 forfeited.
+|
+|win|wolwing
+|raw|wolwing's rating: 1303 &rarr; <strong>1327</strong><br />(+24 for winning)
+|raw|adrian098's rating: 1367 &rarr; <strong>1343</strong><br />(-24 for losing)
+|l|☆adrian098
+|player|p2|
+|l|☆wolwing
+|player|p1|

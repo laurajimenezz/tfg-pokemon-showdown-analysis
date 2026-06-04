@@ -1,0 +1,218 @@
+|j|☆LOYVA
+|j|☆Tsaun
+|t:|1779673977
+|gametype|singles
+|player|p1|LOYVA|170|1296
+|player|p2|Tsaun|169|1289
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Lurantis, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Great Tusk|
+|poke|p1|Quagsire, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Ninetales, M|
+|poke|p2|Walking Wake|
+|poke|p2|Great Tusk|
+|poke|p2|Raging Bolt|
+|poke|p2|Ceruledge, M|
+|poke|p2|Heatran, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LOYVA)
+|
+|t:|1779673988
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|1
+|
+|t:|1779673995
+|-terastallize|p1a: Dragonite|Normal
+|move|p2a: Walking Wake|Flip Turn|p1a: Dragonite
+|-damage|p1a: Dragonite|92/100
+|
+|t:|1779674001
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Heatran|Heatran, M|100/100|[from] Flip Turn
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1779674011
+|move|p1a: Dragonite|Extreme Speed|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|74/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Magma Storm|p1a: Dragonite
+|-damage|p1a: Dragonite|35/100
+|-activate|p1a: Dragonite|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Dragonite|22/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1779674029
+|-terastallize|p2a: Heatran|Grass
+|move|p1a: Dragonite|Earthquake|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|50/100
+|move|p2a: Heatran|Stealth Rock|p1a: Dragonite
+|-sidestart|p1: LOYVA|move: Stealth Rock
+|
+|-damage|p1a: Dragonite|10/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1779674039
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|move|p1a: Dragonite|Fire Punch|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|71/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|-end|p1a: Dragonite|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|5
+|
+|t:|1779674050
+|move|p2a: Ceruledge|Endure|p2a: Ceruledge
+|-singleturn|p2a: Ceruledge|move: Endure
+|move|p1a: Dragonite|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-activate|p2a: Ceruledge|move: Endure
+|-damage|p2a: Ceruledge|1/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|-enditem|p2a: Ceruledge|Weakness Policy
+|-boost|p2a: Ceruledge|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Ceruledge|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|6
+|
+|t:|1779674065
+|move|p2a: Ceruledge|Bitter Blade|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-heal|p2a: Ceruledge|6/100|[from] drain|[of] p1a: Dragonite
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1779674076
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|-damage|p1a: Quagsire|94/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1779674081
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Quagsire|Earthquake|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Quagsire|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779674089
+|switch|p2a: Heatran|Heatran, M, tera:Grass|50/100
+|turn|8
+|
+|t:|1779674103
+|switch|p1a: Lurantis|Lurantis, F|100/100
+|-damage|p1a: Lurantis|88/100|[from] Stealth Rock
+|move|p2a: Heatran|Solar Beam||[still]
+|-prepare|p2a: Heatran|Solar Beam
+|-anim|p2a: Heatran|Solar Beam|p1a: Lurantis
+|-resisted|p1a: Lurantis
+|-damage|p1a: Lurantis|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lurantis|57/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1779674114
+|move|p2a: Heatran|Magma Storm|p1a: Lurantis
+|-supereffective|p1a: Lurantis
+|-damage|p1a: Lurantis|0 fnt
+|faint|p1a: Lurantis
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779674122
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1779674130
+|move|p2a: Heatran|Magma Storm|p1a: Slowking
+|-damage|p1a: Slowking|42/100
+|-activate|p1a: Slowking|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Slowking|Sludge Bomb|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Slowking|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1779674138
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|11
+|
+|t:|1779674146
+|move|p2a: Walking Wake|Hydro Steam|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779674155
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|-damage|p1a: Quagsire|94/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1779674159
+|move|p2a: Walking Wake|Hydro Steam|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|LOYVA forfeited.
+|
+|win|Tsaun
+|raw|LOYVA's rating: 1296 &rarr; <strong>1270</strong><br />(-26 for losing)
+|raw|Tsaun's rating: 1289 &rarr; <strong>1315</strong><br />(+26 for winning)
+|l|☆LOYVA
+|player|p1|
+|l|☆Tsaun
+|player|p2|

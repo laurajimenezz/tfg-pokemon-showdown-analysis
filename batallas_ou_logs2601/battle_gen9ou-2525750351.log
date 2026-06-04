@@ -1,0 +1,280 @@
+|j|☆agent pod
+|j|☆hackingefidiant
+|t:|1769319605
+|gametype|singles
+|player|p1|agent pod|rancher|1512
+|player|p2|hackingefidiant|unknownf|1542
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Slither Wing|
+|poke|p1|Toxapex, F|
+|poke|p1|Necrozma|
+|poke|p1|Cloyster, F|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p2|Kyurem|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|t:|1769319631
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|1
+|
+|t:|1769319639
+|move|p1a: Slither Wing|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|79/100
+|-damage|p1a: Slither Wing|84/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|
+|t:|1769319645
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Toxapex|Toxapex, F|100/100|[from] U-turn
+|move|p2a: Alomomola|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|97/100
+|
+|upkeep
+|turn|2
+|
+|t:|1769319652
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Toxapex|Sludge Bomb|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|93/100
+|
+|upkeep
+|turn|3
+|
+|t:|1769319689
+|switch|p1a: Necrozma|Necrozma|100/100
+|move|p2a: Slowking|Future Sight|p1a: Necrozma
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|4
+|
+|t:|1769319705
+|move|p1a: Necrozma|Earth Power|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|56/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1769319714
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1769319732
+|move|p2a: Samurott|Ceaseless Edge|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|20/100
+|-enditem|p1a: Necrozma|Weakness Policy
+|-boost|p1a: Necrozma|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Necrozma|spa|2|[from] item: Weakness Policy
+|-sidestart|p1: agent pod|Spikes
+|move|p1a: Necrozma|Earth Power|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Necrozma|move: Future Sight
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|upkeep
+|
+|t:|1769319754
+|switch|p2a: Kyurem|Kyurem|100/100
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-ability|p2a: Kyurem|Pressure
+|-damage|p1a: Great Tusk|88/100|[from] Spikes
+|turn|6
+|
+|t:|1769319769
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slither Wing|Slither Wing|84/100
+|-damage|p1a: Slither Wing|72/100|[from] Spikes
+|move|p2a: Kyurem|Freeze-Dry|p1a: Slither Wing
+|-damage|p1a: Slither Wing|37/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1769319778
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Slither Wing|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|77/100
+|-damage|p1a: Slither Wing|20/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|
+|t:|1769319783
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Cloyster|Cloyster, F|100/100|[from] U-turn
+|-damage|p1a: Cloyster|88/100|[from] Spikes
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1769319808
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Alomomola|Scald|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|62/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1769319837
+|move|p1a: Cloyster|Icicle Spear|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|71/100
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|66/100
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|60/100
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|54/100
+|-resisted|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|44/100
+|-hitcount|p2a: Alomomola|5
+|move|p2a: Alomomola|Scald|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|33/100
+|-status|p1a: Cloyster|brn
+|
+|-damage|p1a: Cloyster|27/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1769319852
+|move|p1a: Cloyster|Icicle Spear|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|41/100
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|38/100
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|35/100
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|32/100
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|29/100
+|-hitcount|p2a: Alomomola|5
+|move|p2a: Alomomola|Flip Turn|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|17/100 brn
+|
+|t:|1769319860
+|switch|p2a: Kyurem|Kyurem|100/100|[from] Flip Turn
+|-ability|p2a: Kyurem|Pressure
+|
+|-damage|p1a: Cloyster|11/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1769319866
+|move|p1a: Cloyster|Icicle Spear|p2a: Kyurem
+|-damage|p2a: Kyurem|91/100
+|-damage|p2a: Kyurem|79/100
+|-damage|p2a: Kyurem|67/100
+|-damage|p2a: Kyurem|56/100
+|-crit|p2a: Kyurem
+|-damage|p2a: Kyurem|41/100
+|-hitcount|p2a: Kyurem|5
+|move|p2a: Kyurem|Freeze-Dry|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|t:|1769319879
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Spikes
+|turn|12
+|
+|t:|1769319920
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Kyurem|[anim] Ivy Cudgel Rock
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1769319964
+|switch|p2a: Slowking|Slowking-Galar, M|89/100
+|turn|13
+|
+|t:|1769319981
+|-terastallize|p1a: Ogerpon|Rock
+|detailschange|p1a: Ogerpon|Ogerpon-Cornerstone-Tera, F, tera:Rock
+|-ability|p1a: Ogerpon|Embody Aspect (Cornerstone)|boost
+|-boost|p1a: Ogerpon|def|1
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Slowking|Sludge Bomb|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|67/100
+|-status|p1a: Ogerpon|psn
+|
+|-damage|p1a: Ogerpon|55/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1769320025
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Great Tusk|[anim] Ivy Cudgel Rock
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|77/100
+|
+|-damage|p1a: Ogerpon|42/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1769320033
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Great Tusk|[anim] Ivy Cudgel Rock
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|52/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon-Cornerstone, F|[silent]
+|
+|upkeep
+|-message|agent pod forfeited.
+|
+|win|hackingefidiant
+|raw|agent pod's rating: 1512 &rarr; <strong>1494</strong><br />(-18 for losing)
+|raw|hackingefidiant's rating: 1542 &rarr; <strong>1560</strong><br />(+18 for winning)
+|l|☆agent pod
+|player|p1|

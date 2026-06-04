@@ -1,0 +1,380 @@
+|j|☆goober #1048
+|j|☆Tamihig
+|t:|1779843692
+|gametype|singles
+|player|p1|goober #1048|gambler|1040
+|player|p2|Tamihig|265|1031
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Numel, F|
+|poke|p2|Iron Moth|
+|poke|p2|Gliscor, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tamihig)
+|
+|t:|1779843697
+|teamsize|p1|1
+|teamsize|p2|6
+|start
+|switch|p1a: Numel|Numel, F, shiny|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|1
+|
+|t:|1779843701
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Numel|Stockpile|p1a: Numel
+|-start|p1a: Numel|stockpile1
+|-boost|p1a: Numel|def|2
+|-boost|p1a: Numel|spd|2
+|
+|upkeep
+|turn|2
+|
+|t:|1779843703
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|move|p1a: Numel|Stockpile|p1a: Numel
+|-start|p1a: Numel|stockpile2
+|-boost|p1a: Numel|def|2
+|-boost|p1a: Numel|spd|2
+|
+|upkeep
+|turn|3
+|
+|t:|1779843705
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|move|p1a: Numel|Stockpile|p1a: Numel
+|-start|p1a: Numel|stockpile3
+|-boost|p1a: Numel|def|2
+|-boost|p1a: Numel|spd|2
+|
+|upkeep
+|turn|4
+|
+|t:|1779843707
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Numel|Curse|p1a: Numel
+|-unboost|p1a: Numel|spe|2
+|-boost|p1a: Numel|atk|2
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1779843709
+|move|p2a: Gliscor|Facade|p1a: Numel
+|-damage|p1a: Numel|86/100
+|move|p1a: Numel|Curse|p1a: Numel
+|-unboost|p1a: Numel|spe|2
+|-boost|p1a: Numel|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1779843711
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Numel|Curse|p1a: Numel
+|-unboost|p1a: Numel|spe|2
+|-boost|p1a: Numel|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1779843714
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|move|p1a: Numel|Flare Blitz|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|21/100
+|-damage|p1a: Numel|59/100|[from] Recoil
+|
+|upkeep
+|turn|8
+|
+|t:|1779843718
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|move|p1a: Numel|Flare Blitz|p2a: Gliscor
+|-damage|p2a: Gliscor|17/100 tox
+|-damage|p1a: Numel|31/100|[from] Recoil
+|
+|-heal|p2a: Gliscor|29/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1779843723
+|move|p2a: Gliscor|Facade|p1a: Numel
+|-damage|p1a: Numel|17/100
+|move|p1a: Numel|Rest|p1a: Numel
+|-status|p1a: Numel|slp|[from] move: Rest
+|-heal|p1a: Numel|100/100 slp|[silent]
+|
+|-heal|p2a: Gliscor|41/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1779843725
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|cant|p1a: Numel|slp
+|
+|-heal|p2a: Gliscor|53/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1779843729
+|-terastallize|p1a: Numel|Grass
+|move|p2a: Gliscor|Facade|p1a: Numel
+|-damage|p1a: Numel|70/100 slp
+|cant|p1a: Numel|slp
+|
+|-heal|p2a: Gliscor|66/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1779843732
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|-curestatus|p1a: Numel|slp|[msg]
+|move|p1a: Numel|Flare Blitz|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|48/100
+|-damage|p1a: Numel|49/100|[from] Recoil
+|
+|upkeep
+|turn|13
+|
+|t:|1779843736
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Numel
+|-resisted|p1a: Numel
+|-damage|p1a: Numel|41/100
+|move|p1a: Numel|Rest|p1a: Numel
+|-status|p1a: Numel|slp|[from] move: Rest
+|-heal|p1a: Numel|100/100 slp|[silent]
+|
+|upkeep
+|turn|14
+|
+|t:|1779843739
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|cant|p1a: Numel|slp
+|
+|upkeep
+|turn|15
+|
+|t:|1779843740
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Gliscor|Gliscor, F|66/100 tox
+|cant|p1a: Numel|slp
+|
+|-heal|p2a: Gliscor|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1779843742
+|move|p2a: Gliscor|Earthquake|p1a: Numel
+|-resisted|p1a: Numel
+|-damage|p1a: Numel|93/100 slp
+|-curestatus|p1a: Numel|slp|[msg]
+|move|p1a: Numel|Flare Blitz|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|-damage|p1a: Numel|67/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1779843742
+|switch|p2a: Iron Moth|Iron Moth|21/100
+|turn|17
+|
+|t:|1779843747
+|move|p1a: Numel|Rest|p1a: Numel
+|-status|p1a: Numel|slp|[from] move: Rest
+|-heal|p1a: Numel|100/100 slp|[silent]
+|move|p2a: Iron Moth|Whirlwind||[still]
+|-fail|p2a: Iron Moth
+|
+|upkeep
+|turn|18
+|
+|t:|1779843750
+|move|p2a: Iron Moth|Toxic Spikes|p1a: Numel
+|-sidestart|p1: goober #1048|move: Toxic Spikes
+|cant|p1a: Numel|slp
+|
+|upkeep
+|turn|19
+|
+|t:|1779843752
+|move|p2a: Iron Moth|Fiery Dance|p1a: Numel
+|-supereffective|p1a: Numel
+|-damage|p1a: Numel|84/100 slp
+|cant|p1a: Numel|slp
+|
+|upkeep
+|turn|20
+|
+|t:|1779843754
+|-curestatus|p1a: Numel|slp|[msg]
+|move|p1a: Numel|Flare Blitz|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|-damage|p1a: Numel|77/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1779843754
+|switch|p2a: Raging Bolt|Raging Bolt|48/100
+|turn|21
+|
+|t:|1779843759
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Numel|Flare Blitz|p2a: Hatterene
+|-damage|p2a: Hatterene|12/100
+|-damage|p1a: Numel|49/100|[from] Recoil
+|
+|-heal|p2a: Hatterene|18/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1779843762
+|switch|p2a: Raging Bolt|Raging Bolt|48/100
+|move|p1a: Numel|Rest|p1a: Numel
+|-status|p1a: Numel|slp|[from] move: Rest
+|-heal|p1a: Numel|100/100 slp|[silent]
+|
+|upkeep
+|turn|23
+|
+|t:|1779843764
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|18/100
+|cant|p1a: Numel|slp
+|
+|-heal|p2a: Hatterene|24/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1779843766
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|cant|p1a: Numel|slp
+|
+|upkeep
+|turn|25
+|
+|t:|1779843768
+|move|p2a: Zamazenta|Close Combat|p1a: Numel
+|-damage|p1a: Numel|83/100 slp
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|-curestatus|p1a: Numel|slp|[msg]
+|move|p1a: Numel|Flare Blitz|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-damage|p1a: Numel|44/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1779843768
+|switch|p2a: Raging Bolt|Raging Bolt|48/100
+|turn|26
+|
+|t:|1779843774
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Numel|Flare Blitz|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|-damage|p1a: Numel|13/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1779843774
+|switch|p2a: Raging Bolt|Raging Bolt|48/100
+|turn|27
+|
+|t:|1779843776
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Numel|Rest|p1a: Numel
+|-status|p1a: Numel|slp|[from] move: Rest
+|-heal|p1a: Numel|100/100 slp|[silent]
+|
+|upkeep
+|turn|28
+|
+|t:|1779843778
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|cant|p1a: Numel|slp
+|
+|upkeep
+|turn|29
+|
+|t:|1779843779
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Numel
+|-damage|p1a: Numel|81/100 slp
+|cant|p1a: Numel|slp
+|
+|upkeep
+|turn|30
+|
+|t:|1779843782
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|24/100
+|-curestatus|p1a: Numel|slp|[msg]
+|move|p1a: Numel|Flare Blitz|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|-damage|p1a: Numel|73/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1779843782
+|switch|p2a: Raging Bolt|Raging Bolt|48/100
+|turn|31
+|
+|t:|1779843785
+|move|p2a: Raging Bolt|Thunderclap|p1a: Numel
+|-resisted|p1a: Numel
+|-damage|p1a: Numel|69/100
+|move|p1a: Numel|Flare Blitz|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|-damage|p1a: Numel|50/100|[from] Recoil
+|
+|win|goober #1048
+|raw|goober #1048's rating: 1040 &rarr; <strong>1073</strong><br />(+33 for winning)
+|raw|Tamihig's rating: 1031 &rarr; <strong>1017</strong><br />(-14 for losing)
+|l|☆Tamihig
+|player|p2|

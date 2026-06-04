@@ -1,0 +1,233 @@
+|j|☆cry042
+|j|☆alexandrelins883
+|t:|1759067200
+|gametype|singles
+|player|p1|cry042|101|1100
+|player|p2|alexandrelins883|hilbert|1119
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Incineroar, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Blaziken, F|
+|poke|p1|Skeledirge, F|
+|poke|p1|Charizard, M|
+|poke|p1|Delphox, F|
+|poke|p2|Flygon, F|
+|poke|p2|Lucario, M|
+|poke|p2|Gengar, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Lapras, M|
+|poke|p2|Arcanine-Hisui, M|
+|teampreview
+|
+|t:|1759067215
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Blaziken|Blaziken, F, shiny|100/100
+|switch|p2a: Lapras|Lapras, M, shiny|100/100
+|turn|1
+|
+|t:|1759067224
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Lapras|Hydro Pump|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1759067235
+|move|p1a: Blaziken|Close Combat|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|7/100
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|move|p2a: Lapras|Hydro Pump|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1759067246
+|switch|p1a: Cinderace|Cinderace, F, shiny|100/100
+|turn|3
+|
+|t:|1759067251
+|move|p1a: Cinderace|Swords Dance|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-boost|p1a: Cinderace|atk|2
+|move|p2a: Lapras|Hydro Pump|p1a: Cinderace
+|-damage|p1a: Cinderace|30/100
+|-enditem|p1a: Cinderace|Red Card|[of] p2a: Lapras
+|drag|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|upkeep
+|turn|4
+|
+|t:|1759067267
+|move|p2a: Iron Valiant|Moonblast|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1759067273
+|switch|p1a: Charizard|Charizard, M, shiny|100/100
+|turn|5
+|
+|t:|1759067279
+|move|p2a: Iron Valiant|Moonblast|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|68/100
+|move|p1a: Charizard|Air Slash|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1759067290
+|switch|p2a: Lapras|Lapras, M, shiny|7/100
+|turn|6
+|
+|t:|1759067301
+|move|p1a: Charizard|Air Slash|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|upkeep
+|
+|t:|1759067308
+|switch|p2a: Gengar|Gengar, M, shiny|100/100
+|turn|7
+|
+|t:|1759067318
+|move|p2a: Gengar|Hex|p1a: Charizard
+|-damage|p1a: Charizard|21/100
+|move|p1a: Charizard|Fire Blast|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|t:|1759067328
+|switch|p2a: Arcanine|Arcanine-Hisui, M, shiny|100/100
+|turn|8
+|
+|t:|1759067337
+|move|p2a: Arcanine|Extreme Speed|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1759067342
+|switch|p1a: Incineroar|Incineroar, M, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Arcanine|atk|1
+|turn|9
+|
+|t:|1759067351
+|move|p1a: Incineroar|Fake Out|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|92/100
+|cant|p2a: Arcanine|flinch
+|
+|upkeep
+|turn|10
+|
+|t:|1759067358
+|move|p2a: Arcanine|Head Smash|p1a: Incineroar|[miss]
+|-miss|p2a: Arcanine|p1a: Incineroar
+|move|p1a: Incineroar|Knock Off|p2a: Arcanine
+|-damage|p2a: Arcanine|30/100
+|-enditem|p2a: Arcanine|Focus Sash|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|11
+|
+|t:|1759067374
+|move|p2a: Arcanine|Head Smash|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|6/100
+|move|p1a: Incineroar|Knock Off|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-heal|p1a: Incineroar|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1759067386
+|switch|p2a: Lucario|Lucario, M, shiny|100/100
+|turn|12
+|
+|t:|1759067390
+|move|p2a: Lucario|Extreme Speed|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-damage|p2a: Lucario|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1759067396
+|switch|p1a: Delphox|Delphox, F, shiny|100/100
+|turn|13
+|
+|t:|1759067408
+|move|p2a: Lucario|Extreme Speed|p1a: Delphox
+|-damage|p1a: Delphox|53/100
+|-damage|p2a: Lucario|81/100|[from] item: Life Orb
+|move|p1a: Delphox|Psychic|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|upkeep
+|
+|t:|1759067419
+|switch|p2a: Flygon|Flygon, F, shiny|100/100
+|turn|14
+|
+|t:|1759067425
+|move|p2a: Flygon|Earthquake|p1a: Delphox
+|-supereffective|p1a: Delphox
+|-damage|p1a: Delphox|0 fnt
+|faint|p1a: Delphox
+|
+|upkeep
+|
+|t:|1759067433
+|switch|p1a: Skeledirge|Skeledirge, F, shiny|100/100
+|turn|15
+|
+|t:|1759067447
+|move|p2a: Flygon|Earthquake|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|38/100
+|move|p1a: Skeledirge|Curse|p2a: Flygon
+|-start|p2a: Flygon|Curse|[of] p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|win|alexandrelins883
+|raw|cry042's rating: 1100 &rarr; <strong>1076</strong><br />(-24 for losing)
+|raw|alexandrelins883's rating: 1119 &rarr; <strong>1143</strong><br />(+24 for winning)

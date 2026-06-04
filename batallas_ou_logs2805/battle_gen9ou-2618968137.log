@@ -1,0 +1,365 @@
+|j|☆hedon
+|j|☆sicratus
+|t:|1779869355
+|gametype|singles
+|player|p1|hedon|preschooler|1206
+|player|p2|sicratus|benga|1156
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Houndstone, F|
+|poke|p1|Tauros-Paldea-Aqua, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Hydrapple, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Enamorus, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Cinderace, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sicratus)
+|
+|t:|1779869368
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1779869371
+|move|p2a: Landorus|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: hedon|move: Stealth Rock
+|move|p1a: Tyranitar|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Landorus|31/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1779869380
+|switch|p1a: Hydrapple|Hydrapple, F|100/100
+|-damage|p1a: Hydrapple|88/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydrapple|69/100|[from] Sandstorm
+|-heal|p2a: Landorus|37/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1779869389
+|move|p2a: Landorus|U-turn|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|45/100
+|-damage|p2a: Landorus|21/100|[from] item: Rocky Helmet|[of] p1a: Hydrapple
+|
+|t:|1779869393
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from] U-turn
+|move|p1a: Hydrapple|Giga Drain|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|80/100
+|-heal|p1a: Hydrapple|53/100|[from] drain|[of] p2a: Cinderace
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|74/100|[from] Sandstorm
+|-damage|p1a: Hydrapple|46/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1779869399
+|switch|p1a: Houndstone|Houndstone, F|100/100
+|-damage|p1a: Houndstone|88/100|[from] Stealth Rock
+|move|p2a: Cinderace|U-turn|p1a: Houndstone
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Houndstone
+|-damage|p1a: Houndstone|82/100
+|
+|t:|1779869408
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|94/100|[from] Sandstorm
+|-damage|p1a: Houndstone|76/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1779869416
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Houndstone
+|-supereffective|p1a: Houndstone
+|-damage|p1a: Houndstone|15/100
+|move|p1a: Houndstone|Will-O-Wisp|p2a: Iron Valiant
+|-status|p2a: Iron Valiant|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|88/100 brn|[from] Sandstorm
+|-damage|p1a: Houndstone|9/100|[from] Sandstorm
+|-damage|p2a: Iron Valiant|82/100 brn|[from] brn
+|upkeep
+|turn|6
+|-enditem|p1a: Houndstone|Custap Berry|[eat]
+|-activate|p1a: Houndstone|item: Custap Berry|[consumed]
+|
+|t:|1779869420
+|move|p1a: Houndstone|Destiny Bond|p1a: Houndstone
+|-singlemove|p1a: Houndstone|Destiny Bond
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Houndstone
+|-supereffective|p1a: Houndstone
+|-crit|p1a: Houndstone
+|-damage|p1a: Houndstone|0 fnt
+|faint|p1a: Houndstone
+|-activate|p1a: Houndstone|move: Destiny Bond
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1779869435
+|switch|p2a: Landorus|Landorus-Therian, M|21/100
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|-damage|p1a: Enamorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-boost|p1a: Enamorus|atk|1
+|turn|7
+|
+|t:|1779869452
+|move|p1a: Enamorus|Mystical Fire|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Enamorus|69/100|[from] Sandstorm
+|upkeep
+|
+|t:|1779869456
+|switch|p2a: Cinderace|Cinderace, F|74/100
+|turn|8
+|
+|t:|1779869461
+|switch|p1a: Tauros|Tauros-Paldea-Aqua, M|100/100
+|-damage|p1a: Tauros|94/100|[from] Stealth Rock
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|move|p2a: Cinderace|Pyro Ball|p1a: Tauros
+|-resisted|p1a: Tauros
+|-damage|p1a: Tauros|81/100
+|
+|-weather|none
+|-heal|p1a: Tauros|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1779869474
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Tauros|Bulk Up|p1a: Tauros
+|-boost|p1a: Tauros|atk|1
+|-boost|p1a: Tauros|def|1
+|
+|-heal|p1a: Tauros|93/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779869478
+|move|p2a: Ogerpon|Horn Leech|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|52/100
+|move|p1a: Tauros|Body Press|p2a: Ogerpon
+|-damage|p2a: Ogerpon|20/100
+|
+|-heal|p1a: Tauros|58/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1779869481
+|move|p2a: Ogerpon|Horn Leech|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|19/100
+|-heal|p2a: Ogerpon|43/100|[from] drain|[of] p1a: Tauros
+|move|p1a: Tauros|Body Press|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-heal|p1a: Tauros|25/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779869486
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|12
+|
+|t:|1779869494
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Dragapult|Shadow Ball|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|77/100
+|-unboost|p1a: Tyranitar|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|95/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1779869499
+|switch|p2a: Cinderace|Cinderace, F|74/100
+|move|p1a: Tyranitar|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|14/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|8/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1779869510
+|switch|p1a: Tauros|Tauros-Paldea-Aqua, M|25/100
+|-damage|p1a: Tauros|19/100|[from] Stealth Rock
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|move|p2a: Cinderace|High Jump Kick|p1a: Tauros
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|2/100|[from] Sandstorm
+|upkeep
+|
+|t:|1779869512
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-item|p1a: Excadrill|Air Balloon
+|turn|15
+|
+|t:|1779869520
+|move|p1a: Excadrill|Iron Head|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1779869522
+|switch|p2a: Dragapult|Dragapult, M|95/100
+|turn|16
+|
+|t:|1779869526
+|move|p1a: Excadrill|Iron Head|p2a: Dragapult
+|-damage|p2a: Dragapult|39/100
+|move|p2a: Dragapult|Hydro Pump|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-enditem|p1a: Excadrill|Air Balloon
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|33/100|[from] Sandstorm
+|upkeep
+|
+|t:|1779869534
+|switch|p1a: Tyranitar|Tyranitar, M|77/100
+|-damage|p1a: Tyranitar|65/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1779869537
+|move|p2a: Dragapult|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|20/100
+|move|p1a: Tyranitar|Low Kick|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|27/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|t:|1779869540
+|move|p2a: Dragapult|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|21/100|[from] Sandstorm
+|upkeep
+|
+|t:|1779869543
+|switch|p1a: Enamorus|Enamorus, F|69/100
+|-damage|p1a: Enamorus|44/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1779869547
+|move|p1a: Enamorus|Earth Power|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|none
+|upkeep
+|
+|t:|1779869550
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|20
+|
+|t:|1779869553
+|-terastallize|p2a: Kingambit|Flying
+|move|p1a: Enamorus|Earth Power|p2a: Kingambit
+|-immune|p2a: Kingambit
+|move|p2a: Kingambit|Iron Head|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|upkeep
+|
+|t:|1779869554
+|switch|p1a: Hydrapple|Hydrapple, F|80/100
+|-damage|p1a: Hydrapple|67/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1779869562
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Hydrapple
+|-damage|p1a: Hydrapple|30/100
+|-damage|p2a: Kingambit|84/100|[from] item: Rocky Helmet|[of] p1a: Hydrapple
+|move|p1a: Hydrapple|Fickle Beam|p2a: Kingambit|[anim] Fickle Beam All Out
+|-activate|p1a: Hydrapple|move: Fickle Beam
+|-damage|p2a: Kingambit|13/100
+|
+|-heal|p2a: Kingambit|19/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1779869565
+|move|p2a: Kingambit|Sucker Punch|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|-damage|p2a: Kingambit|3/100|[from] item: Rocky Helmet|[of] p1a: Hydrapple
+|faint|p1a: Hydrapple
+|
+|win|sicratus
+|raw|hedon's rating: 1206 &rarr; <strong>1177</strong><br />(-29 for losing)
+|raw|sicratus's rating: 1156 &rarr; <strong>1185</strong><br />(+29 for winning)
+|l|☆hedon
+|player|p1|
+|l|☆sicratus
+|player|p2|

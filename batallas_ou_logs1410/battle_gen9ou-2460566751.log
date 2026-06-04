@@ -1,0 +1,529 @@
+|j|☆cmarky
+|j|☆C0nway
+|t:|1760323765
+|gametype|singles
+|player|p1|cmarky|hilbert|1306
+|player|p2|C0nway|eusine|1369
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Incineroar, M|
+|poke|p1|Garganacl, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Eelektross, M|
+|poke|p1|Salazzle, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Walking Wake|
+|poke|p2|Torkoal, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cmarky)
+|
+|t:|1760323775
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1760323796
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p1a: Salazzle|Toxic|p2a: Walking Wake
+|-status|p2a: Walking Wake|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Walking Wake|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1760323809
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Walking Wake|Hydro Steam|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Walking Wake|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1760323819
+|switch|p1a: Eelektross|Eelektross, M, shiny|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Eelektross
+|-damage|p1a: Eelektross|2/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Eelektross|8/100|[from] item: Leftovers
+|-damage|p2a: Walking Wake|64/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1760323828
+|move|p2a: Walking Wake|Hydro Steam|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Walking Wake|39/100 tox|[from] psn
+|upkeep
+|
+|t:|1760323837
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|turn|5
+|
+|t:|1760323853
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Salazzle|Protect||[still]
+|-fail|p1a: Salazzle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760323860
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|move|p2a: Cinderace|Pyro Ball|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|80/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Incineroar|86/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760323869
+|move|p2a: Cinderace|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|74/100
+|
+|t:|1760323876
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|move|p1a: Incineroar|Parting Shot|p2a: Hatterene
+|move|p2a: Hatterene|Parting Shot|p1a: Incineroar|[from] ability: Magic Bounce
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1a: Incineroar|spa|1
+|
+|t:|1760323886
+|switch|p2a: Walking Wake|Walking Wake|39/100 tox|[from] Parting Shot
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Incineroar|80/100|[from] item: Leftovers
+|-damage|p2a: Walking Wake|33/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1760323903
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Hatterene
+|-damage|p1a: Hatterene|1/100
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|-damage|p2a: Walking Wake|21/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1760323918
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Hatterene|Psychic Noise|p2a: Torkoal
+|-damage|p2a: Torkoal|7/100
+|-start|p2a: Torkoal|move: Heal Block
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760323929
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Hatterene|Psychic Noise|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|79/100
+|-start|p2a: Hatterene|move: Heal Block
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760323944
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Hatterene|Nuzzle|p1a: Garganacl
+|-damage|p1a: Garganacl|98/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-end|p2a: Hatterene|move: Heal Block
+|upkeep
+|turn|12
+|
+|t:|1760323962
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|92/100
+|-start|p2a: Iron Valiant|Salt Cure
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Iron Valiant|80/100|[from] Salt Cure
+|upkeep
+|turn|13
+|
+|t:|1760323975
+|-terastallize|p1a: Garganacl|Fairy
+|move|p2a: Iron Valiant|Knock Off|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|89/100
+|-enditem|p1a: Garganacl|Leftovers|[from] move: Knock Off|[of] p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|70/100|[from] item: Life Orb
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Iron Valiant|58/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1760323986
+|move|p2a: Iron Valiant|Encore|p1a: Garganacl
+|-start|p1a: Garganacl|Encore
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Iron Valiant|45/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1760323994
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Walking Wake|Walking Wake|21/100 tox
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Walking Wake|15/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1760324004
+|move|p2a: Walking Wake|Hydro Steam|p1a: Garganacl
+|-damage|p1a: Garganacl|26/100
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|-damage|p2a: Walking Wake|2/100 tox|[from] psn
+|-end|p1a: Garganacl|Encore
+|upkeep
+|turn|17
+|
+|t:|1760324014
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Walking Wake|Hydro Steam|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-damage|p2a: Walking Wake|0 fnt|[from] psn
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1760324022
+|switch|p2a: Torkoal|Torkoal, M|7/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|18
+|
+|t:|1760324028
+|move|p2a: Torkoal|Stealth Rock|p1a: Garganacl
+|-sidestart|p1: cmarky|move: Stealth Rock
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1760324034
+|move|p2a: Torkoal|Lava Plume|p1a: Garganacl
+|-damage|p1a: Garganacl|51/100
+|move|p1a: Garganacl|Salt Cure|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760324051
+|switch|p2a: Iron Valiant|Iron Valiant|45/100
+|turn|20
+|
+|t:|1760324057
+|move|p2a: Iron Valiant|Moonblast|p1a: Garganacl
+|-damage|p1a: Garganacl|9/100
+|-unboost|p1a: Garganacl|spa|1
+|-damage|p2a: Iron Valiant|35/100|[from] item: Life Orb
+|move|p1a: Garganacl|Salt Cure|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|8/100
+|-start|p2a: Iron Valiant|Salt Cure
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Iron Valiant|0 fnt|[from] Salt Cure
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|upkeep
+|
+|t:|1760324063
+|switch|p2a: Hatterene|Hatterene, F|79/100
+|turn|21
+|
+|t:|1760324078
+|move|p2a: Hatterene|Draining Kiss|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|-heal|p2a: Hatterene|87/100|[from] drain|[of] p1a: Garganacl
+|faint|p1a: Garganacl
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760324083
+|switch|p1a: Corviknight|Corviknight, M, shiny|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|22
+|
+|t:|1760324091
+|move|p1a: Corviknight|Defog|p2a: Hatterene
+|move|p2a: Hatterene|Defog|p1a: Corviknight|[from] ability: Magic Bounce
+|-unboost|p1a: Corviknight|evasion|1
+|-sideend|p1: cmarky|Stealth Rock|[from] move: Defog|[of] p2a: Hatterene
+|move|p2a: Hatterene|Nuzzle|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|83/100
+|-status|p1a: Corviknight|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Corviknight|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1760324102
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Corviknight|Iron Head|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|86/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Corviknight|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1760324112
+|switch|p1a: Incineroar|Incineroar, M|80/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|-terastallize|p2a: Cinderace|Fire
+|move|p2a: Cinderace|Pyro Ball|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|47/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Incineroar|53/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1760324126
+|move|p2a: Cinderace|Pyro Ball|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|24/100
+|move|p1a: Incineroar|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|26/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|none
+|-heal|p1a: Incineroar|30/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1760324137
+|switch|p2a: Hatterene|Hatterene, F|87/100
+|switch|p1a: Hatterene|Hatterene, F|1/100
+|
+|upkeep
+|turn|27
+|
+|t:|1760324148
+|move|p2a: Hatterene|Nuzzle|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1760324153
+|switch|p1a: Corviknight|Corviknight, M, shiny|96/100 par
+|-ability|p1a: Corviknight|Pressure
+|turn|28
+|
+|t:|1760324159
+|move|p2a: Hatterene|Mystical Fire|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|44/100 par
+|-unboost|p1a: Corviknight|spa|1
+|move|p1a: Corviknight|Brave Bird|p2a: Hatterene
+|-damage|p2a: Hatterene|45/100
+|-damage|p1a: Corviknight|33/100 par|[from] Recoil
+|
+|-heal|p1a: Corviknight|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1760324169
+|switch|p1a: Incineroar|Incineroar, M|30/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Hatterene|atk|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|17/100
+|-unboost|p1a: Incineroar|spa|1
+|
+|-heal|p1a: Incineroar|23/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1760324183
+|move|p1a: Incineroar|Drain Punch|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|38/100
+|-heal|p1a: Incineroar|26/100|[from] drain|[of] p2a: Hatterene
+|move|p2a: Hatterene|Draining Kiss|p1a: Incineroar
+|-damage|p1a: Incineroar|1/100
+|-heal|p2a: Hatterene|61/100|[from] drain|[of] p1a: Incineroar
+|
+|-heal|p1a: Incineroar|7/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1760324192
+|move|p1a: Incineroar|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|4/100
+|-enditem|p2a: Hatterene|Assault Vest|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2a: Hatterene|Draining Kiss|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-heal|p2a: Hatterene|10/100|[from] drain|[of] p1a: Incineroar
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|t:|1760324200
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|turn|32
+|
+|t:|1760324204
+|move|p1a: Salazzle|Flamethrower|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1760324227
+|switch|p2a: Cinderace|Cinderace, M, tera:Fire|26/100
+|turn|33
+|
+|t:|1760324232
+|move|p2a: Cinderace|Pyro Ball|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|27/100
+|move|p1a: Salazzle|Toxic|p2a: Cinderace
+|-status|p2a: Cinderace|tox
+|
+|-damage|p2a: Cinderace|20/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1760324253
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Cinderace|Pyro Ball|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-damage|p2a: Cinderace|7/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1760324271
+|switch|p1a: Corviknight|Corviknight, M, shiny|40/100 par
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Cinderace|Pyro Ball|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-damage|p2a: Cinderace|0 fnt|[from] psn
+|faint|p2a: Cinderace
+|upkeep
+|
+|t:|1760324280
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|switch|p1a: Salazzle|Salazzle, F|27/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|36
+|
+|t:|1760324286
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|upkeep
+|turn|37
+|
+|t:|1760324292
+|move|p1a: Salazzle|Flamethrower|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|28/100
+|-status|p2a: Kingambit|brn
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|win|C0nway
+|raw|cmarky's rating: 1306 &rarr; <strong>1290</strong><br />(-16 for losing)
+|raw|C0nway's rating: 1369 &rarr; <strong>1385</strong><br />(+16 for winning)
+|l|☆cmarky
+|player|p1|
+|l|☆C0nway
+|player|p2|

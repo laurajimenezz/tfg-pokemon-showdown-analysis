@@ -1,0 +1,376 @@
+|j|☆Menapai
+|j|☆Shanubiki
+|t:|1760347988
+|gametype|singles
+|player|p1|Menapai|lyra|1687
+|player|p2|Shanubiki|2|1705
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, F|
+|poke|p1|Primarina, F|
+|poke|p1|Clefable, M|
+|poke|p1|Iron Moth|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Corviknight, F|
+|poke|p2|Kommo-o, M|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Moth|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|
+|t:|1760347998
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Shanubiki)
+|
+|t:|1760348004
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Hoopa
+|-damage|p2a: Hoopa|65/100
+|-boost|p1a: Iron Moth|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1760348007
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1760348017
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|3
+|
+|t:|1760348019
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Iron Moth|Sludge Wave|p2a: Ogerpon
+|-damage|p2a: Ogerpon|49/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Iron Moth|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760348024
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|4
+|
+|t:|1760348028
+|move|p2a: Ogerpon|U-turn|p1a: Kyurem
+|-damage|p1a: Kyurem|77/100
+|
+|t:|1760348036
+|switch|p2a: Corviknight|Corviknight, F|100/100|[from] U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Kyurem|Freeze-Dry|p2a: Corviknight
+|-damage|p2a: Corviknight|65/100
+|
+|-heal|p1a: Kyurem|83/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760348045
+|move|p1a: Kyurem|Freeze-Dry|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|15/100
+|move|p2a: Corviknight|Brave Bird|p1a: Kyurem
+|-damage|p1a: Kyurem|49/100
+|-damage|p2a: Corviknight|4/100|[from] Recoil
+|
+|-heal|p1a: Kyurem|56/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760348052
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|31/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|54/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p1a: Kyurem|37/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760348057
+|move|p1a: Kyurem|Freeze-Dry|p2a: Corviknight
+|-damage|p2a: Corviknight|22/100
+|move|p2a: Corviknight|Brave Bird|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|-damage|p2a: Corviknight|13/100|[from] Recoil|[of] p1a: Kyurem
+|
+|-heal|p1a: Kyurem|43/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760348064
+|move|p1a: Kyurem|Freeze-Dry|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Kyurem|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760348065
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|9
+|
+|t:|1760348071
+|switch|p1a: Primarina|Primarina, F|100/100
+|move|p2a: Iron Treads|Iron Head|p1a: Primarina
+|-damage|p1a: Primarina|58/100
+|
+|-heal|p1a: Primarina|64/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760348079
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|switch|p1a: Kyurem|Kyurem|49/100
+|-ability|p1a: Kyurem|Pressure
+|
+|-heal|p1a: Kyurem|55/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760348083
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|6/100
+|move|p1a: Kyurem|Earth Power|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p1a: Kyurem|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760348088
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|12
+|
+|t:|1760348091
+|move|p2a: Iron Treads|Iron Head|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1760348096
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|13
+|
+|t:|1760348098
+|move|p2a: Iron Treads|Iron Head|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|13/100
+|-damage|p2a: Iron Treads|84/100|[from] item: Rocky Helmet|[of] p1a: Clefable
+|move|p1a: Clefable|Stealth Rock|p2a: Iron Treads
+|-sidestart|p2: Shanubiki|move: Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|t:|1760348105
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Iron Treads|Iron Head|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|71/100
+|
+|upkeep
+|turn|15
+|
+|t:|1760348111
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|-damage|p2a: Kommo-o|94/100|[from] Stealth Rock
+|move|p1a: Gholdengo|Make It Rain|p2a: Kommo-o
+|-damage|p2a: Kommo-o|22/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Kommo-o|28/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1760348114
+|move|p2a: Kommo-o|Stealth Rock|p1a: Gholdengo
+|-sidestart|p1: Menapai|move: Stealth Rock
+|move|p1a: Gholdengo|Make It Rain|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|t:|1760348116
+|switch|p2a: Iron Treads|Iron Treads|84/100
+|-damage|p2a: Iron Treads|81/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1760348120
+|move|p2a: Iron Treads|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1760348129
+|switch|p1a: Primarina|Primarina, F|64/100
+|-damage|p1a: Primarina|52/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1760348133
+|move|p2a: Iron Treads|Earthquake|p1a: Primarina
+|-crit|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1760348137
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|19
+|
+|t:|1760348139
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|49/100
+|-damage|p2a: Ogerpon|36/100|[from] Stealth Rock
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|20
+|
+|t:|1760348143
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Ogerpon|Encore|p1a: Kingambit
+|-start|p1a: Kingambit|Encore
+|
+|upkeep
+|turn|21
+|
+|t:|1760348148
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Ogerpon|Encore||[still]
+|-fail|p2a: Ogerpon
+|
+|upkeep
+|turn|22
+|
+|t:|1760348152
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Ogerpon|Encore||[still]
+|-fail|p2a: Ogerpon
+|
+|upkeep
+|turn|23
+|
+|t:|1760348155
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Ogerpon|Encore||[still]
+|-fail|p2a: Ogerpon
+|
+|-end|p1a: Kingambit|Encore
+|upkeep
+|turn|24
+|
+|t:|1760348159
+|-end|p1a: Kingambit|fallen4|[silent]
+|switch|p1a: Clefable|Clefable, M|13/100
+|move|p2a: Ogerpon|Encore||[still]
+|-fail|p2a: Ogerpon
+|
+|upkeep
+|turn|25
+|
+|t:|1760348161
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Clefable|[anim] Ivy Cudgel Water
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1760348164
+|switch|p1a: Kingambit|Kingambit, F|94/100
+|-damage|p1a: Kingambit|88/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|26
+|
+|t:|1760348171
+|move|p2a: Ogerpon|Encore||[still]
+|-fail|p2a: Ogerpon
+|move|p1a: Kingambit|Low Kick|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|upkeep
+|
+|t:|1760348174
+|switch|p2a: Iron Treads|Iron Treads|81/100
+|-damage|p2a: Iron Treads|78/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1760348176
+|move|p1a: Kingambit|Sucker Punch|p2a: Iron Treads
+|-damage|p2a: Iron Treads|21/100
+|move|p2a: Iron Treads|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|Shanubiki
+|raw|Menapai's rating: 1687 &rarr; <strong>1668</strong><br />(-19 for losing)
+|raw|Shanubiki's rating: 1705 &rarr; <strong>1724</strong><br />(+19 for winning)
+|l|☆Menapai
+|player|p1|
+|l|☆Shanubiki
+|player|p2|

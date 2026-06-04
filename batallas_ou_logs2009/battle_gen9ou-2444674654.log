@@ -1,0 +1,404 @@
+|j|☆serving up heat
+|j|☆tokiwakano
+|t:|1758249554
+|gametype|singles
+|player|p1|serving up heat|waitress|1702
+|player|p2|tokiwakano|acetrainerf|1711
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Kingambit, F|
+|poke|p1|Pecharunt|
+|poke|p1|Hydreigon, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Gholdengo|
+|poke|p2|Dragonite, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Valiant|
+|poke|p2|Ting-Lu|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tokiwakano)
+|
+|t:|1758249572
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: iron theyden|Iron Valiant|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1758249580
+|-end|p1a: iron theyden|Quark Drive|[silent]
+|switch|p1a: serve runt|Pecharunt|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: serve runt
+|-resisted|p1a: serve runt
+|-damage|p1a: serve runt|78/100
+|-unboost|p1a: serve runt|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1758249583
+|move|p2a: Iron Valiant|Knock Off|p1a: serve runt
+|-supereffective|p1a: serve runt
+|-damage|p1a: serve runt|45/100
+|-enditem|p1a: serve runt|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: serve runt|Parting Shot|p2a: Iron Valiant
+|-unboost|p2a: Iron Valiant|atk|1
+|-unboost|p2a: Iron Valiant|spa|1
+|
+|t:|1758249587
+|switch|p1a: i <3 edging|Samurott-Hisui, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|3
+|
+|t:|1758249593
+|move|p2a: Iron Valiant|Moonblast|p1a: i <3 edging
+|-supereffective|p1a: i <3 edging
+|-damage|p1a: i <3 edging|55/100
+|-unboost|p1a: i <3 edging|spa|1
+|move|p1a: i <3 edging|Razor Shell|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|35/100
+|-unboost|p2a: Iron Valiant|def|1
+|
+|upkeep
+|turn|4
+|
+|t:|1758249604
+|move|p2a: Iron Valiant|Close Combat|p1a: i <3 edging
+|-supereffective|p1a: i <3 edging
+|-damage|p1a: i <3 edging|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: i <3 edging
+|
+|upkeep
+|
+|t:|1758249609
+|switch|p1a: caravan|Landorus-Therian, M|100/100
+|-ability|p1a: caravan|Intimidate|boost
+|-unboost|p2a: Iron Valiant|atk|1
+|turn|5
+|
+|t:|1758249613
+|move|p2a: Iron Valiant|Knock Off|p1a: caravan
+|-damage|p1a: caravan|88/100
+|-damage|p2a: Iron Valiant|18/100|[from] item: Rocky Helmet|[of] p1a: caravan
+|-enditem|p1a: caravan|Rocky Helmet|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: caravan|Stealth Rock|p2a: Iron Valiant
+|-sidestart|p2: tokiwakano|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1758249619
+|move|p2a: Iron Valiant|Encore|p1a: caravan
+|-start|p1a: caravan|Encore
+|move|p1a: caravan|Stealth Rock||[still]
+|-fail|p1a: caravan
+|
+|upkeep
+|turn|7
+|
+|t:|1758249624
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|switch|p1a: serve runt|Pecharunt|45/100
+|
+|upkeep
+|turn|8
+|
+|t:|1758249631
+|move|p1a: serve runt|Hex|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|49/100
+|move|p2a: Gholdengo|Make It Rain|p1a: serve runt
+|-damage|p1a: serve runt|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: serve runt
+|
+|upkeep
+|
+|t:|1758249640
+|switch|p1a: kingoobit|Kingambit, F|100/100
+|-activate|p1a: kingoobit|ability: Supreme Overlord
+|-start|p1a: kingoobit|fallen2|[silent]
+|turn|9
+|
+|t:|1758249644
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|97/100|[from] Stealth Rock
+|move|p1a: kingoobit|Swords Dance|p1a: kingoobit
+|-boost|p1a: kingoobit|atk|2
+|
+|upkeep
+|turn|10
+|
+|t:|1758249650
+|-terastallize|p1a: kingoobit|Ghost
+|move|p2a: Great Tusk|Close Combat|p1a: kingoobit
+|-immune|p1a: kingoobit
+|move|p1a: kingoobit|Swords Dance|p1a: kingoobit
+|-boost|p1a: kingoobit|atk|2
+|
+|upkeep
+|turn|11
+|
+|t:|1758249657
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Iron Valiant|Iron Valiant|18/100
+|-damage|p2a: Iron Valiant|12/100|[from] Stealth Rock
+|move|p1a: kingoobit|Low Kick|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758249660
+|switch|p2a: Gholdengo|Gholdengo|49/100
+|-damage|p2a: Gholdengo|43/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1758249664
+|-end|p1a: kingoobit|fallen2|[silent]
+|switch|p1a: caravan|Landorus-Therian, M|88/100
+|-ability|p1a: caravan|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|move|p2a: Gholdengo|Trick|p1a: caravan
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: caravan
+|-item|p1a: caravan|Choice Specs|[from] move: Trick
+|-enditem|p2a: Gholdengo|Choice Specs|[silent]|[from] move: Trick
+|
+|upkeep
+|turn|13
+|
+|t:|1758249673
+|move|p1a: caravan|U-turn|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|37/100
+|
+|t:|1758249676
+|switch|p1a: death drop|Hydreigon, F|100/100|[from] U-turn
+|move|p2a: Gholdengo|Make It Rain|p1a: death drop
+|-damage|p1a: death drop|17/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-heal|p1a: death drop|24/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1758249682
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-damage|p2a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: death drop|Draco Meteor|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|64/100
+|-unboost|p1a: death drop|spa|2
+|
+|-heal|p1a: death drop|30/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|70/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758249688
+|switch|p1a: caravan|Landorus-Therian, M|88/100
+|-ability|p1a: caravan|Intimidate|boost
+|-unboost|p2a: Ting-Lu|atk|1
+|move|p2a: Ting-Lu|Stealth Rock|p1a: caravan
+|-sidestart|p1: serving up heat|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|76/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758249695
+|move|p1a: caravan|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|54/100
+|
+|t:|1758249697
+|switch|p1a: iron theyden|Iron Valiant|100/100|[from] U-turn
+|-damage|p1a: iron theyden|94/100|[from] Stealth Rock
+|move|p2a: Ting-Lu|Ruination|p1a: iron theyden
+|-damage|p1a: iron theyden|48/100
+|
+|-heal|p2a: Ting-Lu|60/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758249709
+|move|p1a: iron theyden|Spirit Break|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-crit|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1758249729
+|switch|p2a: Great Tusk|Great Tusk|97/100
+|-damage|p2a: Great Tusk|94/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1758249735
+|move|p1a: iron theyden|Spirit Break|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|20/100
+|-unboost|p2a: Great Tusk|spa|1
+|move|p2a: Great Tusk|Rapid Spin|p1a: iron theyden
+|-damage|p1a: iron theyden|21/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: tokiwakano|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|19
+|
+|t:|1758249743
+|-end|p1a: iron theyden|Quark Drive|[silent]
+|switch|p1a: caravan|Landorus-Therian, M|88/100
+|-damage|p1a: caravan|76/100|[from] Stealth Rock
+|-ability|p1a: caravan|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Rapid Spin|p1a: caravan
+|-damage|p1a: caravan|62/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|upkeep
+|turn|20
+|
+|t:|1758249751
+|move|p2a: Great Tusk|Ice Spinner|p1a: caravan
+|-supereffective|p1a: caravan
+|-crit|p1a: caravan
+|-damage|p1a: caravan|0 fnt
+|faint|p1a: caravan
+|
+|upkeep
+|
+|t:|1758249757
+|switch|p1a: iron theyden|Iron Valiant|21/100
+|-damage|p1a: iron theyden|14/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1758249760
+|move|p1a: iron theyden|Shadow Sneak|p2a: Great Tusk
+|-damage|p2a: Great Tusk|8/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: iron theyden
+|-damage|p1a: iron theyden|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|faint|p1a: iron theyden
+|-end|p1a: iron theyden|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758249763
+|switch|p1a: kingoobit|Kingambit, F, tera:Ghost|100/100
+|-damage|p1a: kingoobit|88/100|[from] Stealth Rock
+|-activate|p1a: kingoobit|ability: Supreme Overlord
+|-start|p1a: kingoobit|fallen4|[silent]
+|turn|22
+|j| wgw2333
+|
+|t:|1758249776
+|move|p2a: Great Tusk|Headlong Rush|p1a: kingoobit
+|-damage|p1a: kingoobit|51/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: kingoobit|Swords Dance|p1a: kingoobit
+|-boost|p1a: kingoobit|atk|2
+|
+|-heal|p1a: kingoobit|57/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1758249780
+|move|p1a: kingoobit|Sucker Punch|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p1a: kingoobit|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758249782
+|switch|p2a: Gholdengo|Gholdengo|37/100
+|turn|24
+|j| lamebiz
+|
+|t:|1758249787
+|move|p1a: kingoobit|Sucker Punch||[still]
+|-fail|p1a: kingoobit
+|move|p2a: Gholdengo|Trick|p1a: kingoobit
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: kingoobit
+|-enditem|p1a: kingoobit|Leftovers|[silent]|[from] move: Trick
+|-item|p2a: Gholdengo|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Gholdengo|43/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1758249792
+|move|p1a: kingoobit|Sucker Punch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1758249794
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|26
+|
+|t:|1758249799
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p1a: kingoobit|Low Kick|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|50/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: kingoobit
+|-damage|p1a: kingoobit|0 fnt
+|faint|p1a: kingoobit
+|-end|p1a: kingoobit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1758249803
+|switch|p1a: death drop|Hydreigon, F|30/100
+|-damage|p1a: death drop|17/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1758249810
+|move|p1a: death drop|Nasty Plot|p1a: death drop
+|-boost|p1a: death drop|spa|2
+|move|p2a: Raging Bolt|Thunderbolt|p1a: death drop
+|-resisted|p1a: death drop
+|-damage|p1a: death drop|0 fnt
+|faint|p1a: death drop
+|
+|win|tokiwakano
+|raw|serving up heat's rating: 1702 &rarr; <strong>1683</strong><br />(-19 for losing)
+|raw|tokiwakano's rating: 1711 &rarr; <strong>1730</strong><br />(+19 for winning)
+|l|☆serving up heat
+|player|p1|
+|l|☆tokiwakano
+|player|p2|
+|l| wgw2333

@@ -1,0 +1,303 @@
+|j|☆zuizuizuiqinag
+|j|☆Batman340
+|t:|1760718599
+|gametype|singles
+|player|p1|zuizuizuiqinag|265|1406
+|player|p2|Batman340|266|1379
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Charizard, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Great Tusk|
+|poke|p1|Brute Bonnet|
+|poke|p2|Iron Crown|
+|poke|p2|Great Tusk|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Garganacl, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Batman340)
+|
+|t:|1760718609
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1760718620
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Brute Bonnet|Brute Bonnet|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Brute Bonnet
+|-resisted|p1a: Brute Bonnet
+|-crit|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|74/100
+|-enditem|p1a: Brute Bonnet|Loaded Dice|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|2
+|
+|t:|1760718628
+|move|p2a: Great Tusk|Close Combat|p1a: Brute Bonnet
+|-supereffective|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760718633
+|switch|p1a: Ninetales|Ninetales, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|3
+|
+|t:|1760718640
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Ninetales|Weather Ball|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|69/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760718650
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Pelipper|U-turn|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|93/100
+|
+|t:|1760718661
+|switch|p2a: Iron Crown|Iron Crown|100/100|[from] U-turn
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespa
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760718672
+|move|p2a: Iron Crown|Psychic Noise|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|48/100
+|-start|p1a: Raging Bolt|move: Heal Block
+|move|p1a: Raging Bolt|Volt Switch|p2a: Iron Crown
+|-damage|p2a: Iron Crown|34/100
+|
+|t:|1760718679
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, M, shiny|100/100|[from] Volt Switch
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760718687
+|move|p1a: Ninetales|Weather Ball|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760718697
+|switch|p2a: Pelipper|Pelipper, M, shiny|69/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|7
+|
+|t:|1760718710
+|move|p1a: Ninetales|Weather Ball|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|20/100
+|move|p2a: Pelipper|U-turn|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|94/100
+|
+|t:|1760718723
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760718731
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Zamazenta|[anim] Ivy Cudgel Water
+|-damage|p1a: Zamazenta|65/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|71/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760718740
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Zamazenta|[anim] Ivy Cudgel Water
+|-damage|p1a: Zamazenta|33/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|39/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760718756
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Zamazenta|[anim] Ivy Cudgel Water
+|-damage|p1a: Zamazenta|20/100
+|move|p1a: Zamazenta|Body Press|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|26/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760718766
+|switch|p2a: Barraskewda|Barraskewda, M, shiny|100/100
+|turn|11
+|
+|t:|1760718771
+|-terastallize|p2a: Barraskewda|Water
+|move|p2a: Barraskewda|Liquidation|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760718779
+|switch|p1a: Ninetales|Ninetales, M, shiny|94/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|12
+|
+|t:|1760718790
+|move|p2a: Barraskewda|Liquidation|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760718796
+|switch|p1a: Raging Bolt|Raging Bolt|48/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|13
+|
+|t:|1760718802
+|switch|p2a: Pelipper|Pelipper, M, shiny|20/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-end|p1a: Raging Bolt|Protosynthesis
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760718814
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|turn|14
+|
+|t:|1760718818
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Charizard|Charizard, F, shiny|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Charizard
+|-damage|p1a: Charizard|50/100
+|-enditem|p1a: Charizard|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1760718827
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Garganacl|Garganacl, M, shiny|100/100
+|move|p1a: Charizard|Weather Ball|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760718836
+|switch|p2a: Barraskewda|Barraskewda, M, shiny, tera:Water|100/100
+|turn|16
+|
+|t:|1760718841
+|move|p2a: Barraskewda|Flip Turn|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|t:|1760718846
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760718849
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|17
+|
+|t:|1760718853
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Barraskewda|Barraskewda, M, shiny, tera:Water|100/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Barraskewda
+|-resisted|p2a: Barraskewda
+|-damage|p2a: Barraskewda|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1760718868
+|-terastallize|p1a: Great Tusk|Steel
+|move|p2a: Barraskewda|Liquidation|p1a: Great Tusk
+|-damage|p1a: Great Tusk|28/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Barraskewda
+|-resisted|p2a: Barraskewda
+|-damage|p2a: Barraskewda|54/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|-message|zuizuizuiqinag forfeited.
+|
+|win|Batman340
+|raw|zuizuizuiqinag's rating: 1406 &rarr; <strong>1384</strong><br />(-22 for losing)
+|raw|Batman340's rating: 1379 &rarr; <strong>1401</strong><br />(+22 for winning)
+|l|☆zuizuizuiqinag
+|player|p1|
+|l|☆Batman340
+|player|p2|

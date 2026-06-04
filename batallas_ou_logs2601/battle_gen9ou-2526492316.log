@@ -1,0 +1,158 @@
+|j|☆Shoejob
+|j|☆xavierance
+|t:|1769424417
+|gametype|singles
+|player|p1|Shoejob|169|1212
+|player|p2|xavierance|2|1267
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Muk-Alola, M|
+|poke|p1|Vileplume, F|
+|poke|p1|Ambipom, M|
+|poke|p1|Great Tusk|
+|poke|p1|Dragonite, M|
+|poke|p1|Heatran, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Great Tusk|
+|poke|p2|Heatran, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Dragonite, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Shoejob)
+|
+|t:|1769424461
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1769424474
+|move|p2a: Great Tusk|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1769424477
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|turn|2
+|
+|t:|1769424489
+|move|p2a: Great Tusk|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|46/100
+|move|p1a: Vileplume|Leech Seed|p2a: Great Tusk
+|-start|p2a: Great Tusk|move: Leech Seed
+|
+|-damage|p2a: Great Tusk|88/100|[from] Leech Seed|[of] p1a: Vileplume
+|-heal|p1a: Vileplume|59/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1769424516
+|move|p2a: Great Tusk|Rapid Spin|p1a: Vileplume
+|-damage|p1a: Vileplume|39/100
+|-boost|p2a: Great Tusk|spe|1
+|-damage|p2a: Great Tusk|72/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|-end|p2a: Great Tusk|Leech Seed|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Vileplume|Strength Sap|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|atk|1
+|-heal|p1a: Vileplume|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1769424521
+|move|p2a: Great Tusk|Ice Spinner|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|58/100
+|-damage|p2a: Great Tusk|55/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|-status|p2a: Great Tusk|psn|[from] ability: Effect Spore|[of] p1a: Vileplume
+|move|p1a: Vileplume|Leech Seed|p2a: Great Tusk
+|-start|p2a: Great Tusk|move: Leech Seed
+|
+|-damage|p2a: Great Tusk|43/100 psn|[from] Leech Seed|[of] p1a: Vileplume
+|-heal|p1a: Vileplume|71/100|[silent]
+|-damage|p2a: Great Tusk|30/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1769424530
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Vileplume|Leech Seed|p2a: Heatran|[miss]
+|-miss|p1a: Vileplume|p2a: Heatran
+|
+|upkeep
+|turn|6
+|
+|t:|1769424535
+|switch|p1a: Muk|Muk-Alola, M|100/100
+|move|p2a: Heatran|Lava Plume|p1a: Muk
+|-damage|p1a: Muk|83/100
+|
+|upkeep
+|turn|7
+|
+|t:|1769424544
+|move|p2a: Heatran|Stealth Rock|p1a: Muk
+|-sidestart|p1: Shoejob|move: Stealth Rock
+|move|p1a: Muk|Drain Punch|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|51/100
+|-heal|p1a: Muk|100/100|[from] drain|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|57/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1769424557
+|move|p2a: Heatran|Lava Plume|p1a: Muk
+|-damage|p1a: Muk|82/100
+|move|p1a: Muk|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|29/100
+|-enditem|p2a: Heatran|Leftovers|[from] move: Knock Off|[of] p1a: Muk
+|
+|upkeep
+|turn|9
+|
+|t:|1769424565
+|move|p2a: Heatran|Lava Plume|p1a: Muk
+|-damage|p1a: Muk|64/100
+|move|p1a: Muk|Drain Punch|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-heal|p1a: Muk|77/100|[from] drain|[of] p2a: Heatran
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1769424576
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|10
+|-message|xavierance forfeited.
+|
+|win|Shoejob
+|raw|Shoejob's rating: 1212 &rarr; <strong>1241</strong><br />(+29 for winning)
+|raw|xavierance's rating: 1267 &rarr; <strong>1238</strong><br />(-29 for losing)
+|l|☆xavierance
+|player|p2|
+|l|☆Shoejob
+|player|p1|

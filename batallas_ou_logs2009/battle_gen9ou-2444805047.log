@@ -1,0 +1,201 @@
+|j|☆wlk12345
+|j|☆Alephvevo
+|t:|1758271041
+|gametype|singles
+|player|p1|wlk12345|101|1167
+|player|p2|Alephvevo|1|1195
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Alomomola, M|
+|poke|p1|Gliscor, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Meowscarada, F|
+|poke|p1|Cinccino, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Serperior, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Chansey, F|
+|poke|p2|Iron Moth|
+|poke|p2|Gholdengo|
+|poke|p2|Garchomp, F|
+|teampreview
+|
+|t:|1758271067
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cinccino|Cinccino, M|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|1
+|
+|t:|1758271078
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Hatterene
+|-damage|p1a: Hatterene|67/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1758271088
+|move|p2a: Iron Moth|Sludge Wave|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1758271102
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|3
+|
+|t:|1758271113
+|move|p1a: Meowscarada|Knock Off|p2a: Iron Moth
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-crit|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758271128
+|switch|p2a: Chansey|Chansey, F|100/100
+|turn|4
+|
+|t:|1758271132
+|move|p1a: Meowscarada|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|54/100
+|-enditem|p2a: Chansey|Eviolite|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Chansey|Seismic Toss|p1a: Meowscarada
+|-damage|p1a: Meowscarada|66/100
+|
+|upkeep
+|turn|5
+|
+|t:|1758271158
+|-terastallize|p1a: Meowscarada|Ghost
+|move|p1a: Meowscarada|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|10/100
+|move|p2a: Chansey|Thunder Wave|p1a: Meowscarada
+|-status|p1a: Meowscarada|par
+|
+|upkeep
+|turn|6
+|
+|t:|1758271168
+|move|p1a: Meowscarada|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|upkeep
+|
+|t:|1758271172
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|7
+|
+|t:|1758271176
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Meowscarada|Knock Off|p2a: Garchomp
+|-damage|p2a: Garchomp|33/100
+|-damage|p1a: Meowscarada|54/100 par|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Meowscarada|38/100 par|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|-enditem|p2a: Garchomp|Rocky Helmet|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|upkeep
+|turn|8
+|
+|t:|1758271186
+|move|p2a: Garchomp|Scale Shot|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|-hitcount|p1: Meowscarada|1
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|
+|upkeep
+|
+|t:|1758271199
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|9
+|
+|t:|1758271206
+|-terastallize|p2a: Garchomp|Dragon
+|move|p2a: Garchomp|Scale Shot|p1a: Ursaluna
+|-damage|p1a: Ursaluna|75/100
+|-damage|p1a: Ursaluna|50/100
+|-damage|p1a: Ursaluna|23/100
+|-hitcount|p1a: Ursaluna|3
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|move|p1a: Ursaluna|Drain Punch|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-heal|p1a: Ursaluna|36/100|[from] drain|[of] p2a: Garchomp
+|-damage|p1a: Ursaluna|23/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1758271217
+|switch|p2a: Serperior|Serperior, M|100/100
+|turn|10
+|
+|t:|1758271231
+|move|p2a: Serperior|Leaf Storm|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Ursaluna
+|-damage|p2a: Serperior|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758271239
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|turn|11
+|
+|t:|1758271243
+|move|p2a: Serperior|Leaf Storm|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Gliscor
+|-damage|p2a: Serperior|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758271250
+|switch|p1a: Cinccino|Cinccino, M|100/100
+|turn|12
+|
+|t:|1758271259
+|move|p2a: Serperior|Leaf Storm|p1a: Cinccino
+|-damage|p1a: Cinccino|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Cinccino
+|-damage|p2a: Serperior|71/100|[from] item: Life Orb
+|
+|upkeep
+|-message|wlk12345 forfeited.
+|
+|win|Alephvevo
+|raw|wlk12345's rating: 1167 &rarr; <strong>1144</strong><br />(-23 for losing)
+|raw|Alephvevo's rating: 1195 &rarr; <strong>1218</strong><br />(+23 for winning)
+|l|☆wlk12345
+|player|p1|
+|l|☆Alephvevo
+|player|p2|

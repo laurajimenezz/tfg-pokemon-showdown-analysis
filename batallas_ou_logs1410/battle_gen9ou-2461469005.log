@@ -1,0 +1,391 @@
+|j|☆Churrini
+|j|☆yamada 1107
+|t:|1760449301
+|gametype|singles
+|player|p1|Churrini|morty|1184
+|player|p2|yamada 1107|rosa|1199
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Alomomola, M|
+|poke|p1|Heatran, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Darkrai|
+|poke|p1|Iron Valiant|
+|poke|p1|Dragapult, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Garganacl, F|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|t:|1760449332
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Ground|Landorus-Therian, M|100/100
+|-ability|p2a: Ground|Intimidate|boost
+|-unboost|p1a: Dragapult|atk|1
+|turn|1
+|
+|t:|1760449341
+|-terastallize|p1a: Dragapult|Dragon
+|move|p1a: Dragapult|Draco Meteor|p2a: Ground
+|-damage|p2a: Ground|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Ground
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760449351
+|switch|p2a: Zipizopi|Raging Bolt|100/100
+|-enditem|p2a: Zipizopi|Booster Energy
+|-activate|p2a: Zipizopi|ability: Protosynthesis|[fromitem]
+|-start|p2a: Zipizopi|protosynthesisspa
+|turn|2
+|
+|t:|1760449361
+|switch|p1a: Heatran|Heatran, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|-terastallize|p2a: Zipizopi|Fairy
+|move|p2a: Zipizopi|Calm Mind|p2a: Zipizopi
+|-boost|p2a: Zipizopi|spa|1
+|-boost|p2a: Zipizopi|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1760449370
+|move|p1a: Heatran|Magma Storm|p2a: Zipizopi
+|-damage|p2a: Zipizopi|71/100
+|-activate|p2a: Zipizopi|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Zipizopi|Dragon Pulse|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|54/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-damage|p2a: Zipizopi|58/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1760449384
+|move|p1a: Heatran|Stealth Rock|p2a: Zipizopi
+|-sidestart|p2: yamada 1107|move: Stealth Rock
+|move|p2a: Zipizopi|Thunderbolt|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-end|p2a: Zipizopi|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1760449393
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|turn|5
+|
+|t:|1760449400
+|move|p2a: Zipizopi|Thunderclap|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|15/100
+|move|p1a: Alomomola|Mirror Coat|p2a: Zipizopi
+|-damage|p2a: Zipizopi|0 fnt
+|faint|p2a: Zipizopi
+|-end|p2a: Zipizopi|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760449410
+|switch|p2a: Crow|Corviknight, M|100/100
+|-damage|p2a: Crow|88/100|[from] Stealth Rock
+|-ability|p2a: Crow|Pressure
+|turn|6
+|
+|t:|1760449420
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Crow|Roost|p2a: Crow
+|-heal|p2a: Crow|100/100
+|-singleturn|p2a: Crow|move: Roost
+|
+|upkeep
+|turn|7
+|
+|t:|1760449429
+|move|p2a: Crow|Defog|p1a: Slowking
+|-unboost|p1a: Slowking|evasion|1
+|-sideend|p2: yamada 1107|Stealth Rock|[from] move: Defog|[of] p2a: Crow
+|move|p1a: Slowking|Thunder Wave|p2a: Crow
+|-status|p2a: Crow|par
+|
+|upkeep
+|turn|8
+|
+|t:|1760449436
+|switch|p1a: Alomomola|Alomomola, M|48/100
+|cant|p2a: Crow|par
+|
+|upkeep
+|turn|9
+|
+|t:|1760449443
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Crow|Iron Defense|p2a: Crow
+|-boost|p2a: Crow|def|2
+|
+|upkeep
+|turn|10
+|
+|t:|1760449453
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|cant|p2a: Crow|par
+|
+|upkeep
+|turn|11
+|
+|t:|1760449459
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Crow|Brave Bird|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|11/100
+|-damage|p2a: Crow|79/100 par|[from] Recoil
+|
+|upkeep
+|turn|12
+|
+|t:|1760449472
+|switch|p2a: F-22|Dragapult, M|100/100
+|move|p1a: Iron Valiant|Vacuum Wave|p2a: F-22
+|-immune|p2a: F-22
+|
+|upkeep
+|turn|13
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Churrini)
+|
+|t:|1760449486
+|move|p1a: Iron Valiant|Moonblast|p2a: F-22
+|-supereffective|p2a: F-22
+|-damage|p2a: F-22|0 fnt
+|faint|p2a: F-22
+|
+|upkeep
+|
+|t:|1760449492
+|switch|p2a: Tales|Ninetales-Alola, F, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Tales
+|turn|14
+|
+|t:|1760449501
+|move|p1a: Iron Valiant|Moonblast|p2a: Tales
+|-damage|p2a: Tales|4/100
+|-unboost|p2a: Tales|spa|1
+|move|p2a: Tales|Aurora Veil|p2a: Tales
+|-sidestart|p2: yamada 1107|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1760449510
+|move|p1a: Iron Valiant|Moonblast|p2a: Tales
+|-crit|p2a: Tales
+|-damage|p2a: Tales|0 fnt
+|faint|p2a: Tales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760449516
+|switch|p2a: Crow|Corviknight, M|79/100 par
+|-ability|p2a: Crow|Pressure
+|turn|16
+|
+|t:|1760449528
+|move|p1a: Iron Valiant|Vacuum Wave|p2a: Crow
+|-damage|p2a: Crow|65/100 par
+|move|p2a: Crow|Brave Bird|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-damage|p2a: Crow|63/100 par|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760449539
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|17
+|
+|t:|1760449544
+|move|p1a: Darkrai|Trick|p2a: Crow
+|-activate|p1a: Darkrai|move: Trick|[of] p2a: Crow
+|-item|p2a: Crow|Choice Specs|[from] move: Trick
+|-item|p1a: Darkrai|Rocky Helmet|[from] move: Trick
+|cant|p2a: Crow|par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1760449556
+|move|p1a: Darkrai|Dark Pulse|p2a: Crow
+|-damage|p2a: Crow|49/100 par
+|move|p2a: Crow|Brave Bird|p1a: Darkrai
+|-damage|p1a: Darkrai|52/100
+|-damage|p2a: Crow|32/100 par|[from] item: Rocky Helmet|[of] p1a: Darkrai
+|-damage|p2a: Crow|21/100 par|[from] Recoil
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1760449566
+|move|p1a: Darkrai|Dark Pulse|p2a: Crow
+|-damage|p2a: Crow|6/100 par
+|cant|p2a: Crow|par
+|
+|upkeep
+|turn|20
+|
+|t:|1760449572
+|switch|p1a: Alomomola|Alomomola, M|81/100
+|move|p2a: Crow|Brave Bird|p1a: Alomomola
+|-damage|p1a: Alomomola|58/100
+|-damage|p2a: Crow|0 fnt|[from] Recoil
+|faint|p2a: Crow
+|
+|upkeep
+|
+|t:|1760449581
+|switch|p2a: Salty|Garganacl, F|100/100
+|turn|21
+|
+|t:|1760449590
+|move|p2a: Salty|Curse|p2a: Salty
+|-unboost|p2a: Salty|spe|1
+|-boost|p2a: Salty|atk|1
+|-boost|p2a: Salty|def|1
+|move|p1a: Alomomola|Mirror Coat||[still]
+|-fail|p1a: Alomomola
+|
+|-sideend|p2: yamada 1107|move: Aurora Veil
+|upkeep
+|turn|22
+|
+|t:|1760449598
+|move|p1a: Alomomola|Scald|p2a: Salty
+|-supereffective|p2a: Salty
+|-damage|p2a: Salty|75/100
+|move|p2a: Salty|Curse|p2a: Salty
+|-unboost|p2a: Salty|spe|1
+|-boost|p2a: Salty|atk|1
+|-boost|p2a: Salty|def|1
+|
+|-heal|p2a: Salty|81/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1760449611
+|move|p1a: Alomomola|Scald|p2a: Salty
+|-supereffective|p2a: Salty
+|-damage|p2a: Salty|54/100
+|move|p2a: Salty|Salt Cure|p1a: Alomomola
+|-damage|p1a: Alomomola|40/100
+|-start|p1a: Alomomola|Salt Cure
+|
+|-heal|p2a: Salty|60/100|[from] item: Leftovers
+|-damage|p1a: Alomomola|15/100|[from] Salt Cure
+|upkeep
+|turn|24
+|
+|t:|1760449621
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Salty|Recover|p2a: Salty
+|-heal|p2a: Salty|100/100
+|
+|upkeep
+|turn|25
+|
+|t:|1760449627
+|move|p1a: Slowking|Thunder Wave|p2a: Salty|[miss]
+|-miss|p1a: Slowking|p2a: Salty
+|move|p2a: Salty|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|4/100
+|
+|upkeep
+|turn|26
+|
+|t:|1760449635
+|move|p1a: Slowking|Thunder Wave|p2a: Salty
+|-immune|p2a: Salty|[from] ability: Purifying Salt
+|move|p2a: Salty|Curse|p2a: Salty
+|-unboost|p2a: Salty|spe|1
+|-boost|p2a: Salty|atk|1
+|-boost|p2a: Salty|def|1
+|
+|upkeep
+|turn|27
+|
+|t:|1760449644
+|move|p1a: Slowking|Future Sight|p2a: Salty
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: Salty|Curse|p2a: Salty
+|-unboost|p2a: Salty|spe|1
+|-boost|p2a: Salty|atk|1
+|-boost|p2a: Salty|def|1
+|
+|upkeep
+|turn|28
+|
+|t:|1760449650
+|move|p1a: Slowking|Sludge Bomb|p2a: Salty
+|-resisted|p2a: Salty
+|-crit|p2a: Salty
+|-damage|p2a: Salty|76/100
+|move|p2a: Salty|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-heal|p2a: Salty|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760449658
+|switch|p1a: Darkrai|Darkrai|52/100
+|turn|29
+|
+|t:|1760449663
+|move|p1a: Darkrai|Dark Pulse|p2a: Salty
+|-damage|p2a: Salty|41/100
+|move|p2a: Salty|Salt Cure|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|-end|p2a: Salty|move: Future Sight
+|-damage|p2a: Salty|0 fnt
+|faint|p2a: Salty
+|
+|win|Churrini
+|raw|Churrini's rating: 1184 &rarr; <strong>1210</strong><br />(+26 for winning)
+|raw|yamada 1107's rating: 1199 &rarr; <strong>1173</strong><br />(-26 for losing)
+|l|☆yamada 1107
+|player|p2|

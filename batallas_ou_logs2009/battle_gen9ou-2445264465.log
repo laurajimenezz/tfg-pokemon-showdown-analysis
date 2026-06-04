@@ -1,0 +1,270 @@
+|j|☆qiuxuya
+|j|☆brickforbrains
+|t:|1758321213
+|gametype|singles
+|player|p1|qiuxuya|n|1207
+|player|p2|brickforbrains|ingo|1183
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Scovillain, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Charizard, M|
+|poke|p1|Brute Bonnet|
+|poke|p1|Whimsicott, M|
+|poke|p2|Porygon-Z|
+|poke|p2|Corviknight, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Crown|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1758321225
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1758321242
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Iron Valiant|Aura Sphere|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|92/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1758321252
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758321263
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespa
+|move|p1a: Whimsicott|Moonblast|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758321276
+|switch|p1a: Scovillain|Scovillain, M|100/100
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Scovillain
+|-resisted|p1a: Scovillain
+|-damage|p1a: Scovillain|64/100
+|-resisted|p1a: Scovillain
+|-damage|p1a: Scovillain|29/100
+|-hitcount|p1a: Scovillain|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758321290
+|move|p1a: Scovillain|Flamethrower|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|-damage|p1a: Scovillain|19/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758321312
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|5
+|
+|t:|1758321339
+|move|p2a: Iron Valiant|Vacuum Wave|p1a: Scovillain
+|-damage|p1a: Scovillain|0 fnt
+|faint|p1a: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758321356
+|switch|p1a: Brute Bonnet|Brute Bonnet|100/100
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisatk
+|turn|6
+|
+|t:|1758321368
+|-terastallize|p1a: Brute Bonnet|Fire
+|move|p2a: Iron Valiant|Vacuum Wave|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|82/100
+|move|p1a: Brute Bonnet|Close Combat|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|50/100
+|-unboost|p1a: Brute Bonnet|def|1
+|-unboost|p1a: Brute Bonnet|spd|1
+|-damage|p1a: Brute Bonnet|72/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758321388
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Brute Bonnet|Sucker Punch||[still]
+|-fail|p1a: Brute Bonnet
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758321399
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|92/100
+|move|p2a: Iron Treads|Rapid Spin|p1a: Hatterene
+|-damage|p1a: Hatterene|81/100
+|-boost|p2a: Iron Treads|spe|1
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1758321412
+|move|p2a: Iron Treads|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|33/100
+|cant|p1a: Hatterene|flinch
+|
+|upkeep
+|turn|10
+|
+|t:|1758321421
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Iron Treads|Iron Head|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|92/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758321433
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Torkoal|Overheat|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|86/100
+|-unboost|p1a: Torkoal|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1758321446
+|switch|p1a: Hatterene|Hatterene, F|33/100
+|move|p2a: Raging Bolt|Volt Switch|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|t:|1758321451
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Epilep-Z|Porygon-Z, shiny|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758321466
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|13
+|
+|t:|1758321472
+|move|p1a: Charizard|Weather Ball|p2a: Epilep-Z
+|-enditem|p2a: Epilep-Z|Focus Sash
+|-damage|p2a: Epilep-Z|1/100
+|move|p2a: Epilep-Z|Trick Room|p2a: Epilep-Z
+|-fieldstart|move: Trick Room|[of] p2a: Epilep-Z
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|88/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|turn|14
+|
+|t:|1758321483
+|move|p2a: Epilep-Z|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758321493
+|switch|p1a: Brute Bonnet|Brute Bonnet, tera:Fire|72/100
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisatk
+|turn|15
+|
+|t:|1758321505
+|move|p1a: Brute Bonnet|Growth|p1a: Brute Bonnet
+|-boost|p1a: Brute Bonnet|atk|2
+|-boost|p1a: Brute Bonnet|spa|2
+|move|p2a: Epilep-Z|Trick Room|p2a: Epilep-Z
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1758321515
+|move|p1a: Brute Bonnet|Bullet Seed|p2a: Epilep-Z
+|-crit|p2a: Epilep-Z
+|-damage|p2a: Epilep-Z|0 fnt
+|faint|p2a: Epilep-Z
+|-hitcount|p2: Epilep-Z|1
+|-damage|p1a: Brute Bonnet|62/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758321524
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|17
+|
+|t:|1758321530
+|move|p2a: Iron Treads|Earthquake|p1a: Brute Bonnet
+|-supereffective|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|0 fnt
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|-message|qiuxuya forfeited.
+|
+|win|brickforbrains
+|raw|qiuxuya's rating: 1207 &rarr; <strong>1180</strong><br />(-27 for losing)
+|raw|brickforbrains's rating: 1183 &rarr; <strong>1210</strong><br />(+27 for winning)
+|l|☆qiuxuya
+|player|p1|

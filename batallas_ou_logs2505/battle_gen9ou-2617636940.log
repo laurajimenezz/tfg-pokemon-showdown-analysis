@@ -1,0 +1,152 @@
+|j|☆respectmydih
+|j|☆PoloElClouclou
+|t:|1779718005
+|gametype|singles
+|player|p1|respectmydih|blue|1159
+|player|p2|PoloElClouclou|ninjaboy|1188
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pecharunt|
+|poke|p1|Maushold-Four|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Perrserker, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Kingambit, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Scream Tail|
+|poke|p2|Cresselia, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Iron Hands|
+|poke|p2|Primarina, M|
+|teampreview
+|
+|t:|1779718014
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: poison|Pecharunt|100/100
+|switch|p2a: Hyperion|Scream Tail|100/100
+|-enditem|p2a: Hyperion|Booster Energy
+|-activate|p2a: Hyperion|ability: Protosynthesis|[fromitem]
+|-start|p2a: Hyperion|protosynthesisspe
+|turn|1
+|
+|t:|1779718027
+|move|p1a: poison|Toxic|p2a: Hyperion
+|-status|p2a: Hyperion|tox
+|-start|p2a: Hyperion|confusion|[from] ability: Poison Puppeteer|[of] p1a: poison
+|-activate|p2a: Hyperion|confusion
+|move|p2a: Hyperion|Trick Room|p2a: Hyperion
+|-fieldstart|move: Trick Room|[of] p2a: Hyperion
+|
+|-damage|p2a: Hyperion|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1779718050
+|switch|p1a: kitty|Perrserker, M, shiny|100/100
+|-end|p2a: Hyperion|Protosynthesis|[silent]
+|switch|p2a: Shirotae|Ursaluna, M|100/100
+|
+|-status|p2a: Shirotae|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1779718073
+|move|p1a: kitty|Close Combat|p2a: Shirotae
+|-supereffective|p2a: Shirotae
+|-crit|p2a: Shirotae
+|-damage|p2a: Shirotae|0 fnt
+|-unboost|p1a: kitty|def|1
+|-unboost|p1a: kitty|spd|1
+|faint|p2a: Shirotae
+|
+|upkeep
+|
+|t:|1779718087
+|switch|p2a: Ponthus|Iron Hands|100/100
+|-enditem|p2a: Ponthus|Booster Energy
+|-activate|p2a: Ponthus|ability: Quark Drive|[fromitem]
+|-start|p2a: Ponthus|quarkdriveatk
+|turn|4
+|
+|t:|1779718094
+|move|p1a: kitty|Close Combat|p2a: Ponthus
+|-damage|p2a: Ponthus|69/100
+|-unboost|p1a: kitty|def|1
+|-unboost|p1a: kitty|spd|1
+|move|p2a: Ponthus|Close Combat|p1a: kitty
+|-supereffective|p1a: kitty
+|-damage|p1a: kitty|0 fnt
+|-unboost|p2a: Ponthus|def|1
+|-unboost|p2a: Ponthus|spd|1
+|faint|p1a: kitty
+|
+|upkeep
+|
+|t:|1779718108
+|switch|p1a: poison|Pecharunt|100/100
+|turn|5
+|
+|t:|1779718117
+|move|p2a: Ponthus|Wild Charge|p1a: poison
+|-damage|p1a: poison|52/100
+|-damage|p2a: Ponthus|62/100|[from] Recoil
+|move|p1a: poison|Toxic|p2a: Ponthus
+|-status|p2a: Ponthus|tox
+|-start|p2a: Ponthus|confusion|[from] ability: Poison Puppeteer|[of] p1a: poison
+|
+|-heal|p1a: poison|58/100|[from] item: Leftovers
+|-damage|p2a: Ponthus|56/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1779718143
+|-end|p2a: Ponthus|Quark Drive|[silent]
+|switch|p2a: Tournefort|Cresselia, F|100/100
+|move|p1a: poison|Hex|p2a: Tournefort
+|-supereffective|p2a: Tournefort
+|-damage|p2a: Tournefort|65/100
+|
+|-heal|p1a: poison|64/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779718156
+|move|p1a: poison|Toxic|p2a: Tournefort
+|-status|p2a: Tournefort|tox
+|-start|p2a: Tournefort|confusion|[from] ability: Poison Puppeteer|[of] p1a: poison
+|-activate|p2a: Tournefort|confusion
+|-damage|p2a: Tournefort|62/100 tox|[from] confusion
+|
+|-heal|p1a: poison|70/100|[from] item: Leftovers
+|-damage|p2a: Tournefort|55/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1779718166
+|move|p1a: poison|Hex|p2a: Tournefort
+|-supereffective|p2a: Tournefort
+|-damage|p2a: Tournefort|0 fnt
+|faint|p2a: Tournefort
+|
+|-heal|p1a: poison|76/100|[from] item: Leftovers
+|upkeep
+|-message|PoloElClouclou forfeited.
+|
+|win|respectmydih
+|raw|respectmydih's rating: 1159 &rarr; <strong>1186</strong><br />(+27 for winning)
+|raw|PoloElClouclou's rating: 1188 &rarr; <strong>1161</strong><br />(-27 for losing)
+|l|☆PoloElClouclou
+|player|p2|

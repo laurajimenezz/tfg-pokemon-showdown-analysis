@@ -1,0 +1,268 @@
+|j|☆jiiiiz
+|j|☆PlasmaFan265
+|t:|1779557424
+|gametype|singles
+|player|p1|jiiiiz|2|1257
+|player|p2|PlasmaFan265|169|1269
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Raging Bolt|
+|poke|p1|Kingambit, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Coalossal, M|
+|poke|p2|Charizard, M|
+|poke|p2|Stonjourner, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Iron Boulder|
+|poke|p2|Mamoswine, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jiiiiz)
+|
+|t:|1779557456
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|1
+|
+|t:|1779557466
+|move|p1a: Great Tusk|Nasty Plot|p1a: Great Tusk
+|-boost|p1a: Great Tusk|spa|2
+|move|p2a: Mamoswine|Icicle Crash|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|replace|p1a: Zoroark|Zoroark-Hisui, M
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|t:|1779557476
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|2
+|
+|t:|1779557480
+|move|p1a: Dragapult|Flamethrower|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|43/100
+|move|p2a: Mamoswine|Icicle Crash|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1779557485
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|3
+|
+|t:|1779557495
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Toxapex|[anim] Ivy Cudgel Water
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|83/100
+|
+|-heal|p2a: Toxapex|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1779557502
+|move|p1a: Ogerpon|Power Whip|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|26/100
+|move|p2a: Toxapex|Toxic|p1a: Ogerpon
+|-status|p1a: Ogerpon|tox
+|
+|-heal|p2a: Toxapex|32/100|[from] item: Leftovers
+|-damage|p1a: Ogerpon|95/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1779557515
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|move|p1a: Ogerpon|Encore||[still]
+|-fail|p1a: Ogerpon
+|
+|-damage|p1a: Ogerpon|83/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1779557522
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Coalossal|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|faint|p2a: Coalossal
+|
+|-damage|p1a: Ogerpon|65/100 tox|[from] psn
+|upkeep
+|
+|t:|1779557531
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|turn|7
+|
+|t:|1779557541
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1779557546
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|8
+|
+|t:|1779557549
+|move|p2a: Iron Boulder|Zen Headbutt|p1a: Great Tusk|[miss]
+|-miss|p2a: Iron Boulder|p1a: Great Tusk
+|move|p1a: Great Tusk|Earthquake|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779557557
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|9
+|
+|t:|1779557571
+|-terastallize|p2a: Charizard|Flying
+|move|p2a: Charizard|Belly Drum|p2a: Charizard
+|-damage|p2a: Charizard|50/100
+|-setboost|p2a: Charizard|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Charizard|Sitrus Berry|[eat]
+|-heal|p2a: Charizard|75/100|[from] item: Sitrus Berry
+|move|p1a: Great Tusk|Stealth Rock|p2a: Charizard
+|-sidestart|p2: PlasmaFan265|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1779557576
+|move|p2a: Charizard|Acrobatics|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-damage|p2a: Charizard|59/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779557579
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|11
+|
+|t:|1779557584
+|switch|p2a: Mamoswine|Mamoswine, F|43/100
+|-damage|p2a: Mamoswine|31/100|[from] Stealth Rock
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|12
+|
+|t:|1779557588
+|move|p2a: Mamoswine|Earthquake|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779557590
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|13
+|
+|t:|1779557593
+|move|p1a: Kingambit|Sucker Punch|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|t:|1779557599
+|switch|p2a: Toxapex|Toxapex, F|66/100
+|-damage|p2a: Toxapex|53/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1779557605
+|switch|p2a: Charizard|Charizard, M, tera:Flying|59/100
+|-damage|p2a: Charizard|34/100|[from] Stealth Rock
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|15
+|
+|t:|1779557610
+|move|p1a: Kingambit|Sucker Punch|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|upkeep
+|
+|t:|1779557618
+|switch|p2a: Stonjourner|Stonjourner, F|100/100
+|-damage|p2a: Stonjourner|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1779557622
+|move|p2a: Stonjourner|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|14/100
+|move|p1a: Kingambit|Iron Head|p2a: Stonjourner
+|-supereffective|p2a: Stonjourner
+|-damage|p2a: Stonjourner|0 fnt
+|faint|p2a: Stonjourner
+|
+|upkeep
+|
+|t:|1779557626
+|switch|p2a: Toxapex|Toxapex, F|86/100
+|-damage|p2a: Toxapex|74/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1779557630
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|18
+|
+|t:|1779557634
+|move|p1a: Kingambit|Sucker Punch|p2a: Toxapex
+|-damage|p2a: Toxapex|9/100
+|move|p2a: Toxapex|Liquidation|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|PlasmaFan265
+|raw|jiiiiz's rating: 1257 &rarr; <strong>1233</strong><br />(-24 for losing)
+|raw|PlasmaFan265's rating: 1269 &rarr; <strong>1293</strong><br />(+24 for winning)
+|l|☆PlasmaFan265
+|player|p2|
+|l|☆jiiiiz
+|player|p1|

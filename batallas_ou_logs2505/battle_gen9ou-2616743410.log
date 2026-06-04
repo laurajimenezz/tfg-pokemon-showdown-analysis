@@ -1,0 +1,270 @@
+|j|☆backw1thm1lk
+|j|☆i am patrat
+|t:|1779597569
+|gametype|singles
+|player|p1|backw1thm1lk|266|1429
+|player|p2|i am patrat|169|1357
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Dragalge, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Serperior, F|
+|poke|p1|Sandy Shocks|
+|poke|p2|Lokix, F|
+|poke|p2|Iron Crown|
+|poke|p2|Gliscor, F|
+|poke|p2|Garganacl, F|
+|poke|p2|Pecharunt|
+|poke|p2|Cinderace, F|
+|teampreview
+|
+|t:|1779597577
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespa
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by backw1thm1lk)
+|
+|t:|1779597586
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|move|p1a: Araquanid|Liquidation|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779597596
+|switch|p2a: Lokix|Lokix, F|100/100
+|turn|2
+|
+|t:|1779597608
+|move|p2a: Lokix|Knock Off|p1a: Araquanid
+|-damage|p1a: Araquanid|45/100
+|-enditem|p1a: Araquanid|Choice Band|[from] move: Knock Off|[of] p2a: Lokix
+|move|p1a: Araquanid|Liquidation|p2a: Lokix
+|-damage|p2a: Lokix|9/100
+|-unboost|p2a: Lokix|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1779597618
+|move|p2a: Lokix|U-turn|p1a: Araquanid
+|-damage|p1a: Araquanid|2/100
+|
+|t:|1779597624
+|switch|p2a: Pecharunt|Pecharunt|100/100|[from] U-turn
+|move|p1a: Araquanid|Liquidation|p2a: Pecharunt
+|-damage|p2a: Pecharunt|71/100
+|
+|upkeep
+|turn|4
+|
+|t:|1779597632
+|move|p2a: Pecharunt|Foul Play|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1779597637
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|5
+|
+|t:|1779597643
+|switch|p2a: Lokix|Lokix, F|9/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Lokix
+|-resisted|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|faint|p2a: Lokix
+|
+|upkeep
+|
+|t:|1779597652
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|6
+|
+|t:|1779597660
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Dragalge|Dragalge, F|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Dragalge|[miss]
+|-miss|p2a: Cinderace|p1a: Dragalge
+|
+|upkeep
+|turn|7
+|
+|t:|1779597670
+|move|p2a: Cinderace|U-turn|p1a: Dragalge
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|81/100
+|
+|t:|1779597678
+|switch|p2a: Gliscor|Gliscor, F|100/100|[from] U-turn
+|move|p1a: Dragalge|Hydro Pump|p2a: Gliscor|[miss]
+|-miss|p1a: Dragalge|p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|
+|t:|1779597690
+|-terastallize|p2a: Gliscor|Normal
+|-terastallize|p1a: Dragalge|Water
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Dragalge|Hydro Pump|p2a: Gliscor
+|-damage|p2a: Gliscor|8/100 tox
+|
+|-heal|p2a: Gliscor|20/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1779597703
+|move|p2a: Gliscor|Facade|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|-heal|p2a: Gliscor|33/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1779597710
+|switch|p1a: Serperior|Serperior, F|100/100
+|turn|10
+|
+|t:|1779597713
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Serperior|Leaf Storm|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|45/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1779597721
+|move|p1a: Serperior|Leaf Storm|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1779597728
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|12
+|
+|t:|1779597738
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Cinderace|U-turn|p1a: Cinderace
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|74/100
+|
+|t:|1779597745
+|switch|p2a: Garganacl|Garganacl, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|13
+|
+|t:|1779597751
+|move|p1a: Cinderace|High Jump Kick|p2a: Garganacl
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|34/100
+|move|p2a: Garganacl|Salt Cure|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|64/100
+|-start|p1a: Cinderace|Salt Cure
+|
+|-heal|p2a: Garganacl|40/100|[from] item: Leftovers
+|-damage|p1a: Cinderace|52/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1779597763
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Cinderace|Pyro Ball|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|46/100|[from] item: Leftovers
+|-damage|p1a: Cinderace|39/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1779597771
+|switch|p2a: Pecharunt|Pecharunt|71/100
+|move|p1a: Cinderace|High Jump Kick|p2a: Pecharunt
+|-immune|p2a: Pecharunt
+|-damage|p1a: Cinderace|0 fnt|[from] highjumpkick
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1779597775
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|turn|16
+|
+|t:|1779597785
+|move|p1a: Sandy Shocks|Earth Power|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1779597791
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|17
+|
+|t:|1779597796
+|move|p1a: Sandy Shocks|Earth Power|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1779597802
+|switch|p2a: Garganacl|Garganacl, F|46/100
+|turn|18
+|
+|t:|1779597806
+|move|p1a: Sandy Shocks|Earth Power|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|win|backw1thm1lk
+|raw|backw1thm1lk's rating: 1429 &rarr; <strong>1445</strong><br />(+16 for winning)
+|raw|i am patrat's rating: 1357 &rarr; <strong>1341</strong><br />(-16 for losing)
+|l|☆backw1thm1lk
+|player|p1|
+|l|☆i am patrat
+|player|p2|

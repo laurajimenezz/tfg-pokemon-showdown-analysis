@@ -1,0 +1,699 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1757903485
+|gametype|singles
+|player|p1|ATTRIBUTE|#scl5spartans|
+|player|p2|Finchinator|#scl5gible|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Hydrapple, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Rotom-Wash|
+|poke|p2|Dragonite, F|
+|teampreview
+|inactive|ATTRIBUTE also wants the timer to be on.
+|rated|Smogon Premier League
+|c|☆ATTRIBUTE|hf
+|c|☆Finchinator|hf
+|rated|Smogon Champions League
+|inactive|ATTRIBUTE has 270 seconds left.
+|inactive|Finchinator has 270 seconds left.
+|inactive|ATTRIBUTE has 240 seconds left.
+|
+|t:|1757903573
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: i go before|Slowking-Galar, F|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+|
+|t:|1757903579
+|move|p2a: Tornadus|Knock Off|p1a: i go before
+|-supereffective|p1a: i go before
+|-damage|p1a: i go before|63/100
+|-enditem|p1a: i go before|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: i go before|Toxic|p2a: Tornadus
+|-status|p2a: Tornadus|tox
+|
+|-damage|p2a: Tornadus|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1757903586
+|move|p2a: Tornadus|Bleakwind Storm|p1a: i go before
+|-damage|p1a: i go before|41/100
+|-prepare|p1a: i go before|Chilly Reception|[premajor]
+|move|p1a: i go before|Chilly Reception|p1a: i go before
+|-weather|Snowscape
+|
+|t:|1757903589
+|switch|p1a: be not afraid|Gliscor, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Tornadus|82/100 tox|[from] psn
+|-status|p1a: be not afraid|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|inactive|ATTRIBUTE has 270 seconds left.
+|
+|t:|1757903638
+|move|p2a: Tornadus|Icy Wind|p1a: be not afraid
+|-supereffective|p1a: be not afraid
+|-damage|p1a: be not afraid|48/100 tox
+|-unboost|p1a: be not afraid|spe|1
+|move|p1a: be not afraid|Toxic|p2a: Tornadus
+|-fail|p2a: Tornadus|tox
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Tornadus|63/100 tox|[from] psn
+|-heal|p1a: be not afraid|61/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1757903660
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: be not afraid|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|73/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: be not afraid|73/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1757903668
+|move|p1a: be not afraid|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|45/100
+|move|p2a: Hatterene|Psychic Noise|p1a: be not afraid
+|-damage|p1a: be not afraid|42/100 tox
+|-start|p1a: be not afraid|move: Heal Block
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|inactive|ATTRIBUTE has 240 seconds left.
+|inactive|ATTRIBUTE has 210 seconds left.
+|
+|t:|1757903728
+|move|p1a: be not afraid|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|15/100
+|move|p2a: Hatterene|Pain Split|p1a: be not afraid
+|-sethp|p1a: be not afraid|28/100 tox|[from] move: Pain Split|[silent]
+|-sethp|p2a: Hatterene|31/100|[from] move: Pain Split
+|
+|-weather|none
+|-end|p1a: be not afraid|move: Heal Block
+|upkeep
+|turn|7
+|
+|t:|1757903738
+|switch|p2a: Tornadus|Tornadus-Therian, M|96/100 tox
+|move|p1a: be not afraid|Protect||[still]
+|-fail|p1a: be not afraid
+|
+|-damage|p2a: Tornadus|90/100 tox|[from] psn
+|-heal|p1a: be not afraid|41/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1757903743
+|move|p1a: be not afraid|Protect|p1a: be not afraid
+|-singleturn|p1a: be not afraid|Protect
+|move|p2a: Tornadus|Icy Wind|p1a: be not afraid
+|-activate|p1a: be not afraid|move: Protect
+|
+|-damage|p2a: Tornadus|78/100 tox|[from] psn
+|-heal|p1a: be not afraid|53/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1757903771
+|switch|p1a: i go before|Slowking-Galar, F|74/100
+|move|p2a: Tornadus|U-turn|p1a: i go before
+|-damage|p1a: i go before|60/100
+|
+|t:|1757903779
+|switch|p2a: Dragonite|Dragonite, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|10
+|inactive|ATTRIBUTE has 210 seconds left.
+|inactive|ATTRIBUTE has 180 seconds left.
+|inactive|ATTRIBUTE has 150 seconds left.
+|
+|t:|1757903881
+|-terastallize|p2a: Dragonite|Flying
+|move|p2a: Dragonite|Tera Blast|p1a: i go before|[anim] Tera Blast Flying
+|-damage|p1a: i go before|0 fnt
+|faint|p1a: i go before
+|
+|upkeep
+|
+|t:|1757903886
+|switch|p1a: you always|Cinderace, F|100/100
+|turn|11
+|
+|t:|1757903896
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100 tox
+|move|p1a: you always|Will-O-Wisp||[still]
+|-fail|p1a: you always
+|
+|-damage|p2a: Tornadus|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|ATTRIBUTE has 120 seconds left.
+|
+|t:|1757903933
+|move|p2a: Tornadus|Bleakwind Storm|p1a: you always|[miss]
+|-miss|p2a: Tornadus|p1a: you always
+|move|p1a: you always|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|82/100 tox
+|
+|t:|1757903941
+|switch|p1a: be not afraid|Gliscor, F|53/100 tox|[from] U-turn
+|
+|-damage|p2a: Tornadus|70/100 tox|[from] psn
+|-heal|p1a: be not afraid|66/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|inactive|ATTRIBUTE has 120 seconds left.
+|
+|t:|1757903952
+|move|p2a: Tornadus|Icy Wind|p1a: be not afraid|[miss]
+|-miss|p2a: Tornadus|p1a: be not afraid
+|move|p1a: be not afraid|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: Finchinator|move: Stealth Rock
+|
+|-damage|p2a: Tornadus|51/100 tox|[from] psn
+|-heal|p1a: be not afraid|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|c|☆Finchinator|great
+|inactive|ATTRIBUTE has 120 seconds left.
+|
+|t:|1757903969
+|move|p2a: Tornadus|Icy Wind|p1a: be not afraid
+|-supereffective|p1a: be not afraid
+|-damage|p1a: be not afraid|31/100 tox
+|-unboost|p1a: be not afraid|spe|1
+|move|p1a: be not afraid|Toxic|p2a: Tornadus
+|-fail|p2a: Tornadus|tox
+|
+|-damage|p2a: Tornadus|26/100 tox|[from] psn
+|-heal|p1a: be not afraid|44/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1757903977
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: be not afraid|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|-heal|p1a: be not afraid|56/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1757903983
+|move|p1a: be not afraid|Protect|p1a: be not afraid
+|-singleturn|p1a: be not afraid|Protect
+|move|p2a: Rotom|Volt Switch|p1a: be not afraid
+|-activate|p1a: be not afraid|move: Protect
+|
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|-heal|p1a: be not afraid|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|t:|1757903997
+|switch|p1a: and i will|Hydrapple, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: and i will
+|-resisted|p1a: and i will
+|-damage|p1a: and i will|95/100
+|
+|t:|1757904008
+|switch|p2a: Dragonite|Dragonite, F, tera:Flying|100/100|[from] Volt Switch
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|18
+|inactive|ATTRIBUTE has 120 seconds left.
+|inactive|ATTRIBUTE has 90 seconds left.
+|
+|t:|1757904071
+|switch|p1a: you always|Cinderace, F|100/100
+|move|p2a: Dragonite|Tera Blast|p1a: you always|[anim] Tera Blast Flying
+|-damage|p1a: you always|0 fnt
+|faint|p1a: you always
+|
+|upkeep
+|inactive|ATTRIBUTE has 60 seconds left.
+|
+|t:|1757904117
+|switch|p1a: come follow me|Kingambit, F|100/100
+|-activate|p1a: come follow me|ability: Supreme Overlord
+|-start|p1a: come follow me|fallen2|[silent]
+|turn|19
+|
+|t:|1757904138
+|-end|p1a: come follow me|fallen2|[silent]
+|switch|p1a: be not afraid|Gliscor, F|69/100 tox
+|move|p2a: Dragonite|Earthquake|p1a: be not afraid
+|-immune|p1a: be not afraid
+|
+|-heal|p1a: be not afraid|81/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|t:|1757904155
+|switch|p2a: Tornadus|Tornadus-Therian, M|59/100 tox
+|-damage|p2a: Tornadus|34/100 tox|[from] Stealth Rock
+|move|p1a: be not afraid|Toxic|p2a: Tornadus
+|-fail|p2a: Tornadus|tox
+|
+|-damage|p2a: Tornadus|28/100 tox|[from] psn
+|-heal|p1a: be not afraid|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|t:|1757904164
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-damage|p2a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: be not afraid|Protect||[still]
+|-fail|p1a: be not afraid
+|
+|-heal|p2a: Ting-Lu|100/100|[from] item: Leftovers
+|-heal|p1a: be not afraid|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|t:|1757904177
+|move|p1a: be not afraid|Toxic|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|tox
+|move|p2a: Ting-Lu|Stealth Rock|p1a: be not afraid
+|-sidestart|p1: ATTRIBUTE|move: Stealth Rock
+|
+|-damage|p2a: Ting-Lu|94/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1757904181
+|switch|p1a: and i will|Hydrapple, F|100/100
+|move|p2a: Ting-Lu|Spikes|p1a: and i will
+|-sidestart|p1: ATTRIBUTE|Spikes
+|
+|-heal|p2a: Ting-Lu|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|88/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1757904189
+|move|p2a: Ting-Lu|Ruination|p1a: and i will
+|-damage|p1a: and i will|51/100
+|move|p1a: and i will|Giga Drain|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|64/100 tox
+|-heal|p1a: and i will|66/100|[from] drain|[of] p2a: Ting-Lu
+|
+|-heal|p2a: Ting-Lu|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|51/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1757904200
+|switch|p1a: be not afraid|Gliscor, F|100/100 tox
+|-damage|p1a: be not afraid|88/100 tox|[from] Stealth Rock
+|move|p2a: Ting-Lu|Ruination|p1a: be not afraid
+|-damage|p1a: be not afraid|44/100 tox
+|
+|-heal|p2a: Ting-Lu|57/100 tox|[from] item: Leftovers
+|-heal|p1a: be not afraid|57/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Ting-Lu|32/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1757904222
+|move|p1a: be not afraid|Protect|p1a: be not afraid
+|-singleturn|p1a: be not afraid|Protect
+|move|p2a: Ting-Lu|Ruination|p1a: be not afraid
+|-activate|p1a: be not afraid|move: Protect
+|
+|-heal|p2a: Ting-Lu|39/100 tox|[from] item: Leftovers
+|-heal|p1a: be not afraid|69/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Ting-Lu|8/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1757904230
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: be not afraid|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|-heal|p1a: be not afraid|82/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|t:|1757904235
+|move|p1a: be not afraid|Protect|p1a: be not afraid
+|-singleturn|p1a: be not afraid|Protect
+|move|p2a: Rotom|Hydro Pump|p1a: be not afraid
+|-activate|p1a: be not afraid|move: Protect
+|
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|-heal|p1a: be not afraid|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|inactive|ATTRIBUTE has 90 seconds left.
+|
+|t:|1757904253
+|move|p1a: be not afraid|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|move|p2a: Rotom|Hydro Pump|p1a: be not afraid
+|-supereffective|p1a: be not afraid
+|-crit|p1a: be not afraid
+|-damage|p1a: be not afraid|0 fnt
+|faint|p1a: be not afraid
+|
+|-damage|p2a: Rotom|94/100 tox|[from] psn
+|upkeep
+|
+|t:|1757904265
+|switch|p1a: and i will|Hydrapple, F|99/100
+|turn|30
+|
+|t:|1757904272
+|move|p2a: Rotom|Volt Switch|p1a: and i will
+|-resisted|p1a: and i will
+|-damage|p1a: and i will|93/100
+|
+|t:|1757904275
+|switch|p2a: Ting-Lu|Ting-Lu|8/100 tox|[from] Volt Switch
+|-damage|p2a: Ting-Lu|1/100 tox|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: and i will|Fickle Beam|p2a: Ting-Lu
+|-crit|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1757904277
+|switch|p2a: Dragonite|Dragonite, F, tera:Flying|76/100
+|-damage|p2a: Dragonite|51/100|[from] Stealth Rock
+|turn|31
+|inactive|ATTRIBUTE has 90 seconds left.
+|
+|t:|1757904289
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-hint|If a Terastallized Pokemon uses Roost, it remains Flying-type.
+|move|p1a: and i will|Nasty Plot|p1a: and i will
+|-boost|p1a: and i will|spa|2
+|
+|upkeep
+|turn|32
+|
+|t:|1757904294
+|move|p2a: Dragonite|Tera Blast|p1a: and i will|[anim] Tera Blast Flying
+|-supereffective|p1a: and i will
+|-damage|p1a: and i will|2/100
+|move|p1a: and i will|Fickle Beam|p2a: Dragonite
+|-damage|p2a: Dragonite|68/100
+|
+|upkeep
+|turn|33
+|inactive|ATTRIBUTE has 90 seconds left.
+|
+|t:|1757904325
+|move|p2a: Dragonite|Tera Blast|p1a: and i will|[anim] Tera Blast Flying
+|-supereffective|p1a: and i will
+|-damage|p1a: and i will|0 fnt
+|faint|p1a: and i will
+|
+|upkeep
+|
+|t:|1757904327
+|switch|p1a: give you rest|Zamazenta|100/100
+|-damage|p1a: give you rest|94/100|[from] Stealth Rock
+|-damage|p1a: give you rest|82/100|[from] Spikes
+|-ability|p1a: give you rest|Dauntless Shield|boost
+|-boost|p1a: give you rest|def|1
+|turn|34
+|inactive|ATTRIBUTE has 90 seconds left.
+|inactive|Finchinator has 270 seconds left.
+|
+|t:|1757904361
+|switch|p2a: Hatterene|Hatterene, F|31/100
+|-damage|p2a: Hatterene|19/100|[from] Stealth Rock
+|move|p1a: give you rest|Iron Defense|p1a: give you rest
+|-boost|p1a: give you rest|def|2
+|
+|upkeep
+|turn|35
+|
+|t:|1757904376
+|move|p1a: give you rest|Body Press|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-damage|p1a: give you rest|65/100|[from] item: Rocky Helmet|[of] p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1757904382
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|turn|36
+|inactive|Finchinator has 270 seconds left.
+|inactive|ATTRIBUTE has 60 seconds left.
+|inactive|Finchinator has 240 seconds left.
+|inactive|Finchinator has 210 seconds left.
+|
+|t:|1757904470
+|move|p2a: Gholdengo|Trick|p1a: give you rest
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: give you rest
+|-item|p1a: give you rest|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Chesto Berry|[from] move: Trick
+|move|p1a: give you rest|Crunch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|44/100
+|
+|upkeep
+|turn|37
+|
+|t:|1757904490
+|switch|p2a: Rotom|Rotom-Wash|94/100 tox
+|-damage|p2a: Rotom|82/100 tox|[from] Stealth Rock
+|move|p1a: give you rest|Crunch|p2a: Rotom
+|-damage|p2a: Rotom|63/100 tox
+|
+|-heal|p2a: Rotom|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|63/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1757904500
+|move|p1a: give you rest|Crunch|p2a: Rotom
+|-damage|p2a: Rotom|47/100 tox
+|move|p2a: Rotom|Pain Split|p1a: give you rest
+|-sethp|p1a: give you rest|54/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|59/100 tox|[from] move: Pain Split
+|
+|-heal|p2a: Rotom|66/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|53/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1757904507
+|move|p1a: give you rest|Crunch|p2a: Rotom
+|-damage|p2a: Rotom|35/100 tox
+|move|p2a: Rotom|Volt Switch|p1a: give you rest
+|-damage|p1a: give you rest|32/100
+|
+|t:|1757904508
+|switch|p2a: Dragonite|Dragonite, F, tera:Flying|68/100|[from] Volt Switch
+|-damage|p2a: Dragonite|44/100|[from] Stealth Rock
+|
+|upkeep
+|turn|40
+|inactive|ATTRIBUTE has 60 seconds left.
+|inactive|Finchinator has 210 seconds left.
+|
+|t:|1757904529
+|switch|p1a: come follow me|Kingambit, F|100/100
+|-damage|p1a: come follow me|94/100|[from] Stealth Rock
+|-damage|p1a: come follow me|82/100|[from] Spikes
+|-activate|p1a: come follow me|ability: Supreme Overlord
+|-start|p1a: come follow me|fallen4|[silent]
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|94/100
+|-hint|If a Terastallized Pokemon uses Roost, it remains Flying-type.
+|
+|-heal|p1a: come follow me|88/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|Finchinator has 210 seconds left.
+|
+|t:|1757904541
+|-terastallize|p1a: come follow me|Fairy
+|move|p2a: Dragonite|Earthquake|p1a: come follow me
+|-damage|p1a: come follow me|60/100
+|move|p1a: come follow me|Swords Dance|p1a: come follow me
+|-boost|p1a: come follow me|atk|2
+|
+|-heal|p1a: come follow me|66/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|inactive|ATTRIBUTE has 60 seconds left.
+|inactive|Finchinator has 210 seconds left.
+|
+|t:|1757904570
+|switch|p2a: Tornadus|Tornadus-Therian, M|61/100 tox
+|-damage|p2a: Tornadus|36/100 tox|[from] Stealth Rock
+|move|p1a: come follow me|Iron Head|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-heal|p1a: come follow me|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757904573
+|switch|p2a: Rotom|Rotom-Wash|35/100 tox
+|-damage|p2a: Rotom|22/100 tox|[from] Stealth Rock
+|turn|43
+|inactive|ATTRIBUTE has 30 seconds left.
+|
+|t:|1757904608
+|move|p2a: Rotom|Will-O-Wisp|p1a: come follow me
+|-status|p1a: come follow me|brn
+|move|p1a: come follow me|Swords Dance|p1a: come follow me
+|-boost|p1a: come follow me|atk|2
+|
+|-heal|p2a: Rotom|28/100 tox|[from] item: Leftovers
+|-heal|p1a: come follow me|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|22/100 tox|[from] psn
+|-damage|p1a: come follow me|72/100 brn|[from] brn
+|upkeep
+|turn|44
+|inactive|ATTRIBUTE has 30 seconds left.
+|
+|t:|1757904617
+|move|p2a: Rotom|Pain Split|p1a: come follow me
+|-sethp|p1a: come follow me|45/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|55/100 tox|[from] move: Pain Split
+|move|p1a: come follow me|Swords Dance|p1a: come follow me
+|-boost|p1a: come follow me|atk|2
+|
+|-heal|p2a: Rotom|61/100 tox|[from] item: Leftovers
+|-heal|p1a: come follow me|51/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|49/100 tox|[from] psn
+|-damage|p1a: come follow me|45/100 brn|[from] brn
+|upkeep
+|turn|45
+|inactive|ATTRIBUTE has 30 seconds left.
+|inactive|ATTRIBUTE has 20 seconds left.
+|
+|t:|1757904638
+|move|p2a: Rotom|Pain Split|p1a: come follow me
+|-sethp|p1a: come follow me|43/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|52/100 tox|[from] move: Pain Split
+|move|p1a: come follow me|Iron Head|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|28/100 tox
+|
+|-heal|p2a: Rotom|34/100 tox|[from] item: Leftovers
+|-heal|p1a: come follow me|49/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|16/100 tox|[from] psn
+|-damage|p1a: come follow me|43/100 brn|[from] brn
+|upkeep
+|turn|46
+|inactive|ATTRIBUTE has 30 seconds left this turn.
+|inactive|Finchinator has 240 seconds left.
+|inactive|ATTRIBUTE has 20 seconds left.
+|inactive|ATTRIBUTE has 15 seconds left.
+|
+|t:|1757904655
+|move|p2a: Rotom|Pain Split|p1a: come follow me
+|-sethp|p1a: come follow me|28/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|34/100 tox|[from] move: Pain Split
+|move|p1a: come follow me|Iron Head|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|12/100 tox
+|
+|-heal|p2a: Rotom|18/100 tox|[from] item: Leftovers
+|-heal|p1a: come follow me|34/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|0 fnt|[from] psn
+|faint|p2a: Rotom
+|-damage|p1a: come follow me|28/100 brn|[from] brn
+|upkeep
+|inactive|Finchinator has 210 seconds left.
+|
+|t:|1757904712
+|switch|p2a: Gholdengo|Gholdengo|44/100
+|-damage|p2a: Gholdengo|38/100|[from] Stealth Rock
+|turn|47
+|inactive|ATTRIBUTE has 30 seconds left this turn.
+|
+|t:|1757904720
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|88/100
+|move|p1a: come follow me|Iron Head|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|20/100
+|
+|-heal|p1a: come follow me|34/100 brn|[from] item: Leftovers
+|-damage|p1a: come follow me|28/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|t:|1757904726
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|70/100
+|move|p1a: come follow me|Iron Head|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-heal|p1a: come follow me|34/100 brn|[from] item: Leftovers
+|-damage|p1a: come follow me|28/100 brn|[from] brn
+|upkeep
+|
+|t:|1757904730
+|switch|p2a: Dragonite|Dragonite, F, tera:Flying|94/100
+|-damage|p2a: Dragonite|69/100|[from] Stealth Rock
+|turn|49
+|inactive|Finchinator has 180 seconds left.
+|
+|t:|1757904764
+|move|p1a: come follow me|Sucker Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|ATTRIBUTE
+|c|☆Finchinator|ur god
+|c|☆ATTRIBUTE|gg
+|c|☆ATTRIBUTE|SPARTANSSSSSS
+|c|☆Finchinator|misses ssucked tho
+|c|☆Finchinator|gg
+|player|p1|

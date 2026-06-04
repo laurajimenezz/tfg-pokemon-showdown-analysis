@@ -1,0 +1,191 @@
+|j|☆anamchara
+|j|☆wonderniki
+|t:|1779710355
+|gametype|singles
+|player|p1|anamchara|101|1448
+|player|p2|wonderniki|170|1502
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Meowscarada, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Glimmora, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Hawlucha, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Gholdengo|
+|poke|p2|Kyurem|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|t:|1779710363
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Meowscarada|atk|1
+|turn|1
+|
+|t:|1779710374
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Meowscarada|Triple Axel|p2a: Samurott
+|-start|p1a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|97/100
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|90/100
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|79/100
+|-hitcount|p2a: Samurott|3
+|
+|upkeep
+|turn|2
+|
+|t:|1779710391
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779710394
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Slowking
+|-damage|p1a: Slowking|64/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1779710398
+|switch|p2a: Samurott|Samurott-Hisui, F|79/100
+|move|p1a: Slowking|Fire Blast|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|68/100
+|
+|upkeep
+|turn|5
+|
+|t:|1779710408
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Glimmora
+|-damage|p1a: Glimmora|53/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: wonderniki|move: Toxic Spikes
+|-sidestart|p1: anamchara|Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1779710419
+|move|p1a: Glimmora|Energy Ball|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|10/100
+|-damage|p1a: Glimmora|43/100|[from] item: Life Orb
+|move|p2a: Samurott|Flip Turn|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: wonderniki|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|t:|1779710426
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] Flip Turn
+|
+|upkeep
+|
+|t:|1779710429
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|-damage|p1a: Meowscarada|88/100|[from] Spikes
+|turn|7
+|
+|t:|1779710433
+|move|p1a: Meowscarada|Knock Off|p2a: Gholdengo
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2a: Gholdengo|Choice Scarf|[from] move: Knock Off|[of] p1a: Meowscarada
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1779710441
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-status|p2a: Rillaboom|tox
+|-enditem|p2a: Rillaboom|Lum Berry|[eat]
+|-curestatus|p2a: Rillaboom|tox|[msg]
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|8
+|
+|t:|1779710454
+|switch|p1a: Slowking|Slowking-Galar, F|98/100
+|-damage|p1a: Slowking|85/100|[from] Spikes
+|move|p2a: Rillaboom|Swords Dance|p2a: Rillaboom
+|-boost|p2a: Rillaboom|atk|2
+|
+|-heal|p1a: Slowking|91/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1779710474
+|-terastallize|p1a: Slowking|Fairy
+|move|p2a: Rillaboom|Knock Off|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|55/100
+|-enditem|p1a: Slowking|Assault Vest|[from] move: Knock Off|[of] p2a: Rillaboom
+|move|p1a: Slowking|Sludge Bomb|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Slowking|61/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779710484
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p2a: Hawlucha|Grassy Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Grassy Seed
+|turn|10
+|
+|t:|1779710491
+|-terastallize|p2a: Hawlucha|Steel
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Slowking|Psychic Noise|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-crit|p2a: Hawlucha
+|-damage|p2a: Hawlucha|62/100
+|-start|p2a: Hawlucha|move: Heal Block
+|
+|-heal|p1a: Slowking|67/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1779710496
+|move|p2a: Hawlucha|Acrobatics|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-end|p2a: Hawlucha|move: Heal Block
+|upkeep
+|-message|anamchara forfeited.
+|
+|win|wonderniki
+|raw|anamchara's rating: 1448 &rarr; <strong>1431</strong><br />(-17 for losing)
+|raw|wonderniki's rating: 1502 &rarr; <strong>1519</strong><br />(+17 for winning)
+|l|☆anamchara
+|player|p1|

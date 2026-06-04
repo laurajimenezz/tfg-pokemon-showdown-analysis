@@ -1,0 +1,488 @@
+|j|☆Battonia
+|j|☆ComfortablyBrum
+|t:|1758966177
+|gametype|singles
+|player|p1|Battonia|bugsy|1071
+|player|p2|ComfortablyBrum|169|1042
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Vikavolt, M|
+|poke|p1|Mudsdale, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Magmortar, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Arboliva, F|
+|poke|p2|Hitmonlee, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Grafaiai, M|
+|poke|p2|Vikavolt, F|
+|teampreview
+|
+|t:|1758966180
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Vikavolt|Vikavolt, M|100/100
+|switch|p2a: Vikavolt|Vikavolt, F|100/100
+|turn|1
+|
+|t:|1758966191
+|move|p2a: Vikavolt|Sticky Web|p1a: Vikavolt
+|-sidestart|p1: Battonia|move: Sticky Web
+|move|p1a: Vikavolt|Agility|p1a: Vikavolt
+|-boost|p1a: Vikavolt|spe|2
+|
+|upkeep
+|turn|2
+|
+|t:|1758966210
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Vikavolt|Bug Buzz|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|58/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758966217
+|move|p1a: Vikavolt|Bug Buzz|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|9/100
+|move|p2a: Ting-Lu|Whirlwind|p1a: Vikavolt
+|drag|p1a: Pon-Pon|Ogerpon-Wellspring, F|100/100
+|-activate|p1a: Pon-Pon|move: Sticky Web
+|-unboost|p1a: Pon-Pon|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1758966229
+|switch|p2a: Arboliva|Arboliva, F|100/100
+|move|p1a: Pon-Pon|Spiky Shield||[still]
+|-fail|p1a: Pon-Pon
+|
+|upkeep
+|turn|5
+|
+|t:|1758966239
+|switch|p1a: Vikavolt|Vikavolt, M|100/100
+|move|p2a: Arboliva|Substitute|p2a: Arboliva
+|-start|p2a: Arboliva|Substitute
+|-damage|p2a: Arboliva|75/100
+|
+|-heal|p2a: Arboliva|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1758966247
+|move|p1a: Vikavolt|Agility|p1a: Vikavolt
+|-boost|p1a: Vikavolt|spe|2
+|move|p2a: Arboliva|Leech Seed|p1a: Vikavolt
+|-start|p1a: Vikavolt|move: Leech Seed
+|
+|-heal|p2a: Arboliva|88/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|88/100|[from] Leech Seed|[of] p2a: Arboliva
+|-heal|p2a: Arboliva|98/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1758966256
+|move|p1a: Vikavolt|Bug Buzz|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-damage|p2a: Arboliva|9/100
+|-unboost|p2a: Arboliva|spd|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2a: Arboliva
+|move|p2a: Arboliva|Giga Drain|p1a: Vikavolt
+|-resisted|p1a: Vikavolt
+|-damage|p1a: Vikavolt|60/100
+|-heal|p2a: Arboliva|20/100|[from] drain|[of] p1a: Vikavolt
+|
+|-heal|p2a: Arboliva|26/100|[from] Grassy Terrain
+|-heal|p2a: Arboliva|32/100|[from] item: Leftovers
+|-damage|p1a: Vikavolt|48/100|[from] Leech Seed|[of] p2a: Arboliva
+|-heal|p2a: Arboliva|42/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1758966289
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Vikavolt|Bug Buzz|p2a: Alomomola
+|-damage|p2a: Alomomola|31/100
+|
+|-heal|p2a: Alomomola|37/100|[from] Grassy Terrain
+|-damage|p1a: Vikavolt|36/100|[from] Leech Seed|[of] p2a: Alomomola
+|-heal|p2a: Alomomola|44/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1758966298
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Vikavolt|Bug Buzz|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|50/100|[from] Grassy Terrain
+|-damage|p1a: Vikavolt|24/100|[from] Leech Seed|[of] p2a: Alomomola
+|-heal|p2a: Alomomola|57/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1758966312
+|switch|p1a: Royale|Hawlucha, M|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|9/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p2a: Ting-Lu|15/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1758966323
+|move|p1a: Royale|Throat Chop|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|8/100
+|-start|p2a: Ting-Lu|Throat Chop|[silent]
+|-damage|p1a: Royale|84/100|[from] item: Rocky Helmet|[of] p2a: Ting-Lu
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Royale
+|-sidestart|p1: Battonia|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|15/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1758966333
+|move|p1a: Royale|Defog|p2a: Ting-Lu
+|-unboost|p2a: Ting-Lu|evasion|1
+|-sideend|p1: Battonia|Stealth Rock|[from] move: Defog|[of] p1a: Royale
+|-sideend|p1: Battonia|Sticky Web|[from] move: Defog|[of] p1a: Royale
+|move|p2a: Ting-Lu|Ruination|p1a: Royale
+|-damage|p1a: Royale|42/100
+|-enditem|p1a: Royale|Sitrus Berry|[eat]
+|-heal|p1a: Royale|67/100|[from] item: Sitrus Berry
+|
+|-end|p2a: Ting-Lu|Throat Chop|[silent]
+|upkeep
+|turn|13
+|
+|t:|1758966341
+|move|p1a: Royale|Acrobatics|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|-damage|p1a: Royale|50/100|[from] item: Rocky Helmet|[of] p2a: Ting-Lu
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1758966351
+|switch|p2a: Vikavolt|Vikavolt, F|100/100
+|turn|14
+|
+|t:|1758966362
+|move|p1a: Royale|Acrobatics|p2a: Vikavolt
+|-damage|p2a: Vikavolt|39/100
+|move|p2a: Vikavolt|Thunderbolt|p1a: Royale
+|-supereffective|p1a: Royale
+|-damage|p1a: Royale|0 fnt
+|faint|p1a: Royale
+|
+|upkeep
+|
+|t:|1758966372
+|switch|p1a: Vikavolt|Vikavolt, M|24/100
+|turn|15
+|
+|t:|1758966382
+|move|p1a: Vikavolt|Bug Buzz|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|faint|p2a: Vikavolt
+|
+|upkeep
+|
+|t:|1758966387
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|turn|16
+|
+|t:|1758966396
+|move|p2a: Hitmonlee|Fake Out|p1a: Vikavolt
+|-damage|p1a: Vikavolt|6/100
+|cant|p1a: Vikavolt|flinch
+|
+|upkeep
+|turn|17
+|
+|t:|1758966402
+|move|p2a: Hitmonlee|Rapid Spin|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|-boost|p2a: Hitmonlee|spe|1
+|faint|p1a: Vikavolt
+|
+|upkeep
+|
+|t:|1758966410
+|switch|p1a: Warlock|Slowking-Galar, M|100/100
+|turn|18
+|
+|t:|1758966416
+|-terastallize|p2a: Hitmonlee|Dark
+|move|p2a: Hitmonlee|Knock Off|p1a: Warlock
+|-supereffective|p1a: Warlock
+|-damage|p1a: Warlock|0 fnt
+|-enditem|p1a: Warlock|Black Sludge|[from] move: Knock Off|[of] p2a: Hitmonlee
+|faint|p1a: Warlock
+|
+|upkeep
+|
+|t:|1758966427
+|switch|p1a: Iskandar|Mudsdale, M|100/100
+|turn|19
+|
+|t:|1758966432
+|move|p2a: Hitmonlee|Close Combat|p1a: Iskandar
+|-damage|p1a: Iskandar|57/100
+|-unboost|p2a: Hitmonlee|def|1
+|-unboost|p2a: Hitmonlee|spd|1
+|move|p1a: Iskandar|Body Press|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-crit|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|upkeep
+|
+|t:|1758966441
+|switch|p2a: Alomomola|Alomomola, F|90/100
+|turn|20
+|
+|t:|1758966447
+|switch|p1a: Pon-Pon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Alomomola|Scald|p1a: Pon-Pon
+|-immune|p1a: Pon-Pon|[from] ability: Water Absorb
+|
+|upkeep
+|turn|21
+|
+|t:|1758966456
+|move|p1a: Pon-Pon|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|70/100
+|-enditem|p2a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Pon-Pon
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|22
+|
+|t:|1758966463
+|switch|p2a: Arboliva|Arboliva, F|42/100
+|move|p1a: Pon-Pon|Horn Leech|p2a: Arboliva
+|-resisted|p2a: Arboliva
+|-damage|p2a: Arboliva|25/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2a: Arboliva
+|
+|-heal|p2a: Arboliva|99/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Arboliva|100/100|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|t:|1758966474
+|switch|p1a: Alarm|Magmortar, F|100/100
+|move|p2a: Arboliva|Leech Seed|p1a: Alarm
+|-start|p1a: Alarm|move: Leech Seed
+|
+|-damage|p1a: Alarm|88/100|[from] Leech Seed|[of] p2a: Arboliva
+|upkeep
+|turn|24
+|
+|t:|1758966484
+|move|p1a: Alarm|Fire Blast|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-damage|p2a: Arboliva|17/100
+|move|p2a: Arboliva|Earth Power|p1a: Alarm
+|-supereffective|p1a: Alarm
+|-damage|p1a: Alarm|27/100
+|
+|-heal|p1a: Alarm|33/100|[from] Grassy Terrain
+|-heal|p2a: Arboliva|23/100|[from] Grassy Terrain
+|-heal|p2a: Arboliva|29/100|[from] item: Leftovers
+|-damage|p1a: Alarm|21/100|[from] Leech Seed|[of] p2a: Arboliva
+|-heal|p2a: Arboliva|39/100|[silent]
+|upkeep
+|turn|25
+|
+|t:|1758966496
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Alarm|Fire Blast|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|70/100
+|
+|-heal|p1a: Alarm|27/100|[from] Grassy Terrain
+|-heal|p2a: Alomomola|76/100|[from] Grassy Terrain
+|-damage|p1a: Alarm|15/100|[from] Leech Seed|[of] p2a: Alomomola
+|-heal|p2a: Alomomola|83/100|[silent]
+|upkeep
+|turn|26
+|
+|t:|1758966506
+|move|p1a: Alarm|Thunderbolt|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|13/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Alarm|21/100|[from] Grassy Terrain
+|-heal|p2a: Alomomola|19/100|[from] Grassy Terrain
+|-damage|p1a: Alarm|8/100|[from] Leech Seed|[of] p2a: Alomomola
+|-heal|p2a: Alomomola|26/100|[silent]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|27
+|
+|t:|1758966514
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Alarm|Fire Blast|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|76/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Alarm|0 fnt|[from] Leech Seed|[of] p2a: Alomomola
+|-heal|p2a: Alomomola|80/100|[silent]
+|faint|p1a: Alarm
+|upkeep
+|
+|t:|1758966525
+|switch|p1a: Pon-Pon|Ogerpon-Wellspring, F|100/100
+|turn|28
+|
+|t:|1758966536
+|-terastallize|p1a: Pon-Pon|Water
+|detailschange|p1a: Pon-Pon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Pon-Pon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Pon-Pon|spd|1
+|move|p1a: Pon-Pon|Ivy Cudgel|p2a: Alomomola|[anim] Ivy Cudgel Water
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|59/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|29
+|
+|t:|1758966545
+|switch|p2a: Arboliva|Arboliva, F|39/100
+|move|p1a: Pon-Pon|Horn Leech|p2a: Arboliva
+|-resisted|p2a: Arboliva
+|-crit|p2a: Arboliva
+|-damage|p2a: Arboliva|10/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2a: Arboliva
+|
+|-heal|p2a: Arboliva|84/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Arboliva|90/100|[from] Grassy Terrain
+|-heal|p2a: Arboliva|96/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1758966561
+|move|p1a: Pon-Pon|Spiky Shield|p1a: Pon-Pon
+|-singleturn|p1a: Pon-Pon|move: Protect
+|move|p2a: Arboliva|Leech Seed|p1a: Pon-Pon
+|-activate|p1a: Pon-Pon|move: Protect
+|
+|-heal|p2a: Arboliva|100/100|[from] Grassy Terrain
+|upkeep
+|turn|31
+|
+|t:|1758966569
+|move|p1a: Pon-Pon|Knock Off|p2a: Arboliva
+|-damage|p2a: Arboliva|70/100
+|-enditem|p2a: Arboliva|Leftovers|[from] move: Knock Off|[of] p1a: Pon-Pon
+|move|p2a: Arboliva|Leech Seed|p1a: Pon-Pon
+|-start|p1a: Pon-Pon|move: Leech Seed
+|
+|-heal|p2a: Arboliva|76/100|[from] Grassy Terrain
+|-damage|p1a: Pon-Pon|88/100|[from] Leech Seed|[of] p2a: Arboliva
+|-heal|p2a: Arboliva|87/100|[silent]
+|upkeep
+|turn|32
+|
+|t:|1758966579
+|move|p1a: Pon-Pon|Ivy Cudgel|p2a: Arboliva|[anim] Ivy Cudgel Water
+|-resisted|p2a: Arboliva
+|-damage|p2a: Arboliva|51/100
+|move|p2a: Arboliva|Substitute|p2a: Arboliva
+|-start|p2a: Arboliva|Substitute
+|-damage|p2a: Arboliva|26/100
+|
+|-heal|p1a: Pon-Pon|94/100|[from] Grassy Terrain
+|-heal|p2a: Arboliva|32/100|[from] Grassy Terrain
+|-damage|p1a: Pon-Pon|82/100|[from] Leech Seed|[of] p2a: Arboliva
+|-heal|p2a: Arboliva|42/100|[silent]
+|upkeep
+|turn|33
+|
+|t:|1758966588
+|move|p1a: Pon-Pon|Ivy Cudgel|p2a: Arboliva|[anim] Ivy Cudgel Water
+|-resisted|p2a: Arboliva
+|-end|p2a: Arboliva|Substitute
+|move|p2a: Arboliva|Giga Drain|p1a: Pon-Pon
+|-supereffective|p1a: Pon-Pon
+|-damage|p1a: Pon-Pon|13/100
+|-heal|p2a: Arboliva|71/100|[from] drain|[of] p1a: Pon-Pon
+|
+|-heal|p1a: Pon-Pon|19/100|[from] Grassy Terrain
+|-heal|p2a: Arboliva|77/100|[from] Grassy Terrain
+|-damage|p1a: Pon-Pon|7/100|[from] Leech Seed|[of] p2a: Arboliva
+|-heal|p2a: Arboliva|87/100|[silent]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|34
+|
+|t:|1758966599
+|switch|p1a: Iskandar|Mudsdale, M|57/100
+|move|p2a: Arboliva|Giga Drain|p1a: Iskandar
+|-supereffective|p1a: Iskandar
+|-damage|p1a: Iskandar|6/100
+|-heal|p2a: Arboliva|100/100|[from] drain|[of] p1a: Iskandar
+|
+|upkeep
+|turn|35
+|
+|t:|1758966606
+|move|p2a: Arboliva|Giga Drain|p1a: Iskandar
+|-supereffective|p1a: Iskandar
+|-damage|p1a: Iskandar|0 fnt
+|faint|p1a: Iskandar
+|
+|upkeep
+|
+|t:|1758966610
+|switch|p1a: Pon-Pon|Ogerpon-Wellspring-Tera, F, tera:Water|7/100
+|-ability|p1a: Pon-Pon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Pon-Pon|spd|1
+|turn|36
+|
+|t:|1758966616
+|move|p1a: Pon-Pon|Ivy Cudgel|p2a: Arboliva|[anim] Ivy Cudgel Water
+|-resisted|p2a: Arboliva
+|-damage|p2a: Arboliva|66/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2a: Arboliva
+|move|p2a: Arboliva|Giga Drain|p1a: Pon-Pon
+|-supereffective|p1a: Pon-Pon
+|-damage|p1a: Pon-Pon|0 fnt
+|-heal|p2a: Arboliva|69/100|[from] drain|[of] p1a: Pon-Pon
+|faint|p1a: Pon-Pon
+|detailschange|p1: Pon-Pon|Ogerpon-Wellspring, F|[silent]
+|
+|win|ComfortablyBrum
+|raw|Battonia's rating: 1071 &rarr; <strong>1049</strong><br />(-22 for losing)
+|raw|ComfortablyBrum's rating: 1042 &rarr; <strong>1079</strong><br />(+37 for winning)
+|l|☆Battonia
+|player|p1|
+|c|☆ComfortablyBrum|gg

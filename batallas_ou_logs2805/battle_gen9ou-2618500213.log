@@ -1,0 +1,194 @@
+|j|☆Dynamo Galar
+|j|☆a11starma1achi
+|t:|1779815299
+|gametype|singles
+|player|p1|Dynamo Galar|cress|1132
+|player|p2|a11starma1achi|skierf-gen4dp|1113
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Drednaw, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Toxtricity, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Ceruledge, F|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1779815325
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|
+|t:|1779815334
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Deoxys|Taunt|p1a: Hatterene
+|move|p1a: Hatterene|Taunt|p2a: Deoxys|[from] ability: Magic Bounce
+|-start|p2a: Deoxys|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1779815347
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-ability|p2a: Kingambit|Pressure
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1779815363
+|move|p2a: Kingambit|Substitute|p2a: Kingambit
+|-start|p2a: Kingambit|Substitute
+|-damage|p2a: Kingambit|76/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-end|p2a: Kingambit|Substitute
+|
+|-heal|p2a: Kingambit|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1779815372
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Hatterene|Mystical Fire|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|upkeep
+|
+|t:|1779815378
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|turn|5
+|
+|t:|1779815385
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|64/100
+|move|p1a: Hatterene|Psychic Noise|p2a: Ceruledge
+|-damage|p2a: Ceruledge|53/100
+|
+|-heal|p1a: Hatterene|70/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1779815400
+|move|p2a: Ceruledge|Bitter Blade|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|5/100
+|-heal|p2a: Ceruledge|83/100|[from] drain|[of] p1a: Hatterene
+|move|p1a: Hatterene|Psychic Noise|p2a: Ceruledge
+|-damage|p2a: Ceruledge|29/100
+|
+|-heal|p1a: Hatterene|11/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779815412
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Corviknight
+|-damage|p1a: Corviknight|85/100
+|-damage|p2a: Ceruledge|13/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|upkeep
+|turn|8
+|
+|t:|1779815421
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|switch|p1a: Drednaw|Drednaw, M|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1779815428
+|move|p1a: Drednaw|Ice Fang|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|58/100
+|-damage|p1a: Drednaw|84/100|[from] item: Rocky Helmet|[of] p2a: Dragonite
+|move|p2a: Dragonite|Thunder Wave|p1a: Drednaw
+|-status|p1a: Drednaw|par
+|
+|upkeep
+|turn|10
+|
+|t:|1779815437
+|cant|p1a: Drednaw|par
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|upkeep
+|turn|11
+|
+|t:|1779815446
+|switch|p1a: Corviknight|Corviknight, M|85/100
+|move|p2a: Dragonite|Thunder Wave|p1a: Corviknight
+|-status|p1a: Corviknight|par
+|
+|upkeep
+|turn|12
+|
+|t:|1779815452
+|move|p2a: Dragonite|Ice Beam|p1a: Corviknight
+|-damage|p1a: Corviknight|73/100 par
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|13
+|
+|t:|1779815459
+|move|p2a: Dragonite|Encore|p1a: Corviknight
+|-start|p1a: Corviknight|Encore
+|cant|p1a: Corviknight|par
+|
+|upkeep
+|turn|14
+|
+|t:|1779815467
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|switch|p1a: Drednaw|Drednaw, M|84/100 par
+|
+|upkeep
+|turn|15
+|
+|t:|1779815474
+|switch|p1a: Hatterene|Hatterene, F|11/100
+|move|p2a: Glimmora|Earth Power|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|-message|Dynamo Galar forfeited.
+|
+|win|a11starma1achi
+|raw|Dynamo Galar's rating: 1132 &rarr; <strong>1106</strong><br />(-26 for losing)
+|raw|a11starma1achi's rating: 1113 &rarr; <strong>1139</strong><br />(+26 for winning)
+|l|☆Dynamo Galar
+|player|p1|
+|l|☆a11starma1achi
+|player|p2|

@@ -1,0 +1,292 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆LulliShake
+|j|☆kimarthie
+|t:|1776068261
+|gametype|singles
+|player|p1|LulliShake|n|1274
+|player|p2|kimarthie|101|1216
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gyarados, M|
+|poke|p1|Great Tusk|
+|poke|p1|Tyranitar, M|
+|poke|p1|Iron Moth|
+|poke|p1|Feraligatr, F|
+|poke|p1|Meowscarada, F|
+|poke|p2|Ditto|
+|poke|p2|Meowscarada, F|
+|poke|p2|Kyurem|
+|poke|p2|Walking Wake|
+|poke|p2|Alomomola, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kimarthie)
+|
+|t:|1776068275
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gyarados|Gyarados, M, shiny|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-enditem|p2a: Walking Wake|Booster Energy
+|-activate|p2a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|1
+|
+|t:|1776068288
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Great Tusk
+|-damage|p1a: Great Tusk|26/100
+|
+|upkeep
+|turn|2
+|
+|t:|1776068297
+|move|p1a: Great Tusk|Stealth Rock|p2a: Walking Wake
+|-sidestart|p2: kimarthie|move: Stealth Rock
+|move|p2a: Walking Wake|Surf|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1776068312
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|3
+|
+|t:|1776068321
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|9/100
+|move|p2a: Walking Wake|Surf|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1776068339
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|4
+|
+|t:|1776068346
+|move|p1a: Meowscarada|Flower Trick|p2a: Walking Wake
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1776068357
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|5
+|
+|t:|1776068384
+|move|p1a: Meowscarada|U-turn|p2a: Kyurem
+|-damage|p2a: Kyurem|59/100
+|
+|t:|1776068387
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Kyurem|Freeze-Dry|p1a: Tyranitar
+|-damage|p1a: Tyranitar|74/100
+|-status|p1a: Tyranitar|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|52/100|[from] Sandstorm
+|-heal|p2a: Kyurem|59/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1776068398
+|-terastallize|p2a: Kyurem|Steel
+|move|p2a: Kyurem|Flash Cannon|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|12/100 frz
+|-enditem|p1a: Tyranitar|Weakness Policy
+|-boost|p1a: Tyranitar|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Tyranitar|spa|2|[from] item: Weakness Policy
+|-curestatus|p1a: Tyranitar|frz|[msg]
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Kyurem|65/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1776068413
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alomomola|10/100|[from] Sandstorm
+|-heal|p2a: Alomomola|16/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1776068428
+|move|p2a: Alomomola|Aqua Jet|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alomomola|10/100|[from] Sandstorm
+|-heal|p2a: Alomomola|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1776068449
+|switch|p1a: Feraligatr|Feraligatr, F|100/100
+|turn|9
+|
+|t:|1776068453
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|none
+|-heal|p2a: Alomomola|23/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1776068464
+|switch|p2a: Kyurem|Kyurem, tera:Steel|65/100
+|-damage|p2a: Kyurem|59/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|
+|-heal|p2a: Kyurem|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|11
+|
+|t:|1776068480
+|switch|p2a: Alomomola|Alomomola, M|56/100
+|-damage|p2a: Alomomola|44/100|[from] Stealth Rock
+|move|p1a: Feraligatr|Liquidation|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1776068493
+|switch|p2a: Ditto|Ditto, shiny|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Feraligatr|[from] ability: Imposter
+|turn|12
+|
+|t:|1776068506
+|move|p2a: Ditto|Crunch|p1a: Feraligatr
+|-damage|p1a: Feraligatr|27/100
+|move|p1a: Feraligatr|Crunch|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|upkeep
+|
+|t:|1776068517
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|13
+|
+|t:|1776068526
+|move|p1a: Feraligatr|Liquidation|p2a: Zamazenta
+|-damage|p2a: Zamazenta|26/100
+|move|p2a: Zamazenta|Body Press|p1a: Feraligatr
+|-damage|p1a: Feraligatr|0 fnt
+|faint|p1a: Feraligatr
+|
+|-heal|p2a: Zamazenta|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1776068540
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|14
+|
+|t:|1776068545
+|move|p2a: Zamazenta|Body Press|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-enditem|p1a: Meowscarada|Focus Sash
+|-damage|p1a: Meowscarada|1/100
+|move|p1a: Meowscarada|Flower Trick|p2a: Zamazenta
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1776068569
+|switch|p2a: Kyurem|Kyurem, tera:Steel|100/100
+|-damage|p2a: Kyurem|94/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|15
+|
+|t:|1776068579
+|move|p1a: Meowscarada|U-turn|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|85/100
+|
+|t:|1776068582
+|switch|p1a: Gyarados|Gyarados, M, shiny|100/100|[from] U-turn
+|move|p2a: Kyurem|Freeze-Dry|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-heal|p2a: Kyurem|91/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1776068589
+|switch|p1a: Meowscarada|Meowscarada, F|1/100
+|turn|16
+|
+|t:|1776068596
+|move|p1a: Meowscarada|Knock Off|p2a: Kyurem
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Kyurem|56/100
+|-enditem|p2a: Kyurem|Leftovers|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Kyurem|Freeze-Dry|p1a: Meowscarada
+|-crit|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|win|kimarthie
+|raw|LulliShake's rating: 1274 &rarr; <strong>1245</strong><br />(-29 for losing)
+|raw|kimarthie's rating: 1216 &rarr; <strong>1245</strong><br />(+29 for winning)
+|l|☆LulliShake
+|player|p1|
+|l|☆kimarthie
+|player|p2|

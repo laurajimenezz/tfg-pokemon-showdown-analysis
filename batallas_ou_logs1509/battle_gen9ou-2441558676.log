@@ -1,0 +1,313 @@
+|j|☆wolwing
+|j|☆NassBug
+|t:|1757867952
+|gametype|singles
+|player|p1|wolwing|265|1319
+|player|p2|NassBug|oleana|1313
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Iron Treads|
+|poke|p1|Ninetales, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Polteageist-Antique|
+|poke|p1|Scovillain, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Alomomola, F|
+|poke|p2|Dragapult, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wolwing)
+|
+|t:|1757867975
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|t:|1757867981
+|move|p1a: Grimmsnarl|Taunt|p2a: Great Tusk
+|-start|p2a: Great Tusk|move: Taunt
+|cant|p2a: Great Tusk|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1757867986
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: wolwing|Reflect
+|move|p2a: Great Tusk|Headlong Rush|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|68/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1757867990
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|atk|1
+|-unboost|p2a: Great Tusk|spa|1
+|
+|t:|1757867995
+|switch|p1a: Ninetales|Ninetales, M|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|move|p2a: Great Tusk|Rapid Spin|p1a: Ninetales
+|-damage|p1a: Ninetales|92/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Great Tusk|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1757868002
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Ninetales|Solar Beam||[still]
+|-prepare|p1a: Ninetales|Solar Beam
+|-anim|p1a: Ninetales|Solar Beam|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-crit|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|70/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1757868007
+|move|p1a: Ninetales|Memento|p2a: Ting-Lu
+|-unboost|p2a: Ting-Lu|atk|2
+|-unboost|p2a: Ting-Lu|spa|2
+|faint|p1a: Ninetales
+|move|p2a: Ting-Lu|Spikes|p1: Ninetales
+|-sidestart|p1: wolwing|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|76/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757868010
+|switch|p1a: Scovillain|Scovillain, M, shiny|100/100
+|turn|6
+|
+|t:|1757868018
+|move|p1a: Scovillain|Growth|p1a: Scovillain
+|-boost|p1a: Scovillain|atk|2
+|-boost|p1a: Scovillain|spa|2
+|move|p2a: Ting-Lu|Spikes|p1a: Scovillain
+|-sidestart|p1: wolwing|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|83/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1757868021
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757868023
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|8
+|
+|t:|1757868028
+|move|p1a: Scovillain|Flamethrower|p2a: Slowking
+|-damage|p2a: Slowking|19/100
+|-status|p2a: Slowking|brn
+|move|p2a: Slowking|Sludge Bomb|p1a: Scovillain
+|-supereffective|p1a: Scovillain
+|-damage|p1a: Scovillain|0 fnt
+|faint|p1a: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Slowking|13/100 brn|[from] brn
+|upkeep
+|
+|t:|1757868033
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-damage|p1a: Iron Treads|84/100|[from] Spikes
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|9
+|
+|t:|1757868042
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Iron Treads|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|13/100
+|-enditem|p2a: Dragapult|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Iron Treads
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: wolwing|Reflect
+|upkeep
+|turn|10
+|
+|t:|1757868047
+|move|p1a: Iron Treads|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|none
+|upkeep
+|
+|t:|1757868050
+|switch|p2a: Vittar|Enamorus, F, shiny|100/100
+|turn|11
+|
+|t:|1757868052
+|move|p2a: Vittar|Earth Power|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757868058
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|68/100
+|-damage|p1a: Grimmsnarl|51/100|[from] Spikes
+|turn|12
+|
+|t:|1757868063
+|switch|p2a: Slowking|Slowking-Galar, M|46/100 brn
+|move|p1a: Grimmsnarl|Thunder Wave||[still]
+|-fail|p1a: Grimmsnarl
+|
+|-damage|p2a: Slowking|40/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1757868069
+|move|p1a: Grimmsnarl|Taunt|p2a: Slowking
+|-start|p2a: Slowking|move: Taunt
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|cant|p2a: Slowking|move: Taunt|Chilly Reception
+|
+|-damage|p2a: Slowking|34/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1757868072
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: wolwing|Reflect
+|move|p2a: Slowking|Sludge Bomb|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-damage|p2a: Slowking|28/100 brn|[from] brn
+|upkeep
+|
+|t:|1757868074
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-damage|p1a: Indeedee|84/100|[from] Spikes
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|15
+|
+|t:|1757868085
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Indeedee|Healing Wish|p1a: Indeedee
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1757868088
+|switch|p1a: Polteageist|Polteageist-Antique|100/100
+|-damage|p1a: Polteageist|84/100|[from] Spikes
+|turn|16
+|
+|t:|1757868093
+|move|p2a: Great Tusk|Headlong Rush|p1a: Polteageist
+|-damage|p1a: Polteageist|31/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|upkeep
+|turn|17
+|
+|t:|1757868097
+|move|p1a: Polteageist|Stored Power|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1757868100
+|switch|p2a: Slowking|Slowking-Galar, M|61/100 brn
+|turn|18
+|
+|t:|1757868103
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Polteageist|Stored Power|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1757868105
+|switch|p2a: Slowking|Slowking-Galar, M|94/100 brn
+|turn|19
+|
+|t:|1757868109
+|move|p1a: Polteageist|Stored Power|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1757868115
+|switch|p2a: Vittar|Enamorus, F, shiny|100/100
+|turn|20
+|
+|t:|1757868127
+|-terastallize|p2a: Vittar|Stellar
+|move|p1a: Polteageist|Stored Power|p2a: Vittar
+|-damage|p2a: Vittar|0 fnt
+|faint|p2a: Vittar
+|
+|win|wolwing
+|raw|wolwing's rating: 1319 &rarr; <strong>1339</strong><br />(+20 for winning)
+|raw|NassBug's rating: 1313 &rarr; <strong>1293</strong><br />(-20 for losing)
+|l|☆wolwing
+|player|p1|
+|l|☆NassBug
+|player|p2|

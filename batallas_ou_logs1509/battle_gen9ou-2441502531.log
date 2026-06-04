@@ -1,0 +1,196 @@
+|j|☆aestheticsdavid
+|j|☆fallen_gengar0
+|t:|1757861387
+|gametype|singles
+|player|p1|aestheticsdavid|n|1499
+|player|p2|fallen_gengar0|hiker|1532
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Hatterene, F|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Great Tusk|
+|poke|p1|Meowscarada, M|
+|poke|p2|Mesprit|
+|poke|p2|Hatterene, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Iron Hands|
+|poke|p2|Hoopa-Unbound|
+|teampreview
+|
+|t:|1757861401
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1757861411
+|-terastallize|p1a: Typhlosion|Fire
+|move|p1a: Typhlosion|Eruption|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757861420
+|switch|p2a: Mesprit|Mesprit|100/100
+|turn|2
+|
+|t:|1757861425
+|move|p1a: Typhlosion|Eruption|p2a: Mesprit
+|-damage|p2a: Mesprit|0 fnt
+|faint|p2a: Mesprit
+|
+|upkeep
+|
+|t:|1757861431
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|3
+|
+|t:|1757861442
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by aestheticsdavid)
+|
+|t:|1757861450
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Torkoal|Lava Plume|p2a: Ursaluna
+|-damage|p2a: Ursaluna|67/100
+|-status|p2a: Ursaluna|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|60/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1757861469
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1757861486
+|move|p1a: Great Tusk|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|66/100
+|move|p2a: Hatterene|Psychic Noise|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|13/100
+|-start|p1a: Great Tusk|move: Heal Block
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Hatterene|72/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1757861495
+|move|p1a: Great Tusk|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|50/100
+|-enditem|p2a: Hatterene|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Great Tusk|move: Heal Block
+|upkeep
+|turn|8
+|
+|t:|1757861504
+|switch|p2a: Ursaluna|Ursaluna, F|60/100 brn
+|move|p1a: Great Tusk|Earthquake|p2a: Ursaluna
+|-damage|p2a: Ursaluna|31/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|25/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1757861516
+|move|p2a: Ursaluna|Headlong Rush|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|19/100 brn|[from] brn
+|upkeep
+|
+|t:|1757861526
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|turn|10
+|
+|t:|1757861532
+|move|p1a: Torkoal|Lava Plume|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-weather|none
+|upkeep
+|inactive|fallen_gengar0 has 120 seconds left.
+|
+|t:|1757861563
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|11
+|
+|t:|1757861585
+|switch|p1a: Meowscarada|Meowscarada, M, shiny|100/100
+|move|p2a: Hoopa|Drain Punch|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|-damage|p2a: Hoopa|91/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757861599
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M, tera:Fire|100/100
+|turn|12
+|
+|t:|1757861603
+|move|p1a: Typhlosion|Eruption|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|-message|fallen_gengar0 forfeited.
+|
+|win|aestheticsdavid
+|raw|aestheticsdavid's rating: 1499 &rarr; <strong>1521</strong><br />(+22 for winning)
+|raw|fallen_gengar0's rating: 1532 &rarr; <strong>1510</strong><br />(-22 for losing)
+|l|☆fallen_gengar0
+|player|p2|
+|l|☆aestheticsdavid
+|player|p1|

@@ -1,0 +1,275 @@
+|j|☆jwhi
+|j|☆spongeon
+|t:|1760377883
+|gametype|singles
+|player|p1|jwhi|ingo|1265
+|player|p2|spongeon|170|1301
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Floatzel, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Talonflame, F|
+|poke|p1|Kommo-o, F|
+|poke|p1|Lycanroc-Dusk, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Zapdos|
+|poke|p2|Maushold|
+|poke|p2|Comfey, M|
+|poke|p2|Sandslash-Alola, F|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|
+|t:|1760377897
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jwhi)
+|
+|t:|1760377904
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|68/100
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1|[from] item: Throat Spray
+|move|p2a: Slowking|Psychic Noise|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|26/100
+|-start|p1a: Kommo-o|move: Heal Block
+|
+|upkeep
+|turn|2
+|
+|t:|1760377917
+|move|p1a: Kommo-o|Boomburst|p2a: Slowking
+|-damage|p2a: Slowking|43/100
+|move|p2a: Slowking|Psychic Noise|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|t:|1760377929
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|3
+|l|☆spongeon
+|inactive|spongeon disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆spongeon
+|inactive|spongeon reconnected and has 140 seconds left.
+|player|p2|spongeon|170|
+|
+|t:|1760377942
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Arcanine|Head Smash|p2a: Zamazenta|[miss]
+|-miss|p1a: Arcanine|p2a: Zamazenta
+|
+|upkeep
+|turn|4
+|
+|t:|1760377958
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760377966
+|move|p2a: Zamazenta|Body Press|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|58/100
+|move|p1a: Pelipper|Hurricane|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|38/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760377973
+|-terastallize|p2a: Zamazenta|Steel
+|move|p2a: Zamazenta|Rest|p2a: Zamazenta
+|-status|p2a: Zamazenta|slp|[from] move: Rest
+|-heal|p2a: Zamazenta|100/100 slp|[silent]
+|-enditem|p2a: Zamazenta|Chesto Berry|[eat]
+|-curestatus|p2a: Zamazenta|slp|[msg]
+|move|p1a: Pelipper|Hurricane|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|84/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760377982
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Pelipper|Hydro Pump|p2a: Zamazenta|[miss]
+|-miss|p1a: Pelipper|p2a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760377986
+|move|p2a: Zamazenta|Body Press|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760377998
+|switch|p1a: Lycanroc|Lycanroc-Dusk, M|100/100
+|turn|9
+|
+|t:|1760378002
+|move|p2a: Zamazenta|Body Press|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-enditem|p1a: Lycanroc|Focus Sash
+|-damage|p1a: Lycanroc|1/100
+|move|p1a: Lycanroc|Endeavor|p2a: Zamazenta
+|-damage|p2a: Zamazenta|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760378010
+|move|p1a: Lycanroc|Accelerock|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760378016
+|switch|p2a: Comfey|Comfey, M|100/100
+|turn|11
+|
+|t:|1760378019
+|move|p2a: Comfey|Draining Kiss|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|-weather|none
+|upkeep
+|
+|t:|1760378027
+|switch|p1a: Floatzel|Floatzel, M|100/100
+|turn|12
+|
+|t:|1760378029
+|move|p2a: Comfey|Giga Drain|p1a: Floatzel
+|-supereffective|p1a: Floatzel
+|-damage|p1a: Floatzel|4/100
+|move|p1a: Floatzel|Wave Crash|p2a: Comfey
+|-damage|p2a: Comfey|7/100
+|-damage|p1a: Floatzel|0 fnt|[from] Recoil
+|faint|p1a: Floatzel
+|
+|upkeep
+|
+|t:|1760378033
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|turn|13
+|
+|t:|1760378041
+|move|p2a: Comfey|Draining Kiss|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-crit|p1a: Talonflame
+|-damage|p1a: Talonflame|76/100
+|-heal|p2a: Comfey|25/100|[from] drain|[of] p1a: Talonflame
+|move|p1a: Talonflame|Flare Blitz|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|-damage|p1a: Talonflame|67/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1760378051
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|14
+|
+|t:|1760378055
+|move|p1a: Talonflame|Flare Blitz|p2a: Zapdos
+|-damage|p2a: Zapdos|44/100
+|-damage|p1a: Talonflame|47/100|[from] Recoil
+|move|p2a: Zapdos|Thunderbolt|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|-damage|p2a: Zapdos|34/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760378059
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|15
+|
+|t:|1760378064
+|move|p1a: Arcanine|Extreme Speed|p2a: Zapdos
+|-damage|p2a: Zapdos|2/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Arcanine
+|-damage|p1a: Arcanine|29/100
+|-damage|p2a: Zapdos|0 fnt|[from] item: Life Orb
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1760378074
+|switch|p2a: Slowking|Slowking-Galar, F|77/100
+|turn|16
+|
+|t:|1760378078
+|move|p1a: Arcanine|Flare Blitz|p2a: Slowking
+|-damage|p2a: Slowking|21/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1760378084
+|switch|p2a: Sandslash|Sandslash-Alola, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1760378087
+|move|p2a: Sandslash|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|win|spongeon
+|raw|jwhi's rating: 1265 &rarr; <strong>1243</strong><br />(-22 for losing)
+|raw|spongeon's rating: 1301 &rarr; <strong>1319</strong><br />(+18 for winning)
+|l|☆jwhi
+|player|p1|
+|l|☆spongeon
+|player|p2|

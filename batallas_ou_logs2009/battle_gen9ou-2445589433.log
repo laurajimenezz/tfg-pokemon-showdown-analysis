@@ -1,0 +1,416 @@
+|j|☆schalo
+|j|☆golov
+|t:|1758373742
+|gametype|singles
+|player|p1|schalo|harlequin|1378
+|player|p2|golov|bellelba|1365
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowking, F|
+|poke|p1|Thundurus, M|
+|poke|p1|Kyurem|
+|poke|p1|Iron Treads|
+|poke|p1|Krookodile, F|
+|poke|p1|Metagross|
+|poke|p2|Comfey, F|
+|poke|p2|Whimsicott, F|
+|poke|p2|Iron Moth|
+|poke|p2|Walking Wake|
+|poke|p2|Great Tusk|
+|poke|p2|Ninetales, M|
+|teampreview
+|
+|t:|1758373754
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|t:|1758373761
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1758373783
+|switch|p1a: Thundurus|Thundurus, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758373810
+|move|p1a: Thundurus|Thunder Wave|p2a: Walking Wake
+|-status|p2a: Walking Wake|par
+|move|p2a: Walking Wake|Flip Turn|p1a: Thundurus
+|-damage|p1a: Thundurus|78/100
+|
+|t:|1758373817
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Ninetales|Ninetales, M|100/100|[from] Flip Turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by golov)
+|
+|t:|1758373834
+|switch|p1a: Slowking|Slowking, F|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|schalo has 120 seconds left.
+|
+|t:|1758373864
+|move|p2a: Iron Moth|Solar Beam||[still]
+|-prepare|p2a: Iron Moth|Solar Beam
+|-anim|p2a: Iron Moth|Solar Beam|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|31/100
+|move|p1a: Slowking|Future Sight|p2a: Iron Moth
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|schalo has 120 seconds left.
+|
+|t:|1758373891
+|switch|p1a: Thundurus|Thundurus, M|78/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: Thundurus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|schalo has 90 seconds left.
+|
+|t:|1758373913
+|switch|p1a: Slowking|Slowking, F|64/100
+|turn|6
+|
+|t:|1758373919
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Walking Wake|Walking Wake|100/100 par
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|-terastallize|p1a: Slowking|Fairy
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|-end|p2a: Walking Wake|Protosynthesis
+|inactive|schalo has 90 seconds left.
+|
+|t:|1758373935
+|switch|p1a: Kyurem|Kyurem|100/100|[from] Chilly Reception
+|-ability|p1a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Walking Wake|move: Future Sight
+|-damage|p2a: Walking Wake|73/100 par
+|upkeep
+|turn|7
+|inactive|schalo has 90 seconds left.
+|
+|t:|1758373950
+|move|p1a: Kyurem|Draco Meteor|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|-unboost|p1a: Kyurem|spa|2
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758373959
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|8
+|inactive|schalo has 90 seconds left.
+|
+|t:|1758373973
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|switch|p1a: Slowking|Slowking, F, tera:Fairy|97/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|inactive|schalo has 90 seconds left.
+|
+|t:|1758373989
+|move|p2a: Iron Moth|Fiery Dance|p1a: Slowking
+|-damage|p1a: Slowking|58/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1758374006
+|switch|p1a: Krookodile|Krookodile, F|100/100|[from] Chilly Reception
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Iron Moth|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758374017
+|move|p1a: Krookodile|Earthquake|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758374026
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|11
+|
+|t:|1758374034
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|move|p1a: Krookodile|Earthquake|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|inactive|schalo has 90 seconds left.
+|
+|t:|1758374050
+|switch|p1a: Slowking|Slowking, F, tera:Fairy|92/100
+|move|p2a: Whimsicott|Growth|p2a: Whimsicott
+|-boost|p2a: Whimsicott|atk|2
+|-boost|p2a: Whimsicott|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1758374060
+|move|p2a: Whimsicott|Growth|p2a: Whimsicott
+|-boost|p2a: Whimsicott|atk|2
+|-boost|p2a: Whimsicott|spa|2
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|inactive|schalo has 90 seconds left.
+|
+|t:|1758374081
+|switch|p1a: Kyurem|Kyurem|100/100|[from] Chilly Reception
+|-ability|p1a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1758374098
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Kyurem|Freeze-Dry|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1758374107
+|switch|p2a: Whimsicott|Whimsicott, F|65/100
+|switch|p1a: Slowking|Slowking, F, tera:Fairy|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|inactive|schalo has 90 seconds left.
+|
+|t:|1758374121
+|move|p2a: Whimsicott|Giga Drain|p1a: Slowking
+|-damage|p1a: Slowking|79/100
+|-heal|p2a: Whimsicott|80/100|[from] drain|[of] p1a: Slowking
+|-damage|p2a: Whimsicott|70/100|[from] item: Life Orb
+|move|p1a: Slowking|Psychic Noise|p2a: Whimsicott
+|-damage|p2a: Whimsicott|34/100
+|-start|p2a: Whimsicott|move: Heal Block
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|inactive|schalo has 90 seconds left.
+|
+|t:|1758374132
+|move|p2a: Whimsicott|Moonblast|p1a: Slowking
+|-damage|p1a: Slowking|47/100
+|-unboost|p1a: Slowking|spa|1
+|-damage|p2a: Whimsicott|24/100|[from] item: Life Orb
+|move|p1a: Slowking|Psychic Noise|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758374142
+|switch|p2a: Comfey|Comfey, F, shiny|100/100
+|turn|18
+|
+|t:|1758374147
+|move|p2a: Comfey|Growth|p2a: Comfey
+|-boost|p2a: Comfey|atk|2
+|-boost|p2a: Comfey|spa|2
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1758374162
+|switch|p1a: Metagross|Metagross|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1758374174
+|-terastallize|p2a: Comfey|Water
+|move|p2a: Comfey|Growth|p2a: Comfey
+|-boost|p2a: Comfey|atk|1
+|-boost|p2a: Comfey|spa|1
+|move|p1a: Metagross|Meteor Mash|p2a: Comfey
+|-resisted|p2a: Comfey
+|-damage|p2a: Comfey|69/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|20
+|inactive|schalo has 90 seconds left.
+|
+|t:|1758374205
+|move|p2a: Comfey|Draining Kiss|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|63/100
+|-heal|p2a: Comfey|100/100|[from] drain|[of] p1a: Metagross
+|-damage|p2a: Comfey|91/100|[from] item: Life Orb
+|move|p1a: Metagross|Psychic Fangs|p2a: Comfey
+|-damage|p2a: Comfey|25/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1758374216
+|move|p2a: Comfey|Draining Kiss|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|31/100
+|-heal|p2a: Comfey|54/100|[from] drain|[of] p1a: Metagross
+|-damage|p2a: Comfey|44/100|[from] item: Life Orb
+|move|p1a: Metagross|Psychic Fangs|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758374226
+|switch|p2a: Ninetales|Ninetales, M|75/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|22
+|inactive|schalo has 90 seconds left.
+|
+|t:|1758374242
+|move|p2a: Ninetales|Weather Ball|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758374252
+|switch|p1a: Krookodile|Krookodile, F|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Ninetales|atk|1
+|turn|23
+|
+|t:|1758374259
+|move|p1a: Krookodile|Earthquake|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758374261
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|24
+|inactive|schalo has 90 seconds left.
+|
+|t:|1758374277
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: Iron Treads
+|-damage|p1a: Iron Treads|84/100
+|-damage|p2a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p1a: Iron Treads
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1758374287
+|move|p2a: Great Tusk|Headlong Rush|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|3/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-damage|p2a: Great Tusk|67/100|[from] item: Rocky Helmet|[of] p1a: Iron Treads
+|move|p1a: Iron Treads|Earthquake|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|12/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|26
+|inactive|schalo has 90 seconds left.
+|
+|t:|1758374304
+|move|p2a: Great Tusk|Rapid Spin|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|-damage|p2a: Great Tusk|0 fnt|[from] item: Rocky Helmet|[of] p1a: Iron Treads
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|win|schalo
+|raw|schalo's rating: 1378 &rarr; <strong>1397</strong><br />(+19 for winning)
+|raw|golov's rating: 1365 &rarr; <strong>1346</strong><br />(-19 for losing)
+|l|☆golov
+|player|p2|
+|c|☆schalo|gg
+|l|☆schalo
+|player|p1|

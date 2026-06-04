@@ -1,0 +1,301 @@
+|j|☆calisol
+|j|☆thedomstroyer
+|t:|1758339253
+|gametype|singles
+|player|p1|calisol|102|1317
+|player|p2|thedomstroyer|ingo|1292
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Volcanion|
+|poke|p1|Dondozo, F|
+|poke|p1|Froslass, F|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Garganacl, M|
+|poke|p1|Corviknight, F|
+|poke|p2|Araquanid, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Primeape, M|
+|poke|p2|Perrserker, F|
+|poke|p2|Serperior, F|
+|teampreview
+|
+|t:|1758339261
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Froslass|Froslass, F|100/100
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|turn|1
+|
+|t:|1758339267
+|move|p1a: Froslass|Trick|p2a: Araquanid
+|-activate|p1a: Froslass|move: Trick|[of] p2a: Araquanid
+|-item|p2a: Araquanid|Choice Scarf|[from] move: Trick
+|-item|p1a: Froslass|Custap Berry|[from] move: Trick
+|move|p2a: Araquanid|Sticky Web|p1a: Froslass
+|-sidestart|p1: calisol|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1758339278
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Froslass|Shadow Ball|p2a: Cinderace
+|-damage|p2a: Cinderace|59/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758339285
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|-activate|p1a: Garganacl|move: Sticky Web
+|-unboost|p1a: Garganacl|spe|1
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|4
+|
+|t:|1758339294
+|move|p2a: Cinderace|Taunt|p1a: Garganacl
+|-start|p1a: Garganacl|move: Taunt
+|move|p1a: Garganacl|Salt Cure|p2a: Cinderace
+|-damage|p2a: Cinderace|40/100
+|-start|p2a: Cinderace|Salt Cure
+|
+|-damage|p2a: Cinderace|27/100|[from] Salt Cure
+|upkeep
+|turn|5
+|
+|t:|1758339302
+|move|p2a: Cinderace|U-turn|p1a: Garganacl
+|-damage|p1a: Garganacl|87/100
+|
+|t:|1758339306
+|switch|p2a: Primeape|Primeape, M|100/100|[from] U-turn
+|-activate|p2a: Primeape|move: Sticky Web
+|-unboost|p2a: Primeape|spe|1
+|-ability|p2a: Primeape|Defiant|boost
+|-boost|p2a: Primeape|atk|2
+|move|p1a: Garganacl|Salt Cure|p2a: Primeape
+|-resisted|p2a: Primeape
+|-damage|p2a: Primeape|93/100
+|-start|p2a: Primeape|Salt Cure
+|
+|-heal|p1a: Garganacl|93/100|[from] item: Leftovers
+|-damage|p2a: Primeape|81/100|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1758339319
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Primeape|Bulk Up|p2a: Primeape
+|-boost|p2a: Primeape|atk|1
+|-boost|p2a: Primeape|def|1
+|
+|-damage|p2a: Primeape|69/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1758339328
+|move|p2a: Primeape|Drain Punch|p1a: Dondozo
+|-damage|p1a: Dondozo|80/100
+|-heal|p2a: Primeape|83/100|[from] drain|[of] p1a: Dondozo
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p1a: Dondozo|86/100|[from] item: Leftovers
+|-damage|p2a: Primeape|70/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1758339338
+|move|p2a: Primeape|Rage Fist|p1a: Dondozo
+|-damage|p1a: Dondozo|74/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p1a: Dondozo|81/100|[from] item: Leftovers
+|-damage|p2a: Primeape|58/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1758339349
+|switch|p2a: Cinderace|Cinderace, M|27/100
+|move|p1a: Dondozo|Liquidation|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-heal|p1a: Dondozo|87/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758339357
+|switch|p2a: Serperior|Serperior, F|100/100
+|-activate|p2a: Serperior|move: Sticky Web
+|-boost|p2a: Serperior|spe|1
+|turn|10
+|
+|t:|1758339363
+|-terastallize|p1a: Dondozo|Poison
+|move|p2a: Serperior|Glare|p1a: Dondozo
+|-status|p1a: Dondozo|par
+|move|p1a: Dondozo|Avalanche|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|13/100
+|
+|-heal|p2a: Serperior|19/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758339375
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|-activate|p2a: Araquanid|move: Sticky Web
+|-unboost|p2a: Araquanid|spe|1
+|move|p1a: Dondozo|Liquidation|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|59/100
+|
+|-heal|p1a: Dondozo|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758339388
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Araquanid|Endure||[still]
+|-fail|p2a: Araquanid
+|
+|upkeep
+|turn|13
+|
+|t:|1758339397
+|switch|p2a: Primeape|Primeape, M|58/100
+|-activate|p2a: Primeape|move: Sticky Web
+|-unboost|p2a: Primeape|spe|1
+|-ability|p2a: Primeape|Defiant|boost
+|-boost|p2a: Primeape|atk|2
+|move|p1a: Corviknight|Brave Bird|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|-damage|p1a: Corviknight|83/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1758339418
+|switch|p2a: Araquanid|Araquanid, M|59/100
+|-activate|p2a: Araquanid|move: Sticky Web
+|-unboost|p2a: Araquanid|spe|1
+|turn|14
+|
+|t:|1758339425
+|move|p1a: Corviknight|Brave Bird|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|-damage|p1a: Corviknight|64/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1758339430
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|move: Sticky Web
+|-unboost|p2a: Kingambit|spe|1
+|-ability|p2a: Kingambit|Defiant|boost
+|-boost|p2a: Kingambit|atk|2
+|turn|15
+|
+|t:|1758339440
+|switch|p1a: Froslass|Froslass, F|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|-start|p2a: Kingambit|Disable|Kowtow Cleave|[from] ability: Cursed Body|[of] p1a: Froslass
+|faint|p1a: Froslass
+|
+|upkeep
+|
+|t:|1758339449
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|16
+|
+|t:|1758339452
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1758339462
+|switch|p2a: Perrserker|Perrserker, F|100/100
+|-activate|p2a: Perrserker|move: Sticky Web
+|-unboost|p2a: Perrserker|spe|1
+|move|p1a: Keldeo|Secret Sword|p2a: Perrserker
+|-supereffective|p2a: Perrserker
+|-damage|p2a: Perrserker|0 fnt
+|faint|p2a: Perrserker
+|
+|upkeep
+|
+|t:|1758339471
+|switch|p2a: Serperior|Serperior, F|19/100
+|-activate|p2a: Serperior|move: Sticky Web
+|-boost|p2a: Serperior|spe|1
+|turn|18
+|
+|t:|1758339476
+|move|p1a: Keldeo|Vacuum Wave|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+|
+|t:|1758339479
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|move: Sticky Web
+|-unboost|p2a: Kingambit|spe|1
+|-ability|p2a: Kingambit|Defiant|boost
+|-boost|p2a: Kingambit|atk|2
+|turn|19
+|
+|t:|1758339487
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Sucker Punch|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|29/100
+|-ability|p1a: Keldeo|Justified|boost
+|-boost|p1a: Keldeo|atk|1
+|move|p1a: Keldeo|Secret Sword|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|win|calisol
+|raw|calisol's rating: 1317 &rarr; <strong>1336</strong><br />(+19 for winning)
+|raw|thedomstroyer's rating: 1292 &rarr; <strong>1269</strong><br />(-23 for losing)
+|c|☆thedomstroyer|gg
+|l|☆calisol
+|player|p1|
+|l|☆thedomstroyer
+|player|p2|

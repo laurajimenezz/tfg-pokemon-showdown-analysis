@@ -1,0 +1,296 @@
+|j|☆sk_pk123
+|j|☆thegreatestnone
+|t:|1779686302
+|gametype|singles
+|player|p1|sk_pk123|red|1311
+|player|p2|thegreatestnone|169|1378
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Greninja-*, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Volbeat, L20, M|
+|poke|p1|Hitmonlee, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Walking Wake|
+|poke|p2|Politoed, F|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Azumarill, F|
+|poke|p2|Regieleki|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sk_pk123)
+|
+|t:|1779686321
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|1
+|
+|t:|1779686330
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Pelipper
+|-damage|p2a: Pelipper|16/100
+|move|p2a: Pelipper|Hurricane|p1a: Walking Wake
+|-damage|p1a: Walking Wake|4/100
+|-start|p1a: Walking Wake|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1779686336
+|-activate|p1a: Walking Wake|confusion
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779686341
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|3
+|
+|t:|1779686347
+|-activate|p1a: Walking Wake|confusion
+|-damage|p1a: Walking Wake|0 fnt|[from] confusion
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|move|p2a: Iron Valiant|Spirit Break|p1: Walking Wake|[notarget]
+|-fail|p2a: Iron Valiant
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779686355
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|turn|4
+|
+|t:|1779686360
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Regieleki|Regieleki|100/100
+|move|p1a: Pelipper|Hurricane|p2a: Regieleki
+|-resisted|p2a: Regieleki
+|-damage|p2a: Regieleki|51/100
+|-start|p2a: Regieleki|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779686368
+|switch|p1a: Volbeat|Volbeat, L20, M|100/100
+|-activate|p2a: Regieleki|confusion
+|-damage|p2a: Regieleki|34/100|[from] confusion
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1779686379
+|-activate|p2a: Regieleki|confusion
+|move|p2a: Regieleki|Volt Switch|p1a: Volbeat
+|-enditem|p1a: Volbeat|Focus Sash
+|-damage|p1a: Volbeat|2/100
+|
+|t:|1779686395
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100|[from] Volt Switch
+|move|p1a: Volbeat|Endeavor|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|1/100
+|
+|upkeep
+|turn|7
+|
+|t:|1779686415
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Volbeat
+|-damage|p1a: Volbeat|0 fnt
+|faint|p1a: Volbeat
+|
+|upkeep
+|
+|t:|1779686417
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|8
+|
+|t:|1779686422
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|move|p1a: Greninja|Surf|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|75/100
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1779686429
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Azumarill|Belly Drum|p2a: Azumarill
+|-damage|p2a: Azumarill|25/100
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|50/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1779686435
+|-terastallize|p2a: Azumarill|Water
+|move|p2a: Azumarill|Aqua Jet|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779686440
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|turn|11
+|
+|t:|1779686445
+|move|p1a: Hitmonlee|Endure|p1a: Hitmonlee
+|-singleturn|p1a: Hitmonlee|move: Endure
+|move|p2a: Azumarill|Aqua Jet|p1a: Hitmonlee
+|-activate|p1a: Hitmonlee|move: Endure
+|-damage|p1a: Hitmonlee|1/100
+|-enditem|p1a: Hitmonlee|Liechi Berry|[eat]
+|-boost|p1a: Hitmonlee|atk|1|[from] item: Liechi Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1779686451
+|move|p1a: Hitmonlee|Mach Punch|p2a: Azumarill
+|-damage|p2a: Azumarill|16/100
+|move|p2a: Azumarill|Aqua Jet|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779686476
+|switch|p1a: Basculegion|Basculegion, M, shiny|100/100
+|turn|13
+|inactive|thegreatestnone has 120 seconds left.
+|
+|t:|1779686521
+|move|p1a: Basculegion|Aqua Jet|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779686539
+|switch|p2a: Crawdaunt|Crawdaunt, F|1/100
+|turn|14
+|
+|t:|1779686542
+|move|p1a: Basculegion|Aqua Jet|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779686549
+|switch|p2a: Politoed|Politoed, F|100/100
+|turn|15
+|
+|t:|1779686558
+|-terastallize|p1a: Basculegion|Dragon
+|move|p1a: Basculegion|Outrage|p2a: Politoed
+|-damage|p2a: Politoed|35/100
+|move|p2a: Politoed|Surf|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1779686563
+|move|p1a: Basculegion|Outrage|p2a: Politoed|[from] lockedmove
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|-start|p1a: Basculegion|confusion|[fatigue]
+|
+|-weather|none
+|upkeep
+|
+|t:|1779686569
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|17
+|inactive|sk_pk123 has 120 seconds left.
+|
+|t:|1779686600
+|-activate|p1a: Basculegion|confusion
+|move|p1a: Basculegion|Aqua Jet|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|70/100
+|move|p2a: Iron Valiant|Spirit Break|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|upkeep
+|inactive|sk_pk123 has 120 seconds left.
+|
+|t:|1779686606
+|switch|p1a: Greninja|Greninja, M|91/100
+|turn|18
+|
+|t:|1779686634
+|move|p1a: Greninja|Surf|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|-damage|p1a: Greninja|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779686637
+|switch|p2a: Regieleki|Regieleki|34/100
+|turn|19
+|
+|t:|1779686644
+|move|p1a: Greninja|Water Shuriken|p2a: Regieleki
+|-damage|p2a: Regieleki|6/100
+|-damage|p2a: Regieleki|0 fnt
+|faint|p2a: Regieleki
+|-hitcount|p2: Regieleki|2
+|-damage|p1a: Greninja|71/100|[from] item: Life Orb
+|
+|win|sk_pk123
+|raw|sk_pk123's rating: 1311 &rarr; <strong>1335</strong><br />(+24 for winning)
+|raw|thegreatestnone's rating: 1378 &rarr; <strong>1354</strong><br />(-24 for losing)
+|l|☆thegreatestnone
+|player|p2|
+|l|☆sk_pk123
+|player|p1|

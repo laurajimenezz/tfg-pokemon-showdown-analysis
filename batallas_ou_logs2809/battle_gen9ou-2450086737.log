@@ -1,0 +1,268 @@
+|j|☆Srgtcobra
+|j|☆Titanosaurus
+|t:|1758927268
+|gametype|singles
+|player|p1|Srgtcobra|2|1258
+|player|p2|Titanosaurus|byron|1332
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Noivern, M|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, M|
+|poke|p1|Golduck, M|
+|poke|p1|Scizor, M|
+|poke|p1|Articuno-Galar|
+|poke|p2|Torkoal, F|
+|poke|p2|Lilligant, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Sandy Shocks|
+|poke|p2|Skeledirge, F|
+|poke|p2|Brute Bonnet|
+|teampreview
+|
+|t:|1758927275
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Noivern|Noivern, M|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-item|p2a: Sandy Shocks|Choice Scarf|[from] ability: Frisk|[of] p1a: Noivern
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Titanosaurus)
+|
+|t:|1758927283
+|move|p2a: Sandy Shocks|Volt Switch|p1a: Noivern
+|-damage|p1a: Noivern|48/100
+|
+|t:|1758927286
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|100/100|[from] Volt Switch
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Noivern|Boomburst|p2a: Torkoal
+|-damage|p2a: Torkoal|51/100
+|-enditem|p1a: Noivern|Throat Spray
+|-boost|p1a: Noivern|spa|1|[from] item: Throat Spray
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758927295
+|switch|p2a: Brute Bonnet|Brute Bonnet|100/100
+|-activate|p2a: Brute Bonnet|ability: Protosynthesis
+|-start|p2a: Brute Bonnet|protosynthesisatk
+|move|p1a: Noivern|Boomburst|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758927299
+|move|p2a: Brute Bonnet|Sucker Punch|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758927301
+|switch|p1a: Golduck|Golduck, M|100/100
+|-ability|p1a: Golduck|Cloud Nine
+|-end|p2a: Brute Bonnet|Protosynthesis
+|turn|4
+|
+|t:|1758927310
+|move|p1a: Golduck|Metronome|p1a: Golduck
+|move|p1a: Golduck|Brick Break|p2a: Brute Bonnet|[from] move: Metronome
+|-supereffective|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|50/100
+|move|p2a: Brute Bonnet|Seed Bomb|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|-activate|p2a: Brute Bonnet|ability: Protosynthesis
+|-start|p2a: Brute Bonnet|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758927328
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|5
+|
+|t:|1758927332
+|move|p1a: Kingambit|Iron Head|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|14/100
+|cant|p2a: Brute Bonnet|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758927343
+|move|p1a: Kingambit|Iron Head|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|0 fnt
+|faint|p2a: Brute Bonnet
+|-end|p2a: Brute Bonnet|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758927346
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis
+|-start|p2a: Sandy Shocks|protosynthesisspa
+|turn|7
+|
+|t:|1758927351
+|move|p1a: Kingambit|Sucker Punch|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|43/100
+|move|p2a: Sandy Shocks|Thunderbolt|p1a: Kingambit
+|-damage|p1a: Kingambit|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kingambit|48/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758927359
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|30/100
+|
+|-weather|none
+|-heal|p2a: Skeledirge|36/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|54/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758927364
+|-terastallize|p2a: Skeledirge|Poison
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|86/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Skeledirge
+|-damage|p2a: Skeledirge|51/100
+|
+|-heal|p2a: Skeledirge|57/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|60/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758927370
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Articuno|Articuno-Galar|100/100
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Articuno
+|-status|p1a: Articuno|brn
+|
+|-heal|p2a: Skeledirge|63/100|[from] item: Leftovers
+|-damage|p1a: Articuno|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1758927375
+|switch|p2a: Torkoal|Torkoal, F|51/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Articuno|Freezing Glare|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Articuno|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1758927379
+|switch|p2a: Sandy Shocks|Sandy Shocks|43/100
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis
+|-start|p2a: Sandy Shocks|protosynthesisspa
+|turn|12
+|
+|t:|1758927398
+|move|p2a: Sandy Shocks|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758927401
+|switch|p1a: Kingambit|Kingambit, M|60/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|13
+|
+|t:|1758927403
+|move|p2a: Sandy Shocks|Thunderbolt|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758927419
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|14
+|
+|t:|1758927423
+|move|p2a: Sandy Shocks|Thunderbolt|p1a: Scizor
+|-damage|p1a: Scizor|4/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Scizor|10/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758927426
+|move|p1a: Scizor|Bullet Punch|p2a: Sandy Shocks
+|-resisted|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|6/100
+|move|p2a: Sandy Shocks|Thunderbolt|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758927430
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|16
+|
+|t:|1758927433
+|move|p2a: Sandy Shocks|Thunderbolt|p1a: Gholdengo
+|-damage|p1a: Gholdengo|42/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Sandy Shocks
+|-resisted|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Srgtcobra forfeited.
+|
+|win|Titanosaurus
+|raw|Srgtcobra's rating: 1258 &rarr; <strong>1238</strong><br />(-20 for losing)
+|raw|Titanosaurus's rating: 1332 &rarr; <strong>1348</strong><br />(+16 for winning)
+|l|☆Srgtcobra
+|player|p1|
+|l|☆Titanosaurus
+|player|p2|

@@ -1,0 +1,164 @@
+|j|☆argadini
+|j|☆sunshinepromise
+|t:|1779921952
+|gametype|singles
+|player|p1|argadini|scott|1467
+|player|p2|sunshinepromise|2|1483
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zapdos|
+|poke|p1|Iron Treads|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Ceruledge, M|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, M|
+|poke|p2|Pincurchin, M|
+|poke|p2|Iron Hands|
+|poke|p2|Rotom-Wash|
+|poke|p2|Gholdengo|
+|poke|p2|Raichu-Alola, M|
+|poke|p2|Hatterene, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by argadini)
+|
+|t:|1779921963
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|-activate|p1a: Iron Treads|ability: Quark Drive
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1779921969
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Iron Treads|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|44/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1779921981
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779921985
+|move|p1a: Iron Treads|Stealth Rock|p2a: Rotom
+|-sidestart|p2: sunshinepromise|move: Stealth Rock
+|move|p2a: Rotom|Reflect|p2a: Rotom
+|-sidestart|p2: sunshinepromise|Reflect
+|
+|upkeep
+|turn|3
+|
+|t:|1779921988
+|move|p1a: Iron Treads|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|87/100
+|-enditem|p2a: Rotom|Light Clay|[from] move: Knock Off|[of] p1a: Iron Treads
+|move|p2a: Rotom|Hydro Pump|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779921995
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|4
+|
+|t:|1779922001
+|move|p1a: Gholdengo|Focus Blast|p2a: Rotom|[miss]
+|-miss|p1a: Gholdengo|p2a: Rotom
+|move|p2a: Rotom|Light Screen|p2a: Rotom
+|-sidestart|p2: sunshinepromise|move: Light Screen
+|
+|upkeep
+|turn|5
+|
+|t:|1779922011
+|move|p1a: Gholdengo|Hex|p2a: Rotom
+|-damage|p2a: Rotom|73/100
+|move|p2a: Rotom|Volt Switch|p1a: Gholdengo
+|-damage|p1a: Gholdengo|77/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|t:|1779922031
+|switch|p2a: Iron Hands|Iron Hands|100/100|[from] Volt Switch
+|-damage|p2a: Iron Hands|94/100|[from] Stealth Rock
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|
+|upkeep
+|turn|6
+|
+|t:|1779922036
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Iron Hands|Swords Dance|p2a: Iron Hands
+|-boost|p2a: Iron Hands|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1779922040
+|move|p1a: Zapdos|Hurricane|p2a: Iron Hands
+|-damage|p2a: Iron Hands|72/100
+|move|p2a: Iron Hands|Thunder Punch|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1779922045
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|turn|8
+|
+|t:|1779922050
+|move|p1a: Ceruledge|Poltergeist|p2a: Iron Hands
+|-activate|p2a: Iron Hands|move: Poltergeist|Lum Berry
+|-damage|p2a: Iron Hands|52/100
+|move|p2a: Iron Hands|Thunder Punch|p1a: Ceruledge
+|-enditem|p1a: Ceruledge|Focus Sash
+|-damage|p1a: Ceruledge|1/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|
+|-sideend|p2: sunshinepromise|move: Light Screen
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Hands|Quark Drive
+|upkeep
+|turn|9
+|
+|t:|1779922055
+|move|p1a: Ceruledge|Bitter Blade|p2a: Iron Hands
+|-damage|p2a: Iron Hands|37/100
+|-heal|p1a: Ceruledge|12/100|[from] drain|[of] p2a: Iron Hands
+|move|p2a: Iron Hands|Thunder Punch|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|-sideend|p2: sunshinepromise|Reflect
+|upkeep
+|-message|argadini forfeited.
+|
+|win|sunshinepromise
+|raw|argadini's rating: 1467 &rarr; <strong>1448</strong><br />(-19 for losing)
+|raw|sunshinepromise's rating: 1483 &rarr; <strong>1502</strong><br />(+19 for winning)
+|l|☆argadini
+|player|p1|
+|l|☆sunshinepromise
+|player|p2|

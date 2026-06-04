@@ -1,0 +1,225 @@
+|j|☆sikort
+|j|☆barrman1313
+|t:|1760364380
+|gametype|singles
+|player|p1|sikort|byron|1477
+|player|p2|barrman1313|brycenman|1462
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Moltres|
+|poke|p1|Araquanid, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Meowscarada, F|
+|poke|p2|Diancie|
+|poke|p2|Kyurem|
+|poke|p2|Necrozma|
+|poke|p2|Hatterene, F|
+|poke|p2|Iron Hands|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|t:|1760364402
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|switch|p2a: Necrozma|Necrozma|100/100
+|turn|1
+|
+|t:|1760364410
+|move|p1a: Meowscarada|Knock Off|p2a: Necrozma
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|8/100
+|-enditem|p2a: Necrozma|Power Herb|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Necrozma|Trick Room|p2a: Necrozma
+|-fieldstart|move: Trick Room|[of] p2a: Necrozma
+|
+|upkeep
+|turn|2
+|
+|t:|1760364421
+|move|p2a: Necrozma|Heat Wave|p1a: Meowscarada
+|-damage|p1a: Meowscarada|46/100
+|move|p1a: Meowscarada|Knock Off|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|upkeep
+|
+|t:|1760364436
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|3
+|
+|t:|1760364441
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|79/100
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1760364448
+|move|p2a: Hatterene|Psyshock|p1a: Moltres
+|-damage|p1a: Moltres|32/100
+|-damage|p2a: Hatterene|81/100|[from] item: Life Orb
+|move|p1a: Moltres|Flamethrower|p2a: Hatterene
+|-damage|p2a: Hatterene|38/100
+|
+|upkeep
+|turn|5
+|
+|t:|1760364457
+|switch|p1a: Araquanid|Araquanid, M, shiny|100/100
+|move|p2a: Hatterene|Psyshock|p1a: Araquanid
+|-damage|p1a: Araquanid|39/100
+|-damage|p2a: Hatterene|28/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1760364464
+|move|p1a: Araquanid|Liquidation|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1760364469
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|7
+|
+|t:|1760364479
+|switch|p1a: Moltres|Moltres|32/100
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1760364497
+|move|p2a: Kyurem|Scale Shot|p1a: Moltres
+|-damage|p1a: Moltres|16/100
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|-hitcount|p1: Moltres|2
+|-unboost|p2a: Kyurem|def|1
+|-boost|p2a: Kyurem|spe|1
+|
+|upkeep
+|
+|t:|1760364507
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|9
+|
+|t:|1760364517
+|-terastallize|p2a: Kyurem|Fire
+|move|p2a: Kyurem|Icicle Spear|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|75/100
+|-damage|p1a: Iron Valiant|46/100
+|-damage|p1a: Iron Valiant|18/100
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-hitcount|p1: Iron Valiant|4
+|
+|upkeep
+|
+|t:|1760364526
+|switch|p1a: Araquanid|Araquanid, M, shiny|39/100
+|turn|10
+|
+|t:|1760364532
+|move|p2a: Kyurem|Icicle Spear|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|28/100
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|16/100
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|5/100
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|-hitcount|p1: Araquanid|4
+|
+|upkeep
+|
+|t:|1760364543
+|switch|p1a: Meowscarada|Meowscarada, F|46/100
+|turn|11
+|
+|t:|1760364550
+|-terastallize|p1a: Meowscarada|Fire
+|move|p2a: Kyurem|Icicle Spear|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|28/100
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|13/100
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|-hitcount|p1: Meowscarada|3
+|
+|upkeep
+|
+|t:|1760364559
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100
+|turn|12
+|
+|t:|1760364562
+|move|p2a: Kyurem|Icicle Spear|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|43/100
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-hitcount|p1: Dragapult|2
+|
+|upkeep
+|
+|t:|1760364568
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|13
+|
+|t:|1760364571
+|move|p2a: Kyurem|Icicle Spear|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|71/100
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|37/100
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|3/100
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p1: Great Tusk|4
+|
+|win|barrman1313
+|raw|sikort's rating: 1477 &rarr; <strong>1456</strong><br />(-21 for losing)
+|raw|barrman1313's rating: 1462 &rarr; <strong>1483</strong><br />(+21 for winning)
+|l|☆sikort
+|player|p1|
+|l|☆barrman1313
+|player|p2|

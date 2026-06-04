@@ -1,0 +1,269 @@
+|j|☆Jajouj
+|j|☆captaintomfoolery
+|t:|1757846786
+|gametype|singles
+|player|p1|Jajouj|ghetsis|1243
+|player|p2|captaintomfoolery|elesa|1314
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Staraptor, F|
+|poke|p1|Hydreigon, F|
+|poke|p1|Ribombee, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Enamorus, F|
+|poke|p2|Iron Treads|
+|poke|p2|Ogerpon, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Kingambit, F|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|t:|1757846851
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Staraptor|Staraptor, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Staraptor|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Staraptor|atk|1
+|turn|1
+|
+|t:|1757846858
+|move|p1a: Staraptor|Final Gambit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p1a: Staraptor
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1757846865
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|2
+|
+|t:|1757846870
+|move|p2a: Dragapult|U-turn|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|82/100
+|
+|t:|1757846873
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Ribombee|Sticky Web|p2a: Iron Treads
+|-sidestart|p2: captaintomfoolery|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|t:|1757846880
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Iron Treads|Rapid Spin|p1a: Rotom
+|-damage|p1a: Rotom|82/100
+|-boost|p2a: Iron Treads|spe|1
+|-damage|p2a: Iron Treads|84/100|[from] item: Rocky Helmet|[of] p1a: Rotom
+|-sideend|p2: captaintomfoolery|Sticky Web|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|4
+|
+|t:|1757846889
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Dragapult
+|-status|p2a: Dragapult|brn
+|
+|-damage|p2a: Dragapult|95/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1757846898
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|move|p1a: Rotom|Pain Split|p2a: Dragapult
+|-sethp|p2a: Dragapult|87/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|91/100 brn|[from] move: Pain Split
+|
+|-damage|p2a: Dragapult|81/100 brn|[from] brn
+|-damage|p1a: Rotom|85/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1757846906
+|move|p2a: Dragapult|Hex|p1a: Rotom
+|-damage|p1a: Rotom|31/100 brn
+|move|p1a: Rotom|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|57/100 brn
+|
+|t:|1757846912
+|switch|p1a: Enamorus|Enamorus, F|100/100|[from] Volt Switch
+|
+|-damage|p2a: Dragapult|51/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1757846918
+|move|p1a: Enamorus|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1757846920
+|switch|p2a: Iron Treads|Iron Treads|84/100
+|turn|8
+|
+|t:|1757846925
+|switch|p1a: Rotom|Rotom-Wash|31/100 brn
+|move|p2a: Iron Treads|Knock Off|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Iron Treads|67/100|[from] item: Rocky Helmet|[of] p1a: Rotom
+|-enditem|p1a: Rotom|Rocky Helmet|[from] move: Knock Off|[of] p2a: Iron Treads
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1757846934
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-item|p1a: Excadrill|Air Balloon
+|turn|9
+|
+|t:|1757846939
+|move|p2a: Iron Treads|Ice Spinner|p1a: Excadrill
+|-damage|p1a: Excadrill|68/100
+|-enditem|p1a: Excadrill|Air Balloon
+|move|p1a: Excadrill|Rapid Spin|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|59/100
+|-boost|p1a: Excadrill|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1757846946
+|move|p1a: Excadrill|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757846949
+|switch|p2a: Ogerpon|Ogerpon, F|100/100
+|turn|11
+|
+|t:|1757846954
+|-terastallize|p2a: Ogerpon|Grass
+|detailschange|p2a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass
+|-ability|p2a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p2a: Ogerpon|spe|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by captaintomfoolery)
+|
+|t:|1757846977
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|12
+|
+|t:|1757846980
+|-terastallize|p1a: Hydreigon|Fire
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|48/100
+|move|p1a: Hydreigon|Flamethrower|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-crit|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon, F|[silent]
+|
+|upkeep
+|
+|t:|1757846986
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|13
+|
+|t:|1757846995
+|move|p2a: Raging Bolt|Thunderclap|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|t:|1757847001
+|switch|p1a: Ribombee|Ribombee, F|82/100
+|turn|14
+|
+|t:|1757847005
+|move|p1a: Ribombee|Light Screen|p1a: Ribombee
+|-sidestart|p1: Jajouj|move: Light Screen
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Ribombee
+|-damage|p1a: Ribombee|22/100
+|
+|upkeep
+|turn|15
+|
+|t:|1757847011
+|move|p1a: Ribombee|Sticky Web|p2a: Raging Bolt
+|-sidestart|p2: captaintomfoolery|move: Sticky Web
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|16
+|
+|t:|1757847018
+|move|p2a: Raging Bolt|Thunderclap|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|t:|1757847022
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|17
+|
+|t:|1757847028
+|move|p1a: Enamorus|Moonblast|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|44/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|win|captaintomfoolery
+|raw|Jajouj's rating: 1243 &rarr; <strong>1223</strong><br />(-20 for losing)
+|raw|captaintomfoolery's rating: 1314 &rarr; <strong>1330</strong><br />(+16 for winning)
+|l|☆captaintomfoolery
+|player|p2|
+|l|☆Jajouj
+|player|p1|

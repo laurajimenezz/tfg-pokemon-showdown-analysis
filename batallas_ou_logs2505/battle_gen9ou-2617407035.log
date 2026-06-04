@@ -1,0 +1,184 @@
+|j|☆jewking
+|j|☆evccx
+|t:|1779683862
+|gametype|singles
+|player|p1|jewking|102|1379
+|player|p2|evccx|palmer|1388
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ribombee, F|
+|poke|p1|Blaziken, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Azelf|
+|poke|p1|Kingdra, F|
+|poke|p1|Cinderace, M|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Ogerpon, F|
+|poke|p2|Skarmory, M|
+|poke|p2|Alomomola, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Hydreigon, M|
+|teampreview
+|j| testingrainteam1
+|
+|t:|1779683884
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Ogerpon|Ogerpon, F|100/100
+|turn|1
+|l| testingrainteam1
+|
+|t:|1779683896
+|move|p2a: Ogerpon|U-turn|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|67/100
+|
+|t:|1779683901
+|switch|p2a: Clodsire|Clodsire, M, shiny|100/100|[from] U-turn
+|move|p1a: Ribombee|Sticky Web|p2a: Clodsire
+|-sidestart|p2: evccx|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1779683908
+|move|p1a: Ribombee|U-turn|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|93/100
+|
+|t:|1779683913
+|switch|p1a: Azelf|Azelf|100/100|[from] U-turn
+|move|p2a: Clodsire|Stealth Rock|p1a: Azelf
+|-sidestart|p1: jewking|move: Stealth Rock
+|
+|-heal|p2a: Clodsire|99/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1779683932
+|move|p1a: Azelf|Taunt|p2a: Clodsire
+|-start|p2a: Clodsire|move: Taunt
+|cant|p2a: Clodsire|move: Taunt|Toxic
+|
+|-heal|p2a: Clodsire|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1779683943
+|switch|p2a: Hydreigon|Hydreigon, M, shiny|100/100
+|move|p1a: Azelf|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: evccx|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1779683961
+|-terastallize|p2a: Hydreigon|Poison
+|move|p1a: Azelf|Explosion|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p1a: Azelf
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|t:|1779683975
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|switch|p2a: Weezing|Weezing-Galar, M, shiny|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-damage|p1a: Blaziken|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1779683980
+|move|p1a: Blaziken|Focus Energy|p1a: Blaziken
+|-start|p1a: Blaziken|move: Focus Energy
+|move|p2a: Weezing|Sludge Bomb|p1a: Blaziken
+|-damage|p1a: Blaziken|44/100
+|
+|upkeep
+|turn|7
+|
+|t:|1779683989
+|-terastallize|p1a: Blaziken|Fire
+|move|p1a: Blaziken|Overheat|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|-unboost|p1a: Blaziken|spa|2
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1779684003
+|switch|p2a: Alomomola|Alomomola, M, shiny|100/100
+|-activate|p2a: Alomomola|move: Sticky Web
+|-unboost|p2a: Alomomola|spe|1
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1779684011
+|move|p1a: Blaziken|Overheat|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|53/100
+|-unboost|p1a: Blaziken|spa|2
+|move|p2a: Alomomola|Flip Turn|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|t:|1779684027
+|switch|p2a: Clodsire|Clodsire, M, shiny|100/100|[from] Flip Turn
+|-activate|p2a: Clodsire|move: Sticky Web
+|-unboost|p2a: Clodsire|spe|1
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Clodsire|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779684035
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|-damage|p1a: Kingdra|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1779684040
+|move|p1a: Kingdra|Focus Energy|p1a: Kingdra
+|-start|p1a: Kingdra|move: Focus Energy
+|move|p2a: Clodsire|Toxic|p1a: Kingdra
+|-status|p1a: Kingdra|tox
+|
+|-damage|p1a: Kingdra|82/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1779684052
+|move|p1a: Kingdra|Draco Meteor|p2a: Clodsire|[miss]
+|-miss|p1a: Kingdra|p2a: Clodsire
+|move|p2a: Clodsire|Recover||[still]
+|-fail|p2a: Clodsire|heal
+|
+|-damage|p1a: Kingdra|70/100 tox|[from] psn
+|upkeep
+|turn|11
+|-message|jewking forfeited.
+|
+|win|evccx
+|raw|jewking's rating: 1379 &rarr; <strong>1360</strong><br />(-19 for losing)
+|raw|evccx's rating: 1388 &rarr; <strong>1407</strong><br />(+19 for winning)
+|l|☆jewking
+|player|p1|
+|l|☆evccx
+|player|p2|

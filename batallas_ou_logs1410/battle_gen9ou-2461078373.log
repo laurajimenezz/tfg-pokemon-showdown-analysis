@@ -1,0 +1,293 @@
+|j|☆skypiaisland
+|j|☆mkyn
+|t:|1760391442
+|gametype|singles
+|player|p1|skypiaisland|1|1613
+|player|p2|mkyn|169|1657
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Overqwil, M|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Treads|
+|poke|p1|Pelipper, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Pecharunt|
+|poke|p2|Alomomola, M|
+|poke|p2|Ogerpon, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1760391458
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1760391467
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: mkyn|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alomomola|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1760391485
+|move|p1a: Iron Treads|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|70/100
+|-enditem|p2a: Alomomola|Red Card|[of] p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|drag|p1a: Overqwil|Overqwil, M|100/100
+|move|p2a: Alomomola|Flip Turn|p1a: Overqwil
+|-crit|p1a: Overqwil
+|-damage|p1a: Overqwil|72/100
+|
+|t:|1760391494
+|switch|p2a: Excadrill|Excadrill, F|100/100|[from] Flip Turn
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-item|p2a: Excadrill|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Overqwil|65/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1760391501
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1760391506
+|move|p2a: Excadrill|Rock Slide|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|19/100
+|cant|p1a: Pelipper|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760391513
+|move|p2a: Excadrill|Rapid Spin|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-boost|p2a: Excadrill|spe|1
+|-sideend|p2: mkyn|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760391517
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|turn|6
+|
+|t:|1760391520
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Basculegion|Surf|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|41/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760391524
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Basculegion|Surf|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760391527
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Basculegion|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Basculegion|94/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1760391535
+|switch|p2a: Ogerpon|Ogerpon, F|100/100
+|move|p1a: Basculegion|Surf|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ogerpon|54/100|[from] Sandstorm
+|-damage|p1a: Basculegion|88/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1760391539
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Ogerpon|Knock Off|p1a: Iron Treads
+|-damage|p1a: Iron Treads|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ogerpon|48/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1760391548
+|switch|p2a: Alomomola|Alomomola, M|74/100
+|move|p1a: Iron Treads|Megahorn|p2a: Alomomola
+|-damage|p2a: Alomomola|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alomomola|49/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1760391551
+|move|p1a: Iron Treads|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: mkyn|move: Stealth Rock
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alomomola|43/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1760391555
+|move|p1a: Iron Treads|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|18/100
+|move|p2a: Alomomola|Flip Turn|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|54/100
+|
+|t:|1760391566
+|switch|p2a: Ogerpon|Ogerpon, F|48/100|[from] Flip Turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ogerpon|42/100|[from] Sandstorm
+|-heal|p2a: Ogerpon|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|14
+|
+|t:|1760391571
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Iron Treads
+|-damage|p1a: Iron Treads|9/100
+|move|p1a: Iron Treads|Megahorn|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ogerpon|2/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1760391581
+|move|p2a: Ogerpon|Knock Off|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1760391586
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|16
+|
+|t:|1760391593
+|switch|p2a: Tyranitar|Tyranitar, M|24/100
+|-damage|p2a: Tyranitar|11/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raging Bolt|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1760391596
+|switch|p2a: Excadrill|Excadrill, F|97/100
+|-damage|p2a: Excadrill|94/100|[from] Stealth Rock
+|-item|p2a: Excadrill|Air Balloon
+|turn|17
+|
+|t:|1760391603
+|-terastallize|p1a: Raging Bolt|Flying
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|48/100
+|-enditem|p2a: Excadrill|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raging Bolt|88/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|t:|1760391609
+|move|p2a: Excadrill|Rock Slide|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1760391610
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|19
+|
+|t:|1760391612
+|move|p2a: Excadrill|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|5/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hatterene|0 fnt|[from] Sandstorm
+|faint|p1a: Hatterene
+|upkeep
+|-message|skypiaisland forfeited.
+|
+|win|mkyn
+|raw|skypiaisland's rating: 1613 &rarr; <strong>1596</strong><br />(-17 for losing)
+|raw|mkyn's rating: 1657 &rarr; <strong>1674</strong><br />(+17 for winning)
+|l|☆skypiaisland
+|player|p1|
+|l|☆mkyn
+|player|p2|

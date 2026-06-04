@@ -1,0 +1,326 @@
+|j|☆HAGallium
+|j|☆lorped
+|t:|1758341572
+|gametype|singles
+|player|p1|HAGallium|dawn|1192
+|player|p2|lorped|265|1200
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Alomomola, F|
+|poke|p1|Great Tusk|
+|poke|p1|Corviknight, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Leavanny, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Iron Hands|
+|poke|p2|Sinistcha|
+|poke|p2|Altaria, M|
+|poke|p2|Mamoswine, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HAGallium)
+|
+|t:|1758341606
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1758341618
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Iron Hands|Fake Out|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|82/100
+|
+|-heal|p1a: Raging Bolt|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1758341625
+|-terastallize|p1a: Raging Bolt|Fairy
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Iron Hands
+|-damage|p2a: Iron Hands|35/100
+|-unboost|p1a: Raging Bolt|spa|2
+|move|p2a: Iron Hands|Ice Punch|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|54/100
+|
+|-heal|p1a: Raging Bolt|60/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1758341638
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Iron Hands
+|-damage|p2a: Iron Hands|2/100
+|-unboost|p1a: Raging Bolt|spa|2
+|move|p2a: Iron Hands|Ice Punch|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|27/100
+|
+|-heal|p1a: Raging Bolt|33/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1758341650
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Iron Hands|Ice Punch|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|86/100
+|
+|upkeep
+|turn|5
+|
+|t:|1758341657
+|move|p1a: Alomomola|Aqua Jet|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758341665
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|turn|6
+|
+|t:|1758341668
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|move|p1a: Alomomola|Flip Turn|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-crit|p2a: Sinistcha
+|-damage|p2a: Sinistcha|89/100
+|
+|t:|1758341671
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from] Flip Turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sinistcha|83/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1758341680
+|move|p1a: Tyranitar|Knock Off|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|-enditem|p2a: Sinistcha|Sitrus Berry|[from] move: Knock Off|[of] p1a: Tyranitar
+|faint|p2a: Sinistcha
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1758341692
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|8
+|
+|t:|1758341703
+|move|p2a: Mamoswine|Trailblaze|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|71/100
+|-boost|p2a: Mamoswine|spe|1
+|move|p1a: Tyranitar|Knock Off|p2a: Mamoswine
+|-damage|p2a: Mamoswine|3/100
+|-enditem|p2a: Mamoswine|Assault Vest|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1758341720
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Mamoswine|Iron Head|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alomomola|85/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1758341730
+|move|p2a: Mamoswine|Trailblaze|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|60/100
+|-boost|p2a: Mamoswine|spe|1
+|move|p1a: Alomomola|Flip Turn|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|t:|1758341744
+|switch|p1a: Raging Bolt|Raging Bolt, tera:Fairy|33/100|[from] Flip Turn
+|
+|-weather|none
+|-heal|p1a: Raging Bolt|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758341750
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|-item|p2a: Ceruledge|Air Balloon
+|turn|11
+|
+|t:|1758341755
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Ceruledge
+|-damage|p2a: Ceruledge|40/100
+|-enditem|p2a: Ceruledge|Air Balloon
+|
+|-heal|p1a: Raging Bolt|46/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758341773
+|-terastallize|p2a: Ceruledge|Fairy
+|move|p1a: Raging Bolt|Thunderclap|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-heal|p1a: Raging Bolt|52/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758341783
+|switch|p2a: Leavanny|Leavanny, M|100/100
+|turn|13
+|
+|t:|1758341790
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Leavanny|Switcheroo|p1a: Hatterene
+|-activate|p2a: Leavanny|move: Trick|[of] p1a: Hatterene
+|-item|p1a: Hatterene|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Leavanny|Leftovers|[from] move: Switcheroo
+|
+|upkeep
+|turn|14
+|inactive|lorped has 120 seconds left.
+|
+|t:|1758341826
+|move|p2a: Leavanny|Swords Dance|p2a: Leavanny
+|-boost|p2a: Leavanny|atk|2
+|move|p1a: Hatterene|Draining Kiss|p2a: Leavanny
+|-damage|p2a: Leavanny|61/100
+|
+|-heal|p2a: Leavanny|68/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|lorped has 120 seconds left.
+|
+|t:|1758341834
+|move|p2a: Leavanny|Swords Dance|p2a: Leavanny
+|-boost|p2a: Leavanny|atk|2
+|move|p1a: Hatterene|Draining Kiss|p2a: Leavanny
+|-damage|p2a: Leavanny|28/100
+|
+|-heal|p2a: Leavanny|35/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758341841
+|move|p2a: Leavanny|Leaf Blade|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Leavanny|41/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758341846
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|17
+|
+|t:|1758341857
+|move|p2a: Leavanny|Sticky Web|p1a: Corviknight
+|-sidestart|p1: HAGallium|move: Sticky Web
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|-heal|p2a: Leavanny|47/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1758341864
+|move|p2a: Leavanny|Leaf Blade|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|91/100
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|-heal|p2a: Leavanny|53/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|97/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1758341876
+|move|p2a: Leavanny|Leaf Blade|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|91/100
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|-heal|p2a: Leavanny|59/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|97/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1758341884
+|move|p2a: Leavanny|Leaf Blade|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|93/100
+|move|p1a: Corviknight|Body Press|p2a: Leavanny
+|-resisted|p2a: Leavanny
+|-crit|p2a: Leavanny
+|-damage|p2a: Leavanny|0 fnt
+|faint|p2a: Leavanny
+|
+|-heal|p1a: Corviknight|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758341894
+|switch|p2a: Altaria|Altaria, M|100/100
+|-ability|p2a: Altaria|Cloud Nine
+|turn|21
+|
+|t:|1758341898
+|move|p2a: Altaria|Acrobatics|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|97/100
+|move|p1a: Corviknight|Body Press|p2a: Altaria
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|36/100
+|
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1758341910
+|move|p2a: Altaria|Acrobatics|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|Body Press|p2a: Altaria
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|
+|win|HAGallium
+|raw|HAGallium's rating: 1192 &rarr; <strong>1218</strong><br />(+26 for winning)
+|raw|lorped's rating: 1200 &rarr; <strong>1174</strong><br />(-26 for losing)
+|l|☆lorped
+|player|p2|
+|l|☆HAGallium
+|player|p1|

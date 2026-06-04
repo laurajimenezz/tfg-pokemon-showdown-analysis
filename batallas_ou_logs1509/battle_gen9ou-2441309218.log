@@ -1,0 +1,335 @@
+|j|☆Beauty Nova
+|j|☆cxkbaochaozyc
+|t:|1757827828
+|gametype|singles
+|player|p1|Beauty Nova|beauty-gen6xy|1086
+|player|p2|cxkbaochaozyc|170|1045
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Mimikyu, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Iron Hands|
+|poke|p2|Alomomola, F|
+|poke|p2|Pecharunt|
+|poke|p2|Ting-Lu|
+|poke|p2|Blaziken, M|
+|poke|p2|Wo-Chien|
+|poke|p2|Avalugg-Hisui, M|
+|teampreview
+|
+|t:|1757827842
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|switch|p2a: 鸡鸡|Blaziken, M|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1757827857
+|move|p2a: 鸡鸡|Detect|p2a: 鸡鸡
+|-singleturn|p2a: 鸡鸡|Protect
+|move|p1a: Iron Hands|Supercell Slam|p2a: 鸡鸡
+|-activate|p2a: 鸡鸡|move: Protect
+|-damage|p1a: Iron Hands|50/100|[from] supercellslam
+|
+|-ability|p2a: 鸡鸡|Speed Boost|boost
+|-boost|p2a: 鸡鸡|spe|1
+|upkeep
+|turn|2
+|
+|t:|1757827869
+|move|p2a: 鸡鸡|Acrobatics|p1a: Iron Hands
+|-damage|p1a: Iron Hands|36/100
+|move|p1a: Iron Hands|Supercell Slam|p2a: 鸡鸡
+|-enditem|p2a: 鸡鸡|Focus Sash
+|-damage|p2a: 鸡鸡|1/100
+|
+|-ability|p2a: 鸡鸡|Speed Boost|boost
+|-boost|p2a: 鸡鸡|spe|1
+|upkeep
+|turn|3
+|
+|t:|1757827877
+|move|p2a: 鸡鸡|Acrobatics|p1a: Iron Hands
+|-damage|p1a: Iron Hands|9/100
+|move|p1a: Iron Hands|Ice Punch|p2a: 鸡鸡
+|-resisted|p2a: 鸡鸡
+|-damage|p2a: 鸡鸡|0 fnt
+|faint|p2a: 鸡鸡
+|
+|upkeep
+|
+|t:|1757827887
+|switch|p2a: 咭呗咭呗|Pecharunt|100/100
+|turn|4
+|
+|t:|1757827895
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: 咭呗咭呗|Malignant Chain|p1a: Indeedee
+|-damage|p1a: Indeedee|58/100
+|
+|upkeep
+|turn|5
+|
+|t:|1757827909
+|switch|p2a: 爱鹿管|Ting-Lu|100/100
+|-ability|p2a: 爱鹿管|Vessel of Ruin
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|6
+|
+|t:|1757827927
+|switch|p1a: Ursaluna|Ursaluna, F, shiny|100/100
+|move|p2a: 爱鹿管|Snarl|p1a: Ursaluna
+|-damage|p1a: Ursaluna|91/100
+|-unboost|p1a: Ursaluna|spa|1
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|t:|1757827941
+|move|p2a: 爱鹿管|Stealth Rock|p1a: Ursaluna
+|-sidestart|p1: Beauty Nova|move: Stealth Rock
+|move|p1a: Ursaluna|Ice Punch|p2a: 爱鹿管
+|-supereffective|p2a: 爱鹿管
+|-damage|p2a: 爱鹿管|54/100
+|
+|-damage|p1a: Ursaluna|85/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1757827948
+|move|p2a: 爱鹿管|Memento|p1a: Ursaluna
+|-unboost|p1a: Ursaluna|atk|2
+|-unboost|p1a: Ursaluna|spa|2
+|faint|p2a: 爱鹿管
+|move|p1a: Ursaluna|Facade|p2: 爱鹿管|[notarget]
+|-fail|p1a: Ursaluna
+|
+|-damage|p1a: Ursaluna|79/100 brn|[from] brn
+|upkeep
+|
+|t:|1757827956
+|switch|p2a: Avalugg|Avalugg-Hisui, M|100/100
+|turn|9
+|
+|t:|1757827962
+|switch|p1a: Iron Hands|Iron Hands|9/100
+|-damage|p1a: Iron Hands|3/100|[from] Stealth Rock
+|move|p2a: Avalugg|Body Press|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757827969
+|switch|p1a: Mimikyu|Mimikyu, F, shiny|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1757827975
+|switch|p2a: 咭呗咭呗|Pecharunt|100/100
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|upkeep
+|turn|11
+|
+|t:|1757827984
+|move|p2a: 咭呗咭呗|Hex|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|88/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F, shiny
+|-damage|p1a: Mimikyu|76/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p1a: Mimikyu|Red Card|[of] p2a: 咭呗咭呗
+|drag|p2a: 大蜗牛2号|Wo-Chien|100/100
+|-ability|p2a: 大蜗牛2号|Tablets of Ruin
+|move|p1a: Mimikyu|Curse|p2a: 大蜗牛2号
+|-start|p2a: 大蜗牛2号|Curse|[of] p1a: Mimikyu
+|-damage|p1a: Mimikyu|26/100
+|
+|-damage|p2a: 大蜗牛2号|75/100|[from] Curse
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|12
+|
+|t:|1757828006
+|switch|p2a: 咭呗咭呗|Pecharunt|100/100
+|move|p1a: Mimikyu|Destiny Bond|p1a: Mimikyu
+|-singlemove|p1a: Mimikyu|Destiny Bond
+|
+|upkeep
+|turn|13
+|
+|t:|1757828014
+|switch|p2a: Avalugg|Avalugg-Hisui, M|100/100
+|move|p1a: Mimikyu|Curse|p2a: Avalugg
+|-start|p2a: Avalugg|Curse|[of] p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-damage|p2a: Avalugg|75/100|[from] Curse
+|upkeep
+|
+|t:|1757828029
+|switch|p1a: Indeedee|Indeedee, M, shiny|58/100
+|-damage|p1a: Indeedee|46/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|14
+|
+|t:|1757828038
+|move|p2a: Avalugg|Ice Spinner|p1a: Indeedee
+|-damage|p1a: Indeedee|2/100
+|-fieldend|move: Psychic Terrain
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldend|move: Trick Room
+|
+|-damage|p2a: Avalugg|50/100|[from] Curse
+|upkeep
+|turn|15
+|
+|t:|1757828052
+|switch|p2a: 咭呗咭呗|Pecharunt|100/100
+|move|p1a: Indeedee|Healing Wish|p1a: Indeedee
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1757828056
+|switch|p1a: Ursaluna|Ursaluna, F, shiny|79/100 brn
+|-heal|p1a: Ursaluna|100/100|[from] move: Healing Wish
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1757828066
+|move|p2a: 咭呗咭呗|Malignant Chain|p1a: Ursaluna
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|79/100
+|move|p1a: Ursaluna|Headlong Rush|p2a: 咭呗咭呗
+|-supereffective|p2a: 咭呗咭呗
+|-damage|p2a: 咭呗咭呗|4/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|17
+|
+|t:|1757828090
+|move|p2a: 咭呗咭呗|Malignant Chain|p1a: Ursaluna
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|54/100 brn
+|move|p1a: Ursaluna|Ice Punch|p2a: 咭呗咭呗
+|-damage|p2a: 咭呗咭呗|0 fnt
+|faint|p2a: 咭呗咭呗
+|
+|-damage|p1a: Ursaluna|48/100 brn|[from] brn
+|upkeep
+|
+|t:|1757828099
+|switch|p2a: 大蜗牛2号|Wo-Chien|75/100
+|-ability|p2a: 大蜗牛2号|Tablets of Ruin
+|turn|18
+|
+|t:|1757828108
+|-terastallize|p1a: Ursaluna|Normal
+|move|p2a: 大蜗牛2号|Leech Seed|p1a: Ursaluna
+|-start|p1a: Ursaluna|move: Leech Seed
+|move|p1a: Ursaluna|Facade|p2a: 大蜗牛2号
+|-damage|p2a: 大蜗牛2号|0 fnt
+|faint|p2a: 大蜗牛2号
+|
+|-damage|p1a: Ursaluna|42/100 brn|[from] brn
+|upkeep
+|
+|t:|1757828118
+|switch|p2a: 保姆曼巴|Alomomola, F|100/100
+|turn|19
+|
+|t:|1757828128
+|move|p2a: 保姆曼巴|Chilling Water|p1a: Ursaluna
+|-damage|p1a: Ursaluna|33/100 brn
+|-unboost|p1a: Ursaluna|atk|1
+|move|p1a: Ursaluna|Supercell Slam|p2a: 保姆曼巴
+|-supereffective|p2a: 保姆曼巴
+|-damage|p2a: 保姆曼巴|60/100
+|
+|-heal|p2a: 保姆曼巴|67/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|20/100 brn|[from] Leech Seed|[of] p2a: 保姆曼巴
+|-heal|p2a: 保姆曼巴|77/100|[silent]
+|-damage|p1a: Ursaluna|14/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1757828139
+|move|p2a: 保姆曼巴|Chilling Water|p1a: Ursaluna
+|-damage|p1a: Ursaluna|5/100 brn
+|-unboost|p1a: Ursaluna|atk|1
+|move|p1a: Ursaluna|Facade|p2a: 保姆曼巴
+|-damage|p2a: 保姆曼巴|30/100
+|
+|-heal|p2a: 保姆曼巴|36/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|0 fnt|[from] Leech Seed|[of] p2a: 保姆曼巴
+|-heal|p2a: 保姆曼巴|40/100|[silent]
+|faint|p1a: Ursaluna
+|upkeep
+|
+|t:|1757828143
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1757828153
+|move|p2a: 保姆曼巴|Protect|p2a: 保姆曼巴
+|-singleturn|p2a: 保姆曼巴|Protect
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p2a: 保姆曼巴|46/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1757828171
+|move|p1a: Hatterene|Expanding Force|p2a: 保姆曼巴
+|-damage|p2a: 保姆曼巴|0 fnt
+|faint|p2a: 保姆曼巴
+|-damage|p1a: Hatterene|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757828176
+|switch|p2a: Avalugg|Avalugg-Hisui, M|50/100
+|turn|23
+|
+|t:|1757828184
+|move|p1a: Hatterene|Expanding Force|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|-damage|p1a: Hatterene|69/100|[from] item: Life Orb
+|
+|win|Beauty Nova
+|raw|Beauty Nova's rating: 1086 &rarr; <strong>1110</strong><br />(+24 for winning)
+|raw|cxkbaochaozyc's rating: 1045 &rarr; <strong>1030</strong><br />(-15 for losing)

@@ -1,0 +1,272 @@
+|j|☆ensyde
+|j|☆arvends5
+|t:|1758332700
+|gametype|singles
+|player|p1|ensyde|burglar|1301
+|player|p2|arvends5|swimmer|1287
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ting-Lu|
+|poke|p1|Glimmora, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Iron Moth|
+|poke|p1|Zamazenta-*|
+|poke|p1|Scizor, M|
+|poke|p2|Venusaur, M|
+|poke|p2|Ninetales, F|
+|poke|p2|Wigglytuff, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Vaporeon, F|
+|poke|p2|Hitmonchan, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ensyde)
+|
+|t:|1758332710
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: wrath|Iron Moth, shiny|100/100
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|-enditem|p1a: wrath|Booster Energy
+|-activate|p1a: wrath|ability: Quark Drive|[fromitem]
+|-start|p1a: wrath|quarkdrivespe
+|turn|1
+|
+|t:|1758332721
+|move|p1a: wrath|Fiery Dance|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|85/100
+|-boost|p1a: wrath|spa|1
+|move|p2a: Vaporeon|Surf|p1a: wrath
+|-supereffective|p1a: wrath
+|-damage|p1a: wrath|0 fnt
+|faint|p1a: wrath
+|-end|p1a: wrath|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758332733
+|switch|p1a: silence|Ting-Lu|100/100
+|-ability|p1a: silence|Vessel of Ruin
+|turn|2
+|
+|t:|1758332738
+|move|p2a: Vaporeon|Surf|p1a: silence
+|-supereffective|p1a: silence
+|-damage|p1a: silence|20/100
+|move|p1a: silence|Whirlwind|p2a: Vaporeon
+|drag|p2a: Dragonite|Dragonite, M|100/100
+|
+|-heal|p1a: silence|26/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|☆ensyde|wow!!!
+|c|☆ensyde|strong
+|
+|t:|1758332749
+|move|p2a: Dragonite|Ice Beam|p1a: silence
+|-supereffective|p1a: silence
+|-damage|p1a: silence|0 fnt
+|faint|p1a: silence
+|
+|upkeep
+|
+|t:|1758332752
+|switch|p1a: envy|Scizor, M, shiny|100/100
+|turn|4
+|
+|t:|1758332759
+|move|p2a: Dragonite|Flamethrower|p1a: envy
+|-supereffective|p1a: envy
+|-damage|p1a: envy|0 fnt
+|faint|p1a: envy
+|
+|upkeep
+|c|☆ensyde|wow!!!
+|c|☆ensyde|strong
+|
+|t:|1758332776
+|switch|p1a: litter|Glimmora, M, shiny|100/100
+|turn|5
+|
+|t:|1758332783
+|switch|p2a: Vaporeon|Vaporeon, F|85/100
+|move|p1a: litter|Power Gem|p2a: Vaporeon
+|-damage|p2a: Vaporeon|51/100
+|
+|upkeep
+|turn|6
+|
+|t:|1758332795
+|move|p1a: litter|Toxic|p2a: Vaporeon
+|-status|p2a: Vaporeon|tox
+|move|p2a: Vaporeon|Flip Turn|p1a: litter
+|-supereffective|p1a: litter
+|-damage|p1a: litter|69/100
+|-activate|p1a: litter|ability: Toxic Debris
+|-sidestart|p2: arvends5|move: Toxic Spikes
+|
+|t:|1758332799
+|switch|p2a: Ninetales|Ninetales, F|100/100|[from] Flip Turn
+|-status|p2a: Ninetales|psn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ninetales|88/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1758332808
+|move|p2a: Ninetales|Encore|p1a: litter
+|-start|p1a: litter|Encore
+|move|p1a: litter|Toxic||[still]
+|-fail|p1a: litter
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ninetales|75/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1758332815
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|-sideend|p2: arvends5|move: Toxic Spikes|[of] p2a: Venusaur
+|switch|p1a: kindness|Dragonite, M, shiny|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1758332822
+|move|p2a: Venusaur|Sludge Bomb|p1a: kindness
+|-damage|p1a: kindness|69/100
+|-status|p1a: kindness|psn
+|-damage|p2a: Venusaur|91/100|[from] item: Life Orb
+|move|p1a: kindness|Dragon Dance|p1a: kindness
+|-boost|p1a: kindness|atk|1
+|-boost|p1a: kindness|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: kindness|57/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1758332831
+|switch|p2a: Vaporeon|Vaporeon, F|51/100 tox
+|move|p1a: kindness|Extreme Speed|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|-damage|p1a: kindness|47/100 psn|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: kindness|35/100 psn|[from] psn
+|upkeep
+|
+|t:|1758332842
+|switch|p2a: Wigglytuff|Wigglytuff, F|100/100
+|turn|11
+|
+|t:|1758332847
+|move|p1a: kindness|Dragon Dance|p1a: kindness
+|-boost|p1a: kindness|atk|1
+|-boost|p1a: kindness|spe|1
+|move|p2a: Wigglytuff|Alluring Voice|p1a: kindness
+|-supereffective|p1a: kindness
+|-damage|p1a: kindness|0 fnt
+|faint|p1a: kindness
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758332854
+|switch|p1a: litter|Glimmora, M, shiny|69/100
+|turn|12
+|
+|t:|1758332864
+|move|p1a: litter|Sludge Bomb|p2a: Wigglytuff
+|-supereffective|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758332872
+|switch|p2a: Venusaur|Venusaur, M|91/100
+|turn|13
+|
+|t:|1758332877
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam
+|-anim|p2a: Venusaur|Solar Beam|p1a: litter
+|-damage|p1a: litter|0 fnt
+|faint|p1a: litter
+|-damage|p2a: Venusaur|81/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1758332880
+|switch|p1a: requiem|Zamazenta, shiny|100/100
+|-ability|p1a: requiem|Dauntless Shield|boost
+|-boost|p1a: requiem|def|1
+|turn|14
+|
+|t:|1758332889
+|switch|p2a: Ninetales|Ninetales, F|75/100 psn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|-terastallize|p1a: requiem|Steel
+|move|p1a: requiem|Iron Defense|p1a: requiem
+|-boost|p1a: requiem|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ninetales|63/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1758332895
+|move|p2a: Ninetales|Encore|p1a: requiem
+|-start|p1a: requiem|Encore
+|move|p1a: requiem|Iron Defense|p1a: requiem
+|-boost|p1a: requiem|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ninetales|50/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1758332897
+|move|p1a: requiem|Iron Defense|p1a: requiem
+|-boost|p1a: requiem|def|1
+|move|p2a: Ninetales|Flamethrower|p1a: requiem
+|-supereffective|p1a: requiem
+|-damage|p1a: requiem|14/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: requiem|20/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|38/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1758332907
+|move|p1a: requiem|Iron Defense|p1a: requiem
+|-boost|p1a: requiem|def|0
+|move|p2a: Ninetales|Flamethrower|p1a: requiem
+|-supereffective|p1a: requiem
+|-damage|p1a: requiem|0 fnt
+|faint|p1a: requiem
+|
+|win|arvends5
+|raw|ensyde's rating: 1301 &rarr; <strong>1280</strong><br />(-21 for losing)
+|raw|arvends5's rating: 1287 &rarr; <strong>1313</strong><br />(+26 for winning)
+|l|☆ensyde
+|player|p1|

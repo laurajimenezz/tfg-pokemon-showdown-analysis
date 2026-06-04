@@ -1,0 +1,195 @@
+|j|☆Uncle Dre
+|j|☆chrisfeb1992
+|t:|1779877958
+|gametype|singles
+|player|p1|Uncle Dre|red|1309
+|player|p2|chrisfeb1992|101|1363
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Ribombee, F|
+|poke|p1|Ceruledge, F|
+|poke|p1|Gholdengo|
+|poke|p1|Dragonite, F|
+|poke|p1|Darkrai|
+|poke|p2|Ceruledge, M|
+|poke|p2|Ribombee, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Darkrai|
+|poke|p2|Iron Treads|
+|poke|p2|Regieleki|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Uncle Dre)
+|
+|t:|1779877972
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1779877988
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Iron Treads|Stealth Rock|p1a: Gholdengo
+|-sidestart|p1: Uncle Dre|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1779877997
+|move|p2a: Iron Treads|Volt Switch|p1a: Gholdengo
+|-damage|p1a: Gholdengo|88/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|t:|1779878006
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Ribombee|Ribombee, M|100/100|[from] Volt Switch
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1779878020
+|move|p2a: Ribombee|Sticky Web|p1a: Gholdengo
+|-sidestart|p1: Uncle Dre|move: Sticky Web
+|move|p1a: Gholdengo|Make It Rain|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-crit|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1779878029
+|move|p2a: Ribombee|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|84/100
+|
+|t:|1779878033
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|move|p1a: Gholdengo|Shadow Ball|p2a: Iron Treads
+|-damage|p2a: Iron Treads|15/100
+|
+|upkeep
+|turn|5
+|
+|t:|1779878042
+|move|p2a: Iron Treads|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1779878051
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p1a: Great Tusk|move: Sticky Web
+|-unboost|p1a: Great Tusk|spe|1
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|6
+|
+|t:|1779878064
+|-terastallize|p2a: Iron Treads|Ghost
+|move|p2a: Iron Treads|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|64/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779878075
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|7
+|
+|t:|1779878080
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Great Tusk|Headlong Rush|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|upkeep
+|turn|8
+|inactive|Uncle Dre has 120 seconds left.
+|
+|t:|1779878111
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|-damage|p1a: Ceruledge|75/100|[from] Stealth Rock
+|-activate|p1a: Ceruledge|move: Sticky Web
+|-unboost|p1a: Ceruledge|spe|1
+|move|p2a: Ceruledge|Bitter Blade|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|14/100
+|-heal|p2a: Ceruledge|32/100|[from] drain|[of] p1a: Ceruledge
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|
+|upkeep
+|turn|9
+|inactive|Uncle Dre has 120 seconds left.
+|
+|t:|1779878124
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|upkeep
+|inactive|Uncle Dre has 120 seconds left.
+|
+|t:|1779878139
+|switch|p1a: Great Tusk|Great Tusk|64/100
+|-damage|p1a: Great Tusk|61/100|[from] Stealth Rock
+|-activate|p1a: Great Tusk|move: Sticky Web
+|-unboost|p1a: Great Tusk|spe|1
+|turn|10
+|inactive|Uncle Dre has 120 seconds left.
+|
+|t:|1779878150
+|move|p2a: Ceruledge|Bitter Blade|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-heal|p2a: Ceruledge|71/100|[from] drain|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|-message|Uncle Dre forfeited.
+|
+|win|chrisfeb1992
+|raw|Uncle Dre's rating: 1309 &rarr; <strong>1292</strong><br />(-17 for losing)
+|raw|chrisfeb1992's rating: 1363 &rarr; <strong>1380</strong><br />(+17 for winning)
+|l|☆Uncle Dre
+|player|p1|

@@ -1,0 +1,457 @@
+|j|☆manabi.portoviejo
+|j|☆Purple Amoonguss
+|t:|1779567610
+|gametype|singles
+|player|p1|manabi.portoviejo|1|1607
+|player|p2|Purple Amoonguss|morty|1636
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Indeedee-F, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Hawlucha, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Crown|
+|poke|p2|Gliscor, M|
+|poke|p2|Heatran, M|
+|poke|p2|Sinistcha|
+|poke|p2|Corviknight, F|
+|poke|p2|Tentacruel, F|
+|poke|p2|Darkrai|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by manabi.portoviejo)
+|
+|t:|1779567626
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Indeedee|Indeedee-F, F|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1779567631
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Darkrai|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|65/100
+|-enditem|p1a: Hatterene|Eject Button|[from] move: Knock Off|[of] p2a: Darkrai
+|
+|upkeep
+|turn|2
+|
+|t:|1779567636
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|3
+|
+|t:|1779567651
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Ursaluna
+|-damage|p1a: Ursaluna|64/100
+|-activate|p1a: Ursaluna|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Ursaluna|52/100|[from] move: Magma Storm|[partiallytrapped]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1779567660
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|move|p1a: Ursaluna|Facade|p2a: Sinistcha
+|-immune|p2a: Sinistcha
+|
+|-damage|p1a: Ursaluna|46/100 brn|[from] brn
+|-end|p1a: Ursaluna|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|5
+|
+|t:|1779567667
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Hoopa
+|-damage|p1a: Hoopa|74/100
+|
+|upkeep
+|turn|6
+|
+|t:|1779567679
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hoopa|Expanding Force|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|54/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1779567703
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p1a: Hawlucha|Psychic Seed
+|-boost|p1a: Hawlucha|spd|1|[from] item: Psychic Seed
+|move|p2a: Corviknight|U-turn|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|96/100
+|
+|t:|1779567717
+|switch|p2a: Heatran|Heatran, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|8
+|
+|t:|1779567724
+|-terastallize|p2a: Heatran|Ghost
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Heatran|Will-O-Wisp|p1a: Hawlucha
+|-status|p1a: Hawlucha|brn
+|
+|-damage|p1a: Hawlucha|90/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1779567739
+|move|p1a: Hawlucha|Acrobatics|p2a: Heatran
+|-damage|p2a: Heatran|61/100
+|move|p2a: Heatran|Magma Storm|p1a: Hawlucha
+|-damage|p1a: Hawlucha|50/100 brn
+|-activate|p1a: Hawlucha|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|68/100|[from] item: Leftovers
+|-damage|p1a: Hawlucha|44/100 brn|[from] brn
+|-damage|p1a: Hawlucha|31/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1779567756
+|move|p1a: Hawlucha|Acrobatics|p2a: Heatran
+|-damage|p2a: Heatran|29/100
+|move|p2a: Heatran|Magma Storm|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-heal|p2a: Heatran|35/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779567762
+|switch|p1a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|11
+|j| OP Earthquakes
+|
+|t:|1779567783
+|move|p2a: Heatran|Magma Storm|p1a: Indeedee|[miss]
+|-miss|p2a: Heatran|p1a: Indeedee
+|move|p1a: Indeedee|Healing Wish|p1a: Indeedee
+|faint|p1a: Indeedee
+|
+|-heal|p2a: Heatran|41/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779567786
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespa
+|turn|12
+|
+|t:|1779567790
+|-terastallize|p1a: Iron Crown|Dark
+|move|p1a: Iron Crown|Agility|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spe|2
+|move|p2a: Heatran|Magma Storm|p1a: Iron Crown|[miss]
+|-miss|p2a: Heatran|p1a: Iron Crown
+|
+|-heal|p2a: Heatran|47/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1779567797
+|move|p1a: Iron Crown|Expanding Force|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1779567820
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|14
+|
+|t:|1779567824
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Iron Crown|Expanding Force|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|15
+|
+|t:|1779567829
+|switch|p2a: Darkrai|Darkrai|100/100
+|move|p1a: Iron Crown|Expanding Force|p2a: Darkrai
+|-immune|p2a: Darkrai
+|
+|upkeep
+|turn|16
+|
+|t:|1779567835
+|move|p1a: Iron Crown|Focus Blast|p2a: Darkrai|[miss]
+|-miss|p1a: Iron Crown|p2a: Darkrai
+|move|p2a: Darkrai|Ice Beam|p1a: Iron Crown
+|-damage|p1a: Iron Crown|74/100
+|
+|upkeep
+|turn|17
+|
+|t:|1779567845
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Darkrai
+|-damage|p2a: Darkrai|47/100
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|-hitcount|p2: Darkrai|2
+|
+|upkeep
+|
+|t:|1779567855
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|turn|18
+|
+|t:|1779567857
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Iron Crown|Expanding Force|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|19
+|
+|t:|1779567865
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Gliscor
+|-damage|p2a: Gliscor|65/100 tox
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|14/100 tox
+|-hitcount|p2a: Gliscor|2
+|move|p2a: Gliscor|Earthquake|p1a: Iron Crown
+|-damage|p1a: Iron Crown|47/100
+|
+|-heal|p2a: Gliscor|27/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|t:|1779567874
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|-hitcount|p2: Gliscor|1
+|
+|upkeep
+|
+|t:|1779567878
+|switch|p2a: Corviknight|Corviknight, F|54/100
+|-ability|p2a: Corviknight|Pressure
+|turn|21
+|
+|t:|1779567897
+|move|p1a: Iron Crown|Focus Blast|p2a: Corviknight|[miss]
+|-miss|p1a: Iron Crown|p2a: Corviknight
+|move|p2a: Corviknight|U-turn|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|20/100
+|
+|t:|1779567902
+|switch|p2a: Sinistcha|Sinistcha|100/100|[from] U-turn
+|
+|upkeep
+|turn|22
+|
+|t:|1779567907
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Sinistcha
+|-damage|p2a: Sinistcha|55/100
+|-damage|p2a: Sinistcha|15/100
+|-hitcount|p2a: Sinistcha|2
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|-heal|p2a: Sinistcha|26/100|[from] drain|[of] p1a: Iron Crown
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|inactive|manabi.portoviejo has 120 seconds left.
+|
+|t:|1779567956
+|switch|p1a: Hoopa|Hoopa-Unbound|74/100
+|-heal|p1a: Hoopa|100/100|[from] move: Healing Wish
+|turn|23
+|
+|t:|1779567976
+|move|p2a: Sinistcha|Strength Sap|p1a: Hoopa
+|-unboost|p1a: Hoopa|atk|1
+|-heal|p2a: Sinistcha|100/100
+|move|p1a: Hoopa|Trick Room|p1a: Hoopa
+|-fieldstart|move: Trick Room|[of] p1a: Hoopa
+|
+|upkeep
+|turn|24
+|inactive|manabi.portoviejo has 120 seconds left.
+|
+|t:|1779567990
+|switch|p2a: Tentacruel|Tentacruel, F, shiny|100/100
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Tentacruel
+|-damage|p2a: Tentacruel|40/100
+|-unboost|p1a: Hoopa|def|1
+|
+|upkeep
+|turn|25
+|
+|t:|1779568000
+|move|p1a: Hoopa|Expanding Force|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+|
+|t:|1779568002
+|switch|p2a: Corviknight|Corviknight, F|54/100
+|-ability|p2a: Corviknight|Pressure
+|turn|26
+|
+|t:|1779568016
+|switch|p1a: Hatterene|Hatterene, F|65/100
+|move|p2a: Corviknight|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|52/100
+|
+|t:|1779568018
+|switch|p2a: Sinistcha|Sinistcha|100/100|[from] U-turn
+|
+|upkeep
+|turn|27
+|
+|t:|1779568038
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|move|p2a: Sinistcha|Shadow Ball|p1: Hatterene|[notarget]
+|-fail|p2a: Sinistcha
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1779568040
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|turn|28
+|
+|t:|1779568047
+|switch|p2a: Corviknight|Corviknight, F|54/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hoopa|Trick Room|p1a: Hoopa
+|-fieldstart|move: Trick Room|[of] p1a: Hoopa
+|
+|upkeep
+|turn|29
+|
+|t:|1779568054
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Corviknight
+|-damage|p2a: Corviknight|17/100
+|-unboost|p1a: Hoopa|def|1
+|move|p2a: Corviknight|U-turn|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-enditem|p1a: Hoopa|Focus Sash
+|-damage|p1a: Hoopa|1/100
+|
+|t:|1779568061
+|switch|p2a: Sinistcha|Sinistcha|100/100|[from] U-turn
+|
+|upkeep
+|turn|30
+|
+|t:|1779568085
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|17/100
+|-unboost|p1a: Hoopa|def|1
+|-item|p1a: Hoopa|Heavy-Duty Boots|[from] ability: Magician|[of] p2a: Sinistcha
+|move|p2a: Sinistcha|Strength Sap|p1a: Hoopa
+|-unboost|p1a: Hoopa|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|upkeep
+|turn|31
+|
+|t:|1779568091
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|48/100
+|-unboost|p1a: Hoopa|def|1
+|move|p2a: Sinistcha|Strength Sap|p1a: Hoopa
+|-unboost|p1a: Hoopa|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|upkeep
+|turn|32
+|
+|t:|1779568097
+|move|p1a: Hoopa|Expanding Force|p2a: Sinistcha
+|-damage|p2a: Sinistcha|42/100
+|move|p2a: Sinistcha|Shadow Ball|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1779568100
+|switch|p1a: Ursaluna|Ursaluna, M|46/100 brn
+|-heal|p1a: Ursaluna|100/100|[from] move: Healing Wish
+|turn|33
+|
+|t:|1779568105
+|move|p2a: Sinistcha|Strength Sap|p1a: Ursaluna
+|-unboost|p1a: Ursaluna|atk|1
+|-heal|p2a: Sinistcha|100/100
+|move|p1a: Ursaluna|Throat Chop|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|71/100
+|-start|p2a: Sinistcha|Throat Chop|[silent]
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|34
+|
+|t:|1779568113
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|41/100 brn
+|-heal|p2a: Sinistcha|100/100|[from] drain|[of] p1a: Ursaluna
+|move|p1a: Ursaluna|Throat Chop|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|56/100
+|
+|-damage|p1a: Ursaluna|35/100 brn|[from] brn
+|-end|p2a: Sinistcha|Throat Chop|[silent]
+|upkeep
+|turn|35
+|-message|manabi.portoviejo forfeited.
+|
+|win|Purple Amoonguss
+|raw|manabi.portoviejo's rating: 1607 &rarr; <strong>1589</strong><br />(-18 for losing)
+|raw|Purple Amoonguss's rating: 1636 &rarr; <strong>1654</strong><br />(+18 for winning)
+|l|☆manabi.portoviejo
+|player|p1|
+|c|☆Purple Amoonguss|gg wp
+|l|☆Purple Amoonguss
+|player|p2|

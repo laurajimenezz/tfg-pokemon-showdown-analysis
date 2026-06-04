@@ -1,0 +1,210 @@
+|j|☆Hallommora
+|j|☆wugui2026
+|t:|1769404664
+|gametype|singles
+|player|p1|Hallommora|clown|1506
+|player|p2|wugui2026|266|1532
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Alomomola, M|
+|poke|p1|Great Tusk|
+|poke|p2|Glimmora, M|
+|poke|p2|Iron Treads|
+|poke|p2|Polteageist-Antique|
+|poke|p2|Raging Bolt|
+|poke|p2|Dragonite, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hallommora)
+|
+|t:|1769404683
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: 我没带地震|Iron Treads|100/100
+|-enditem|p2a: 我没带地震|Booster Energy
+|-activate|p2a: 我没带地震|ability: Quark Drive|[fromitem]
+|-start|p2a: 我没带地震|quarkdrivespe
+|turn|1
+|
+|t:|1769404687
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: 我没带地震|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|87/100
+|-enditem|p1a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: 我没带地震
+|
+|upkeep
+|turn|2
+|
+|t:|1769404694
+|move|p2a: 我没带地震|Stealth Rock|p1a: Alomomola
+|-sidestart|p1: Hallommora|move: Stealth Rock
+|move|p1a: Alomomola|Scald|p2a: 我没带地震
+|-supereffective|p2a: 我没带地震
+|-damage|p2a: 我没带地震|70/100
+|
+|upkeep
+|turn|3
+|
+|t:|1769404700
+|-end|p2a: 我没带地震|Quark Drive|[silent]
+|switch|p2a: 钉子|Glimmora, M|100/100
+|move|p1a: Alomomola|Flip Turn|p2a: 钉子
+|-supereffective|p2a: 钉子
+|-damage|p2a: 钉子|65/100
+|-activate|p2a: 钉子|ability: Toxic Debris
+|-sidestart|p1: Hallommora|move: Toxic Spikes
+|
+|t:|1769404706
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] Flip Turn
+|-sideend|p1: Hallommora|move: Toxic Spikes|[of] p1a: Slowking
+|
+|upkeep
+|turn|4
+|
+|t:|1769404713
+|move|p2a: 钉子|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|58/100
+|move|p1a: Slowking|Psychic Noise|p2a: 钉子
+|-supereffective|p2a: 钉子
+|-damage|p2a: 钉子|0 fnt
+|faint|p2a: 钉子
+|
+|upkeep
+|
+|t:|1769404732
+|switch|p2a: 肥大|Dragonite, F|100/100
+|turn|5
+|
+|t:|1769404742
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: 肥大|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|55/100
+|
+|upkeep
+|turn|6
+|
+|t:|1769404750
+|switch|p2a: 电肥大|Raging Bolt|100/100
+|-enditem|p2a: 电肥大|Booster Energy
+|-activate|p2a: 电肥大|ability: Protosynthesis|[fromitem]
+|-start|p2a: 电肥大|protosynthesisspa
+|move|p1a: Alomomola|Scald|p2a: 电肥大
+|-resisted|p2a: 电肥大
+|-damage|p2a: 电肥大|94/100
+|
+|upkeep
+|turn|7
+|
+|t:|1769404755
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|move|p2a: 电肥大|Dragon Pulse|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769404776
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1769404781
+|-terastallize|p2a: 电肥大|Bug
+|move|p1a: Dragapult|Dragon Darts|p2a: 电肥大
+|-damage|p2a: 电肥大|59/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: 电肥大
+|-damage|p2a: 电肥大|25/100
+|move|p2a: 电肥大|Dragon Pulse|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1769404793
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|9
+|
+|t:|1769404798
+|-end|p2a: 电肥大|Protosynthesis|[silent]
+|switch|p2a: 格斗肥大|Zamazenta|100/100
+|-ability|p2a: 格斗肥大|Dauntless Shield|boost
+|-boost|p2a: 格斗肥大|def|1
+|move|p1a: Kingambit|Kowtow Cleave|p2a: 格斗肥大
+|-resisted|p2a: 格斗肥大
+|-damage|p2a: 格斗肥大|83/100
+|-damage|p1a: Kingambit|84/100|[from] item: Life Orb
+|
+|-heal|p2a: 格斗肥大|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1769404805
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Alomomola|Alomomola, M|88/100
+|-damage|p1a: Alomomola|76/100|[from] Stealth Rock
+|move|p2a: 格斗肥大|Iron Defense|p2a: 格斗肥大
+|-boost|p2a: 格斗肥大|def|2
+|
+|-heal|p2a: 格斗肥大|95/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1769404812
+|move|p2a: 格斗肥大|Body Press|p1a: Alomomola
+|-damage|p1a: Alomomola|29/100
+|move|p1a: Alomomola|Flip Turn|p2a: 格斗肥大
+|-damage|p2a: 格斗肥大|91/100
+|
+|t:|1769404817
+|switch|p1a: Slowking|Slowking-Galar, M|92/100|[from] Flip Turn
+|
+|-heal|p2a: 格斗肥大|97/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1769404820
+|move|p2a: 格斗肥大|Crunch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|45/100
+|-unboost|p1a: Slowking|def|1
+|move|p1a: Slowking|Psychic Noise|p2a: 格斗肥大
+|-supereffective|p2a: 格斗肥大
+|-damage|p2a: 格斗肥大|49/100
+|-start|p2a: 格斗肥大|move: Heal Block
+|
+|upkeep
+|turn|13
+|-message|Hallommora forfeited.
+|
+|win|wugui2026
+|raw|Hallommora's rating: 1506 &rarr; <strong>1487</strong><br />(-19 for losing)
+|raw|wugui2026's rating: 1532 &rarr; <strong>1551</strong><br />(+19 for winning)
+|l|☆Hallommora
+|player|p1|
+|l|☆wugui2026
+|player|p2|

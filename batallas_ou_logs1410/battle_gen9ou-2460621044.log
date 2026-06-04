@@ -1,0 +1,299 @@
+|j|☆Bug Keeper Beavis
+|j|☆Luketheidiot
+|t:|1760332593
+|gametype|singles
+|player|p1|Bug Keeper Beavis|pokemonbreeder-gen4|1148
+|player|p2|Luketheidiot|iris-gen5bw2|1184
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Iron Hands|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Mimikyu, M|
+|poke|p2|Infernape, F|
+|poke|p2|Staraptor, M|
+|poke|p2|Mamoswine, F|
+|poke|p2|Yanmega, M|
+|poke|p2|Gardevoir, F|
+|poke|p2|Gliscor, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Luketheidiot)
+|
+|t:|1760332609
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Bebop|Iron Hands, shiny|100/100
+|switch|p2a: Infernape|Infernape, F|100/100
+|-enditem|p1a: Bebop|Booster Energy
+|-activate|p1a: Bebop|ability: Quark Drive|[fromitem]
+|-start|p1a: Bebop|quarkdriveatk
+|turn|1
+|
+|t:|1760332616
+|move|p2a: Infernape|Swords Dance|p2a: Infernape
+|-boost|p2a: Infernape|atk|2
+|move|p1a: Bebop|Close Combat|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|-unboost|p1a: Bebop|def|1
+|-unboost|p1a: Bebop|spd|1
+|faint|p2a: Infernape
+|
+|upkeep
+|
+|t:|1760332623
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|turn|2
+|
+|t:|1760332627
+|move|p2a: Gardevoir|Moonblast|p1a: Bebop
+|-supereffective|p1a: Bebop
+|-damage|p1a: Bebop|0 fnt
+|faint|p1a: Bebop
+|-end|p1a: Bebop|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760332632
+|switch|p1a: The Doorman|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: The Doorman
+|turn|3
+|
+|t:|1760332637
+|move|p2a: Gardevoir|Moonblast|p1a: The Doorman
+|-damage|p1a: The Doorman|37/100
+|-unboost|p1a: The Doorman|spa|1
+|move|p1a: The Doorman|Trick Room|p1a: The Doorman
+|-fieldstart|move: Trick Room|[of] p1a: The Doorman
+|
+|upkeep
+|turn|4
+|
+|t:|1760332652
+|switch|p1a: Abrams|Ursaluna, F|100/100
+|move|p2a: Gardevoir|Moonblast|p1a: Abrams
+|-crit|p1a: Abrams
+|-damage|p1a: Abrams|32/100
+|
+|-status|p1a: Abrams|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1760332656
+|move|p1a: Abrams|Facade|p2a: Gardevoir
+|-crit|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|-damage|p1a: Abrams|26/100 brn|[from] brn
+|upkeep
+|
+|t:|1760332660
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|6
+|
+|t:|1760332665
+|move|p2a: Mamoswine|Ice Shard|p1a: Abrams
+|-activate|p1a: Abrams|move: Psychic Terrain
+|move|p1a: Abrams|Facade|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-damage|p1a: Abrams|20/100 brn|[from] brn
+|upkeep
+|
+|t:|1760332673
+|switch|p2a: Yanmega|Yanmega, M|100/100
+|turn|7
+|
+|t:|1760332678
+|move|p2a: Yanmega|Protect|p2a: Yanmega
+|-singleturn|p2a: Yanmega|Protect
+|move|p1a: Abrams|Facade|p2a: Yanmega
+|-activate|p2a: Yanmega|move: Protect
+|
+|-damage|p1a: Abrams|14/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|turn|8
+|
+|t:|1760332686
+|move|p2a: Yanmega|Bug Buzz|p1a: Abrams
+|-damage|p1a: Abrams|0 fnt
+|faint|p1a: Abrams
+|
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|
+|t:|1760332693
+|switch|p1a: Paige|Hatterene, F|100/100
+|turn|9
+|
+|t:|1760332704
+|move|p2a: Yanmega|Bug Buzz|p1a: Paige
+|-damage|p1a: Paige|49/100
+|move|p1a: Paige|Trick Room|p1a: Paige
+|-fieldstart|move: Trick Room|[of] p1a: Paige
+|
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|turn|10
+|
+|t:|1760332709
+|move|p1a: Paige|Expanding Force|p2a: Yanmega
+|-enditem|p2a: Yanmega|Focus Sash
+|-damage|p2a: Yanmega|1/100
+|-damage|p1a: Paige|40/100|[from] item: Life Orb
+|move|p2a: Yanmega|Bug Buzz|p1a: Paige
+|-damage|p1a: Paige|0 fnt
+|faint|p1a: Paige
+|
+|-fieldend|move: Psychic Terrain
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|
+|t:|1760332714
+|switch|p1a: Mirage|Hoopa-Unbound|100/100
+|turn|11
+|
+|t:|1760332721
+|move|p1a: Mirage|Expanding Force|p2a: Yanmega
+|-damage|p2a: Yanmega|0 fnt
+|faint|p2a: Yanmega
+|
+|upkeep
+|
+|t:|1760332724
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|12
+|
+|t:|1760332728
+|switch|p1a: The Doorman|Indeedee, M|37/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: The Doorman
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|13
+|
+|t:|1760332737
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: The Doorman|Expanding Force|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|t:|1760332743
+|move|p2a: Gliscor|Earthquake|p1a: The Doorman
+|-crit|p1a: The Doorman
+|-damage|p1a: The Doorman|0 fnt
+|faint|p1a: The Doorman
+|
+|upkeep
+|
+|t:|1760332745
+|switch|p1a: Pocket|Mimikyu, M|100/100
+|turn|15
+|
+|t:|1760332750
+|move|p2a: Gliscor|Earthquake|p1a: Pocket
+|-activate|p1a: Pocket|ability: Disguise
+|-damage|p1a: Pocket|100/100
+|detailschange|p1a: Pocket|Mimikyu-Busted, M
+|-damage|p1a: Pocket|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p1a: Pocket|Red Card|[of] p2a: Gliscor
+|drag|p2a: Staraptor|Staraptor, M|100/100
+|move|p1a: Pocket|Trick Room|p1a: Pocket
+|-fieldstart|move: Trick Room|[of] p1a: Pocket
+|
+|upkeep
+|turn|16
+|
+|t:|1760332762
+|move|p1a: Pocket|Curse|p2a: Staraptor
+|-start|p2a: Staraptor|Curse|[of] p1a: Pocket
+|-damage|p1a: Pocket|38/100
+|move|p2a: Staraptor|Brave Bird|p1a: Pocket
+|-damage|p1a: Pocket|0 fnt
+|faint|p1a: Pocket
+|-damage|p2a: Staraptor|88/100|[from] Recoil
+|
+|-damage|p2a: Staraptor|63/100|[from] Curse
+|upkeep
+|
+|t:|1760332764
+|switch|p1a: Mirage|Hoopa-Unbound|100/100
+|-enditem|p1a: Mirage|Psychic Seed
+|-boost|p1a: Mirage|spd|1|[from] item: Psychic Seed
+|turn|17
+|
+|t:|1760332770
+|move|p1a: Mirage|Expanding Force|p2a: Staraptor
+|-damage|p2a: Staraptor|0 fnt
+|faint|p2a: Staraptor
+|-item|p1a: Mirage|Choice Band|[from] ability: Magician|[of] p2: Staraptor
+|
+|upkeep
+|
+|t:|1760332773
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|turn|18
+|
+|t:|1760332777
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Mirage|Expanding Force|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|upkeep
+|turn|19
+|
+|t:|1760332788
+|-terastallize|p1a: Mirage|Psychic
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Mirage|Expanding Force|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|20
+|
+|t:|1760332801
+|-terastallize|p2a: Gliscor|Normal
+|move|p2a: Gliscor|Facade|p1a: Mirage
+|-damage|p1a: Mirage|39/100
+|move|p1a: Mirage|Expanding Force|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|win|Bug Keeper Beavis
+|raw|Bug Keeper Beavis's rating: 1148 &rarr; <strong>1176</strong><br />(+28 for winning)
+|raw|Luketheidiot's rating: 1184 &rarr; <strong>1156</strong><br />(-28 for losing)
+|l|☆Luketheidiot
+|player|p2|
+|c|☆Bug Keeper Beavis|gg
+|l|☆Bug Keeper Beavis
+|player|p1|

@@ -1,0 +1,297 @@
+|j|‽shgfx10
+|j|☆DIGIWAYNE123
+|t:|1758953404
+|gametype|singles
+|player|p1|shgfx10|bugcatcher-gen4dp|1480
+|player|p2|DIGIWAYNE123|linebacker|1518
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, M|
+|poke|p1|Great Tusk|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p2|Armarouge, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Iron Treads|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1758953418
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1758953425
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Great Tusk|Rapid Spin|p2a: Indeedee
+|-damage|p2a: Indeedee|64/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1758953436
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|
+|upkeep
+|turn|3
+|
+|t:|1758953443
+|-terastallize|p1a: Slowking|Water
+|move|p2a: Great Tusk|Ice Spinner|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|89/100
+|-fieldend|move: Psychic Terrain
+|move|p1a: Slowking|Future Sight|p2a: Great Tusk
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|4
+|j| Gidions
+|
+|t:|1758953451
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1758953454
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758953458
+|move|p2a: Iron Treads|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: shgfx10|move: Stealth Rock
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1758953460
+|switch|p2a: Indeedee|Indeedee, M|64/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|6
+|
+|t:|1758953465
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F, tera:Water|100/100
+|move|p2a: Indeedee|Expanding Force|p1a: Slowking
+|-damage|p1a: Slowking|47/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758953467
+|move|p2a: Indeedee|Expanding Force|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758953471
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|-item|p1a: Kingambit|Air Balloon
+|turn|8
+|
+|t:|1758953475
+|-terastallize|p2a: Indeedee|Fighting
+|move|p2a: Indeedee|Tera Blast|p1a: Kingambit|[anim] Tera Blast Fighting
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-enditem|p1a: Kingambit|Air Balloon
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1758953480
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1758953483
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Dragapult|U-turn|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|97/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DIGIWAYNE123)
+|
+|t:|1758953486
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100|[from] U-turn
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Weezing|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758953490
+|move|p1a: Thundurus|Volt Switch|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|40/100
+|
+|t:|1758953495
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|move|p2a: Weezing|Toxic|p1a: Great Tusk
+|-status|p1a: Great Tusk|tox
+|
+|-heal|p2a: Weezing|46/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|91/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1758953498
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Armarouge|Armarouge, F|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Armarouge
+|-damage|p2a: Armarouge|81/100
+|-boost|p1a: Great Tusk|spe|1
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|-sideend|p1: shgfx10|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-damage|p1a: Great Tusk|79/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1758953502
+|move|p2a: Armarouge|Expanding Force|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758953507
+|switch|p1a: Thundurus|Thundurus-Therian, M|76/100
+|turn|13
+|
+|t:|1758953510
+|move|p2a: Armarouge|Expanding Force|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1758953512
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|14
+|
+|t:|1758953516
+|switch|p2a: Weezing|Weezing-Galar, F|46/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|-heal|p2a: Weezing|52/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758953521
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Weezing|[anim] Ivy Cudgel Water
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1758953524
+|switch|p2a: Indeedee|Indeedee, M, tera:Fighting|64/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|16
+|
+|t:|1758953530
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Great Tusk|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758953538
+|switch|p2a: Deoxys|Deoxys-Speed, shiny|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|17
+|
+|t:|1758953541
+|move|p2a: Deoxys|Nasty Plot|p2a: Deoxys
+|-boost|p2a: Deoxys|spa|2
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Deoxys|[anim] Ivy Cudgel Water
+|-enditem|p2a: Deoxys|Focus Sash
+|-damage|p2a: Deoxys|1/100
+|
+|upkeep
+|turn|18
+|
+|t:|1758953543
+|move|p2a: Deoxys|Psyshock|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1758953545
+|switch|p1a: Dragapult|Dragapult, F|88/100
+|turn|19
+|
+|t:|1758953548
+|move|p2a: Deoxys|Ice Beam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|DIGIWAYNE123
+|raw|shgfx10's rating: 1480 &rarr; <strong>1462</strong><br />(-18 for losing)
+|raw|DIGIWAYNE123's rating: 1518 &rarr; <strong>1536</strong><br />(+18 for winning)
+|l|☆DIGIWAYNE123
+|player|p2|

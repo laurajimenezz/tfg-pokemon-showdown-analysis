@@ -1,0 +1,331 @@
+|j|☆BobblesJobbles
+|j|☆Skytrainer Trent
+|t:|1779592079
+|gametype|singles
+|player|p1|BobblesJobbles|iris-gen5bw2|1158
+|player|p2|Skytrainer Trent|bugcatcher-gen4dp|1148
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Galvantula, M|
+|poke|p1|Manaphy|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Ceruledge, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p2|Veluza, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Ogerpon, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Ursaluna, F|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|t:|1779592107
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|switch|p2a: Ogerpon|Ogerpon, F|100/100
+|turn|1
+|
+|t:|1779592114
+|move|p2a: Ogerpon|Knock Off|p1a: Galvantula
+|-damage|p1a: Galvantula|38/100
+|-enditem|p1a: Galvantula|Focus Sash|[from] move: Knock Off|[of] p2a: Ogerpon
+|move|p1a: Galvantula|Sticky Web|p2a: Ogerpon
+|-sidestart|p2: Skytrainer Trent|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1779592135
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Ogerpon|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|58/100
+|-enditem|p1a: Hatterene|Focus Sash|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|upkeep
+|turn|3
+|
+|t:|1779592147
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-activate|p2a: Iron Moth|move: Sticky Web
+|-unboost|p2a: Iron Moth|spe|1
+|move|p1a: Hatterene|Mystical Fire|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|85/100
+|-unboost|p2a: Iron Moth|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1779592157
+|move|p2a: Iron Moth|Sludge Wave|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1779592162
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|5
+|
+|t:|1779592168
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Ogerpon|Ogerpon, F|100/100
+|-activate|p2a: Ogerpon|move: Sticky Web
+|-unboost|p2a: Ogerpon|spe|1
+|-ability|p2a: Ogerpon|Defiant|boost
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Great Tusk|Headlong Rush|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|47/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1779592198
+|-terastallize|p2a: Ogerpon|Grass
+|detailschange|p2a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass
+|-ability|p2a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p2a: Ogerpon|spe|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779592209
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|turn|7
+|
+|t:|1779592214
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|-activate|p2a: Ursaluna|move: Sticky Web
+|-unboost|p2a: Ursaluna|spe|1
+|move|p1a: Ceruledge|Bitter Blade|p2a: Ursaluna
+|-damage|p2a: Ursaluna|50/100
+|-damage|p1a: Ceruledge|91/100|[from] item: Life Orb
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1779592230
+|move|p1a: Ceruledge|Close Combat|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-unboost|p1a: Ceruledge|def|1
+|-unboost|p1a: Ceruledge|spd|1
+|faint|p2a: Ursaluna
+|-damage|p1a: Ceruledge|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779592236
+|switch|p2a: Veluza|Veluza, F|100/100
+|-activate|p2a: Veluza|move: Sticky Web
+|-unboost|p2a: Veluza|spe|1
+|-ability|p2a: Veluza|Mold Breaker
+|turn|9
+|
+|t:|1779592267
+|switch|p1a: Galvantula|Galvantula, M|38/100
+|move|p2a: Veluza|Crunch|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|t:|1779592274
+|switch|p1a: Manaphy|Manaphy|100/100
+|turn|10
+|
+|t:|1779592279
+|switch|p2a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass|47/100
+|-activate|p2a: Ogerpon|move: Sticky Web
+|-unboost|p2a: Ogerpon|spe|1
+|-ability|p2a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p2a: Ogerpon|spe|1
+|move|p1a: Manaphy|Energy Ball|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|31/100
+|-unboost|p2a: Ogerpon|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1779592296
+|switch|p1a: Ceruledge|Ceruledge, F|81/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-crit|p1a: Ceruledge
+|-damage|p1a: Ceruledge|11/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|
+|upkeep
+|turn|12
+|
+|t:|1779592307
+|move|p1a: Ceruledge|Bitter Blade|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-heal|p1a: Ceruledge|27/100|[from] drain|[of] p2a: Ogerpon
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon, F|[silent]
+|-damage|p1a: Ceruledge|17/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779592318
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-activate|p2a: Iron Valiant|move: Sticky Web
+|-unboost|p2a: Iron Valiant|spe|1
+|turn|13
+|
+|t:|1779592324
+|move|p1a: Ceruledge|Bitter Blade|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|47/100
+|-heal|p1a: Ceruledge|45/100|[from] drain|[of] p2a: Iron Valiant
+|-damage|p1a: Ceruledge|35/100|[from] item: Life Orb
+|move|p2a: Iron Valiant|Knock Off|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|-enditem|p1a: Ceruledge|Life Orb|[from] move: Knock Off|[of] p2a: Iron Valiant
+|faint|p1a: Ceruledge
+|
+|upkeep
+|
+|t:|1779592342
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Valiant|atk|1
+|turn|14
+|
+|t:|1779592353
+|move|p1a: Landorus|Stealth Rock|p2a: Iron Valiant
+|-sidestart|p2: Skytrainer Trent|move: Stealth Rock
+|move|p2a: Iron Valiant|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|79/100
+|-damage|p2a: Iron Valiant|31/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|upkeep
+|turn|15
+|
+|t:|1779592370
+|switch|p1a: Manaphy|Manaphy|100/100
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Veluza|Veluza, F|100/100
+|-activate|p2a: Veluza|move: Sticky Web
+|-unboost|p2a: Veluza|spe|1
+|-damage|p2a: Veluza|88/100|[from] Stealth Rock
+|-ability|p2a: Veluza|Mold Breaker
+|
+|upkeep
+|turn|16
+|
+|t:|1779592387
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|move|p2a: Veluza|Psycho Cut|p1a: Manaphy
+|-crit|p1a: Manaphy
+|-damage|p1a: Manaphy|58/100
+|
+|-heal|p1a: Manaphy|64/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1779592395
+|move|p1a: Manaphy|Energy Ball|p2a: Veluza
+|-supereffective|p2a: Veluza
+|-damage|p2a: Veluza|0 fnt
+|faint|p2a: Veluza
+|
+|-heal|p1a: Manaphy|70/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779592407
+|switch|p2a: Iron Valiant|Iron Valiant|31/100
+|-activate|p2a: Iron Valiant|move: Sticky Web
+|-unboost|p2a: Iron Valiant|spe|1
+|-damage|p2a: Iron Valiant|25/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1779592416
+|move|p1a: Manaphy|Ice Beam|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Manaphy|76/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779592419
+|switch|p2a: Iron Moth|Iron Moth|85/100
+|-activate|p2a: Iron Moth|move: Sticky Web
+|-unboost|p2a: Iron Moth|spe|1
+|-damage|p2a: Iron Moth|60/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1779592426
+|move|p1a: Manaphy|Scald|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p1a: Manaphy|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779592429
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|turn|20
+|c|☆Skytrainer Trent|Ggs
+|
+|t:|1779592439
+|move|p1a: Manaphy|Scald|p2a: Kingambit
+|-damage|p2a: Kingambit|32/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p1a: Manaphy|89/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1779592450
+|move|p2a: Kingambit|Sucker Punch|p1a: Manaphy
+|-damage|p1a: Manaphy|20/100
+|move|p1a: Manaphy|Scald|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|win|BobblesJobbles
+|raw|BobblesJobbles's rating: 1158 &rarr; <strong>1182</strong><br />(+24 for winning)
+|raw|Skytrainer Trent's rating: 1148 &rarr; <strong>1124</strong><br />(-24 for losing)
+|c|☆BobblesJobbles|gg
+|l|☆BobblesJobbles
+|player|p1|
+|c|☆Skytrainer Trent|I was playing good but the end game
+|l|☆Skytrainer Trent
+|player|p2|

@@ -1,0 +1,605 @@
+|j|☆boltv10
+|j|☆Booluigi
+|t:|1779805893
+|gametype|singles
+|player|p1|boltv10|lucas|1073
+|player|p2|Booluigi|1|1082
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zoroark, F|
+|poke|p1|Venusaur, F|
+|poke|p1|Talonflame, F|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Cloyster, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Kyurem|
+|poke|p2|Dragapult, M|
+|poke|p2|Great Tusk|
+|poke|p2|Alomomola, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Booluigi)
+|
+|t:|1779805918
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|turn|1
+|
+|t:|1779805925
+|move|p1a: Conkeldurr|Knock Off|p2a: Garganacl
+|-damage|p2a: Garganacl|77/100
+|-enditem|p2a: Garganacl|Leftovers|[from] move: Knock Off|[of] p1a: Conkeldurr
+|move|p2a: Garganacl|Salt Cure|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|68/100
+|-start|p1a: Conkeldurr|Salt Cure
+|replace|p1a: Zoroark|Zoroark, F
+|-end|p1a: Zoroark|Illusion
+|
+|-damage|p1a: Zoroark|56/100|[from] Salt Cure
+|upkeep
+|turn|2
+|
+|t:|1779805939
+|move|p1a: Zoroark|Flamethrower|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|68/100
+|move|p2a: Garganacl|Stealth Rock|p1a: Zoroark
+|-sidestart|p1: boltv10|move: Stealth Rock
+|
+|-damage|p1a: Zoroark|43/100|[from] Salt Cure
+|upkeep
+|turn|3
+|
+|t:|1779805948
+|move|p1a: Zoroark|Dark Pulse|p2a: Garganacl
+|-damage|p2a: Garganacl|39/100
+|move|p2a: Garganacl|Salt Cure|p1a: Zoroark
+|-damage|p1a: Zoroark|15/100
+|
+|-damage|p1a: Zoroark|2/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1779805957
+|move|p1a: Zoroark|Dark Pulse|p2a: Garganacl
+|-damage|p2a: Garganacl|15/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|65/100
+|
+|-damage|p1a: Zoroark|0 fnt|[from] Salt Cure
+|faint|p1a: Zoroark
+|upkeep
+|
+|t:|1779805971
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1779805979
+|move|p1a: Conkeldurr|Ice Punch|p2a: Garganacl
+|-damage|p2a: Garganacl|47/100
+|move|p2a: Garganacl|Salt Cure|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|88/100
+|-start|p1a: Conkeldurr|Salt Cure
+|
+|-damage|p1a: Conkeldurr|76/100|[from] Salt Cure
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1779805990
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Conkeldurr|Drain Punch|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-damage|p1a: Conkeldurr|70/100 brn|[from] brn
+|-damage|p1a: Conkeldurr|58/100 brn|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1779806017
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Alomomola
+|-damage|p2a: Alomomola|62/100
+|-heal|p1a: Conkeldurr|80/100 brn|[from] drain|[of] p2a: Alomomola
+|
+|-damage|p1a: Conkeldurr|74/100 brn|[from] brn
+|-damage|p1a: Conkeldurr|62/100 brn|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1779806030
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|-damage|p1a: Venusaur|88/100|[from] Stealth Rock
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|-heal|p1a: Venusaur|94/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1779806040
+|move|p1a: Venusaur|Leech Seed|p2a: Alomomola
+|-start|p2a: Alomomola|move: Leech Seed
+|move|p2a: Alomomola|Flip Turn|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|87/100
+|
+|t:|1779806045
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Flip Turn
+|
+|-heal|p1a: Venusaur|93/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1779806052
+|move|p2a: Great Tusk|Ice Spinner|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|46/100
+|move|p1a: Venusaur|Leech Seed|p2a: Great Tusk|[miss]
+|-miss|p1a: Venusaur|p2a: Great Tusk
+|
+|-heal|p1a: Venusaur|52/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1779806061
+|move|p2a: Great Tusk|Ice Spinner|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|4/100
+|move|p1a: Venusaur|Giga Drain|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-heal|p1a: Venusaur|76/100|[from] drain|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p1a: Venusaur|82/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1779806071
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|12
+|
+|t:|1779806080
+|move|p2a: Kyurem|Freeze-Dry|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|28/100
+|move|p1a: Venusaur|Leech Seed|p2a: Kyurem
+|-start|p2a: Kyurem|move: Leech Seed
+|
+|-heal|p1a: Venusaur|34/100|[from] item: Black Sludge
+|-damage|p2a: Kyurem|88/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|50/100|[silent]
+|upkeep
+|turn|13
+|
+|t:|1779806105
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|move|p2a: Kyurem|Freeze-Dry|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|inactive|boltv10 has 120 seconds left.
+|
+|t:|1779806117
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|turn|14
+|
+|t:|1779806125
+|switch|p2a: Alomomola|Alomomola, M|95/100
+|move|p1a: Talonflame|Flare Blitz|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|81/100
+|-damage|p1a: Talonflame|93/100|[from] Recoil
+|
+|upkeep
+|turn|15
+|
+|t:|1779806135
+|switch|p1a: Venusaur|Venusaur, F|50/100
+|-damage|p1a: Venusaur|38/100|[from] Stealth Rock
+|move|p2a: Alomomola|Flip Turn|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|31/100
+|inactive|Booluigi has 120 seconds left.
+|
+|t:|1779806183
+|switch|p2a: Kyurem|Kyurem|88/100|[from] Flip Turn
+|-ability|p2a: Kyurem|Pressure
+|
+|-heal|p1a: Venusaur|37/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|t:|1779806192
+|switch|p1a: Conkeldurr|Conkeldurr, M|62/100 brn
+|-damage|p1a: Conkeldurr|56/100 brn|[from] Stealth Rock
+|move|p2a: Kyurem|Freeze-Dry|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|13/100 brn
+|
+|-damage|p1a: Conkeldurr|7/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1779806208
+|move|p1a: Conkeldurr|Mach Punch|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|17/100
+|move|p2a: Kyurem|Freeze-Dry|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|t:|1779806217
+|switch|p1a: Talonflame|Talonflame, F|93/100
+|turn|18
+|
+|t:|1779806224
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Talonflame|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|91/100
+|
+|t:|1779806231
+|switch|p1a: Gliscor|Gliscor, M|100/100|[from] U-turn
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|19
+|
+|t:|1779806239
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Alomomola|Scald|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|t:|1779806248
+|switch|p1a: Venusaur|Venusaur, F|37/100
+|-damage|p1a: Venusaur|25/100|[from] Stealth Rock
+|move|p2a: Alomomola|Scald|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|19/100
+|
+|-heal|p1a: Venusaur|25/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|inactive|Booluigi has 120 seconds left.
+|
+|t:|1779806274
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Venusaur|Leech Seed|p2a: Dragapult
+|-start|p2a: Dragapult|move: Leech Seed
+|
+|-heal|p1a: Venusaur|31/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|88/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|44/100|[silent]
+|upkeep
+|turn|22
+|inactive|Booluigi has 120 seconds left.
+|
+|t:|1779806289
+|move|p2a: Dragapult|Shadow Ball|p1a: Venusaur
+|-damage|p1a: Venusaur|14/100
+|move|p1a: Venusaur|Giga Drain|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|62/100
+|-heal|p1a: Venusaur|28/100|[from] drain|[of] p2a: Dragapult
+|
+|-heal|p2a: Dragapult|68/100|[from] item: Leftovers
+|-heal|p1a: Venusaur|34/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|56/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|47/100|[silent]
+|upkeep
+|turn|23
+|inactive|Booluigi has 120 seconds left.
+|
+|t:|1779806302
+|move|p2a: Dragapult|Flamethrower|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|2/100
+|move|p1a: Venusaur|Giga Drain|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|30/100
+|-heal|p1a: Venusaur|16/100|[from] drain|[of] p2a: Dragapult
+|
+|-heal|p2a: Dragapult|36/100|[from] item: Leftovers
+|-heal|p1a: Venusaur|22/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|23/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|35/100|[silent]
+|upkeep
+|turn|24
+|inactive|Booluigi has 120 seconds left.
+|
+|t:|1779806316
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p1a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p2a: Dragapult|Flamethrower|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|43/100 tox
+|
+|-heal|p2a: Dragapult|29/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|17/100|[from] Leech Seed|[of] p1a: Gliscor
+|-heal|p1a: Gliscor|54/100 tox|[silent]
+|-heal|p1a: Gliscor|67/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|inactive|Booluigi has 120 seconds left.
+|
+|t:|1779806330
+|move|p2a: Dragapult|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|60/100 tox
+|
+|t:|1779806333
+|switch|p2a: Alomomola|Alomomola, M|100/100|[from] U-turn
+|move|p1a: Gliscor|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|74/100
+|
+|-heal|p1a: Gliscor|73/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|
+|t:|1779806343
+|move|p1a: Gliscor|Toxic|p2a: Alomomola
+|-status|p2a: Alomomola|tox
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Gliscor|85/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Alomomola|68/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1779806352
+|move|p1a: Gliscor|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|57/100 tox
+|
+|t:|1779806357
+|switch|p1a: Venusaur|Venusaur, F|35/100|[from] U-turn
+|-damage|p1a: Venusaur|22/100|[from] Stealth Rock
+|move|p2a: Alomomola|Scald|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|17/100
+|
+|-heal|p2a: Alomomola|100/100 tox|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Venusaur|23/100|[from] item: Black Sludge
+|-damage|p2a: Alomomola|88/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1779806371
+|move|p1a: Venusaur|Leech Seed|p2a: Alomomola
+|-start|p2a: Alomomola|move: Leech Seed
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Venusaur|29/100|[from] item: Black Sludge
+|-damage|p2a: Alomomola|76/100 tox|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|49/100|[silent]
+|-damage|p2a: Alomomola|57/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1779806382
+|-terastallize|p2a: Alomomola|Dragon
+|move|p1a: Venusaur|Giga Drain|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|40/100 tox
+|-heal|p1a: Venusaur|62/100|[from] drain|[of] p2a: Alomomola
+|move|p2a: Alomomola|Flip Turn|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|55/100
+|
+|t:|1779806391
+|switch|p2a: Kyurem|Kyurem|17/100|[from] Flip Turn
+|-ability|p2a: Kyurem|Pressure
+|
+|-heal|p2a: Kyurem|76/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Venusaur|61/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|
+|t:|1779806406
+|switch|p1a: Talonflame|Talonflame, F|93/100
+|move|p2a: Kyurem|Freeze-Dry|p1a: Talonflame
+|-damage|p1a: Talonflame|38/100
+|
+|upkeep
+|turn|31
+|
+|t:|1779806413
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|88/100
+|-singleturn|p1a: Talonflame|move: Roost
+|move|p2a: Kyurem|Freeze-Dry|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|62/100
+|
+|upkeep
+|turn|32
+|
+|t:|1779806422
+|switch|p2a: Alomomola|Alomomola, M, tera:Dragon|73/100 tox
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|100/100
+|-singleturn|p1a: Talonflame|move: Roost
+|
+|-damage|p2a: Alomomola|67/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1779806433
+|move|p1a: Talonflame|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|57/100 tox
+|
+|t:|1779806436
+|switch|p1a: Venusaur|Venusaur, F|61/100|[from] U-turn
+|-damage|p1a: Venusaur|49/100|[from] Stealth Rock
+|move|p2a: Alomomola|Flip Turn|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|42/100
+|
+|t:|1779806454
+|switch|p2a: Kyurem|Kyurem|76/100|[from] Flip Turn
+|-ability|p2a: Kyurem|Pressure
+|
+|-heal|p1a: Venusaur|48/100|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|t:|1779806467
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|move|p2a: Kyurem|Freeze-Dry|p1a: Talonflame
+|-damage|p1a: Talonflame|49/100
+|
+|upkeep
+|turn|35
+|
+|t:|1779806479
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|99/100
+|-singleturn|p1a: Talonflame|move: Roost
+|move|p2a: Kyurem|Freeze-Dry|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|72/100
+|
+|upkeep
+|turn|36
+|
+|t:|1779806488
+|switch|p2a: Alomomola|Alomomola, M, tera:Dragon|90/100 tox
+|move|p1a: Talonflame|Flare Blitz|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|78/100 tox
+|-damage|p1a: Talonflame|65/100|[from] Recoil
+|
+|-damage|p2a: Alomomola|71/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1779806499
+|move|p1a: Talonflame|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|61/100 tox
+|
+|t:|1779806503
+|switch|p1a: Venusaur|Venusaur, F|48/100|[from] U-turn
+|-damage|p1a: Venusaur|35/100|[from] Stealth Rock
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Venusaur|41/100|[from] item: Black Sludge
+|-damage|p2a: Alomomola|48/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1779806513
+|move|p1a: Venusaur|Leech Seed|p2a: Alomomola
+|-start|p2a: Alomomola|move: Leech Seed
+|move|p2a: Alomomola|Flip Turn|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|34/100
+|
+|t:|1779806523
+|switch|p2a: Dragapult|Dragapult, M|17/100|[from] Flip Turn
+|
+|-heal|p2a: Dragapult|93/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Dragapult|99/100|[from] item: Leftovers
+|-heal|p1a: Venusaur|40/100|[from] item: Black Sludge
+|upkeep
+|turn|39
+|
+|t:|1779806535
+|switch|p1a: Gliscor|Gliscor, M|85/100 tox
+|-damage|p1a: Gliscor|73/100 tox|[from] Stealth Rock
+|move|p2a: Dragapult|Shadow Ball|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|9/100 tox
+|
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|21/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|40
+|
+|t:|1779806547
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Dragapult|Shadow Ball|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|34/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|41
+|
+|t:|1779806556
+|move|p2a: Dragapult|Shadow Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1779806562
+|switch|p1a: Venusaur|Venusaur, F|40/100
+|-damage|p1a: Venusaur|28/100|[from] Stealth Rock
+|turn|42
+|
+|t:|1779806569
+|move|p2a: Dragapult|Shadow Ball|p1a: Venusaur
+|-damage|p1a: Venusaur|1/100
+|-unboost|p1a: Venusaur|spd|1
+|move|p1a: Venusaur|Leech Seed|p2a: Dragapult
+|-start|p2a: Dragapult|move: Leech Seed
+|
+|-heal|p1a: Venusaur|7/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|88/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|20/100|[silent]
+|upkeep
+|turn|43
+|
+|t:|1779806581
+|switch|p1a: Talonflame|Talonflame, F|65/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Talonflame
+|-damage|p1a: Talonflame|14/100
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|82/100|[from] Leech Seed|[of] p1a: Talonflame
+|-heal|p1a: Talonflame|27/100|[silent]
+|upkeep
+|turn|44
+|
+|t:|1779806592
+|move|p2a: Dragapult|Shadow Ball|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|-message|boltv10 forfeited.
+|
+|win|Booluigi
+|raw|boltv10's rating: 1073 &rarr; <strong>1053</strong><br />(-20 for losing)
+|raw|Booluigi's rating: 1082 &rarr; <strong>1109</strong><br />(+27 for winning)
+|l|☆boltv10
+|player|p1|

@@ -1,0 +1,292 @@
+|j|☆T-Garchomp
+|j|☆TUUuRBOGRANNY
+|t:|1760361005
+|gametype|singles
+|player|p1|T-Garchomp|266|1254
+|player|p2|TUUuRBOGRANNY|170|1262
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Glimmora, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Iron Valiant|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Gliscor, M|
+|teampreview
+|
+|t:|1760361033
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|turn|1
+|
+|t:|1760361042
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Landorus|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|30/100
+|move|p2a: Landorus|U-turn|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|50/100
+|
+|t:|1760361049
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1760361074
+|move|p1a: Ogerpon|Play Rough|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|82/100
+|-unboost|p2a: Zamazenta|atk|1
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p2a: Zamazenta|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|j| Kaleax
+|
+|t:|1760361089
+|move|p1a: Ogerpon|Taunt|p2a: Zamazenta
+|-start|p2a: Zamazenta|move: Taunt
+|cant|p2a: Zamazenta|move: Taunt|Substitute
+|
+|-heal|p2a: Zamazenta|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1760361106
+|move|p1a: Ogerpon|Play Rough|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|83/100
+|move|p2a: Zamazenta|Body Press|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-heal|p2a: Zamazenta|89/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760361111
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|5
+|
+|t:|1760361123
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2a: Zamazenta|Crunch|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|81/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2a: Zamazenta|95/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|87/100|[from] item: Leftovers
+|-end|p2a: Zamazenta|move: Taunt
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by T-Garchomp)
+|inactive|TUUuRBOGRANNY has 120 seconds left.
+|
+|t:|1760361217
+|switch|p2a: Gliscor|Gliscor, M, shiny|100/100
+|move|p1a: Kingambit|Iron Head|p2a: Gliscor
+|-damage|p2a: Gliscor|22/100
+|
+|-heal|p1a: Kingambit|93/100|[from] item: Leftovers
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1760361234
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p1a: Kingambit|99/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|34/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1760361244
+|move|p2a: Gliscor|Knock Off|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|69/100
+|-enditem|p1a: Kingambit|Leftovers|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Kingambit|Iron Head|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1760361252
+|switch|p2a: Landorus|Landorus-Therian, M|30/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|turn|9
+|
+|t:|1760361257
+|move|p1a: Kingambit|Sucker Punch|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Kingambit|53/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1760361266
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|10
+|
+|t:|1760361273
+|move|p2a: Corviknight|Brave Bird|p1a: Kingambit
+|-damage|p1a: Kingambit|27/100
+|-damage|p2a: Corviknight|92/100|[from] Recoil
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|l| Kaleax
+|
+|t:|1760361280
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|11
+|
+|t:|1760361283
+|move|p1a: Kingambit|Sucker Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1760361288
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|12
+|
+|t:|1760361291
+|move|p2a: Ogerpon|Spiky Shield|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Protect
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|13
+|
+|t:|1760361299
+|move|p1a: Kingambit|Sucker Punch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|c|☆TUUuRBOGRANNY|gg
+|
+|t:|1760361305
+|switch|p2a: Zamazenta|Zamazenta|95/100
+|turn|14
+|
+|t:|1760361312
+|move|p2a: Zamazenta|Body Press|p1a: Kingambit
+|-immune|p1a: Kingambit
+|move|p1a: Kingambit|Iron Head|p2a: Zamazenta
+|-damage|p2a: Zamazenta|19/100
+|
+|-heal|p2a: Zamazenta|25/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1760361319
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p2a: Zamazenta|31/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1760361325
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|6/100
+|
+|-heal|p2a: Zamazenta|12/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1760361334
+|move|p2a: Zamazenta|Crunch|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|-heal|p2a: Zamazenta|18/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760361342
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-immune|p2a: Zamazenta
+|turn|18
+|
+|t:|1760361346
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Landorus|Earthquake|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Substitute|[damage]
+|
+|-heal|p2a: Zamazenta|24/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1760361353
+|move|p2a: Zamazenta|Body Press|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|45/100
+|-damage|p2a: Zamazenta|8/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|move|p1a: Landorus|Earthquake|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Substitute|[damage]
+|
+|-heal|p2a: Zamazenta|14/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1760361363
+|move|p2a: Zamazenta|Body Press|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Zamazenta|0 fnt|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|faint|p2a: Zamazenta
+|
+|win|T-Garchomp
+|raw|T-Garchomp's rating: 1254 &rarr; <strong>1280</strong><br />(+26 for winning)
+|raw|TUUuRBOGRANNY's rating: 1262 &rarr; <strong>1236</strong><br />(-26 for losing)

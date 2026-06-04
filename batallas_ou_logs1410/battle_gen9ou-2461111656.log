@@ -1,0 +1,354 @@
+|j|☆Gjilly
+|j|☆swumpy mumpus
+|t:|1760395427
+|gametype|singles
+|player|p1|Gjilly|giovanni|1522
+|player|p2|swumpy mumpus|2|1518
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ting-Lu|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Gholdengo|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Treads|
+|poke|p2|Tinkaton, F|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Slither Wing|
+|poke|p2|Skeledirge, M|
+|poke|p2|Maushold|
+|poke|p2|Zarude|
+|teampreview
+|
+|t:|1760395439
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|-enditem|p2a: Slither Wing|Booster Energy
+|-activate|p2a: Slither Wing|ability: Protosynthesis|[fromitem]
+|-start|p2a: Slither Wing|protosynthesisatk
+|turn|1
+|
+|t:|1760395443
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Tinkaton|[miss]
+|-miss|p1a: Tornadus|p2a: Tinkaton
+|
+|upkeep
+|turn|2
+|
+|t:|1760395447
+|move|p1a: Tornadus|Nasty Plot|p1a: Tornadus
+|-boost|p1a: Tornadus|spa|2
+|move|p2a: Tinkaton|Ice Hammer|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|46/100
+|-unboost|p2a: Tinkaton|spe|1
+|-enditem|p2a: Tinkaton|Eject Pack
+|
+|t:|1760395451
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1760395456
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Skeledirge
+|-damage|p2a: Skeledirge|58/100
+|-damage|p1a: Tornadus|36/100|[from] item: Life Orb
+|move|p2a: Skeledirge|Torch Song|p1a: Tornadus
+|-damage|p1a: Tornadus|2/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1760395468
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1760395479
+|move|p1a: Raging Bolt|Discharge|p2a: Skeledirge
+|-damage|p2a: Skeledirge|59/100
+|-status|p2a: Skeledirge|par
+|move|p2a: Skeledirge|Earth Power|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|44/100
+|-unboost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1760395486
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Tornadus|Tornadus-Therian, M|35/100
+|cant|p2a: Skeledirge|par
+|
+|upkeep
+|turn|7
+|
+|t:|1760395492
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1760395496
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Slither Wing
+|-resisted|p2a: Slither Wing
+|-damage|p2a: Slither Wing|70/100
+|
+|upkeep
+|turn|9
+|
+|t:|1760395517
+|switch|p1a: Tornadus|Tornadus-Therian, M|68/100
+|move|p2a: Slither Wing|Flame Charge|p1a: Tornadus
+|-damage|p1a: Tornadus|45/100
+|-boost|p2a: Slither Wing|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1760395525
+|move|p2a: Slither Wing|Acrobatics|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1760395542
+|switch|p1a: Raging Bolt|Raging Bolt|44/100
+|turn|11
+|
+|t:|1760395546
+|move|p2a: Slither Wing|Leech Life|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|12/100
+|-heal|p2a: Slither Wing|93/100|[from] drain|[of] p1a: Raging Bolt
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Slither Wing
+|-damage|p2a: Slither Wing|37/100
+|
+|upkeep
+|turn|12
+|
+|t:|1760395552
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|13
+|
+|t:|1760395561
+|move|p2a: Tinkaton|Encore|p1a: Raging Bolt
+|-start|p1a: Raging Bolt|Encore
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|14
+|
+|t:|1760395563
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Tinkaton|Stealth Rock|p1a: Ting-Lu
+|-sidestart|p1: Gjilly|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|t:|1760395570
+|switch|p2a: Slither Wing|Slither Wing|37/100
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Slither Wing
+|-sidestart|p2: swumpy mumpus|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gjilly)
+|
+|t:|1760395578
+|move|p2a: Slither Wing|Bulk Up|p2a: Slither Wing
+|-boost|p2a: Slither Wing|atk|1
+|-boost|p2a: Slither Wing|def|1
+|move|p1a: Ting-Lu|Payback|p2a: Slither Wing
+|-resisted|p2a: Slither Wing
+|-damage|p2a: Slither Wing|16/100
+|
+|upkeep
+|turn|17
+|
+|t:|1760395586
+|switch|p1a: Raging Bolt|Raging Bolt|12/100
+|-damage|p1a: Raging Bolt|0 fnt|[from] Stealth Rock
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|move|p2a: Slither Wing|Leech Life|p1: Raging Bolt|[notarget]
+|-fail|p2a: Slither Wing
+|
+|upkeep
+|
+|t:|1760395604
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|18
+|
+|t:|1760395627
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Weezing
+|move|p1a: Gholdengo|Make It Rain|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Weezing
+|
+|upkeep
+|
+|t:|1760395638
+|switch|p2a: Maushold|Maushold|100/100
+|-damage|p2a: Maushold|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1760395644
+|move|p2a: Maushold|Tidy Up|p2a: Maushold
+|-sideend|p2: swumpy mumpus|Stealth Rock
+|-sideend|p1: Gjilly|Stealth Rock
+|-activate|p2a: Maushold|move: Tidy Up
+|-boost|p2a: Maushold|atk|1
+|-boost|p2a: Maushold|spe|1
+|move|p1a: Gholdengo|Make It Rain|p2a: Maushold
+|-damage|p2a: Maushold|25/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|upkeep
+|turn|20
+|
+|t:|1760395656
+|move|p2a: Maushold|Bite|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|31/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Maushold
+|
+|upkeep
+|
+|t:|1760395660
+|switch|p2a: Zarude|Zarude|100/100
+|-enditem|p2a: Zarude|Misty Seed
+|-boost|p2a: Zarude|spd|1|[from] item: Misty Seed
+|turn|21
+|
+|t:|1760395666
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Zarude|Knock Off|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|89/100
+|-enditem|p1a: Zamazenta|Leftovers|[from] move: Knock Off|[of] p2a: Zarude
+|
+|upkeep
+|turn|22
+|
+|t:|1760395674
+|switch|p2a: Skeledirge|Skeledirge, M|59/100 par
+|move|p1a: Zamazenta|Body Press|p2a: Skeledirge
+|-immune|p2a: Skeledirge
+|
+|upkeep
+|turn|23
+|
+|t:|1760395695
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|switch|p2a: Slither Wing|Slither Wing|16/100
+|
+|upkeep
+|turn|24
+|inactive|Gjilly has 120 seconds left.
+|inactive|swumpy mumpus has 120 seconds left.
+|
+|t:|1760395751
+|move|p2a: Slither Wing|Flame Charge|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|90/100
+|-boost|p2a: Slither Wing|spe|1
+|move|p1a: Ting-Lu|Earthquake|p2a: Slither Wing
+|-resisted|p2a: Slither Wing
+|-damage|p2a: Slither Wing|0 fnt
+|faint|p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760395752
+|switch|p2a: Zarude|Zarude|100/100
+|turn|25
+|
+|t:|1760395759
+|switch|p1a: Zamazenta|Zamazenta|89/100
+|move|p2a: Zarude|Close Combat|p1a: Zamazenta
+|-damage|p1a: Zamazenta|62/100
+|-unboost|p2a: Zarude|def|1
+|-unboost|p2a: Zarude|spd|1
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|26
+|inactive|Gjilly has 120 seconds left.
+|
+|t:|1760395767
+|move|p1a: Zamazenta|Body Press|p2a: Zarude
+|-supereffective|p2a: Zarude
+|-damage|p2a: Zarude|6/100
+|move|p2a: Zarude|Close Combat|p1a: Zamazenta
+|-damage|p1a: Zamazenta|31/100
+|-unboost|p2a: Zarude|def|1
+|-unboost|p2a: Zarude|spd|1
+|
+|upkeep
+|turn|27
+|
+|t:|1760395770
+|switch|p2a: Skeledirge|Skeledirge, M|59/100 par
+|move|p1a: Zamazenta|Crunch|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|25/100 par
+|
+|upkeep
+|turn|28
+|-message|swumpy mumpus forfeited.
+|
+|win|Gjilly
+|raw|Gjilly's rating: 1522 &rarr; <strong>1542</strong><br />(+20 for winning)
+|raw|swumpy mumpus's rating: 1518 &rarr; <strong>1498</strong><br />(-20 for losing)
+|l|☆swumpy mumpus
+|player|p2|
+|l|☆Gjilly
+|player|p1|

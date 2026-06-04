@@ -1,0 +1,404 @@
+|j|☆slash_poke
+|j|☆vinskuno
+|t:|1760301479
+|gametype|singles
+|player|p1|slash_poke|volkner|1363
+|player|p2|vinskuno|2|1310
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Swampert, M|
+|poke|p1|Gardevoir, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Arcanine, M|
+|poke|p1|Salamence, M|
+|poke|p1|Rotom-Wash|
+|poke|p2|Pincurchin, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Leaves|
+|poke|p2|Alomomola, F|
+|poke|p2|Garganacl, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by slash_poke)
+|
+|t:|1760301493
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Swampert|Swampert, M|100/100
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|t:|1760301506
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Swampert|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|72/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760301513
+|move|p1a: Swampert|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|53/100
+|-enditem|p2a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Swampert
+|move|p2a: Alomomola|Flip Turn|p1a: Swampert
+|-damage|p1a: Swampert|85/100
+|-damage|p2a: Alomomola|37/100|[from] item: Rocky Helmet|[of] p1a: Swampert
+|
+|t:|1760301523
+|switch|p2a: Iron Leaves|Iron Leaves|100/100|[from] Flip Turn
+|-activate|p2a: Iron Leaves|ability: Quark Drive
+|-start|p2a: Iron Leaves|quarkdrivespe
+|
+|upkeep
+|turn|3
+|
+|t:|1760301530
+|move|p2a: Iron Leaves|Leaf Blade|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|-damage|p2a: Iron Leaves|84/100|[from] item: Rocky Helmet|[of] p1a: Swampert
+|faint|p1a: Swampert
+|
+|upkeep
+|
+|t:|1760301534
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Iron Leaves|atk|1
+|turn|4
+|
+|t:|1760301546
+|-end|p2a: Iron Leaves|Quark Drive|[silent]
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|73/100
+|-damage|p1a: Arcanine|89/100|[from] Recoil
+|
+|-heal|p2a: Garganacl|79/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760301559
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|-item|p1a: Kingambit|Air Balloon
+|move|p2a: Garganacl|Stealth Rock|p1a: Kingambit
+|-sidestart|p1: slash_poke|move: Stealth Rock
+|
+|-heal|p2a: Garganacl|85/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760301571
+|move|p1a: Kingambit|Iron Head|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|15/100
+|cant|p2a: Garganacl|flinch
+|
+|-heal|p2a: Garganacl|21/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760301578
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2a: Garganacl|27/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760301603
+|move|p1a: Kingambit|Brick Break|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|inactive|vinskuno has 120 seconds left.
+|
+|t:|1760301622
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|9
+|inactive|vinskuno has 120 seconds left.
+|
+|t:|1760301640
+|-terastallize|p2a: Iron Valiant|Fairy
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2a: Iron Valiant|Moonblast|p1a: Kingambit
+|-damage|p1a: Kingambit|17/100
+|-unboost|p1a: Kingambit|spa|1
+|-enditem|p1a: Kingambit|Air Balloon
+|move|p1a: Kingambit|Iron Head|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|inactive|vinskuno has 120 seconds left.
+|
+|t:|1760301660
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|10
+|
+|t:|1760301671
+|move|p1a: Kingambit|Sucker Punch|p2a: Pincurchin
+|-crit|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|faint|p2a: Pincurchin
+|
+|upkeep
+|inactive|vinskuno has 120 seconds left.
+|
+|t:|1760301682
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdriveatk
+|turn|11
+|inactive|vinskuno has 120 seconds left.
+|
+|t:|1760301689
+|move|p2a: Iron Treads|Knock Off|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1760301693
+|switch|p1a: Arcanine|Arcanine, M|89/100
+|-damage|p1a: Arcanine|64/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|turn|12
+|
+|t:|1760301725
+|switch|p1a: Salamence|Salamence, M|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|move|p2a: Iron Treads|Earthquake|p1a: Salamence
+|-immune|p1a: Salamence
+|
+|-heal|p1a: Salamence|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760301735
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Alomomola|Alomomola, F|70/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-heal|p1a: Salamence|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1760301746
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Alomomola|Tickle|p1a: Rotom
+|-unboost|p1a: Rotom|atk|1
+|-unboost|p1a: Rotom|def|1
+|
+|upkeep
+|turn|15
+|
+|t:|1760301757
+|move|p1a: Rotom|Thunder Wave|p2a: Alomomola
+|-status|p2a: Alomomola|par
+|move|p2a: Alomomola|Flip Turn|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|70/100
+|
+|t:|1760301763
+|switch|p2a: Iron Leaves|Iron Leaves|84/100|[from] Flip Turn
+|-activate|p2a: Iron Leaves|ability: Quark Drive
+|-start|p2a: Iron Leaves|quarkdrivespe
+|
+|upkeep
+|turn|16
+|l|☆vinskuno
+|inactive|vinskuno disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|vinskuno has 30 seconds to reconnect!
+|j|☆vinskuno
+|inactive|vinskuno reconnected and has 95 seconds left.
+|player|p2|vinskuno|2|
+|inactive|vinskuno has 90 seconds left.
+|
+|t:|1760301815
+|move|p2a: Iron Leaves|Swords Dance|p2a: Iron Leaves
+|-boost|p2a: Iron Leaves|atk|2
+|move|p1a: Rotom|Thunder Wave|p2a: Iron Leaves
+|-status|p2a: Iron Leaves|par
+|-enditem|p2a: Iron Leaves|Lum Berry|[eat]
+|-curestatus|p2a: Iron Leaves|par|[msg]
+|
+|upkeep
+|turn|17
+|inactive|vinskuno has 90 seconds left.
+|
+|t:|1760301832
+|move|p2a: Iron Leaves|Psyblade|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Leaves|Quark Drive
+|upkeep
+|
+|t:|1760301840
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|turn|18
+|inactive|vinskuno has 90 seconds left.
+|
+|t:|1760301845
+|move|p1a: Gardevoir|Mystical Fire|p2a: Iron Leaves
+|-supereffective|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|28/100
+|-unboost|p2a: Iron Leaves|spa|1
+|move|p2a: Iron Leaves|Leaf Blade|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|
+|t:|1760301848
+|switch|p1a: Arcanine|Arcanine, M|64/100
+|-damage|p1a: Arcanine|39/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Iron Leaves|atk|1
+|turn|19
+|inactive|vinskuno has 90 seconds left.
+|
+|t:|1760301864
+|-end|p2a: Iron Leaves|Quark Drive|[silent]
+|switch|p2a: Alomomola|Alomomola, F|100/100 par
+|move|p1a: Arcanine|Extreme Speed|p2a: Alomomola
+|-damage|p2a: Alomomola|77/100 par
+|
+|upkeep
+|turn|20
+|
+|t:|1760301871
+|switch|p1a: Salamence|Salamence, M|88/100
+|-damage|p1a: Salamence|63/100|[from] Stealth Rock
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Salamence|69/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1760301885
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|cant|p2a: Alomomola|par
+|
+|-heal|p2a: Alomomola|100/100 par|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Salamence|75/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1760301893
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Alomomola|Tickle|p1a: Salamence
+|-unboost|p1a: Salamence|atk|1
+|-unboost|p1a: Salamence|def|1
+|
+|-heal|p1a: Salamence|81/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1760301901
+|move|p1a: Salamence|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|64/100 par
+|move|p2a: Alomomola|Tickle|p1a: Salamence
+|-unboost|p1a: Salamence|atk|1
+|-unboost|p1a: Salamence|def|1
+|
+|-heal|p1a: Salamence|87/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1760301908
+|move|p1a: Salamence|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|40/100 par
+|move|p2a: Alomomola|Tickle|p1a: Salamence
+|-unboost|p1a: Salamence|atk|1
+|-unboost|p1a: Salamence|def|1
+|
+|-heal|p1a: Salamence|93/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1760301917
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Alomomola|Flip Turn|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|68/100
+|
+|t:|1760301929
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] Flip Turn
+|
+|-heal|p1a: Salamence|74/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|slash_poke has 120 seconds left.
+|
+|t:|1760301964
+|move|p1a: Salamence|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|38/100
+|move|p2a: Iron Treads|Iron Head|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1760301980
+|switch|p1a: Arcanine|Arcanine, M|39/100
+|-damage|p1a: Arcanine|14/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|turn|27
+|c|☆slash_poke|gg
+|inactive|vinskuno has 120 seconds left.
+|
+|t:|1760301992
+|move|p1a: Arcanine|Flare Blitz|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|-damage|p1a: Arcanine|0 fnt|[from] Recoil
+|faint|p1a: Arcanine
+|
+|win|vinskuno
+|raw|slash_poke's rating: 1363 &rarr; <strong>1340</strong><br />(-23 for losing)
+|raw|vinskuno's rating: 1310 &rarr; <strong>1333</strong><br />(+23 for winning)
+|c|☆vinskuno|gg

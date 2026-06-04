@@ -1,0 +1,463 @@
+|j|☆pidgey bot
+|j|☆A Regular Plumbus
+|t:|1760352874
+|gametype|singles
+|player|p1|pidgey bot|lady-gen4|1573
+|player|p2|A Regular Plumbus|baker|1644
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Moltres|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Treads|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Quaquaval, F|
+|poke|p2|Hydrapple, M|
+|poke|p2|Iron Treads|
+|poke|p2|Golem-Alola, F|
+|poke|p2|Dragonite, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by A Regular Plumbus)
+|inactive|pidgey bot also wants the timer to be on.
+|
+|t:|1760352887
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|1
+|
+|t:|1760352894
+|move|p1a: Zamazenta|Close Combat|p2a: Quaquaval
+|-damage|p2a: Quaquaval|19/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Quaquaval|Aqua Step|p1a: Zamazenta
+|-damage|p1a: Zamazenta|42/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1760352916
+|switch|p2a: Golem|Golem-Alola, F|100/100
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1760352926
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Golem|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Golem
+|-crit|p2a: Golem
+|-ability|p2a: Golem|Sturdy
+|-damage|p2a: Golem|1/100
+|move|p2a: Golem|Stealth Rock|p1a: Ogerpon
+|-sidestart|p1: pidgey bot|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|-enditem|p2a: Golem|Custap Berry|[eat]
+|-activate|p2a: Golem|item: Custap Berry|[consumed]
+|
+|t:|1760352932
+|move|p2a: Golem|Explosion|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p2a: Golem
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1760352962
+|switch|p1a: Moltres|Moltres|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|5
+|
+|t:|1760352980
+|move|p2a: Arcanine|Head Smash|p1a: Moltres|[miss]
+|-miss|p2a: Arcanine|p1a: Moltres
+|move|p1a: Moltres|Flamethrower|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|88/100
+|
+|upkeep
+|turn|6
+|
+|t:|1760352992
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-damage|p1a: Iron Treads|98/100|[from] Stealth Rock
+|move|p2a: Arcanine|Head Smash|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|78/100
+|
+|-heal|p1a: Iron Treads|85/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|A Regular Plumbus has 120 seconds left.
+|
+|t:|1760353026
+|switch|p2a: Hydrapple|Hydrapple, M|100/100
+|move|p1a: Iron Treads|Rapid Spin|p2a: Hydrapple
+|-damage|p2a: Hydrapple|92/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: pidgey bot|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|
+|-heal|p1a: Iron Treads|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760353037
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Hydrapple|Earth Power|p1a: Dragapult
+|-damage|p1a: Dragapult|66/100
+|
+|upkeep
+|turn|9
+|
+|t:|1760353041
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|59/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|-heal|p2a: Iron Treads|65/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760353050
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Iron Treads
+|-status|p2a: Iron Treads|brn
+|move|p2a: Iron Treads|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|36/100
+|
+|-heal|p2a: Iron Treads|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Iron Treads|65/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1760353054
+|move|p1a: Dragapult|U-turn|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|58/100 brn
+|
+|t:|1760353064
+|switch|p1a: Iron Treads|Iron Treads|91/100|[from] U-turn
+|move|p2a: Iron Treads|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|55/100
+|
+|-heal|p2a: Iron Treads|64/100 brn|[from] item: Leftovers
+|-heal|p1a: Iron Treads|61/100|[from] item: Leftovers
+|-damage|p2a: Iron Treads|58/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1760353072
+|move|p2a: Iron Treads|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|23/100
+|move|p1a: Iron Treads|Knock Off|p2a: Iron Treads
+|-damage|p2a: Iron Treads|34/100 brn
+|-enditem|p2a: Iron Treads|Leftovers|[from] move: Knock Off|[of] p1a: Iron Treads
+|
+|-heal|p1a: Iron Treads|29/100|[from] item: Leftovers
+|-damage|p2a: Iron Treads|27/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1760353079
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Iron Treads|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|-damage|p2a: Iron Treads|21/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1760353087
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Arcanine|Arcanine-Hisui, F|88/100
+|move|p1a: Moltres|Flamethrower|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|77/100
+|
+|upkeep
+|turn|15
+|
+|t:|1760353095
+|switch|p1a: Iron Treads|Iron Treads|29/100
+|move|p2a: Arcanine|Head Smash|p1a: Iron Treads|[miss]
+|-miss|p2a: Arcanine|p1a: Iron Treads
+|
+|-heal|p1a: Iron Treads|36/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1760353109
+|move|p2a: Arcanine|Head Smash|p1a: Iron Treads|[miss]
+|-miss|p2a: Arcanine|p1a: Iron Treads
+|move|p1a: Iron Treads|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-heal|p1a: Iron Treads|42/100|[from] item: Leftovers
+|upkeep
+|c|☆pidgey bot|sorry
+|
+|t:|1760353121
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|17
+|
+|t:|1760353136
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|18
+|c|☆A Regular Plumbus|It’s okay
+|
+|t:|1760353145
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Moltres|Will-O-Wisp|p2a: Dragonite
+|-status|p2a: Dragonite|brn
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-curestatus|p2a: Dragonite|brn|[msg]
+|
+|upkeep
+|turn|19
+|c|☆pidgey bot|3 misses is crazy
+|
+|t:|1760353152
+|-terastallize|p2a: Dragonite|Ghost
+|-terastallize|p1a: Moltres|Fairy
+|move|p2a: Dragonite|Tera Blast|p1a: Moltres|[anim] Tera Blast Ghost
+|-damage|p1a: Moltres|36/100
+|move|p1a: Moltres|Will-O-Wisp|p2a: Dragonite
+|-status|p2a: Dragonite|brn
+|
+|-damage|p2a: Dragonite|94/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1760353163
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Moltres|Roar|p2a: Dragonite
+|drag|p2a: Hydrapple|Hydrapple, M|100/100
+|
+|upkeep
+|turn|21
+|c|☆A Regular Plumbus|That move always misses
+|
+|t:|1760353173
+|switch|p1a: Iron Treads|Iron Treads|42/100
+|move|p2a: Hydrapple|Nasty Plot|p2a: Hydrapple
+|-boost|p2a: Hydrapple|spa|2
+|
+|-heal|p1a: Iron Treads|48/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1760353178
+|move|p1a: Iron Treads|Stealth Rock|p2a: Hydrapple
+|-sidestart|p2: A Regular Plumbus|move: Stealth Rock
+|move|p2a: Hydrapple|Earth Power|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760353181
+|switch|p1a: Dragapult|Dragapult, F|36/100
+|turn|23
+|
+|t:|1760353184
+|switch|p2a: Iron Treads|Iron Treads|21/100 brn
+|-damage|p2a: Iron Treads|18/100 brn|[from] Stealth Rock
+|move|p1a: Dragapult|Draco Meteor|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760353189
+|switch|p2a: Hydrapple|Hydrapple, M|100/100
+|turn|24
+|
+|t:|1760353194
+|move|p1a: Dragapult|U-turn|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|82/100
+|
+|t:|1760353199
+|switch|p1a: Garganacl|Garganacl, F|100/100|[from] U-turn
+|move|p2a: Hydrapple|Fickle Beam|p1a: Garganacl
+|-damage|p1a: Garganacl|76/100
+|
+|-heal|p1a: Garganacl|82/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1760353202
+|move|p2a: Hydrapple|Nasty Plot|p2a: Hydrapple
+|-boost|p2a: Hydrapple|spa|2
+|move|p1a: Garganacl|Salt Cure|p2a: Hydrapple
+|-damage|p2a: Hydrapple|72/100
+|-start|p2a: Hydrapple|Salt Cure
+|
+|-heal|p1a: Garganacl|88/100|[from] item: Leftovers
+|-damage|p2a: Hydrapple|60/100|[from] Salt Cure
+|upkeep
+|turn|26
+|
+|t:|1760353209
+|move|p2a: Hydrapple|Giga Drain|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|9/100
+|-heal|p2a: Hydrapple|99/100|[from] drain|[of] p1a: Garganacl
+|move|p1a: Garganacl|Body Press|p2a: Hydrapple
+|-damage|p2a: Hydrapple|85/100
+|
+|-heal|p1a: Garganacl|15/100|[from] item: Leftovers
+|-damage|p2a: Hydrapple|73/100|[from] Salt Cure
+|upkeep
+|turn|27
+|
+|t:|1760353214
+|move|p2a: Hydrapple|Giga Drain|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|-heal|p2a: Hydrapple|80/100|[from] drain|[of] p1a: Garganacl
+|faint|p1a: Garganacl
+|
+|-damage|p2a: Hydrapple|67/100|[from] Salt Cure
+|upkeep
+|
+|t:|1760353216
+|switch|p1a: Dragapult|Dragapult, F|36/100
+|turn|28
+|
+|t:|1760353221
+|move|p1a: Dragapult|Draco Meteor|p2a: Hydrapple|[miss]
+|-miss|p1a: Dragapult|p2a: Hydrapple
+|move|p2a: Hydrapple|Giga Drain|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-heal|p2a: Hydrapple|81/100|[from] drain|[of] p1a: Dragapult
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Hydrapple|69/100|[from] Salt Cure
+|upkeep
+|
+|t:|1760353225
+|switch|p1a: Zamazenta|Zamazenta|42/100
+|turn|29
+|c|☆A Regular Plumbus|Sorry
+|
+|t:|1760353232
+|move|p1a: Zamazenta|Ice Fang|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|2/100
+|-status|p2a: Hydrapple|frz
+|cant|p2a: Hydrapple|frz
+|
+|-damage|p2a: Hydrapple|0 fnt|[from] Salt Cure
+|faint|p2a: Hydrapple
+|upkeep
+|c|☆A Regular Plumbus|Noo
+|c|☆pidgey bot|omg
+|c|☆A Regular Plumbus|Lol
+|
+|t:|1760353246
+|switch|p2a: Dragonite|Dragonite, F, tera:Ghost|94/100 brn
+|-damage|p2a: Dragonite|82/100 brn|[from] Stealth Rock
+|turn|30
+|c|☆pidgey bot|you really don't have to be sorry lol
+|
+|t:|1760353254
+|move|p1a: Zamazenta|Crunch|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|12/100 brn
+|-unboost|p2a: Dragonite|def|1
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-damage|p2a: Dragonite|6/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1760353267
+|switch|p1a: Moltres|Moltres, tera:Fairy|36/100
+|move|p2a: Dragonite|Tera Blast|p1a: Moltres|[anim] Tera Blast Ghost
+|-damage|p1a: Moltres|11/100
+|
+|-damage|p2a: Dragonite|0 fnt|[from] brn
+|faint|p2a: Dragonite
+|upkeep
+|c|☆A Regular Plumbus|Well gg
+|
+|t:|1760353274
+|switch|p2a: Quaquaval|Quaquaval, F|19/100
+|-damage|p2a: Quaquaval|12/100|[from] Stealth Rock
+|turn|32
+|
+|t:|1760353279
+|move|p2a: Quaquaval|Aqua Step|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|-boost|p2a: Quaquaval|spe|1
+|faint|p1a: Moltres
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1760353281
+|switch|p1a: Zamazenta|Zamazenta|42/100
+|turn|33
+|
+|t:|1760353283
+|move|p2a: Quaquaval|Aqua Step|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-boost|p2a: Quaquaval|spe|1
+|faint|p1a: Zamazenta
+|
+|win|A Regular Plumbus
+|raw|pidgey bot's rating: 1573 &rarr; <strong>1557</strong><br />(-16 for losing)
+|raw|A Regular Plumbus's rating: 1644 &rarr; <strong>1660</strong><br />(+16 for winning)
+|c|☆pidgey bot|gg
+|l|☆pidgey bot
+|player|p1|
+|c|☆A Regular Plumbus|Why did you switch you won
+|l|☆A Regular Plumbus
+|player|p2|

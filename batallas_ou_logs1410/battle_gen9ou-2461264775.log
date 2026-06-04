@@ -1,0 +1,457 @@
+|j|☆jjmo
+|j|☆yeetoo
+|t:|1760416170
+|gametype|singles
+|player|p1|jjmo|102|1079
+|player|p2|yeetoo|hugh|1116
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blaziken, F|
+|poke|p1|Alomomola, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Mamoswine, F|
+|poke|p2|Electivire, M|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Slowbro, M|
+|poke|p2|Noivern, M|
+|poke|p2|Lycanroc-Dusk, F|
+|teampreview
+|
+|t:|1760416190
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Noivern|Noivern, M|100/100
+|-item|p1a: Rillaboom|Choice Band|[from] ability: Frisk|[of] p2a: Noivern
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1760416199
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Noivern|Air Slash|p1a: Slowking
+|-damage|p1a: Slowking|83/100
+|
+|-heal|p1a: Slowking|90/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1760416209
+|switch|p2a: Electivire|Electivire, M|100/100
+|move|p1a: Slowking|Ice Beam|p2a: Electivire
+|-damage|p2a: Electivire|74/100
+|-status|p2a: Electivire|frz
+|
+|-heal|p2a: Electivire|80/100 frz|[from] Grassy Terrain
+|-heal|p1a: Slowking|96/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1760416222
+|cant|p2a: Electivire|frz
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760416228
+|switch|p1a: Ting-Lu|Ting-Lu|100/100|[from] Chilly Reception
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Electivire|86/100 frz|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1760416234
+|cant|p2a: Electivire|frz
+|move|p1a: Ting-Lu|Stomping Tantrum|p2a: Electivire
+|-supereffective|p2a: Electivire
+|-damage|p2a: Electivire|12/100 frz
+|-enditem|p2a: Electivire|Aguav Berry|[eat]
+|-heal|p2a: Electivire|45/100 frz|[from] item: Aguav Berry
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Electivire|51/100 frz|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1760416243
+|cant|p2a: Electivire|frz
+|move|p1a: Ting-Lu|Stomping Tantrum|p2a: Electivire
+|-supereffective|p2a: Electivire
+|-damage|p2a: Electivire|0 fnt
+|faint|p2a: Electivire
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1760416251
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|turn|6
+|
+|t:|1760416263
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Zapdos|Bulk Up|p2a: Zapdos
+|-boost|p2a: Zapdos|atk|1
+|-boost|p2a: Zapdos|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760416271
+|-terastallize|p2a: Zapdos|Steel
+|move|p2a: Zapdos|Bulk Up|p2a: Zapdos
+|-boost|p2a: Zapdos|atk|1
+|-boost|p2a: Zapdos|def|1
+|move|p1a: Slowking|Ice Beam|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|88/100
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1760416281
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Zapdos|Throat Chop|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|86/100
+|-start|p1a: Ting-Lu|Throat Chop|[silent]
+|
+|-heal|p1a: Ting-Lu|93/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760416289
+|move|p2a: Zapdos|Thunderous Kick|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1760416302
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|turn|10
+|
+|t:|1760416305
+|move|p2a: Zapdos|Thunderous Kick|p1a: Alomomola
+|-damage|p1a: Alomomola|44/100
+|-unboost|p1a: Alomomola|def|1
+|move|p1a: Alomomola|Flip Turn|p2a: Zapdos
+|-damage|p2a: Zapdos|78/100
+|
+|t:|1760416314
+|switch|p1a: Blaziken|Blaziken, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|11
+|
+|t:|1760416321
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Zapdos|Drill Peck|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|12
+|
+|t:|1760416330
+|move|p1a: Blaziken|Close Combat|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|faint|p2a: Zapdos
+|-damage|p1a: Blaziken|91/100|[from] item: Life Orb
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1760416340
+|switch|p2a: Lycanroc|Lycanroc-Dusk, F|100/100
+|turn|13
+|
+|t:|1760416343
+|move|p2a: Lycanroc|Accelerock|p1a: Blaziken
+|-damage|p1a: Blaziken|34/100
+|move|p1a: Blaziken|Close Combat|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-enditem|p2a: Lycanroc|Focus Sash
+|-damage|p2a: Lycanroc|1/100
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|-damage|p1a: Blaziken|24/100|[from] item: Life Orb
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|14
+|
+|t:|1760416358
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Lycanroc|Accelerock|p1a: Rillaboom
+|-damage|p1a: Rillaboom|72/100
+|
+|-heal|p2a: Lycanroc|7/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|79/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1760416367
+|switch|p2a: Noivern|Noivern, M|100/100
+|-item|p1a: Rillaboom|Choice Band|[from] ability: Frisk|[of] p2a: Noivern
+|move|p1a: Rillaboom|Grassy Glide|p2a: Noivern
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|80/100
+|
+|-heal|p1a: Rillaboom|85/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1760416378
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Noivern|Air Slash|p1a: Slowking
+|-damage|p1a: Slowking|81/100
+|
+|-heal|p1a: Slowking|87/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1760416393
+|switch|p2a: Lycanroc|Lycanroc-Dusk, F|7/100
+|move|p1a: Slowking|Ice Beam|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|-heal|p1a: Slowking|93/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760416405
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|18
+|
+|t:|1760416421
+|move|p2a: Mamoswine|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|37/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760416429
+|switch|p1a: Rillaboom|Rillaboom, M|85/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Rillaboom|91/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1760416436
+|move|p1a: Rillaboom|Wood Hammer|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|-damage|p1a: Rillaboom|50/100|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760416442
+|switch|p2a: Noivern|Noivern, M|80/100
+|-item|p1a: Rillaboom|Choice Band|[from] ability: Frisk|[of] p2a: Noivern
+|turn|20
+|
+|t:|1760416449
+|switch|p1a: Slowking|Slowking-Galar, M|70/100
+|move|p2a: Noivern|Air Slash|p1a: Slowking
+|-damage|p1a: Slowking|52/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1760416458
+|move|p2a: Noivern|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|27/100
+|move|p1a: Slowking|Future Sight|p2a: Noivern
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1760416464
+|move|p2a: Noivern|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-weather|none
+|upkeep
+|
+|t:|1760416469
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|23
+|
+|t:|1760416473
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Weezing|Strange Steam|p2a: Slowbro
+|-damage|p2a: Slowbro|72/100
+|
+|-end|p2a: Slowbro|move: Future Sight
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|46/100
+|upkeep
+|turn|24
+|
+|t:|1760416485
+|move|p1a: Weezing|Strange Steam|p2a: Slowbro
+|-damage|p2a: Slowbro|19/100
+|-start|p2a: Slowbro|confusion
+|-activate|p2a: Slowbro|confusion
+|move|p2a: Slowbro|Psychic|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1760416495
+|switch|p1a: Rillaboom|Rillaboom, M|50/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|25
+|
+|t:|1760416500
+|switch|p2a: Noivern|Noivern, M|80/100
+|-item|p1a: Rillaboom|Choice Band|[from] ability: Frisk|[of] p2a: Noivern
+|move|p1a: Rillaboom|U-turn|p2a: Noivern
+|-resisted|p2a: Noivern
+|-crit|p2a: Noivern
+|-damage|p2a: Noivern|39/100
+|
+|t:|1760416512
+|switch|p1a: Blaziken|Blaziken, F|24/100|[from] U-turn
+|
+|-heal|p1a: Blaziken|30/100|[from] Grassy Terrain
+|upkeep
+|turn|26
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jjmo)
+|
+|t:|1760416520
+|switch|p2a: Slowbro|Slowbro, M|52/100
+|move|p1a: Blaziken|Protect||[still]
+|-fail|p1a: Blaziken
+|
+|-heal|p1a: Blaziken|36/100|[from] Grassy Terrain
+|-heal|p2a: Slowbro|58/100|[from] Grassy Terrain
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|27
+|
+|t:|1760416533
+|move|p1a: Blaziken|Close Combat|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|26/100
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|-damage|p1a: Blaziken|20/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|-damage|p1a: Blaziken|10/100|[from] item: Life Orb
+|move|p2a: Slowbro|Psychic|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|-heal|p2a: Slowbro|32/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760416545
+|switch|p1a: Alomomola|Alomomola, F|77/100
+|turn|28
+|
+|t:|1760416548
+|move|p1a: Alomomola|Flip Turn|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|26/100
+|-damage|p1a: Alomomola|61/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|
+|t:|1760416553
+|switch|p1a: Rillaboom|Rillaboom, M|50/100|[from] Flip Turn
+|move|p2a: Slowbro|Thunder Wave|p1a: Rillaboom
+|-status|p1a: Rillaboom|par
+|
+|-heal|p1a: Rillaboom|56/100 par|[from] Grassy Terrain
+|-heal|p2a: Slowbro|32/100|[from] Grassy Terrain
+|upkeep
+|turn|29
+|
+|t:|1760416560
+|switch|p1a: Alomomola|Alomomola, F|94/100
+|switch|p2a: Noivern|Noivern, M|39/100
+|-item|p1a: Alomomola|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Noivern
+|
+|-heal|p1a: Alomomola|99/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|30
+|
+|t:|1760416568
+|switch|p2a: Slowbro|Slowbro, M|65/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|31
+|
+|t:|1760416575
+|move|p1a: Alomomola|Flip Turn|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|59/100
+|-damage|p1a: Alomomola|84/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|
+|t:|1760416579
+|switch|p1a: Rillaboom|Rillaboom, M|56/100 par|[from] Flip Turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Slowbro|Psychic|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Slowbro|65/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760416588
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|turn|32
+|-message|jjmo forfeited.
+|
+|win|yeetoo
+|raw|jjmo's rating: 1079 &rarr; <strong>1059</strong><br />(-20 for losing)
+|raw|yeetoo's rating: 1116 &rarr; <strong>1138</strong><br />(+22 for winning)
+|l|☆jjmo
+|player|p1|
+|l|☆yeetoo
+|player|p2|

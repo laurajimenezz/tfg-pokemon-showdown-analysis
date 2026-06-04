@@ -1,0 +1,289 @@
+|j|☆Tg3loading
+|j|☆Maytho 2.0
+|t:|1758925761
+|gametype|singles
+|player|p1|Tg3loading|102|1075
+|player|p2|Maytho 2.0|266|1087
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Shaymin|
+|poke|p1|Cloyster, F|
+|poke|p1|Emboar, M|
+|poke|p1|Iron Boulder|
+|poke|p1|Granbull, M|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Dragapult, F|
+|poke|p2|Scizor, M|
+|poke|p2|Quaquaval, M|
+|poke|p2|Zapdos|
+|teampreview
+|
+|t:|1758925774
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdriveatk
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1758925806
+|move|p1a: Iron Boulder|Zen Headbutt|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|24/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Iron Boulder
+|-sidestart|p1: Tg3loading|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1758925813
+|move|p1a: Iron Boulder|Zen Headbutt|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758925854
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|3
+|
+|t:|1758925864
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Gholdengo|Flash Cannon|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|66/100
+|-unboost|p1a: Mandibuzz|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1758925877
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Emboar|Emboar, M|100/100
+|-damage|p1a: Emboar|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1758925888
+|move|p1a: Emboar|Head Smash|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-status|p1a: Emboar|par|[from] ability: Static|[of] p2a: Zapdos
+|faint|p2a: Zapdos
+|-damage|p1a: Emboar|43/100 par|[from] Recoil
+|
+|upkeep
+|
+|t:|1758925895
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|6
+|
+|t:|1758925903
+|switch|p1a: Granbull|Granbull, M|100/100
+|-damage|p1a: Granbull|88/100|[from] Stealth Rock
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Dragapult|atk|1
+|move|p2a: Dragapult|Dragon Pulse|p1a: Granbull
+|-immune|p1a: Granbull
+|
+|-heal|p1a: Granbull|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758925914
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Granbull|Thunder Wave|p2a: Scizor
+|-status|p2a: Scizor|par
+|
+|-heal|p1a: Granbull|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758925925
+|move|p2a: Scizor|Bullet Punch|p1a: Granbull
+|-supereffective|p1a: Granbull
+|-damage|p1a: Granbull|44/100
+|move|p1a: Granbull|Taunt|p2a: Scizor
+|-start|p2a: Scizor|move: Taunt
+|
+|-heal|p1a: Granbull|50/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758925932
+|move|p2a: Scizor|Dual Wingbeat|p1a: Granbull
+|-damage|p1a: Granbull|33/100
+|-damage|p1a: Granbull|17/100
+|-hitcount|p1a: Granbull|2
+|move|p1a: Granbull|Counter|p2a: Scizor
+|-damage|p2a: Scizor|64/100 par
+|
+|-heal|p1a: Granbull|23/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758925941
+|move|p2a: Scizor|Bullet Punch|p1a: Granbull
+|-supereffective|p1a: Granbull
+|-damage|p1a: Granbull|0 fnt
+|faint|p1a: Granbull
+|
+|upkeep
+|
+|t:|1758925944
+|switch|p1a: Green soinic|Shaymin|100/100
+|-damage|p1a: Green soinic|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1758925948
+|move|p1a: Green soinic|Disarming Voice|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|60/100 par
+|-enditem|p1a: Green soinic|Throat Spray
+|-boost|p1a: Green soinic|spa|1|[from] item: Throat Spray
+|move|p2a: Scizor|X-Scissor|p1a: Green soinic
+|-supereffective|p1a: Green soinic
+|-damage|p1a: Green soinic|0 fnt
+|faint|p1a: Green soinic
+|
+|-end|p2a: Scizor|move: Taunt
+|upkeep
+|
+|t:|1758925956
+|switch|p1a: Mandibuzz|Mandibuzz, F|66/100
+|turn|12
+|
+|t:|1758925961
+|move|p2a: Scizor|Bullet Punch|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|47/100
+|move|p1a: Mandibuzz|Defog|p2a: Scizor
+|-unboost|p2a: Scizor|evasion|1
+|-sideend|p1: Tg3loading|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|13
+|
+|t:|1758925967
+|move|p1a: Mandibuzz|Foul Play|p2a: Scizor
+|-damage|p2a: Scizor|5/100 par
+|move|p2a: Scizor|Dual Wingbeat|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|34/100
+|-damage|p1a: Mandibuzz|20/100
+|-hitcount|p1a: Mandibuzz|2
+|
+|upkeep
+|turn|14
+|
+|t:|1758925975
+|move|p2a: Scizor|Bullet Punch|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|t:|1758925978
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|turn|15
+|
+|t:|1758925983
+|-terastallize|p1a: Cloyster|Water
+|move|p2a: Scizor|Bullet Punch|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|86/100
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|-enditem|p1a: Cloyster|White Herb
+|-clearnegativeboost|p1a: Cloyster|[silent]
+|
+|upkeep
+|turn|16
+|
+|t:|1758925994
+|cant|p2a: Scizor|par
+|move|p1a: Cloyster|Liquidation|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1758926003
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|17
+|
+|t:|1758926008
+|move|p1a: Cloyster|Icicle Spear|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|36/100
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-hitcount|p2: Dragapult|2
+|
+|upkeep
+|
+|t:|1758926016
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|18
+|
+|t:|1758926024
+|move|p1a: Cloyster|Liquidation|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1758926030
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|turn|19
+|
+|t:|1758926035
+|move|p1a: Cloyster|Liquidation|p2a: Quaquaval
+|-resisted|p2a: Quaquaval
+|-damage|p2a: Quaquaval|36/100
+|move|p2a: Quaquaval|Close Combat|p1a: Cloyster
+|-damage|p1a: Cloyster|39/100
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|
+|upkeep
+|turn|20
+|
+|t:|1758926044
+|move|p1a: Cloyster|Liquidation|p2a: Quaquaval
+|-resisted|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|win|Tg3loading
+|raw|Tg3loading's rating: 1075 &rarr; <strong>1105</strong><br />(+30 for winning)
+|raw|Maytho 2.0's rating: 1087 &rarr; <strong>1063</strong><br />(-24 for losing)
+|l|☆Maytho 2.0
+|player|p2|
+|l|☆Tg3loading
+|player|p1|

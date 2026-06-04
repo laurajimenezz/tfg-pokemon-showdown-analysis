@@ -1,0 +1,491 @@
+|j|☆kinsword
+|j|☆Dylanhmp
+|t:|1758378898
+|gametype|singles
+|player|p1|kinsword|101|1473
+|player|p2|Dylanhmp|170|1465
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragalge, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Excadrill, F|
+|poke|p1|Iron Boulder|
+|poke|p1|Blastoise, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Kyurem|
+|poke|p2|Corviknight, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Dondozo, F|
+|poke|p2|Slowking-Galar, L99, M|
+|poke|p2|Cinderace, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kinsword)
+|
+|t:|1758378922
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1758378931
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Cinderace
+|-immune|p2a: Cinderace
+|
+|upkeep
+|turn|2
+|
+|t:|1758378938
+|move|p2a: Cinderace|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|81/100
+|
+|t:|1758378942
+|switch|p2a: Slowking|Slowking-Galar, L99, M|100/100|[from] U-turn
+|move|p1a: Rotom|Hydro Pump|p2a: Slowking
+|-damage|p2a: Slowking|71/100
+|
+|-heal|p1a: Rotom|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1758378951
+|move|p1a: Rotom|Will-O-Wisp|p2a: Slowking
+|-status|p2a: Slowking|brn
+|move|p2a: Slowking|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-heal|p1a: Rotom|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|87/100 tox|[from] psn
+|-damage|p2a: Slowking|65/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1758378963
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1758378981
+|switch|p2a: Kyurem|Kyurem|100/100|[from] Chilly Reception
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Rotom|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|81/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1758378990
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|75/100
+|move|p1a: Rotom|Hydro Pump|p2a: Kyurem|[miss]
+|-miss|p1a: Rotom|p2a: Kyurem
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Kyurem|82/100|[from] item: Leftovers
+|-heal|p1a: Rotom|87/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|69/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1758379002
+|move|p2a: Kyurem|Protect|p2a: Kyurem
+|-singleturn|p2a: Kyurem|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Kyurem
+|-activate|p2a: Kyurem|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Kyurem|88/100|[from] item: Leftovers
+|-heal|p1a: Rotom|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|50/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1758379012
+|move|p2a: Kyurem|Freeze-Dry|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Kyurem|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758379024
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|8
+|
+|t:|1758379029
+|move|p2a: Kyurem|Freeze-Dry|p1a: Excadrill
+|-damage|p1a: Excadrill|68/100
+|move|p1a: Excadrill|Iron Head|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|
+|-weather|none
+|-heal|p2a: Kyurem|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758379040
+|move|p2a: Kyurem|Earth Power|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|14/100
+|move|p1a: Excadrill|Rock Slide|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|47/100
+|
+|-heal|p2a: Kyurem|53/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758379050
+|move|p2a: Kyurem|Freeze-Dry|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Kyurem|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758379058
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdrivespe
+|turn|11
+|
+|t:|1758379064
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|move|p1a: Iron Boulder|Swords Dance|p1a: Iron Boulder
+|-boost|p1a: Iron Boulder|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1758379071
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Dondozo
+|-damage|p2a: Dondozo|81/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1758379081
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|switch|p1a: Dragalge|Dragalge, M|100/100
+|move|p2a: Dondozo|Waterfall|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|77/100
+|
+|-heal|p2a: Dondozo|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1758379090
+|switch|p2a: Slowking|Slowking-Galar, L99, M|98/100 brn
+|move|p1a: Dragalge|Dragon Pulse|p2a: Slowking
+|-damage|p2a: Slowking|63/100 brn
+|
+|-damage|p2a: Slowking|57/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1758379099
+|move|p1a: Dragalge|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|27/100 brn
+|move|p2a: Slowking|Future Sight|p1a: Dragalge
+|-start|p2a: Slowking|move: Future Sight
+|
+|-damage|p2a: Slowking|21/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1758379107
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Dragalge|Dragon Pulse|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|79/100
+|
+|-heal|p2a: Ting-Lu|86/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758379119
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Ting-Lu|Payback|p1a: Corviknight
+|-damage|p1a: Corviknight|90/100
+|-damage|p2a: Ting-Lu|69/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|-end|p1a: Corviknight|move: Future Sight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|73/100
+|-heal|p2a: Ting-Lu|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1758379131
+|switch|p2a: Dondozo|Dondozo, F|94/100
+|move|p1a: Corviknight|Body Press|p2a: Dondozo
+|-damage|p2a: Dondozo|82/100
+|
+|-heal|p2a: Dondozo|88/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1758379140
+|move|p1a: Corviknight|U-turn|p2a: Dondozo
+|-damage|p2a: Dondozo|82/100
+|
+|t:|1758379143
+|switch|p1a: Dragalge|Dragalge, M|77/100|[from] U-turn
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1758379153
+|move|p1a: Dragalge|Sludge Bomb|p2a: Dondozo
+|-damage|p2a: Dondozo|37/100
+|move|p2a: Dondozo|Waterfall|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|53/100
+|
+|-heal|p2a: Dondozo|43/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1758379166
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dragalge|Sludge Bomb|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|22
+|
+|t:|1758379174
+|switch|p1a: Corviknight|Corviknight, M|73/100
+|move|p2a: Corviknight|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|71/100
+|-damage|p2a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|l|☆Dylanhmp
+|inactive|Dylanhmp disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Dylanhmp has 30 seconds to reconnect!
+|inactive|Dylanhmp has 20 seconds to reconnect!
+|j|☆Dylanhmp
+|inactive|Dylanhmp reconnected and has 105 seconds left.
+|player|p2|Dylanhmp|170|
+|l|☆Dylanhmp
+|inactive|Dylanhmp disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆Dylanhmp
+|inactive|Dylanhmp reconnected and has 95 seconds left.
+|player|p2|Dylanhmp|170|
+|inactive|Dylanhmp has 90 seconds left.
+|
+|t:|1758379236
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|23
+|
+|t:|1758379241
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|73/100
+|
+|upkeep
+|turn|24
+|l|☆Dylanhmp
+|inactive|Dylanhmp disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Dylanhmp has 30 seconds to reconnect!
+|inactive|Dylanhmp has 20 seconds to reconnect!
+|j|☆Dylanhmp
+|inactive|Dylanhmp reconnected and has 70 seconds left.
+|player|p2|Dylanhmp|170|
+|
+|t:|1758379284
+|move|p2a: Cinderace|U-turn|p1a: Blastoise
+|-damage|p1a: Blastoise|53/100
+|
+|t:|1758379287
+|switch|p2a: Slowking|Slowking-Galar, L99, M|55/100 brn|[from] U-turn
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|-enditem|p1a: Blastoise|White Herb
+|-clearnegativeboost|p1a: Blastoise|[silent]
+|
+|-damage|p2a: Slowking|48/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1758379300
+|switch|p2a: Dondozo|Dondozo, F|43/100
+|move|p1a: Blastoise|Surf|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|25/100
+|
+|-heal|p2a: Dondozo|31/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1758379322
+|-terastallize|p1a: Blastoise|Electric
+|move|p1a: Blastoise|Tera Blast|p2a: Dondozo|[anim] Tera Blast Electric
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|upkeep
+|
+|t:|1758379330
+|switch|p2a: Slowking|Slowking-Galar, L99, M|82/100 brn
+|turn|27
+|
+|t:|1758379334
+|-terastallize|p2a: Slowking|Water
+|move|p1a: Blastoise|Surf|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|57/100 brn
+|move|p2a: Slowking|Toxic|p1a: Blastoise
+|-status|p1a: Blastoise|tox
+|
+|-damage|p1a: Blastoise|47/100 tox|[from] psn
+|-damage|p2a: Slowking|51/100 brn|[from] brn
+|upkeep
+|turn|28
+|l|☆Dylanhmp
+|inactive|Dylanhmp disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆Dylanhmp
+|inactive|Dylanhmp reconnected and has 90 seconds left.
+|player|p2|Dylanhmp|170|
+|
+|t:|1758379353
+|switch|p2a: Ting-Lu|Ting-Lu|75/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Blastoise|Surf|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|14/100
+|
+|-heal|p2a: Ting-Lu|21/100|[from] item: Leftovers
+|-damage|p1a: Blastoise|35/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1758379365
+|move|p1a: Blastoise|Surf|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|-damage|p1a: Blastoise|17/100 tox|[from] psn
+|upkeep
+|
+|t:|1758379372
+|switch|p2a: Corviknight|Corviknight, M|84/100
+|-ability|p2a: Corviknight|Pressure
+|turn|30
+|
+|t:|1758379379
+|switch|p2a: Kyurem|Kyurem|60/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Blastoise|Surf|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|2/100
+|
+|-heal|p2a: Kyurem|8/100|[from] item: Leftovers
+|-damage|p1a: Blastoise|0 fnt|[from] psn
+|faint|p1a: Blastoise
+|upkeep
+|
+|t:|1758379391
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|turn|31
+|l|☆Dylanhmp
+|inactive|Dylanhmp disconnected and has a minute to reconnect!
+|player|p2|
+|
+|t:|1758379402
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|j|☆Dylanhmp
+|inactive|Dylanhmp reconnected and has 115 seconds left.
+|player|p2|Dylanhmp|170|
+|
+|t:|1758379416
+|switch|p2a: Corviknight|Corviknight, M|84/100
+|-ability|p2a: Corviknight|Pressure
+|turn|32
+|l|☆Dylanhmp
+|inactive|Dylanhmp disconnected and has a minute to reconnect!
+|player|p2|
+|
+|t:|1758379428
+|move|p1a: Iron Boulder|Swords Dance|p1a: Iron Boulder
+|-boost|p1a: Iron Boulder|atk|2
+|move|p2a: Corviknight|U-turn|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|64/100
+|inactive|Dylanhmp has 30 seconds to reconnect!
+|j|☆Dylanhmp
+|inactive|Dylanhmp reconnected and has 100 seconds left.
+|player|p2|Dylanhmp|170|
+|
+|t:|1758379467
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|33
+|l|☆kinsword
+|inactive|kinsword disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|kinsword has 30 seconds to reconnect!
+|inactive|kinsword has 20 seconds to reconnect!
+|inactive|kinsword has 15 seconds to reconnect!
+|inactive|kinsword has 10 seconds to reconnect!
+|inactive|kinsword has 5 seconds to reconnect!
+|-message|kinsword lost due to inactivity.
+|
+|win|Dylanhmp
+|raw|kinsword's rating: 1473 &rarr; <strong>1453</strong><br />(-20 for losing)
+|raw|Dylanhmp's rating: 1465 &rarr; <strong>1485</strong><br />(+20 for winning)

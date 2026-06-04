@@ -1,0 +1,391 @@
+|j|☆selkahn1
+|j|☆plazma_archer98
+|t:|1758348797
+|gametype|singles
+|player|p1|selkahn1|101|1099
+|player|p2|plazma_archer98|cynthia|1091
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Iron Treads|
+|poke|p1|Greninja-*, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Ceruledge, M|
+|poke|p1|Zapdos|
+|poke|p2|Spiritomb, F|
+|poke|p2|Porygon-Z|
+|poke|p2|Lucario, M|
+|poke|p2|Milotic, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Glaceon, F|
+|teampreview
+|
+|t:|1758348817
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivedef
+|turn|1
+|
+|t:|1758348831
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Corviknight|Corviknight, F, shiny|100/100
+|-terastallize|p2a: Garchomp|Poison
+|move|p2a: Garchomp|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|upkeep
+|turn|2
+|
+|t:|1758348849
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by selkahn1)
+|
+|t:|1758348872
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|24/100
+|move|p1a: Corviknight|Drill Peck|p2a: Porygon-Z
+|-crit|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|17/100
+|
+|-heal|p1a: Corviknight|30/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1758348887
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|upkeep
+|turn|5
+|
+|t:|1758348898
+|move|p1a: Iron Treads|Stealth Rock|p2a: Porygon-Z
+|-sidestart|p2: plazma_archer98|move: Stealth Rock
+|move|p2a: Porygon-Z|Hyper Beam|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|21/100
+|-mustrecharge|p2a: Porygon-Z
+|
+|upkeep
+|turn|6
+|
+|t:|1758348910
+|move|p1a: Iron Treads|Earthquake|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|upkeep
+|
+|t:|1758348931
+|switch|p2a: Milotic|Milotic, M|100/100
+|-damage|p2a: Milotic|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1758348945
+|move|p1a: Iron Treads|Rock Slide|p2a: Milotic
+|-damage|p2a: Milotic|73/100
+|cant|p2a: Milotic|flinch
+|
+|-status|p2a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1758348954
+|move|p1a: Iron Treads|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|55/100 brn
+|move|p2a: Milotic|Scald|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-damage|p2a: Milotic|49/100 brn|[from] brn
+|upkeep
+|
+|t:|1758348964
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|9
+|
+|t:|1758348968
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|99/100 brn
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-damage|p2a: Milotic|93/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1758348982
+|move|p2a: Milotic|Scald|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|65/100
+|-status|p1a: Hatterene|brn
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Milotic|87/100 brn|[from] brn
+|-damage|p1a: Hatterene|65/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1758348997
+|move|p2a: Milotic|Scald|p1a: Hatterene
+|-damage|p1a: Hatterene|52/100 brn
+|move|p1a: Hatterene|Psychic|p2a: Milotic
+|-damage|p2a: Milotic|26/100 brn
+|
+|-heal|p1a: Hatterene|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Milotic|20/100 brn|[from] brn
+|-damage|p1a: Hatterene|52/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1758349011
+|move|p2a: Milotic|Scald|p1a: Hatterene
+|-damage|p1a: Hatterene|39/100 brn
+|move|p1a: Hatterene|Draining Kiss|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|-heal|p1a: Hatterene|58/100 brn|[from] drain|[of] p2a: Milotic
+|faint|p2a: Milotic
+|
+|-heal|p1a: Hatterene|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Hatterene|58/100 brn|[from] brn
+|upkeep
+|
+|t:|1758349024
+|switch|p2a: Garchomp|Garchomp, M, tera:Poison|100/100
+|-damage|p2a: Garchomp|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1758349041
+|switch|p1a: Corviknight|Corviknight, F, shiny|30/100
+|move|p2a: Garchomp|Poison Jab|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-heal|p1a: Corviknight|37/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1758349053
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|43/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758349063
+|move|p2a: Garchomp|Dragon Claw|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|26/100
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|32/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1758349074
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|38/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1758349083
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|45/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1758349093
+|move|p2a: Garchomp|Dragon Claw|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|26/100
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|32/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1758349103
+|move|p2a: Garchomp|Dragon Claw|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|17/100
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|24/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1758349113
+|move|p2a: Garchomp|Dragon Claw|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|10/100
+|move|p1a: Corviknight|Drill Peck|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Corviknight|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1758349134
+|switch|p2a: Lucario|Lucario, M|100/100
+|switch|p1a: Hatterene|Hatterene, F|58/100 brn
+|-damage|p2a: Lucario|98/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1758349146
+|move|p2a: Lucario|Meteor Mash|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1758349154
+|switch|p1a: Zapdos|Zapdos, shiny|100/100
+|turn|22
+|
+|t:|1758349161
+|switch|p2a: Spiritomb|Spiritomb, F|100/100
+|-damage|p2a: Spiritomb|88/100|[from] Stealth Rock
+|-ability|p2a: Spiritomb|Pressure
+|-terastallize|p1a: Zapdos|Flying
+|move|p1a: Zapdos|Hurricane|p2a: Spiritomb
+|-damage|p2a: Spiritomb|8/100
+|-enditem|p2a: Spiritomb|Sitrus Berry|[eat]
+|-heal|p2a: Spiritomb|33/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|23
+|
+|t:|1758349174
+|move|p2a: Spiritomb|Sucker Punch|p1a: Zapdos
+|-damage|p1a: Zapdos|75/100
+|move|p1a: Zapdos|Hurricane|p2a: Spiritomb|[miss]
+|-miss|p1a: Zapdos|p2a: Spiritomb
+|
+|upkeep
+|turn|24
+|
+|t:|1758349182
+|move|p2a: Spiritomb|Sucker Punch||[still]
+|-fail|p2a: Spiritomb
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-hint|If a Terastallized Pokemon uses Roost, it remains Flying-type.
+|
+|upkeep
+|turn|25
+|
+|t:|1758349189
+|move|p2a: Spiritomb|Sucker Punch||[still]
+|-fail|p2a: Spiritomb
+|move|p1a: Zapdos|Tailwind|p1a: Zapdos
+|-sidestart|p1: selkahn1|move: Tailwind
+|
+|upkeep
+|turn|26
+|
+|t:|1758349198
+|move|p2a: Spiritomb|Sucker Punch|p1a: Zapdos
+|-damage|p1a: Zapdos|71/100
+|move|p1a: Zapdos|Hurricane|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|faint|p2a: Spiritomb
+|
+|upkeep
+|
+|t:|1758349208
+|switch|p2a: Glaceon|Glaceon, F|100/100
+|-damage|p2a: Glaceon|76/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1758349217
+|move|p1a: Zapdos|Discharge|p2a: Glaceon
+|-damage|p2a: Glaceon|36/100
+|move|p2a: Glaceon|Freeze-Dry|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1758349226
+|switch|p1a: Greninja|Greninja, F, shiny|100/100
+|turn|28
+|
+|t:|1758349237
+|move|p1a: Greninja|Hydro Pump|p2a: Glaceon
+|-start|p1a: Greninja|typechange|Water|[from] ability: Protean
+|-damage|p2a: Glaceon|0 fnt
+|faint|p2a: Glaceon
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|
+|-sideend|p1: selkahn1|move: Tailwind
+|upkeep
+|
+|t:|1758349243
+|switch|p2a: Lucario|Lucario, M|98/100
+|-damage|p2a: Lucario|95/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1758349252
+|move|p1a: Greninja|Hydro Pump|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|-damage|p1a: Greninja|81/100|[from] item: Life Orb
+|
+|win|selkahn1
+|raw|selkahn1's rating: 1099 &rarr; <strong>1124</strong><br />(+25 for winning)
+|raw|plazma_archer98's rating: 1091 &rarr; <strong>1068</strong><br />(-23 for losing)
+|l|☆plazma_archer98
+|player|p2|
+|l|☆selkahn1
+|player|p1|

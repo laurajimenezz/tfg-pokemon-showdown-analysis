@@ -1,0 +1,192 @@
+|j|☆Awesomem2005
+|j|☆Ubercator
+|t:|1759057600
+|gametype|singles
+|player|p1|Awesomem2005|169|1088
+|player|p2|Ubercator|265|1088
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Toxapex, F|
+|poke|p1|Pecharunt|
+|poke|p1|Iron Moth|
+|poke|p1|Gengar, M|
+|poke|p1|Munkidori, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Feraligatr, M|
+|poke|p2|Veluza, F|
+|poke|p2|Yanmega, M|
+|poke|p2|Kommo-o, F|
+|poke|p2|Okidogi, M|
+|poke|p2|Ditto|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ubercator)
+|
+|t:|1759057613
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Yanmega|Yanmega, M|100/100
+|turn|1
+|
+|t:|1759057629
+|move|p1a: Ogerpon|Knock Off|p2a: Yanmega
+|-damage|p2a: Yanmega|54/100
+|-enditem|p2a: Yanmega|Throat Spray|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Yanmega|Bug Buzz|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|
+|t:|1759057639
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|2
+|
+|t:|1759057644
+|move|p1a: Iron Moth|Fiery Dance|p2a: Yanmega
+|-supereffective|p2a: Yanmega
+|-damage|p2a: Yanmega|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Yanmega
+|
+|upkeep
+|
+|t:|1759057650
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Iron Moth|[from] ability: Imposter
+|turn|3
+|
+|t:|1759057663
+|-terastallize|p1a: Iron Moth|Fairy
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|82/100
+|move|p2a: Ditto|Fiery Dance|p1a: Iron Moth
+|-damage|p1a: Iron Moth|34/100
+|
+|upkeep
+|turn|4
+|
+|t:|1759057671
+|move|p2a: Ditto|Fiery Dance|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|-boost|p2a: Ditto|spa|1
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1759057679
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|turn|5
+|
+|t:|1759057683
+|move|p2a: Ditto|Fiery Dance|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|67/100
+|-boost|p2a: Ditto|spa|1
+|move|p1a: Toxapex|Surf|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-crit|p2a: Ditto
+|-damage|p2a: Ditto|12/100
+|
+|upkeep
+|turn|6
+|
+|t:|1759057693
+|move|p2a: Ditto|Fiery Dance|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|28/100
+|-boost|p2a: Ditto|spa|1
+|move|p1a: Toxapex|Surf|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|-end|p2a: Ditto|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1759057706
+|switch|p2a: Veluza|Veluza, F|100/100
+|-ability|p2a: Veluza|Mold Breaker
+|turn|7
+|
+|t:|1759057711
+|move|p2a: Veluza|Fillet Away|p2a: Veluza
+|-boost|p2a: Veluza|atk|2
+|-boost|p2a: Veluza|spa|2
+|-boost|p2a: Veluza|spe|2
+|-damage|p2a: Veluza|50/100
+|-enditem|p2a: Veluza|Sitrus Berry|[eat]
+|-heal|p2a: Veluza|75/100|[from] item: Sitrus Berry
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|78/100
+|
+|upkeep
+|turn|8
+|
+|t:|1759057721
+|move|p2a: Veluza|Stored Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|t:|1759057731
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|turn|9
+|
+|t:|1759057736
+|move|p2a: Veluza|Stored Power|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1759057756
+|switch|p1a: Munkidori|Munkidori, M|100/100
+|turn|10
+|
+|t:|1759057777
+|move|p2a: Veluza|Stored Power|p1a: Munkidori
+|-damage|p1a: Munkidori|0 fnt
+|faint|p1a: Munkidori
+|
+|upkeep
+|
+|t:|1759057783
+|switch|p1a: Gengar|Gengar, M|100/100
+|turn|11
+|
+|t:|1759057790
+|move|p2a: Veluza|Stored Power|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|win|Ubercator
+|raw|Awesomem2005's rating: 1088 &rarr; <strong>1065</strong><br />(-23 for losing)
+|raw|Ubercator's rating: 1088 &rarr; <strong>1115</strong><br />(+27 for winning)
+|l|☆Ubercator
+|player|p2|
+|l|☆Awesomem2005
+|player|p1|

@@ -1,0 +1,238 @@
+|j|☆nube4real
+|j|☆ViaVeritas
+|t:|1757916775
+|gametype|singles
+|player|p1|nube4real|red|1151
+|player|p2|ViaVeritas|giovanni|1143
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Raging Bolt|
+|poke|p1|Ninetales, F|
+|poke|p1|Torkoal, F|
+|poke|p1|Walking Wake|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Ursaluna, F|
+|poke|p2|Chandelure, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|t:|1757916805
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|turn|1
+|
+|t:|1757916817
+|move|p2a: Chandelure|Shadow Ball|p1a: Hoopa
+|-damage|p1a: Hoopa|59/100
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-unboost|p1a: Hoopa|def|1
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|t:|1757916826
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|turn|2
+|
+|t:|1757916840
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: ViaVeritas|move: Light Screen
+|move|p1a: Hoopa|Trick Room|p1a: Hoopa
+|-fieldstart|move: Trick Room|[of] p1a: Hoopa
+|
+|upkeep
+|turn|3
+|
+|t:|1757916852
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: ViaVeritas|Reflect
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|91/100
+|-unboost|p1a: Hoopa|def|1
+|
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nube4real)
+|
+|t:|1757916871
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|switch|p1a: Ursaluna|Ursaluna, F, shiny|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1757916888
+|-terastallize|p1a: Ursaluna|Ghost
+|move|p1a: Ursaluna|Earthquake|p2a: Iron Valiant
+|-crit|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757916904
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|91/100
+|turn|6
+|
+|t:|1757916908
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Ursaluna
+|-status|p1a: Ursaluna|par
+|move|p1a: Ursaluna|Belly Drum|p1a: Ursaluna
+|-damage|p1a: Ursaluna|50/100 par
+|-setboost|p1a: Ursaluna|atk|6|[from] move: Belly Drum
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1757916918
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Ursaluna
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1a: Ursaluna|spa|1
+|
+|t:|1757916928
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100|[from] Parting Shot
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ursaluna|Rest|p1a: Ursaluna
+|-status|p1a: Ursaluna|slp|[from] move: Rest
+|-heal|p1a: Ursaluna|100/100 slp|[silent]
+|-enditem|p1a: Ursaluna|Chesto Berry|[eat]
+|-curestatus|p1a: Ursaluna|slp|[msg]
+|
+|upkeep
+|turn|8
+|
+|t:|1757916942
+|move|p2a: Corviknight|Brave Bird|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|63/100
+|-damage|p2a: Corviknight|86/100|[from] Recoil
+|move|p1a: Ursaluna|Drain Punch|p2a: Corviknight
+|-damage|p2a: Corviknight|55/100
+|-heal|p1a: Ursaluna|76/100|[from] drain|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|62/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1757916956
+|move|p2a: Corviknight|Brave Bird|p1a: Ursaluna
+|-damage|p1a: Ursaluna|52/100
+|-damage|p2a: Corviknight|52/100|[from] Recoil
+|move|p1a: Ursaluna|Drain Punch|p2a: Corviknight
+|-damage|p2a: Corviknight|19/100
+|-heal|p1a: Ursaluna|67/100|[from] drain|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|25/100|[from] item: Leftovers
+|-sideend|p2: ViaVeritas|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1757916967
+|move|p2a: Corviknight|Brave Bird|p1a: Ursaluna
+|-damage|p1a: Ursaluna|41/100
+|-damage|p2a: Corviknight|15/100|[from] Recoil
+|move|p1a: Ursaluna|Drain Punch|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-heal|p1a: Ursaluna|47/100|[from] drain|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|-sideend|p2: ViaVeritas|Reflect
+|upkeep
+|
+|t:|1757916983
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|91/100
+|turn|11
+|
+|t:|1757916998
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Ursaluna|[miss]
+|-miss|p2a: Grimmsnarl|p1a: Ursaluna
+|move|p1a: Ursaluna|Earthquake|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|inactive|ViaVeritas has 120 seconds left.
+|
+|t:|1757917009
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|12
+|
+|t:|1757917014
+|move|p2a: Dragonite|Ice Spinner|p1a: Ursaluna
+|-damage|p1a: Ursaluna|26/100
+|move|p1a: Ursaluna|Drain Punch|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|70/100
+|-heal|p1a: Ursaluna|37/100|[from] drain|[of] p2a: Dragonite
+|
+|upkeep
+|turn|13
+|
+|t:|1757917025
+|move|p2a: Dragonite|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|8/100
+|move|p1a: Ursaluna|Drain Punch|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|7/100
+|-heal|p1a: Ursaluna|30/100|[from] drain|[of] p2a: Dragonite
+|
+|upkeep
+|turn|14
+|
+|t:|1757917035
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Ursaluna|Drain Punch|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-heal|p1a: Ursaluna|32/100|[from] drain|[of] p2a: Dragonite
+|faint|p2a: Dragonite
+|
+|upkeep
+|c|☆ViaVeritas|kill  me
+|
+|t:|1757917043
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|15
+|inactive|ViaVeritas has 120 seconds left.
+|
+|t:|1757917065
+|move|p1a: Ursaluna|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|win|nube4real
+|raw|nube4real's rating: 1151 &rarr; <strong>1175</strong><br />(+24 for winning)
+|raw|ViaVeritas's rating: 1143 &rarr; <strong>1119</strong><br />(-24 for losing)
+|c|☆nube4real|GG
+|l|☆ViaVeritas
+|player|p2|
+|l|☆nube4real
+|player|p1|

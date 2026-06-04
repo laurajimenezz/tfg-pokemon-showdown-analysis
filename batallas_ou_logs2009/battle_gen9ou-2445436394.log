@@ -1,0 +1,381 @@
+|j|☆egjp
+|j|☆Veronyl
+|t:|1758345381
+|gametype|singles
+|player|p1|egjp|170|1203
+|player|p2|Veronyl|candice|1174
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Gholdengo|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Glaceon, F|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Magnezone|
+|poke|p2|Kingambit, M|
+|poke|p2|Great Tusk|
+|poke|p2|Garchomp, M|
+|teampreview
+|
+|t:|1758345412
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1758345422
+|switch|p1a: Corviknight|Corviknight, F, shiny|100/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: egjp|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1758345429
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Corviknight|Defog|p2a: Magnezone
+|-unboost|p2a: Magnezone|evasion|1
+|-sideend|p1: egjp|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|upkeep
+|turn|3
+|
+|t:|1758345440
+|move|p2a: Magnezone|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1758345443
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|4
+|
+|t:|1758345446
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Ting-Lu|Earthquake|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|10/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758345458
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: Veronyl|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758345467
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Magnezone
+|-damage|p2a: Magnezone|76/100
+|-unboost|p2a: Magnezone|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758345472
+|move|p1a: Gholdengo|Shadow Ball|p2a: Magnezone
+|-damage|p2a: Magnezone|40/100
+|move|p2a: Magnezone|Zap Cannon|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758345499
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|turn|8
+|
+|t:|1758345534
+|move|p1a: Grimmsnarl|Fake Out|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|38/100
+|cant|p2a: Magnezone|flinch
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1758345553
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: egjp|move: Light Screen
+|move|p2a: Magnezone|Zap Cannon|p1a: Grimmsnarl|[miss]
+|-miss|p2a: Magnezone|p1a: Grimmsnarl
+|
+|upkeep
+|turn|10
+|
+|t:|1758345563
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: egjp|Reflect
+|move|p2a: Magnezone|Zap Cannon|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|60/100
+|-status|p1a: Grimmsnarl|par
+|
+|-heal|p1a: Grimmsnarl|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758345569
+|switch|p2a: Ninetales|Ninetales-Alola, F|10/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Ninetales
+|-unboost|p2a: Ninetales|atk|1
+|-unboost|p2a: Ninetales|spa|1
+|
+|t:|1758345590
+|switch|p1a: Slowking|Slowking-Galar, F, shiny|100/100|[from] Parting Shot
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1758345596
+|move|p2a: Ninetales|Freeze-Dry|p1a: Slowking
+|-damage|p1a: Slowking|96/100
+|move|p1a: Slowking|Psyshock|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Slowking|100/100|[from] item: Black Sludge
+|-sideend|p2: Veronyl|move: Aurora Veil
+|upkeep
+|
+|t:|1758345602
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|13
+|
+|t:|1758345642
+|move|p2a: Great Tusk|Brick Break|p1a: Slowking
+|-sideend|p1: egjp|Reflect
+|-sideend|p1: egjp|move: Light Screen
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|90/100
+|move|p1a: Slowking|Future Sight|p2a: Great Tusk
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Slowking|96/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1758345660
+|move|p2a: Great Tusk|Stealth Rock|p1a: Slowking
+|-sidestart|p1: egjp|move: Stealth Rock
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|
+|t:|1758345664
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100|[from] Chilly Reception
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1758345673
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Samurott|Razor Shell|p2a: Kingambit
+|-damage|p2a: Kingambit|57/100
+|
+|-weather|none
+|-end|p2a: Kingambit|move: Future Sight
+|-immune|p2a: Kingambit
+|upkeep
+|turn|16
+|
+|t:|1758345685
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Magnezone|Magnezone|38/100
+|move|p1a: Samurott|Razor Shell|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|t:|1758345693
+|switch|p2a: Glaceon|Glaceon, F|100/100
+|turn|17
+|
+|t:|1758345700
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|66/100 par
+|-damage|p1a: Grimmsnarl|54/100 par|[from] Stealth Rock
+|move|p2a: Glaceon|Freeze-Dry|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|5/100 par
+|
+|-heal|p1a: Grimmsnarl|11/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1758345718
+|move|p1a: Grimmsnarl|Fake Out|p2a: Glaceon
+|-damage|p2a: Glaceon|89/100
+|cant|p2a: Glaceon|flinch
+|
+|-heal|p1a: Grimmsnarl|17/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1758345723
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Glaceon
+|-unboost|p2a: Glaceon|atk|1
+|-unboost|p2a: Glaceon|spa|1
+|
+|t:|1758345726
+|switch|p1a: Slowking|Slowking-Galar, F, shiny|100/100|[from] Parting Shot
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|move|p2a: Glaceon|Freeze-Dry|p1a: Slowking
+|-damage|p1a: Slowking|66/100
+|-status|p1a: Slowking|frz
+|
+|-heal|p1a: Slowking|73/100 frz|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1758345734
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|cant|p1a: Slowking|frz
+|
+|-heal|p1a: Slowking|79/100 frz|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|t:|1758345741
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|cant|p1a: Slowking|frz
+|
+|-heal|p1a: Slowking|85/100 frz|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|t:|1758345748
+|move|p2a: Garchomp|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1758345759
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-damage|p1a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|23
+|
+|t:|1758345768
+|-terastallize|p1a: Ting-Lu|Fairy
+|move|p2a: Garchomp|Brick Break|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|81/100
+|move|p1a: Ting-Lu|Tera Blast|p2a: Garchomp|[anim] Tera Blast Fairy
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1758345778
+|switch|p2a: Kingambit|Kingambit, M|57/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|24
+|
+|t:|1758345800
+|switch|p1a: Samurott|Samurott-Hisui, M|88/100
+|-damage|p1a: Samurott|76/100|[from] Stealth Rock
+|move|p2a: Kingambit|Iron Head|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|35/100
+|
+|upkeep
+|turn|25
+|
+|t:|1758345816
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Glaceon|Glaceon, F|89/100
+|move|p1a: Samurott|Razor Shell|p2a: Glaceon
+|-damage|p2a: Glaceon|37/100
+|
+|upkeep
+|turn|26
+|
+|t:|1758345824
+|move|p1a: Samurott|Razor Shell|p2a: Glaceon
+|-damage|p2a: Glaceon|0 fnt
+|faint|p2a: Glaceon
+|
+|upkeep
+|
+|t:|1758345828
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|27
+|
+|t:|1758345832
+|move|p2a: Great Tusk|Brick Break|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-crit|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1758345838
+|switch|p1a: Ting-Lu|Ting-Lu, tera:Fairy|81/100
+|-damage|p1a: Ting-Lu|69/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|28
+|
+|t:|1758345845
+|move|p2a: Great Tusk|Earthquake|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|39/100
+|move|p1a: Ting-Lu|Tera Blast|p2a: Great Tusk|[anim] Tera Blast Fairy
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|17/100
+|
+|upkeep
+|turn|29
+|-message|egjp forfeited.
+|
+|win|Veronyl
+|raw|egjp's rating: 1203 &rarr; <strong>1176</strong><br />(-27 for losing)
+|raw|Veronyl's rating: 1174 &rarr; <strong>1201</strong><br />(+27 for winning)
+|l|☆egjp
+|player|p1|
+|l|☆Veronyl
+|player|p2|

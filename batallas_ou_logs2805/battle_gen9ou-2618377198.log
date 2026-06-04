@@ -1,0 +1,205 @@
+|j|☆Freakshow_09
+|j|☆GemorklaudePT
+|t:|1779804628
+|gametype|singles
+|player|p1|Freakshow_09|ethan|1081
+|player|p2|GemorklaudePT|janitor|1083
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Scizor, F|
+|poke|p1|Feraligatr, F|
+|poke|p1|Heracross, M|
+|poke|p1|Bellossom, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Hydrapple, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Sinistcha-Masterpiece|
+|poke|p2|Iron Moth|
+|poke|p2|Brute Bonnet|
+|teampreview
+|
+|t:|1779804658
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: CODENAME: Panzer|Feraligatr, F|100/100
+|switch|p2a: Brute Bonnet|Brute Bonnet|100/100
+|-enditem|p2a: Brute Bonnet|Booster Energy
+|-activate|p2a: Brute Bonnet|ability: Protosynthesis|[fromitem]
+|-start|p2a: Brute Bonnet|protosynthesisatk
+|turn|1
+|
+|t:|1779804686
+|-terastallize|p1a: CODENAME: Panzer|Fire
+|move|p2a: Brute Bonnet|Sucker Punch||[still]
+|-fail|p2a: Brute Bonnet
+|move|p1a: CODENAME: Panzer|Dragon Dance|p1a: CODENAME: Panzer
+|-boost|p1a: CODENAME: Panzer|atk|1
+|-boost|p1a: CODENAME: Panzer|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1779804703
+|-end|p2a: Brute Bonnet|Protosynthesis|[silent]
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|move|p1a: CODENAME: Panzer|Dragon Dance|p1a: CODENAME: Panzer
+|-boost|p1a: CODENAME: Panzer|atk|1
+|-boost|p1a: CODENAME: Panzer|spe|1
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GemorklaudePT)
+|
+|t:|1779804723
+|move|p1a: CODENAME: Panzer|Waterfall|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779804730
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|turn|4
+|
+|t:|1779804742
+|-terastallize|p2a: Hydrapple|Fire
+|move|p1a: CODENAME: Panzer|Ice Punch|p2a: Hydrapple
+|-resisted|p2a: Hydrapple
+|-damage|p2a: Hydrapple|71/100
+|move|p2a: Hydrapple|Earth Power|p1a: CODENAME: Panzer
+|-supereffective|p1a: CODENAME: Panzer
+|-damage|p1a: CODENAME: Panzer|14/100
+|
+|upkeep
+|turn|5
+|
+|t:|1779804755
+|move|p1a: CODENAME: Panzer|Waterfall|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|upkeep
+|
+|t:|1779804762
+|switch|p2a: Brute Bonnet|Brute Bonnet|100/100
+|turn|6
+|
+|t:|1779804766
+|move|p2a: Brute Bonnet|Sucker Punch|p1a: CODENAME: Panzer
+|-damage|p1a: CODENAME: Panzer|0 fnt
+|faint|p1a: CODENAME: Panzer
+|
+|upkeep
+|
+|t:|1779804772
+|switch|p1a: The Red Menace|Scizor, F|100/100
+|turn|7
+|
+|t:|1779804785
+|move|p2a: Brute Bonnet|Sucker Punch|p1a: The Red Menace
+|-damage|p1a: The Red Menace|50/100
+|move|p1a: The Red Menace|Lunge|p2a: Brute Bonnet
+|-supereffective|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|0 fnt
+|faint|p2a: Brute Bonnet
+|-end|p2a: Brute Bonnet|Protosynthesis|[silent]
+|-damage|p1a: The Red Menace|40/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779804794
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|8
+|
+|t:|1779804806
+|move|p2a: Meowscarada|Knock Off|p1a: The Red Menace
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: The Red Menace|0 fnt
+|-enditem|p1a: The Red Menace|Life Orb|[from] move: Knock Off|[of] p2a: Meowscarada
+|faint|p1a: The Red Menace
+|
+|upkeep
+|
+|t:|1779804813
+|switch|p1a: Lieutenant Cross|Heracross, M|100/100
+|turn|9
+|
+|t:|1779804825
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece|100/100
+|move|p1a: Lieutenant Cross|Lunge|p2a: Sinistcha
+|-damage|p2a: Sinistcha|69/100
+|-unboost|p2a: Sinistcha|atk|1
+|
+|-heal|p2a: Sinistcha|75/100|[from] item: Leftovers
+|-status|p1a: Lieutenant Cross|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|t:|1779804836
+|move|p1a: Lieutenant Cross|Shadow Claw|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|26/100
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|
+|-heal|p2a: Sinistcha|32/100|[from] item: Leftovers
+|-damage|p1a: Lieutenant Cross|95/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1779804849
+|move|p1a: Lieutenant Cross|Shadow Claw|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|-damage|p1a: Lieutenant Cross|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1779804858
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|12
+|
+|t:|1779804879
+|move|p1a: Lieutenant Cross|Lunge|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Lieutenant Cross|95/100 brn|[from] Grassy Terrain
+|-damage|p1a: Lieutenant Cross|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1779804885
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|13
+|-message|GemorklaudePT forfeited.
+|
+|win|Freakshow_09
+|raw|Freakshow_09's rating: 1081 &rarr; <strong>1109</strong><br />(+28 for winning)
+|raw|GemorklaudePT's rating: 1083 &rarr; <strong>1060</strong><br />(-23 for losing)
+|l|☆GemorklaudePT
+|player|p2|
+|l|☆Freakshow_09
+|player|p1|

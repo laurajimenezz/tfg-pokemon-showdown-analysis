@@ -1,0 +1,174 @@
+|j|☆full-doc
+|j|☆test by tester
+|t:|1760447986
+|gametype|singles
+|player|p1|full-doc|scientistf|1432
+|player|p2|test by tester|richboy|1439
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Comfey, F|
+|poke|p1|Whimsicott, M|
+|poke|p1|Iron Moth|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Ninetales, F|
+|poke|p2|Empoleon, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Milotic, F|
+|poke|p2|Araquanid, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Hatterene, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by test by tester)
+|
+|t:|1760447996
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|turn|1
+|
+|t:|1760448004
+|move|p1a: Great Tusk|Stealth Rock|p2a: Araquanid
+|-sidestart|p2: test by tester|move: Stealth Rock
+|move|p2a: Araquanid|Sticky Web|p1a: Great Tusk
+|-sidestart|p1: full-doc|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1760448009
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|66/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: full-doc|Sticky Web|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|3
+|
+|t:|1760448017
+|move|p1a: Great Tusk|Headlong Rush|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1760448020
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|-damage|p2a: Araquanid|76/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1760448027
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Araquanid|Liquidation|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760448049
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|move|p2a: Araquanid|Liquidation|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-crit|p1a: Whimsicott
+|-damage|p1a: Whimsicott|78/100
+|-unboost|p1a: Whimsicott|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|c|☆test by tester|Damn dawg
+|
+|t:|1760448058
+|move|p1a: Whimsicott|Growth|p1a: Whimsicott
+|-boost|p1a: Whimsicott|atk|2
+|-boost|p1a: Whimsicott|spa|2
+|move|p2a: Araquanid|Sticky Web|p1a: Whimsicott
+|-sidestart|p1: full-doc|move: Sticky Web
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1760448065
+|move|p2a: Araquanid|Endure|p2a: Araquanid
+|-singleturn|p2a: Araquanid|move: Endure
+|move|p1a: Whimsicott|Giga Drain|p2a: Araquanid
+|-damage|p2a: Araquanid|27/100
+|-heal|p1a: Whimsicott|100/100|[from] drain|[of] p2a: Araquanid
+|-damage|p1a: Whimsicott|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760448075
+|move|p2a: Araquanid|Endure||[still]
+|-fail|p2a: Araquanid
+|move|p1a: Whimsicott|Giga Drain|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|-heal|p1a: Whimsicott|100/100|[from] drain|[of] p2a: Araquanid
+|faint|p2a: Araquanid
+|-damage|p1a: Whimsicott|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760448081
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1760448086
+|move|p1a: Whimsicott|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|-damage|p1a: Whimsicott|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760448090
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|-damage|p2a: Enamorus|76/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1760448096
+|-terastallize|p2a: Enamorus|Stellar
+|move|p1a: Whimsicott|Moonblast|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|-damage|p1a: Whimsicott|71/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|test by tester forfeited.
+|
+|win|full-doc
+|raw|full-doc's rating: 1432 &rarr; <strong>1452</strong><br />(+20 for winning)
+|raw|test by tester's rating: 1439 &rarr; <strong>1419</strong><br />(-20 for losing)
+|l|☆test by tester
+|player|p2|
+|l|☆full-doc
+|player|p1|

@@ -1,0 +1,176 @@
+|j|‽Otherthero
+|j|☆lehuynhan
+|t:|1759062609
+|gametype|singles
+|player|p1|Otherthero|1|1224
+|player|p2|lehuynhan|dawn|1170
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pincurchin, M|
+|poke|p1|Kilowattrel, F|
+|poke|p1|Magnezone|
+|poke|p1|Eelektrik, F|
+|poke|p1|Blastoise, F|
+|poke|p1|Pelipper, F|
+|poke|p2|Pincurchin, F|
+|poke|p2|Iron Leaves|
+|poke|p2|Raichu-Alola, F|
+|poke|p2|Serperior, F|
+|poke|p2|Quagsire, F|
+|poke|p2|Moltres|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lehuynhan)
+|
+|t:|1759062616
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Lego|Pincurchin, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Lego
+|turn|1
+|
+|t:|1759062632
+|switch|p2a: HotWings|Moltres|100/100
+|move|p1a: Pelipper|U-turn|p2a: HotWings
+|-resisted|p2a: HotWings
+|-damage|p2a: HotWings|99/100
+|-status|p1a: Pelipper|brn|[from] ability: Flame Body|[of] p2a: HotWings
+|
+|t:|1759062643
+|switch|p1a: Kilowattrel|Kilowattrel, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1759062649
+|switch|p2a: Quagmire|Quagsire, F|100/100
+|move|p1a: Kilowattrel|Hurricane|p2a: Quagmire
+|-damage|p2a: Quagmire|11/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Quagmire|17/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1759062674
+|move|p1a: Kilowattrel|Hurricane|p2a: Quagmire
+|-damage|p2a: Quagmire|0 fnt
+|faint|p2a: Quagmire
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759062678
+|switch|p2a: Herbert|Iron Leaves|100/100
+|-activate|p2a: Herbert|ability: Quark Drive
+|-start|p2a: Herbert|quarkdrivespe
+|turn|4
+|
+|t:|1759062683
+|-terastallize|p2a: Herbert|Psychic
+|move|p2a: Herbert|Psyblade|p1a: Kilowattrel
+|-damage|p1a: Kilowattrel|0 fnt
+|faint|p1a: Kilowattrel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759062696
+|switch|p1a: Eelektrik|Eelektrik, F|100/100
+|turn|5
+|
+|t:|1759062700
+|move|p2a: Herbert|Swords Dance|p2a: Herbert
+|-boost|p2a: Herbert|atk|2
+|move|p1a: Eelektrik|Super Fang|p2a: Herbert
+|-damage|p2a: Herbert|50/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1759062707
+|move|p2a: Herbert|Psyblade|p1a: Eelektrik
+|-damage|p1a: Eelektrik|9/100
+|move|p1a: Eelektrik|Volt Switch|p2a: Herbert
+|-damage|p2a: Herbert|32/100
+|
+|t:|1759062719
+|switch|p1a: Pincurchin|Pincurchin, M|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1759062734
+|move|p2a: Herbert|Psyblade|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759062738
+|switch|p1a: Magnezone|Magnezone|100/100
+|turn|8
+|
+|t:|1759062758
+|move|p2a: Herbert|Close Combat|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-unboost|p2a: Herbert|def|1
+|-unboost|p2a: Herbert|spd|1
+|faint|p1a: Magnezone
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|-end|p2a: Herbert|Quark Drive
+|upkeep
+|-enditem|p2a: Herbert|Booster Energy
+|-activate|p2a: Herbert|ability: Quark Drive|[fromitem]
+|-start|p2a: Herbert|quarkdriveatk
+|
+|t:|1759062765
+|switch|p1a: Pelipper|Pelipper, F|100/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|9
+|
+|t:|1759062772
+|move|p2a: Herbert|Psyblade|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1759062774
+|switch|p1a: Blastoise|Blastoise, F|100/100
+|turn|10
+|
+|t:|1759062779
+|move|p2a: Herbert|Psyblade|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Otherthero forfeited.
+|
+|win|lehuynhan
+|raw|Otherthero's rating: 1224 &rarr; <strong>1195</strong><br />(-29 for losing)
+|raw|lehuynhan's rating: 1170 &rarr; <strong>1199</strong><br />(+29 for winning)
+|l|‽Otherthero
+|player|p1|

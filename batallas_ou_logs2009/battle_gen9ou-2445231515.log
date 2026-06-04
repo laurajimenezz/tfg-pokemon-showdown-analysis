@@ -1,0 +1,255 @@
+|j|☆blunderscore
+|j|☆heal_fire
+|t:|1758317400
+|gametype|singles
+|player|p1|blunderscore|medium|1300
+|player|p2|heal_fire|ghetsis|1357
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Slither Wing|
+|poke|p1|Venusaur, M|
+|poke|p1|Walking Wake|
+|poke|p2|Pelipper, M|
+|poke|p2|Iron Treads|
+|poke|p2|Ludicolo, F|
+|poke|p2|Barraskewda, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Gliscor, M|
+|teampreview
+|
+|t:|1758317427
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Grosse mouette|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Grosse mouette
+|turn|1
+|
+|t:|1758317452
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Grosse mouette|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|97/100
+|
+|t:|1758317459
+|switch|p2a: Mad max|Iron Treads|100/100|[from] U-turn
+|-enditem|p2a: Mad max|Booster Energy
+|-activate|p2a: Mad max|ability: Quark Drive|[fromitem]
+|-start|p2a: Mad max|quarkdrivespe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758317465
+|move|p2a: Mad max|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|20/100
+|move|p1a: Torkoal|Overheat|p2a: Mad max
+|-supereffective|p2a: Mad max
+|-damage|p2a: Mad max|0 fnt
+|-unboost|p1a: Torkoal|spa|2
+|faint|p2a: Mad max
+|-end|p2a: Mad max|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758317475
+|switch|p2a: Grosse mouette|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Grosse mouette
+|turn|3
+|
+|t:|1758317478
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|move|p2a: Grosse mouette|U-turn|p1a: Walking Wake
+|-damage|p1a: Walking Wake|90/100
+|
+|t:|1758317481
+|switch|p2a: Assault vest|Raging Bolt|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758317488
+|-terastallize|p2a: Assault vest|Electric
+|move|p1a: Walking Wake|Draco Meteor|p2a: Assault vest
+|-damage|p2a: Assault vest|45/100
+|-unboost|p1a: Walking Wake|spa|2
+|move|p2a: Assault vest|Thunder|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758317495
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blunderscore)
+|
+|t:|1758317514
+|move|p1a: Venusaur|Earthquake|p2a: Assault vest
+|-supereffective|p2a: Assault vest
+|-damage|p2a: Assault vest|2/100
+|-damage|p1a: Venusaur|91/100|[from] item: Life Orb
+|move|p2a: Assault vest|Thunder|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|21/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758317523
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-end|p2a: Assault vest|Protosynthesis|[silent]
+|switch|p2a: Scordrong|Gliscor, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Scordrong|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1758317528
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-item|p1a: Hatterene|Air Balloon
+|move|p2a: Scordrong|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|82/100
+|-enditem|p1a: Hatterene|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|c|☆heal_fire|why air balloon?
+|
+|t:|1758317550
+|move|p2a: Scordrong|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|57/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|c|☆blunderscore|fuck knows this is a sample team
+|c|☆blunderscore|guess it fucks w great tusk
+|c|☆heal_fire|ah
+|
+|t:|1758317571
+|switch|p2a: Assault vest|Raging Bolt, tera:Electric|2/100
+|move|p1a: Hatterene|Psychic Noise|p2a: Assault vest
+|-damage|p2a: Assault vest|0 fnt
+|faint|p2a: Assault vest
+|-end|p2a: Assault vest|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆heal_fire|alright
+|
+|t:|1758317579
+|switch|p2a: Grosse mouette|Pelipper, M|100/100
+|turn|10
+|
+|t:|1758317586
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|move|p2a: Grosse mouette|U-turn|p1: Hatterene|[notarget]
+|-fail|p2a: Grosse mouette
+|
+|-weather|none
+|upkeep
+|
+|t:|1758317589
+|switch|p1a: Torkoal|Torkoal, F|20/100
+|-heal|p1a: Torkoal|100/100|[from] move: Healing Wish
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|11
+|
+|t:|1758317599
+|switch|p2a: Scordrong|Gliscor, M|100/100 tox
+|move|p1a: Torkoal|Eruption|p2a: Scordrong
+|-damage|p2a: Scordrong|0 fnt
+|faint|p2a: Scordrong
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758317602
+|switch|p2a: Grosse mouette|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Grosse mouette
+|turn|12
+|
+|t:|1758317609
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|move|p2a: Grosse mouette|Surf|p1a: Slither Wing
+|-damage|p1a: Slither Wing|67/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|
+|t:|1758317620
+|switch|p2a: Ananas|Ludicolo, F|100/100
+|move|p1a: Slither Wing|U-turn|p2a: Ananas
+|-supereffective|p2a: Ananas
+|-damage|p2a: Ananas|0 fnt
+|faint|p2a: Ananas
+|c|☆heal_fire|NO
+|c|☆blunderscore|oh wow
+|c|☆heal_fire|not my ANANAS
+|c|☆blunderscore|paper skin ananas
+|c|☆heal_fire|why!
+|
+|t:|1758317634
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆heal_fire|he as so pure so innocent
+|c|☆blunderscore|fuck him!!!
+|c|☆heal_fire|you monster
+|
+|t:|1758317646
+|switch|p2a: barracuda|Barraskewda, M|100/100
+|turn|14
+|c|☆blunderscore|yeaah
+|
+|t:|1758317650
+|move|p1a: Raging Bolt|Thunderclap|p2a: barracuda
+|-supereffective|p2a: barracuda
+|-damage|p2a: barracuda|0 fnt
+|faint|p2a: barracuda
+|-damage|p1a: Raging Bolt|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆heal_fire|bruh
+|c|☆blunderscore|gg
+|c|☆heal_fire|*insert tom and jerry's face*
+|c|☆blunderscore|: o
+|c|☆heal_fire|gg
+|-message|heal_fire forfeited.
+|
+|win|blunderscore

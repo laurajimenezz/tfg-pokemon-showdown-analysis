@@ -1,0 +1,320 @@
+|j|☆wsnid
+|j|☆GambamamanI
+|t:|1758950345
+|gametype|singles
+|player|p1|wsnid|hilbert|1363
+|player|p2|GambamamanI|266|1400
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zapdos|
+|poke|p1|Pelipper, F|
+|poke|p1|Iron Treads|
+|poke|p1|Barraskewda, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Azumarill, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Volcanion|
+|poke|p2|Hydrapple, F|
+|poke|p2|Gholdengo|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wsnid)
+|
+|t:|1758950374
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1758950385
+|move|p1a: Zapdos|Thunderbolt|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|23/100
+|move|p2a: Samurott|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|58/100
+|-damage|p2a: Samurott|7/100|[from] item: Rocky Helmet|[of] p1a: Zapdos
+|-status|p2a: Samurott|par|[from] ability: Static|[of] p1a: Zapdos
+|-enditem|p1a: Zapdos|Rocky Helmet|[from] move: Knock Off|[of] p2a: Samurott
+|
+|upkeep
+|turn|2
+|
+|t:|1758950402
+|move|p2a: Samurott|Sucker Punch||[still]
+|-fail|p2a: Samurott
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|upkeep
+|turn|3
+|
+|t:|1758950412
+|move|p2a: Samurott|Sucker Punch|p1a: Zapdos
+|-damage|p1a: Zapdos|70/100
+|move|p1a: Zapdos|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|t:|1758950419
+|switch|p1a: Pelipper|Pelipper, F|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758950428
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|4
+|
+|t:|1758950434
+|move|p2a: Volcanion|Steam Eruption|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|5/100
+|move|p1a: Pelipper|U-turn|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|97/100
+|
+|t:|1758950451
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758950464
+|move|p1a: Iron Treads|Earthquake|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|16/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758950485
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|turn|6
+|
+|t:|1758950489
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|move|p1a: Barraskewda|Close Combat|p2a: Hydrapple
+|-damage|p2a: Hydrapple|65/100
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|-damage|p1a: Barraskewda|84/100|[from] item: Rocky Helmet|[of] p2a: Hydrapple
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758950499
+|switch|p1a: Zapdos|Zapdos|70/100
+|move|p2a: Hydrapple|Fickle Beam|p1a: Zapdos|[anim] Fickle Beam All Out
+|-activate|p2a: Hydrapple|move: Fickle Beam
+|-damage|p1a: Zapdos|8/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758950511
+|move|p1a: Zapdos|Hurricane|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|GambamamanI has 120 seconds left.
+|
+|t:|1758950539
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|turn|9
+|inactive|GambamamanI has 120 seconds left.
+|
+|t:|1758950549
+|move|p2a: Landorus|Tera Blast|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758950556
+|switch|p1a: Barraskewda|Barraskewda, M|84/100
+|turn|10
+|
+|t:|1758950570
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Barraskewda|Ice Fang|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|85/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1758950583
+|switch|p1a: Pelipper|Pelipper, F|5/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Pelipper|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1758950591
+|move|p2a: Landorus|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|t:|1758950600
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758950609
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|13
+|
+|t:|1758950616
+|-terastallize|p2a: Great Tusk|Fairy
+|move|p1a: Greninja|Ice Beam|p2a: Great Tusk
+|-damage|p2a: Great Tusk|51/100
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|move|p2a: Great Tusk|Headlong Rush|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Greninja
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758950626
+|switch|p1a: Barraskewda|Barraskewda, M|84/100
+|turn|14
+|
+|t:|1758950631
+|move|p1a: Barraskewda|Flip Turn|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|t:|1758950634
+|switch|p1a: Azumarill|Azumarill, M|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758950643
+|switch|p2a: Volcanion|Volcanion|16/100
+|turn|15
+|
+|t:|1758950658
+|switch|p2a: Gholdengo|Gholdengo|85/100
+|move|p1a: Azumarill|Play Rough|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|47/100
+|-unboost|p2a: Gholdengo|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1758950667
+|move|p2a: Gholdengo|Make It Rain|p1a: Azumarill
+|-damage|p1a: Azumarill|39/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Azumarill|Play Rough|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|6/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1758950695
+|switch|p1a: Barraskewda|Barraskewda, M|84/100
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|56/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1758950725
+|switch|p2a: Volcanion|Volcanion|16/100
+|move|p1a: Barraskewda|Close Combat|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|faint|p2a: Volcanion
+|
+|-weather|none
+|upkeep
+|inactive|GambamamanI has 120 seconds left.
+|
+|t:|1758950747
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Barraskewda|atk|1
+|turn|19
+|
+|t:|1758950752
+|switch|p1a: Azumarill|Azumarill, M|39/100
+|move|p2a: Landorus|Earthquake|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|upkeep
+|
+|t:|1758950756
+|switch|p1a: Barraskewda|Barraskewda, M|84/100
+|turn|20
+|
+|t:|1758950760
+|move|p2a: Landorus|Earthquake|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|win|GambamamanI
+|raw|wsnid's rating: 1363 &rarr; <strong>1345</strong><br />(-18 for losing)
+|raw|GambamamanI's rating: 1400 &rarr; <strong>1418</strong><br />(+18 for winning)
+|l|☆GambamamanI
+|player|p2|
+|j| xinshou520
+|j| amefurikoneko
+|j| fashion people时尚人
+|l| amefurikoneko
+|l| xinshou520

@@ -1,0 +1,266 @@
+|j|☆Wer223
+|j|☆adv 1v1
+|t:|1760411360
+|gametype|singles
+|player|p1|Wer223|2|1635
+|player|p2|adv 1v1|lisia|1597
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Heatran, M|
+|poke|p1|Latios, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Treads|
+|poke|p1|Dragapult, F|
+|poke|p2|Jirachi|
+|poke|p2|Ursaluna, M|
+|poke|p2|Iron Hands|
+|poke|p2|Volcanion|
+|poke|p2|Moltres-Galar|
+|poke|p2|Rillaboom, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by adv 1v1)
+|
+|t:|1760411369
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1760411375
+|move|p1a: Dragapult|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|22/100
+|
+|t:|1760411378
+|switch|p1a: Heatran|Heatran, M|100/100|[from] U-turn
+|move|p2a: Rillaboom|High Horsepower|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-damage|p2a: Rillaboom|5/100|[from] item: Rocky Helmet|[of] p1a: Heatran
+|faint|p1a: Heatran
+|-damage|p2a: Rillaboom|0 fnt|[from] item: Life Orb
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|t:|1760411387
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|2
+|
+|t:|1760411390
+|move|p1a: Iron Valiant|Moonblast|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760411396
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|3
+|
+|t:|1760411401
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Jirachi|U-turn|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|92/100
+|
+|t:|1760411404
+|switch|p2a: Ursaluna|Ursaluna, M|100/100|[from] U-turn
+|
+|-heal|p1a: Iron Treads|98/100|[from] Grassy Terrain
+|-heal|p1a: Iron Treads|100/100|[from] item: Leftovers
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1760411412
+|move|p1a: Iron Treads|Ice Spinner|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|66/100 brn
+|-fieldend|move: Grassy Terrain
+|move|p2a: Ursaluna|Headlong Rush|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-damage|p2a: Ursaluna|59/100 brn|[from] brn
+|upkeep
+|
+|t:|1760411425
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|5
+|
+|t:|1760411445
+|switch|p2a: Moltres|Moltres-Galar|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Moltres
+|-damage|p2a: Moltres|60/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Moltres
+|-damage|p2a: Moltres|23/100
+|-ability|p2a: Moltres|Berserk|boost
+|-boost|p2a: Moltres|spa|1
+|
+|-heal|p2a: Moltres|29/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760411452
+|move|p1a: Dragapult|Dragon Darts|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|upkeep
+|
+|t:|1760411454
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|7
+|
+|t:|1760411458
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Jirachi|Iron Head|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|79/100
+|
+|upkeep
+|turn|8
+|j| Rizzofreko
+|
+|t:|1760411465
+|-terastallize|p2a: Jirachi|Steel
+|move|p2a: Jirachi|Iron Head|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|51/100
+|cant|p1a: Samurott|flinch
+|
+|upkeep
+|turn|9
+|
+|t:|1760411471
+|move|p2a: Jirachi|Iron Head|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|26/100
+|cant|p1a: Samurott|flinch
+|
+|upkeep
+|turn|10
+|
+|t:|1760411479
+|move|p2a: Jirachi|Iron Head|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|l| Rizzofreko
+|
+|t:|1760411485
+|switch|p1a: Latios|Latios, M|100/100
+|turn|11
+|
+|t:|1760411491
+|-terastallize|p1a: Latios|Steel
+|move|p1a: Latios|Aura Sphere|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|38/100
+|move|p2a: Jirachi|Iron Head|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|68/100
+|
+|upkeep
+|turn|12
+|
+|t:|1760411498
+|switch|p2a: Ursaluna|Ursaluna, M|59/100 brn
+|move|p1a: Latios|Aura Sphere|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1760411500
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|13
+|
+|t:|1760411503
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Jirachi|Jirachi, tera:Steel|38/100
+|
+|upkeep
+|turn|14
+|
+|t:|1760411507
+|move|p1a: Iron Valiant|Vacuum Wave|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|upkeep
+|
+|t:|1760411510
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|15
+|
+|t:|1760411512
+|move|p1a: Iron Valiant|Vacuum Wave|p2a: Volcanion
+|-damage|p2a: Volcanion|69/100
+|move|p2a: Volcanion|Sludge Bomb|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760411514
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|16
+|
+|t:|1760411516
+|move|p1a: Dragapult|Dragon Darts|p2a: Volcanion
+|-damage|p2a: Volcanion|37/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Volcanion
+|-damage|p2a: Volcanion|6/100
+|move|p2a: Volcanion|Earth Power|p1a: Dragapult
+|-damage|p1a: Dragapult|52/100
+|
+|upkeep
+|turn|17
+|
+|t:|1760411517
+|move|p1a: Dragapult|Dragon Darts|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|win|Wer223
+|raw|Wer223's rating: 1635 &rarr; <strong>1653</strong><br />(+18 for winning)
+|raw|adv 1v1's rating: 1597 &rarr; <strong>1579</strong><br />(-18 for losing)
+|l|☆Wer223
+|player|p1|
+|l|☆adv 1v1
+|player|p2|

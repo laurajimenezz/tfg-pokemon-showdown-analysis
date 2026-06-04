@@ -1,0 +1,305 @@
+|j|☆sdor16
+|j|☆mateuscavalo
+|t:|1760727807
+|gametype|singles
+|player|p1|sdor16|101|1458
+|player|p2|mateuscavalo|1|1526
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ting-Lu|
+|poke|p1|Dragonite, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Weavile, M|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p2|Reuniclus, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Cinderace, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mateuscavalo)
+|
+|t:|1760727836
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Weavile|Weavile, M|100/100
+|switch|p2a: Solar Flare|Cinderace, F|100/100
+|turn|1
+|
+|t:|1760727842
+|move|p1a: Weavile|Knock Off|p2a: Solar Flare
+|-damage|p2a: Solar Flare|4/100
+|-enditem|p2a: Solar Flare|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Solar Flare|U-turn|p1a: Weavile
+|-start|p2a: Solar Flare|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|t:|1760727868
+|switch|p2a: Terratomere|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1760727882
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|2
+|
+|t:|1760727887
+|move|p2a: Terratomere|Ivy Cudgel|p1a: Ting-Lu|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|35/100
+|-enditem|p1a: Ting-Lu|Weakness Policy
+|-boost|p1a: Ting-Lu|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Ting-Lu|spa|2|[from] item: Weakness Policy
+|move|p1a: Ting-Lu|Payback|p2a: Terratomere
+|-damage|p2a: Terratomere|0 fnt
+|faint|p2a: Terratomere
+|
+|upkeep
+|
+|t:|1760727894
+|switch|p2a: Excelsus|Iron Valiant|100/100
+|turn|3
+|
+|t:|1760727902
+|-terastallize|p1a: Ting-Lu|Ground
+|move|p2a: Excelsus|Moonblast|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|5/100
+|-unboost|p1a: Ting-Lu|spa|1
+|move|p1a: Ting-Lu|Rest|p1a: Ting-Lu
+|-status|p1a: Ting-Lu|slp|[from] move: Rest
+|-heal|p1a: Ting-Lu|100/100 slp|[silent]
+|
+|upkeep
+|turn|4
+|
+|t:|1760727910
+|move|p2a: Excelsus|Encore|p1a: Ting-Lu
+|-start|p1a: Ting-Lu|Encore
+|cant|p1a: Ting-Lu|slp
+|
+|upkeep
+|turn|5
+|
+|t:|1760727915
+|move|p2a: Excelsus|Moonblast|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|71/100 slp
+|cant|p1a: Ting-Lu|slp
+|
+|upkeep
+|turn|6
+|
+|t:|1760727920
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Excelsus|Moonblast|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|85/100
+|-unboost|p1a: Slowking|spa|1
+|
+|upkeep
+|turn|7
+|
+|t:|1760727923
+|move|p2a: Excelsus|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|24/100
+|-enditem|p1a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Excelsus
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1760727936
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760727941
+|-end|p2a: Excelsus|Quark Drive|[silent]
+|switch|p2a: Murasama|Kingambit, F|100/100
+|-activate|p2a: Murasama|ability: Supreme Overlord
+|-start|p2a: Murasama|fallen1|[silent]
+|move|p1a: Gholdengo|Focus Blast|p2a: Murasama
+|-supereffective|p2a: Murasama
+|-damage|p2a: Murasama|0 fnt
+|faint|p2a: Murasama
+|-end|p2a: Murasama|fallen1|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760727944
+|switch|p2a: Earth|Landorus-Therian, M|100/100
+|-ability|p2a: Earth|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|turn|9
+|
+|t:|1760727950
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Earth|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: sdor16|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760727955
+|move|p2a: Earth|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|94/100
+|-damage|p2a: Earth|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|t:|1760727956
+|switch|p2a: Metastasis|Reuniclus, F|100/100|[from] U-turn
+|move|p1a: Great Tusk|Rapid Spin|p2a: Metastasis
+|-damage|p2a: Metastasis|86/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: sdor16|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760727962
+|move|p1a: Great Tusk|Knock Off|p2a: Metastasis
+|-supereffective|p2a: Metastasis
+|-damage|p2a: Metastasis|30/100
+|-enditem|p2a: Metastasis|Life Orb|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Metastasis|Trick Room|p2a: Metastasis
+|-fieldstart|move: Trick Room|[of] p2a: Metastasis
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1760727969
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu, tera:Ground|71/100 slp
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Metastasis|Psychic Noise|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|50/100 slp
+|-start|p1a: Ting-Lu|move: Heal Block
+|
+|upkeep
+|turn|13
+|
+|t:|1760727975
+|move|p2a: Metastasis|Focus Blast|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|26/100 slp
+|-curestatus|p1a: Ting-Lu|slp|[msg]
+|move|p1a: Ting-Lu|Payback|p2a: Metastasis
+|-supereffective|p2a: Metastasis
+|-damage|p2a: Metastasis|0 fnt
+|faint|p2a: Metastasis
+|
+|-end|p1a: Ting-Lu|move: Heal Block
+|upkeep
+|
+|t:|1760727988
+|switch|p2a: Earth|Landorus-Therian, M|84/100
+|-ability|p2a: Earth|Intimidate|boost
+|-unboost|p1a: Ting-Lu|atk|1
+|turn|14
+|
+|t:|1760727992
+|switch|p1a: Great Tusk|Great Tusk|94/100
+|move|p2a: Earth|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: sdor16|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|t:|1760727996
+|move|p1a: Great Tusk|Rapid Spin|p2a: Earth
+|-crit|p2a: Earth
+|-damage|p2a: Earth|61/100
+|-boost|p1a: Great Tusk|spe|1
+|-damage|p1a: Great Tusk|77/100|[from] item: Rocky Helmet|[of] p2a: Earth
+|-sideend|p1: sdor16|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Earth|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|46/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|16
+|
+|t:|1760728000
+|move|p1a: Great Tusk|Stealth Rock|p2a: Earth
+|-sidestart|p2: mateuscavalo|move: Stealth Rock
+|move|p2a: Earth|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|15/100
+|
+|upkeep
+|turn|17
+|
+|t:|1760728004
+|move|p1a: Great Tusk|Ice Spinner|p2a: Earth
+|-supereffective|p2a: Earth
+|-damage|p2a: Earth|0 fnt
+|-damage|p1a: Great Tusk|0 fnt|[from] item: Rocky Helmet|[of] p2a: Earth
+|faint|p2a: Earth
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760728011
+|switch|p2a: Excelsus|Iron Valiant|100/100
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Excelsus|94/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1760728014
+|switch|p1a: Ting-Lu|Ting-Lu, tera:Ground|26/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Excelsus|Knock Off|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|17/100
+|
+|upkeep
+|turn|19
+|
+|t:|1760728017
+|move|p2a: Excelsus|Moonblast|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1760728019
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|20
+|
+|t:|1760728024
+|move|p1a: Gholdengo|Make It Rain|p2a: Excelsus
+|-supereffective|p2a: Excelsus
+|-damage|p2a: Excelsus|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Excelsus
+|-end|p2a: Excelsus|Quark Drive|[silent]
+|
+|upkeep
+|-message|mateuscavalo forfeited.
+|
+|win|sdor16
+|raw|sdor16's rating: 1458 &rarr; <strong>1482</strong><br />(+24 for winning)
+|raw|mateuscavalo's rating: 1526 &rarr; <strong>1502</strong><br />(-24 for losing)
+|l|☆mateuscavalo
+|player|p2|
+|l|☆sdor16
+|player|p1|

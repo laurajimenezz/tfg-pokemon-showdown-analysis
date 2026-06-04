@@ -1,0 +1,279 @@
+|j|☆Underquill
+|j|☆24lid
+|t:|1769414897
+|gametype|singles
+|player|p1|Underquill|266|1267
+|player|p2|24lid|1|1329
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Brute Bonnet|
+|poke|p1|Walking Wake|
+|poke|p1|Leavanny, M|
+|poke|p1|Scream Tail|
+|poke|p1|Raging Bolt|
+|poke|p2|Tyranitar, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Hydrapple, F|
+|poke|p2|Garganacl, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Alomomola, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Underquill)
+|
+|t:|1769414908
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Leavanny|Leavanny, M|100/100
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|1
+|
+|t:|1769414921
+|move|p1a: Leavanny|Sticky Web|p2a: Alomomola
+|-sidestart|p2: 24lid|move: Sticky Web
+|move|p2a: Alomomola|Flip Turn|p1a: Leavanny
+|-resisted|p1a: Leavanny
+|-damage|p1a: Leavanny|88/100
+|
+|t:|1769414926
+|switch|p2a: Excadrill|Excadrill, M|100/100|[from] Flip Turn
+|-activate|p2a: Excadrill|move: Sticky Web
+|-unboost|p2a: Excadrill|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1769414937
+|move|p1a: Leavanny|Triple Axel|p2a: Excadrill
+|-damage|p2a: Excadrill|91/100
+|-damage|p2a: Excadrill|73/100
+|-damage|p2a: Excadrill|47/100
+|-hitcount|p2a: Excadrill|3
+|move|p2a: Excadrill|Rapid Spin|p1a: Leavanny
+|-damage|p1a: Leavanny|61/100
+|-boost|p2a: Excadrill|spe|1
+|-sideend|p2: 24lid|Sticky Web|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-heal|p2a: Excadrill|53/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1769414946
+|move|p2a: Excadrill|Rock Slide|p1a: Leavanny
+|-supereffective|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|faint|p1a: Leavanny
+|
+|-heal|p2a: Excadrill|59/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769414951
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|4
+|
+|t:|1769414953
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Torkoal|Will-O-Wisp|p2a: Tyranitar
+|-status|p2a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Torkoal|94/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1769414962
+|switch|p1a: Brute Bonnet|Brute Bonnet|100/100
+|move|p2a: Tyranitar|Knock Off|p1a: Brute Bonnet
+|-resisted|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|83/100
+|-enditem|p1a: Brute Bonnet|Assault Vest|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Brute Bonnet|77/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1769414971
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|move|p1a: Brute Bonnet|Trailblaze|p2a: Hydrapple
+|-resisted|p2a: Hydrapple
+|-damage|p2a: Hydrapple|96/100
+|-boost|p1a: Brute Bonnet|spe|1
+|-damage|p1a: Brute Bonnet|60/100|[from] item: Rocky Helmet|[of] p2a: Hydrapple
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Brute Bonnet|54/100|[from] Sandstorm
+|-damage|p2a: Hydrapple|90/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1769414979
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, M|94/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Hydrapple|Fickle Beam|p1a: Torkoal
+|-damage|p1a: Torkoal|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1769414986
+|switch|p2a: Tyranitar|Tyranitar, F|88/100 brn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Walking Wake|94/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|82/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1769414991
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Walking Wake|Sunny Day|p1a: Walking Wake
+|-weather|SunnyDay
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1769415005
+|move|p1a: Walking Wake|Hydro Steam|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|80/100
+|move|p2a: Alomomola|Flip Turn|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|93/100
+|
+|t:|1769415013
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Flip Turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1769415020
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-terastallize|p1a: Walking Wake|Water
+|move|p1a: Walking Wake|Hydro Steam|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1769415024
+|move|p1a: Walking Wake|Draco Meteor|p2a: Alomomola
+|-damage|p2a: Alomomola|39/100
+|-unboost|p1a: Walking Wake|spa|2
+|move|p2a: Alomomola|Mirror Coat|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769415029
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|-activate|p1a: Scream Tail|ability: Protosynthesis
+|-start|p1a: Scream Tail|protosynthesisspe
+|turn|13
+|
+|t:|1769415033
+|move|p1a: Scream Tail|Calm Mind|p1a: Scream Tail
+|-boost|p1a: Scream Tail|spa|1
+|-boost|p1a: Scream Tail|spd|1
+|move|p2a: Alomomola|Flip Turn|p1a: Scream Tail
+|-damage|p1a: Scream Tail|94/100
+|
+|t:|1769415038
+|switch|p2a: Garganacl|Garganacl, F|100/100|[from] Flip Turn
+|
+|-weather|none
+|-end|p1a: Scream Tail|Protosynthesis
+|upkeep
+|turn|14
+|
+|t:|1769415042
+|move|p1a: Scream Tail|Psychic Noise|p2a: Garganacl
+|-damage|p2a: Garganacl|77/100
+|-start|p2a: Garganacl|move: Heal Block
+|-enditem|p1a: Scream Tail|Throat Spray
+|-boost|p1a: Scream Tail|spa|1|[from] item: Throat Spray
+|move|p2a: Garganacl|Salt Cure|p1a: Scream Tail
+|-damage|p1a: Scream Tail|81/100
+|-start|p1a: Scream Tail|Salt Cure
+|
+|-damage|p1a: Scream Tail|69/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1769415049
+|move|p1a: Scream Tail|Calm Mind|p1a: Scream Tail
+|-boost|p1a: Scream Tail|spa|1
+|-boost|p1a: Scream Tail|spd|1
+|move|p2a: Garganacl|Stealth Rock|p1a: Scream Tail
+|-sidestart|p1: Underquill|move: Stealth Rock
+|
+|-damage|p1a: Scream Tail|56/100|[from] Salt Cure
+|-end|p2a: Garganacl|move: Heal Block
+|upkeep
+|turn|16
+|
+|t:|1769415053
+|switch|p2a: Tyranitar|Tyranitar, F|82/100 brn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Scream Tail|Psychic Noise|p2a: Tyranitar
+|-immune|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Scream Tail|50/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|76/100 brn|[from] brn
+|-damage|p1a: Scream Tail|38/100|[from] Salt Cure
+|upkeep
+|turn|17
+|
+|t:|1769415057
+|move|p1a: Scream Tail|Boomburst|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|48/100 brn
+|move|p2a: Tyranitar|Knock Off|p1a: Scream Tail
+|-crit|p1a: Scream Tail
+|-damage|p1a: Scream Tail|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Scream Tail|0 fnt|[from] Sandstorm
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|-damage|p2a: Tyranitar|42/100 brn|[from] brn
+|upkeep
+|-message|Underquill forfeited.
+|
+|win|24lid
+|raw|Underquill's rating: 1267 &rarr; <strong>1246</strong><br />(-21 for losing)
+|raw|24lid's rating: 1329 &rarr; <strong>1345</strong><br />(+16 for winning)
+|l|☆Underquill
+|player|p1|
+|l|☆24lid
+|player|p2|

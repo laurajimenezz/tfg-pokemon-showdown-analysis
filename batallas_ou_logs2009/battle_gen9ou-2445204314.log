@@ -1,0 +1,898 @@
+|j|☆dynamo fuckass
+|j|☆Yamhard
+|t:|1758314443
+|gametype|singles
+|player|p1|dynamo fuckass|101|1392
+|player|p2|Yamhard|169|1403
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Keldeo|
+|poke|p1|Iron Valiant|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Zapdos|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Weavile, F|
+|poke|p2|Luxray, M|
+|poke|p2|Ribombee, M|
+|poke|p2|Gholdengo|
+|poke|p2|Garganacl, M|
+|poke|p2|Vaporeon, F|
+|poke|p2|Rillaboom, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yamhard)
+|
+|t:|1758314464
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|turn|1
+|
+|t:|1758314473
+|move|p2a: Ribombee|Sticky Web|p1a: Zapdos
+|-sidestart|p1: dynamo fuckass|move: Sticky Web
+|move|p1a: Zapdos|Hurricane|p2a: Ribombee|[miss]
+|-miss|p1a: Zapdos|p2a: Ribombee
+|
+|upkeep
+|turn|2
+|
+|t:|1758314489
+|move|p2a: Ribombee|Psychic Noise|p1a: Zapdos
+|-damage|p1a: Zapdos|79/100
+|-start|p1a: Zapdos|move: Heal Block
+|move|p1a: Zapdos|Hurricane|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758314502
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|move|p1a: Zapdos|Volt Switch|p2a: Garganacl
+|-damage|p2a: Garganacl|75/100
+|
+|t:|1758314529
+|switch|p1a: Iron Valiant|Iron Valiant|100/100|[from] Volt Switch
+|-activate|p1a: Iron Valiant|move: Sticky Web
+|-unboost|p1a: Iron Valiant|spe|1
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdriveatk
+|
+|-heal|p2a: Garganacl|81/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1758314542
+|switch|p2a: Luxray|Luxray, M|100/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Luxray
+|-damage|p2a: Luxray|43/100
+|-enditem|p2a: Luxray|Flame Orb|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|upkeep
+|turn|5
+|
+|t:|1758314559
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Luxray|atk|1
+|move|p2a: Luxray|Wild Charge|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|upkeep
+|turn|6
+|
+|t:|1758314580
+|switch|p2a: Garganacl|Garganacl, M|81/100
+|move|p1a: Landorus|Stealth Rock|p2a: Garganacl
+|-sidestart|p2: Yamhard|move: Stealth Rock
+|
+|-heal|p2a: Garganacl|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758314588
+|move|p1a: Landorus|Taunt|p2a: Garganacl
+|-start|p2a: Garganacl|move: Taunt
+|move|p2a: Garganacl|Salt Cure|p1a: Landorus
+|-damage|p1a: Landorus|87/100
+|-start|p1a: Landorus|Salt Cure
+|
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|-damage|p1a: Landorus|75/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1758314601
+|move|p1a: Landorus|U-turn|p2a: Garganacl
+|-damage|p2a: Garganacl|82/100
+|
+|t:|1758314606
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|move|p2a: Garganacl|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|88/100
+|-start|p1a: Slowking|Salt Cure
+|
+|-heal|p2a: Garganacl|89/100|[from] item: Leftovers
+|-damage|p1a: Slowking|76/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1758314617
+|move|p2a: Garganacl|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|33/100
+|move|p1a: Slowking|Future Sight|p2a: Garganacl
+|-start|p1a: Slowking|move: Future Sight
+|
+|-heal|p2a: Garganacl|95/100|[from] item: Leftovers
+|-damage|p1a: Slowking|21/100|[from] Salt Cure
+|-end|p2a: Garganacl|move: Taunt
+|upkeep
+|turn|10
+|
+|t:|1758314632
+|switch|p1a: Landorus|Landorus-Therian, M|75/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garganacl|atk|1
+|move|p2a: Garganacl|Salt Cure|p1a: Landorus
+|-damage|p1a: Landorus|66/100
+|-start|p1a: Landorus|Salt Cure
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Landorus|54/100|[from] Salt Cure
+|upkeep
+|turn|11
+|
+|t:|1758314643
+|switch|p2a: Ribombee|Ribombee, M|1/100
+|-damage|p2a: Ribombee|0 fnt|[from] Stealth Rock
+|faint|p2a: Ribombee
+|move|p1a: Landorus|Earthquake|p2: Ribombee|[notarget]
+|-fail|p1a: Landorus
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|-damage|p1a: Landorus|41/100|[from] Salt Cure
+|upkeep
+|
+|t:|1758314657
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-damage|p2a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|12
+|inactive|Yamhard has 120 seconds left.
+|
+|t:|1758314674
+|switch|p1a: Slowking|Slowking-Galar, F|54/100
+|move|p2a: Rillaboom|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-enditem|p1a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Rillaboom
+|faint|p1a: Slowking
+|-damage|p2a: Rillaboom|78/100|[from] item: Life Orb
+|
+|-heal|p2a: Rillaboom|84/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758314679
+|switch|p1a: Zapdos|Zapdos|79/100
+|turn|13
+|
+|t:|1758314693
+|switch|p2a: Luxray|Luxray, M|43/100
+|-damage|p2a: Luxray|30/100|[from] Stealth Rock
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-heal|p2a: Luxray|36/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|inactive|Yamhard has 120 seconds left.
+|
+|t:|1758314711
+|move|p1a: Zapdos|Volt Switch|p2a: Luxray
+|-resisted|p2a: Luxray
+|-damage|p2a: Luxray|15/100
+|
+|t:|1758314715
+|switch|p1a: Landorus|Landorus-Therian, M|41/100|[from] Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Luxray|atk|1
+|move|p2a: Luxray|Trailblaze|p1a: Landorus
+|-damage|p1a: Landorus|26/100
+|-boost|p2a: Luxray|spe|1
+|-damage|p2a: Luxray|0 fnt|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p2a: Luxray
+|
+|upkeep
+|inactive|Yamhard has 120 seconds left.
+|
+|t:|1758314739
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1758314768
+|move|p1a: Landorus|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|66/100
+|move|p2a: Garganacl|Salt Cure|p1a: Landorus
+|-damage|p1a: Landorus|14/100
+|-start|p1a: Landorus|Salt Cure
+|
+|-heal|p2a: Garganacl|72/100|[from] Grassy Terrain
+|-heal|p2a: Garganacl|78/100|[from] item: Leftovers
+|-damage|p1a: Landorus|2/100|[from] Salt Cure
+|upkeep
+|turn|16
+|inactive|Yamhard has 120 seconds left.
+|c|☆Yamhard|I just want to use luxray
+|c|☆dynamo fuckass|luxray is too butt
+|
+|t:|1758314791
+|move|p1a: Landorus|U-turn|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|62/100
+|
+|t:|1758314795
+|switch|p1a: Zapdos|Zapdos|100/100|[from] U-turn
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1758314810
+|move|p1a: Zapdos|Volt Switch|p2a: Garganacl
+|-damage|p2a: Garganacl|74/100
+|
+|t:|1758314816
+|switch|p1a: Landorus|Landorus-Therian, M|2/100|[from] Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garganacl|atk|1
+|move|p2a: Garganacl|Salt Cure|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: Garganacl|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758314823
+|switch|p1a: Keldeo|Keldeo|100/100
+|turn|18
+|inactive|Yamhard has 120 seconds left.
+|
+|t:|1758314834
+|switch|p2a: Rillaboom|Rillaboom, M|84/100
+|-damage|p2a: Rillaboom|72/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Keldeo|Flip Turn|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|64/100
+|
+|t:|1758314839
+|switch|p1a: Zapdos|Zapdos|100/100|[from] Flip Turn
+|
+|-heal|p2a: Rillaboom|71/100|[from] Grassy Terrain
+|upkeep
+|turn|19
+|inactive|Yamhard has 120 seconds left.
+|
+|t:|1758314865
+|switch|p2a: Garganacl|Garganacl, M|80/100
+|-damage|p2a: Garganacl|68/100|[from] Stealth Rock
+|move|p1a: Zapdos|Volt Switch|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|31/100
+|
+|t:|1758314874
+|switch|p1a: Weavile|Weavile, F|100/100|[from] Volt Switch
+|-ability|p1a: Weavile|Pressure
+|
+|-heal|p2a: Garganacl|37/100|[from] Grassy Terrain
+|-heal|p2a: Garganacl|43/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Yamhard has 120 seconds left.
+|
+|t:|1758314885
+|move|p1a: Weavile|Knock Off|p2a: Garganacl
+|-damage|p2a: Garganacl|19/100
+|-enditem|p2a: Garganacl|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|69/100
+|
+|-heal|p2a: Garganacl|75/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|inactive|Yamhard has 120 seconds left.
+|
+|t:|1758314907
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-activate|p1a: Iron Valiant|move: Sticky Web
+|-unboost|p1a: Iron Valiant|spe|1
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|82/100|[from] Grassy Terrain
+|upkeep
+|turn|22
+|inactive|Yamhard has 120 seconds left.
+|
+|t:|1758314921
+|-terastallize|p2a: Garganacl|Ghost
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|move|p2a: Garganacl|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|76/100
+|
+|-heal|p1a: Iron Valiant|82/100|[from] Grassy Terrain
+|-heal|p2a: Garganacl|88/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|23
+|inactive|Yamhard has 120 seconds left.
+|
+|t:|1758314932
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|move|p2a: Garganacl|Salt Cure|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|69/100
+|-start|p1a: Iron Valiant|Salt Cure
+|
+|-damage|p1a: Iron Valiant|56/100|[from] Salt Cure
+|upkeep
+|turn|24
+|inactive|Yamhard has 120 seconds left.
+|
+|t:|1758314947
+|move|p1a: Iron Valiant|Knock Off|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|44/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|94/100
+|
+|-damage|p1a: Iron Valiant|44/100|[from] Salt Cure
+|upkeep
+|turn|25
+|
+|t:|1758314960
+|move|p1a: Iron Valiant|Knock Off|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|48/100
+|move|p2a: Garganacl|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|2/100
+|
+|-damage|p1a: Iron Valiant|0 fnt|[from] Salt Cure
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|upkeep
+|
+|t:|1758314967
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|26
+|inactive|Yamhard has 120 seconds left.
+|c|☆Yamhard|How did it go from 23% to 42?
+|c|☆Yamhard|What?
+|c|☆dynamo fuckass|grassy
+|inactive|Yamhard has 90 seconds left.
+|c|☆dynamo fuckass|u run anti synergy on ur team lol
+|c|☆Yamhard|Oh I didn’t know it made Eq weaker
+|c|☆dynamo fuckass|it makes all spread ground moves half bp
+|
+|t:|1758315021
+|move|p1a: Zapdos|Hurricane|p2a: Garganacl
+|-damage|p2a: Garganacl|3/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|53/100
+|
+|upkeep
+|turn|27
+|c|☆Yamhard|I deadass didn’t know that
+|
+|t:|1758315038
+|move|p1a: Zapdos|Volt Switch|p2a: Garganacl
+|-damage|p2a: Garganacl|24/100
+|
+|t:|1758315042
+|switch|p1a: Keldeo|Keldeo|100/100|[from] Volt Switch
+|move|p2a: Garganacl|Salt Cure|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|89/100
+|-start|p1a: Keldeo|Salt Cure
+|
+|-damage|p1a: Keldeo|64/100|[from] Salt Cure
+|upkeep
+|turn|28
+|
+|t:|1758315052
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|move|p1a: Keldeo|Surf|p2a: Vaporeon
+|-heal|p2a: Vaporeon|100/100|[from] ability: Water Absorb|[of] p1a: Keldeo
+|
+|-damage|p1a: Keldeo|40/100|[from] Salt Cure
+|upkeep
+|turn|29
+|
+|t:|1758315068
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Vaporeon|Scald|p1a: Zapdos
+|-damage|p1a: Zapdos|72/100
+|
+|upkeep
+|turn|30
+|
+|t:|1758315083
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Zapdos|Thunder Wave|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|upkeep
+|turn|31
+|
+|t:|1758315089
+|move|p1a: Zapdos|Volt Switch|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|56/100
+|
+|t:|1758315094
+|switch|p1a: Weavile|Weavile, F|100/100|[from] Volt Switch
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|62/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|Yamhard has 90 seconds left.
+|
+|t:|1758315111
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|move|p2a: Vaporeon|Scald|p1a: Weavile
+|-damage|p1a: Weavile|62/100
+|-status|p1a: Weavile|brn
+|
+|-heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|-damage|p1a: Weavile|56/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1758315125
+|switch|p2a: Rillaboom|Rillaboom, M|71/100
+|-damage|p2a: Rillaboom|58/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Weavile|Knock Off|p2a: Rillaboom
+|-damage|p2a: Rillaboom|7/100
+|-enditem|p2a: Rillaboom|Life Orb|[from] move: Knock Off|[of] p1a: Weavile
+|
+|-heal|p1a: Weavile|62/100 brn|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|13/100|[from] Grassy Terrain
+|-damage|p1a: Weavile|56/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1758315144
+|move|p1a: Weavile|Ice Shard|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Weavile|62/100 brn|[from] Grassy Terrain
+|-damage|p1a: Weavile|56/100 brn|[from] brn
+|upkeep
+|
+|t:|1758315152
+|switch|p2a: Garganacl|Garganacl, M, tera:Ghost|24/100
+|-damage|p2a: Garganacl|11/100|[from] Stealth Rock
+|turn|35
+|
+|t:|1758315156
+|move|p1a: Weavile|Knock Off|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-heal|p1a: Weavile|62/100 brn|[from] Grassy Terrain
+|-damage|p1a: Weavile|56/100 brn|[from] brn
+|upkeep
+|
+|t:|1758315165
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|turn|36
+|inactive|Yamhard has 90 seconds left.
+|
+|t:|1758315173
+|move|p1a: Weavile|Knock Off|p2a: Vaporeon
+|-damage|p2a: Vaporeon|55/100
+|-enditem|p2a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Vaporeon|Scald|p1a: Weavile
+|-damage|p1a: Weavile|15/100 brn
+|
+|-heal|p1a: Weavile|21/100 brn|[from] Grassy Terrain
+|-heal|p2a: Vaporeon|61/100|[from] Grassy Terrain
+|-damage|p1a: Weavile|15/100 brn|[from] brn
+|upkeep
+|turn|37
+|inactive|Yamhard has 90 seconds left.
+|
+|t:|1758315185
+|move|p1a: Weavile|Knock Off|p2a: Vaporeon
+|-damage|p2a: Vaporeon|37/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p1a: Weavile|21/100 brn|[from] Grassy Terrain
+|-heal|p2a: Vaporeon|43/100|[from] Grassy Terrain
+|-damage|p1a: Weavile|15/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|38
+|
+|t:|1758315200
+|move|p1a: Weavile|Knock Off|p2a: Vaporeon
+|-damage|p2a: Vaporeon|21/100
+|move|p2a: Vaporeon|Scald|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-heal|p2a: Vaporeon|71/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|
+|t:|1758315203
+|switch|p1a: Zapdos|Zapdos|72/100
+|turn|39
+|
+|t:|1758315221
+|move|p1a: Zapdos|Hurricane|p2a: Vaporeon
+|-damage|p2a: Vaporeon|37/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|upkeep
+|turn|40
+|
+|t:|1758315227
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Vaporeon|Ice Beam|p1a: Zapdos
+|-damage|p1a: Zapdos|77/100
+|
+|-heal|p2a: Vaporeon|87/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|41
+|
+|t:|1758315239
+|move|p1a: Zapdos|Hurricane|p2a: Vaporeon|[miss]
+|-miss|p1a: Zapdos|p2a: Vaporeon
+|move|p2a: Vaporeon|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|35/100
+|
+|upkeep
+|turn|42
+|
+|t:|1758315248
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|86/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Vaporeon|Ice Beam|p1a: Zapdos
+|-damage|p1a: Zapdos|64/100
+|
+|upkeep
+|turn|43
+|
+|t:|1758315256
+|move|p1a: Zapdos|Hurricane|p2a: Vaporeon
+|-damage|p2a: Vaporeon|54/100
+|-start|p2a: Vaporeon|confusion
+|-activate|p2a: Vaporeon|confusion
+|-damage|p2a: Vaporeon|51/100|[from] confusion
+|
+|upkeep
+|turn|44
+|
+|t:|1758315266
+|-activate|p2a: Vaporeon|confusion
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|upkeep
+|turn|45
+|inactive|Yamhard has 120 seconds left.
+|
+|t:|1758315274
+|move|p1a: Zapdos|Volt Switch|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|5/100
+|
+|t:|1758315277
+|switch|p1a: Keldeo|Keldeo|40/100|[from] Volt Switch
+|-end|p2a: Vaporeon|confusion
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|upkeep
+|turn|46
+|
+|t:|1758315292
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Keldeo|Aura Sphere|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|55/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|47
+|inactive|dynamo fuckass has 120 seconds left.
+|
+|t:|1758315331
+|move|p1a: Keldeo|Aura Sphere|p2a: Vaporeon
+|-damage|p2a: Vaporeon|22/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|upkeep
+|turn|48
+|
+|t:|1758315339
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Vaporeon|Protect||[still]
+|-fail|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|72/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|49
+|
+|t:|1758315348
+|move|p1a: Zapdos|Thunder Wave|p2a: Vaporeon
+|-status|p2a: Vaporeon|par
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|upkeep
+|turn|50
+|
+|t:|1758315359
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Zapdos|Hurricane|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|72/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|-heal|p2a: Gholdengo|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|51
+|
+|t:|1758315388
+|move|p1a: Zapdos|Volt Switch|p2a: Gholdengo
+|-damage|p2a: Gholdengo|71/100
+|
+|t:|1758315390
+|switch|p1a: Keldeo|Keldeo|40/100|[from] Volt Switch
+|move|p2a: Gholdengo|Make It Rain|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|2/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|upkeep
+|turn|52
+|
+|t:|1758315407
+|switch|p2a: Vaporeon|Vaporeon, F|72/100 par
+|-damage|p2a: Vaporeon|60/100 par|[from] Stealth Rock
+|move|p1a: Keldeo|Surf|p2a: Vaporeon
+|-heal|p2a: Vaporeon|85/100 par|[from] ability: Water Absorb|[of] p1a: Keldeo
+|
+|upkeep
+|turn|53
+|
+|t:|1758315418
+|move|p1a: Keldeo|Aura Sphere|p2a: Vaporeon
+|-damage|p2a: Vaporeon|52/100 par
+|cant|p2a: Vaporeon|par
+|
+|upkeep
+|turn|54
+|
+|t:|1758315424
+|move|p1a: Keldeo|Aura Sphere|p2a: Vaporeon
+|-damage|p2a: Vaporeon|19/100 par
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|upkeep
+|turn|55
+|
+|t:|1758315430
+|switch|p1a: Zapdos|Zapdos|100/100
+|cant|p2a: Vaporeon|par
+|
+|-heal|p2a: Vaporeon|69/100 par|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|56
+|
+|t:|1758315438
+|move|p1a: Zapdos|Hurricane|p2a: Vaporeon
+|-damage|p2a: Vaporeon|34/100 par
+|-start|p2a: Vaporeon|confusion
+|-activate|p2a: Vaporeon|confusion
+|-damage|p2a: Vaporeon|31/100 par|[from] confusion
+|
+|upkeep
+|turn|57
+|
+|t:|1758315448
+|move|p1a: Zapdos|Volt Switch|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|t:|1758315451
+|switch|p1a: Keldeo|Keldeo|2/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1758315458
+|switch|p2a: Gholdengo|Gholdengo|71/100
+|-damage|p2a: Gholdengo|65/100|[from] Stealth Rock
+|turn|58
+|c|☆Yamhard|What hax
+|
+|t:|1758315472
+|move|p1a: Keldeo|Flip Turn|p2a: Gholdengo
+|-damage|p2a: Gholdengo|50/100
+|c|☆dynamo fuckass|it was bound to happen
+|c|☆dynamo fuckass|I'm playing my outs
+|
+|t:|1758315481
+|switch|p1a: Zapdos|Zapdos|100/100|[from] Flip Turn
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|100/100
+|
+|upkeep
+|turn|59
+|
+|t:|1758315509
+|move|p1a: Zapdos|Hurricane|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|78/100
+|-start|p2a: Gholdengo|confusion
+|-activate|p2a: Gholdengo|confusion
+|-damage|p2a: Gholdengo|74/100|[from] confusion
+|
+|upkeep
+|turn|60
+|c|☆Yamhard|No fucking way
+|c|☆dynamo fuckass|maybe I'm just better
+|inactive|dynamo fuckass has 120 seconds left.
+|c|☆dynamo fuckass|lowk
+|
+|t:|1758315529
+|move|p1a: Zapdos|Hurricane|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|53/100
+|-end|p2a: Gholdengo|confusion
+|move|p2a: Gholdengo|Shadow Ball|p1a: Zapdos
+|-damage|p1a: Zapdos|52/100
+|
+|upkeep
+|turn|61
+|c|☆Yamhard|Brother, this was a test team
+|inactive|Yamhard has 120 seconds left.
+|c|☆dynamo fuckass|this is a test team as well
+|c|☆Yamhard|but you are getting lucky
+|c|☆dynamo fuckass|I made this in 5 mins
+|
+|t:|1758315567
+|move|p1a: Zapdos|Volt Switch|p2a: Gholdengo
+|-damage|p2a: Gholdengo|24/100
+|
+|t:|1758315571
+|switch|p1a: Keldeo|Keldeo|2/100|[from] Volt Switch
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|74/100
+|
+|upkeep
+|turn|62
+|c|☆Yamhard|Same
+|inactive|Yamhard has 120 seconds left.
+|
+|t:|1758315584
+|move|p1a: Keldeo|Surf|p2a: Gholdengo
+|-damage|p2a: Gholdengo|25/100
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|75/100
+|
+|upkeep
+|turn|63
+|inactive|Yamhard has 120 seconds left.
+|
+|t:|1758315594
+|move|p1a: Keldeo|Surf|p2a: Gholdengo
+|-damage|p2a: Gholdengo|29/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|upkeep
+|
+|t:|1758315601
+|switch|p1a: Zapdos|Zapdos|52/100
+|turn|64
+|
+|t:|1758315605
+|move|p1a: Zapdos|Volt Switch|p2a: Gholdengo
+|-damage|p2a: Gholdengo|3/100
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|53/100
+|
+|upkeep
+|turn|65
+|
+|t:|1758315611
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|100/100
+|
+|upkeep
+|turn|66
+|
+|t:|1758315619
+|move|p1a: Zapdos|Volt Switch|p2a: Gholdengo
+|-damage|p2a: Gholdengo|71/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|67
+|c|☆dynamo fuckass|gg
+|
+|t:|1758315627
+|move|p1a: Zapdos|Volt Switch|p2a: Gholdengo
+|-damage|p2a: Gholdengo|42/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|68
+|
+|t:|1758315634
+|move|p1a: Zapdos|Volt Switch|p2a: Gholdengo
+|-damage|p2a: Gholdengo|13/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|win|Yamhard
+|raw|dynamo fuckass's rating: 1392 &rarr; <strong>1373</strong><br />(-19 for losing)
+|raw|Yamhard's rating: 1403 &rarr; <strong>1422</strong><br />(+19 for winning)
+|c|☆Yamhard|Gg
+|l|☆dynamo fuckass
+|player|p1|
+|l|☆Yamhard
+|player|p2|

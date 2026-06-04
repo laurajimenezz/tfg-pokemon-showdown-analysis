@@ -1,0 +1,277 @@
+|j|☆jelynfish
+|j|☆fluffyp
+|t:|1760412440
+|gametype|singles
+|player|p1|jelynfish|miku-ghost|1444
+|player|p2|fluffyp|lady|1496
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Zapdos|
+|poke|p1|Gholdengo|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Kingambit, M|
+|poke|p2|Bronzong|
+|poke|p2|Great Tusk|
+|poke|p2|Diancie|
+|poke|p2|Dragonite, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Arboliva, M|
+|teampreview
+|
+|t:|1760412463
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Diancie|Diancie|100/100
+|turn|1
+|
+|t:|1760412468
+|move|p1a: Ogerpon|Trailblaze|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|56/100
+|-boost|p1a: Ogerpon|spe|1
+|move|p2a: Diancie|Trick Room|p2a: Diancie
+|-fieldstart|move: Trick Room|[of] p2a: Diancie
+|
+|upkeep
+|turn|2
+|
+|t:|1760412474
+|move|p2a: Diancie|Meteor Beam||[still]
+|-prepare|p2a: Diancie|Meteor Beam
+|-boost|p2a: Diancie|spa|1
+|-enditem|p2a: Diancie|Power Herb
+|-anim|p2a: Diancie|Meteor Beam|p1a: Ogerpon|[miss]
+|-miss|p2a: Diancie|p1a: Ogerpon
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Diancie|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|upkeep
+|
+|t:|1760412482
+|switch|p2a: Arboliva|Arboliva, M|100/100
+|turn|3
+|
+|t:|1760412488
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|move|p2a: Arboliva|Leaf Storm|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|35/100
+|-unboost|p2a: Arboliva|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1760412499
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1760412508
+|move|p1a: Kingambit|Iron Head|p2a: Gliscor
+|-damage|p2a: Gliscor|25/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|
+|-heal|p2a: Gliscor|37/100 tox|[from] ability: Poison Heal
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760412514
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|6
+|
+|t:|1760412529
+|-terastallize|p1a: Zapdos|Ice
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Zapdos|Tera Blast|p2a: Gliscor|[anim] Tera Blast Ice
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|50/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1760412536
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Zapdos|Tera Blast|p2a: Bronzong|[anim] Tera Blast Ice
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|82/100
+|
+|-heal|p2a: Bronzong|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760412541
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Bronzong|Trick Room|p2a: Bronzong
+|-fieldstart|move: Trick Room|[of] p2a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Bronzong|95/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1760412550
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Bronzong|Body Press|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760412569
+|switch|p2a: Arboliva|Arboliva, M|100/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Arboliva
+|-damage|p2a: Arboliva|3/100
+|-unboost|p1a: Gholdengo|spa|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2a: Arboliva
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Arboliva|0 fnt|[from] Sandstorm
+|faint|p2a: Arboliva
+|upkeep
+|
+|t:|1760412572
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|11
+|
+|t:|1760412576
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Gholdengo|Make It Rain|p2a: Dragonite
+|-damage|p2a: Dragonite|67/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|61/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1760412581
+|-terastallize|p2a: Dragonite|Fire
+|move|p1a: Gholdengo|Make It Rain|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|31/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|none
+|-heal|p2a: Dragonite|37/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|
+|t:|1760412587
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|31/100|[from] Sandstorm
+|-heal|p2a: Dragonite|37/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1760412592
+|move|p2a: Dragonite|Scale Shot|p1a: Tyranitar
+|-damage|p1a: Tyranitar|67/100
+|-damage|p1a: Tyranitar|34/100
+|-damage|p1a: Tyranitar|2/100
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-hitcount|p1: Tyranitar|4
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|31/100|[from] Sandstorm
+|-heal|p2a: Dragonite|37/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1760412597
+|switch|p1a: Excadrill|Excadrill, F, shiny|100/100
+|-item|p1a: Excadrill|Air Balloon
+|turn|15
+|
+|t:|1760412600
+|move|p2a: Dragonite|Fire Punch|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-enditem|p1a: Excadrill|Air Balloon
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|31/100|[from] Sandstorm
+|upkeep
+|
+|t:|1760412604
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|16
+|
+|t:|1760412608
+|move|p2a: Dragonite|Scale Shot|p1a: Ogerpon
+|-damage|p1a: Ogerpon|56/100
+|-damage|p1a: Ogerpon|3/100
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-hitcount|p1: Ogerpon|3
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|25/100|[from] Sandstorm
+|upkeep
+|
+|t:|1760412611
+|switch|p1a: Zapdos|Zapdos, tera:Ice|100/100
+|turn|17
+|
+|t:|1760412614
+|move|p2a: Dragonite|Fire Punch|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|none
+|upkeep
+|-message|jelynfish forfeited.
+|
+|win|fluffyp
+|raw|jelynfish's rating: 1444 &rarr; <strong>1427</strong><br />(-17 for losing)
+|raw|fluffyp's rating: 1496 &rarr; <strong>1513</strong><br />(+17 for winning)
+|l|☆jelynfish
+|player|p1|
+|l|☆fluffyp
+|player|p2|

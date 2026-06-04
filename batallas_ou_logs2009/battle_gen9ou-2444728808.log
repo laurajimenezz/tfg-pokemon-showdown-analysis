@@ -1,0 +1,167 @@
+|j|☆z12598765
+|j|☆cozyprincemshroom
+|t:|1758257547
+|gametype|singles
+|player|p1|z12598765|169|1191
+|player|p2|cozyprincemshroom|waiter|1148
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Great Tusk|
+|poke|p1|Skarmory, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Rotom-Wash|
+|poke|p2|Inteleon, M|
+|poke|p2|Munkidori, M|
+|poke|p2|Lycanroc-Dusk, F|
+|poke|p2|Altaria, M|
+|poke|p2|Poliwrath, M|
+|poke|p2|Meganium, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cozyprincemshroom)
+|
+|t:|1758257556
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|switch|p2a: Munkidori|Munkidori, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Munkidori|atk|1
+|turn|1
+|
+|t:|1758257568
+|move|p2a: Munkidori|Trick|p1a: Landorus
+|-activate|p2a: Munkidori|move: Trick|[of] p1a: Landorus
+|-item|p1a: Landorus|Choice Scarf|[from] move: Trick
+|-item|p2a: Munkidori|Choice Scarf|[from] move: Trick
+|move|p1a: Landorus|Earthquake|p2a: Munkidori
+|-supereffective|p2a: Munkidori
+|-damage|p2a: Munkidori|0 fnt
+|faint|p2a: Munkidori
+|
+|upkeep
+|
+|t:|1758257577
+|switch|p2a: Lycanroc|Lycanroc-Dusk, F|100/100
+|turn|2
+|
+|t:|1758257580
+|-terastallize|p2a: Lycanroc|Flying
+|move|p1a: Landorus|Earthquake|p2a: Lycanroc
+|-immune|p2a: Lycanroc
+|move|p2a: Lycanroc|Swords Dance|p2a: Lycanroc
+|-boost|p2a: Lycanroc|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1758257588
+|switch|p1a: Skarmory|Skarmory, M, shiny|100/100
+|move|p2a: Lycanroc|Swords Dance|p2a: Lycanroc
+|-boost|p2a: Lycanroc|atk|2
+|
+|upkeep
+|turn|4
+|
+|t:|1758257595
+|move|p2a: Lycanroc|Accelerock|p1a: Skarmory
+|-damage|p1a: Skarmory|40/100
+|-damage|p2a: Lycanroc|91/100|[from] item: Life Orb
+|move|p1a: Skarmory|Whirlwind|p2a: Lycanroc
+|drag|p2a: Altaria|Altaria, M|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1758257608
+|move|p2a: Altaria|Will-O-Wisp|p1a: Skarmory
+|-status|p1a: Skarmory|brn
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|90/100 brn
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-damage|p1a: Skarmory|84/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1758257624
+|move|p2a: Altaria|Defog|p1a: Skarmory
+|-unboost|p1a: Skarmory|evasion|1
+|move|p1a: Skarmory|Spikes|p2a: Altaria
+|-sidestart|p2: cozyprincemshroom|Spikes
+|
+|-damage|p1a: Skarmory|78/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1758257632
+|move|p2a: Altaria|Defog|p1a: Skarmory
+|-unboost|p1a: Skarmory|evasion|1
+|-sideend|p2: cozyprincemshroom|Spikes|[from] move: Defog|[of] p2a: Altaria
+|move|p1a: Skarmory|Spikes|p2a: Altaria
+|-sidestart|p2: cozyprincemshroom|Spikes
+|
+|-damage|p1a: Skarmory|72/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1758257640
+|switch|p1a: Ninetales|Ninetales-Alola, M, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Altaria|Defog|p1a: Ninetales
+|-unboost|p1a: Ninetales|evasion|1
+|-sideend|p2: cozyprincemshroom|Spikes|[from] move: Defog|[of] p2a: Altaria
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1758257649
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: z12598765|move: Aurora Veil
+|move|p2a: Altaria|Moonblast|p1a: Ninetales
+|-damage|p1a: Ninetales|87/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758257655
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|move|p2a: Altaria|Moonblast|p1a: Ninetales
+|-damage|p1a: Ninetales|74/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1758257662
+|move|p1a: Ninetales|Freeze-Dry|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|-message|cozyprincemshroom forfeited.
+|
+|win|z12598765
+|raw|z12598765's rating: 1191 &rarr; <strong>1213</strong><br />(+22 for winning)
+|raw|cozyprincemshroom's rating: 1148 &rarr; <strong>1126</strong><br />(-22 for losing)
+|l|☆cozyprincemshroom
+|player|p2|
+|l|☆z12598765
+|player|p1|

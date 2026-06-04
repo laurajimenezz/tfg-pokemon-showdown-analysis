@@ -1,0 +1,182 @@
+|j|☆daai6bo1
+|j|☆Spartior1
+|t:|1758314150
+|gametype|singles
+|player|p1|daai6bo1|2|1423
+|player|p2|Spartior1|266|1379
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Cetitan, F|
+|poke|p1|Kyurem|
+|poke|p1|Sandslash-Alola, M|
+|poke|p1|Moltres|
+|poke|p1|Zamazenta-*|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Iron Hands|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Mimikyu, M|
+|teampreview
+|
+|t:|1758314166
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Moltres|Moltres|100/100
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1758314184
+|switch|p2a: Brian Hands|Iron Hands, shiny|100/100
+|-enditem|p2a: Brian Hands|Booster Energy
+|-activate|p2a: Brian Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Brian Hands|quarkdriveatk
+|move|p1a: Moltres|U-turn|p2a: Brian Hands
+|-resisted|p2a: Brian Hands
+|-damage|p2a: Brian Hands|95/100
+|
+|t:|1758314216
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100|[from] U-turn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758314224
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Brian Hands|Heavy Slam|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|65/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758314234
+|move|p1a: Moltres|Hurricane|p2a: Brian Hands
+|-damage|p2a: Brian Hands|48/100
+|move|p2a: Brian Hands|Supercell Slam|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758314249
+|switch|p1a: ColdVision|Kyurem|100/100
+|-ability|p1a: ColdVision|Pressure
+|turn|4
+|
+|t:|1758314258
+|move|p1a: ColdVision|Blizzard|p2a: Brian Hands
+|-damage|p2a: Brian Hands|0 fnt
+|faint|p2a: Brian Hands
+|-end|p2a: Brian Hands|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758314262
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-enditem|p2a: Hoopa|Psychic Seed
+|-boost|p2a: Hoopa|spd|1|[from] item: Psychic Seed
+|turn|5
+|
+|t:|1758314284
+|-terastallize|p1a: ColdVision|Ice
+|move|p1a: ColdVision|Blizzard|p2a: Hoopa
+|-damage|p2a: Hoopa|48/100
+|move|p2a: Hoopa|Trick Room|p2a: Hoopa
+|-fieldstart|move: Trick Room|[of] p2a: Hoopa
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758314295
+|-terastallize|p2a: Hoopa|Psychic
+|move|p2a: Hoopa|Expanding Force|p1a: ColdVision
+|-damage|p1a: ColdVision|0 fnt
+|faint|p1a: ColdVision
+|-item|p2a: Hoopa|Choice Specs|[from] ability: Magician|[of] p1: ColdVision
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758314319
+|switch|p1a: OneInAMilion|Sandslash-Alola, M|100/100
+|turn|7
+|
+|t:|1758314324
+|move|p2a: Hoopa|Expanding Force|p1a: OneInAMilion
+|-resisted|p1a: OneInAMilion
+|-damage|p1a: OneInAMilion|0 fnt
+|faint|p1a: OneInAMilion
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758314332
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|8
+|
+|t:|1758314334
+|move|p2a: Hoopa|Expanding Force|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1758314338
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|9
+|
+|t:|1758314345
+|move|p2a: Hoopa|Expanding Force|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758314347
+|switch|p1a: Cetitan|Cetitan, F|100/100
+|turn|10
+|
+|t:|1758314352
+|move|p1a: Cetitan|Play Rough|p2a: Hoopa
+|-damage|p2a: Hoopa|13/100
+|move|p2a: Hoopa|Expanding Force|p1a: Cetitan
+|-damage|p1a: Cetitan|0 fnt
+|faint|p1a: Cetitan
+|
+|win|Spartior1
+|raw|daai6bo1's rating: 1423 &rarr; <strong>1400</strong><br />(-23 for losing)
+|raw|Spartior1's rating: 1379 &rarr; <strong>1402</strong><br />(+23 for winning)
+|l|☆daai6bo1
+|player|p1|
+|l|☆Spartior1
+|player|p2|

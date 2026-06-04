@@ -1,0 +1,451 @@
+|j|☆galoop
+|j|☆labeys
+|t:|1769300207
+|gametype|singles
+|player|p1|galoop|266|1726
+|player|p2|labeys|sordward|1658
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tyranitar, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Primarina, F|
+|poke|p1|Scizor, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Valiant|
+|poke|p2|Zapdos|
+|poke|p2|Iron Moth|
+|poke|p2|Skeledirge, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by labeys)
+|
+|t:|1769300229
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Moth|atk|1
+|turn|1
+|
+|t:|1769300239
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Landorus|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|52/100
+|
+|t:|1769300242
+|switch|p1a: Scizor|Scizor, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1769300248
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Scizor|Knock Off|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|61/100
+|-status|p1a: Scizor|par|[from] ability: Static|[of] p2a: Zapdos
+|-enditem|p2a: Zapdos|Terrain Extender|[from] move: Knock Off|[of] p1a: Scizor
+|
+|upkeep
+|turn|3
+|
+|t:|1769300261
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Zapdos|Volt Switch|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|71/100
+|
+|t:|1769300263
+|switch|p2a: Samurott|Samurott-Hisui, F|52/100|[from] Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Samurott|46/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1769300274
+|switch|p1a: Scizor|Scizor, M|100/100 par
+|move|p2a: Samurott|Razor Shell|p1a: Scizor
+|-damage|p1a: Scizor|28/100 par
+|-enditem|p1a: Scizor|Sitrus Berry|[eat]
+|-heal|p1a: Scizor|53/100 par|[from] item: Sitrus Berry
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Samurott|40/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1769300289
+|move|p1a: Scizor|Bullet Punch|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|17/100
+|move|p2a: Samurott|Razor Shell|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Samurott|11/100|[from] Sandstorm
+|upkeep
+|
+|t:|1769300294
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|turn|6
+|
+|t:|1769300305
+|switch|p2a: Zapdos|Zapdos|61/100
+|move|p1a: Excadrill|Substitute|p1a: Excadrill
+|-start|p1a: Excadrill|Substitute
+|-damage|p1a: Excadrill|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|55/100|[from] Sandstorm
+|-heal|p1a: Excadrill|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1769300315
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|-heal|p1a: Excadrill|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1769300320
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|move|p1a: Excadrill|Rock Slide|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Skeledirge|57/100|[from] Sandstorm
+|-heal|p1a: Excadrill|94/100|[from] item: Leftovers
+|-heal|p2a: Skeledirge|63/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1769300331
+|-terastallize|p2a: Skeledirge|Water
+|move|p1a: Excadrill|Rock Slide|p2a: Skeledirge
+|-damage|p2a: Skeledirge|44/100
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Skeledirge|88/100|[from] Sandstorm
+|-heal|p1a: Excadrill|99/100|[from] item: Leftovers
+|-heal|p2a: Skeledirge|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1769300337
+|switch|p2a: Zapdos|Zapdos|94/100
+|move|p1a: Excadrill|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-weather|none
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1769300349
+|move|p1a: Excadrill|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1769300357
+|switch|p2a: Skeledirge|Skeledirge, M, tera:Water|94/100
+|turn|12
+|
+|t:|1769300360
+|move|p1a: Excadrill|Earthquake|p2a: Skeledirge
+|-damage|p2a: Skeledirge|58/100
+|move|p2a: Skeledirge|Torch Song|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|17/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p1a: Excadrill|23/100|[from] item: Leftovers
+|-heal|p2a: Skeledirge|64/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1769300373
+|switch|p1a: Tyranitar|Tyranitar, F|71/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Skeledirge|Torch Song|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|57/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Skeledirge|58/100|[from] Sandstorm
+|-heal|p2a: Skeledirge|64/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1769300389
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Tyranitar|Knock Off|p2a: Iron Treads
+|-damage|p2a: Iron Treads|56/100
+|-enditem|p2a: Iron Treads|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1769300397
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|move|p2a: Iron Treads|Stealth Rock|p1a: Landorus
+|-sidestart|p1: galoop|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1769300411
+|move|p2a: Iron Treads|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|84/100
+|-damage|p2a: Iron Treads|39/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Landorus|Earth Power|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1769300421
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|17
+|
+|t:|1769300443
+|move|p2a: Iron Moth|Overheat|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Iron Moth|spa|2
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1769300446
+|switch|p1a: Primarina|Primarina, F|100/100
+|-damage|p1a: Primarina|88/100|[from] Stealth Rock
+|turn|18
+|inactive|labeys has 120 seconds left.
+|
+|t:|1769300490
+|move|p2a: Iron Moth|Overheat|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|71/100
+|-unboost|p2a: Iron Moth|spa|2
+|move|p1a: Primarina|Psychic Noise|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|13/100
+|-start|p2a: Iron Moth|move: Heal Block
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|7/100|[from] Sandstorm
+|-damage|p1a: Primarina|65/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|t:|1769300501
+|move|p2a: Iron Moth|Overheat|p1a: Primarina
+|-resisted|p1a: Primarina
+|-crit|p1a: Primarina
+|-damage|p1a: Primarina|18/100
+|-unboost|p2a: Iron Moth|spa|2
+|move|p1a: Primarina|Draining Kiss|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|-heal|p1a: Primarina|23/100|[from] drain|[of] p2a: Iron Moth
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Primarina|17/100|[from] Sandstorm
+|upkeep
+|
+|t:|1769300513
+|switch|p2a: Samurott|Samurott-Hisui, F|11/100
+|turn|20
+|
+|t:|1769300519
+|move|p2a: Samurott|Ceaseless Edge|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|-sidestart|p1: galoop|Spikes
+|faint|p1a: Primarina
+|
+|-weather|none
+|upkeep
+|
+|t:|1769300523
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|-damage|p1a: Iron Valiant|82/100|[from] Spikes
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|21
+|
+|t:|1769300533
+|move|p1a: Iron Valiant|Moonblast|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1769300536
+|switch|p2a: Skeledirge|Skeledirge, M, tera:Water|64/100
+|turn|22
+|
+|t:|1769300540
+|move|p1a: Iron Valiant|Moonblast|p2a: Skeledirge
+|-damage|p2a: Skeledirge|11/100
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|61/100
+|
+|-heal|p2a: Skeledirge|67/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1769300545
+|move|p1a: Iron Valiant|Moonblast|p2a: Skeledirge
+|-damage|p2a: Skeledirge|17/100
+|move|p2a: Skeledirge|Roar|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|drag|p1a: Tyranitar|Tyranitar, F|57/100
+|-damage|p1a: Tyranitar|45/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|33/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Skeledirge|11/100|[from] Sandstorm
+|-heal|p2a: Skeledirge|17/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1769300554
+|move|p1a: Tyranitar|Stealth Rock|p2a: Skeledirge
+|-sidestart|p2: labeys|move: Stealth Rock
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Skeledirge|61/100|[from] Sandstorm
+|-heal|p2a: Skeledirge|67/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1769300567
+|move|p1a: Tyranitar|Low Kick|p2a: Skeledirge
+|-damage|p2a: Skeledirge|41/100
+|move|p2a: Skeledirge|Torch Song|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|22/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Skeledirge|34/100|[from] Sandstorm
+|-heal|p2a: Skeledirge|41/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1769300572
+|switch|p1a: Iron Valiant|Iron Valiant|82/100
+|-damage|p1a: Iron Valiant|76/100|[from] Stealth Rock
+|-damage|p1a: Iron Valiant|63/100|[from] Spikes
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Valiant|57/100|[from] Sandstorm
+|-damage|p2a: Skeledirge|84/100|[from] Sandstorm
+|-heal|p2a: Skeledirge|91/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1769300574
+|move|p1a: Iron Valiant|Moonblast|p2a: Skeledirge
+|-damage|p2a: Skeledirge|37/100
+|-unboost|p2a: Skeledirge|spa|1
+|move|p2a: Skeledirge|Torch Song|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Skeledirge|31/100|[from] Sandstorm
+|-heal|p2a: Skeledirge|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769300581
+|switch|p1a: Excadrill|Excadrill, M|23/100
+|-damage|p1a: Excadrill|20/100|[from] Stealth Rock
+|-damage|p1a: Excadrill|7/100|[from] Spikes
+|turn|28
+|
+|t:|1769300584
+|-terastallize|p1a: Excadrill|Ground
+|move|p1a: Excadrill|Earthquake|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Excadrill|14/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769300587
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1769300591
+|move|p1a: Excadrill|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|win|galoop
+|raw|galoop's rating: 1726 &rarr; <strong>1742</strong><br />(+16 for winning)
+|raw|labeys's rating: 1658 &rarr; <strong>1642</strong><br />(-16 for losing)
+|c|☆labeys|gg
+|l|☆galoop
+|player|p1|
+|l|☆labeys
+|player|p2|

@@ -1,0 +1,407 @@
+|j|‽flinchirator
+|j|☆MACHE_T77
+|t:|1760374943
+|gametype|singles
+|player|p1|flinchirator|miku-ice|1426
+|player|p2|MACHE_T77|blackbelt-gen4dp|1469
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Zapdos|
+|poke|p2|Hatterene, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Iron Hands|
+|poke|p2|Ursaluna, M|
+|poke|p2|Glastrier|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by flinchirator)
+|
+|t:|1760374957
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|t:|1760374968
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1760374973
+|move|p2a: Hatterene|Mystical Fire|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|52/100
+|-unboost|p1a: Iron Treads|spa|1
+|move|p1a: Iron Treads|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|75/100
+|-enditem|p2a: Hatterene|Focus Sash|[from] move: Knock Off|[of] p1a: Iron Treads
+|
+|-heal|p1a: Iron Treads|58/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1760374987
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Zapdos
+|-damage|p1a: Zapdos|72/100
+|-unboost|p1a: Zapdos|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1760374993
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1760375003
+|move|p2a: Ursaluna|Headlong Rush|p1a: Zapdos
+|-immune|p1a: Zapdos
+|move|p1a: Zapdos|U-turn|p2a: Ursaluna
+|-damage|p2a: Ursaluna|90/100 brn
+|
+|t:|1760375008
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|
+|-damage|p2a: Ursaluna|84/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1760375014
+|-terastallize|p2a: Ursaluna|Fighting
+|move|p1a: Ogerpon|Power Whip|p2a: Ursaluna|[miss]
+|-miss|p1a: Ogerpon|p2a: Ursaluna
+|move|p2a: Ursaluna|Facade|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-damage|p2a: Ursaluna|78/100 brn|[from] brn
+|upkeep
+|
+|t:|1760375021
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|7
+|
+|t:|1760375028
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-item|p2a: Slowking|Air Balloon
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1760375035
+|move|p1a: Iron Valiant|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-enditem|p2a: Slowking|Air Balloon
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1760375049
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|turn|9
+|
+|t:|1760375053
+|move|p1a: Iron Valiant|Close Combat|p2a: Iron Hands
+|-damage|p2a: Iron Hands|23/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|move|p2a: Iron Hands|Play Rough|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p2a: Iron Hands|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760375062
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|10
+|
+|t:|1760375068
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Ursaluna|Ursaluna, M, tera:Fighting|78/100 brn
+|move|p1a: Dragapult|Dragon Darts|p2a: Ursaluna
+|-damage|p2a: Ursaluna|62/100 brn
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Ursaluna
+|-damage|p2a: Ursaluna|45/100 brn
+|
+|-damage|p2a: Ursaluna|39/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1760375082
+|move|p1a: Dragapult|Draco Meteor|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1760375089
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|turn|12
+|
+|t:|1760375094
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|upkeep
+|turn|13
+|
+|t:|1760375099
+|move|p2a: Cresselia|Future Sight|p1a: Zapdos
+|-start|p2a: Cresselia|move: Future Sight
+|move|p1a: Zapdos|Thunderbolt|p2a: Cresselia
+|-damage|p2a: Cresselia|74/100
+|
+|upkeep
+|turn|14
+|
+|t:|1760375107
+|switch|p2a: Glastrier|Glastrier|100/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Glastrier
+|-damage|p2a: Glastrier|71/100
+|
+|upkeep
+|turn|15
+|
+|t:|1760375113
+|switch|p1a: Iron Treads|Iron Treads|58/100
+|move|p2a: Glastrier|Icicle Crash|p1a: Iron Treads
+|-damage|p1a: Iron Treads|20/100
+|
+|-end|p1a: Iron Treads|move: Future Sight
+|-resisted|p1a: Iron Treads
+|-crit|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|upkeep
+|
+|t:|1760375129
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|16
+|
+|t:|1760375133
+|-terastallize|p1a: Dragonite|Fairy
+|move|p2a: Glastrier|Icicle Crash|p1a: Dragonite
+|-damage|p1a: Dragonite|71/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|17
+|
+|t:|1760375144
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|100/100
+|move|p2a: Glastrier|Icicle Crash|p1a: Dragonite
+|-damage|p1a: Dragonite|70/100
+|
+|upkeep
+|turn|18
+|
+|t:|1760375155
+|switch|p2a: Cresselia|Cresselia, F|74/100
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|100/100
+|
+|upkeep
+|turn|19
+|
+|t:|1760375161
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|upkeep
+|turn|20
+|
+|t:|1760375166
+|move|p2a: Cresselia|Future Sight|p1a: Dragonite
+|-start|p2a: Cresselia|move: Future Sight
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|21
+|
+|t:|1760375172
+|move|p1a: Dragonite|Extreme Speed|p2a: Cresselia
+|-damage|p2a: Cresselia|14/100
+|-damage|p1a: Dragonite|84/100|[from] item: Rocky Helmet|[of] p2a: Cresselia
+|move|p2a: Cresselia|Moonblast|p1a: Dragonite
+|-damage|p1a: Dragonite|59/100
+|
+|upkeep
+|turn|22
+|
+|t:|1760375181
+|move|p1a: Dragonite|Extreme Speed|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|-damage|p1a: Dragonite|43/100|[from] item: Rocky Helmet|[of] p2a: Cresselia
+|faint|p2a: Cresselia
+|
+|-end|p1a: Dragonite|move: Future Sight
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|upkeep
+|
+|t:|1760375192
+|switch|p2a: Hatterene|Hatterene, F|75/100
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|23
+|
+|t:|1760375198
+|move|p2a: Hatterene|Mystical Fire|p1a: Zapdos
+|-damage|p1a: Zapdos|70/100
+|-unboost|p1a: Zapdos|spa|1
+|move|p1a: Zapdos|Thunderbolt|p2a: Hatterene
+|-damage|p2a: Hatterene|48/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|24
+|
+|t:|1760375205
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|25
+|
+|t:|1760375211
+|move|p2a: Hatterene|Mystical Fire|p1a: Zapdos
+|-damage|p1a: Zapdos|69/100
+|-unboost|p1a: Zapdos|spa|1
+|move|p1a: Zapdos|Thunderbolt|p2a: Hatterene
+|-damage|p2a: Hatterene|27/100
+|
+|upkeep
+|turn|26
+|
+|t:|1760375217
+|move|p2a: Hatterene|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|17/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|68/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|upkeep
+|turn|27
+|
+|t:|1760375230
+|switch|p2a: Glastrier|Glastrier|71/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|upkeep
+|turn|28
+|
+|t:|1760375237
+|move|p2a: Glastrier|Icicle Crash|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|25/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Glastrier
+|-damage|p2a: Glastrier|57/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|29
+|
+|t:|1760375243
+|move|p1a: Zapdos|U-turn|p2a: Glastrier
+|-damage|p2a: Glastrier|48/100
+|
+|t:|1760375246
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] U-turn
+|move|p2a: Glastrier|Icicle Crash|p1a: Dragapult|[miss]
+|-miss|p2a: Glastrier|p1a: Dragapult
+|
+|upkeep
+|turn|30
+|
+|t:|1760375252
+|move|p1a: Dragapult|Flamethrower|p2a: Glastrier
+|-supereffective|p2a: Glastrier
+|-damage|p2a: Glastrier|6/100
+|move|p2a: Glastrier|Icicle Crash|p1a: Dragapult|[miss]
+|-miss|p2a: Glastrier|p1a: Dragapult
+|
+|upkeep
+|turn|31
+|
+|t:|1760375260
+|move|p1a: Dragapult|Flamethrower|p2a: Glastrier
+|-supereffective|p2a: Glastrier
+|-damage|p2a: Glastrier|0 fnt
+|faint|p2a: Glastrier
+|
+|upkeep
+|
+|t:|1760375264
+|switch|p2a: Hatterene|Hatterene, F|27/100
+|turn|32
+|
+|t:|1760375267
+|move|p1a: Dragapult|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|-message|MACHE_T77 forfeited.
+|
+|win|flinchirator
+|raw|flinchirator's rating: 1426 &rarr; <strong>1448</strong><br />(+22 for winning)
+|raw|MACHE_T77's rating: 1469 &rarr; <strong>1447</strong><br />(-22 for losing)
+|l|☆MACHE_T77
+|player|p2|
+|l|‽flinchirator
+|player|p1|

@@ -1,0 +1,273 @@
+|j|☆selerinhoPL
+|j|☆BBCboys
+|t:|1760454070
+|gametype|singles
+|player|p1|selerinhoPL|palmer|1105
+|player|p2|BBCboys|bruno|1116
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Politoed, F|
+|poke|p1|Golem-Alola, M|
+|poke|p1|Swalot, M|
+|poke|p1|Vigoroth, M|
+|poke|p1|Chesnaught, M|
+|poke|p1|Ninetales-Alola, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Gliscor, M|
+|poke|p2|Blaziken, F|
+|poke|p2|Primarina, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|t:|1760454077
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Swalot|Swalot, M|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|1
+|
+|t:|1760454095
+|move|p2a: Gliscor|Knock Off|p1a: Swalot
+|-damage|p1a: Swalot|80/100
+|-enditem|p1a: Swalot|Focus Sash|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Swalot|Giga Drain|p2a: Gliscor
+|-damage|p2a: Gliscor|87/100
+|-heal|p1a: Swalot|86/100|[from] drain|[of] p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1760454106
+|move|p2a: Gliscor|Spikes|p1a: Swalot
+|-sidestart|p1: selerinhoPL|Spikes
+|move|p1a: Swalot|Venoshock|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|70/100 tox
+|
+|-heal|p2a: Gliscor|82/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1760454116
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-damage|p1a: Ninetales|88/100|[from] Spikes
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Gliscor|Spikes|p1a: Ninetales
+|-sidestart|p1: selerinhoPL|Spikes
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|95/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1760454128
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760454139
+|move|p1a: Ninetales|Blizzard|p2a: Corviknight
+|-damage|p2a: Corviknight|15/100
+|move|p2a: Corviknight|Body Press|p1a: Ninetales
+|-damage|p1a: Ninetales|63/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Corviknight|21/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760454147
+|move|p1a: Ninetales|Blizzard|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760454158
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|turn|7
+|
+|t:|1760454163
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Ninetales|Moonblast|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-weather|none
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|8
+|
+|t:|1760454175
+|move|p2a: Blaziken|Flare Blitz|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|-damage|p2a: Blaziken|81/100|[from] Recoil
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1760454186
+|switch|p1a: Politoed|Politoed, F|100/100
+|-damage|p1a: Politoed|84/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|9
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BBCboys)
+|
+|t:|1760454206
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Politoed|Earth Power|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1760454218
+|move|p2a: Rotom|Hydro Pump|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|41/100
+|-damage|p2a: Rotom|91/100|[from] item: Life Orb
+|move|p1a: Politoed|Ice Beam|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|73/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1760454227
+|move|p2a: Rotom|Hydro Pump|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|-damage|p2a: Rotom|63/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760454239
+|switch|p1a: Golem|Golem-Alola, M|100/100
+|-damage|p1a: Golem|84/100|[from] Spikes
+|turn|12
+|
+|t:|1760454248
+|move|p2a: Rotom|Hydro Pump|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|-damage|p2a: Rotom|53/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760454258
+|switch|p1a: Chesnaught|Chesnaught, M|100/100
+|-damage|p1a: Chesnaught|84/100|[from] Spikes
+|turn|13
+|
+|t:|1760454264
+|move|p2a: Rotom|Shadow Ball|p1a: Chesnaught
+|-immune|p1a: Chesnaught|[from] ability: Bulletproof
+|move|p1a: Chesnaught|Seed Bomb|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|none
+|upkeep
+|
+|t:|1760454278
+|switch|p2a: Primarina|Primarina, F|100/100
+|turn|14
+|
+|t:|1760454283
+|move|p1a: Chesnaught|Seed Bomb|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1760454289
+|switch|p2a: Blaziken|Blaziken, F|81/100
+|turn|15
+|
+|t:|1760454297
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Chesnaught|Body Press|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|16
+|
+|t:|1760454307
+|move|p2a: Blaziken|Flare Blitz|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|0 fnt
+|faint|p1a: Chesnaught
+|-damage|p2a: Blaziken|46/100|[from] Recoil
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1760454330
+|switch|p1a: Swalot|Swalot, M|86/100
+|-damage|p1a: Swalot|69/100|[from] Spikes
+|turn|17
+|
+|t:|1760454339
+|move|p2a: Blaziken|Earthquake|p1a: Swalot
+|-supereffective|p1a: Swalot
+|-damage|p1a: Swalot|0 fnt
+|faint|p1a: Swalot
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1760454345
+|switch|p1a: Vigoroth|Vigoroth, M|100/100
+|-damage|p1a: Vigoroth|84/100|[from] Spikes
+|turn|18
+|
+|t:|1760454353
+|move|p2a: Blaziken|Close Combat|p1a: Vigoroth
+|-supereffective|p1a: Vigoroth
+|-damage|p1a: Vigoroth|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|faint|p1a: Vigoroth
+|
+|win|BBCboys
+|raw|selerinhoPL's rating: 1105 &rarr; <strong>1081</strong><br />(-24 for losing)
+|raw|BBCboys's rating: 1116 &rarr; <strong>1140</strong><br />(+24 for winning)
+|l|☆selerinhoPL
+|player|p1|
+|l|☆BBCboys
+|player|p2|

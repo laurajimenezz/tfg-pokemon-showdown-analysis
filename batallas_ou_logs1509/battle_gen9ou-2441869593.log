@@ -1,0 +1,289 @@
+|j|‽Junkilo
+|j|☆jimborri
+|t:|1757914081
+|gametype|singles
+|player|p1|Junkilo|102|1138
+|player|p2|jimborri|blackbelt|1093
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Poliwrath, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Raichu, M|
+|poke|p1|Politoed, F|
+|poke|p1|Ludicolo, M|
+|poke|p1|Basculegion-F, F|
+|poke|p2|Forretress, M|
+|poke|p2|Cloyster, M|
+|poke|p2|Heracross, M|
+|poke|p2|Hydrapple, M|
+|poke|p2|Skeledirge, F|
+|poke|p2|Hitmonlee, M|
+|teampreview
+|
+|t:|1757914095
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Forretress|Forretress, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1757914100
+|move|p1a: Pelipper|Weather Ball|p2a: Forretress
+|-damage|p2a: Forretress|15/100
+|move|p2a: Forretress|Volt Switch|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|24/100
+|
+|t:|1757914110
+|switch|p2a: Heracross|Heracross, M|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jimborri)
+|
+|t:|1757914113
+|move|p2a: Heracross|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-enditem|p1a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p2a: Heracross
+|faint|p1a: Pelipper
+|-ability|p2a: Heracross|Moxie|boost
+|-boost|p2a: Heracross|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757914125
+|switch|p1a: Ludicolo|Ludicolo, M|100/100
+|turn|3
+|
+|t:|1757914129
+|move|p1a: Ludicolo|Weather Ball|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757914151
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|turn|4
+|
+|t:|1757914154
+|move|p2a: Hitmonlee|Endure|p2a: Hitmonlee
+|-singleturn|p2a: Hitmonlee|move: Endure
+|move|p1a: Ludicolo|Weather Ball|p2a: Hitmonlee
+|-activate|p2a: Hitmonlee|move: Endure
+|-damage|p2a: Hitmonlee|1/100
+|-enditem|p2a: Hitmonlee|Liechi Berry|[eat]
+|-boost|p2a: Hitmonlee|atk|1|[from] item: Liechi Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757914158
+|move|p2a: Hitmonlee|Reversal|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|faint|p1a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757914160
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|turn|6
+|
+|t:|1757914171
+|-terastallize|p1a: Basculegion|Fighting
+|move|p2a: Hitmonlee|Knock Off|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|67/100
+|-enditem|p1a: Basculegion|Choice Specs|[from] move: Knock Off|[of] p2a: Hitmonlee
+|move|p1a: Basculegion|Shadow Ball|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757914187
+|switch|p2a: Hydrapple|Hydrapple, M|100/100
+|turn|7
+|
+|t:|1757914190
+|move|p1a: Basculegion|Ice Beam|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|30/100
+|move|p2a: Hydrapple|Fickle Beam|p1a: Basculegion|[anim] Fickle Beam All Out
+|-activate|p2a: Hydrapple|move: Fickle Beam
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757914199
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|turn|8
+|
+|t:|1757914203
+|switch|p2a: Forretress|Forretress, M|15/100
+|move|p1a: Poliwrath|Close Combat|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|-unboost|p1a: Poliwrath|def|1
+|-unboost|p1a: Poliwrath|spd|1
+|faint|p2a: Forretress
+|
+|-weather|none
+|upkeep
+|inactive|jimborri has 120 seconds left.
+|
+|t:|1757914235
+|switch|p2a: Hydrapple|Hydrapple, M|63/100
+|turn|9
+|
+|t:|1757914239
+|switch|p1a: Politoed|Politoed, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Hydrapple|Giga Drain|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|48/100
+|-heal|p2a: Hydrapple|92/100|[from] drain|[of] p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1757914242
+|move|p1a: Politoed|Ice Beam|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|45/100
+|move|p2a: Hydrapple|Giga Drain|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-heal|p2a: Hydrapple|71/100|[from] drain|[of] p1a: Politoed
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757914245
+|switch|p1a: Raichu|Raichu, M|100/100
+|turn|11
+|
+|t:|1757914258
+|move|p1a: Raichu|Nasty Plot|p1a: Raichu
+|-boost|p1a: Raichu|spa|2
+|move|p2a: Hydrapple|Giga Drain|p1a: Raichu
+|-damage|p1a: Raichu|34/100
+|-heal|p2a: Hydrapple|96/100|[from] drain|[of] p1a: Raichu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1757914262
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|move|p1a: Raichu|Alluring Voice|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|88/100
+|-damage|p1a: Raichu|24/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1757914265
+|move|p1a: Raichu|Surf|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|-damage|p1a: Raichu|14/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757914268
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|turn|14
+|
+|t:|1757914284
+|move|p1a: Raichu|Surf|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-enditem|p2a: Cloyster|Focus Sash
+|-damage|p2a: Cloyster|1/100
+|-damage|p1a: Raichu|4/100|[from] item: Life Orb
+|move|p2a: Cloyster|Icicle Spear|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|-hitcount|p1: Raichu|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757914286
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|turn|15
+|
+|t:|1757914289
+|move|p1a: Poliwrath|Belly Drum|p1a: Poliwrath
+|-damage|p1a: Poliwrath|51/100
+|-setboost|p1a: Poliwrath|atk|6|[from] move: Belly Drum
+|move|p2a: Cloyster|Icicle Spear|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|44/100
+|-enditem|p1a: Poliwrath|Sitrus Berry|[eat]
+|-heal|p1a: Poliwrath|69/100|[from] item: Sitrus Berry
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|62/100
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|55/100
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|49/100
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|43/100
+|-hitcount|p1a: Poliwrath|5
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1757914297
+|move|p1a: Poliwrath|Liquidation|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|-weather|none
+|upkeep
+|
+|t:|1757914299
+|switch|p2a: Hydrapple|Hydrapple, M|100/100
+|turn|17
+|
+|t:|1757914301
+|move|p1a: Poliwrath|Close Combat|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|-unboost|p1a: Poliwrath|def|1
+|-unboost|p1a: Poliwrath|spd|1
+|faint|p2a: Hydrapple
+|
+|win|Junkilo
+|raw|Junkilo's rating: 1138 &rarr; <strong>1160</strong><br />(+22 for winning)
+|raw|jimborri's rating: 1093 &rarr; <strong>1072</strong><br />(-21 for losing)
+|c|☆jimborri|Gg
+|l|‽Junkilo
+|player|p1|

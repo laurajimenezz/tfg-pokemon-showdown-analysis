@@ -1,0 +1,284 @@
+|j|☆bigboi629
+|j|☆emellano
+|t:|1779573672
+|gametype|singles
+|player|p1|bigboi629|miku-ghost|1522
+|player|p2|emellano|266|1592
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hoopa|
+|poke|p1|Cinderace, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Kyurem|
+|poke|p1|Ting-Lu|
+|poke|p1|Manaphy|
+|poke|p2|Inteleon, F|
+|poke|p2|Iron Treads|
+|poke|p2|Ceruledge, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Haxorus, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|t:|1779573695
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1779573708
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Zamazenta|Reflect|p2a: Zamazenta
+|-sidestart|p2: emellano|Reflect
+|
+|upkeep
+|turn|2
+|
+|t:|1779573711
+|move|p2a: Zamazenta|Light Screen|p2a: Zamazenta
+|-sidestart|p2: emellano|move: Light Screen
+|move|p1a: Mandibuzz|Toxic|p2a: Zamazenta
+|-status|p2a: Zamazenta|tox
+|
+|-damage|p2a: Zamazenta|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1779573725
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Mandibuzz|Foul Play|p2a: Iron Treads
+|-damage|p2a: Iron Treads|81/100
+|
+|upkeep
+|turn|4
+|
+|t:|1779573746
+|switch|p1a: Manaphy|Manaphy|100/100
+|move|p2a: Iron Treads|Knock Off|p1a: Manaphy
+|-damage|p1a: Manaphy|74/100
+|-enditem|p1a: Manaphy|Leftovers|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|5
+|
+|t:|1779573770
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Manaphy|Scald|p2a: Ogerpon
+|-immune|p2a: Ogerpon|[from] ability: Water Absorb
+|
+|upkeep
+|turn|6
+|
+|t:|1779573781
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1779573791
+|move|p1a: Kyurem|Freeze-Dry|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|7/100
+|-status|p2a: Ogerpon|frz
+|cant|p2a: Ogerpon|frz
+|
+|upkeep
+|turn|8
+|
+|t:|1779573807
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|cant|p2a: Ogerpon|frz
+|
+|-sideend|p2: emellano|Reflect
+|upkeep
+|turn|9
+|
+|t:|1779573810
+|move|p1a: Cinderace|U-turn|p2a: Ogerpon
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by emellano)
+|
+|t:|1779573825
+|switch|p1a: Ting-Lu|Ting-Lu|100/100|[from] U-turn
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-sideend|p2: emellano|move: Light Screen
+|upkeep
+|
+|t:|1779573832
+|switch|p2a: Zamazenta|Zamazenta|94/100 tox
+|turn|10
+|
+|t:|1779573838
+|move|p2a: Zamazenta|Close Combat|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|47/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|-enditem|p1a: Ting-Lu|Weakness Policy
+|-boost|p1a: Ting-Lu|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Ting-Lu|spa|2|[from] item: Weakness Policy
+|move|p1a: Ting-Lu|Earthquake|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1779573850
+|switch|p2a: Inteleon|Inteleon, F|100/100
+|turn|11
+|
+|t:|1779573862
+|move|p2a: Inteleon|Reflect|p2a: Inteleon
+|-sidestart|p2: emellano|Reflect
+|move|p1a: Ting-Lu|Earthquake|p2a: Inteleon
+|-damage|p2a: Inteleon|24/100
+|
+|upkeep
+|turn|12
+|
+|t:|1779573870
+|move|p2a: Inteleon|Light Screen|p2a: Inteleon
+|-sidestart|p2: emellano|move: Light Screen
+|move|p1a: Ting-Lu|Earthquake|p2a: Inteleon
+|-damage|p2a: Inteleon|0 fnt
+|faint|p2a: Inteleon
+|
+|upkeep
+|
+|t:|1779573874
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|-item|p2a: Ceruledge|Air Balloon
+|turn|13
+|
+|t:|1779573883
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Ting-Lu|Earthquake|p2a: Ceruledge
+|-immune|p2a: Ceruledge
+|
+|upkeep
+|turn|14
+|
+|t:|1779573888
+|move|p2a: Ceruledge|Bitter Blade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1779573895
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|15
+|
+|t:|1779573899
+|move|p2a: Ceruledge|Bitter Blade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|45/100
+|-damage|p2a: Ceruledge|84/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|move|p1a: Mandibuzz|Foul Play|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|-enditem|p2a: Ceruledge|Air Balloon
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1779573905
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|16
+|
+|t:|1779573917
+|move|p2a: Haxorus|Outrage|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|-damage|p2a: Haxorus|84/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|t:|1779573941
+|switch|p1a: Manaphy|Manaphy|74/100
+|turn|17
+|
+|t:|1779573944
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|move|p2a: Haxorus|Outrage|p1a: Manaphy|[from] lockedmove
+|-damage|p1a: Manaphy|12/100
+|
+|upkeep
+|turn|18
+|
+|t:|1779573947
+|move|p1a: Manaphy|Alluring Voice|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|5/100
+|move|p2a: Haxorus|Outrage|p1a: Manaphy|[from] lockedmove
+|-damage|p1a: Manaphy|0 fnt
+|faint|p1a: Manaphy
+|-start|p2a: Haxorus|confusion|[fatigue]
+|-enditem|p2a: Haxorus|Lum Berry|[eat]
+|-end|p2a: Haxorus|confusion
+|
+|-sideend|p2: emellano|Reflect
+|upkeep
+|
+|t:|1779573957
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|19
+|
+|t:|1779573963
+|move|p1a: Kyurem|Earth Power|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|-sideend|p2: emellano|move: Light Screen
+|upkeep
+|
+|t:|1779573964
+|switch|p2a: Iron Treads|Iron Treads|81/100
+|turn|20
+|
+|t:|1779573968
+|-terastallize|p2a: Iron Treads|Ghost
+|move|p1a: Kyurem|Earth Power|p2a: Iron Treads
+|-damage|p2a: Iron Treads|38/100
+|move|p2a: Iron Treads|Rapid Spin|p1a: Kyurem
+|-damage|p1a: Kyurem|87/100
+|-boost|p2a: Iron Treads|spe|1
+|
+|upkeep
+|turn|21
+|-message|emellano forfeited.
+|
+|win|bigboi629
+|raw|bigboi629's rating: 1522 &rarr; <strong>1546</strong><br />(+24 for winning)
+|raw|emellano's rating: 1592 &rarr; <strong>1568</strong><br />(-24 for losing)
+|l|☆emellano
+|player|p2|

@@ -1,0 +1,195 @@
+|j|☆Pedroelentrenador
+|j|☆dddzdddq2
+|t:|1779956750
+|gametype|singles
+|player|p1|Pedroelentrenador|n|1335
+|player|p2|dddzdddq2|1|1350
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Slowbro, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Vikavolt, M|
+|poke|p1|Toxapex, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Farigiraf, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Slither Wing|
+|poke|p2|Ursaluna, F|
+|poke|p2|Torkoal, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pedroelentrenador)
+|
+|t:|1779956760
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|turn|1
+|
+|t:|1779956767
+|move|p2a: Slither Wing|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|26/100
+|-enditem|p1a: Hatterene|Sitrus Berry|[eat]
+|-heal|p1a: Hatterene|50/100|[from] item: Sitrus Berry
+|
+|t:|1779956774
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1779956783
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1779956785
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1779956793
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-terastallize|p2a: Torkoal|Fire
+|move|p2a: Torkoal|Flamethrower|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|61/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1779956804
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Toxapex|Toxic|p2a: Ursaluna
+|-status|p2a: Ursaluna|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|67/100|[from] item: Black Sludge
+|-damage|p2a: Ursaluna|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1779956814
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Ursaluna|Facade|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|74/100|[from] item: Black Sludge
+|-damage|p2a: Ursaluna|82/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1779956833
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|move|p2a: Ursaluna|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|63/100 tox|[from] psn
+|upkeep
+|
+|t:|1779956843
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|turn|7
+|
+|t:|1779956861
+|switch|p2a: Farigiraf|Farigiraf, F|100/100
+|move|p1a: Toxapex|Baneful Bunker||[still]
+|-fail|p1a: Toxapex
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1779956869
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|move|p2a: Farigiraf|Nasty Plot|p2a: Farigiraf
+|-boost|p2a: Farigiraf|spa|2
+|
+|upkeep
+|turn|9
+|
+|t:|1779956875
+|move|p2a: Farigiraf|Shadow Ball|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|upkeep
+|
+|t:|1779956882
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|10
+|
+|t:|1779956889
+|move|p2a: Farigiraf|Hyper Voice|p1a: Ursaluna
+|-damage|p1a: Ursaluna|23/100
+|-enditem|p2a: Farigiraf|Throat Spray
+|-boost|p2a: Farigiraf|spa|1|[from] item: Throat Spray
+|move|p1a: Ursaluna|Earthquake|p2a: Farigiraf
+|-damage|p2a: Farigiraf|40/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+|
+|t:|1779956899
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Farigiraf|Hyper Voice|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|t:|1779956907
+|switch|p1a: Vikavolt|Vikavolt, M|100/100
+|turn|12
+|
+|t:|1779956914
+|move|p2a: Farigiraf|Hyper Voice|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|
+|upkeep
+|l|☆Pedroelentrenador
+|inactive|Pedroelentrenador disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|Pedroelentrenador has 30 seconds to reconnect!
+|inactive|Pedroelentrenador has 20 seconds to reconnect!
+|inactive|Pedroelentrenador has 15 seconds to reconnect!
+|inactive|Pedroelentrenador has 10 seconds to reconnect!
+|inactive|Pedroelentrenador has 5 seconds to reconnect!
+|-message|Pedroelentrenador lost due to inactivity.
+|
+|win|dddzdddq2
+|raw|Pedroelentrenador's rating: 1335 &rarr; <strong>1316</strong><br />(-19 for losing)
+|raw|dddzdddq2's rating: 1350 &rarr; <strong>1369</strong><br />(+19 for winning)
+|l|☆dddzdddq2
+|player|p2|

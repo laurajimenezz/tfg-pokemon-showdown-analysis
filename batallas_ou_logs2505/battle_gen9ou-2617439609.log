@@ -1,0 +1,289 @@
+|j|☆qqwwwcom
+|j|☆MaxTitanium6121
+|t:|1779689016
+|gametype|singles
+|player|p1|qqwwwcom|1|1123
+|player|p2|MaxTitanium6121|2|1089
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tyranitar, F|
+|poke|p1|Garchomp, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Ogerpon, F|
+|poke|p1|Corviknight, M|
+|poke|p2|Torterra, M|
+|poke|p2|Yanmega, M|
+|poke|p2|Bastiodon, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Whimsicott, F|
+|teampreview
+|
+|t:|1779689023
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Torterror|Torterra, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1779689035
+|move|p2a: Torterror|Shell Smash|p2a: Torterror
+|-unboost|p2a: Torterror|def|1
+|-unboost|p2a: Torterror|spd|1
+|-boost|p2a: Torterror|atk|2
+|-boost|p2a: Torterror|spa|2
+|-boost|p2a: Torterror|spe|2
+|move|p1a: Tyranitar|Knock Off|p2a: Torterror
+|-damage|p2a: Torterror|30/100
+|-enditem|p2a: Torterror|Loaded Dice|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1779689046
+|move|p2a: Torterror|Headlong Rush|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Torterror|def|1
+|-unboost|p2a: Torterror|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1779689054
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-item|p1a: Excadrill|Air Balloon
+|turn|3
+|
+|t:|1779689060
+|move|p1a: Excadrill|Earthquake|p2a: Torterror
+|-resisted|p2a: Torterror
+|-damage|p2a: Torterror|0 fnt
+|faint|p2a: Torterror
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1779689068
+|switch|p2a: Mega Yanmega|Yanmega, M|100/100
+|turn|4
+|
+|t:|1779689082
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Mega Yanmega|Detect||[still]
+|-fail|p2a: Mega Yanmega
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mega Yanmega|94/100|[from] Sandstorm
+|-ability|p2a: Mega Yanmega|Speed Boost|boost
+|-boost|p2a: Mega Yanmega|spe|1
+|upkeep
+|turn|5
+|
+|t:|1779689093
+|move|p1a: Garchomp|Rock Slide|p2a: Mega Yanmega
+|-supereffective|p2a: Mega Yanmega
+|-damage|p2a: Mega Yanmega|0 fnt
+|faint|p2a: Mega Yanmega
+|
+|-weather|none
+|upkeep
+|
+|t:|1779689108
+|switch|p2a: Whimsicott|Whimsicott, F, shiny|100/100
+|turn|6
+|
+|t:|1779689125
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-item|p1a: Excadrill|Air Balloon
+|move|p2a: Whimsicott|Moonblast|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|81/100
+|-enditem|p1a: Excadrill|Air Balloon
+|
+|upkeep
+|turn|7
+|
+|t:|1779689138
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Excadrill|X-Scissor|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|78/100
+|
+|upkeep
+|turn|8
+|
+|t:|1779689150
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Garchomp
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-damage|p1a: Garchomp|42/100
+|-damage|p2a: Cinderace|66/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|upkeep
+|turn|9
+|
+|t:|1779689165
+|move|p1a: Garchomp|Rock Slide|p2a: Cinderace|[miss]
+|-miss|p1a: Garchomp|p2a: Cinderace
+|move|p2a: Cinderace|High Jump Kick|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Cinderace|53/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1779689175
+|switch|p1a: Excadrill|Excadrill, F|81/100
+|turn|10
+|
+|t:|1779689181
+|move|p2a: Cinderace|High Jump Kick|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|t:|1779689187
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|11
+|
+|t:|1779689203
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Cinderace|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|97/100
+|-damage|p2a: Cinderace|37/100|[from] item: Rocky Helmet|[of] p1a: Zamazenta
+|
+|t:|1779689211
+|switch|p2a: Whimsicott|Whimsicott, F, shiny|100/100|[from] U-turn
+|
+|upkeep
+|turn|12
+|
+|t:|1779689218
+|move|p2a: Whimsicott|Switcheroo|p1a: Zamazenta
+|-activate|p2a: Whimsicott|move: Trick|[of] p1a: Zamazenta
+|-item|p1a: Zamazenta|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Whimsicott|Rocky Helmet|[from] move: Switcheroo
+|move|p1a: Zamazenta|Body Press|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|57/100
+|-damage|p1a: Zamazenta|80/100|[from] item: Rocky Helmet|[of] p2a: Whimsicott
+|
+|upkeep
+|turn|13
+|
+|t:|1779689227
+|move|p1a: Zamazenta|Body Press|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|14/100
+|-damage|p1a: Zamazenta|64/100|[from] item: Rocky Helmet|[of] p2a: Whimsicott
+|move|p2a: Whimsicott|Moonblast|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|15/100
+|
+|upkeep
+|turn|14
+|
+|t:|1779689236
+|move|p2a: Whimsicott|Stun Spore|p1a: Zamazenta
+|-status|p1a: Zamazenta|par
+|move|p1a: Zamazenta|Body Press|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|-damage|p1a: Zamazenta|0 fnt|[from] item: Rocky Helmet|[of] p2a: Whimsicott
+|faint|p2a: Whimsicott
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1779689249
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|switch|p2a: Cinderace|Cinderace, M|37/100
+|turn|15
+|
+|t:|1779689256
+|move|p2a: Cinderace|Pyro Ball|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-enditem|p1a: Ogerpon|Focus Sash
+|-damage|p1a: Ogerpon|1/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1779689264
+|switch|p2a: Samurott|Samurott-Hisui, M, shiny|100/100
+|turn|16
+|
+|t:|1779689269
+|move|p2a: Samurott|Aqua Jet|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1779689277
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|turn|17
+|
+|t:|1779689283
+|move|p2a: Samurott|Aqua Cutter|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|40/100
+|move|p1a: Corviknight|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|63/100
+|
+|-heal|p1a: Corviknight|46/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1779689296
+|move|p2a: Samurott|Aqua Cutter|p1a: Corviknight
+|-damage|p1a: Corviknight|9/100
+|move|p1a: Corviknight|Body Press|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-enditem|p2a: Samurott|Chople Berry|[eat]
+|-enditem|p2a: Samurott|Chople Berry|[weaken]
+|-damage|p2a: Samurott|33/100
+|
+|-heal|p1a: Corviknight|16/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1779689307
+|move|p2a: Samurott|Aqua Cutter|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|win|MaxTitanium6121
+|raw|qqwwwcom's rating: 1123 &rarr; <strong>1096</strong><br />(-27 for losing)
+|raw|MaxTitanium6121's rating: 1089 &rarr; <strong>1118</strong><br />(+29 for winning)
+|l|☆qqwwwcom
+|player|p1|
+|l|☆MaxTitanium6121
+|player|p2|

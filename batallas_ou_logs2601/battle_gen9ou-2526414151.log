@@ -1,0 +1,223 @@
+|j|☆Dark patty
+|j|‽bigkatt96
+|t:|1769410382
+|gametype|singles
+|player|p1|Dark patty|infielder|1174
+|player|p2|bigkatt96|102|1129
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sylveon, M|
+|poke|p1|Tauros-Paldea-Blaze, M|
+|poke|p1|Darkrai|
+|poke|p1|Dragapult, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Keldeo-Resolute|
+|poke|p2|Rhyperior, M|
+|poke|p2|Slowbro, M|
+|poke|p2|Hitmonlee, M|
+|poke|p2|Scizor, M|
+|poke|p2|Sandy Shocks|
+|poke|p2|Vileplume, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dark patty)
+|
+|t:|1769410396
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-ability|p1a: Corviknight|Pressure
+|-enditem|p2a: Sandy Shocks|Booster Energy
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1769410407
+|move|p2a: Sandy Shocks|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1769410413
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|2
+|
+|t:|1769410417
+|move|p2a: Sandy Shocks|Thunderbolt|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|2/100
+|move|p1a: Keldeo|Flip Turn|p2a: Sandy Shocks
+|-supereffective|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|69/100
+|
+|t:|1769410430
+|switch|p1a: Darkrai|Darkrai|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|3
+|
+|t:|1769410435
+|move|p2a: Sandy Shocks|Stealth Rock|p1a: Darkrai
+|-sidestart|p1: Dark patty|move: Stealth Rock
+|move|p1a: Darkrai|Ice Beam|p2a: Sandy Shocks
+|-supereffective|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1769410444
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|turn|4
+|
+|t:|1769410451
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Hitmonlee|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|8/100
+|-enditem|p1a: Dragapult|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Hitmonlee
+|
+|upkeep
+|turn|5
+|
+|t:|1769410460
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Scizor
+|-status|p2a: Scizor|brn
+|
+|-damage|p2a: Scizor|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1769410469
+|switch|p1a: Tauros|Tauros-Paldea-Blaze, M|100/100
+|-damage|p1a: Tauros|88/100|[from] Stealth Rock
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|move|p2a: Scizor|Bullet Punch|p1a: Tauros
+|-resisted|p1a: Tauros
+|-damage|p1a: Tauros|82/100
+|
+|-heal|p1a: Tauros|88/100|[from] item: Leftovers
+|-damage|p2a: Scizor|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1769410482
+|switch|p2a: Rhyperior|Rhyperior, M|100/100
+|move|p1a: Tauros|Bulk Up|p1a: Tauros
+|-boost|p1a: Tauros|atk|1
+|-boost|p1a: Tauros|def|1
+|
+|-heal|p1a: Tauros|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1769410493
+|move|p1a: Tauros|Trailblaze|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|56/100
+|-boost|p1a: Tauros|spe|1
+|move|p2a: Rhyperior|Earthquake|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|3/100
+|
+|-heal|p1a: Tauros|9/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1769410504
+|-terastallize|p1a: Tauros|Grass
+|move|p1a: Tauros|Trailblaze|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|-boost|p1a: Tauros|spe|1
+|faint|p2a: Rhyperior
+|
+|-heal|p1a: Tauros|15/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769410514
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|turn|10
+|
+|t:|1769410521
+|switch|p2a: Scizor|Scizor, M|88/100 brn
+|move|p1a: Tauros|Flare Blitz|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|-damage|p1a: Tauros|0 fnt|[from] Recoil
+|faint|p1a: Tauros
+|
+|upkeep
+|
+|t:|1769410541
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1769410549
+|move|p2a: Hitmonlee|Endure|p2a: Hitmonlee
+|-singleturn|p2a: Hitmonlee|move: Endure
+|move|p1a: Sylveon|Psychic|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-activate|p2a: Hitmonlee|move: Endure
+|-damage|p2a: Hitmonlee|1/100
+|-enditem|p2a: Hitmonlee|Liechi Berry|[eat]
+|-boost|p2a: Hitmonlee|atk|1|[from] item: Liechi Berry
+|
+|upkeep
+|turn|12
+|
+|t:|1769410558
+|-terastallize|p2a: Hitmonlee|Fighting
+|move|p2a: Hitmonlee|Reversal|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|upkeep
+|
+|t:|1769410566
+|switch|p1a: Darkrai|Darkrai|100/100
+|-damage|p1a: Darkrai|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1769410575
+|move|p2a: Hitmonlee|Reversal|p1a: Darkrai
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+|
+|t:|1769410580
+|switch|p1a: Dragapult|Dragapult, F|8/100
+|-damage|p1a: Dragapult|0 fnt|[from] Stealth Rock
+|faint|p1a: Dragapult
+|-message|Dark patty forfeited.
+|
+|win|bigkatt96
+|raw|Dark patty's rating: 1174 &rarr; <strong>1146</strong><br />(-28 for losing)
+|raw|bigkatt96's rating: 1129 &rarr; <strong>1157</strong><br />(+28 for winning)
+|l|☆Dark patty
+|player|p1|
+|l|‽bigkatt96
+|player|p2|

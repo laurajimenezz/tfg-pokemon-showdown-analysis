@@ -1,0 +1,186 @@
+|j|☆scrimposaki
+|j|☆lorped
+|t:|1758342727
+|gametype|singles
+|player|p1|scrimposaki|266|1090
+|player|p2|lorped|265|1126
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Greninja-*, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Great Tusk|
+|poke|p2|Leavanny, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Iron Hands|
+|poke|p2|Sinistcha|
+|poke|p2|Altaria, F|
+|poke|p2|Mamoswine, F|
+|teampreview
+|
+|t:|1758342746
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Leavanny|Leavanny, M|100/100
+|turn|1
+|
+|t:|1758342753
+|move|p2a: Leavanny|Switcheroo|p1a: Hatterene
+|-activate|p2a: Leavanny|move: Trick|[of] p1a: Hatterene
+|-item|p1a: Hatterene|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Leavanny|Rocky Helmet|[from] move: Switcheroo
+|move|p1a: Hatterene|Nuzzle|p2a: Leavanny
+|-resisted|p2a: Leavanny
+|-damage|p2a: Leavanny|98/100
+|-status|p2a: Leavanny|par
+|-damage|p1a: Hatterene|84/100|[from] item: Rocky Helmet|[of] p2a: Leavanny
+|
+|upkeep
+|turn|2
+|
+|t:|1758342771
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Leavanny|Leaf Blade|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|71/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758342778
+|move|p1a: Cinderace|Pyro Ball|p2a: Leavanny
+|-supereffective|p2a: Leavanny
+|-damage|p2a: Leavanny|0 fnt
+|faint|p2a: Leavanny
+|
+|upkeep
+|
+|t:|1758342783
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|4
+|
+|t:|1758342788
+|move|p1a: Cinderace|Pyro Ball|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|34/100
+|move|p2a: Mamoswine|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1758342797
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|5
+|
+|t:|1758342801
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Mamoswine|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|t:|1758342811
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|turn|6
+|
+|t:|1758342816
+|switch|p1a: Hatterene|Hatterene, F|84/100
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1758342833
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|move|p1a: Hatterene|Psychic Noise|p2a: Sinistcha
+|-damage|p2a: Sinistcha|81/100
+|-start|p2a: Sinistcha|move: Heal Block
+|
+|upkeep
+|turn|8
+|
+|t:|1758342841
+|move|p2a: Sinistcha|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-end|p2a: Sinistcha|move: Heal Block
+|upkeep
+|
+|t:|1758342844
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|9
+|
+|t:|1758342850
+|move|p1a: Great Tusk|Ice Spinner|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|11/100
+|-enditem|p2a: Sinistcha|Sitrus Berry|[eat]
+|-heal|p2a: Sinistcha|36/100|[from] item: Sitrus Berry
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-heal|p2a: Sinistcha|90/100|[from] drain|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1758342860
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|10
+|
+|t:|1758342867
+|-terastallize|p1a: Dragonite|Fire
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Sinistcha|Shadow Ball|p1a: Dragonite
+|-damage|p1a: Dragonite|54/100
+|
+|upkeep
+|turn|11
+|
+|t:|1758342876
+|-terastallize|p2a: Sinistcha|Ghost
+|move|p1a: Dragonite|Fire Punch|p2a: Sinistcha
+|-damage|p2a: Sinistcha|56/100
+|move|p2a: Sinistcha|Shadow Ball|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|-message|scrimposaki forfeited.
+|
+|win|lorped
+|raw|scrimposaki's rating: 1090 &rarr; <strong>1069</strong><br />(-21 for losing)
+|raw|lorped's rating: 1126 &rarr; <strong>1148</strong><br />(+22 for winning)
+|l|☆scrimposaki
+|player|p1|
+|l|☆lorped
+|player|p2|

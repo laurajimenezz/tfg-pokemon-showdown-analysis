@@ -1,0 +1,332 @@
+|j|☆Absetia
+|j|☆Ssxtricky273373
+|t:|1758234090
+|gametype|singles
+|player|p1|Absetia|bellelba|1230
+|player|p2|Ssxtricky273373|101|1185
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Zapdos|
+|poke|p1|Zamazenta-*|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Dragonite, F|
+|poke|p1|Metagross|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Mimikyu, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Ursaluna, F|
+|poke|p2|Iron Hands|
+|teampreview
+|
+|t:|1758234104
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ssxtricky273373)
+|
+|t:|1758234112
+|move|p1a: Metagross|Earthquake|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|23/100
+|move|p2a: Iron Hands|Thunder Punch|p1a: Metagross
+|-damage|p1a: Metagross|57/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758234119
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|move|p1a: Metagross|Earthquake|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Mimikyu|Red Card|[of] p1a: Metagross
+|drag|p1a: Dragonite|Dragonite, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758234127
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Mimikyu|Trick Room|p2a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p2a: Mimikyu
+|
+|upkeep
+|turn|4
+|
+|t:|1758234138
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Weezing|Strange Steam|p2a: Ursaluna
+|-damage|p2a: Ursaluna|77/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1758234144
+|-terastallize|p2a: Ursaluna|Normal
+|move|p2a: Ursaluna|Facade|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|
+|-damage|p2a: Ursaluna|71/100 brn|[from] brn
+|upkeep
+|
+|t:|1758234156
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|6
+|
+|t:|1758234168
+|switch|p2a: Mimikyu|Mimikyu-Busted, F|88/100
+|move|p1a: Zamazenta|Body Press|p2a: Mimikyu
+|-immune|p2a: Mimikyu
+|
+|upkeep
+|turn|7
+|
+|t:|1758234175
+|switch|p1a: Metagross|Metagross|57/100
+|move|p2a: Mimikyu|Play Rough|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|47/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1758234178
+|move|p2a: Mimikyu|Destiny Bond|p2a: Mimikyu
+|-singlemove|p2a: Mimikyu|Destiny Bond
+|move|p1a: Metagross|Heavy Slam|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|-activate|p2a: Mimikyu|move: Destiny Bond
+|faint|p1a: Metagross
+|
+|upkeep
+|
+|t:|1758234188
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|9
+|
+|t:|1758234195
+|move|p1a: Samurott|Ceaseless Edge|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-sidestart|p2: Ssxtricky273373|Spikes
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1758234206
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Spikes
+|turn|10
+|
+|t:|1758234214
+|move|p1a: Samurott|Ceaseless Edge|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|20/100
+|-sidestart|p2: Ssxtricky273373|Spikes
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|11
+|
+|t:|1758234218
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Zapdos
+|-damage|p1a: Zapdos|55/100
+|
+|upkeep
+|turn|12
+|
+|t:|1758234222
+|move|p2a: Hatterene|Expanding Force|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1758234227
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|13
+|
+|t:|1758234231
+|-terastallize|p1a: Dragonite|Steel
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|90/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|14
+|
+|t:|1758234240
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758234247
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p2a: Hoopa|84/100|[from] Spikes
+|-enditem|p2a: Hoopa|Psychic Seed
+|-boost|p2a: Hoopa|spd|1|[from] item: Psychic Seed
+|turn|15
+|
+|t:|1758234253
+|move|p1a: Dragonite|Earthquake|p2a: Hoopa
+|-damage|p2a: Hoopa|4/100
+|move|p2a: Hoopa|Trick Room|p2a: Hoopa
+|-fieldstart|move: Trick Room|[of] p2a: Hoopa
+|
+|upkeep
+|turn|16
+|
+|t:|1758234257
+|move|p1a: Dragonite|Extreme Speed|p2a: Hoopa
+|-activate|p2a: Hoopa|move: Psychic Terrain
+|move|p2a: Hoopa|Focus Blast|p1a: Dragonite|[miss]
+|-miss|p2a: Hoopa|p1a: Dragonite
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|17
+|
+|t:|1758234261
+|move|p1a: Dragonite|Extreme Speed|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1758234266
+|switch|p2a: Iron Hands|Iron Hands|23/100
+|-heal|p2a: Iron Hands|100/100|[from] move: Healing Wish
+|-damage|p2a: Iron Hands|84/100|[from] Spikes
+|turn|18
+|c|☆Absetia|gg
+|
+|t:|1758234272
+|move|p1a: Dragonite|Extreme Speed|p2a: Iron Hands
+|-damage|p2a: Iron Hands|50/100
+|move|p2a: Iron Hands|Drain Punch|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|8/100
+|-heal|p2a: Iron Hands|84/100|[from] drain|[of] p1a: Dragonite
+|
+|upkeep
+|turn|19
+|
+|t:|1758234276
+|move|p1a: Dragonite|Extreme Speed|p2a: Iron Hands
+|-crit|p2a: Iron Hands
+|-damage|p2a: Iron Hands|34/100
+|move|p2a: Iron Hands|Drain Punch|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-heal|p2a: Iron Hands|37/100|[from] drain|[of] p1a: Dragonite
+|faint|p1a: Dragonite
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758234280
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|turn|20
+|
+|t:|1758234282
+|move|p1a: Zamazenta|Body Press|p2a: Iron Hands
+|-damage|p2a: Iron Hands|16/100
+|move|p2a: Iron Hands|Drain Punch|p1a: Zamazenta
+|-damage|p1a: Zamazenta|64/100
+|-heal|p2a: Iron Hands|32/100|[from] drain|[of] p1a: Zamazenta
+|
+|-heal|p1a: Zamazenta|70/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1758234287
+|move|p2a: Iron Hands|Drain Punch|p1a: Zamazenta
+|-damage|p1a: Zamazenta|37/100
+|-heal|p2a: Iron Hands|46/100|[from] drain|[of] p1a: Zamazenta
+|move|p1a: Zamazenta|Roar|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|drag|p2a: Ursaluna|Ursaluna, F, tera:Normal|71/100 brn
+|-damage|p2a: Ursaluna|54/100 brn|[from] Spikes
+|
+|-heal|p1a: Zamazenta|43/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|48/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1758234292
+|switch|p2a: Iron Hands|Iron Hands|46/100
+|-damage|p2a: Iron Hands|30/100|[from] Spikes
+|move|p1a: Zamazenta|Body Press|p2a: Iron Hands
+|-damage|p2a: Iron Hands|9/100
+|
+|-heal|p1a: Zamazenta|49/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1758234297
+|move|p1a: Zamazenta|Body Press|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|-heal|p1a: Zamazenta|56/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758234300
+|switch|p2a: Ursaluna|Ursaluna, F, tera:Normal|48/100 brn
+|-damage|p2a: Ursaluna|32/100 brn|[from] Spikes
+|turn|24
+|
+|t:|1758234303
+|move|p1a: Zamazenta|Body Press|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|win|Absetia
+|raw|Absetia's rating: 1230 &rarr; <strong>1252</strong><br />(+22 for winning)
+|raw|Ssxtricky273373's rating: 1185 &rarr; <strong>1163</strong><br />(-22 for losing)

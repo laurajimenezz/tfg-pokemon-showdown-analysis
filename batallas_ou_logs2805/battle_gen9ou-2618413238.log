@@ -1,0 +1,241 @@
+|j|☆Osakerr
+|j|☆Anna Komnenos
+|t:|1779807821
+|gametype|singles
+|player|p1|Osakerr|101|1179
+|player|p2|Anna Komnenos|lady|1176
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Incineroar, F|
+|poke|p1|Darkrai|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Garganacl, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Deoxys-Speed|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Mamoswine, F|
+|poke|p2|Lapras, F|
+|poke|p2|Froslass, F|
+|poke|p2|Weavile, F|
+|poke|p2|Sandslash-Alola, F|
+|teampreview
+|
+|t:|1779807825
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Incineroar|Incineroar, F, shiny|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ninetales|atk|1
+|turn|1
+|
+|t:|1779807832
+|switch|p2a: Lapras|Lapras, F|100/100
+|move|p1a: Incineroar|Fake Out|p2a: Lapras
+|-damage|p2a: Lapras|93/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Lapras|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1779807843
+|move|p2a: Lapras|Freeze-Dry|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|86/100
+|move|p1a: Incineroar|Parting Shot|p2a: Lapras
+|-unboost|p2a: Lapras|atk|1
+|-unboost|p2a: Lapras|spa|1
+|
+|t:|1779807853
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] Parting Shot
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Lapras|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1779807860
+|switch|p2a: Sandslash|Sandslash-Alola, F|100/100
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779807868
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p2a: Sandslash|Iron Head|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|77/100
+|cant|p1a: Ogerpon|flinch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779807877
+|move|p2a: Sandslash|Earthquake|p1a: Ogerpon
+|-damage|p1a: Ogerpon|34/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Sandslash|[anim] Ivy Cudgel Water
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|-weather|none
+|upkeep
+|
+|t:|1779807884
+|switch|p2a: Froslass|Froslass, F|100/100
+|turn|6
+|
+|t:|1779807891
+|move|p2a: Froslass|Thunder Wave|p1a: Ogerpon
+|-status|p1a: Ogerpon|par
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Froslass|[anim] Ivy Cudgel Water
+|-damage|p2a: Froslass|0 fnt
+|faint|p2a: Froslass
+|
+|upkeep
+|
+|t:|1779807894
+|switch|p2a: Lapras|Lapras, F|100/100
+|turn|7
+|
+|t:|1779807899
+|cant|p1a: Ogerpon|par
+|move|p2a: Lapras|Freeze-Dry|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|upkeep
+|
+|t:|1779807907
+|switch|p1a: Garganacl|Garganacl, M, shiny|100/100
+|turn|8
+|
+|t:|1779807913
+|move|p2a: Lapras|Surf|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|29/100
+|move|p1a: Garganacl|Salt Cure|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|75/100
+|-start|p2a: Lapras|Salt Cure
+|
+|-heal|p2a: Lapras|82/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|35/100|[from] item: Leftovers
+|-damage|p2a: Lapras|57/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1779807922
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Garganacl|42/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779807933
+|switch|p1a: Toxapex|Toxapex, M, shiny|100/100
+|move|p2a: Ninetales|Moonblast|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|87/100
+|-unboost|p1a: Toxapex|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Toxapex|93/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1779807943
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: Anna Komnenos|move: Aurora Veil
+|move|p1a: Toxapex|Toxic Spikes|p2a: Ninetales
+|-sidestart|p2: Anna Komnenos|move: Toxic Spikes
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Toxapex|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779807948
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Toxapex|Toxic Spikes|p2a: Weavile
+|-sidestart|p2: Anna Komnenos|move: Toxic Spikes
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Toxapex|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1779807957
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|move|p1a: Toxapex|Toxic|p2a: Weavile
+|-status|p2a: Weavile|tox
+|
+|-weather|none
+|-damage|p2a: Weavile|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1779807963
+|move|p2a: Weavile|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|34/100
+|-enditem|p1a: Toxapex|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Weavile|82/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1779807972
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|84/100
+|
+|-damage|p2a: Weavile|64/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1779807982
+|move|p2a: Weavile|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|40/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Weavile|40/100 tox|[from] psn
+|upkeep
+|turn|17
+|-message|Anna Komnenos forfeited.
+|
+|win|Osakerr
+|raw|Osakerr's rating: 1179 &rarr; <strong>1204</strong><br />(+25 for winning)
+|raw|Anna Komnenos's rating: 1176 &rarr; <strong>1151</strong><br />(-25 for losing)
+|l|☆Anna Komnenos
+|player|p2|

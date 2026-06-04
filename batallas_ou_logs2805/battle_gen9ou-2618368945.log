@@ -1,0 +1,485 @@
+|j|☆TWENNY7
+|j|☆sterster
+|t:|1779803868
+|gametype|singles
+|player|p1|TWENNY7|hau-stance|1485
+|player|p2|sterster|2|1468
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Tyranitar, M|
+|poke|p1|Zapdos|
+|poke|p1|Darkrai|
+|poke|p1|Okidogi, M|
+|poke|p1|Pecharunt|
+|poke|p2|Jirachi|
+|poke|p2|Weavile, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Gliscor, M|
+|poke|p2|Kyurem|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TWENNY7)
+|
+|t:|1779803891
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: SHOXY|Zapdos|100/100
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|1
+|
+|t:|1779803896
+|switch|p1a: CODE:red|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: CODE:red
+|move|p2a: Slowking|Future Sight|p1a: CODE:red
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowking|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1779803910
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: CODE:red|Knock Off|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|85/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1779803926
+|-terastallize|p1a: CODE:red|Ghost
+|move|p2a: Iron Valiant|Moonblast|p1a: CODE:red
+|-damage|p1a: CODE:red|70/100
+|-enditem|p1a: CODE:red|Red Card|[of] p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|drag|p2a: Jirachi|Jirachi, shiny|100/100
+|move|p1a: CODE:red|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: sterster|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: CODE:red|64/100|[from] Sandstorm
+|-end|p1a: CODE:red|move: Future Sight
+|-damage|p1a: CODE:red|39/100
+|upkeep
+|turn|4
+|
+|t:|1779803941
+|switch|p1a: RUNTZ|Pecharunt|100/100
+|move|p2a: Jirachi|Doom Desire|p1a: RUNTZ
+|-start|p2a: Jirachi|Doom Desire
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: RUNTZ|95/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1779803945
+|move|p1a: RUNTZ|Parting Shot|p2a: Jirachi
+|-unboost|p2a: Jirachi|atk|1
+|-unboost|p2a: Jirachi|spa|1
+|
+|t:|1779803949
+|switch|p1a: Zzz|Darkrai|100/100|[from] Parting Shot
+|move|p2a: Jirachi|Psychic Noise|p1a: Zzz
+|-immune|p1a: Zzz
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1779803955
+|move|p1a: Zzz|Trick|p2a: Jirachi
+|-activate|p1a: Zzz|move: Trick|[of] p2a: Jirachi
+|-item|p2a: Jirachi|Choice Scarf|[from] move: Trick
+|-item|p1a: Zzz|Assault Vest|[from] move: Trick
+|move|p2a: Jirachi|U-turn|p1a: Zzz
+|-supereffective|p1a: Zzz
+|-damage|p1a: Zzz|73/100
+|
+|t:|1779803961
+|switch|p2a: Gliscor|Gliscor, M|100/100|[from] U-turn
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|
+|-end|p1a: Zzz|move: Doom Desire
+|-damage|p1a: Zzz|10/100
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1779803969
+|switch|p1a: SHOXY|Zapdos|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1779803973
+|move|p1a: SHOXY|Hurricane|p2a: Gliscor
+|-damage|p2a: Gliscor|25/100 tox
+|move|p2a: Gliscor|Toxic|p1a: SHOXY
+|-status|p1a: SHOXY|tox
+|
+|-damage|p1a: SHOXY|94/100 tox|[from] psn
+|-heal|p2a: Gliscor|37/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1779803978
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: SHOXY|Hurricane|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: SHOXY|82/100 tox|[from] psn
+|-heal|p2a: Gliscor|50/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1779803982
+|switch|p2a: Jirachi|Jirachi, shiny|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|move|p1a: SHOXY|Hurricane|p2a: Jirachi|[miss]
+|-miss|p1a: SHOXY|p2a: Jirachi
+|
+|-damage|p1a: SHOXY|63/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1779803988
+|switch|p1a: RUNTZ|Pecharunt|95/100
+|move|p2a: Jirachi|Doom Desire|p1a: RUNTZ
+|-start|p2a: Jirachi|Doom Desire
+|
+|upkeep
+|turn|12
+|
+|t:|1779803997
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: RUNTZ|Parting Shot|p2a: Slowking
+|-unboost|p2a: Slowking|atk|1
+|-unboost|p2a: Slowking|spa|1
+|
+|t:|1779804008
+|switch|p1a: CODE:red|Tyranitar, M, shiny, tera:Ghost|39/100|[from] Parting Shot
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: CODE:red
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: CODE:red|32/100|[from] Sandstorm
+|-damage|p2a: Slowking|94/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1779804014
+|switch|p2a: Iron Valiant|Iron Valiant|85/100
+|-damage|p2a: Iron Valiant|78/100|[from] Stealth Rock
+|move|p1a: CODE:red|Knock Off|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|63/100|[from] Sandstorm
+|-damage|p1a: CODE:red|26/100|[from] Sandstorm
+|-end|p1a: CODE:red|move: Doom Desire
+|-damage|p1a: CODE:red|0 fnt
+|faint|p1a: CODE:red
+|upkeep
+|
+|t:|1779804026
+|switch|p1a: RUNTZ|Pecharunt|95/100
+|turn|14
+|
+|t:|1779804036
+|move|p1a: RUNTZ|Malignant Chain|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: RUNTZ|89/100|[from] Sandstorm
+|upkeep
+|
+|t:|1779804043
+|switch|p2a: Jirachi|Jirachi, shiny|94/100
+|-damage|p2a: Jirachi|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1779804048
+|switch|p1a: Zzz|Darkrai|10/100
+|move|p2a: Jirachi|Doom Desire|p1a: Zzz
+|-start|p2a: Jirachi|Doom Desire
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zzz|4/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1779804057
+|move|p1a: Zzz|Dark Pulse|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|19/100
+|move|p2a: Jirachi|Doom Desire||[still]
+|-fail|p2a: Jirachi
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|t:|1779804067
+|switch|p1a: RUNTZ|Pecharunt|89/100
+|move|p2a: Jirachi|Doom Desire||[still]
+|-fail|p2a: Jirachi
+|
+|-end|p1a: RUNTZ|move: Doom Desire
+|-damage|p1a: RUNTZ|15/100
+|upkeep
+|turn|18
+|
+|t:|1779804074
+|move|p1a: RUNTZ|Hex|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|upkeep
+|
+|t:|1779804080
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|75/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|19
+|
+|t:|1779804104
+|switch|p1a: CASPER|Okidogi, M|100/100
+|move|p2a: Kyurem|Ice Beam|p1a: CASPER
+|-damage|p1a: CASPER|61/100
+|
+|-heal|p1a: CASPER|67/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1779804112
+|switch|p2a: Gliscor|Gliscor, M|50/100 tox
+|-damage|p2a: Gliscor|37/100 tox|[from] Stealth Rock
+|move|p1a: CASPER|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|17/100 tox
+|-enditem|p2a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p1a: CASPER
+|
+|-heal|p1a: CASPER|73/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|30/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|t:|1779804120
+|switch|p1a: SHOXY|Zapdos|63/100 tox
+|move|p2a: Gliscor|Knock Off|p1a: SHOXY
+|-damage|p1a: SHOXY|36/100 tox
+|-enditem|p1a: SHOXY|Choice Specs|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-damage|p1a: SHOXY|30/100 tox|[from] psn
+|-heal|p2a: Gliscor|42/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|t:|1779804127
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: SHOXY|Roost|p1a: SHOXY
+|-heal|p1a: SHOXY|80/100 tox
+|-singleturn|p1a: SHOXY|move: Roost
+|
+|-damage|p1a: SHOXY|68/100 tox|[from] psn
+|-heal|p2a: Gliscor|55/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|t:|1779804133
+|move|p1a: SHOXY|Hurricane|p2a: Gliscor
+|-damage|p2a: Gliscor|2/100 tox
+|move|p2a: Gliscor|Spikes|p1a: SHOXY
+|-sidestart|p1: TWENNY7|Spikes
+|
+|-damage|p1a: SHOXY|49/100 tox|[from] psn
+|-heal|p2a: Gliscor|15/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|t:|1779804140
+|switch|p1a: Zzz|Darkrai|4/100
+|-damage|p1a: Zzz|0 fnt|[from] Spikes
+|faint|p1a: Zzz
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|27/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1779804155
+|switch|p1a: SHOXY|Zapdos|49/100 tox
+|turn|25
+|
+|t:|1779804161
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: SHOXY|Hurricane|p2a: Slowking|[miss]
+|-miss|p1a: SHOXY|p2a: Slowking
+|
+|-damage|p1a: SHOXY|43/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1779804167
+|move|p1a: SHOXY|Discharge|p2a: Slowking
+|-damage|p2a: Slowking|75/100
+|move|p2a: Slowking|Future Sight|p1a: SHOXY
+|-start|p2a: Slowking|move: Future Sight
+|
+|-damage|p1a: SHOXY|30/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1779804175
+|move|p1a: SHOXY|Hurricane|p2a: Slowking
+|-damage|p2a: Slowking|38/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1779804181
+|switch|p2a: Weavile|Weavile, M|100/100|[from] Chilly Reception
+|-ability|p2a: Weavile|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: SHOXY|12/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1779804192
+|move|p2a: Weavile|Ice Shard|p1a: SHOXY
+|-supereffective|p1a: SHOXY
+|-damage|p1a: SHOXY|0 fnt
+|faint|p1a: SHOXY
+|
+|-weather|Snowscape|[upkeep]
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1779804198
+|switch|p1a: CASPER|Okidogi, M|73/100
+|-damage|p1a: CASPER|61/100|[from] Spikes
+|turn|29
+|
+|t:|1779804206
+|switch|p2a: Gliscor|Gliscor, M|27/100 tox
+|-damage|p2a: Gliscor|15/100 tox|[from] Stealth Rock
+|move|p1a: CASPER|Bulk Up|p1a: CASPER
+|-boost|p1a: CASPER|atk|1
+|-boost|p1a: CASPER|def|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: CASPER|67/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|27/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|t:|1779804222
+|move|p1a: CASPER|Bulk Up|p1a: CASPER
+|-boost|p1a: CASPER|atk|1
+|-boost|p1a: CASPER|def|1
+|move|p2a: Gliscor|Knock Off|p1a: CASPER
+|-resisted|p1a: CASPER
+|-crit|p1a: CASPER
+|-damage|p1a: CASPER|52/100
+|-enditem|p1a: CASPER|Leftovers|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|40/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|31
+|
+|t:|1779804233
+|switch|p2a: Slowking|Slowking-Galar, M|71/100
+|move|p1a: CASPER|Drain Punch|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|55/100
+|-heal|p1a: CASPER|62/100|[from] drain|[of] p2a: Slowking
+|
+|-weather|none
+|upkeep
+|turn|32
+|
+|t:|1779804237
+|move|p1a: CASPER|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: CASPER
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1779804242
+|switch|p2a: Kyurem|Kyurem|75/100
+|-damage|p2a: Kyurem|50/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|33
+|
+|t:|1779804250
+|move|p2a: Kyurem|Earth Power|p1a: CASPER
+|-supereffective|p1a: CASPER
+|-damage|p1a: CASPER|12/100
+|move|p1a: CASPER|Drain Punch|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-heal|p1a: CASPER|40/100|[from] drain|[of] p2a: Kyurem
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1779804257
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|34
+|
+|t:|1779804264
+|-terastallize|p2a: Weavile|Ice
+|move|p2a: Weavile|Triple Axel|p1a: CASPER
+|-damage|p1a: CASPER|33/100
+|-damage|p1a: CASPER|22/100
+|-damage|p1a: CASPER|3/100
+|-hitcount|p1a: CASPER|3
+|move|p1a: CASPER|Drain Punch|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-heal|p1a: CASPER|43/100|[from] drain|[of] p2a: Weavile
+|faint|p2a: Weavile
+|
+|upkeep
+|-message|sterster forfeited.
+|
+|win|TWENNY7
+|raw|TWENNY7's rating: 1485 &rarr; <strong>1504</strong><br />(+19 for winning)
+|raw|sterster's rating: 1468 &rarr; <strong>1449</strong><br />(-19 for losing)
+|l|☆sterster
+|player|p2|
+|l|☆TWENNY7
+|player|p1|

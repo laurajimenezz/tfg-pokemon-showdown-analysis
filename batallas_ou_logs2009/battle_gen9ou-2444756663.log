@@ -1,0 +1,417 @@
+|j|☆NORIAC
+|j|☆OsamaVibez
+|t:|1758262641
+|gametype|singles
+|player|p1|NORIAC|170|1134
+|player|p2|OsamaVibez|101|1127
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Quaquaval, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Thundurus, M|
+|poke|p1|Ninetales-Alola, M|
+|poke|p2|Dragalge, M|
+|poke|p2|Reuniclus, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Iron Moth|
+|poke|p2|Swampert, F|
+|teampreview
+|
+|t:|1758262658
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Swampert|Swampert, F|100/100
+|turn|1
+|
+|t:|1758262670
+|move|p1a: Hydreigon|Draco Meteor|p2a: Swampert
+|-damage|p2a: Swampert|31/100
+|-unboost|p1a: Hydreigon|spa|2
+|-enditem|p2a: Swampert|Sitrus Berry|[eat]
+|-heal|p2a: Swampert|56/100|[from] item: Sitrus Berry
+|move|p2a: Swampert|Bulk Up|p2a: Swampert
+|-boost|p2a: Swampert|atk|1
+|-boost|p2a: Swampert|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1758262685
+|switch|p1a: Quaquaval|Quaquaval, M|100/100
+|move|p2a: Swampert|Ice Punch|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|79/100
+|-status|p1a: Quaquaval|frz
+|
+|upkeep
+|turn|3
+|
+|t:|1758262700
+|-terastallize|p1a: Quaquaval|Steel
+|-curestatus|p1a: Quaquaval|frz|[msg]
+|move|p1a: Quaquaval|Aqua Step|p2a: Swampert
+|-damage|p2a: Swampert|35/100
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Swampert|Earthquake|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|upkeep
+|
+|t:|1758262725
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|4
+|
+|t:|1758262732
+|move|p1a: Ninetales|Freeze-Dry|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758262761
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|5
+|
+|t:|1758262776
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Iron Moth|Sludge Wave|p1a: Hydreigon
+|-damage|p1a: Hydreigon|11/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758262791
+|move|p1a: Hydreigon|Draco Meteor|p2a: Iron Moth
+|-crit|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758262798
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|turn|7
+|
+|t:|1758262803
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Reuniclus|Night Shade|p1a: Dragapult
+|-damage|p1a: Dragapult|69/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758262812
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|move|p2a: Reuniclus|Thunder Wave|p1a: Dragapult|[miss]
+|-miss|p2a: Reuniclus|p1a: Dragapult
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1758262835
+|-terastallize|p2a: Reuniclus|Water
+|move|p1a: Dragapult|Phantom Force|p2a: Reuniclus|[from] lockedmove
+|-damage|p2a: Reuniclus|40/100
+|-damage|p1a: Dragapult|59/100|[from] item: Life Orb
+|move|p2a: Reuniclus|Charm|p1a: Dragapult
+|-unboost|p1a: Dragapult|atk|2
+|
+|-heal|p2a: Reuniclus|47/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758262847
+|move|p1a: Dragapult|U-turn|p2a: Reuniclus
+|-damage|p2a: Reuniclus|30/100
+|-damage|p1a: Dragapult|50/100|[from] item: Life Orb
+|
+|t:|1758262852
+|switch|p1a: Thundurus|Thundurus, M|100/100|[from] U-turn
+|move|p2a: Reuniclus|Charm|p1a: Thundurus
+|-unboost|p1a: Thundurus|atk|2
+|
+|-heal|p2a: Reuniclus|36/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1758262867
+|switch|p2a: Dragalge|Dragalge, M|100/100
+|move|p1a: Thundurus|Volt Switch|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|90/100
+|
+|t:|1758262878
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100|[from] Volt Switch
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1758262886
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: NORIAC|move: Aurora Veil
+|move|p2a: Dragalge|Sludge Bomb|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|47/100
+|-status|p1a: Ninetales|psn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ninetales|35/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1758262900
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|move|p2a: Dragalge|Sludge Bomb|p1a: Thundurus
+|-damage|p1a: Thundurus|58/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Thundurus|64/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1758262909
+|move|p1a: Thundurus|Thunder Wave|p2a: Dragalge
+|-status|p2a: Dragalge|par
+|move|p2a: Dragalge|Acid Spray|p1a: Thundurus
+|-damage|p1a: Thundurus|44/100
+|-unboost|p1a: Thundurus|spd|2
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Thundurus|50/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758262922
+|move|p1a: Thundurus|Volt Switch|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|80/100 par
+|
+|t:|1758262929
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from] Volt Switch
+|move|p2a: Dragalge|Sludge Bomb|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|53/100
+|-status|p1a: Hatterene|psn
+|
+|-weather|none
+|-heal|p1a: Hatterene|59/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|46/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1758262943
+|move|p1a: Hatterene|Psychic Noise|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|43/100 par
+|-start|p2a: Dragalge|move: Heal Block
+|cant|p2a: Dragalge|par
+|
+|-heal|p1a: Hatterene|52/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|40/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1758262954
+|move|p1a: Hatterene|Psychic Noise|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|4/100 par
+|move|p2a: Dragalge|Acid Spray|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|19/100 psn
+|-unboost|p1a: Hatterene|spd|2
+|
+|-heal|p1a: Hatterene|25/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|12/100 psn|[from] psn
+|-end|p2a: Dragalge|move: Heal Block
+|upkeep
+|turn|18
+|
+|t:|1758262969
+|move|p1a: Hatterene|Psychic Noise|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|faint|p2a: Dragalge
+|
+|-heal|p1a: Hatterene|18/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|6/100 psn|[from] psn
+|upkeep
+|
+|t:|1758262975
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|-item|p2a: Glimmora|Air Balloon
+|turn|19
+|
+|t:|1758262985
+|move|p2a: Glimmora|Spikes|p1a: Hatterene
+|move|p1a: Hatterene|Spikes|p2a: Glimmora|[from] ability: Magic Bounce
+|-sidestart|p2: OsamaVibez|Spikes
+|move|p1a: Hatterene|Psychic Noise|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|30/100
+|-start|p2a: Glimmora|move: Heal Block
+|-enditem|p2a: Glimmora|Air Balloon
+|
+|-heal|p1a: Hatterene|12/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|0 fnt|[from] psn
+|faint|p1a: Hatterene
+|-sideend|p1: NORIAC|move: Aurora Veil
+|upkeep
+|
+|t:|1758263004
+|switch|p1a: Thundurus|Thundurus, M|50/100
+|turn|20
+|
+|t:|1758263008
+|move|p2a: Glimmora|Spiky Shield|p2a: Glimmora
+|-singleturn|p2a: Glimmora|move: Protect
+|move|p1a: Thundurus|Volt Switch|p2a: Glimmora
+|-activate|p2a: Glimmora|move: Protect
+|
+|-heal|p1a: Thundurus|56/100|[from] item: Leftovers
+|-end|p2a: Glimmora|move: Heal Block
+|upkeep
+|turn|21
+|
+|t:|1758263018
+|move|p1a: Thundurus|Volt Switch|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|t:|1758263025
+|switch|p1a: Ninetales|Ninetales-Alola, M|35/100 psn|[from] Volt Switch
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ninetales|23/100 psn|[from] psn
+|upkeep
+|
+|t:|1758263039
+|switch|p2a: Reuniclus|Reuniclus, M, tera:Water|70/100
+|-damage|p2a: Reuniclus|57/100|[from] Spikes
+|turn|22
+|
+|t:|1758263045
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: NORIAC|move: Aurora Veil
+|move|p2a: Reuniclus|Night Shade|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Reuniclus|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758263055
+|switch|p1a: Thundurus|Thundurus, M|56/100
+|turn|23
+|
+|t:|1758263078
+|move|p1a: Thundurus|Volt Switch|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|13/100
+|
+|t:|1758263085
+|switch|p1a: Hydreigon|Hydreigon, M|11/100|[from] Volt Switch
+|move|p2a: Reuniclus|Confuse Ray|p1a: Hydreigon
+|-start|p1a: Hydreigon|confusion
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Reuniclus|19/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1758263104
+|-activate|p1a: Hydreigon|confusion
+|-damage|p1a: Hydreigon|1/100|[from] confusion
+|move|p2a: Reuniclus|Night Shade|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Reuniclus|25/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758263113
+|switch|p1a: Thundurus|Thundurus, M|56/100
+|turn|25
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NORIAC)
+|
+|t:|1758263134
+|move|p1a: Thundurus|Volt Switch|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|t:|1758263139
+|switch|p1a: Dragapult|Dragapult, F|50/100|[from] Volt Switch
+|
+|-weather|none
+|upkeep
+|
+|t:|1758263143
+|switch|p2a: Zapdos|Zapdos-Galar, shiny|100/100
+|turn|26
+|
+|t:|1758263158
+|move|p1a: Dragapult|Dragon Darts|p2a: Zapdos
+|-damage|p2a: Zapdos|60/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Zapdos
+|-damage|p2a: Zapdos|20/100
+|-damage|p1a: Dragapult|40/100|[from] item: Life Orb
+|move|p2a: Zapdos|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Life Orb|[from] move: Knock Off|[of] p2a: Zapdos
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1758263170
+|switch|p1a: Thundurus|Thundurus, M|56/100
+|turn|27
+|
+|t:|1758263173
+|move|p1a: Thundurus|Volt Switch|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|NORIAC
+|raw|NORIAC's rating: 1134 &rarr; <strong>1158</strong><br />(+24 for winning)
+|raw|OsamaVibez's rating: 1127 &rarr; <strong>1103</strong><br />(-24 for losing)
+|l|☆OsamaVibez
+|player|p2|
+|l|☆NORIAC
+|player|p1|

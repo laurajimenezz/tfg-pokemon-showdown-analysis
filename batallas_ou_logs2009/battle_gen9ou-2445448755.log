@@ -1,0 +1,238 @@
+|j|☆Inizia
+|j|☆CuentaTemporal00
+|t:|1758347662
+|gametype|singles
+|player|p1|Inizia|flannery|1240
+|player|p2|CuentaTemporal00|li|1206
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ribombee, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Serperior, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Bisharp, F|
+|poke|p2|Staraptor, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weavile, F|
+|poke|p2|Iron Hands|
+|teampreview
+|
+|t:|1758347668
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Inizia)
+|
+|t:|1758347677
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|move|p1a: Ribombee|Sticky Web|p2a: Iron Hands
+|-sidestart|p2: CuentaTemporal00|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1758347687
+|move|p2a: Iron Hands|Fake Out|p1a: Ribombee
+|-damage|p1a: Ribombee|61/100
+|move|p1a: Ribombee|Moonblast|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|26/100
+|-unboost|p2a: Iron Hands|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1758347695
+|move|p1a: Ribombee|Moonblast|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758347702
+|switch|p2a: Staraptor|Staraptor, F|100/100
+|turn|4
+|
+|t:|1758347706
+|move|p1a: Ribombee|Moonblast|p2a: Staraptor
+|-damage|p2a: Staraptor|38/100
+|move|p2a: Staraptor|Brave Bird|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|-damage|p2a: Staraptor|21/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1758347720
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|5
+|
+|t:|1758347731
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|-activate|p2a: Conkeldurr|move: Sticky Web
+|-unboost|p2a: Conkeldurr|spe|1
+|move|p1a: Dragapult|Dragon Darts|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|79/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|57/100
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1758347748
+|move|p1a: Dragapult|Surf|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|16/100 brn
+|-damage|p1a: Dragapult|81/100|[from] item: Life Orb
+|move|p2a: Conkeldurr|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Life Orb|[from] move: Knock Off|[of] p2a: Conkeldurr
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Conkeldurr|10/100 brn|[from] brn
+|upkeep
+|
+|t:|1758347766
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|7
+|
+|t:|1758347770
+|move|p2a: Conkeldurr|Mach Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|53/100
+|move|p1a: Cinderace|U-turn|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|t:|1758347777
+|switch|p1a: Bisharp|Bisharp, F|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1758347785
+|switch|p2a: Weavile|Weavile, F|100/100
+|-activate|p2a: Weavile|move: Sticky Web
+|-unboost|p2a: Weavile|spe|1
+|turn|8
+|
+|t:|1758347791
+|move|p2a: Weavile|Brick Break|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-crit|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758347796
+|switch|p1a: Cinderace|Cinderace, F|53/100
+|turn|9
+|
+|t:|1758347804
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|10
+|
+|t:|1758347820
+|move|p1a: Cinderace|Pyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|62/100
+|move|p2a: Rotom|Hydro Pump|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1758347828
+|switch|p1a: Serperior|Serperior, M|100/100
+|-activate|p1a: Serperior|move: Sticky Web
+|-boost|p1a: Serperior|spe|1
+|turn|11
+|
+|t:|1758347840
+|move|p1a: Serperior|Leaf Storm|p2a: Rotom|[miss]
+|-miss|p1a: Serperior|p2a: Rotom
+|move|p2a: Rotom|Discharge|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|79/100
+|-status|p1a: Serperior|par
+|
+|-heal|p1a: Serperior|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758347853
+|move|p2a: Rotom|Shadow Ball|p1a: Serperior
+|-damage|p1a: Serperior|56/100 par
+|cant|p1a: Serperior|par
+|
+|-heal|p1a: Serperior|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1758347865
+|move|p2a: Rotom|Shadow Ball|p1a: Serperior
+|-damage|p1a: Serperior|33/100 par
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|8/100 par
+|
+|-heal|p1a: Serperior|14/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1758347875
+|move|p2a: Rotom|Shadow Ball|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|move|p1a: Serperior|Leaf Storm|p2a: Rotom|[miss]
+|-miss|p1a: Serperior|p2a: Rotom
+|
+|-heal|p1a: Serperior|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758347884
+|move|p2a: Rotom|Shadow Ball|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|-message|Inizia forfeited.
+|
+|win|CuentaTemporal00
+|raw|Inizia's rating: 1240 &rarr; <strong>1213</strong><br />(-27 for losing)
+|raw|CuentaTemporal00's rating: 1206 &rarr; <strong>1233</strong><br />(+27 for winning)
+|l|☆Inizia
+|player|p1|
+|l|☆CuentaTemporal00
+|player|p2|

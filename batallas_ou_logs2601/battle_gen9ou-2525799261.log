@@ -1,0 +1,148 @@
+|j|☆jeffery111
+|j|☆checkersthejoltik
+|t:|1769328794
+|gametype|singles
+|player|p1|jeffery111|janitor|1123
+|player|p2|checkersthejoltik|170|1137
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Raging Bolt|
+|poke|p1|Dragapult, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Mienshao, F|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Whimsicott, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Bisharp, M|
+|teampreview
+|
+|t:|1769328828
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1769328837
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1769328854
+|move|p2a: Whimsicott|Leech Seed|p1a: Raging Bolt
+|-start|p1a: Raging Bolt|move: Leech Seed
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|33/100
+|-status|p2a: Whimsicott|par
+|-enditem|p2a: Whimsicott|Eject Button
+|
+|t:|1769328861
+|switch|p2a: Mienshao|Mienshao, F|100/100
+|
+|-damage|p1a: Raging Bolt|88/100|[from] Leech Seed|[of] p2a: Mienshao
+|upkeep
+|turn|3
+|
+|t:|1769328876
+|switch|p2a: Whimsicott|Whimsicott, F|33/100 par
+|-terastallize|p1a: Raging Bolt|Fairy
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|upkeep
+|
+|t:|1769328886
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|4
+|
+|t:|1769328891
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|t:|1769328898
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|5
+|
+|t:|1769328902
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Raging Bolt
+|-unboost|p1a: Raging Bolt|atk|1
+|-unboost|p1a: Raging Bolt|spa|1
+|
+|t:|1769328906
+|switch|p2a: Torkoal|Torkoal, M|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Torkoal
+|-damage|p2a: Torkoal|48/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Raging Bolt|76/100|[from] Leech Seed|[of] p2a: Torkoal
+|-heal|p2a: Torkoal|62/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1769328917
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Torkoal|Clear Smog|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|65/100
+|-clearboost|p1a: Raging Bolt
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Raging Bolt|52/100|[from] Leech Seed|[of] p2a: Torkoal
+|-heal|p2a: Torkoal|76/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1769328928
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Torkoal
+|-damage|p2a: Torkoal|18/100
+|move|p2a: Torkoal|Fire Blast|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769328936
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|8
+|-message|checkersthejoltik forfeited.
+|
+|win|jeffery111
+|raw|jeffery111's rating: 1123 &rarr; <strong>1149</strong><br />(+26 for winning)
+|raw|checkersthejoltik's rating: 1137 &rarr; <strong>1111</strong><br />(-26 for losing)
+|l|☆checkersthejoltik
+|player|p2|
+|l|☆jeffery111
+|player|p1|

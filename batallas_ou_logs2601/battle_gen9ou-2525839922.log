@@ -1,0 +1,540 @@
+|j|☆migui_121
+|j|☆WarusMoriz
+|t:|1769337506
+|gametype|singles
+|player|p1|migui_121|boarder|1150
+|player|p2|WarusMoriz|li|1147
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ting-Lu|
+|poke|p1|Rotom-Wash|
+|poke|p1|Corviknight, M|
+|poke|p1|Dusclops, M|
+|poke|p1|Goodra, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Forretress, F|
+|poke|p2|Serperior, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Ribombee, F|
+|teampreview
+|
+|t:|1769337514
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|1
+|
+|t:|1769337523
+|move|p2a: Ribombee|Sticky Web|p1a: Slowking
+|-sidestart|p1: migui_121|move: Sticky Web
+|move|p1a: Slowking|Thunder Wave|p2a: Ribombee
+|-status|p2a: Ribombee|par
+|
+|upkeep
+|turn|2
+|
+|t:|1769337527
+|cant|p2a: Ribombee|par
+|move|p1a: Slowking|Future Sight|p2a: Ribombee
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|3
+|
+|t:|1769337540
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ribombee|Stun Spore|p1a: Corviknight
+|-status|p1a: Corviknight|par
+|
+|upkeep
+|turn|4
+|
+|t:|1769337554
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|cant|p1a: Corviknight|par
+|
+|-end|p2a: Crawdaunt|move: Future Sight
+|-immune|p2a: Crawdaunt
+|upkeep
+|turn|5
+|
+|t:|1769337578
+|-terastallize|p2a: Crawdaunt|Water
+|move|p2a: Crawdaunt|Crabhammer|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Crawdaunt|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1769337589
+|switch|p1a: Termomix|Rotom-Wash|100/100
+|turn|6
+|
+|t:|1769337594
+|move|p1a: Termomix|Volt Switch|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|t:|1769337599
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] Volt Switch
+|-activate|p1a: Slowking|move: Sticky Web
+|-unboost|p1a: Slowking|spe|1
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by migui_121)
+|
+|t:|1769337615
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|turn|7
+|
+|t:|1769337620
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|move|p1a: Slowking|Trick|p2a: Goodra
+|-activate|p1a: Slowking|move: Trick|[of] p2a: Goodra
+|-item|p2a: Goodra|Black Sludge|[from] move: Trick
+|-item|p1a: Slowking|Chesto Berry|[from] move: Trick
+|
+|-damage|p2a: Goodra|88/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1769337648
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|move|p1a: Slowking|Thunder Wave|p2a: Goodra
+|-status|p2a: Goodra|par
+|
+|-damage|p2a: Goodra|76/100 par|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1769337660
+|switch|p1a: Xokas|Dusclops, M, shiny|100/100
+|-activate|p1a: Xokas|move: Sticky Web
+|-unboost|p1a: Xokas|spe|1
+|-ability|p1a: Xokas|Pressure
+|move|p2a: Goodra|Heavy Slam|p1a: Xokas
+|-damage|p1a: Xokas|53/100
+|
+|-damage|p2a: Goodra|63/100 par|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1769337672
+|move|p1a: Xokas|Haze|p1a: Xokas
+|-clearallboost
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-damage|p2a: Goodra|51/100 par|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1769337689
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-activate|p1a: Ting-Lu|move: Sticky Web
+|-unboost|p1a: Ting-Lu|spe|1
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Goodra|Rest|p2a: Goodra
+|-status|p2a: Goodra|slp|[from] move: Rest
+|-heal|p2a: Goodra|100/100 slp|[silent]
+|
+|-damage|p2a: Goodra|88/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|12
+|inactive|WarusMoriz has 120 seconds left.
+|
+|t:|1769337713
+|switch|p2a: Serperior|Serperior, M|100/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|76/100
+|
+|upkeep
+|turn|13
+|
+|t:|1769337723
+|switch|p1a: Goodra|Goodra, F, shiny|100/100
+|-activate|p1a: Goodra|move: Sticky Web
+|-unboost|p1a: Goodra|spe|1
+|move|p2a: Serperior|Reflect|p2a: Serperior
+|-sidestart|p2: WarusMoriz|Reflect
+|
+|upkeep
+|turn|14
+|
+|t:|1769337729
+|move|p1a: Goodra|Flamethrower|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+|
+|t:|1769337737
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|15
+|
+|t:|1769337746
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|-activate|p1a: Slowking|move: Sticky Web
+|-unboost|p1a: Slowking|spe|1
+|move|p2a: Hatterene|Nuzzle|p1a: Slowking
+|-damage|p1a: Slowking|96/100
+|-status|p1a: Slowking|par
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|
+|t:|1769337764
+|switch|p2a: Goodra|Goodra-Hisui, M|88/100 slp
+|cant|p1a: Slowking|par
+|
+|-damage|p2a: Goodra|76/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1769337778
+|switch|p1a: Xokas|Dusclops, M, shiny|53/100
+|-activate|p1a: Xokas|move: Sticky Web
+|-unboost|p1a: Xokas|spe|1
+|-ability|p1a: Xokas|Pressure
+|cant|p2a: Goodra|slp
+|
+|-damage|p2a: Goodra|63/100 slp|[from] item: Black Sludge
+|-sideend|p2: WarusMoriz|Reflect
+|upkeep
+|turn|18
+|
+|t:|1769337787
+|cant|p2a: Goodra|slp
+|move|p1a: Xokas|Pain Split|p2a: Goodra
+|-sethp|p2a: Goodra|52/100 slp|[from] move: Pain Split|[silent]
+|-sethp|p1a: Xokas|67/100|[from] move: Pain Split
+|
+|-damage|p2a: Goodra|40/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1769337796
+|-curestatus|p2a: Goodra|slp|[msg]
+|move|p2a: Goodra|Heavy Slam|p1a: Xokas
+|-damage|p1a: Xokas|43/100
+|move|p1a: Xokas|Haze|p1a: Xokas
+|-clearallboost
+|
+|-damage|p2a: Goodra|27/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1769337809
+|switch|p1a: Slowking|Slowking-Galar, M|100/100 par
+|-activate|p1a: Slowking|move: Sticky Web
+|-unboost|p1a: Slowking|spe|1
+|move|p2a: Goodra|Rest|p2a: Goodra
+|-status|p2a: Goodra|slp|[from] move: Rest
+|-heal|p2a: Goodra|100/100 slp|[silent]
+|
+|-damage|p2a: Goodra|88/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|t:|1769337822
+|switch|p1a: Xokas|Dusclops, M, shiny|43/100
+|-activate|p1a: Xokas|move: Sticky Web
+|-unboost|p1a: Xokas|spe|1
+|-ability|p1a: Xokas|Pressure
+|cant|p2a: Goodra|slp
+|
+|-damage|p2a: Goodra|76/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|t:|1769337830
+|cant|p2a: Goodra|slp
+|move|p1a: Xokas|Pain Split|p2a: Goodra
+|-sethp|p2a: Goodra|55/100 slp|[from] move: Pain Split|[silent]
+|-sethp|p1a: Xokas|70/100|[from] move: Pain Split
+|
+|-damage|p2a: Goodra|43/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|t:|1769337855
+|switch|p2a: Ribombee|Ribombee, F|100/100 par
+|switch|p1a: Slowking|Slowking-Galar, M|100/100 par
+|-activate|p1a: Slowking|move: Sticky Web
+|-unboost|p1a: Slowking|spe|1
+|
+|upkeep
+|turn|24
+|
+|t:|1769337867
+|cant|p2a: Ribombee|par
+|move|p1a: Slowking|Trick|p2a: Ribombee
+|-activate|p1a: Slowking|move: Trick|[of] p2a: Ribombee
+|-item|p2a: Ribombee|Chesto Berry|[from] move: Trick
+|-item|p1a: Slowking|Focus Sash|[from] move: Trick
+|
+|upkeep
+|turn|25
+|
+|t:|1769337883
+|move|p2a: Ribombee|Struggle Bug|p1a: Slowking
+|-damage|p1a: Slowking|86/100 par
+|-unboost|p1a: Slowking|spa|1
+|cant|p1a: Slowking|par
+|
+|upkeep
+|turn|26
+|
+|t:|1769337889
+|move|p2a: Ribombee|Struggle Bug|p1a: Slowking
+|-damage|p1a: Slowking|71/100 par
+|-unboost|p1a: Slowking|spa|1
+|move|p1a: Slowking|Future Sight|p2a: Ribombee
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|27
+|
+|t:|1769337897
+|switch|p1a: Xokas|Dusclops, M, shiny|70/100
+|-activate|p1a: Xokas|move: Sticky Web
+|-unboost|p1a: Xokas|spe|1
+|-ability|p1a: Xokas|Pressure
+|cant|p2a: Ribombee|par
+|
+|upkeep
+|turn|28
+|
+|t:|1769337910
+|switch|p2a: Goodra|Goodra-Hisui, M|43/100 slp
+|switch|p1a: Slowking|Slowking-Galar, M|100/100 par
+|-activate|p1a: Slowking|move: Sticky Web
+|-unboost|p1a: Slowking|spe|1
+|
+|-end|p2a: Goodra|move: Future Sight
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|30/100 slp
+|-damage|p2a: Goodra|18/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|29
+|
+|t:|1769337928
+|switch|p1a: Xokas|Dusclops, M, shiny|70/100
+|-activate|p1a: Xokas|move: Sticky Web
+|-unboost|p1a: Xokas|spe|1
+|-ability|p1a: Xokas|Pressure
+|-curestatus|p2a: Goodra|slp|[msg]
+|move|p2a: Goodra|Heavy Slam|p1a: Xokas
+|-damage|p1a: Xokas|48/100
+|
+|-damage|p2a: Goodra|5/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|
+|t:|1769337942
+|move|p2a: Goodra|Heavy Slam|p1a: Xokas
+|-damage|p1a: Xokas|25/100
+|move|p1a: Xokas|Pain Split|p2a: Goodra
+|-sethp|p2a: Goodra|13/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Xokas|16/100|[from] move: Pain Split
+|
+|-damage|p2a: Goodra|0 fnt|[from] item: Black Sludge
+|faint|p2a: Goodra
+|upkeep
+|c|☆migui_121|wp
+|
+|t:|1769337951
+|switch|p2a: Ribombee|Ribombee, F|100/100 par
+|turn|31
+|
+|t:|1769337955
+|move|p2a: Ribombee|Stun Spore|p1a: Xokas
+|-status|p1a: Xokas|par
+|move|p1a: Xokas|Pain Split|p2a: Ribombee
+|-sethp|p2a: Ribombee|59/100 par|[from] move: Pain Split|[silent]
+|-sethp|p1a: Xokas|54/100 par|[from] move: Pain Split
+|
+|upkeep
+|turn|32
+|
+|t:|1769337963
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-activate|p1a: Ting-Lu|move: Sticky Web
+|-unboost|p1a: Ting-Lu|spe|1
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Ribombee|Moonblast|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|59/100
+|
+|-heal|p1a: Ting-Lu|66/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1769337976
+|move|p2a: Ribombee|Stun Spore|p1a: Ting-Lu
+|-status|p1a: Ting-Lu|par
+|cant|p1a: Ting-Lu|par
+|
+|-heal|p1a: Ting-Lu|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1769337991
+|move|p2a: Ribombee|Struggle Bug|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|49/100 par
+|-unboost|p1a: Ting-Lu|spa|1
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Ribombee
+|-sidestart|p2: WarusMoriz|move: Stealth Rock
+|
+|-heal|p1a: Ting-Lu|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1769337998
+|switch|p1a: Slowking|Slowking-Galar, M|100/100 par
+|-activate|p1a: Slowking|move: Sticky Web
+|-unboost|p1a: Slowking|spe|1
+|move|p2a: Ribombee|Struggle Bug|p1a: Slowking
+|-damage|p1a: Slowking|85/100 par
+|-unboost|p1a: Slowking|spa|1
+|
+|upkeep
+|turn|36
+|
+|t:|1769338006
+|move|p2a: Ribombee|Struggle Bug|p1a: Slowking
+|-damage|p1a: Slowking|69/100 par
+|-unboost|p1a: Slowking|spa|1
+|move|p1a: Slowking|Future Sight|p2a: Ribombee
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|37
+|
+|t:|1769338014
+|cant|p2a: Ribombee|par
+|move|p1a: Slowking|Toxic||[still]
+|-fail|p1a: Slowking
+|
+|upkeep
+|turn|38
+|
+|t:|1769338021
+|switch|p2a: Forretress|Forretress, F|100/100
+|move|p1a: Slowking|Thunder Wave|p2a: Forretress
+|-status|p2a: Forretress|par
+|
+|-end|p2a: Forretress|move: Future Sight
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|87/100 par
+|upkeep
+|turn|39
+|
+|t:|1769338032
+|move|p2a: Forretress|Stealth Rock|p1a: Slowking
+|-sidestart|p1: migui_121|move: Stealth Rock
+|move|p1a: Slowking|Trick|p2a: Forretress
+|-activate|p1a: Slowking|move: Trick|[of] p2a: Forretress
+|-item|p2a: Forretress|Focus Sash|[from] move: Trick
+|-item|p1a: Slowking|Heavy-Duty Boots|[from] move: Trick
+|
+|upkeep
+|turn|40
+|
+|t:|1769338043
+|switch|p1a: Goodra|Goodra, F, shiny|100/100
+|-activate|p1a: Goodra|move: Sticky Web
+|-unboost|p1a: Goodra|spe|1
+|-damage|p1a: Goodra|88/100|[from] Stealth Rock
+|move|p2a: Forretress|Rapid Spin|p1a: Goodra
+|-damage|p1a: Goodra|76/100
+|-boost|p2a: Forretress|spe|1
+|-sideend|p2: WarusMoriz|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|upkeep
+|turn|41
+|
+|t:|1769338054
+|switch|p2a: Hatterene|Hatterene, F|91/100
+|move|p1a: Goodra|Flamethrower|p2a: Hatterene
+|-damage|p2a: Hatterene|61/100
+|-status|p2a: Hatterene|brn
+|
+|-damage|p2a: Hatterene|55/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1769338064
+|-terastallize|p1a: Goodra|Steel
+|move|p1a: Goodra|Tera Blast|p2a: Hatterene|[anim] Tera Blast Steel
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|c|☆migui_121|ggs
+|
+|t:|1769338071
+|switch|p2a: Ribombee|Ribombee, F|59/100 par
+|turn|43
+|
+|t:|1769338077
+|switch|p2a: Forretress|Forretress, F|87/100 par
+|move|p1a: Goodra|Flamethrower|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|upkeep
+|c|☆migui_121|ggs
+|
+|t:|1769338083
+|switch|p2a: Ribombee|Ribombee, F|59/100 par
+|turn|44
+|c|☆WarusMoriz|GG
+|
+|t:|1769338088
+|cant|p2a: Ribombee|par
+|move|p1a: Goodra|Tera Blast|p2a: Ribombee|[anim] Tera Blast Steel
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|win|migui_121
+|raw|migui_121's rating: 1150 &rarr; <strong>1175</strong><br />(+25 for winning)
+|raw|WarusMoriz's rating: 1147 &rarr; <strong>1122</strong><br />(-25 for losing)
+|c|☆migui_121|w
+|c|☆migui_121|wp
+|l|☆migui_121
+|player|p1|
+|l|☆WarusMoriz
+|player|p2|

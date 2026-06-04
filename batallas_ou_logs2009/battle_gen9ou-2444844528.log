@@ -1,0 +1,296 @@
+|j|☆one_angry_jew
+|j|☆dxBasti
+|t:|1758277420
+|gametype|singles
+|player|p1|one_angry_jew|266|1357
+|player|p2|dxBasti|n|1408
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Vaporeon, F|
+|poke|p1|Sylveon, M|
+|poke|p1|Espeon, F|
+|poke|p1|Jolteon, M|
+|poke|p1|Glaceon, F|
+|poke|p1|Umbreon, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Iron Hands|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Mimikyu, M|
+|teampreview
+|
+|t:|1758277431
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1758277459
+|move|p1a: Vaporeon|Alluring Voice|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|40/100
+|move|p2a: Iron Hands|Close Combat|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-unboost|p2a: Iron Hands|def|1
+|-unboost|p2a: Iron Hands|spd|1
+|faint|p1a: Vaporeon
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dxBasti)
+|
+|t:|1758277462
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|turn|2
+|
+|t:|1758277465
+|move|p1a: Sylveon|Hyper Voice|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758277468
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|3
+|
+|t:|1758277470
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Hatterene
+|-damage|p2a: Hatterene|41/100
+|
+|upkeep
+|turn|4
+|
+|t:|1758277478
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|5
+|
+|t:|1758277485
+|move|p2a: Hatterene|Expanding Force|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|-damage|p2a: Hatterene|31/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758277496
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|turn|6
+|
+|t:|1758277498
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Hatterene|Draining Kiss|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1758277503
+|move|p2a: Hatterene|Draining Kiss|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|50/100
+|-heal|p2a: Hatterene|78/100|[from] drain|[of] p1a: Umbreon
+|-damage|p2a: Hatterene|68/100|[from] item: Life Orb
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|56/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758277506
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Hatterene|Draining Kiss|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|t:|1758277513
+|move|p1a: Umbreon|Foul Play|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|28/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|10
+|
+|t:|1758277518
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Umbreon|Protect||[still]
+|-fail|p1a: Umbreon
+|
+|-fieldend|move: Psychic Terrain
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+|
+|t:|1758277524
+|move|p2a: Ursaluna|Facade|p1a: Umbreon
+|-damage|p1a: Umbreon|24/100
+|move|p1a: Umbreon|Foul Play|p2a: Ursaluna
+|-damage|p2a: Ursaluna|63/100 brn
+|
+|-heal|p1a: Umbreon|30/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|57/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1758277530
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Ursaluna|Facade|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|36/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|51/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1758277539
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Ursaluna|Facade|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|42/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|45/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|t:|1758277542
+|move|p1a: Umbreon|Foul Play|p2a: Ursaluna
+|-damage|p2a: Ursaluna|8/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|
+|-damage|p2a: Ursaluna|2/100 brn|[from] brn
+|upkeep
+|inactive|one_angry_jew has 120 seconds left.
+|inactive|one_angry_jew has 90 seconds left.
+|
+|t:|1758277616
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|turn|15
+|
+|t:|1758277627
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Mimikyu|Red Card|[of] p1a: Sylveon
+|drag|p1a: Espeon|Espeon, F|100/100
+|
+|upkeep
+|turn|16
+|
+|t:|1758277637
+|-terastallize|p1a: Espeon|Ghost
+|move|p1a: Espeon|Shadow Ball|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|upkeep
+|
+|t:|1758277642
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|17
+|
+|t:|1758277644
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-enditem|p2a: Hoopa|Psychic Seed
+|-boost|p2a: Hoopa|spd|1|[from] item: Psychic Seed
+|
+|upkeep
+|turn|18
+|
+|t:|1758277649
+|move|p1a: Sylveon|Hyper Voice|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|41/100
+|move|p2a: Hoopa|Trick Room|p2a: Hoopa
+|-fieldstart|move: Trick Room|[of] p2a: Hoopa
+|
+|upkeep
+|turn|19
+|
+|t:|1758277653
+|move|p2a: Hoopa|Expanding Force|p1a: Sylveon
+|-damage|p1a: Sylveon|55/100
+|-item|p2a: Hoopa|Assault Vest|[from] ability: Magician|[of] p1a: Sylveon
+|move|p1a: Sylveon|Hyper Voice|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|1/100
+|
+|upkeep
+|turn|20
+|inactive|one_angry_jew has 120 seconds left.
+|
+|t:|1758277689
+|move|p2a: Hoopa|Expanding Force|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|upkeep
+|
+|t:|1758277698
+|switch|p1a: Glaceon|Glaceon, F|100/100
+|turn|21
+|
+|t:|1758277708
+|move|p2a: Hoopa|Expanding Force|p1a: Glaceon
+|-damage|p1a: Glaceon|0 fnt
+|faint|p1a: Glaceon
+|
+|upkeep
+|
+|t:|1758277711
+|switch|p1a: Espeon|Espeon, F, tera:Ghost|100/100
+|turn|22
+|
+|t:|1758277717
+|move|p2a: Hoopa|Expanding Force|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|win|dxBasti
+|raw|one_angry_jew's rating: 1357 &rarr; <strong>1340</strong><br />(-17 for losing)
+|raw|dxBasti's rating: 1408 &rarr; <strong>1425</strong><br />(+17 for winning)
+|l|☆dxBasti
+|player|p2|
+|l|☆one_angry_jew
+|player|p1|

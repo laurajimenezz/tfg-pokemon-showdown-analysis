@@ -1,0 +1,555 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆Testteambill
+|j|☆dummydraedon
+|t:|1776068242
+|gametype|singles
+|player|p1|Testteambill|169|1548
+|player|p2|dummydraedon|266|1470
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tinkaton, F|
+|poke|p1|Serperior, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Araquanid, F|
+|poke|p1|Great Tusk|
+|poke|p1|Hawlucha, M|
+|poke|p2|Vaporeon, F|
+|poke|p2|Tinkaton, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Zoroark-Hisui, M|
+|teampreview
+|
+|t:|1776068254
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Indeedee|Indeedee, M, shiny|100/100
+|switch|p2a: I smash vap|Tinkaton, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1776068273
+|switch|p1a: Tinkaton|Tinkaton, F, shiny|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|move|p2a: I smash vap|Trick|p1a: Tinkaton
+|-activate|p2a: I smash vap|move: Trick|[of] p1a: Tinkaton
+|-item|p1a: Tinkaton|Choice Scarf|[from] move: Trick
+|-item|p2a: I smash vap|Air Balloon
+|-item|p2a: I smash vap|Air Balloon|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|t:|1776068282
+|move|p1a: Tinkaton|Knock Off|p2a: I smash vap
+|-supereffective|p2a: I smash vap
+|-damage|p2a: I smash vap|25/100
+|replace|p2a: i think im vap|Zoroark-Hisui, M
+|-end|p2a: i think im vap|Illusion
+|-enditem|p2a: i think im vap|Air Balloon
+|move|p2a: i think im vap|Will-O-Wisp|p1a: Tinkaton
+|-status|p1a: Tinkaton|brn
+|
+|-damage|p1a: Tinkaton|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1776068289
+|switch|p2a: I smash vap|Tinkaton, F, shiny|100/100
+|-ability|p2a: I smash vap|Mold Breaker
+|move|p1a: Tinkaton|Knock Off|p2a: I smash vap
+|-resisted|p2a: I smash vap
+|-damage|p2a: I smash vap|96/100
+|-enditem|p2a: I smash vap|Leftovers|[from] move: Knock Off|[of] p1a: Tinkaton
+|
+|-damage|p1a: Tinkaton|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1776068300
+|move|p1a: Tinkaton|Knock Off|p2a: I smash vap
+|-resisted|p2a: I smash vap
+|-damage|p2a: I smash vap|93/100
+|move|p2a: I smash vap|Thunder Wave||[still]
+|-fail|p2a: I smash vap
+|
+|-damage|p1a: Tinkaton|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1776068307
+|switch|p2a: bird in vap|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: bird in vap
+|move|p1a: Tinkaton|Knock Off|p2a: bird in vap
+|-damage|p2a: bird in vap|88/100
+|-enditem|p2a: bird in vap|Choice Scarf|[from] move: Knock Off|[of] p1a: Tinkaton
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Tinkaton|76/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1776068319
+|move|p1a: Tinkaton|Knock Off|p2a: bird in vap
+|-damage|p2a: bird in vap|81/100
+|move|p2a: bird in vap|Hydro Pump|p1a: Tinkaton|[miss]
+|-miss|p2a: bird in vap|p1a: Tinkaton
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Tinkaton|70/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1776068327
+|switch|p1a: Araquanid|Araquanid, F, shiny|100/100
+|move|p2a: bird in vap|Hydro Pump|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|72/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1776068336
+|move|p2a: bird in vap|Hurricane|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1776068349
+|switch|p1a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|9
+|
+|t:|1776068354
+|move|p1a: Indeedee|Expanding Force|p2a: bird in vap
+|-damage|p2a: bird in vap|0 fnt
+|faint|p2a: bird in vap
+|
+|-weather|none
+|upkeep
+|
+|t:|1776068359
+|switch|p2a: I smash vap|Tinkaton, F, shiny|93/100
+|-ability|p2a: I smash vap|Mold Breaker
+|turn|10
+|
+|t:|1776068365
+|switch|p1a: Tinkaton|Tinkaton, F, shiny|70/100 brn
+|move|p2a: I smash vap|Stealth Rock|p1a: Tinkaton
+|-sidestart|p1: Testteambill|move: Stealth Rock
+|
+|-damage|p1a: Tinkaton|64/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1776068375
+|move|p1a: Tinkaton|Thunder Wave|p2a: I smash vap
+|-status|p2a: I smash vap|par
+|move|p2a: I smash vap|Encore|p1a: Tinkaton
+|-start|p1a: Tinkaton|Encore
+|
+|-damage|p1a: Tinkaton|57/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1776068380
+|move|p1a: Tinkaton|Thunder Wave|p2a: I smash vap
+|-fail|p2a: I smash vap|par
+|move|p2a: I smash vap|Knock Off|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|50/100 brn
+|-enditem|p1a: Tinkaton|Choice Scarf|[from] move: Knock Off|[of] p2a: I smash vap
+|
+|-damage|p1a: Tinkaton|44/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1776068394
+|move|p1a: Tinkaton|Thunder Wave|p2a: I smash vap
+|-fail|p2a: I smash vap|par
+|cant|p2a: I smash vap|par
+|
+|-damage|p1a: Tinkaton|38/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|14
+|
+|t:|1776068397
+|move|p1a: Tinkaton|Thunder Wave|p2a: I smash vap
+|-fail|p2a: I smash vap|par
+|move|p2a: I smash vap|Knock Off|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|33/100 brn
+|
+|-damage|p1a: Tinkaton|27/100 brn|[from] brn
+|-end|p1a: Tinkaton|Encore
+|upkeep
+|turn|15
+|
+|t:|1776068403
+|move|p1a: Tinkaton|Stealth Rock|p2a: I smash vap
+|-sidestart|p2: dummydraedon|move: Stealth Rock
+|move|p2a: I smash vap|Encore|p1a: Tinkaton
+|-start|p1a: Tinkaton|Encore
+|
+|-damage|p1a: Tinkaton|21/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1776068407
+|switch|p2a: digging in vap|Excadrill, M, shiny|100/100
+|-damage|p2a: digging in vap|97/100|[from] Stealth Rock
+|-ability|p2a: digging in vap|Mold Breaker
+|-item|p2a: digging in vap|Air Balloon
+|move|p1a: Tinkaton|Stealth Rock||[still]
+|-fail|p1a: Tinkaton
+|
+|-damage|p1a: Tinkaton|15/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1776068415
+|move|p2a: digging in vap|Rapid Spin|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|8/100 brn
+|-boost|p2a: digging in vap|spe|1
+|-sideend|p2: dummydraedon|Stealth Rock|[from] move: Rapid Spin|[of] p2a: digging in vap
+|-item|p1a: Tinkaton|Air Balloon
+|-enditem|p2a: digging in vap|Air Balloon|[silent]|[from] ability: Pickpocket|[of] p2a: digging in vap
+|-item|p1a: Tinkaton|Air Balloon|[from] ability: Pickpocket|[of] p2a: digging in vap
+|move|p1a: Tinkaton|Stealth Rock|p2a: digging in vap
+|-sidestart|p2: dummydraedon|move: Stealth Rock
+|
+|-damage|p1a: Tinkaton|2/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1776068424
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|move|p2a: digging in vap|Swords Dance|p2a: digging in vap
+|-boost|p2a: digging in vap|atk|2
+|
+|upkeep
+|turn|19
+|
+|t:|1776068427
+|move|p2a: digging in vap|Rapid Spin|p1a: Great Tusk
+|-damage|p1a: Great Tusk|74/100
+|-boost|p2a: digging in vap|spe|1
+|-sideend|p2: dummydraedon|Stealth Rock|[from] move: Rapid Spin|[of] p2a: digging in vap
+|move|p1a: Great Tusk|Headlong Rush|p2a: digging in vap
+|-supereffective|p2a: digging in vap
+|-damage|p2a: digging in vap|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: digging in vap
+|
+|upkeep
+|
+|t:|1776068434
+|switch|p2a: fish in vap|Barraskewda, M|100/100
+|turn|20
+|
+|t:|1776068438
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Tinkaton|Tinkaton, F, shiny|2/100 brn
+|-damage|p1a: Tinkaton|0 fnt|[from] Stealth Rock
+|faint|p1a: Tinkaton
+|move|p2a: fish in vap|Liquidation|p1: Tinkaton|[notarget]
+|-fail|p2a: fish in vap
+|
+|upkeep
+|
+|t:|1776068447
+|switch|p1a: Serperior|Serperior, M, shiny|100/100
+|-damage|p1a: Serperior|88/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1776068450
+|-terastallize|p2a: fish in vap|Fighting
+|move|p2a: fish in vap|Close Combat|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|-unboost|p2a: fish in vap|def|1
+|-unboost|p2a: fish in vap|spd|1
+|faint|p1a: Serperior
+|-damage|p2a: fish in vap|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1776068464
+|switch|p1a: Indeedee|Indeedee, M, shiny|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|22
+|
+|t:|1776068484
+|switch|p2a: vap|Vaporeon, F|100/100
+|move|p1a: Indeedee|Expanding Force|p2a: vap
+|-damage|p2a: vap|16/100
+|
+|-heal|p2a: vap|22/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1776068490
+|move|p2a: vap|Protect|p2a: vap
+|-singleturn|p2a: vap|Protect
+|move|p1a: Indeedee|Expanding Force|p2a: vap
+|-activate|p2a: vap|move: Protect
+|
+|-heal|p2a: vap|28/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1776068524
+|switch|p2a: I smash vap|Tinkaton, F, shiny|93/100 par
+|-ability|p2a: I smash vap|Mold Breaker
+|move|p1a: Indeedee|Expanding Force|p2a: I smash vap
+|-resisted|p2a: I smash vap
+|-damage|p2a: I smash vap|57/100 par
+|
+|upkeep
+|turn|25
+|
+|t:|1776068534
+|switch|p1a: Great Tusk|Great Tusk, shiny|74/100
+|move|p2a: I smash vap|Thunder Wave|p1a: Great Tusk
+|-immune|p1a: Great Tusk
+|
+|upkeep
+|turn|26
+|
+|t:|1776068551
+|move|p1a: Great Tusk|Ice Spinner|p2a: I smash vap
+|-resisted|p2a: I smash vap
+|-damage|p2a: I smash vap|41/100 par
+|-fieldend|move: Psychic Terrain
+|move|p2a: I smash vap|Encore|p1a: Great Tusk
+|-start|p1a: Great Tusk|Encore
+|
+|upkeep
+|turn|27
+|
+|t:|1776068557
+|switch|p2a: vap|Vaporeon, F|28/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: vap
+|-resisted|p2a: vap
+|-damage|p2a: vap|17/100
+|
+|-heal|p2a: vap|24/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1776068561
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Indeedee|Indeedee, M, shiny|88/100
+|-damage|p1a: Indeedee|76/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: vap|Wish|p2a: vap
+|
+|-heal|p2a: vap|30/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1776068570
+|switch|p1a: Great Tusk|Great Tusk, shiny|74/100
+|move|p2a: vap|Protect||[still]
+|-fail|p2a: vap
+|
+|-heal|p2a: vap|80/100|[from] move: Wish|[wisher] vap
+|-heal|p2a: vap|86/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1776068572
+|move|p1a: Great Tusk|Rapid Spin|p2a: vap
+|-damage|p2a: vap|72/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Testteambill|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: vap|Scald|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: vap|78/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1776068577
+|switch|p1a: Indeedee|Indeedee, M, shiny|76/100
+|turn|31
+|
+|t:|1776068581
+|move|p2a: vap|Protect|p2a: vap
+|-singleturn|p2a: vap|Protect
+|move|p1a: Indeedee|Expanding Force|p2a: vap
+|-activate|p2a: vap|move: Protect
+|
+|-heal|p2a: vap|85/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1776068587
+|switch|p1a: Hawlucha|Hawlucha, M, shiny|100/100
+|-enditem|p1a: Hawlucha|Psychic Seed
+|-boost|p1a: Hawlucha|spd|1|[from] item: Psychic Seed
+|move|p2a: vap|Wish|p2a: vap
+|
+|-heal|p2a: vap|91/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|33
+|
+|t:|1776068591
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: vap|Haze|p2a: vap
+|-clearallboost
+|
+|-heal|p2a: vap|100/100|[from] move: Wish|[wisher] vap
+|upkeep
+|turn|34
+|
+|t:|1776068594
+|move|p1a: Hawlucha|Encore|p2a: vap
+|-start|p2a: vap|Encore
+|move|p2a: vap|Haze|p2a: vap
+|-clearallboost
+|
+|upkeep
+|turn|35
+|
+|t:|1776068599
+|switch|p2a: vap|Vaporeon, F|25/100
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|upkeep
+|turn|36
+|
+|t:|1776068601
+|move|p1a: Hawlucha|Acrobatics|p2a: vap
+|-damage|p2a: vap|0 fnt
+|replace|p2a: i think im vap|Zoroark-Hisui, M
+|-end|p2a: i think im vap|Illusion
+|faint|p2a: i think im vap
+|
+|upkeep
+|
+|t:|1776068607
+|switch|p2a: vap|Vaporeon, F|100/100
+|turn|37
+|
+|t:|1776068610
+|move|p1a: Hawlucha|Acrobatics|p2a: vap
+|-damage|p2a: vap|30/100
+|move|p2a: vap|Haze|p2a: vap
+|-clearallboost
+|
+|-heal|p2a: vap|36/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1776068613
+|move|p1a: Hawlucha|Encore|p2a: vap
+|-start|p2a: vap|Encore
+|move|p2a: vap|Haze|p2a: vap
+|-clearallboost
+|
+|-heal|p2a: vap|42/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1776068617
+|switch|p2a: I smash vap|Tinkaton, F, shiny|41/100 par
+|-ability|p2a: I smash vap|Mold Breaker
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|upkeep
+|turn|40
+|
+|t:|1776068619
+|move|p1a: Hawlucha|Drain Punch|p2a: I smash vap
+|-damage|p2a: I smash vap|0 fnt
+|faint|p2a: I smash vap
+|
+|upkeep
+|
+|t:|1776068626
+|switch|p2a: vap|Vaporeon, F|42/100
+|turn|41
+|
+|t:|1776068629
+|move|p2a: vap|Protect|p2a: vap
+|-singleturn|p2a: vap|Protect
+|move|p1a: Hawlucha|Acrobatics|p2a: vap
+|-activate|p2a: vap|move: Protect
+|
+|-heal|p2a: vap|49/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1776068633
+|move|p1a: Hawlucha|Encore|p2a: vap
+|-start|p2a: vap|Encore
+|move|p2a: vap|Protect||[still]
+|-fail|p2a: vap
+|
+|-heal|p2a: vap|55/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1776068636
+|switch|p2a: fish in vap|Barraskewda, M, tera:Fighting|91/100
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|upkeep
+|turn|44
+|
+|t:|1776068640
+|move|p2a: fish in vap|Aqua Jet|p1a: Hawlucha
+|-damage|p1a: Hawlucha|58/100
+|-damage|p2a: fish in vap|81/100|[from] item: Life Orb
+|move|p1a: Hawlucha|Acrobatics|p2a: fish in vap
+|-supereffective|p2a: fish in vap
+|-damage|p2a: fish in vap|0 fnt
+|faint|p2a: fish in vap
+|
+|upkeep
+|c|☆dummydraedon|gg
+|
+|t:|1776068646
+|switch|p2a: vap|Vaporeon, F|55/100
+|turn|45
+|c|☆dummydraedon|smash my vap
+|c|☆Testteambill|Gg
+|
+|t:|1776068679
+|move|p1a: Hawlucha|Acrobatics|p2a: vap
+|-damage|p2a: vap|0 fnt
+|faint|p2a: vap
+|
+|win|Testteambill
+|raw|Testteambill's rating: 1548 &rarr; <strong>1564</strong><br />(+16 for winning)
+|raw|dummydraedon's rating: 1470 &rarr; <strong>1454</strong><br />(-16 for losing)
+|l|☆Testteambill
+|player|p1|

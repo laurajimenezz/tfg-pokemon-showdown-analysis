@@ -1,0 +1,289 @@
+|j|☆chetnut
+|j|☆Rennek
+|t:|1758942485
+|gametype|singles
+|player|p1|chetnut|roughneck|1147
+|player|p2|Rennek|norman|1098
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Salamence, F|
+|poke|p1|Meowscarada, F|
+|poke|p1|Clefable, M|
+|poke|p1|Masquerain, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Iron Moth|
+|poke|p2|Camerupt, M|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Staraptor, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Lucario, M|
+|poke|p2|Leafeon, M|
+|teampreview
+|
+|t:|1758942498
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Staraptor|Staraptor, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Iron Moth|atk|1
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by chetnut)
+|
+|t:|1758942517
+|move|p1a: Iron Moth|Fiery Dance|p2a: Staraptor
+|-damage|p2a: Staraptor|27/100
+|move|p2a: Staraptor|U-turn|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|91/100
+|
+|t:|1758942528
+|switch|p2a: Toxapex|Toxapex, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1758942538
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Masquerain|Masquerain, M|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Toxapex|atk|1
+|move|p2a: Toxapex|Infestation|p1a: Masquerain
+|-resisted|p1a: Masquerain
+|-damage|p1a: Masquerain|99/100
+|-activate|p1a: Masquerain|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: Masquerain|86/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1758942547
+|move|p1a: Masquerain|Sticky Web|p2a: Toxapex
+|-sidestart|p2: Rennek|move: Sticky Web
+|move|p2a: Toxapex|Toxic|p1a: Masquerain
+|-status|p1a: Masquerain|tox
+|
+|-damage|p1a: Masquerain|80/100 tox|[from] psn
+|-damage|p1a: Masquerain|68/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1758942554
+|move|p1a: Masquerain|Quiver Dance|p1a: Masquerain
+|-boost|p1a: Masquerain|spa|1
+|-boost|p1a: Masquerain|spd|1
+|-boost|p1a: Masquerain|spe|1
+|move|p2a: Toxapex|Acid Spray|p1a: Masquerain
+|-damage|p1a: Masquerain|61/100 tox
+|-unboost|p1a: Masquerain|spd|2
+|
+|-damage|p1a: Masquerain|48/100 tox|[from] psn
+|-damage|p1a: Masquerain|36/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1758942569
+|move|p1a: Masquerain|Air Slash|p2a: Toxapex
+|-damage|p2a: Toxapex|74/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-damage|p1a: Masquerain|18/100 tox|[from] psn
+|-damage|p1a: Masquerain|5/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1758942581
+|move|p1a: Masquerain|Bug Buzz|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|86/100
+|move|p2a: Toxapex|Infestation|p1a: Masquerain
+|-resisted|p1a: Masquerain
+|-damage|p1a: Masquerain|3/100 tox
+|
+|-heal|p2a: Toxapex|92/100|[from] item: Black Sludge
+|-damage|p1a: Masquerain|0 fnt|[from] psn
+|faint|p1a: Masquerain
+|upkeep
+|
+|t:|1758942591
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-item|p1a: Excadrill|Air Balloon
+|turn|7
+|
+|t:|1758942600
+|switch|p2a: Staraptor|Staraptor, M|27/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1758942611
+|-terastallize|p1a: Excadrill|Ground
+|move|p2a: Staraptor|Close Combat|p1a: Excadrill
+|-damage|p1a: Excadrill|34/100
+|-unboost|p2a: Staraptor|def|1
+|-unboost|p2a: Staraptor|spd|1
+|-enditem|p1a: Excadrill|Air Balloon
+|move|p1a: Excadrill|Rapid Spin|p2a: Staraptor
+|-damage|p2a: Staraptor|0 fnt
+|-boost|p1a: Excadrill|spe|1
+|faint|p2a: Staraptor
+|
+|upkeep
+|
+|t:|1758942630
+|switch|p2a: Lucario|Lucario, M|100/100
+|-activate|p2a: Lucario|move: Sticky Web
+|-unboost|p2a: Lucario|spe|1
+|turn|9
+|
+|t:|1758942645
+|-terastallize|p2a: Lucario|Fighting
+|move|p1a: Excadrill|Earthquake|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|upkeep
+|
+|t:|1758942658
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-activate|p2a: Toxapex|move: Sticky Web
+|-unboost|p2a: Toxapex|spe|1
+|turn|10
+|
+|t:|1758942665
+|move|p1a: Excadrill|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|t:|1758942672
+|switch|p2a: Leafeon|Leafeon, M|100/100
+|-activate|p2a: Leafeon|move: Sticky Web
+|-unboost|p2a: Leafeon|spe|1
+|turn|11
+|
+|t:|1758942677
+|move|p1a: Excadrill|Iron Head|p2a: Leafeon
+|-damage|p2a: Leafeon|53/100
+|-damage|p1a: Excadrill|18/100|[from] item: Rocky Helmet|[of] p2a: Leafeon
+|cant|p2a: Leafeon|flinch
+|
+|upkeep
+|turn|12
+|
+|t:|1758942684
+|move|p1a: Excadrill|Iron Head|p2a: Leafeon
+|-damage|p2a: Leafeon|11/100
+|-damage|p1a: Excadrill|1/100|[from] item: Rocky Helmet|[of] p2a: Leafeon
+|move|p2a: Leafeon|Leaf Blade|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|t:|1758942698
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|13
+|
+|t:|1758942702
+|move|p1a: Meowscarada|U-turn|p2a: Leafeon
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-supereffective|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|-damage|p1a: Meowscarada|84/100|[from] item: Rocky Helmet|[of] p2a: Leafeon
+|faint|p2a: Leafeon
+|
+|t:|1758942707
+|switch|p1a: Iron Moth|Iron Moth|91/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1758942711
+|switch|p2a: Camerupt|Camerupt, M, shiny|100/100
+|-activate|p2a: Camerupt|move: Sticky Web
+|-unboost|p2a: Camerupt|spe|1
+|turn|14
+|
+|t:|1758942722
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Salamence|Salamence, F|100/100
+|move|p2a: Camerupt|Earth Power|p1a: Salamence
+|-immune|p1a: Salamence
+|
+|upkeep
+|turn|15
+|
+|t:|1758942727
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Camerupt|Flamethrower|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|78/100
+|
+|upkeep
+|turn|16
+|
+|t:|1758942743
+|move|p1a: Salamence|Dragon Claw|p2a: Camerupt
+|-damage|p2a: Camerupt|5/100
+|move|p2a: Camerupt|Flamethrower|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|54/100
+|
+|upkeep
+|turn|17
+|
+|t:|1758942749
+|move|p1a: Salamence|Dragon Claw|p2a: Camerupt
+|-crit|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+|
+|t:|1758942755
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-activate|p2a: Ninetales|move: Sticky Web
+|-unboost|p2a: Ninetales|spe|1
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|18
+|
+|t:|1758942761
+|move|p1a: Salamence|Iron Head|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|win|chetnut
+|raw|chetnut's rating: 1147 &rarr; <strong>1168</strong><br />(+21 for winning)
+|raw|Rennek's rating: 1098 &rarr; <strong>1077</strong><br />(-21 for losing)
+|l|☆Rennek
+|player|p2|
+|l|☆chetnut
+|player|p1|

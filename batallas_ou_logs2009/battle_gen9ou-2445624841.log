@@ -1,0 +1,273 @@
+|j|☆DankieDanko
+|j|☆tjam2
+|t:|1758378321
+|gametype|singles
+|player|p1|DankieDanko|medium|1180
+|player|p2|tjam2|102|1119
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Metagross|
+|poke|p1|Rillaboom, M|
+|poke|p1|Ninetales, M|
+|poke|p1|Victreebel, M|
+|poke|p1|Iron Boulder|
+|poke|p1|Cloyster, F|
+|poke|p2|Lycanroc-Dusk, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Iron Valiant|
+|poke|p2|Armarouge, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tjam2)
+|
+|t:|1758378342
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1758378347
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Rillaboom|Wood Hammer|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|7/100
+|-damage|p1a: Rillaboom|74/100|[from] Recoil
+|
+|-heal|p2a: Iron Valiant|13/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|81/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1758378354
+|move|p1a: Rillaboom|Grassy Glide|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Rillaboom|87/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758378358
+|switch|p2a: Armarouge|Armarouge, M|100/100
+|turn|3
+|
+|t:|1758378361
+|move|p1a: Rillaboom|High Horsepower|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|30/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|-enditem|p2a: Armarouge|Weakness Policy
+|-boost|p2a: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Armarouge|spa|2|[from] item: Weakness Policy
+|move|p2a: Armarouge|Armor Cannon|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Armarouge|36/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758378371
+|switch|p1a: Ninetales|Ninetales, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|4
+|
+|t:|1758378376
+|move|p2a: Armarouge|Stored Power|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-enditem|p1a: Ninetales|Focus Sash
+|-damage|p1a: Ninetales|1/100
+|move|p1a: Ninetales|Dark Pulse|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ninetales|7/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1758378379
+|switch|p2a: Lycanroc|Lycanroc-Dusk, M|100/100
+|turn|5
+|
+|t:|1758378383
+|move|p2a: Lycanroc|Accelerock|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1758378385
+|switch|p1a: Victreebel|Victreebel, M|100/100
+|turn|6
+|
+|t:|1758378388
+|move|p1a: Victreebel|Energy Ball|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-enditem|p2a: Lycanroc|Focus Sash
+|-damage|p2a: Lycanroc|1/100
+|-unboost|p2a: Lycanroc|spd|1
+|move|p2a: Lycanroc|Stealth Rock|p1a: Victreebel
+|-sidestart|p1: DankieDanko|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758378403
+|move|p2a: Lycanroc|Accelerock|p1a: Victreebel
+|-damage|p1a: Victreebel|59/100
+|move|p1a: Victreebel|Weather Ball|p2a: Lycanroc
+|-resisted|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Victreebel|65/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758378412
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|8
+|
+|t:|1758378416
+|-terastallize|p1a: Victreebel|Fire
+|move|p1a: Victreebel|Weather Ball|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|none
+|-heal|p1a: Victreebel|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758378424
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|9
+|
+|t:|1758378434
+|-terastallize|p2a: Thundurus|Electric
+|move|p2a: Thundurus|Volt Switch|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|t:|1758378439
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] Volt Switch
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|
+|upkeep
+|
+|t:|1758378441
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|-damage|p1a: Iron Boulder|88/100|[from] Stealth Rock
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdrivespe
+|turn|10
+|
+|t:|1758378445
+|move|p1a: Iron Boulder|Psycho Cut|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|56/100
+|move|p2a: Zamazenta|Heavy Slam|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|45/100
+|
+|upkeep
+|turn|11
+|
+|t:|1758378451
+|move|p1a: Iron Boulder|Psycho Cut|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|14/100
+|move|p2a: Zamazenta|Close Combat|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758378454
+|switch|p1a: Metagross|Metagross, shiny|100/100
+|-damage|p1a: Metagross|94/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1758378459
+|move|p2a: Zamazenta|Crunch|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|53/100
+|move|p1a: Metagross|Iron Defense|p1a: Metagross
+|-boost|p1a: Metagross|def|2
+|
+|upkeep
+|turn|13
+|
+|t:|1758378461
+|move|p2a: Zamazenta|Crunch|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|33/100
+|move|p1a: Metagross|Body Press|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1758378464
+|switch|p2a: Thundurus|Thundurus-Therian, M, tera:Electric|100/100
+|turn|14
+|
+|t:|1758378467
+|move|p2a: Thundurus|Thunderbolt|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|upkeep
+|
+|t:|1758378469
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|15
+|c|☆tjam2|Ggs
+|
+|t:|1758378473
+|move|p2a: Thundurus|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|win|tjam2
+|raw|DankieDanko's rating: 1180 &rarr; <strong>1151</strong><br />(-29 for losing)
+|raw|tjam2's rating: 1119 &rarr; <strong>1148</strong><br />(+29 for winning)
+|l|☆tjam2
+|player|p2|
+|l|☆DankieDanko
+|player|p1|

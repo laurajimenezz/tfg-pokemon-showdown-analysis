@@ -1,0 +1,378 @@
+|j|☆HarigeHenk
+|j|☆findmyhair
+|t:|1757808175
+|gametype|singles
+|player|p1|HarigeHenk|102|1168
+|player|p2|findmyhair|acetrainercouple|1219
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Slither Wing|
+|poke|p1|Venusaur, F|
+|poke|p1|Walking Wake|
+|poke|p2|Cresselia, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Iron Hands|
+|poke|p2|Ursaluna, M|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Klefki, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by findmyhair)
+|
+|t:|1757808178
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Klefki|Klefki, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1757808192
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|move|p1a: Torkoal|Eruption|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757808204
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Slither Wing
+|-damage|p1a: Slither Wing|76/100
+|-damage|p2a: Crawdaunt|8/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757808214
+|move|p1a: Slither Wing|U-turn|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|t:|1757808219
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Venusaur|Venusaur, F|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757808224
+|switch|p2a: Klefki|Klefki, M|100/100
+|turn|4
+|
+|t:|1757808234
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: findmyhair|move: Light Screen
+|move|p1a: Venusaur|Weather Ball|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|34/100
+|-damage|p1a: Venusaur|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757808248
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: findmyhair|Reflect
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1757808255
+|move|p2a: Klefki|Thunder Wave|p1a: Venusaur
+|-status|p1a: Venusaur|par
+|move|p1a: Venusaur|Weather Ball|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|-damage|p1a: Venusaur|81/100 par|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757808270
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|turn|7
+|
+|t:|1757808278
+|cant|p1a: Venusaur|par
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1757808287
+|move|p2a: Cresselia|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|43/100 par
+|move|p1a: Venusaur|Weather Ball|p2a: Cresselia
+|-damage|p2a: Cresselia|69/100
+|-damage|p1a: Venusaur|33/100 par|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1757808296
+|move|p1a: Venusaur|Giga Drain|p2a: Cresselia
+|-damage|p2a: Cresselia|43/100
+|-heal|p1a: Venusaur|52/100 par|[from] drain|[of] p2a: Cresselia
+|-damage|p1a: Venusaur|42/100 par|[from] item: Life Orb
+|move|p2a: Cresselia|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|upkeep
+|
+|t:|1757808306
+|switch|p1a: Slither Wing|Slither Wing|76/100
+|turn|10
+|
+|t:|1757808315
+|move|p1a: Slither Wing|First Impression|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|14/100
+|move|p2a: Cresselia|Psychic|p1a: Slither Wing
+|-supereffective|p1a: Slither Wing
+|-damage|p1a: Slither Wing|44/100
+|
+|upkeep
+|turn|11
+|
+|t:|1757808321
+|move|p2a: Cresselia|Psychic|p1a: Slither Wing
+|-supereffective|p1a: Slither Wing
+|-damage|p1a: Slither Wing|8/100
+|move|p1a: Slither Wing|U-turn|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|t:|1757808326
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: findmyhair|move: Light Screen
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757808336
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|12
+|
+|t:|1757808344
+|move|p1a: Torkoal|Eruption|p2a: Slowking
+|-damage|p2a: Slowking|18/100
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowking|24/100|[from] item: Black Sludge
+|-sideend|p2: findmyhair|Reflect
+|upkeep
+|turn|13
+|
+|t:|1757808352
+|move|p2a: Slowking|Sludge Bomb|p1a: Torkoal
+|-damage|p1a: Torkoal|45/100
+|move|p1a: Torkoal|Eruption|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757808359
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|turn|14
+|
+|t:|1757808366
+|switch|p1a: Slither Wing|Slither Wing|8/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|move|p2a: Ursaluna|Earthquake|p1a: Slither Wing
+|-resisted|p1a: Slither Wing
+|-damage|p1a: Slither Wing|0 fnt
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757808378
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|15
+|
+|t:|1757808389
+|-terastallize|p2a: Ursaluna|Ghost
+|move|p2a: Ursaluna|Facade|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1757808395
+|switch|p1a: Torkoal|Torkoal, F|45/100
+|turn|16
+|
+|t:|1757808398
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-item|p1a: Hatterene|Air Balloon
+|move|p2a: Ursaluna|Earthquake|p1a: Hatterene
+|-immune|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|17
+|
+|t:|1757808412
+|move|p2a: Ursaluna|Facade|p1a: Hatterene
+|-damage|p1a: Hatterene|3/100
+|-enditem|p1a: Hatterene|Air Balloon
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Ursaluna
+|-damage|p2a: Ursaluna|58/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|52/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1757808421
+|-terastallize|p1a: Hatterene|Ghost
+|move|p2a: Ursaluna|Facade|p1a: Hatterene
+|-immune|p1a: Hatterene
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Ursaluna
+|-damage|p2a: Ursaluna|21/100 brn
+|
+|-weather|none
+|-damage|p2a: Ursaluna|15/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1757808430
+|move|p2a: Ursaluna|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-damage|p2a: Ursaluna|8/100 brn|[from] brn
+|upkeep
+|
+|t:|1757808434
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|20
+|
+|t:|1757808439
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|-damage|p1a: Raging Bolt|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757808444
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|turn|21
+|
+|t:|1757808448
+|move|p2a: Iron Hands|Fake Out|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|75/100
+|cant|p1a: Raging Bolt|flinch
+|
+|upkeep
+|turn|22
+|
+|t:|1757808458
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|45/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Iron Hands|Ice Punch|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1757808467
+|move|p2a: Iron Hands|Wild Charge|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|-damage|p2a: Iron Hands|96/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757808469
+|switch|p1a: Raging Bolt|Raging Bolt|75/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|24
+|c|☆findmyhair|gg either way
+|
+|t:|1757808480
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Iron Hands
+|-damage|p2a: Iron Hands|45/100
+|-damage|p1a: Raging Bolt|65/100|[from] item: Life Orb
+|move|p2a: Iron Hands|Ice Punch|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|5/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|c|☆findmyhair|man 6% the difference
+|c|☆findmyhair|and I lose
+|j| GruesomeLovelies
+|inactive|findmyhair has 120 seconds left.
+|c|☆findmyhair|gg!
+|c|☆HarigeHenk|Gg
+|
+|t:|1757808519
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|-damage|p1a: Raging Bolt|0 fnt|[from] item: Life Orb
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|HarigeHenk
+|raw|HarigeHenk's rating: 1195 &rarr; <strong>1222</strong><br />(+27 for winning)
+|raw|findmyhair's rating: 1219 &rarr; <strong>1192</strong><br />(-27 for losing)

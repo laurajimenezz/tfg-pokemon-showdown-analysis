@@ -1,0 +1,310 @@
+|j|☆tomatic
+|j|☆tejasvi_v.22
+|t:|1758272844
+|gametype|singles
+|player|p1|tomatic|hiker-gen4|1567
+|player|p2|tejasvi_v.22|102|1515
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Maushold-Four|
+|poke|p1|Scizor, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Dragonite, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Rotom-Wash|
+|poke|p2|Darkrai|
+|poke|p2|Ceruledge, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Clefable, M|
+|teampreview
+|
+|t:|1758272874
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|1
+|
+|t:|1758272897
+|move|p1a: Rotom|Hydro Pump|p2a: Darkrai
+|-damage|p2a: Darkrai|37/100
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1758272905
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Ogerpon
+|-immune|p2a: Ogerpon|[from] ability: Water Absorb
+|
+|upkeep
+|turn|3
+|
+|t:|1758272922
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|upkeep
+|turn|4
+|
+|t:|1758272930
+|move|p2a: Ogerpon|Knock Off|p1a: Dragonite
+|-damage|p1a: Dragonite|56/100
+|-enditem|p1a: Dragonite|Leftovers|[from] move: Knock Off|[of] p2a: Ogerpon
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1758272946
+|-terastallize|p1a: Dragonite|Flying
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Dragonite|Tera Blast|p2a: Ogerpon|[anim] Tera Blast Flying
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|upkeep
+|
+|t:|1758272958
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-item|p2a: Glimmora|Air Balloon
+|turn|6
+|
+|t:|1758272970
+|move|p1a: Dragonite|Rock Slide|p2a: Glimmora|[miss]
+|-miss|p1a: Dragonite|p2a: Glimmora
+|move|p2a: Glimmora|Power Gem|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1758272978
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|7
+|
+|t:|1758272984
+|move|p2a: Glimmora|Power Gem|p1a: Scizor
+|-damage|p1a: Scizor|44/100
+|move|p1a: Scizor|Knock Off|p2a: Glimmora
+|-damage|p2a: Glimmora|57/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: tomatic|move: Toxic Spikes
+|-enditem|p2a: Glimmora|Air Balloon
+|
+|upkeep
+|turn|8
+|
+|t:|1758273002
+|move|p1a: Scizor|Bullet Punch|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: tomatic|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1758273005
+|switch|p2a: Ceruledge|Ceruledge, F, shiny|100/100
+|turn|9
+|
+|t:|1758273009
+|move|p2a: Ceruledge|Bitter Blade|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1758273012
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ceruledge|atk|1
+|turn|10
+|
+|t:|1758273016
+|move|p1a: Landorus|Earth Power|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|18/100
+|-unboost|p2a: Ceruledge|spd|1
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|upkeep
+|turn|11
+|
+|t:|1758273028
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Landorus|Earth Power|p2a: Clefable
+|-damage|p2a: Clefable|68/100
+|
+|-heal|p2a: Clefable|74/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1758273036
+|move|p1a: Landorus|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|61/100
+|
+|t:|1758273041
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1758273047
+|move|p1a: Rotom|Trick|p2a: Clefable
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Clefable
+|-item|p2a: Clefable|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Clefable|Moonblast|p1a: Rotom
+|-damage|p1a: Rotom|41/100
+|
+|-heal|p1a: Rotom|47/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1758273053
+|move|p1a: Rotom|Pain Split|p2a: Clefable
+|-sethp|p2a: Clefable|65/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|100/100|[from] move: Pain Split
+|move|p2a: Clefable|Moonblast|p1a: Rotom
+|-damage|p1a: Rotom|44/100
+|-unboost|p1a: Rotom|spa|1
+|
+|-heal|p1a: Rotom|50/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1758273060
+|move|p1a: Rotom|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|33/100
+|
+|t:|1758273062
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from] Volt Switch
+|-status|p1a: Hatterene|tox
+|move|p2a: Clefable|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|72/100 tox
+|
+|-damage|p1a: Hatterene|66/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1758273081
+|move|p2a: Clefable|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|40/100 tox
+|-unboost|p1a: Hatterene|spa|1
+|move|p1a: Hatterene|Psychic Noise|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-damage|p1a: Hatterene|28/100 tox|[from] psn
+|upkeep
+|
+|t:|1758273085
+|switch|p2a: Ceruledge|Ceruledge, F, shiny|18/100
+|turn|17
+|
+|t:|1758273102
+|switch|p1a: Rotom|Rotom-Wash|50/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|23/100
+|-heal|p2a: Ceruledge|30/100|[from] drain|[of] p1a: Rotom
+|
+|-heal|p1a: Rotom|29/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1758273128
+|move|p1a: Rotom|Volt Switch|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|t:|1758273134
+|switch|p1a: Hatterene|Hatterene, F|28/100 tox|[from] Volt Switch
+|
+|-damage|p1a: Hatterene|22/100 tox|[from] psn
+|upkeep
+|
+|t:|1758273142
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|19
+|
+|t:|1758273150
+|move|p2a: Dragonite|Extreme Speed|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1758273155
+|switch|p1a: Maushold|Maushold-Four|100/100
+|-status|p1a: Maushold|tox
+|turn|20
+|
+|t:|1758273160
+|move|p1a: Maushold|Population Bomb|p2a: Dragonite
+|-damage|p2a: Dragonite|94/100
+|-damage|p2a: Dragonite|82/100
+|-damage|p2a: Dragonite|67/100
+|-damage|p2a: Dragonite|55/100
+|-damage|p2a: Dragonite|42/100
+|-damage|p2a: Dragonite|29/100
+|-damage|p2a: Dragonite|16/100
+|-damage|p2a: Dragonite|2/100
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-hitcount|p2: Dragonite|9
+|
+|-damage|p1a: Maushold|94/100 tox|[from] psn
+|upkeep
+|
+|t:|1758273176
+|switch|p2a: Darkrai|Darkrai|37/100
+|turn|21
+|
+|t:|1758273181
+|move|p2a: Darkrai|Focus Blast|p1a: Maushold|[miss]
+|-miss|p2a: Darkrai|p1a: Maushold
+|move|p1a: Maushold|Population Bomb|p2a: Darkrai
+|-damage|p2a: Darkrai|22/100
+|-damage|p2a: Darkrai|9/100
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|-hitcount|p2: Darkrai|3
+|
+|win|tomatic
+|raw|tomatic's rating: 1567 &rarr; <strong>1584</strong><br />(+17 for winning)
+|raw|tejasvi_v.22's rating: 1515 &rarr; <strong>1498</strong><br />(-17 for losing)
+|l|☆tomatic
+|player|p1|
+|l|☆tejasvi_v.22
+|player|p2|

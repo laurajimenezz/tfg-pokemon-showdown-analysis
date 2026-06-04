@@ -1,0 +1,447 @@
+|j|☆Tamihig
+|j|☆ortzac
+|t:|1779860388
+|gametype|singles
+|player|p1|Tamihig|265|1000
+|player|p2|ortzac|bellelba|1000
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Gliscor, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Zamazenta-*|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Alomomola, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Talonflame, M|
+|poke|p2|Amoonguss, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tamihig)
+|inactive|ortzac has 120 seconds left.
+|
+|t:|1779860429
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1779860436
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|
+|upkeep
+|turn|2
+|
+|t:|1779860447
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Amoonguss|Stun Spore|p1a: Hatterene
+|move|p1a: Hatterene|Stun Spore|p2a: Amoonguss|[from] ability: Magic Bounce
+|-immune|p2a: Amoonguss
+|
+|upkeep
+|turn|3
+|
+|t:|1779860456
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|48/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|89/100
+|-heal|p1a: Hatterene|59/100|[from] drain|[of] p2a: Amoonguss
+|-status|p1a: Hatterene|par|[from] ability: Effect Spore|[of] p2a: Amoonguss
+|
+|-heal|p2a: Amoonguss|95/100|[from] item: Black Sludge
+|-heal|p1a: Hatterene|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1779860462
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|87/100
+|
+|-heal|p2a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1779860464
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Hatterene|Hatterene, F|65/100 par
+|move|p2a: Amoonguss|Stun Spore|p1a: Hatterene
+|move|p1a: Hatterene|Stun Spore|p2a: Amoonguss|[from] ability: Magic Bounce
+|-immune|p2a: Amoonguss
+|
+|-heal|p1a: Hatterene|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1779860465
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|20/100 par
+|move|p1a: Hatterene|Draining Kiss|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|93/100
+|-heal|p1a: Hatterene|28/100 par|[from] drain|[of] p2a: Amoonguss
+|
+|-heal|p2a: Amoonguss|99/100|[from] item: Black Sludge
+|-heal|p1a: Hatterene|34/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779860467
+|switch|p1a: Iron Moth|Iron Moth|87/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|73/100
+|
+|-heal|p2a: Amoonguss|100/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1779860469
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-crit|p1a: Iron Moth
+|-damage|p1a: Iron Moth|52/100
+|move|p1a: Iron Moth|Whirlwind|p2a: Amoonguss
+|drag|p2a: Hydreigon|Hydreigon, F|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1779860475
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Hatterene|Hatterene, F|34/100 par
+|move|p2a: Hydreigon|Earth Power|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1779860475
+|switch|p1a: Iron Moth|Iron Moth|52/100
+|turn|10
+|
+|t:|1779860478
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Hydreigon|Earth Power|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|74/100
+|
+|upkeep
+|turn|11
+|
+|t:|1779860487
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1779860491
+|switch|p1a: Iron Moth|Iron Moth|52/100
+|move|p2a: Amoonguss|Stun Spore|p1a: Iron Moth
+|-status|p1a: Iron Moth|par
+|
+|upkeep
+|turn|13
+|
+|t:|1779860495
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|74/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|6/100
+|
+|upkeep
+|turn|14
+|
+|t:|1779860501
+|switch|p1a: Iron Moth|Iron Moth|52/100 par
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|39/100 par
+|
+|upkeep
+|turn|15
+|
+|t:|1779860507
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|6/100
+|move|p2a: Amoonguss|Foul Play|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1779860507
+|switch|p1a: Iron Moth|Iron Moth|39/100 par
+|turn|16
+|
+|t:|1779860515
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|84/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|17
+|
+|t:|1779860519
+|move|p1a: Gliscor|Earthquake|p2a: Amoonguss
+|-damage|p2a: Amoonguss|56/100
+|move|p2a: Amoonguss|Foul Play|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|45/100 tox
+|
+|-heal|p2a: Amoonguss|62/100|[from] item: Black Sludge
+|-heal|p1a: Gliscor|58/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|
+|t:|1779860525
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Amoonguss|Foul Play|p1a: Gliscor
+|-damage|p1a: Gliscor|9/100 tox
+|
+|-heal|p2a: Amoonguss|68/100|[from] item: Black Sludge
+|-heal|p1a: Gliscor|21/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|
+|t:|1779860533
+|switch|p1a: Iron Moth|Iron Moth|39/100 par
+|move|p2a: Amoonguss|Foul Play|p1a: Iron Moth
+|-damage|p1a: Iron Moth|20/100 par
+|
+|-heal|p2a: Amoonguss|74/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1779860538
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Amoonguss|Foul Play|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|94/100
+|
+|-heal|p2a: Amoonguss|80/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|t:|1779860542
+|move|p1a: Zamazenta|Close Combat|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|55/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Amoonguss|Stun Spore|p1a: Zamazenta
+|-status|p1a: Zamazenta|par
+|
+|-heal|p2a: Amoonguss|61/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|t:|1779860549
+|move|p1a: Zamazenta|Close Combat|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|36/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Zamazenta
+|-damage|p1a: Zamazenta|51/100 par
+|
+|-heal|p2a: Amoonguss|42/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|t:|1779860554
+|cant|p1a: Zamazenta|par
+|move|p2a: Amoonguss|Synthesis|p2a: Amoonguss
+|-heal|p2a: Amoonguss|92/100
+|
+|-heal|p2a: Amoonguss|98/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|t:|1779860555
+|move|p1a: Zamazenta|Ice Fang|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|59/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Zamazenta
+|-damage|p1a: Zamazenta|5/100 par
+|
+|-heal|p2a: Amoonguss|65/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|t:|1779860557
+|switch|p1a: Iron Moth|Iron Moth|20/100 par
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|6/100 par
+|
+|-heal|p2a: Amoonguss|71/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|t:|1779860558
+|move|p1a: Iron Moth|Toxic Spikes|p2a: Amoonguss
+|-sidestart|p2: ortzac|move: Toxic Spikes
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p2a: Amoonguss|77/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1779860558
+|switch|p1a: Gliscor|Gliscor, M|21/100 tox
+|turn|27
+|
+|t:|1779860560
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|75/100
+|-status|p1a: Raging Bolt|psn
+|
+|-heal|p2a: Amoonguss|83/100|[from] item: Black Sludge
+|-damage|p1a: Raging Bolt|63/100 psn|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1779860567
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Amoonguss
+|-damage|p2a: Amoonguss|48/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|38/100 psn
+|
+|-heal|p2a: Amoonguss|54/100|[from] item: Black Sludge
+|-damage|p1a: Raging Bolt|25/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1779860570
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p2a: Amoonguss|Synthesis|p2a: Amoonguss
+|-heal|p2a: Amoonguss|100/100
+|
+|-damage|p1a: Raging Bolt|13/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1779860572
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Amoonguss|Synthesis|p2a: Amoonguss
+|-fail|p2a: Amoonguss|heal
+|
+|-damage|p1a: Raging Bolt|1/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1779860575
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Gliscor|Gliscor, M|21/100 tox
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|5/100 tox
+|
+|-heal|p1a: Gliscor|17/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|32
+|
+|t:|1779860580
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|1/100 tox
+|
+|-heal|p1a: Gliscor|13/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|33
+|
+|t:|1779860582
+|move|p1a: Gliscor|Facade|p2a: Amoonguss
+|-damage|p2a: Amoonguss|16/100
+|move|p2a: Amoonguss|Foul Play|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-heal|p2a: Amoonguss|22/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1779860582
+|switch|p1a: Raging Bolt|Raging Bolt|1/100 psn
+|turn|34
+|
+|t:|1779860587
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Amoonguss|Synthesis|p2a: Amoonguss
+|-heal|p2a: Amoonguss|71/100
+|
+|-heal|p2a: Amoonguss|78/100|[from] item: Black Sludge
+|-damage|p1a: Raging Bolt|0 fnt|[from] psn
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1779860587
+|switch|p1a: Zamazenta|Zamazenta|5/100 par
+|turn|35
+|
+|t:|1779860591
+|move|p1a: Zamazenta|Reflect|p1a: Zamazenta
+|-sidestart|p1: Tamihig|Reflect
+|move|p2a: Amoonguss|Foul Play|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|win|ortzac
+|raw|Tamihig's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|ortzac's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|l|☆Tamihig
+|player|p1|
+|c|☆ortzac|gg

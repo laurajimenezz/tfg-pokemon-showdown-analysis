@@ -1,0 +1,197 @@
+|j|☆pepper f
+|j|☆ToonDR
+|t:|1760398777
+|gametype|singles
+|player|p1|pepper f|blackbelt-gen4dp|1223
+|player|p2|ToonDR|red|1225
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Primeape, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Talonflame, F|
+|poke|p1|Meowscarada, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Gastrodon-East, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Pecharunt|
+|poke|p2|Rotom-Wash|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ToonDR)
+|
+|t:|1760398836
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-item|p2a: Pecharunt|Air Balloon
+|turn|1
+|
+|t:|1760398844
+|move|p2a: Pecharunt|Malignant Chain|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|91/100
+|-status|p1a: Gastrodon|tox
+|-start|p1a: Gastrodon|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Gastrodon|confusion
+|move|p1a: Gastrodon|Ice Beam|p2a: Pecharunt
+|-damage|p2a: Pecharunt|81/100
+|-enditem|p2a: Pecharunt|Air Balloon
+|
+|-heal|p1a: Gastrodon|97/100 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|91/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1760398859
+|switch|p1a: Primeape|Primeape, M|100/100
+|move|p2a: Pecharunt|Shadow Ball|p1a: Primeape
+|-damage|p1a: Primeape|85/100
+|
+|upkeep
+|turn|3
+|
+|t:|1760398867
+|move|p1a: Primeape|Bulk Up|p1a: Primeape
+|-boost|p1a: Primeape|atk|1
+|-boost|p1a: Primeape|def|1
+|move|p2a: Pecharunt|Malignant Chain|p1a: Primeape
+|-damage|p1a: Primeape|66/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760398876
+|move|p1a: Primeape|Rage Fist|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|27/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Primeape
+|-damage|p1a: Primeape|45/100
+|
+|upkeep
+|turn|5
+|
+|t:|1760398887
+|move|p1a: Primeape|Rage Fist|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1760398896
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|6
+|
+|t:|1760398907
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Primeape|Drain Punch|p2a: Rotom
+|-damage|p2a: Rotom|67/100
+|-heal|p1a: Primeape|61/100|[from] drain|[of] p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Primeape|55/100|[from] Sandstorm
+|-damage|p2a: Rotom|60/100|[from] Sandstorm
+|-heal|p2a: Rotom|67/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760398917
+|move|p1a: Primeape|Rage Fist|p2a: Rotom
+|-damage|p2a: Rotom|7/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Primeape|[miss]
+|-miss|p2a: Rotom|p1a: Primeape
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Primeape|49/100|[from] Sandstorm
+|-damage|p2a: Rotom|0 fnt|[from] Sandstorm
+|faint|p2a: Rotom
+|upkeep
+|
+|t:|1760398924
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|turn|8
+|
+|t:|1760398930
+|move|p2a: Excadrill|Rock Slide|p1a: Primeape
+|-resisted|p1a: Primeape
+|-damage|p1a: Primeape|36/100
+|-damage|p2a: Excadrill|91/100|[from] item: Life Orb
+|move|p1a: Primeape|Drain Punch|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-heal|p1a: Primeape|85/100|[from] drain|[of] p2a: Excadrill
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Primeape|79/100|[from] Sandstorm
+|upkeep
+|
+|t:|1760398937
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|9
+|
+|t:|1760398944
+|move|p2a: Garchomp|Earthquake|p1a: Primeape
+|-damage|p1a: Primeape|43/100
+|move|p1a: Primeape|Rage Fist|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Primeape|31/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Primeape|25/100|[from] Sandstorm
+|upkeep
+|
+|t:|1760398947
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|turn|10
+|
+|t:|1760398955
+|move|p1a: Primeape|Drain Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-heal|p1a: Primeape|85/100|[from] drain|[of] p2a: Tyranitar
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Primeape|79/100|[from] Sandstorm
+|upkeep
+|
+|t:|1760398959
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|11
+|
+|t:|1760398966
+|move|p2a: Kingambit|Sucker Punch|p1a: Primeape
+|-resisted|p1a: Primeape
+|-damage|p1a: Primeape|52/100
+|move|p1a: Primeape|Drain Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-heal|p1a: Primeape|100/100|[from] drain|[of] p2a: Kingambit
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|pepper f
+|raw|pepper f's rating: 1223 &rarr; <strong>1248</strong><br />(+25 for winning)
+|raw|ToonDR's rating: 1225 &rarr; <strong>1200</strong><br />(-25 for losing)
+|l|☆ToonDR
+|player|p2|

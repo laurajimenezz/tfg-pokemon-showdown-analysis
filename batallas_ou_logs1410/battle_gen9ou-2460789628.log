@@ -1,0 +1,435 @@
+|j|☆Wrenellen
+|j|☆Big Bad Booger
+|t:|1760361496
+|gametype|singles
+|player|p1|Wrenellen|grimsley|1599
+|player|p2|Big Bad Booger|unknown|1590
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Thorns|
+|poke|p1|Sinistcha-Masterpiece|
+|poke|p1|Dragonite, F|
+|poke|p1|Darkrai|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Great Tusk|
+|poke|p2|Cinderace, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Kyurem|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Big Bad Booger)
+|
+|t:|1760361517
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Thorns|Iron Thorns|100/100
+|switch|p2a: Cinderace|Cinderace, F, shiny|100/100
+|-enditem|p1a: Iron Thorns|Booster Energy
+|-activate|p1a: Iron Thorns|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Thorns|quarkdrivespe
+|turn|1
+|
+|t:|1760361523
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Thorns|atk|1
+|move|p1a: Iron Thorns|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Big Bad Booger|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1760361531
+|move|p1a: Iron Thorns|Spikes|p2a: Landorus
+|-sidestart|p2: Big Bad Booger|Spikes
+|move|p2a: Landorus|Earthquake|p1a: Iron Thorns
+|-supereffective|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|0 fnt
+|faint|p1a: Iron Thorns
+|-end|p1a: Iron Thorns|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760361542
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|3
+|
+|t:|1760361554
+|-terastallize|p2a: Landorus|Water
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Landorus|[anim] Ivy Cudgel Water
+|-resisted|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|63/100
+|move|p2a: Landorus|U-turn|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|42/100
+|
+|t:|1760361559
+|switch|p2a: Cinderace|Cinderace, F, shiny|100/100|[from] U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1760361564
+|move|p2a: Cinderace|U-turn|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|t:|1760361574
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1760361585
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|5
+|
+|t:|1760361588
+|move|p1a: Darkrai|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|20/100
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Darkrai
+|move|p2a: Slowking|Thunder Wave|p1a: Darkrai
+|-status|p1a: Darkrai|par
+|
+|upkeep
+|turn|6
+|
+|t:|1760361594
+|move|p1a: Darkrai|Dark Pulse|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1760361597
+|switch|p2a: Cinderace|Cinderace, F, shiny|100/100
+|turn|7
+|
+|t:|1760361601
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|8
+|
+|t:|1760361605
+|move|p1a: Great Tusk|Rapid Spin|p2a: Cinderace
+|-damage|p2a: Cinderace|84/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Wrenellen|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: Wrenellen|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1760361609
+|switch|p2a: Landorus|Landorus-Therian, M, shiny, tera:Water|63/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|-damage|p1a: Great Tusk|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1760361619
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Landorus|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|85/100 brn
+|
+|t:|1760361624
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100|[from] U-turn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|-damage|p1a: Great Tusk|78/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1760361627
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|47/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Iron Valiant|Encore|p1a: Great Tusk
+|-start|p1a: Great Tusk|Encore
+|
+|-damage|p1a: Great Tusk|72/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1760361633
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M, shiny, tera:Water|63/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Headlong Rush|p2a: Landorus
+|-damage|p2a: Landorus|39/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-damage|p1a: Great Tusk|56/100 brn|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|-damage|p1a: Great Tusk|49/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1760361640
+|move|p1a: Great Tusk|Headlong Rush|p2a: Landorus
+|-damage|p2a: Landorus|14/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-damage|p1a: Great Tusk|33/100 brn|[from] item: Rocky Helmet|[of] p2a: Landorus
+|move|p2a: Landorus|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|22/100 brn
+|
+|t:|1760361643
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|47/100|[from] U-turn
+|
+|-damage|p1a: Great Tusk|15/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1760361650
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|16/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Iron Valiant|Moonblast|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760361657
+|switch|p1a: Darkrai|Darkrai|100/100 par
+|turn|15
+|
+|t:|1760361665
+|move|p1a: Darkrai|Sucker Punch|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|8/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Darkrai
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+|
+|t:|1760361668
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|100/100
+|turn|16
+|
+|t:|1760361681
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|43/100
+|-unboost|p1a: Sinistcha|spd|1
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Iron Valiant|[miss]
+|-miss|p1a: Sinistcha|p2a: Iron Valiant
+|
+|-heal|p1a: Sinistcha|49/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1760361690
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|upkeep
+|
+|t:|1760361694
+|switch|p1a: Dragonite|Dragonite, F, shiny|100/100
+|turn|18
+|
+|t:|1760361698
+|-terastallize|p1a: Dragonite|Water
+|move|p2a: Iron Valiant|Moonblast|p1a: Dragonite
+|-damage|p1a: Dragonite|78/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p1a: Dragonite|85/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1760361705
+|move|p2a: Iron Valiant|Encore|p1a: Dragonite
+|-start|p1a: Dragonite|Encore
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p1a: Dragonite|91/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1760361713
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p1a: Dragonite|97/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1760361717
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Kyurem|Freeze-Dry|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|31/100
+|
+|-heal|p1a: Dragonite|38/100|[from] item: Leftovers
+|-end|p1a: Dragonite|Encore
+|upkeep
+|turn|22
+|
+|t:|1760361727
+|switch|p2a: Landorus|Landorus-Therian, M, shiny, tera:Water|14/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|88/100
+|
+|-heal|p1a: Dragonite|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1760361734
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|8/100
+|move|p1a: Dragonite|Fire Punch|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Dragonite|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760361739
+|switch|p2a: Landorus|Landorus-Therian, M, shiny, tera:Water|14/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|turn|24
+|
+|t:|1760361744
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Landorus|U-turn|p1a: Dragonite
+|-damage|p1a: Dragonite|84/100
+|
+|t:|1760361747
+|switch|p2a: Kyurem|Kyurem, shiny|100/100|[from] U-turn
+|-ability|p2a: Kyurem|Pressure
+|
+|-heal|p1a: Dragonite|90/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1760361751
+|move|p2a: Kyurem|Freeze-Dry|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|27/100
+|move|p1a: Dragonite|Dragon Tail|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-heal|p1a: Dragonite|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760361758
+|switch|p2a: Cinderace|Cinderace, F, shiny|84/100
+|turn|26
+|
+|t:|1760361767
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|83/100
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Dragonite
+|-status|p1a: Dragonite|brn
+|
+|-heal|p1a: Dragonite|89/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragonite|83/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1760361770
+|move|p2a: Cinderace|U-turn|p1a: Dragonite
+|-damage|p1a: Dragonite|68/100 brn
+|
+|t:|1760361772
+|switch|p2a: Landorus|Landorus-Therian, M, shiny, tera:Water|14/100|[from] U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|move|p1a: Dragonite|Dragon Tail|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Dragonite|52/100 brn|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|-heal|p1a: Dragonite|58/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragonite|52/100 brn|[from] brn
+|upkeep
+|c|☆Big Bad Booger|what a bad set
+|c|☆Big Bad Booger|how can it be so slow
+|
+|t:|1760361792
+|switch|p2a: Kingambit|Kingambit, F, shiny|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|28
+|
+|t:|1760361802
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|Big Bad Booger
+|raw|Wrenellen's rating: 1599 &rarr; <strong>1578</strong><br />(-21 for losing)
+|raw|Big Bad Booger's rating: 1590 &rarr; <strong>1611</strong><br />(+21 for winning)
+|l|☆Wrenellen
+|player|p1|
+|c|☆Big Bad Booger|aweful
+|c|☆Big Bad Booger|truly awful set
+|c|☆Big Bad Booger|worst ever most likely
+|l|☆Big Bad Booger
+|player|p2|

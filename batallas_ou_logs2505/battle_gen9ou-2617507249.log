@@ -1,0 +1,281 @@
+|j|☆PBTUCAZ
+|j|☆pizzaisbettercold
+|t:|1779700218
+|gametype|singles
+|player|p1|PBTUCAZ|backpacker|1139
+|player|p2|pizzaisbettercold|1|1194
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zapdos|
+|poke|p1|Blastoise, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Hydrapple, M|
+|poke|p1|Heatran, M|
+|poke|p1|Porygon-Z|
+|poke|p2|Rillaboom, M|
+|poke|p2|Serperior, F|
+|poke|p2|Heatran, F|
+|poke|p2|Gholdengo|
+|poke|p2|Zamazenta-*|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pizzaisbettercold)
+|
+|t:|1779700229
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|1
+|
+|t:|1779700241
+|-terastallize|p1a: Slowking|Psychic
+|move|p2a: Great Tusk|Headlong Rush|p1a: Slowking
+|-damage|p1a: Slowking|49/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Slowking|Future Sight|p2a: Great Tusk
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|2
+|
+|t:|1779700249
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Great Tusk|Headlong Rush|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|upkeep
+|turn|3
+|
+|t:|1779700258
+|move|p2a: Great Tusk|Head Smash|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-damage|p2a: Great Tusk|63/100|[from] Recoil
+|
+|-end|p2a: Great Tusk|move: Future Sight
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1779700268
+|switch|p1a: Slowking|Slowking-Galar, F, tera:Psychic|82/100
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|4
+|
+|t:|1779700275
+|-terastallize|p2a: Rillaboom|Fairy
+|move|p2a: Rillaboom|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-enditem|p1a: Slowking|Assault Vest|[from] move: Knock Off|[of] p2a: Rillaboom
+|faint|p1a: Slowking
+|-damage|p2a: Rillaboom|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Rillaboom|97/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779700285
+|switch|p1a: Heatran|Heatran, M|100/100
+|turn|5
+|
+|t:|1779700290
+|move|p1a: Heatran|Flame Charge|p2a: Rillaboom
+|-damage|p2a: Rillaboom|80/100
+|-boost|p1a: Heatran|spe|1
+|move|p2a: Rillaboom|Swords Dance|p2a: Rillaboom
+|-boost|p2a: Rillaboom|atk|2
+|
+|-heal|p2a: Rillaboom|86/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1779700300
+|move|p1a: Heatran|Flash Cannon|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|t:|1779700307
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|7
+|
+|t:|1779700312
+|move|p1a: Heatran|Flamethrower|p2a: Zamazenta
+|-damage|p2a: Zamazenta|59/100
+|move|p2a: Zamazenta|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Heatran
+|-damage|p2a: Zamazenta|49/100|[from] item: Life Orb
+|
+|-heal|p2a: Zamazenta|55/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1779700325
+|switch|p1a: Hydrapple|Hydrapple, M|100/100
+|turn|8
+|
+|t:|1779700331
+|move|p2a: Zamazenta|Ice Fang|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|4/100
+|-damage|p2a: Zamazenta|39/100|[from] item: Rocky Helmet|[of] p1a: Hydrapple
+|-damage|p2a: Zamazenta|29/100|[from] item: Life Orb
+|move|p1a: Hydrapple|Nasty Plot|p1a: Hydrapple
+|-boost|p1a: Hydrapple|spa|2
+|
+|-heal|p2a: Zamazenta|35/100|[from] Grassy Terrain
+|-heal|p1a: Hydrapple|10/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1779700343
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|move|p2a: Zamazenta|Psychic Fangs|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-damage|p1a: Blastoise|61/100
+|-damage|p2a: Zamazenta|25/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1779700352
+|move|p2a: Zamazenta|Close Combat|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Blastoise
+|-damage|p2a: Zamazenta|15/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779700359
+|switch|p1a: Porygon-Z|Porygon-Z|100/100
+|turn|11
+|
+|t:|1779700363
+|move|p1a: Porygon-Z|Endure|p1a: Porygon-Z
+|-singleturn|p1a: Porygon-Z|move: Endure
+|move|p2a: Zamazenta|Close Combat|p1a: Porygon-Z
+|-supereffective|p1a: Porygon-Z
+|-activate|p1a: Porygon-Z|move: Endure
+|-damage|p1a: Porygon-Z|1/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|-enditem|p1a: Porygon-Z|Salac Berry|[eat]
+|-boost|p1a: Porygon-Z|spe|1|[from] item: Salac Berry
+|-damage|p2a: Zamazenta|5/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|t:|1779700374
+|move|p1a: Porygon-Z|Tri Attack|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1779700379
+|switch|p2a: Serperior|Serperior, F|100/100
+|turn|13
+|
+|t:|1779700383
+|move|p2a: Serperior|Leaf Storm|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Porygon-Z
+|
+|upkeep
+|
+|t:|1779700389
+|switch|p1a: Hydrapple|Hydrapple, M|43/100
+|turn|14
+|
+|t:|1779700392
+|move|p2a: Serperior|Leaf Storm|p1a: Hydrapple|[miss]
+|-miss|p2a: Serperior|p1a: Hydrapple
+|move|p1a: Hydrapple|Fickle Beam|p2a: Serperior
+|-damage|p2a: Serperior|50/100
+|
+|upkeep
+|turn|15
+|
+|t:|1779700399
+|move|p2a: Serperior|Leaf Storm|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|17/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Hydrapple|Fickle Beam|p2a: Serperior
+|-damage|p2a: Serperior|2/100
+|
+|upkeep
+|turn|16
+|
+|t:|1779700407
+|move|p2a: Serperior|Leaf Storm|p1a: Hydrapple|[miss]
+|-miss|p2a: Serperior|p1a: Hydrapple
+|move|p1a: Hydrapple|Giga Drain|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|-heal|p1a: Hydrapple|17/100|[from] drain|[of] p2a: Serperior
+|faint|p2a: Serperior
+|
+|upkeep
+|
+|t:|1779700414
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|17
+|
+|t:|1779700419
+|move|p2a: Heatran|Magma Storm|p1a: Hydrapple|[miss]
+|-miss|p2a: Heatran|p1a: Hydrapple
+|move|p1a: Hydrapple|Hydro Pump|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|51/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|18
+|
+|t:|1779700427
+|move|p2a: Heatran|Magma Storm|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|
+|win|pizzaisbettercold
+|raw|PBTUCAZ's rating: 1139 &rarr; <strong>1118</strong><br />(-21 for losing)
+|raw|pizzaisbettercold's rating: 1194 &rarr; <strong>1215</strong><br />(+21 for winning)
+|l|☆PBTUCAZ
+|player|p1|
+|l|☆pizzaisbettercold
+|player|p2|

@@ -1,0 +1,302 @@
+|j|☆freziles
+|j|☆milkmama
+|t:|1760847538
+|gametype|singles
+|player|p1|freziles|unknown|1069
+|player|p2|milkmama|wicke|1136
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Scizor, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Jirachi|
+|poke|p1|Great Tusk|
+|poke|p2|Gliscor, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Primarina, F|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1760847557
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1760847571
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760847588
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|2
+|
+|t:|1760847592
+|move|p1a: Scizor|Bullet Punch|p2a: Tornadus
+|-damage|p2a: Tornadus|25/100
+|move|p2a: Tornadus|Heat Wave|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1760847602
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|3
+|
+|t:|1760847606
+|move|p1a: Jirachi|Iron Head|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|t:|1760847613
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|4
+|
+|t:|1760847616
+|move|p2a: Iron Treads|Volt Switch|p1a: Jirachi
+|-crit|p1a: Jirachi
+|-damage|p1a: Jirachi|84/100
+|
+|t:|1760847621
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Primarina|Primarina, F|100/100|[from] Volt Switch
+|move|p1a: Jirachi|Iron Head|p2a: Primarina
+|-damage|p2a: Primarina|60/100
+|
+|-heal|p2a: Primarina|66/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760847625
+|move|p1a: Jirachi|Iron Head|p2a: Primarina
+|-damage|p2a: Primarina|23/100
+|cant|p2a: Primarina|flinch
+|
+|-heal|p2a: Primarina|29/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760847631
+|move|p1a: Jirachi|Iron Head|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1760847638
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|7
+|
+|t:|1760847642
+|move|p1a: Jirachi|Iron Head|p2a: Gliscor
+|-damage|p2a: Gliscor|78/100
+|move|p2a: Gliscor|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|17/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|
+|t:|1760847651
+|move|p1a: Jirachi|Iron Head|p2a: Gliscor
+|-damage|p2a: Gliscor|57/100 tox
+|cant|p2a: Gliscor|flinch
+|
+|-heal|p2a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1760847655
+|move|p1a: Jirachi|Iron Head|p2a: Gliscor
+|-damage|p2a: Gliscor|49/100 tox
+|cant|p2a: Gliscor|flinch
+|
+|-heal|p2a: Gliscor|61/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1760847658
+|move|p1a: Jirachi|Iron Head|p2a: Gliscor
+|-damage|p2a: Gliscor|39/100 tox
+|cant|p2a: Gliscor|flinch
+|
+|-heal|p2a: Gliscor|51/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1760847663
+|move|p1a: Jirachi|Iron Head|p2a: Gliscor
+|-damage|p2a: Gliscor|30/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-heal|p2a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1760847670
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1a: Rillaboom|Grassy Seed
+|-boost|p1a: Rillaboom|def|1|[from] item: Grassy Seed
+|turn|12
+|
+|t:|1760847675
+|move|p1a: Rillaboom|Wood Hammer|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|-damage|p1a: Rillaboom|86/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|92/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760847680
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|13
+|
+|t:|1760847687
+|move|p1a: Rillaboom|Wood Hammer|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|65/100
+|-damage|p1a: Rillaboom|79/100|[from] Recoil
+|move|p2a: Slowking|Psychic Noise|p1a: Rillaboom
+|-damage|p1a: Rillaboom|40/100
+|-start|p1a: Rillaboom|move: Heal Block
+|
+|-heal|p2a: Slowking|72/100|[from] Grassy Terrain
+|-heal|p2a: Slowking|78/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1760847690
+|move|p1a: Rillaboom|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|26/100
+|-enditem|p2a: Slowking|Leftovers|[from] move: Knock Off|[of] p1a: Rillaboom
+|move|p2a: Slowking|Sludge Bomb|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Slowking|32/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1760847699
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|15
+|
+|t:|1760847704
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|upkeep
+|turn|16
+|
+|t:|1760847712
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Iron Treads|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|70/100
+|
+|-heal|p1a: Dragapult|76/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1760847714
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|move|p2a: Iron Treads|Iron Head|p1a: Dragapult|[miss]
+|-miss|p2a: Iron Treads|p1a: Dragapult
+|
+|upkeep
+|turn|18
+|
+|t:|1760847717
+|move|p1a: Dragapult|Phantom Force|p2a: Iron Treads|[from] lockedmove
+|-damage|p2a: Iron Treads|8/100
+|move|p2a: Iron Treads|Iron Head|p1a: Dragapult
+|-damage|p1a: Dragapult|26/100
+|
+|upkeep
+|turn|19
+|
+|t:|1760847723
+|move|p1a: Dragapult|Dragon Darts|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760847726
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|20
+|
+|t:|1760847733
+|move|p1a: Dragapult|Dragon Darts|p2a: Glimmora
+|-damage|p2a: Glimmora|38/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: freziles|move: Toxic Spikes
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: freziles|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1760847735
+|switch|p2a: Slowking|Slowking-Galar, M|66/100
+|turn|21
+|
+|t:|1760847741
+|move|p1a: Dragapult|Dragon Darts|p2a: Slowking
+|-damage|p2a: Slowking|18/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|win|freziles
+|raw|freziles's rating: 1069 &rarr; <strong>1104</strong><br />(+35 for winning)
+|raw|milkmama's rating: 1136 &rarr; <strong>1106</strong><br />(-30 for losing)
+|l|☆milkmama
+|player|p2|
+|l|☆freziles
+|player|p1|

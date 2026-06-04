@@ -1,0 +1,447 @@
+|j|☆somsleep
+|j|☆zehntimes
+|t:|1779819620
+|gametype|singles
+|player|p1|somsleep|102|1492
+|player|p2|zehntimes|n|1522
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Abomasnow, M|
+|poke|p1|Cetitan, F|
+|poke|p1|Rotom|
+|poke|p1|Illumise, F|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Iron Treads|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Moltres|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Great Tusk|
+|poke|p2|Raging Bolt|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1779819631
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rotom|Rotom|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|1
+|
+|t:|1779819639
+|move|p1a: Rotom|Will-O-Wisp|p2a: Ogerpon
+|-status|p2a: Ogerpon|brn
+|move|p2a: Ogerpon|Taunt|p1a: Rotom
+|-start|p1a: Rotom|move: Taunt
+|
+|-damage|p2a: Ogerpon|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1779819646
+|switch|p1a: Illumise|Illumise, F|100/100
+|move|p2a: Ogerpon|Knock Off|p1a: Illumise
+|-damage|p1a: Illumise|83/100
+|-enditem|p1a: Illumise|Eject Button|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|-damage|p2a: Ogerpon|89/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1779819651
+|move|p1a: Illumise|Encore|p2a: Ogerpon
+|-start|p2a: Ogerpon|Encore
+|move|p2a: Ogerpon|Knock Off|p1a: Illumise
+|-damage|p1a: Illumise|71/100
+|
+|-damage|p2a: Ogerpon|83/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by somsleep)
+|
+|t:|1779819660
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100
+|move|p1a: Illumise|Tailwind|p1a: Illumise
+|-sidestart|p1: somsleep|move: Tailwind
+|
+|upkeep
+|turn|5
+|
+|t:|1779819663
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Slowking|Toxic|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|upkeep
+|turn|6
+|
+|t:|1779819667
+|move|p1a: Iron Treads|Stealth Rock|p2a: Slowking
+|-sidestart|p2: zehntimes|move: Stealth Rock
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1779819674
+|switch|p2a: Moltres|Moltres, shiny|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779819681
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Rotom|Rotom|100/100
+|move|p2a: Moltres|Flamethrower|p1a: Rotom
+|-damage|p1a: Rotom|39/100
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p1: somsleep|move: Tailwind
+|upkeep
+|turn|8
+|
+|t:|1779819684
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|83/100 brn
+|-damage|p2a: Ogerpon|70/100 brn|[from] Stealth Rock
+|move|p1a: Rotom|Trick||[still]
+|-fail|p1a: Rotom
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Ogerpon|64/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1779819692
+|switch|p1a: Illumise|Illumise, F|71/100
+|move|p2a: Ogerpon|U-turn|p1a: Illumise
+|-damage|p1a: Illumise|59/100
+|
+|t:|1779819699
+|switch|p2a: Moltres|Moltres, shiny|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1779819702
+|switch|p1a: Rotom|Rotom|39/100
+|move|p2a: Moltres|Flamethrower|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|none
+|upkeep
+|
+|t:|1779819704
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|11
+|
+|t:|1779819707
+|-terastallize|p2a: Moltres|Fairy
+|move|p1a: Keldeo|Surf|p2a: Moltres
+|-damage|p2a: Moltres|46/100
+|move|p2a: Moltres|Air Slash|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|8/100
+|
+|-heal|p1a: Keldeo|14/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1779819710
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|64/100 brn
+|-damage|p2a: Ogerpon|52/100 brn|[from] Stealth Rock
+|move|p1a: Keldeo|Surf|p2a: Ogerpon
+|-heal|p2a: Ogerpon|77/100 brn|[from] ability: Water Absorb|[of] p1a: Keldeo
+|
+|-heal|p1a: Keldeo|20/100|[from] item: Leftovers
+|-damage|p2a: Ogerpon|71/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1779819714
+|switch|p1a: Abomasnow|Abomasnow, M, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Ogerpon|Knock Off|p1a: Abomasnow
+|-damage|p1a: Abomasnow|83/100
+|-enditem|p1a: Abomasnow|Eject Pack|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Ogerpon|65/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1779819718
+|move|p2a: Ogerpon|U-turn|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|57/100
+|
+|t:|1779819720
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100|[from] U-turn
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Abomasnow|Leaf Storm|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|70/100
+|-unboost|p1a: Abomasnow|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Slowking|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1779819723
+|move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
+|-sidestart|p1: somsleep|move: Aurora Veil
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|
+|t:|1779819729
+|switch|p2a: Moltres|Moltres, shiny, tera:Fairy|46/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1779819737
+|switch|p1a: Illumise|Illumise, F|59/100
+|move|p2a: Moltres|Flamethrower|p1a: Illumise
+|-supereffective|p1a: Illumise
+|-damage|p1a: Illumise|3/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1779819744
+|move|p1a: Illumise|Tailwind|p1a: Illumise
+|-sidestart|p1: somsleep|move: Tailwind
+|move|p2a: Moltres|Flamethrower|p1a: Illumise
+|-supereffective|p1a: Illumise
+|-damage|p1a: Illumise|0 fnt
+|faint|p1a: Illumise
+|
+|-weather|none
+|upkeep
+|
+|t:|1779819747
+|switch|p1a: Cetitan|Cetitan, F|100/100
+|turn|18
+|
+|t:|1779819753
+|switch|p1a: Abomasnow|Abomasnow, M, shiny|57/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|65/100 brn
+|-damage|p2a: Ogerpon|53/100 brn|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Ogerpon|47/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1779819759
+|move|p1a: Abomasnow|Blizzard|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p1: somsleep|move: Aurora Veil
+|upkeep
+|
+|t:|1779819767
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1779819772
+|move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
+|-sidestart|p1: somsleep|move: Aurora Veil
+|move|p2a: Slowking|Toxic|p1a: Abomasnow
+|-status|p1a: Abomasnow|tox
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Slowking|94/100|[from] item: Leftovers
+|-damage|p1a: Abomasnow|50/100 tox|[from] psn
+|-sideend|p1: somsleep|move: Tailwind
+|upkeep
+|turn|21
+|
+|t:|1779819776
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|
+|t:|1779819788
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Chilly Reception
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1779819792
+|move|p1a: Iron Treads|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|64/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Iron Treads
+|-sidestart|p1: somsleep|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|23
+|
+|t:|1779819794
+|move|p1a: Iron Treads|Rapid Spin|p2a: Great Tusk
+|-damage|p2a: Great Tusk|54/100
+|-boost|p1a: Iron Treads|spe|1
+|-damage|p1a: Iron Treads|84/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|-sideend|p1: somsleep|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|move|p2a: Great Tusk|Rapid Spin|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|80/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: zehntimes|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|24
+|
+|t:|1779819799
+|move|p1a: Iron Treads|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: zehntimes|move: Stealth Rock
+|move|p2a: Great Tusk|Headlong Rush|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-crit|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-sideend|p1: somsleep|move: Aurora Veil
+|upkeep
+|
+|t:|1779819803
+|switch|p1a: Abomasnow|Abomasnow, M, shiny|50/100 tox
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|25
+|
+|t:|1779819806
+|move|p2a: Great Tusk|Rapid Spin|p1a: Abomasnow
+|-damage|p1a: Abomasnow|36/100 tox
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: zehntimes|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Abomasnow|Blizzard|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Abomasnow|29/100 tox|[from] psn
+|upkeep
+|
+|t:|1779819810
+|switch|p2a: Moltres|Moltres, shiny, tera:Fairy|46/100
+|turn|26
+|
+|t:|1779819816
+|move|p2a: Moltres|Flamethrower|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779819818
+|switch|p1a: Cetitan|Cetitan, F|100/100
+|turn|27
+|
+|t:|1779819824
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100
+|-terastallize|p1a: Cetitan|Water
+|move|p1a: Cetitan|Belly Drum|p1a: Cetitan
+|-damage|p1a: Cetitan|50/100
+|-setboost|p1a: Cetitan|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Cetitan|Sitrus Berry|[eat]
+|-heal|p1a: Cetitan|75/100|[from] item: Sitrus Berry
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1779819830
+|move|p2a: Slowking|Protect|p2a: Slowking
+|-singleturn|p2a: Slowking|Protect
+|move|p1a: Cetitan|Earthquake|p2a: Slowking
+|-activate|p2a: Slowking|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1779819836
+|move|p1a: Cetitan|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-weather|none
+|upkeep
+|
+|t:|1779819844
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|30
+|
+|t:|1779819847
+|move|p1a: Cetitan|Ice Shard|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779819850
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|31
+|
+|t:|1779819855
+|move|p1a: Cetitan|Liquidation|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1779819857
+|switch|p2a: Moltres|Moltres, shiny, tera:Fairy|46/100
+|turn|32
+|
+|t:|1779819860
+|move|p1a: Cetitan|Ice Shard|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|win|somsleep
+|raw|somsleep's rating: 1492 &rarr; <strong>1514</strong><br />(+22 for winning)
+|raw|zehntimes's rating: 1522 &rarr; <strong>1500</strong><br />(-22 for losing)
+|l|☆zehntimes
+|player|p2|
+|l|☆somsleep
+|player|p1|
+|j|☆somsleep
+|player|p1|somsleep|102|

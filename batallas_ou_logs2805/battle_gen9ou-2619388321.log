@@ -1,0 +1,334 @@
+|j|‽Alakazam darnold
+|j|☆Tapferkeitsameise
+|t:|1779912597
+|gametype|singles
+|player|p1|Alakazam darnold|li|1431
+|player|p2|Tapferkeitsameise|serena-masters3|1510
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Golurk|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Garganacl, F|
+|poke|p1|Iron Crown|
+|poke|p1|Enamorus, F|
+|poke|p2|Kyurem|
+|poke|p2|Hatterene, F|
+|poke|p2|Ceruledge, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Raging Bolt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tapferkeitsameise)
+|
+|t:|1779912610
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1779912619
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Golurk|Trick|p2a: Corviknight
+|-activate|p1a: Golurk|move: Trick|[of] p2a: Corviknight
+|-item|p2a: Corviknight|Choice Band|[from] move: Trick
+|-item|p1a: Golurk|Rocky Helmet|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|t:|1779912627
+|move|p2a: Corviknight|U-turn|p1a: Golurk
+|-resisted|p1a: Golurk
+|-damage|p1a: Golurk|88/100
+|-damage|p2a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p1a: Golurk
+|
+|t:|1779912643
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|move|p1a: Golurk|Dynamic Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|
+|upkeep
+|
+|t:|1779912647
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|3
+|
+|t:|1779912653
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1779912657
+|switch|p1a: Golurk|Golurk|88/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Golurk
+|-damage|p1a: Golurk|38/100
+|
+|upkeep
+|turn|5
+|
+|t:|1779912664
+|-terastallize|p1a: Golurk|Fairy
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Golurk
+|-immune|p1a: Golurk
+|move|p1a: Golurk|Earthquake|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779912669
+|switch|p2a: Corviknight|Corviknight, M|84/100
+|-ability|p2a: Corviknight|Pressure
+|turn|6
+|
+|t:|1779912675
+|move|p2a: Corviknight|Brave Bird|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|-damage|p2a: Corviknight|67/100|[from] item: Rocky Helmet|[of] p1a: Golurk
+|faint|p1a: Golurk
+|-damage|p2a: Corviknight|55/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1779912679
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|turn|7
+|
+|t:|1779912684
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Hatterene
+|-damage|p2a: Hatterene|88/100
+|-start|p2a: Hatterene|Salt Cure
+|
+|-damage|p2a: Hatterene|76/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1779912688
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespe
+|move|p2a: Hatterene|Psychic Noise|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|93/100
+|-start|p1a: Iron Crown|move: Heal Block
+|
+|-damage|p2a: Hatterene|63/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1779912693
+|switch|p2a: Corviknight|Corviknight, M|55/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|
+|-end|p1a: Iron Crown|move: Heal Block
+|upkeep
+|turn|10
+|
+|t:|1779912696
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|move|p2a: Corviknight|U-turn|p1a: Iron Crown
+|-damage|p1a: Iron Crown|74/100
+|
+|t:|1779912700
+|switch|p2a: Ceruledge|Ceruledge, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|11
+|
+|t:|1779912708
+|move|p1a: Iron Crown|Psyshock|p2a: Ceruledge
+|-damage|p2a: Ceruledge|2/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|-heal|p2a: Ceruledge|45/100|[from] drain|[of] p1a: Iron Crown
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|-damage|p2a: Ceruledge|35/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1779912714
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|turn|12
+|
+|t:|1779912730
+|move|p2a: Ceruledge|Poltergeist|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Poltergeist|Leftovers
+|-damage|p1a: Garganacl|76/100
+|-damage|p2a: Ceruledge|25/100|[from] item: Life Orb
+|move|p1a: Garganacl|Salt Cure|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-heal|p1a: Garganacl|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779912733
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|13
+|
+|t:|1779912739
+|-terastallize|p2a: Kyurem|Ground
+|move|p2a: Kyurem|Substitute|p2a: Kyurem
+|-start|p2a: Kyurem|Substitute
+|-damage|p2a: Kyurem|75/100
+|move|p1a: Garganacl|Salt Cure|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-activate|p2a: Kyurem|move: Substitute|[damage]
+|
+|-heal|p2a: Kyurem|82/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|89/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1779912745
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Kyurem|Freeze-Dry|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|43/100
+|
+|-heal|p2a: Kyurem|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1779912749
+|move|p2a: Kyurem|Freeze-Dry|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-heal|p2a: Kyurem|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779912753
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|16
+|
+|t:|1779912756
+|move|p1a: Enamorus|Moonblast|p2a: Kyurem
+|-end|p2a: Kyurem|Substitute
+|move|p2a: Kyurem|Freeze-Dry|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-heal|p2a: Kyurem|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779912758
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|17
+|
+|t:|1779912775
+|switch|p2a: Hatterene|Hatterene, F|63/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Hatterene|[anim] Ivy Cudgel Water
+|-damage|p2a: Hatterene|17/100
+|
+|upkeep
+|turn|18
+|
+|t:|1779912779
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Hatterene|[anim] Ivy Cudgel Water
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1779912781
+|switch|p2a: Corviknight|Corviknight, M|55/100
+|-ability|p2a: Corviknight|Pressure
+|turn|19
+|
+|t:|1779912788
+|switch|p1a: Garganacl|Garganacl, F|89/100
+|move|p2a: Corviknight|Brave Bird|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|71/100
+|-damage|p2a: Corviknight|50/100|[from] Recoil
+|
+|-heal|p1a: Garganacl|77/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1779912794
+|move|p2a: Corviknight|Brave Bird|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|58/100
+|-damage|p2a: Corviknight|43/100|[from] Recoil
+|move|p1a: Garganacl|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Tapferkeitsameise|move: Stealth Rock
+|
+|-heal|p1a: Garganacl|64/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1779912802
+|move|p2a: Corviknight|Brave Bird|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|47/100
+|-damage|p2a: Corviknight|37/100|[from] Recoil
+|move|p1a: Garganacl|Salt Cure|p2a: Corviknight
+|-damage|p2a: Corviknight|30/100
+|-start|p2a: Corviknight|Salt Cure
+|
+|-heal|p1a: Garganacl|53/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|5/100|[from] Salt Cure
+|upkeep
+|turn|22
+|
+|t:|1779912826
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Corviknight|Brave Bird|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-damage|p2a: Corviknight|0 fnt|[from] Recoil
+|faint|p2a: Corviknight
+|
+|upkeep
+|-message|Alakazam darnold forfeited.
+|
+|win|Tapferkeitsameise
+|raw|Alakazam darnold's rating: 1431 &rarr; <strong>1415</strong><br />(-16 for losing)
+|raw|Tapferkeitsameise's rating: 1510 &rarr; <strong>1526</strong><br />(+16 for winning)
+|l|‽Alakazam darnold
+|player|p1|
+|l|☆Tapferkeitsameise
+|player|p2|
+|j|☆Tapferkeitsameise
+|player|p2|Tapferkeitsameise|serena-masters3|

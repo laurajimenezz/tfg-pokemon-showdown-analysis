@@ -1,0 +1,330 @@
+|j|☆raviolikid
+|j|☆models&baddies
+|t:|1757888639
+|gametype|singles
+|player|p1|raviolikid|clair|1578
+|player|p2|models&baddies|benga|1504
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garchomp, F|
+|poke|p1|Iron Treads|
+|poke|p1|Primarina, F|
+|poke|p1|Pecharunt|
+|poke|p1|Meowscarada, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Latios, M|
+|poke|p2|Charizard, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Talonflame, M|
+|poke|p2|Ninetales, F|
+|poke|p2|Conkeldurr, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by raviolikid)
+|
+|t:|1757888652
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Venus|Raging Bolt|100/100
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|turn|1
+|
+|t:|1757888659
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|-activate|p1a: Venus|ability: Protosynthesis
+|-start|p1a: Venus|protosynthesisspa
+|move|p1a: Venus|Volt Switch|p2a: Ninetales
+|-damage|p2a: Ninetales|2/100
+|
+|t:|1757888667
+|-end|p1a: Venus|Protosynthesis|[silent]
+|switch|p1a: Monster|Garchomp, F|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757888691
+|move|p2a: Ninetales|Scorching Sands|p1a: Monster
+|-damage|p1a: Monster|85/100
+|move|p1a: Monster|Stealth Rock|p2a: Ninetales
+|-sidestart|p2: models&baddies|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757888699
+|move|p2a: Ninetales|Scorching Sands|p1a: Monster
+|-damage|p1a: Monster|70/100
+|-status|p1a: Monster|brn
+|move|p1a: Monster|Spikes|p2a: Ninetales
+|-sidestart|p2: models&baddies|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Monster|64/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1757888706
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|-damage|p2a: Conkeldurr|82/100|[from] Spikes
+|move|p1a: Monster|Dragon Tail|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|71/100
+|drag|p2a: Ninetales|Ninetales, F|2/100
+|-damage|p2a: Ninetales|0 fnt|[from] Stealth Rock
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Monster|57/100 brn|[from] brn
+|upkeep
+|
+|t:|1757888716
+|switch|p2a: Conkeldurr|Conkeldurr, M|71/100
+|-damage|p2a: Conkeldurr|65/100|[from] Stealth Rock
+|-damage|p2a: Conkeldurr|53/100|[from] Spikes
+|turn|5
+|
+|t:|1757888725
+|switch|p1a: Disease|Pecharunt|100/100
+|-item|p1a: Disease|Air Balloon
+|move|p2a: Conkeldurr|Defog|p1a: Disease
+|-unboost|p1a: Disease|evasion|1
+|-sideend|p2: models&baddies|Spikes|[from] move: Defog|[of] p2a: Conkeldurr
+|-sideend|p2: models&baddies|Stealth Rock|[from] move: Defog|[of] p2a: Conkeldurr
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Conkeldurr|59/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1757888742
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|move|p1a: Disease|Parting Shot|p2a: Talonflame
+|-unboost|p2a: Talonflame|atk|1
+|-unboost|p2a: Talonflame|spa|1
+|
+|t:|1757888745
+|switch|p1a: Venus|Raging Bolt|100/100|[from] Parting Shot
+|-activate|p1a: Venus|ability: Protosynthesis
+|-start|p1a: Venus|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1757888752
+|move|p2a: Talonflame|Tailwind|p2a: Talonflame
+|-sidestart|p2: models&baddies|move: Tailwind
+|move|p1a: Venus|Volt Switch|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|t:|1757888759
+|-end|p1a: Venus|Protosynthesis|[silent]
+|switch|p1a: 1000 Doves|Primarina, F|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757888761
+|switch|p2a: DEATH|Charizard, M|100/100
+|turn|8
+|c|☆models&baddies|I am clicking a fire move
+|c|☆models&baddies|let’s see if this ohko
+|
+|t:|1757888794
+|-terastallize|p2a: DEATH|Fire
+|move|p2a: DEATH|Blast Burn|p1a: 1000 Doves
+|-resisted|p1a: 1000 Doves
+|-damage|p1a: 1000 Doves|0 fnt
+|-mustrecharge|p2a: DEATH
+|faint|p1a: 1000 Doves
+|
+|-weather|none
+|upkeep
+|c|☆models&baddies|Jesus Christ
+|inactive|raviolikid has 120 seconds left.
+|c|☆raviolikid|I was gonna switch to bolt but when you wrote that I wanted to see lol
+|c|☆raviolikid|im av btw
+|c|☆models&baddies|lol
+|c|☆models&baddies|wtf
+|
+|t:|1757888838
+|switch|p1a: Monster|Garchomp, F|57/100 brn
+|turn|9
+|
+|t:|1757888842
+|cant|p2a: DEATH|recharge
+|move|p1a: Monster|Stealth Rock|p2a: DEATH
+|-sidestart|p2: models&baddies|move: Stealth Rock
+|
+|-damage|p1a: Monster|51/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1757888852
+|switch|p2a: Conkeldurr|Conkeldurr, M|59/100
+|-damage|p2a: Conkeldurr|53/100|[from] Stealth Rock
+|move|p1a: Monster|Earthquake|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|34/100
+|
+|-heal|p2a: Conkeldurr|40/100|[from] item: Leftovers
+|-damage|p1a: Monster|45/100 brn|[from] brn
+|-sideend|p2: models&baddies|move: Tailwind
+|upkeep
+|turn|11
+|inactive|raviolikid has 120 seconds left.
+|
+|t:|1757888859
+|switch|p1a: Venus|Raging Bolt|100/100
+|move|p2a: Conkeldurr|Defog|p1a: Venus
+|-unboost|p1a: Venus|evasion|1
+|-sideend|p2: models&baddies|Stealth Rock|[from] move: Defog|[of] p2a: Conkeldurr
+|
+|-heal|p2a: Conkeldurr|46/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1757888863
+|move|p1a: Venus|Thunderbolt|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|t:|1757888866
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-activate|p1a: Venus|ability: Protosynthesis
+|-start|p1a: Venus|protosynthesisspa
+|turn|13
+|
+|t:|1757888876
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Venus|Thunderbolt|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1757888887
+|move|p2a: Latios|Draco Meteor|p1a: Venus
+|-supereffective|p1a: Venus
+|-damage|p1a: Venus|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Venus
+|-end|p1a: Venus|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757888890
+|switch|p1a: Poker Face|Meowscarada, M|100/100
+|turn|15
+|
+|t:|1757888893
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|move|p1a: Poker Face|Knock Off|p2a: Torkoal
+|-start|p1a: Poker Face|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Torkoal|74/100
+|-enditem|p2a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p1a: Poker Face
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1757888897
+|switch|p1a: Monster|Garchomp, F|45/100 brn
+|move|p2a: Torkoal|Body Press|p1a: Monster
+|-damage|p1a: Monster|24/100 brn
+|-damage|p2a: Torkoal|62/100|[from] ability: Rough Skin|[of] p1a: Monster
+|-damage|p2a: Torkoal|45/100|[from] item: Rocky Helmet|[of] p1a: Monster
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Monster|18/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1757888905
+|move|p1a: Monster|Stealth Rock|p2a: Torkoal
+|-sidestart|p2: models&baddies|move: Stealth Rock
+|move|p2a: Torkoal|Rapid Spin|p1a: Monster
+|-damage|p1a: Monster|13/100 brn
+|-boost|p2a: Torkoal|spe|1
+|-damage|p2a: Torkoal|32/100|[from] ability: Rough Skin|[of] p1a: Monster
+|-damage|p2a: Torkoal|16/100|[from] item: Rocky Helmet|[of] p1a: Monster
+|-sideend|p2: models&baddies|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Monster|6/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1757888921
+|switch|p2a: DEATH|Charizard, M, tera:Fire|100/100
+|move|p1a: Monster|Stealth Rock|p2a: DEATH
+|-sidestart|p2: models&baddies|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: DEATH|88/100|[from] ability: Solar Power|[of] p2a: DEATH
+|-damage|p1a: Monster|0 fnt|[from] brn
+|faint|p1a: Monster
+|upkeep
+|
+|t:|1757888931
+|switch|p1a: Heavy Metal Lover|Iron Treads|100/100
+|turn|19
+|
+|t:|1757888933
+|move|p1a: Heavy Metal Lover|Earthquake|p2a: DEATH
+|-supereffective|p2a: DEATH
+|-damage|p2a: DEATH|0 fnt
+|faint|p2a: DEATH
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757888936
+|switch|p2a: Latios|Latios, M|44/100
+|-damage|p2a: Latios|32/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1757888946
+|move|p2a: Latios|Draco Meteor|p1a: Heavy Metal Lover
+|-resisted|p1a: Heavy Metal Lover
+|-damage|p1a: Heavy Metal Lover|54/100
+|-unboost|p2a: Latios|spa|2
+|move|p1a: Heavy Metal Lover|Ice Spinner|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|none
+|upkeep
+|
+|t:|1757888948
+|switch|p2a: Torkoal|Torkoal, M|16/100
+|-damage|p2a: Torkoal|0 fnt|[from] Stealth Rock
+|faint|p2a: Torkoal
+|
+|win|raviolikid
+|raw|raviolikid's rating: 1578 &rarr; <strong>1594</strong><br />(+16 for winning)
+|raw|models&amp;baddies's rating: 1504 &rarr; <strong>1488</strong><br />(-16 for losing)
+|c|☆raviolikid|Gg
+|c|☆models&baddies|gg

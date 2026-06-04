@@ -1,0 +1,235 @@
+|j|☆yonderfarer
+|j|☆Pikka888
+|t:|1760760968
+|gametype|singles
+|player|p1|yonderfarer|blue|1274
+|player|p2|Pikka888|1|1349
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Crown|
+|poke|p1|Darkrai|
+|poke|p1|Golurk|
+|poke|p1|Quaquaval, F|
+|poke|p1|Raging Bolt|
+|poke|p2|Gyarados, M|
+|poke|p2|Skarmory, F|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Boulder|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pikka888)
+|
+|t:|1760761013
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1760761023
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespa
+|move|p2a: Iron Valiant|Moonblast|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|76/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760761043
+|move|p2a: Iron Valiant|Knock Off|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|34/100
+|move|p1a: Iron Crown|Psychic|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760761048
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|3
+|
+|t:|1760761054
+|move|p2a: Gholdengo|Shadow Ball|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760761071
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|turn|4
+|
+|t:|1760761075
+|-terastallize|p1a: Quaquaval|Water
+|move|p2a: Gholdengo|Shadow Ball|p1a: Quaquaval
+|-damage|p1a: Quaquaval|46/100
+|move|p1a: Quaquaval|Aqua Step|p2a: Gholdengo
+|-damage|p2a: Gholdengo|7/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1760761087
+|move|p1a: Quaquaval|Aqua Step|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Gholdengo
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1760761089
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|turn|6
+|
+|t:|1760761095
+|move|p1a: Quaquaval|Aqua Step|p2a: Skarmory
+|-ability|p2a: Skarmory|Sturdy
+|-damage|p2a: Skarmory|1/100
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Skarmory|Stealth Rock|p1a: Quaquaval
+|-sidestart|p1: yonderfarer|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|-enditem|p2a: Skarmory|Custap Berry|[eat]
+|-activate|p2a: Skarmory|item: Custap Berry|[consumed]
+|
+|t:|1760761102
+|move|p2a: Skarmory|Brave Bird|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|-damage|p2a: Skarmory|0 fnt|[from] Recoil
+|faint|p2a: Skarmory
+|
+|upkeep
+|
+|t:|1760761119
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-damage|p1a: Golurk|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|turn|8
+|
+|t:|1760761130
+|-terastallize|p2a: Iron Boulder|Flying
+|move|p2a: Iron Boulder|Substitute|p2a: Iron Boulder
+|-start|p2a: Iron Boulder|Substitute
+|-damage|p2a: Iron Boulder|76/100
+|move|p1a: Golurk|Poltergeist||[still]
+|-fail|p1a: Golurk
+|
+|upkeep
+|turn|9
+|
+|t:|1760761147
+|move|p2a: Iron Boulder|Swords Dance|p2a: Iron Boulder
+|-boost|p2a: Iron Boulder|atk|2
+|move|p1a: Golurk|Stone Edge|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Substitute
+|
+|upkeep
+|turn|10
+|
+|t:|1760761154
+|move|p2a: Iron Boulder|Substitute|p2a: Iron Boulder
+|-start|p2a: Iron Boulder|Substitute
+|-damage|p2a: Iron Boulder|51/100
+|move|p1a: Golurk|Stone Edge|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Substitute
+|
+|upkeep
+|turn|11
+|
+|t:|1760761158
+|move|p2a: Iron Boulder|Substitute|p2a: Iron Boulder
+|-start|p2a: Iron Boulder|Substitute
+|-damage|p2a: Iron Boulder|26/100
+|move|p1a: Golurk|Stone Edge|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Substitute
+|
+|upkeep
+|turn|12
+|
+|t:|1760761161
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Golurk
+|-resisted|p1a: Golurk
+|-damage|p1a: Golurk|43/100
+|move|p1a: Golurk|Stone Edge|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760761165
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|turn|13
+|
+|t:|1760761171
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-damage|p1a: Raging Bolt|88/100|[from] Stealth Rock
+|move|p2a: Gyarados|Waterfall|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|69/100
+|
+|upkeep
+|turn|14
+|
+|t:|1760761177
+|move|p2a: Gyarados|Scale Shot|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|54/100
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|39/100
+|-hitcount|p1a: Raging Bolt|2
+|-unboost|p2a: Gyarados|def|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2a: Gyarados
+|
+|upkeep
+|-message|Pikka888 forfeited.
+|
+|win|yonderfarer
+|raw|yonderfarer's rating: 1274 &rarr; <strong>1304</strong><br />(+30 for winning)
+|raw|Pikka888's rating: 1349 &rarr; <strong>1325</strong><br />(-24 for losing)
+|l|☆Pikka888
+|player|p2|
+|l|☆yonderfarer
+|player|p1|

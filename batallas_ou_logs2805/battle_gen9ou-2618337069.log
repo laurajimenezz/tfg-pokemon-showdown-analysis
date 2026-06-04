@@ -1,0 +1,312 @@
+|j|☆dengo dollars
+|j|‽CP28028
+|t:|1779800825
+|gametype|singles
+|player|p1|dengo dollars|sage|1506
+|player|p2|CP28028|swimmerf-gen4dp|1458
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cetitan, M|
+|poke|p1|Great Tusk|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Kyurem|
+|poke|p1|Tornadus-Therian, M|
+|poke|p2|Great Tusk|
+|poke|p2|Dragonite, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Sableye, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CP28028)
+|
+|t:|1779800847
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|t:|1779800856
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|41/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779800864
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Tornadus
+|-damage|p1a: Tornadus|48/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779800871
+|move|p2a: Dragapult|Shadow Ball|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1779800875
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|4
+|
+|t:|1779800879
+|move|p2a: Dragapult|Shadow Ball|p1a: Kyurem
+|-damage|p1a: Kyurem|54/100
+|move|p1a: Kyurem|Freeze-Dry|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1779800892
+|switch|p2a: Sableye|Sableye, M|100/100
+|turn|5
+|
+|t:|1779800895
+|move|p2a: Sableye|Light Screen|p2a: Sableye
+|-sidestart|p2: CP28028|move: Light Screen
+|move|p1a: Kyurem|Freeze-Dry|p2a: Sableye
+|-damage|p2a: Sableye|58/100
+|-status|p2a: Sableye|frz
+|
+|-heal|p2a: Sableye|64/100 frz|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1779800902
+|switch|p1a: Slowking|Slowking-Galar, F|74/100
+|cant|p2a: Sableye|frz
+|
+|-heal|p2a: Sableye|70/100 frz|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779800907
+|cant|p2a: Sableye|frz
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779800916
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Sableye|76/100 frz|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1779800919
+|cant|p2a: Sableye|frz
+|move|p1a: Cinderace|Pyro Ball|p2a: Sableye
+|-damage|p2a: Sableye|18/100 frz
+|-curestatus|p2a: Sableye|frz|[msg]
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Sableye|24/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|CP28028 has 120 seconds left.
+|
+|t:|1779800954
+|move|p2a: Sableye|Reflect|p2a: Sableye
+|-sidestart|p2: CP28028|Reflect
+|move|p1a: Cinderace|Pyro Ball|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: CP28028|move: Light Screen
+|upkeep
+|
+|t:|1779800958
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|10
+|
+|t:|1779800969
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779800978
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Ogerpon
+|-status|p2a: Ogerpon|brn
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Ogerpon|95/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1779800990
+|move|p1a: Cinderace|U-turn|p2a: Ogerpon
+|-damage|p2a: Ogerpon|64/100 brn
+|
+|t:|1779801005
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|move|p2a: Ogerpon|Trailblaze|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|65/100
+|-boost|p2a: Ogerpon|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Ogerpon|58/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1779801015
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Great Tusk|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Ogerpon|52/100 brn|[from] brn
+|-sideend|p1: dengo dollars|Reflect
+|upkeep
+|
+|t:|1779801032
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|14
+|
+|t:|1779801036
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Cinderace|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|none
+|-damage|p2a: Ogerpon|46/100 brn|[from] brn
+|upkeep
+|
+|t:|1779801042
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|turn|15
+|
+|t:|1779801046
+|-terastallize|p1a: Slowking|Water
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Slowking|[anim] Ivy Cudgel Water
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|30/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779801052
+|switch|p1a: Kyurem|Kyurem|54/100|[from] Chilly Reception
+|-ability|p1a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Ogerpon|40/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1779801057
+|move|p2a: Ogerpon|Play Rough|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Ogerpon|34/100 brn|[from] brn
+|upkeep
+|
+|t:|1779801060
+|switch|p1a: Cetitan|Cetitan, M|100/100
+|turn|17
+|
+|t:|1779801068
+|move|p1a: Cetitan|Earthquake|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, F|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779801076
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|18
+|
+|t:|1779801082
+|move|p1a: Cetitan|Belly Drum|p1a: Cetitan
+|-damage|p1a: Cetitan|51/100
+|-setboost|p1a: Cetitan|atk|6|[from] move: Belly Drum
+|move|p2a: Great Tusk|Smack Down|p1a: Cetitan
+|-supereffective|p1a: Cetitan
+|-damage|p1a: Cetitan|32/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1779801092
+|move|p1a: Cetitan|Icicle Spear|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|30/100
+|-supereffective|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p2: Great Tusk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779801100
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|20
+|
+|t:|1779801103
+|move|p2a: Kingambit|Sucker Punch|p1a: Cetitan
+|-damage|p1a: Cetitan|0 fnt
+|faint|p1a: Cetitan
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|-message|dengo dollars forfeited.
+|
+|win|CP28028
+|raw|dengo dollars's rating: 1506 &rarr; <strong>1483</strong><br />(-23 for losing)
+|raw|CP28028's rating: 1458 &rarr; <strong>1481</strong><br />(+23 for winning)
+|l|☆dengo dollars
+|player|p1|
+|l|‽CP28028
+|player|p2|

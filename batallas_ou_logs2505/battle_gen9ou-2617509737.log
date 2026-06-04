@@ -1,0 +1,331 @@
+|j|☆goonbom
+|j|☆KenjiShiguma
+|t:|1779700620
+|gametype|singles
+|player|p1|goonbom|169|1073
+|player|p2|KenjiShiguma|pokemonbreeder-gen4|1090
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Great Tusk|
+|poke|p1|Kyurem|
+|poke|p1|Kingambit, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Zapdos|
+|poke|p2|Golduck, M|
+|poke|p2|Porygon2|
+|poke|p2|Gardevoir, M|
+|poke|p2|Grumpig, F|
+|poke|p2|Espeon, F|
+|poke|p2|Toxapex, F|
+|teampreview
+|
+|t:|1779700636
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Golduck|Golduck, M|100/100
+|-ability|p2a: Golduck|Cloud Nine
+|turn|1
+|
+|t:|1779700643
+|move|p2a: Golduck|Whirlpool|p1a: Slowking
+|-damage|p1a: Slowking|93/100
+|-activate|p1a: Slowking|move: Whirlpool|[of] p2a: Golduck
+|move|p1a: Slowking|Thunder Wave|p2a: Golduck
+|-status|p2a: Golduck|par
+|
+|-damage|p1a: Slowking|81/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1779700652
+|cant|p2a: Golduck|par
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1779700656
+|switch|p1a: Zapdos|Zapdos, shiny|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779700670
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Static|Trace|[from] ability: Trace|[of] p1a: Zapdos
+|move|p1a: Zapdos|Volt Switch|p2a: Porygon2
+|-damage|p2a: Porygon2|87/100
+|
+|t:|1779700689
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779700703
+|switch|p2a: Grumpig|Grumpig, F|100/100
+|move|p1a: Great Tusk|Close Combat|p2a: Grumpig
+|-resisted|p2a: Grumpig
+|-damage|p2a: Grumpig|63/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779700717
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|move|p2a: Grumpig|Trailblaze|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|98/100
+|-boost|p2a: Grumpig|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1779700728
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Grumpig|Simple Beam|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|-ability|p1a: Kingambit|Simple|Supreme Overlord|[from] move: Simple Beam
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1779700737
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Simple|Trace|[from] ability: Trace|[of] p1a: Kingambit
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|8
+|
+|t:|1779700747
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2a: Gardevoir|Calm Mind|p2a: Gardevoir
+|-boost|p2a: Gardevoir|spa|2
+|-boost|p2a: Gardevoir|spd|2
+|move|p1a: Kingambit|Iron Head|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|upkeep
+|
+|t:|1779700759
+|switch|p2a: Porygon2|Porygon2|87/100
+|-ability|p2a: Porygon2|Simple|Trace|[from] ability: Trace|[of] p1a: Kingambit
+|turn|9
+|
+|t:|1779700765
+|move|p1a: Kingambit|Low Kick|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|55/100
+|move|p2a: Porygon2|Defense Curl|p2a: Porygon2
+|-boost|p2a: Porygon2|def|2
+|
+|upkeep
+|turn|10
+|
+|t:|1779700771
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Porygon2|Defense Curl|p2a: Porygon2
+|-boost|p2a: Porygon2|def|2
+|
+|upkeep
+|turn|11
+|
+|t:|1779700778
+|move|p1a: Great Tusk|Close Combat|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|24/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Porygon2|Defense Curl|p2a: Porygon2
+|-boost|p2a: Porygon2|def|2
+|
+|upkeep
+|turn|12
+|
+|t:|1779700787
+|move|p1a: Great Tusk|Close Combat|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|1/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|51/100
+|
+|upkeep
+|turn|13
+|
+|t:|1779700799
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|14
+|
+|t:|1779700806
+|move|p2a: Porygon2|Charge|p2a: Porygon2
+|-boost|p2a: Porygon2|spd|2
+|-start|p2a: Porygon2|Charge
+|move|p1a: Slowking|Thunder Wave|p2a: Porygon2
+|-status|p2a: Porygon2|par
+|
+|upkeep
+|turn|15
+|
+|t:|1779700812
+|move|p2a: Porygon2|Charge|p2a: Porygon2
+|-boost|p2a: Porygon2|spd|2
+|-start|p2a: Porygon2|Charge
+|move|p1a: Slowking|Future Sight|p2a: Porygon2
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|16
+|
+|t:|1779700820
+|cant|p2a: Porygon2|par
+|move|p1a: Slowking|Sludge Bomb|p2a: Porygon2
+|-damage|p2a: Porygon2|95/100 par
+|
+|upkeep
+|turn|17
+|
+|t:|1779700833
+|move|p2a: Porygon2|Charge|p2a: Porygon2
+|-boost|p2a: Porygon2|spd|2
+|-start|p2a: Porygon2|Charge
+|move|p1a: Slowking|Sludge Bomb|p2a: Porygon2
+|-damage|p2a: Porygon2|91/100 par
+|
+|-end|p2a: Porygon2|move: Future Sight
+|-damage|p2a: Porygon2|86/100 par
+|upkeep
+|turn|18
+|
+|t:|1779700851
+|switch|p1a: Kingambit|Kingambit, M, tera:Ghost|100/100
+|move|p2a: Porygon2|Charge Beam|p1a: Kingambit|[miss]
+|-miss|p2a: Porygon2|p1a: Kingambit
+|-end|p2a: Porygon2|Charge|[silent]
+|
+|upkeep
+|turn|19
+|
+|t:|1779700858
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|cant|p2a: Porygon2|par
+|
+|upkeep
+|turn|20
+|
+|t:|1779700863
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Porygon2|Charge Beam|p1a: Kingambit
+|-damage|p1a: Kingambit|88/100
+|
+|-heal|p1a: Kingambit|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1779700870
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|cant|p2a: Porygon2|par
+|
+|-heal|p1a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1779700878
+|move|p1a: Kingambit|Sucker Punch|p2a: Porygon2
+|-damage|p2a: Porygon2|58/100 par
+|move|p2a: Porygon2|Charge Beam|p1a: Kingambit
+|-damage|p1a: Kingambit|87/100
+|-boost|p2a: Porygon2|spa|2
+|
+|-heal|p1a: Kingambit|93/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1779700888
+|move|p1a: Kingambit|Low Kick|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|28/100 par
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|78/100 par
+|
+|-heal|p1a: Kingambit|99/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1779700896
+|move|p1a: Kingambit|Low Kick|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|44/100 par
+|move|p2a: Porygon2|Charge Beam|p1a: Kingambit
+|-damage|p1a: Kingambit|72/100
+|-boost|p2a: Porygon2|spa|2
+|
+|-heal|p1a: Kingambit|78/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1779700905
+|move|p1a: Kingambit|Low Kick|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|
+|-heal|p1a: Kingambit|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779700912
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|26
+|
+|t:|1779700923
+|move|p1a: Kingambit|Sucker Punch|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-heal|p1a: Kingambit|91/100|[from] item: Leftovers
+|upkeep
+|-message|KenjiShiguma forfeited.
+|
+|win|goonbom
+|raw|goonbom's rating: 1073 &rarr; <strong>1103</strong><br />(+30 for winning)
+|raw|KenjiShiguma's rating: 1090 &rarr; <strong>1065</strong><br />(-25 for losing)
+|l|☆KenjiShiguma
+|player|p2|
+|l|☆goonbom
+|player|p1|

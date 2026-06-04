@@ -1,0 +1,163 @@
+|j|‽K4R0007_0
+|j|‽Gattuso74
+|t:|1759052953
+|gametype|singles
+|player|p1|K4R0007_0|colress|1141
+|player|p2|Gattuso74|silver-gen2kanto|1137
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garchomp, M|
+|poke|p1|Latios, M|
+|poke|p1|Latias, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Metagross|
+|poke|p1|Iron Treads|
+|poke|p2|Dragonite, M|
+|poke|p2|Toxicroak, M|
+|poke|p2|Umbreon, F|
+|poke|p2|Quagsire, M|
+|poke|p2|Infernape, M|
+|poke|p2|Mienshao, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gattuso74)
+|
+|t:|1759052969
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|turn|1
+|
+|t:|1759052977
+|move|p2a: Mienshao|U-turn|p1a: Metagross
+|-damage|p1a: Metagross|81/100
+|
+|t:|1759052980
+|switch|p2a: Quagsire|Quagsire, M|100/100|[from] U-turn
+|move|p1a: Metagross|Ice Punch|p2a: Quagsire
+|-damage|p2a: Quagsire|82/100
+|-status|p2a: Quagsire|frz
+|-damage|p1a: Metagross|65/100|[from] item: Rocky Helmet|[of] p2a: Quagsire
+|
+|-heal|p1a: Metagross|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1759052992
+|move|p1a: Metagross|Explosion|p2a: Quagsire
+|-damage|p2a: Quagsire|16/100 frz
+|faint|p1a: Metagross
+|-curestatus|p2a: Quagsire|frz|[msg]
+|move|p2a: Quagsire|Stealth Rock|p1: Metagross
+|-sidestart|p1: K4R0007_0|move: Stealth Rock
+|
+|upkeep
+|
+|t:|1759053001
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-damage|p1a: Iron Treads|97/100|[from] Stealth Rock
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdriveatk
+|turn|3
+|
+|t:|1759053008
+|move|p1a: Iron Treads|Earthquake|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|upkeep
+|
+|t:|1759053013
+|switch|p2a: Infernape|Infernape, M|100/100
+|turn|4
+|
+|t:|1759053025
+|move|p2a: Infernape|Flamethrower|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-damage|p2a: Infernape|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1759053032
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1759053040
+|move|p2a: Infernape|Aura Sphere|p1a: Garchomp
+|-damage|p1a: Garchomp|53/100
+|-damage|p2a: Infernape|81/100|[from] item: Life Orb
+|move|p1a: Garchomp|Stealth Rock|p2a: Infernape
+|-sidestart|p2: Gattuso74|move: Stealth Rock
+|
+|-heal|p1a: Garchomp|60/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1759053051
+|move|p2a: Infernape|Aura Sphere|p1a: Garchomp
+|-damage|p1a: Garchomp|25/100
+|-damage|p2a: Infernape|71/100|[from] item: Life Orb
+|move|p1a: Garchomp|Earthquake|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|-heal|p1a: Garchomp|31/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1759053062
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|-damage|p2a: Mienshao|94/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1759053068
+|-terastallize|p2a: Mienshao|Ice
+|move|p2a: Mienshao|Triple Axel|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Mienshao|82/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|-hitcount|p1: Garchomp|1
+|
+|upkeep
+|
+|t:|1759053076
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1759053093
+|-terastallize|p1a: Latios|Fighting
+|move|p2a: Mienshao|Triple Axel|p1a: Latios
+|-damage|p1a: Latios|72/100
+|-damage|p1a: Latios|41/100
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|-hitcount|p1: Latios|3
+|
+|upkeep
+|-message|K4R0007_0 forfeited.
+|
+|win|Gattuso74
+|raw|K4R0007_0's rating: 1141 &rarr; <strong>1116</strong><br />(-25 for losing)
+|raw|Gattuso74's rating: 1137 &rarr; <strong>1162</strong><br />(+25 for winning)
+|l|‽K4R0007_0
+|player|p1|
+|l|‽Gattuso74
+|player|p2|

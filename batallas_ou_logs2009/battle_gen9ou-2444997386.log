@@ -1,0 +1,477 @@
+|j|☆stockroomsupply
+|j|☆katapuldrawr
+|t:|1758294818
+|gametype|singles
+|player|p1|stockroomsupply|1|1260
+|player|p2|katapuldrawr|2|1198
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mudsdale, F|
+|poke|p1|Glimmora, M|
+|poke|p1|Dusclops, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Ditto|
+|poke|p1|Hitmontop, M|
+|poke|p2|Zapdos|
+|poke|p2|Infernape, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Lokix, F|
+|poke|p2|Kyurem|
+|teampreview
+|
+|t:|1758294866
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Mudsdale|Mudsdale, F|100/100
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1758294873
+|move|p2a: Weezing|Will-O-Wisp|p1a: Mudsdale
+|-status|p1a: Mudsdale|brn
+|move|p1a: Mudsdale|Stealth Rock|p2a: Weezing
+|-sidestart|p2: katapuldrawr|move: Stealth Rock
+|
+|-damage|p1a: Mudsdale|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1758294884
+|move|p2a: Weezing|Defog|p1a: Mudsdale
+|-unboost|p1a: Mudsdale|evasion|1
+|-sideend|p2: katapuldrawr|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|move|p1a: Mudsdale|Roar|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|drag|p2a: Infernape|Infernape, M|100/100
+|
+|-heal|p1a: Mudsdale|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Mudsdale|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1758294893
+|switch|p2a: Lokix|Lokix, F|100/100
+|move|p1a: Mudsdale|Stealth Rock|p2a: Lokix
+|-sidestart|p2: katapuldrawr|move: Stealth Rock
+|
+|-heal|p1a: Mudsdale|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Mudsdale|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1758294896
+|move|p2a: Lokix|Knock Off|p1a: Mudsdale
+|-damage|p1a: Mudsdale|68/100 brn
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-enditem|p1a: Mudsdale|Leftovers|[from] move: Knock Off|[of] p2a: Lokix
+|move|p1a: Mudsdale|Body Press|p2a: Lokix
+|-damage|p2a: Lokix|73/100
+|
+|-damage|p1a: Mudsdale|62/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1758294900
+|move|p2a: Lokix|U-turn|p1a: Mudsdale
+|-damage|p1a: Mudsdale|50/100 brn
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|
+|t:|1758294903
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|move|p1a: Mudsdale|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|91/100
+|
+|-damage|p1a: Mudsdale|44/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1758294914
+|move|p2a: Zapdos|Hurricane|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|faint|p1a: Mudsdale
+|
+|upkeep
+|
+|t:|1758294923
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|7
+|
+|t:|1758294953
+|move|p2a: Zapdos|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|80/100
+|
+|t:|1758294955
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] U-turn
+|-damage|p2a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Tyranitar|Power Gem|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ting-Lu|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758294962
+|switch|p1a: Dusclops|Dusclops, M|100/100
+|-item|p2a: Ting-Lu|Leftovers|[from] ability: Frisk|[of] p1a: Dusclops
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Dusclops
+|-sidestart|p1: stockroomsupply|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dusclops|95/100|[from] Sandstorm
+|-heal|p2a: Ting-Lu|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758295020
+|switch|p2a: Lokix|Lokix, F|73/100
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Lokix
+|-status|p2a: Lokix|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lokix|67/100 brn|[from] Sandstorm
+|-damage|p1a: Dusclops|89/100|[from] Sandstorm
+|-damage|p2a: Lokix|61/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1758295034
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-damage|p1a: Glimmora|88/100|[from] Stealth Rock
+|move|p2a: Lokix|Knock Off|p1a: Glimmora
+|-damage|p1a: Glimmora|63/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: katapuldrawr|move: Toxic Spikes
+|-enditem|p1a: Glimmora|Choice Scarf|[from] move: Knock Off|[of] p2a: Lokix
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lokix|55/100 brn|[from] Sandstorm
+|-damage|p2a: Lokix|49/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1758295062
+|move|p2a: Lokix|U-turn|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|46/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: katapuldrawr|move: Toxic Spikes
+|
+|t:|1758295063
+|switch|p2a: Weezing|Weezing-Galar, F|100/100|[from] U-turn
+|-ability|p2a: Weezing|Neutralizing Gas
+|-sideend|p2: katapuldrawr|move: Toxic Spikes|[of] p2a: Weezing
+|move|p1a: Glimmora|Mortal Spin|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|93/100
+|-sideend|p1: stockroomsupply|Stealth Rock|[from] move: Mortal Spin|[of] p1a: Glimmora
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1758295085
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-damage|p2a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Glimmora|Earth Power|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|82/100
+|
+|-heal|p2a: Ting-Lu|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1758295104
+|move|p1a: Glimmora|Mortal Spin|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|86/100
+|-status|p2a: Ting-Lu|psn
+|move|p2a: Ting-Lu|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: katapuldrawr|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-heal|p2a: Ting-Lu|93/100 psn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|80/100 psn|[from] psn
+|upkeep
+|
+|t:|1758295115
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|turn|14
+|
+|t:|1758295146
+|switch|p2a: Zapdos|Zapdos|91/100
+|move|p1a: Hitmontop|Fake Out|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|77/100
+|
+|upkeep
+|turn|15
+|
+|t:|1758295158
+|switch|p1a: Tyranitar|Tyranitar, M|80/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Zapdos|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|51/100
+|
+|t:|1758295201
+|switch|p2a: Ting-Lu|Ting-Lu|80/100 psn|[from] U-turn
+|-damage|p2a: Ting-Lu|74/100 psn|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ting-Lu|80/100 psn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|68/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1758295243
+|-terastallize|p1a: Tyranitar|Grass
+|move|p1a: Tyranitar|Ice Beam|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|52/100 psn
+|move|p2a: Ting-Lu|Earthquake|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|31/100|[from] Sandstorm
+|-heal|p2a: Ting-Lu|58/100 psn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|46/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1758295276
+|move|p1a: Tyranitar|Ice Beam|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|30/100 psn
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: stockroomsupply|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|25/100|[from] Sandstorm
+|-heal|p2a: Ting-Lu|36/100 psn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|23/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1758295289
+|move|p1a: Tyranitar|Ice Beam|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|7/100 psn
+|move|p2a: Ting-Lu|Earthquake|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|4/100|[from] Sandstorm
+|-heal|p2a: Ting-Lu|13/100 psn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|1/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1758295299
+|switch|p2a: Weezing|Weezing-Galar, F|93/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-sideend|p2: katapuldrawr|move: Toxic Spikes|[of] p2a: Weezing
+|move|p1a: Tyranitar|Power Gem|p2a: Weezing
+|-damage|p2a: Weezing|57/100
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|t:|1758295316
+|move|p1a: Tyranitar|Power Gem|p2a: Weezing
+|-damage|p2a: Weezing|24/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|upkeep
+|
+|t:|1758295319
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|turn|21
+|c|☆stockroomsupply|right lol
+|
+|t:|1758295333
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-damage|p1a: Hitmontop|94/100|[from] Stealth Rock
+|move|p2a: Weezing|Pain Split|p1a: Hitmontop
+|-sethp|p1a: Hitmontop|60/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|55/100|[from] move: Pain Split
+|
+|upkeep
+|turn|22
+|
+|t:|1758295340
+|move|p1a: Hitmontop|Fake Out|p2a: Weezing
+|-damage|p2a: Weezing|49/100
+|cant|p2a: Weezing|flinch
+|
+|upkeep
+|turn|23
+|
+|t:|1758295346
+|move|p1a: Hitmontop|Bulldoze|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|30/100
+|-unboost|p2a: Weezing|spe|1
+|move|p2a: Weezing|Will-O-Wisp|p1a: Hitmontop
+|-status|p1a: Hitmontop|brn
+|
+|-damage|p1a: Hitmontop|54/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1758295354
+|move|p1a: Hitmontop|Bulldoze|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|21/100
+|-unboost|p2a: Weezing|spe|1
+|move|p2a: Weezing|Pain Split|p1a: Hitmontop
+|-sethp|p1a: Hitmontop|39/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|35/100|[from] move: Pain Split
+|
+|-damage|p1a: Hitmontop|32/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1758295360
+|move|p1a: Hitmontop|Bulldoze|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|27/100
+|-unboost|p2a: Weezing|spe|1
+|move|p2a: Weezing|Sludge Bomb|p1a: Hitmontop
+|-crit|p1a: Hitmontop
+|-damage|p1a: Hitmontop|10/100 brn
+|
+|-damage|p1a: Hitmontop|3/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1758295377
+|move|p1a: Hitmontop|Rapid Spin|p2a: Weezing
+|-damage|p2a: Weezing|23/100
+|-boost|p1a: Hitmontop|spe|1
+|-sideend|p1: stockroomsupply|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|move|p2a: Weezing|Defog|p1a: Hitmontop
+|-unboost|p1a: Hitmontop|evasion|1
+|-sideend|p2: katapuldrawr|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|-damage|p1a: Hitmontop|0 fnt|[from] brn
+|faint|p1a: Hitmontop
+|upkeep
+|
+|t:|1758295381
+|switch|p1a: Dusclops|Dusclops, M|89/100
+|turn|27
+|
+|t:|1758295385
+|move|p1a: Dusclops|Night Shade|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1758295392
+|switch|p2a: Lokix|Lokix, F|49/100 brn
+|turn|28
+|
+|t:|1758295405
+|move|p2a: Lokix|Knock Off|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|69/100
+|-enditem|p1a: Dusclops|Eviolite|[from] move: Knock Off|[of] p2a: Lokix
+|move|p1a: Dusclops|Night Shade|p2a: Lokix
+|-damage|p2a: Lokix|14/100 brn
+|
+|-damage|p2a: Lokix|8/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1758295413
+|move|p2a: Lokix|U-turn|p1a: Dusclops
+|-resisted|p1a: Dusclops
+|-damage|p1a: Dusclops|59/100
+|
+|t:|1758295416
+|switch|p2a: Ting-Lu|Ting-Lu|1/100 psn|[from] U-turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Dusclops|Night Shade|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1758295418
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|30
+|
+|t:|1758295428
+|move|p2a: Kyurem|Ice Beam|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|faint|p1a: Dusclops
+|
+|upkeep
+|
+|t:|1758295446
+|switch|p1a: Ditto|Ditto|88/100
+|-transform|p1a: Ditto|p2a: Kyurem|[from] ability: Imposter
+|-ability|p1a: Ditto|Pressure
+|turn|31
+|c|☆stockroomsupply|gg wp
+|
+|t:|1758295457
+|move|p1a: Ditto|Ice Beam|p2a: Kyurem
+|-damage|p2a: Kyurem|60/100
+|move|p2a: Kyurem|Ice Beam|p1a: Ditto
+|-damage|p1a: Ditto|7/100
+|
+|upkeep
+|turn|32
+|
+|t:|1758295464
+|move|p1a: Ditto|Ice Beam|p2a: Kyurem
+|-damage|p2a: Kyurem|14/100
+|move|p2a: Kyurem|Ice Beam|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|win|katapuldrawr
+|raw|stockroomsupply's rating: 1260 &rarr; <strong>1231</strong><br />(-29 for losing)
+|raw|katapuldrawr's rating: 1198 &rarr; <strong>1227</strong><br />(+29 for winning)
+|l|☆katapuldrawr
+|player|p2|
+|l|☆stockroomsupply
+|player|p1|

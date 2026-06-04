@@ -1,0 +1,206 @@
+|j|☆preycodedanimal
+|j|☆Gayroach
+|t:|1757824929
+|gametype|singles
+|player|p1|preycodedanimal|waitress|1133
+|player|p2|Gayroach|bruno|1090
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Iron Hands|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Mimikyu, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Overqwil, M|
+|poke|p2|Okidogi, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Gengar, M|
+|teampreview
+|
+|t:|1757824948
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|t:|1757824963
+|move|p2a: Glimmora|Spiky Shield|p2a: Glimmora
+|-singleturn|p2a: Glimmora|move: Protect
+|move|p1a: Hoopa|Trick Room|p1a: Hoopa
+|-fieldstart|move: Trick Room|[of] p1a: Hoopa
+|
+|upkeep
+|turn|2
+|
+|t:|1757824972
+|move|p2a: Glimmora|Endure||[still]
+|-fail|p2a: Glimmora
+|move|p1a: Hoopa|Expanding Force|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1757824986
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|turn|3
+|
+|t:|1757825000
+|switch|p1a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Clodsire|Toxic|p1a: Indeedee
+|-status|p1a: Indeedee|tox
+|
+|-damage|p1a: Indeedee|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1757825010
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|move|p2a: Clodsire|Toxic Spikes|p1a: Hatterene
+|move|p1a: Hatterene|Toxic Spikes|p2a: Clodsire|[from] ability: Magic Bounce
+|-sidestart|p2: Gayroach|move: Toxic Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1757825019
+|move|p1a: Hatterene|Expanding Force|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|-damage|p1a: Hatterene|91/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757825029
+|switch|p2a: Overqwil|Overqwil, M|100/100
+|-sideend|p2: Gayroach|move: Toxic Spikes|[of] p2a: Overqwil
+|turn|6
+|
+|t:|1757825047
+|switch|p1a: Ursaluna|Ursaluna, F, shiny|100/100
+|move|p2a: Overqwil|Barb Barrage|p1a: Ursaluna
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|91/100
+|-status|p1a: Ursaluna|psn
+|
+|-damage|p1a: Ursaluna|78/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1757825067
+|-terastallize|p2a: Overqwil|Dark
+|move|p2a: Overqwil|Aqua Jet|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Psychic Terrain
+|move|p1a: Ursaluna|Headlong Rush|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Overqwil
+|
+|-damage|p1a: Ursaluna|66/100 psn|[from] psn
+|upkeep
+|
+|t:|1757825082
+|switch|p2a: Okidogi|Okidogi, M|100/100
+|turn|8
+|
+|t:|1757825091
+|switch|p1a: Mimikyu|Mimikyu, F, shiny|100/100
+|move|p2a: Okidogi|Drain Punch|p1a: Mimikyu
+|-immune|p1a: Mimikyu
+|
+|upkeep
+|turn|9
+|
+|t:|1757825102
+|move|p2a: Okidogi|Knock Off|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|-status|p1a: Mimikyu|tox|[from] ability: Toxic Chain|[of] p2a: Okidogi
+|-enditem|p1a: Mimikyu|Red Card|[from] move: Knock Off|[of] p2a: Okidogi
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F, shiny
+|-damage|p1a: Mimikyu|88/100 tox|[from] pokemon: Mimikyu-Busted
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|-damage|p1a: Mimikyu|82/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1757825119
+|move|p2a: Okidogi|Psychic Fangs|p1a: Mimikyu
+|-damage|p1a: Mimikyu|47/100 tox
+|move|p1a: Mimikyu|Curse|p2a: Okidogi
+|-start|p2a: Okidogi|Curse|[of] p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-damage|p2a: Okidogi|75/100|[from] Curse
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1757825123
+|switch|p1a: Hatterene|Hatterene, F, shiny|91/100
+|turn|11
+|
+|t:|1757825134
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|-item|p2a: Salazzle|Air Balloon
+|move|p1a: Hatterene|Expanding Force|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|-enditem|p2a: Salazzle|Air Balloon
+|faint|p2a: Salazzle
+|-damage|p1a: Hatterene|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757825147
+|switch|p2a: Okidogi|Okidogi, M|75/100
+|turn|12
+|
+|t:|1757825152
+|move|p1a: Hatterene|Expanding Force|p2a: Okidogi
+|-supereffective|p2a: Okidogi
+|-damage|p2a: Okidogi|0 fnt
+|faint|p2a: Okidogi
+|-damage|p1a: Hatterene|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757825158
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|13
+|
+|t:|1757825165
+|move|p1a: Hatterene|Expanding Force|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-start|p1a: Hatterene|Disable|Expanding Force|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|-damage|p1a: Hatterene|61/100|[from] item: Life Orb
+|
+|win|preycodedanimal
+|raw|preycodedanimal's rating: 1133 &rarr; <strong>1155</strong><br />(+22 for winning)
+|raw|Gayroach's rating: 1090 &rarr; <strong>1069</strong><br />(-21 for losing)
+|l|☆Gayroach
+|player|p2|

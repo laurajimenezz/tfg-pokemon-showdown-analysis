@@ -1,0 +1,217 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆Nonexistent_0
+|j|☆evanendi
+|t:|1776103288
+|gametype|singles
+|player|p1|Nonexistent_0|leon-tower|1386
+|player|p2|evanendi|2|1435
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Kyurem|
+|poke|p1|Dragonite, F|
+|poke|p1|Gliscor, F|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Valiant|
+|poke|p2|Volcanion|
+|poke|p2|Pelipper, M|
+|poke|p2|Iron Treads|
+|poke|p2|Dragapult, M|
+|poke|p2|Overqwil, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by evanendi)
+|j| xeshuw
+|
+|t:|1776103306
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Kyurem|Kyurem|100/100
+|switch|p2a: Iron Treads|Iron Treads, shiny|100/100
+|-ability|p1a: Kyurem|Pressure
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1776103319
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Iron Treads|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: Nonexistent_0|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1776103330
+|move|p2a: Iron Treads|Steel Beam|p1a: Great Tusk
+|-damage|p1a: Great Tusk|36/100
+|-damage|p2a: Iron Treads|50/100|[from] steelbeam
+|move|p1a: Great Tusk|Rapid Spin|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|44/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Nonexistent_0|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|3
+|
+|t:|1776103338
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1776103341
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|4
+|
+|t:|1776103348
+|move|p1a: Great Tusk|Ice Spinner|p2a: Pelipper
+|-damage|p2a: Pelipper|72/100
+|move|p2a: Pelipper|Surf|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1776103352
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|5
+|
+|t:|1776103356
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Nonexistent_0|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1776103371
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|switch|p2a: Pelipper|Pelipper, M, shiny|72/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1776103377
+|move|p2a: Pelipper|Surf|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|49/100 tox
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|62/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1776103380
+|move|p2a: Pelipper|Surf|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|17/100 tox
+|move|p1a: Gliscor|Facade|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|30/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1776103386
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|9
+|
+|t:|1776103388
+|move|p2a: Iron Valiant|Moonblast|p1a: Gliscor
+|-damage|p1a: Gliscor|8/100 tox
+|-unboost|p1a: Gliscor|spa|1
+|move|p1a: Gliscor|Facade|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|21/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gliscor|21/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1776103391
+|move|p2a: Iron Valiant|Moonblast|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1776103404
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|11
+|
+|t:|1776103407
+|move|p1a: Dragonite|Extreme Speed|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1776103409
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|turn|12
+|
+|t:|1776103416
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Dragapult|Dragon Darts|p1a: Ninetales
+|-immune|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p1: Nonexistent_0|move: Aurora Veil
+|upkeep
+|turn|13
+|
+|t:|1776103418
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Nonexistent_0|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|-message|evanendi forfeited.
+|
+|win|Nonexistent_0
+|raw|Nonexistent_0's rating: 1386 &rarr; <strong>1409</strong><br />(+23 for winning)
+|raw|evanendi's rating: 1435 &rarr; <strong>1412</strong><br />(-23 for losing)
+|l|☆evanendi
+|player|p2|

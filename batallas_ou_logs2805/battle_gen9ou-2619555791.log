@@ -1,0 +1,316 @@
+|j|☆fremsh39
+|j|☆thekairou
+|t:|1779930809
+|gametype|singles
+|player|p1|fremsh39|unknown|1178
+|player|p2|thekairou|266|1202
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cryogonal|
+|poke|p1|Crabominable, F|
+|poke|p1|Ampharos, F|
+|poke|p1|Typhlosion-Hisui, F|
+|poke|p1|Cinccino, F|
+|poke|p1|Kingdra, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Great Tusk|
+|poke|p2|Darkrai|
+|poke|p2|Walking Wake|
+|teampreview
+|
+|t:|1779930818
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|1
+|
+|t:|1779930826
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Cryogonal|Ice Beam|p2a: Slowking
+|-damage|p2a: Slowking|75/100
+|
+|-heal|p2a: Slowking|81/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1779930830
+|switch|p1a: Cinccino|Cinccino, F|100/100
+|move|p2a: Slowking|Thunder Wave|p1a: Cinccino
+|-status|p1a: Cinccino|par
+|
+|-heal|p2a: Slowking|87/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1779930835
+|move|p1a: Cinccino|Tail Slap|p2a: Slowking|[miss]
+|-miss|p1a: Cinccino|p2a: Slowking
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1779930837
+|switch|p2a: Corviknight|Corviknight, F|100/100|[from] Chilly Reception
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779930841
+|switch|p1a: Ampharos|Ampharos, F|100/100
+|move|p2a: Corviknight|U-turn|p1a: Ampharos
+|-damage|p1a: Ampharos|87/100
+|
+|t:|1779930847
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779930852
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Cryogonal
+|-damage|p1a: Cryogonal|70/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779930855
+|move|p2a: Great Tusk|Stone Edge|p1a: Cryogonal
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|0 fnt
+|faint|p1a: Cryogonal
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by thekairou)
+|
+|t:|1779930867
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|turn|7
+|
+|t:|1779930874
+|move|p2a: Great Tusk|Close Combat|p1a: Kingdra
+|-damage|p1a: Kingdra|2/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+|-boost|p1a: Kingdra|atk|1
+|-boost|p1a: Kingdra|spe|1
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1779930881
+|move|p1a: Kingdra|Wave Crash|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Kingdra|0 fnt|[from] Recoil
+|faint|p1a: Kingdra
+|
+|upkeep
+|
+|t:|1779930899
+|switch|p1a: Cinccino|Cinccino, F|100/100 par
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-enditem|p2a: Walking Wake|Booster Energy
+|-activate|p2a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|9
+|
+|t:|1779930903
+|move|p2a: Walking Wake|Hydro Steam|p1a: Cinccino
+|-damage|p1a: Cinccino|33/100 par
+|move|p1a: Cinccino|Tail Slap|p2a: Walking Wake
+|-damage|p2a: Walking Wake|84/100
+|-damage|p2a: Walking Wake|67/100
+|-damage|p2a: Walking Wake|49/100
+|-damage|p2a: Walking Wake|33/100
+|-hitcount|p2a: Walking Wake|4
+|
+|upkeep
+|turn|10
+|
+|t:|1779930913
+|move|p2a: Walking Wake|Hydro Steam|p1a: Cinccino
+|-damage|p1a: Cinccino|0 fnt
+|faint|p1a: Cinccino
+|
+|upkeep
+|
+|t:|1779930916
+|switch|p1a: Ampharos|Ampharos, F|87/100
+|turn|11
+|
+|t:|1779930921
+|move|p2a: Walking Wake|Draco Meteor|p1a: Ampharos
+|-damage|p1a: Ampharos|18/100
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Ampharos|Focus Blast|p2a: Walking Wake|[miss]
+|-miss|p1a: Ampharos|p2a: Walking Wake
+|
+|upkeep
+|turn|12
+|
+|t:|1779930927
+|move|p2a: Walking Wake|Flip Turn|p1a: Ampharos
+|-damage|p1a: Ampharos|2/100
+|
+|t:|1779930933
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M|87/100|[from] Flip Turn
+|move|p1a: Ampharos|Focus Blast|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|78/100
+|
+|-heal|p2a: Slowking|84/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1779930939
+|move|p1a: Ampharos|Focus Blast|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|74/100
+|move|p2a: Slowking|Ice Beam|p1a: Ampharos
+|-damage|p1a: Ampharos|0 fnt
+|faint|p1a: Ampharos
+|
+|-heal|p2a: Slowking|80/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1779930941
+|switch|p1a: Crabominable|Crabominable, F|100/100
+|turn|14
+|
+|t:|1779930956
+|move|p1a: Crabominable|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|5/100
+|move|p2a: Slowking|Thunder Wave|p1a: Crabominable
+|-status|p1a: Crabominable|par
+|
+|-heal|p2a: Slowking|11/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1779930962
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Crabominable|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|76/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Crabominable
+|
+|upkeep
+|turn|16
+|
+|t:|1779930973
+|switch|p1a: Typhlosion|Typhlosion-Hisui, F|100/100
+|move|p2a: Corviknight|Body Press|p1a: Typhlosion
+|-immune|p1a: Typhlosion
+|
+|upkeep
+|turn|17
+|
+|t:|1779930980
+|-terastallize|p2a: Corviknight|Flying
+|move|p1a: Typhlosion|Fire Blast|p2a: Corviknight
+|-damage|p2a: Corviknight|21/100
+|move|p2a: Corviknight|U-turn|p1a: Typhlosion
+|-resisted|p1a: Typhlosion
+|-damage|p1a: Typhlosion|96/100
+|
+|t:|1779930989
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] U-turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|upkeep
+|turn|18
+|
+|t:|1779930994
+|move|p1a: Typhlosion|Focus Blast|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|51/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|-heal|p2a: Ting-Lu|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779930998
+|switch|p1a: Crabominable|Crabominable, F|100/100 par
+|turn|19
+|
+|t:|1779931006
+|move|p2a: Ting-Lu|Earthquake|p1a: Crabominable
+|-damage|p1a: Crabominable|54/100 par
+|move|p1a: Crabominable|Drain Punch|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|6/100
+|-heal|p1a: Crabominable|87/100 par|[from] drain|[of] p2a: Ting-Lu
+|
+|-heal|p2a: Ting-Lu|12/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1779931032
+|move|p2a: Ting-Lu|Earthquake|p1a: Crabominable
+|-damage|p1a: Crabominable|37/100 par
+|move|p1a: Crabominable|Drain Punch|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|-heal|p1a: Crabominable|44/100 par|[from] drain|[of] p2a: Ting-Lu
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1779931039
+|switch|p2a: Walking Wake|Walking Wake|33/100
+|turn|21
+|
+|t:|1779931053
+|-terastallize|p1a: Crabominable|Fighting
+|move|p2a: Walking Wake|Flamethrower|p1a: Crabominable
+|-damage|p1a: Crabominable|19/100 par
+|cant|p1a: Crabominable|par
+|
+|upkeep
+|turn|22
+|
+|t:|1779931060
+|move|p2a: Walking Wake|Hydro Steam|p1a: Crabominable
+|-damage|p1a: Crabominable|0 fnt
+|faint|p1a: Crabominable
+|
+|win|thekairou
+|raw|fremsh39's rating: 1178 &rarr; <strong>1155</strong><br />(-23 for losing)
+|raw|thekairou's rating: 1202 &rarr; <strong>1225</strong><br />(+23 for winning)
+|l|☆fremsh39
+|player|p1|
+|l|☆thekairou
+|player|p2|

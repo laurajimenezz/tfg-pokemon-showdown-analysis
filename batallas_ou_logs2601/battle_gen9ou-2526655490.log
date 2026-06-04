@@ -1,0 +1,366 @@
+|j|☆Praise The Salt
+|j|☆blueisnoob
+|t:|1769445063
+|gametype|singles
+|player|p1|Praise The Salt|102|1601
+|player|p2|blueisnoob|170|1567
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Kingambit, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Great Tusk|
+|poke|p2|Alomomola, F|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Rillaboom, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Praise The Salt)
+|
+|t:|1769445091
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1769445096
+|move|p1a: Hoopa|Dark Pulse|p2a: Rillaboom
+|-damage|p2a: Rillaboom|5/100
+|cant|p2a: Rillaboom|flinch
+|
+|-heal|p2a: Rillaboom|11/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1769445108
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Hoopa|Dark Pulse|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hoopa|95/100|[from] Sandstorm
+|-heal|p1a: Hoopa|100/100|[from] Grassy Terrain
+|-heal|p2a: Tyranitar|91/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1769445119
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Tyranitar|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|68/100
+|-enditem|p1a: Corviknight|Leftovers|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|97/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1769445137
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Corviknight|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|92/100
+|
+|t:|1769445147
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100|[from] U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hoopa|95/100|[from] Sandstorm
+|-damage|p2a: Alomomola|86/100|[from] Sandstorm
+|-heal|p1a: Hoopa|100/100|[from] Grassy Terrain
+|-heal|p2a: Alomomola|92/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1769445150
+|move|p1a: Hoopa|Dark Pulse|p2a: Alomomola
+|-damage|p2a: Alomomola|27/100
+|move|p2a: Alomomola|Flip Turn|p1a: Hoopa
+|-damage|p1a: Hoopa|74/100
+|
+|t:|1769445155
+|switch|p2a: Tyranitar|Tyranitar, M|97/100|[from] Flip Turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hoopa|68/100|[from] Sandstorm
+|-heal|p1a: Hoopa|74/100|[from] Grassy Terrain
+|-heal|p2a: Tyranitar|100/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1769445184
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Rotom
+|-damage|p1a: Rotom|52/100
+|
+|-weather|none
+|-heal|p1a: Rotom|58/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1769445198
+|move|p2a: Tyranitar|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|11/100
+|-enditem|p1a: Rotom|Leftovers|[from] move: Knock Off|[of] p2a: Tyranitar
+|move|p1a: Rotom|Pain Split|p2a: Tyranitar
+|-sethp|p2a: Tyranitar|55/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|62/100|[from] move: Pain Split
+|
+|upkeep
+|turn|8
+|
+|t:|1769445208
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Tornadus
+|-status|p2a: Tornadus|brn
+|
+|-damage|p2a: Tornadus|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1769445213
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|43/100
+|move|p1a: Rotom|Volt Switch|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|41/100 brn
+|
+|t:|1769445230
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|
+|-damage|p2a: Tornadus|35/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1769445246
+|move|p1a: Landorus|Stone Edge|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|t:|1769445249
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|11
+|
+|t:|1769445253
+|switch|p1a: Rotom|Rotom-Wash|43/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Praise The Salt|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|t:|1769445258
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Tyranitar|Tyranitar, M|55/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Rotom|Pain Split|p2a: Tyranitar
+|-sethp|p2a: Tyranitar|47/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|52/100|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|46/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1769445267
+|move|p2a: Tyranitar|Stone Edge|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1769445280
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|turn|14
+|
+|t:|1769445284
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Landorus|Earthquake|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1769445294
+|switch|p1a: Corviknight|Corviknight, F|68/100
+|-damage|p1a: Corviknight|56/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Great Tusk|Ice Spinner|p1a: Corviknight
+|-damage|p1a: Corviknight|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1769445305
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Alomomola|Alomomola, F|60/100
+|move|p1a: Corviknight|Defog|p2a: Alomomola
+|-unboost|p2a: Alomomola|evasion|1
+|-sideend|p1: Praise The Salt|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|t:|1769445313
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|93/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Alomomola|Flip Turn|p1a: Corviknight
+|-damage|p1a: Corviknight|83/100
+|
+|t:|1769445317
+|switch|p2a: Slowking|Slowking-Galar, M|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|18
+|
+|t:|1769445331
+|move|p1a: Corviknight|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|85/100
+|
+|t:|1769445335
+|switch|p1a: Hoopa|Hoopa-Unbound|74/100|[from] U-turn
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1769445340
+|switch|p2a: Tyranitar|Tyranitar, M|47/100|[from] Chilly Reception
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hoopa|68/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|t:|1769445343
+|switch|p2a: Alomomola|Alomomola, F|93/100
+|move|p1a: Hoopa|Focus Blast|p2a: Alomomola
+|-damage|p2a: Alomomola|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hoopa|62/100|[from] Sandstorm
+|-damage|p2a: Alomomola|22/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|t:|1769445349
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Hoopa|Focus Blast|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hoopa|56/100|[from] Sandstorm
+|-damage|p2a: Slowking|83/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1769445356
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1769445359
+|switch|p2a: Great Tusk|Great Tusk|51/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1769445372
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Corviknight|Corviknight, F|83/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Great Tusk|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: Praise The Salt|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1769445375
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Rillaboom|Rillaboom, M|11/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Corviknight|Defog|p2a: Rillaboom
+|-unboost|p2a: Rillaboom|evasion|1
+|-sideend|p1: Praise The Salt|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-fieldend|move: Grassy Terrain
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1769445385
+|move|p2a: Rillaboom|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|78/100
+|
+|t:|1769445389
+|switch|p2a: Alomomola|Alomomola, F|55/100|[from] U-turn
+|move|p1a: Corviknight|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|46/100
+|
+|t:|1769445391
+|switch|p1a: Hoopa|Hoopa-Unbound|56/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1769445396
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Hoopa|Dark Pulse|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|13/100
+|
+|-weather|none
+|upkeep
+|turn|26
+|-message|blueisnoob forfeited.
+|
+|win|Praise The Salt
+|raw|Praise The Salt's rating: 1601 &rarr; <strong>1619</strong><br />(+18 for winning)
+|raw|blueisnoob's rating: 1567 &rarr; <strong>1549</strong><br />(-18 for losing)
+|l|☆blueisnoob
+|player|p2|
+|l|☆Praise The Salt
+|player|p1|

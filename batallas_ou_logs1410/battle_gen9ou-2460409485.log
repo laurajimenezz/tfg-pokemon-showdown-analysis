@@ -1,0 +1,162 @@
+|j|☆FrontEndMgmt
+|j|☆keliqo
+|t:|1760302950
+|gametype|singles
+|player|p1|FrontEndMgmt|erika|1102
+|player|p2|keliqo|1|1075
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Plusle, F|
+|poke|p1|Klefki, M|
+|poke|p1|Great Tusk|
+|poke|p1|Ceruledge, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Goodra-Hisui, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Zapdos|
+|poke|p2|Primarina, F|
+|poke|p2|Iron Treads|
+|poke|p2|Maushold-Four|
+|poke|p2|Latios, M|
+|teampreview
+|
+|t:|1760302964
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Klefki|Klefki, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|t:|1760302972
+|move|p1a: Klefki|Switcheroo|p2a: Zapdos
+|-activate|p1a: Klefki|move: Trick|[of] p2a: Zapdos
+|-item|p2a: Zapdos|Choice Band|[from] move: Switcheroo
+|-item|p1a: Klefki|Leftovers|[from] move: Switcheroo
+|move|p2a: Zapdos|Thunder Wave|p1a: Klefki|[miss]
+|-miss|p2a: Zapdos|p1a: Klefki
+|
+|upkeep
+|turn|2
+|
+|t:|1760302984
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Klefki|Substitute|p1a: Klefki
+|-start|p1a: Klefki|Substitute
+|-damage|p1a: Klefki|76/100
+|
+|-heal|p1a: Klefki|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1760302990
+|move|p2a: Iron Treads|Earthquake|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-end|p1a: Klefki|Substitute
+|move|p1a: Klefki|Draining Kiss|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|91/100
+|-heal|p1a: Klefki|89/100|[from] drain|[of] p2a: Iron Treads
+|
+|-heal|p1a: Klefki|95/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1760303001
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|-terastallize|p2a: Iron Treads|Ground
+|move|p2a: Iron Treads|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|15/100
+|
+|upkeep
+|turn|5
+|
+|t:|1760303009
+|move|p2a: Iron Treads|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1760303019
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|6
+|
+|t:|1760303027
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|upkeep
+|turn|7
+|
+|t:|1760303034
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Plusle|Plusle, F|100/100
+|move|p2a: Zapdos|Tailwind|p2a: Zapdos
+|-sidestart|p2: keliqo|move: Tailwind
+|
+|upkeep
+|turn|8
+|
+|t:|1760303040
+|switch|p2a: Iron Treads|Iron Treads, tera:Ground|91/100
+|move|p1a: Plusle|Nasty Plot|p1a: Plusle
+|-boost|p1a: Plusle|spa|2
+|
+|upkeep
+|turn|9
+|
+|t:|1760303048
+|move|p1a: Plusle|Endure|p1a: Plusle
+|-singleturn|p1a: Plusle|move: Endure
+|move|p2a: Iron Treads|Earthquake|p1a: Plusle
+|-supereffective|p1a: Plusle
+|-activate|p1a: Plusle|move: Endure
+|-damage|p1a: Plusle|1/100
+|-enditem|p1a: Plusle|Salac Berry|[eat]
+|-boost|p1a: Plusle|spe|1|[from] item: Salac Berry
+|
+|upkeep
+|turn|10
+|
+|t:|1760303054
+|move|p2a: Iron Treads|Earthquake|p1a: Plusle
+|-supereffective|p1a: Plusle
+|-damage|p1a: Plusle|0 fnt
+|faint|p1a: Plusle
+|
+|-sideend|p2: keliqo|move: Tailwind
+|upkeep
+|
+|t:|1760303066
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100
+|turn|11
+|
+|t:|1760303069
+|move|p2a: Iron Treads|Earthquake|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|upkeep
+|-message|FrontEndMgmt forfeited.
+|
+|win|keliqo
+|raw|FrontEndMgmt's rating: 1102 &rarr; <strong>1075</strong><br />(-27 for losing)
+|raw|keliqo's rating: 1075 &rarr; <strong>1106</strong><br />(+31 for winning)
+|l|☆FrontEndMgmt
+|player|p1|
+|l|☆keliqo
+|player|p2|

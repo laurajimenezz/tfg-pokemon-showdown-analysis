@@ -1,0 +1,328 @@
+|j|☆tymkojo
+|j|☆Mummbub
+|t:|1760462207
+|gametype|singles
+|player|p1|tymkojo|iris|1182
+|player|p2|Mummbub|li|1211
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Mimikyu, F|
+|poke|p1|Scizor, M|
+|poke|p1|Pawmot, F|
+|poke|p1|Iron Moth|
+|poke|p1|Gliscor, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Torkoal, F|
+|poke|p2|Rampardos, F|
+|teampreview
+|
+|t:|1760462224
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|t:|1760462234
+|move|p1a: Gliscor|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|78/100
+|-enditem|p2a: Hatterene|Focus Sash|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1760462243
+|move|p2a: Hatterene|Misty Explosion|p1a: Gliscor
+|-damage|p1a: Gliscor|38/100 tox
+|faint|p2a: Hatterene
+|move|p1a: Gliscor|Earthquake|p2: Hatterene|[notarget]
+|-fail|p1a: Gliscor
+|
+|-heal|p1a: Gliscor|50/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1760462257
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|3
+|
+|t:|1760462269
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1760462279
+|switch|p1a: shigaraki|Mimikyu, F, shiny|100/100
+|turn|4
+|
+|t:|1760462287
+|-terastallize|p1a: shigaraki|Fairy
+|move|p2a: Kingambit|Iron Head|p1a: shigaraki
+|-activate|p1a: shigaraki|ability: Disguise
+|-damage|p1a: shigaraki|100/100
+|detailschange|p1a: shigaraki|Mimikyu-Busted, F, shiny, tera:Fairy
+|-damage|p1a: shigaraki|88/100|[from] pokemon: Mimikyu-Busted
+|move|p1a: shigaraki|Play Rough|p2a: Kingambit
+|-damage|p2a: Kingambit|48/100
+|-damage|p1a: shigaraki|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1760462299
+|move|p1a: shigaraki|Shadow Sneak|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|39/100
+|-damage|p1a: shigaraki|68/100|[from] item: Life Orb
+|move|p2a: Kingambit|Iron Head|p1a: shigaraki
+|-supereffective|p1a: shigaraki
+|-damage|p1a: shigaraki|0 fnt
+|faint|p1a: shigaraki
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760462308
+|switch|p1a: Pawmot|Pawmot, F|100/100
+|turn|6
+|
+|t:|1760462312
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Pawmot|Mach Punch|p2a: Cresselia
+|-resisted|p2a: Cresselia
+|-damage|p2a: Cresselia|90/100
+|-damage|p1a: Pawmot|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Cresselia|96/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760462322
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-heal|p2a: Cresselia|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760462332
+|move|p2a: Cresselia|Moonblast|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|63/100
+|-unboost|p1a: Samurott|spa|1
+|move|p1a: Samurott|Knock Off|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|44/100
+|-enditem|p2a: Cresselia|Leftovers|[from] move: Knock Off|[of] p1a: Samurott
+|
+|upkeep
+|turn|9
+|
+|t:|1760462348
+|move|p1a: Samurott|Sucker Punch||[still]
+|-fail|p1a: Samurott
+|move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
+|faint|p2a: Cresselia
+|
+|upkeep
+|
+|t:|1760462350
+|switch|p2a: Kingambit|Kingambit, F|39/100
+|-heal|p2a: Kingambit|100/100|[from] move: Lunar Dance
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|10
+|
+|t:|1760462363
+|move|p2a: Kingambit|Iron Head|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|37/100
+|move|p1a: Samurott|Razor Shell|p2a: Kingambit
+|-damage|p2a: Kingambit|67/100
+|-unboost|p2a: Kingambit|def|1
+|
+|upkeep
+|turn|11
+|
+|t:|1760462379
+|move|p2a: Kingambit|Iron Head|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|6/100
+|move|p1a: Samurott|Razor Shell|p2a: Kingambit
+|-damage|p2a: Kingambit|10/100
+|-unboost|p2a: Kingambit|def|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|t:|1760462388
+|move|p1a: Samurott|Sucker Punch|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1760462392
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|13
+|
+|t:|1760462395
+|move|p1a: Samurott|Sucker Punch||[still]
+|-fail|p1a: Samurott
+|move|p2a: Hoopa|Trick Room|p2a: Hoopa
+|-fieldstart|move: Trick Room|[of] p2a: Hoopa
+|
+|upkeep
+|turn|14
+|
+|t:|1760462400
+|move|p1a: Samurott|Sucker Punch|p2a: Hoopa
+|-damage|p2a: Hoopa|54/100
+|move|p2a: Hoopa|Drain Punch|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-heal|p2a: Hoopa|57/100|[from] drain|[of] p1a: Samurott
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1760462411
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|15
+|
+|t:|1760462414
+|move|p1a: Scizor|Bug Bite|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1760462417
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|16
+|
+|t:|1760462423
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|move|p2a: Torkoal|Eruption|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|38/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1760462432
+|move|p2a: Torkoal|Eruption|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-crit|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760462441
+|switch|p1a: Pawmot|Pawmot, F|91/100
+|turn|18
+|
+|t:|1760462446
+|move|p1a: Pawmot|Fake Out|p2a: Torkoal
+|-damage|p2a: Torkoal|89/100
+|-damage|p1a: Pawmot|81/100|[from] item: Life Orb
+|cant|p2a: Torkoal|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1760462453
+|move|p1a: Pawmot|Double Shock|p2a: Torkoal
+|-damage|p2a: Torkoal|37/100
+|-start|p1a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+|-damage|p1a: Pawmot|71/100|[from] item: Life Orb
+|move|p2a: Torkoal|Eruption|p1a: Pawmot
+|-damage|p1a: Pawmot|0 fnt
+|faint|p1a: Pawmot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760462462
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|20
+|
+|t:|1760462479
+|move|p1a: Scizor|Dual Wingbeat|p2a: Torkoal
+|-damage|p2a: Torkoal|19/100
+|-damage|p2a: Torkoal|1/100
+|-hitcount|p2a: Torkoal|2
+|move|p2a: Torkoal|Eruption|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|96/100
+|
+|-weather|none
+|upkeep
+|turn|21
+|
+|t:|1760462494
+|move|p1a: Scizor|Bullet Punch|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|upkeep
+|
+|t:|1760462502
+|switch|p2a: Rampardos|Rampardos, F|100/100
+|turn|22
+|
+|t:|1760462511
+|move|p1a: Scizor|Bullet Punch|p2a: Rampardos
+|-supereffective|p2a: Rampardos
+|-damage|p2a: Rampardos|11/100
+|move|p2a: Rampardos|Fire Punch|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|win|Mummbub
+|raw|tymkojo's rating: 1182 &rarr; <strong>1159</strong><br />(-23 for losing)
+|raw|Mummbub's rating: 1211 &rarr; <strong>1234</strong><br />(+23 for winning)
+|l|☆tymkojo
+|player|p1|
+|l|☆Mummbub
+|player|p2|
+|j|☆Mummbub
+|player|p2|Mummbub|li|
+|l|☆Mummbub
+|player|p2|

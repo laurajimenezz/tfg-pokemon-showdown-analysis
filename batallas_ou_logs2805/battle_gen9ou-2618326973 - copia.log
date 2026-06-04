@@ -1,0 +1,153 @@
+|j|☆sunshinepromise
+|j|☆tecerdo
+|t:|1779799779
+|gametype|singles
+|player|p1|sunshinepromise|265|1370
+|player|p2|tecerdo|gentleman-gen4dp|1487
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pincurchin, M|
+|poke|p1|Iron Treads|
+|poke|p1|Iron Hands|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Moth|
+|poke|p2|Pelipper, M|
+|poke|p2|Beartic, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Bellibolt, F|
+|poke|p2|Toxicroak, M|
+|poke|p2|Iron Treads|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tecerdo)
+|
+|t:|1779799792
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1779799796
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-item|p1a: Iron Hands|Air Balloon
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2a: Iron Treads|Earthquake|p1a: Iron Hands
+|-immune|p1a: Iron Hands
+|
+|upkeep
+|turn|2
+|
+|t:|1779799804
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Iron Hands|Thunder Punch|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779799811
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|turn|3
+|
+|t:|1779799814
+|move|p2a: Barraskewda|Flip Turn|p1a: Iron Hands
+|-damage|p1a: Iron Hands|44/100
+|-enditem|p1a: Iron Hands|Air Balloon
+|
+|t:|1779799817
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] Flip Turn
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Iron Hands|Drain Punch|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-heal|p1a: Iron Hands|80/100|[from] drain|[of] p2a: Iron Treads
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779799821
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|turn|4
+|
+|t:|1779799823
+|-terastallize|p2a: Barraskewda|Water
+|move|p2a: Barraskewda|Liquidation|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779799831
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|5
+|
+|t:|1779799833
+|switch|p2a: Bellibolt|Bellibolt, F|100/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Bellibolt
+|-damage|p2a: Bellibolt|62/100
+|-start|p2a: Bellibolt|Charge|Dragon Pulse|[from] ability: Electromorphosis
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779799837
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Bellibolt|Volt Switch|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|88/100
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|t:|1779799839
+|switch|p2a: Beartic|Beartic, M|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779799842
+|move|p1a: Raging Bolt|Thunderclap|p2a: Beartic
+|-damage|p2a: Beartic|0 fnt
+|faint|p2a: Beartic
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|tecerdo forfeited.
+|
+|win|sunshinepromise
+|raw|sunshinepromise's rating: 1370 &rarr; <strong>1396</strong><br />(+26 for winning)
+|raw|tecerdo's rating: 1487 &rarr; <strong>1461</strong><br />(-26 for losing)
+|l|☆tecerdo
+|player|p2|
+|l|☆sunshinepromise
+|player|p1|

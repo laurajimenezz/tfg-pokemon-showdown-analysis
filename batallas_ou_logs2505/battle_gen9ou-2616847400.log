@@ -1,0 +1,390 @@
+|j|☆PuzzleSpirit
+|j|☆Xiguana
+|t:|1779615795
+|gametype|singles
+|player|p1|PuzzleSpirit|169|1361
+|player|p2|Xiguana|102|1388
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Crown|
+|poke|p1|Walking Wake|
+|poke|p1|Scizor, M|
+|poke|p1|Entei|
+|poke|p1|Latias, F|
+|poke|p1|Azelf|
+|poke|p2|Zamazenta-*|
+|poke|p2|Dragapult, F|
+|poke|p2|Pecharunt|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Treads|
+|poke|p2|Kingambit, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Xiguana)
+|inactive|Xiguana has 120 seconds left.
+|
+|t:|1779615838
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|1
+|
+|t:|1779615849
+|move|p1a: Azelf|Taunt|p2a: Ogerpon
+|-start|p2a: Ogerpon|move: Taunt
+|cant|p2a: Ogerpon|move: Taunt|Swords Dance
+|
+|upkeep
+|turn|2
+|
+|t:|1779615858
+|move|p1a: Azelf|Stealth Rock|p2a: Ogerpon
+|-sidestart|p2: Xiguana|move: Stealth Rock
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Azelf|[anim] Ivy Cudgel Water
+|-damage|p1a: Azelf|9/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779615867
+|move|p1a: Azelf|Explosion|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p1a: Azelf
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1779615879
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|4
+|
+|t:|1779615885
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Latias|Latias, F, shiny|100/100
+|move|p2a: Iron Treads|Earthquake|p1a: Latias
+|-immune|p1a: Latias|[from] ability: Levitate
+|
+|upkeep
+|turn|5
+|
+|t:|1779615891
+|move|p2a: Iron Treads|Knock Off|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|52/100
+|-enditem|p1a: Latias|Leftovers|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1779615899
+|-terastallize|p1a: Latias|Steel
+|move|p2a: Iron Treads|Rapid Spin|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|46/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: Xiguana|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Latias|Wish|p1a: Latias
+|
+|upkeep
+|turn|7
+|
+|t:|1779615910
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Latias|Draining Kiss|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|73/100
+|-heal|p1a: Latias|68/100|[from] drain|[of] p2a: Zamazenta
+|
+|-heal|p1a: Latias|100/100|[from] move: Wish|[wisher] Latias
+|upkeep
+|turn|8
+|
+|t:|1779615933
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|move|p2a: Zamazenta|Light Screen|p2a: Zamazenta
+|-sidestart|p2: Xiguana|move: Light Screen
+|
+|upkeep
+|turn|9
+|
+|t:|1779615944
+|move|p2a: Zamazenta|Close Combat|p1a: Walking Wake
+|-damage|p1a: Walking Wake|50/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|move|p1a: Walking Wake|Hurricane|p2a: Zamazenta|[miss]
+|-miss|p1a: Walking Wake|p2a: Zamazenta
+|
+|upkeep
+|turn|10
+|
+|t:|1779615952
+|move|p2a: Zamazenta|Close Combat|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779615956
+|switch|p1a: Scizor|Scizor, M, shiny|100/100
+|turn|11
+|
+|t:|1779615973
+|move|p2a: Zamazenta|Reflect|p2a: Zamazenta
+|-sidestart|p2: Xiguana|Reflect
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1779615980
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Zamazenta|Roar|p1a: Scizor
+|drag|p1a: Latias|Latias, F, shiny, tera:Steel|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1779615990
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|move|p2a: Zamazenta|Close Combat|p1a: Iron Crown
+|-damage|p1a: Iron Crown|51/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|
+|upkeep
+|turn|14
+|
+|t:|1779616002
+|switch|p2a: Iron Treads|Iron Treads|97/100
+|move|p1a: Iron Crown|Volt Switch|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|upkeep
+|turn|15
+|
+|t:|1779616018
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Latias|Latias, F, shiny, tera:Steel|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Latias
+|-sidestart|p1: PuzzleSpirit|move: Stealth Rock
+|
+|-sideend|p2: Xiguana|move: Light Screen
+|upkeep
+|turn|16
+|
+|t:|1779616027
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Zamazenta|Zamazenta|73/100
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1779616031
+|move|p2a: Zamazenta|Light Screen|p2a: Zamazenta
+|-sidestart|p2: Xiguana|move: Light Screen
+|move|p1a: Latias|Stored Power|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|48/100
+|
+|upkeep
+|turn|18
+|
+|t:|1779616040
+|move|p2a: Zamazenta|Close Combat|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|33/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|move|p1a: Latias|Stored Power|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|4/100
+|
+|-sideend|p2: Xiguana|Reflect
+|upkeep
+|turn|19
+|
+|t:|1779616044
+|switch|p1a: Scizor|Scizor, M, shiny|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|move|p2a: Zamazenta|Close Combat|p1a: Scizor
+|-damage|p1a: Scizor|39/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|
+|-heal|p1a: Scizor|45/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1779616072
+|switch|p2a: Iron Treads|Iron Treads|97/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-heal|p1a: Scizor|51/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1779616090
+|move|p2a: Iron Treads|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|7/100
+|move|p1a: Scizor|Close Combat|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p1a: Scizor|13/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779616101
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|22
+|inactive|Xiguana has 120 seconds left.
+|
+|t:|1779616124
+|move|p1a: Scizor|Bullet Punch|p2a: Dragapult
+|-damage|p2a: Dragapult|8/100
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force
+|
+|-heal|p2a: Dragapult|14/100|[from] item: Leftovers
+|-heal|p1a: Scizor|19/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|PuzzleSpirit has 120 seconds left.
+|
+|t:|1779616174
+|switch|p1a: Latias|Latias, F, shiny, tera:Steel|33/100
+|-damage|p1a: Latias|27/100|[from] Stealth Rock
+|move|p2a: Dragapult|Phantom Force|p1a: Latias|[from] lockedmove
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|-heal|p2a: Dragapult|20/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779616177
+|switch|p1a: Scizor|Scizor, M, shiny|19/100
+|-damage|p1a: Scizor|7/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1779616195
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Pecharunt
+|-damage|p2a: Pecharunt|79/100
+|
+|-heal|p2a: Pecharunt|85/100|[from] item: Leftovers
+|-heal|p1a: Scizor|13/100|[from] item: Leftovers
+|-sideend|p2: Xiguana|move: Light Screen
+|upkeep
+|turn|25
+|
+|t:|1779616199
+|move|p2a: Pecharunt|Shadow Ball|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-heal|p2a: Pecharunt|91/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779616204
+|switch|p1a: Iron Crown|Iron Crown|51/100
+|-damage|p1a: Iron Crown|45/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1779616213
+|move|p1a: Iron Crown|Volt Switch|p2a: Pecharunt
+|-damage|p2a: Pecharunt|58/100
+|
+|t:|1779616215
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Entei|Entei, shiny|100/100|[from] Volt Switch
+|-damage|p1a: Entei|76/100|[from] Stealth Rock
+|-ability|p1a: Entei|Pressure
+|move|p2a: Pecharunt|Shadow Ball|p1a: Entei
+|-damage|p1a: Entei|45/100
+|
+|-heal|p2a: Pecharunt|64/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1779616227
+|move|p2a: Pecharunt|Malignant Chain|p1a: Entei
+|-damage|p1a: Entei|8/100
+|-status|p1a: Entei|tox
+|-start|p1a: Entei|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Entei|confusion
+|move|p1a: Entei|Sacred Fire|p2a: Pecharunt
+|-damage|p2a: Pecharunt|24/100
+|-damage|p1a: Entei|0 fnt|[from] item: Life Orb
+|faint|p1a: Entei
+|
+|-heal|p2a: Pecharunt|30/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779616234
+|switch|p1a: Iron Crown|Iron Crown|45/100
+|-damage|p1a: Iron Crown|39/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1779616237
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|-hitcount|p2: Pecharunt|1
+|
+|upkeep
+|
+|t:|1779616241
+|switch|p2a: Zamazenta|Zamazenta|4/100
+|turn|29
+|inactive|PuzzleSpirit has 120 seconds left.
+|
+|t:|1779616297
+|move|p2a: Zamazenta|Close Combat|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|win|Xiguana
+|raw|PuzzleSpirit's rating: 1315 &rarr; <strong>1299</strong><br />(-16 for losing)
+|raw|Xiguana's rating: 1388 &rarr; <strong>1404</strong><br />(+16 for winning)
+|l|☆PuzzleSpirit
+|player|p1|
+|l|☆Xiguana
+|player|p2|

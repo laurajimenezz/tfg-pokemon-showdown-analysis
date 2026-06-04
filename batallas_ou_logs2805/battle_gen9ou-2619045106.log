@@ -1,0 +1,230 @@
+|j|☆MadmanMax007
+|j|☆thierry92iel
+|t:|1779880598
+|gametype|singles
+|player|p1|MadmanMax007|marshal|1073
+|player|p2|thierry92iel|265|1074
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Salamence, M|
+|poke|p1|Dusknoir, M|
+|poke|p1|Hitmonchan, M|
+|poke|p1|Forretress, M|
+|poke|p1|Luxray, M|
+|poke|p1|Crawdaunt, M|
+|poke|p2|Moltres|
+|poke|p2|Ceruledge, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Valiant|
+|poke|p2|Grimmsnarl, M|
+|teampreview
+|
+|t:|1779880604
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Salamence|Salamence, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MadmanMax007)
+|
+|t:|1779880616
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: thierry92iel|Reflect
+|
+|upkeep
+|turn|2
+|
+|t:|1779880623
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: thierry92iel|move: Light Screen
+|move|p1a: Crawdaunt|Crabhammer|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|59/100
+|
+|upkeep
+|turn|3
+|
+|t:|1779880635
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Crawdaunt|Slash|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|89/100
+|
+|upkeep
+|turn|4
+|
+|t:|1779880644
+|switch|p1a: Dusknoir|Dusknoir, M|100/100
+|-ability|p1a: Dusknoir|Pressure
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1779880653
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Dusknoir
+|-damage|p1a: Dusknoir|20/100
+|move|p1a: Dusknoir|Confuse Ray|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|confusion
+|
+|upkeep
+|turn|6
+|
+|t:|1779880662
+|-activate|p2a: Raging Bolt|confusion
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Dusknoir
+|-damage|p1a: Dusknoir|0 fnt
+|faint|p1a: Dusknoir
+|
+|upkeep
+|
+|t:|1779880670
+|switch|p1a: Salamence|Salamence, M|100/100
+|turn|7
+|
+|t:|1779880678
+|-activate|p2a: Raging Bolt|confusion
+|-damage|p2a: Raging Bolt|83/100|[from] confusion
+|move|p1a: Salamence|Outrage|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|20/100
+|
+|upkeep
+|turn|8
+|
+|t:|1779880684
+|-activate|p2a: Raging Bolt|confusion
+|move|p2a: Raging Bolt|Thunderclap|p1a: Salamence
+|-damage|p1a: Salamence|3/100
+|move|p1a: Salamence|Outrage|p2a: Raging Bolt|[from] lockedmove
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|-start|p1a: Salamence|confusion|[fatigue]
+|
+|-sideend|p2: thierry92iel|Reflect
+|upkeep
+|
+|t:|1779880696
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|9
+|
+|t:|1779880702
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|-activate|p1a: Salamence|confusion
+|move|p1a: Salamence|Outrage|p2a: Iron Valiant
+|-immune|p2a: Iron Valiant
+|
+|-sideend|p2: thierry92iel|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1779880710
+|move|p2a: Iron Valiant|Spirit Break|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1779880713
+|switch|p1a: Forretress|Forretress, M, shiny|100/100
+|turn|11
+|
+|t:|1779880725
+|move|p2a: Iron Valiant|Close Combat|p1a: Forretress
+|-damage|p1a: Forretress|34/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|move|p1a: Forretress|Thunder Wave|p2a: Iron Valiant
+|-status|p2a: Iron Valiant|par
+|
+|upkeep
+|turn|12
+|
+|t:|1779880732
+|move|p2a: Iron Valiant|Close Combat|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Forretress
+|
+|upkeep
+|
+|t:|1779880736
+|switch|p1a: Luxray|Luxray, M|100/100
+|turn|13
+|
+|t:|1779880743
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Luxray|Agility|p1a: Luxray
+|-boost|p1a: Luxray|spe|2
+|
+|-status|p1a: Luxray|brn|[from] item: Flame Orb
+|upkeep
+|turn|14
+|
+|t:|1779880761
+|-terastallize|p1a: Luxray|Flying
+|move|p2a: Iron Treads|Earthquake|p1a: Luxray
+|-immune|p1a: Luxray
+|move|p1a: Luxray|Facade|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|67/100
+|
+|-damage|p1a: Luxray|95/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1779880774
+|move|p2a: Iron Treads|Iron Head|p1a: Luxray
+|-damage|p1a: Luxray|41/100 brn
+|move|p1a: Luxray|Play Rough|p2a: Iron Treads|[miss]
+|-miss|p1a: Luxray|p2a: Iron Treads
+|
+|-damage|p1a: Luxray|35/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1779880781
+|move|p2a: Iron Treads|Iron Head|p1a: Luxray
+|-damage|p1a: Luxray|0 fnt
+|faint|p1a: Luxray
+|
+|upkeep
+|-message|MadmanMax007 forfeited.
+|
+|win|thierry92iel
+|raw|MadmanMax007's rating: 1073 &rarr; <strong>1052</strong><br />(-21 for losing)
+|raw|thierry92iel's rating: 1074 &rarr; <strong>1103</strong><br />(+29 for winning)
+|l|☆MadmanMax007
+|player|p1|
+|l|☆thierry92iel
+|player|p2|

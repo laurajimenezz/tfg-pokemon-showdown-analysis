@@ -1,0 +1,492 @@
+|j|‽blonkus
+|j|☆akf123456789
+|t:|1760352394
+|gametype|singles
+|player|p1|blonkus|bugsy|1260
+|player|p2|akf123456789|n|1253
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Iron Crown|
+|poke|p1|Pincurchin, F|
+|poke|p1|Galvantula, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Treads|
+|poke|p2|Iron Valiant|
+|poke|p2|Ting-Lu|
+|poke|p2|Kingambit, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Gholdengo|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|t:|1760352425
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1760352437
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Galvantula
+|-damage|p1a: Galvantula|37/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760352445
+|move|p1a: Galvantula|Sticky Web|p2a: Ting-Lu
+|-sidestart|p2: akf123456789|move: Sticky Web
+|move|p2a: Ting-Lu|Earthquake|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|t:|1760352456
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|3
+|
+|t:|1760352463
+|move|p1a: Kyurem|Icicle Spear|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|85/100
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|69/100
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|53/100
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|38/100
+|-hitcount|p2a: Ting-Lu|4
+|move|p2a: Ting-Lu|Earthquake|p1a: Kyurem
+|-damage|p1a: Kyurem|58/100
+|
+|-heal|p2a: Ting-Lu|44/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1760352484
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-activate|p2a: Zamazenta|move: Sticky Web
+|-unboost|p2a: Zamazenta|spe|1
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Kyurem|Freeze-Dry|p2a: Zamazenta
+|-damage|p2a: Zamazenta|75/100
+|
+|-heal|p2a: Zamazenta|81/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760352495
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p2a: Zamazenta|87/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760352505
+|move|p2a: Zamazenta|Body Press|p1a: Zamazenta
+|-damage|p1a: Zamazenta|62/100
+|move|p1a: Zamazenta|Roar|p2a: Zamazenta
+|drag|p2a: Iron Valiant|Iron Valiant|100/100
+|-activate|p2a: Iron Valiant|move: Sticky Web
+|-unboost|p2a: Iron Valiant|spe|1
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdriveatk
+|
+|-heal|p1a: Zamazenta|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760352518
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Iron Valiant|Spirit Break|p1a: Pincurchin
+|-damage|p1a: Pincurchin|61/100
+|-unboost|p1a: Pincurchin|spa|1
+|
+|upkeep
+|turn|8
+|
+|t:|1760352527
+|move|p2a: Iron Valiant|Knock Off|p1a: Pincurchin
+|-damage|p1a: Pincurchin|26/100
+|-enditem|p1a: Pincurchin|Terrain Extender|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Pincurchin|Scald|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|80/100
+|-status|p2a: Iron Valiant|brn
+|
+|-damage|p2a: Iron Valiant|74/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1760352537
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|move|p1a: Pincurchin|Spikes|p2a: Iron Valiant
+|-sidestart|p2: akf123456789|Spikes
+|
+|-damage|p2a: Iron Valiant|68/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1760352548
+|move|p2a: Iron Valiant|Spirit Break|p1a: Pincurchin
+|-crit|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|-damage|p2a: Iron Valiant|61/100 brn|[from] brn
+|upkeep
+|
+|t:|1760352564
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-activate|p1a: Iron Crown|ability: Quark Drive
+|-start|p1a: Iron Crown|quarkdrivespa
+|turn|11
+|
+|t:|1760352571
+|move|p1a: Iron Crown|Psychic|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760352581
+|switch|p2a: Ting-Lu|Ting-Lu|44/100
+|-activate|p2a: Ting-Lu|move: Sticky Web
+|-unboost|p2a: Ting-Lu|spe|1
+|-damage|p2a: Ting-Lu|32/100|[from] Spikes
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|12
+|
+|t:|1760352606
+|move|p1a: Iron Crown|Focus Blast|p2a: Ting-Lu|[miss]
+|-miss|p1a: Iron Crown|p2a: Ting-Lu
+|move|p2a: Ting-Lu|Earthquake|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|20/100
+|
+|-heal|p2a: Ting-Lu|38/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1760352616
+|move|p1a: Iron Crown|Focus Blast|p2a: Ting-Lu|[miss]
+|-miss|p1a: Iron Crown|p2a: Ting-Lu
+|move|p2a: Ting-Lu|Earthquake|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|-heal|p2a: Ting-Lu|44/100|[from] item: Leftovers
+|upkeep
+|c|☆akf123456789|Lol
+|
+|t:|1760352624
+|switch|p1a: Zamazenta|Zamazenta|69/100
+|turn|14
+|c|☆akf123456789|I miss this spell everytime too
+|
+|t:|1760352645
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Ting-Lu|Whirlwind|p1a: Zamazenta
+|drag|p1a: Kyurem|Kyurem|58/100
+|-ability|p1a: Kyurem|Pressure
+|
+|-heal|p2a: Ting-Lu|51/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|15
+|
+|t:|1760352656
+|move|p1a: Kyurem|Icicle Spear|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|34/100
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|18/100
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|1/100
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|-hitcount|p2: Ting-Lu|4
+|
+|upkeep
+|
+|t:|1760352669
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-activate|p2a: Glimmora|move: Sticky Web
+|-unboost|p2a: Glimmora|spe|1
+|-damage|p2a: Glimmora|88/100|[from] Spikes
+|turn|16
+|
+|t:|1760352679
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|-enditem|p2a: Glimmora|Power Herb
+|-anim|p2a: Glimmora|Meteor Beam|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|70/100
+|
+|upkeep
+|turn|17
+|
+|t:|1760352691
+|move|p1a: Iron Treads|Earth Power|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1760352699
+|switch|p2a: Zamazenta|Zamazenta|87/100
+|-activate|p2a: Zamazenta|move: Sticky Web
+|-unboost|p2a: Zamazenta|spe|1
+|-damage|p2a: Zamazenta|75/100|[from] Spikes
+|turn|18
+|
+|t:|1760352708
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Zamazenta|Zamazenta|69/100
+|move|p2a: Zamazenta|Body Press|p1a: Zamazenta
+|-damage|p1a: Zamazenta|47/100
+|
+|-heal|p1a: Zamazenta|54/100|[from] item: Leftovers
+|-heal|p2a: Zamazenta|81/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1760352716
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|60/100|[from] item: Leftovers
+|-heal|p2a: Zamazenta|87/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1760352725
+|move|p1a: Zamazenta|Body Press|p2a: Zamazenta
+|-damage|p2a: Zamazenta|62/100
+|move|p2a: Zamazenta|Body Press|p1a: Zamazenta
+|-damage|p1a: Zamazenta|37/100
+|
+|-heal|p1a: Zamazenta|44/100|[from] item: Leftovers
+|-heal|p2a: Zamazenta|69/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1760352734
+|move|p1a: Zamazenta|Roar|p2a: Zamazenta
+|drag|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|move: Sticky Web
+|-unboost|p2a: Kingambit|spe|1
+|-damage|p2a: Kingambit|88/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|
+|-heal|p1a: Zamazenta|50/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1760352747
+|-terastallize|p2a: Kingambit|Ghost
+|move|p1a: Zamazenta|Body Press|p2a: Kingambit
+|-immune|p2a: Kingambit
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p1a: Zamazenta|56/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1760352758
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Zamazenta|Roar|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|drag|p2a: Gholdengo|Gholdengo|100/100
+|-activate|p2a: Gholdengo|move: Sticky Web
+|-unboost|p2a: Gholdengo|spe|1
+|-damage|p2a: Gholdengo|88/100|[from] Spikes
+|
+|-heal|p1a: Zamazenta|62/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1760352770
+|move|p1a: Zamazenta|Crunch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|40/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Zamazenta
+|-damage|p1a: Zamazenta|12/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-heal|p1a: Zamazenta|18/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1760352783
+|switch|p2a: Zamazenta|Zamazenta|69/100
+|-activate|p2a: Zamazenta|move: Sticky Web
+|-unboost|p2a: Zamazenta|spe|1
+|-damage|p2a: Zamazenta|56/100|[from] Spikes
+|move|p1a: Zamazenta|Crunch|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|48/100
+|
+|-heal|p1a: Zamazenta|24/100|[from] item: Leftovers
+|-heal|p2a: Zamazenta|54/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1760352796
+|switch|p1a: Iron Treads|Iron Treads|70/100
+|move|p2a: Zamazenta|Roar|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|drag|p1a: Kyurem|Kyurem|58/100
+|-ability|p1a: Kyurem|Pressure
+|
+|-heal|p2a: Zamazenta|60/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1760352807
+|move|p1a: Kyurem|Icicle Spear|p2a: Zamazenta
+|-damage|p2a: Zamazenta|49/100
+|-damage|p2a: Zamazenta|36/100
+|-damage|p2a: Zamazenta|24/100
+|-damage|p2a: Zamazenta|13/100
+|-hitcount|p2a: Zamazenta|4
+|move|p2a: Zamazenta|Body Press|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-heal|p2a: Zamazenta|19/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760352817
+|switch|p1a: Iron Treads|Iron Treads|70/100
+|turn|28
+|
+|t:|1760352823
+|move|p1a: Iron Treads|Earth Power|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1760352829
+|switch|p2a: Gholdengo|Gholdengo|40/100
+|-activate|p2a: Gholdengo|move: Sticky Web
+|-unboost|p2a: Gholdengo|spe|1
+|-damage|p2a: Gholdengo|27/100|[from] Spikes
+|turn|29
+|
+|t:|1760352837
+|move|p1a: Iron Treads|Earth Power|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1760352842
+|switch|p2a: Kingambit|Kingambit, M, tera:Ghost|100/100
+|-activate|p2a: Kingambit|move: Sticky Web
+|-unboost|p2a: Kingambit|spe|1
+|-damage|p2a: Kingambit|88/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|30
+|
+|t:|1760352849
+|move|p1a: Iron Treads|Steel Beam|p2a: Kingambit
+|-damage|p2a: Kingambit|42/100
+|-damage|p1a: Iron Treads|20/100|[from] steelbeam
+|move|p2a: Kingambit|Low Kick|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p2a: Kingambit|48/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760352855
+|switch|p1a: Zamazenta|Zamazenta|24/100
+|turn|31
+|
+|t:|1760352864
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|30/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|54/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1760352873
+|move|p1a: Zamazenta|Crunch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|21/100
+|-unboost|p2a: Kingambit|def|1
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p1a: Zamazenta|36/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|27/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1760352883
+|move|p1a: Zamazenta|Crunch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|blonkus
+|raw|blonkus's rating: 1260 &rarr; <strong>1284</strong><br />(+24 for winning)
+|raw|akf123456789's rating: 1253 &rarr; <strong>1229</strong><br />(-24 for losing)
+|l|☆akf123456789
+|player|p2|

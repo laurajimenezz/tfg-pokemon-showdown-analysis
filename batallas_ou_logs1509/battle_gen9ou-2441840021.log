@@ -1,0 +1,358 @@
+|j|☆mathismathin
+|j|☆birbirb
+|t:|1757909057
+|gametype|singles
+|player|p1|mathismathin|hilbert|1496
+|player|p2|birbirb|pokemaniac|1450
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Primarina, M|
+|poke|p1|Moltres|
+|poke|p1|Chesnaught, F|
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Pecharunt|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Latios, M|
+|poke|p2|Scizor, F|
+|teampreview
+|
+|t:|1757909069
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1757909079
+|switch|p1a: Chesnaught|Chesnaught, F|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|88/100
+|-damage|p2a: Samurott|84/100|[from] item: Rocky Helmet|[of] p1a: Chesnaught
+|-sidestart|p1: mathismathin|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1757909083
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Chesnaught|Spikes|p2a: Pecharunt
+|-sidestart|p2: birbirb|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1757909099
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Moltres
+|-damage|p1a: Moltres|64/100
+|
+|upkeep
+|turn|4
+|
+|t:|1757909105
+|move|p1a: Moltres|Fire Blast|p2a: Pecharunt
+|-damage|p2a: Pecharunt|45/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Moltres
+|-damage|p1a: Moltres|25/100
+|-status|p1a: Moltres|tox
+|-start|p1a: Moltres|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-damage|p1a: Moltres|19/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1757909122
+|-activate|p1a: Moltres|confusion
+|move|p1a: Moltres|Fire Blast|p2a: Pecharunt|[miss]
+|-miss|p1a: Moltres|p2a: Pecharunt
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|95/100
+|
+|-damage|p1a: Moltres|6/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1757909127
+|-end|p1a: Moltres|confusion
+|move|p1a: Moltres|Scorching Sands|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|49/100
+|-status|p2a: Pecharunt|brn
+|move|p2a: Pecharunt|Shadow Ball|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|-damage|p2a: Pecharunt|43/100 brn|[from] brn
+|upkeep
+|
+|t:|1757909176
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Spikes
+|turn|7
+|
+|t:|1757909183
+|switch|p2a: Samurott|Samurott-Hisui, M|84/100
+|-damage|p2a: Samurott|72/100|[from] Spikes
+|move|p1a: Dragapult|Dragon Darts|p2a: Samurott
+|-damage|p2a: Samurott|28/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1757909185
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|turn|8
+|
+|t:|1757909201
+|move|p1a: Dragapult|Dragon Darts|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|44/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Landorus
+|-damage|p2a: Landorus|8/100
+|move|p2a: Landorus|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: mathismathin|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1757909206
+|move|p1a: Dragapult|Dragon Darts|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1757909207
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|88/100|[from] Spikes
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|10
+|
+|t:|1757909228
+|switch|p1a: Chesnaught|Chesnaught, F|88/100
+|-damage|p1a: Chesnaught|75/100|[from] Spikes
+|-damage|p1a: Chesnaught|69/100|[from] Stealth Rock
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p2a: Zamazenta|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1757909232
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Spikes
+|-damage|p1a: Mew|76/100|[from] Stealth Rock
+|move|p2a: Zamazenta|Body Press|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|39/100
+|
+|-heal|p2a: Zamazenta|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1757909236
+|move|p1a: Mew|Trick|p2a: Zamazenta
+|-activate|p1a: Mew|move: Trick|[of] p2a: Zamazenta
+|-item|p2a: Zamazenta|Choice Scarf|[from] move: Trick
+|-item|p1a: Mew|Leftovers|[from] move: Trick
+|move|p2a: Zamazenta|Body Press|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|t:|1757909239
+|switch|p1a: Dragapult|Dragapult, F|88/100
+|-damage|p1a: Dragapult|76/100|[from] Spikes
+|-damage|p1a: Dragapult|64/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1757909246
+|switch|p2a: Pecharunt|Pecharunt|43/100 brn
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|
+|-damage|p2a: Pecharunt|37/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1757909251
+|-terastallize|p2a: Pecharunt|Dark
+|move|p1a: Dragapult|Phantom Force|p2a: Pecharunt|[from] lockedmove
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|18/100 brn
+|move|p2a: Pecharunt|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Pecharunt|12/100 brn|[from] brn
+|upkeep
+|
+|t:|1757909259
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|15
+|
+|t:|1757909264
+|-terastallize|p1a: Great Tusk|Steel
+|move|p2a: Pecharunt|Parting Shot|p1a: Great Tusk
+|-unboost|p1a: Great Tusk|atk|1
+|-unboost|p1a: Great Tusk|spa|1
+|
+|t:|1757909267
+|switch|p2a: Zamazenta|Zamazenta|99/100|[from] Parting Shot
+|-damage|p2a: Zamazenta|88/100|[from] Spikes
+|move|p1a: Great Tusk|Rapid Spin|p2a: Zamazenta
+|-damage|p2a: Zamazenta|79/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: mathismathin|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: mathismathin|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|16
+|
+|t:|1757909269
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Primarina|Primarina, M|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Primarina
+|-resisted|p1a: Primarina
+|-crit|p1a: Primarina
+|-damage|p1a: Primarina|59/100
+|
+|upkeep
+|turn|17
+|
+|t:|1757909276
+|switch|p2a: Pecharunt|Pecharunt, tera:Dark|12/100 brn
+|move|p1a: Primarina|Moonblast|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1757909278
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|18
+|
+|t:|1757909280
+|switch|p1a: Chesnaught|Chesnaught, F|69/100
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|upkeep
+|turn|19
+|
+|t:|1757909285
+|move|p2a: Scizor|Knock Off|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|48/100
+|-damage|p2a: Scizor|84/100|[from] item: Rocky Helmet|[of] p1a: Chesnaught
+|-enditem|p1a: Chesnaught|Rocky Helmet|[from] move: Knock Off|[of] p2a: Scizor
+|move|p1a: Chesnaught|Body Press|p2a: Scizor
+|-damage|p2a: Scizor|30/100
+|
+|upkeep
+|turn|20
+|
+|t:|1757909291
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Chesnaught|Body Press|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|74/100
+|
+|upkeep
+|turn|21
+|
+|t:|1757909297
+|move|p2a: Latios|Psychic Noise|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|0 fnt
+|faint|p1a: Chesnaught
+|
+|upkeep
+|
+|t:|1757909298
+|switch|p1a: Great Tusk|Great Tusk, tera:Steel|100/100
+|turn|22
+|
+|t:|1757909308
+|switch|p2a: Scizor|Scizor, F|30/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1757909310
+|switch|p2a: Zamazenta|Zamazenta|79/100
+|-damage|p2a: Zamazenta|66/100|[from] Spikes
+|turn|23
+|
+|t:|1757909318
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Primarina|Primarina, M|59/100
+|move|p2a: Zamazenta|Body Press|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|32/100
+|
+|upkeep
+|turn|24
+|
+|t:|1757909321
+|move|p2a: Zamazenta|Body Press|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|6/100
+|move|p1a: Primarina|Moonblast|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1757909324
+|switch|p2a: Latios|Latios, M|74/100
+|turn|25
+|
+|t:|1757909325
+|move|p2a: Latios|Calm Mind|p2a: Latios
+|-boost|p2a: Latios|spa|1
+|-boost|p2a: Latios|spd|1
+|move|p1a: Primarina|Moonblast|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|win|mathismathin
+|raw|mathismathin's rating: 1544 &rarr; <strong>1559</strong><br />(+15 for winning)
+|raw|birbirb's rating: 1450 &rarr; <strong>1435</strong><br />(-15 for losing)
+|l|☆birbirb
+|player|p2|
+|l|☆mathismathin
+|player|p1|

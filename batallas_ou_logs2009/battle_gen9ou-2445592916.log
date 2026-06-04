@@ -1,0 +1,306 @@
+|j|☆BBT94
+|j|☆sunny dancing
+|t:|1758374215
+|gametype|singles
+|player|p1|BBT94|266|1703
+|player|p2|sunny dancing|101|1690
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, F|
+|poke|p1|Alomomola, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Enamorus, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Great Tusk|
+|poke|p2|Moltres|
+|poke|p2|Dragapult, F|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1758374224
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sunny dancing)
+|
+|t:|1758374231
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Great Tusk|Stealth Rock|p2a: Moltres
+|-sidestart|p2: sunny dancing|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1758374237
+|move|p1a: Great Tusk|Knock Off|p2a: Moltres
+|-damage|p2a: Moltres|80/100
+|-status|p1a: Great Tusk|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|-enditem|p2a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Moltres|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|96/100 brn
+|
+|t:|1758374247
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|
+|-damage|p1a: Great Tusk|89/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1758374254
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|18/100
+|
+|upkeep
+|turn|4
+|
+|t:|1758374263
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1758374270
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Tera Blast|p2a: Slowking|[anim] Tera Blast Ghost
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1758374280
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|6
+|
+|t:|1758374294
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758374300
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|8
+|
+|t:|1758374307
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Alomomola|Flip Turn|p2a: Kingambit
+|-damage|p2a: Kingambit|88/100
+|
+|t:|1758374309
+|switch|p1a: Enamorus|Enamorus, F|18/100|[from] Flip Turn
+|
+|-heal|p1a: Enamorus|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Kingambit|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758374315
+|switch|p1a: Great Tusk|Great Tusk|89/100 brn
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|99/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|83/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1758374322
+|move|p1a: Great Tusk|Headlong Rush|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|57/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Kingambit|Iron Head|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Kingambit|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758374325
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|11
+|
+|t:|1758374331
+|move|p2a: Kingambit|Iron Head|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|17/100
+|move|p1a: Kingambit|Low Kick|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|-heal|p1a: Kingambit|23/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758374344
+|switch|p2a: Great Tusk|Great Tusk|98/100
+|-damage|p2a: Great Tusk|95/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1758374350
+|move|p2a: Great Tusk|Headlong Rush|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1758374355
+|switch|p1a: Dragapult|Dragapult, F, tera:Ghost|100/100
+|turn|13
+|
+|t:|1758374361
+|move|p1a: Dragapult|Tera Blast|p2a: Great Tusk|[anim] Tera Blast Ghost
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|j| idonteatpets
+|c| idonteatpets|hi
+|
+|t:|1758374370
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|14
+|c| idonteatpets|talk to me
+|c| idonteatpets|whats going on with u
+|c| idonteatpets|ur here
+|c| idonteatpets|im here
+|c| idonteatpets|lets go
+|c| idonteatpets|lets talk it out
+|
+|t:|1758374385
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-terastallize|p2a: Dragapult|Fairy
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Slowking|[miss]
+|-miss|p2a: Dragapult|p1a: Slowking
+|
+|upkeep
+|turn|15
+|
+|t:|1758374391
+|move|p2a: Dragapult|Dragon Darts|p1a: Slowking
+|-damage|p1a: Slowking|80/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Slowking
+|-damage|p1a: Slowking|59/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|6/100
+|
+|upkeep
+|turn|16
+|
+|t:|1758374405
+|move|p2a: Dragapult|Dragon Darts|p1a: Slowking
+|-damage|p1a: Slowking|35/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Slowking
+|-damage|p1a: Slowking|12/100
+|move|p1a: Slowking|Thunder Wave|p2a: Dragapult
+|-status|p2a: Dragapult|par
+|
+|upkeep
+|turn|17
+|
+|t:|1758374412
+|cant|p2a: Dragapult|par
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1758374415
+|switch|p1a: Dragapult|Dragapult, F, tera:Ghost|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1758374421
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|move|p1a: Dragapult|Tera Blast|p2a: Ogerpon|[anim] Tera Blast Ghost
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758374429
+|switch|p2a: Moltres|Moltres|80/100
+|-damage|p2a: Moltres|30/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1758374435
+|move|p1a: Dragapult|Tera Blast|p2a: Moltres|[anim] Tera Blast Ghost
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1758374441
+|switch|p2a: Dragapult|Dragapult, F, tera:Fairy|6/100 par
+|turn|20
+|
+|t:|1758374445
+|move|p1a: Dragapult|Tera Blast|p2a: Dragapult|[anim] Tera Blast Ghost
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|BBT94
+|raw|BBT94's rating: 1703 &rarr; <strong>1722</strong><br />(+19 for winning)
+|raw|sunny dancing's rating: 1690 &rarr; <strong>1671</strong><br />(-19 for losing)
+|l|☆sunny dancing
+|player|p2|
+|l|☆BBT94
+|player|p1|

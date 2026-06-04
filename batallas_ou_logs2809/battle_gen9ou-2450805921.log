@@ -1,0 +1,348 @@
+|j|☆BabyGronkel
+|j|☆JumboDorito
+|t:|1759029490
+|gametype|singles
+|player|p1|BabyGronkel|juan|
+|player|p2|JumboDorito|170|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Wigglytuff, F|
+|poke|p1|Mew|
+|poke|p1|Magmortar, F|
+|poke|p1|Heracross, F|
+|poke|p2|Iron Boulder|
+|poke|p2|Armarouge, F|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Gengar, F|
+|poke|p2|Tyrogue, M|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1759029525
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Engineer|Mew|100/100
+|switch|p2a: Baby|Tyrogue, M|100/100
+|turn|1
+|
+|t:|1759029574
+|switch|p2a: Human Torch|Armarouge, F|100/100
+|move|p1a: Engineer|Stealth Rock|p2a: Human Torch
+|-sidestart|p2: JumboDorito|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1759029583
+|move|p1a: Engineer|Knock Off|p2a: Human Torch
+|-supereffective|p2a: Human Torch
+|-damage|p2a: Human Torch|60/100
+|-enditem|p2a: Human Torch|Terrain Extender|[from] move: Knock Off|[of] p1a: Engineer
+|move|p2a: Human Torch|Calm Mind|p2a: Human Torch
+|-boost|p2a: Human Torch|spa|1
+|-boost|p2a: Human Torch|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1759029595
+|move|p1a: Engineer|Spikes|p2a: Human Torch
+|-sidestart|p2: JumboDorito|Spikes
+|move|p2a: Human Torch|Calm Mind|p2a: Human Torch
+|-boost|p2a: Human Torch|spa|1
+|-boost|p2a: Human Torch|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1759029601
+|switch|p1a: Heavy|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Heavy
+|move|p2a: Human Torch|Armor Cannon|p1a: Heavy
+|-resisted|p1a: Heavy
+|-damage|p1a: Heavy|61/100
+|-unboost|p2a: Human Torch|def|1
+|-unboost|p2a: Human Torch|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Human Torch|54/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1759029613
+|switch|p2a: Silver Surfer|Gholdengo|100/100
+|-damage|p2a: Silver Surfer|94/100|[from] Stealth Rock
+|-item|p2a: Silver Surfer|Air Balloon
+|move|p1a: Heavy|Rock Blast|p2a: Silver Surfer
+|-resisted|p2a: Silver Surfer
+|-damage|p2a: Silver Surfer|87/100
+|-enditem|p2a: Silver Surfer|Air Balloon
+|-resisted|p2a: Silver Surfer
+|-damage|p2a: Silver Surfer|78/100
+|-resisted|p2a: Silver Surfer
+|-damage|p2a: Silver Surfer|69/100
+|-resisted|p2a: Silver Surfer
+|-damage|p2a: Silver Surfer|61/100
+|-resisted|p2a: Silver Surfer
+|-damage|p2a: Silver Surfer|53/100
+|-hitcount|p2a: Silver Surfer|5
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1759029646
+|switch|p1a: Pyro|Magmortar, F|100/100
+|move|p2a: Silver Surfer|Focus Blast|p1a: Pyro
+|-damage|p1a: Pyro|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pyro|41/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1759029673
+|switch|p2a: Human Torch|Armarouge, F|54/100
+|-damage|p2a: Human Torch|29/100|[from] Stealth Rock
+|-damage|p2a: Human Torch|17/100|[from] Spikes
+|move|p1a: Pyro|Flamethrower|p2a: Human Torch
+|-start|p2a: Human Torch|ability: Flash Fire
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pyro|35/100|[from] Sandstorm
+|-damage|p2a: Human Torch|10/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1759029689
+|move|p1a: Pyro|Thunderbolt|p2a: Human Torch
+|-damage|p2a: Human Torch|0 fnt
+|faint|p2a: Human Torch
+|
+|-weather|none
+|upkeep
+|
+|t:|1759029712
+|switch|p2a: Mister Fantastic|Deoxys-Speed|100/100
+|-damage|p2a: Mister Fantastic|88/100|[from] Stealth Rock
+|-damage|p2a: Mister Fantastic|76/100|[from] Spikes
+|-ability|p2a: Mister Fantastic|Pressure
+|turn|9
+|
+|t:|1759029717
+|switch|p1a: Medic|Wigglytuff, F|100/100
+|move|p2a: Mister Fantastic|Psycho Boost|p1a: Medic|[miss]
+|-miss|p2a: Mister Fantastic|p1a: Medic
+|
+|upkeep
+|turn|10
+|
+|t:|1759029724
+|move|p2a: Mister Fantastic|Psycho Boost|p1a: Medic
+|-damage|p1a: Medic|38/100
+|-unboost|p2a: Mister Fantastic|spa|2
+|-damage|p2a: Mister Fantastic|66/100|[from] item: Life Orb
+|move|p1a: Medic|Light Screen|p1a: Medic
+|-sidestart|p1: BabyGronkel|move: Light Screen
+|
+|upkeep
+|turn|11
+|
+|t:|1759029732
+|switch|p2a: Invisible Woman|Gengar, F|100/100
+|-damage|p2a: Invisible Woman|88/100|[from] Stealth Rock
+|-damage|p2a: Invisible Woman|76/100|[from] Spikes
+|move|p1a: Medic|Wish|p1a: Medic
+|
+|upkeep
+|turn|12
+|
+|t:|1759029746
+|switch|p1a: Demo Knight|Heracross, F|100/100
+|move|p2a: Invisible Woman|Trick|p1a: Demo Knight
+|-activate|p2a: Invisible Woman|move: Trick|[of] p1a: Demo Knight
+|-item|p1a: Demo Knight|Choice Scarf|[from] move: Trick
+|-item|p2a: Invisible Woman|Muscle Band|[from] move: Trick
+|
+|upkeep
+|turn|13
+|
+|t:|1759029764
+|move|p1a: Demo Knight|Megahorn|p2a: Invisible Woman
+|-resisted|p2a: Invisible Woman
+|-damage|p2a: Invisible Woman|48/100
+|move|p2a: Invisible Woman|Confuse Ray|p1a: Demo Knight
+|-start|p1a: Demo Knight|confusion
+|
+|upkeep
+|turn|14
+|
+|t:|1759029780
+|switch|p1a: Heavy|Tyranitar, M|61/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Heavy
+|move|p2a: Invisible Woman|Trick|p1a: Heavy
+|-activate|p2a: Invisible Woman|move: Trick|[of] p1a: Heavy
+|-item|p1a: Heavy|Muscle Band|[from] move: Trick
+|-item|p2a: Invisible Woman|Sitrus Berry|[from] move: Trick
+|-enditem|p2a: Invisible Woman|Sitrus Berry|[eat]
+|-heal|p2a: Invisible Woman|73/100|[from] item: Sitrus Berry
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Invisible Woman|67/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1759029790
+|switch|p2a: Baby|Tyrogue, M|100/100
+|-damage|p2a: Baby|94/100|[from] Stealth Rock
+|-damage|p2a: Baby|82/100|[from] Spikes
+|move|p1a: Heavy|Heavy Slam|p2a: Baby
+|-damage|p2a: Baby|0 fnt
+|faint|p2a: Baby
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1759029799
+|switch|p2a: Silver Surfer|Gholdengo|53/100
+|-damage|p2a: Silver Surfer|47/100|[from] Stealth Rock
+|-damage|p2a: Silver Surfer|35/100|[from] Spikes
+|turn|16
+|
+|t:|1759029806
+|move|p2a: Silver Surfer|Focus Blast|p1a: Heavy
+|-supereffective|p1a: Heavy
+|-crit|p1a: Heavy
+|-damage|p1a: Heavy|0 fnt
+|faint|p1a: Heavy
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1759029812
+|switch|p1a: Engineer|Mew|100/100
+|turn|17
+|
+|t:|1759029829
+|move|p2a: Silver Surfer|Metal Sound|p1a: Engineer
+|-unboost|p1a: Engineer|spd|2
+|move|p1a: Engineer|Spikes|p2a: Silver Surfer
+|-sidestart|p2: JumboDorito|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Engineer|94/100|[from] Sandstorm
+|-sideend|p1: BabyGronkel|move: Light Screen
+|upkeep
+|turn|18
+|
+|t:|1759029838
+|switch|p1a: Medic|Wigglytuff, F|38/100
+|move|p2a: Silver Surfer|Steel Beam|p1a: Medic
+|-supereffective|p1a: Medic
+|-damage|p1a: Medic|0 fnt
+|-damage|p2a: Silver Surfer|0 fnt|[from] steelbeam
+|faint|p2a: Silver Surfer
+|faint|p1a: Medic
+|
+|-weather|none
+|upkeep
+|
+|t:|1759029847
+|switch|p2a: Mister Fantastic|Deoxys-Speed|66/100
+|switch|p1a: Engineer|Mew|94/100
+|-damage|p2a: Mister Fantastic|53/100|[from] Stealth Rock
+|-damage|p2a: Mister Fantastic|37/100|[from] Spikes
+|-ability|p2a: Mister Fantastic|Pressure
+|turn|19
+|
+|t:|1759029854
+|move|p2a: Mister Fantastic|Ice Beam|p1a: Engineer
+|-damage|p1a: Engineer|66/100
+|-damage|p2a: Mister Fantastic|27/100|[from] item: Life Orb
+|move|p1a: Engineer|Spikes|p2a: Mister Fantastic
+|-sidestart|p2: JumboDorito|Spikes
+|
+|upkeep
+|turn|20
+|
+|t:|1759029865
+|move|p2a: Mister Fantastic|Ice Beam|p1a: Engineer
+|-damage|p1a: Engineer|36/100
+|-damage|p2a: Mister Fantastic|17/100|[from] item: Life Orb
+|move|p1a: Engineer|Knock Off|p2a: Mister Fantastic
+|-supereffective|p2a: Mister Fantastic
+|-damage|p2a: Mister Fantastic|0 fnt
+|-enditem|p2a: Mister Fantastic|Life Orb|[from] move: Knock Off|[of] p1a: Engineer
+|faint|p2a: Mister Fantastic
+|
+|upkeep
+|
+|t:|1759029881
+|switch|p2a: The Thing|Iron Boulder|100/100
+|-damage|p2a: The Thing|88/100|[from] Stealth Rock
+|-damage|p2a: The Thing|63/100|[from] Spikes
+|turn|21
+|
+|t:|1759029885
+|-terastallize|p2a: The Thing|Rock
+|move|p2a: The Thing|Mighty Cleave|p1a: Engineer
+|-damage|p1a: Engineer|0 fnt
+|-damage|p2a: The Thing|47/100|[from] item: Rocky Helmet|[of] p1a: Engineer
+|faint|p1a: Engineer
+|
+|upkeep
+|
+|t:|1759029891
+|switch|p1a: Demo Knight|Heracross, F|100/100
+|turn|22
+|
+|t:|1759029900
+|move|p1a: Demo Knight|Close Combat|p2a: The Thing
+|-supereffective|p2a: The Thing
+|-damage|p2a: The Thing|0 fnt
+|-unboost|p1a: Demo Knight|def|1
+|-unboost|p1a: Demo Knight|spd|1
+|faint|p2a: The Thing
+|-end|p2a: The Thing|Quark Drive|[silent]
+|-ability|p1a: Demo Knight|Moxie|boost
+|-boost|p1a: Demo Knight|atk|1
+|
+|upkeep
+|
+|t:|1759029903
+|switch|p2a: Invisible Woman|Gengar, F|67/100
+|-damage|p2a: Invisible Woman|55/100|[from] Stealth Rock
+|-damage|p2a: Invisible Woman|30/100|[from] Spikes
+|turn|23
+|
+|t:|1759029905
+|switch|p1a: Pyro|Magmortar, F|35/100
+|move|p2a: Invisible Woman|Shadow Ball|p1a: Pyro
+|-damage|p1a: Pyro|0 fnt
+|faint|p1a: Pyro
+|
+|upkeep
+|
+|t:|1759029908
+|switch|p1a: Demo Knight|Heracross, F|100/100
+|turn|24
+|
+|t:|1759029913
+|move|p1a: Demo Knight|Shadow Ball|p2a: Invisible Woman
+|-supereffective|p2a: Invisible Woman
+|-damage|p2a: Invisible Woman|0 fnt
+|faint|p2a: Invisible Woman
+|
+|win|BabyGronkel

@@ -1,0 +1,200 @@
+|j|☆Zcu3
+|j|☆One-Round
+|t:|1758315693
+|gametype|singles
+|player|p1|Zcu3|alder|1131
+|player|p2|One-Round|101|1114
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Porygon-Z|
+|poke|p1|Avalugg-Hisui, M|
+|poke|p1|Coalossal, M|
+|poke|p1|Sinistcha-Masterpiece|
+|poke|p1|Primeape, M|
+|poke|p1|Crawdaunt, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Ursaluna, M|
+|poke|p2|Meganium, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1758315715
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Avalugg|Avalugg-Hisui, M|100/100
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1758315727
+|move|p1a: Avalugg|Mirror Coat||[still]
+|-fail|p1a: Avalugg
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1758315742
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|move|p1a: Avalugg|Icicle Spear|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|81/100
+|-supereffective|p2a: Ursaluna
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|50/100
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|30/100
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|12/100
+|-hitcount|p2a: Ursaluna|4
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1758315766
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece, shiny|100/100
+|move|p2a: Ursaluna|Headlong Rush|p1a: Sinistcha
+|-resisted|p1a: Sinistcha
+|-damage|p1a: Sinistcha|66/100
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-damage|p2a: Ursaluna|6/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1758315782
+|switch|p2a: Meganium|Meganium, M|100/100
+|move|p1a: Sinistcha|Strength Sap|p2a: Meganium
+|-unboost|p2a: Meganium|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1758315802
+|switch|p1a: Coalossal|Coalossal, M, shiny|100/100
+|move|p2a: Meganium|Dragon Tail|p1a: Coalossal
+|-damage|p1a: Coalossal|96/100
+|-status|p2a: Meganium|brn|[from] ability: Flame Body|[of] p1a: Coalossal
+|drag|p1a: Primeape|Primeape, M|100/100
+|
+|-damage|p2a: Meganium|94/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1758315817
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|move|p1a: Primeape|Bulk Up|p1a: Primeape
+|-boost|p1a: Primeape|atk|1
+|-boost|p1a: Primeape|def|1
+|
+|upkeep
+|turn|7
+|
+|t:|1758315829
+|move|p1a: Primeape|Rage Fist|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Mimikyu|Red Card|[of] p1a: Primeape
+|drag|p1a: Avalugg|Avalugg-Hisui, M|100/100
+|move|p2a: Mimikyu|Trick Room|p2a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p2a: Mimikyu
+|
+|upkeep
+|turn|8
+|
+|t:|1758315845
+|move|p1a: Avalugg|Icicle Spear|p2a: Mimikyu
+|-damage|p2a: Mimikyu|72/100
+|-damage|p2a: Mimikyu|53/100
+|-damage|p2a: Mimikyu|37/100
+|-damage|p2a: Mimikyu|22/100
+|-hitcount|p2a: Mimikyu|4
+|move|p2a: Mimikyu|Play Rough|p1a: Avalugg
+|-damage|p1a: Avalugg|83/100
+|-unboost|p1a: Avalugg|atk|1
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1758315893
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Avalugg|Icicle Spear|p2a: Indeedee
+|-damage|p2a: Indeedee|85/100
+|-damage|p2a: Indeedee|71/100
+|-damage|p2a: Indeedee|56/100
+|-damage|p2a: Indeedee|42/100
+|-hitcount|p2a: Indeedee|4
+|
+|upkeep
+|turn|10
+|
+|t:|1758315904
+|move|p1a: Avalugg|Icicle Spear|p2a: Indeedee
+|-damage|p2a: Indeedee|28/100
+|-damage|p2a: Indeedee|13/100
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-hitcount|p2: Indeedee|3
+|
+|upkeep
+|
+|t:|1758315913
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|11
+|
+|t:|1758315927
+|move|p2a: Hoopa|Focus Blast|p1a: Avalugg|[miss]
+|-miss|p2a: Hoopa|p1a: Avalugg
+|move|p1a: Avalugg|Icicle Spear|p2a: Hoopa
+|-damage|p2a: Hoopa|89/100
+|-damage|p2a: Hoopa|77/100
+|-damage|p2a: Hoopa|65/100
+|-damage|p2a: Hoopa|52/100
+|-hitcount|p2a: Hoopa|4
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|t:|1758315938
+|move|p1a: Avalugg|Icicle Spear|p2a: Hoopa
+|-damage|p2a: Hoopa|39/100
+|-damage|p2a: Hoopa|27/100
+|-damage|p2a: Hoopa|16/100
+|-damage|p2a: Hoopa|4/100
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|-hitcount|p2: Hoopa|5
+|
+|upkeep
+|-message|One-Round forfeited.
+|
+|win|Zcu3
+|raw|Zcu3's rating: 1131 &rarr; <strong>1155</strong><br />(+24 for winning)
+|raw|One-Round's rating: 1114 &rarr; <strong>1090</strong><br />(-24 for losing)
+|l|☆One-Round
+|player|p2|
+|l|☆Zcu3
+|player|p1|

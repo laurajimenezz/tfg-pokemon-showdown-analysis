@@ -1,0 +1,361 @@
+|j|☆Desert Tail
+|j|☆GRexMain
+|t:|1758230997
+|gametype|singles
+|player|p1|Desert Tail|102|1108
+|player|p2|GRexMain|cyclist-gen4|1141
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Chesnaught, F|
+|poke|p1|Flygon, F|
+|poke|p1|Raichu, F|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Politoed, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Persian-Alola, M|
+|poke|p2|Brambleghast, M|
+|poke|p2|Kilowattrel, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Sandslash-Alola, M|
+|poke|p2|Gastrodon, F|
+|teampreview
+|
+|t:|1758231006
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Evil Support|Grimmsnarl, M, shiny|100/100
+|switch|p2a: Persian|Persian-Alola, M|100/100
+|turn|1
+|
+|t:|1758231017
+|move|p1a: Evil Support|Taunt|p2a: Persian
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Persian
+|move|p2a: Persian|Taunt|p1a: Evil Support
+|-start|p1a: Evil Support|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1758231026
+|move|p2a: Persian|Parting Shot|p1a: Evil Support
+|-unboost|p1a: Evil Support|atk|1
+|-unboost|p1a: Evil Support|spa|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Desert Tail)
+|
+|t:|1758231039
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] Parting Shot
+|move|p1a: Evil Support|Spirit Break|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|92/100
+|-unboost|p2a: Slowking|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1758231051
+|switch|p1a: Hector|Chesnaught, F, shiny|100/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1758231059
+|switch|p2a: Sandslash|Sandslash-Alola, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1758231079
+|switch|p1a: Blue|Politoed, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Blue
+|-terastallize|p2a: Sandslash|Water
+|move|p2a: Sandslash|Swords Dance|p2a: Sandslash
+|-boost|p2a: Sandslash|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758231090
+|move|p2a: Sandslash|Iron Head|p1a: Blue
+|-resisted|p1a: Blue
+|-damage|p1a: Blue|70/100
+|move|p1a: Blue|Haze|p1a: Blue
+|-clearallboost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758231108
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|switch|p1a: Goro|Raichu, F, shiny|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758231121
+|switch|p1a: MaleQueen|Ninetales-Alola, M, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: MaleQueen
+|move|p2a: Slowking|Future Sight|p1a: MaleQueen
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1758231130
+|move|p1a: MaleQueen|Aurora Veil|p1a: MaleQueen
+|-sidestart|p1: Desert Tail|move: Aurora Veil
+|move|p2a: Slowking|Sludge Bomb|p1a: MaleQueen
+|-supereffective|p1a: MaleQueen
+|-damage|p1a: MaleQueen|62/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1758231137
+|switch|p1a: Hector|Chesnaught, F, shiny|100/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Hector
+|-immune|p1a: Hector|[from] ability: Bulletproof
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Hector|move: Future Sight
+|-supereffective|p1a: Hector
+|-damage|p1a: Hector|48/100
+|upkeep
+|turn|10
+|
+|t:|1758231152
+|move|p1a: Hector|Leech Seed|p2a: Slowking
+|-start|p2a: Slowking|move: Leech Seed
+|move|p2a: Slowking|Future Sight|p1a: Hector
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Slowking|88/100|[from] Leech Seed|[of] p1a: Hector
+|-heal|p1a: Hector|60/100|[silent]
+|upkeep
+|turn|11
+|
+|t:|1758231159
+|switch|p2a: Kilowattrel|Kilowattrel, M|100/100
+|move|p1a: Hector|Bulk Up|p1a: Hector
+|-boost|p1a: Hector|atk|1
+|-boost|p1a: Hector|def|1
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1758231168
+|switch|p1a: Evil Support|Grimmsnarl, M, shiny|100/100
+|move|p2a: Kilowattrel|Air Slash|p1a: Evil Support
+|-damage|p1a: Evil Support|85/100
+|
+|-end|p1a: Evil Support|move: Future Sight
+|-immune|p1a: Evil Support
+|upkeep
+|turn|13
+|
+|t:|1758231178
+|switch|p2a: Persian|Persian-Alola, M|100/100
+|move|p1a: Evil Support|Bulk Up|p1a: Evil Support
+|-boost|p1a: Evil Support|atk|1
+|-boost|p1a: Evil Support|def|1
+|
+|upkeep
+|turn|14
+|
+|t:|1758231188
+|move|p2a: Persian|Parting Shot|p1a: Evil Support
+|-unboost|p1a: Evil Support|atk|1
+|-unboost|p1a: Evil Support|spa|1
+|
+|t:|1758231195
+|switch|p2a: Sandslash|Sandslash-Alola, M, tera:Water|100/100|[from] Parting Shot
+|move|p1a: Evil Support|Spirit Break|p2a: Sandslash
+|-damage|p2a: Sandslash|66/100
+|-unboost|p2a: Sandslash|spa|1
+|
+|upkeep
+|turn|15
+|
+|t:|1758231209
+|switch|p1a: Hector|Chesnaught, F, shiny|60/100
+|move|p2a: Sandslash|Iron Head|p1a: Hector
+|-damage|p1a: Hector|50/100
+|-damage|p2a: Sandslash|50/100|[from] item: Rocky Helmet|[of] p1a: Hector
+|
+|-sideend|p1: Desert Tail|move: Aurora Veil
+|upkeep
+|turn|16
+|
+|t:|1758231221
+|switch|p2a: Kilowattrel|Kilowattrel, M|100/100
+|move|p1a: Hector|Bulk Up|p1a: Hector
+|-boost|p1a: Hector|atk|1
+|-boost|p1a: Hector|def|1
+|
+|upkeep
+|turn|17
+|
+|t:|1758231232
+|switch|p1a: Blue|Politoed, M, shiny|70/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Blue
+|move|p2a: Kilowattrel|Air Slash|p1a: Blue
+|-damage|p1a: Blue|42/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1758231244
+|move|p2a: Kilowattrel|Air Slash|p1a: Blue
+|-damage|p1a: Blue|14/100
+|move|p1a: Blue|Whirlpool|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|68/100
+|-activate|p2a: Kilowattrel|move: Whirlpool|[of] p1a: Blue
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kilowattrel|56/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|19
+|
+|t:|1758231253
+|move|p1a: Blue|Protect|p1a: Blue
+|-singleturn|p1a: Blue|Protect
+|move|p2a: Kilowattrel|Volt Switch|p1a: Blue
+|-activate|p1a: Blue|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kilowattrel|43/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|20
+|
+|t:|1758231262
+|switch|p1a: Girliepop|Flygon, F, shiny|100/100
+|move|p2a: Kilowattrel|Air Slash|p1a: Girliepop
+|-damage|p1a: Girliepop|55/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Kilowattrel|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|21
+|
+|t:|1758231277
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|-terastallize|p1a: Girliepop|Steel
+|move|p1a: Girliepop|Dragon Dance|p1a: Girliepop
+|-boost|p1a: Girliepop|atk|1
+|-boost|p1a: Girliepop|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1758231288
+|move|p1a: Girliepop|Dragon Dance|p1a: Girliepop
+|-boost|p1a: Girliepop|atk|1
+|-boost|p1a: Girliepop|spe|1
+|move|p2a: Gastrodon|Earth Power|p1a: Girliepop
+|-immune|p1a: Girliepop|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1758231296
+|move|p1a: Girliepop|Dragon Dance|p1a: Girliepop
+|-boost|p1a: Girliepop|atk|1
+|-boost|p1a: Girliepop|spe|1
+|move|p2a: Gastrodon|Surf|p1a: Girliepop
+|-crit|p1a: Girliepop
+|-damage|p1a: Girliepop|0 fnt
+|faint|p1a: Girliepop
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758231312
+|switch|p1a: Hector|Chesnaught, F, shiny|50/100
+|turn|24
+|
+|t:|1758231326
+|switch|p2a: Brambleghast|Brambleghast, M|100/100
+|move|p1a: Hector|Knock Off|p2a: Brambleghast
+|-supereffective|p2a: Brambleghast
+|-damage|p2a: Brambleghast|0 fnt
+|-enditem|p2a: Brambleghast|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Hector
+|faint|p2a: Brambleghast
+|
+|-weather|none
+|upkeep
+|
+|t:|1758231339
+|switch|p2a: Sandslash|Sandslash-Alola, M, tera:Water|50/100
+|turn|25
+|
+|t:|1758231352
+|switch|p1a: Blue|Politoed, M, shiny|14/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Blue
+|move|p2a: Sandslash|Triple Axel|p1a: Blue
+|-resisted|p1a: Blue
+|-damage|p1a: Blue|10/100
+|-resisted|p1a: Blue
+|-damage|p1a: Blue|3/100
+|-resisted|p1a: Blue
+|-damage|p1a: Blue|0 fnt
+|faint|p1a: Blue
+|-hitcount|p1: Blue|3
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758231359
+|switch|p1a: Goro|Raichu, F, shiny|100/100
+|turn|26
+|
+|t:|1758231380
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|move|p1a: Goro|Nasty Plot|p1a: Goro
+|-boost|p1a: Goro|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1758231391
+|move|p1a: Goro|Surf|p2a: Gastrodon
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|move|p2a: Gastrodon|Earth Power|p1a: Goro
+|-supereffective|p1a: Goro
+|-damage|p1a: Goro|0 fnt
+|faint|p1a: Goro
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Desert Tail forfeited.
+|
+|win|GRexMain
+|raw|Desert Tail's rating: 1108 &rarr; <strong>1085</strong><br />(-23 for losing)
+|raw|GRexMain's rating: 1141 &rarr; <strong>1164</strong><br />(+23 for winning)
+|l|☆Desert Tail
+|player|p1|
+|l|☆GRexMain
+|player|p2|

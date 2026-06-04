@@ -1,0 +1,320 @@
+|j|☆slash_poke
+|j|☆the voiced concern
+|t:|1757945867
+|gametype|singles
+|player|p1|slash_poke|volkner|1162
+|player|p2|the voiced concern|bea|1191
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Swampert, M|
+|poke|p1|Gardevoir, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Arcanine, M|
+|poke|p1|Salamence, M|
+|poke|p1|Iron Hands|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Iron Moth|
+|poke|p2|Ceruledge, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Iron Hands|
+|poke|p2|Kingambit, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by the voiced concern)
+|inactive|slash_poke also wants the timer to be on.
+|
+|t:|1757945901
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1757945926
+|move|p2a: Ogerpon|Taunt|p1a: Iron Hands
+|-start|p1a: Iron Hands|move: Taunt
+|cant|p1a: Iron Hands|move: Taunt|Swords Dance
+|
+|upkeep
+|turn|2
+|
+|t:|1757945931
+|move|p2a: Ogerpon|Spikes|p1a: Iron Hands
+|-sidestart|p1: slash_poke|Spikes
+|move|p1a: Iron Hands|Ice Punch|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-ability|p2a: Ogerpon|Sturdy
+|-damage|p2a: Ogerpon|1/100
+|
+|upkeep
+|turn|3
+|
+|t:|1757945941
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Salamence|Salamence, M|100/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Salamence|[anim] Ivy Cudgel Rock
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1757945958
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-damage|p1a: Iron Hands|88/100|[from] Spikes
+|turn|4
+|
+|t:|1757945964
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Iron Hands|[anim] Ivy Cudgel Rock
+|-resisted|p1a: Iron Hands
+|-damage|p1a: Iron Hands|69/100
+|move|p1a: Iron Hands|Swords Dance|p1a: Iron Hands
+|-boost|p1a: Iron Hands|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1757945969
+|move|p2a: Ogerpon|Taunt|p1a: Iron Hands
+|-start|p1a: Iron Hands|move: Taunt
+|cant|p1a: Iron Hands|move: Taunt|Swords Dance
+|
+|upkeep
+|turn|6
+|
+|t:|1757945974
+|move|p2a: Ogerpon|Power Whip|p1a: Iron Hands
+|-damage|p1a: Iron Hands|28/100
+|move|p1a: Iron Hands|Ice Punch|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1757945983
+|switch|p2a: Ceruledge|Ceruledge, M, shiny|100/100
+|turn|7
+|
+|t:|1757945987
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Iron Hands|Thunder Punch|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|-end|p1a: Iron Hands|move: Taunt
+|upkeep
+|turn|8
+|
+|t:|1757945998
+|move|p2a: Ceruledge|Bitter Blade|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|-heal|p2a: Ceruledge|25/100|[from] drain|[of] p1a: Iron Hands
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757946001
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|88/100|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|9
+|
+|t:|1757946024
+|move|p1a: Kingambit|Sucker Punch|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1757946029
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|10
+|
+|t:|1757946034
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Swampert|Swampert, M|100/100
+|-damage|p1a: Swampert|88/100|[from] Spikes
+|move|p2a: Iron Moth|Fiery Dance|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|69/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|upkeep
+|turn|11
+|
+|t:|1757946053
+|move|p2a: Iron Moth|Fiery Dance|p1a: Swampert
+|-resisted|p1a: Swampert
+|-crit|p1a: Swampert
+|-damage|p1a: Swampert|25/100
+|move|p1a: Swampert|Earthquake|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757946062
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|12
+|
+|t:|1757946067
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-damage|p1a: Arcanine|88/100|[from] Spikes
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|move|p2a: Rillaboom|Knock Off|p1a: Arcanine
+|-damage|p1a: Arcanine|51/100
+|-enditem|p1a: Arcanine|Choice Band|[from] move: Knock Off|[of] p2a: Rillaboom
+|-damage|p2a: Rillaboom|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Arcanine|58/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|97/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1757946080
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Iron Hands
+|-damage|p2a: Iron Hands|61/100
+|-damage|p1a: Arcanine|39/100|[from] Recoil
+|
+|-heal|p1a: Arcanine|45/100|[from] Grassy Terrain
+|-heal|p2a: Iron Hands|67/100|[from] Grassy Terrain
+|-heal|p2a: Iron Hands|73/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1757946089
+|move|p1a: Arcanine|Play Rough|p2a: Iron Hands|[miss]
+|-miss|p1a: Arcanine|p2a: Iron Hands
+|move|p2a: Iron Hands|Wild Charge|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|-damage|p2a: Iron Hands|65/100|[from] Recoil
+|
+|-heal|p2a: Iron Hands|72/100|[from] Grassy Terrain
+|-heal|p2a: Iron Hands|78/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757946096
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Spikes
+|turn|15
+|
+|t:|1757946118
+|-terastallize|p2a: Iron Hands|Steel
+|move|p1a: Gardevoir|Moonblast|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|50/100
+|-unboost|p2a: Iron Hands|spa|1
+|move|p2a: Iron Hands|Wild Charge|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|-damage|p2a: Iron Hands|37/100|[from] Recoil
+|
+|-heal|p2a: Iron Hands|43/100|[from] Grassy Terrain
+|-heal|p2a: Iron Hands|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757946132
+|switch|p1a: Kingambit|Kingambit, F|88/100
+|-damage|p1a: Kingambit|76/100|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|16
+|
+|t:|1757946155
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2a: Iron Hands|Drain Punch|p1a: Kingambit
+|-immune|p1a: Kingambit
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2a: Iron Hands|56/100|[from] Grassy Terrain
+|-heal|p2a: Iron Hands|62/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|82/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1757946167
+|move|p1a: Kingambit|Sucker Punch|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757946180
+|switch|p2a: Rillaboom|Rillaboom, M|97/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|18
+|
+|t:|1757946202
+|move|p1a: Kingambit|Sucker Punch|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Kingambit|88/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757946207
+|switch|p2a: Guts|Kingambit, M|100/100
+|-activate|p2a: Guts|ability: Supreme Overlord
+|-start|p2a: Guts|fallen5|[silent]
+|turn|19
+|
+|t:|1757946218
+|move|p2a: Guts|Kowtow Cleave|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1757946223
+|switch|p1a: Swampert|Swampert, M|25/100
+|-damage|p1a: Swampert|13/100|[from] Spikes
+|turn|20
+|
+|t:|1757946228
+|move|p2a: Guts|Kowtow Cleave|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|-damage|p2a: Guts|84/100|[from] item: Rocky Helmet|[of] p1a: Swampert
+|faint|p1a: Swampert
+|
+|win|the voiced concern
+|raw|slash_poke's rating: 1162 &rarr; <strong>1139</strong><br />(-23 for losing)
+|raw|the voiced concern's rating: 1191 &rarr; <strong>1214</strong><br />(+23 for winning)
+|l|☆the voiced concern
+|player|p2|
+|l|☆slash_poke
+|player|p1|

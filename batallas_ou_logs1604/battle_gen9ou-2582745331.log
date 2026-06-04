@@ -1,0 +1,235 @@
+|html|<div class="broadcast-blue"><strong>[Gen 9] OU is currently suspecting Tera Blast! For information on how to participate check out the <a href="https://www.smogon.com/tools/suspects/view/200">suspect thread</a>.</strong></div>
+|j|☆RouGui
+|j|☆lullishake
+|t:|1776111173
+|gametype|singles
+|player|p1|RouGui|266|1158
+|player|p2|lullishake|n|1191
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ribombee, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Serperior, F|
+|poke|p1|Mimikyu, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Bisharp, M|
+|poke|p2|Gyarados, M|
+|poke|p2|Great Tusk|
+|poke|p2|Tyranitar, F|
+|poke|p2|Iron Moth|
+|poke|p2|Feraligatr, F|
+|poke|p2|Meowscarada, M|
+|teampreview
+|j| ohko_smeargle
+|
+|t:|1776111176
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|1
+|
+|t:|1776111185
+|move|p2a: Great Tusk|Stealth Rock|p1a: Ribombee
+|-sidestart|p1: RouGui|move: Stealth Rock
+|move|p1a: Ribombee|Sticky Web|p2a: Great Tusk
+|-sidestart|p2: lullishake|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1776111197
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Cinderace
+|-damage|p1a: Cinderace|80/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: lullishake|Sticky Web|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|3
+|
+|t:|1776111207
+|move|p2a: Great Tusk|Headlong Rush|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1776111219
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1776111225
+|move|p2a: Great Tusk|Ice Spinner|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|22/100
+|move|p1a: Dragapult|Hydro Pump|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Dragapult|12/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RouGui)
+|
+|t:|1776111252
+|switch|p2a: Gyarados|Gyarados, M, shiny|100/100
+|turn|5
+|
+|t:|1776111258
+|move|p1a: Dragapult|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|-damage|p1a: Dragapult|2/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1776111271
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|6
+|
+|t:|1776111281
+|move|p1a: Dragapult|Hydro Pump|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|42/100
+|-enditem|p2a: Tyranitar|Weakness Policy
+|-boost|p2a: Tyranitar|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Tyranitar|spa|2|[from] item: Weakness Policy
+|-damage|p1a: Dragapult|0 fnt|[from] item: Life Orb
+|faint|p1a: Dragapult
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1776111292
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1776111305
+|move|p2a: Tyranitar|Knock Off|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|88/100
+|-enditem|p1a: Mimikyu|Red Card|[from] move: Knock Off|[of] p2a: Tyranitar
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|76/100|[from] pokemon: Mimikyu-Busted
+|move|p1a: Mimikyu|Play Rough|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mimikyu|70/100|[from] Sandstorm
+|upkeep
+|inactive|lullishake has 120 seconds left.
+|
+|t:|1776111337
+|switch|p2a: Feraligatr|Feraligatr, F|100/100
+|turn|8
+|
+|t:|1776111344
+|move|p1a: Mimikyu|Destiny Bond|p1a: Mimikyu
+|-singlemove|p1a: Mimikyu|Destiny Bond
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Feraligatr|94/100|[from] Sandstorm
+|-damage|p1a: Mimikyu|64/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1776111359
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|move|p1a: Mimikyu|Play Rough|p2a: Feraligatr
+|-damage|p2a: Feraligatr|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Feraligatr|46/100|[from] Sandstorm
+|-damage|p1a: Mimikyu|58/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1776111373
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|-damage|p1a: Ribombee|76/100|[from] Stealth Rock
+|move|p2a: Feraligatr|Liquidation|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|-weather|none
+|upkeep
+|
+|t:|1776111383
+|switch|p1a: Mimikyu|Mimikyu-Busted, F|58/100
+|-damage|p1a: Mimikyu|46/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1776111391
+|move|p2a: Feraligatr|Liquidation|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|upkeep
+|
+|t:|1776111397
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|-damage|p1a: Bisharp|94/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1776111403
+|move|p1a: Bisharp|Sucker Punch|p2a: Feraligatr
+|-damage|p2a: Feraligatr|6/100
+|move|p2a: Feraligatr|Liquidation|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|t:|1776111410
+|switch|p1a: Serperior|Serperior, F|100/100
+|-damage|p1a: Serperior|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1776111419
+|move|p2a: Feraligatr|Ice Punch|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-crit|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|win|lullishake
+|raw|RouGui's rating: 1158 &rarr; <strong>1135</strong><br />(-23 for losing)
+|raw|lullishake's rating: 1191 &rarr; <strong>1214</strong><br />(+23 for winning)
+|l| ohko_smeargle
+|l|☆RouGui
+|player|p1|
+|l|☆lullishake
+|player|p2|

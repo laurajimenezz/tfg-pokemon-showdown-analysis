@@ -1,0 +1,385 @@
+|j|☆GG_PhoebusApollo
+|j|☆gradient_ike
+|t:|1758920201
+|gametype|singles
+|player|p1|GG_PhoebusApollo|hilbert|
+|player|p2|gradient_ike|elesa|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Swampert, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Blaziken, M|
+|poke|p1|Decidueye-Hisui, F|
+|poke|p2|Sableye, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Honchkrow, M|
+|poke|p2|Incineroar, M|
+|poke|p2|Umbreon, M|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1758920206
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: The Owl Eye|Iron Valiant|100/100
+|switch|p2a: Overture|Sableye, M|100/100
+|-enditem|p1a: The Owl Eye|Booster Energy
+|-activate|p1a: The Owl Eye|ability: Quark Drive|[fromitem]
+|-start|p1a: The Owl Eye|quarkdrivespe
+|turn|1
+|c|☆GG_PhoebusApollo|!weak sableye
+|c| GG_PhoebusApollo|/raw <div class="infobox">Sableye (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Fairy<br /><span class="message-effect-resist">Resistances</span>: Poison<br /><span class="message-effect-immune">Immunities</span>: Fighting, Normal, Psychic, Prankster, Trapping</div>
+|
+|t:|1758920229
+|move|p2a: Overture|Thunder Wave|p1a: The Owl Eye
+|-status|p1a: The Owl Eye|par
+|cant|p1a: The Owl Eye|par
+|
+|upkeep
+|turn|2
+|
+|t:|1758920257
+|move|p1a: The Owl Eye|Spirit Break|p2a: Overture
+|-supereffective|p2a: Overture
+|-damage|p2a: Overture|0 fnt
+|faint|p2a: Overture
+|
+|upkeep
+|
+|t:|1758920282
+|switch|p2a: Spotlight|Meowscarada, F, shiny|100/100
+|turn|3
+|c|☆GG_PhoebusApollo|!weak meowscarada
+|c| GG_PhoebusApollo|/raw <div class="infobox">Meowscarada (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: <b>Bug</b>, Fairy, Fighting, Fire, Flying, Ice, Poison<br /><span class="message-effect-resist">Resistances</span>: Dark, Electric, Ghost, Grass, Ground, Water<br /><span class="message-effect-immune">Immunities</span>: Psychic, Powder moves, Prankster</div>
+|
+|t:|1758920318
+|move|p2a: Spotlight|Play Rough|p1a: The Owl Eye
+|-start|p2a: Spotlight|typechange|Fairy|[from] ability: Protean
+|-supereffective|p1a: The Owl Eye
+|-damage|p1a: The Owl Eye|0 fnt
+|faint|p1a: The Owl Eye
+|-end|p1a: The Owl Eye|Quark Drive|[silent]
+|
+|upkeep
+|c|☆GG_PhoebusApollo|!weak fairy
+|c| GG_PhoebusApollo|/raw <div class="infobox">Fairy:<br /><span class="message-effect-weak">Weaknesses</span>: Poison, Steel<br /><span class="message-effect-resist">Resistances</span>: Bug, Dark, Fighting<br /><span class="message-effect-immune">Immunities</span>: Dragon</div>
+|
+|t:|1758920364
+|switch|p1a: The Hunter|Decidueye-Hisui, F|100/100
+|turn|4
+|
+|t:|1758920387
+|move|p2a: Spotlight|Play Rough|p1a: The Hunter
+|-supereffective|p1a: The Hunter
+|-damage|p1a: The Hunter|0 fnt
+|faint|p1a: The Hunter
+|
+|upkeep
+|
+|t:|1758920401
+|switch|p1a: The Maiden|Hatterene, F, shiny|100/100
+|turn|5
+|
+|t:|1758920410
+|switch|p2a: Intermission|Umbreon, M, shiny|100/100
+|move|p1a: The Maiden|Calm Mind|p1a: The Maiden
+|-boost|p1a: The Maiden|spa|1
+|-boost|p1a: The Maiden|spd|1
+|
+|upkeep
+|turn|6
+|c|☆GG_PhoebusApollo|!weak umbreon
+|c| GG_PhoebusApollo|/raw <div class="infobox">Umbreon (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Bug, Fairy, Fighting<br /><span class="message-effect-resist">Resistances</span>: Dark, Ghost<br /><span class="message-effect-immune">Immunities</span>: Psychic, Prankster</div>
+|c|☆GG_PhoebusApollo|!weak grass
+|c| GG_PhoebusApollo|/raw <div class="infobox">Grass:<br /><span class="message-effect-weak">Weaknesses</span>: Bug, Fire, Flying, Ice, Poison<br /><span class="message-effect-resist">Resistances</span>: Electric, Grass, Ground, Water<br /><span class="message-effect-immune">Immunities</span>: Powder moves</div>
+|
+|t:|1758920456
+|-terastallize|p2a: Intermission|Poison
+|move|p2a: Intermission|Toxic|p1a: The Maiden
+|move|p1a: The Maiden|Toxic|p2a: Intermission|[from] ability: Magic Bounce
+|-immune|p2a: Intermission
+|move|p1a: The Maiden|Draining Kiss|p2a: Intermission
+|-resisted|p2a: Intermission
+|-damage|p2a: Intermission|88/100
+|
+|-heal|p2a: Intermission|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆GG_PhoebusApollo|!weak poison
+|c| GG_PhoebusApollo|/raw <div class="infobox">Poison:<br /><span class="message-effect-weak">Weaknesses</span>: Ground, Psychic<br /><span class="message-effect-resist">Resistances</span>: Bug, Fairy, Fighting, Grass, Poison<br /><span class="message-effect-immune">Immunities</span>: Toxic</div>
+|
+|t:|1758920488
+|switch|p2a: Stagehand|Incineroar, M, shiny|100/100
+|-ability|p2a: Stagehand|Intimidate|boost
+|-unboost|p1a: The Maiden|atk|1
+|move|p1a: The Maiden|Stored Power|p2a: Stagehand
+|-immune|p2a: Stagehand
+|
+|upkeep
+|turn|8
+|c|☆GG_PhoebusApollo|!weak incineroar
+|c| GG_PhoebusApollo|/raw <div class="infobox">Incineroar (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Fighting, Ground, Rock, Water<br /><span class="message-effect-resist">Resistances</span>: Dark, Fire, Ghost, Grass, Ice, Steel<br /><span class="message-effect-immune">Immunities</span>: Psychic, Burn, Prankster</div>
+|
+|t:|1758920515
+|move|p2a: Stagehand|Knock Off|p1a: The Maiden
+|-crit|p1a: The Maiden
+|-damage|p1a: The Maiden|38/100
+|-enditem|p1a: The Maiden|Leftovers|[from] move: Knock Off|[of] p2a: Stagehand
+|move|p1a: The Maiden|Draining Kiss|p2a: Stagehand
+|-damage|p2a: Stagehand|57/100
+|-heal|p1a: The Maiden|75/100|[from] drain|[of] p2a: Stagehand
+|
+|upkeep
+|turn|9
+|
+|t:|1758920571
+|move|p2a: Stagehand|Parting Shot|p1a: The Maiden
+|move|p1a: The Maiden|Parting Shot|p2a: Stagehand|[from] ability: Magic Bounce
+|-unboost|p2a: Stagehand|atk|1
+|-unboost|p2a: Stagehand|spa|1
+|
+|t:|1758920592
+|switch|p1a: Phoebus|Blaziken, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|10
+|
+|t:|1758920616
+|switch|p2a: Intermission|Umbreon, M, shiny, tera:Poison|94/100
+|-terastallize|p1a: Phoebus|Electric
+|move|p1a: Phoebus|Swords Dance|p1a: Phoebus
+|-boost|p1a: Phoebus|atk|2
+|
+|-heal|p2a: Intermission|100/100|[from] item: Leftovers
+|-ability|p1a: Phoebus|Speed Boost|boost
+|-boost|p1a: Phoebus|spe|1
+|upkeep
+|turn|11
+|
+|t:|1758920644
+|move|p1a: Phoebus|Thunder Punch|p2a: Intermission
+|-damage|p2a: Intermission|13/100
+|-damage|p1a: Phoebus|91/100|[from] item: Life Orb
+|move|p2a: Intermission|Toxic|p1a: Phoebus
+|-status|p1a: Phoebus|tox
+|
+|-heal|p2a: Intermission|20/100|[from] item: Leftovers
+|-damage|p1a: Phoebus|85/100 tox|[from] psn
+|-ability|p1a: Phoebus|Speed Boost|boost
+|-boost|p1a: Phoebus|spe|1
+|upkeep
+|turn|12
+|
+|t:|1758920658
+|move|p2a: Intermission|Protect|p2a: Intermission
+|-singleturn|p2a: Intermission|Protect
+|move|p1a: Phoebus|Thunder Punch|p2a: Intermission
+|-activate|p2a: Intermission|move: Protect
+|
+|-heal|p2a: Intermission|26/100|[from] item: Leftovers
+|-damage|p1a: Phoebus|73/100 tox|[from] psn
+|-ability|p1a: Phoebus|Speed Boost|boost
+|-boost|p1a: Phoebus|spe|1
+|upkeep
+|turn|13
+|
+|t:|1758920672
+|move|p1a: Phoebus|Thunder Punch|p2a: Intermission
+|-damage|p2a: Intermission|0 fnt
+|faint|p2a: Intermission
+|-damage|p1a: Phoebus|63/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Phoebus|45/100 tox|[from] psn
+|-ability|p1a: Phoebus|Speed Boost|boost
+|-boost|p1a: Phoebus|spe|1
+|upkeep
+|
+|t:|1758920689
+|switch|p2a: Stagehand|Incineroar, M, shiny|57/100
+|-ability|p2a: Stagehand|Intimidate|boost
+|-unboost|p1a: Phoebus|atk|1
+|turn|14
+|
+|t:|1758920704
+|move|p1a: Phoebus|Close Combat|p2a: Stagehand
+|-supereffective|p2a: Stagehand
+|-damage|p2a: Stagehand|0 fnt
+|-unboost|p1a: Phoebus|def|1
+|-unboost|p1a: Phoebus|spd|1
+|faint|p2a: Stagehand
+|-damage|p1a: Phoebus|35/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Phoebus|11/100 tox|[from] psn
+|-ability|p1a: Phoebus|Speed Boost|boost
+|-boost|p1a: Phoebus|spe|1
+|upkeep
+|
+|t:|1758920719
+|switch|p2a: Encore|Honchkrow, M|100/100
+|turn|15
+|
+|t:|1758920736
+|move|p2a: Encore|Sucker Punch|p1a: Phoebus
+|-damage|p1a: Phoebus|0 fnt
+|faint|p1a: Phoebus
+|-ability|p2a: Encore|Moxie|boost
+|-boost|p2a: Encore|atk|1
+|
+|upkeep
+|c|☆GG_PhoebusApollo|!weak honchkrow
+|c| GG_PhoebusApollo|/raw <div class="infobox">Honchkrow (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Electric, Fairy, Ice, Rock<br /><span class="message-effect-resist">Resistances</span>: Dark, Ghost, Grass<br /><span class="message-effect-immune">Immunities</span>: Ground, Psychic, Prankster</div>
+|
+|t:|1758920766
+|switch|p1a: Earthshaker|Swampert, M|100/100
+|turn|16
+|
+|t:|1758920779
+|switch|p2a: Spotlight|Meowscarada, F, shiny|100/100
+|move|p1a: Earthshaker|Ice Punch|p2a: Spotlight
+|-supereffective|p2a: Spotlight
+|-damage|p2a: Spotlight|47/100
+|
+|upkeep
+|turn|17
+|
+|t:|1758920826
+|move|p2a: Spotlight|Flower Trick|p1a: Earthshaker
+|-start|p2a: Spotlight|typechange|Grass|[from] ability: Protean
+|-supereffective|p1a: Earthshaker
+|-crit|p1a: Earthshaker
+|-damage|p1a: Earthshaker|0 fnt
+|faint|p1a: Earthshaker
+|
+|upkeep
+|
+|t:|1758920834
+|switch|p1a: The Maiden|Hatterene, F, shiny|75/100
+|turn|18
+|
+|t:|1758920837
+|move|p2a: Spotlight|Flower Trick|p1a: The Maiden
+|-crit|p1a: The Maiden
+|-damage|p1a: The Maiden|0 fnt
+|faint|p1a: The Maiden
+|
+|upkeep
+|
+|t:|1758920840
+|switch|p1a: Upholder Of Oaths|Thundurus-Therian, M|100/100
+|turn|19
+|
+|t:|1758920852
+|move|p2a: Spotlight|Flower Trick|p1a: Upholder Of Oaths
+|-resisted|p1a: Upholder Of Oaths
+|-crit|p1a: Upholder Of Oaths
+|-damage|p1a: Upholder Of Oaths|43/100
+|move|p1a: Upholder Of Oaths|Tera Blast|p2a: Spotlight
+|-damage|p2a: Spotlight|0 fnt
+|faint|p2a: Spotlight
+|-damage|p1a: Upholder Of Oaths|34/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758920868
+|switch|p2a: Encore|Honchkrow, M|100/100
+|turn|20
+|
+|t:|1758920879
+|move|p2a: Encore|Sucker Punch||[still]
+|-fail|p2a: Encore
+|move|p1a: Upholder Of Oaths|Nasty Plot|p1a: Upholder Of Oaths
+|-boost|p1a: Upholder Of Oaths|spa|2
+|
+|upkeep
+|turn|21
+|
+|t:|1758920893
+|move|p2a: Encore|Sucker Punch||[still]
+|-fail|p2a: Encore
+|move|p1a: Upholder Of Oaths|Nasty Plot|p1a: Upholder Of Oaths
+|-boost|p1a: Upholder Of Oaths|spa|2
+|
+|upkeep
+|turn|22
+|
+|t:|1758920898
+|move|p2a: Encore|Sucker Punch||[still]
+|-fail|p2a: Encore
+|move|p1a: Upholder Of Oaths|Nasty Plot|p1a: Upholder Of Oaths
+|-boost|p1a: Upholder Of Oaths|spa|2
+|
+|upkeep
+|turn|23
+|
+|t:|1758920931
+|move|p2a: Encore|Sucker Punch||[still]
+|-fail|p2a: Encore
+|move|p1a: Upholder Of Oaths|Nasty Plot|p1a: Upholder Of Oaths
+|-boost|p1a: Upholder Of Oaths|spa|0
+|
+|upkeep
+|turn|24
+|
+|t:|1758920938
+|move|p2a: Encore|Sucker Punch||[still]
+|-fail|p2a: Encore
+|move|p1a: Upholder Of Oaths|Nasty Plot|p1a: Upholder Of Oaths
+|-boost|p1a: Upholder Of Oaths|spa|0
+|
+|upkeep
+|turn|25
+|
+|t:|1758920947
+|move|p2a: Encore|Sucker Punch||[still]
+|-fail|p2a: Encore
+|move|p1a: Upholder Of Oaths|Nasty Plot|p1a: Upholder Of Oaths
+|-boost|p1a: Upholder Of Oaths|spa|0
+|
+|upkeep
+|turn|26
+|
+|t:|1758920977
+|switch|p2a: Denouement|Kingambit, M|100/100
+|-activate|p2a: Denouement|ability: Supreme Overlord
+|-start|p2a: Denouement|fallen4|[silent]
+|move|p1a: Upholder Of Oaths|Nasty Plot|p1a: Upholder Of Oaths
+|-boost|p1a: Upholder Of Oaths|spa|0
+|
+|upkeep
+|turn|27
+|c|☆GG_PhoebusApollo|!weak kingambit
+|c| GG_PhoebusApollo|/raw <div class="infobox">Kingambit (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: <b>Fighting</b>, Fire, Ground<br /><span class="message-effect-resist">Resistances</span>: Dark, Dragon, Flying, Ghost, Grass, Ice, Normal, Rock, Steel<br /><span class="message-effect-immune">Immunities</span>: Poison, Psychic, Prankster, Sandstorm damage, Toxic</div>
+|
+|t:|1758921000
+|move|p1a: Upholder Of Oaths|Thunderbolt|p2a: Denouement
+|-damage|p2a: Denouement|0 fnt
+|faint|p2a: Denouement
+|-end|p2a: Denouement|fallen4|[silent]
+|-damage|p1a: Upholder Of Oaths|24/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1758921004
+|switch|p2a: Encore|Honchkrow, M|100/100
+|turn|28
+|
+|t:|1758921010
+|move|p2a: Encore|Brave Bird|p1a: Upholder Of Oaths
+|-resisted|p1a: Upholder Of Oaths
+|-damage|p1a: Upholder Of Oaths|0 fnt
+|faint|p1a: Upholder Of Oaths
+|-damage|p2a: Encore|94/100|[from] Recoil
+|
+|win|gradient_ike

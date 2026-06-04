@@ -1,0 +1,300 @@
+|j|☆arxxxxxx
+|j|☆AlexCHZ
+|t:|1759077281
+|gametype|singles
+|player|p1|arxxxxxx|veteran-gen4|1081
+|player|p2|AlexCHZ|hilbert-wonderlauncher|1112
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Ursaluna, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p2|Pincurchin, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Iron Moth|
+|poke|p2|Moltres-Galar|
+|poke|p2|Arboliva, F|
+|poke|p2|Mienshao, M|
+|teampreview
+|
+|t:|1759077290
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|t:|1759077305
+|move|p1a: Slowking|Toxic|p2a: Pincurchin
+|-status|p2a: Pincurchin|tox
+|move|p2a: Pincurchin|Liquidation|p1a: Slowking
+|-damage|p1a: Slowking|73/100
+|
+|-heal|p1a: Slowking|79/100|[from] item: Black Sludge
+|-damage|p2a: Pincurchin|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1759077332
+|move|p1a: Slowking|Future Sight|p2a: Pincurchin
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: Pincurchin|Zing Zap|p1a: Slowking
+|-damage|p1a: Slowking|30/100
+|
+|-heal|p1a: Slowking|37/100|[from] item: Black Sludge
+|-damage|p2a: Pincurchin|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1759077351
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|switch|p2a: Moltres|Moltres-Galar|100/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1759077365
+|move|p2a: Moltres|Fiery Wrath|p1a: Ursaluna
+|-damage|p1a: Ursaluna|63/100 brn
+|move|p1a: Ursaluna|Drain Punch|p2a: Moltres
+|-damage|p2a: Moltres|46/100
+|-heal|p1a: Ursaluna|82/100 brn|[from] drain|[of] p2a: Moltres
+|-ability|p2a: Moltres|Berserk|boost
+|-boost|p2a: Moltres|spa|1
+|
+|-end|p2a: Moltres|move: Future Sight
+|-immune|p2a: Moltres
+|-damage|p1a: Ursaluna|76/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1759077382
+|move|p2a: Moltres|Air Slash|p1a: Ursaluna
+|-damage|p1a: Ursaluna|31/100 brn
+|cant|p1a: Ursaluna|flinch
+|
+|-damage|p1a: Ursaluna|25/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1759077395
+|move|p2a: Moltres|Fiery Wrath|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1759077407
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|7
+|
+|t:|1759077417
+|move|p1a: Dragapult|Draco Meteor|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Moltres
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by arxxxxxx)
+|
+|t:|1759077459
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Electric Seed
+|turn|8
+|
+|t:|1759077471
+|switch|p1a: Slowking|Slowking-Galar, F|70/100
+|move|p2a: Hawlucha|Encore||[still]
+|-fail|p2a: Hawlucha
+|
+|-heal|p1a: Slowking|76/100|[from] item: Black Sludge
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+|
+|t:|1759077485
+|move|p2a: Hawlucha|Acrobatics|p1a: Slowking
+|-damage|p1a: Slowking|28/100
+|move|p1a: Slowking|Eerie Spell|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|20/100
+|-activate|p2a: Hawlucha|move: Eerie Spell|Acrobatics|3
+|
+|-heal|p1a: Slowking|34/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1759077499
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: Hawlucha|Acrobatics|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|52/100
+|
+|-heal|p1a: Weezing|58/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1759077512
+|move|p2a: Hawlucha|Acrobatics|p1a: Weezing
+|-damage|p1a: Weezing|28/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-heal|p1a: Weezing|34/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1759077525
+|switch|p2a: Mienshao|Mienshao, M|100/100
+|turn|12
+|
+|t:|1759077550
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Mienshao|Ice Spinner|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-damage|p2a: Mienshao|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1759077559
+|switch|p1a: Slowking|Slowking-Galar, F|67/100
+|turn|13
+|
+|t:|1759077565
+|move|p2a: Mienshao|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|33/100
+|-damage|p2a: Mienshao|81/100|[from] item: Life Orb
+|
+|t:|1759077572
+|switch|p2a: Pincurchin|Pincurchin, M|82/100 tox|[from] U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Slowking|Eerie Spell|p2a: Pincurchin
+|-damage|p2a: Pincurchin|45/100 tox
+|
+|-heal|p1a: Slowking|39/100|[from] item: Black Sludge
+|-damage|p2a: Pincurchin|39/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1759077593
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Pincurchin|Sucker Punch||[still]
+|-fail|p2a: Pincurchin
+|
+|-damage|p2a: Pincurchin|27/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1759077603
+|move|p1a: Tornadus|Knock Off|p2a: Pincurchin
+|-damage|p2a: Pincurchin|3/100 tox
+|-enditem|p2a: Pincurchin|Terrain Extender|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Pincurchin|Memento|p1a: Tornadus
+|-unboost|p1a: Tornadus|atk|2
+|-unboost|p1a: Tornadus|spa|2
+|faint|p2a: Pincurchin
+|
+|upkeep
+|
+|t:|1759077617
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-activate|p2a: Iron Moth|ability: Quark Drive
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|16
+|
+|t:|1759077633
+|move|p1a: Tornadus|Taunt|p2a: Iron Moth
+|-start|p2a: Iron Moth|move: Taunt
+|move|p2a: Iron Moth|Meteor Beam||[still]
+|-prepare|p2a: Iron Moth|Meteor Beam
+|-boost|p2a: Iron Moth|spa|1
+|-enditem|p2a: Iron Moth|Power Herb
+|-anim|p2a: Iron Moth|Meteor Beam|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1759077644
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|17
+|
+|t:|1759077651
+|-terastallize|p1a: Samurott|Water
+|-terastallize|p2a: Iron Moth|Grass
+|move|p1a: Samurott|Aqua Cutter|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|45/100
+|move|p2a: Iron Moth|Energy Ball|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1759077663
+|switch|p1a: Slowking|Slowking-Galar, F|72/100
+|turn|18
+|
+|t:|1759077670
+|move|p2a: Iron Moth|Fiery Dance|p1a: Slowking
+|-damage|p1a: Slowking|26/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Slowking|Sludge Bomb|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p1a: Slowking|32/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1759077695
+|switch|p2a: Arboliva|Arboliva, F|100/100
+|turn|19
+|
+|t:|1759077713
+|move|p2a: Arboliva|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1759077717
+|switch|p1a: Weezing|Weezing-Galar, M|34/100
+|turn|20
+|
+|t:|1759077728
+|move|p1a: Weezing|Sludge Bomb|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-damage|p2a: Arboliva|70/100
+|move|p2a: Arboliva|Terrain Pulse|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|win|AlexCHZ
+|raw|arxxxxxx's rating: 1081 &rarr; <strong>1061</strong><br />(-20 for losing)
+|raw|AlexCHZ's rating: 1112 &rarr; <strong>1135</strong><br />(+23 for winning)
+|l|☆arxxxxxx
+|player|p1|

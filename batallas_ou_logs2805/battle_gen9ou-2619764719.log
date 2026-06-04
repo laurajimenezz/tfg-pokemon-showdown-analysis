@@ -1,0 +1,424 @@
+|j|☆Nandu-17
+|j|☆killbot18
+|t:|1779960814
+|gametype|singles
+|player|p1|Nandu-17|2|1413
+|player|p2|killbot18|169|1462
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sinistcha|
+|poke|p1|Iron Valiant|
+|poke|p1|Dragonite, F|
+|poke|p1|Gholdengo|
+|poke|p1|Ting-Lu|
+|poke|p1|Great Tusk|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1779960835
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Valiant|atk|1
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Nandu-17)
+|
+|t:|1779960846
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|86/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779960850
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Slowking|Thunder Wave|p1a: Ting-Lu
+|-immune|p1a: Ting-Lu
+|
+|upkeep
+|turn|3
+|
+|t:|1779960855
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Slowking
+|-sidestart|p2: killbot18|move: Stealth Rock
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1779960863
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Chilly Reception
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ting-Lu|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1779960868
+|move|p2a: Landorus|Stealth Rock|p1a: Ting-Lu
+|-sidestart|p1: Nandu-17|move: Stealth Rock
+|move|p1a: Ting-Lu|Spikes|p2a: Landorus
+|-sidestart|p2: killbot18|Spikes
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1779960874
+|move|p2a: Landorus|Taunt|p1a: Ting-Lu
+|-start|p1a: Ting-Lu|move: Taunt
+|cant|p1a: Ting-Lu|move: Taunt|Whirlwind
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779960879
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Landorus|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|92/100
+|
+|t:|1779960891
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100|[from] U-turn
+|-damage|p2a: Samurott|88/100|[from] Stealth Rock
+|-damage|p2a: Samurott|76/100|[from] Spikes
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1779960901
+|move|p2a: Samurott|Flip Turn|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|53/100
+|
+|t:|1779960911
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] Flip Turn
+|move|p1a: Great Tusk|Rapid Spin|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1779960918
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-damage|p1a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Ting-Lu
+|-status|p1a: Ting-Lu|brn
+|
+|-heal|p1a: Ting-Lu|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1779960923
+|move|p2a: Dragapult|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|74/100 brn
+|
+|t:|1779960931
+|switch|p2a: Samurott|Samurott-Hisui, M|76/100|[from] U-turn
+|-damage|p2a: Samurott|63/100|[from] Stealth Rock
+|-damage|p2a: Samurott|51/100|[from] Spikes
+|move|p1a: Ting-Lu|Whirlwind|p2a: Samurott
+|drag|p2a: Dragapult|Dragapult, F|100/100
+|
+|-heal|p1a: Ting-Lu|80/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|74/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1779960941
+|move|p2a: Dragapult|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|53/100 brn
+|
+|t:|1779960944
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100|[from] U-turn
+|move|p1a: Ting-Lu|Whirlwind|p2a: Hoopa
+|drag|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ting-Lu|atk|1
+|
+|-heal|p1a: Ting-Lu|59/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|53/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1779960953
+|switch|p1a: Great Tusk|Great Tusk|53/100
+|move|p2a: Landorus|Taunt|p1a: Great Tusk
+|-start|p1a: Great Tusk|move: Taunt
+|
+|upkeep
+|turn|12
+|
+|t:|1779960961
+|-terastallize|p2a: Landorus|Ghost
+|move|p2a: Landorus|Earth Power|p1a: Great Tusk
+|-damage|p1a: Great Tusk|10/100
+|move|p1a: Great Tusk|Knock Off|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|9/100
+|-damage|p1a: Great Tusk|0 fnt|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779960984
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1779960989
+|move|p1a: Iron Valiant|Moonblast|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1779961000
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|14
+|
+|t:|1779961006
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|53/100 brn
+|-damage|p1a: Ting-Lu|47/100 brn|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1779961011
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ting-Lu|53/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|47/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1779961026
+|move|p2a: Hoopa|Drain Punch|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|11/100 brn
+|move|p1a: Ting-Lu|Spikes|p2a: Hoopa
+|-sidestart|p2: killbot18|Spikes
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ting-Lu|17/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|11/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1779961038
+|move|p2a: Hoopa|Knock Off|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-enditem|p1a: Ting-Lu|Leftovers|[from] move: Knock Off|[of] p2a: Hoopa
+|faint|p1a: Ting-Lu
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779961042
+|switch|p1a: Iron Valiant|Iron Valiant|94/100
+|-damage|p1a: Iron Valiant|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1779961049
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Iron Valiant|Close Combat|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|88/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1779961057
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|move|p2a: Slowking|Thunder Wave|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1779961062
+|move|p1a: Gholdengo|Trick|p2a: Slowking
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Slowking
+|-item|p2a: Slowking|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Heavy-Duty Boots|[from] move: Trick
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1779961071
+|switch|p2a: Samurott|Samurott-Hisui, M|51/100|[from] Chilly Reception
+|-damage|p2a: Samurott|38/100|[from] Stealth Rock
+|-damage|p2a: Samurott|22/100|[from] Spikes
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1779961084
+|move|p2a: Samurott|Ceaseless Edge|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|1/100
+|-sidestart|p1: Nandu-17|Spikes
+|move|p1a: Gholdengo|Thunderbolt|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779961098
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|21
+|
+|t:|1779961103
+|move|p2a: Dragapult|Hex|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779961108
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|22
+|
+|t:|1779961116
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Dragonite
+|-status|p1a: Dragonite|brn
+|move|p1a: Dragonite|Ice Spinner|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|59/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Dragonite|94/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1779961123
+|move|p2a: Dragapult|Dragon Darts|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|50/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|5/100 brn
+|move|p1a: Dragonite|Ice Spinner|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|19/100
+|
+|-weather|none
+|-damage|p1a: Dragonite|0 fnt|[from] brn
+|faint|p1a: Dragonite
+|upkeep
+|
+|t:|1779961135
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|-damage|p1a: Sinistcha|88/100|[from] Stealth Rock
+|-damage|p1a: Sinistcha|76/100|[from] Spikes
+|turn|24
+|
+|t:|1779961142
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Sinistcha
+|-status|p1a: Sinistcha|brn
+|move|p1a: Sinistcha|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Sinistcha|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Sinistcha|76/100 brn|[from] brn
+|upkeep
+|
+|t:|1779961151
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|25
+|
+|t:|1779961158
+|move|p2a: Hoopa|Psychic Noise|p1a: Sinistcha
+|-damage|p1a: Sinistcha|15/100 brn
+|-start|p1a: Sinistcha|move: Heal Block
+|cant|p1a: Sinistcha|move: Heal Block|Matcha Gotcha
+|
+|-damage|p1a: Sinistcha|9/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1779961169
+|move|p2a: Hoopa|Knock Off|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|-enditem|p1a: Sinistcha|Leftovers|[from] move: Knock Off|[of] p2a: Hoopa
+|faint|p1a: Sinistcha
+|
+|upkeep
+|
+|t:|1779961171
+|switch|p1a: Iron Valiant|Iron Valiant|88/100
+|-damage|p1a: Iron Valiant|82/100|[from] Stealth Rock
+|-damage|p1a: Iron Valiant|69/100|[from] Spikes
+|turn|27
+|
+|t:|1779961176
+|move|p1a: Iron Valiant|Close Combat|p2a: Hoopa
+|-damage|p2a: Hoopa|5/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|move|p2a: Hoopa|Psychic Noise|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|win|killbot18
+|raw|Nandu-17's rating: 1413 &rarr; <strong>1396</strong><br />(-17 for losing)
+|raw|killbot18's rating: 1462 &rarr; <strong>1479</strong><br />(+17 for winning)
+|l|☆Nandu-17
+|player|p1|

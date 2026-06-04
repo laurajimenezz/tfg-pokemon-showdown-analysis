@@ -1,0 +1,226 @@
+|j|☆ayayaphone
+|j|☆afnkm
+|t:|1759056017
+|gametype|singles
+|player|p1|ayayaphone|266|1524
+|player|p2|afnkm|red|1478
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Raging Bolt|
+|poke|p1|Pincurchin, F|
+|poke|p1|Hawlucha, F|
+|poke|p1|Iron Treads|
+|poke|p1|Meloetta|
+|poke|p1|Rotom-Wash|
+|poke|p2|Torkoal, M|
+|poke|p2|Charizard, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Great Tusk|
+|poke|p2|Walking Wake|
+|poke|p2|Lilligant-Hisui, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ayayaphone)
+|
+|t:|1759056026
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1759056035
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Raging Bolt|Volt Switch|p2a: Hatterene
+|-damage|p2a: Hatterene|57/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1759056037
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1759056041
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Rotom
+|-damage|p1a: Rotom|38/100
+|-unboost|p2a: Walking Wake|spa|2
+|-damage|p2a: Walking Wake|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1759056056
+|move|p2a: Walking Wake|Draco Meteor|p1a: Rotom
+|-damage|p1a: Rotom|7/100
+|-unboost|p2a: Walking Wake|spa|2
+|-damage|p2a: Walking Wake|81/100|[from] item: Life Orb
+|move|p1a: Rotom|Pain Split|p2a: Walking Wake
+|-sethp|p2a: Walking Wake|44/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|49/100|[from] move: Pain Split
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1759056064
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Charizard|Charizard, F|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Charizard
+|-immune|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|5
+|
+|t:|1759056094
+|move|p2a: Charizard|Overheat|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Charizard|spa|2
+|faint|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|76/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|
+|t:|1759056106
+|switch|p1a: Meloetta|Meloetta|100/100
+|turn|6
+|
+|t:|1759056114
+|-terastallize|p2a: Charizard|Fire
+|move|p2a: Charizard|Overheat|p1a: Meloetta
+|-damage|p1a: Meloetta|37/100
+|-unboost|p2a: Charizard|spa|2
+|move|p1a: Meloetta|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|13/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|0 fnt|[from] ability: Solar Power|[of] p2a: Charizard
+|faint|p2a: Charizard
+|upkeep
+|
+|t:|1759056118
+|switch|p2a: Walking Wake|Walking Wake|44/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|7
+|
+|t:|1759056127
+|move|p2a: Walking Wake|Hydro Steam|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|-damage|p2a: Walking Wake|34/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1759056135
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|8
+|
+|t:|1759056140
+|move|p2a: Walking Wake|Draco Meteor|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Pincurchin
+|-damage|p2a: Walking Wake|24/100|[from] item: Life Orb
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1759056147
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p1a: Hawlucha|Electric Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Electric Seed
+|turn|9
+|
+|t:|1759056154
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1759056158
+|move|p1a: Hawlucha|Taunt|p2a: Torkoal
+|-start|p2a: Torkoal|move: Taunt
+|move|p2a: Torkoal|Clear Smog|p1a: Hawlucha
+|-damage|p1a: Hawlucha|86/100
+|-clearboost|p1a: Hawlucha
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1759056160
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Torkoal|Clear Smog|p1a: Hawlucha
+|-damage|p1a: Hawlucha|71/100
+|-clearboost|p1a: Hawlucha
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1759056164
+|move|p1a: Hawlucha|Acrobatics|p2a: Torkoal
+|-damage|p2a: Torkoal|72/100
+|move|p2a: Torkoal|Clear Smog|p1a: Hawlucha
+|-damage|p1a: Hawlucha|55/100
+|-clearboost|p1a: Hawlucha
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Torkoal|move: Taunt
+|upkeep
+|turn|13
+|
+|t:|1759056170
+|move|p1a: Hawlucha|Close Combat|p2a: Torkoal
+|-damage|p2a: Torkoal|40/100
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|move|p2a: Torkoal|Will-O-Wisp|p1a: Hawlucha
+|-status|p1a: Hawlucha|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Hawlucha|49/100 brn|[from] brn
+|upkeep
+|turn|14
+|-message|ayayaphone forfeited.
+|
+|win|afnkm
+|raw|ayayaphone's rating: 1524 &rarr; <strong>1501</strong><br />(-23 for losing)
+|raw|afnkm's rating: 1478 &rarr; <strong>1501</strong><br />(+23 for winning)
+|l|☆ayayaphone
+|player|p1|
+|l|☆afnkm
+|player|p2|

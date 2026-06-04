@@ -1,0 +1,322 @@
+|j|☆carlo conti nero
+|j|☆newgaem
+|t:|1779878045
+|gametype|singles
+|player|p1|carlo conti nero|hoopster|1301
+|player|p2|newgaem|blue|1341
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Barraskewda, F|
+|poke|p1|Iron Treads|
+|poke|p1|Kingdra, F|
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Zapdos|
+|poke|p2|Armarouge, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Ceruledge, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Cyclizar, F|
+|teampreview
+|
+|t:|1779878071
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Fefnir|Armarouge, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1779878080
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100
+|move|p2a: Fefnir|Energy Ball|p1a: Goodra
+|-ability|p1a: Goodra|Sap Sipper|boost
+|-boost|p1a: Goodra|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1779878091
+|move|p2a: Fefnir|Armor Cannon|p1a: Goodra
+|-damage|p1a: Goodra|87/100
+|-unboost|p2a: Fefnir|def|1
+|-unboost|p2a: Fefnir|spd|1
+|move|p1a: Goodra|Thunder|p2a: Fefnir
+|-damage|p2a: Fefnir|29/100
+|-status|p2a: Fefnir|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779878102
+|move|p1a: Goodra|Flash Cannon|p2a: Fefnir
+|-resisted|p2a: Fefnir
+|-damage|p2a: Fefnir|0 fnt
+|faint|p2a: Fefnir
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779878112
+|switch|p2a: Leviathan|Mimikyu, M|100/100
+|turn|4
+|
+|t:|1779878115
+|move|p2a: Leviathan|Curse|p1a: Goodra
+|-start|p1a: Goodra|Curse|[of] p2a: Leviathan
+|-damage|p2a: Leviathan|50/100
+|move|p1a: Goodra|Flash Cannon|p2a: Leviathan
+|-activate|p2a: Leviathan|ability: Disguise
+|-damage|p2a: Leviathan|50/100
+|detailschange|p2a: Leviathan|Mimikyu-Busted, M
+|-damage|p2a: Leviathan|38/100|[from] pokemon: Mimikyu-Busted
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Leviathan|44/100|[from] item: Leftovers
+|-damage|p1a: Goodra|62/100|[from] Curse
+|upkeep
+|turn|5
+|
+|t:|1779878130
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Leviathan|Destiny Bond|p2a: Leviathan
+|-singlemove|p2a: Leviathan|Destiny Bond
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Leviathan|50/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1779878143
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdriveatk
+|move|p2a: Leviathan|Pain Split|p1a: Iron Treads
+|-sethp|p1a: Iron Treads|71/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Leviathan|86/100|[from] move: Pain Split
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Leviathan|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779878171
+|move|p2a: Leviathan|Destiny Bond|p2a: Leviathan
+|-singlemove|p2a: Leviathan|Destiny Bond
+|move|p1a: Iron Treads|Iron Head|p2a: Leviathan
+|-supereffective|p2a: Leviathan
+|-damage|p2a: Leviathan|0 fnt
+|faint|p2a: Leviathan
+|-activate|p2a: Leviathan|move: Destiny Bond
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779878182
+|switch|p2a: Omega|Iron Valiant|100/100
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|-enditem|p2a: Omega|Booster Energy
+|-activate|p2a: Omega|ability: Quark Drive|[fromitem]
+|-start|p2a: Omega|quarkdrivespe
+|turn|8
+|
+|t:|1779878191
+|move|p2a: Omega|Spirit Break|p1a: Zapdos
+|-damage|p1a: Zapdos|50/100
+|-unboost|p1a: Zapdos|spa|1
+|move|p1a: Zapdos|Hurricane|p2a: Omega
+|-supereffective|p2a: Omega
+|-damage|p2a: Omega|0 fnt
+|faint|p2a: Omega
+|-end|p2a: Omega|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1779878202
+|switch|p2a: Zero|Ceruledge, M, shiny|100/100
+|turn|9
+|
+|t:|1779878205
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Zero|Bitter Blade|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|88/100
+|-damage|p2a: Zero|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1779878216
+|move|p2a: Zero|Swords Dance|p2a: Zero
+|-boost|p2a: Zero|atk|2
+|move|p1a: Pelipper|U-turn|p2a: Zero
+|-resisted|p2a: Zero
+|-damage|p2a: Zero|87/100
+|-ability|p2a: Zero|Weak Armor|boost
+|-unboost|p2a: Zero|def|1
+|-boost|p2a: Zero|spe|2
+|
+|t:|1779878219
+|switch|p1a: Kingdra|Kingdra, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779878229
+|-terastallize|p1a: Kingdra|Steel
+|move|p2a: Zero|Destiny Bond|p2a: Zero
+|-singlemove|p2a: Zero|Destiny Bond
+|move|p1a: Kingdra|Weather Ball|p2a: Zero
+|-supereffective|p2a: Zero
+|-damage|p2a: Zero|0 fnt
+|faint|p2a: Zero
+|-activate|p2a: Zero|move: Destiny Bond
+|faint|p1a: Kingdra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779878243
+|switch|p2a: Bishamonten|Kingambit, F|100/100
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|-activate|p2a: Bishamonten|ability: Supreme Overlord
+|-start|p2a: Bishamonten|fallen4|[silent]
+|turn|12
+|
+|t:|1779878251
+|switch|p1a: Zapdos|Zapdos|50/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Bishamonten|Sucker Punch||[still]
+|-fail|p2a: Bishamonten
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1779878259
+|move|p1a: Zapdos|Thunder|p2a: Bishamonten
+|-damage|p2a: Bishamonten|49/100
+|move|p2a: Bishamonten|Kowtow Cleave|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Bishamonten|55/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779878268
+|switch|p1a: Goodra|Goodra-Hisui, M|62/100
+|turn|14
+|
+|t:|1779878278
+|move|p1a: Goodra|Thunder|p2a: Bishamonten
+|-damage|p2a: Bishamonten|19/100
+|-status|p2a: Bishamonten|par
+|move|p2a: Bishamonten|Kowtow Cleave|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Bishamonten|25/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1779878285
+|switch|p1a: Pelipper|Pelipper, M|88/100
+|turn|15
+|
+|t:|1779878293
+|-end|p2a: Bishamonten|fallen4|[silent]
+|switch|p2a: Harpuia|Cyclizar, F|100/100
+|move|p1a: Pelipper|Hurricane|p2a: Harpuia
+|-damage|p2a: Harpuia|37/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1779878301
+|move|p2a: Harpuia|Draco Meteor|p1a: Pelipper
+|-damage|p1a: Pelipper|12/100
+|-unboost|p2a: Harpuia|spa|2
+|move|p1a: Pelipper|Hurricane|p2a: Harpuia
+|-damage|p2a: Harpuia|0 fnt
+|faint|p2a: Harpuia
+|
+|-weather|none
+|upkeep
+|
+|t:|1779878311
+|switch|p2a: Bishamonten|Kingambit, F|25/100 par
+|-activate|p2a: Bishamonten|ability: Supreme Overlord
+|-start|p2a: Bishamonten|fallen5|[silent]
+|turn|17
+|
+|t:|1779878316
+|cant|p2a: Bishamonten|par
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|62/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-heal|p2a: Bishamonten|32/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1779878325
+|move|p1a: Pelipper|Hurricane|p2a: Bishamonten
+|-resisted|p2a: Bishamonten
+|-damage|p2a: Bishamonten|14/100 par
+|move|p2a: Bishamonten|Kowtow Cleave|p1a: Pelipper
+|-damage|p1a: Pelipper|1/100
+|
+|-heal|p2a: Bishamonten|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1779878335
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|52/100
+|-singleturn|p1a: Pelipper|move: Roost
+|move|p2a: Bishamonten|Kowtow Cleave|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-heal|p2a: Bishamonten|26/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1779878341
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|20
+|
+|t:|1779878347
+|move|p2a: Bishamonten|Sucker Punch|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|win|newgaem
+|raw|carlo conti nero's rating: 1301 &rarr; <strong>1283</strong><br />(-18 for losing)
+|raw|newgaem's rating: 1341 &rarr; <strong>1359</strong><br />(+18 for winning)
+|l|☆carlo conti nero
+|player|p1|

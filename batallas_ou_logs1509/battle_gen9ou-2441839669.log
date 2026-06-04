@@ -1,0 +1,932 @@
+|j|☆DrMira
+|j|☆Montagesq
+|t:|1757909000
+|gametype|singles
+|player|p1|DrMira|1|1137
+|player|p2|Montagesq|170|1115
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Greninja-*, F|
+|poke|p1|Azelf|
+|poke|p1|Great Tusk|
+|poke|p1|Moltres|
+|poke|p1|Raikou|
+|poke|p1|Dragonite, M|
+|poke|p2|Alomomola, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Gholdengo|
+|poke|p2|Ting-Lu|
+|poke|p2|Cinderace, F|
+|poke|p2|Bellossom, F|
+|teampreview
+|
+|t:|1757909010
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Greninja|Greninja, F|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|1
+|
+|t:|1757909015
+|move|p2a: Gholdengo|Trick|p1a: Greninja
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Greninja
+|-item|p1a: Greninja|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Expert Belt|[from] move: Trick
+|move|p1a: Greninja|Dark Pulse|p2a: Gholdengo
+|-start|p1a: Greninja|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|32/100
+|
+|upkeep
+|turn|2
+|
+|t:|1757909025
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Greninja|Dark Pulse|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|92/100
+|
+|upkeep
+|turn|3
+|
+|t:|1757909033
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Ting-Lu|Spikes|p1a: Great Tusk
+|-sidestart|p1: DrMira|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1757909037
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Body Press|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|79/100
+|
+|-heal|p2a: Landorus|85/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1757909046
+|move|p2a: Landorus|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|97/100
+|
+|t:|1757909049
+|switch|p2a: Alomomola|Alomomola, M|100/100|[from] U-turn
+|move|p1a: Great Tusk|Rapid Spin|p2a: Alomomola
+|-damage|p2a: Alomomola|95/100
+|-boost|p1a: Great Tusk|spe|1
+|-damage|p1a: Great Tusk|80/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|-sideend|p1: DrMira|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|6
+|
+|t:|1757909056
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Raikou|Raikou|100/100
+|move|p2a: Alomomola|Flip Turn|p1a: Raikou
+|-damage|p1a: Raikou|79/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DrMira)
+|
+|t:|1757909062
+|switch|p2a: Ting-Lu|Ting-Lu|92/100|[from] Flip Turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|upkeep
+|turn|7
+|
+|t:|1757909076
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Ting-Lu|Spikes|p1a: Dragonite
+|-sidestart|p1: DrMira|Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1757909085
+|switch|p2a: Landorus|Landorus-Therian, M|85/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Landorus|91/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1757909102
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Landorus|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|94/100
+|
+|t:|1757909107
+|switch|p2a: Alomomola|Alomomola, M|100/100|[from] U-turn
+|
+|-heal|p1a: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1757909111
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Alomomola|Flip Turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|94/100
+|
+|t:|1757909123
+|switch|p2a: Landorus|Landorus-Therian, M|91/100|[from] Flip Turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|
+|-heal|p1a: Dragonite|99/100|[from] item: Leftovers
+|-heal|p2a: Landorus|97/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1757909128
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p1a: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1757909133
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Alomomola|Flip Turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|96/100
+|
+|t:|1757909136
+|switch|p2a: Landorus|Landorus-Therian, M|97/100|[from] Flip Turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|
+|-heal|p1a: Dragonite|100/100|[from] item: Leftovers
+|-heal|p2a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1757909140
+|move|p1a: Dragonite|Dragon Claw|p2a: Landorus
+|-damage|p2a: Landorus|8/100
+|move|p2a: Landorus|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|94/100
+|
+|t:|1757909143
+|switch|p2a: Alomomola|Alomomola, M|100/100|[from] U-turn
+|
+|-heal|p1a: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1757909167
+|move|p1a: Dragonite|Dragon Claw|p2a: Alomomola
+|-damage|p2a: Alomomola|52/100
+|-damage|p1a: Dragonite|84/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|move|p2a: Alomomola|Flip Turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|75/100
+|
+|t:|1757909170
+|switch|p2a: Landorus|Landorus-Therian, M|8/100|[from] Flip Turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|
+|-heal|p1a: Dragonite|81/100|[from] item: Leftovers
+|-heal|p2a: Landorus|14/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1757909175
+|switch|p2a: Alomomola|Alomomola, M|85/100
+|move|p1a: Dragonite|Dragon Claw|p2a: Alomomola
+|-damage|p2a: Alomomola|48/100
+|-damage|p1a: Dragonite|65/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|
+|-heal|p1a: Dragonite|71/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1757909178
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Alomomola|Flip Turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|62/100
+|
+|t:|1757909180
+|switch|p2a: Landorus|Landorus-Therian, M|14/100|[from] Flip Turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|
+|-heal|p1a: Dragonite|69/100|[from] item: Leftovers
+|-heal|p2a: Landorus|20/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1757909183
+|switch|p2a: Alomomola|Alomomola, M|81/100
+|move|p1a: Dragonite|Dragon Claw|p2a: Alomomola
+|-damage|p2a: Alomomola|45/100
+|-damage|p1a: Dragonite|52/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|
+|-heal|p1a: Dragonite|58/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1757909186
+|move|p1a: Dragonite|Dragon Claw|p2a: Alomomola
+|-damage|p2a: Alomomola|10/100
+|-damage|p1a: Dragonite|42/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|move|p2a: Alomomola|Flip Turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|33/100
+|
+|t:|1757909190
+|switch|p2a: Landorus|Landorus-Therian, M|20/100|[from] Flip Turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|
+|-heal|p1a: Dragonite|39/100|[from] item: Leftovers
+|-heal|p2a: Landorus|26/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1757909206
+|switch|p2a: Alomomola|Alomomola, M|43/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|0
+|
+|-heal|p1a: Dragonite|45/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1757909212
+|move|p1a: Dragonite|Dragon Claw|p2a: Alomomola
+|-damage|p2a: Alomomola|3/100
+|-damage|p1a: Dragonite|29/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|move|p2a: Alomomola|Flip Turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|19/100
+|
+|t:|1757909217
+|switch|p2a: Landorus|Landorus-Therian, M|26/100|[from] Flip Turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|
+|-heal|p1a: Dragonite|25/100|[from] item: Leftovers
+|-heal|p2a: Landorus|32/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1757909226
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|0
+|move|p2a: Landorus|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|13/100
+|
+|t:|1757909229
+|switch|p2a: Alomomola|Alomomola, M|36/100|[from] U-turn
+|
+|-heal|p1a: Dragonite|19/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1757909241
+|switch|p2a: Landorus|Landorus-Therian, M|32/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|move|p1a: Dragonite|Dragon Claw|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-heal|p1a: Dragonite|26/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757909243
+|switch|p2a: Alomomola|Alomomola, M|69/100
+|turn|23
+|c|☆DrMira|man that was annoying
+|
+|t:|1757909264
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|0
+|move|p2a: Alomomola|Icy Wind|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|1/100
+|-unboost|p1a: Dragonite|spe|1
+|
+|-heal|p1a: Dragonite|7/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1757909269
+|switch|p1a: Raikou|Raikou|79/100
+|-damage|p1a: Raikou|66/100|[from] Spikes
+|move|p2a: Alomomola|Icy Wind|p1a: Raikou|[miss]
+|-miss|p2a: Alomomola|p1a: Raikou
+|
+|upkeep
+|turn|25
+|
+|t:|1757909273
+|switch|p2a: Ting-Lu|Ting-Lu|92/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Raikou|Thunderbolt|p2a: Ting-Lu
+|-immune|p2a: Ting-Lu
+|
+|upkeep
+|turn|26
+|
+|t:|1757909278
+|move|p1a: Raikou|Aura Sphere|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|66/100
+|move|p2a: Ting-Lu|Spikes|p1a: Raikou
+|-sidestart|p1: DrMira|Spikes
+|
+|upkeep
+|turn|27
+|
+|t:|1757909295
+|switch|p1a: Great Tusk|Great Tusk|80/100
+|-damage|p1a: Great Tusk|63/100|[from] Spikes
+|move|p2a: Ting-Lu|Snarl|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|56/100
+|-unboost|p1a: Great Tusk|spa|1
+|
+|upkeep
+|turn|28
+|
+|t:|1757909303
+|switch|p2a: Gholdengo|Gholdengo|32/100
+|move|p1a: Great Tusk|Body Press|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|29
+|
+|t:|1757909309
+|move|p2a: Gholdengo|Flash Cannon|p1a: Great Tusk
+|-damage|p1a: Great Tusk|12/100
+|move|p1a: Great Tusk|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1757909316
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|30
+|
+|t:|1757909327
+|move|p2a: Cinderace|Pyro Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1757909329
+|switch|p1a: Azelf|Azelf|100/100
+|turn|31
+|inactive|DrMira has 120 seconds left.
+|inactive|DrMira has 90 seconds left.
+|inactive|DrMira has 60 seconds left.
+|
+|t:|1757909436
+|switch|p2a: Ting-Lu|Ting-Lu|66/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Azelf|Mystical Power|p2a: Ting-Lu
+|-immune|p2a: Ting-Lu
+|
+|upkeep
+|turn|32
+|
+|t:|1757909444
+|move|p1a: Azelf|Draining Kiss|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|50/100
+|move|p2a: Ting-Lu|Spikes|p1a: Azelf
+|-sidestart|p1: DrMira|Spikes
+|
+|upkeep
+|turn|33
+|
+|t:|1757909448
+|move|p1a: Azelf|Calm Mind|p1a: Azelf
+|-boost|p1a: Azelf|spa|1
+|-boost|p1a: Azelf|spd|1
+|move|p2a: Ting-Lu|Snarl|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|76/100
+|-unboost|p1a: Azelf|spa|1
+|
+|upkeep
+|turn|34
+|
+|t:|1757909452
+|move|p1a: Azelf|Draining Kiss|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|35/100
+|-heal|p1a: Azelf|95/100|[from] drain|[of] p2a: Ting-Lu
+|-heal|p1a: Azelf|98/100|[from] item: Shell Bell|[of] p2a: Ting-Lu
+|move|p2a: Ting-Lu|Snarl|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|71/100
+|-unboost|p1a: Azelf|spa|1
+|
+|upkeep
+|turn|35
+|
+|t:|1757909459
+|switch|p1a: Greninja|Greninja, F|100/100
+|-damage|p1a: Greninja|76/100|[from] Spikes
+|move|p2a: Ting-Lu|Rest|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|slp|[from] move: Rest
+|-heal|p2a: Ting-Lu|100/100 slp|[silent]
+|-enditem|p2a: Ting-Lu|Chesto Berry|[eat]
+|-curestatus|p2a: Ting-Lu|slp|[msg]
+|
+|upkeep
+|turn|36
+|
+|t:|1757909463
+|move|p1a: Greninja|Hydro Pump|p2a: Ting-Lu
+|-start|p1a: Greninja|typechange|Water|[from] ability: Protean
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|58/100
+|move|p2a: Ting-Lu|Snarl|p1a: Greninja
+|-damage|p1a: Greninja|58/100
+|-unboost|p1a: Greninja|spa|1
+|
+|upkeep
+|turn|37
+|inactive|DrMira has 90 seconds left.
+|
+|t:|1757909470
+|move|p1a: Greninja|Hydro Pump|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|31/100
+|move|p2a: Ting-Lu|Snarl|p1a: Greninja
+|-damage|p1a: Greninja|40/100
+|-unboost|p1a: Greninja|spa|1
+|
+|upkeep
+|turn|38
+|inactive|DrMira has 90 seconds left.
+|
+|t:|1757909489
+|switch|p1a: Moltres|Moltres|100/100
+|-ability|p1a: Moltres|Pressure
+|move|p2a: Ting-Lu|Rest|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|slp|[from] move: Rest
+|-heal|p2a: Ting-Lu|100/100 slp|[silent]
+|
+|upkeep
+|turn|39
+|
+|t:|1757909494
+|cant|p2a: Ting-Lu|slp
+|move|p1a: Moltres|Roar|p2a: Ting-Lu
+|drag|p2a: Bellossom|Bellossom, F|100/100
+|
+|upkeep
+|turn|40
+|
+|t:|1757909503
+|switch|p2a: Ting-Lu|Ting-Lu|100/100 slp
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Moltres|Fire Blast|p2a: Ting-Lu|[miss]
+|-miss|p1a: Moltres|p2a: Ting-Lu
+|
+|upkeep
+|turn|41
+|
+|t:|1757909509
+|cant|p2a: Ting-Lu|slp
+|move|p1a: Moltres|Roar|p2a: Ting-Lu
+|drag|p2a: Bellossom|Bellossom, F|100/100
+|
+|upkeep
+|turn|42
+|
+|t:|1757909513
+|switch|p2a: Ting-Lu|Ting-Lu|100/100 slp
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Moltres|Fire Blast|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|73/100 slp
+|
+|upkeep
+|turn|43
+|
+|t:|1757909520
+|-curestatus|p2a: Ting-Lu|slp|[msg]
+|move|p2a: Ting-Lu|Snarl|p1a: Moltres
+|-damage|p1a: Moltres|90/100
+|-unboost|p1a: Moltres|spa|1
+|move|p1a: Moltres|Roar|p2a: Ting-Lu
+|drag|p2a: Alomomola|Alomomola, M|100/100
+|
+|upkeep
+|turn|44
+|
+|t:|1757909527
+|switch|p1a: Raikou|Raikou|66/100
+|-damage|p1a: Raikou|41/100|[from] Spikes
+|switch|p2a: Ting-Lu|Ting-Lu|73/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|upkeep
+|turn|45
+|
+|t:|1757909538
+|move|p1a: Raikou|Shadow Ball|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|67/100
+|-unboost|p2a: Ting-Lu|spd|1
+|move|p2a: Ting-Lu|Snarl|p1a: Raikou
+|-damage|p1a: Raikou|28/100
+|-unboost|p1a: Raikou|spa|1
+|
+|upkeep
+|turn|46
+|
+|t:|1757909546
+|move|p1a: Raikou|Shadow Ball|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|61/100
+|move|p2a: Ting-Lu|Snarl|p1a: Raikou
+|-damage|p1a: Raikou|15/100
+|-unboost|p1a: Raikou|spa|1
+|
+|upkeep
+|turn|47
+|
+|t:|1757909555
+|switch|p1a: Greninja|Greninja, F|40/100
+|-damage|p1a: Greninja|15/100|[from] Spikes
+|move|p2a: Ting-Lu|Snarl|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|6/100
+|-unboost|p1a: Greninja|spa|1
+|
+|upkeep
+|turn|48
+|
+|t:|1757909560
+|switch|p2a: Bellossom|Bellossom, F|100/100
+|move|p1a: Greninja|Hydro Pump|p2a: Bellossom|[miss]
+|-start|p1a: Greninja|typechange|Water|[from] ability: Protean
+|-miss|p1a: Greninja|p2a: Bellossom
+|
+|upkeep
+|turn|49
+|
+|t:|1757909571
+|move|p1a: Greninja|Hydro Pump|p2a: Bellossom
+|-resisted|p2a: Bellossom
+|-damage|p2a: Bellossom|86/100
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|
+|upkeep
+|turn|50
+|
+|t:|1757909578
+|switch|p1a: Azelf|Azelf|71/100
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|
+|upkeep
+|turn|51
+|
+|t:|1757909589
+|move|p1a: Azelf|Calm Mind|p1a: Azelf
+|-boost|p1a: Azelf|spa|1
+|-boost|p1a: Azelf|spd|1
+|move|p2a: Bellossom|Giga Drain|p1a: Azelf
+|-crit|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|-heal|p2a: Bellossom|100/100|[from] drain|[of] p1a: Azelf
+|faint|p1a: Azelf
+|
+|upkeep
+|
+|t:|1757909592
+|switch|p1a: Moltres|Moltres|90/100
+|-ability|p1a: Moltres|Pressure
+|turn|52
+|
+|t:|1757909610
+|-terastallize|p2a: Bellossom|Fire
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|move|p1a: Moltres|Fire Blast|p2a: Bellossom
+|-resisted|p2a: Bellossom
+|-damage|p2a: Bellossom|90/100
+|
+|upkeep
+|turn|53
+|
+|t:|1757909618
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|move|p1a: Moltres|Hurricane|p2a: Bellossom
+|-damage|p2a: Bellossom|73/100
+|-start|p2a: Bellossom|confusion
+|
+|upkeep
+|turn|54
+|
+|t:|1757909626
+|-activate|p2a: Bellossom|confusion
+|move|p2a: Bellossom|Tera Blast|p1a: Moltres|[anim] Tera Blast Fire
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|48/100
+|move|p1a: Moltres|Roar|p2a: Bellossom
+|drag|p2a: Ting-Lu|Ting-Lu|61/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|upkeep
+|turn|55
+|
+|t:|1757909635
+|move|p1a: Moltres|Hurricane|p2a: Ting-Lu|[miss]
+|-miss|p1a: Moltres|p2a: Ting-Lu
+|move|p2a: Ting-Lu|Snarl|p1a: Moltres
+|-damage|p1a: Moltres|36/100
+|-unboost|p1a: Moltres|spa|1
+|
+|upkeep
+|turn|56
+|
+|t:|1757909637
+|move|p1a: Moltres|Hurricane|p2a: Ting-Lu|[miss]
+|-miss|p1a: Moltres|p2a: Ting-Lu
+|move|p2a: Ting-Lu|Snarl|p1a: Moltres
+|-damage|p1a: Moltres|25/100
+|-unboost|p1a: Moltres|spa|1
+|
+|upkeep
+|turn|57
+|
+|t:|1757909647
+|switch|p1a: Dragonite|Dragonite, M|7/100
+|move|p2a: Ting-Lu|Snarl|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|c|☆DrMira|man you got an annoying team
+|
+|t:|1757909668
+|switch|p1a: Moltres|Moltres|25/100
+|-ability|p1a: Moltres|Pressure
+|turn|58
+|
+|t:|1757909677
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|75/100
+|-singleturn|p1a: Moltres|move: Roost
+|move|p2a: Ting-Lu|Snarl|p1a: Moltres
+|-damage|p1a: Moltres|63/100
+|-unboost|p1a: Moltres|spa|1
+|
+|upkeep
+|turn|59
+|
+|t:|1757909682
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|100/100
+|-singleturn|p1a: Moltres|move: Roost
+|move|p2a: Ting-Lu|Snarl|p1a: Moltres
+|-damage|p1a: Moltres|89/100
+|-unboost|p1a: Moltres|spa|1
+|
+|upkeep
+|turn|60
+|
+|t:|1757909697
+|move|p1a: Moltres|Hurricane|p2a: Ting-Lu|[miss]
+|-miss|p1a: Moltres|p2a: Ting-Lu
+|move|p2a: Ting-Lu|Whirlwind|p1a: Moltres
+|drag|p1a: Raikou|Raikou|15/100
+|-damage|p1a: Raikou|0 fnt|[from] Spikes
+|faint|p1a: Raikou
+|
+|upkeep
+|
+|t:|1757909703
+|switch|p1a: Greninja|Greninja, F|6/100
+|-damage|p1a: Greninja|0 fnt|[from] Spikes
+|faint|p1a: Greninja
+|
+|t:|1757909705
+|switch|p1a: Moltres|Moltres|89/100
+|-ability|p1a: Moltres|Pressure
+|turn|61
+|
+|t:|1757909708
+|move|p2a: Ting-Lu|Snarl|p1a: Moltres
+|-damage|p1a: Moltres|78/100
+|-unboost|p1a: Moltres|spa|1
+|move|p1a: Moltres|Roar|p2a: Ting-Lu
+|drag|p2a: Bellossom|Bellossom, F, tera:Fire|73/100
+|
+|upkeep
+|turn|62
+|
+|t:|1757909719
+|switch|p2a: Ting-Lu|Ting-Lu|61/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Moltres|Hurricane|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|44/100
+|
+|upkeep
+|turn|63
+|
+|t:|1757909725
+|move|p1a: Moltres|Hurricane|p2a: Ting-Lu|[miss]
+|-miss|p1a: Moltres|p2a: Ting-Lu
+|move|p2a: Ting-Lu|Snarl|p1a: Moltres
+|-crit|p1a: Moltres
+|-damage|p1a: Moltres|60/100
+|-unboost|p1a: Moltres|spa|1
+|
+|upkeep
+|turn|64
+|
+|t:|1757909728
+|move|p1a: Moltres|Hurricane|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|31/100
+|move|p2a: Ting-Lu|Snarl|p1a: Moltres
+|-damage|p1a: Moltres|47/100
+|-unboost|p1a: Moltres|spa|1
+|
+|upkeep
+|turn|65
+|
+|t:|1757909731
+|move|p1a: Moltres|Hurricane|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|20/100
+|move|p2a: Ting-Lu|Rest|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|slp|[from] move: Rest
+|-heal|p2a: Ting-Lu|100/100 slp|[silent]
+|
+|upkeep
+|turn|66
+|
+|t:|1757909736
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|97/100
+|-singleturn|p1a: Moltres|move: Roost
+|cant|p2a: Ting-Lu|slp
+|
+|upkeep
+|turn|67
+|
+|t:|1757909739
+|move|p1a: Moltres|Roar|p2a: Ting-Lu
+|drag|p2a: Alomomola|Alomomola, M|100/100
+|
+|upkeep
+|turn|68
+|
+|t:|1757909744
+|move|p1a: Moltres|Hurricane|p2a: Alomomola|[miss]
+|-miss|p1a: Moltres|p2a: Alomomola
+|move|p2a: Alomomola|Icy Wind|p1a: Moltres
+|-damage|p1a: Moltres|91/100
+|-unboost|p1a: Moltres|spe|1
+|
+|upkeep
+|turn|69
+|
+|t:|1757909751
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Moltres|Hurricane|p2a: Alomomola
+|-damage|p2a: Alomomola|72/100
+|
+|upkeep
+|turn|70
+|
+|t:|1757909758
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Moltres|Hurricane|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|71
+|
+|t:|1757909763
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Moltres|Fire Blast|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|87/100
+|
+|upkeep
+|turn|72
+|
+|t:|1757909769
+|move|p2a: Alomomola|Flip Turn|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|60/100
+|
+|t:|1757909773
+|switch|p2a: Bellossom|Bellossom, F, tera:Fire|73/100|[from] Flip Turn
+|move|p1a: Moltres|Fire Blast|p2a: Bellossom
+|-resisted|p2a: Bellossom
+|-damage|p2a: Bellossom|62/100
+|
+|-heal|p2a: Bellossom|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|73
+|
+|t:|1757909780
+|move|p1a: Moltres|Hurricane|p2a: Bellossom|[miss]
+|-miss|p1a: Moltres|p2a: Bellossom
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|
+|upkeep
+|turn|74
+|
+|t:|1757909788
+|move|p2a: Bellossom|Tera Blast|p1a: Moltres|[anim] Tera Blast Fire
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|40/100
+|move|p1a: Moltres|Roar|p2a: Bellossom
+|drag|p2a: Cinderace|Cinderace, F|100/100
+|
+|upkeep
+|turn|75
+|
+|t:|1757909796
+|move|p2a: Cinderace|Pyro Ball|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|12/100
+|move|p1a: Moltres|Hurricane|p2a: Cinderace
+|-damage|p2a: Cinderace|69/100
+|
+|upkeep
+|turn|76
+|-message|DrMira forfeited.
+|
+|win|Montagesq
+|raw|DrMira's rating: 1137 &rarr; <strong>1110</strong><br />(-27 for losing)
+|raw|Montagesq's rating: 1115 &rarr; <strong>1142</strong><br />(+27 for winning)
+|l|☆DrMira
+|player|p1|
+|l|☆Montagesq
+|player|p2|

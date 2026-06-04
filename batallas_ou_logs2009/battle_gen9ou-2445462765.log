@@ -1,0 +1,165 @@
+|j|☆Liffeehh
+|j|☆oreoinabox
+|t:|1758350457
+|gametype|singles
+|player|p1|Liffeehh|dawn|1341
+|player|p2|oreoinabox|170|1353
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Ursaluna, F|
+|poke|p1|Iron Hands|
+|poke|p1|Mimikyu, M|
+|poke|p1|Indeedee, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Iron Thorns|
+|poke|p2|Meowscarada, M|
+|poke|p2|Araquanid, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Darkrai|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by oreoinabox)
+|
+|t:|1758350464
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1758350485
+|move|p1a: Iron Hands|Supercell Slam|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-enditem|p2a: Araquanid|Focus Sash
+|-damage|p2a: Araquanid|1/100
+|move|p2a: Araquanid|Liquidation|p1a: Iron Hands
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|27/100
+|
+|upkeep
+|turn|2
+|
+|t:|1758350496
+|move|p1a: Iron Hands|Ice Punch|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1758350507
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|3
+|
+|t:|1758350510
+|move|p2a: Dragonite|Earthquake|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758350518
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|4
+|inactive|oreoinabox has 120 seconds left.
+|inactive|oreoinabox has 90 seconds left.
+|
+|t:|1758350581
+|switch|p2a: Darkrai|Darkrai|100/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|5
+|
+|t:|1758350595
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|move|p2a: Darkrai|Dark Pulse|p1a: Ursaluna
+|-damage|p1a: Ursaluna|61/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|inactive|oreoinabox has 90 seconds left.
+|
+|t:|1758350616
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|-item|p2a: Ceruledge|Air Balloon
+|move|p1a: Ursaluna|Headlong Rush|p2a: Ceruledge
+|-immune|p2a: Ceruledge
+|
+|-damage|p1a: Ursaluna|55/100 brn|[from] brn
+|upkeep
+|turn|7
+|inactive|oreoinabox has 90 seconds left.
+|
+|t:|1758350628
+|move|p1a: Ursaluna|Supercell Slam|p2a: Ceruledge
+|-damage|p2a: Ceruledge|17/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|-enditem|p2a: Ceruledge|Air Balloon
+|move|p2a: Ceruledge|Bitter Blade|p1a: Ursaluna
+|-damage|p1a: Ursaluna|21/100 brn
+|-heal|p2a: Ceruledge|44/100|[from] drain|[of] p1a: Ursaluna
+|
+|-damage|p1a: Ursaluna|15/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1758350637
+|switch|p2a: Iron Thorns|Iron Thorns|100/100
+|-enditem|p2a: Iron Thorns|Booster Energy
+|-activate|p2a: Iron Thorns|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Thorns|quarkdriveatk
+|move|p1a: Ursaluna|Supercell Slam|p2a: Iron Thorns
+|-resisted|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|71/100
+|
+|-damage|p1a: Ursaluna|9/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|t:|1758350661
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|move|p2a: Iron Thorns|Ice Punch|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|-status|p1a: Mimikyu|frz
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|88/100 frz|[from] pokemon: Mimikyu-Busted
+|-enditem|p1a: Mimikyu|Red Card|[of] p2a: Iron Thorns
+|-end|p2a: Iron Thorns|Quark Drive|[silent]
+|drag|p2a: Dragonite|Dragonite, F|100/100
+|
+|upkeep
+|turn|10
+|-message|Liffeehh forfeited.
+|
+|win|oreoinabox
+|raw|Liffeehh's rating: 1341 &rarr; <strong>1321</strong><br />(-20 for losing)
+|raw|oreoinabox's rating: 1337 &rarr; <strong>1357</strong><br />(+20 for winning)
+|l|☆Liffeehh
+|player|p1|
+|l|☆oreoinabox
+|player|p2|

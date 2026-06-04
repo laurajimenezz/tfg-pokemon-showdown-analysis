@@ -1,0 +1,252 @@
+|j|☆One-Round
+|j|☆Hyjack
+|t:|1758320532
+|gametype|singles
+|player|p1|One-Round|101|1175
+|player|p2|Hyjack|cynthia-gen4|1167
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mimikyu, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Ursaluna, M|
+|poke|p1|Meganium, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Hydrapple, M|
+|poke|p2|Primarina, F|
+|poke|p2|Heatran, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Serperior, F|
+|poke|p2|Conkeldurr, M|
+|teampreview
+|
+|t:|1758320541
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1758320552
+|move|p1a: Indeedee|Expanding Force|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|58/100
+|move|p2a: Hatterene|Future Sight|p1a: Indeedee
+|-start|p2a: Hatterene|move: Future Sight
+|
+|upkeep
+|turn|2
+|
+|t:|1758320560
+|move|p1a: Indeedee|Encore|p2a: Hatterene
+|move|p2a: Hatterene|Encore||[from] ability: Magic Bounce|[still]
+|-fail|p2a: Hatterene
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|3
+|
+|t:|1758320567
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Ursaluna
+|-damage|p1a: Ursaluna|75/100
+|-heal|p2a: Hatterene|86/100|[from] drain|[of] p1a: Ursaluna
+|
+|-end|p1a: Ursaluna|move: Future Sight
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|upkeep
+|
+|t:|1758320579
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|turn|4
+|
+|t:|1758320584
+|move|p2a: Hatterene|Draining Kiss|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|54/100
+|-heal|p2a: Hatterene|100/100|[from] drain|[of] p1a: Hoopa
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Hatterene
+|-damage|p2a: Hatterene|43/100
+|-unboost|p1a: Hoopa|def|1
+|-item|p1a: Hoopa|Custap Berry|[from] ability: Magician|[of] p2a: Hatterene
+|
+|upkeep
+|turn|5
+|
+|t:|1758320598
+|move|p2a: Hatterene|Future Sight|p1a: Hoopa
+|-start|p2a: Hatterene|move: Future Sight
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-unboost|p1a: Hoopa|def|1
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1758320608
+|switch|p2a: Hydrapple|Hydrapple, M|100/100
+|turn|6
+|
+|t:|1758320620
+|move|p2a: Hydrapple|Draco Meteor|p1a: Hoopa
+|-damage|p1a: Hoopa|5/100
+|-unboost|p2a: Hydrapple|spa|2
+|-enditem|p2a: Hydrapple|Eject Pack
+|
+|t:|1758320627
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: Hoopa|Expanding Force|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758320635
+|switch|p2a: Serperior|Serperior, F|100/100
+|turn|7
+|-enditem|p1a: Hoopa|Custap Berry|[eat]
+|-activate|p1a: Hoopa|item: Custap Berry|[consumed]
+|
+|t:|1758320639
+|move|p2a: Serperior|Leaf Storm|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Hoopa
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1758320651
+|switch|p1a: Meganium|Meganium, F|100/100
+|turn|8
+|
+|t:|1758320657
+|move|p2a: Serperior|Leaf Storm|p1a: Meganium
+|-resisted|p1a: Meganium
+|-damage|p1a: Meganium|71/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Meganium|Dragon Tail|p2a: Serperior
+|-damage|p2a: Serperior|87/100
+|drag|p2a: Primarina|Primarina, F|100/100
+|
+|-heal|p1a: Meganium|77/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1758320668
+|move|p2a: Primarina|Moonblast|p1a: Meganium
+|-damage|p1a: Meganium|27/100
+|move|p1a: Meganium|Grass Knot|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|70/100
+|
+|-heal|p1a: Meganium|33/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758320678
+|move|p2a: Primarina|Moonblast|p1a: Meganium
+|-damage|p1a: Meganium|0 fnt
+|faint|p1a: Meganium
+|
+|upkeep
+|
+|t:|1758320682
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|11
+|
+|t:|1758320688
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|12
+|
+|t:|1758320699
+|move|p1a: Indeedee|Expanding Force|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|74/100
+|move|p2a: Heatran|Magma Storm|p1a: Indeedee
+|-damage|p1a: Indeedee|57/100
+|-activate|p1a: Indeedee|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|80/100|[from] item: Leftovers
+|-damage|p1a: Indeedee|44/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1758320707
+|move|p1a: Indeedee|Expanding Force|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|51/100
+|move|p2a: Heatran|Taunt|p1a: Indeedee
+|-start|p1a: Indeedee|move: Taunt
+|
+|-heal|p2a: Heatran|57/100|[from] item: Leftovers
+|-damage|p1a: Indeedee|32/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1758320717
+|move|p1a: Indeedee|Expanding Force|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|30/100
+|move|p2a: Heatran|Stealth Rock|p1a: Indeedee
+|-sidestart|p1: One-Round|move: Stealth Rock
+|
+|-heal|p2a: Heatran|36/100|[from] item: Leftovers
+|-damage|p1a: Indeedee|20/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1758320727
+|move|p1a: Indeedee|Expanding Force|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|9/100
+|move|p2a: Heatran|Earth Power|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-heal|p2a: Heatran|15/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758320740
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Stealth Rock
+|turn|16
+|l|☆Hyjack
+|player|p2|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by One-Round)
+|inactive|Hyjack has 30 seconds to reconnect!
+|inactive|Hyjack has 20 seconds to reconnect!
+|inactive|Hyjack has 15 seconds to reconnect!
+|inactive|Hyjack has 10 seconds to reconnect!
+|inactive|Hyjack has 5 seconds to reconnect!
+|-message|Hyjack lost due to inactivity.
+|
+|win|One-Round
+|raw|One-Round's rating: 1175 &rarr; <strong>1199</strong><br />(+24 for winning)
+|raw|Hyjack's rating: 1167 &rarr; <strong>1143</strong><br />(-24 for losing)
+|l|☆One-Round
+|player|p1|

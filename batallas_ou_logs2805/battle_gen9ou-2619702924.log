@@ -1,0 +1,341 @@
+|j|☆tecerdo
+|j|☆stootic
+|t:|1779951262
+|gametype|singles
+|player|p1|tecerdo|gentleman-gen4dp|1522
+|player|p2|stootic|volkner|1487
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Beartic, F|
+|poke|p1|Barraskewda, M|
+|poke|p1|Bellibolt, F|
+|poke|p1|Toxicroak, F|
+|poke|p1|Iron Treads|
+|poke|p2|Iron Moth|
+|poke|p2|Gliscor, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by stootic)
+|
+|t:|1779951266
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1779951270
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Iron Treads|Earthquake|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1779951275
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779951282
+|-terastallize|p2a: Gliscor|Normal
+|move|p2a: Gliscor|Facade|p1a: Pelipper
+|-damage|p1a: Pelipper|11/100
+|move|p1a: Pelipper|Weather Ball|p2a: Gliscor
+|-damage|p2a: Gliscor|37/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|50/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1779951291
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|move|p2a: Gliscor|Facade|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|-damage|p2a: Gliscor|33/100 tox|[from] item: Rocky Helmet|[of] p1a: Toxicroak
+|faint|p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gliscor|45/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1779951295
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|turn|5
+|
+|t:|1779951299
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Barraskewda|Close Combat|p2a: Ogerpon
+|-damage|p2a: Ogerpon|19/100
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779951304
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Barraskewda|Close Combat|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|86/100
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hatterene|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1779951311
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hatterene|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1779951313
+|move|p1a: Iron Treads|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|67/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|64/100
+|-unboost|p1a: Iron Treads|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hatterene|73/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1779951317
+|move|p1a: Iron Treads|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|40/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|29/100
+|-unboost|p1a: Iron Treads|spa|1
+|
+|-weather|none
+|-heal|p2a: Hatterene|46/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1779951322
+|move|p1a: Iron Treads|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|16/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p2a: Hatterene|22/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1779951326
+|switch|p1a: Beartic|Beartic, F|100/100
+|turn|11
+|
+|t:|1779951328
+|move|p1a: Beartic|Icicle Spear|p2a: Hatterene
+|-damage|p2a: Hatterene|12/100
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|-hitcount|p2: Hatterene|2
+|
+|upkeep
+|
+|t:|1779951330
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|12
+|
+|t:|1779951333
+|switch|p1a: Pelipper|Pelipper, F|11/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Iron Moth|Fiery Dance|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779951341
+|switch|p1a: Beartic|Beartic, F|100/100
+|turn|13
+|
+|t:|1779951346
+|move|p2a: Iron Moth|Sludge Wave|p1a: Beartic
+|-damage|p1a: Beartic|5/100
+|move|p1a: Beartic|Earthquake|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779951351
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|14
+|
+|t:|1779951355
+|-terastallize|p1a: Beartic|Ground
+|move|p1a: Beartic|Icicle Spear|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|73/100
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|46/100
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|23/100
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|-hitcount|p2: Raging Bolt|4
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779951363
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|15
+|
+|t:|1779951370
+|move|p1a: Beartic|Icicle Spear|p2a: Zamazenta
+|-damage|p2a: Zamazenta|94/100
+|-damage|p2a: Zamazenta|87/100
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|70/100
+|-damage|p2a: Zamazenta|63/100
+|-damage|p2a: Zamazenta|56/100
+|-hitcount|p2a: Zamazenta|5
+|move|p2a: Zamazenta|Reflect|p2a: Zamazenta
+|-sidestart|p2: stootic|Reflect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1779951377
+|move|p1a: Beartic|Icicle Spear|p2a: Zamazenta
+|-damage|p2a: Zamazenta|53/100
+|-damage|p2a: Zamazenta|50/100
+|-damage|p2a: Zamazenta|46/100
+|-damage|p2a: Zamazenta|43/100
+|-hitcount|p2a: Zamazenta|4
+|move|p2a: Zamazenta|Ice Fang|p1a: Beartic
+|-supereffective|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|faint|p1a: Beartic
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779951383
+|switch|p1a: Bellibolt|Bellibolt, F|100/100
+|turn|17
+|
+|t:|1779951386
+|move|p2a: Zamazenta|Light Screen|p2a: Zamazenta
+|-sidestart|p2: stootic|move: Light Screen
+|move|p1a: Bellibolt|Thunder|p2a: Zamazenta
+|-damage|p2a: Zamazenta|23/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1779951392
+|move|p2a: Zamazenta|Close Combat|p1a: Bellibolt
+|-damage|p1a: Bellibolt|54/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|-start|p1a: Bellibolt|Charge|Close Combat|[from] ability: Electromorphosis
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-heal|p1a: Bellibolt|66/100|[from] drain|[of] p2a: Zamazenta
+|faint|p2a: Zamazenta
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1779951396
+|switch|p2a: Gliscor|Gliscor, M, tera:Normal|45/100 tox
+|turn|19
+|
+|t:|1779951404
+|move|p2a: Gliscor|Agility|p2a: Gliscor
+|-boost|p2a: Gliscor|spe|2
+|move|p1a: Bellibolt|Thunder|p2a: Gliscor
+|-damage|p2a: Gliscor|12/100 tox
+|
+|-weather|none
+|-heal|p2a: Gliscor|24/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|t:|1779951410
+|move|p2a: Gliscor|Earthquake|p1a: Bellibolt
+|-supereffective|p1a: Bellibolt
+|-damage|p1a: Bellibolt|0 fnt
+|faint|p1a: Bellibolt
+|
+|-heal|p2a: Gliscor|36/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1779951413
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|turn|21
+|
+|t:|1779951415
+|move|p2a: Gliscor|Facade|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|win|stootic
+|raw|tecerdo's rating: 1522 &rarr; <strong>1500</strong><br />(-22 for losing)
+|raw|stootic's rating: 1487 &rarr; <strong>1509</strong><br />(+22 for winning)
+|l|☆stootic
+|player|p2|
+|l|☆tecerdo
+|player|p1|

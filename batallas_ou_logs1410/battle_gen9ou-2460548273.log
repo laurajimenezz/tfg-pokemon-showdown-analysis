@@ -1,0 +1,323 @@
+|j|☆ballyhoogreen
+|j|☆Varen21
+|t:|1760321223
+|gametype|singles
+|player|p1|ballyhoogreen|maid|1321
+|player|p2|Varen21|102|1332
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glastrier|
+|poke|p1|Slowbro-Galar, M|
+|poke|p1|Polteageist|
+|poke|p1|Cinccino, F|
+|poke|p1|Jirachi|
+|poke|p1|Tatsugiri-Stretchy, F|
+|poke|p2|Kyurem|
+|poke|p2|Slowking, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Zapdos|
+|teampreview
+|
+|t:|1760321233
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rat|Cinccino, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ballyhoogreen)
+|
+|t:|1760321237
+|move|p1a: Rat|Tidy Up|p1a: Rat
+|-boost|p1a: Rat|atk|1
+|-boost|p1a: Rat|spe|1
+|move|p2a: Zapdos|Volt Switch|p1a: Rat
+|-damage|p1a: Rat|44/100
+|
+|t:|1760321249
+|switch|p2a: Slowking|Slowking, M|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|2
+|
+|t:|1760321252
+|move|p1a: Rat|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|31/100
+|-enditem|p2a: Slowking|Icy Rock|[from] move: Knock Off|[of] p1a: Rat
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|upkeep
+|turn|3
+|
+|t:|1760321259
+|switch|p1a: Crotch|Jirachi|100/100
+|move|p2a: Slowking|Scald|p1a: Crotch
+|-damage|p1a: Crotch|82/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760321262
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1760321264
+|switch|p2a: Kyurem|Kyurem|100/100|[from] Chilly Reception
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Crotch|Doom Desire|p2a: Kyurem
+|-start|p1a: Crotch|Doom Desire
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1760321272
+|switch|p1a: LetsGoGambling|Slowbro-Galar, M|100/100
+|move|p2a: Kyurem|Earth Power|p1a: LetsGoGambling
+|-supereffective|p1a: LetsGoGambling
+|-damage|p1a: LetsGoGambling|26/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1760321276
+|move|p1a: LetsGoGambling|Sludge Wave|p2a: Kyurem
+|-damage|p2a: Kyurem|77/100
+|move|p2a: Kyurem|Earth Power|p1a: LetsGoGambling
+|-supereffective|p1a: LetsGoGambling
+|-damage|p1a: LetsGoGambling|0 fnt
+|faint|p1a: LetsGoGambling
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Kyurem|move: Doom Desire
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|27/100
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760321280
+|switch|p1a: Piss|Polteageist|100/100
+|turn|7
+|
+|t:|1760321283
+|move|p1a: Piss|Shell Smash|p1a: Piss
+|-unboost|p1a: Piss|def|1
+|-unboost|p1a: Piss|spd|1
+|-boost|p1a: Piss|atk|2
+|-boost|p1a: Piss|spa|2
+|-boost|p1a: Piss|spe|2
+|move|p2a: Kyurem|Draco Meteor|p1a: Piss
+|-enditem|p1a: Piss|Focus Sash
+|-damage|p1a: Piss|1/100
+|-unboost|p2a: Kyurem|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760321286
+|move|p1a: Piss|Stored Power|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-weather|none
+|upkeep
+|
+|t:|1760321288
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|9
+|
+|t:|1760321293
+|move|p1a: Piss|Stored Power|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|4/100
+|move|p2a: Excadrill|Iron Head|p1a: Piss
+|-damage|p1a: Piss|0 fnt
+|faint|p1a: Piss
+|
+|upkeep
+|
+|t:|1760321297
+|switch|p1a: Rat|Cinccino, F|44/100
+|turn|10
+|
+|t:|1760321300
+|move|p1a: Rat|Knock Off|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-enditem|p2a: Excadrill|Focus Sash|[from] move: Knock Off|[of] p1a: Rat
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1760321303
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|11
+|
+|t:|1760321306
+|switch|p1a: Crotch|Jirachi|82/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Crotch
+|-crit|p1a: Crotch
+|-damage|p1a: Crotch|48/100
+|
+|upkeep
+|turn|12
+|
+|t:|1760321309
+|move|p1a: Crotch|Wish|p1a: Crotch
+|move|p2a: Zapdos|Thunderbolt|p1a: Crotch
+|-damage|p1a: Crotch|24/100
+|
+|upkeep
+|turn|13
+|
+|t:|1760321312
+|move|p2a: Zapdos|Thunderbolt|p1a: Crotch
+|-damage|p1a: Crotch|0 fnt
+|faint|p1a: Crotch
+|
+|upkeep
+|
+|t:|1760321315
+|switch|p1a: Uma|Glastrier|100/100
+|turn|14
+|
+|t:|1760321317
+|move|p2a: Zapdos|Volt Switch|p1a: Uma
+|-damage|p1a: Uma|75/100
+|-enditem|p1a: Uma|Red Card|[of] p2a: Zapdos
+|drag|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Uma|Avalanche|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|86/100
+|
+|-heal|p2a: Kingambit|92/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1760321320
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Slowking|Slowking, M|65/100
+|move|p1a: Uma|High Horsepower|p2a: Slowking
+|-damage|p2a: Slowking|32/100
+|
+|upkeep
+|turn|16
+|
+|t:|1760321322
+|move|p1a: Uma|High Horsepower|p2a: Slowking
+|-damage|p2a: Slowking|2/100
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|upkeep
+|turn|17
+|
+|t:|1760321326
+|move|p2a: Slowking|Flamethrower|p1a: Uma
+|-supereffective|p1a: Uma
+|-damage|p1a: Uma|45/100
+|move|p1a: Uma|Crunch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-ability|p1a: Uma|Chilling Neigh|boost
+|-boost|p1a: Uma|atk|1
+|
+|upkeep
+|
+|t:|1760321348
+|switch|p2a: Kingambit|Kingambit, F|92/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|18
+|
+|t:|1760321351
+|move|p2a: Kingambit|Sucker Punch|p1a: Uma
+|-damage|p1a: Uma|5/100
+|move|p1a: Uma|High Horsepower|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|10/100
+|
+|-heal|p2a: Kingambit|17/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1760321354
+|move|p1a: Uma|Swords Dance|p1a: Uma
+|-boost|p1a: Uma|atk|2
+|move|p2a: Kingambit|Iron Head|p1a: Uma
+|-supereffective|p1a: Uma
+|-crit|p1a: Uma
+|-damage|p1a: Uma|0 fnt
+|faint|p1a: Uma
+|
+|-heal|p2a: Kingambit|23/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760321357
+|switch|p1a: D!ckParasite|Tatsugiri-Stretchy, F|100/100
+|turn|20
+|
+|t:|1760321361
+|move|p2a: Kingambit|Kowtow Cleave|p1a: D!ckParasite
+|-damage|p1a: D!ckParasite|0 fnt
+|faint|p1a: D!ckParasite
+|
+|-heal|p2a: Kingambit|29/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1760321363
+|switch|p1a: Rat|Cinccino, F|44/100
+|turn|21
+|
+|t:|1760321366
+|move|p1a: Rat|Tail Slap|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|23/100
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|17/100
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|12/100
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|6/100
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|-hitcount|p2: Kingambit|5
+|
+|upkeep
+|
+|t:|1760321375
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|22
+|-message|ballyhoogreen forfeited.
+|
+|win|Varen21
+|raw|ballyhoogreen's rating: 1321 &rarr; <strong>1302</strong><br />(-19 for losing)
+|raw|Varen21's rating: 1332 &rarr; <strong>1351</strong><br />(+19 for winning)
+|l|☆ballyhoogreen
+|player|p1|
+|l|☆Varen21
+|player|p2|

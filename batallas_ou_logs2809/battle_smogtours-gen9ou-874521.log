@@ -1,0 +1,385 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1758921641
+|gametype|singles
+|player|p1|sire clod|#scl5machines|
+|player|p2|Lava Poseidon|#wcop2025netherlands|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Kyurem|
+|poke|p1|Glimmora, F|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, M|
+|poke|p1|Enamorus, F|
+|poke|p2|Ninetales, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Slither Wing|
+|poke|p2|Venusaur, M|
+|poke|p2|Walking Wake|
+|teampreview
+|c|☆sire clod|hf
+|c|☆Lava Poseidon|hf
+|
+|t:|1758921665
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|inactive|Lava Poseidon has 270 seconds left.
+|
+|t:|1758921717
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|move|p1a: Ogerpon|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|54/100
+|-enditem|p2a: Venusaur|Life Orb|[from] move: Knock Off|[of] p1a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758921733
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|move|p1a: Ogerpon|Spikes|p2a: Venusaur
+|-sidestart|p2: Lava Poseidon|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|Lava Poseidon has 240 seconds left.
+|
+|t:|1758921760
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|move|p2a: Venusaur|Giga Drain|p1a: Glimmora
+|-damage|p1a: Glimmora|32/100
+|-heal|p2a: Venusaur|96/100|[from] drain|[of] p1a: Glimmora
+|-enditem|p1a: Glimmora|Red Card|[of] p2a: Venusaur
+|drag|p2a: Slither Wing|Slither Wing|100/100
+|-damage|p2a: Slither Wing|88/100|[from] Spikes
+|-activate|p2a: Slither Wing|ability: Protosynthesis
+|-start|p2a: Slither Wing|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|Lava Poseidon has 240 seconds left.
+|
+|t:|1758921784
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Spikes
+|move|p1a: Glimmora|Stealth Rock|p2a: Hatterene
+|move|p2a: Hatterene|Stealth Rock|p1a: Glimmora|[from] ability: Magic Bounce
+|-sidestart|p1: sire clod|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758921812
+|move|p1a: Glimmora|Mortal Spin|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|78/100
+|-status|p2a: Hatterene|psn
+|-sideend|p1: sire clod|Stealth Rock|[from] move: Mortal Spin|[of] p1a: Glimmora
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1758921821
+|switch|p2a: Venusaur|Venusaur, M|96/100
+|-damage|p2a: Venusaur|83/100|[from] Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1758921836
+|move|p2a: Venusaur|Giga Drain|p1a: Glimmora
+|-crit|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-heal|p2a: Venusaur|100/100|[from] drain|[of] p1a: Glimmora
+|faint|p1a: Glimmora
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758921839
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|7
+|inactive|Lava Poseidon has 210 seconds left.
+|
+|t:|1758921885
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|move|p1a: Kyurem|Icicle Spear|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|69/100
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|37/100
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|1/100
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|-hitcount|p2: Venusaur|4
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Lava Poseidon has 180 seconds left.
+|inactive|Lava Poseidon has 150 seconds left.
+|
+|t:|1758921930
+|switch|p2a: Slither Wing|Slither Wing|88/100
+|-damage|p2a: Slither Wing|76/100|[from] Spikes
+|-activate|p2a: Slither Wing|ability: Protosynthesis
+|-start|p2a: Slither Wing|protosynthesisatk
+|turn|8
+|inactive|Lava Poseidon has 150 seconds left.
+|
+|t:|1758921956
+|move|p2a: Slither Wing|First Impression|p1a: Kyurem
+|-damage|p1a: Kyurem|40/100
+|move|p1a: Kyurem|Icicle Spear|p2a: Slither Wing
+|-damage|p2a: Slither Wing|58/100
+|-damage|p2a: Slither Wing|42/100
+|-damage|p2a: Slither Wing|24/100
+|-damage|p2a: Slither Wing|9/100
+|-damage|p2a: Slither Wing|0 fnt
+|faint|p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|-hitcount|p2: Slither Wing|5
+|
+|-weather|none
+|upkeep
+|
+|t:|1758921963
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-damage|p2a: Ninetales|88/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|9
+|
+|t:|1758921978
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Ninetales|Weather Ball|p1a: Ogerpon
+|-damage|p1a: Ogerpon|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1758921985
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Ninetales|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|17/100
+|move|p2a: Ninetales|Weather Ball|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758922000
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|11
+|
+|t:|1758922006
+|switch|p2a: Hatterene|Hatterene, F|78/100 psn
+|-damage|p2a: Hatterene|66/100 psn|[from] Spikes
+|move|p1a: Great Tusk|Headlong Rush|p2a: Hatterene
+|-damage|p2a: Hatterene|28/100 psn
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Hatterene|16/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1758922015
+|move|p1a: Great Tusk|Headlong Rush|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758922021
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-damage|p2a: Walking Wake|88/100|[from] Spikes
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|13
+|
+|t:|1758922027
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Kyurem|Kyurem|40/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Walking Wake|Hydro Steam|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|sire clod has 270 seconds left.
+|
+|t:|1758922072
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|14
+|inactive|Lava Poseidon has 150 seconds left.
+|
+|t:|1758922107
+|move|p2a: Walking Wake|Hydro Steam|p1a: Kingambit
+|-damage|p1a: Kingambit|7/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Walking Wake
+|-damage|p2a: Walking Wake|23/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kingambit|13/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|sire clod has 270 seconds left.
+|
+|t:|1758922117
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Spikes
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kingambit|19/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|sire clod has 270 seconds left.
+|inactive|Lava Poseidon has 150 seconds left.
+|inactive|sire clod has 240 seconds left.
+|inactive|Lava Poseidon has 120 seconds left.
+|
+|t:|1758922180
+|move|p2a: Raging Bolt|Solar Beam||[still]
+|-prepare|p2a: Raging Bolt|Solar Beam
+|-anim|p2a: Raging Bolt|Solar Beam|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|-damage|p2a: Raging Bolt|78/100|[from] item: Life Orb
+|
+|-weather|none
+|-end|p2a: Raging Bolt|Protosynthesis
+|upkeep
+|inactive|sire clod has 210 seconds left.
+|
+|t:|1758922195
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|17
+|inactive|sire clod has 210 seconds left.
+|inactive|Lava Poseidon has 120 seconds left.
+|inactive|sire clod has 180 seconds left.
+|inactive|Lava Poseidon has 90 seconds left.
+|
+|t:|1758922256
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Ninetales|Ninetales, M|17/100
+|-damage|p2a: Ninetales|5/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|inactive|sire clod has 180 seconds left.
+|
+|t:|1758922263
+|move|p1a: Great Tusk|Rapid Spin|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758922266
+|switch|p2a: Raging Bolt|Raging Bolt|78/100
+|-damage|p2a: Raging Bolt|66/100|[from] Spikes
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|19
+|inactive|Lava Poseidon has 90 seconds left.
+|inactive|sire clod has 180 seconds left.
+|inactive|Lava Poseidon has 60 seconds left.
+|inactive|sire clod has 150 seconds left.
+|
+|t:|1758922336
+|-terastallize|p2a: Raging Bolt|Ghost
+|move|p1a: Great Tusk|Headlong Rush|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|17/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Raging Bolt|Solar Beam||[still]
+|-prepare|p2a: Raging Bolt|Solar Beam
+|-anim|p2a: Raging Bolt|Solar Beam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Raging Bolt|7/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1758922343
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|20
+|c|☆sire clod|gg
+|
+|t:|1758922361
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Enamorus|Healing Wish||[still]
+|-fail|p1a: Enamorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1758922365
+|move|p1a: Enamorus|Healing Wish||[still]
+|-fail|p1a: Enamorus
+|move|p2a: Raging Bolt|Weather Ball|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|-damage|p2a: Raging Bolt|0 fnt|[from] item: Life Orb
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|Lava Poseidon
+|c|☆Lava Poseidon|gg

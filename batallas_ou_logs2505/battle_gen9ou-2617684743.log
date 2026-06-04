@@ -1,0 +1,323 @@
+|j|☆go faster ffs
+|j|☆ollyisnot2
+|t:|1779722865
+|gametype|singles
+|player|p1|go faster ffs|266|1197
+|player|p2|ollyisnot2|2|1198
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Quaquaval, F|
+|poke|p1|Glimmora, F|
+|poke|p1|Blissey, F|
+|poke|p1|Scizor, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Dusknoir, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Zapdos|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Heatran, F|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1779722884
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dusknoir|Dusknoir, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|-ability|p1a: Dusknoir|Pressure
+|turn|1
+|
+|t:|1779722895
+|move|p2a: Zapdos|Thunderbolt|p1a: Dusknoir
+|-damage|p1a: Dusknoir|55/100
+|move|p1a: Dusknoir|Trick|p2a: Zapdos
+|-activate|p1a: Dusknoir|move: Trick|[of] p2a: Zapdos
+|-item|p2a: Zapdos|Choice Scarf|[from] move: Trick
+|-item|p1a: Dusknoir|Heavy-Duty Boots|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|t:|1779722904
+|move|p2a: Zapdos|Thunderbolt|p1a: Dusknoir
+|-damage|p1a: Dusknoir|14/100
+|move|p1a: Dusknoir|Pain Split|p2a: Zapdos
+|-sethp|p2a: Zapdos|57/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusknoir|62/100|[from] move: Pain Split
+|
+|upkeep
+|turn|3
+|
+|t:|1779722911
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|86/100
+|-status|p1a: Blissey|par
+|
+|-heal|p1a: Blissey|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1779722917
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Blissey|Seismic Toss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Blissey|86/100 par|[from] Sandstorm
+|-heal|p1a: Blissey|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by go faster ffs)
+|
+|t:|1779722930
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure|[silent]
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|move|p2a: Tyranitar|Knock Off|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|74/100
+|-enditem|p1a: Quaquaval|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Quaquaval|68/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1779722940
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Quaquaval|Close Combat|p2a: Ogerpon
+|-damage|p2a: Ogerpon|21/100
+|-unboost|p1a: Quaquaval|def|1
+|-unboost|p1a: Quaquaval|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ogerpon|15/100|[from] Sandstorm
+|-damage|p1a: Quaquaval|62/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1779722951
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Ogerpon|Horn Leech|p1a: Toxapex
+|-damage|p1a: Toxapex|72/100
+|-heal|p2a: Ogerpon|30/100|[from] drain|[of] p1a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ogerpon|24/100|[from] Sandstorm
+|-damage|p1a: Toxapex|66/100|[from] Sandstorm
+|-heal|p1a: Toxapex|72/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1779722960
+|move|p2a: Ogerpon|Horn Leech|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|31/100
+|-heal|p2a: Ogerpon|45/100|[from] drain|[of] p1a: Toxapex
+|move|p1a: Toxapex|Infestation|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|39/100
+|-activate|p2a: Ogerpon|move: Infestation|[of] p1a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ogerpon|33/100|[from] Sandstorm
+|-damage|p1a: Toxapex|25/100|[from] Sandstorm
+|-heal|p1a: Toxapex|31/100|[from] item: Leftovers
+|-damage|p2a: Ogerpon|20/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1779722965
+|move|p1a: Toxapex|Protect|p1a: Toxapex
+|-singleturn|p1a: Toxapex|Protect
+|move|p2a: Ogerpon|Horn Leech|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ogerpon|14/100|[from] Sandstorm
+|-damage|p1a: Toxapex|25/100|[from] Sandstorm
+|-heal|p1a: Toxapex|31/100|[from] item: Leftovers
+|-damage|p2a: Ogerpon|2/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1779722974
+|move|p2a: Ogerpon|Horn Leech|p1a: Toxapex
+|-damage|p1a: Toxapex|2/100
+|-heal|p2a: Ogerpon|17/100|[from] drain|[of] p1a: Toxapex
+|move|p1a: Toxapex|Infestation|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-crit|p2a: Ogerpon
+|-damage|p2a: Ogerpon|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ogerpon|1/100|[from] Sandstorm
+|-damage|p1a: Toxapex|0 fnt|[from] Sandstorm
+|faint|p1a: Toxapex
+|-end|p2a: Ogerpon|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1779722979
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|11
+|
+|t:|1779722987
+|move|p1a: Scizor|Bullet Punch|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-crit|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-weather|none
+|upkeep
+|
+|t:|1779722989
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|12
+|
+|t:|1779722992
+|switch|p1a: Blissey|Blissey, F|92/100
+|move|p2a: Heatran|Magma Storm|p1a: Blissey
+|-damage|p1a: Blissey|81/100
+|-activate|p1a: Blissey|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: Blissey|87/100|[from] item: Leftovers
+|-damage|p1a: Blissey|74/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1779722999
+|move|p2a: Heatran|Taunt|p1a: Blissey
+|-start|p1a: Blissey|move: Taunt
+|move|p1a: Blissey|Seismic Toss|p2a: Heatran
+|-damage|p2a: Heatran|72/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|-damage|p1a: Blissey|68/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1779723008
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Blissey|Seismic Toss|p2a: Hatterene
+|-damage|p2a: Hatterene|69/100
+|
+|-heal|p1a: Blissey|74/100|[from] item: Leftovers
+|-end|p1a: Blissey|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|15
+|
+|t:|1779723016
+|move|p1a: Blissey|Seismic Toss|p2a: Hatterene
+|-damage|p2a: Hatterene|38/100
+|move|p2a: Hatterene|Psyshock|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|upkeep
+|
+|t:|1779723020
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|16
+|
+|t:|1779723024
+|-terastallize|p2a: Hatterene|Water
+|move|p1a: Scizor|Bullet Punch|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|8/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1779723032
+|switch|p1a: Quaquaval|Quaquaval, F|62/100
+|turn|17
+|
+|t:|1779723035
+|move|p1a: Quaquaval|Rapid Spin|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Hatterene
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1779723038
+|switch|p2a: Zapdos|Zapdos|57/100
+|turn|18
+|
+|t:|1779723048
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Glimmora
+|-damage|p1a: Glimmora|38/100
+|
+|upkeep
+|turn|19
+|
+|t:|1779723057
+|move|p2a: Zapdos|Thunderbolt|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1779723059
+|switch|p1a: Dusknoir|Dusknoir, M|62/100
+|-ability|p1a: Dusknoir|Pressure
+|turn|20
+|
+|t:|1779723064
+|move|p2a: Zapdos|Thunderbolt|p1a: Dusknoir
+|-damage|p1a: Dusknoir|14/100
+|move|p1a: Dusknoir|Pain Split|p2a: Zapdos
+|-sethp|p2a: Zapdos|35/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusknoir|38/100|[from] move: Pain Split
+|
+|upkeep
+|turn|21
+|
+|t:|1779723071
+|move|p2a: Zapdos|Thunderbolt|p1a: Dusknoir
+|-damage|p1a: Dusknoir|0 fnt
+|faint|p1a: Dusknoir
+|
+|upkeep
+|
+|t:|1779723073
+|switch|p1a: Quaquaval|Quaquaval, F|62/100
+|turn|22
+|
+|t:|1779723074
+|move|p1a: Quaquaval|Aqua Jet|p2a: Zapdos
+|-damage|p2a: Zapdos|10/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|win|ollyisnot2
+|raw|go faster ffs's rating: 1197 &rarr; <strong>1172</strong><br />(-25 for losing)
+|raw|ollyisnot2's rating: 1198 &rarr; <strong>1223</strong><br />(+25 for winning)
+|l|☆go faster ffs
+|player|p1|
+|l|☆ollyisnot2
+|player|p2|

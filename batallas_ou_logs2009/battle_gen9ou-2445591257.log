@@ -1,0 +1,361 @@
+|j|☆guoqiushi
+|j|☆marc17032007
+|t:|1758373987
+|gametype|singles
+|player|p1|guoqiushi|n|1333
+|player|p2|marc17032007|lance|1271
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Scizor, F|
+|poke|p1|Clodsire, M|
+|poke|p1|Alomomola, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Ariados, M|
+|poke|p2|Honchkrow, M|
+|poke|p2|Forretress, M|
+|poke|p2|Milotic, F|
+|poke|p2|Appletun, M|
+|poke|p2|Porygon-Z|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by marc17032007)
+|
+|t:|1758373996
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Ariados|Ariados, M, shiny|100/100
+|turn|1
+|
+|t:|1758374003
+|move|p1a: Dragapult|Draco Meteor|p2a: Ariados
+|-enditem|p2a: Ariados|Focus Sash
+|-damage|p2a: Ariados|1/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Ariados|Sticky Web|p1a: Dragapult
+|-sidestart|p1: guoqiushi|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1758374013
+|switch|p1a: Scizor|Scizor, F|100/100
+|-activate|p1a: Scizor|move: Sticky Web
+|-unboost|p1a: Scizor|spe|1
+|move|p2a: Ariados|Sucker Punch||[still]
+|-fail|p2a: Ariados
+|
+|upkeep
+|turn|3
+|
+|t:|1758374022
+|move|p2a: Ariados|Sticky Web||[still]
+|-fail|p2a: Ariados
+|move|p1a: Scizor|Defog|p2a: Ariados
+|-unboost|p2a: Ariados|evasion|1
+|-sideend|p1: guoqiushi|Sticky Web|[from] move: Defog|[of] p1a: Scizor
+|
+|upkeep
+|turn|4
+|
+|t:|1758374037
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Ariados|Sticky Web|p1a: Alomomola
+|-sidestart|p1: guoqiushi|move: Sticky Web
+|
+|upkeep
+|turn|5
+|
+|t:|1758374044
+|move|p2a: Ariados|Megahorn|p1a: Alomomola|[miss]
+|-miss|p2a: Ariados|p1a: Alomomola
+|move|p1a: Alomomola|Flip Turn|p2a: Ariados
+|-damage|p2a: Ariados|0 fnt
+|faint|p2a: Ariados
+|
+|t:|1758374047
+|switch|p1a: Scizor|Scizor, F|100/100|[from] Flip Turn
+|-activate|p1a: Scizor|move: Sticky Web
+|-unboost|p1a: Scizor|spe|1
+|
+|upkeep
+|
+|t:|1758374055
+|switch|p2a: Milotic|Milotic, F, shiny|100/100
+|turn|6
+|
+|t:|1758374061
+|move|p2a: Milotic|Scald|p1a: Scizor
+|-damage|p1a: Scizor|52/100
+|move|p1a: Scizor|U-turn|p2a: Milotic
+|-damage|p2a: Milotic|34/100
+|
+|t:|1758374065
+|switch|p1a: Meowscarada|Meowscarada, M|100/100|[from] U-turn
+|-activate|p1a: Meowscarada|move: Sticky Web
+|-unboost|p1a: Meowscarada|spe|1
+|
+|-heal|p2a: Milotic|40/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1758374073
+|switch|p2a: Forretress|Forretress, M, shiny|100/100
+|move|p1a: Meowscarada|U-turn|p2a: Forretress
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|90/100
+|
+|t:|1758374077
+|switch|p1a: Hydreigon|Hydreigon, F|100/100|[from] U-turn
+|
+|-heal|p2a: Forretress|97/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1758374088
+|switch|p2a: Milotic|Milotic, F, shiny|40/100
+|move|p1a: Hydreigon|Taunt|p2a: Milotic
+|-start|p2a: Milotic|move: Taunt
+|
+|-heal|p2a: Milotic|46/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1758374097
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Milotic|Scald|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|83/100
+|
+|-heal|p1a: Hydreigon|90/100|[from] item: Leftovers
+|-heal|p2a: Milotic|52/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1758374107
+|move|p1a: Hydreigon|Dark Pulse|p2a: Milotic
+|-damage|p2a: Milotic|6/100
+|move|p2a: Milotic|Dragon Pulse|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|39/100
+|
+|-heal|p1a: Hydreigon|45/100|[from] item: Leftovers
+|-heal|p2a: Milotic|12/100|[from] item: Leftovers
+|-end|p2a: Milotic|move: Taunt
+|upkeep
+|turn|11
+|
+|t:|1758374122
+|move|p1a: Hydreigon|Dark Pulse|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|-heal|p1a: Hydreigon|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758374132
+|switch|p2a: Forretress|Forretress, M, shiny|97/100
+|turn|12
+|
+|t:|1758374135
+|move|p1a: Hydreigon|Taunt|p2a: Forretress
+|-start|p2a: Forretress|move: Taunt
+|move|p2a: Forretress|Body Press|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1758374142
+|switch|p1a: Scizor|Scizor, F|52/100
+|-activate|p1a: Scizor|move: Sticky Web
+|-unboost|p1a: Scizor|spe|1
+|turn|13
+|
+|t:|1758374149
+|move|p2a: Forretress|Body Press|p1a: Scizor
+|-damage|p1a: Scizor|18/100
+|move|p1a: Scizor|Defog|p2a: Forretress
+|-unboost|p2a: Forretress|evasion|1
+|-sideend|p1: guoqiushi|Sticky Web|[from] move: Defog|[of] p1a: Scizor
+|
+|upkeep
+|turn|14
+|
+|t:|1758374158
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Forretress|Volt Switch|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|77/100
+|
+|t:|1758374165
+|switch|p2a: Appletun|Appletun, M, shiny|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|15
+|
+|t:|1758374174
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Appletun|Apple Acid|p1a: Clodsire
+|-damage|p1a: Clodsire|86/100
+|-unboost|p1a: Clodsire|spd|1
+|
+|-heal|p1a: Clodsire|92/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|t:|1758374184
+|switch|p2a: Forretress|Forretress, M, shiny|100/100
+|move|p1a: Clodsire|Stealth Rock|p2a: Forretress
+|-sidestart|p2: marc17032007|move: Stealth Rock
+|
+|-heal|p1a: Clodsire|99/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|l|☆guoqiushi
+|inactive|guoqiushi disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆guoqiushi
+|inactive|guoqiushi reconnected and has 115 seconds left.
+|player|p1|guoqiushi|n|
+|
+|t:|1758374227
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Forretress|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: guoqiushi|move: Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|t:|1758374253
+|move|p1a: Dragapult|Flamethrower|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-ability|p2a: Forretress|Sturdy
+|-damage|p2a: Forretress|1/100
+|move|p2a: Forretress|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|94/100
+|
+|t:|1758374263
+|switch|p2a: Honchkrow|Honchkrow, M, shiny|100/100|[from] Volt Switch
+|-damage|p2a: Honchkrow|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|t:|1758374271
+|switch|p1a: Clodsire|Clodsire, M|99/100
+|-damage|p1a: Clodsire|92/100|[from] Stealth Rock
+|move|p2a: Honchkrow|Night Slash|p1a: Clodsire
+|-crit|p1a: Clodsire
+|-damage|p1a: Clodsire|23/100
+|
+|-heal|p1a: Clodsire|29/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1758374280
+|move|p2a: Honchkrow|Night Slash|p1a: Clodsire
+|-crit|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|upkeep
+|
+|t:|1758374284
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|-damage|p1a: Meowscarada|88/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1758374301
+|-terastallize|p2a: Honchkrow|Steel
+|move|p1a: Meowscarada|Triple Axel|p2a: Honchkrow
+|-start|p1a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-resisted|p2a: Honchkrow
+|-damage|p2a: Honchkrow|67/100
+|-resisted|p2a: Honchkrow
+|-damage|p2a: Honchkrow|52/100
+|-resisted|p2a: Honchkrow
+|-damage|p2a: Honchkrow|24/100
+|-hitcount|p2a: Honchkrow|3
+|move|p2a: Honchkrow|Brave Bird|p1a: Meowscarada
+|-crit|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|-damage|p2a: Honchkrow|0 fnt|[from] Recoil
+|faint|p2a: Honchkrow
+|
+|upkeep
+|inactive|marc17032007 has 120 seconds left.
+|
+|t:|1758374326
+|switch|p1a: Dragapult|Dragapult, F|94/100
+|switch|p2a: Forretress|Forretress, M, shiny|1/100
+|-damage|p1a: Dragapult|82/100|[from] Stealth Rock
+|-damage|p2a: Forretress|0 fnt|[from] Stealth Rock
+|faint|p2a: Forretress
+|inactive|marc17032007 has 120 seconds left.
+|
+|t:|1758374334
+|switch|p2a: Appletun|Appletun, M, shiny|100/100
+|-damage|p2a: Appletun|88/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1758374342
+|move|p1a: Dragapult|Draco Meteor|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|13/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Appletun|Dragon Pulse|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1758374350
+|switch|p1a: Scizor|Scizor, F|18/100
+|-damage|p1a: Scizor|6/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1758374357
+|-terastallize|p1a: Scizor|Steel
+|move|p1a: Scizor|Bullet Punch|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|faint|p2a: Appletun
+|
+|upkeep
+|
+|t:|1758374363
+|switch|p2a: Porygon-Z|Porygon-Z, shiny|100/100
+|-damage|p2a: Porygon-Z|88/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1758374368
+|move|p1a: Scizor|Bullet Punch|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|win|guoqiushi
+|raw|guoqiushi's rating: 1333 &rarr; <strong>1349</strong><br />(+16 for winning)
+|raw|marc17032007's rating: 1271 &rarr; <strong>1250</strong><br />(-21 for losing)
+|l|☆guoqiushi
+|player|p1|
+|l|☆marc17032007
+|player|p2|

@@ -1,0 +1,256 @@
+|j|☆immaterial-light
+|j|☆dsppp
+|t:|1779650145
+|gametype|singles
+|player|p1|immaterial-light|101|1390
+|player|p2|dsppp|hilda|1461
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cresselia, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Hands|
+|poke|p1|Ursaluna, M|
+|poke|p1|Vikavolt, F|
+|poke|p1|Porygon2|
+|poke|p2|Enamorus, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Pecharunt|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by immaterial-light)
+|
+|t:|1779650157
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Porygon2|Porygon2|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|turn|1
+|
+|t:|1779650166
+|move|p2a: Gholdengo|Thunder Wave|p1a: Porygon2
+|-status|p1a: Porygon2|par
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|upkeep
+|turn|2
+|
+|t:|1779650179
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Porygon2|Shadow Ball|p2a: Gliscor
+|-damage|p2a: Gliscor|67/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1779650186
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Porygon2|Ice Beam|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1779650194
+|move|p1a: Porygon2|Shadow Ball|p2a: Gliscor
+|-damage|p2a: Gliscor|48/100 tox
+|move|p2a: Gliscor|Knock Off|p1a: Porygon2
+|-damage|p1a: Porygon2|87/100 par
+|-enditem|p1a: Porygon2|Eviolite|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|60/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1779650202
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|73/100 tox|[from] ability: Poison Heal
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1779650204
+|move|p2a: Gliscor|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|77/100
+|-enditem|p1a: Hatterene|Focus Sash|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p2a: Gliscor|85/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1779650209
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Hatterene|Psychic Noise|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|98/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1779650215
+|switch|p1a: Vikavolt|Vikavolt, F|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|9
+|
+|t:|1779650239
+|switch|p2a: Gliscor|Gliscor, M|98/100 tox
+|move|p1a: Vikavolt|Bug Buzz|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|74/100 tox
+|-enditem|p1a: Vikavolt|Throat Spray
+|-boost|p1a: Vikavolt|spa|1|[from] item: Throat Spray
+|
+|-heal|p2a: Gliscor|87/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1779650246
+|move|p1a: Vikavolt|Energy Ball|p2a: Gliscor
+|-damage|p2a: Gliscor|37/100 tox
+|move|p2a: Gliscor|Toxic|p1a: Vikavolt
+|-status|p1a: Vikavolt|tox
+|
+|-damage|p1a: Vikavolt|94/100 tox|[from] psn
+|-heal|p2a: Gliscor|50/100 tox|[from] ability: Poison Heal
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1779650251
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Vikavolt|Energy Ball|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|62/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Vikavolt|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1779650255
+|move|p2a: Gliscor|Spikes|p1a: Vikavolt
+|-sidestart|p1: immaterial-light|Spikes
+|move|p1a: Vikavolt|Energy Ball|p2a: Gliscor
+|-damage|p2a: Gliscor|17/100 tox
+|-unboost|p2a: Gliscor|spd|1
+|
+|-heal|p2a: Gliscor|30/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Vikavolt|64/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1779650260
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Vikavolt|Bug Buzz|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|42/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Vikavolt|39/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1779650272
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Vikavolt|Energy Ball|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|74/100
+|
+|-damage|p1a: Vikavolt|8/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1779650278
+|move|p2a: Pecharunt|Foul Play|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|
+|upkeep
+|
+|t:|1779650303
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|16
+|
+|t:|1779650307
+|move|p2a: Pecharunt|Malignant Chain|p1a: Cresselia
+|-damage|p1a: Cresselia|78/100
+|-status|p1a: Cresselia|tox
+|-start|p1a: Cresselia|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Cresselia|confusion
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-damage|p1a: Cresselia|72/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1779650322
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|-damage|p1a: Ursaluna|88/100|[from] Spikes
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|100/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|18
+|
+|t:|1779650329
+|-terastallize|p2a: Pecharunt|Dark
+|move|p1a: Ursaluna|Headlong Rush|p2a: Pecharunt
+|-damage|p2a: Pecharunt|50/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|move|p2a: Pecharunt|Foul Play|p1a: Ursaluna
+|-damage|p1a: Ursaluna|27/100 brn
+|
+|-damage|p1a: Ursaluna|21/100 brn|[from] brn
+|upkeep
+|turn|19
+|inactive|immaterial-light has 120 seconds left.
+|
+|t:|1779650370
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Ursaluna|Facade|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-damage|p1a: Ursaluna|15/100 brn|[from] brn
+|upkeep
+|turn|20
+|-message|immaterial-light forfeited.
+|
+|win|dsppp
+|raw|immaterial-light's rating: 1390 &rarr; <strong>1374</strong><br />(-16 for losing)
+|raw|dsppp's rating: 1461 &rarr; <strong>1477</strong><br />(+16 for winning)
+|l|☆immaterial-light
+|player|p1|
+|l|☆dsppp
+|player|p2|

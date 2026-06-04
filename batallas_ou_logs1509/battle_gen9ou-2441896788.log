@@ -1,0 +1,337 @@
+|j|☆HighlanderTheGoat
+|j|☆TequilaJune
+|t:|1757919340
+|gametype|singles
+|player|p1|HighlanderTheGoat|fisherman|1070
+|player|p2|TequilaJune|169|1050
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hitmonchan, M|
+|poke|p1|Incineroar, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Gliscor, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Jirachi|
+|poke|p2|Umbreon, F|
+|poke|p2|Infernape, M|
+|poke|p2|Lanturn, M|
+|poke|p2|Snorlax, M|
+|poke|p2|Dusknoir, M|
+|teampreview
+|
+|t:|1757919361
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Lanturn|Lanturn, M, shiny|100/100
+|turn|1
+|
+|t:|1757919369
+|move|p1a: Rotom|Trick|p2a: Lanturn
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Lanturn
+|-item|p2a: Lanturn|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Choice Specs|[from] move: Trick
+|move|p2a: Lanturn|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|63/100
+|
+|t:|1757919380
+|switch|p2a: Dusknoir|Dusknoir, M, shiny|100/100|[from] Volt Switch
+|-item|p1a: Rotom|Choice Specs|[from] ability: Frisk|[of] p2a: Dusknoir
+|
+|upkeep
+|turn|2
+|
+|t:|1757919408
+|-terastallize|p2a: Dusknoir|Bug
+|move|p1a: Rotom|Thunderbolt|p2a: Dusknoir
+|-damage|p2a: Dusknoir|43/100
+|move|p2a: Dusknoir|Curse|p2a: Dusknoir
+|-unboost|p2a: Dusknoir|spe|1
+|-boost|p2a: Dusknoir|atk|1
+|-boost|p2a: Dusknoir|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1757919418
+|move|p1a: Rotom|Thunderbolt|p2a: Dusknoir
+|-damage|p2a: Dusknoir|0 fnt
+|faint|p2a: Dusknoir
+|
+|upkeep
+|
+|t:|1757919431
+|switch|p2a: Lanturn|Lanturn, M, shiny|100/100
+|turn|4
+|
+|t:|1757919439
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Lanturn|Thunderbolt|p1a: Gliscor
+|-immune|p1a: Gliscor
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1757919456
+|switch|p2a: Snorlax|Snorlax, M, shiny|100/100
+|move|p1a: Gliscor|Toxic Spikes|p2a: Snorlax
+|-sidestart|p2: TequilaJune|move: Toxic Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1757919468
+|move|p1a: Gliscor|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|74/100
+|move|p2a: Snorlax|Body Slam|p1a: Gliscor
+|-damage|p1a: Gliscor|77/100 tox
+|
+|-heal|p1a: Gliscor|90/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1757919479
+|move|p1a: Gliscor|Knock Off|p2a: Snorlax
+|-damage|p2a: Snorlax|57/100
+|-enditem|p2a: Snorlax|Charcoal|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Snorlax|Heat Crash|p1a: Gliscor
+|-damage|p1a: Gliscor|66/100 tox
+|
+|-heal|p1a: Gliscor|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1757919494
+|switch|p2a: Lanturn|Lanturn, M, shiny|100/100
+|-status|p2a: Lanturn|psn
+|move|p1a: Gliscor|Earthquake|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|32/100 psn
+|
+|-damage|p2a: Lanturn|20/100 psn|[from] psn
+|-heal|p1a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1757919505
+|move|p2a: Lanturn|Ice Beam|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-damage|p2a: Lanturn|8/100 psn|[from] psn
+|upkeep
+|
+|t:|1757919511
+|switch|p1a: Incineroar|Incineroar, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Lanturn|atk|1
+|turn|10
+|
+|t:|1757919516
+|move|p2a: Lanturn|Ice Beam|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|83/100
+|move|p1a: Incineroar|Bulk Up|p1a: Incineroar
+|-boost|p1a: Incineroar|atk|1
+|-boost|p1a: Incineroar|def|1
+|
+|-heal|p1a: Incineroar|89/100|[from] item: Leftovers
+|-damage|p2a: Lanturn|0 fnt|[from] psn
+|faint|p2a: Lanturn
+|upkeep
+|
+|t:|1757919544
+|switch|p2a: Infernape|Infernape, M, shiny|100/100
+|-status|p2a: Infernape|psn
+|-enditem|p2a: Infernape|Lum Berry|[eat]
+|-curestatus|p2a: Infernape|psn|[msg]
+|turn|11
+|
+|t:|1757919554
+|move|p2a: Infernape|Drain Punch|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|32/100
+|move|p1a: Incineroar|Knock Off|p2a: Infernape
+|-resisted|p2a: Infernape
+|-damage|p2a: Infernape|62/100
+|
+|-heal|p1a: Incineroar|39/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1757919567
+|move|p2a: Infernape|Drain Punch|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-heal|p2a: Infernape|87/100|[from] drain|[of] p1a: Incineroar
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|t:|1757919574
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|13
+|
+|t:|1757919580
+|move|p1a: Dragapult|Thunder Wave|p2a: Infernape
+|-status|p2a: Infernape|par
+|cant|p2a: Infernape|par
+|
+|upkeep
+|turn|14
+|
+|t:|1757919587
+|move|p1a: Dragapult|Hex|p2a: Infernape
+|-damage|p2a: Infernape|2/100 par
+|cant|p2a: Infernape|par
+|
+|upkeep
+|turn|15
+|
+|t:|1757919591
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Hex|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|upkeep
+|
+|t:|1757919597
+|switch|p2a: Snorlax|Snorlax, M, shiny|57/100
+|-status|p2a: Snorlax|psn
+|turn|16
+|
+|t:|1757919607
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Snorlax|[miss]
+|-miss|p1a: Dragapult|p2a: Snorlax
+|move|p2a: Snorlax|Thunder Punch|p1a: Dragapult
+|-damage|p1a: Dragapult|69/100
+|
+|-damage|p2a: Snorlax|45/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1757919614
+|move|p1a: Dragapult|Hex|p2a: Snorlax
+|-immune|p2a: Snorlax
+|move|p2a: Snorlax|Thunder Punch|p1a: Dragapult
+|-damage|p1a: Dragapult|33/100
+|
+|-damage|p2a: Snorlax|32/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1757919621
+|move|p1a: Dragapult|U-turn|p2a: Snorlax
+|-damage|p2a: Snorlax|20/100 psn
+|
+|t:|1757919624
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100|[from] U-turn
+|move|p2a: Snorlax|Heat Crash|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|43/100
+|
+|-damage|p2a: Snorlax|7/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1757919635
+|move|p1a: Hitmonchan|Drain Punch|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|-heal|p1a: Hitmonchan|48/100|[from] drain|[of] p2a: Snorlax
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|t:|1757919640
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|20
+|
+|t:|1757919645
+|move|p2a: Jirachi|Psyshock|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|upkeep
+|
+|t:|1757919649
+|switch|p1a: Rotom|Rotom-Wash|63/100
+|turn|21
+|
+|t:|1757919658
+|move|p1a: Rotom|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|53/100
+|move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+|-boost|p2a: Jirachi|spa|1
+|-boost|p2a: Jirachi|spd|1
+|
+|upkeep
+|turn|22
+|
+|t:|1757919666
+|move|p1a: Rotom|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|23/100
+|move|p2a: Jirachi|Doom Desire|p1a: Rotom
+|-start|p2a: Jirachi|Doom Desire
+|
+|upkeep
+|turn|23
+|
+|t:|1757919673
+|move|p1a: Rotom|Thunderbolt|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|upkeep
+|
+|t:|1757919677
+|switch|p2a: Umbreon|Umbreon, F, shiny|100/100
+|-status|p2a: Umbreon|psn
+|turn|24
+|
+|t:|1757919685
+|move|p1a: Rotom|Thunderbolt|p2a: Umbreon
+|-damage|p2a: Umbreon|59/100 psn
+|move|p2a: Umbreon|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|23/100
+|
+|-end|p1a: Rotom|move: Doom Desire
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|6/100
+|-damage|p2a: Umbreon|47/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1757919695
+|move|p1a: Rotom|Thunderbolt|p2a: Umbreon
+|-damage|p2a: Umbreon|4/100 psn
+|move|p2a: Umbreon|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Umbreon|0 fnt|[from] psn
+|faint|p2a: Umbreon
+|
+|win|HighlanderTheGoat
+|raw|HighlanderTheGoat's rating: 1070 &rarr; <strong>1098</strong><br />(+28 for winning)
+|raw|TequilaJune's rating: 1050 &rarr; <strong>1034</strong><br />(-16 for losing)
+|l|☆TequilaJune
+|player|p2|
+|l|☆HighlanderTheGoat
+|player|p1|

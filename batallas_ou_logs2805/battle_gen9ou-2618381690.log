@@ -1,0 +1,294 @@
+|j|☆Markolinho
+|j|☆netinx07
+|t:|1779805032
+|gametype|singles
+|player|p1|Markolinho|266|1221
+|player|p2|netinx07|alder|1192
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Scream Tail|
+|poke|p1|Iron Treads|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Rotom-Heat|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Rillaboom, M|
+|poke|p2|Gliscor, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Ursaluna, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by netinx07)
+|
+|t:|1779805055
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1779805064
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|move|p2a: Rillaboom|Fake Out|p1a: Landorus
+|-damage|p1a: Landorus|91/100
+|
+|upkeep
+|turn|2
+|
+|t:|1779805071
+|move|p1a: Landorus|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|66/100
+|
+|t:|1779805075
+|switch|p1a: Toxapex|Toxapex, M|100/100|[from] U-turn
+|move|p2a: Rillaboom|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|95/100
+|
+|t:|1779805078
+|switch|p2a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|
+|-heal|p1a: Toxapex|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1779805092
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1779805101
+|-terastallize|p2a: Raging Bolt|Ground
+|move|p1a: Iron Treads|Ice Spinner|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|62/100
+|-fieldend|move: Grassy Terrain
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|26/100
+|
+|-heal|p1a: Iron Treads|32/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1779805111
+|move|p1a: Iron Treads|Ice Spinner|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|21/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1779805119
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|6
+|
+|t:|1779805122
+|move|p2a: Raging Bolt|Thunderclap|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|43/100
+|move|p1a: Dragapult|U-turn|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|t:|1779805143
+|switch|p1a: Rotom|Rotom-Heat|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1779805150
+|switch|p2a: Rillaboom|Rillaboom, M|66/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|7
+|
+|t:|1779805154
+|move|p2a: Rillaboom|Fake Out|p1a: Rotom
+|-damage|p1a: Rotom|85/100
+|cant|p1a: Rotom|flinch
+|
+|-heal|p2a: Rillaboom|73/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1779805161
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Rotom|Overheat|p2a: Goodra
+|-damage|p2a: Goodra|70/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-heal|p2a: Goodra|76/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1779805169
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Goodra|Ice Beam|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|94/100
+|
+|-heal|p2a: Goodra|82/100|[from] Grassy Terrain
+|-heal|p1a: Toxapex|99/100|[from] Grassy Terrain
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1779805175
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Toxapex|Infestation|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|99/100
+|-activate|p2a: Gliscor|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Gliscor|86/100|[from] move: Infestation|[partiallytrapped]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+|
+|t:|1779805180
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|move|p2a: Gliscor|Taunt|p1a: Scream Tail
+|-start|p1a: Scream Tail|move: Taunt
+|
+|-heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+|-end|p2a: Gliscor|Infestation|[partiallytrapped]|[silent]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1779805184
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Heat|85/100
+|move|p2a: Gliscor|U-turn|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|74/100
+|
+|t:|1779805188
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdriveatk
+|
+|upkeep
+|turn|13
+|
+|t:|1779805193
+|switch|p1a: Landorus|Landorus-Therian, M|91/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Valiant|atk|1
+|move|p2a: Iron Valiant|Spirit Break|p1a: Landorus
+|-damage|p1a: Landorus|51/100
+|-unboost|p1a: Landorus|spa|1
+|
+|upkeep
+|turn|14
+|
+|t:|1779805199
+|move|p1a: Landorus|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|33/100
+|move|p2a: Iron Valiant|Ice Punch|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1779805212
+|switch|p1a: Dragapult|Dragapult, M|43/100
+|turn|15
+|
+|t:|1779805216
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Rillaboom|Rillaboom, M|73/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|
+|-heal|p2a: Rillaboom|79/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1779805228
+|move|p2a: Rillaboom|Grassy Glide|p1a: Dragapult|[miss]
+|-miss|p2a: Rillaboom|p1a: Dragapult
+|move|p1a: Dragapult|Phantom Force|p2a: Rillaboom|[from] lockedmove
+|-damage|p2a: Rillaboom|36/100
+|
+|-heal|p1a: Dragapult|49/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|43/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1779805234
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Toxapex
+|-damage|p1a: Toxapex|77/100
+|
+|-heal|p2a: Rillaboom|49/100|[from] Grassy Terrain
+|-heal|p1a: Toxapex|83/100|[from] Grassy Terrain
+|-heal|p1a: Toxapex|89/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1779805241
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|move|p2a: Rillaboom|U-turn|p1a: Scream Tail
+|-damage|p1a: Scream Tail|87/100
+|
+|t:|1779805245
+|switch|p2a: Ursaluna|Ursaluna, M|100/100|[from] U-turn
+|
+|-heal|p1a: Scream Tail|93/100|[from] Grassy Terrain
+|-heal|p1a: Scream Tail|99/100|[from] item: Leftovers
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|19
+|
+|t:|1779805249
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Heat|74/100
+|move|p2a: Ursaluna|Facade|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|-message|Markolinho forfeited.
+|
+|win|netinx07
+|raw|Markolinho's rating: 1221 &rarr; <strong>1194</strong><br />(-27 for losing)
+|raw|netinx07's rating: 1192 &rarr; <strong>1219</strong><br />(+27 for winning)
+|l|☆Markolinho
+|player|p1|
+|l|☆netinx07
+|player|p2|

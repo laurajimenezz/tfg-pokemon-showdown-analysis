@@ -1,0 +1,218 @@
+|j|☆risky dicky
+|j|☆Meme134
+|t:|1760729321
+|gametype|singles
+|player|p1|risky dicky|266|1074
+|player|p2|Meme134|170|1052
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Charizard, F|
+|poke|p1|Pikachu, M|
+|poke|p1|Squirtle, M|
+|poke|p1|Bulbasaur, M|
+|poke|p1|Lapras, M|
+|poke|p1|Snorlax, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Dondozo, F|
+|poke|p2|Alomomola, M|
+|poke|p2|Talonflame, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Blissey, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by risky dicky)
+|
+|t:|1760729351
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Squirtle|Squirtle, M|100/100
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|1
+|
+|t:|1760729357
+|switch|p1a: Lapras|Lapras, M|100/100
+|move|p2a: Toxapex|Infestation|p1a: Lapras
+|-damage|p1a: Lapras|98/100
+|-activate|p1a: Lapras|move: Infestation|[of] p2a: Toxapex
+|
+|-heal|p1a: Lapras|100/100|[from] item: Leftovers
+|-damage|p1a: Lapras|88/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1760729367
+|move|p1a: Lapras|Whirlpool|p2a: Toxapex|[miss]
+|-miss|p1a: Lapras|p2a: Toxapex
+|move|p2a: Toxapex|Toxic|p1a: Lapras
+|-status|p1a: Lapras|tox
+|
+|-heal|p1a: Lapras|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Lapras|88/100 tox|[from] psn
+|-damage|p1a: Lapras|76/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1760729379
+|move|p1a: Lapras|Perish Song|p1a: Lapras
+|-start|p1a: Lapras|perish3|[silent]
+|-start|p2a: Toxapex|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Toxapex|Recover||[still]
+|-fail|p2a: Toxapex|heal
+|
+|-heal|p1a: Lapras|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Lapras|69/100 tox|[from] psn
+|-damage|p1a: Lapras|57/100 tox|[from] move: Infestation|[partiallytrapped]
+|-start|p1a: Lapras|perish3
+|-start|p2a: Toxapex|perish3
+|upkeep
+|turn|4
+|
+|t:|1760729391
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Lapras|Whirlpool|p2a: Alomomola|[miss]
+|-miss|p1a: Lapras|p2a: Alomomola
+|
+|-heal|p1a: Lapras|63/100 tox|[from] item: Leftovers
+|-damage|p1a: Lapras|44/100 tox|[from] psn
+|-end|p1a: Lapras|Infestation|[partiallytrapped]|[silent]
+|-start|p1a: Lapras|perish2
+|upkeep
+|turn|5
+|
+|t:|1760729401
+|switch|p1a: Bulbasaur|Bulbasaur, M|100/100
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|upkeep
+|turn|6
+|
+|t:|1760729408
+|move|p1a: Bulbasaur|Substitute|p1a: Bulbasaur
+|-start|p1a: Bulbasaur|Substitute
+|-damage|p1a: Bulbasaur|75/100
+|move|p2a: Alomomola|Whirlpool|p1a: Bulbasaur
+|-resisted|p1a: Bulbasaur
+|-activate|p1a: Bulbasaur|move: Substitute|[damage]
+|
+|upkeep
+|turn|7
+|
+|t:|1760729419
+|switch|p2a: Talonflame|Talonflame, F|100/100
+|move|p1a: Bulbasaur|Leech Seed|p2a: Talonflame|[miss]
+|-miss|p1a: Bulbasaur|p2a: Talonflame
+|
+|upkeep
+|turn|8
+|
+|t:|1760729425
+|move|p2a: Talonflame|Flamethrower|p1a: Bulbasaur
+|-supereffective|p1a: Bulbasaur
+|-end|p1a: Bulbasaur|Substitute
+|move|p1a: Bulbasaur|Leech Seed|p2a: Talonflame
+|-start|p2a: Talonflame|move: Leech Seed
+|
+|-damage|p2a: Talonflame|88/100|[from] Leech Seed|[of] p1a: Bulbasaur
+|-heal|p1a: Bulbasaur|95/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1760729434
+|-terastallize|p1a: Bulbasaur|Fire
+|move|p2a: Talonflame|Flamethrower|p1a: Bulbasaur
+|-resisted|p1a: Bulbasaur
+|-damage|p1a: Bulbasaur|82/100
+|move|p1a: Bulbasaur|Toxic|p2a: Talonflame
+|-status|p2a: Talonflame|tox
+|
+|-damage|p2a: Talonflame|75/100 tox|[from] Leech Seed|[of] p1a: Bulbasaur
+|-heal|p1a: Bulbasaur|100/100|[silent]
+|-damage|p2a: Talonflame|69/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1760729446
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Bulbasaur|Substitute|p1a: Bulbasaur
+|-start|p1a: Bulbasaur|Substitute
+|-damage|p1a: Bulbasaur|75/100
+|
+|upkeep
+|turn|11
+|
+|t:|1760729452
+|move|p1a: Bulbasaur|Leech Seed|p2a: Toxapex|[miss]
+|-miss|p1a: Bulbasaur|p2a: Toxapex
+|move|p2a: Toxapex|Infestation|p1a: Bulbasaur
+|-resisted|p1a: Bulbasaur
+|-activate|p1a: Bulbasaur|move: Substitute|[damage]
+|
+|upkeep
+|turn|12
+|
+|t:|1760729459
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|move|p1a: Bulbasaur|Leech Seed|p2a: Dondozo
+|-start|p2a: Dondozo|move: Leech Seed
+|
+|-damage|p2a: Dondozo|88/100|[from] Leech Seed|[of] p1a: Bulbasaur
+|-heal|p1a: Bulbasaur|100/100|[silent]
+|upkeep
+|turn|13
+|
+|t:|1760729467
+|move|p1a: Bulbasaur|Toxic|p2a: Dondozo
+|-status|p2a: Dondozo|tox
+|move|p2a: Dondozo|Liquidation|p1a: Bulbasaur
+|-supereffective|p1a: Bulbasaur
+|-end|p1a: Bulbasaur|Substitute
+|
+|-damage|p2a: Dondozo|75/100 tox|[from] Leech Seed|[of] p1a: Bulbasaur
+|-damage|p2a: Dondozo|69/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1760729477
+|move|p1a: Bulbasaur|Protect|p1a: Bulbasaur
+|-singleturn|p1a: Bulbasaur|Protect
+|move|p2a: Dondozo|Liquidation|p1a: Bulbasaur
+|-activate|p1a: Bulbasaur|move: Protect
+|
+|-damage|p2a: Dondozo|57/100 tox|[from] Leech Seed|[of] p1a: Bulbasaur
+|-damage|p2a: Dondozo|45/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1760729486
+|move|p1a: Bulbasaur|Substitute|p1a: Bulbasaur
+|-start|p1a: Bulbasaur|Substitute
+|-damage|p1a: Bulbasaur|75/100
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|-damage|p2a: Dondozo|88/100 slp|[from] Leech Seed|[of] p1a: Bulbasaur
+|-heal|p1a: Bulbasaur|100/100|[silent]
+|upkeep
+|turn|16
+|-message|Meme134 forfeited.
+|
+|win|risky dicky
+|raw|risky dicky's rating: 1074 &rarr; <strong>1101</strong><br />(+27 for winning)
+|raw|Meme134's rating: 1052 &rarr; <strong>1035</strong><br />(-17 for losing)
+|l|☆Meme134
+|player|p2|
+|l|☆risky dicky
+|player|p1|

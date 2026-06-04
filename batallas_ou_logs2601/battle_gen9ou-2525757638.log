@@ -1,0 +1,305 @@
+|j|☆CasualTrainerName
+|j|☆Npc-6934
+|t:|1769320798
+|gametype|singles
+|player|p1|CasualTrainerName|1|1172
+|player|p2|Npc-6934|janitor|1129
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clefable, F|
+|poke|p1|Suicune|
+|poke|p1|Iron Crown|
+|poke|p1|Gliscor, F|
+|poke|p1|Quaquaval, F|
+|poke|p1|Hoopa|
+|poke|p2|Great Tusk|
+|poke|p2|Cinderace, F|
+|poke|p2|Galvantula, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1769320803
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Suicune|Suicune|100/100
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|-ability|p1a: Suicune|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Npc-6934)
+|
+|t:|1769320816
+|move|p2a: Galvantula|Sticky Web|p1a: Suicune
+|-sidestart|p1: CasualTrainerName|move: Sticky Web
+|move|p1a: Suicune|Whirlpool|p2a: Galvantula|[miss]
+|-miss|p1a: Suicune|p2a: Galvantula
+|
+|upkeep
+|turn|2
+|
+|t:|1769320821
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Galvantula|Thunder|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1769320824
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Galvantula|Thunder|p1a: Gliscor
+|-immune|p1a: Gliscor
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1769320834
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Gliscor|Knock Off|p2a: Ogerpon
+|-damage|p2a: Ogerpon|83/100
+|
+|upkeep
+|turn|5
+|
+|t:|1769320842
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Clefable|[anim] Ivy Cudgel Water
+|-damage|p1a: Clefable|31/100
+|
+|upkeep
+|turn|6
+|
+|t:|1769320845
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Clefable|[anim] Ivy Cudgel Water
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1769320850
+|switch|p1a: Hoopa|Hoopa|100/100
+|-activate|p1a: Hoopa|move: Sticky Web
+|-unboost|p1a: Hoopa|spe|1
+|turn|7
+|
+|t:|1769320860
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Hoopa|[anim] Ivy Cudgel Water
+|-enditem|p1a: Hoopa|Focus Sash
+|-damage|p1a: Hoopa|1/100
+|move|p1a: Hoopa|Destiny Bond|p1a: Hoopa
+|-singlemove|p1a: Hoopa|Destiny Bond
+|
+|upkeep
+|turn|8
+|
+|t:|1769320863
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Hoopa|[anim] Ivy Cudgel Water
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|-activate|p1a: Hoopa|move: Destiny Bond
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1769320869
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox
+|turn|9
+|
+|t:|1769320875
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Gliscor|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|78/100
+|
+|upkeep
+|turn|10
+|
+|t:|1769320879
+|move|p2a: Great Tusk|Ice Spinner|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|17/100 tox
+|move|p1a: Gliscor|Spikes|p2a: Great Tusk
+|-sidestart|p2: Npc-6934|Spikes
+|
+|-heal|p1a: Gliscor|29/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1769320881
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Great Tusk|Ice Spinner|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|42/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1769320885
+|switch|p1a: Suicune|Suicune|100/100
+|-activate|p1a: Suicune|move: Sticky Web
+|-unboost|p1a: Suicune|spe|1
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Great Tusk|Ice Spinner|p1a: Suicune
+|-resisted|p1a: Suicune
+|-damage|p1a: Suicune|88/100
+|
+|-heal|p1a: Suicune|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1769320892
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|-damage|p2a: Galvantula|88/100|[from] Spikes
+|move|p1a: Suicune|Whirlpool|p2a: Galvantula
+|-damage|p2a: Galvantula|70/100
+|-activate|p2a: Galvantula|move: Whirlpool|[of] p1a: Suicune
+|
+|-heal|p1a: Suicune|99/100|[from] item: Leftovers
+|-damage|p2a: Galvantula|57/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1769320906
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Galvantula|Thunder|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|-heal|p1a: Suicune|100/100|[from] item: Leftovers
+|-damage|p2a: Galvantula|45/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1769320911
+|move|p1a: Suicune|Extreme Speed|p2a: Galvantula
+|-damage|p2a: Galvantula|15/100
+|move|p2a: Galvantula|Thunder|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|18/100
+|
+|-heal|p1a: Suicune|24/100|[from] item: Leftovers
+|-damage|p2a: Galvantula|3/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1769320917
+|move|p1a: Suicune|Protect|p1a: Suicune
+|-singleturn|p1a: Suicune|Protect
+|move|p2a: Galvantula|Thunder|p1a: Suicune
+|-activate|p1a: Suicune|move: Protect
+|
+|-heal|p1a: Suicune|30/100|[from] item: Leftovers
+|-damage|p2a: Galvantula|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p2a: Galvantula
+|upkeep
+|
+|t:|1769320924
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|17
+|
+|t:|1769320929
+|move|p2a: Gholdengo|Shadow Ball|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|upkeep
+|
+|t:|1769320936
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|turn|18
+|
+|t:|1769320939
+|-terastallize|p2a: Gholdengo|Fairy
+|-terastallize|p1a: Quaquaval|Water
+|move|p2a: Gholdengo|Dazzling Gleam|p1a: Quaquaval
+|-damage|p1a: Quaquaval|48/100
+|move|p1a: Quaquaval|Aqua Step|p2a: Gholdengo
+|-damage|p2a: Gholdengo|36/100
+|-boost|p1a: Quaquaval|spe|1
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|19
+|
+|t:|1769320945
+|move|p1a: Quaquaval|Aqua Step|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Gholdengo
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1769320956
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-damage|p2a: Garganacl|88/100|[from] Spikes
+|turn|20
+|
+|t:|1769320976
+|move|p1a: Quaquaval|Aqua Step|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Garganacl
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1769320983
+|switch|p2a: Great Tusk|Great Tusk|78/100
+|-damage|p2a: Great Tusk|65/100|[from] Spikes
+|turn|21
+|
+|t:|1769320987
+|move|p1a: Quaquaval|Aqua Step|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1769320989
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-damage|p2a: Cinderace|88/100|[from] Spikes
+|turn|22
+|
+|t:|1769320991
+|move|p1a: Quaquaval|Aqua Step|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Cinderace
+|
+|win|CasualTrainerName
+|raw|CasualTrainerName's rating: 1172 &rarr; <strong>1194</strong><br />(+22 for winning)
+|raw|Npc-6934's rating: 1129 &rarr; <strong>1107</strong><br />(-22 for losing)
+|l|☆Npc-6934
+|player|p2|
+|l|☆CasualTrainerName
+|player|p1|

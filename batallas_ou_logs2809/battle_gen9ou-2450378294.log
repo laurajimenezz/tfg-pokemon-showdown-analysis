@@ -1,0 +1,262 @@
+|j|☆purestyle
+|j|☆Etarnus XD
+|t:|1758975502
+|gametype|singles
+|player|p1|purestyle|265|1310
+|player|p2|Etarnus XD|102|1250
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Skeledirge, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Bronzong|
+|poke|p1|Klefki, M|
+|poke|p1|Swampert, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Walking Wake|
+|poke|p2|Slither Wing|
+|poke|p2|Hatterene, F|
+|poke|p2|Gliscor, M|
+|teampreview
+|
+|t:|1758975513
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1758975536
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758975548
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Gliscor
+|-damage|p2a: Gliscor|60/100
+|-unboost|p2a: Gliscor|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1758975561
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Hatterene|Psychic Noise|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|72/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1758975572
+|move|p1a: Hatterene|Psychic Noise|p2a: Gliscor
+|-damage|p2a: Gliscor|36/100 tox
+|-start|p2a: Gliscor|move: Heal Block
+|move|p2a: Gliscor|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|78/100
+|-enditem|p1a: Hatterene|Leftovers|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1758975592
+|switch|p1a: Klefki|Klefki, M|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Gliscor|move: Heal Block
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1758975607
+|move|p1a: Klefki|Switcheroo|p2a: Gliscor
+|-activate|p1a: Klefki|move: Trick|[of] p2a: Gliscor
+|-item|p2a: Gliscor|Iron Ball|[from] move: Switcheroo
+|-item|p1a: Klefki|Toxic Orb|[from] move: Switcheroo
+|move|p2a: Gliscor|Knock Off|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|91/100
+|-enditem|p1a: Klefki|Toxic Orb|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|49/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1758975622
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Klefki|Trick Room|p1a: Klefki
+|-fieldstart|move: Trick Room|[of] p1a: Klefki
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|61/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1758975636
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Klefki|Foul Play|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|none
+|upkeep
+|
+|t:|1758975646
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|turn|9
+|
+|t:|1758975654
+|move|p1a: Klefki|Switcheroo|p2a: Ceruledge
+|-activate|p1a: Klefki|move: Trick|[of] p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash|[silent]|[from] move: Switcheroo
+|-item|p1a: Klefki|Focus Sash|[from] move: Switcheroo
+|move|p2a: Ceruledge|Bitter Blade|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|19/100
+|
+|upkeep
+|turn|10
+|
+|t:|1758975671
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Klefki
+|-damage|p1a: Klefki|3/100
+|move|p1a: Klefki|Foul Play|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|9/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|upkeep
+|turn|11
+|
+|t:|1758975686
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1758975695
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|12
+|
+|t:|1758975704
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|move|p1a: Ursaluna|Bulk Up|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|1
+|-boost|p1a: Ursaluna|def|1
+|
+|upkeep
+|turn|13
+|
+|t:|1758975714
+|-terastallize|p1a: Ursaluna|Ghost
+|move|p2a: Slither Wing|Will-O-Wisp|p1a: Ursaluna
+|-status|p1a: Ursaluna|brn
+|move|p1a: Ursaluna|Bulk Up|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|1
+|-boost|p1a: Ursaluna|def|1
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1758975726
+|move|p2a: Slither Wing|U-turn|p1a: Ursaluna
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|89/100 brn
+|
+|t:|1758975729
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Ursaluna|Body Slam|p2a: Torkoal
+|-damage|p2a: Torkoal|36/100
+|-status|p2a: Torkoal|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ursaluna|95/100 brn|[from] item: Leftovers
+|-damage|p1a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1758975751
+|-terastallize|p2a: Torkoal|Flying
+|move|p1a: Ursaluna|Earthquake|p2a: Torkoal
+|-immune|p2a: Torkoal
+|cant|p2a: Torkoal|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ursaluna|95/100 brn|[from] item: Leftovers
+|-damage|p1a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1758975762
+|move|p1a: Ursaluna|Body Slam|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ursaluna|95/100 brn|[from] item: Leftovers
+|-damage|p1a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1758975772
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|17
+|
+|t:|1758975787
+|move|p2a: Walking Wake|Hydro Steam|p1a: Ursaluna
+|-damage|p1a: Ursaluna|35/100 brn
+|move|p1a: Ursaluna|Body Slam|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ursaluna|41/100 brn|[from] item: Leftovers
+|-damage|p1a: Ursaluna|35/100 brn|[from] brn
+|upkeep
+|-message|Etarnus XD forfeited.
+|
+|win|purestyle
+|raw|purestyle's rating: 1310 &rarr; <strong>1327</strong><br />(+17 for winning)
+|raw|Etarnus XD's rating: 1250 &rarr; <strong>1229</strong><br />(-21 for losing)
+|l|☆Etarnus XD
+|player|p2|
+|l|☆purestyle
+|player|p1|

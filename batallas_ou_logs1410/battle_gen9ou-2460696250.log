@@ -1,0 +1,256 @@
+|j|☆Thangorodrim
+|j|☆asapbunny
+|t:|1760347132
+|gametype|singles
+|player|p1|Thangorodrim|erika|1519
+|player|p2|asapbunny|1|1551
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Kingambit, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p2|Ursaluna, F|
+|poke|p2|Slowking, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Gholdengo|
+|poke|p2|Dragapult, M|
+|poke|p2|Primarina, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thangorodrim)
+|
+|t:|1760347139
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|t:|1760347145
+|move|p2a: Dragapult|Dragon Darts|p1a: Ogerpon
+|-damage|p1a: Ogerpon|43/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1760347153
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|2
+|
+|t:|1760347155
+|switch|p2a: Primarina|Primarina, M|100/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|80/100
+|-enditem|p2a: Primarina|Choice Specs|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|upkeep
+|turn|3
+|
+|t:|1760347168
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Primarina|Moonblast|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|6/100
+|
+|upkeep
+|turn|4
+|
+|t:|1760347178
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1760347184
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|5
+|
+|t:|1760347187
+|move|p1a: Raging Bolt|Thunderclap|p2a: Cinderace
+|-damage|p2a: Cinderace|27/100
+|move|p2a: Cinderace|U-turn|p1a: Raging Bolt
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|t:|1760347191
+|switch|p2a: Ursaluna|Ursaluna, F|100/100|[from] U-turn
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1760347197
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|6
+|
+|t:|1760347205
+|switch|p2a: Slowking|Slowking, F|100/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-enditem|p2a: Slowking|Colbur Berry|[eat]
+|-enditem|p2a: Slowking|Colbur Berry|[weaken]
+|-damage|p2a: Slowking|76/100
+|
+|upkeep
+|turn|7
+|
+|t:|1760347216
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|j| deadbyflinch
+|
+|t:|1760347222
+|switch|p2a: Primarina|Primarina, M|80/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1760347231
+|-terastallize|p1a: Dragonite|Flying
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Primarina|Flip Turn|p1a: Dragonite
+|-damage|p1a: Dragonite|93/100
+|
+|t:|1760347235
+|switch|p2a: Ursaluna|Ursaluna, F|100/100 brn|[from] Flip Turn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1760347239
+|move|p1a: Dragonite|Tera Blast|p2a: Ursaluna|[anim] Tera Blast Flying
+|-damage|p2a: Ursaluna|28/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Ursaluna|22/100 brn|[from] brn
+|upkeep
+|
+|t:|1760347245
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|10
+|
+|t:|1760347250
+|move|p1a: Iron Moth|Energy Ball|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1760347258
+|switch|p2a: Primarina|Primarina, M|80/100
+|turn|11
+|
+|t:|1760347271
+|move|p1a: Iron Moth|Energy Ball|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|25/100
+|move|p2a: Primarina|Hyper Voice|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1760347281
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|12
+|
+|t:|1760347285
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|move|p2a: Primarina|Moonblast|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760347290
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|13
+|
+|t:|1760347294
+|move|p1a: Kingambit|Iron Head|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1760347296
+|switch|p2a: Cinderace|Cinderace, F|27/100
+|turn|14
+|
+|t:|1760347299
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Kingambit
+|-status|p1a: Kingambit|brn
+|-enditem|p1a: Kingambit|Lum Berry|[eat]
+|-curestatus|p1a: Kingambit|brn|[msg]
+|
+|upkeep
+|turn|15
+|
+|t:|1760347305
+|move|p2a: Cinderace|Pyro Ball|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|asapbunny
+|raw|Thangorodrim's rating: 1519 &rarr; <strong>1501</strong><br />(-18 for losing)
+|raw|asapbunny's rating: 1551 &rarr; <strong>1569</strong><br />(+18 for winning)
+|l|☆Thangorodrim
+|player|p1|
+|l|☆asapbunny
+|player|p2|
+|l| deadbyflinch

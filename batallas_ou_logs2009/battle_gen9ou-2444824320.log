@@ -1,0 +1,253 @@
+|j|☆frogwithaknife
+|j|☆cl_scout2
+|t:|1758274201
+|gametype|singles
+|player|p1|frogwithaknife|adaman|
+|player|p2|cl_scout2|skyla|
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Alomomola, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Hands|
+|poke|p2|Alomomola, M|
+|poke|p2|Iron Crown|
+|poke|p2|Darkrai|
+|poke|p2|Azumarill, F|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Arcanine-Hisui, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cl_scout2)
+|
+|t:|1758274223
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: N|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: N
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: N|atk|1
+|turn|1
+|
+|t:|1758274235
+|-terastallize|p1a: Landorus|Water
+|move|p2a: N|Aurora Veil|p2a: N
+|-sidestart|p2: cl_scout2|move: Aurora Veil
+|move|p1a: Landorus|Stealth Rock|p2a: N
+|-sidestart|p2: cl_scout2|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758274245
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|move|p2a: N|Freeze-Dry|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|88/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|inactive|cl_scout2 has 270 seconds left.
+|
+|t:|1758274292
+|switch|p2a: I|Iron Crown|100/100
+|-damage|p2a: I|94/100|[from] Stealth Rock
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|inactive|cl_scout2 has 240 seconds left.
+|inactive|cl_scout2 has 210 seconds left.
+|
+|t:|1758274353
+|-end|p2a: I|Quark Drive|[silent]
+|switch|p2a: N|Ninetales-Alola, M|100/100
+|-damage|p2a: N|76/100|[from] Stealth Rock
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|inactive|cl_scout2 has 210 seconds left.
+|
+|t:|1758274371
+|switch|p2a: A.|Azumarill, F|100/100
+|-damage|p2a: A.|88/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Toxic|p2a: A.|[miss]
+|-miss|p1a: Mandibuzz|p2a: A.
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1758274378
+|move|p1a: Mandibuzz|Foul Play|p2a: A.
+|-resisted|p2a: A.
+|-damage|p2a: A.|80/100
+|move|p2a: A.|Belly Drum|p2a: A.
+|-damage|p2a: A.|30/100
+|-setboost|p2a: A.|atk|6|[from] move: Belly Drum
+|-enditem|p2a: A.|Sitrus Berry|[eat]
+|-heal|p2a: A.|55/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|7
+|inactive|cl_scout2 has 210 seconds left.
+|
+|t:|1758274392
+|move|p1a: Mandibuzz|Defog|p2a: A.
+|-unboost|p2a: A.|evasion|1
+|-sideend|p2: cl_scout2|move: Aurora Veil
+|-sideend|p2: cl_scout2|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: A.|Trailblaze|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|77/100
+|-boost|p2a: A.|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1758274401
+|move|p2a: A.|Liquidation|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|t:|1758274410
+|switch|p1a: Arcanine|Arcanine-Hisui, F|88/100
+|turn|9
+|inactive|cl_scout2 has 210 seconds left.
+|
+|t:|1758274430
+|switch|p2a: A|Alomomola, M|100/100
+|move|p1a: Arcanine|Extreme Speed|p2a: A
+|-damage|p2a: A|81/100
+|
+|upkeep
+|turn|10
+|inactive|cl_scout2 has 210 seconds left.
+|
+|t:|1758274445
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: A|Flip Turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|89/100
+|
+|t:|1758274448
+|switch|p2a: N|Ninetales-Alola, M|76/100|[from] Flip Turn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: N
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|c|☆cl_scout2|predicted
+|
+|t:|1758274459
+|move|p1a: Dragapult|Will-O-Wisp|p2a: N
+|-status|p2a: N|brn
+|move|p2a: N|Aurora Veil|p2a: N
+|-sidestart|p2: cl_scout2|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: N|70/100 brn|[from] brn
+|upkeep
+|turn|12
+|inactive|cl_scout2 has 210 seconds left.
+|
+|t:|1758274485
+|switch|p2a: A|Alomomola, M|100/100
+|move|p1a: Dragapult|U-turn|p2a: A
+|-damage|p2a: A|90/100
+|
+|t:|1758274491
+|switch|p1a: Iron Hands|Iron Hands|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|inactive|cl_scout2 has 210 seconds left.
+|c|☆frogwithaknife|i wish i remembered to change ih to av
+|
+|t:|1758274508
+|move|p1a: Iron Hands|Drain Punch|p2a: A
+|-damage|p2a: A|77/100
+|move|p2a: A|Flip Turn|p1a: Iron Hands
+|-damage|p1a: Iron Hands|90/100
+|c|☆cl_scout2|wow
+|c|☆frogwithaknife|tijariewjgreotjrgotdxfblgrt
+|c|☆cl_scout2|ez read
+|c|☆cl_scout2|get out
+|c|☆cl_scout2|get tf out
+|
+|t:|1758274517
+|switch|p2a: I|Iron Crown|94/100|[from] Flip Turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|c|☆frogwithaknife|die :sob:
+|c|☆cl_scout2|hehe
+|inactive|cl_scout2 has 210 seconds left.
+|c|☆frogwithaknife|i dont wanna play this game anymore
+|c|☆frogwithaknife|this team is trash
+|c|☆frogwithaknife|(mine)
+|c|☆cl_scout2|wow
+|inactive|cl_scout2 has 180 seconds left.
+|
+|t:|1758274554
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Dragapult|Dragapult, F|89/100
+|move|p2a: I|Tachyon Cutter|p1a: Dragapult
+|-damage|p1a: Dragapult|32/100
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-hitcount|p1: Dragapult|2
+|
+|-weather|none
+|upkeep
+|c|☆frogwithaknife|i wanna go back to sample teams :c
+|c|☆cl_scout2|ez read
+|c|☆cl_scout2|get out
+|c|☆cl_scout2|get tf out
+|
+|t:|1758274561
+|switch|p1a: Arcanine|Arcanine-Hisui, F|88/100
+|turn|15
+|
+|t:|1758274574
+|-end|p2a: I|Quark Drive|[silent]
+|switch|p2a: A.|Azumarill, F|55/100
+|move|p1a: Arcanine|Close Combat|p2a: A.
+|-resisted|p2a: A.
+|-damage|p2a: A.|40/100
+|-unboost|p1a: Arcanine|def|1
+|-unboost|p1a: Arcanine|spd|1
+|
+|upkeep
+|turn|16
+|-message|frogwithaknife forfeited.
+|
+|win|cl_scout2
+|l|☆frogwithaknife
+|player|p1|
+|c|☆cl_scout2|wow ok

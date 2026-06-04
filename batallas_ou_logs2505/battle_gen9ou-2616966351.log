@@ -1,0 +1,321 @@
+|j|☆YoSoyDelBronx
+|j|☆Juju2503
+|t:|1779633603
+|gametype|singles
+|player|p1|YoSoyDelBronx|noland|1312
+|player|p2|Juju2503|101|1320
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, M|
+|poke|p1|Venusaur, M|
+|poke|p1|Walking Wake|
+|poke|p1|Brute Bonnet|
+|poke|p1|Great Tusk|
+|poke|p1|Golem-Alola, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Gholdengo|
+|poke|p2|Dragonite, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Regieleki|
+|teampreview
+|
+|t:|1779633616
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Brute Bonnet|Brute Bonnet|100/100
+|switch|p2a: Regieleki|Regieleki|100/100
+|-enditem|p1a: Brute Bonnet|Booster Energy
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis|[fromitem]
+|-start|p1a: Brute Bonnet|protosynthesisatk
+|turn|1
+|
+|t:|1779633621
+|move|p2a: Regieleki|Volt Switch|p1a: Brute Bonnet
+|-resisted|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|71/100
+|
+|t:|1779633625
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] Volt Switch
+|move|p1a: Brute Bonnet|Thief|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2a: Gholdengo|Choice Scarf|[silent]|[from] move: Thief|[of] p1a: Brute Bonnet
+|-item|p1a: Brute Bonnet|Choice Scarf|[from] move: Thief|[of] p2a: Gholdengo
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1779633638
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|2
+|
+|t:|1779633650
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1779633655
+|move|p2a: Dragonite|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779633662
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|4
+|
+|t:|1779633672
+|move|p1a: Walking Wake|Draco Meteor|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779633680
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|5
+|
+|t:|1779633686
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Brute Bonnet|Brute Bonnet|71/100
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisatk
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1779633690
+|move|p1a: Brute Bonnet|Sucker Punch|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|84/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Brute Bonnet
+|-supereffective|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|0 fnt
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779633697
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|turn|7
+|
+|t:|1779633702
+|-terastallize|p1a: Venusaur|Fire
+|move|p1a: Venusaur|Weather Ball|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-damage|p1a: Venusaur|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779633709
+|switch|p2a: Regieleki|Regieleki|100/100
+|turn|8
+|
+|t:|1779633714
+|move|p1a: Venusaur|Weather Ball|p2a: Regieleki
+|-damage|p2a: Regieleki|0 fnt
+|faint|p2a: Regieleki
+|-damage|p1a: Venusaur|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779633717
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|9
+|
+|t:|1779633726
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|move|p2a: Slowking|Thunder Wave|p1a: Venusaur
+|-status|p1a: Venusaur|par
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1779633734
+|move|p1a: Venusaur|Giga Drain|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|78/100
+|-heal|p1a: Venusaur|96/100 par|[from] drain|[of] p2a: Slowking
+|-damage|p1a: Venusaur|86/100 par|[from] item: Life Orb
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1779633737
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779633743
+|move|p2a: Samurott|Razor Shell|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1779633750
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|turn|12
+|
+|t:|1779633753
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Slowking
+|-damage|p2a: Slowking|39/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1779633760
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Hustle Hard|Golem-Alola, M, shiny|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1779633769
+|-terastallize|p2a: Samurott|Water
+|move|p2a: Samurott|Razor Shell|p1a: Hustle Hard
+|-supereffective|p1a: Hustle Hard
+|-damage|p1a: Hustle Hard|0 fnt
+|faint|p1a: Hustle Hard
+|
+|-weather|none
+|upkeep
+|
+|t:|1779633775
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|turn|15
+|
+|t:|1779633780
+|switch|p2a: Slowking|Slowking-Galar, M|72/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Slowking
+|-damage|p2a: Slowking|13/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|upkeep
+|turn|16
+|
+|t:|1779633784
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M, tera:Water|100/100
+|
+|upkeep
+|turn|17
+|
+|t:|1779633792
+|move|p2a: Samurott|Razor Shell|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|19/100
+|-damage|p2a: Samurott|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Headlong Rush|p2a: Samurott
+|-damage|p2a: Samurott|18/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|18
+|
+|t:|1779633799
+|move|p2a: Samurott|Razor Shell|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-damage|p2a: Samurott|1/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1779633801
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|turn|19
+|
+|t:|1779633815
+|move|p2a: Samurott|Razor Shell|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|82/100
+|-unboost|p1a: Walking Wake|def|1
+|move|p1a: Walking Wake|Hydro Steam|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1779633818
+|switch|p2a: Slowking|Slowking-Galar, M|47/100
+|turn|20
+|
+|t:|1779633821
+|move|p1a: Walking Wake|Hydro Steam|p2a: Slowking
+|-damage|p2a: Slowking|8/100
+|move|p2a: Slowking|Thunder Wave|p1a: Walking Wake
+|-status|p1a: Walking Wake|par
+|
+|upkeep
+|turn|21
+|
+|t:|1779633825
+|move|p1a: Walking Wake|Hydro Steam|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|win|YoSoyDelBronx
+|raw|YoSoyDelBronx's rating: 1312 &rarr; <strong>1332</strong><br />(+20 for winning)
+|raw|Juju2503's rating: 1320 &rarr; <strong>1300</strong><br />(-20 for losing)
+|l|☆Juju2503
+|player|p2|
+|c|☆YoSoyDelBronx|gg
+|l|☆YoSoyDelBronx
+|player|p1|

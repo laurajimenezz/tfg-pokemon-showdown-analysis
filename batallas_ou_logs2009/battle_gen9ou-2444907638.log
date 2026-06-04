@@ -1,0 +1,197 @@
+|j|☆rorain fearow
+|j|☆alexismarelli
+|t:|1758285972
+|gametype|singles
+|player|p1|rorain fearow|birdkeeper|1180
+|player|p2|alexismarelli|1|1139
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Oricorio-Sensu, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Heatran, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Lumineon, M|
+|poke|p2|Granbull, M|
+|poke|p2|Lapras, M|
+|poke|p2|Leavanny, M|
+|poke|p2|Meloetta|
+|poke|p2|Mamoswine, M|
+|teampreview
+|
+|t:|1758285995
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Lumineon|Lumineon, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|
+|t:|1758286026
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Lumineon|Rain Dance|p2a: Lumineon
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758286031
+|switch|p2a: Lapras|Lapras, M|100/100
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1758286038
+|move|p1a: Ogerpon|Grassy Glide|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|47/100
+|move|p2a: Lapras|Ice Beam|p1a: Ogerpon
+|-damage|p1a: Ogerpon|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lapras|54/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1758286043
+|move|p1a: Ogerpon|Grassy Glide|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758286054
+|switch|p2a: Granbull|Granbull, M|100/100
+|-ability|p2a: Granbull|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|turn|5
+|
+|t:|1758286060
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Granbull|Play Rough|p1a: Gliscor
+|-damage|p1a: Gliscor|56/100
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1758286074
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Granbull|Ice Fang|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758286082
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|7
+|
+|t:|1758286092
+|move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|move|p2a: Granbull|Ice Fang|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|47/100
+|-status|p1a: Rillaboom|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|53/100 frz|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1758286113
+|cant|p1a: Rillaboom|frz
+|move|p2a: Granbull|Play Rough|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-weather|none
+|upkeep
+|
+|t:|1758286116
+|switch|p1a: Oricorio|Oricorio-Sensu, M|100/100
+|-enditem|p1a: Oricorio|Grassy Seed
+|-boost|p1a: Oricorio|def|1|[from] item: Grassy Seed
+|turn|9
+|
+|t:|1758286125
+|move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+|-boost|p1a: Oricorio|spa|1
+|-boost|p1a: Oricorio|spd|1
+|-boost|p1a: Oricorio|spe|1
+|move|p2a: Granbull|Ice Fang|p1a: Oricorio
+|-supereffective|p1a: Oricorio
+|-damage|p1a: Oricorio|62/100
+|
+|upkeep
+|turn|10
+|
+|t:|1758286133
+|move|p1a: Oricorio|Roost|p1a: Oricorio
+|-heal|p1a: Oricorio|100/100
+|-singleturn|p1a: Oricorio|move: Roost
+|move|p2a: Granbull|Ice Fang|p1a: Oricorio
+|-crit|p1a: Oricorio
+|-damage|p1a: Oricorio|56/100
+|
+|-heal|p1a: Oricorio|62/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1758286138
+|move|p1a: Oricorio|Roost|p1a: Oricorio
+|-heal|p1a: Oricorio|100/100
+|-singleturn|p1a: Oricorio|move: Roost
+|move|p2a: Granbull|Ice Fang|p1a: Oricorio
+|-damage|p1a: Oricorio|81/100
+|
+|-heal|p1a: Oricorio|87/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1758286142
+|move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+|-boost|p1a: Oricorio|spa|1
+|-boost|p1a: Oricorio|spd|1
+|-boost|p1a: Oricorio|spe|1
+|move|p2a: Granbull|Payback|p1a: Oricorio
+|-supereffective|p1a: Oricorio
+|-crit|p1a: Oricorio
+|-damage|p1a: Oricorio|0 fnt
+|faint|p1a: Oricorio
+|
+|upkeep
+|-message|rorain fearow forfeited.
+|
+|win|alexismarelli
+|raw|rorain fearow's rating: 1180 &rarr; <strong>1152</strong><br />(-28 for losing)
+|raw|alexismarelli's rating: 1139 &rarr; <strong>1167</strong><br />(+28 for winning)
+|l|☆rorain fearow
+|player|p1|
+|l|☆alexismarelli
+|player|p2|

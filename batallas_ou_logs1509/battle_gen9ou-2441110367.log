@@ -1,0 +1,490 @@
+|j|☆EHE33
+|j|☆peakmindset
+|t:|1757798435
+|gametype|singles
+|player|p1|EHE33|101|1533
+|player|p2|peakmindset|byron|1618
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cresselia, F|
+|poke|p1|Pecharunt|
+|poke|p1|Ditto|
+|poke|p1|Ting-Lu|
+|poke|p1|Latias, F|
+|poke|p1|Farigiraf, F|
+|poke|p2|Araquanid, F|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Raging Bolt|
+|poke|p2|Kingambit, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EHE33)
+|
+|t:|1757798456
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ditto|Ditto|100/100
+|switch|p2a: QUIL|Araquanid, F|100/100
+|-transform|p1a: Ditto|p2a: QUIL|[from] ability: Imposter
+|turn|1
+|
+|t:|1757798464
+|switch|p2a: CALA|Iron Moth|100/100
+|-enditem|p2a: CALA|Booster Energy
+|-activate|p2a: CALA|ability: Quark Drive|[fromitem]
+|-start|p2a: CALA|quarkdrivespa
+|move|p1a: Ditto|Sticky Web|p2a: CALA
+|-sidestart|p2: peakmindset|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1757798476
+|switch|p1a: Farigiraf|Farigiraf, F|100/100
+|move|p2a: CALA|Fiery Dance|p1a: Farigiraf
+|-damage|p1a: Farigiraf|64/100
+|-boost|p2a: CALA|spa|1
+|
+|-heal|p1a: Farigiraf|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1757798481
+|move|p2a: CALA|Substitute|p2a: CALA
+|-start|p2a: CALA|Substitute
+|-damage|p2a: CALA|76/100
+|move|p1a: Farigiraf|Thunder Wave||[still]
+|-fail|p1a: Farigiraf
+|
+|-heal|p1a: Farigiraf|76/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757798486
+|move|p2a: CALA|Fiery Dance|p1a: Farigiraf
+|-damage|p1a: Farigiraf|21/100
+|-boost|p2a: CALA|spa|1
+|move|p1a: Farigiraf|Future Sight|p2a: CALA
+|-start|p1a: Farigiraf|move: Future Sight
+|
+|-heal|p1a: Farigiraf|27/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1757798501
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: CALA|Fiery Dance|p1a: Cresselia
+|-damage|p1a: Cresselia|35/100
+|
+|upkeep
+|turn|6
+|
+|t:|1757798515
+|move|p2a: CALA|Fiery Dance|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|
+|-end|p2a: CALA|move: Future Sight
+|-supereffective|p2a: CALA
+|-end|p2a: CALA|Substitute
+|upkeep
+|
+|t:|1757798517
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: CALA|[from] ability: Imposter
+|turn|7
+|
+|t:|1757798531
+|move|p1a: Ditto|Fiery Dance|p2a: CALA
+|-resisted|p2a: CALA
+|-damage|p2a: CALA|30/100
+|-boost|p1a: Ditto|spa|1
+|move|p2a: CALA|Sludge Wave|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|30/100
+|
+|upkeep
+|turn|8
+|
+|t:|1757798535
+|-end|p2a: CALA|Quark Drive|[silent]
+|switch|p2a: QUIL|Araquanid, F|100/100
+|-activate|p2a: QUIL|move: Sticky Web
+|-unboost|p2a: QUIL|spe|1
+|move|p1a: Ditto|Fiery Dance|p2a: QUIL
+|-damage|p2a: QUIL|62/100
+|-boost|p1a: Ditto|spa|1
+|
+|upkeep
+|turn|9
+|
+|t:|1757798544
+|-end|p1a: Ditto|Quark Drive|[silent]
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: QUIL|Surf|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|87/100
+|
+|-heal|p1a: Latias|93/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1757798546
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: QUIL|Endeavor|p1a: Latias
+|-damage|p1a: Latias|58/100
+|
+|-heal|p1a: Latias|64/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1757798549
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: QUIL|Lunge|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|32/100
+|-unboost|p1a: Latias|atk|1
+|
+|-heal|p1a: Latias|38/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1757798559
+|switch|p2a: SUPA|Kingambit, F|100/100
+|-item|p2a: SUPA|Air Balloon
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|88/100
+|
+|-heal|p1a: Latias|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1757798567
+|-terastallize|p1a: Latias|Poison
+|move|p1a: Latias|Aura Sphere|p2a: SUPA
+|-supereffective|p2a: SUPA
+|-damage|p2a: SUPA|0 fnt
+|-enditem|p2a: SUPA|Air Balloon
+|faint|p2a: SUPA
+|-end|p2a: SUPA|fallenundefined|[silent]
+|
+|-heal|p1a: Latias|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757798581
+|switch|p2a: TREE?|Gholdengo|100/100
+|-item|p2a: TREE?|Air Balloon
+|turn|14
+|
+|t:|1757798585
+|move|p2a: TREE?|Psyshock|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|58/100
+|move|p1a: Latias|Mist Ball|p2a: TREE?
+|-resisted|p2a: TREE?
+|-damage|p2a: TREE?|60/100
+|-enditem|p2a: TREE?|Air Balloon
+|
+|-heal|p1a: Latias|64/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1757798592
+|move|p2a: TREE?|Nasty Plot|p2a: TREE?
+|-boost|p2a: TREE?|spa|2
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|100/100
+|
+|upkeep
+|turn|16
+|
+|t:|1757798599
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: TREE?|Psyshock|p1a: Ting-Lu
+|-immune|p1a: Ting-Lu
+|
+|upkeep
+|turn|17
+|
+|t:|1757798608
+|-terastallize|p2a: TREE?|Flying
+|move|p2a: TREE?|Nasty Plot|p2a: TREE?
+|-boost|p2a: TREE?|spa|2
+|move|p1a: Ting-Lu|Payback|p2a: TREE?
+|-damage|p2a: TREE?|17/100
+|
+|upkeep
+|turn|18
+|
+|t:|1757798616
+|move|p2a: TREE?|Make It Rain|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-unboost|p2a: TREE?|spa|1
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1757798618
+|switch|p1a: Ditto|Ditto|30/100
+|-transform|p1a: Ditto|p2a: TREE?|[from] ability: Imposter
+|-start|p1a: Ditto|typechange|Steel/Ghost|[silent]
+|turn|19
+|
+|t:|1757798627
+|switch|p2a: CALA|Iron Moth|30/100
+|-activate|p2a: CALA|move: Sticky Web
+|-unboost|p2a: CALA|spe|1
+|move|p1a: Ditto|Psyshock|p2a: CALA
+|-supereffective|p2a: CALA
+|-damage|p2a: CALA|0 fnt
+|faint|p2a: CALA
+|-end|p2a: CALA|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1757798637
+|switch|p2a: DELI|Raging Bolt|100/100
+|-activate|p2a: DELI|move: Sticky Web
+|-unboost|p2a: DELI|spe|1
+|-enditem|p2a: DELI|Booster Energy
+|-activate|p2a: DELI|ability: Protosynthesis|[fromitem]
+|-start|p2a: DELI|protosynthesisspa
+|turn|20
+|
+|t:|1757798646
+|switch|p1a: Latias|Latias, F, tera:Poison|100/100
+|move|p2a: DELI|Calm Mind|p2a: DELI
+|-boost|p2a: DELI|spa|1
+|-boost|p2a: DELI|spd|1
+|
+|upkeep
+|turn|21
+|
+|t:|1757798651
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: DELI|Thunderbolt|p1a: Latias
+|-damage|p1a: Latias|48/100
+|
+|-heal|p1a: Latias|54/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1757798653
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: DELI|Calm Mind|p2a: DELI
+|-boost|p2a: DELI|spa|1
+|-boost|p2a: DELI|spd|1
+|
+|-heal|p1a: Latias|60/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1757798655
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: DELI|Calm Mind|p2a: DELI
+|-boost|p2a: DELI|spa|1
+|-boost|p2a: DELI|spd|1
+|
+|-heal|p1a: Latias|66/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1757798658
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: DELI|Calm Mind|p2a: DELI
+|-boost|p2a: DELI|spa|1
+|-boost|p2a: DELI|spd|1
+|
+|-heal|p1a: Latias|72/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1757798664
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: DELI|Thunderbolt|p1a: Latias
+|-damage|p1a: Latias|28/100
+|-status|p1a: Latias|par
+|
+|-heal|p1a: Latias|34/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1757798679
+|-end|p2a: DELI|Protosynthesis|[silent]
+|switch|p2a: QUIL|Araquanid, F|62/100
+|-activate|p2a: QUIL|move: Sticky Web
+|-unboost|p2a: QUIL|spe|1
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|84/100 par
+|
+|-heal|p1a: Latias|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1757798687
+|move|p1a: Latias|Mist Ball|p2a: QUIL
+|-damage|p2a: QUIL|0 fnt
+|faint|p2a: QUIL
+|
+|-heal|p1a: Latias|96/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1757798691
+|switch|p2a: TREE?|Gholdengo, tera:Flying|17/100
+|turn|28
+|
+|t:|1757798694
+|move|p2a: TREE?|Nasty Plot|p2a: TREE?
+|-boost|p2a: TREE?|spa|2
+|cant|p1a: Latias|par
+|
+|-heal|p1a: Latias|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1757798697
+|move|p2a: TREE?|Psyshock|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|21/100 par
+|cant|p1a: Latias|par
+|
+|-heal|p1a: Latias|27/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1757798710
+|move|p2a: TREE?|Psyshock|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|upkeep
+|
+|t:|1757798714
+|switch|p1a: Ditto|Ditto|30/100
+|-transform|p1a: Ditto|p2a: TREE?|[from] ability: Imposter
+|turn|31
+|
+|t:|1757798732
+|move|p1a: Ditto|Psyshock|p2a: TREE?
+|-damage|p2a: TREE?|0 fnt
+|faint|p2a: TREE?
+|
+|upkeep
+|
+|t:|1757798733
+|switch|p2a: DELI|Raging Bolt|100/100
+|-activate|p2a: DELI|move: Sticky Web
+|-unboost|p2a: DELI|spe|1
+|turn|32
+|
+|t:|1757798736
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: DELI|Thunderclap||[still]
+|-fail|p2a: DELI
+|
+|upkeep
+|turn|33
+|
+|t:|1757798741
+|move|p1a: Pecharunt|Malignant Chain|p2a: DELI
+|-damage|p2a: DELI|73/100
+|move|p2a: DELI|Calm Mind|p2a: DELI
+|-boost|p2a: DELI|spa|1
+|-boost|p2a: DELI|spd|1
+|
+|upkeep
+|turn|34
+|
+|t:|1757798745
+|move|p1a: Pecharunt|Malignant Chain|p2a: DELI
+|-damage|p2a: DELI|55/100
+|move|p2a: DELI|Thunderbolt|p1a: Pecharunt
+|-crit|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1757798753
+|switch|p1a: Ditto|Ditto|30/100
+|-transform|p1a: Ditto|p2a: DELI|[from] ability: Imposter
+|turn|35
+|
+|t:|1757798764
+|move|p2a: DELI|Thunderclap|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|18/100
+|move|p1a: Ditto|Dragon Pulse|p2a: DELI
+|-supereffective|p2a: DELI
+|-damage|p2a: DELI|0 fnt
+|faint|p2a: DELI
+|-end|p2a: DELI|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1757798769
+|switch|p2a: QUZZ|Iron Valiant|100/100
+|-activate|p2a: QUZZ|move: Sticky Web
+|-unboost|p2a: QUZZ|spe|1
+|-enditem|p2a: QUZZ|Booster Energy
+|-activate|p2a: QUZZ|ability: Quark Drive|[fromitem]
+|-start|p2a: QUZZ|quarkdrivespa
+|turn|36
+|
+|t:|1757798777
+|-end|p1a: Ditto|Protosynthesis|[silent]
+|switch|p1a: Farigiraf|Farigiraf, F|27/100
+|move|p2a: QUZZ|Moonblast|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|
+|upkeep
+|
+|t:|1757798779
+|switch|p1a: Ditto|Ditto|18/100
+|-transform|p1a: Ditto|p2a: QUZZ|[from] ability: Imposter
+|turn|37
+|
+|t:|1757798783
+|move|p2a: QUZZ|Vacuum Wave|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|-end|p1a: Ditto|Quark Drive|[silent]
+|
+|win|peakmindset
+|raw|EHE33's rating: 1533 &rarr; <strong>1518</strong><br />(-15 for losing)
+|raw|peakmindset's rating: 1618 &rarr; <strong>1633</strong><br />(+15 for winning)
+|l|☆EHE33
+|player|p1|
+|c|☆peakmindset|Gg ez
+|l|☆peakmindset
+|player|p2|

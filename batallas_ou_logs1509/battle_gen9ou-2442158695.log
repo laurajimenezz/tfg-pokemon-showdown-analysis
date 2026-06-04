@@ -1,0 +1,196 @@
+|j|☆mio3777
+|j|☆zinc182000
+|t:|1757953293
+|gametype|singles
+|player|p1|mio3777|102|1507
+|player|p2|zinc182000|2|1437
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Polteageist-Antique|
+|poke|p1|Cinderace, F|
+|poke|p1|Armarouge, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Pecharunt|
+|poke|p2|Scizor, M|
+|poke|p2|Latios, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zinc182000)
+|
+|t:|1757953300
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1757953307
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock|p2a: Landorus|[from] ability: Magic Bounce
+|-sidestart|p2: zinc182000|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1757953315
+|move|p2a: Landorus|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|43/100
+|move|p1a: Hatterene|Expanding Force|p2a: Landorus
+|-damage|p2a: Landorus|4/100
+|
+|-heal|p1a: Hatterene|49/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1757953324
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p1a: Hawlucha|Psychic Seed
+|-boost|p1a: Hawlucha|spd|1|[from] item: Psychic Seed
+|move|p2a: Landorus|Earthquake|p1a: Hawlucha
+|-immune|p1a: Hawlucha
+|
+|upkeep
+|turn|4
+|
+|t:|1757953333
+|move|p1a: Hawlucha|Acrobatics|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Hawlucha|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1757953336
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|5
+|
+|t:|1757953345
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Pecharunt|Malignant Chain|p1a: Hawlucha
+|-damage|p1a: Hawlucha|61/100
+|-status|p1a: Hawlucha|tox
+|-start|p1a: Hawlucha|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-damage|p1a: Hawlucha|55/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1757953354
+|-activate|p1a: Hawlucha|confusion
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Pecharunt|Shadow Ball|p1a: Hawlucha
+|-damage|p1a: Hawlucha|35/100 tox
+|
+|-damage|p1a: Hawlucha|23/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1757953361
+|-activate|p1a: Hawlucha|confusion
+|move|p1a: Hawlucha|Acrobatics|p2a: Pecharunt
+|-damage|p2a: Pecharunt|13/100
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|64/100
+|
+|-damage|p1a: Hawlucha|5/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1757953369
+|-activate|p1a: Hawlucha|confusion
+|-damage|p1a: Hawlucha|0 fnt|[from] confusion
+|faint|p1a: Hawlucha
+|move|p2a: Pecharunt|Malignant Chain|p1: Hawlucha|[notarget]
+|-fail|p2a: Pecharunt
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1757953375
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|9
+|
+|t:|1757953392
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|-damage|p2a: Samurott|88/100|[from] Stealth Rock
+|move|p1a: Indeedee|Healing Wish|p1a: Indeedee
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1757953399
+|switch|p1a: Polteageist|Polteageist-Antique|100/100
+|turn|10
+|
+|t:|1757953403
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Samurott|Ceaseless Edge|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-enditem|p1a: Polteageist|Focus Sash
+|-damage|p1a: Polteageist|1/100
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|-sidestart|p1: mio3777|Spikes
+|
+|upkeep
+|turn|11
+|
+|t:|1757953415
+|-terastallize|p1a: Polteageist|Fighting
+|move|p1a: Polteageist|Tera Blast|p2a: Samurott|[anim] Tera Blast Fighting
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1757953421
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1757953425
+|-terastallize|p2a: Latios|Steel
+|move|p1a: Polteageist|Shadow Ball|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|-message|zinc182000 forfeited.
+|
+|win|mio3777
+|raw|mio3777's rating: 1507 &rarr; <strong>1523</strong><br />(+16 for winning)
+|raw|zinc182000's rating: 1437 &rarr; <strong>1421</strong><br />(-16 for losing)
+|l|☆zinc182000
+|player|p2|
+|l|☆mio3777
+|player|p1|

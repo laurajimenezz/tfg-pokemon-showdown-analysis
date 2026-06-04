@@ -1,0 +1,358 @@
+|j|☆witdflow
+|j|☆MarxN64
+|t:|1760364875
+|gametype|singles
+|player|p1|witdflow|norman|1237
+|player|p2|MarxN64|gentleman-gen4|1179
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clefable, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Alomomola, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Ditto|
+|poke|p1|Clodsire, M|
+|poke|p2|Houndstone, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Suicune|
+|poke|p2|Coalossal, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Okidogi, M|
+|teampreview
+|
+|t:|1760364882
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ditto|Ditto|100/100
+|switch|p2a: Rudy|Houndstone, F, shiny|100/100
+|-transform|p1a: Ditto|p2a: Rudy|[from] ability: Imposter
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MarxN64)
+|
+|t:|1760364897
+|switch|p1a: Ting-Lu|Ting-Lu, shiny|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Rudy|Roar|p1a: Ting-Lu
+|drag|p1a: Alomomola|Alomomola, F|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1760364903
+|switch|p1a: Ting-Lu|Ting-Lu, shiny|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Rudy|Will-O-Wisp|p1a: Ting-Lu
+|-status|p1a: Ting-Lu|brn
+|
+|-damage|p1a: Ting-Lu|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1760364909
+|switch|p2a: Grommit|Okidogi, M|100/100
+|move|p1a: Ting-Lu|Ruination|p2a: Grommit
+|-damage|p2a: Grommit|50/100
+|
+|-heal|p2a: Grommit|57/100|[from] item: Black Sludge
+|-heal|p1a: Ting-Lu|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1760364915
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Grommit|Bulk Up|p2a: Grommit
+|-boost|p2a: Grommit|atk|1
+|-boost|p2a: Grommit|def|1
+|
+|-heal|p2a: Grommit|63/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1760364920
+|move|p2a: Grommit|Ice Punch|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|37/100
+|move|p1a: Clodsire|Counter|p2a: Grommit
+|-damage|p2a: Grommit|0 fnt
+|faint|p2a: Grommit
+|
+|-heal|p1a: Clodsire|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760364930
+|switch|p2a: Lassy|Suicune|100/100
+|-ability|p2a: Lassy|Pressure
+|turn|6
+|
+|t:|1760364935
+|move|p2a: Lassy|Scald|p1a: Clodsire
+|-heal|p1a: Clodsire|68/100|[from] ability: Water Absorb|[of] p2a: Lassy
+|move|p1a: Clodsire|Toxic|p2a: Lassy
+|-status|p2a: Lassy|tox
+|-enditem|p2a: Lassy|Lum Berry|[eat]
+|-curestatus|p2a: Lassy|tox|[msg]
+|
+|-heal|p1a: Clodsire|74/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760364939
+|move|p2a: Lassy|Ice Beam|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|45/100
+|move|p1a: Clodsire|Toxic|p2a: Lassy
+|-status|p2a: Lassy|tox
+|
+|-heal|p1a: Clodsire|52/100|[from] item: Leftovers
+|-damage|p2a: Lassy|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1760364945
+|move|p2a: Lassy|Ice Beam|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|24/100
+|-status|p1a: Clodsire|frz
+|cant|p1a: Clodsire|frz
+|
+|-heal|p1a: Clodsire|30/100 frz|[from] item: Leftovers
+|-damage|p2a: Lassy|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1760364949
+|switch|p1a: Clefable|Clefable, F, shiny|100/100
+|move|p2a: Lassy|Ice Beam|p1a: Clefable
+|-damage|p1a: Clefable|88/100
+|
+|-heal|p1a: Clefable|94/100|[from] item: Leftovers
+|-damage|p2a: Lassy|63/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1760364956
+|switch|p2a: Rudy|Houndstone, F, shiny|100/100
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760364962
+|switch|p1a: Clodsire|Clodsire, M|30/100 frz
+|move|p2a: Rudy|Roar|p1a: Clodsire
+|drag|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Rudy|[from] ability: Imposter
+|
+|upkeep
+|turn|12
+|
+|t:|1760364971
+|switch|p1a: Clodsire|Clodsire, M|30/100 frz
+|move|p2a: Rudy|Will-O-Wisp||[still]
+|-fail|p2a: Rudy
+|
+|-heal|p1a: Clodsire|36/100 frz|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆witdflow|bruh what
+|c|☆witdflow|willo wisp used to thaw :[
+|
+|t:|1760364990
+|switch|p1a: Ting-Lu|Ting-Lu, shiny|94/100 brn
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Rudy|Night Shade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|75/100 brn
+|
+|-heal|p1a: Ting-Lu|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|75/100 brn|[from] brn
+|upkeep
+|turn|14
+|c|☆MarxN64|Uh, no?
+|
+|t:|1760365003
+|move|p2a: Rudy|Night Shade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|55/100 brn
+|move|p1a: Ting-Lu|Ruination|p2a: Rudy
+|-damage|p2a: Rudy|50/100
+|
+|-heal|p2a: Rudy|57/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|62/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|55/100 brn|[from] brn
+|upkeep
+|turn|15
+|c|☆witdflow|maybe i'm misremembering
+|inactive|witdflow has 120 seconds left.
+|
+|t:|1760365047
+|move|p2a: Rudy|Night Shade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|36/100 brn
+|move|p1a: Ting-Lu|Ruination|p2a: Rudy
+|-damage|p2a: Rudy|29/100
+|
+|-heal|p2a: Rudy|35/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|42/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|36/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1760365053
+|move|p2a: Rudy|Night Shade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|16/100 brn
+|move|p1a: Ting-Lu|Rest|p1a: Ting-Lu
+|-status|p1a: Ting-Lu|slp|[from] move: Rest
+|-heal|p1a: Ting-Lu|100/100 slp|[silent]
+|
+|-heal|p2a: Rudy|41/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1760365057
+|switch|p1a: Clodsire|Clodsire, M|36/100 frz
+|move|p2a: Rudy|Pain Split|p1a: Clodsire
+|-sethp|p1a: Clodsire|32/100 frz|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rudy|48/100|[from] move: Pain Split
+|
+|-heal|p2a: Rudy|54/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|38/100 frz|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1760365065
+|switch|p1a: Ting-Lu|Ting-Lu, shiny|100/100 slp
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Rudy|Night Shade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|81/100 slp
+|
+|-heal|p2a: Rudy|60/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|87/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1760365076
+|move|p2a: Rudy|Night Shade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|68/100 slp
+|cant|p1a: Ting-Lu|slp
+|
+|-heal|p2a: Rudy|66/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|74/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1760365081
+|move|p2a: Rudy|Will-O-Wisp||[still]
+|-fail|p2a: Rudy
+|cant|p1a: Ting-Lu|slp
+|
+|-heal|p2a: Rudy|72/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|80/100 slp|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1760365084
+|move|p2a: Rudy|Night Shade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|61/100 slp
+|-curestatus|p1a: Ting-Lu|slp|[msg]
+|move|p1a: Ting-Lu|Ruination|p2a: Rudy
+|-damage|p2a: Rudy|37/100
+|
+|-heal|p2a: Rudy|43/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|67/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1760365094
+|move|p2a: Rudy|Night Shade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|48/100
+|move|p1a: Ting-Lu|Sand Tomb|p2a: Rudy
+|-damage|p2a: Rudy|30/100
+|-activate|p2a: Rudy|move: Sand Tomb|[of] p1a: Ting-Lu
+|
+|-heal|p2a: Rudy|36/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|54/100|[from] item: Leftovers
+|-damage|p2a: Rudy|24/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|23
+|
+|t:|1760365104
+|move|p2a: Rudy|Pain Split|p1a: Ting-Lu
+|-sethp|p1a: Ting-Lu|34/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rudy|56/100|[from] move: Pain Split
+|move|p1a: Ting-Lu|Rock Slide|p2a: Rudy
+|-damage|p2a: Rudy|38/100
+|
+|-heal|p2a: Rudy|44/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|40/100|[from] item: Leftovers
+|-damage|p2a: Rudy|32/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|24
+|
+|t:|1760365115
+|move|p2a: Rudy|Pain Split|p1a: Ting-Lu
+|-sethp|p1a: Ting-Lu|30/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rudy|49/100|[from] move: Pain Split
+|move|p1a: Ting-Lu|Ruination|p2a: Rudy
+|-damage|p2a: Rudy|25/100
+|
+|-heal|p2a: Rudy|31/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|36/100|[from] item: Leftovers
+|-damage|p2a: Rudy|19/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|25
+|
+|t:|1760365120
+|move|p2a: Rudy|Pain Split|p1a: Ting-Lu
+|-sethp|p1a: Ting-Lu|24/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rudy|39/100|[from] move: Pain Split
+|move|p1a: Ting-Lu|Ruination|p2a: Rudy
+|-damage|p2a: Rudy|20/100
+|
+|-heal|p2a: Rudy|26/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|30/100|[from] item: Leftovers
+|-damage|p2a: Rudy|14/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|26
+|
+|t:|1760365128
+|move|p2a: Rudy|Night Shade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|10/100
+|move|p1a: Ting-Lu|Ruination|p2a: Rudy
+|-damage|p2a: Rudy|7/100
+|
+|-heal|p2a: Rudy|13/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|17/100|[from] item: Leftovers
+|-damage|p2a: Rudy|1/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|27
+|
+|t:|1760365140
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|move|p2a: Rudy|Pain Split|p1a: Slowking
+|-sethp|p1a: Slowking|51/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rudy|65/100|[from] move: Pain Split
+|
+|-heal|p2a: Rudy|71/100|[from] item: Leftovers
+|-heal|p1a: Slowking|57/100|[from] item: Leftovers
+|-end|p2a: Rudy|Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|28
+|c|☆witdflow|lol'
+|-message|witdflow forfeited.
+|
+|win|MarxN64
+|raw|witdflow's rating: 1237 &rarr; <strong>1208</strong><br />(-29 for losing)
+|raw|MarxN64's rating: 1179 &rarr; <strong>1208</strong><br />(+29 for winning)
+|l|☆MarxN64
+|player|p2|

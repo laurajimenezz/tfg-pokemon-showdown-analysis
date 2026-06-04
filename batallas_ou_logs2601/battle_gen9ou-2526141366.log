@@ -1,0 +1,471 @@
+|j|☆Supertoki1
+|j|☆naikolacra
+|t:|1769375771
+|gametype|singles
+|player|p1|Supertoki1|volkner|1100
+|player|p2|naikolacra|265|1122
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glalie, F|
+|poke|p1|Swampert, F|
+|poke|p1|Porygon-Z|
+|poke|p1|Mimikyu, F|
+|poke|p1|Salamence, F|
+|poke|p1|Arcanine, M|
+|poke|p2|Dusclops, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Porygon-Z|
+|poke|p2|Exeggutor-Alola, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Iron Hands|
+|teampreview
+|
+|t:|1769375783
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Porygon-Z|Porygon-Z|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1769375797
+|switch|p2a: Dusclops|Dusclops, F|100/100
+|-item|p1a: Porygon-Z|Life Orb|[from] ability: Frisk|[of] p2a: Dusclops
+|move|p1a: Porygon-Z|Tri Attack|p2a: Dusclops
+|-immune|p2a: Dusclops
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1769375809
+|move|p1a: Porygon-Z|Nasty Plot|p1a: Porygon-Z
+|-boost|p1a: Porygon-Z|spa|2
+|move|p2a: Dusclops|Trick Room|p2a: Dusclops
+|-fieldstart|move: Trick Room|[of] p2a: Dusclops
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1769375816
+|move|p2a: Dusclops|Night Shade|p1a: Porygon-Z
+|-immune|p1a: Porygon-Z
+|move|p1a: Porygon-Z|Shadow Ball|p2a: Dusclops
+|-supereffective|p2a: Dusclops
+|-damage|p2a: Dusclops|0 fnt
+|faint|p2a: Dusclops
+|-damage|p1a: Porygon-Z|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769375829
+|switch|p2a: Exeggutor|Exeggutor-Alola, F|100/100
+|turn|4
+|
+|t:|1769375837
+|move|p2a: Exeggutor|Draco Meteor|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|20/100
+|-unboost|p2a: Exeggutor|spa|2
+|move|p1a: Porygon-Z|Shadow Ball|p2a: Exeggutor
+|-damage|p2a: Exeggutor|15/100
+|-unboost|p2a: Exeggutor|spd|1
+|-enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p2a: Exeggutor|40/100|[from] item: Sitrus Berry
+|-damage|p1a: Porygon-Z|10/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-item|p2a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p2a: Exeggutor|65/100|[from] item: Sitrus Berry
+|turn|5
+|
+|t:|1769375865
+|switch|p1a: Swampert|Swampert, F|100/100
+|move|p2a: Exeggutor|Earthquake|p1a: Swampert
+|-damage|p1a: Swampert|86/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Swampert|92/100|[from] item: Leftovers
+|-item|p2a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|6
+|
+|t:|1769375880
+|switch|p1a: Glalie|Glalie, F|100/100
+|move|p2a: Exeggutor|Giga Drain|p1a: Glalie
+|-damage|p1a: Glalie|78/100
+|-heal|p2a: Exeggutor|74/100|[from] drain|[of] p1a: Glalie
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by naikolacra)
+|
+|t:|1769375935
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|move|p1a: Glalie|Spikes|p2a: Iron Hands
+|-sidestart|p2: naikolacra|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1769375950
+|-terastallize|p1a: Glalie|Ghost
+|move|p1a: Glalie|Spikes|p2a: Iron Hands
+|-sidestart|p2: naikolacra|Spikes
+|move|p2a: Iron Hands|Volt Switch|p1a: Glalie
+|-damage|p1a: Glalie|60/100
+|
+|t:|1769375957
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Torkoal|Torkoal, F|100/100|[from] Volt Switch
+|-damage|p2a: Torkoal|84/100|[from] Spikes
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1769375968
+|switch|p1a: Swampert|Swampert, F|92/100
+|move|p2a: Torkoal|Stealth Rock|p1a: Swampert
+|-sidestart|p1: Supertoki1|move: Stealth Rock
+|
+|-heal|p1a: Swampert|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1769375980
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|84/100|[from] Spikes
+|move|p1a: Swampert|Stealth Rock|p2a: Hatterene
+|move|p2a: Hatterene|Stealth Rock||[from] ability: Magic Bounce|[still]
+|-fail|p2a: Hatterene
+|
+|-heal|p1a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1769375997
+|switch|p2a: Torkoal|Torkoal, F|84/100
+|-damage|p2a: Torkoal|67/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Swampert|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|14/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1769376007
+|move|p1a: Swampert|Flip Turn|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|t:|1769376024
+|switch|p1a: Glalie|Glalie, F, tera:Ghost|60/100|[from] Flip Turn
+|-damage|p1a: Glalie|48/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769376033
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-damage|p2a: Iron Hands|84/100|[from] Spikes
+|turn|13
+|
+|t:|1769376040
+|move|p1a: Glalie|Spikes|p2a: Iron Hands
+|-sidestart|p2: naikolacra|Spikes
+|move|p2a: Iron Hands|Supercell Slam|p1a: Glalie|[miss]
+|-miss|p2a: Iron Hands|p1a: Glalie
+|-damage|p2a: Iron Hands|34/100|[from] supercellslam
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1769376051
+|move|p1a: Glalie|Ice Shard|p2a: Iron Hands
+|-damage|p2a: Iron Hands|23/100
+|move|p2a: Iron Hands|Volt Switch|p1a: Glalie
+|-damage|p1a: Glalie|30/100
+|
+|t:|1769376057
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Exeggutor|Exeggutor-Alola, F|74/100|[from] Volt Switch
+|-damage|p2a: Exeggutor|49/100|[from] Spikes
+|-enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p2a: Exeggutor|74/100|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|-item|p2a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|15
+|
+|t:|1769376068
+|-terastallize|p2a: Exeggutor|Steel
+|move|p1a: Glalie|Ice Shard|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|68/100
+|move|p2a: Exeggutor|Calm Mind|p2a: Exeggutor
+|-boost|p2a: Exeggutor|spa|1
+|-boost|p2a: Exeggutor|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1769376081
+|move|p1a: Glalie|Taunt|p2a: Exeggutor
+|-start|p2a: Exeggutor|move: Taunt
+|cant|p2a: Exeggutor|move: Taunt|Calm Mind
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1769376090
+|switch|p1a: Swampert|Swampert, F|100/100
+|-damage|p1a: Swampert|94/100|[from] Stealth Rock
+|move|p2a: Exeggutor|Giga Drain|p1a: Swampert
+|-supereffective|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|-heal|p2a: Exeggutor|100/100|[from] drain|[of] p1a: Swampert
+|faint|p1a: Swampert
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1769376112
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Exeggutor|atk|1
+|turn|18
+|
+|t:|1769376118
+|move|p1a: Arcanine|Flamethrower|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|44/100
+|-enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p2a: Exeggutor|69/100|[from] item: Sitrus Berry
+|move|p2a: Exeggutor|Draco Meteor|p1a: Arcanine
+|-damage|p1a: Arcanine|18/100
+|-unboost|p2a: Exeggutor|spa|2
+|
+|-weather|none
+|-end|p2a: Exeggutor|move: Taunt
+|upkeep
+|turn|19
+|
+|t:|1769376143
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|68/100
+|move|p2a: Exeggutor|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|43/100
+|
+|-item|p2a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|20
+|
+|t:|1769376155
+|move|p1a: Arcanine|Flamethrower|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|36/100
+|-enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p2a: Exeggutor|60/100|[from] item: Sitrus Berry
+|move|p2a: Exeggutor|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|21/100
+|
+|upkeep
+|turn|21
+|
+|t:|1769376164
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|71/100
+|move|p2a: Exeggutor|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|45/100
+|
+|upkeep
+|turn|22
+|
+|t:|1769376173
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|95/100
+|move|p2a: Exeggutor|Draco Meteor|p1a: Arcanine
+|-damage|p1a: Arcanine|54/100
+|-unboost|p2a: Exeggutor|spa|2
+|
+|-item|p2a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|23
+|
+|t:|1769376184
+|switch|p2a: Hatterene|Hatterene, F|84/100
+|-damage|p2a: Hatterene|59/100|[from] Spikes
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Hatterene
+|move|p2a: Hatterene|Will-O-Wisp|p1a: Arcanine|[from] ability: Magic Bounce
+|-immune|p1a: Arcanine
+|
+|upkeep
+|turn|24
+|
+|t:|1769376203
+|move|p1a: Arcanine|Flamethrower|p2a: Hatterene
+|-damage|p2a: Hatterene|39/100
+|move|p2a: Hatterene|Future Sight|p1a: Arcanine
+|-start|p2a: Hatterene|move: Future Sight
+|
+|upkeep
+|turn|25
+|
+|t:|1769376213
+|move|p1a: Arcanine|Flamethrower|p2a: Hatterene
+|-damage|p2a: Hatterene|21/100
+|move|p2a: Hatterene|Nuzzle|p1a: Arcanine
+|-damage|p1a: Arcanine|51/100
+|-status|p1a: Arcanine|par
+|
+|upkeep
+|turn|26
+|
+|t:|1769376222
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|-damage|p2a: Porygon-Z|76/100|[from] Spikes
+|move|p1a: Arcanine|Extreme Speed|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|52/100
+|
+|-end|p1a: Arcanine|move: Future Sight
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|upkeep
+|
+|t:|1769376244
+|switch|p1a: Salamence|Salamence, F|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1769376252
+|move|p1a: Salamence|Earthquake|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|9/100
+|move|p2a: Porygon-Z|Trick Room|p2a: Porygon-Z
+|-fieldstart|move: Trick Room|[of] p2a: Porygon-Z
+|
+|upkeep
+|turn|28
+|
+|t:|1769376265
+|switch|p1a: Porygon-Z|Porygon-Z|10/100
+|-damage|p1a: Porygon-Z|0 fnt|[from] Stealth Rock
+|faint|p1a: Porygon-Z
+|move|p2a: Porygon-Z|Tri Attack|p1: Porygon-Z|[notarget]
+|-fail|p2a: Porygon-Z
+|
+|upkeep
+|
+|t:|1769376269
+|switch|p1a: Glalie|Glalie, F, tera:Ghost|30/100
+|-damage|p1a: Glalie|18/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1769376275
+|move|p1a: Glalie|Ice Shard|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|upkeep
+|
+|t:|1769376280
+|switch|p2a: Exeggutor|Exeggutor-Alola, F, tera:Steel|60/100
+|-damage|p2a: Exeggutor|36/100|[from] Spikes
+|-enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p2a: Exeggutor|60/100|[from] item: Sitrus Berry
+|turn|30
+|
+|t:|1769376289
+|move|p2a: Exeggutor|Calm Mind|p2a: Exeggutor
+|-boost|p2a: Exeggutor|spa|1
+|-boost|p2a: Exeggutor|spd|1
+|move|p1a: Glalie|Taunt|p2a: Exeggutor
+|-start|p2a: Exeggutor|move: Taunt
+|
+|-item|p2a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|31
+|
+|t:|1769376304
+|move|p2a: Exeggutor|Giga Drain|p1a: Glalie
+|-damage|p1a: Glalie|0 fnt
+|-heal|p2a: Exeggutor|67/100|[from] drain|[of] p1a: Glalie
+|faint|p1a: Glalie
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1769376312
+|switch|p1a: Salamence|Salamence, F|76/100
+|-damage|p1a: Salamence|51/100|[from] Stealth Rock
+|turn|32
+|
+|t:|1769376318
+|move|p1a: Salamence|Earthquake|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|11/100
+|-enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p2a: Exeggutor|36/100|[from] item: Sitrus Berry
+|move|p2a: Exeggutor|Draco Meteor|p1a: Salamence|[miss]
+|-miss|p2a: Exeggutor|p1a: Salamence
+|
+|upkeep
+|turn|33
+|
+|t:|1769376330
+|move|p1a: Salamence|Earthquake|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+|
+|t:|1769376339
+|switch|p2a: Hatterene|Hatterene, F|21/100
+|-damage|p2a: Hatterene|0 fnt|[from] Spikes
+|faint|p2a: Hatterene
+|
+|t:|1769376341
+|switch|p2a: Iron Hands|Iron Hands|23/100
+|-damage|p2a: Iron Hands|0 fnt|[from] Spikes
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|win|Supertoki1
+|raw|Supertoki1's rating: 1100 &rarr; <strong>1127</strong><br />(+27 for winning)
+|raw|naikolacra's rating: 1122 &rarr; <strong>1095</strong><br />(-27 for losing)
+|l|☆naikolacra
+|player|p2|
+|l|☆Supertoki1
+|player|p1|

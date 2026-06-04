@@ -1,0 +1,223 @@
+|j|☆MrRandomHuman
+|j|☆Brollens
+|t:|1760766243
+|gametype|singles
+|player|p1|MrRandomHuman|gambler|1104
+|player|p2|Brollens|101|1061
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Metagross|
+|poke|p1|Ceruledge, M|
+|poke|p1|Latias, F|
+|poke|p1|Maushold-Four|
+|poke|p1|Gliscor, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Snorlax, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Blissey, F|
+|poke|p2|Fezandipiti, M|
+|poke|p2|Hydrapple, M|
+|poke|p2|Iron Hands|
+|teampreview
+|
+|t:|1760766254
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1760766262
+|move|p1a: Gliscor|Stealth Rock|p2a: Iron Hands
+|-sidestart|p2: Brollens|move: Stealth Rock
+|move|p2a: Iron Hands|Close Combat|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|53/100
+|-unboost|p2a: Iron Hands|def|1
+|-unboost|p2a: Iron Hands|spd|1
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1760766272
+|switch|p1a: Erebus|Ceruledge, M|100/100
+|move|p2a: Iron Hands|Giga Impact|p1a: Erebus
+|-immune|p1a: Erebus
+|
+|upkeep
+|turn|3
+|
+|t:|1760766284
+|move|p1a: Erebus|Close Combat|p2a: Iron Hands
+|-damage|p2a: Iron Hands|60/100
+|-unboost|p1a: Erebus|def|1
+|-unboost|p1a: Erebus|spd|1
+|move|p2a: Iron Hands|Close Combat|p1a: Erebus
+|-immune|p1a: Erebus
+|
+|upkeep
+|turn|4
+|
+|t:|1760766297
+|move|p1a: Erebus|Swords Dance|p1a: Erebus
+|-boost|p1a: Erebus|atk|2
+|move|p2a: Iron Hands|Rest|p2a: Iron Hands
+|-status|p2a: Iron Hands|slp|[from] move: Rest
+|-heal|p2a: Iron Hands|100/100 slp|[silent]
+|
+|upkeep
+|turn|5
+|
+|t:|1760766311
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|move|p1a: Erebus|Swords Dance|p1a: Erebus
+|-boost|p1a: Erebus|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1760766318
+|move|p1a: Erebus|Close Combat|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-crit|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|-unboost|p1a: Erebus|def|1
+|-unboost|p1a: Erebus|spd|1
+|-damage|p1a: Erebus|84/100|[from] item: Rocky Helmet|[of] p2a: Blissey
+|faint|p2a: Blissey
+|
+|upkeep
+|
+|t:|1760766326
+|switch|p2a: Fezandipiti|Fezandipiti, M|100/100
+|-damage|p2a: Fezandipiti|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1760766331
+|move|p2a: Fezandipiti|Toxic|p1a: Erebus
+|-status|p1a: Erebus|tox
+|move|p1a: Erebus|Bitter Blade|p2a: Fezandipiti
+|-damage|p2a: Fezandipiti|0 fnt
+|-heal|p1a: Erebus|100/100 tox|[from] drain|[of] p2a: Fezandipiti
+|faint|p2a: Fezandipiti
+|
+|-damage|p1a: Erebus|94/100 tox|[from] psn
+|upkeep
+|
+|t:|1760766340
+|switch|p2a: Iron Hands|Iron Hands|100/100 slp
+|-damage|p2a: Iron Hands|94/100 slp|[from] Stealth Rock
+|turn|8
+|
+|t:|1760766345
+|move|p1a: Erebus|Swords Dance|p1a: Erebus
+|-boost|p1a: Erebus|atk|2
+|cant|p2a: Iron Hands|slp
+|
+|-damage|p1a: Erebus|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1760766354
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Erebus|Bitter Blade|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|33/100
+|-heal|p1a: Erebus|100/100 tox|[from] drain|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Erebus|94/100 tox|[from] Sandstorm
+|-damage|p1a: Erebus|76/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1760766367
+|move|p1a: Erebus|Close Combat|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Erebus|def|1
+|-unboost|p1a: Erebus|spd|1
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Erebus|70/100 tox|[from] Sandstorm
+|-damage|p1a: Erebus|46/100 tox|[from] psn
+|upkeep
+|
+|t:|1760766378
+|switch|p2a: Pathos|Hydrapple, M|100/100
+|-damage|p2a: Pathos|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1760766384
+|move|p1a: Erebus|Bitter Blade|p2a: Pathos
+|-damage|p2a: Pathos|0 fnt
+|-heal|p1a: Erebus|100/100 tox|[from] drain|[of] p2a: Pathos
+|faint|p2a: Pathos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Erebus|94/100 tox|[from] Sandstorm
+|-damage|p1a: Erebus|64/100 tox|[from] psn
+|upkeep
+|c|☆MrRandomHuman|Oh
+|
+|t:|1760766394
+|switch|p2a: Dedede|Snorlax, F, shiny|100/100
+|-damage|p2a: Dedede|88/100|[from] Stealth Rock
+|turn|12
+|c|☆MrRandomHuman|I've made him into a god
+|
+|t:|1760766403
+|move|p1a: Erebus|Close Combat|p2a: Dedede
+|-supereffective|p2a: Dedede
+|-crit|p2a: Dedede
+|-damage|p2a: Dedede|0 fnt
+|-unboost|p1a: Erebus|def|1
+|-unboost|p1a: Erebus|spd|1
+|faint|p2a: Dedede
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Erebus|58/100 tox|[from] Sandstorm
+|-damage|p1a: Erebus|22/100 tox|[from] psn
+|upkeep
+|
+|t:|1760766412
+|switch|p2a: Iron Hands|Iron Hands|94/100 slp
+|-damage|p2a: Iron Hands|88/100 slp|[from] Stealth Rock
+|turn|13
+|
+|t:|1760766418
+|move|p1a: Erebus|Bitter Blade|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|-heal|p1a: Erebus|93/100 tox|[from] drain|[of] p2a: Iron Hands
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|win|MrRandomHuman
+|raw|MrRandomHuman's rating: 1104 &rarr; <strong>1126</strong><br />(+22 for winning)
+|raw|Brollens's rating: 1061 &rarr; <strong>1044</strong><br />(-17 for losing)
+|c|☆MrRandomHuman|OMG
+|l|☆Brollens
+|player|p2|
+|c|☆MrRandomHuman|HOLY

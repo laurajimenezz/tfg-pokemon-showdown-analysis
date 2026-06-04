@@ -1,0 +1,222 @@
+|j|☆REDERLINK
+|j|☆Bug_catcher565
+|t:|1760367809
+|gametype|singles
+|player|p1|REDERLINK|steven|1106
+|player|p2|Bug_catcher565|101|1142
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ceruledge, M|
+|poke|p1|Meowscarada, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Sandy Shocks|
+|poke|p1|Corviknight, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Serperior, M|
+|poke|p2|Spidops, M|
+|poke|p2|Gholdengo|
+|poke|p2|Meowscarada, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bug_catcher565)
+|
+|t:|1760367828
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Spidops|Spidops, M|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1760367840
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|move|p2a: Spidops|Sticky Web|p1a: Ceruledge
+|-sidestart|p1: REDERLINK|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1760367848
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|move|p2a: Spidops|Spikes|p1a: Ceruledge
+|-sidestart|p1: REDERLINK|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1760367854
+|move|p1a: Ceruledge|Bitter Blade|p2a: Spidops
+|-supereffective|p2a: Spidops
+|-enditem|p2a: Spidops|Focus Sash
+|-damage|p2a: Spidops|1/100
+|move|p2a: Spidops|U-turn|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|93/100
+|
+|t:|1760367871
+|switch|p2a: Meowscarada|Meowscarada, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1760367881
+|move|p2a: Meowscarada|Knock Off|p1a: Ceruledge
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|-enditem|p1a: Ceruledge|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Meowscarada
+|faint|p1a: Ceruledge
+|
+|upkeep
+|
+|t:|1760367895
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-activate|p1a: Iron Valiant|move: Sticky Web
+|-unboost|p1a: Iron Valiant|spe|1
+|-damage|p1a: Iron Valiant|88/100|[from] Spikes
+|turn|5
+|
+|t:|1760367901
+|move|p2a: Meowscarada|U-turn|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|80/100
+|
+|t:|1760367906
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|move|p1a: Iron Valiant|Close Combat|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|6
+|
+|t:|1760367915
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Iron Valiant|Shadow Claw|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|53/100
+|
+|upkeep
+|turn|7
+|
+|t:|1760367923
+|move|p2a: Gholdengo|Shadow Ball|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760367929
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-activate|p1a: Dragapult|move: Sticky Web
+|-unboost|p1a: Dragapult|spe|1
+|-damage|p1a: Dragapult|88/100|[from] Spikes
+|turn|8
+|
+|t:|1760367938
+|move|p2a: Gholdengo|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1760367944
+|switch|p1a: Sandy Shocks|Sandy Shocks, shiny|100/100
+|-activate|p1a: Sandy Shocks|move: Sticky Web
+|-unboost|p1a: Sandy Shocks|spe|1
+|-damage|p1a: Sandy Shocks|88/100|[from] Spikes
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspa
+|turn|9
+|-activate|p2a: Gholdengo|item: Quick Claw
+|
+|t:|1760367952
+|move|p2a: Gholdengo|Shadow Ball|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1760367960
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|-activate|p1a: Meowscarada|move: Sticky Web
+|-unboost|p1a: Meowscarada|spe|1
+|-damage|p1a: Meowscarada|88/100|[from] Spikes
+|turn|10
+|-activate|p2a: Gholdengo|item: Quick Claw
+|
+|t:|1760367968
+|-terastallize|p1a: Meowscarada|Grass
+|move|p2a: Gholdengo|Flash Cannon|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|upkeep
+|
+|t:|1760367973
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|11
+|
+|t:|1760367979
+|move|p1a: Corviknight|Protect|p1a: Corviknight
+|-singleturn|p1a: Corviknight|Protect
+|move|p2a: Gholdengo|Shadow Ball|p1a: Corviknight
+|-activate|p1a: Corviknight|move: Protect
+|
+|upkeep
+|turn|12
+|
+|t:|1760367986
+|move|p2a: Gholdengo|Thunder Wave|p1a: Corviknight
+|-status|p1a: Corviknight|par
+|move|p1a: Corviknight|Body Press|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|13
+|
+|t:|1760367993
+|move|p2a: Gholdengo|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|14/100 par
+|move|p1a: Corviknight|Iron Head|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|39/100
+|
+|-heal|p1a: Corviknight|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1760368004
+|move|p2a: Gholdengo|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|win|Bug_catcher565
+|raw|REDERLINK's rating: 1106 &rarr; <strong>1084</strong><br />(-22 for losing)
+|raw|Bug_catcher565's rating: 1142 &rarr; <strong>1164</strong><br />(+22 for winning)
+|l|☆REDERLINK
+|player|p1|
+|c|☆Bug_catcher565|Gg
+|l|☆Bug_catcher565
+|player|p2|

@@ -1,0 +1,254 @@
+|j|☆Metal belico
+|j|☆ghighas
+|t:|1769319005
+|gametype|singles
+|player|p1|Metal belico|volkner|1309
+|player|p2|ghighas|ghetsis|1335
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Jolteon, F|
+|poke|p1|Ninetales, M|
+|poke|p1|Blastoise, F|
+|poke|p1|Salamence, F|
+|poke|p1|Venusaur, M|
+|poke|p1|Golem, F|
+|poke|p2|Barraskewda, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Dondozo, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1769319019
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Golem|Golem, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|t:|1769319035
+|move|p2a: Great Tusk|Stealth Rock|p1a: Golem
+|-sidestart|p1: Metal belico|move: Stealth Rock
+|move|p1a: Golem|Rock Polish|p1a: Golem
+|-boost|p1a: Golem|spe|2
+|
+|upkeep
+|turn|2
+|
+|t:|1769319038
+|move|p1a: Golem|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|75/100
+|move|p2a: Great Tusk|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|22/100
+|-enditem|p1a: Golem|Weakness Policy
+|-boost|p1a: Golem|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Golem|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|3
+|
+|t:|1769319041
+|move|p1a: Golem|Self-Destruct|p2a: Great Tusk
+|-damage|p2a: Great Tusk|5/100
+|faint|p1a: Golem
+|move|p2a: Great Tusk|Knock Off|p1: Golem|[notarget]
+|-fail|p2a: Great Tusk
+|
+|upkeep
+|
+|t:|1769319044
+|switch|p1a: Blastoise|Blastoise, F|100/100
+|turn|4
+|
+|t:|1769319049
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Blastoise|Rapid Spin|p2a: Ogerpon
+|-damage|p2a: Ogerpon|89/100
+|-boost|p1a: Blastoise|spe|1
+|-sideend|p1: Metal belico|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|
+|upkeep
+|turn|5
+|
+|t:|1769319053
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Ogerpon|Knock Off|p1a: Ninetales
+|-damage|p1a: Ninetales|57/100
+|-enditem|p1a: Ninetales|Heat Rock|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1769319060
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|move|p2a: Ogerpon|Knock Off|p1a: Jolteon
+|-damage|p1a: Jolteon|47/100
+|-enditem|p1a: Jolteon|Leftovers|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1769319064
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Jolteon|Thunder Wave|p2a: Pelipper
+|-status|p2a: Pelipper|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1769319066
+|switch|p2a: Great Tusk|Great Tusk|5/100
+|move|p1a: Jolteon|Volt Switch|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1769319074
+|switch|p1a: Ninetales|Ninetales, M|57/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1769319077
+|move|p1a: Ninetales|Fire Spin|p2a: Goodra|[miss]
+|-miss|p1a: Ninetales|p2a: Goodra
+|move|p2a: Goodra|Dragon Tail|p1a: Ninetales
+|-damage|p1a: Ninetales|28/100
+|drag|p1a: Jolteon|Jolteon, F|47/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1769319080
+|move|p1a: Jolteon|Thunder Wave|p2a: Goodra
+|-status|p2a: Goodra|par
+|cant|p2a: Goodra|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1769319084
+|move|p1a: Jolteon|Volt Switch|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|93/100 par
+|
+|t:|1769319086
+|switch|p1a: Venusaur|Venusaur, M|100/100|[from] Volt Switch
+|move|p2a: Goodra|Dragon Tail|p1a: Venusaur
+|-damage|p1a: Venusaur|71/100
+|drag|p1a: Salamence|Salamence, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1769319099
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1769319107
+|move|p1a: Salamence|Dragon Claw|p2a: Dondozo
+|-damage|p2a: Dondozo|78/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|84/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1769319109
+|switch|p1a: Ninetales|Ninetales, M|28/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Dondozo|Wave Crash|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|-damage|p2a: Dondozo|78/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dondozo|84/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1769319111
+|switch|p1a: Jolteon|Jolteon, F|47/100
+|turn|16
+|
+|t:|1769319117
+|switch|p2a: Great Tusk|Great Tusk|5/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|move|p1a: Jolteon|Thunder Wave|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1769319122
+|switch|p1a: Venusaur|Venusaur, M|71/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Venusaur
+|-sidestart|p1: Metal belico|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Venusaur|77/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1769319127
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Pelipper|Pelipper, M|100/100 par
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Venusaur|Weather Ball|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|73/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Venusaur|83/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|-message|Metal belico forfeited.
+|
+|win|ghighas
+|raw|Metal belico's rating: 1309 &rarr; <strong>1290</strong><br />(-19 for losing)
+|raw|ghighas's rating: 1335 &rarr; <strong>1354</strong><br />(+19 for winning)
+|l|☆Metal belico
+|player|p1|
+|l|☆ghighas
+|player|p2|

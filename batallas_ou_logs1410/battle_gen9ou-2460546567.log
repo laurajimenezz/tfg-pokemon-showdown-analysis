@@ -1,0 +1,294 @@
+|j|☆karmantula
+|j|☆YourFriendSanti
+|t:|1760320993
+|gametype|singles
+|player|p1|karmantula|unknownf|1042
+|player|p2|YourFriendSanti|hilbert-wonderlauncher|1091
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Iron Moth|
+|poke|p1|Garganacl, M|
+|poke|p1|Kommo-o, M|
+|poke|p1|Mimikyu, F|
+|poke|p1|Great Tusk|
+|poke|p2|Dedenne, M|
+|poke|p2|Pincurchin, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Overqwil, F|
+|poke|p2|Goodra, M|
+|teampreview
+|
+|t:|1760321006
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|t:|1760321014
+|move|p1a: Great Tusk|Headlong Rush|p2a: Pincurchin
+|-supereffective|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Pincurchin
+|
+|upkeep
+|
+|t:|1760321020
+|switch|p2a: Dedene|Dedenne, M|100/100
+|turn|2
+|
+|t:|1760321032
+|move|p2a: Dedene|Dazzling Gleam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|11/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Dedene
+|-supereffective|p2a: Dedene
+|-damage|p2a: Dedene|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Dedene
+|
+|upkeep
+|
+|t:|1760321053
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|3
+|
+|t:|1760321063
+|-terastallize|p1a: Great Tusk|Electric
+|move|p1a: Great Tusk|Tera Blast|p2a: Pelipper|[anim] Tera Blast Electric
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760321069
+|switch|p2a: Overqwil|Overqwil, F|100/100
+|turn|4
+|
+|t:|1760321077
+|move|p2a: Overqwil|Poison Jab|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1760321082
+|switch|p1a: Ninetales|Ninetales, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|5
+|
+|t:|1760321103
+|switch|p2a: Goodra|Goodra, M|100/100
+|move|p1a: Ninetales|Scorching Sands|p2a: Goodra
+|-damage|p2a: Goodra|90/100
+|-status|p2a: Goodra|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Goodra|96/100 brn|[from] item: Leftovers
+|-damage|p2a: Goodra|90/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1760321126
+|move|p1a: Ninetales|Encore||[still]
+|-fail|p1a: Ninetales
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Goodra|96/100 brn|[from] item: Leftovers
+|-damage|p2a: Goodra|90/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1760321137
+|move|p1a: Ninetales|Encore|p2a: Goodra
+|-start|p2a: Goodra|Encore
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Goodra|96/100 brn|[from] item: Leftovers
+|-damage|p2a: Goodra|90/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1760321140
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Goodra|96/100 brn|[from] item: Leftovers
+|-damage|p2a: Goodra|90/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+|
+|t:|1760321145
+|move|p1a: Kommo-o|Dragon Claw|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|65/100 brn
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Goodra|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Goodra|65/100 brn|[from] brn
+|-end|p2a: Goodra|Encore
+|upkeep
+|turn|10
+|
+|t:|1760321157
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|68/100
+|move|p2a: Goodra|Body Press|p1a: Kommo-o
+|-damage|p1a: Kommo-o|51/100
+|-damage|p2a: Goodra|48/100 brn|[from] item: Rocky Helmet|[of] p1a: Kommo-o
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Goodra|54/100 brn|[from] item: Leftovers
+|-damage|p2a: Goodra|48/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1760321179
+|move|p2a: Goodra|Protect|p2a: Goodra
+|-singleturn|p2a: Goodra|Protect
+|move|p1a: Kommo-o|Dragon Claw|p2a: Goodra
+|-activate|p2a: Goodra|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Goodra|54/100 brn|[from] item: Leftovers
+|-damage|p2a: Goodra|48/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1760321185
+|-terastallize|p2a: Goodra|Steel
+|move|p1a: Kommo-o|Dragon Claw|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|40/100 brn
+|move|p2a: Goodra|Rest|p2a: Goodra
+|-status|p2a: Goodra|slp|[from] move: Rest
+|-heal|p2a: Goodra|100/100 slp|[silent]
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1760321194
+|move|p1a: Kommo-o|Drain Punch|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|69/100 slp
+|-heal|p1a: Kommo-o|68/100|[from] drain|[of] p2a: Goodra
+|cant|p2a: Goodra|slp
+|
+|-heal|p2a: Goodra|75/100 slp|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1760321199
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|36/100
+|cant|p2a: Goodra|slp
+|
+|-heal|p2a: Goodra|82/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1760321202
+|move|p1a: Kommo-o|Endeavor|p2a: Goodra
+|-damage|p2a: Goodra|33/100 slp
+|-curestatus|p2a: Goodra|slp|[msg]
+|move|p2a: Goodra|Body Press|p1a: Kommo-o
+|-damage|p1a: Kommo-o|11/100
+|-damage|p2a: Goodra|16/100|[from] item: Rocky Helmet|[of] p1a: Kommo-o
+|
+|-heal|p2a: Goodra|22/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1760321212
+|move|p2a: Goodra|Protect|p2a: Goodra
+|-singleturn|p2a: Goodra|Protect
+|move|p1a: Kommo-o|Drain Punch|p2a: Goodra
+|-activate|p2a: Goodra|move: Protect
+|
+|-heal|p2a: Goodra|29/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1760321217
+|move|p1a: Kommo-o|Drain Punch|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-heal|p1a: Kommo-o|26/100|[from] drain|[of] p2a: Goodra
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|t:|1760321221
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|18
+|
+|t:|1760321226
+|move|p1a: Kommo-o|Drain Punch|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-heal|p1a: Kommo-o|77/100|[from] drain|[of] p2a: Excadrill
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1760321228
+|switch|p2a: Overqwil|Overqwil, F|100/100
+|turn|19
+|-message|YourFriendSanti forfeited.
+|
+|win|karmantula
+|raw|karmantula's rating: 1042 &rarr; <strong>1080</strong><br />(+38 for winning)
+|raw|YourFriendSanti's rating: 1091 &rarr; <strong>1064</strong><br />(-27 for losing)
+|l|☆YourFriendSanti
+|player|p2|

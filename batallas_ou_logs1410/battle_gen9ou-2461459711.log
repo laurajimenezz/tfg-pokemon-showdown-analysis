@@ -1,0 +1,356 @@
+|j|☆azad555
+|j|☆R1kka
+|t:|1760448292
+|gametype|singles
+|player|p1|azad555|265|1383
+|player|p2|R1kka|karen|1406
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Indeedee-F, F|
+|poke|p1|Armarouge, M|
+|poke|p1|Polteageist-Antique|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Valiant|
+|poke|p2|Garganacl, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Moltres|
+|poke|p2|Zamazenta-*|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1760448301
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Indeedee|Indeedee-F, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by R1kka)
+|
+|t:|1760448309
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Dragapult|U-turn|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|96/100
+|
+|t:|1760448316
+|switch|p2a: Garganacl|Garganacl, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1760448327
+|move|p1a: Iron Valiant|Aura Sphere|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|48/100
+|move|p2a: Garganacl|Salt Cure|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|86/100
+|-start|p1a: Iron Valiant|Salt Cure
+|
+|-heal|p2a: Garganacl|55/100|[from] item: Leftovers
+|-damage|p1a: Iron Valiant|74/100|[from] Salt Cure
+|upkeep
+|turn|3
+|
+|t:|1760448337
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Iron Valiant|Aura Sphere|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|85/100
+|
+|-damage|p1a: Iron Valiant|61/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1760448348
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Moltres|Will-O-Wisp|p1a: Hatterene
+|move|p1a: Hatterene|Will-O-Wisp|p2a: Moltres|[from] ability: Magic Bounce|[miss]
+|-miss|p1a: Hatterene|p2a: Moltres
+|
+|upkeep
+|turn|5
+|
+|t:|1760448352
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Hatterene|Nuzzle|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|upkeep
+|turn|6
+|
+|t:|1760448356
+|move|p2a: Iron Treads|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|79/100
+|-enditem|p1a: Hatterene|Leftovers|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Hatterene|Mystical Fire|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|62/100
+|-unboost|p2a: Iron Treads|spa|1
+|
+|-heal|p2a: Iron Treads|68/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760448364
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Moltres|Moltres|85/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|75/100
+|-unboost|p2a: Moltres|spa|1
+|
+|upkeep
+|turn|8
+|
+|t:|1760448370
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|100/100
+|-singleturn|p2a: Moltres|move: Roost
+|move|p1a: Hatterene|Nuzzle|p2a: Moltres
+|-damage|p2a: Moltres|97/100
+|-status|p2a: Moltres|par
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1760448377
+|switch|p2a: Garganacl|Garganacl, F|55/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p2a: Garganacl|61/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760448390
+|move|p2a: Garganacl|Salt Cure|p1a: Hatterene
+|-damage|p1a: Hatterene|69/100
+|-start|p1a: Hatterene|Salt Cure
+|move|p1a: Hatterene|Nuzzle|p2a: Garganacl
+|-damage|p2a: Garganacl|58/100
+|
+|-heal|p2a: Garganacl|64/100|[from] item: Leftovers
+|-damage|p1a: Hatterene|56/100|[from] Salt Cure
+|upkeep
+|turn|11
+|
+|t:|1760448405
+|switch|p1a: Iron Valiant|Iron Valiant|61/100
+|move|p2a: Garganacl|Salt Cure|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|53/100
+|-start|p1a: Iron Valiant|Salt Cure
+|
+|-heal|p2a: Garganacl|70/100|[from] item: Leftovers
+|-damage|p1a: Iron Valiant|41/100|[from] Salt Cure
+|upkeep
+|turn|12
+|
+|t:|1760448411
+|move|p1a: Iron Valiant|Moonblast|p2a: Garganacl
+|-damage|p2a: Garganacl|38/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|88/100
+|
+|-heal|p2a: Garganacl|95/100|[from] item: Leftovers
+|-damage|p1a: Iron Valiant|28/100|[from] Salt Cure
+|upkeep
+|turn|13
+|
+|t:|1760448419
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Garganacl|Salt Cure|p1a: Indeedee
+|-damage|p1a: Indeedee|76/100
+|-start|p1a: Indeedee|Salt Cure
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Indeedee|63/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1760448425
+|switch|p1a: Hatterene|Hatterene, F|56/100
+|move|p2a: Garganacl|Salt Cure|p1a: Hatterene
+|-damage|p1a: Hatterene|45/100
+|-start|p1a: Hatterene|Salt Cure
+|
+|-damage|p1a: Hatterene|33/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1760448429
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|move|p1a: Hatterene|Psyshock|p2a: Garganacl
+|-damage|p2a: Garganacl|86/100
+|
+|-heal|p2a: Garganacl|92/100|[from] item: Leftovers
+|-damage|p1a: Hatterene|20/100|[from] Salt Cure
+|upkeep
+|turn|16
+|
+|t:|1760448433
+|move|p2a: Garganacl|Body Press|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|11/100
+|move|p1a: Hatterene|Psyshock|p2a: Garganacl
+|-damage|p2a: Garganacl|75/100
+|
+|-heal|p2a: Garganacl|81/100|[from] item: Leftovers
+|-damage|p1a: Hatterene|0 fnt|[from] Salt Cure
+|faint|p1a: Hatterene
+|upkeep
+|
+|t:|1760448436
+|switch|p1a: Polteageist|Polteageist-Antique|100/100
+|turn|17
+|
+|t:|1760448447
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Garganacl|Salt Cure|p1a: Polteageist
+|-damage|p1a: Polteageist|64/100
+|-start|p1a: Polteageist|Salt Cure
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|
+|-heal|p2a: Garganacl|87/100|[from] item: Leftovers
+|-damage|p1a: Polteageist|51/100|[from] Salt Cure
+|upkeep
+|turn|18
+|
+|t:|1760448454
+|switch|p2a: Iron Treads|Iron Treads|68/100
+|move|p1a: Polteageist|Stored Power|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-damage|p1a: Polteageist|39/100|[from] Salt Cure
+|upkeep
+|
+|t:|1760448469
+|switch|p2a: Garganacl|Garganacl, F|87/100
+|turn|19
+|
+|t:|1760448474
+|move|p1a: Polteageist|Stored Power|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-damage|p1a: Polteageist|27/100|[from] Salt Cure
+|upkeep
+|
+|t:|1760448481
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|20
+|
+|t:|1760448486
+|-terastallize|p2a: Zamazenta|Dark
+|move|p1a: Polteageist|Stored Power|p2a: Zamazenta
+|-immune|p2a: Zamazenta
+|move|p2a: Zamazenta|Crunch|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1760448496
+|switch|p1a: Iron Valiant|Iron Valiant|28/100
+|turn|21
+|
+|t:|1760448505
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Indeedee|Indeedee-F, F|63/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Zamazenta|Heavy Slam|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1760448510
+|switch|p1a: Iron Valiant|Iron Valiant|28/100
+|turn|22
+|
+|t:|1760448517
+|-terastallize|p1a: Iron Valiant|Fairy
+|move|p2a: Zamazenta|Heavy Slam|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760448523
+|switch|p1a: Armarouge|Armarouge, M|100/100
+|turn|23
+|
+|t:|1760448528
+|move|p2a: Zamazenta|Crunch|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|8/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|move|p1a: Armarouge|Calm Mind|p1a: Armarouge
+|-boost|p1a: Armarouge|spa|1
+|-boost|p1a: Armarouge|spd|1
+|
+|upkeep
+|turn|24
+|
+|t:|1760448536
+|move|p1a: Armarouge|Armor Cannon|p2a: Zamazenta
+|-damage|p2a: Zamazenta|12/100
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|move|p2a: Zamazenta|Crunch|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|upkeep
+|-message|azad555 forfeited.
+|
+|win|R1kka
+|raw|azad555's rating: 1383 &rarr; <strong>1364</strong><br />(-19 for losing)
+|raw|R1kka's rating: 1406 &rarr; <strong>1425</strong><br />(+19 for winning)
+|l|☆azad555
+|player|p1|
+|l|☆R1kka
+|player|p2|

@@ -1,0 +1,187 @@
+|j|☆syayyds
+|j|☆AteTom96
+|t:|1760338916
+|gametype|singles
+|player|p1|syayyds|169|1134
+|player|p2|AteTom96|lucas|1122
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Toxapex, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Jugulis|
+|poke|p1|Suicune|
+|poke|p1|Avalugg-Hisui, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Gastrodon, M|
+|poke|p2|Forretress, M|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|t:|1760338933
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Iron Jugulis|Iron Jugulis|100/100
+|switch|p2a: Forretress|Forretress, M|100/100
+|-enditem|p1a: Iron Jugulis|Booster Energy
+|-activate|p1a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Jugulis|quarkdrivespe
+|turn|1
+|
+|t:|1760338956
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|move|p1a: Iron Jugulis|Flamethrower|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|
+|upkeep
+|turn|2
+|
+|t:|1760338967
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Mimikyu
+|-damage|p2a: Mimikyu|38/100
+|move|p2a: Mimikyu|Play Rough|p1a: Iron Jugulis
+|-supereffective|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|0 fnt
+|faint|p1a: Iron Jugulis
+|-end|p1a: Iron Jugulis|Quark Drive|[silent]
+|-damage|p2a: Mimikyu|28/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1760338986
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|turn|3
+|
+|t:|1760338993
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Toxapex|Baneful Bunker||[still]
+|-fail|p1a: Toxapex
+|
+|upkeep
+|turn|4
+|
+|t:|1760339012
+|switch|p1a: Avalugg|Avalugg-Hisui, M|100/100
+|move|p2a: Gastrodon|Earth Power|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-ability|p1a: Avalugg|Sturdy
+|-damage|p1a: Avalugg|1/100
+|
+|-heal|p1a: Avalugg|7/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1760339025
+|move|p2a: Gastrodon|Earth Power|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|
+|upkeep
+|
+|t:|1760339032
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|6
+|
+|t:|1760339042
+|switch|p2a: Forretress|Forretress, M|100/100
+|move|p1a: Ogerpon|Trailblaze|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|96/100
+|-boost|p1a: Ogerpon|spe|1
+|
+|-heal|p2a: Forretress|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760339053
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Forretress|Stealth Rock|p1a: Ogerpon
+|-sidestart|p1: syayyds|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1760339070
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|turn|9
+|
+|t:|1760339079
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Garchomp|[anim] Ivy Cudgel Water
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1760339092
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|10
+|
+|t:|1760339096
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Iron Moth|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1760339113
+|switch|p2a: Mimikyu|Mimikyu-Busted, M|28/100
+|turn|11
+|
+|t:|1760339119
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Ogerpon
+|-damage|p1a: Ogerpon|67/100
+|-damage|p2a: Mimikyu|18/100|[from] item: Life Orb
+|move|p1a: Ogerpon|Horn Leech|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|-heal|p1a: Ogerpon|74/100|[from] drain|[of] p2a: Mimikyu
+|faint|p2a: Mimikyu
+|
+|upkeep
+|
+|t:|1760339130
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|turn|12
+|
+|t:|1760339135
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Corviknight|[anim] Ivy Cudgel Water
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|-message|AteTom96 forfeited.
+|
+|win|syayyds
+|raw|syayyds's rating: 1134 &rarr; <strong>1158</strong><br />(+24 for winning)
+|raw|AteTom96's rating: 1122 &rarr; <strong>1098</strong><br />(-24 for losing)
+|l|☆AteTom96
+|player|p2|
+|l|☆syayyds
+|player|p1|

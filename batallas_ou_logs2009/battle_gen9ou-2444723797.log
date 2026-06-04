@@ -1,0 +1,249 @@
+|j|☆bio2.0
+|j|‽CilenTreeco
+|t:|1758256701
+|gametype|singles
+|player|p1|bio2.0|266|1252
+|player|p2|CilenTreeco|265|1248
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Boulder|
+|poke|p1|Shiftry, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Snorlax, F|
+|poke|p1|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Quaquaval, M|
+|poke|p2|Armarouge, M|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Toxicroak, M|
+|poke|p2|Mamoswine, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bio2.0)
+|
+|t:|1758256716
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|1
+|
+|t:|1758256727
+|move|p2a: Mamoswine|Icicle Crash|p1a: Shiftry|[miss]
+|-miss|p2a: Mamoswine|p1a: Shiftry
+|move|p1a: Shiftry|Tailwind|p1a: Shiftry
+|-sidestart|p1: bio2.0|move: Tailwind
+|-ability|p1a: Shiftry|Wind Rider|boost
+|-boost|p1a: Shiftry|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1758256732
+|move|p1a: Shiftry|Knock Off|p2a: Mamoswine
+|-damage|p2a: Mamoswine|17/100
+|-enditem|p2a: Mamoswine|Choice Scarf|[from] move: Knock Off|[of] p1a: Shiftry
+|move|p2a: Mamoswine|Icicle Crash|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-enditem|p1a: Shiftry|Focus Sash
+|-damage|p1a: Shiftry|1/100
+|
+|upkeep
+|turn|3
+|
+|t:|1758256743
+|move|p1a: Shiftry|Knock Off|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|t:|1758256747
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|turn|4
+|
+|t:|1758256750
+|move|p2a: Quaquaval|Aqua Jet|p1a: Shiftry
+|-resisted|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|faint|p1a: Shiftry
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|-sideend|p1: bio2.0|move: Tailwind
+|upkeep
+|
+|t:|1758256756
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|5
+|
+|t:|1758256760
+|-terastallize|p2a: Quaquaval|Ice
+|move|p1a: Garchomp|Draco Meteor|p2a: Quaquaval
+|-damage|p2a: Quaquaval|31/100
+|-unboost|p1a: Garchomp|spa|2
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|move|p2a: Quaquaval|Ice Spinner|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Quaquaval|19/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1758256774
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|6
+|
+|t:|1758256781
+|move|p1a: Great Tusk|Head Smash|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|-damage|p1a: Great Tusk|93/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1758256792
+|switch|p2a: Gholdengo|Gholdengo, shiny|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|7
+|
+|t:|1758256796
+|move|p2a: Gholdengo|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|33/100
+|move|p1a: Great Tusk|Roar|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|upkeep
+|turn|8
+|
+|t:|1758256802
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Snorlax
+|-immune|p1a: Snorlax
+|
+|upkeep
+|turn|9
+|
+|t:|1758256807
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|move|p1a: Snorlax|Fire Punch|p2a: Toxicroak
+|-damage|p2a: Toxicroak|48/100
+|
+|upkeep
+|turn|10
+|
+|t:|1758256818
+|move|p2a: Toxicroak|Close Combat|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|2/100
+|-unboost|p2a: Toxicroak|def|1
+|-unboost|p2a: Toxicroak|spd|1
+|move|p1a: Snorlax|Earthquake|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|upkeep
+|
+|t:|1758256825
+|switch|p2a: Gholdengo|Gholdengo, shiny|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|11
+|-enditem|p1a: Snorlax|Custap Berry|[eat]
+|-activate|p1a: Snorlax|item: Custap Berry|[consumed]
+|
+|t:|1758256831
+|move|p1a: Snorlax|Fire Punch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|46/100
+|-status|p2a: Gholdengo|brn
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Make It Rain|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Snorlax
+|
+|-damage|p2a: Gholdengo|40/100 brn|[from] brn
+|upkeep
+|
+|t:|1758256839
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|turn|12
+|
+|t:|1758256846
+|move|p1a: Iron Boulder|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1758256851
+|switch|p2a: Armarouge|Armarouge, M, shiny|100/100
+|turn|13
+|
+|t:|1758256858
+|move|p1a: Iron Boulder|Earthquake|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|24/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|move|p2a: Armarouge|Substitute|p2a: Armarouge
+|-fail|p2a: Armarouge|move: Substitute|[weak]
+|
+|upkeep
+|turn|14
+|
+|t:|1758256865
+|move|p2a: Armarouge|Destiny Bond|p2a: Armarouge
+|-singlemove|p2a: Armarouge|Destiny Bond
+|move|p1a: Iron Boulder|Earthquake|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|-activate|p2a: Armarouge|move: Destiny Bond
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1758256870
+|switch|p1a: Great Tusk|Great Tusk|33/100
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|turn|15
+|
+|t:|1758256891
+|move|p1a: Great Tusk|Headlong Rush|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Goodra
+|
+|win|bio2.0
+|raw|bio2.0's rating: 1252 &rarr; <strong>1278</strong><br />(+26 for winning)
+|raw|CilenTreeco's rating: 1272 &rarr; <strong>1246</strong><br />(-26 for losing)
+|l|‽CilenTreeco
+|player|p2|
+|l|☆bio2.0
+|player|p1|

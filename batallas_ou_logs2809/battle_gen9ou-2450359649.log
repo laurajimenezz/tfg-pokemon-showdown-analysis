@@ -1,0 +1,179 @@
+|j|☆1bry
+|j|☆zhuyoujian
+|t:|1758972205
+|gametype|singles
+|player|p1|1bry|pokemonranger-gen4|1076
+|player|p2|zhuyoujian|giovanni|1080
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sylveon, M|
+|poke|p1|Vaporeon, F|
+|poke|p1|Espeon, F|
+|poke|p1|Jolteon, M|
+|poke|p1|Umbreon, M|
+|poke|p1|Glaceon, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Greninja-*, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Zapdos|
+|poke|p2|Sandy Shocks|
+|poke|p2|Scizor, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zhuyoujian)
+|
+|t:|1758972226
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Glaceon|Glaceon, M, shiny|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-enditem|p2a: Sandy Shocks|Booster Energy
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1758972238
+|move|p2a: Sandy Shocks|Stealth Rock|p1a: Glaceon
+|-sidestart|p1: 1bry|move: Stealth Rock
+|move|p1a: Glaceon|Snowscape|p1a: Glaceon
+|-weather|Snowscape
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1758972244
+|move|p2a: Sandy Shocks|Earth Power|p1a: Glaceon
+|-damage|p1a: Glaceon|56/100
+|move|p1a: Glaceon|Blizzard|p2a: Sandy Shocks
+|-supereffective|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Glaceon|62/100|[from] ability: Ice Body
+|upkeep
+|
+|t:|1758972265
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|3
+|
+|t:|1758972275
+|-terastallize|p1a: Glaceon|Fire
+|move|p1a: Glaceon|Tera Blast|p2a: Scizor|[anim] Tera Blast Fire
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Glaceon|68/100|[from] ability: Ice Body
+|upkeep
+|
+|t:|1758972284
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|4
+|
+|t:|1758972291
+|move|p1a: Glaceon|Freeze-Dry|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758972298
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|5
+|
+|t:|1758972302
+|move|p2a: Basculegion|Wave Crash|p1a: Glaceon
+|-supereffective|p1a: Glaceon
+|-damage|p1a: Glaceon|0 fnt
+|faint|p1a: Glaceon
+|-damage|p2a: Basculegion|84/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758972306
+|switch|p1a: Vaporeon|Vaporeon, F, shiny|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1758972313
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Vaporeon|Shadow Ball|p2a: Zapdos
+|-damage|p2a: Zapdos|75/100
+|-unboost|p2a: Zapdos|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1758972322
+|move|p2a: Zapdos|Hurricane|p1a: Vaporeon
+|-damage|p1a: Vaporeon|54/100
+|move|p1a: Vaporeon|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758972331
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|8
+|
+|t:|1758972339
+|-terastallize|p2a: Greninja|Dark
+|move|p2a: Greninja|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|7/100
+|-damage|p2a: Greninja|91/100|[from] item: Life Orb
+|move|p1a: Vaporeon|Weather Ball|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758972349
+|switch|p2a: Basculegion|Basculegion, M|84/100
+|turn|9
+|
+|t:|1758972357
+|move|p2a: Basculegion|Psychic Fangs|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-damage|p2a: Basculegion|67/100|[from] item: Rocky Helmet|[of] p1a: Vaporeon
+|faint|p1a: Vaporeon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1758972359
+|switch|p1a: Umbreon|Umbreon, M, shiny|100/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|turn|10
+|-message|zhuyoujian forfeited.
+|
+|win|1bry
+|raw|1bry's rating: 1076 &rarr; <strong>1105</strong><br />(+29 for winning)
+|raw|zhuyoujian's rating: 1080 &rarr; <strong>1058</strong><br />(-22 for losing)
+|l|☆zhuyoujian
+|player|p2|
+|l|☆1bry
+|player|p1|

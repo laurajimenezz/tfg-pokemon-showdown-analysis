@@ -1,0 +1,567 @@
+|j|☆Parallel Sweep
+|j|☆BrownMamba12345
+|t:|1760306574
+|gametype|singles
+|player|p1|Parallel Sweep|volkner|1058
+|player|p2|BrownMamba12345|265|1096
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, M|
+|poke|p1|Sinistcha|
+|poke|p1|Tropius, F|
+|poke|p1|Lurantis, F|
+|poke|p1|Weavile, M|
+|poke|p1|Farigiraf, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Cinderace, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Vaporeon, F|
+|teampreview
+|
+|t:|1760306587
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1760306599
+|switch|p1a: Farigiraf|Farigiraf, M|100/100
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1760306608
+|move|p2a: Iron Valiant|Knock Off|p1a: Farigiraf
+|-supereffective|p1a: Farigiraf
+|-damage|p1a: Farigiraf|5/100
+|-enditem|p1a: Farigiraf|Red Card|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Farigiraf|Foul Play|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|79/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1760306620
+|move|p2a: Iron Valiant|Drain Punch|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|-heal|p2a: Iron Valiant|82/100|[from] drain|[of] p1a: Farigiraf
+|faint|p1a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760306638
+|switch|p1a: Weavile|Weavile, M|100/100
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Parallel Sweep)
+|
+|t:|1760306649
+|move|p2a: Iron Valiant|Drain Punch|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-enditem|p1a: Weavile|Focus Sash
+|-damage|p1a: Weavile|1/100
+|-heal|p2a: Iron Valiant|100/100|[from] drain|[of] p1a: Weavile
+|move|p1a: Weavile|Counter|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760306661
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|5
+|l|☆Parallel Sweep
+|inactive|Parallel Sweep disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆Parallel Sweep
+|inactive|Parallel Sweep reconnected and has 125 seconds left.
+|player|p1|Parallel Sweep|volkner|
+|
+|t:|1760306688
+|move|p1a: Weavile|Triple Axel|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|92/100
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|77/100
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|50/100
+|-hitcount|p2a: Ting-Lu|3
+|move|p2a: Ting-Lu|Spikes|p1a: Weavile
+|-sidestart|p1: Parallel Sweep|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|56/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760306699
+|move|p1a: Weavile|Triple Axel|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|48/100
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|32/100
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|9/100
+|-hitcount|p2a: Ting-Lu|3
+|move|p2a: Ting-Lu|Spikes|p1a: Weavile
+|-sidestart|p1: Parallel Sweep|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|15/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760306713
+|move|p1a: Weavile|Knock Off|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-crit|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|-enditem|p2a: Ting-Lu|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|faint|p2a: Ting-Lu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1760306721
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|8
+|
+|t:|1760306728
+|move|p1a: Weavile|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|28/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Cinderace|U-turn|p1a: Weavile
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|t:|1760306737
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100|[from] U-turn
+|
+|-weather|none
+|upkeep
+|
+|t:|1760306743
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-damage|p1a: Ninetales|84/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|9
+|
+|t:|1760306749
+|move|p1a: Ninetales|Foul Play|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|79/100
+|move|p2a: Slowking|Future Sight|p1a: Ninetales
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowking|85/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1760306757
+|move|p1a: Ninetales|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|59/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Ninetales
+|-damage|p1a: Ninetales|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowking|65/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1760306768
+|move|p1a: Ninetales|Weather Ball|p2a: Slowking
+|-damage|p2a: Slowking|27/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Ninetales
+|-damage|p1a: Ninetales|8/100
+|-status|p1a: Ninetales|psn
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Ninetales|move: Future Sight
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|-heal|p2a: Slowking|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760306777
+|switch|p1a: Tropius|Tropius, F|100/100
+|turn|12
+|
+|t:|1760306785
+|switch|p2a: Cinderace|Cinderace, M|28/100
+|move|p1a: Tropius|Leech Seed|p2a: Cinderace
+|-start|p2a: Cinderace|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Cinderace|16/100|[from] Leech Seed|[of] p1a: Tropius
+|upkeep
+|turn|13
+|
+|t:|1760306798
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|67/100
+|move|p1a: Tropius|Curse|p1a: Tropius
+|-unboost|p1a: Tropius|spe|1
+|-boost|p1a: Tropius|atk|1
+|-boost|p1a: Tropius|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowking|73/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1760306809
+|-terastallize|p1a: Tropius|Ghost
+|move|p2a: Slowking|Sludge Bomb|p1a: Tropius
+|-resisted|p1a: Tropius
+|-damage|p1a: Tropius|88/100
+|move|p1a: Tropius|Leech Seed|p2a: Slowking
+|-start|p2a: Slowking|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowking|79/100|[from] item: Leftovers
+|-damage|p2a: Slowking|66/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|99/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1760306819
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1760306825
+|switch|p2a: Vaporeon|Vaporeon, F, shiny|100/100|[from] Chilly Reception
+|move|p1a: Tropius|Curse|p2a: Vaporeon
+|-start|p2a: Vaporeon|Curse|[of] p1a: Tropius
+|-damage|p1a: Tropius|50/100
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|75/100|[from] item: Sitrus Berry
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Vaporeon|75/100|[from] Curse
+|-item|p1a: Tropius|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|16
+|
+|t:|1760306839
+|move|p2a: Vaporeon|Shadow Ball|p1a: Tropius
+|-supereffective|p1a: Tropius
+|-damage|p1a: Tropius|18/100
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|43/100|[from] item: Sitrus Berry
+|move|p1a: Tropius|Leech Seed|p2a: Vaporeon
+|-start|p2a: Vaporeon|move: Leech Seed
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Vaporeon|63/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|58/100|[silent]
+|-damage|p2a: Vaporeon|38/100|[from] Curse
+|-item|p1a: Tropius|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|17
+|
+|t:|1760306852
+|move|p1a: Tropius|Protect|p1a: Tropius
+|-singleturn|p1a: Tropius|Protect
+|move|p2a: Vaporeon|Shadow Ball|p1a: Tropius
+|-activate|p1a: Tropius|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Vaporeon|25/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|72/100|[silent]
+|-damage|p2a: Vaporeon|0 fnt|[from] Curse
+|faint|p2a: Vaporeon
+|upkeep
+|
+|t:|1760306865
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|18
+|
+|t:|1760306874
+|move|p2a: Dragonite|Thunder Wave|p1a: Tropius
+|-status|p1a: Tropius|par
+|move|p1a: Tropius|Leech Seed|p2a: Dragonite
+|-start|p2a: Dragonite|move: Leech Seed
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Dragonite|88/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|84/100 par|[silent]
+|upkeep
+|turn|19
+|
+|t:|1760306885
+|cant|p1a: Tropius|par
+|move|p2a: Dragonite|Dragon Tail|p1a: Tropius
+|-damage|p1a: Tropius|68/100 par
+|drag|p1a: Sinistcha|Sinistcha|100/100
+|-damage|p1a: Sinistcha|84/100|[from] Spikes
+|
+|-weather|none
+|-damage|p2a: Dragonite|76/100|[from] Leech Seed|[of] p1a: Sinistcha
+|-heal|p1a: Sinistcha|98/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1760306899
+|move|p2a: Dragonite|Thunder Wave|p1a: Sinistcha
+|-status|p1a: Sinistcha|par
+|cant|p1a: Sinistcha|par
+|
+|-damage|p2a: Dragonite|63/100|[from] Leech Seed|[of] p1a: Sinistcha
+|-heal|p1a: Sinistcha|100/100 par|[silent]
+|upkeep
+|turn|21
+|
+|t:|1760306914
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|99/100
+|cant|p1a: Sinistcha|par
+|
+|-heal|p2a: Slowking|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1760306935
+|move|p2a: Slowking|Sludge Bomb|p1a: Sinistcha
+|-damage|p1a: Sinistcha|75/100 par
+|cant|p1a: Sinistcha|par
+|
+|upkeep
+|turn|23
+|
+|t:|1760306940
+|move|p2a: Slowking|Future Sight|p1a: Sinistcha
+|-start|p2a: Slowking|move: Future Sight
+|cant|p1a: Sinistcha|par
+|
+|upkeep
+|turn|24
+|c|☆Parallel Sweep|Yeah no shot
+|
+|t:|1760306970
+|move|p2a: Slowking|Sludge Bomb|p1a: Sinistcha
+|-damage|p1a: Sinistcha|48/100 par
+|cant|p1a: Sinistcha|par
+|
+|upkeep
+|turn|25
+|
+|t:|1760306979
+|move|p2a: Slowking|Sludge Bomb|p1a: Sinistcha
+|-damage|p1a: Sinistcha|23/100 par
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|91/100
+|-heal|p1a: Sinistcha|28/100 par|[from] drain|[of] p2a: Slowking
+|
+|-end|p1a: Sinistcha|move: Future Sight
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|-heal|p2a: Slowking|97/100|[from] item: Leftovers
+|upkeep
+|inactive|Parallel Sweep has 120 seconds left.
+|
+|t:|1760307005
+|switch|p1a: Tropius|Tropius, F, tera:Ghost|68/100 par
+|-damage|p1a: Tropius|52/100 par|[from] Spikes
+|turn|26
+|
+|t:|1760307016
+|move|p2a: Slowking|Future Sight|p1a: Tropius
+|-start|p2a: Slowking|move: Future Sight
+|cant|p1a: Tropius|par
+|
+|-heal|p2a: Slowking|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1760307027
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1760307030
+|switch|p2a: Cinderace|Cinderace, M|16/100|[from] Chilly Reception
+|move|p1a: Tropius|Leech Seed|p2a: Cinderace
+|-start|p2a: Cinderace|move: Leech Seed
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Cinderace|4/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|61/100 par|[silent]
+|upkeep
+|turn|28
+|
+|t:|1760307039
+|move|p1a: Tropius|Protect|p1a: Tropius
+|-singleturn|p1a: Tropius|Protect
+|move|p2a: Cinderace|Pyro Ball|p1a: Tropius
+|-activate|p1a: Tropius|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Tropius|move: Future Sight
+|-damage|p1a: Tropius|28/100 par
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|53/100 par|[from] item: Sitrus Berry
+|-damage|p2a: Cinderace|0 fnt|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|55/100 par|[silent]
+|faint|p2a: Cinderace
+|upkeep
+|
+|t:|1760307053
+|switch|p2a: Dragonite|Dragonite, M|63/100
+|turn|29
+|
+|t:|1760307059
+|switch|p1a: Lurantis|Lurantis, F|100/100
+|move|p2a: Dragonite|Dragon Tail|p1a: Lurantis
+|-damage|p1a: Lurantis|70/100
+|drag|p1a: Tropius|Tropius, F, tera:Ghost|55/100 par
+|-damage|p1a: Tropius|39/100 par|[from] Spikes
+|
+|-weather|Snowscape|[upkeep]
+|-item|p1a: Tropius|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|64/100 par|[from] item: Sitrus Berry
+|turn|30
+|
+|t:|1760307073
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100
+|switch|p1a: Lurantis|Lurantis, F|70/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|31
+|
+|t:|1760307083
+|move|p1a: Lurantis|Defog|p2a: Slowking
+|-unboost|p2a: Slowking|evasion|1
+|-sideend|p1: Parallel Sweep|Spikes|[from] move: Defog|[of] p1a: Lurantis
+|move|p2a: Slowking|Sludge Bomb|p1a: Lurantis
+|-supereffective|p1a: Lurantis
+|-damage|p1a: Lurantis|0 fnt
+|faint|p1a: Lurantis
+|
+|-weather|none
+|upkeep
+|
+|t:|1760307089
+|switch|p1a: Tropius|Tropius, F, tera:Ghost|64/100 par
+|turn|32
+|
+|t:|1760307092
+|move|p2a: Slowking|Future Sight|p1a: Tropius
+|-start|p2a: Slowking|move: Future Sight
+|cant|p1a: Tropius|par
+|
+|upkeep
+|turn|33
+|
+|t:|1760307096
+|move|p2a: Slowking|Sludge Bomb|p1a: Tropius
+|-resisted|p1a: Tropius
+|-damage|p1a: Tropius|52/100 par
+|move|p1a: Tropius|Leech Seed|p2a: Slowking
+|-start|p2a: Slowking|move: Leech Seed
+|
+|-damage|p2a: Slowking|88/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|65/100 par|[silent]
+|-item|p1a: Tropius|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|34
+|
+|t:|1760307106
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1760307110
+|switch|p2a: Dragonite|Dragonite, M|63/100|[from] Chilly Reception
+|move|p1a: Tropius|Fly||[still]|[miss]
+|-prepare|p1a: Tropius|Fly
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Tropius|move: Future Sight
+|-miss|p2: Slowking|p1a: Tropius
+|upkeep
+|turn|35
+|
+|t:|1760307119
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100
+|move|p1a: Tropius|Fly|p2a: Slowking|[from] lockedmove
+|-damage|p2a: Slowking|79/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Slowking|85/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1760307134
+|move|p2a: Slowking|Future Sight|p1a: Tropius
+|-start|p2a: Slowking|move: Future Sight
+|move|p1a: Tropius|Curse|p2a: Slowking
+|-start|p2a: Slowking|Curse|[of] p1a: Tropius
+|-damage|p1a: Tropius|15/100 par
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|40/100 par|[from] item: Sitrus Berry
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Slowking|91/100|[from] item: Leftovers
+|-damage|p2a: Slowking|66/100|[from] Curse
+|-item|p1a: Tropius|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|64/100 par|[from] item: Sitrus Berry
+|turn|37
+|
+|t:|1760307150
+|move|p2a: Slowking|Sludge Bomb|p1a: Tropius
+|-resisted|p1a: Tropius
+|-damage|p1a: Tropius|53/100 par
+|move|p1a: Tropius|Leech Seed|p2a: Slowking
+|-start|p2a: Slowking|move: Leech Seed
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Slowking|73/100|[from] item: Leftovers
+|-damage|p2a: Slowking|60/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|65/100 par|[silent]
+|-damage|p2a: Slowking|35/100|[from] Curse
+|upkeep
+|turn|38
+|-message|BrownMamba12345 forfeited.
+|
+|win|Parallel Sweep
+|raw|Parallel Sweep's rating: 1058 &rarr; <strong>1093</strong><br />(+35 for winning)
+|raw|BrownMamba12345's rating: 1096 &rarr; <strong>1069</strong><br />(-27 for losing)
+|l|☆BrownMamba12345
+|player|p2|
+|l|☆Parallel Sweep
+|player|p1|

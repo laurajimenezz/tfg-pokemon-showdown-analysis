@@ -1,0 +1,239 @@
+|j|☆MIKASAONO
+|j|☆fgnhfgthr
+|t:|1760848022
+|gametype|singles
+|player|p1|MIKASAONO|lucas|1073
+|player|p2|fgnhfgthr|169|1124
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Great Tusk|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Vikavolt, M|
+|poke|p2|Iron Leaves|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fgnhfgthr)
+|
+|t:|1760848035
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Kraven|Great Tusk|100/100
+|-enditem|p2a: Kraven|Booster Energy
+|-activate|p2a: Kraven|ability: Protosynthesis|[fromitem]
+|-start|p2a: Kraven|protosynthesisatk
+|turn|1
+|
+|t:|1760848043
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Kraven
+|-status|p2a: Kraven|brn
+|move|p2a: Kraven|Ice Spinner|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|41/100
+|-enditem|p1a: Dragapult|Weakness Policy
+|-boost|p1a: Dragapult|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Dragapult|spa|2|[from] item: Weakness Policy
+|
+|-damage|p2a: Kraven|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1760848053
+|-end|p2a: Kraven|Protosynthesis|[silent]
+|switch|p2a: Sandman|Garganacl, F|100/100
+|move|p1a: Dragapult|Hex|p2a: Sandman
+|-damage|p2a: Sandman|72/100
+|
+|-heal|p2a: Sandman|78/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1760848066
+|move|p1a: Dragapult|Dragon Darts|p2a: Sandman
+|-crit|p2a: Sandman
+|-damage|p2a: Sandman|49/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Sandman
+|-damage|p2a: Sandman|28/100
+|move|p2a: Sandman|Salt Cure|p1a: Dragapult
+|-damage|p1a: Dragapult|18/100
+|-start|p1a: Dragapult|Salt Cure
+|
+|-heal|p2a: Sandman|34/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|6/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1760848076
+|move|p2a: Sandman|Protect|p2a: Sandman
+|-singleturn|p2a: Sandman|Protect
+|move|p1a: Dragapult|Dragon Darts|p2a: Sandman
+|-activate|p2a: Sandman|move: Protect
+|
+|-heal|p2a: Sandman|41/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|0 fnt|[from] Salt Cure
+|faint|p1a: Dragapult
+|upkeep
+|
+|t:|1760848090
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|5
+|
+|t:|1760848097
+|-terastallize|p2a: Sandman|Ghost
+|move|p1a: Great Tusk|Headlong Rush|p2a: Sandman
+|-damage|p2a: Sandman|7/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Sandman|Recover|p2a: Sandman
+|-heal|p2a: Sandman|57/100
+|
+|-heal|p2a: Sandman|63/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1760848112
+|move|p1a: Great Tusk|Headlong Rush|p2a: Sandman
+|-damage|p2a: Sandman|31/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Sandman|Recover|p2a: Sandman
+|-heal|p2a: Sandman|81/100
+|
+|-heal|p2a: Sandman|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1760848121
+|move|p1a: Great Tusk|Headlong Rush|p2a: Sandman
+|-damage|p2a: Sandman|58/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Sandman|Ice Punch|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|41/100
+|
+|-heal|p2a: Sandman|65/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1760848133
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|move|p2a: Sandman|Recover|p2a: Sandman
+|-heal|p2a: Sandman|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1760848145
+|move|p1a: Iron Valiant|Psyshock|p2a: Sandman
+|-damage|p2a: Sandman|79/100
+|move|p2a: Sandman|Salt Cure|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|92/100
+|-start|p1a: Iron Valiant|Salt Cure
+|
+|-heal|p2a: Sandman|85/100|[from] item: Leftovers
+|-damage|p1a: Iron Valiant|79/100|[from] Salt Cure
+|upkeep
+|turn|10
+|c|☆MIKASAONO|ZZZ
+|
+|t:|1760848161
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|switch|p2a: Dr Octopus|Goodra-Hisui, M|100/100
+|
+|upkeep
+|turn|11
+|
+|t:|1760848172
+|move|p2a: Dr Octopus|Dragon Pulse|p1a: Slowking
+|-damage|p1a: Slowking|76/100
+|move|p1a: Slowking|Future Sight|p2a: Dr Octopus
+|-start|p1a: Slowking|move: Future Sight
+|
+|-heal|p1a: Slowking|82/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1760848178
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|79/100
+|move|p2a: Dr Octopus|Dragon Pulse|p1a: Iron Valiant
+|-immune|p1a: Iron Valiant
+|
+|upkeep
+|turn|13
+|
+|t:|1760848184
+|move|p1a: Iron Valiant|Moonblast|p2a: Dr Octopus
+|-damage|p2a: Dr Octopus|57/100
+|move|p2a: Dr Octopus|Flash Cannon|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-end|p2a: Dr Octopus|move: Future Sight
+|-resisted|p2a: Dr Octopus
+|-damage|p2a: Dr Octopus|41/100
+|-heal|p2a: Dr Octopus|47/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1760848201
+|switch|p1a: Great Tusk|Great Tusk|41/100
+|turn|14
+|
+|t:|1760848204
+|move|p1a: Great Tusk|Headlong Rush|p2a: Dr Octopus
+|-supereffective|p2a: Dr Octopus
+|-damage|p2a: Dr Octopus|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-ability|p2a: Dr Octopus|Gooey
+|-unboost|p1a: Great Tusk|spe|1
+|faint|p2a: Dr Octopus
+|
+|upkeep
+|
+|t:|1760848207
+|switch|p2a: Vulture|Cinderace, M|100/100
+|turn|15
+|
+|t:|1760848220
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Vulture|Pyro Ball|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|5/100
+|
+|-heal|p1a: Slowking|11/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|-message|MIKASAONO forfeited.
+|
+|win|fgnhfgthr
+|raw|MIKASAONO's rating: 1073 &rarr; <strong>1055</strong><br />(-18 for losing)
+|raw|fgnhfgthr's rating: 1124 &rarr; <strong>1145</strong><br />(+21 for winning)
+|l|☆MIKASAONO
+|player|p1|
+|l|☆fgnhfgthr
+|player|p2|

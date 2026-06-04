@@ -1,0 +1,360 @@
+|j|☆meisbuns
+|j|☆LGNDPlus
+|t:|1779945937
+|gametype|singles
+|player|p1|meisbuns|iono|1089
+|player|p2|LGNDPlus|whitney|1119
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Evasion Abilities Clause: Evasion abilities are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blaziken, M|
+|poke|p1|Ninetales, F|
+|poke|p1|Venusaur, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Walking Wake|
+|poke|p2|Gliscor, M|
+|poke|p2|Cresselia, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Samurott-Hisui, M|
+|teampreview
+|
+|t:|1779945946
+|teamsize|p1|6
+|teamsize|p2|6
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1779945954
+|move|p2a: Samurott|Ceaseless Edge|p1a: Hatterene
+|-damage|p1a: Hatterene|60/100
+|-sidestart|p1: meisbuns|Spikes
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1779945962
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|-damage|p1a: Blaziken|88/100|[from] Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1779945968
+|move|p2a: Samurott|Aqua Cutter|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1779945982
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|-damage|p1a: Venusaur|88/100|[from] Spikes
+|turn|3
+|
+|t:|1779945994
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Venusaur|Giga Drain|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|69/100
+|-heal|p1a: Venusaur|100/100|[from] drain|[of] p2a: Cinderace
+|-damage|p1a: Venusaur|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1779946004
+|switch|p1a: Hatterene|Hatterene, F|60/100
+|-damage|p1a: Hatterene|47/100|[from] Spikes
+|move|p2a: Cinderace|Fire Punch|p1a: Hatterene
+|-damage|p1a: Hatterene|12/100
+|
+|upkeep
+|turn|5
+|
+|t:|1779946011
+|move|p2a: Cinderace|U-turn|p1a: Hatterene
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|t:|1779946017
+|switch|p2a: Gliscor|Gliscor, M|100/100|[from] U-turn
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|
+|t:|1779946024
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-damage|p1a: Walking Wake|88/100|[from] Spikes
+|turn|6
+|
+|t:|1779946031
+|move|p1a: Walking Wake|Hydro Steam|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1779946040
+|switch|p2a: Cresselia|Cresselia, F, shiny|100/100
+|turn|7
+|
+|t:|1779946047
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-damage|p1a: Ninetales|88/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Cresselia|Thunder Wave|p1a: Ninetales
+|-status|p1a: Ninetales|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1779946066
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Ninetales|Encore||[still]
+|-fail|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1779946077
+|switch|p1a: Venusaur|Venusaur, F|91/100
+|-damage|p1a: Venusaur|78/100|[from] Spikes
+|move|p2a: Toxapex|Sludge Bomb|p1a: Venusaur
+|-damage|p1a: Venusaur|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1779946087
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1779946098
+|move|p1a: Venusaur|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|30/100
+|-heal|p1a: Venusaur|81/100|[from] drain|[of] p2a: Toxapex
+|-damage|p1a: Venusaur|71/100|[from] item: Life Orb
+|move|p2a: Toxapex|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|36/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1779946110
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|43/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1779946119
+|move|p1a: Venusaur|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|-heal|p1a: Venusaur|49/100|[from] drain|[of] p2a: Toxapex
+|faint|p2a: Toxapex
+|-damage|p1a: Venusaur|39/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779946136
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|14
+|
+|t:|1779946140
+|move|p1a: Venusaur|Giga Drain|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-heal|p1a: Venusaur|92/100|[from] drain|[of] p2a: Samurott
+|faint|p2a: Samurott
+|-damage|p1a: Venusaur|82/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1779946149
+|switch|p2a: Cinderace|Cinderace, F|69/100
+|turn|15
+|
+|t:|1779946153
+|move|p2a: Cinderace|Fire Punch|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|upkeep
+|
+|t:|1779946160
+|switch|p1a: Walking Wake|Walking Wake|88/100
+|-damage|p1a: Walking Wake|76/100|[from] Spikes
+|turn|16
+|
+|t:|1779946170
+|move|p2a: Cinderace|U-turn|p1a: Walking Wake
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Walking Wake|41/100
+|
+|t:|1779946175
+|switch|p2a: Cresselia|Cresselia, F, shiny|100/100|[from] U-turn
+|move|p1a: Walking Wake|Draco Meteor|p2a: Cresselia
+|-damage|p2a: Cresselia|33/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-heal|p2a: Cresselia|39/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1779946198
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|88/100 par
+|-damage|p1a: Ninetales|76/100 par|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Cresselia|Protect||[still]
+|-fail|p2a: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Cresselia|45/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1779946211
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Ninetales|Encore||[still]
+|-fail|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1779946220
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1a: Ninetales
+|-damage|p1a: Ninetales|9/100 par
+|-damage|p2a: Dragonite|91/100|[from] item: Life Orb
+|cant|p1a: Ninetales|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1779946230
+|move|p2a: Dragonite|Extreme Speed|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|-damage|p2a: Dragonite|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779946236
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|21
+|
+|t:|1779946245
+|move|p2a: Dragonite|Extreme Speed|p1a: Great Tusk
+|-damage|p1a: Great Tusk|54/100
+|-damage|p2a: Dragonite|71/100|[from] item: Life Orb
+|move|p1a: Great Tusk|Headlong Rush|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779946256
+|switch|p2a: Cinderace|Cinderace, F|69/100
+|turn|22
+|
+|t:|1779946260
+|move|p2a: Cinderace|Low Kick|p1a: Great Tusk
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779946264
+|switch|p1a: Walking Wake|Walking Wake|41/100
+|-damage|p1a: Walking Wake|29/100|[from] Spikes
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|23
+|
+|t:|1779946272
+|-terastallize|p1a: Walking Wake|Water
+|move|p1a: Walking Wake|Hydro Steam|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1779946280
+|switch|p2a: Cresselia|Cresselia, F, shiny|45/100
+|turn|24
+|
+|t:|1779946285
+|move|p2a: Cresselia|Protect|p2a: Cresselia
+|-singleturn|p2a: Cresselia|Protect
+|move|p1a: Walking Wake|Hydro Steam|p2a: Cresselia
+|-activate|p2a: Cresselia|move: Protect
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|-heal|p2a: Cresselia|51/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1779946294
+|move|p1a: Walking Wake|Hydro Steam|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|win|meisbuns
+|raw|meisbuns's rating: 1089 &rarr; <strong>1118</strong><br />(+29 for winning)
+|raw|LGNDPlus's rating: 1119 &rarr; <strong>1092</strong><br />(-27 for losing)
+|l|☆meisbuns
+|player|p1|
+|l|☆LGNDPlus
+|player|p2|
