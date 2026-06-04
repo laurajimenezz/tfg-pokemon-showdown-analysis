@@ -1,0 +1,1 @@
+Battle logs folders
